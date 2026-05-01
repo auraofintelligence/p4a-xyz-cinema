@@ -152,11 +152,12 @@ p { margin-top: 0; }
 .consent-card { padding: 1rem; border: 1px solid rgba(221,156,255,.22); border-radius: var(--radius); background: rgba(255,255,255,.07); }
 .consent-card strong { display: block; color: #fff; margin-bottom: .35rem; }
 .album-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.constitution-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
 .track-card { padding: 1rem; border: 1px solid rgba(221,156,255,.24); border-radius: var(--radius); background: linear-gradient(180deg, rgba(255,77,255,.12), rgba(255,255,255,.06)); }
 .track-card span { display: block; color: var(--gold); font-size: .75rem; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .35rem; }
 .track-card strong { display: block; color: #fff; font-size: 1.05rem; margin-bottom: .4rem; }
 @media (max-width: 1080px) { .music-feature { grid-template-columns: 1fr; } }
-@media (max-width: 760px) { .consent-grid, .album-grid { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .consent-grid, .album-grid, .constitution-grid { grid-template-columns: 1fr; } }
 .twinkle-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .85rem; }
 .twinkle-grid article { min-height: 14rem; padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(180deg, rgba(255,77,255,.13), rgba(42,6,73,.68)); box-shadow: 0 20px 70px rgba(0,0,0,.3); }
 .twinkle-grid span { display: inline-grid; place-items: center; width: 2.2rem; height: 2.2rem; margin-bottom: 2.5rem; border-radius: 50%; background: rgba(255,214,110,.12); border: 1px solid rgba(255,214,110,.5); color: var(--gold); font-weight: 1000; }
