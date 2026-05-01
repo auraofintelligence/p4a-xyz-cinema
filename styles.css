@@ -139,7 +139,112 @@ p { margin-top: 0; }
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
 .reveal.is-visible { opacity: 1; transform: none; }
 @media (max-width: 1080px) { .portal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .signal-deck { grid-template-columns: repeat(2, minmax(0, 1fr)); } .page-shell, .rabbit-panel, .section-heading { grid-template-columns: 1fr; } .page-media { position: static; } .site-header { align-items: flex-start; } .site-nav { font-size: .84rem; } }
-@media (max-width: 760px) { .site-header { flex-wrap: wrap; } .nav-toggle { display: inline-flex; } .site-nav { display: none; order: 4; width: 100%; flex: 0 0 100%; align-items: stretch; justify-content: flex-start; flex-direction: column; padding-top: .5rem; } .site-nav.is-open { display: flex; } .site-nav a, .nav-menu summary { width: 100%; padding: .75rem .85rem; background: rgba(255,255,255,.06); } .nav-menu-panel { position: static; min-width: 0; grid-template-columns: 1fr; margin-top: .35rem; background: rgba(8,0,14,.42); box-shadow: none; } .brand { min-width: 0; } .brand-text span { display: none; } h1 { font-size: clamp(2.8rem, 16vw, 4.6rem); } .hero { min-height: auto; } .portal-grid, .signal-deck, .clue-grid { grid-template-columns: 1fr; } .site-footer { display: grid; } }
+@media (max-width: 760px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: .7rem;
+    padding: .75rem 1rem;
+  }
+  .nav-toggle { display: inline-flex; }
+  .site-nav {
+    display: none;
+    order: 4;
+    width: 100%;
+    flex: 0 0 100%;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: .5rem;
+  }
+  .site-nav.is-open { display: flex; }
+  .site-nav a, .nav-menu summary {
+    width: 100%;
+    padding: .75rem .85rem;
+    background: rgba(255,255,255,.06);
+  }
+  .nav-menu-panel {
+    position: static;
+    min-width: 0;
+    grid-template-columns: 1fr;
+    margin-top: .35rem;
+    background: rgba(8,0,14,.42);
+    box-shadow: none;
+  }
+  .brand {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+  .brand-mark {
+    width: 3rem;
+    height: 3rem;
+    flex: 0 0 3rem;
+  }
+  .brand-text span { display: none; }
+  .brand-text strong { font-size: clamp(.9rem, 5vw, 1.15rem); }
+  .icon-button {
+    min-height: 3rem;
+    padding-inline: .9rem;
+  }
+  .hero {
+    min-height: auto;
+    padding: 2.2rem 1rem 2.4rem;
+  }
+  .page-hero {
+    min-height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  h1,
+  .page-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.35rem, 13vw, 4.05rem);
+    line-height: 1.02;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  h2 {
+    font-size: clamp(2rem, 11vw, 3.25rem);
+    overflow-wrap: anywhere;
+  }
+  .eyebrow {
+    font-size: clamp(.82rem, 3.8vw, 1rem);
+    letter-spacing: .08em;
+  }
+  .hero-copy {
+    max-width: 100%;
+    font-size: 1.06rem;
+    line-height: 1.55;
+  }
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .button {
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+    white-space: normal;
+  }
+  .portal-grid, .signal-deck, .clue-grid { grid-template-columns: 1fr; }
+  .section {
+    padding: 3.25rem 1rem;
+  }
+  .page-shell {
+    gap: 1rem;
+  }
+  .page-media img,
+  .rabbit-panel img {
+    min-height: 0;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+  }
+  .page-media {
+    border-radius: 8px;
+  }
+  .site-footer { display: grid; }
+}
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
 
 .music-feature { display: grid; grid-template-columns: minmax(22rem, .82fr) minmax(18rem, 1.18fr); gap: 1rem; align-items: stretch; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(135deg, rgba(255,77,255,.18), rgba(63,15,117,.72)); box-shadow: 0 24px 80px rgba(0,0,0,.34); overflow: hidden; }
