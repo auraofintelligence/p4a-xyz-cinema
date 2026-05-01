@@ -133,7 +133,8 @@ p { margin-top: 0; }
 .page-media img { width: 100%; min-height: 28rem; max-height: 44rem; object-fit: cover; }
 .page-copy { display: grid; gap: 1rem; }
 .feature-panel { padding: 1.1rem; }
-.next-trail { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding-top: 1rem; }
+.next-trail { display: flex; justify-content: flex-start; gap: 1rem; flex-wrap: wrap; padding-top: 1rem; }
+.next-trail .button { flex: 0 1 10rem; }
 .site-footer { display: flex; justify-content: space-between; gap: 1rem; padding: 2rem clamp(1rem, 4vw, 3rem); border-top: 1px solid var(--line); background: rgba(8,0,14,.72); }
 .site-footer p { margin: 0; max-width: 45rem; font-size: .92rem; }
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
