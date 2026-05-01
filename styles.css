@@ -197,14 +197,17 @@ p { margin-top: 0; }
   h1,
   .page-hero h1 {
     max-width: 100%;
-    font-size: clamp(2.35rem, 13vw, 4.05rem);
+    font-size: clamp(2.15rem, 11.4vw, 3.45rem);
     line-height: 1.02;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
     word-break: normal;
+    hyphens: none;
   }
   h2 {
     font-size: clamp(2rem, 11vw, 3.25rem);
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
   }
   .eyebrow {
     font-size: clamp(.82rem, 3.8vw, 1rem);
