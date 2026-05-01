@@ -2,9 +2,9 @@
 
 Static multi-page prototype for the People's Purple Protopian Party of Australia.
 
-## Portal + First 10 Rooms
+## Portal + First 12 Rooms
 
-The homepage is the portal. The first ten rabbit-hole rooms are:
+The homepage is the portal. The first twelve rabbit-hole rooms are:
 
 1. It Started as a Joke on a Joint
 2. The Purple Synthesis
@@ -17,6 +17,7 @@ The homepage is the portal. The first ten rabbit-hole rooms are:
 9. The Cyber-Republic Simulator
 10. Deployment Gear
 11. Musicverse
+12. Creating the Constitution
 
 ## Colour Direction
 
@@ -25,4 +26,8 @@ The site now uses royal purple as the dominant environment, with amethyst neon, 
 ## Preview
 
 Open `index.html` in a browser, or refresh the existing in-app browser tab.
+
+## Licence
+
+See [LICENCE.md](LICENCE.md) for the P4A public licence covering public-interest reuse, attribution, creative works, and the current pre-party status of the movement.
 
