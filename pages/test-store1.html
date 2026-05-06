@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Test Store 1 | P4A Deployment Gear</title>
+  <meta name="description" content="P4A test store for purple hoodie ordering experiments before public checkout goes live.">
+  <meta name="theme-color" content="#3F0F75">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="P4A Gear">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/favicon.svg">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="gear-page" data-theme="royal">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+    <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+    <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../index.html">Home</a>
+  <a href="../index.html#twinkle">Twinkle gripes</a>
+  <a href="../index.html#warren">Rabbit hole</a>
+  <a href="civic-ledger.html">Public ledger</a>
+  <a href="cyber-republic.html">2031 Referendum</a>
+  <a href="deployment-gear.html">Gear</a>
+  <a href="musicverse.html">Musicverse</a>
+</nav>
+  </header>
+  <main id="main">
+    <section class="hero page-hero">
+      <div class="hero-image"><img src="../assets/p4a-gear.jpg" alt="Deployment Gear visual reference"></div>
+      <div class="hero-content"><p class="eyebrow">20 / Make the myth wearable</p><h1>Deployment Gear</h1><p class="hero-copy">Purple P4A hoodies first. The buyer chooses the support amount on top of real cost and shipping, and P4A keeps control of the checkout path.</p><div class="hero-actions"><a class="button button-primary" href="#hoodie-drop">Start with hoodies</a><a class="button button-secondary" href="#automation">Owned pipeline</a></div></div>
+    </section>
+    <section class="section gear-store" id="hoodie-drop" data-shopfront>
+      <div class="storefront-shell">
+        <div class="storefront-heading">
+          <div>
+            <p class="eyebrow">Test store 1</p>
+            <h2>Purple hoodie pilot.</h2>
+          </div>
+          <p>Choose a verified purple-family hoodie, set quantity, choose pickup or postage, then choose the per-item support/profit amount yourself. Dunwich local printer first; supplier catalogues stay as reference and overflow.</p>
+        </div>
+
+        <div class="storefront-grid">
+          <section class="product-showcase" aria-label="Selected hoodie">
+            <div class="product-hero-frame">
+              <img data-selected-image src="../assets/gear-products/gildan-adult-hoodie.png" alt="Selected purple hoodie">
+            </div>
+            <div class="selected-product-copy">
+              <div>
+                <span class="product-kicker">Selected hoodie</span>
+                <h3 data-selected-title>Gildan Adult Hooded Sweatshirt</h3>
+                <p data-selected-note>Lowest starting cost, classic pullover fit.</p>
+              </div>
+              <div class="price-stack">
+                <strong data-selected-cost>$52.95</strong>
+                <span data-selected-floor>$39.71 50+ floor</span>
+              </div>
+            </div>
+            <div class="selected-colour-picker" data-colour-buttons aria-label="Verified colour choices"></div>
+            <p class="mini-note colour-filter-status" data-colour-status>Showing purple bases with verified supplier images.</p>
+            <div class="product-rail" data-product-shelf aria-label="Purple hoodie product shelf"></div>
+            <div class="store-info-grid">
+              <article>
+                <strong>Discount tiers</strong>
+                <div class="discount-rows" aria-label="Supplier discount tiers">
+                  <span>1-4</span><b>single price</b>
+                  <span>5+</span><b>5% off</b>
+                  <span>10+</span><b>10% off</b>
+                  <span>20+</span><b>15% off</b>
+                  <span>30+</span><b>20% off</b>
+                  <span>50+</span><b>25% floor</b>
+                </div>
+              </article>
+              <article>
+                <strong>Size guide</strong>
+                <p data-size-guide-note>Gildan guide captured from supplier page. Other bases need supplier table verification before live checkout.</p>
+                <div class="size-guide-table" data-size-guide></div>
+              </article>
+            </div>
+          </section>
+
+          <aside class="checkout-card" data-gear-order aria-label="Hoodie checkout demo">
+            <div class="checkout-topline">
+              <span>Cost plus support</span>
+              <strong data-summary-total>$72.95</strong>
+            </div>
+            <label>Hoodie base
+              <select data-gear-product>
+                <option value="52.95" data-bulk="39.71" selected>Gildan Adult Hooded Sweatshirt</option>
+                <option value="57.45" data-bulk="43.09">RAMO Adult Poly Cotton Fleece Sloppy Joe</option>
+                <option value="59.99" data-bulk="44.99">Unisex Adults Pull Over Hoodie</option>
+                <option value="62.35" data-bulk="46.76">RAMO Mens Kangaroo Pocket Hoodie</option>
+                <option value="65.00" data-bulk="48.75">RAMO Mens Brushed Heavy Zip Fleece Hoodie</option>
+                <option value="77.20" data-bulk="57.90">RAMO Mens Zip Hoodie with Pocket</option>
+                <option value="82.39" data-bulk="61.79">RAMO Mens Brushed Heavy Fleece Hoodie</option>
+                <option value="100.71" data-bulk="75.53">Comfort Colors Color Blast Crewneck</option>
+              </select>
+            </label>
+            <label>Verified colour
+              <select data-gear-colour>
+                <option>Purple</option>
+              </select>
+            </label>
+            <div class="choice-grid">
+              <label>Order mode
+                <select data-gear-order-mode>
+                  <option value="single">Single hoodie pilot</option>
+                  <option value="branch_bundle">Branch / volunteer bulk enquiry</option>
+                </select>
+              </label>
+              <label>Fulfilment
+                <select data-gear-fulfilment>
+                  <option value="pickup_dunwich" selected>Pickup - Dunwich / Minjerribah</option>
+                  <option value="ship_from_dunwich">Post from Dunwich printer</option>
+                  <option value="local_handoff">Local branch handoff / quote</option>
+                </select>
+              </label>
+            </div>
+            <div class="choice-grid">
+              <label>Size
+                <select data-gear-size>
+                  <option>XS</option><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>2XL</option><option>3XL</option><option>4XL</option><option>5XL</option>
+                </select>
+              </label>
+              <label>Quantity
+                <input data-gear-quantity type="number" min="1" max="99" value="1">
+              </label>
+            </div>
+            <div class="choice-grid">
+              <label>Shipping estimate
+                <input data-gear-shipping type="number" min="0" step="0.01" value="0">
+              </label>
+              <label>Postcode
+                <input data-gear-postcode type="text" inputmode="numeric" placeholder="4000">
+              </label>
+            </div>
+            <p class="mini-note" data-shipping-note>Pickup is from Dunwich, North Stradbroke Island / Minjerribah. Postage can later use the Australia Post Postage API; the <a href="https://auspost.com.au/parcels-mail/calculate-postage-delivery-times/#/">calculator</a> stays as a fallback estimate.</p>
+            <label>Logo style
+              <select data-gear-style>
+                <option>P4A chest mark</option>
+                <option>P4A chest + sleeve prompt</option>
+                <option>Less splash, more class</option>
+              </select>
+            </label>
+            <label>Support per item, chosen by buyer
+              <input data-gear-support type="number" min="0" step="1" value="20">
+            </label>
+            <div class="support-presets" aria-label="Support amount presets">
+              <button type="button" data-support-preset="0">$0</button>
+              <button type="button" data-support-preset="10">$10</button>
+              <button type="button" data-support-preset="20">$20</button>
+              <button type="button" data-support-preset="50">$50</button>
+            </div>
+            <div class="bulk-fields" data-bulk-fields>
+              <div class="choice-grid">
+                <label>Branch / group
+                  <input data-gear-branch-name type="text" placeholder="e.g. Bowman branch">
+                </label>
+                <label>Volunteer count
+                  <input data-gear-volunteers type="number" min="0" max="999" value="0">
+                </label>
+              </div>
+              <fieldset class="addon-fieldset">
+                <legend>Future swag interest</legend>
+                <label><input type="checkbox" data-gear-addon value="stickers"> Stickers / QR trails</label>
+                <label><input type="checkbox" data-gear-addon value="volunteer_teeshirts"> Volunteer shirts</label>
+                <label><input type="checkbox" data-gear-addon value="purple_homewares"> Purple homewares</label>
+                <label><input type="checkbox" data-gear-addon value="event_signage"> Event signage</label>
+              </fieldset>
+              <label>Bulk notes
+                <textarea data-gear-bulk-notes rows="3" placeholder="Sizes, branch launch, volunteer kit ideas, pickup plan..."></textarea>
+              </label>
+            </div>
+            <div class="checkout-fields">
+              <label>Name
+                <input data-gear-name type="text" placeholder="Demo customer">
+              </label>
+              <label>Email
+                <input data-gear-email type="email" placeholder="buyer@example.com">
+              </label>
+            </div>
+            <p class="gear-summary" data-gear-summary>Unit cost $52.95 + support/item $20.00 = $72.95 per item. Shipping $0.00. Total $72.95.</p>
+            <div class="checkout-actions">
+              <button class="button button-primary" type="button" data-demo-checkout>Demo checkout payload</button>
+              <a class="button button-secondary" data-gear-mail href="mailto:hello@p4a.xyz?subject=P4A%20purple%20hoodie%20order">Draft email order</a>
+            </div>
+            <p class="mini-note">Demo mode outputs the payload. Live mode sends it to Apps Script, then Stripe Checkout.</p>
+            <pre class="order-preview" data-order-preview aria-live="polite"></pre>
+          </aside>
+        </div>
+
+        <div class="pipeline-strip" id="automation">
+          <article><strong>P4A owns checkout</strong><span>Cost, shipping, buyer support and customer details stay in the P4A pipeline.</span></article>
+          <article><strong>Dunwich first</strong><span>Start with the local shirt printer on North Stradbroke Island, then use supplier catalogues as reference or overflow.</span></article>
+          <article><strong>Branch kits later</strong><span>Hoodies first, then bundles, upsells, volunteer swag and purple homewares once demand is visible.</span></article>
+        </div>
+        <div class="next-trail"><a class="button button-secondary" href="alien-necklace-film.html">Previous door</a><a class="button button-primary" href="constitution.html">Next door</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></footer>
+  <script src="../script.js"></script>
+</body>
+</html>
+
+
+

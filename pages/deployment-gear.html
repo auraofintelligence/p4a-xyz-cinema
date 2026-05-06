@@ -2,14 +2,20 @@
 <html lang="en-AU">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Deployment Gear | P4A</title>
-  <meta name="description" content="Purple hoodies, stickers, mugs and odd civic artefacts that make the movement tangible before institutions catch up.">
+  <meta name="description" content="P4A deployment gear planning page, with a separate test store for purple hoodie experiments.">
   <meta name="theme-color" content="#3F0F75">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="P4A Gear">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/favicon.svg">
+  <link rel="manifest" href="../site.webmanifest">
   <link rel="stylesheet" href="../styles.css">
 </head>
-<body data-theme="royal">
+<body class="gear-page" data-theme="royal">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
@@ -26,21 +32,52 @@
   </header>
   <main id="main">
     <section class="hero page-hero">
-      <div class="hero-image"><img src="../assets/p4a-gear.jpg" alt="Deployment Gear visual reference"></div>
-      <div class="hero-content reveal"><p class="eyebrow">20 / Make the myth wearable</p><h1>Deployment Gear</h1><p class="hero-copy">Purple hoodies, stickers, mugs and odd civic artefacts that make the movement tangible before institutions catch up.</p><div class="hero-actions"><a class="button button-primary" href="#room">Open the room</a><a class="button button-secondary" href="../index.html#warren">Back to rabbit hole</a></div></div>
-    </section>
-    <section class="section" id="room">
-      <div class="page-shell">
-        <aside class="page-media page-media-full reveal"><img src="../assets/p4a-gear.jpg" alt="Deployment Gear page artwork"></aside>
-        <div class="page-copy reveal">
-          <div class="feature-panel"><p class="eyebrow">What this page does</p><h2>Deployment Gear</h2><p>Gear is not just merch. It is a low-friction social object: a way to ask what P4A means without opening a policy paper.</p>
-              <p>This page keeps the rabbit hole physical, funny and visible in everyday life.</p></div>
-          <div class="feature-panel"><p class="eyebrow">Core modules</p><div class="clue-grid"><div class='clue'><strong>Less splash, more class</strong><span>The gear should be cheeky without being disposable: clean enough for public life, strange enough to start the conversation.</span></div>
-              <div class='clue'><strong>P4A merch purple</strong><span>Purple makes the movement instantly recognisable: playful, civic, electronic, local, and hard to confuse with standard party colours.</span></div>
-              <div class='clue'><strong>Humour with utility</strong><span>Objects should do more than advertise: QR trails, event prompts, civic missions, local fundraisers and practical campaign tools.</span></div></div></div>
-          <div class="feature-panel"><p class="eyebrow">Street interface</p><p>Deployment gear is the offline user interface for the rabbit hole. A shirt, mat, sticker or flag should let someone ask the first question before they are ready for the full policy stack.</p></div>
-          <div class="next-trail"><a class="button button-secondary" href="alien-necklace-film.html">Previous door</a><a class="button button-primary" href="constitution.html">Next door</a></div>
+      <div class="hero-image"><img src="../assets/p4a-gear.jpg" alt="Purple P4A deployment gear visual reference"></div>
+      <div class="hero-content">
+        <p class="eyebrow">20 / Make the myth wearable</p>
+        <h1>Deployment Gear</h1>
+        <p class="hero-copy">Purple P4A gear is being tested carefully before any public checkout goes live. The aim is cost plus postage, with the buyer choosing the support amount per item.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="test-store1.html">View test store 1</a>
+          <a class="button button-secondary" href="#pipeline">How it should work</a>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="pipeline">
+      <div class="section-heading">
+        <p class="eyebrow">Working model</p>
+        <h2>Storefront first, but not rushed.</h2>
+        <p>The live gear page should stay clean until the ordering path is good enough. The test store is the workshop: hoodie bases, colour mapping, pickup from Dunwich, postage estimates, bulk branch orders, and future purple products can all be tried there without presenting it as finished.</p>
+      </div>
+      <div class="feature-grid three">
+        <article>
+          <span class="card-number">01</span>
+          <h3>Local printer first</h3>
+          <p>Start with a Dunwich / Minjerribah shirt printer where practical, then use supplier catalogues as reference or overflow rather than surrendering the customer relationship.</p>
+        </article>
+        <article>
+          <span class="card-number">02</span>
+          <h3>Buyer chooses support</h3>
+          <p>The customer sees the real item cost and postage estimate, then nominates the per-item support or profit amount. The margin is not set by the supplier.</p>
+        </article>
+        <article>
+          <span class="card-number">03</span>
+          <h3>Branch kits later</h3>
+          <p>Hoodies come first. The next layer is bundle orders for branches, volunteers, local events, signage, stickers, and eventually purple homewares.</p>
+        </article>
+      </div>
+      <div class="statement-card">
+        <h3>Current status</h3>
+        <p>The shopfront demo is not ready to be treated as a final public store. It is safe to publish as a labelled test page so the pipeline can be reviewed, improved, and rebuilt if needed after supplier and printer advice.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="test-store1.html">Open test-store1</a>
+          <a class="button button-secondary" href="mailto:hello@p4a.xyz?subject=P4A%20gear%20test%20store">Send gear feedback</a>
+        </div>
+      </div>
+      <div class="next-trail">
+        <a class="button button-secondary" href="alien-necklace-film.html">Previous door</a>
+        <a class="button button-primary" href="constitution.html">Next door</a>
       </div>
     </section>
   </main>
@@ -48,6 +85,3 @@
   <script src="../script.js"></script>
 </body>
 </html>
-
-
-
