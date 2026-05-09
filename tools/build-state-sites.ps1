@@ -498,14 +498,14 @@ function Render-StateArchitecturePage {
   <meta name="description" content="P4A $name architecture builder for local council drill-downs, state electorates, bioregions, First Nations protocol maps, public ledgers and state-level civic simulation.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="$slug-architecture">
   $header
   $layerStrip
   <main id="main" class="state-site-main builder-site-main">
     <section class="state-hero state-detail-hero">
-      <div class="state-hero-bg"><img src="../../../assets/p4a-map-card.png" alt="Purple map artwork for $name civic architecture"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../../../assets/p4a-map-card.webp" alt="Purple map artwork for $name civic architecture"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">$short architecture builder</p>
         <h1>$name civic architecture</h1>
@@ -619,7 +619,7 @@ function Render-StateArchitecturePage {
     </section>
   </main>
   $footer
-  <script src="../../../script.js?v=20260509-pills"></script>
+  <script src="../../../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@
@@ -659,14 +659,14 @@ function Render-StateConstitutionPage {
   <meta name="description" content="P4A $name constitution builder for state constitutional machinery, parliament, amendment pathways, local government powers, democratic checks and future civic reform.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="$slug-constitution">
   $header
   $layerStrip
   <main id="main" class="state-site-main builder-site-main">
     <section class="state-hero state-detail-hero">
-      <div class="state-hero-bg"><img src="../../../assets/p4a-map-card.png" alt="Purple map artwork for $name constitution builder"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../../../assets/p4a-map-card.webp" alt="Purple map artwork for $name constitution builder"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">$short constitution builder</p>
         <h1>$name rulebook workbench</h1>
@@ -760,7 +760,7 @@ function Render-StateConstitutionPage {
     </section>
   </main>
   $footer
-  <script src="../../../script.js?v=20260509-pills"></script>
+  <script src="../../../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@
@@ -1073,14 +1073,14 @@ $portalHtml = @"
   <meta name="description" content="P4A state and territory portal with live election countdowns, chamber data and state-level civic simulator entry points.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="portal">
   $portalHeader
   $portalLayerStrip
   <main id="main" class="state-site-main">
     <section class="state-hero state-portal-hero">
-      <div class="state-hero-bg"><img src="../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">State layer unlocked</p>
         <h1>Eight local doors into the purple republic rehearsal.</h1>
@@ -1135,7 +1135,7 @@ $portalHtml = @"
   </main>
   $portalFooter
   <script src="../assets/state-data.js?v=20260509-pills"></script>
-  <script src="../script.js?v=20260509-pills"></script>
+  <script src="../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@
@@ -1172,14 +1172,14 @@ if ($historyItems.Count -gt 0) {
   <meta name="description" content="P4A state and territory history atlas generated from markdown files with basic and advanced civic history layers.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="history-index">
   $historyHeader
   $historyLayerStrip
   <main id="main" class="state-site-main history-site-main">
     <section class="state-hero history-hero">
-      <div class="state-hero-bg"><img src="../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">History atlas</p>
         <h1>How each state became different.</h1>
@@ -1227,7 +1227,7 @@ if ($historyItems.Count -gt 0) {
   </main>
   $historyFooter
   <script src="../assets/history-data.js?v=20260509-pills"></script>
-  <script src="../script.js?v=20260509-pills"></script>
+  <script src="../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@
@@ -1275,14 +1275,14 @@ foreach ($state in $states) {
   <meta name="description" content="P4A $name state portal with election countdowns, chamber composition and current government notes.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="$slug">
   $header
   $stateLayerStrip
   <main id="main" class="state-site-main">
     <section class="state-hero state-detail-hero">
-      <div class="state-hero-bg"><img src="../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">$stateType portal</p>
         <h1>$name</h1>
@@ -1366,7 +1366,7 @@ foreach ($state in $states) {
   </main>
   $footer
   <script src="../../assets/state-data.js?v=20260509-pills"></script>
-  <script src="../../script.js?v=20260509-pills"></script>
+  <script src="../../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@
@@ -1407,14 +1407,14 @@ foreach ($state in $states) {
   <meta name="description" content="P4A $name history page with basic and advanced civic timelines generated from markdown data.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-  <link rel="stylesheet" href="../../../styles.css?v=20260509-mobile-fixes">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-image-opt">
 </head>
 <body data-theme="royal" data-state-page="$slug-history">
   $historyHeaderLocal
   $historyLayerStripLocal
   <main id="main" class="state-site-main history-site-main">
     <section class="state-hero history-hero">
-      <div class="state-hero-bg"><img src="../../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../../../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
       <div class="state-hero-content reveal">
         <p class="eyebrow">$stateType history portal</p>
         <h1>$name history</h1>
@@ -1480,7 +1480,7 @@ foreach ($state in $states) {
   </main>
   $historyFooterLocal
   <script src="../../../assets/history-data.js?v=20260509-pills"></script>
-  <script src="../../../script.js?v=20260509-pills"></script>
+  <script src="../../../script.js?v=20260509-image-opt"></script>
 </body>
 </html>
 "@

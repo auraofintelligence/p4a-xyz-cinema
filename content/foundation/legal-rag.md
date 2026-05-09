@@ -5,7 +5,7 @@
   "slug": "legal-rag",
   "title": "Law Engine / Legal RAG | P4A",
   "metaDescription": "A P4A workbench page for a Legal RAG or Law Engine: Acts, common law, state constitutions, council powers, version control, checks and balances.",
-  "heroImage": "../assets/p4a-map-card.png",
+  "heroImage": "../assets/p4a-map-card.webp",
   "heroImageAlt": "P4A purple Australia map used as a legal memory reference",
   "eyebrow": "Legal memory",
   "heading": "Law Engine / Legal RAG",

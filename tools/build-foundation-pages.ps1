@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $contentDir = Join-Path $root "content/foundation"
 $pagesDir = Join-Path $root "pages"
-$cacheVersion = "20260509-mobile-fixes"
+$cacheVersion = "20260509-image-opt"
 
 function Escape-Html {
   param([AllowNull()][object]$Value)
@@ -231,7 +231,7 @@ function Render-FoundationPage {
   </div>
   <main id="main">
     <section class="hero page-hero foundation-hero">
-      <div class="hero-image"><img src="$heroImage" alt="$heroAlt"></div>
+      <div class="hero-image"><img loading="eager" fetchpriority="high" decoding="async" src="$heroImage" alt="$heroAlt"></div>
       <div class="hero-content reveal">
         <p class="eyebrow">$eyebrow</p>
         <h1>$heading</h1>
@@ -246,7 +246,7 @@ function Render-FoundationPage {
     <section class="section foundation-section" aria-label="Foundation content">
       <div class="page-shell foundation-shell">
         <aside class="page-media page-media-full reveal">
-          <img src="$heroImage" alt="$heroAlt">
+          <img loading="lazy" decoding="async" src="$heroImage" alt="$heroAlt">
           <div class="foundation-source-note">
             <span>Markdown source</span>
             <code>$sourceFile</code>

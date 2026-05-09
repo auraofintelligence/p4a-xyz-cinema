@@ -1,4 +1,4 @@
-﻿const navToggle = document.querySelector('[data-nav-toggle]');
+const navToggle = document.querySelector('[data-nav-toggle]');
 const nav = document.querySelector('[data-nav]');
 navToggle?.addEventListener('click', () => {
   const open = nav?.classList.toggle('is-open') ?? false;
@@ -130,7 +130,7 @@ const gearProducts = [
     singlePrice: 52.95,
     floorPrice: 39.71,
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#5a3380', image: '../assets/gear-products/gildan-adult-hoodie.png' }],
+    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#5a3380', image: '../assets/gear-products/gildan-adult-hoodie.webp' }],
     sizeGuide: gildanSizeGuide,
     sizeGuideNote: 'Supplier Gildan size guide captured from product page; blank cells were not visible in the screenshot.',
     note: 'Lowest starting cost, classic pullover fit.'
@@ -148,8 +148,8 @@ const gearProducts = [
     floorPrice: 43.09,
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
     variants: [
-      { label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#5f159d', image: '../assets/gear-products/ramo-sloppy-joe.png' },
-      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/lavender-sloppy-joe.png' }
+      { label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#5f159d', image: '../assets/gear-products/ramo-sloppy-joe.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/lavender-sloppy-joe.webp' }
     ],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
@@ -167,7 +167,7 @@ const gearProducts = [
     singlePrice: 59.99,
     floorPrice: 44.99,
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '7XL'],
-    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#482071', image: '../assets/gear-products/unisex-pullover.png' }],
+    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#482071', image: '../assets/gear-products/unisex-pullover.webp' }],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
     note: 'Wide size range, good one-at-a-time test base.'
@@ -185,8 +185,8 @@ const gearProducts = [
     floorPrice: 46.76,
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL'],
     variants: [
-      { label: 'Purple', supplierColourName: 'Grape', supplierColourFilter: '-7', hex: '#650ca0', image: '../assets/gear-products/ramo-kangaroo-pocket-grape-front.jpg' },
-      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/ramo-kangaroo-pocket-lavender-front.jpg' }
+      { label: 'Purple', supplierColourName: 'Grape', supplierColourFilter: '-7', hex: '#650ca0', image: '../assets/gear-products/ramo-kangaroo-pocket-grape-front.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/ramo-kangaroo-pocket-lavender-front.webp' }
     ],
     sizeGuide: {
       sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL'],
@@ -209,7 +209,7 @@ const gearProducts = [
     singlePrice: 65.00,
     floorPrice: 48.75,
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#522188', image: '../assets/gear-products/ramo-heavy-zip.png' }],
+    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#522188', image: '../assets/gear-products/ramo-heavy-zip.webp' }],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
     note: 'Zip option for people who hate pullovers.'
@@ -227,8 +227,8 @@ const gearProducts = [
     floorPrice: 57.90,
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL'],
     variants: [
-      { label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#501c8d', image: '../assets/gear-products/ramo-zip-pocket.png' },
-      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/lavender-zip-pocket.png' }
+      { label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#501c8d', image: '../assets/gear-products/ramo-zip-pocket.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#c6a7f0', image: '../assets/gear-products/lavender-zip-pocket.webp' }
     ],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
@@ -246,7 +246,7 @@ const gearProducts = [
     singlePrice: 82.39,
     floorPrice: 61.79,
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
-    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#50208b', image: '../assets/gear-products/ramo-heavy-fleece.png' }],
+    variants: [{ label: 'Purple', supplierColourName: 'Purple', supplierColourFilter: '-7', hex: '#50208b', image: '../assets/gear-products/ramo-heavy-fleece.webp' }],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
     note: 'Premium heavy fleece test option.'
@@ -263,7 +263,7 @@ const gearProducts = [
     singlePrice: 100.71,
     floorPrice: 75.53,
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
-    variants: [{ label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#b9a9ef', image: '../assets/gear-products/comfort-colorblast.png' }],
+    variants: [{ label: 'Lavender', supplierColourName: 'Lavender', supplierColourFilter: '27', hex: '#b9a9ef', image: '../assets/gear-products/comfort-colorblast.webp' }],
     sizeGuide: null,
     sizeGuideNote: 'Available sizes captured from supplier card. Measurement table still needs supplier verification.',
     note: 'Expensive lavender crewneck, only if the market asks.'

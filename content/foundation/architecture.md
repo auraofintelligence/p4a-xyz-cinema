@@ -5,7 +5,7 @@
   "slug": "architecture",
   "title": "Civic Architecture Builder | P4A",
   "metaDescription": "A public workbench for the P4A civic architecture: how maps, layers, councils, bioregions, state portals, ledgers, law memory and simulations fit together before constitutions write binding rules.",
-  "heroImage": "../assets/p4a-map-card.png",
+  "heroImage": "../assets/p4a-map-card.webp",
   "heroImageAlt": "P4A purple Australia map used as a civic architecture reference",
   "eyebrow": "System map",
   "heading": "Civic Architecture Builder",

@@ -115,7 +115,7 @@ const PRODUCTS = [
     single: 52.95,
     floor: 39.71,
     notes: 'Lowest starting cost, classic pullover fit.',
-    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/gildan-adult-hoodie.png' }],
+    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/gildan-adult-hoodie.webp' }],
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL'],
     guide: {
       source: 'supplier screenshot',
@@ -146,8 +146,8 @@ const PRODUCTS = [
     floor: 43.09,
     notes: 'Crewneck option for lighter purple deployment gear.',
     colours: [
-      { label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-sloppy-joe.png' },
-      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/lavender-sloppy-joe.png' }
+      { label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-sloppy-joe.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/lavender-sloppy-joe.webp' }
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']
   },
@@ -163,7 +163,7 @@ const PRODUCTS = [
     single: 59.99,
     floor: 44.99,
     notes: 'Wide size range, good one-at-a-time test base.',
-    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/unisex-pullover.png' }],
+    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/unisex-pullover.webp' }],
     sizes: ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '7XL']
   },
   {
@@ -179,8 +179,8 @@ const PRODUCTS = [
     floor: 46.76,
     notes: 'RAMO TP212H. Purple storefront option maps to supplier colour Grape; Lavender is also verified.',
     colours: [
-      { label: 'Purple', supplierColourName: 'Grape', filter: '-7', image: '../assets/gear-products/ramo-kangaroo-pocket-grape-front.jpg' },
-      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/ramo-kangaroo-pocket-lavender-front.jpg' }
+      { label: 'Purple', supplierColourName: 'Grape', filter: '-7', image: '../assets/gear-products/ramo-kangaroo-pocket-grape-front.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/ramo-kangaroo-pocket-lavender-front.webp' }
     ],
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL'],
     guide: {
@@ -212,7 +212,7 @@ const PRODUCTS = [
     single: 65.00,
     floor: 48.75,
     notes: 'Zip option for people who hate pullovers.',
-    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-heavy-zip.png' }],
+    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-heavy-zip.webp' }],
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']
   },
   {
@@ -228,8 +228,8 @@ const PRODUCTS = [
     floor: 57.90,
     notes: 'Higher-cost zip hoodie, still purple-family.',
     colours: [
-      { label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-zip-pocket.png' },
-      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/lavender-zip-pocket.png' }
+      { label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-zip-pocket.webp' },
+      { label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/lavender-zip-pocket.webp' }
     ],
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL']
   },
@@ -245,7 +245,7 @@ const PRODUCTS = [
     single: 82.39,
     floor: 61.79,
     notes: 'Premium heavy fleece test option.',
-    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-heavy-fleece.png' }],
+    colours: [{ label: 'Purple', supplierColourName: 'Purple', filter: '-7', image: '../assets/gear-products/ramo-heavy-fleece.webp' }],
     sizes: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']
   },
   {
@@ -260,7 +260,7 @@ const PRODUCTS = [
     single: 100.71,
     floor: 75.53,
     notes: 'Expensive lavender crewneck, only if the market asks.',
-    colours: [{ label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/comfort-colorblast.png' }],
+    colours: [{ label: 'Lavender', supplierColourName: 'Lavender', filter: '27', image: '../assets/gear-products/comfort-colorblast.webp' }],
     sizes: ['S', 'M', 'L', 'XL', '2XL']
   }
 ];
