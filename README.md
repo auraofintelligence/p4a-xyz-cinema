@@ -1,6 +1,6 @@
 # p4a.xyz
 
-Static multi-page prototype for the People's Purple Protopian Party of Australia.
+Static multi-page prototype for the Purple Party for Australia.
 
 P4A is currently a proposed movement and drafting project, not a registered political party. The site is a public workbench for civic imagination, local-first democratic repair, transparent systems, constitutional literacy, public ledgers, state and region portals, legal-memory tooling and future cyber-republic rehearsal.
 

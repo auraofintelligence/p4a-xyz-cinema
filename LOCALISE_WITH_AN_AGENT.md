@@ -33,7 +33,7 @@ Do not hardwire a fixed layer count. The scale model is a draft scaffold, not do
 Replace these before building.
 
 PROJECT_NAME:
-  Example: Purple Party for Australia, or People's Purple Protopian Party for Australia
+  Example: Purple Party for Australia, or a local civic project name
 
 PROJECT_SHORT_NAME:
   Example: P4A
