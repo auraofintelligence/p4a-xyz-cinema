@@ -744,6 +744,37 @@ body[data-page="constitution"] .source-links a {
 .video-frame strong { display: block; color: #fff; font-size: 1.15rem; }
 .video-landscape { aspect-ratio: 16 / 9; }
 .video-portrait { aspect-ratio: 9 / 16; min-height: 22rem; }
+.vertical-short-grid { grid-template-columns: minmax(0, 1fr) minmax(14rem, 22rem); align-items: center; }
+.phone-frame {
+  position: relative;
+  width: min(100%, 21rem);
+  margin-inline: auto;
+  padding: .72rem;
+  border: 2px solid rgba(255,255,255,.2);
+  border-radius: 2rem;
+  background: linear-gradient(180deg, rgba(20,0,32,.96), rgba(4,0,8,.98));
+  box-shadow: 0 0 0 1px rgba(255,214,110,.22), 0 24px 80px rgba(0,0,0,.42), inset 0 0 34px rgba(181,51,255,.16);
+}
+.phone-frame::before {
+  content: "";
+  position: absolute;
+  top: .36rem;
+  left: 50%;
+  width: 4.2rem;
+  height: .34rem;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: rgba(255,255,255,.28);
+  z-index: 1;
+}
+.phone-frame iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border: 0;
+  border-radius: 1.35rem;
+  background: #050008;
+}
 @media (max-width: 860px) { .video-grid { grid-template-columns: 1fr; } .video-portrait { min-height: 28rem; } }
 
 .origin-deck { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; margin-top: 2rem; max-width: 62rem; }
