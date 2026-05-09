@@ -1627,7 +1627,10 @@ body[data-page="constitution"] .source-links a {
   }
 
   .state-hero-content h1 {
-    font-size: 2.55rem;
+    max-width: 100%;
+    font-size: clamp(2.05rem, 10vw, 2.55rem);
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .state-card-grid,
