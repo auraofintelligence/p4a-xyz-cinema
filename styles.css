@@ -822,6 +822,33 @@ body[data-page="constitution"] .source-links a {
 .state-tree-grid h3 { margin: 0 0 .25rem; color: var(--gold); }
 .state-tree-grid a { display: inline-flex; align-items: center; min-height: 2rem; width: fit-content; max-width: 100%; }
 @media (max-width: 760px) {
+  .home-hero .hero-image {
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    background: radial-gradient(circle at 50% 16%, rgba(111,34,200,.42), transparent 16rem), rgba(8,0,14,.84);
+  }
+  .home-hero .hero-image img {
+    width: 100%;
+    height: auto;
+    max-height: 42vh;
+    object-fit: contain;
+    object-position: top center;
+    opacity: .36;
+  }
+  body[data-page="site-map"] .state-tree-grid {
+    grid-template-columns: 1fr;
+  }
+  body[data-page="site-map"] .state-tree-grid article {
+    min-height: auto;
+    width: 100%;
+  }
+  body[data-page="site-map"] .state-tree-grid h3,
+  body[data-page="site-map"] .state-tree-grid a {
+    overflow-wrap: anywhere;
+  }
+}
+@media (max-width: 760px) {
   .genesis-subdoors { grid-template-columns: 1fr; }
   .genesis-console { min-height: 34rem; }
   .genesis-stats { position: relative; inset: auto; margin-top: 1rem; grid-template-columns: 1fr; width: 100%; }

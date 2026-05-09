@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $contentDir = Join-Path $root "content/foundation"
 $pagesDir = Join-Path $root "pages"
-$cacheVersion = "20260509-site-map"
+$cacheVersion = "20260509-mobile-fixes"
 
 function Escape-Html {
   param([AllowNull()][object]$Value)
@@ -74,7 +74,7 @@ function Get-Header {
 
 function Get-Footer {
 @"
-<footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a><a href="#main">Back to top</a></nav></footer>
+<footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
 "@
 }
 
