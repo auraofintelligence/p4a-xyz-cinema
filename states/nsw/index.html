@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A | New South Wales portal</title>
+  <meta name="description" content="P4A New South Wales state portal with election countdowns, chamber composition and current government notes.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-pills">
+</head>
+<body data-theme="royal" data-state-page="nsw">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="../../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../../index.html">Home</a>
+  <a href="../../states/nsw/architecture/index.html">Architecture</a>
+  <a href="../../pages/twinkle.html">Twinkle</a>
+  <a href="../../pages/rabbit-hole.html">Rabbit</a>
+  <a href="../../pages/deployment-gear.html">Gear</a>
+  <a href="../../pages/musicverse.html">Music</a>
+  <a href="../../pages/states.html" data-nav-layer="national-map">National map</a>
+  <a href="../../states/nsw/history/index.html" data-nav-layer="history-index">History</a>
+  <a href="../../states/nsw/constitution/index.html">Constitution</a>
+  <a href="../../pages/legal-rag.html">Law</a>
+  <a href="../../pages/civic-ledger.html">Ledger</a>
+  <a href="../../states/nsw/index.html" aria-current="page" data-nav-layer="state-site" aria-label="NSW state overview">NSW overview</a>
+</nav>
+</header>
+  <div class="site-layer-strip state-layer" aria-label="Current site layer">
+  <strong>NSW state site</strong>
+  <span>You are inside the New South Wales clone. The national map is one level up; council and local layers come next.</span>
+  <a href="../../states/nsw/architecture/index.html">Architecture builder</a>
+  <a href="../../states/nsw/constitution/index.html">Constitution builder</a>
+  <a href="../../pages/states.html">National state map</a>
+  <a href="../../index.html">National home</a>
+</div>
+  <main id="main" class="state-site-main">
+    <section class="state-hero state-detail-hero">
+      <div class="state-hero-bg"><img src="../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-content reveal">
+        <p class="eyebrow">State portal</p>
+        <h1>New South Wales</h1>
+        <p>NSW starts from Sydney and works outward: current power, chamber balance, election clocks and the local civic rehearsal layer that can plug back into the national P4A preframe.</p>
+        <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
+      </div>
+    </section>
+
+    <section class="section state-summary-grid">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Who is in power</p>
+        <h2>Premier Chris Minns</h2>
+        <dl class="fact-list">
+          <div><dt>Government</dt><dd>Australian Labor Party</dd></div>
+          <div><dt>Arrangement</dt><dd>Minority government</dd></div>
+          <div><dt>In power since</dt><dd>2023-03-28</dd></div>
+        </dl>
+        <p>Labor is one seat short of a Legislative Assembly majority and governs with crossbench support.</p>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Research status</p>
+        <h2>Checked 2026-05-08</h2>
+        <p>Current party representation and the 2027 election date were checked against NSW Parliament and NSW Electoral Commission sources.</p>
+        <p>Editable source: <code>content/states/nsw.md</code></p>
+        <div class="button-row">
+          <a class="button button-secondary" href="architecture/index.html">Open NSW architecture</a>
+          <a class="button button-secondary" href="constitution/index.html">Open NSW constitution</a>
+          <a class="button button-secondary" href="../../index.html">Back to national page</a>
+          <a class="button button-secondary" href="../../pages/states.html">Back to state map</a>
+          <a class="button button-secondary" href="history/index.html">Open state history</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">NSW timers</p>
+          <h2>Election timers.</h2>
+        </div>
+        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days-until, days-since and the markdown archive rule.</p>
+      </div>
+      <div class="timer-module reveal" data-timer-module>
+        <div class="timer-controls" data-timer-controls aria-label="NSW timer controls">
+  <label class="timer-sort-label">
+    <span>Sort timers</span>
+    <select data-timer-sort>
+      <option value="next">Soonest next</option>
+      <option value="byelections">By-elections first</option>
+      <option value="farthest">Farthest future</option>
+      <option value="state">State A-Z</option>
+      <option value="days-since">Days since / held</option>
+    </select>
+  </label>
+  <div class="segmented-control" role="group" aria-label="Timer display">
+    <button type="button" class="is-active" data-timer-mode="clock" aria-pressed="true">Clock</button>
+    <button type="button" data-timer-mode="days" aria-pressed="false">Days until/since</button>
+  </div>
+  <div class="segmented-control" role="group" aria-label="Timer filter">
+    <button type="button" class="is-active" data-timer-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-timer-filter="upcoming" aria-pressed="false">Upcoming</button>
+    <button type="button" data-timer-filter="by-election" aria-pressed="false">By-elections</button>
+    <button type="button" data-timer-filter="since" aria-pressed="false">Days since</button>
+  </div>
+</div>
+        <div class="timer-grid" data-timer-board>
+          <article class="election-timer state-page-timer" data-election-card data-state="nsw" data-election-date="2027-03-13T08:00:00+11:00" data-days-since-date="2023-03-25T08:00:00+11:00" data-days-since-label="Previous NSW State election polling day" data-election-scope="general" data-election-kind="State general election" data-election-label="2027 NSW State election" data-days-until-enabled="true" data-days-since-enabled="true" data-archive-days-since="true" data-cycle-key="nsw-2027-general" data-archive-with-cycle="next-higher-order-cycle-after-nsw-2027-general">
+  <div class="timer-topline"><span>New South Wales</span><span>State general election</span></div>
+  <h3>2027 NSW State election</h3>
+  <p class="countdown-value" data-countdown="2027-03-13T08:00:00+11:00">Checking timer...</p>
+  <dl class="timer-day-metrics">
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+  </dl>
+  <p class="timer-date">13 Mar 2027</p>
+  <p class="timer-status">Scheduled</p>
+  <p>Election day for the 59th Parliament of New South Wales.</p>
+  <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>Previous NSW State election polling day</small></p>
+  <a class="timer-meta-link" href="https://elections.nsw.gov.au/elections/past-results/state-election-results/2023-nsw-state-election-results">Days-since source</a>
+  <p class="timer-archive-note"><span>Archive rule</span><small>When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle.</small></p>
+  <a href="https://elections.nsw.gov.au/bulletins/2027-nsw-state-election-bulletin-1">Source</a>
+</article>
+        </div>
+        <p class="timer-empty" data-timer-empty hidden>No timers match this filter.</p>
+      </div>
+    </section>
+
+    <section class="section chamber-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Chamber split</p>
+          <h2>Party seats and named crossbench.</h2>
+        </div>
+        <p>These totals are the data layer future agents should refresh when resignations, recounts or by-elections change the map.</p>
+      </div>
+      <div class="chamber-grid reveal">
+        <article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Lower house</p>
+      <h3>Legislative Assembly</h3>
+    </div>
+    <div class="seat-total"><strong>93</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 47 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 50%"></span></span>
+  <span class="party-seats">46</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Liberal Party of Australia</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 26%"></span></span>
+  <span class="party-seats">24</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Nationals</strong><small>NAT</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 12%"></span></span>
+  <span class="party-seats">11</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Greens</strong><small>GRN</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 3%"></span></span>
+  <span class="party-seats">3</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Alex Greenwich plus eight named MLAs</strong><small>9 MLAs</small>  <ul class="party-members" aria-label="Named members">
+    <li><strong>Alex Greenwich</strong><small>Sydney</small></li>
+    <li><strong>Roy Butler</strong><small>Barwon</small></li>
+    <li><strong>Helen Dalton</strong><small>Murray</small></li>
+    <li><strong>Philip Donato</strong><small>Orange</small></li>
+    <li><strong>Judy Hannan</strong><small>Wollondilly</small></li>
+    <li><strong>Joe McGirr</strong><small>Wagga Wagga</small></li>
+    <li><strong>Greg Piper</strong><small>Lake Macquarie</small></li>
+    <li><strong>Michael Regan</strong><small>Wakehurst</small></li>
+    <li><strong>Gareth Ward</strong><small>Kiama</small></li>
+  </ul><a class="member-source" href="https://www.parliament.nsw.gov.au/members/Pages/all-members.aspx?house=LA">Named member source</a></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 10%"></span></span>
+  <span class="party-seats">9</span>
+</li>
+  </ul>
+  <p>Current NSW Parliament party representation page lists 93 Assembly members.</p>
+  <a href="https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx">Chamber source</a>
+</article>
+<article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Upper house</p>
+      <h3>Legislative Council</h3>
+    </div>
+    <div class="seat-total"><strong>42</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 22 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 36%"></span></span>
+  <span class="party-seats">15</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Coalition (Liberal/Nationals)</strong><small>LNP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 33%"></span></span>
+  <span class="party-seats">14</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Greens</strong><small>GRN</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 10%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Mark Latham, Taylor Martin, Tania Mihailuk and Rod Roberts</strong><small>4 MLCs</small>  <ul class="party-members" aria-label="Named members">
+    <li><strong>Mark Latham</strong><small>Legislative Council</small></li>
+    <li><strong>Taylor Martin</strong><small>Legislative Council</small></li>
+    <li><strong>Tania Mihailuk</strong><small>Legislative Council</small></li>
+    <li><strong>Rod Roberts</strong><small>Legislative Council</small></li>
+  </ul><a class="member-source" href="https://www.parliament.nsw.gov.au/members/pages/all-members.aspx?house=LC">Named member source</a></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 10%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Shooters, Fishers and Farmers Party</strong><small>SFF</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 5%"></span></span>
+  <span class="party-seats">2</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Animal Justice Party</strong><small>AJP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 2%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Legalise Cannabis Party</strong><small>LCP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 2%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Libertarian Party</strong><small>LIBT</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 2%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+  </ul>
+  <p>The Council is elected in staggered terms, with 21 of 42 seats contested at a periodic election.</p>
+  <a href="https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx">Chamber source</a>
+</article>
+      </div>
+    </section>
+
+    <section class="section state-notes-sources">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Tailoring notes</p>
+        <h2>How this clone should think.</h2>
+        <ul class="plain-list">
+          <li>NSW is the first large-state countdown on the portal, with the election scheduled well before Brisbane 2032.</li>
+<li>The lower house is close enough that trust, named crossbenchers and crossbench agreements matter in plain public language.</li>
+<li>The upper house already behaves like a negotiation chamber, which makes it useful for simulator rehearsal.</li>
+        </ul>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Sources</p>
+        <h2>Research links.</h2>
+        <ul class="source-list">
+          <li><a href="https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx">NSW Parliament party representation</a></li>
+<li><a href="https://elections.nsw.gov.au/bulletins/2027-nsw-state-election-bulletin-1">NSW Electoral Commission 2027 State election bulletin</a></li>
+<li><a href="https://elections.nsw.gov.au/elections/how-voting-works/voting-in-new-south-wales/how-does-a-state-election-work">NSW Electoral Commission state election explainer</a></li>
+<li><a href="https://www.parliament.nsw.gov.au/members">NSW Parliament all current members</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer state-footer">
+  <div>
+    <strong>P4A state portal</strong>
+    <span>Data-first pages generated from markdown files future agents can update.</span>
+  </div>
+  <nav aria-label="State portal footer links">
+    <a href="../../index.html">National page</a>
+    <a href="../../pages/states.html">State map</a>
+    <a href="../../pages/state-history.html">State histories</a>
+    <a href="../../content/states/README.md">State data notes</a>
+    <a href="../../content/history/README.md">History data notes</a>
+  </nav>
+</footer>
+  <script src="../../assets/state-data.js?v=20260509-pills"></script>
+  <script src="../../script.js?v=20260509-pills"></script>
+</body>
+</html>

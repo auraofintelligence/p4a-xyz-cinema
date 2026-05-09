@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A | Australian Capital Territory portal</title>
+  <meta name="description" content="P4A Australian Capital Territory state portal with election countdowns, chamber composition and current government notes.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-pills">
+</head>
+<body data-theme="royal" data-state-page="act">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="../../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../../index.html">Home</a>
+  <a href="../../states/act/architecture/index.html">Architecture</a>
+  <a href="../../pages/twinkle.html">Twinkle</a>
+  <a href="../../pages/rabbit-hole.html">Rabbit</a>
+  <a href="../../pages/deployment-gear.html">Gear</a>
+  <a href="../../pages/musicverse.html">Music</a>
+  <a href="../../pages/states.html" data-nav-layer="national-map">National map</a>
+  <a href="../../states/act/history/index.html" data-nav-layer="history-index">History</a>
+  <a href="../../states/act/constitution/index.html">Constitution</a>
+  <a href="../../pages/legal-rag.html">Law</a>
+  <a href="../../pages/civic-ledger.html">Ledger</a>
+  <a href="../../states/act/index.html" aria-current="page" data-nav-layer="state-site" aria-label="ACT territory overview">ACT overview</a>
+</nav>
+</header>
+  <div class="site-layer-strip state-layer" aria-label="Current site layer">
+  <strong>ACT territory site</strong>
+  <span>You are inside the Australian Capital Territory clone. The national map is one level up; council and local layers come next.</span>
+  <a href="../../states/act/architecture/index.html">Architecture builder</a>
+  <a href="../../states/act/constitution/index.html">Constitution builder</a>
+  <a href="../../pages/states.html">National state map</a>
+  <a href="../../index.html">National home</a>
+</div>
+  <main id="main" class="state-site-main">
+    <section class="state-hero state-detail-hero">
+      <div class="state-hero-bg"><img src="../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-content reveal">
+        <p class="eyebrow">Territory portal</p>
+        <h1>Australian Capital Territory</h1>
+        <p>ACT starts from Canberra and works outward: current power, chamber balance, election clocks and the local civic rehearsal layer that can plug back into the national P4A preframe.</p>
+        <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
+      </div>
+    </section>
+
+    <section class="section state-summary-grid">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Who is in power</p>
+        <h2>Chief Minister Andrew Barr</h2>
+        <dl class="fact-list">
+          <div><dt>Government</dt><dd>Australian Labor Party</dd></div>
+          <div><dt>Arrangement</dt><dd>Labor minority government with Greens support</dd></div>
+          <div><dt>In power since</dt><dd>2014-12-11</dd></div>
+        </dl>
+        <p>The Assembly has 25 members and no upper house.</p>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Research status</p>
+        <h2>Checked 2026-05-08</h2>
+        <p>Current members, party breakdown and end-of-term date were checked against ACT Legislative Assembly and Elections ACT sources.</p>
+        <p>Editable source: <code>content/states/act.md</code></p>
+        <div class="button-row">
+          <a class="button button-secondary" href="architecture/index.html">Open ACT architecture</a>
+          <a class="button button-secondary" href="constitution/index.html">Open ACT constitution</a>
+          <a class="button button-secondary" href="../../index.html">Back to national page</a>
+          <a class="button button-secondary" href="../../pages/states.html">Back to state map</a>
+          <a class="button button-secondary" href="history/index.html">Open state history</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">ACT timers</p>
+          <h2>Election timers.</h2>
+        </div>
+        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days-until, days-since and the markdown archive rule.</p>
+      </div>
+      <div class="timer-module reveal" data-timer-module>
+        <div class="timer-controls" data-timer-controls aria-label="ACT timer controls">
+  <label class="timer-sort-label">
+    <span>Sort timers</span>
+    <select data-timer-sort>
+      <option value="next">Soonest next</option>
+      <option value="byelections">By-elections first</option>
+      <option value="farthest">Farthest future</option>
+      <option value="state">State A-Z</option>
+      <option value="days-since">Days since / held</option>
+    </select>
+  </label>
+  <div class="segmented-control" role="group" aria-label="Timer display">
+    <button type="button" class="is-active" data-timer-mode="clock" aria-pressed="true">Clock</button>
+    <button type="button" data-timer-mode="days" aria-pressed="false">Days until/since</button>
+  </div>
+  <div class="segmented-control" role="group" aria-label="Timer filter">
+    <button type="button" class="is-active" data-timer-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-timer-filter="upcoming" aria-pressed="false">Upcoming</button>
+    <button type="button" data-timer-filter="by-election" aria-pressed="false">By-elections</button>
+    <button type="button" data-timer-filter="since" aria-pressed="false">Days since</button>
+  </div>
+</div>
+        <div class="timer-grid" data-timer-board>
+          <article class="election-timer state-page-timer" data-election-card data-state="act" data-election-date="2028-10-21T08:00:00+11:00" data-days-since-date="2024-10-19T08:00:00+11:00" data-days-since-label="Previous ACT Legislative Assembly election polling day" data-election-scope="general" data-election-kind="Territory general election" data-election-label="2028 ACT Legislative Assembly election" data-days-until-enabled="true" data-days-since-enabled="true" data-archive-days-since="true" data-cycle-key="act-2028-general" data-archive-with-cycle="next-higher-order-cycle-after-act-2028-general">
+  <div class="timer-topline"><span>Australian Capital Territory</span><span>Territory general election</span></div>
+  <h3>2028 ACT Legislative Assembly election</h3>
+  <p class="countdown-value" data-countdown="2028-10-21T08:00:00+11:00">Checking timer...</p>
+  <dl class="timer-day-metrics">
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+  </dl>
+  <p class="timer-date">21 Oct 2028</p>
+  <p class="timer-status">Scheduled by fixed-term cycle</p>
+  <p>Current member terms end on 21 October 2028.</p>
+  <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>Previous ACT Legislative Assembly election polling day</small></p>
+  <a class="timer-meta-link" href="https://www.elections.act.gov.au/__data/assets/pdf_file/0006/2900904/Election-Report-2024-.PDF">Days-since source</a>
+  <p class="timer-archive-note"><span>Archive rule</span><small>When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle.</small></p>
+  <a href="https://www.elections.act.gov.au/elections/our-electoral-system/current-members-of-the-legislative-assembly">Source</a>
+</article>
+        </div>
+        <p class="timer-empty" data-timer-empty hidden>No timers match this filter.</p>
+      </div>
+    </section>
+
+    <section class="section chamber-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Chamber split</p>
+          <h2>Party seats and named crossbench.</h2>
+        </div>
+        <p>These totals are the data layer future agents should refresh when resignations, recounts or by-elections change the map.</p>
+      </div>
+      <div class="chamber-grid reveal">
+        <article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Unicameral parliament</p>
+      <h3>Legislative Assembly</h3>
+    </div>
+    <div class="seat-total"><strong>25</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 13 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 40%"></span></span>
+  <span class="party-seats">10</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Canberra Liberals</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 36%"></span></span>
+  <span class="party-seats">9</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>ACT Greens</strong><small>GRN</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 16%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Fiona Carrick and Thomas Emerson</strong><small>2 MLAs</small>  <ul class="party-members" aria-label="Named members">
+    <li><strong>Fiona Carrick</strong><small>Murrumbidgee</small></li>
+    <li><strong>Thomas Emerson</strong><small>Kurrajong</small></li>
+  </ul><a class="member-source" href="https://www.parliament.act.gov.au/members/current">Named member source</a></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 8%"></span></span>
+  <span class="party-seats">2</span>
+</li>
+  </ul>
+  <p>The ACT has five electorates, each returning five MLAs.</p>
+  <a href="https://www.parliament.act.gov.au/members/current">Chamber source</a>
+</article>
+      </div>
+    </section>
+
+    <section class="section state-notes-sources">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Tailoring notes</p>
+        <h2>How this clone should think.</h2>
+        <ul class="plain-list">
+          <li>The ACT is the simplest chamber model: one house, five multi-member electorates.</li>
+<li>The Labor-Greens pattern makes it useful for testing coalition, confidence and supply language.</li>
+<li>Canberra is also symbolically important for the 2031 referendum simulator.</li>
+        </ul>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Sources</p>
+        <h2>Research links.</h2>
+        <ul class="source-list">
+          <li><a href="https://www.parliament.act.gov.au/members/current">ACT Legislative Assembly current members</a></li>
+<li><a href="https://www.elections.act.gov.au/elections/our-electoral-system/current-members-of-the-legislative-assembly">Elections ACT current members and term date</a></li>
+<li><a href="https://www.elections.act.gov.au/elections">Elections ACT elections page</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer state-footer">
+  <div>
+    <strong>P4A state portal</strong>
+    <span>Data-first pages generated from markdown files future agents can update.</span>
+  </div>
+  <nav aria-label="State portal footer links">
+    <a href="../../index.html">National page</a>
+    <a href="../../pages/states.html">State map</a>
+    <a href="../../pages/state-history.html">State histories</a>
+    <a href="../../content/states/README.md">State data notes</a>
+    <a href="../../content/history/README.md">History data notes</a>
+  </nav>
+</footer>
+  <script src="../../assets/state-data.js?v=20260509-pills"></script>
+  <script src="../../script.js?v=20260509-pills"></script>
+</body>
+</html>

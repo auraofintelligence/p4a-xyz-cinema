@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A | South Australia portal</title>
+  <meta name="description" content="P4A South Australia state portal with election countdowns, chamber composition and current government notes.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-pills">
+</head>
+<body data-theme="royal" data-state-page="sa">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="../../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../../index.html">Home</a>
+  <a href="../../states/sa/architecture/index.html">Architecture</a>
+  <a href="../../pages/twinkle.html">Twinkle</a>
+  <a href="../../pages/rabbit-hole.html">Rabbit</a>
+  <a href="../../pages/deployment-gear.html">Gear</a>
+  <a href="../../pages/musicverse.html">Music</a>
+  <a href="../../pages/states.html" data-nav-layer="national-map">National map</a>
+  <a href="../../states/sa/history/index.html" data-nav-layer="history-index">History</a>
+  <a href="../../states/sa/constitution/index.html">Constitution</a>
+  <a href="../../pages/legal-rag.html">Law</a>
+  <a href="../../pages/civic-ledger.html">Ledger</a>
+  <a href="../../states/sa/index.html" aria-current="page" data-nav-layer="state-site" aria-label="SA state overview">SA overview</a>
+</nav>
+</header>
+  <div class="site-layer-strip state-layer" aria-label="Current site layer">
+  <strong>SA state site</strong>
+  <span>You are inside the South Australia clone. The national map is one level up; council and local layers come next.</span>
+  <a href="../../states/sa/architecture/index.html">Architecture builder</a>
+  <a href="../../states/sa/constitution/index.html">Constitution builder</a>
+  <a href="../../pages/states.html">National state map</a>
+  <a href="../../index.html">National home</a>
+</div>
+  <main id="main" class="state-site-main">
+    <section class="state-hero state-detail-hero">
+      <div class="state-hero-bg"><img src="../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-content reveal">
+        <p class="eyebrow">State portal</p>
+        <h1>South Australia</h1>
+        <p>SA starts from Adelaide and works outward: current power, chamber balance, election clocks and the local civic rehearsal layer that can plug back into the national P4A preframe.</p>
+        <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
+      </div>
+    </section>
+
+    <section class="section state-summary-grid">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Who is in power</p>
+        <h2>Premier Peter Malinauskas</h2>
+        <dl class="fact-list">
+          <div><dt>Government</dt><dd>Australian Labor Party</dd></div>
+          <div><dt>Arrangement</dt><dd>Majority government</dd></div>
+          <div><dt>In power since</dt><dd>2022-03-21</dd></div>
+        </dl>
+        <p>Labor won an expanded House of Assembly majority at the 2026 South Australian election.</p>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Research status</p>
+        <h2>Checked 2026-05-08</h2>
+        <p>The 2026 election and Legislative Council declaration were checked against ECSA result sources. House totals are derived from ECSA final district data.</p>
+        <p>Editable source: <code>content/states/sa.md</code></p>
+        <div class="button-row">
+          <a class="button button-secondary" href="architecture/index.html">Open SA architecture</a>
+          <a class="button button-secondary" href="constitution/index.html">Open SA constitution</a>
+          <a class="button button-secondary" href="../../index.html">Back to national page</a>
+          <a class="button button-secondary" href="../../pages/states.html">Back to state map</a>
+          <a class="button button-secondary" href="history/index.html">Open state history</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">SA timers</p>
+          <h2>Election timers.</h2>
+        </div>
+        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days-until, days-since and the markdown archive rule.</p>
+      </div>
+      <div class="timer-module reveal" data-timer-module>
+        <div class="timer-controls" data-timer-controls aria-label="SA timer controls">
+  <label class="timer-sort-label">
+    <span>Sort timers</span>
+    <select data-timer-sort>
+      <option value="next">Soonest next</option>
+      <option value="byelections">By-elections first</option>
+      <option value="farthest">Farthest future</option>
+      <option value="state">State A-Z</option>
+      <option value="days-since">Days since / held</option>
+    </select>
+  </label>
+  <div class="segmented-control" role="group" aria-label="Timer display">
+    <button type="button" class="is-active" data-timer-mode="clock" aria-pressed="true">Clock</button>
+    <button type="button" data-timer-mode="days" aria-pressed="false">Days until/since</button>
+  </div>
+  <div class="segmented-control" role="group" aria-label="Timer filter">
+    <button type="button" class="is-active" data-timer-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-timer-filter="upcoming" aria-pressed="false">Upcoming</button>
+    <button type="button" data-timer-filter="by-election" aria-pressed="false">By-elections</button>
+    <button type="button" data-timer-filter="since" aria-pressed="false">Days since</button>
+  </div>
+</div>
+        <div class="timer-grid" data-timer-board>
+          <article class="election-timer state-page-timer" data-election-card data-state="sa" data-election-date="2030-03-16T08:00:00+10:30" data-days-since-date="2026-03-21T08:00:00+10:30" data-days-since-label="Previous South Australian State election polling day" data-election-scope="general" data-election-kind="State general election" data-election-label="2030 South Australian State election" data-days-until-enabled="true" data-days-since-enabled="true" data-archive-days-since="true" data-cycle-key="sa-2030-general" data-archive-with-cycle="next-higher-order-cycle-after-sa-2030-general">
+  <div class="timer-topline"><span>South Australia</span><span>State general election</span></div>
+  <h3>2030 South Australian State election</h3>
+  <p class="countdown-value" data-countdown="2030-03-16T08:00:00+10:30">Checking timer...</p>
+  <dl class="timer-day-metrics">
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+  </dl>
+  <p class="timer-date">16 Mar 2030</p>
+  <p class="timer-status">Scheduled by fixed-term cycle</p>
+  <p>South Australian state elections are ordinarily held on the third Saturday in March every four years.</p>
+  <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>Previous South Australian State election polling day</small></p>
+  <a class="timer-meta-link" href="https://ecsa.sa.gov.au/images/Compliance%20branch/Forms%20and%20guides/Guides/SE2026/Compliance%20Key%20Dates%20-%202026%20State%20Election.pdf">Days-since source</a>
+  <p class="timer-archive-note"><span>Archive rule</span><small>When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle.</small></p>
+  <a href="https://ecsa.sa.gov.au/elections">Source</a>
+</article>
+<article class="election-timer state-page-timer" data-election-card data-state="sa" data-election-date="2026-03-21T08:00:00+10:30" data-days-since-date="2026-03-21T08:00:00+10:30" data-days-since-label="2026 South Australian State election polling day" data-election-scope="recent" data-election-kind="State general election" data-election-label="2026 South Australian State election" data-days-until-enabled="true" data-days-since-enabled="true" data-archive-days-since="true" data-cycle-key="sa-2026-recent" data-archive-with-cycle="sa-2030-general archive">
+  <div class="timer-topline"><span>South Australia</span><span>State general election</span></div>
+  <h3>2026 South Australian State election</h3>
+  <p class="countdown-value" data-countdown="2026-03-21T08:00:00+10:30">Checking timer...</p>
+  <dl class="timer-day-metrics">
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+  </dl>
+  <p class="timer-date">21 Mar 2026</p>
+  <p class="timer-status">Final results published</p>
+  <p>Kept here as the most recent research anchor after the March 2026 election.</p>
+  <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>2026 South Australian State election polling day</small></p>
+  <a class="timer-meta-link" href="https://ecsa.sa.gov.au/images/Compliance%20branch/Forms%20and%20guides/Guides/SE2026/Compliance%20Key%20Dates%20-%202026%20State%20Election.pdf">Days-since source</a>
+  <p class="timer-archive-note"><span>Archive rule</span><small>Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle.</small></p>
+  <a href="https://result.ecsa.sa.gov.au/">Source</a>
+</article>
+        </div>
+        <p class="timer-empty" data-timer-empty hidden>No timers match this filter.</p>
+      </div>
+    </section>
+
+    <section class="section chamber-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Chamber split</p>
+          <h2>Party seats and named crossbench.</h2>
+        </div>
+        <p>These totals are the data layer future agents should refresh when resignations, recounts or by-elections change the map.</p>
+      </div>
+      <div class="chamber-grid reveal">
+        <article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Lower house</p>
+      <h3>House of Assembly</h3>
+    </div>
+    <div class="seat-total"><strong>47</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 24 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 72%"></span></span>
+  <span class="party-seats">34</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Liberal Party</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 11%"></span></span>
+  <span class="party-seats">5</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Pauline Hanson&#39;s One Nation</strong><small>ONP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 8%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Geoff Brock, Matt Schultz, Lou Nicholson and Travis Fatchen</strong><small>4 MHAs</small>  <ul class="party-members" aria-label="Named members">
+    <li><strong>Geoff Brock</strong><small>Stuart</small></li>
+    <li><strong>Matt Schultz</strong><small>Kavel</small></li>
+    <li><strong>Lou Nicholson</strong><small>Finniss</small></li>
+    <li><strong>Travis Fatchen</strong><small>Mount Gambier</small></li>
+  </ul><a class="member-source" href="https://www.abc.net.au/news/elections/sa/2026/results">Named member source</a></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 8%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+  </ul>
+  <p>Derived from ECSA final district results after the 2026 election.</p>
+  <a href="https://result.ecsa.sa.gov.au/">Chamber source</a>
+</article>
+<article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Upper house</p>
+      <h3>Legislative Council</h3>
+    </div>
+    <div class="seat-total"><strong>22</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 12 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 46%"></span></span>
+  <span class="party-seats">10</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Liberal Party</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 27%"></span></span>
+  <span class="party-seats">6</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Pauline Hanson&#39;s One Nation</strong><small>ONP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 18%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Greens</strong><small>GRN</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 9%"></span></span>
+  <span class="party-seats">2</span>
+</li>
+  </ul>
+  <p>Full chamber estimate combines the 2026 elected half with continuing 2022 members.</p>
+  <a href="https://ecsa.sa.gov.au/elections/2026se-lc-results">Chamber source</a>
+</article>
+      </div>
+    </section>
+
+    <section class="section state-notes-sources">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Tailoring notes</p>
+        <h2>How this clone should think.</h2>
+        <ul class="plain-list">
+          <li>SA is the freshest full state-election result in the portal.</li>
+<li>The 2026 result shows how quickly a chamber map can change when a minor party surges.</li>
+<li>Keep SA marked as a post-election learning page before turning it into campaign assumptions.</li>
+        </ul>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Sources</p>
+        <h2>Research links.</h2>
+        <ul class="source-list">
+          <li><a href="https://ecsa.sa.gov.au/elections/2026se-lc-results">ECSA 2026 Legislative Council results</a></li>
+<li><a href="https://result.ecsa.sa.gov.au/">ECSA results website</a></li>
+<li><a href="https://ecsa.sa.gov.au/images/Compliance%20branch/Forms%20and%20guides/Guides/SE2026/Compliance%20Key%20Dates%20-%202026%20State%20Election.pdf">ECSA 2026 compliance key dates</a></li>
+<li><a href="https://ecsa.sa.gov.au/elections">ECSA elections</a></li>
+<li><a href="https://www.abc.net.au/news/elections/sa/2026/results">ABC SA 2026 results and named crossbench winners</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer state-footer">
+  <div>
+    <strong>P4A state portal</strong>
+    <span>Data-first pages generated from markdown files future agents can update.</span>
+  </div>
+  <nav aria-label="State portal footer links">
+    <a href="../../index.html">National page</a>
+    <a href="../../pages/states.html">State map</a>
+    <a href="../../pages/state-history.html">State histories</a>
+    <a href="../../content/states/README.md">State data notes</a>
+    <a href="../../content/history/README.md">History data notes</a>
+  </nav>
+</footer>
+  <script src="../../assets/state-data.js?v=20260509-pills"></script>
+  <script src="../../script.js?v=20260509-pills"></script>
+</body>
+</html>

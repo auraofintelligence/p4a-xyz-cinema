@@ -6,17 +6,63 @@ navToggle?.addEventListener('click', () => {
 });
 
 const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add('is-visible');
-  });
-}, { threshold: 0.12 });
-reveals.forEach((el) => observer.observe(el));
+const showReveal = (el) => el.classList.add('is-visible');
 
-const path = location.pathname.split('/').pop() || 'index.html';
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      showReveal(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
+  reveals.forEach((el) => observer.observe(el));
+} else {
+  reveals.forEach(showReveal);
+}
+
+const normaliseNavPath = (value) => {
+  const url = new URL(value, location.href);
+  return url.pathname.replace(/\/index\.html$/, '/');
+};
+const path = normaliseNavPath(location.href);
 document.querySelectorAll('[data-nav] a').forEach((link) => {
-  const href = link.getAttribute('href')?.split('/').pop() || 'index.html';
-  if (href === path) link.setAttribute('aria-current', 'page');
+  const href = link.getAttribute('href');
+  if (!href || href.includes('#')) return;
+  if (normaliseNavPath(href) === path) link.setAttribute('aria-current', 'page');
+});
+
+document.querySelectorAll('a[href]').forEach((link) => {
+  const href = link.getAttribute('href');
+  if (!href) return;
+
+  let url;
+  try {
+    url = new URL(href, location.href);
+  } catch {
+    return;
+  }
+
+  const isWebLink = url.protocol === 'http:' || url.protocol === 'https:';
+  if (!isWebLink) return;
+
+  const isSameOrigin = url.origin === location.origin;
+  const currentPathParts = location.pathname.split('/').filter(Boolean);
+  const targetPathParts = url.pathname.split('/').filter(Boolean);
+  const currentRepo = location.hostname.endsWith('github.io') ? currentPathParts[0] : '';
+  const leavesCurrentGithubRepo = Boolean(
+    currentRepo &&
+    isSameOrigin &&
+    targetPathParts[0] &&
+    targetPathParts[0] !== currentRepo
+  );
+  if (isSameOrigin && !leavesCurrentGithubRepo) return;
+
+  link.setAttribute('target', '_blank');
+  const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+  rel.add('noopener');
+  rel.add('noreferrer');
+  link.setAttribute('rel', Array.from(rel).join(' '));
 });
 
 const ausPostCalculatorUrl = 'https://auspost.com.au/parcels-mail/calculate-postage-delivery-times/#/';
@@ -597,3 +643,417 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
   addonInputs.forEach((input) => input.addEventListener('change', updateSummary));
   updateSummary();
 });
+
+(() => {
+  const body = document.body;
+  if (!body) return;
+
+  const actions = document.createElement('nav');
+  actions.className = 'floating-actions';
+  actions.setAttribute('aria-label', 'Quick page links');
+
+  const topButton = document.createElement('button');
+  topButton.className = 'floating-top-button';
+  topButton.type = 'button';
+  topButton.textContent = 'Top';
+  topButton.setAttribute('aria-label', 'Back to top');
+  topButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  actions.appendChild(topButton);
+  body.appendChild(actions);
+
+  const syncFloatingActions = () => {
+    actions.classList.toggle('is-visible', window.scrollY > 220);
+  };
+
+  syncFloatingActions();
+  window.addEventListener('scroll', syncFloatingActions, { passive: true });
+})();
+
+(() => {
+  const countdowns = Array.from(document.querySelectorAll('[data-countdown]'));
+  const timerModules = Array.from(document.querySelectorAll('[data-timer-module]'));
+  const mapTargets = Array.from(document.querySelectorAll('[data-map-state]'));
+  const stateTargets = Array.from(document.querySelectorAll('[data-state]'));
+  if (!countdowns.length && !mapTargets.length && !stateTargets.length) return;
+
+  const dayMs = 86400000;
+  const two = (value) => String(value).padStart(2, '0');
+  const isByElection = (card) => {
+    const scope = (card.getAttribute('data-election-scope') || '').toLowerCase();
+    const kind = (card.getAttribute('data-election-kind') || '').toLowerCase();
+    return scope.includes('by-election') || kind.includes('by-election');
+  };
+
+  const getCardTime = (card) => {
+    const countdown = card.querySelector('[data-countdown]');
+    const rawDate = card.getAttribute('data-election-date') || countdown?.getAttribute('data-countdown') || '';
+    const target = new Date(rawDate);
+    const stamp = target.getTime();
+    if (Number.isNaN(stamp)) {
+      return { invalid: true, diff: 0, abs: 0, stamp: Number.MAX_SAFE_INTEGER, state: 'invalid' };
+    }
+
+    const diff = stamp - Date.now();
+    const abs = Math.abs(diff);
+    const rawSinceDate = card.getAttribute('data-days-since-date') || '';
+    const sinceTarget = rawSinceDate ? new Date(rawSinceDate) : target;
+    const sinceStamp = sinceTarget.getTime();
+    const sinceValid = !Number.isNaN(sinceStamp);
+    const sinceDiff = sinceValid ? Date.now() - sinceStamp : 0;
+    const sinceAbs = sinceValid ? Math.abs(sinceDiff) : 0;
+    return {
+      invalid: false,
+      diff,
+      abs,
+      stamp,
+      state: diff >= 0 ? 'future' : 'past',
+      sinceInvalid: !sinceValid,
+      sinceDiff,
+      sinceAbs,
+      sinceStamp: sinceValid ? sinceStamp : Number.MAX_SAFE_INTEGER
+    };
+  };
+
+  const updateCardState = (card) => {
+    const info = getCardTime(card);
+    card.setAttribute('data-election-time-state', info.state);
+    card.setAttribute('data-election-distance', String(info.abs));
+    card.setAttribute('data-election-stamp', String(info.stamp));
+    card.classList.toggle('is-by-election', isByElection(card));
+    return info;
+  };
+
+  const renderDayMetrics = (card, info) => {
+    if (!card) return;
+    const untilWrap = card.querySelector('[data-days-until-wrap]');
+    const sinceWrap = card.querySelector('[data-days-since-wrap]');
+    const untilValue = card.querySelector('[data-days-until]');
+    const sinceValue = card.querySelector('[data-days-since]');
+    if (!untilValue && !sinceValue) return;
+
+    const daysUntilEnabled = card.getAttribute('data-days-until-enabled') !== 'false';
+    const daysSinceEnabled = card.getAttribute('data-days-since-enabled') !== 'false';
+    if (untilWrap) untilWrap.hidden = !daysUntilEnabled;
+    if (sinceWrap) sinceWrap.hidden = !daysSinceEnabled;
+
+    if (info.invalid) {
+      if (untilValue) untilValue.textContent = 'Check';
+      if (sinceValue) sinceValue.textContent = 'Check';
+      return;
+    }
+
+    const elapsedDays = info.sinceInvalid ? 0 : Math.floor(info.sinceAbs / dayMs);
+    const remainingDays = Math.ceil(info.abs / dayMs);
+    if (untilValue) {
+      untilValue.textContent = info.diff >= 0 ? String(Math.max(0, remainingDays)) : '0';
+    }
+    if (sinceValue) {
+      sinceValue.textContent = info.sinceInvalid ? 'Check' : String(Math.max(0, info.sinceDiff >= 0 ? elapsedDays : 0));
+    }
+  };
+
+  const renderCountdown = (element) => {
+    const card = element.closest('[data-election-card]');
+    const module = element.closest('[data-timer-module]');
+    const mode = module?.getAttribute('data-timer-mode') || 'clock';
+    const info = card ? updateCardState(card) : getCardTime(element);
+    renderDayMetrics(card, info);
+
+    if (info.invalid) {
+      element.textContent = 'Date needs checking';
+      element.setAttribute('data-countdown-state', 'invalid');
+      return;
+    }
+
+    const days = Math.floor(info.abs / dayMs);
+    const futureDays = Math.ceil(info.abs / dayMs);
+    const hours = Math.floor((info.abs % dayMs) / 3600000);
+    const minutes = Math.floor((info.abs % 3600000) / 60000);
+    const seconds = Math.floor((info.abs % 60000) / 1000);
+
+    if (mode === 'days') {
+      if (info.diff >= 0) {
+        element.textContent = futureDays <= 0 ? 'Today' : `${futureDays} day${futureDays === 1 ? '' : 's'} until`;
+      } else {
+        element.textContent = days < 1 ? 'Today' : `${days} day${days === 1 ? '' : 's'} since`;
+      }
+      element.setAttribute('data-countdown-state', info.state);
+      return;
+    }
+
+    if (info.diff >= 0) {
+      element.textContent = days < 1 ? `${two(hours)}h ${two(minutes)}m ${two(seconds)}s` : `${days}d ${two(hours)}h ${two(minutes)}m`;
+      element.setAttribute('data-countdown-state', 'future');
+    } else {
+      element.textContent = days < 1
+        ? `Held ${two(hours)}h ${two(minutes)}m ago`
+        : `Held ${days}d ${two(hours)}h ago`;
+      element.setAttribute('data-countdown-state', 'past');
+    }
+  };
+
+  const compareNext = (a, b) => {
+    const aInfo = updateCardState(a);
+    const bInfo = updateCardState(b);
+    const aBucket = aInfo.state === 'future' ? 0 : 1;
+    const bBucket = bInfo.state === 'future' ? 0 : 1;
+    if (aBucket !== bBucket) return aBucket - bBucket;
+    if (aInfo.state === 'future') return aInfo.stamp - bInfo.stamp;
+    return bInfo.stamp - aInfo.stamp;
+  };
+
+  const compareCards = (sortMode) => (a, b) => {
+    const aInfo = updateCardState(a);
+    const bInfo = updateCardState(b);
+
+    if (sortMode === 'byelections') {
+      const byDiff = Number(isByElection(b)) - Number(isByElection(a));
+      if (byDiff !== 0) return byDiff;
+      return compareNext(a, b);
+    }
+
+    if (sortMode === 'farthest') {
+      const aBucket = aInfo.state === 'future' ? 0 : 1;
+      const bBucket = bInfo.state === 'future' ? 0 : 1;
+      if (aBucket !== bBucket) return aBucket - bBucket;
+      return bInfo.stamp - aInfo.stamp;
+    }
+
+    if (sortMode === 'state') {
+      const stateDiff = (a.getAttribute('data-state') || '').localeCompare(b.getAttribute('data-state') || '');
+      if (stateDiff !== 0) return stateDiff;
+      return compareNext(a, b);
+    }
+
+    if (sortMode === 'days-since') {
+      const aBucket = aInfo.sinceInvalid ? 1 : 0;
+      const bBucket = bInfo.sinceInvalid ? 1 : 0;
+      if (aBucket !== bBucket) return aBucket - bBucket;
+      return bInfo.sinceAbs - aInfo.sinceAbs;
+    }
+
+    return compareNext(a, b);
+  };
+
+  const updateModule = (module) => {
+    const board = module.querySelector('[data-timer-board]');
+    if (!board) return;
+
+    const sortMode = module.querySelector('[data-timer-sort]')?.value || 'next';
+    const filterMode = module.getAttribute('data-timer-filter') || 'all';
+    const cards = Array.from(board.querySelectorAll('[data-election-card]'));
+    cards.sort(compareCards(sortMode)).forEach((card) => board.appendChild(card));
+
+    let visibleCount = 0;
+    cards.forEach((card) => {
+      const info = updateCardState(card);
+      const visible = filterMode === 'all'
+        || (filterMode === 'upcoming' && info.state === 'future')
+        || (filterMode === 'past' && info.state === 'past')
+        || (filterMode === 'since' && card.getAttribute('data-days-since-enabled') !== 'false')
+        || (filterMode === 'by-election' && isByElection(card));
+      card.hidden = !visible;
+      card.classList.toggle('is-filtered-out', !visible);
+      if (visible) visibleCount += 1;
+    });
+
+    const empty = module.querySelector('[data-timer-empty]');
+    if (empty) empty.hidden = visibleCount > 0;
+  };
+
+  const setModeButtonState = (module, mode) => {
+    module.setAttribute('data-timer-mode', mode);
+    module.querySelectorAll('[data-timer-mode]').forEach((button) => {
+      const active = button.getAttribute('data-timer-mode') === mode;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    countdowns.forEach(renderCountdown);
+  };
+
+  timerModules.forEach((module) => {
+    module.setAttribute('data-timer-mode', 'clock');
+    module.setAttribute('data-timer-filter', 'all');
+    module.querySelector('[data-timer-sort]')?.addEventListener('change', (event) => {
+      if (event.target.value === 'days-since') setModeButtonState(module, 'days');
+      updateModule(module);
+    });
+
+    module.querySelectorAll('[data-timer-mode]').forEach((button) => {
+      button.addEventListener('click', () => setModeButtonState(module, button.getAttribute('data-timer-mode') || 'clock'));
+    });
+
+    module.querySelectorAll('[data-timer-filter]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-timer-filter') || 'all';
+        module.setAttribute('data-timer-filter', filter);
+        module.querySelectorAll('[data-timer-filter]').forEach((item) => {
+          const active = item === button;
+          item.classList.toggle('is-active', active);
+          item.setAttribute('aria-pressed', String(active));
+        });
+        if (filter === 'past' || filter === 'since') {
+          setModeButtonState(module, 'days');
+          const sorter = module.querySelector('[data-timer-sort]');
+          if (filter === 'since' && sorter) sorter.value = 'days-since';
+        }
+        updateModule(module);
+      });
+    });
+
+    updateModule(module);
+  });
+
+  const updateCountdowns = () => {
+    countdowns.forEach(renderCountdown);
+    timerModules.forEach(updateModule);
+  };
+  updateCountdowns();
+  if (countdowns.length) setInterval(updateCountdowns, 1000);
+
+  const setActiveState = (slug) => {
+    if (!slug) return;
+    mapTargets.forEach((target) => {
+      target.classList.toggle('is-active', target.getAttribute('data-map-state') === slug);
+    });
+    stateTargets.forEach((target) => {
+      target.classList.toggle('is-active-state', target.getAttribute('data-state') === slug);
+    });
+  };
+
+  const bindStateActivation = (target, attribute) => {
+    const slug = target.getAttribute(attribute);
+    if (!slug) return;
+    ['pointerenter', 'focusin', 'pointerdown', 'touchstart'].forEach((eventName) => {
+      target.addEventListener(eventName, () => setActiveState(slug), { passive: true });
+    });
+  };
+
+  mapTargets.forEach((target) => bindStateActivation(target, 'data-map-state'));
+  stateTargets.forEach((target) => bindStateActivation(target, 'data-state'));
+
+  const hashSlug = location.hash.replace('#', '').trim().toLowerCase();
+  const initial = hashSlug || mapTargets[0]?.getAttribute('data-map-state') || stateTargets[0]?.getAttribute('data-state');
+  setActiveState(initial);
+})();
+
+(() => {
+  const builders = Array.from(document.querySelectorAll('[data-map-layer-builder]'));
+  if (!builders.length) return;
+
+  const layerCopy = {
+    councils: {
+      title: 'Local councils layer',
+      copy: 'Future SVG or GeoJSON council boundaries should render here first, then each council opens its own self-similar local portal.'
+    },
+    electorates: {
+      title: 'State electorates layer',
+      copy: 'Electorate maps connect local issues to representation, by-elections, campaign pages and parliamentary responsibility.'
+    },
+    bioregions: {
+      title: 'Bioregions layer',
+      copy: 'Living-system maps compare catchments, coastlines, food systems, disaster corridors and ecological repair zones against legal boundaries.'
+    },
+    'first-nations': {
+      title: 'First Nations maps layer',
+      copy: 'Nation, Country and language maps need protocol and source humility; they guide learning without replacing cultural authority.'
+    }
+  };
+
+  builders.forEach((builder) => {
+    const setLayer = (layer) => {
+      builder.querySelectorAll('[data-map-layer-choice]').forEach((button) => {
+        const active = button.getAttribute('data-map-layer-choice') === layer;
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      builder.querySelectorAll('[data-map-layer-panel]').forEach((panel) => {
+        const active = panel.getAttribute('data-map-layer-panel') === layer;
+        panel.hidden = !active;
+        panel.classList.toggle('is-active', active);
+      });
+      const title = builder.querySelector('[data-map-layer-title]');
+      const copy = builder.querySelector('[data-map-layer-copy]');
+      if (title && layerCopy[layer]) title.textContent = layerCopy[layer].title;
+      if (copy && layerCopy[layer]) copy.textContent = layerCopy[layer].copy;
+    };
+
+    builder.querySelectorAll('[data-map-layer-choice]').forEach((button) => {
+      button.addEventListener('click', () => setLayer(button.getAttribute('data-map-layer-choice') || 'councils'));
+    });
+    setLayer('councils');
+  });
+})();
+
+(() => {
+  const modules = Array.from(document.querySelectorAll('[data-history-module]'));
+  if (!modules.length) return;
+
+  const text = (value) => (value || '').trim().toLowerCase();
+  const getYear = (card) => {
+    const year = Number(card.getAttribute('data-history-sort-year'));
+    return Number.isFinite(year) ? year : Number.MAX_SAFE_INTEGER;
+  };
+  const getState = (card) => text(card.getAttribute('data-state'));
+  const getPeriod = (card) => text(card.getAttribute('data-history-period'));
+  const getTitle = (card) => text(card.getAttribute('data-history-title'));
+  const getFirstTheme = (card) => text((card.getAttribute('data-history-themes') || '').split(',')[0]);
+
+  const compareCards = (sortMode) => (a, b) => {
+    if (sortMode === 'newest') return getYear(b) - getYear(a) || getState(a).localeCompare(getState(b)) || getTitle(a).localeCompare(getTitle(b));
+    if (sortMode === 'state') return getState(a).localeCompare(getState(b)) || getYear(a) - getYear(b);
+    if (sortMode === 'theme') return getFirstTheme(a).localeCompare(getFirstTheme(b)) || getYear(a) - getYear(b);
+    if (sortMode === 'period') return getPeriod(a).localeCompare(getPeriod(b)) || getYear(a) - getYear(b);
+    return getYear(a) - getYear(b) || getState(a).localeCompare(getState(b)) || getTitle(a).localeCompare(getTitle(b));
+  };
+
+  const matchesTheme = (card, theme) => {
+    if (theme === 'all') return true;
+    const themes = (card.getAttribute('data-history-themes') || '').split(',').map((item) => item.trim());
+    return themes.includes(theme);
+  };
+
+  const updateHistoryModule = (module) => {
+    const board = module.querySelector('[data-history-board]');
+    if (!board) return;
+
+    const sortMode = module.querySelector('[data-history-sort]')?.value || 'oldest';
+    const levelMode = module.querySelector('[data-history-level]')?.value || 'basic';
+    const themeMode = module.querySelector('[data-history-theme]')?.value || 'all';
+    const search = text(module.querySelector('[data-history-search]')?.value);
+    const cards = Array.from(board.querySelectorAll('[data-history-card]'));
+
+    cards.sort(compareCards(sortMode)).forEach((card) => board.appendChild(card));
+
+    let visibleCount = 0;
+    cards.forEach((card) => {
+      const cardLevel = text(card.getAttribute('data-history-level'));
+      const levelVisible = levelMode === 'all' || cardLevel === levelMode;
+      const themeVisible = matchesTheme(card, themeMode);
+      const searchVisible = !search || text(card.textContent).includes(search);
+      const visible = levelVisible && themeVisible && searchVisible;
+      card.hidden = !visible;
+      card.classList.toggle('is-filtered-out', !visible);
+      if (visible) visibleCount += 1;
+    });
+
+    const count = module.querySelector('[data-history-count]');
+    if (count) {
+      const noun = visibleCount === 1 ? 'event' : 'events';
+      count.textContent = `${visibleCount} of ${cards.length} history ${noun} shown`;
+    }
+
+    const empty = module.querySelector('[data-history-empty]');
+    if (empty) empty.hidden = visibleCount > 0;
+  };
+
+  modules.forEach((module) => {
+    ['data-history-sort', 'data-history-level', 'data-history-theme'].forEach((selector) => {
+      module.querySelector(`[${selector}]`)?.addEventListener('change', () => updateHistoryModule(module));
+    });
+    module.querySelector('[data-history-search]')?.addEventListener('input', () => updateHistoryModule(module));
+    updateHistoryModule(module);
+  });
+})();

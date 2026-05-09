@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A | South Australia architecture builder</title>
+  <meta name="description" content="P4A South Australia architecture builder for local council drill-downs, state electorates, bioregions, First Nations protocol maps, public ledgers and state-level civic simulation.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../../styles.css?v=20260509-pills">
+</head>
+<body data-theme="royal" data-state-page="sa-architecture">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="../../../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../../../index.html">Home</a>
+  <a href="../../../states/sa/architecture/index.html" aria-current="page">Architecture</a>
+  <a href="../../../pages/twinkle.html">Twinkle</a>
+  <a href="../../../pages/rabbit-hole.html">Rabbit</a>
+  <a href="../../../pages/deployment-gear.html">Gear</a>
+  <a href="../../../pages/musicverse.html">Music</a>
+  <a href="../../../pages/states.html" data-nav-layer="national-map">National map</a>
+  <a href="../../../states/sa/history/index.html" data-nav-layer="history-index">History</a>
+  <a href="../../../states/sa/constitution/index.html">Constitution</a>
+  <a href="../../../pages/legal-rag.html">Law</a>
+  <a href="../../../pages/civic-ledger.html">Ledger</a>
+  <a href="../../../states/sa/index.html" data-nav-layer="state-site" aria-label="SA state overview">SA overview</a>
+</nav>
+</header>
+  <div class="site-layer-strip state-layer" aria-label="Current site layer">
+  <strong>SA state site</strong>
+  <span>You are inside the South Australia clone. The national map is one level up; council and local layers come next.</span>
+  <a href="../../../states/sa/architecture/index.html">Architecture builder</a>
+  <a href="../../../states/sa/constitution/index.html">Constitution builder</a>
+  <a href="../../../pages/states.html">National state map</a>
+  <a href="../../../index.html">National home</a>
+</div>
+  <main id="main" class="state-site-main builder-site-main">
+    <section class="state-hero state-detail-hero">
+      <div class="state-hero-bg"><img src="../../../assets/p4a-map-card.png" alt="Purple map artwork for South Australia civic architecture"></div>
+      <div class="state-hero-content reveal">
+        <p class="eyebrow">SA architecture builder</p>
+        <h1>South Australia civic architecture</h1>
+        <p>The SA layer starts with local communities, councils and bioregions, then uses state machinery as a coordination layer. The default drill-down should be local councils, with switchable lenses for state electorates, bioregions and First Nations nation or language maps.</p>
+        <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
+      </div>
+    </section>
+
+    <section class="section state-summary-grid">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">What belongs here</p>
+        <h2>The map and tool layer.</h2>
+        <p>Architecture is where SA decides how people move between community groups, councils, electorates, bioregions, protocol maps, public assets, local projects, public profile files, C-Hour contribution records, ledgers and simulations.</p>
+        <p>It should show what data exists, what is missing, what can be updated from markdown, and which map lens is currently active.</p>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Not the constitution</p>
+        <h2>Rules come next.</h2>
+        <p>The constitution builder decides powers, limits, amendment pathways and legal commitments. This page designs the civic container those rules plug into.</p>
+        <div class="button-row">
+          <a class="button button-secondary" href="../constitution/index.html">Open SA constitution</a>
+          <a class="button button-secondary" href="../index.html">Back to SA portal</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">State map builder</p>
+          <h2>Default to councils, then switch lenses.</h2>
+        </div>
+        <p>The first proper state map should be clickable local councils. Electorates, bioregions and First Nations maps sit beside it as overlays, not replacements.</p>
+      </div>
+      <div class="map-builder reveal" data-map-layer-builder>
+        <div class="segmented-control map-layer-controls" role="group" aria-label="SA architecture map layers">
+          <button type="button" class="is-active" data-map-layer-choice="councils" aria-pressed="true">Local councils</button>
+          <button type="button" data-map-layer-choice="electorates" aria-pressed="false">State electorates</button>
+          <button type="button" data-map-layer-choice="bioregions" aria-pressed="false">Bioregions</button>
+          <button type="button" data-map-layer-choice="first-nations" aria-pressed="false">First Nations maps</button>
+        </div>
+        <div class="map-builder-layout">
+          <article class="map-builder-canvas">
+            <span>SA</span>
+            <h3 data-map-layer-title>Local councils layer</h3>
+            <p data-map-layer-copy>Future SVG or GeoJSON council boundaries should render here first, then each council opens its own self-similar local portal.</p>
+            <p class="map-data-target">Map data target: <code>assets/maps/sa-councils.svg</code> or <code>content/local-councils/sa.md</code></p>
+          </article>
+          <div class="map-layer-panels">
+            <article class="map-layer-panel is-active" data-map-layer-panel="councils">
+              <h3>Local councils first</h3>
+              <p>Default drill-down: local government areas, wards where relevant, public assets, local laws, rates, grants, services, council meetings, local project boards, public/private markdown streams and C-Hour eligible contribution categories.</p>
+              <ul class="plain-list">
+                <li>Each council gets a portal, local ledger, local law memory, public noticeboard, public profile pattern and project board.</li>
+                <li>Each council should eventually show care, repair, disaster response, mentoring, ecological work and civic service records only where consent and verification are clear.</li>
+                <li>Future source suite: <code>content/local-councils/sa.md</code>.</li>
+              </ul>
+            </article>
+            <article class="map-layer-panel" data-map-layer-panel="electorates" hidden>
+              <h3>State electorates</h3>
+              <p>Electorates explain representation, campaigns, by-elections, local issues and who carries responsibility inside Parliament.</p>
+              <ul class="plain-list">
+                <li>Lower-house electorates are the default political accountability layer.</li>
+                <li>Upper-house regions or councils need state-specific handling where they exist.</li>
+              </ul>
+            </article>
+            <article class="map-layer-panel" data-map-layer-panel="bioregions" hidden>
+              <h3>Bioregions and catchments</h3>
+              <p>Living systems often explain reality better than political borders: water, food, fire, flood, coasts, islands, habitat and disaster corridors.</p>
+              <ul class="plain-list">
+                <li>This layer should connect ecological risk to councils and public assets.</li>
+                <li>Future source suite: <code>content/bioregions/sa.md</code>.</li>
+              </ul>
+            </article>
+            <article class="map-layer-panel" data-map-layer-panel="first-nations" hidden>
+              <h3>First Nations nation and language maps</h3>
+              <p>This layer needs protocol, humility and source care. Public maps can guide learning, but they do not replace cultural authority or permission.</p>
+              <ul class="plain-list">
+                <li>Future pages should cite map provenance and show limits clearly.</li>
+                <li><a href="https://aiatsis.gov.au/explore/map-indigenous-australia">AIATSIS map of Indigenous Australia</a> is a learning reference, not a local authority substitute.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Self-similar modules</p>
+          <h2>Same pattern, state-specific contents.</h2>
+        </div>
+        <p>The state architecture should feel familiar without pretending every jurisdiction has the same laws, chambers, local government structure or cultural geography.</p>
+      </div>
+      <div class="feature-grid three reveal">
+        <article><span class="card-number">01</span><h3>Overview</h3><p>Capital, current government, chamber type, council count, map sources, maintainers and last research run.</p></article>
+        <article><span class="card-number">02</span><h3>Map stack</h3><p>Councils, wards, electorates, bioregions, First Nations maps, public assets and disaster-risk overlays.</p></article>
+        <article><span class="card-number">03</span><h3>Tool stack</h3><p>Local portals, public profile.md files, self-sovereign digital twins, ledgers, Legal RAG references, project boards, civic surges, election clocks and simulation hooks.</p></article>
+        <article><span class="card-number">04</span><h3>Braided economy</h3><p>C-Hour categories, verification rules, reciprocity ledgers and local public-good contribution need to sit inside the state architecture from the start.</p></article>
+        <article><span class="card-number">05</span><h3>Public-private streams</h3><p>Public noticeboards and contribution leaderboards can be agent-readable markdown, while private notes, identity material and sensitive care context stay out of public views by default.</p></article>
+        <article><span class="card-number">06</span><h3>Digital twins</h3><p>A diary, photo album and filing cabinet are analogue twins; profile.md suites are lightweight digital twins; Aura Genesis is one deeper pathway, not the only doorway.</p></article>
+      </div>
+    </section>
+
+    <section class="section state-data-note reveal">
+      <p class="eyebrow">Agent-ready data</p>
+      <h2>This builder needs its own markdown suite.</h2>
+      <p>Current state facts come from <code>content/states/sa.md</code>. The next data layer should add council, electorate, bioregion, First Nations/protocol, public profile, public noticeboard, self-sovereign digital twin and contribution ledger markdown files so authorised agents can refresh maps without touching templates.</p>
+      <p>The 2026 election and Legislative Council declaration were checked against ECSA result sources. House totals are derived from ECSA final district data.</p>
+    </section>
+  </main>
+  <footer class="site-footer state-footer">
+  <div>
+    <strong>P4A state portal</strong>
+    <span>Data-first pages generated from markdown files future agents can update.</span>
+  </div>
+  <nav aria-label="State portal footer links">
+    <a href="../../../index.html">National page</a>
+    <a href="../../../pages/states.html">State map</a>
+    <a href="../../../pages/state-history.html">State histories</a>
+    <a href="../../../content/states/README.md">State data notes</a>
+    <a href="../../../content/history/README.md">History data notes</a>
+  </nav>
+</footer>
+  <script src="../../../script.js?v=20260509-pills"></script>
+</body>
+</html>

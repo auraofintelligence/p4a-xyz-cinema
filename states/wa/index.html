@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A | Western Australia portal</title>
+  <meta name="description" content="P4A Western Australia state portal with election countdowns, chamber composition and current government notes.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../styles.css?v=20260509-pills">
+</head>
+<body data-theme="royal" data-state-page="wa">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="../../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>People's Purple</strong><span>Protopian Party of Australia</span></span></a>
+  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="site-nav" data-nav aria-label="Main navigation">
+  <a href="../../index.html">Home</a>
+  <a href="../../states/wa/architecture/index.html">Architecture</a>
+  <a href="../../pages/twinkle.html">Twinkle</a>
+  <a href="../../pages/rabbit-hole.html">Rabbit</a>
+  <a href="../../pages/deployment-gear.html">Gear</a>
+  <a href="../../pages/musicverse.html">Music</a>
+  <a href="../../pages/states.html" data-nav-layer="national-map">National map</a>
+  <a href="../../states/wa/history/index.html" data-nav-layer="history-index">History</a>
+  <a href="../../states/wa/constitution/index.html">Constitution</a>
+  <a href="../../pages/legal-rag.html">Law</a>
+  <a href="../../pages/civic-ledger.html">Ledger</a>
+  <a href="../../states/wa/index.html" aria-current="page" data-nav-layer="state-site" aria-label="WA state overview">WA overview</a>
+</nav>
+</header>
+  <div class="site-layer-strip state-layer" aria-label="Current site layer">
+  <strong>WA state site</strong>
+  <span>You are inside the Western Australia clone. The national map is one level up; council and local layers come next.</span>
+  <a href="../../states/wa/architecture/index.html">Architecture builder</a>
+  <a href="../../states/wa/constitution/index.html">Constitution builder</a>
+  <a href="../../pages/states.html">National state map</a>
+  <a href="../../index.html">National home</a>
+</div>
+  <main id="main" class="state-site-main">
+    <section class="state-hero state-detail-hero">
+      <div class="state-hero-bg"><img src="../../assets/p4a-map-card.png" alt="Purple Australia map artwork"></div>
+      <div class="state-hero-content reveal">
+        <p class="eyebrow">State portal</p>
+        <h1>Western Australia</h1>
+        <p>WA starts from Perth and works outward: current power, chamber balance, election clocks and the local civic rehearsal layer that can plug back into the national P4A preframe.</p>
+        <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
+      </div>
+    </section>
+
+    <section class="section state-summary-grid">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Who is in power</p>
+        <h2>Premier Roger Cook</h2>
+        <dl class="fact-list">
+          <div><dt>Government</dt><dd>Australian Labor Party</dd></div>
+          <div><dt>Arrangement</dt><dd>Majority government</dd></div>
+          <div><dt>In power since</dt><dd>2023-06-08</dd></div>
+        </dl>
+        <p>WA Labor holds a large lower-house majority after the 2025 state election.</p>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Research status</p>
+        <h2>Checked 2026-05-08</h2>
+        <p>Current lower and upper house party totals were checked against Parliament of Western Australia member-by-party pages.</p>
+        <p>Editable source: <code>content/states/wa.md</code></p>
+        <div class="button-row">
+          <a class="button button-secondary" href="architecture/index.html">Open WA architecture</a>
+          <a class="button button-secondary" href="constitution/index.html">Open WA constitution</a>
+          <a class="button button-secondary" href="../../index.html">Back to national page</a>
+          <a class="button button-secondary" href="../../pages/states.html">Back to state map</a>
+          <a class="button button-secondary" href="history/index.html">Open state history</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">WA timers</p>
+          <h2>Election timers.</h2>
+        </div>
+        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days-until, days-since and the markdown archive rule.</p>
+      </div>
+      <div class="timer-module reveal" data-timer-module>
+        <div class="timer-controls" data-timer-controls aria-label="WA timer controls">
+  <label class="timer-sort-label">
+    <span>Sort timers</span>
+    <select data-timer-sort>
+      <option value="next">Soonest next</option>
+      <option value="byelections">By-elections first</option>
+      <option value="farthest">Farthest future</option>
+      <option value="state">State A-Z</option>
+      <option value="days-since">Days since / held</option>
+    </select>
+  </label>
+  <div class="segmented-control" role="group" aria-label="Timer display">
+    <button type="button" class="is-active" data-timer-mode="clock" aria-pressed="true">Clock</button>
+    <button type="button" data-timer-mode="days" aria-pressed="false">Days until/since</button>
+  </div>
+  <div class="segmented-control" role="group" aria-label="Timer filter">
+    <button type="button" class="is-active" data-timer-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-timer-filter="upcoming" aria-pressed="false">Upcoming</button>
+    <button type="button" data-timer-filter="by-election" aria-pressed="false">By-elections</button>
+    <button type="button" data-timer-filter="since" aria-pressed="false">Days since</button>
+  </div>
+</div>
+        <div class="timer-grid" data-timer-board>
+          <article class="election-timer state-page-timer" data-election-card data-state="wa" data-election-date="2029-03-10T08:00:00+08:00" data-days-since-date="2025-03-08T08:00:00+08:00" data-days-since-label="Previous Western Australian State election polling day" data-election-scope="general" data-election-kind="State general election" data-election-label="2029 Western Australian State election" data-days-until-enabled="true" data-days-since-enabled="true" data-archive-days-since="true" data-cycle-key="wa-2029-general" data-archive-with-cycle="next-higher-order-cycle-after-wa-2029-general">
+  <div class="timer-topline"><span>Western Australia</span><span>State general election</span></div>
+  <h3>2029 Western Australian State election</h3>
+  <p class="countdown-value" data-countdown="2029-03-10T08:00:00+08:00">Checking timer...</p>
+  <dl class="timer-day-metrics">
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+  </dl>
+  <p class="timer-date">10 Mar 2029</p>
+  <p class="timer-status">Scheduled by fixed-term rule</p>
+  <p>WA state general elections are held on the second Saturday in March every four years.</p>
+  <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>Previous Western Australian State election polling day</small></p>
+  <a class="timer-meta-link" href="https://www.elections.wa.gov.au/elections/state">Days-since source</a>
+  <p class="timer-archive-note"><span>Archive rule</span><small>When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle.</small></p>
+  <a href="https://www.elections.wa.gov.au/about-us/media/state-elections-information">Source</a>
+</article>
+        </div>
+        <p class="timer-empty" data-timer-empty hidden>No timers match this filter.</p>
+      </div>
+    </section>
+
+    <section class="section chamber-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Chamber split</p>
+          <h2>Party seats and named crossbench.</h2>
+        </div>
+        <p>These totals are the data layer future agents should refresh when resignations, recounts or by-elections change the map.</p>
+      </div>
+      <div class="chamber-grid reveal">
+        <article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Lower house</p>
+      <h3>Legislative Assembly</h3>
+    </div>
+    <div class="seat-total"><strong>59</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 30 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 78%"></span></span>
+  <span class="party-seats">46</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Liberal Party</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 12%"></span></span>
+  <span class="party-seats">7</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Nationals WA</strong><small>NAT</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 10%"></span></span>
+  <span class="party-seats">6</span>
+</li>
+  </ul>
+  <p>Current Legislative Assembly members by political party.</p>
+  <a href="https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty">Chamber source</a>
+</article>
+<article class="chamber-card">
+  <div class="chamber-card-head">
+    <div>
+      <p class="eyebrow">Upper house</p>
+      <h3>Legislative Council</h3>
+    </div>
+    <div class="seat-total"><strong>37</strong><span>seats</span></div>
+  </div>
+  <p class="majority-line">Majority line: 19 seats</p>
+  <ul class="party-list">
+    <li class="party-row">
+  <div class="party-label"><strong>Australian Labor Party</strong><small>ALP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 43%"></span></span>
+  <span class="party-seats">16</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Liberal Party</strong><small>LIB</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 27%"></span></span>
+  <span class="party-seats">10</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Greens (WA)</strong><small>GRN</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 11%"></span></span>
+  <span class="party-seats">4</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>The Nationals WA</strong><small>NAT</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 5%"></span></span>
+  <span class="party-seats">2</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>One Nation Party</strong><small>ONP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 5%"></span></span>
+  <span class="party-seats">2</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Animal Justice Party</strong><small>AJP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 3%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Australian Christian Party</strong><small>ACP</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 3%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+<li class="party-row">
+  <div class="party-label"><strong>Legalise Cannabis WA</strong><small>LCW</small></div>
+  <span class="party-bar" aria-hidden="true"><span style="width: 3%"></span></span>
+  <span class="party-seats">1</span>
+</li>
+  </ul>
+  <p>WA now elects the Legislative Council as one whole-of-state electorate.</p>
+  <a href="https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&amp;Expand=1&amp;OpenForm=&amp;Seq=8&amp;Start=1">Chamber source</a>
+</article>
+      </div>
+    </section>
+
+    <section class="section state-notes-sources">
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Tailoring notes</p>
+        <h2>How this clone should think.</h2>
+        <ul class="plain-list">
+          <li>WA is a strong-majority Labor jurisdiction with a newly whole-of-state upper house.</li>
+<li>The upper house is the more plural chamber and the better early place for simulator examples.</li>
+<li>The next fixed election sits well inside the pre-2032 build window.</li>
+        </ul>
+      </article>
+      <article class="summary-panel reveal">
+        <p class="eyebrow">Sources</p>
+        <h2>Research links.</h2>
+        <ul class="source-list">
+          <li><a href="https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty">WA Legislative Assembly members by party</a></li>
+<li><a href="https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&amp;Expand=1&amp;OpenForm=&amp;Seq=8&amp;Start=1">WA current members by political party</a></li>
+<li><a href="https://www.elections.wa.gov.au/about-us/media/state-elections-information">WAEC state elections information</a></li>
+<li><a href="https://www.elections.wa.gov.au/vote/voting-state-election">WAEC voting in a state election</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer state-footer">
+  <div>
+    <strong>P4A state portal</strong>
+    <span>Data-first pages generated from markdown files future agents can update.</span>
+  </div>
+  <nav aria-label="State portal footer links">
+    <a href="../../index.html">National page</a>
+    <a href="../../pages/states.html">State map</a>
+    <a href="../../pages/state-history.html">State histories</a>
+    <a href="../../content/states/README.md">State data notes</a>
+    <a href="../../content/history/README.md">History data notes</a>
+  </nav>
+</footer>
+  <script src="../../assets/state-data.js?v=20260509-pills"></script>
+  <script src="../../script.js?v=20260509-pills"></script>
+</body>
+</html>
