@@ -47,7 +47,7 @@ function Get-Nav {
   <a href="architecture.html"$currentArchitecture>Architecture</a>
   <a href="civic-twin-builders.html">Builders</a>
   <a href="twinkle.html">Twinkle</a>
-  <a href="rabbit-hole.html">Rabbit</a>
+  <a href="rabbit-hole.html">Rabbit Hole</a>
   <a href="deployment-gear.html">Gear</a>
   <a href="musicverse.html">Music</a>
   <a href="states.html">States</a>

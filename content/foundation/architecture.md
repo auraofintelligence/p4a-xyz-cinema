@@ -450,21 +450,12 @@
           "label": "D",
           "title": "State and national layer",
           "body": "State portals, state constitution pages, national constitution literacy and referendum rehearsal after local proof is visible."
-        },
-        {
-          "label": "E",
-          "title": "Gear and deployment",
-          "body": "Visible support, field kit, merch and local deployment materials should sit beside the system, not hide inside the rabbit hole."
         }
       ],
       "links": [
         {
           "label": "Civic twin builders",
           "href": "civic-twin-builders.html"
-        },
-        {
-          "label": "Gear",
-          "href": "deployment-gear.html"
         },
         {
           "label": "Law Engine",
@@ -498,11 +489,6 @@
       "label": "Open builder suite",
       "href": "civic-twin-builders.html",
       "style": "primary"
-    },
-    {
-      "label": "Open Gear",
-      "href": "deployment-gear.html",
-      "style": "secondary"
     },
     {
       "label": "Open state map",
