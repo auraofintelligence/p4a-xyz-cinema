@@ -2,7 +2,7 @@
 
 This folder is the source layer for the state and territory portal.
 
-Each jurisdiction has one markdown file. Inside each file is a fenced block named `json state-data`. Future agents can update the facts in that JSON block, then run:
+Each jurisdiction has one markdown file. Inside each file is a fenced block named `json state-data`. Future agents can use those facts for approved actions. Edits happen through permissioned review, then the build can run:
 
 ```powershell
 .\tools\build-state-sites.ps1

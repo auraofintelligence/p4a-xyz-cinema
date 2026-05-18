@@ -7,7 +7,7 @@
   <meta name="description" content="A public workbench for the P4A civic architecture: how maps, layers, councils, bioregions, state portals, ledgers, law memory and simulations fit together before constitutions write binding rules.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260509-twinkle-video">
+  <link rel="stylesheet" href="../styles.css?v=20260517-builders">
 </head>
 <body data-theme="royal" data-foundation-page="architecture">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -17,8 +17,9 @@
   <nav class="site-nav" data-nav aria-label="Main navigation">
   <a href="../index.html">Home</a>
   <a href="architecture.html" aria-current="page">Architecture</a>
+  <a href="civic-twin-builders.html">Builders</a>
   <a href="twinkle.html">Twinkle</a>
-  <a href="rabbit-hole.html">Rabbit</a>
+  <a href="rabbit-hole.html">Rabbit Hole</a>
   <a href="deployment-gear.html">Gear</a>
   <a href="musicverse.html">Music</a>
   <a href="states.html">States</a>
@@ -44,7 +45,7 @@
         <p class="hero-copy">Architecture starts at the roots: private homes stay private, shared civic life begins with neighbours and community groups, then councils, bioregions, states and wider coordination only earn their place where they help. The Constitution page is different: it turns some of those patterns into rules, powers, limits and amendment paths.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#council">Start at the roots</a>
-          <a class="button button-secondary" href="states.html">Open state map</a>
+          <a class="button button-secondary" href="civic-twin-builders.html">Open builder suite</a>
         </div>
         <div class="research-badge foundation-research" aria-label="Last research run">
   <span>Last research run</span>
@@ -94,31 +95,32 @@
 <div class="feature-panel foundation-panel" id="public-private-md">
   <p class="eyebrow">Markdown civic files</p>
   <h2>Humans and agents need the same readable files.</h2>
-  <p>The architecture needs simple markdown streams that humans can read and authorised agents can update: public profile files, public noticeboards, contribution ledgers, council records, law notes and project updates.</p>
+  <p>The architecture needs simple markdown streams that humans can read and authorised agents can use for approved actions: public profile files, public noticeboards, contribution ledgers, council records, law notes and project updates.</p>
+<p>Using a file is not the same as editing it. Agents can read, route, compare, prepare actions, draft outputs and ask for checkpoints from the file. Changing the file itself belongs in a separate permissioned edit container with review, consent and correction rules.</p>
 <p>Those streams must be split into public and private lanes. A public profile.md can show chosen identity, skills, roles, public contributions and wallet or receipt references. Private files can hold draft context, sensitive notes, care details, identity material and anything that should not become public by accident.</p>
 <p>A diary, photo album and filing cabinet are already an analogue twin of a life. Social media profiles and MyGov-style accounts are basic digital twins owned by platforms or institutions. This architecture points toward self-sovereign digital twins: markdown-first records that the person or community controls.</p>
-  <div class="constitution-grid foundation-card-grid"><article class="track-card">
+  <div class="constitution-grid foundation-card-grid"><a class="track-card track-card-link" href="noticeboard-contract-builder.html">
   <span>Public</span>
   <strong>profile.md and public noticeboards</strong>
   <p>Opt-in public records: who someone is willing to be in public, what they offer, what they have contributed, what they endorse and how corrections work.</p>
-</article>
-<article class="track-card">
+</a>
+<a class="track-card track-card-link" href="private-civic-profile-builder.html">
   <span>Private</span>
   <strong>Private streams stay private</strong>
   <p>Sensitive notes, home life, identity checks, care records, draft strategy and private wallet or account context are never pulled into public leaderboards by default.</p>
-</article>
-<article class="track-card">
+</a>
+<a class="track-card track-card-link" href="civic-twin-builders.html">
   <span>Agent</span>
   <strong>Markdown as the shared contract</strong>
-  <p>AI agents should update structured .md files with sources, dates, consent flags, confidence notes and review status, not mysterious database blobs.</p>
-</article>
-<article class="track-card">
+  <p>AI agents can use structured .md files with sources, dates, consent flags, confidence notes and review status. Editing them is a permissioned workflow, not an assumed right.</p>
+</a>
+<a class="track-card track-card-link" href="p4a-builder.html?tool=private-twin-context">
   <span>Genesis</span>
   <strong>Aura Genesis is one deeper pathway</strong>
   <p>Aura Genesis is an intensive self-sovereign digital-twin process that can produce many .md files, including through a 60 by 2-hour HBOT-chamber practice. Lighter digital twins can be made without it.</p>
-</article></div>
+</a></div>
   
-  <div class="source-links foundation-links"><a href="https://auraofintelligence.github.io/straddie-noticeboard-network/index.html" target="_blank" rel="noopener">Straddie noticeboard</a><a href="https://auraofintelligence.github.io/straddie-noticeboard-network/public-noticeboard-builder.html" target="_blank" rel="noopener">Noticeboard builder</a><a href="https://auraofintelligence.github.io/stradbroke-grants-lab/profile-kit.html" target="_blank" rel="noopener">Profile kit</a></div>
+  <div class="source-links foundation-links"><a href="civic-twin-builders.html">Civic twin builders</a><a href="private-civic-profile-builder.html">Private profile builder</a><a href="p4a-builder.html?tool=private-twin-context">Private twin context builder</a><a href="p4a-builder.html?tool=contributor-card">Contributor card builder</a><a href="noticeboard-contract-builder.html">Public noticeboard builder</a><a href="https://auraofintelligence.github.io/straddie-noticeboard-network/index.html">Straddie noticeboard</a><a href="https://auraofintelligence.github.io/straddie-noticeboard-network/public-noticeboard-builder.html">External Straddie noticeboard builder</a><a href="https://auraofintelligence.github.io/stradbroke-grants-lab/profile-kit.html">Profile kit</a></div>
 </div>
 <div class="feature-panel foundation-panel" id="digital-twins">
   <p class="eyebrow">Self-sovereign twins</p>
@@ -135,62 +137,65 @@
   <strong>Basic twins already exist</strong>
   <p>Social media and government accounts model parts of people, but those records are usually owned or controlled by institutions.</p>
 </article>
-<article class="track-card">
+<a class="track-card track-card-link" href="p4a-builder.html?tool=private-twin-context">
   <span>Self</span>
   <strong>Self-sovereign markdown twin</strong>
   <p>A person-controlled markdown suite can hold public, private and permissioned records with clear consent, source trails and version history.</p>
-</article>
+</a>
 <article class="track-card">
   <span>Sensorium</span>
   <strong>Connect only by consent</strong>
   <p>Deeper twins may connect into the cyber-republic simulator and Web3 Sensorium, but public simulation should never mean automatic exposure.</p>
 </article></div>
   
-  <div class="source-links foundation-links"><a href="web3-sensorium.html">Web3 Sensorium</a><a href="cyber-republic.html">Cyber-Republic simulator</a><a href="civic-ledger.html">Civic ledger</a></div>
+  <div class="source-links foundation-links"><a href="private-civic-profile-builder.html">Private civic profile builder</a><a href="p4a-builder.html?tool=private-twin-context">Private twin context builder</a><a href="p4a-builder.html?tool=sovereign-space-node">Sovereign space node builder</a><a href="civic-twin-builders.html">Builder suite</a><a href="web3-sensorium.html">Web3 Sensorium</a><a href="cyber-republic.html">Cyber-Republic simulator</a><a href="civic-ledger.html">Civic ledger</a></div>
 </div>
 <div class="feature-panel foundation-panel" id="contribution-ledger">
   <p class="eyebrow">Gamification line</p>
-  <h2>Contribution needs visible, careful scoreboards.</h2>
-  <p>The civic architecture needs public community ledger leaderboards for contribution, but they must reward useful public work without turning people into extractive data points.</p>
+  <h2>Contribution ledgers are fractal, not just public scoreboards.</h2>
+  <p>A contribution ledger can exist at every scale. At L0 it may be a private self-ledger for health, care, learning, home repairs or personal goals. At L1 it may be a shared crew or project record. At L2 and beyond it may become a public-good ledger, council front or macro coordination summary.</p>
+<p>The civic architecture needs visible contribution records where visibility is chosen, but they must reward useful work without turning people into extractive data points.</p>
 <p>This is where the market economy and the C-Hour care economy braid together: paid work, grants, public support, volunteer hours, care, repair, mentoring, local resilience and ecological stewardship can be recorded with different rules, different privacy levels and clear correction paths.</p>
+<p>The current site should collect ledger summaries and milestone evidence. Actual C-Hour receipts belong later, when agents can generate them from accepted authority and source data with human-in-the-loop checkpoints.</p>
   <div class="constitution-grid foundation-card-grid"><article class="track-card">
   <span>Market</span>
   <strong>Money and support receipts</strong>
   <p>Public support, grants, purchases, donations, invoices, sponsorships and project funding can be tracked where disclosure is lawful and chosen.</p>
 </article>
-<article class="track-card">
+<a class="track-card track-card-link" href="c-hour-receipt-builder.html">
   <span>Care</span>
-  <strong>C-Hour contribution records</strong>
-  <p>Verified care, repair, volunteering, disaster response, mentoring, ecological work and civic service can be counted without pretending they are ordinary money.</p>
-</article>
+  <strong>Fractal contribution records</strong>
+  <p>Care, repair, volunteering, disaster response, mentoring, ecological work and civic service can be private, shared or public depending on consent and scale.</p>
+</a>
 <article class="track-card">
   <span>Game</span>
   <strong>Leaderboards with consent</strong>
   <p>Badges, ranks and public honour boards should be opt-in, appealable, source-linked and reviewed by humans so the game serves the community.</p>
 </article>
-<article class="track-card">
+<a class="track-card track-card-link" href="p4a-builder.html?tool=contribution-ledger-summary">
   <span>Audit</span>
   <strong>Receipts beat vibes</strong>
   <p>Every public score should trace back to a readable record: who verified it, what changed, when it was reviewed and how someone can challenge it.</p>
-</article></div>
+</a></div>
   
-  
+  <div class="source-links foundation-links"><a href="p4a-builder.html?tool=contribution-ledger-summary">Contribution ledger summary builder</a><a href="c-hour-receipt-builder.html">C-Hour receipt pipeline</a><a href="civic-twin-builders.html">Civic twin builders</a><a href="civic-ledger.html">Civic ledger</a></div>
 </div>
 <div class="feature-panel foundation-panel" id="braided-economy">
   <p class="eyebrow">Foundational economy</p>
   <h2>C-Hours make local contribution visible.</h2>
   <p>The Braided Economy is foundational architecture, not just an economic policy page. It keeps ordinary money for ordinary trade, then braids in a reciprocity layer for verified public-good contribution: care, repair, mentoring, disaster response, food resilience, ecological work, civic service and local stewardship.</p>
 <p>A C-Hour or Community-Hour is a draft non-speculative civic receipt for one verified hour of community contribution. It needs careful law, consent, anti-fraud review, local legitimacy, First Nations protocol where relevant, and public ledger design before any real-world pilot.</p>
+<p>The local-government funding lane frames C-Hours as civic instrumentation: councils can finally see the foundational work they are already responsible for, but issuance must wait for authorised data pipelines and human review.</p>
   <div class="constitution-grid foundation-card-grid"><article class="track-card">
   <span>Measure</span>
   <strong>Complete the ledger</strong>
   <p>Councils carry the cost of social and ecological work that normal markets barely count. C-Hours give that work a visible, auditable unit without pretending it is ordinary money.</p>
 </article>
-<article class="track-card">
+<a class="track-card track-card-link" href="c-hour-receipt-builder.html">
   <span>Verify</span>
-  <strong>Human review before issuance</strong>
-  <p>Contribution records need local witnesses, anti-fraud checks, consent scopes, correction paths and plain-language evidence before they touch a ledger.</p>
-</article>
+  <strong>Authorised pipeline before issuance</strong>
+  <p>Contribution records need accepted source authority, agent drafting, local witnesses, anti-fraud checks, consent scopes, correction paths and human checkpoints before they touch a C-Hour ledger.</p>
+</a>
 <article class="track-card">
   <span>Govern</span>
   <strong>No speculative token circus</strong>
@@ -202,17 +207,17 @@
   <p>The model belongs beside local government funding, public asset registers, Community Sovereign Wealth Funds, Legal RAG and state legislative strategy.</p>
 </article></div>
   
-  <div class="source-links foundation-links"><a href="braided-economy.html">Braided Economy</a><a href="civic-ledger.html">Civic ledger</a><a href="legal-rag.html">Law Engine</a></div>
+  <div class="source-links foundation-links"><a href="c-hour-receipt-builder.html">C-Hour receipt pipeline</a><a href="p4a-builder.html?tool=contribution-ledger-summary">Contribution ledger summary builder</a><a href="braided-economy.html">Braided Economy</a><a href="civic-ledger.html">Civic ledger</a><a href="legal-rag.html">Law Engine</a></div>
 </div>
 <div class="feature-panel foundation-panel" id="pattern">
   <p class="eyebrow">Self-similar pattern</p>
   <h2>Every layer should feel familiar.</h2>
   <p>A sovereign home, street mesh, sports club, council ward, island, bioregion, state portal or national project should not require people to learn a new universe each time.</p>
-<p>The labels can change, but the civic shape should stay recognisable.</p>
+<p>The labels can change, but the civic shape should stay recognisable. In plain terms: L0 is self/home/private, L1 is local group or mesh, L2 is regional/council/public front, and L3+ is macro scale such as state, national, international or global.</p>
   <div class="constitution-grid foundation-card-grid"><article class="track-card">
   <span>Overview</span>
   <strong>What is this layer?</strong>
-  <p>Plain introduction, current status, last research run, maintainers and the source markdown future agents can update.</p>
+  <p>Plain introduction, current status, last research run, maintainers and the source markdown future agents can use, with updates handled through permissioned review.</p>
 </article>
 <article class="track-card">
   <span>Issues</span>
@@ -230,9 +235,9 @@
   <p>Current projects, civic surges, pilots, working groups, tool requests and public progress markers.</p>
 </article>
 <article class="track-card">
-  <span>Ledger + C-Hour</span>
-  <strong>Braided Dual Ledgers</strong>
-  <p>Money, labour, promises, sources, conflicts, corrections, evidence updates and consent-aware C-Hour contribution trails for care, repair, volunteering, disaster response, mentoring, ecology and civic service.</p>
+  <span>Ledger</span>
+  <strong>What changed?</strong>
+  <p>Money, labour, promises, sources, conflicts, corrections, evidence updates and contribution trails, whether private at L0, shared at L1 or public at wider scale.</p>
 </article>
 <article class="track-card">
   <span>Law</span>
@@ -248,6 +253,11 @@
   <span>Simulation</span>
   <strong>What happens if we change it?</strong>
   <p>Digital twins, scenario testing, budget models, risk models, election clocks and referendum rehearsal tools.</p>
+</article>
+<article class="track-card">
+  <span>C-Hour</span>
+  <strong>What contribution is visible?</strong>
+  <p>Verified care, repair, volunteering, disaster response, mentoring, ecological work and civic service need consent-aware records and future agent-generated receipts without becoming extraction.</p>
 </article></div>
   
   
@@ -318,11 +328,11 @@
   <strong>Council and local layer</strong>
   <p>Local government funding, public assets, Community-Hours, bioregions, wards, local laws and civic project boards.</p>
 </article>
-<article class="track-card">
+<a class="track-card track-card-link" href="p4a-builder.html?tool=contribution-ledger-summary">
   <span>B</span>
   <strong>Ledger layer</strong>
   <p>Money, time, promises, corrections, sources, conflicts and contribution trails visible enough for people to trust.</p>
-</article>
+</a>
 <article class="track-card">
   <span>C</span>
   <strong>Law Engine</strong>
@@ -332,16 +342,21 @@
   <span>D</span>
   <strong>State and national layer</strong>
   <p>State portals, state constitution pages, national constitution literacy and referendum rehearsal after local proof is visible.</p>
+</article>
+<article class="track-card">
+  <span>E</span>
+  <strong>Gear and deployment</strong>
+  <p>Visible support, field kit, merch and local deployment materials should sit beside the system, not hide inside the rabbit hole.</p>
 </article></div>
   
-  <div class="source-links foundation-links"><a href="legal-rag.html">Law Engine</a><a href="states.html">State map</a><a href="civic-ledger.html">Civic ledger</a><a href="cyber-republic.html">Cyber-Republic simulator</a></div>
+  <div class="source-links foundation-links"><a href="civic-twin-builders.html">Civic twin builders</a><a href="deployment-gear.html">Gear</a><a href="legal-rag.html">Law Engine</a><a href="p4a-builder.html?tool=legal-source-trail">Legal source trail builder</a><a href="p4a-builder.html?tool=local-civic-front">Local civic front builder</a><a href="states.html">State map</a><a href="civic-ledger.html">Civic ledger</a><a href="cyber-republic.html">Cyber-Republic simulator</a></div>
 </div>
-          <div class="next-trail"><a class="button button-primary" href="deployment-gear.html">Open Gear</a><a class="button button-secondary" href="states.html">Open state map</a></div>
+          <div class="next-trail"><a class="button button-primary" href="civic-twin-builders.html">Open builder suite</a><a class="button button-secondary" href="deployment-gear.html">Open Gear</a><a class="button button-secondary" href="states.html">Open state map</a></div>
         </div>
       </div>
     </section>
   </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
-  <script src="../script.js?v=20260509-image-opt"></script>
+  <script src="../script.js?v=20260517-builders"></script>
 </body>
 </html>

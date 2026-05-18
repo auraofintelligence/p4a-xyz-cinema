@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Public Noticeboard Builder | P4A</title>
+  <meta name="description" content="A browser-local P4A builder for L1 public_noticeboard.md files with private exclusions, human review and correction paths.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../styles.css?v=20260517-builders">
+</head>
+<body data-theme="royal" data-page="builder">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
+    <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+    <nav class="site-nav" data-nav aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="architecture.html">Architecture</a>
+      <a href="civic-twin-builders.html" aria-current="page">Builders</a>
+      <a href="twinkle.html">Twinkle</a>
+      <a href="rabbit-hole.html">Rabbit Hole</a>
+      <a href="deployment-gear.html">Gear</a>
+      <a href="musicverse.html">Music</a>
+      <a href="states.html">States</a>
+      <a href="state-history.html">History</a>
+      <a href="constitution.html">Constitution</a>
+      <a href="legal-rag.html">Law</a>
+      <a href="civic-ledger.html">Ledger</a>
+    </nav>
+  </header>
+  <main id="main" class="builder-main">
+    <section class="hero page-hero builder-hero compact-builder-hero">
+      <div class="hero-image"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/local-organiser-startup-kit.webp" alt="Local organiser kit artwork for the public noticeboard builder"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">L1 local mesh</p>
+        <h1>Public Noticeboard Builder</h1>
+        <p class="hero-copy">Turn a local help table, group or project into a public_noticeboard.md contract with a clear boundary, private exclusions, review rhythm and correction path.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#builder">Open builder</a>
+          <a class="button button-secondary" href="civic-twin-builders.html">Builder suite</a>
+        </div>
+        <nav class="builder-nav-strip" aria-label="Builder sequence">
+          <a href="p4a-builder.html?tool=local-crew-onboarding">Previous: local crew onboarding</a>
+          <a href="civic-twin-builders.html">All builders</a>
+          <a href="p4a-builder.html?tool=project-readiness">Next: project readiness</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section builder-section" id="builder">
+      <div class="builder-layout">
+        <form class="builder-form feature-panel reveal" data-p4a-builder="noticeboard-contract">
+          <p class="eyebrow">public_noticeboard.md</p>
+          <h2>L1 noticeboard draft.</h2>
+          <p class="builder-form-note">All fields are optional. You can skip any field for any reason, without needing to state the reason.</p>
+          <label>Group, project or crew name
+            <input name="group_name" type="text" placeholder="What name or working label helps identify this board?">
+          </label>
+          <label>Local boundary
+            <input name="boundary_label" type="text" placeholder="What community, place, project or scale does this board serve?">
+          </label>
+          <label>Boundary kind
+            <select name="boundary_kind">
+              <option value="community">Community</option>
+              <option value="street_or_neighbourhood">Street or neighbourhood</option>
+              <option value="council_area">Council area</option>
+              <option value="ward_or_electorate">Ward or electorate</option>
+              <option value="bioregion_or_catchment">Bioregion or catchment</option>
+              <option value="project_or_event">Project or event</option>
+            </select>
+          </label>
+          <fieldset class="builder-checks">
+            <legend>Notice types</legend>
+            <label><input type="checkbox" name="notice_types" value="local_help_requests"> Local help requests</label>
+            <label><input type="checkbox" name="notice_types" value="public_events"> Public events</label>
+            <label><input type="checkbox" name="notice_types" value="project_updates"> Project updates</label>
+            <label><input type="checkbox" name="notice_types" value="grant_or_support_paths"> Grant or support paths</label>
+            <label><input type="checkbox" name="notice_types" value="corrections_and_updates"> Corrections and updates</label>
+          </fieldset>
+          <label>Public offer
+            <textarea name="public_offer" rows="3" placeholder="What might this board help people notice, coordinate or ask for?"></textarea>
+          </label>
+          <label>Reviewer or steward
+            <input name="reviewer" type="text" placeholder="Who, if anyone, checks use, publication or edits?">
+          </label>
+          <label>Private or excluded material
+            <textarea name="private_exclusions" rows="4" placeholder="What might be private, unresolved, or better left out for now?"></textarea>
+          </label>
+          <label>Review rhythm
+            <textarea name="review_rhythm" rows="3" placeholder="When, if ever, should this board be reviewed, cleaned up or corrected?"></textarea>
+          </label>
+          <label>Consent scope
+            <textarea name="consent_scope" rows="3" placeholder="What information can be shared, what needs permission, and what should stay out?"></textarea>
+          </label>
+          <label>Correction path
+            <textarea name="correction_path" rows="3" placeholder="If this board is shared or public, how could a correction, doubt or withdrawal request be raised?"></textarea>
+          </label>
+          <div class="builder-control-grid">
+            <label>Consent model
+              <select name="consent_model">
+                <option value="public_after_review">Public after review</option>
+                <option value="opt_in_public_listing">Opt-in public listing</option>
+                <option value="permissioned_local_review">Permissioned local review</option>
+              </select>
+            </label>
+            <label>Review status
+              <select name="review_status">
+                <option value="needs_human_review">Needs human review</option>
+                <option value="locally_reviewed">Locally reviewed</option>
+                <option value="ready_for_public_noticeboard">Ready for public noticeboard</option>
+              </select>
+            </label>
+            <label>Confidence
+              <select name="confidence">
+                <option value="draft">Draft</option>
+                <option value="medium">Medium</option>
+                <option value="high_after_review">High after review</option>
+              </select>
+            </label>
+          </div>
+        </form>
+
+        <aside class="builder-output-panel feature-panel reveal" aria-label="Markdown output">
+          <p class="eyebrow">Markdown output</p>
+          <h2>public_noticeboard.md</h2>
+          <p>This file is a contract for what can safely go public. It is not a publication button.</p>
+          <textarea class="builder-output" data-builder-output readonly rows="26" aria-label="Generated Markdown"></textarea>
+          <div class="builder-actions">
+            <button class="button button-primary" type="button" data-copy-builder>Copy Markdown</button>
+            <button class="button button-secondary" type="button" data-download-builder>Download .md</button>
+            <button class="button button-secondary" type="button" data-clear-builder>Clear draft</button>
+          </div>
+          <p class="builder-status" data-builder-status aria-live="polite">Ready.</p>
+        </aside>
+      </div>
+      <nav class="builder-nav-strip builder-nav-bottom" aria-label="Builder sequence">
+        <a href="p4a-builder.html?tool=local-crew-onboarding">Previous: local crew onboarding</a>
+        <a href="civic-twin-builders.html">All builders</a>
+        <a href="p4a-builder.html?tool=project-readiness">Next: project readiness</a>
+      </nav>
+    </section>
+  </main>
+  <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
+  <script src="../script.js?v=20260509-image-opt"></script>
+  <script src="../assets/p4a-builders.js?v=20260517-builders"></script>
+</body>
+</html>

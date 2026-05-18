@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P4A Markdown Builder | P4A</title>
+  <meta name="description" content="A browser-local P4A Markdown builder for self-sovereign civic twin, project, ledger, legal and place records.">
+  <meta name="theme-color" content="#3F0F75">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../styles.css?v=20260517-builders">
+</head>
+<body data-theme="royal" data-page="builder">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
+    <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
+    <nav class="site-nav" data-nav aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="architecture.html">Architecture</a>
+      <a href="civic-twin-builders.html" aria-current="page">Builders</a>
+      <a href="twinkle.html">Twinkle</a>
+      <a href="rabbit-hole.html">Rabbit Hole</a>
+      <a href="deployment-gear.html">Gear</a>
+      <a href="musicverse.html">Music</a>
+      <a href="states.html">States</a>
+      <a href="state-history.html">History</a>
+      <a href="constitution.html">Constitution</a>
+      <a href="legal-rag.html">Law</a>
+      <a href="civic-ledger.html">Ledger</a>
+    </nav>
+  </header>
+  <main id="main" class="builder-main">
+    <section class="hero page-hero builder-hero compact-builder-hero">
+      <div class="hero-image"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/p4a-map-card.webp" alt="Purple civic map for the P4A Markdown builder"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow" data-builder-eyebrow>Markdown builder</p>
+        <h1 data-builder-title>P4A Markdown Builder</h1>
+        <p class="hero-copy">Create a browser-local Markdown draft for one civic twin, project, legal, ledger or place module. The file stays local until a human chooses where it belongs.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#builder">Open builder</a>
+          <a class="button button-secondary" href="civic-twin-builders.html">Builder suite</a>
+        </div>
+        <nav class="builder-nav-strip" aria-label="Builder sequence">
+          <a href="civic-twin-builders.html" data-builder-prev>Previous: suite</a>
+          <a href="civic-twin-builders.html">All builders</a>
+          <a href="civic-twin-builders.html" data-builder-next>Next: suite</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section builder-section" id="builder">
+      <div class="builder-layout">
+        <form class="builder-form feature-panel reveal" data-p4a-builder="private-twin-context" data-p4a-dynamic-builder>
+          <p class="eyebrow"><span data-builder-file>builder-output.md</span></p>
+          <h2 data-builder-title>P4A Markdown Builder</h2>
+          <p class="builder-form-note">Source pattern: <span data-builder-source>selected builder route</span>.</p>
+          <p class="builder-form-note" data-builder-guidance hidden></p>
+          <p class="builder-form-note">All fields are optional. You can skip any field for any reason, without needing to state the reason.</p>
+
+          <label data-builder-field="record_title">Record title
+            <input name="record_title" type="text" placeholder="What name or working label helps identify this record?">
+          </label>
+          <label data-builder-field="boundary_label">Boundary or place
+            <input name="boundary_label" type="text" placeholder="What place, relationship, group, scale or boundary is relevant here?">
+          </label>
+          <label data-builder-field="boundary_kind">Boundary kind
+            <select name="boundary_kind">
+              <option value="private-home">Private home or person</option>
+              <option value="fractal">Fractal / context dependent</option>
+              <option value="person_or_group">Person or group</option>
+              <option value="project_or_event">Project or event</option>
+              <option value="community">Community</option>
+              <option value="council_or_electorate">Council or electorate</option>
+              <option value="bioregion_or_catchment">Bioregion or catchment</option>
+              <option value="living_boundary">Living boundary</option>
+              <option value="jurisdiction_or_project">Jurisdiction or project</option>
+            </select>
+          </label>
+          <label data-builder-field="purpose">Purpose
+            <textarea name="purpose" rows="3" placeholder="What might this file help a human or authorised agent understand or do?"></textarea>
+          </label>
+          <fieldset class="builder-checks" data-builder-fieldset="focus_areas">
+            <legend data-builder-legend="focus_areas">Focus areas</legend>
+            <div class="builder-check-grid" data-builder-focus-options>
+              <label><input type="checkbox" name="focus_areas" value="public_summary"> public summary</label>
+              <label><input type="checkbox" name="focus_areas" value="private_boundary"> private boundary</label>
+              <label><input type="checkbox" name="focus_areas" value="human_review"> human review</label>
+            </div>
+          </fieldset>
+          <label data-builder-field="public_summary">Public summary
+            <textarea name="public_summary" rows="3" placeholder="If there is a wider audience, what could they safely understand?"></textarea>
+          </label>
+          <label data-builder-field="private_boundary">Private or permissioned boundary
+            <textarea name="private_boundary" rows="4" placeholder="What belongs in private, permissioned, culturally governed or not-yet-public context?"></textarea>
+          </label>
+          <label data-builder-field="evidence_notes">Evidence or source notes
+            <textarea name="evidence_notes" rows="4" placeholder="What sources, signals, dates, receipts, links, version notes or pipeline hints might help later?"></textarea>
+          </label>
+          <label data-builder-field="reviewer">Reviewer or steward
+            <input name="reviewer" type="text" placeholder="Who, if anyone, has permission to check this before wider use?">
+          </label>
+          <label data-builder-field="next_handoff">Human or agent use
+            <textarea name="next_handoff" rows="3" placeholder="What actions could be approved from this file, and what requires a checkpoint first?"></textarea>
+          </label>
+          <label data-builder-field="consent_scope">Consent scope
+            <textarea name="consent_scope" rows="3" placeholder="What, if anything, could be shared, with whom, for what purpose, and when would fresh permission be asked?"></textarea>
+          </label>
+          <label data-builder-field="correction_path">Review or correction path
+            <textarea name="correction_path" rows="3" placeholder="How should the owner, record holder or authorised steward handle review, correction, doubt or withdrawal?"></textarea>
+          </label>
+          <div class="builder-control-grid">
+            <label data-builder-field="visibility">Visibility
+              <select name="visibility">
+                <option value="private">Private</option>
+                <option value="permissioned">Permissioned</option>
+                <option value="public_draft">Public draft</option>
+              </select>
+            </label>
+            <label data-builder-field="consent_model">Consent model
+              <select name="consent_model">
+                <option value="plain-language-purpose-bound-revocable">Purpose-bound and revocable</option>
+                <option value="owner_review_required">Owner review required</option>
+                <option value="local_steward_review">Local steward review</option>
+                <option value="collective_authority_required">Collective authority required</option>
+              </select>
+            </label>
+            <label data-builder-field="review_status">Review status
+              <select name="review_status">
+                <option value="needs_human_review">Needs human review</option>
+                <option value="locally_reviewed">Locally reviewed</option>
+                <option value="source_checked">Source checked</option>
+                <option value="ready_for_public_summary">Ready for public summary</option>
+              </select>
+            </label>
+            <label data-builder-field="confidence">Confidence
+              <select name="confidence">
+                <option value="draft">Draft</option>
+                <option value="medium">Medium</option>
+                <option value="high_after_review">High after review</option>
+              </select>
+            </label>
+          </div>
+        </form>
+
+        <aside class="builder-output-panel feature-panel reveal" aria-label="Markdown output">
+          <p class="eyebrow">Markdown output</p>
+          <h2 data-builder-file>builder-output.md</h2>
+          <p data-builder-guardrail>This preview is generated in your browser. Downloading it creates a local file; it does not publish anything.</p>
+          <textarea class="builder-output" data-builder-output readonly rows="26" aria-label="Generated Markdown"></textarea>
+          <div class="builder-actions">
+            <button class="button button-primary" type="button" data-copy-builder>Copy Markdown</button>
+            <button class="button button-secondary" type="button" data-download-builder>Download .md</button>
+            <button class="button button-secondary" type="button" data-clear-builder>Clear draft</button>
+          </div>
+          <p class="builder-status" data-builder-status aria-live="polite">Ready.</p>
+        </aside>
+      </div>
+
+      <nav class="builder-nav-strip builder-nav-bottom" aria-label="Builder sequence">
+        <a href="civic-twin-builders.html" data-builder-prev>Previous: suite</a>
+        <a href="civic-twin-builders.html">All builders</a>
+        <a href="civic-twin-builders.html" data-builder-next>Next: suite</a>
+      </nav>
+    </section>
+  </main>
+  <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
+  <script src="../script.js?v=20260509-image-opt"></script>
+  <script src="../assets/p4a-builders.js?v=20260517-builders"></script>
+</body>
+</html>

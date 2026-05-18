@@ -8,7 +8,7 @@ Each file contains one fenced block:
 { ... }
 ```
 
-Future authorised agents can update the JSON, then run:
+Authorised agents can use these JSON records for approved tasks. Any update to the records belongs in a permissioned review step, then the pages can be rebuilt with:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\build-state-sites.ps1

@@ -228,7 +228,7 @@ function Get-Foot {
 <footer class="site-footer state-footer">
   <div>
     <strong>P4A state portal</strong>
-    <span>Data-first pages generated from markdown files future agents can update.</span>
+    <span>Data-first pages generated from markdown files agents can use, with edits handled through permissioned review.</span>
   </div>
   <nav aria-label="State portal footer links">
     <a href="${Prefix}index.html">National page</a>
@@ -614,7 +614,7 @@ function Render-StateArchitecturePage {
     <section class="section state-data-note reveal">
       <p class="eyebrow">Agent-ready data</p>
       <h2>This builder needs its own markdown suite.</h2>
-      <p>Current state facts come from <code>$sourceMarkdown</code>. The next data layer should add council, electorate, bioregion, First Nations/protocol, public profile, public noticeboard, self-sovereign digital twin and contribution ledger markdown files so authorised agents can refresh maps without touching templates.</p>
+      <p>Current state facts come from <code>$sourceMarkdown</code>. The next data layer should add council, electorate, bioregion, First Nations/protocol, public profile, public noticeboard, self-sovereign digital twin and contribution ledger markdown files so authorised agents can use the maps and request permissioned refreshes without touching templates by default.</p>
       <p>$researchStatus</p>
     </section>
   </main>
@@ -1127,7 +1127,7 @@ $portalHtml = @"
     <section class="section state-data-note reveal">
       <p class="eyebrow">Agent-ready data</p>
       <h2>The facts live in markdown.</h2>
-      <p>Each state clone is generated from a simple file in <code>content/states/</code>. State history pages come from <code>content/history/</code>. Future authorised agents can update those files, rerun the build script, and the public pages will follow.</p>
+      <p>Each state clone is generated from a simple file in <code>content/states/</code>. State history pages come from <code>content/history/</code>. Future authorised agents can use those files for approved actions, with edits handled through permissioned refresh and review before the public pages follow.</p>
       <div class="button-row">
         <a class="button button-secondary" href="state-history.html">Open state histories</a>
       </div>
@@ -1183,7 +1183,7 @@ if ($historyItems.Count -gt 0) {
       <div class="state-hero-content reveal">
         <p class="eyebrow">History atlas</p>
         <h1>How each state became different.</h1>
-        <p>The portals now carry a history layer: basic public timelines, advanced constitutional detail, state-specific differences and source links that future authorised agents can refresh from markdown.</p>
+        <p>The portals now carry a history layer: basic public timelines, advanced constitutional detail, state-specific differences and source links that future authorised agents can use from markdown and refresh through permissioned review.</p>
         <div class="research-badge"><span>Last research run</span><strong>$historyResearchRun</strong><small>$historyResearchTz</small></div>
       </div>
     </section>
@@ -1222,7 +1222,7 @@ if ($historyItems.Count -gt 0) {
     <section class="section state-data-note reveal">
       <p class="eyebrow">Agent-ready history</p>
       <h2>The timeline lives in markdown.</h2>
-      <p>Source files are in <code>content/history/</code>. Each event has a sort year, layer, period, themes, source links and advanced notes so future agents can update the record without touching the page template.</p>
+      <p>Source files are in <code>content/history/</code>. Each event has a sort year, layer, period, themes, source links and advanced notes so future agents can use the record without touching the page template. Edits still belong in a permissioned review step.</p>
     </section>
   </main>
   $historyFooter

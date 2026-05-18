@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $contentDir = Join-Path $root "content/foundation"
 $pagesDir = Join-Path $root "pages"
-$cacheVersion = "20260509-twinkle-video"
+$cacheVersion = "20260517-builders"
 
 function Escape-Html {
   param([AllowNull()][object]$Value)
@@ -45,6 +45,7 @@ function Get-Nav {
 <nav class="site-nav" data-nav aria-label="Main navigation">
   <a href="../index.html">Home</a>
   <a href="architecture.html"$currentArchitecture>Architecture</a>
+  <a href="civic-twin-builders.html">Builders</a>
   <a href="twinkle.html">Twinkle</a>
   <a href="rabbit-hole.html">Rabbit</a>
   <a href="deployment-gear.html">Gear</a>
@@ -104,12 +105,15 @@ function Render-Cards {
     $label = Escape-Html $card.label
     $title = Escape-Html $card.title
     $body = Escape-Html $card.body
+    $href = Escape-Html $card.href
+    $openTag = if ([string]::IsNullOrWhiteSpace($href)) { '<article class="track-card">' } else { "<a class=""track-card track-card-link"" href=""$href"">" }
+    $closeTag = if ([string]::IsNullOrWhiteSpace($href)) { '</article>' } else { '</a>' }
 @"
-<article class="track-card">
+$openTag
   <span>$label</span>
   <strong>$title</strong>
   <p>$body</p>
-</article>
+$closeTag
 "@
   }
 

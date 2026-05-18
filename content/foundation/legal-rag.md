@@ -60,7 +60,7 @@
       "heading": "The law layer has to know where authority lives.",
       "paragraphs": [
         "Australia is legally layered. A council issue may touch local laws, planning schemes, state Acts, Commonwealth funding rules, court decisions, native title, procurement rules and the Constitution.",
-        "Future agents should update this source stack by jurisdiction and keep each source visible."
+        "Future agents should use this source stack by jurisdiction, and only refresh it through a permissioned review step that keeps each source visible."
       ],
       "cards": [
         {

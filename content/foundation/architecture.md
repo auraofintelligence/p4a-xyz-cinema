@@ -15,8 +15,8 @@
     "href": "#council"
   },
   "secondaryCta": {
-    "label": "Open state map",
-    "href": "states.html"
+    "label": "Open builder suite",
+    "href": "civic-twin-builders.html"
   },
   "researchRun": "2026-05-08",
   "researchTimezone": "Australia/Brisbane",
@@ -59,7 +59,8 @@
       "eyebrow": "Markdown civic files",
       "heading": "Humans and agents need the same readable files.",
       "paragraphs": [
-        "The architecture needs simple markdown streams that humans can read and authorised agents can update: public profile files, public noticeboards, contribution ledgers, council records, law notes and project updates.",
+        "The architecture needs simple markdown streams that humans can read and authorised agents can use for approved actions: public profile files, public noticeboards, contribution ledgers, council records, law notes and project updates.",
+        "Using a file is not the same as editing it. Agents can read, route, compare, prepare actions, draft outputs and ask for checkpoints from the file. Changing the file itself belongs in a separate permissioned edit container with review, consent and correction rules.",
         "Those streams must be split into public and private lanes. A public profile.md can show chosen identity, skills, roles, public contributions and wallet or receipt references. Private files can hold draft context, sensitive notes, care details, identity material and anything that should not become public by accident.",
         "A diary, photo album and filing cabinet are already an analogue twin of a life. Social media profiles and MyGov-style accounts are basic digital twins owned by platforms or institutions. This architecture points toward self-sovereign digital twins: markdown-first records that the person or community controls."
       ],
@@ -67,31 +68,55 @@
         {
           "label": "Public",
           "title": "profile.md and public noticeboards",
-          "body": "Opt-in public records: who someone is willing to be in public, what they offer, what they have contributed, what they endorse and how corrections work."
+          "body": "Opt-in public records: who someone is willing to be in public, what they offer, what they have contributed, what they endorse and how corrections work.",
+          "href": "noticeboard-contract-builder.html"
         },
         {
           "label": "Private",
           "title": "Private streams stay private",
-          "body": "Sensitive notes, home life, identity checks, care records, draft strategy and private wallet or account context are never pulled into public leaderboards by default."
+          "body": "Sensitive notes, home life, identity checks, care records, draft strategy and private wallet or account context are never pulled into public leaderboards by default.",
+          "href": "private-civic-profile-builder.html"
         },
         {
           "label": "Agent",
           "title": "Markdown as the shared contract",
-          "body": "AI agents should update structured .md files with sources, dates, consent flags, confidence notes and review status, not mysterious database blobs."
+          "body": "AI agents can use structured .md files with sources, dates, consent flags, confidence notes and review status. Editing them is a permissioned workflow, not an assumed right.",
+          "href": "civic-twin-builders.html"
         },
         {
           "label": "Genesis",
           "title": "Aura Genesis is one deeper pathway",
-          "body": "Aura Genesis is an intensive self-sovereign digital-twin process that can produce many .md files, including through a 60 by 2-hour HBOT-chamber practice. Lighter digital twins can be made without it."
+          "body": "Aura Genesis is an intensive self-sovereign digital-twin process that can produce many .md files, including through a 60 by 2-hour HBOT-chamber practice. Lighter digital twins can be made without it.",
+          "href": "p4a-builder.html?tool=private-twin-context"
         }
       ],
       "links": [
+        {
+          "label": "Civic twin builders",
+          "href": "civic-twin-builders.html"
+        },
+        {
+          "label": "Private profile builder",
+          "href": "private-civic-profile-builder.html"
+        },
+        {
+          "label": "Private twin context builder",
+          "href": "p4a-builder.html?tool=private-twin-context"
+        },
+        {
+          "label": "Contributor card builder",
+          "href": "p4a-builder.html?tool=contributor-card"
+        },
+        {
+          "label": "Public noticeboard builder",
+          "href": "noticeboard-contract-builder.html"
+        },
         {
           "label": "Straddie noticeboard",
           "href": "https://auraofintelligence.github.io/straddie-noticeboard-network/index.html"
         },
         {
-          "label": "Noticeboard builder",
+          "label": "External Straddie noticeboard builder",
           "href": "https://auraofintelligence.github.io/straddie-noticeboard-network/public-noticeboard-builder.html"
         },
         {
@@ -122,7 +147,8 @@
         {
           "label": "Self",
           "title": "Self-sovereign markdown twin",
-          "body": "A person-controlled markdown suite can hold public, private and permissioned records with clear consent, source trails and version history."
+          "body": "A person-controlled markdown suite can hold public, private and permissioned records with clear consent, source trails and version history.",
+          "href": "p4a-builder.html?tool=private-twin-context"
         },
         {
           "label": "Sensorium",
@@ -131,6 +157,22 @@
         }
       ],
       "links": [
+        {
+          "label": "Private civic profile builder",
+          "href": "private-civic-profile-builder.html"
+        },
+        {
+          "label": "Private twin context builder",
+          "href": "p4a-builder.html?tool=private-twin-context"
+        },
+        {
+          "label": "Sovereign space node builder",
+          "href": "p4a-builder.html?tool=sovereign-space-node"
+        },
+        {
+          "label": "Builder suite",
+          "href": "civic-twin-builders.html"
+        },
         {
           "label": "Web3 Sensorium",
           "href": "web3-sensorium.html"
@@ -148,10 +190,12 @@
     {
       "id": "contribution-ledger",
       "eyebrow": "Gamification line",
-      "heading": "Contribution needs visible, careful scoreboards.",
+      "heading": "Contribution ledgers are fractal, not just public scoreboards.",
       "paragraphs": [
-        "The civic architecture needs public community ledger leaderboards for contribution, but they must reward useful public work without turning people into extractive data points.",
-        "This is where the market economy and the C-Hour care economy braid together: paid work, grants, public support, volunteer hours, care, repair, mentoring, local resilience and ecological stewardship can be recorded with different rules, different privacy levels and clear correction paths."
+        "A contribution ledger can exist at every scale. At L0 it may be a private self-ledger for health, care, learning, home repairs or personal goals. At L1 it may be a shared crew or project record. At L2 and beyond it may become a public-good ledger, council front or macro coordination summary.",
+        "The civic architecture needs visible contribution records where visibility is chosen, but they must reward useful work without turning people into extractive data points.",
+        "This is where the market economy and the C-Hour care economy braid together: paid work, grants, public support, volunteer hours, care, repair, mentoring, local resilience and ecological stewardship can be recorded with different rules, different privacy levels and clear correction paths.",
+        "The current site should collect ledger summaries and milestone evidence. Actual C-Hour receipts belong later, when agents can generate them from accepted authority and source data with human-in-the-loop checkpoints."
       ],
       "cards": [
         {
@@ -161,8 +205,9 @@
         },
         {
           "label": "Care",
-          "title": "C-Hour contribution records",
-          "body": "Verified care, repair, volunteering, disaster response, mentoring, ecological work and civic service can be counted without pretending they are ordinary money."
+          "title": "Fractal contribution records",
+          "body": "Care, repair, volunteering, disaster response, mentoring, ecological work and civic service can be private, shared or public depending on consent and scale.",
+          "href": "c-hour-receipt-builder.html"
         },
         {
           "label": "Game",
@@ -172,7 +217,26 @@
         {
           "label": "Audit",
           "title": "Receipts beat vibes",
-          "body": "Every public score should trace back to a readable record: who verified it, what changed, when it was reviewed and how someone can challenge it."
+          "body": "Every public score should trace back to a readable record: who verified it, what changed, when it was reviewed and how someone can challenge it.",
+          "href": "p4a-builder.html?tool=contribution-ledger-summary"
+        }
+      ],
+      "links": [
+        {
+          "label": "Contribution ledger summary builder",
+          "href": "p4a-builder.html?tool=contribution-ledger-summary"
+        },
+        {
+          "label": "C-Hour receipt pipeline",
+          "href": "c-hour-receipt-builder.html"
+        },
+        {
+          "label": "Civic twin builders",
+          "href": "civic-twin-builders.html"
+        },
+        {
+          "label": "Civic ledger",
+          "href": "civic-ledger.html"
         }
       ]
     },
@@ -182,7 +246,8 @@
       "heading": "C-Hours make local contribution visible.",
       "paragraphs": [
         "The Braided Economy is foundational architecture, not just an economic policy page. It keeps ordinary money for ordinary trade, then braids in a reciprocity layer for verified public-good contribution: care, repair, mentoring, disaster response, food resilience, ecological work, civic service and local stewardship.",
-        "A C-Hour or Community-Hour is a draft non-speculative civic receipt for one verified hour of community contribution. It needs careful law, consent, anti-fraud review, local legitimacy, First Nations protocol where relevant, and public ledger design before any real-world pilot."
+        "A C-Hour or Community-Hour is a draft non-speculative civic receipt for one verified hour of community contribution. It needs careful law, consent, anti-fraud review, local legitimacy, First Nations protocol where relevant, and public ledger design before any real-world pilot.",
+        "The local-government funding lane frames C-Hours as civic instrumentation: councils can finally see the foundational work they are already responsible for, but issuance must wait for authorised data pipelines and human review."
       ],
       "cards": [
         {
@@ -192,8 +257,9 @@
         },
         {
           "label": "Verify",
-          "title": "Human review before issuance",
-          "body": "Contribution records need local witnesses, anti-fraud checks, consent scopes, correction paths and plain-language evidence before they touch a ledger."
+          "title": "Authorised pipeline before issuance",
+          "body": "Contribution records need accepted source authority, agent drafting, local witnesses, anti-fraud checks, consent scopes, correction paths and human checkpoints before they touch a C-Hour ledger.",
+          "href": "c-hour-receipt-builder.html"
         },
         {
           "label": "Govern",
@@ -207,6 +273,14 @@
         }
       ],
       "links": [
+        {
+          "label": "C-Hour receipt pipeline",
+          "href": "c-hour-receipt-builder.html"
+        },
+        {
+          "label": "Contribution ledger summary builder",
+          "href": "p4a-builder.html?tool=contribution-ledger-summary"
+        },
         {
           "label": "Braided Economy",
           "href": "braided-economy.html"
@@ -227,13 +301,13 @@
       "heading": "Every layer should feel familiar.",
       "paragraphs": [
         "A sovereign home, street mesh, sports club, council ward, island, bioregion, state portal or national project should not require people to learn a new universe each time.",
-        "The labels can change, but the civic shape should stay recognisable."
+        "The labels can change, but the civic shape should stay recognisable. In plain terms: L0 is self/home/private, L1 is local group or mesh, L2 is regional/council/public front, and L3+ is macro scale such as state, national, international or global."
       ],
       "cards": [
         {
           "label": "Overview",
           "title": "What is this layer?",
-          "body": "Plain introduction, current status, last research run, maintainers and the source markdown future agents can update."
+          "body": "Plain introduction, current status, last research run, maintainers and the source markdown future agents can use, with updates handled through permissioned review."
         },
         {
           "label": "Issues",
@@ -253,7 +327,7 @@
         {
           "label": "Ledger",
           "title": "What changed?",
-          "body": "Money, labour, promises, sources, conflicts, corrections, evidence updates and contribution trails."
+          "body": "Money, labour, promises, sources, conflicts, corrections, evidence updates and contribution trails, whether private at L0, shared at L1 or public at wider scale."
         },
         {
           "label": "Law",
@@ -273,7 +347,7 @@
         {
           "label": "C-Hour",
           "title": "What contribution is visible?",
-          "body": "Verified care, repair, volunteering, disaster response, mentoring, ecological work and civic service need consent-aware records without becoming extraction."
+          "body": "Verified care, repair, volunteering, disaster response, mentoring, ecological work and civic service need consent-aware records and future agent-generated receipts without becoming extraction."
         }
       ]
     },
@@ -364,7 +438,8 @@
         {
           "label": "B",
           "title": "Ledger layer",
-          "body": "Money, time, promises, corrections, sources, conflicts and contribution trails visible enough for people to trust."
+          "body": "Money, time, promises, corrections, sources, conflicts and contribution trails visible enough for people to trust.",
+          "href": "p4a-builder.html?tool=contribution-ledger-summary"
         },
         {
           "label": "C",
@@ -384,12 +459,24 @@
       ],
       "links": [
         {
+          "label": "Civic twin builders",
+          "href": "civic-twin-builders.html"
+        },
+        {
           "label": "Gear",
           "href": "deployment-gear.html"
         },
         {
           "label": "Law Engine",
           "href": "legal-rag.html"
+        },
+        {
+          "label": "Legal source trail builder",
+          "href": "p4a-builder.html?tool=legal-source-trail"
+        },
+        {
+          "label": "Local civic front builder",
+          "href": "p4a-builder.html?tool=local-civic-front"
         },
         {
           "label": "State map",
@@ -408,9 +495,14 @@
   ],
   "nextLinks": [
     {
+      "label": "Open builder suite",
+      "href": "civic-twin-builders.html",
+      "style": "primary"
+    },
+    {
       "label": "Open Gear",
       "href": "deployment-gear.html",
-      "style": "primary"
+      "style": "secondary"
     },
     {
       "label": "Open state map",
