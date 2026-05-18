@@ -1154,6 +1154,13 @@ body[data-page="housing-simulations"] .source-links {
     padding-left: .85rem;
     padding-right: .85rem;
   }
+  .housing-stat-grid {
+    grid-template-columns: 1fr;
+  }
+  .housing-stat strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
   .builder-form,
   .builder-output-panel {
     padding: .9rem;
