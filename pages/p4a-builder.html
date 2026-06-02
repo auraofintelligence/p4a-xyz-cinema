@@ -7,7 +7,7 @@
   <meta name="description" content="A browser-local P4A Markdown builder for self-sovereign civic twin, project, ledger, legal and place records.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260517-builders">
+  <link rel="stylesheet" href="../styles.css?v=20260602-sovereign-builder">
 </head>
 <body data-theme="royal" data-page="builder">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -35,11 +35,11 @@
       <div class="hero-content reveal">
         <p class="eyebrow" data-builder-eyebrow>Markdown builder</p>
         <h1 data-builder-title>P4A Markdown Builder</h1>
-        <p class="hero-copy">Create a browser-local Markdown draft for one civic twin, project, legal, ledger or place module. The file stays local until a human chooses where it belongs.</p>
+        <p class="hero-copy">Create a browser-local Markdown draft that the record holder controls. It can help authorised agents act with context, but sharing, publishing or changing the record stays with the person or group that owns it.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#builder">Open builder</a>
           <a class="button button-secondary" href="civic-twin-builders.html">Builder suite</a>
-          <a class="button button-secondary" href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">Markdown with AI Guide</a>
+          <a class="button button-secondary" href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">External guide: Markdown with AI</a>
         </div>
         <nav class="builder-nav-strip" aria-label="Builder sequence">
           <a href="civic-twin-builders.html" data-builder-prev>Previous: suite</a>
@@ -58,13 +58,13 @@
           <p class="builder-form-note" data-builder-guidance hidden></p>
           <p class="builder-form-note">All fields are optional. You can skip any field for any reason, without needing to state the reason.</p>
 
-          <label data-builder-field="record_title">Record title
-            <input name="record_title" type="text" placeholder="What name or working label helps identify this record?">
+          <label data-builder-field="record_title">Private working name
+            <input name="record_title" type="text" placeholder="What name helps you recognise this record, if you want one?">
           </label>
-          <label data-builder-field="boundary_label">Boundary or place
-            <input name="boundary_label" type="text" placeholder="What place, relationship, group, scale or boundary is relevant here?">
+          <label data-builder-field="boundary_label">Self-chosen context boundary
+            <input name="boundary_label" type="text" placeholder="What part of your life, role, home, care, project or support context is this about?">
           </label>
-          <label data-builder-field="boundary_kind">Boundary kind
+          <label data-builder-field="boundary_kind">Boundary type, if useful
             <select name="boundary_kind">
               <option value="private-home">Private home or person</option>
               <option value="fractal">Fractal / context dependent</option>
@@ -77,37 +77,37 @@
               <option value="jurisdiction_or_project">Jurisdiction or project</option>
             </select>
           </label>
-          <label data-builder-field="purpose">Purpose
-            <textarea name="purpose" rows="3" placeholder="What might this file help a human or authorised agent understand or do?"></textarea>
+          <label data-builder-field="purpose">What support would help?
+            <textarea name="purpose" rows="3" placeholder="What could an authorised agent understand or do for you, without assuming control?"></textarea>
           </label>
           <fieldset class="builder-checks" data-builder-fieldset="focus_areas">
-            <legend data-builder-legend="focus_areas">Focus areas</legend>
+            <legend data-builder-legend="focus_areas">Optional context areas</legend>
             <div class="builder-check-grid" data-builder-focus-options>
               <label><input type="checkbox" name="focus_areas" value="public_summary"> public summary</label>
               <label><input type="checkbox" name="focus_areas" value="private_boundary"> private boundary</label>
               <label><input type="checkbox" name="focus_areas" value="human_review"> human review</label>
             </div>
           </fieldset>
-          <label data-builder-field="public_summary">Public summary
-            <textarea name="public_summary" rows="3" placeholder="If there is a wider audience, what could they safely understand?"></textarea>
+          <label data-builder-field="public_summary">Optional outside-facing note
+            <textarea name="public_summary" rows="3" placeholder="If you ever choose to share a small public cue, what would be safe enough and useful enough?"></textarea>
           </label>
-          <label data-builder-field="private_boundary">Private or permissioned boundary
-            <textarea name="private_boundary" rows="4" placeholder="What belongs in private, permissioned, culturally governed or not-yet-public context?"></textarea>
+          <label data-builder-field="private_boundary">Keep close or ask first
+            <textarea name="private_boundary" rows="4" placeholder="What would you prefer agents keep local, ignore, ask about first, or never pass onward?"></textarea>
           </label>
-          <label data-builder-field="evidence_notes">Evidence or source notes
-            <textarea name="evidence_notes" rows="4" placeholder="What sources, signals, dates, receipts, links, version notes or pipeline hints might help later?"></textarea>
+          <label data-builder-field="evidence_notes">Your memory and source hints
+            <textarea name="evidence_notes" rows="4" placeholder="What notes, files, memories, links or context clues might help you or your agent later?"></textarea>
           </label>
-          <label data-builder-field="reviewer">Reviewer or steward
-            <input name="reviewer" type="text" placeholder="Who, if anyone, has permission to check this before wider use?">
+          <label data-builder-field="reviewer">Optional trusted helper
+            <input name="reviewer" type="text" placeholder="Is there anyone you choose to invite into review, or should this stay owner-only?">
           </label>
-          <label data-builder-field="next_handoff">Human or agent use
-            <textarea name="next_handoff" rows="3" placeholder="What actions could be approved from this file, and what requires a checkpoint first?"></textarea>
+          <label data-builder-field="next_handoff">Actions you may approve
+            <textarea name="next_handoff" rows="3" placeholder="What kinds of agent actions feel useful, and where should the agent pause and ask you?"></textarea>
           </label>
-          <label data-builder-field="consent_scope">Consent scope
-            <textarea name="consent_scope" rows="3" placeholder="What, if anything, could be shared, with whom, for what purpose, and when would fresh permission be asked?"></textarea>
+          <label data-builder-field="consent_scope">How you want consent handled
+            <textarea name="consent_scope" rows="3" placeholder="What can be used privately, what might be shared later, and what should require a fresh yes?"></textarea>
           </label>
-          <label data-builder-field="correction_path">Review or correction path
-            <textarea name="correction_path" rows="3" placeholder="How should the owner, record holder or authorised steward handle review, correction, doubt or withdrawal?"></textarea>
+          <label data-builder-field="correction_path">Change, pause or withdraw
+            <textarea name="correction_path" rows="3" placeholder="How would you like to correct, pause, archive, replace or withdraw this context later?"></textarea>
           </label>
           <div class="builder-control-grid">
             <label data-builder-field="visibility">Visibility
@@ -147,7 +147,7 @@
           <p class="eyebrow">Markdown output</p>
           <h2 data-builder-file>builder-output.md</h2>
           <p data-builder-guardrail>This preview is generated in your browser. Downloading it creates a local file; it does not publish anything.</p>
-          <p>New to .md files? <a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">Open the external Markdown with AI Guide</a> before using this file with an agent.</p>
+          <p>New to .md files? <a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">Open the external Markdown with AI Guide</a>. This link leaves the P4A site.</p>
           <textarea class="builder-output" data-builder-output readonly rows="26" aria-label="Generated Markdown"></textarea>
           <div class="builder-actions">
             <button class="button button-primary" type="button" data-copy-builder>Copy Markdown</button>
@@ -167,6 +167,6 @@
   </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
   <script src="../script.js?v=20260509-image-opt"></script>
-  <script src="../assets/p4a-builders.js?v=20260517-builders"></script>
+  <script src="../assets/p4a-builders.js?v=20260602-sovereign-builder"></script>
 </body>
 </html>

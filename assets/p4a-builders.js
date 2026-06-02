@@ -215,7 +215,7 @@
       sourceRepo: "sbt_aura_builder",
       sourceBuilder: "pages/p4a-builder.html?tool=private-twin-context",
       purpleTranslation: "Purple-ified from sbt_aura_builder aura.md and component exports. Private by default.",
-      guardrail: "This is private context for a self-sovereign digital twin. Do not publish aura.md, health context, identity material, private preferences or support needs without explicit owner review.",
+      guardrail: "This aura.md belongs to the record holder. Agents may use it only inside owner-approved purposes, and any move toward sharing, publishing, editing or merging needs a fresh owner checkpoint.",
       prev: ["Private profile", "private-civic-profile-builder.html"],
       next: ["Private noticeboard", "p4a-builder.html?tool=private-noticeboard"],
       focusOptions: ["values", "preferences", "support_needs", "agent_context", "boundaries", "memory_threads"]
@@ -477,32 +477,66 @@
 
   const builderFieldText = {
     "private-twin-context": {
-      guidance: "Private aura context is for owner-approved agent support. It is not a public correction queue.",
-      focusLegend: "Aura context areas",
+      guidance: "This is a self-owned aura context: an optional map for agents you authorise, not a compliance form. Leave blanks, use your own language, and keep any part offline.",
+      focusLegend: "Optional context areas",
       fields: {
-        record_title: { label: "Aura context name", placeholder: "What private working name helps you recognise this aura context?" },
-        boundary_label: { label: "Owner and life boundary", placeholder: "Whose context is this, and what private life, home, role or support boundary does it sit inside?" },
-        boundary_kind: { label: "Private boundary type" },
-        purpose: { label: "Agent support purpose", placeholder: "What should an authorised agent understand so it can support you without overstepping?" },
-        public_summary: { label: "Optional public cue", placeholder: "If any public-facing summary is later needed, what safe cue could be separated from the private aura?" },
-        private_boundary: { label: "Do not use or share", placeholder: "What health, identity, home, emotional, care, relationship or preference context must stay private or permissioned?" },
-        evidence_notes: { label: "Memory and source hints", placeholder: "What private notes, memory threads, files or source hints could help the owner or agent orient later?" },
-        reviewer: { label: "Owner or trusted reviewer", placeholder: "Who, if anyone, has explicit permission to help review this private aura context?" },
-        next_handoff: { label: "Approved agent actions", placeholder: "What may an authorised agent do with this context, and what must pause for owner approval first?" },
-        consent_scope: { label: "Owner consent rules", placeholder: "What can be used privately, what can be shared, and what needs fresh owner approval every time?" },
-        correction_path: { label: "Owner review or withdrawal", placeholder: "How should the owner review, correct, pause, withdraw or replace this private context?" }
+        record_title: { label: "Private working name", placeholder: "What name helps you recognise this record, if you want one?" },
+        boundary_label: { label: "Self-chosen context boundary", placeholder: "What part of your life, role, home, care, project or support context is this about?" },
+        boundary_kind: { label: "Boundary type, if useful" },
+        purpose: { label: "What support would help?", placeholder: "What could an authorised agent understand or do for you, without assuming control?" },
+        public_summary: { label: "Optional outside-facing note", placeholder: "If you ever choose to share a small public cue, what would be safe enough and useful enough?" },
+        private_boundary: { label: "Keep close or ask first", placeholder: "What would you prefer agents keep local, ignore, ask about first, or never pass onward?" },
+        evidence_notes: { label: "Your memory and source hints", placeholder: "What notes, files, memories, links or context clues might help you or your agent later?" },
+        reviewer: { label: "Optional trusted helper", placeholder: "Is there anyone you choose to invite into review, or should this stay owner-only?" },
+        next_handoff: { label: "Actions you may approve", placeholder: "What kinds of agent actions feel useful, and where should the agent pause and ask you?" },
+        consent_scope: { label: "How you want consent handled", placeholder: "What can be used privately, what might be shared later, and what should require a fresh yes?" },
+        correction_path: { label: "Change, pause or withdraw", placeholder: "How would you like to correct, pause, archive, replace or withdraw this context later?" },
+        visibility: {
+          label: "Where this lives",
+          options: {
+            private: "Owner-held private",
+            permissioned: "Shared only if chosen",
+            public_draft: "Future public summary only"
+          }
+        },
+        consent_model: {
+          label: "Consent style",
+          options: {
+            "plain-language-purpose-bound-revocable": "Purpose-bound and revocable",
+            owner_review_required: "Ask before changes",
+            local_steward_review: "Chosen helper can review",
+            collective_authority_required: "Group consent needed"
+          }
+        },
+        review_status: {
+          label: "Check-in status",
+          options: {
+            needs_human_review: "Owner has not reviewed yet",
+            locally_reviewed: "Reviewed by chosen helper",
+            source_checked: "Sources checked",
+            ready_for_public_summary: "Public summary ready if chosen"
+          }
+        },
+        confidence: {
+          label: "Confidence, if useful",
+          options: {
+            draft: "Rough draft",
+            medium: "Useful but incomplete",
+            high_after_review: "Strong after owner review"
+          }
+        }
       },
       sections: {
-        boundary: "Owner And Private Context",
-        purpose: "Agent Support Purpose",
-        focus: "Aura Context Areas",
-        public: "Optional Public Cue",
-        private: "Do Not Use Or Share",
-        evidence: "Memory And Source Hints",
-        reviewer: "Owner Or Trusted Reviewer",
-        handoff: "Approved Agent Actions",
-        consent: "Owner Consent Rules",
-        correction: "Owner Review Or Withdrawal"
+        boundary: "Self-Chosen Context Boundary",
+        purpose: "What Support Would Help",
+        focus: "Optional Context Areas",
+        public: "Optional Outside-Facing Note",
+        private: "Keep Close Or Ask First",
+        evidence: "Your Memory And Source Hints",
+        reviewer: "Optional Trusted Helper",
+        handoff: "Actions You May Approve",
+        consent: "How You Want Consent Handled",
+        correction: "Change, Pause Or Withdraw"
       }
     },
     "contributor-card": {
@@ -992,6 +1026,11 @@
       const field = form.querySelector(`[name="${name}"]`);
       if (field && copy.placeholder !== undefined) {
         field.setAttribute("placeholder", copy.placeholder);
+      }
+      if (field && copy.options && field.tagName === "SELECT") {
+        Array.from(field.options).forEach((option) => {
+          if (copy.options[option.value]) option.textContent = copy.options[option.value];
+        });
       }
     });
 
