@@ -253,6 +253,21 @@ p { margin-top: 0; }
 .foundation-card-grid .track-card { min-height: 10.5rem; }
 .foundation-links { margin-top: 1.1rem; }
 .foundation-research { margin-top: 1.1rem; }
+#example-workbench {
+  border-color: rgba(255,214,110,.55);
+  background: linear-gradient(135deg, rgba(255,214,110,.14), rgba(111,34,200,.38), rgba(17,0,28,.82));
+}
+#example-workbench .foundation-card-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+#example-workbench .track-card-link {
+  min-height: 9rem;
+  border-color: rgba(255,214,110,.52);
+  background: linear-gradient(135deg, rgba(255,214,110,.16), rgba(181,51,255,.18), rgba(255,255,255,.055));
+}
+#example-workbench .track-card-link strong {
+  font-size: clamp(1.35rem, 3vw, 2.1rem);
+}
 .foundation-source-note {
   display: grid;
   gap: .35rem;

@@ -230,10 +230,29 @@
         {
           "label": "Cyber-Republic simulator",
           "href": "cyber-republic.html"
-        },
+        }
+      ]
+    },
+    {
+      "id": "example-workbench",
+      "eyebrow": "External example",
+      "heading": "Open the working legal-memory example.",
+      "paragraphs": [
+        "This card links out of the P4A site to a separate Legal Memory Workbench example. Use it as a practical reference for how legal questions, jurisdiction notes, source lists, risk maps, evidence checklists, agent instructions and exports can be broken into readable Markdown worksheets.",
+        "It is still legal-information tooling, not legal advice. The useful pattern is the source-first workflow, human review, visible limits and exportable records."
+      ],
+      "cards": [
         {
-          "label": "Example legal workbench",
+          "label": "Leaves P4A",
+          "title": "Legal Memory Workbench",
+          "body": "This leaves P4A and opens the standalone example site for legal-memory worksheets and agent-readable Markdown exports.",
           "href": "https://auraofintelligence.github.io/legal-memory-workbench/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Legal Source Trail builder",
+          "href": "p4a-builder.html?tool=legal-source-trail"
         }
       ]
     }

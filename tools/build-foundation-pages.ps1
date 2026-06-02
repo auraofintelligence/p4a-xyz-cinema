@@ -106,7 +106,9 @@ function Render-Cards {
     $title = Escape-Html $card.title
     $body = Escape-Html $card.body
     $href = Escape-Html $card.href
-    $openTag = if ([string]::IsNullOrWhiteSpace($href)) { '<article class="track-card">' } else { "<a class=""track-card track-card-link"" href=""$href"">" }
+    $external = $href -match '^https?://'
+    $target = if ($external) { ' target="_blank" rel="noopener"' } else { '' }
+    $openTag = if ([string]::IsNullOrWhiteSpace($href)) { '<article class="track-card">' } else { "<a class=""track-card track-card-link"" href=""$href""$target>" }
     $closeTag = if ([string]::IsNullOrWhiteSpace($href)) { '</article>' } else { '</a>' }
 @"
 $openTag
@@ -142,7 +144,9 @@ function Render-Links {
   $items = foreach ($link in $Links) {
     $label = Escape-Html $link.label
     $href = Escape-Html $link.href
-    "<a href=""$href"">$label</a>"
+    $external = $href -match '^https?://'
+    $target = if ($external) { ' target="_blank" rel="noopener"' } else { '' }
+    "<a href=""$href""$target>$label</a>"
   }
 
   "<div class=""source-links foundation-links"">" + ($items -join "") + "</div>"
@@ -160,17 +164,17 @@ function Render-Section {
   $cards = Render-Cards -Cards @($Section.cards)
   $tags = Render-Tags -Tags @($Section.tags)
   $links = Render-Links -Links @($Section.links)
-
-@"
-<div class="feature-panel foundation-panel" id="$id">
-  <p class="eyebrow">$eyebrow</p>
-  <h2>$heading</h2>
-  $($paragraphs -join "`n")
-  $cards
-  $tags
-  $links
-</div>
-"@
+  $sectionLines = @(
+    "<div class=""feature-panel foundation-panel"" id=""$id"">",
+    "  <p class=""eyebrow"">$eyebrow</p>",
+    "  <h2>$heading</h2>",
+    "  $($paragraphs -join "`n")"
+  )
+  if (-not [string]::IsNullOrWhiteSpace($cards)) { $sectionLines += "  $cards" }
+  if (-not [string]::IsNullOrWhiteSpace($tags)) { $sectionLines += "  $tags" }
+  if (-not [string]::IsNullOrWhiteSpace($links)) { $sectionLines += "  $links" }
+  $sectionLines += "</div>"
+  $sectionLines -join "`n"
 }
 
 function Render-NextLinks {
