@@ -360,6 +360,7 @@
       capabilityScope: "fractal",
       visibility: "private",
       sourceRepo: "legal-memory-workbench",
+      sourceUrl: "https://auraofintelligence.github.io/legal-memory-workbench/",
       sourceBuilder: "pages/p4a-builder.html?tool=legal-source-trail",
       purpleTranslation: "Purple-ified from legal-memory, source-list, risk-map, evidence-checklist and agent-instruction patterns.",
       guardrail: "Legal RAG starts as legal information preparation, source literacy and question framing. It is not legal advice.",
@@ -1018,7 +1019,17 @@
       element.textContent = config.filename;
     });
     document.querySelectorAll("[data-builder-source]").forEach((element) => {
-      element.textContent = config.module?.sourceRepo || element.textContent;
+      if (config.module?.sourceUrl) {
+        element.textContent = "";
+        const link = document.createElement("a");
+        link.href = config.module.sourceUrl;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.textContent = config.module.sourceRepo;
+        element.appendChild(link);
+      } else {
+        element.textContent = config.module?.sourceRepo || element.textContent;
+      }
     });
     document.querySelectorAll("[data-builder-guardrail]").forEach((element) => {
       element.textContent = config.module?.guardrail || element.textContent;

@@ -230,6 +230,10 @@
         {
           "label": "Cyber-Republic simulator",
           "href": "cyber-republic.html"
+        },
+        {
+          "label": "Example legal workbench",
+          "href": "https://auraofintelligence.github.io/legal-memory-workbench/"
         }
       ]
     }
