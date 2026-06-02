@@ -3,6 +3,13 @@
   if (!form) return;
 
   const requestedTool = new URLSearchParams(window.location.search).get("tool");
+  const retiredTools = {
+    "private-twin-context": "aura-genesis.html"
+  };
+  if (requestedTool && retiredTools[requestedTool]) {
+    window.location.replace(retiredTools[requestedTool]);
+    return;
+  }
   if (requestedTool && form.hasAttribute("data-p4a-dynamic-builder")) {
     form.dataset.p4aBuilder = requestedTool;
   }
@@ -199,27 +206,6 @@
   }
 
   const moduleConfigs = {
-    "private-twin-context": {
-      title: "Private Twin Context Builder",
-      eyebrow: "L0 aura.md layer",
-      filename: "aura.md",
-      schema: "p4a.private_twin_context.v0",
-      primaryLayer: "L0",
-      layers: ["L0"],
-      defaultStartingLayer: "L0",
-      scalePath: "L0 private aura.md -> permissioned agent context -> optional public summary",
-      boundaryKind: "private-home",
-      capabilityKind: "private-digital-twin-context",
-      capabilityScope: "fractal",
-      visibility: "private",
-      sourceRepo: "sbt_aura_builder",
-      sourceBuilder: "pages/p4a-builder.html?tool=private-twin-context",
-      purpleTranslation: "Purple-ified from sbt_aura_builder aura.md and component exports. Private by default.",
-      guardrail: "This aura.md belongs to the record holder. Agents may use it only inside owner-approved purposes, and any move toward sharing, publishing, editing or merging needs a fresh owner checkpoint.",
-      prev: ["Private profile", "private-civic-profile-builder.html"],
-      next: ["Private noticeboard", "p4a-builder.html?tool=private-noticeboard"],
-      focusOptions: ["values", "preferences", "support_needs", "agent_context", "boundaries", "memory_threads"]
-    },
     "contributor-card": {
       title: "Contributor Card Builder",
       eyebrow: "L0/L1 public summary",
@@ -258,7 +244,7 @@
       sourceBuilder: "pages/p4a-builder.html?tool=private-noticeboard",
       purpleTranslation: "Purple-ified from noticeboard patterns for private self, home, health, study, care or life-improvement boards.",
       guardrail: "A private noticeboard is for the owner first. Agents may use it for approved reminders, drafting, planning or actions, but editing the record needs explicit permission.",
-      prev: ["Private twin", "p4a-builder.html?tool=private-twin-context"],
+      prev: ["Private profile", "private-civic-profile-builder.html"],
       next: ["Contributor card", "p4a-builder.html?tool=contributor-card"],
       focusOptions: ["personal_priorities", "habits", "care_tasks", "home_tasks", "learning", "agent_actions"]
     },
@@ -476,69 +462,6 @@
   };
 
   const builderFieldText = {
-    "private-twin-context": {
-      guidance: "This is a self-owned aura context: an optional map for agents you authorise, not a compliance form. Leave blanks, use your own language, and keep any part offline.",
-      focusLegend: "Optional context areas",
-      fields: {
-        record_title: { label: "Private working name", placeholder: "What name helps you recognise this record, if you want one?" },
-        boundary_label: { label: "Self-chosen context boundary", placeholder: "What part of your life, role, home, care, project or support context is this about?" },
-        boundary_kind: { label: "Boundary type, if useful" },
-        purpose: { label: "What support would help?", placeholder: "What could an authorised agent understand or do for you, without assuming control?" },
-        public_summary: { label: "Optional outside-facing note", placeholder: "If you ever choose to share a small public cue, what would be safe enough and useful enough?" },
-        private_boundary: { label: "Keep close or ask first", placeholder: "What would you prefer agents keep local, ignore, ask about first, or never pass onward?" },
-        evidence_notes: { label: "Your memory and source hints", placeholder: "What notes, files, memories, links or context clues might help you or your agent later?" },
-        reviewer: { label: "Optional trusted helper", placeholder: "Is there anyone you choose to invite into review, or should this stay owner-only?" },
-        next_handoff: { label: "Actions you may approve", placeholder: "What kinds of agent actions feel useful, and where should the agent pause and ask you?" },
-        consent_scope: { label: "How you want consent handled", placeholder: "What can be used privately, what might be shared later, and what should require a fresh yes?" },
-        correction_path: { label: "Change, pause or withdraw", placeholder: "How would you like to correct, pause, archive, replace or withdraw this context later?" },
-        visibility: {
-          label: "Where this lives",
-          options: {
-            private: "Owner-held private",
-            permissioned: "Shared only if chosen",
-            public_draft: "Future public summary only"
-          }
-        },
-        consent_model: {
-          label: "Consent style",
-          options: {
-            "plain-language-purpose-bound-revocable": "Purpose-bound and revocable",
-            owner_review_required: "Ask before changes",
-            local_steward_review: "Chosen helper can review",
-            collective_authority_required: "Group consent needed"
-          }
-        },
-        review_status: {
-          label: "Check-in status",
-          options: {
-            needs_human_review: "Owner has not reviewed yet",
-            locally_reviewed: "Reviewed by chosen helper",
-            source_checked: "Sources checked",
-            ready_for_public_summary: "Public summary ready if chosen"
-          }
-        },
-        confidence: {
-          label: "Confidence, if useful",
-          options: {
-            draft: "Rough draft",
-            medium: "Useful but incomplete",
-            high_after_review: "Strong after owner review"
-          }
-        }
-      },
-      sections: {
-        boundary: "Self-Chosen Context Boundary",
-        purpose: "What Support Would Help",
-        focus: "Optional Context Areas",
-        public: "Optional Outside-Facing Note",
-        private: "Keep Close Or Ask First",
-        evidence: "Your Memory And Source Hints",
-        reviewer: "Optional Trusted Helper",
-        handoff: "Actions You May Approve",
-        consent: "How You Want Consent Handled",
-        correction: "Change, Pause Or Withdraw"
-      }
-    },
     "contributor-card": {
       guidance: "This is an opt-in public summary. It should not import private aura or proof material by default.",
       focusLegend: "Contributor card parts",
@@ -965,7 +888,7 @@
       filename: "profile.md",
       title: "Private Civic Profile Builder",
       prev: ["Builder suite", "civic-twin-builders.html"],
-      next: ["Private twin", "p4a-builder.html?tool=private-twin-context"],
+      next: ["Private noticeboard", "p4a-builder.html?tool=private-noticeboard"],
       build: buildPrivateProfile
     },
     "noticeboard-contract": {

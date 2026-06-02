@@ -7,7 +7,7 @@
   <meta name="description" content="A browser-local P4A Markdown builder for self-sovereign civic twin, project, ledger, legal and place records.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260602-sovereign-builder">
+  <link rel="stylesheet" href="../styles.css?v=20260603-no-aura-builder">
 </head>
 <body data-theme="royal" data-page="builder">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -51,20 +51,20 @@
 
     <section class="section builder-section" id="builder">
       <div class="builder-layout">
-        <form class="builder-form feature-panel reveal" data-p4a-builder="private-twin-context" data-p4a-dynamic-builder>
+        <form class="builder-form feature-panel reveal" data-p4a-builder="private-noticeboard" data-p4a-dynamic-builder>
           <p class="eyebrow"><span data-builder-file>builder-output.md</span></p>
           <h2 data-builder-title>P4A Markdown Builder</h2>
           <p class="builder-form-note">Source pattern: <span data-builder-source>selected builder route</span>.</p>
           <p class="builder-form-note" data-builder-guidance hidden></p>
           <p class="builder-form-note">All fields are optional. You can skip any field for any reason, without needing to state the reason.</p>
 
-          <label data-builder-field="record_title">Private working name
-            <input name="record_title" type="text" placeholder="What name helps you recognise this record, if you want one?">
+          <label data-builder-field="record_title">Private board name
+            <input name="record_title" type="text" placeholder="What life area, project, routine or private board needs a name?">
           </label>
-          <label data-builder-field="boundary_label">Self-chosen context boundary
-            <input name="boundary_label" type="text" placeholder="What part of your life, role, home, care, project or support context is this about?">
+          <label data-builder-field="boundary_label">Private board boundary
+            <input name="boundary_label" type="text" placeholder="Is this about self, home, study, health, care, repairs, admin, habits or another life area?">
           </label>
-          <label data-builder-field="boundary_kind">Boundary type, if useful
+          <label data-builder-field="boundary_kind">Board boundary type
             <select name="boundary_kind">
               <option value="private-home">Private home or person</option>
               <option value="fractal">Fractal / context dependent</option>
@@ -77,37 +77,37 @@
               <option value="jurisdiction_or_project">Jurisdiction or project</option>
             </select>
           </label>
-          <label data-builder-field="purpose">What support would help?
-            <textarea name="purpose" rows="3" placeholder="What could an authorised agent understand or do for you, without assuming control?"></textarea>
+          <label data-builder-field="purpose">What the board helps with
+            <textarea name="purpose" rows="3" placeholder="What should this board help you notice, sort, remember, plan or ask an agent to do?"></textarea>
           </label>
           <fieldset class="builder-checks" data-builder-fieldset="focus_areas">
-            <legend data-builder-legend="focus_areas">Optional context areas</legend>
+            <legend data-builder-legend="focus_areas">Private board lanes</legend>
             <div class="builder-check-grid" data-builder-focus-options>
               <label><input type="checkbox" name="focus_areas" value="public_summary"> public summary</label>
               <label><input type="checkbox" name="focus_areas" value="private_boundary"> private boundary</label>
               <label><input type="checkbox" name="focus_areas" value="human_review"> human review</label>
             </div>
           </fieldset>
-          <label data-builder-field="public_summary">Optional outside-facing note
-            <textarea name="public_summary" rows="3" placeholder="If you ever choose to share a small public cue, what would be safe enough and useful enough?"></textarea>
+          <label data-builder-field="public_summary">Optional shareable summary
+            <textarea name="public_summary" rows="3" placeholder="If a trusted helper saw only one safe summary, what could it say?"></textarea>
           </label>
-          <label data-builder-field="private_boundary">Keep close or ask first
-            <textarea name="private_boundary" rows="4" placeholder="What would you prefer agents keep local, ignore, ask about first, or never pass onward?"></textarea>
+          <label data-builder-field="private_boundary">Private board limits
+            <textarea name="private_boundary" rows="4" placeholder="What should stay private, off-limits to agents, or separate from any shared support lane?"></textarea>
           </label>
-          <label data-builder-field="evidence_notes">Your memory and source hints
-            <textarea name="evidence_notes" rows="4" placeholder="What notes, files, memories, links or context clues might help you or your agent later?"></textarea>
+          <label data-builder-field="evidence_notes">Signals and reminders
+            <textarea name="evidence_notes" rows="4" placeholder="What dates, recurring signals, receipts, notes or context might help the board stay useful?"></textarea>
           </label>
-          <label data-builder-field="reviewer">Optional trusted helper
-            <input name="reviewer" type="text" placeholder="Is there anyone you choose to invite into review, or should this stay owner-only?">
+          <label data-builder-field="reviewer">Trusted helper, if any
+            <input name="reviewer" type="text" placeholder="Who, if anyone, is allowed to help review this private board?">
           </label>
-          <label data-builder-field="next_handoff">Actions you may approve
-            <textarea name="next_handoff" rows="3" placeholder="What kinds of agent actions feel useful, and where should the agent pause and ask you?"></textarea>
+          <label data-builder-field="next_handoff">Agent actions from board
+            <textarea name="next_handoff" rows="3" placeholder="What can an agent remind, draft, organise or prepare, and what needs approval first?"></textarea>
           </label>
-          <label data-builder-field="consent_scope">How you want consent handled
-            <textarea name="consent_scope" rows="3" placeholder="What can be used privately, what might be shared later, and what should require a fresh yes?"></textarea>
+          <label data-builder-field="consent_scope">Sharing rules
+            <textarea name="consent_scope" rows="3" placeholder="What stays private, what could be shared with a helper, and what needs fresh permission?"></textarea>
           </label>
-          <label data-builder-field="correction_path">Change, pause or withdraw
-            <textarea name="correction_path" rows="3" placeholder="How would you like to correct, pause, archive, replace or withdraw this context later?"></textarea>
+          <label data-builder-field="correction_path">Owner cleanup path
+            <textarea name="correction_path" rows="3" placeholder="How should stale items, wrong notes, withdrawals or changed priorities be cleaned up?"></textarea>
           </label>
           <div class="builder-control-grid">
             <label data-builder-field="visibility">Visibility
@@ -167,6 +167,6 @@
   </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
   <script src="../script.js?v=20260509-image-opt"></script>
-  <script src="../assets/p4a-builders.js?v=20260602-sovereign-builder"></script>
+  <script src="../assets/p4a-builders.js?v=20260603-no-aura-builder"></script>
 </body>
 </html>

@@ -877,6 +877,25 @@ body[data-page="constitution"] .source-links a {
   font-size: clamp(1rem, 1.55vw, 1.2rem);
   line-height: 1.55;
 }
+.builder-lane-note {
+  display: grid;
+  gap: .45rem;
+  max-width: 68rem;
+  padding: .9rem 1rem;
+  border: 1px solid rgba(255,214,110,.26);
+  border-radius: 8px;
+  background: rgba(255,214,110,.08);
+  color: var(--muted);
+  line-height: 1.45;
+}
+.builder-lane-note strong {
+  color: #fff;
+}
+.builder-lane-note a {
+  width: fit-content;
+  color: #ffe9a6;
+  font-weight: 900;
+}
 .builder-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(21rem, .9fr);
