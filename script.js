@@ -32,6 +32,21 @@ document.querySelectorAll('[data-nav] a').forEach((link) => {
   if (normaliseNavPath(href) === path) link.setAttribute('aria-current', 'page');
 });
 
+if (document.body?.dataset.page === 'site-map') {
+  document.querySelectorAll('.map-jump a[href^="#"], .hero-actions a[href^="#"]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const hash = link.getAttribute('href');
+      if (!hash || hash === '#') return;
+      const target = document.getElementById(hash.slice(1));
+      if (!target) return;
+      event.preventDefault();
+      history.pushState(null, '', hash);
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    });
+  });
+}
+
 document.querySelectorAll('a[href]').forEach((link) => {
   const href = link.getAttribute('href');
   if (!href) return;

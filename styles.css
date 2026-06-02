@@ -1215,7 +1215,7 @@ body[data-page="housing-simulations"] .housing-question-grid {
 .map-jump a:hover, .map-jump a:focus-visible { border-color: rgba(255,214,110,.78); color: var(--gold); background: rgba(255,214,110,.13); }
 .site-map-tree { position: relative; display: grid; gap: 1rem; }
 .site-map-tree::before { content: ""; position: absolute; left: 1.35rem; top: .6rem; bottom: .6rem; width: 2px; background: linear-gradient(180deg, var(--gold), rgba(255,77,255,.58), rgba(0,230,118,.42)); box-shadow: 0 0 24px rgba(255,77,255,.38); }
-.map-branch { position: relative; padding: .9rem .9rem .9rem 3.05rem; border: 1px solid rgba(221,156,255,.24); border-radius: var(--radius); background: linear-gradient(135deg, rgba(111,34,200,.28), rgba(17,0,28,.78)); box-shadow: 0 24px 80px rgba(0,0,0,.3); }
+.map-branch { position: relative; scroll-margin-top: 6rem; padding: .9rem .9rem .9rem 3.05rem; border: 1px solid rgba(221,156,255,.24); border-radius: var(--radius); background: linear-gradient(135deg, rgba(111,34,200,.28), rgba(17,0,28,.78)); box-shadow: 0 24px 80px rgba(0,0,0,.3); }
 .map-branch::before { content: ""; position: absolute; left: .83rem; top: 1.28rem; width: 1.05rem; aspect-ratio: 1; border-radius: 50%; border: 1px solid rgba(255,214,110,.78); background: radial-gradient(circle, #fff 0 12%, var(--gold) 13% 38%, rgba(255,77,255,.72) 39% 100%); box-shadow: 0 0 22px rgba(255,214,110,.5); }
 .map-branch summary { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .3rem .7rem; align-items: center; cursor: pointer; list-style: none; }
 .map-branch summary::-webkit-details-marker { display: none; }
@@ -1229,6 +1229,13 @@ body[data-page="housing-simulations"] .housing-question-grid {
 .map-branch li a, .state-tree-grid a { color: #fff; font-weight: 1000; text-decoration: none; }
 .map-branch li a:hover, .map-branch li a:focus-visible, .state-tree-grid a:hover, .state-tree-grid a:focus-visible { color: var(--gold); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .2rem; }
 .map-branch li em { display: block; margin-top: .35rem; color: var(--muted); font-style: normal; font-size: .93rem; line-height: 1.38; }
+.official-link-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+.official-link-card { display: grid; gap: .65rem; min-height: 9.5rem; padding: .95rem; border: 1px solid rgba(221,156,255,.22); border-radius: 8px; background: rgba(255,255,255,.07); }
+.official-link-card h3 { margin: 0; color: var(--gold); font-size: clamp(1.05rem, 1.8vw, 1.35rem); line-height: 1.15; overflow-wrap: anywhere; }
+.official-link-card p { margin: 0; color: var(--muted); font-size: .93rem; line-height: 1.38; }
+.official-link-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-self: end; }
+.official-link-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 2.15rem; padding: .42rem .65rem; border: 1px solid rgba(255,214,110,.35); border-radius: 999px; background: rgba(255,214,110,.1); color: #ffe9a6; font-weight: 900; text-decoration: none; }
+.official-link-actions a:hover, .official-link-actions a:focus-visible { border-color: rgba(255,214,110,.72); background: rgba(255,214,110,.17); color: #fff; text-decoration: none; }
 .state-tree-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; }
 .state-tree-grid article { display: grid; gap: .45rem; min-height: 12rem; padding: .9rem; border: 1px solid rgba(221,156,255,.22); border-radius: 8px; background: rgba(255,255,255,.07); }
 .state-tree-grid h3 { margin: 0 0 .25rem; color: var(--gold); }
@@ -1249,6 +1256,9 @@ body[data-page="housing-simulations"] .housing-question-grid {
     opacity: .36;
   }
   body[data-page="site-map"] .state-tree-grid {
+    grid-template-columns: 1fr;
+  }
+  body[data-page="site-map"] .official-link-grid {
     grid-template-columns: 1fr;
   }
   body[data-page="site-map"] .state-tree-grid article {
