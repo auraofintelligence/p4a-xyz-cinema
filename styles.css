@@ -245,7 +245,8 @@ p { margin-top: 0; }
 .tag-strip { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1rem; }
 .tag-strip code { padding: .45rem .6rem; border: 1px solid rgba(255,214,110,.35); border-radius: 999px; background: rgba(255,214,110,.1); color: #ffe9a6; }
 .foundation-hero h1 { max-width: 12ch; }
-.foundation-shell { grid-template-columns: minmax(17rem, .48fr) minmax(0, 1fr); }
+.foundation-shell { grid-template-columns: 1fr; }
+.foundation-shell .page-media { display: none; }
 .foundation-panel { scroll-margin-top: 6.5rem; }
 .foundation-panel h2 { max-width: 17ch; }
 .foundation-card-grid { margin-top: 1rem; }
@@ -270,12 +271,6 @@ p { margin-top: 0; }
   color: #fff;
   font: 800 .9rem/1.45 Consolas, "Courier New", monospace;
   overflow-wrap: anywhere;
-}
-body[data-foundation-page="architecture"] .foundation-shell {
-  grid-template-columns: 1fr;
-}
-body[data-foundation-page="architecture"] .foundation-shell .page-media {
-  display: none;
 }
 body[data-foundation-page="architecture"] .foundation-card-grid {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));

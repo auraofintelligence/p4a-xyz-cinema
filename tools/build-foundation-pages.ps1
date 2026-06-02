@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $contentDir = Join-Path $root "content/foundation"
 $pagesDir = Join-Path $root "pages"
-$cacheVersion = "20260517-builders"
+$cacheVersion = "20260602-foundation-layout"
 
 function Escape-Html {
   param([AllowNull()][object]$Value)
