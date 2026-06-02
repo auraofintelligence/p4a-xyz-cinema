@@ -998,6 +998,13 @@ body[data-page="constitution"] .source-links a {
   color: var(--gold);
   font-weight: 900;
 }
+.c-hour-grid {
+  grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
+}
+.c-hour-gate {
+  border-color: rgba(255,214,110,.46);
+  background: linear-gradient(135deg, rgba(255,214,110,.12), rgba(79,22,127,.42), rgba(13,0,24,.86));
+}
 .builder-nav-strip {
   display: flex;
   flex-wrap: wrap;
