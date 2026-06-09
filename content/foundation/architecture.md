@@ -308,11 +308,11 @@
           "href": "braided-economy.html"
         },
         {
-          "label": "Community Insurance",
+          "label": "Risk and Mutual Care",
           "href": "community-insurance.html"
         },
         {
-          "label": "External wealth and mutual care",
+          "label": "External Moreton Bay example",
           "href": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/"
         },
         {
