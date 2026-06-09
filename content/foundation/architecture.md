@@ -81,13 +81,13 @@
           "label": "Agent",
           "title": "Markdown as the shared contract",
           "body": "AI agents can use structured .md files with sources, dates, consent flags, confidence notes and review status. Editing them is a permissioned workflow, not an assumed right.",
-          "href": "civic-twin-builders.html"
+          "href": "markdown-with-ai.html"
         },
         {
           "label": "Genesis",
           "title": "Aura Genesis is one deeper pathway",
-          "body": "Aura Genesis is an intensive self-sovereign digital-twin process that can produce many .md files, including through a 60 by 2-hour HBOT-chamber practice. Lighter digital twins can be made without it.",
-          "href": "p4a-builder.html?tool=private-twin-context"
+          "body": "Aura Genesis is a deeper self-sovereign digital-twin pathway, not a P4A form builder. Lighter civic records can start here without trying to build an Aura file.",
+          "href": "aura-genesis.html"
         }
       ],
       "links": [
@@ -100,8 +100,12 @@
           "href": "private-civic-profile-builder.html"
         },
         {
-          "label": "Private twin context builder",
-          "href": "p4a-builder.html?tool=private-twin-context"
+          "label": "Markdown with AI",
+          "href": "markdown-with-ai.html"
+        },
+        {
+          "label": "Aura Genesis context",
+          "href": "aura-genesis.html"
         },
         {
           "label": "Contributor card builder",
@@ -112,7 +116,11 @@
           "href": "noticeboard-contract-builder.html"
         },
         {
-          "label": "Straddie noticeboard",
+          "label": "External Markdown guide",
+          "href": "https://auraofintelligence.github.io/how-to-use-md-with-ai/"
+        },
+        {
+          "label": "External Straddie noticeboard",
           "href": "https://auraofintelligence.github.io/straddie-noticeboard-network/index.html"
         },
         {
@@ -146,9 +154,15 @@
         },
         {
           "label": "Self",
-          "title": "Self-sovereign markdown twin",
-          "body": "A person-controlled markdown suite can hold public, private and permissioned records with clear consent, source trails and version history.",
-          "href": "p4a-builder.html?tool=private-twin-context"
+          "title": "Private context has a boundary",
+          "body": "P4A can note that private L0 context exists, but it does not try to build deep Aura, health, memoir or intimate support records in this builder suite.",
+          "href": "civic-twin-builders.html#l0-private-context-note"
+        },
+        {
+          "label": "Straddie",
+          "title": "Prompt twins as examples",
+          "body": "The Straddie Digital Twin Builders show how rooms, places and bioregions can become Markdown prompt packets for external visual and world-building tools.",
+          "href": "https://auraofintelligence.github.io/straddie-digital-twin-builders/"
         },
         {
           "label": "Sensorium",
@@ -162,8 +176,12 @@
           "href": "private-civic-profile-builder.html"
         },
         {
-          "label": "Private twin context builder",
-          "href": "p4a-builder.html?tool=private-twin-context"
+          "label": "Markdown with AI",
+          "href": "markdown-with-ai.html"
+        },
+        {
+          "label": "Aura Genesis context",
+          "href": "aura-genesis.html"
         },
         {
           "label": "Sovereign space node builder",
@@ -176,6 +194,10 @@
         {
           "label": "Web3 Sensorium",
           "href": "web3-sensorium.html"
+        },
+        {
+          "label": "External Straddie Digital Twin Builders",
+          "href": "https://auraofintelligence.github.io/straddie-digital-twin-builders/"
         },
         {
           "label": "Cyber-Republic simulator",
@@ -284,6 +306,14 @@
         {
           "label": "Braided Economy",
           "href": "braided-economy.html"
+        },
+        {
+          "label": "Community Insurance",
+          "href": "community-insurance.html"
+        },
+        {
+          "label": "External wealth and mutual care",
+          "href": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/"
         },
         {
           "label": "Civic ledger",

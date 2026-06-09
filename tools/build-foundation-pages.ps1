@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $contentDir = Join-Path $root "content/foundation"
 $pagesDir = Join-Path $root "pages"
-$cacheVersion = "20260602-foundation-layout"
+$cacheVersion = "20260609-md-ai-p4a"
 
 function Escape-Html {
   param([AllowNull()][object]$Value)
@@ -234,6 +234,7 @@ function Render-FoundationPage {
     <strong>National foundation workbench</strong>
     <span>This is a drafting workbench for roots-up civic tools. The scale model is flexible: private life, local communities, councils, bioregions, states, nations and future layers are design questions, not fixed doctrine.</span>
     <a href="architecture.html">Architecture</a>
+    <a href="markdown-with-ai.html">Markdown With AI</a>
     <a href="deployment-gear.html">Gear</a>
     <a href="legal-rag.html">Law Engine</a>
   </div>
