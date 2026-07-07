@@ -23,7 +23,7 @@ if ('IntersectionObserver' in window) {
 
 const normaliseNavPath = (value) => {
   const url = new URL(value, location.href);
-  return url.pathname.replace(/\/index\.html$/, '/');
+  return url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
 };
 const path = normaliseNavPath(location.href);
 document.querySelectorAll('[data-nav] a').forEach((link) => {

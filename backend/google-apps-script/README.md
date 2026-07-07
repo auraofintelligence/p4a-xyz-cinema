@@ -18,8 +18,8 @@ Set these in Apps Script project settings:
 
 ```text
 STRIPE_SECRET_KEY=sk_test_or_live_key
-STRIPE_SUCCESS_URL=https://auraofintelligence.github.io/p4a_xyz/pages/deployment-gear.html?gear=success
-STRIPE_CANCEL_URL=https://auraofintelligence.github.io/p4a_xyz/pages/deployment-gear.html?gear=cancelled
+STRIPE_SUCCESS_URL=https://auraofintelligence.github.io/p4a-xyz-cinema/pages/deployment-gear.html?gear=success
+STRIPE_CANCEL_URL=https://auraofintelligence.github.io/p4a-xyz-cinema/pages/deployment-gear.html?gear=cancelled
 ORDER_SHEET_ID=the_google_sheet_id
 AUSPOST_PAC_API_KEY=optional_postage_assessment_calculation_key
 ```

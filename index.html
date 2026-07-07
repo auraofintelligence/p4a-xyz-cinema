@@ -7,102 +7,100 @@
   <meta name="description" content="Purple Party for Australia is a public civic workbench for roots-up democracy, local tools, policy rooms, culture, ledgers, law and referendum rehearsal.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=20260609-rabbit-names">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20260707-cinema">
 </head>
-<body data-theme="royal">
+<body data-theme="royal" data-page="home">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
-    <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
-    <nav class="site-nav" data-nav aria-label="Main navigation">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="pages/architecture.html">Architecture</a>
-      <a href="pages/civic-twin-builders.html">Builders</a>
-      <a href="pages/twinkle.html">Twinkle</a>
-      <a href="pages/rabbit-hole.html">Rabbit Hole</a>
-      <a href="pages/deployment-gear.html">Gear</a>
-      <a href="pages/musicverse.html">Music</a>
-      <a href="pages/states.html">States</a>
-      <a href="pages/state-history.html">History</a>
-      <a href="pages/constitution.html">Constitution</a>
-      <a href="pages/legal-rag.html">Law</a>
-      <a href="pages/civic-ledger.html">Ledger</a>
-    </nav>
-  </header>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
+  <nav class="site-nav" data-nav aria-label="Primary">
+    <a href="pages/rabbit-hole.html">Map</a>
+    <a href="pages/architecture.html">System</a>
+    <a href="pages/twinkle.html">Twinkle</a>
+    <a href="pages/states.html">States</a>
+    <a href="pages/starter-field-kit.html">Start local</a>
+    <a href="pages/deployment-gear.html">Gear</a>
+  </nav>
+  <button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button>
+</header>
   <main id="main">
-    <section class="hero home-hero">
+
+    <section class="hero home-hero cinema-hero">
       <div class="hero-image"><img loading="eager" fetchpriority="high" decoding="async" src="assets/p4a-map-card.webp" alt="Purple Party for Australia civic map artwork"></div>
-      <div class="hero-content home-hero-content reveal">
-        <div class="home-hero-copy">
-          <p class="eyebrow">P4A / Purple Party for Australia</p>
-          <h1>Purple Party for Australia</h1>
-          <p class="hero-copy">A public civic workbench for roots-up democracy: start with people, homes and neighbours, then build practical tools, policy rooms, ledgers, law memory, culture and referendum rehearsal before anyone asks for power.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="pages/architecture.html">See the civic map</a>
-            <a class="button button-secondary" href="pages/twinkle.html">Start with Twinkle</a>
-            <a class="button button-secondary" href="pages/markdown-with-ai.html">Use .md with AI</a>
-          </div>
-        </div>
-        <div class="home-phone-panel" aria-label="Placeholder lyric video for The Purple Mat That Could">
-          <p class="eyebrow">Placeholder song doorway</p>
-          <h2>The Purple Mat That Could</h2>
-          <p>This lyric video holds the culture slot until the new P4A video is ready.</p>
-          <div class="phone-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/Oh7mPhtykJI" title="The Purple Mat That Could lyric video placeholder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+      <div class="hero-content reveal">
+        <p class="hero-status">Proposed movement — public workbench, not a registered party</p>
+        <p class="eyebrow">P4A / Purple Party for Australia</p>
+        <h1>Purple Party for&nbsp;Australia</h1>
+        <p class="hero-copy">A public civic workbench for roots-up democracy: start with people, homes and neighbours, then build practical tools, policy rooms, ledgers, law memory, culture and referendum rehearsal before anyone asks for power.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="pages/architecture.html">See the civic map</a>
+          <a class="button button-secondary" href="pages/twinkle.html">Start with Twinkle</a>
+          <button class="button button-secondary" type="button" data-menu-toggle aria-controls="site-index">Open the full index</button>
         </div>
       </div>
+      <p class="scroll-cue" aria-hidden="true">Scroll</p>
     </section>
 
-    <section class="section">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Clear doors</p><h2>Main pathways.</h2></div>
-        <p>Each doorway has a different job: public gripes, deeper campaign logic, roots-up architecture, readable AI context, field readiness and visible support.</p>
+    <div class="p4a-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Tolls</span><span>Food</span><span>Insurance</span><span>Work</span><span>Housing</span><span>Public assets</span><span>Law memory</span><span>Ledgers</span><span>States</span><span>Constitution</span><span>Culture</span><span>Gear</span>
+        <span>Tolls</span><span>Food</span><span>Insurance</span><span>Work</span><span>Housing</span><span>Public assets</span><span>Law memory</span><span>Ledgers</span><span>States</span><span>Constitution</span><span>Culture</span><span>Gear</span>
+      </div>
+    </div>
+
+    <section class="section" id="act-spark">
+      <div class="act-head reveal">
+        <span class="act-num" aria-hidden="true">01</span>
+        <div><p class="eyebrow">Act one / The spark</p><h2>It starts with a gripe.</h2></div>
+        <p>Short, spicy, everyday clips for the obvious pain: tolls, food, insurance and work. Twinkle is the way in — every clip opens a door into the serious room underneath.</p>
       </div>
       <div class="feature-grid home-door-grid reveal">
         <article>
           <span class="card-number">01</span>
           <h3>Twinkle series</h3>
-          <p>Short, spicy, everyday clips for the obvious gripes: tolls, food, insurance and work. It is the spark, not the whole system.</p>
+          <p>The spark, not the whole system. Four gripes, four doors, zero lectures.</p>
           <div class="source-links"><a href="pages/twinkle.html">Open Twinkle</a></div>
         </article>
         <article>
           <span class="card-number">02</span>
-          <h3>Rabbit-hole map</h3>
-          <p>The serious rooms underneath: housing simulations, ledgers, public assets, food resilience, law, state portals, constitutions and referendum rehearsal.</p>
-          <div class="source-links"><a href="pages/rabbit-hole.html">Open rabbit-hole map</a><a href="pages/housing-simulations.html">Housing simulations</a></div>
+          <h3>Tolls</h3>
+          <p>Commuter pain, then the Public Assets room: leases, ownership and long public memory.</p>
+          <div class="source-links"><a href="pages/twinkle-tolls.html">Twinkle 01</a><a href="pages/public-assets.html">Public assets</a></div>
         </article>
         <article>
           <span class="card-number">03</span>
-          <h3>Architecture</h3>
-          <p>The civic pattern starts close to home and scales only where it helps: community first, formal institutions later, with living maps alongside legal maps.</p>
-          <div class="source-links"><a href="pages/architecture.html">Open architecture</a><a href="pages/civic-twin-builders.html">Open builders</a></div>
+          <h3>Food</h3>
+          <p>Grocery shock, then the Food Security room: waste, local production and resilience.</p>
+          <div class="source-links"><a href="pages/twinkle-food.html">Twinkle 02</a><a href="pages/food-security.html">Food security</a></div>
         </article>
         <article>
           <span class="card-number">04</span>
-          <h3>Markdown with AI</h3>
-          <p>A plain-English guide to .md files for private context, public notices, sources, agent tasks, review notes and correction trails.</p>
-          <div class="source-links"><a href="pages/markdown-with-ai.html">Open P4A guide</a><a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">External guide</a></div>
+          <h3>Insurance</h3>
+          <p>Premium pressure, then Risk and Mutual Care: prevention, lawful pooling, local wealth.</p>
+          <div class="source-links"><a href="pages/twinkle-insurance.html">Twinkle 03</a><a href="pages/community-insurance.html">Mutual care</a></div>
         </article>
         <article>
           <span class="card-number">05</span>
-          <h3>Starter field kit</h3>
-          <p>The practical local organiser kit: market table, signs, QR trails, admin templates, local help table and media basics.</p>
-          <div class="source-links"><a href="pages/starter-field-kit.html">Open Field Kit</a></div>
+          <h3>Work</h3>
+          <p>AI job shock, then Workforce Transition: human adaptability and civic readiness.</p>
+          <div class="source-links"><a href="pages/twinkle-workforce.html">Twinkle 04</a><a href="pages/workforce-transition.html">Transition room</a></div>
         </article>
         <article class="gear-door">
           <span class="card-number">06</span>
-          <h3>Deployment gear</h3>
-          <p>Visible support, merch and culture objects that help fund the work and give people something tangible to rally around.</p>
-          <div class="source-links"><a href="pages/deployment-gear.html">Open Gear</a></div>
+          <h3>The rabbit hole</h3>
+          <p>Ready to go deeper? The full campaign map: rooms, trust layers and future machinery.</p>
+          <div class="source-links"><a href="pages/rabbit-hole.html">Open the map</a></div>
         </article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Root system</p><h2>Grow upward without losing the ground.</h2></div>
-        <p>Start with everyday life, then build outward: neighbour help, local projects, public ledgers, legal clarity, state and national reform, and future coordination only where it earns trust.</p>
+    <section class="section" id="act-system">
+      <div class="act-head reveal">
+        <span class="act-num" aria-hidden="true">02</span>
+        <div><p class="eyebrow">Act two / The system</p><h2>Grow upward without losing the ground.</h2></div>
+        <p>Start with everyday life, then build outward: neighbour help, local projects, public ledgers, legal clarity, state and national reform, and future coordination only where it earns trust. Everything documented in Markdown that both people and agents can read.</p>
       </div>
       <div class="portal-grid">
         <a class="portal-card reveal" href="pages/private-civic-profile-builder.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>L0</span><h3>The private starting point</h3><p>People, households and private property stay protected. Start with a private civic profile, not public extraction.</p></a>
@@ -114,17 +112,55 @@
         <a class="portal-card reveal" href="pages/housing-simulations.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>Homes</span><h3>Housing simulations</h3><p>Model housing as a right: ownership, stewardship, co-ops, public stock, C-Hours, repairs and ending homelessness.</p></a>
         <a class="portal-card reveal" href="pages/web3-sensorium.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>Web3</span><h3>Web3 Sensorium</h3><p>Open data, digital twins, local-first nodes, scientific debate and human review for better shared decisions.</p></a>
         <a class="portal-card reveal" href="pages/civic-ledger.html" style="--door-image: url(assets/sbt-ledger-mode-wall.webp);"><span>Ledger</span><h3>Public records</h3><p>Money, time, promises, changes, conflicts, corrections and visible contribution trails.</p></a>
-        <a class="portal-card reveal" href="pages/starter-field-kit.html" style="--door-image: url(assets/local-organiser-startup-kit.webp);"><span>Field</span><h3>Starter field kit</h3><p>Market stall, signage, QR cards, social media, admin templates and local help table.</p></a>
-        <a class="portal-card reveal" href="pages/deployment-gear.html" style="--door-image: url(assets/p4a-gear.webp);"><span>Gear</span><h3>Deployment gear</h3><p>Support bundles, clothing, stickers, mugs and future deployment materials that make the project tangible.</p></a>
+        <a class="portal-card reveal" href="pages/truth-engine.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>Truth</span><h3>Truth engine</h3><p>Claim labels, correction paths and public audit trails that keep the workbench honest.</p></a>
+        <a class="portal-card reveal" href="pages/markdown-with-ai.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>.md</span><h3>Markdown with AI</h3><p>Plain-English guide to .md files for private context, public notices, sources, agent tasks and correction trails.</p></a>
         <a class="portal-card reveal" href="pages/cyber-republic.html" style="--door-image: url(assets/p4a-map-card.webp);"><span>Future</span><h3>Referendum rehearsal</h3><p>A national simulator should be fed by local proof, not dropped from the sky as a finished doctrine.</p></a>
+      </div>
+      <div class="next-trail reveal">
+        <a class="button button-secondary" href="pages/architecture.html">Open the architecture</a>
+        <a class="button button-secondary" href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">External .md guide</a>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="act-ground">
+      <div class="act-head reveal">
+        <span class="act-num" aria-hidden="true">03</span>
+        <div><p class="eyebrow">Act three / The ground game</p><h2>One table at a market is a node.</h2></div>
+        <p>This is where the workbench leaves the browser: local organiser kits, browser-local builders, and visible support. L1 outreach is already live — one sole trader running Strange But True on Minjerribah / North Stradbroke Island. The next node could be your street.</p>
+      </div>
+      <div class="feature-grid home-door-grid reveal">
+        <article>
+          <span class="card-number">01</span>
+          <h3>Starter field kit</h3>
+          <p>The practical local organiser kit: market table, signs, QR trails, admin templates, local help table and media basics.</p>
+          <div class="source-links"><a href="pages/starter-field-kit.html">Open the field kit</a></div>
+        </article>
+        <article>
+          <span class="card-number">02</span>
+          <h3>Civic twin builders</h3>
+          <p>Browser-local Markdown builders for L0 profiles, L1 meshes, L2 civic fronts and the future C-Hour pipeline.</p>
+          <div class="source-links"><a href="pages/civic-twin-builders.html">Open builders</a><a href="pages/p4a-builder.html">Build a local P4A</a></div>
+        </article>
+        <article>
+          <span class="card-number">03</span>
+          <h3>The live L1 example</h3>
+          <p>Strange But True on Straddie: island-scale outreach proving the pattern before anyone scales it.</p>
+          <div class="source-links"><a href="pages/minjerribah.html">Minjerribah room</a><a href="https://auraofintelligence.github.io/strange-but-true/" target="_blank" rel="noopener">Strange But True</a></div>
+        </article>
+        <article class="gear-door">
+          <span class="card-number">04</span>
+          <h3>Deployment gear</h3>
+          <p>Visible support, merch and culture objects that help fund the work and give people something tangible to rally around.</p>
+          <div class="source-links"><a href="pages/deployment-gear.html">Open Gear</a><a href="pages/test-store1.html">Test store</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="act-origin">
       <div class="rabbit-panel reveal">
         <img loading="lazy" decoding="async" src="assets/started-as-friendly-bet.webp" alt="P4A origin collage saying it started as a friendly bet on a beer">
         <div class="rabbit-copy">
-          <p class="eyebrow">Origin note</p>
+          <p class="eyebrow">Act four / The origin</p>
           <h2>A young ideal.</h2>
           <p>We more intended to get across we are two unlike-minded private citizens who had a conversation over a cold one, and postulated... how does one create (with the assistance of the public) a political party in Australia? This political party being truly representative of the nation as a whole, with the maximum amount of input from said nation, whilst being fully transparent and corruption proof.</p>
           <p>Politics is already a splash zone and a shit-slinging mockery of honour until we change the system. Less splash, more class means cleaning it up, not pretending it never stank.</p>
@@ -135,8 +171,50 @@
         </div>
       </div>
     </section>
+
+    <section class="section" id="act-culture">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">Act five / The culture layer</p><h2>Songs keep the system human.</h2></div>
+        <p>Placeholder song doorway: this lyric video holds the culture slot until the new P4A video is ready. The Musicverse carries the rest — i C. infinity, P4A songs, myth and creative worlds.</p>
+      </div>
+      <div class="home-hero-content reveal">
+        <div class="home-hero-copy">
+          <p class="eyebrow">Culture doors</p>
+          <div class="feature-grid">
+            <article>
+              <h3>Musicverse</h3>
+              <p>The songs, the albums and the culture hooks that travel further than policy documents ever will.</p>
+              <div class="source-links"><a href="pages/musicverse.html">Open Musicverse</a><a href="pages/aura-genesis.html">Aura genesis</a><a href="pages/alien-necklace-film.html">Alien necklace film</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="home-phone-panel" aria-label="Placeholder lyric video for The Purple Mat That Could">
+          <p class="eyebrow">Now playing</p>
+          <h2>The Purple Mat That Could</h2>
+          <div class="phone-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/Oh7mPhtykJI" title="The Purple Mat That Could lyric video placeholder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <div class="statement-card reveal">
+        <p class="eyebrow">Join the party early</p>
+        <h3>The scaffold is open. Take it home.</h3>
+        <p>Fork the repo, paste the agent prompt, or set up an L1 node in your own community with your own name, values, sources and laws. Local versions should never impersonate P4A — the pattern is the gift, not the brand. And the pattern is already travelling: the Oceania expansion lab explores what it becomes across the whole Blue Pacific.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/auraofintelligence/p4a-xyz-cinema" target="_blank" rel="noopener">Fork on GitHub</a>
+          <a class="button button-secondary" href="https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md" target="_blank" rel="noopener">Localise with an agent</a>
+          <a class="button button-secondary" href="https://auraofintelligence.github.io/p4a-oceania-cinema/" target="_blank" rel="noopener">P4A Oceania lab</a>
+          <a class="button button-secondary" href="pages/site-map.html">See every room</a>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="pages/site-map.html">Site map</a></nav></footer>
-  <script src="script.js?v=20260609-rabbit-names"></script>
+  <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz — Less splash, more class. Built on Minjerribah by Luke × Claude.</p></div><nav class="footer-links" aria-label="Footer links"><a href="pages/site-map.html">Site map</a></nav></footer>
+  <script src="script.js?v=20260707-cinema"></script>
+<script src="assets/site-nav.js?v=20260707-cinema"></script>
 </body>
 </html>
