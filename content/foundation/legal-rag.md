@@ -216,6 +216,10 @@
       ],
       "links": [
         {
+          "label": "Treaty atlas",
+          "href": "treaty-atlas.html"
+        },
+        {
           "label": "Truth Engine",
           "href": "truth-engine.html"
         },

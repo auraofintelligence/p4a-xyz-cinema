@@ -61,6 +61,7 @@
         { href: 'pages/architecture.html', title: 'Civic architecture', note: 'Roots-up model: homes, neighbours, councils, states.' },
         { href: 'pages/constitution.html', title: 'Party constitution', note: 'The internal rulebook workbench.' },
         { href: 'pages/legal-rag.html', title: 'Law engine / Legal RAG', note: 'Legal memory, citations, limits, human review.' },
+        { href: 'pages/treaty-atlas.html', title: 'Treaty atlas', note: 'Inherited agreements mapped: who they touch, who they serve, what to renew.' },
         { href: 'pages/civic-ledger.html', title: 'Civic ledger', note: 'Public records, contribution trails, repair memory.' },
         { href: 'pages/truth-engine.html', title: 'Truth engine', note: 'Claim labels, correction paths, public audit trails.' },
         { href: 'pages/sovereignty-stack.html', title: 'Sovereignty stack', note: 'Consent, identity, privacy and self-governance layers.' },
