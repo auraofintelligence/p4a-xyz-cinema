@@ -265,6 +265,9 @@ main, section, article, div, p, h1, h2, h3, span, a { min-width: 0; }
 .music-phone-panel h3 { margin: -.15rem 0 0; max-width: 12ch; color: white; font-size: clamp(1.3rem, 2.1vw, 1.8rem); line-height: 1; text-align: center; }
 .music-phone-panel .phone-frame { width: min(100%, 16.5rem); }
 .music-phone-panel .source-links { justify-content: center; margin-top: .1rem; }
+.song-duo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-bottom: 1.75rem; }
+.song-duo-grid .music-phone-panel { height: 100%; }
+@media (max-width: 760px) { .song-duo-grid { grid-template-columns: 1fr; } }
 .eyebrow { margin: 0 0 .85rem; color: var(--gold); font-family: var(--font-mono); font-size: .8rem; font-weight: 640; letter-spacing: .22em; text-transform: uppercase; }
 .eyebrow::before { content: "// "; color: rgba(255, 214, 110, .55); }
 h1, h2, h3 { letter-spacing: -.005em; }
