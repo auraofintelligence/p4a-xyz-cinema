@@ -32,6 +32,10 @@ The homepage is a cinematic, chaptered doorway: Act I the spark (Twinkle), Act I
 
 Current political and historical data should live in markdown under `content/` so future agents can refresh it with permission.
 
+## Refreshing Election Data
+
+By-elections, seat splits, leadership and election dates are agent-refreshable. `content/refresh-watchlist.md` is the trigger map (signals, source-of-truth order, exact recipe); `content/refresh-log.md` records every check, including no-change runs; [REFRESH_WITH_AN_AGENT.md](REFRESH_WITH_AN_AGENT.md) is the paste-able prompt. A run where nothing changed reads two small files per state and writes one log line.
+
 ## Navigation System
 
 Every page shares a compact header (six primary doors plus an Index button) and a full-screen searchable index of all public rooms. The whole navigation layer — index overlay, breadcrumbs and footer explore-columns — is generated from one data file: `assets/site-nav.js`. To surface a new page everywhere, add one entry to the `SECTIONS` list in that file. No other page needs touching.

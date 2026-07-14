@@ -8,16 +8,16 @@
   "shortName": "QLD",
   "capital": "Brisbane",
   "stateType": "State",
-  "researchRun": "2026-05-08",
+  "researchRun": "2026-07-14",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Current members were checked against the Queensland Parliament member list. Stafford is an active state by-election.",
+  "researchStatus": "Current members were checked against the Queensland Parliament member list. The Stafford by-election was held on 16 May 2026 and Labor retained the seat.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "David Crisafulli",
     "party": "Liberal National Party",
     "arrangement": "Majority government",
     "inPowerSince": "2024-10-28",
-    "note": "Queensland has a single chamber. Stafford is vacant until the scheduled by-election is completed."
+    "note": "Queensland has a single chamber. Stafford was retained by Labor at the 16 May 2026 by-election."
   },
   "elections": [
     {
@@ -45,8 +45,8 @@
       "date": "2026-05-16T08:00:00+10:00",
       "kind": "State by-election",
       "scope": "by-election",
-      "status": "Scheduled",
-      "note": "Polling day is Saturday 16 May 2026, with early voting from 5 May to 15 May.",
+      "status": "Held - Labor retain",
+      "note": "Held Saturday 16 May 2026. Luke Richmond (Labor) retained Stafford, 51.3 to 48.7 two-party-preferred, a swing of about 4 per cent against Labor.",
       "source": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -67,7 +67,7 @@
       "type": "Unicameral parliament",
       "seats": 93,
       "majority": 47,
-      "note": "Queensland has no upper house. Stafford is listed as vacant pending the by-election.",
+      "note": "Queensland has no upper house. Stafford returned to Labor at the 16 May 2026 by-election.",
       "source": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List",
       "composition": [
         {
@@ -78,7 +78,7 @@
         {
           "party": "Australian Labor Party",
           "short": "ALP",
-          "seats": 35
+          "seats": 36
         },
         {
           "party": "Katter's Australian Party",
@@ -101,11 +101,6 @@
               "seat": "Noosa"
             }
           ]
-        },
-        {
-          "party": "Vacant",
-          "short": "VAC",
-          "seats": 1
         }
       ]
     }
@@ -113,7 +108,7 @@
   "strategyNotes": [
     "Queensland is the home-base page for the Brisbane 2032 runway.",
     "The unicameral system makes local electorate trust and member accountability especially important.",
-    "Stafford is the live by-election timer and should be refreshed first after polling closes."
+    "The Stafford by-election (held 16 May 2026, Labor retain) is the worked example for refreshing seat data after any by-election."
   ],
   "sources": [
     {
@@ -123,6 +118,14 @@
     {
       "label": "ECQ Stafford State by-election",
       "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+    },
+    {
+      "label": "Antony Green Stafford by-election results",
+      "url": "https://antonygreen.com.au/stafford-by-election-results/"
+    },
+    {
+      "label": "ECQ Stafford 2026 results",
+      "url": "https://results.elections.qld.gov.au/Stafford2026"
     },
     {
       "label": "ECQ election events",
