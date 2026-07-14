@@ -316,6 +316,9 @@ p { margin-top: 0; }
 .feature-grid { display: grid; gap: .9rem; }
 .feature-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .home-door-grid { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+.coaster-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 1080px) { .coaster-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .coaster-grid { grid-template-columns: 1fr; } }
 .feature-grid article, .statement-card { border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(145deg, rgba(111,34,200,.32), rgba(17,0,28,.72)); box-shadow: 0 24px 80px rgba(0,0,0,.32); }
 .feature-grid article { min-height: 14rem; padding: 1.05rem; }
 .feature-grid article p, .statement-card p { color: var(--muted); }
