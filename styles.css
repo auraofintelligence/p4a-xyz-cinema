@@ -2141,26 +2141,60 @@ body[data-page="housing-simulations"] .housing-question-grid {
   color: var(--muted);
 }
 
-.state-footer {
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+/* State-page footers: stack the injected .footer-index band, the portal blurb
+   and the portal links in a single column by default; split blurb-left /
+   links-right only on true desktop width. Child combinators keep these rules
+   off the footer-index's own inner grid (the earlier bug: `.state-footer nav`
+   was overriding the index grid into a ragged flex row). */
+footer.site-footer.state-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 1.5rem;
 }
 
-.state-footer div {
+.state-footer > div {
   display: grid;
   gap: .15rem;
 }
 
-.state-footer nav {
+.state-footer > nav:not(.footer-index) {
   display: flex;
   flex-wrap: wrap;
   gap: .65rem;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .state-footer span {
   color: var(--muted);
+}
+
+/* Keep footer-index links in their own muted style, not the gold state links */
+.state-footer .footer-index a {
+  color: var(--muted);
+  font-weight: 400;
+}
+.state-footer .footer-index strong {
+  color: var(--gold);
+}
+
+@media (min-width: 860px) {
+  footer.site-footer.state-footer {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.5rem 1.6rem;
+  }
+  .state-footer > .footer-index {
+    grid-column: 1 / -1;
+  }
+  .state-footer > div {
+    grid-column: 1;
+  }
+  .state-footer > nav:not(.footer-index) {
+    grid-column: 2;
+    align-self: center;
+    justify-self: end;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 980px) {
