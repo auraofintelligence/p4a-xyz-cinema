@@ -58,7 +58,7 @@
         { href: 'pages/twinkle-beer-tax.html', title: 'Twinkle 10: Beer tax', note: 'The pub test in a pub, into the Civic Ledger.' },
         { href: 'pages/twinkle-datacentres.html', title: 'Twinkle 11: Data centres', note: 'The thirsty grey shed, into the Web3 Sensorium.' },
         { href: 'pages/twinkle-breaches.html', title: 'Twinkle 12: Data breaches', note: 'Breach fatigue, into the Sovereignty Stack.' },
-        { href: 'pages/twinkle-resources.html', title: 'Twinkle 13: Resources', note: 'Dig it up, ship it out, buy a newspaper. Into Public Assets and the Civic Ledger.' },
+        { href: 'pages/twinkle-resources.html', title: 'Twinkle 13: Resources', note: 'Dig it up, ship it out, buy the feed. Into Public Assets and the Civic Ledger.' },
         { href: 'pages/twinkle-triple-zero.html', title: 'Twinkle 14: Triple Zero', note: 'Four bars of 5G, zero for Triple Zero, into the Sovereignty Stack.' },
         { href: 'pages/twinkle-aukus.html', title: 'Twinkle 15: The big receipt', note: 'Mega-commitments beside waiting lists, into the Civic Ledger.' },
         { href: 'pages/twinkle-revolving-door.html', title: 'Twinkle 16: The revolving door', note: 'Friday to Monday careers, into the Civic Ledger.' },
