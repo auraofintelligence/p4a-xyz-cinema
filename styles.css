@@ -468,6 +468,32 @@ body[data-page="constitution"] .source-links a {
 .merch-group { margin-top: 1rem; }
 .merch-group .discount-rows { margin-top: .6rem; }
 .merch-decoration { display: block; color: var(--muted); font-size: .72rem; font-weight: 480; }
+.swatch-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+@media (max-width: 1080px) { .swatch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .swatch-grid { grid-template-columns: 1fr; } }
+.swatch { position: relative; display: grid; gap: .15rem; align-content: end; min-height: 13rem; padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); color: #fff7ff; text-align: left; cursor: pointer; transition: transform .18s var(--ease-out); }
+.swatch:hover, .swatch:focus-visible { transform: translateY(-3px); }
+.swatch b { font-size: 1.25rem; font-family: var(--font-display); }
+.swatch code { font-family: var(--font-mono); font-size: 1rem; font-weight: 700; }
+.swatch small { font-family: var(--font-mono); font-size: .72rem; opacity: .85; }
+.swatch em { margin-top: .3rem; font-size: .8rem; font-style: normal; opacity: .9; }
+.swatch-light { color: #150022; }
+.swatch-copied { position: absolute; top: .8rem; right: .9rem; padding: .2rem .6rem; border-radius: 99px; background: rgba(0,0,0,.55); color: #9dfbc4; font-size: .75rem; font-weight: 700; opacity: 0; transition: opacity .18s; }
+.swatch-light .swatch-copied { background: rgba(255,255,255,.75); color: #0b5c2e; }
+.swatch.is-copied .swatch-copied { opacity: 1; }
+.step-strip { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .7rem; }
+@media (max-width: 1080px) { .step-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .step-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.step { display: grid; gap: .3rem; justify-items: center; padding: 1rem .7rem; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(180deg, rgba(111,34,200,.28), rgba(17,0,28,.66)); text-align: center; }
+.step span { font-size: 2.3rem; line-height: 1; }
+.step b { display: inline-grid; place-items: center; width: 1.7rem; height: 1.7rem; border-radius: 50%; border: 1px solid rgba(255,214,110,.5); color: var(--gold); font-size: .85rem; }
+.step p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.4; }
+@media print {
+  body { background: #fff; }
+  .site-header, .site-footer, .hero-image, .index-toggle, #materials, #steps, #why, .scroll-progress { display: none !important; }
+  .swatch { min-height: 9rem; border: 1px solid #000; border-radius: 6px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .swatch-grid { grid-template-columns: repeat(3, 1fr); }
+}
 .gear-store { padding-top: clamp(2.5rem, 5vw, 4.5rem); background: linear-gradient(180deg, rgba(8,0,14,.16), rgba(8,0,14,.76)); }
 .storefront-shell { display: grid; gap: 1.2rem; }
 .storefront-heading { display: grid; grid-template-columns: minmax(0, .82fr) minmax(18rem, .62fr); gap: 1rem; align-items: end; }

@@ -111,6 +111,7 @@
         { href: 'pages/minjerribah.html', title: 'Minjerribah', note: 'Island-scale thinking. The live L1 test ground.' },
         { href: 'pages/deployment-gear.html', title: 'Deployment gear', note: 'Support bundles, hoodies and culture objects.' },
         { href: 'pages/gear-store.html', title: 'Gear store', note: 'The step ladder: starter kits, dated prices, open books.' },
+        { href: 'pages/colour-panel.html', title: 'Colour panel', note: 'First principles: the exact purples, plus dyes, paints and threads. Images over words.' },
         { href: 'pages/test-store1.html', title: 'Gear test store', note: 'The purple hoodie pilot storefront.' }
       ]
     },
