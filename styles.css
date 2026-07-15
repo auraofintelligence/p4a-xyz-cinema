@@ -468,6 +468,8 @@ body[data-page="constitution"] .source-links a {
 .merch-group { margin-top: 1rem; }
 .merch-group .discount-rows { margin-top: .6rem; }
 .merch-decoration { display: block; color: var(--muted); font-size: .72rem; font-weight: 480; }
+.site-layer-strip.status-layer { border-left: 4px solid var(--gold); background: linear-gradient(90deg, rgba(255,214,110,.16), rgba(17,0,28,.72)); }
+.site-layer-strip.status-layer strong { color: var(--gold); }
 /* ---- Gear store refit: images not lists ---- */
 .rung-rail { position: relative; display: grid; gap: 1.1rem; padding-left: clamp(1rem, 4vw, 2.4rem); }
 .rung-rail::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; border-radius: 3px; background: linear-gradient(180deg, var(--gold), var(--plasma) 55%, rgba(221,156,255,.15)); }
