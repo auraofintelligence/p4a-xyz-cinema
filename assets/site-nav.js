@@ -110,6 +110,7 @@
         { href: 'pages/c-hour-receipt-builder.html', title: 'C-Hour receipts', note: 'Contribution-hour receipts for the braided economy.' },
         { href: 'pages/minjerribah.html', title: 'Minjerribah', note: 'Island-scale thinking. The live L1 test ground.' },
         { href: 'pages/deployment-gear.html', title: 'Deployment gear', note: 'Support bundles, hoodies and culture objects.' },
+        { href: 'pages/gear-store.html', title: 'Gear store', note: 'The step ladder: starter kits, dated prices, open books.' },
         { href: 'pages/test-store1.html', title: 'Gear test store', note: 'The purple hoodie pilot storefront.' }
       ]
     },

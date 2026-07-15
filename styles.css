@@ -460,6 +460,11 @@ body[data-page="constitution"] .source-links a {
 .gear-return-banner span { color: var(--muted); font-size: .94rem; line-height: 1.5; }
 .gear-return-banner.is-success { border-left-color: #4ade80; }
 .gear-return-banner.is-cancelled { border-left-color: var(--gold); }
+.price-flag { display: inline-block; padding: .1rem .45rem; border-radius: 99px; border: 1px solid var(--line); font-size: .72rem; font-weight: 620; letter-spacing: .02em; }
+.price-flag.is-fresh { color: #9dfbc4; border-color: rgba(74,222,128,.45); }
+.price-flag.is-stale { color: var(--gold); border-color: rgba(255,214,110,.5); }
+.price-flag.is-unverified, .price-flag.is-to_visit { color: #ffb4c8; border-color: rgba(255,120,160,.45); }
+.price-flag.is-guidance { color: var(--muted); }
 .gear-store { padding-top: clamp(2.5rem, 5vw, 4.5rem); background: linear-gradient(180deg, rgba(8,0,14,.16), rgba(8,0,14,.76)); }
 .storefront-shell { display: grid; gap: 1.2rem; }
 .storefront-heading { display: grid; grid-template-columns: minmax(0, .82fr) minmax(18rem, .62fr); gap: 1rem; align-items: end; }
