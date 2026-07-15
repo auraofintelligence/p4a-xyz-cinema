@@ -460,7 +460,7 @@ body[data-page="constitution"] .source-links a {
 .gear-return-banner span { color: var(--muted); font-size: .94rem; line-height: 1.5; }
 .gear-return-banner.is-success { border-left-color: #4ade80; }
 .gear-return-banner.is-cancelled { border-left-color: var(--gold); }
-.price-flag { display: inline-block; padding: .1rem .45rem; border-radius: 99px; border: 1px solid var(--line); font-size: .72rem; font-weight: 620; letter-spacing: .02em; }
+.price-flag { display: inline-block; padding: .2rem .6rem; border-radius: 99px; border: 1px solid var(--line); font-size: .86rem; font-weight: 620; letter-spacing: .02em; line-height: 1.35; }
 .price-flag.is-fresh { color: #9dfbc4; border-color: rgba(74,222,128,.45); }
 .price-flag.is-stale { color: var(--gold); border-color: rgba(255,214,110,.5); }
 .price-flag.is-unverified, .price-flag.is-to_visit { color: #ffb4c8; border-color: rgba(255,120,160,.45); }
@@ -483,20 +483,21 @@ body[data-page="constitution"] .source-links a {
 .merch-band > p { margin: 0 0 .8rem; color: var(--muted); font-size: .92rem; }
 .merch-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr)); gap: .8rem; }
 @media (max-width: 620px) { .merch-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; } .merch-tile strong { font-size: .88rem; } .merch-tile .price-flag { font-size: .62rem; } }
-.merch-tile { position: relative; display: grid; align-content: end; aspect-ratio: 4 / 5; padding: .85rem; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; isolation: isolate; transition: transform .25s var(--ease-out), border-color .25s; }
+/* Rows: the flag pins to the top, everything else stacks at the bottom in
+   normal flow. Nothing is absolutely positioned into a shared corner, which is
+   what made the source label and the price collide. */
+.merch-tile { position: relative; display: grid; grid-template-rows: auto 1fr auto; aspect-ratio: 4 / 5; padding: .9rem; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; isolation: isolate; transition: transform .25s var(--ease-out), border-color .25s; }
 .merch-tile:hover { transform: translateY(-4px); border-color: rgba(255,214,110,.55); }
 .merch-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
-.merch-tile::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(6,0,9,0) 42%, rgba(6,0,9,.88)); }
-.merch-tile.is-typographic { align-content: center; justify-items: center; text-align: center; }
-.merch-tile .tile-type { font-family: var(--font-display); font-weight: 1000; text-transform: uppercase; letter-spacing: -.015em; line-height: 1.02; font-size: clamp(1.15rem, 2.4vw, 1.7rem); text-wrap: balance; }
-.merch-tile .tile-src { position: absolute; bottom: .75rem; left: .85rem; right: .85rem; color: var(--muted); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .09em; text-transform: uppercase; opacity: .75; }
-.merch-tile.is-typographic .tile-src { text-align: center; }
-.merch-tile .tile-src.is-wanted { color: var(--gold); opacity: .9; }
-.merch-tile.is-typographic { padding-bottom: 2.2rem; }
-.merch-tile strong { font-family: var(--font-display); font-size: 1.02rem; line-height: 1.25; }
-.merch-tile small { color: var(--muted); font-size: .72rem; }
-.merch-tile .price-flag { position: absolute; top: .7rem; left: .7rem; right: auto; max-width: calc(100% - 1.4rem); backdrop-filter: blur(6px); background: rgba(6,0,9,.45); }
-.merch-tile .tile-price { font-family: var(--font-mono); color: var(--gold); font-weight: 800; font-size: 1rem; }
+.merch-tile::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(6,0,9,.1) 38%, rgba(6,0,9,.92)); }
+.merch-tile .price-flag { grid-row: 1; justify-self: start; max-width: 100%; backdrop-filter: blur(6px); background: rgba(6,0,9,.55); }
+.merch-tile .tile-meta { grid-row: 3; display: grid; gap: .12rem; }
+.merch-tile .tile-type { grid-row: 2; align-self: center; text-align: center; font-family: var(--font-display); font-weight: 1000; text-transform: uppercase; letter-spacing: -.015em; line-height: 1.04; font-size: clamp(1.2rem, 2.5vw, 1.75rem); text-wrap: balance; }
+.merch-tile.is-typographic .tile-meta { justify-items: center; text-align: center; }
+.merch-tile strong { font-family: var(--font-display); font-size: 1.06rem; line-height: 1.25; }
+.merch-tile small { color: var(--muted); font-size: .9rem; line-height: 1.35; }
+.merch-tile .tile-src { color: var(--muted); font-family: var(--font-mono); font-size: .8rem; letter-spacing: .03em; opacity: .85; }
+.merch-tile .tile-src.is-wanted { color: var(--gold); opacity: 1; letter-spacing: .08em; text-transform: uppercase; }
 .tile-bg-0 { background: radial-gradient(120% 120% at 20% 10%, rgba(111,34,200,.75), rgba(21,0,34,.95)); }
 .tile-bg-1 { background: radial-gradient(120% 120% at 80% 15%, rgba(181,51,255,.6), rgba(21,0,34,.95)); }
 .tile-bg-2 { background: radial-gradient(130% 130% at 50% 100%, rgba(63,15,117,.9), rgba(21,0,34,.96)); }
@@ -505,10 +506,10 @@ body[data-page="constitution"] .source-links a {
 .kit-card:hover { transform: translateY(-4px); border-color: rgba(255,214,110,.5); }
 .kit-card .kit-glyph { font-size: 2.6rem; line-height: 1; }
 .kit-card h3 { margin: 0; font-size: 1.3rem; }
-.kit-card .kit-est { font-family: var(--font-mono); color: var(--gold); font-size: .85rem; font-weight: 700; }
-.kit-card p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.45; }
+.kit-card .kit-est { font-family: var(--font-mono); color: var(--gold); font-size: .92rem; font-weight: 700; }
+.kit-card p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.5; }
 .kit-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .3rem; }
-.kit-chip { padding: .28rem .6rem; border: 1px solid rgba(221,156,255,.3); border-radius: 99px; background: rgba(6,0,9,.35); color: var(--muted); font-size: .74rem; line-height: 1.3; }
+.kit-chip { padding: .3rem .65rem; border: 1px solid rgba(221,156,255,.3); border-radius: 99px; background: rgba(6,0,9,.35); color: var(--muted); font-size: .84rem; line-height: 1.35; }
 .kit-chip b { color: var(--text); font-weight: 640; }
 .source-band { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .7rem; }
 @media (max-width: 1080px) { .source-band { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -516,8 +517,8 @@ body[data-page="constitution"] .source-links a {
 .source-step { display: grid; gap: .4rem; align-content: start; padding: 1rem .9rem; border-radius: var(--radius); border: 1px solid var(--line); }
 .source-step span { font-size: 2.1rem; line-height: 1; }
 .source-step b { display: inline-grid; place-items: center; width: 1.7rem; height: 1.7rem; border-radius: 50%; border: 1px solid rgba(255,214,110,.5); color: var(--gold); font-size: .85rem; }
-.source-step h3 { margin: 0; font-size: 1rem; }
-.source-step p { margin: 0; color: var(--muted); font-size: .8rem; line-height: 1.45; }
+.source-step h3 { margin: 0; font-size: 1.08rem; }
+.source-step p { margin: 0; color: var(--muted); font-size: .88rem; line-height: 1.5; }
 .source-step-1 { background: linear-gradient(170deg, rgba(255,214,110,.22), rgba(17,0,28,.7)); }
 .source-step-2 { background: linear-gradient(170deg, rgba(255,77,255,.2), rgba(17,0,28,.72)); }
 .source-step-3 { background: linear-gradient(170deg, rgba(181,51,255,.22), rgba(17,0,28,.74)); }
@@ -529,10 +530,12 @@ body[data-page="constitution"] .source-links a {
 .split-seg-fee { background: #2a2233; color: var(--muted); }
 .split-seg-support { background: var(--gold); color: #150022; }
 .supplier-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .9rem; }
-.supplier-tile { display: grid; gap: .45rem; align-content: start; padding: 1.1rem; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(150deg, rgba(111,34,200,.3), rgba(17,0,28,.74)); }
-.supplier-tile span { font-size: 2.4rem; line-height: 1; }
-.supplier-tile h3 { margin: 0; font-size: 1.1rem; }
-.supplier-tile p { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+.supplier-tile { display: grid; gap: .5rem; align-content: start; justify-items: start; padding: 1.1rem; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(150deg, rgba(111,34,200,.3), rgba(17,0,28,.74)); }
+/* Scoped to the glyph only. A bare `span` rule here also caught the status
+   badge and blew it up to 2.4rem. */
+.supplier-tile .supplier-glyph { font-size: 2.4rem; line-height: 1; }
+.supplier-tile h3 { margin: 0; font-size: 1.15rem; }
+.supplier-tile p { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
 .swatch-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
 @media (max-width: 1080px) { .swatch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 620px) { .swatch-grid { grid-template-columns: 1fr; } }

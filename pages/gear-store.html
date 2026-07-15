@@ -201,18 +201,17 @@
         : { cls: 'fresh', text: `checked ${item.last_verified}` };
     };
 
+    /* No prices on this page. Nothing is for sale, and a dollar figure on a
+       design test reads as an offer. The flag states the quote's status only;
+       the numbers stay in the catalogue for planning. */
     const priceView = (pricing) => {
-      if (!pricing || pricing.mode === 'quote_needed') return { price: '', flag: { cls: 'unverified', text: 'no quote yet' } };
-      if (pricing.mode === 'reference') {
-        const age = pricing.last_verified ? `${dayspan(pricing.last_verified)} days old` : 'date unrecorded';
-        const approx = pricing.precision === 'approximate' ? ' approx' : '';
-        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'stale', text: `reference: ${pricing.last_verified || '?'}${approx}, ${age}` } };
-      }
+      if (!pricing || pricing.mode === 'quote_needed') return { flag: { cls: 'unverified', text: 'No quote yet' } };
+      if (pricing.mode === 'reference') return { flag: { cls: 'stale', text: 'Old reference, re-quote needed' } };
       const days = pricing.last_verified ? dayspan(pricing.last_verified) : null;
       if (pricing.mode === 'stale' || (days !== null && days > STALE_DAYS)) {
-        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'stale', text: `stale: quoted ${pricing.last_verified}` } };
+        return { flag: { cls: 'stale', text: 'Quote stale, re-quote needed' } };
       }
-      return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'fresh', text: `quoted ${pricing.last_verified}` } };
+      return { flag: { cls: 'fresh', text: `Quoted ${pricing.last_verified}` } };
     };
 
     const groups = document.querySelector('[data-merch-groups]');
@@ -229,17 +228,21 @@
               <div class="merch-tile">
                 <img loading="lazy" decoding="async" src="../assets/gear-products/${photo}" alt="${esc(item.label)}">
                 <span class="price-flag is-${view.flag.cls}">${esc(view.flag.text)}</span>
-                <strong>${esc(item.label)}</strong>
-                <small>${esc(item.decoration)}</small>
-                ${view.price ? `<span class="tile-price">${view.price}</span>` : ''}
-                <small class="tile-src">Supplier catalogue shot, not ours</small>
+                <div class="tile-meta">
+                  <strong>${esc(item.label)}</strong>
+                  <small>${esc(item.decoration)}</small>
+                  <small class="tile-src">Supplier catalogue shot, not ours</small>
+                </div>
               </div>`;
             }
             return `
             <div class="merch-tile is-typographic tile-bg-${index % 3}">
-              <span class="tile-type">${esc(item.label)}</span>
               <span class="price-flag is-${view.flag.cls}">${esc(view.flag.text)}</span>
-              <small class="tile-src is-wanted">Photo wanted</small>
+              <span class="tile-type">${esc(item.label)}</span>
+              <div class="tile-meta">
+                <small>${esc(item.decoration)}</small>
+                <small class="tile-src is-wanted">Photo wanted</small>
+              </div>
             </div>`;
           }).join('')}
         </div>
@@ -277,7 +280,7 @@
       const flag = supplierFlag(supplier);
       return `
       <article class="supplier-tile">
-        <span aria-hidden="true">${SUPPLIER_GLYPHS[supplier.id] || '🏗️'}</span>
+        <span class="supplier-glyph" aria-hidden="true">${SUPPLIER_GLYPHS[supplier.id] || '🏗️'}</span>
         <h3>${esc(supplier.name)}</h3>
         <span class="price-flag is-${esc(flag.cls)}">${esc(flag.text)}</span>
         <p>${esc(supplier.role)}. ${esc(supplier.note)}</p>
