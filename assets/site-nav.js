@@ -64,7 +64,7 @@
         { href: 'pages/twinkle-revolving-door.html', title: 'Twinkle 16: The revolving door', note: 'Friday to Monday careers, into the Civic Ledger.' },
         { href: 'pages/twinkle-donations.html', title: 'Twinkle 17: Donations', note: 'Who paid for that ad, into real-time disclosure.' },
         { href: 'pages/twinkle-olympics.html', title: 'Twinkle 18: Olympics', note: 'Venue whiplash, into the Civic Surges legacy: stewards, healing, referendum.' },
-        { href: 'pages/twinkle-treaty.html', title: 'Twinkle 19: The paperwork', note: 'The missing signature, into the Treaty Atlas.' },
+        { href: 'pages/twinkle-treaty.html', title: 'Twinkle 19: The paperwork', note: 'The only Commonwealth country that never signed. Into the Treaty Atlas.' },
         { href: 'pages/twinkle-uap.html', title: 'Twinkle 20: Disclosure', note: 'Official silence, into the Truth Engine. No giggle tax.' },
         { href: 'pages/twinkle-deep-time.html', title: 'Twinkle 21: Deep time', note: 'The cooked calendar, into Risk and Mutual Care.' },
         { href: 'pages/twinkle-ptsd.html', title: 'Twinkle 22: The quiet one', note: 'The joke stops halfway on purpose, into the Clinical Path.' }
