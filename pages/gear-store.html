@@ -174,11 +174,9 @@
       'ramo-heavy-fleece': 'ramo-heavy-fleece.webp',
       'comfort-colorblast': 'comfort-colorblast.webp'
     };
-    const GLYPHS = {
-      'purple-tee': '👕', 'purple-crewneck': '🧥', 'purple-cap': '🧢', 'purple-beanie': '🧶',
-      'purple-bucket-hat': '👒', 'purple-socks': '🧦', 'sticker-pack': '✨', 'enamel-pin': '📌',
-      'patch': '🪡', 'tote-bag': '👜', 'reusable-cup': '☕', 'stubby-holder': '🍺'
-    };
+    /* No emoji, no clip art, no generated stand-ins. If there is no real photo
+       of a real person wearing the thing, the tile says so and sets the name in
+       type instead. An honest gap beats a styleless filler. */
     const KIT_GLYPHS = { 'table-kit': '⛱️', 'digital-kit': '🤖', 'kiosk-kit': '🖥️', 'data-stack-kit': '🗄️', 'branch-kit': '📦' };
     const SOURCE_GLYPHS = ['🏘️', '🤝', '🌾', '🔨', '🏭'];
     const INTAKE_GLYPHS = ['🔍', '✉️', '⚖️', '🧺', '📅', '🔁'];
@@ -220,16 +218,22 @@
           ${group.items.map((item, index) => {
             const view = priceView(item.pricing);
             const photo = PHOTOS[item.id];
-            const visual = photo
-              ? `<img loading="lazy" decoding="async" src="../assets/gear-products/${photo}" alt="${esc(item.label)}">`
-              : `<span class="tile-glyph" aria-hidden="true">${GLYPHS[item.id] || '🟣'}</span>`;
+            if (photo) {
+              return `
+              <div class="merch-tile">
+                <img loading="lazy" decoding="async" src="../assets/gear-products/${photo}" alt="${esc(item.label)}">
+                <span class="price-flag is-${view.flag.cls}">${esc(view.flag.text)}</span>
+                <strong>${esc(item.label)}</strong>
+                <small>${esc(item.decoration)}</small>
+                ${view.price ? `<span class="tile-price">${view.price}</span>` : ''}
+                <small class="tile-src">Supplier catalogue shot, not ours</small>
+              </div>`;
+            }
             return `
-            <div class="merch-tile${photo ? '' : ` tile-bg-${index % 3}`}">
-              ${visual}
+            <div class="merch-tile is-typographic tile-bg-${index % 3}">
+              <span class="tile-type">${esc(item.label)}</span>
               <span class="price-flag is-${view.flag.cls}">${esc(view.flag.text)}</span>
-              <strong>${esc(item.label)}</strong>
-              <small>${esc(item.decoration)}</small>
-              ${view.price ? `<span class="tile-price">${view.price}</span>` : ''}
+              <small class="tile-src is-wanted">Photo wanted</small>
             </div>`;
           }).join('')}
         </div>

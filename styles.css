@@ -485,7 +485,12 @@ body[data-page="constitution"] .source-links a {
 .merch-tile:hover { transform: translateY(-4px); border-color: rgba(255,214,110,.55); }
 .merch-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
 .merch-tile::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(6,0,9,0) 42%, rgba(6,0,9,.88)); }
-.merch-tile .tile-glyph { position: absolute; inset: 0; display: grid; place-items: center; font-size: clamp(3.4rem, 7vw, 5rem); z-index: -1; }
+.merch-tile.is-typographic { align-content: center; justify-items: center; text-align: center; }
+.merch-tile .tile-type { font-family: var(--font-display); font-weight: 1000; text-transform: uppercase; letter-spacing: -.015em; line-height: 1.02; font-size: clamp(1.15rem, 2.4vw, 1.7rem); text-wrap: balance; }
+.merch-tile .tile-src { position: absolute; bottom: .75rem; left: .85rem; right: .85rem; color: var(--muted); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .09em; text-transform: uppercase; opacity: .75; }
+.merch-tile.is-typographic .tile-src { text-align: center; }
+.merch-tile .tile-src.is-wanted { color: var(--gold); opacity: .9; }
+.merch-tile.is-typographic { padding-bottom: 2.2rem; }
 .merch-tile strong { font-family: var(--font-display); font-size: 1.02rem; line-height: 1.25; }
 .merch-tile small { color: var(--muted); font-size: .72rem; }
 .merch-tile .price-flag { position: absolute; top: .7rem; left: .7rem; right: auto; max-width: calc(100% - 1.4rem); backdrop-filter: blur(6px); background: rgba(6,0,9,.45); }

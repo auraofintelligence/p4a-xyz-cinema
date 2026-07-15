@@ -82,7 +82,6 @@ window.P4A_CATALOGUE = {
         { id: 'purple-crewneck', label: 'Crewneck sweater', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
         { id: 'purple-cap', label: 'Embroidered cap', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
         { id: 'purple-beanie', label: 'Beanie', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
-        { id: 'purple-bucket-hat', label: 'Bucket hat', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
         { id: 'purple-socks', label: 'Socks', decoration: 'knitted', pricing: { mode: 'quote_needed' } }
       ]
     },
