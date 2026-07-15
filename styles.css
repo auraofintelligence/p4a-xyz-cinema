@@ -452,6 +452,14 @@ body[data-page="constitution"] .source-links a {
 .mini-note { margin: -.2rem 0 0; color: var(--muted); font-size: .9rem; line-height: 1.45; }
 .order-preview { display: none; max-height: 17rem; overflow: auto; margin: 0; padding: .8rem; border: 1px solid rgba(221,156,255,.28); border-radius: 8px; background: rgba(0,0,0,.28); color: #f4e4ff; font: 760 .8rem/1.45 Consolas, "Courier New", monospace; white-space: pre-wrap; }
 .order-preview.is-visible { display: block; }
+.checkout-status:empty { display: none; }
+.checkout-status[data-tone="error"] { color: #ffb4c8; }
+.checkout-status[data-tone="success"] { color: #9dfbc4; }
+.gear-return-banner { display: grid; gap: .3rem; margin: 0 0 1.4rem; padding: 1rem 1.15rem; border: 1px solid var(--line); border-left-width: 4px; border-radius: var(--radius); background: linear-gradient(145deg, rgba(111,34,200,.34), rgba(17,0,28,.76)); }
+.gear-return-banner strong { font-size: 1.05rem; }
+.gear-return-banner span { color: var(--muted); font-size: .94rem; line-height: 1.5; }
+.gear-return-banner.is-success { border-left-color: #4ade80; }
+.gear-return-banner.is-cancelled { border-left-color: var(--gold); }
 .gear-store { padding-top: clamp(2.5rem, 5vw, 4.5rem); background: linear-gradient(180deg, rgba(8,0,14,.16), rgba(8,0,14,.76)); }
 .storefront-shell { display: grid; gap: 1.2rem; }
 .storefront-heading { display: grid; grid-template-columns: minmax(0, .82fr) minmax(18rem, .62fr); gap: 1rem; align-items: end; }

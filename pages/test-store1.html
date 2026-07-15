@@ -185,10 +185,12 @@
             </div>
             <p class="gear-summary" data-gear-summary>Unit cost $52.95 + support/item $20.00 = $72.95 per item. Shipping $0.00. Total $72.95.</p>
             <div class="checkout-actions">
-              <button class="button button-primary" type="button" data-demo-checkout>Demo checkout payload</button>
+              <button class="button button-primary" type="button" data-live-checkout>Pay securely by card</button>
               <a class="button button-secondary" data-gear-mail href="mailto:hello@p4a.xyz?subject=P4A%20purple%20hoodie%20order">Draft email order</a>
+              <button class="button button-secondary" type="button" data-demo-checkout>Show payload</button>
             </div>
-            <p class="mini-note">Demo mode outputs the payload. Live mode sends it to Apps Script, then Stripe Checkout.</p>
+            <p class="mini-note checkout-status" data-checkout-status role="status" aria-live="polite"></p>
+            <p class="mini-note">Card payments run through Stripe. P4A never sees your card details, and the price is recalculated server-side before anything is charged.</p>
             <pre class="order-preview" data-order-preview aria-live="polite"></pre>
           </aside>
         </div>
@@ -203,6 +205,7 @@
     </section>
   </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
+  <script src="../assets/store-config.js?v=20260707-cinema"></script>
   <script src="../script.js?v=20260707-cinema"></script>
 <script src="../assets/site-nav.js?v=20260707-cinema"></script>
 </body>

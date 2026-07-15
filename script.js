@@ -647,6 +647,62 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     preview.textContent = JSON.stringify(getOrder(), null, 2);
     preview.classList.add('is-visible');
   });
+
+  /* Live checkout: hand the order to Apps Script, which prices it again from its
+     own catalogue, opens a Stripe session and logs the row. The browser never
+     sees a key and is never trusted on price. */
+  const storeConfig = window.P4A_GEAR || {};
+  const checkoutEndpoint = String(storeConfig.checkoutEndpoint || '').trim();
+  const liveCheckout = form.querySelector('[data-live-checkout]');
+  const checkoutStatus = form.querySelector('[data-checkout-status]');
+
+  const setCheckoutStatus = (message, tone) => {
+    if (!checkoutStatus) return;
+    checkoutStatus.textContent = message;
+    checkoutStatus.dataset.tone = tone || '';
+  };
+
+  if (liveCheckout && !checkoutEndpoint) {
+    liveCheckout.disabled = true;
+    setCheckoutStatus('Card checkout is not connected yet. Use the email order below, or paste the Apps Script web app URL into assets/store-config.js to switch it on.');
+  }
+
+  liveCheckout?.addEventListener('click', async () => {
+    if (!checkoutEndpoint) return;
+    const payload = getOrder();
+    const name = String(payload.order.buyer_name || '').trim();
+    const email = String(payload.order.buyer_email || '').trim();
+
+    if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setCheckoutStatus('Add your name and a valid email first, so the receipt and pickup note can reach you.', 'error');
+      (name ? buyerEmail : buyerName)?.focus();
+      return;
+    }
+
+    payload.order.fulfilment_status = 'awaiting_payment';
+    liveCheckout.disabled = true;
+    setCheckoutStatus('Opening a secure Stripe checkout...');
+
+    try {
+      /* text/plain keeps this a "simple" CORS request. Apps Script web apps
+         cannot answer a preflight OPTIONS, so sending application/json here
+         would fail in the browser before it ever reached the script. */
+      const response = await fetch(checkoutEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload),
+        redirect: 'follow'
+      });
+      const data = await response.json();
+      if (!data.ok || !data.checkoutUrl) throw new Error(data.error || 'Checkout could not be created.');
+      setCheckoutStatus('Redirecting to secure payment...');
+      window.location.assign(data.checkoutUrl);
+    } catch (error) {
+      liveCheckout.disabled = false;
+      const reason = error && error.message ? error.message : 'Unknown error.';
+      setCheckoutStatus(`Could not start checkout: ${reason} Nothing was charged. The email order below still works.`, 'error');
+    }
+  });
   product?.addEventListener('change', () => selectProduct(product.value, colour?.value || activeShelfColour));
   colour?.addEventListener('input', () => {
     cardColourChoices.set(getSelectedProduct().id, colour.value);
@@ -1071,4 +1127,37 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     module.querySelector('[data-history-search]')?.addEventListener('input', () => updateHistoryModule(module));
     updateHistoryModule(module);
   });
+})();
+
+/* Stripe sends the buyer back here with ?gear=success or ?gear=cancelled.
+   Landing on a normal-looking page with no acknowledgement is how people end up
+   paying twice, so say plainly what happened. Works on whichever page the
+   STRIPE_SUCCESS_URL / STRIPE_CANCEL_URL properties point at. */
+(() => {
+  const state = new URLSearchParams(window.location.search).get('gear');
+  const messages = {
+    success: {
+      title: 'Payment received. Thank you.',
+      body: 'Your receipt is on its way by email and the order is in the queue to be printed. You will get a note when it is ready for pickup or postage.'
+    },
+    cancelled: {
+      title: 'Checkout cancelled. Nothing was charged.',
+      body: 'No money has left your account. Your choices are still below whenever you want to pick it back up.'
+    }
+  };
+  const message = messages[state];
+  if (!message) return;
+  const main = document.querySelector('#main');
+  if (!main) return;
+
+  const banner = document.createElement('div');
+  banner.className = `gear-return-banner is-${state}`;
+  banner.setAttribute('role', 'status');
+  const title = document.createElement('strong');
+  title.textContent = message.title;
+  const body = document.createElement('span');
+  body.textContent = message.body;
+  banner.append(title, body);
+  main.prepend(banner);
+  banner.scrollIntoView({ block: 'nearest' });
 })();
