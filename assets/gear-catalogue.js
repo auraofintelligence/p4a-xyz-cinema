@@ -74,18 +74,48 @@ window.P4A_CATALOGUE = {
       ]
     },
     {
-      id: 'crew-kit',
-      name: 'Small Crew Media Kit',
-      tagline: 'Enough to film a Twinkle and run a stall page.',
+      id: 'digital-kit',
+      name: 'Digital Crew Kit',
+      tagline: 'No cameras: three phones at a table already beat a media kit. This funds what a crew cannot pull from a pocket.',
       pricing_mode: 'range',
-      est_range: '$220 to $360 sourced locally',
+      est_range: '$50 to $200 per month, running cost not hardware',
       items: [
-        { name: 'Phone mount and tripod', source: 'local electronics or online', est: '$40 to $90' },
-        { name: 'Small mic kit (lav or shotgun)', source: 'local electronics or online', est: '$60 to $150' },
-        { name: 'Power bank', source: 'local electronics', est: 'about $40' },
-        { name: 'Storage (SD card or drive)', source: 'local electronics', est: 'about $30' },
-        { name: 'Clip light', source: 'local electronics', est: 'about $50' },
-        { name: 'Run sheets and review checklist', source: 'free, templates in the repo', est: '$0' }
+        { name: 'AI assistant seats for the crew', source: 'direct from providers, free tiers first', est: '$0 to $100 per month per seat' },
+        { name: 'Domain name', source: 'any registrar', est: 'about $20 per year' },
+        { name: 'Site hosting', source: 'GitHub Pages, same as this site', est: '$0' },
+        { name: 'Online marketing / boosted posts', source: 'set a cap, publish the spend on the ledger', est: 'whatever the books can carry' },
+        { name: 'Email and forms', source: 'free tiers first', est: '$0 to $20 per month' },
+        { name: 'Twinkle seeds, templates, site pattern', source: 'free, this repo', est: '$0' }
+      ]
+    },
+    {
+      id: 'kiosk-kit',
+      name: 'Disaster Kiosk Noticeboard',
+      tagline: 'A public screen that keeps working when the towers do not. The NODE pillar, made of parts you can buy in town.',
+      pricing_mode: 'range',
+      est_range: '$500 to $1,200 depending on housing and power',
+      items: [
+        { name: 'Refurbished mini PC or Raspberry Pi', source: 'refurb dealers or local electronics', est: '$150 to $300' },
+        { name: 'Screen (touch if the budget allows)', source: 'refurb or local electronics', est: '$150 to $400' },
+        { name: 'Weatherproof housing', source: 'local fabricator or hardware', est: '$100 to $300' },
+        { name: 'Battery / UPS so outages do not kill it', source: 'local electronics', est: '$100 to $250' },
+        { name: 'Solar top-up (optional)', source: 'local solar supplier', est: 'quote' },
+        { name: 'Offline-first noticeboard software', source: 'free, Straddie noticeboard pattern in the repo', est: '$0' }
+      ]
+    },
+    {
+      id: 'data-stack-kit',
+      name: 'Self-Sovereign Data Stack',
+      tagline: 'Your crew\'s records on your own shelf, not rented from a hyperscaler. The sovereignty stack with a power cord.',
+      pricing_mode: 'range',
+      est_range: '$600 to $1,000 one-off',
+      items: [
+        { name: 'Small home server (refurb NUC or Pi 5 kit)', source: 'refurb dealers or local electronics', est: '$150 to $400' },
+        { name: 'Two storage drives (working copy plus backup)', source: 'local electronics', est: '$200 to $300' },
+        { name: 'Hardware security keys x2', source: 'online, no local option usually exists', est: 'about $150' },
+        { name: 'Battery / UPS', source: 'local electronics', est: 'about $100' },
+        { name: 'Password manager', source: 'free and open source options first', est: '$0' },
+        { name: 'Local-first profile and ledger patterns', source: 'free, private civic profile builder in the repo', est: '$0' }
       ]
     },
     {
@@ -96,7 +126,7 @@ window.P4A_CATALOGUE = {
       est_range: 'Quoted per region once a local printer is confirmed',
       items: [
         { name: 'Everything in the One Table Kit', source: 'as above', est: 'range above' },
-        { name: 'Everything in the Small Crew Media Kit', source: 'as above', est: 'range above' },
+        { name: 'Digital Crew Kit running costs, first six months', source: 'as above', est: 'range above' },
         { name: 'Volunteer shirts x6', source: 'local print partner', est: 'quote' },
         { name: 'A-frame footpath sign', source: 'local signage shop', est: '$120 to $200' },
         { name: 'Cash tin and QR payment stand', source: 'office supply', est: 'about $50' },
