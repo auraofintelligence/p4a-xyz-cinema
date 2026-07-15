@@ -63,14 +63,29 @@
       <p class="mini-note reveal">Templates named in the kits (run sheets, consent notes, issue cards, handover packs) live free in the <a href="starter-field-kit.html">starter field kit</a> and the <a href="https://github.com/auraofintelligence/p4a-xyz-cinema" target="_blank" rel="noopener">repo</a>. Kits change with region and season: quotes beat estimates, and the ledger beats both.</p>
     </section>
 
-    <section class="section" id="wearables">
+    <section class="section" id="merch">
       <div class="section-heading reveal">
-        <div><p class="eyebrow">Worn gear</p><h2>The hoodie pilot, priced with dates on.</h2></div>
-        <p>Base prices below were captured from a Brisbane supplier for the pilot and are marked stale until re-quoted, because a price without a date is just a guess wearing a suit. The local Dunwich printer gets first refusal once quotes are real. Buying happens in the <a href="test-store1.html">pilot checkout</a>.</p>
+        <div><p class="eyebrow">The spectrum</p><h2>Purple, the full traditional range.</h2></div>
+        <p>Tees to corflutes to stubby holders. Almost every line below says "no quote yet", because that is the truth: no supplier has quoted it. A price without a captured date is a rumour, so the store shows nothing rather than a number it cannot stand behind. The hoodie figures are old reference only, provenance unclear, not buyable until re-quoted. Adding a supplier is a documented six-step process anyone can run: see <a href="#intake">below</a>.</p>
       </div>
+      <div data-merch-groups class="reveal"></div>
+      <p class="mini-note reveal" data-catalogue-meta></p>
+    </section>
+
+    <section class="section" id="intake">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">The process</p><h2>How a new supplier gets added.</h2></div>
+        <p>The process is the product. Anyone should be able to add a supplier without asking Luke, and anyone should be able to check the work afterwards. Six gated steps, so a supplier cannot reach the store before it has been sampled and dated.</p>
+      </div>
+      <div class="feature-grid coaster-grid reveal" data-intake-grid></div>
       <div class="statement-card reveal">
-        <div class="discount-rows" data-wearable-rows aria-label="Hoodie base price reference with verification dates"></div>
-        <p class="mini-note" data-catalogue-meta></p>
+        <p class="eyebrow">The one unforgivable move</p>
+        <h3>Never touch the date to make the badge go green.</h3>
+        <p>The store ages its own prices: after 90 days a number flags itself stale whether or not anyone remembered. That automation exists because the failure mode of an honest store is not lying, it is forgetting, and a figure left sitting for two years quietly becomes false. When it flags, re-quote it or mark it reference. Editing the date to silence the badge is the exact move the rest of this site exists to argue against.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/SUPPLIER-INTAKE.md" target="_blank" rel="noopener">Full intake process</a>
+          <a class="button button-secondary" href="truth-engine.html">Truth engine</a>
+        </div>
       </div>
     </section>
 
@@ -117,15 +132,35 @@
     if (!cat) return;
     const STALE_DAYS = 90;
     const dayspan = (iso) => Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+    /* Supplier freshness. A human marking something stale or expired outranks
+       the calendar; the day-count is only the backstop for entries nobody has
+       looked at in a while. */
     const freshness = (item) => {
-      if (!item.last_verified) return { cls: 'unverified', text: 'unverified, no price captured' };
-      /* A human marking a price stale outranks the calendar; the day-count is
-         only the backstop for prices nobody has looked at in a while. */
+      if (item.status === 'expired') return { cls: 'unverified', text: 'expired: date never recorded, re-quote required' };
+      if (item.status === 'unverified') return { cls: 'unverified', text: 'unverified, no quotes captured' };
+      if (item.status === 'guidance') return { cls: 'guidance', text: 'estimates, not offers' };
+      if (!item.last_verified) return { cls: 'unverified', text: 'no date captured' };
       if (item.status === 'stale') return { cls: 'stale', text: `marked stale: re-quote needed (captured ${item.last_verified})` };
       const days = dayspan(item.last_verified);
       return days > STALE_DAYS
         ? { cls: 'stale', text: `stale: checked ${item.last_verified}, ${days} days ago` }
         : { cls: 'fresh', text: `checked ${item.last_verified}` };
+    };
+
+    /* Pricing badge. The catalogue's mode decides whether a number is shown at
+       all, so "no quote yet" can never silently become a price. */
+    const priceView = (pricing) => {
+      if (!pricing || pricing.mode === 'quote_needed') {
+        return { price: '', flag: { cls: 'unverified', text: 'no quote yet' } };
+      }
+      if (pricing.mode === 'reference') {
+        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'unverified', text: 'reference only: months old, date unrecorded, not buyable' } };
+      }
+      const days = pricing.last_verified ? dayspan(pricing.last_verified) : null;
+      if (pricing.mode === 'stale' || (days !== null && days > STALE_DAYS)) {
+        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'stale', text: `stale: quoted ${pricing.last_verified}` } };
+      }
+      return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'fresh', text: `quoted ${pricing.last_verified}` } };
     };
     const esc = (value) => String(value).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 
@@ -139,14 +174,31 @@
         <ul class="plain-list">${kit.items.map((item) => `<li><strong>${esc(item.name)}</strong>: ${esc(item.source)}, ${esc(item.est)}</li>`).join('')}</ul>
       </article>`).join('');
 
-    const rows = document.querySelector('[data-wearable-rows]');
-    if (rows) rows.innerHTML = cat.wearables.map((item) => {
-      const f = freshness(item);
-      return `<span>${esc(item.label)}</span><b>$${item.single.toFixed(2)} <small class="price-flag is-${f.cls}">${esc(f.text)}</small></b>`;
-    }).join('');
+    const groups = document.querySelector('[data-merch-groups]');
+    if (groups) groups.innerHTML = cat.merch.map((group) => `
+      <div class="statement-card merch-group">
+        <p class="eyebrow">${esc(group.category)}</p>
+        <p class="mini-note">${esc(group.note)}</p>
+        <div class="discount-rows" aria-label="${esc(group.category)} pricing">
+          ${group.items.map((item) => {
+            const view = priceView(item.pricing);
+            return `<span>${esc(item.label)} <small class="merch-decoration">${esc(item.decoration)}</small></span><b>${view.price} <small class="price-flag is-${view.flag.cls}">${esc(view.flag.text)}</small></b>`;
+          }).join('')}
+        </div>
+      </div>`).join('');
 
+    const intakeGrid = document.querySelector('[data-intake-grid]');
+    if (intakeGrid) intakeGrid.innerHTML = cat.intake.map((step) => `
+      <article>
+        <span class="card-number">${step.step}</span>
+        <h3>${esc(step.name)}</h3>
+        <p>${esc(step.detail)}</p>
+      </article>`).join('');
+
+    const quoted = cat.merch.flatMap((g) => g.items).filter((i) => i.pricing && i.pricing.mode === 'verified').length;
+    const total = cat.merch.flatMap((g) => g.items).length;
     const meta = document.querySelector('[data-catalogue-meta]');
-    if (meta) meta.textContent = `Catalogue updated ${cat.meta.updated}. ${cat.meta.pricing_note}`;
+    if (meta) meta.textContent = `Catalogue updated ${cat.meta.updated}. ${quoted} of ${total} lines have a verified, dated quote. ${cat.meta.pricing_note}`;
 
     const supplierGrid = document.querySelector('[data-supplier-grid]');
     if (supplierGrid) supplierGrid.innerHTML = cat.suppliers.map((supplier, index) => {
