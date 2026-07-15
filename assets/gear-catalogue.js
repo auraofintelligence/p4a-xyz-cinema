@@ -27,15 +27,18 @@ window.P4A_CATALOGUE = {
       id: 'dunwich-printer',
       name: 'Dunwich shirt printer, Minjerribah',
       role: 'Local print partner, first preference',
-      status: 'unverified',
-      note: 'Not yet visited, no quotes captured. Intake step 1. Nothing sells through this lane until it clears step 5.'
+      status: 'visited',
+      last_verified: '2026-05-11',
+      note: 'Visited 11 May 2026. Quotes were discussed but never written into this catalogue, so there are still no numbers here. Intake step 2: get it in writing, with the date.'
     },
     {
       id: 'brisbane-supplier',
       name: 'Brisbane garment supplier',
       role: 'Reference pricing and overflow only',
-      status: 'expired',
-      note: 'Hoodie base prices captured months ago; the exact date was never recorded, so the figures are reference only and must be re-quoted before any sale.'
+      status: 'stale',
+      last_verified: '2026-05-01',
+      precision: 'approximate',
+      note: 'Hoodie base prices captured early May 2026; the exact day was never recorded, so the date is deliberately set to the earliest plausible one and ages fastest. Reference only until re-quoted.'
     },
     {
       id: 'local-general',
@@ -47,71 +50,79 @@ window.P4A_CATALOGUE = {
   ],
 
   /*
-   * The full traditional spectrum, in purple. Almost everything is
-   * quote_needed, because it is. A store that invented numbers here would be
-   * the exact thing this project exists to argue against.
+   * Who we ask, in order. This ladder is the difference between a party store
+   * and a Vistaprint account. Rank 5 exists so the rule can be broken honestly
+   * and visibly, not quietly.
+   */
+  sourcing_ladder: [
+    { rank: 1, name: 'Local to the table', detail: 'The printer, signwriter or maker in the town where the table stands. Money that stays local is the whole argument.' },
+    { rank: 2, name: 'Indigenous-owned businesses', detail: 'Ask, invite, and let them onboard themselves on their own terms. We list nobody without consent and speak for nobody. Supply Nation is a real directory to search; Country and community come before our print run.' },
+    { rank: 3, name: 'Community enterprise, co-ops, social enterprise', detail: 'Businesses that already answer to a community rather than a shareholder. Ask what their surplus does.' },
+    { rank: 4, name: 'Independent makers running their own shop', detail: 'Sovereign in the plain sense: they own their gear, set their prices and answer the phone themselves.' },
+    { rank: 5, name: 'Generic print mills', detail: 'The Vistaprint tier. Cheap, fast, soulless, and the last resort. If we ever use one, the page says so out loud and says why nothing above it could do the job.' }
+  ],
+
+  /*
+   * Candidates, not a catalogue.
+   *
+   * The test for every line: would you wear or carry it if the politics were
+   * stripped off? If it only works because of the logo, it is landfill with a
+   * cause printed on it. That rule deleted the lanyards, the tea towel, the
+   * ceramic mug, the button badges, the car magnet and the branded notebook.
+   *
+   * This list is a starting guess and is explicitly allowed to be wrong. What
+   * gets quoted is what people ask for: see `requests` below.
    */
   merch: [
     {
       category: 'Worn',
-      note: 'The workhorses. Volunteers wear these; the public reads them.',
+      note: 'Good blanks, heavy cotton, boxy fits. The kind of thing that survives the movement it advertises.',
       items: [
-        { id: 'purple-tee', label: 'Purple tee', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
-        { id: 'purple-polo', label: 'Purple polo', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
-        { id: 'gildan-adult-hooded-sweatshirt', label: 'Gildan Adult Hooded Sweatshirt', decoration: 'screen print', pricing: { mode: 'reference', single: 52.95, floor: 39.71, supplier: 'brisbane-supplier' } },
-        { id: 'ramo-sloppy-joe', label: 'RAMO Poly Cotton Fleece Sloppy Joe', decoration: 'screen print', pricing: { mode: 'reference', single: 57.45, floor: 43.09, supplier: 'brisbane-supplier' } },
-        { id: 'unisex-pullover', label: 'Unisex Adults Pull Over Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 59.99, floor: 44.99, supplier: 'brisbane-supplier' } },
-        { id: 'ramo-kangaroo-pocket', label: 'RAMO Kangaroo Pocket Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 62.35, floor: 46.76, supplier: 'brisbane-supplier' } },
-        { id: 'ramo-heavy-zip', label: 'RAMO Brushed Heavy Zip Fleece Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 65.00, floor: 48.75, supplier: 'brisbane-supplier' } },
-        { id: 'ramo-zip-pocket', label: 'RAMO Zip Hoodie with Pocket', decoration: 'screen print', pricing: { mode: 'reference', single: 77.20, floor: 57.90, supplier: 'brisbane-supplier' } },
-        { id: 'ramo-heavy-fleece', label: 'RAMO Brushed Heavy Fleece Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 82.39, floor: 61.79, supplier: 'brisbane-supplier' } },
-        { id: 'comfort-colorblast', label: 'Comfort Colors Color Blast Crewneck', decoration: 'screen print', pricing: { mode: 'reference', single: 100.71, floor: 75.53, supplier: 'brisbane-supplier' } },
-        { id: 'purple-beanie', label: 'Purple beanie', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
-        { id: 'purple-cap', label: 'Purple cap', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
-        { id: 'purple-bucket-hat', label: 'Purple bucket hat', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
-        { id: 'volunteer-hi-vis', label: 'Volunteer hi-vis vest', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
-        { id: 'purple-apron', label: 'Purple apron, for the sausage sizzle', decoration: 'screen print', pricing: { mode: 'quote_needed' } }
+        { id: 'purple-tee', label: 'Heavyweight boxy tee', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
+        { id: 'purple-crewneck', label: 'Crewneck sweater', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
+        { id: 'purple-cap', label: 'Embroidered cap', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
+        { id: 'purple-beanie', label: 'Beanie', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
+        { id: 'purple-bucket-hat', label: 'Bucket hat', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
+        { id: 'purple-socks', label: 'Socks', decoration: 'knitted', pricing: { mode: 'quote_needed' } }
       ]
     },
     {
-      category: 'Drinkware',
-      note: 'Where a movement actually happens: someone hands you a cup.',
+      category: 'Hoodies, the pilot lane',
+      note: 'The only lines with any numbers, and the numbers are old. Blanks quoted early May 2026 by a Brisbane supplier; the local Dunwich printer gets first refusal once a written quote exists.',
       items: [
-        { id: 'enamel-camp-mug', label: 'Purple enamel camp mug', decoration: 'wrap print', pricing: { mode: 'quote_needed' } },
-        { id: 'ceramic-mug', label: 'Purple ceramic mug', decoration: 'wrap print', pricing: { mode: 'quote_needed' } },
-        { id: 'stubby-holder', label: 'Purple stubby holder', decoration: 'wrap print', pricing: { mode: 'quote_needed' } },
-        { id: 'drink-bottle', label: 'Purple drink bottle', decoration: 'wrap print', pricing: { mode: 'quote_needed' } }
+        { id: 'gildan-adult-hooded-sweatshirt', label: 'Gildan Adult Hooded Sweatshirt', decoration: 'screen print', pricing: { mode: 'reference', single: 52.95, floor: 39.71, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'ramo-sloppy-joe', label: 'RAMO Poly Cotton Fleece Sloppy Joe', decoration: 'screen print', pricing: { mode: 'reference', single: 57.45, floor: 43.09, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'unisex-pullover', label: 'Unisex Adults Pull Over Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 59.99, floor: 44.99, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'ramo-kangaroo-pocket', label: 'RAMO Kangaroo Pocket Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 62.35, floor: 46.76, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'ramo-heavy-zip', label: 'RAMO Brushed Heavy Zip Fleece Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 65.00, floor: 48.75, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'ramo-zip-pocket', label: 'RAMO Zip Hoodie with Pocket', decoration: 'screen print', pricing: { mode: 'reference', single: 77.20, floor: 57.90, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'ramo-heavy-fleece', label: 'RAMO Brushed Heavy Fleece Hoodie', decoration: 'screen print', pricing: { mode: 'reference', single: 82.39, floor: 61.79, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } },
+        { id: 'comfort-colorblast', label: 'Comfort Colors Color Blast Crewneck', decoration: 'screen print', pricing: { mode: 'reference', single: 100.71, floor: 75.53, last_verified: '2026-05-01', precision: 'approximate', supplier: 'brisbane-supplier' } }
       ]
     },
     {
-      category: 'Signage',
-      note: 'The corflute is the Australian political object. Plan its afterlife before you print it.',
+      category: 'Carried',
+      note: 'Small, cheap, actually used. The sticker outlives the campaign.',
       items: [
-        { id: 'corflute-aframe', label: 'A-frame corflute sign', decoration: 'direct print', pricing: { mode: 'quote_needed' } },
-        { id: 'corflute-stake', label: 'Stake corflute sign', decoration: 'direct print', pricing: { mode: 'quote_needed' } },
-        { id: 'vinyl-banner', label: 'Vinyl stall banner', decoration: 'direct print', pricing: { mode: 'quote_needed' } },
-        { id: 'bunting', label: 'Purple bunting', decoration: 'direct print', pricing: { mode: 'quote_needed' } },
-        { id: 'flag', label: 'Purple flag', decoration: 'dye sublimation', pricing: { mode: 'quote_needed' } },
-        { id: 'car-magnet', label: 'Car door magnet', decoration: 'direct print', pricing: { mode: 'quote_needed' } }
-      ]
-    },
-    {
-      category: 'Small and paper',
-      note: 'Cheap, shareable, and the QR trail lives here. This is where a table actually converts.',
-      items: [
-        { id: 'sticker-sheet', label: 'Sticker sheet', decoration: 'digital print', pricing: { mode: 'quote_needed' } },
-        { id: 'qr-trail-cards', label: 'QR trail cards', decoration: 'digital print', pricing: { mode: 'quote_needed' } },
-        { id: 'enamel-pin', label: 'Purple enamel pin', decoration: 'enamel', pricing: { mode: 'quote_needed' } },
-        { id: 'badge', label: 'Button badge', decoration: 'digital print', pricing: { mode: 'quote_needed' } },
-        { id: 'lanyard', label: 'Purple lanyard', decoration: 'dye sublimation', pricing: { mode: 'quote_needed' } },
-        { id: 'keyring', label: 'Purple keyring', decoration: 'various', pricing: { mode: 'quote_needed' } },
-        { id: 'tote-bag', label: 'Purple tote bag', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
-        { id: 'tea-towel', label: 'Tea towel, the classic fundraiser', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
-        { id: 'poster', label: 'A2 poster', decoration: 'digital print', pricing: { mode: 'quote_needed' } },
-        { id: 'notebook', label: 'Purple notebook', decoration: 'foil or print', pricing: { mode: 'quote_needed' } }
+        { id: 'sticker-pack', label: 'Sticker pack', decoration: 'digital print', pricing: { mode: 'quote_needed' } },
+        { id: 'enamel-pin', label: 'Enamel pin', decoration: 'enamel', pricing: { mode: 'quote_needed' } },
+        { id: 'patch', label: 'Iron-on patch', decoration: 'embroidery', pricing: { mode: 'quote_needed' } },
+        { id: 'tote-bag', label: 'Canvas tote', decoration: 'screen print', pricing: { mode: 'quote_needed' } },
+        { id: 'reusable-cup', label: 'Reusable cup', decoration: 'wrap print', pricing: { mode: 'quote_needed' } },
+        { id: 'stubby-holder', label: 'Stubby holder', decoration: 'wrap print', pricing: { mode: 'quote_needed' } }
       ]
     }
   ],
+
+  /*
+   * Demand, not guesses. A request here is what puts an item into the quote
+   * queue. Empty because nobody has been asked yet, and an empty list is a
+   * truer thing to publish than a catalogue nobody wanted.
+   *
+   * Field gear (corflutes, banners, QR cards, hi-vis) is not merch and lives in
+   * the kits below, where it belongs.
+   */
+  requests: [],
 
   kits: [
     {

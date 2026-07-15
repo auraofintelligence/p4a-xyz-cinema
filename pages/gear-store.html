@@ -65,11 +65,29 @@
 
     <section class="section" id="merch">
       <div class="section-heading reveal">
-        <div><p class="eyebrow">The spectrum</p><h2>Purple, the full traditional range.</h2></div>
-        <p>Tees to corflutes to stubby holders. Almost every line below says "no quote yet", because that is the truth: no supplier has quoted it. A price without a captured date is a rumour, so the store shows nothing rather than a number it cannot stand behind. The hoodie figures are old reference only, provenance unclear, not buyable until re-quoted. Adding a supplier is a documented six-step process anyone can run: see <a href="#intake">below</a>.</p>
+        <div><p class="eyebrow">Candidates, not a catalogue</p><h2>Tell us what you'd actually wear.</h2></div>
+        <p>One test for every line: would you wear or carry it if the politics were stripped off? If it only works because of the logo, it's landfill with a cause printed on it. That rule already deleted the lanyards, the tea towel and the branded notebook. What's left is a starting guess, and it's allowed to be wrong: what gets quoted is what people ask for, not what we imagined at a keyboard.</p>
+      </div>
+      <div class="statement-card reveal">
+        <p class="eyebrow">Requests so far</p>
+        <h3 data-request-count>Nobody has asked for anything yet.</h3>
+        <p>Because nobody has been asked yet. That's the honest number, and it beats a catalogue nobody wanted. Tell us what you'd wear, what colour purple is the right purple, and what you'd never be seen in. Requests drive the quote queue: an item gets a supplier when people want it, not before.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" data-request-link href="#">Request an item</a>
+          <a class="button button-secondary" href="#sourcing">Who we ask first</a>
+        </div>
       </div>
       <div data-merch-groups class="reveal"></div>
       <p class="mini-note reveal" data-catalogue-meta></p>
+    </section>
+
+    <section class="section" id="sourcing">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">Who we ask, in order</p><h2>Sovereign makers first. Print mills last.</h2></div>
+        <p>This ladder is the difference between a party store and a Vistaprint account. Rank five exists so the rule can be broken honestly and out loud, rather than quietly.</p>
+      </div>
+      <div class="feature-grid coaster-grid reveal" data-sourcing-grid></div>
+      <p class="mini-note reveal">On rank two: we ask and invite, and businesses onboard themselves on their own terms. We list nobody without consent and speak for nobody. Country and community come before our print run, every time.</p>
     </section>
 
     <section class="section" id="intake">
@@ -138,6 +156,8 @@
     const freshness = (item) => {
       if (item.status === 'expired') return { cls: 'unverified', text: 'expired: date never recorded, re-quote required' };
       if (item.status === 'unverified') return { cls: 'unverified', text: 'unverified, no quotes captured' };
+      /* Visited is not quoted. A green badge here would imply a price exists. */
+      if (item.status === 'visited') return { cls: 'stale', text: `visited ${item.last_verified}, no written quote yet` };
       if (item.status === 'guidance') return { cls: 'guidance', text: 'estimates, not offers' };
       if (!item.last_verified) return { cls: 'unverified', text: 'no date captured' };
       if (item.status === 'stale') return { cls: 'stale', text: `marked stale: re-quote needed (captured ${item.last_verified})` };
@@ -154,7 +174,11 @@
         return { price: '', flag: { cls: 'unverified', text: 'no quote yet' } };
       }
       if (pricing.mode === 'reference') {
-        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'unverified', text: 'reference only: months old, date unrecorded, not buyable' } };
+        /* An approximate date is set to the earliest plausible day, so it ages
+           fastest. Erring toward "too old" is the safe direction. */
+        const age = pricing.last_verified ? `${dayspan(pricing.last_verified)} days old` : 'date unrecorded';
+        const approx = pricing.precision === 'approximate' ? ' approx' : '';
+        return { price: `$${pricing.single.toFixed(2)}`, flag: { cls: 'stale', text: `reference only: quoted ${pricing.last_verified || '?'}${approx}, ${age}, re-quote before sale` } };
       }
       const days = pricing.last_verified ? dayspan(pricing.last_verified) : null;
       if (pricing.mode === 'stale' || (days !== null && days > STALE_DAYS)) {
@@ -195,10 +219,35 @@
         <p>${esc(step.detail)}</p>
       </article>`).join('');
 
+    const sourcingGrid = document.querySelector('[data-sourcing-grid]');
+    if (sourcingGrid) sourcingGrid.innerHTML = cat.sourcing_ladder.map((rank) => `
+      <article${rank.rank === 5 ? ' class="gear-door"' : ''}>
+        <span class="card-number">${rank.rank}</span>
+        <h3>${esc(rank.name)}</h3>
+        <p>${esc(rank.detail)}</p>
+      </article>`).join('');
+
+    /* Requests drive the queue. The count is whatever it really is. */
+    const requestCount = document.querySelector('[data-request-count]');
+    if (requestCount && cat.requests.length) {
+      requestCount.textContent = `${cat.requests.length} request${cat.requests.length === 1 ? '' : 's'} so far.`;
+    }
+
+    const requestLink = document.querySelector('[data-request-link]');
+    if (requestLink) {
+      const to = (window.P4A_GEAR && window.P4A_GEAR.fallbackEmail) || 'hello@p4a.xyz';
+      const body = [
+        'What would you actually wear or carry?', '',
+        'Item:', 'Why it, and not the obvious version:', 'What you would never be seen in:', 'Is the purple right:', '',
+        'A supplier you rate (local, Indigenous-owned, co-op or independent):', ''
+      ].join('\n');
+      requestLink.href = `mailto:${to}?subject=${encodeURIComponent('P4A merch request')}&body=${encodeURIComponent(body)}`;
+    }
+
     const quoted = cat.merch.flatMap((g) => g.items).filter((i) => i.pricing && i.pricing.mode === 'verified').length;
     const total = cat.merch.flatMap((g) => g.items).length;
     const meta = document.querySelector('[data-catalogue-meta]');
-    if (meta) meta.textContent = `Catalogue updated ${cat.meta.updated}. ${quoted} of ${total} lines have a verified, dated quote. ${cat.meta.pricing_note}`;
+    if (meta) meta.textContent = `Catalogue updated ${cat.meta.updated}. ${quoted} of ${total} candidate lines have a verified, dated quote. ${cat.meta.pricing_note}`;
 
     const supplierGrid = document.querySelector('[data-supplier-grid]');
     if (supplierGrid) supplierGrid.innerHTML = cat.suppliers.map((supplier, index) => {
