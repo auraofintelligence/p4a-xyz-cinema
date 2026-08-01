@@ -5,21 +5,31 @@ navToggle?.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', String(open));
 });
 
-const reveals = document.querySelectorAll('.reveal');
+/* Reveal on scroll. Deliberately NOT IntersectionObserver: content
+   visibility must never depend on an observer callback arriving, because
+   browsers throttle or delay IO in background tabs, prerendered pages and
+   low-power modes, which can leave a section at opacity 0 for the whole
+   visit. A plain geometry sweep on scroll and resize gives the same effect
+   with nothing that can strand content. */
+const revealPending = new Set(document.querySelectorAll('.reveal'));
 const showReveal = (el) => el.classList.add('is-visible');
-
-if ('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      showReveal(entry.target);
-      observer.unobserve(entry.target);
-    });
-  }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
-  reveals.forEach((el) => observer.observe(el));
-} else {
-  reveals.forEach(showReveal);
-}
+const sweepReveals = () => {
+  if (!revealPending.size) return;
+  /* Only the top edge is tested, so anything scrolled past stays revealed:
+     an anchor jump or a restored scroll position cannot skip a block. */
+  const line = window.innerHeight * 0.92;
+  revealPending.forEach((el) => {
+    const r = el.getBoundingClientRect();
+    if (r.top < line) { showReveal(el); revealPending.delete(el); }
+  });
+};
+sweepReveals();
+window.addEventListener('scroll', sweepReveals, { passive: true });
+window.addEventListener('resize', sweepReveals, { passive: true });
+window.addEventListener('load', sweepReveals);
+/* Late-layout safety net (fonts and images shifting geometry after first paint). */
+setTimeout(sweepReveals, 400);
+setTimeout(sweepReveals, 1500);
 
 const normaliseNavPath = (value) => {
   const url = new URL(value, location.href);
