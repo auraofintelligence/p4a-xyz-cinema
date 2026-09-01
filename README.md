@@ -1,5 +1,33 @@
 # p4a-xyz-cinema
 
+<!-- github-organisation:start -->
+
+## Project links and history
+
+- First substantive build: 1 May 2026.
+- GitHub repository: [p4a-xyz-cinema](https://github.com/auraofintelligence/p4a-xyz-cinema).
+- Public site: [visit the public site](https://p4a.xyz/).
+
+## Related public projects
+
+Each link below reflects an evidenced family, lineage or direct connection. This project has 8 relevant public connections.
+
+### Direct and other supported connections
+
+- [right-place-right-time](https://github.com/auraofintelligence/right-place-right-time) - [public page](https://auraofintelligence.github.io/right-place-right-time/) - explicit cross-reference.
+
+### P4A and Purple builds
+
+- [p4a-native-nations-cinema](https://github.com/auraofintelligence/p4a-native-nations-cinema) - [public page](https://auraofintelligence.github.io/p4a-native-nations-cinema/) - earlier build; p4a-native-nations-cinema is later, explicit cross-reference, ordered build lineage, shared named build family.
+- [p4a-oceania-cinema](https://github.com/auraofintelligence/p4a-oceania-cinema) - [public page](https://auraofintelligence.github.io/p4a-oceania-cinema/) - earlier build; p4a-oceania-cinema is later, explicit cross-reference, ordered build lineage, shared named build family.
+- [p4a-oceania-expansion-lab](https://github.com/auraofintelligence/p4a-oceania-expansion-lab) - [public page](https://auraofintelligence.github.io/p4a-oceania-expansion-lab/) - parallel build, parallel builds in an ordered lineage, shared named build family.
+- [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz) - [public page](https://auraofintelligence.github.io/p4a_xyz/) - later build; p4a_xyz is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [P4Australia](https://github.com/auraofintelligence/P4Australia) - [public page](https://auraofintelligence.github.io/P4Australia/) - later build; P4Australia is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [purple01](https://github.com/auraofintelligence/purple01) - [public page](https://auraofintelligence.github.io/purple01/) - later build; purple01 is earlier, ordered build lineage, shared named build family.
+- [Purple02](https://github.com/auraofintelligence/Purple02) - [public page](https://auraofintelligence.github.io/Purple02/) - later build; Purple02 is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+
+<!-- github-organisation:end -->
+
 > 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude — Fable 5, July 2026. Not a Codex build. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
 
 Static multi-page prototype for the Purple Party for Australia.
