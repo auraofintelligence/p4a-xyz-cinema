@@ -2,10 +2,15 @@
 import pathlib,json,re,html
 R=pathlib.Path(__file__).resolve().parents[1];e=html.escape
 d=json.loads((R/'content/home-ticker.json').read_text(encoding='utf-8'))
+# The original topic inventory is preserved in the archived source and live data.
+original=json.loads((R/'content/archive/home-ticker-before-2026-10-02.json').read_text(encoding='utf-8'))['topics']
+assert d['preservation']['originalTopics']==original, 'Original ticker inventory changed'
+assert [x['headline'] for x in d['items'][:len(original)]]==original, 'Keep every original ticker topic before additions'
+assert all(1<=len(x['headline'].split())<=3 for x in d['items']), 'Ticker labels must be one to three words'
 links=[]
 for item in d['items']:
  external=item['href'].startswith(('https://','http://'))
- links.append('<a href="'+e(item['href'])+'"'+(' target="_blank" rel="noopener noreferrer"' if external else '')+'><small>'+e(item['scope'])+'</small><span>'+e(item['headline'])+'</span></a>')
+ links.append('<a href="'+e(item['href'])+'"'+(' target="_blank" rel="noopener noreferrer"' if external else '')+'><span>'+e(item['headline'])+'</span></a>')
 block='''<!-- homepage-ticker:start -->
     <section class="p4a-marquee issue-ticker" aria-labelledby="ticker-title" data-issue-ticker>
       <div class="ticker-top"><h2 id="ticker-title">On the radar</h2><p>Issues and useful sources · checked '''+e(d['checked'])+''' · <a href="content/home-ticker.json">Source notes</a></p><button type="button" data-ticker-toggle aria-pressed="false" hidden>Pause ticker</button></div>
