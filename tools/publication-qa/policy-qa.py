@@ -38,7 +38,8 @@ for width in (1440,390):
   assert not result['overflow'] and result['footerAligned'],[name,width,result]
   runs.append({'page':name,'width':width,**result})
   if name in ('web3-sensorium.html','twinkle.html','ai-copyright.html'):
-   c.evaluate("document.querySelector('#seeds, #missing-middle, #room').scrollIntoView()")
+   c.evaluate("document.documentElement.style.scrollBehavior='auto'; document.querySelector('#seeds, #missing-middle, #room').scrollIntoView({behavior:'instant'})")
+   c.wait("Math.abs(document.querySelector('#seeds, #missing-middle, #room').getBoundingClientRect().top)<140")
    shot=c.call('Page.captureScreenshot',{'format':'png'})['data']
    (R/'tools/publication-qa'/f'{Path(name).stem}-{width}.png').write_bytes(base64.b64decode(shot))
 (R/'tools/publication-qa/policy-report.json').write_text(json.dumps({'checked':'2026-10-03','linkErrors':errors,'browserRuns':runs},indent=2)+'\n',encoding='utf-8')
