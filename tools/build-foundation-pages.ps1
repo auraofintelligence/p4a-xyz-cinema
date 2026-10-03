@@ -284,3 +284,5 @@ foreach ($page in $pages) {
 }
 
 Write-Host "Generated $($pages.Count) foundation pages."
+python (Join-Path $PSScriptRoot 'twinkle_seed_context.py')
+if ($LASTEXITCODE -ne 0) { throw 'Twinkle seed context publishing failed.' }
