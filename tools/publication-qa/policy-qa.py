@@ -37,9 +37,11 @@ for width in (1440,390):
   result=c.evaluate("(()=>{let g=[...document.querySelector('.footer-index').children];let y=g.map(e=>e.getBoundingClientRect().top);return {overflow:document.documentElement.scrollWidth>innerWidth,footerAligned:innerWidth<500||Math.max(...y)-Math.min(...y)<2,h1:document.querySelector('h1').textContent}})()")
   assert not result['overflow'] and result['footerAligned'],[name,width,result]
   runs.append({'page':name,'width':width,**result})
-  if name in ('web3-sensorium.html','twinkle.html','ai-copyright.html'):
-   c.evaluate("document.documentElement.style.scrollBehavior='auto'; document.querySelector('#seeds, #missing-middle, #room').scrollIntoView({behavior:'instant'})")
-   c.wait("Math.abs(document.querySelector('#seeds, #missing-middle, #room').getBoundingClientRect().top)<140")
+  if len(runs)%10==0:print('Checked',len(runs),'render cases',flush=True)
+  if name in ('web3-sensorium.html','twinkle.html','ai-copyright.html','tobacco.html','marriage-divorce.html','restricted-plants.html'):
+   c.evaluate("document.documentElement.style.scrollBehavior='auto'; (document.querySelector('#missing-middle')||document.querySelector('#seeds')||document.querySelector('#room')).scrollIntoView({behavior:'instant'})")
+   c.wait("Math.abs((document.querySelector('#missing-middle')||document.querySelector('#seeds')||document.querySelector('#room')).getBoundingClientRect().top)<140")
+   c.evaluate("new Promise(resolve=>setTimeout(resolve,1200))")
    shot=c.call('Page.captureScreenshot',{'format':'png'})['data']
    (R/'tools/publication-qa'/f'{Path(name).stem}-{width}.png').write_bytes(base64.b64decode(shot))
 (R/'tools/publication-qa/policy-report.json').write_text(json.dumps({'checked':'2026-10-03','linkErrors':errors,'browserRuns':runs},indent=2)+'\n',encoding='utf-8')
