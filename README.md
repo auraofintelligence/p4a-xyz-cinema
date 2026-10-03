@@ -142,6 +142,16 @@ Built on Minjerribah by Luke × Claude.
 [Source repository](https://github.com/auraofintelligence/mutual-futures) · [Project connections and sources](https://auraofintelligence.github.io/mutual-futures/sources.html)
 
 
+## October 2026 Twinkles and public rooms
+
+The workbench now has 46 Twinkles. `content/public-topic-inventory.json` maps Luke's 24-topic expansion to its actual Twinkle and deeper room, alongside the previously approved AI copyright, broader mental health and Sensorium work. The original 22 Twinkles and their media remain; new topics extend the sequence. Migration equations, International wars and Security fallacies are distinct rooms. Marriage and divorce is one doorway into Global Group Marriages and U.N. of Love. Tobacco tax and Prohibited plants are separate.
+
+Reviewed page HTML is authoritative in `content/rooms/`. Publish it with `python tools/build-policy-rooms.py`; optional stem arguments limit the run. These sources preserve each existing room's artwork, media and chrome. When refreshing connected projects, run `python tools/build-connected-projects.py` first, then publish rooms: that generator updates the canonical room source where present. Do not rerun the one-time `upgrade-sensorium.py`, `expand-policy-rooms.py`, `polish-twinkle-batch.py`, `expand-public-topics.py` or `finish-topic-order.py` migrations for routine updates.
+
+`content/twinkle-topic-icons.json` records the topic icon mapping. Feather 4.29.2 icons are locally served under `assets/topic-icons/`, with the upstream MIT licence. Games uses a five-ring CSS cue. Icon and number share one row, and every card retains its text and keyboard link. New adult mental-health research and prohibited-plant topics sit together away from child/youth entries; the first 23 original ticker labels retain their order.
+
+Validation: `python tools/publication-qa/policy-qa.py` uses the repository's isolated CDP browser on port 9227 for desktop/mobile renders, local links, anchors and external-link targets. `python tools/publication-qa/topic-integrity.py` checks the topic inventory, sequence, icons, ticker and preserved media. Reports and selected screenshots live under `tools/publication-qa/`. This is local generation and QA, not a deployment.
+
 ## Homepage issue ticker
 
 `content/home-ticker.json` contains dated issue headlines, jurisdiction labels, primary sources and editorial limits. Run `python tools/build-home-ticker.py` after a reviewed refresh. The ticker pauses on hover and keyboard focus, offers pause/play and touch-friendly links, respects reduced motion, and excludes animation clones from keyboard navigation. Prior topics are archived under `content/archive/`. It is not an automated breaking-news feed.

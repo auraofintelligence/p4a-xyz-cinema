@@ -15,7 +15,8 @@ for project in data['projects']:
     url = html.escape(project['links'][0], quote=True)
     cards.append(f'<article class="official-link-card"><h3>{title}</h3><p>{description}</p><div class="official-link-actions"><a href="{url}" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>')
     for page in project.get('contextPages', []):
-        path = ROOT / 'pages' / page
+        source = ROOT / 'content/rooms' / page
+        path = source if source.exists() else ROOT / 'pages' / page
         text = path.read_text(encoding='utf-8')
         key = project['links'][0].rstrip('/').rsplit('/', 1)[-1]
         start, end = f'<!-- connected:{key} -->', f'<!-- /connected:{key} -->'
@@ -27,7 +28,8 @@ for project in data['projects']:
             if start not in text:
                 text = text.replace('</main>', '<section class="section"><div class="page-copy">' + panel + '</div></section>\n</main>', 1)
         path.write_text(text, encoding='utf-8')
-path = ROOT / 'pages/site-map.html'
+source = ROOT / 'content/rooms/site-map.html'
+path = source if source.exists() else ROOT / 'pages/site-map.html'
 text = path.read_text(encoding='utf-8')
 start, end = '<!-- reviewed-projects:start -->', '<!-- reviewed-projects:end -->'
 block = start + '\n' + '\n'.join(cards) + '\n' + end
