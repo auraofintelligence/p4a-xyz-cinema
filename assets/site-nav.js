@@ -100,7 +100,8 @@
         { href: 'pages/twinkle-mental-health.html', title: 'Twinkle 44: Mental health', note: 'Evidence, options and a deeper policy room.' },
         { href: 'pages/twinkle-psychedelic-mental-health.html', title: "Twinkle 45: Psychedelic care", note: 'A public question with policy follow-through.' },
         { href: 'pages/twinkle-restricted-plants.html', title: "Twinkle 46: Prohibited plants", note: 'A public question with policy follow-through.' },
-        { href: 'pages/twinkle-super-investments.html', title: 'Twinkle 47: Super investments', note: 'My super. What is it buying?' }
+        { href: 'pages/twinkle-super-investments.html', title: 'Twinkle 47: Super investments', note: 'My super. What is it buying?' },
+        { href: 'pages/twinkle-political-lies.html', title: 'Twinkle 48: Political lies', note: 'Lying, but authorised.' }
       ]
     },
     {

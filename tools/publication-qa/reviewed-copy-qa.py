@@ -9,7 +9,8 @@ records=json.loads((R/'content/twinkle-reviewed-copy.json').read_text(encoding='
 seeds=json.loads((R/'content/twinkle-earlier-seeds.json').read_text(encoding='utf-8'))
 hub=(R/'pages/twinkle.html').read_text(encoding='utf-8')
 cards=dict(re.findall(r'<a class="twinkle-card" href="([^"]+)">(.*?)</a>',hub,re.S))
-assert len(records)==len(cards)==47
+assert len(records)==len(cards)==48
+assert records[:47]==json.loads(subprocess.check_output(['git','show','9c5c148:content/twinkle-reviewed-copy.json'],cwd=R).decode('utf-8'))
 for record in records:
  filename='twinkle-'+record['slug']+'.html'
  page=(R/'pages'/filename).read_text(encoding='utf-8')
@@ -30,10 +31,12 @@ for seed in seeds:
  room=(R/'pages'/seed['destination']).read_text(encoding='utf-8')
  assert seed['html'] in room and seed['hero'] in room,seed['slug']
  assert room.count('<!-- earlier-twinkle-seeds:start -->')==1,seed['destination']
-for name in ['content/home-ticker.json','assets/homepage-ticker.css','assets/homepage-ticker.js','index.html']:
+for name in ['assets/homepage-ticker.css','assets/homepage-ticker.js']:
  assert (R/name).read_text(encoding='utf-8')==before(name),name
 assert 'The fix gets said' not in hub
-assert 'Forty-seven Twinkles' in hub and 'Forty-three more connections' in hub
-report={'baseline':BASE,'approvedCopyEntries':47,'exactCardHeroSeedAndMetadataMatches':47,'originalAuthoredSeedsPreservedInDeeperRooms':22,'allTickerLabelsAndAppearanceUnchanged':True,'copyDeviations':[]}
+old_ticker=json.loads(before('content/home-ticker.json'))['items'];ticker=json.loads((R/'content/home-ticker.json').read_text(encoding='utf-8'))['items']
+assert ticker[:len(old_ticker)]==old_ticker and len(ticker)==len(old_ticker)+1
+assert 'Forty-eight Twinkles' in hub and 'Forty-four more connections' in hub
+report={'baseline':BASE,'approvedCopyEntries':48,'exactCardHeroSeedAndMetadataMatches':48,'previous47CopyUnchanged':True,'originalAuthoredSeedsPreservedInDeeperRooms':22,'previousTickerLabelsAndAppearanceUnchanged':True,'copyDeviations':[]}
 (R/'tools/publication-qa/reviewed-copy-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
 print('PASS',json.dumps(report))

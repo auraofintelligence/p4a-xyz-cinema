@@ -29,7 +29,8 @@ for heading in ['New Twinkle doors and policy rooms','More public questions','Mo
  s=re.sub(r'<section class="section"><div class="page-copy"><div class="feature-panel"><h2>'+heading+r'</h2>.*?</section>','',s,flags=re.S)
 labels={x['href'].removeprefix('pages/twinkle-').removesuffix('.html'):x['headline'] for x in json.loads((R/'content/home-ticker.json').read_text(encoding='utf-8'))['items']}
 body='<section class="section"><div class="page-copy"><div class="feature-panel"><h2>More Twinkle doors and public rooms</h2><div class="source-links">'
-for n,slug in enumerate(new,23):body+=f'<a href="twinkle-{slug}.html">Twinkle {n:02d}: {labels[slug]}</a><a href="{slug}.html">{labels[slug]}: explore the room</a>'
+destinations={x['twinkle'].removeprefix('pages/twinkle-').removesuffix('.html'):x['room'].removeprefix('pages/') for x in inv.get('followupTopics',[])}
+for n,slug in enumerate(new,23):body+=f'<a href="twinkle-{slug}.html">Twinkle {n:02d}: {labels[slug]}</a><a href="{destinations.get(slug,slug+".html")}">{labels[slug]}: explore the room</a>'
 body+='<a href="family-violence.html">Violence against women: explore the room</a><a href="price-tax.html">Alcohol: price and tax</a></div></div></div></section>'
 s=s.replace('</main>',body+'</main>');f.write_text(s,encoding='utf-8')
 print('Shared index and sitemap follow the reviewed topic order.')
