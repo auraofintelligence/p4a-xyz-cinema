@@ -149,6 +149,7 @@
         { href: 'pages/international-wars.html', title: "International wars", note: 'Evidence, choices and participation.' },
         { href: 'pages/security-fallacies.html', title: "Security fallacies", note: 'Evidence, choices and participation.' },
         { href: 'pages/ancient-aliens.html', title: 'Ancient aliens', note: 'Public choices and participation.' },
+        { href: 'pages/family-violence.html', title: 'Violence against women', note: 'Safety, housing, prevention and recovery.' },
         { href: 'pages/mental-health.html', title: 'Mental health', note: 'Public choices and participation.' },
         { href: 'pages/psychedelic-mental-health.html', title: "Psychedelic care", note: 'Evidence, choices and participation.' },
         { href: 'pages/restricted-plants.html', title: "Prohibited plants", note: 'Evidence, choices and participation.' }
