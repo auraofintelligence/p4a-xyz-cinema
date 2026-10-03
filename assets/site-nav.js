@@ -99,7 +99,8 @@
         { href: 'pages/twinkle-ancient-aliens.html', title: 'Twinkle 43: Ancient aliens', note: 'Evidence, options and a deeper policy room.' },
         { href: 'pages/twinkle-mental-health.html', title: 'Twinkle 44: Mental health', note: 'Evidence, options and a deeper policy room.' },
         { href: 'pages/twinkle-psychedelic-mental-health.html', title: "Twinkle 45: Psychedelic care", note: 'A public question with policy follow-through.' },
-        { href: 'pages/twinkle-restricted-plants.html', title: "Twinkle 46: Prohibited plants", note: 'A public question with policy follow-through.' }
+        { href: 'pages/twinkle-restricted-plants.html', title: "Twinkle 46: Prohibited plants", note: 'A public question with policy follow-through.' },
+        { href: 'pages/twinkle-super-investments.html', title: 'Twinkle 47: Super investments', note: 'My super. What is it buying?' }
       ]
     },
     {
@@ -128,6 +129,7 @@
         { href: 'pages/civic-surges.html', title: 'Civic surges', note: 'Volunteer energy and practical mobilisation.' },
         { href: 'pages/web3-sensorium.html', title: 'Web3 sensorium', note: 'Open data, digital twins, human-reviewed simulation.' },
         { href: 'pages/cyber-republic.html', title: 'Referendum rehearsal', note: 'A national simulator fed by local proof.' },
+        { href: 'pages/family-violence.html', title: 'Violence against women', note: 'Safety, housing, prevention and recovery.' },
         { href: 'pages/ai-copyright.html', title: 'AI copyright', note: 'Public choices and participation.' },
         { href: 'pages/child-safety.html', title: 'Child safety', note: 'Public choices and participation.' },
         { href: 'pages/online-safety.html', title: "Online safety", note: 'Evidence, choices and participation.' },
@@ -149,10 +151,10 @@
         { href: 'pages/international-wars.html', title: "International wars", note: 'Evidence, choices and participation.' },
         { href: 'pages/security-fallacies.html', title: "Security fallacies", note: 'Evidence, choices and participation.' },
         { href: 'pages/ancient-aliens.html', title: 'Ancient aliens', note: 'Public choices and participation.' },
-        { href: 'pages/family-violence.html', title: 'Violence against women', note: 'Safety, housing, prevention and recovery.' },
         { href: 'pages/mental-health.html', title: 'Mental health', note: 'Public choices and participation.' },
         { href: 'pages/psychedelic-mental-health.html', title: "Psychedelic care", note: 'Evidence, choices and participation.' },
-        { href: 'pages/restricted-plants.html', title: "Prohibited plants", note: 'Evidence, choices and participation.' }
+        { href: 'pages/restricted-plants.html', title: "Prohibited plants", note: 'Evidence, choices and participation.' },
+        { href: 'pages/super-investments.html', title: 'Super investments', note: 'Holdings, fees, screens and member control.' }
       ]
     },
     {
