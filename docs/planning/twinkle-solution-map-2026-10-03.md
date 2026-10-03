@@ -43,60 +43,60 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 ## All 48 doorways
 
-| # | Gripe headline | Current landing room |
+| # | Topic and comic headline | Current landing room |
 |---|---|---|
-| 01 | [At this rate, I own a lane.](../../pages/twinkle-tolls.html) | [public-assets](../../pages/public-assets.html) |
-| 02 | [Two bags. One payslip.](../../pages/twinkle-food.html) | [food-security](../../pages/food-security.html) |
-| 03 | [Covered. Except for that.](../../pages/twinkle-insurance.html) | [community-insurance](../../pages/community-insurance.html) |
-| 04 | [Train your own replacement.](../../pages/twinkle-workforce.html) | [workforce-transition](../../pages/workforce-transition.html) |
-| 05 | [Rent went up. He painted one wall.](../../pages/twinkle-housing.html) | [housing-simulations](../../pages/housing-simulations.html) |
-| 06 | [Opened the power bill standing up. Mistake.](../../pages/twinkle-power.html) | [public-assets](../../pages/public-assets.html) |
-| 07 | [Doctor says less stress. How much is that?](../../pages/twinkle-health.html) | [aura-clinical-path](../../pages/aura-clinical-path.html) |
-| 08 | [Stop asking why she didn't leave.](../../pages/twinkle-family-violence.html) | [family-violence](../../pages/family-violence.html) |
-| 09 | [Daycare's a second mortgage.](../../pages/twinkle-childcare.html) | [fair-go](../../pages/fair-go.html) |
-| 10 | [Beer tax froze. Did your schooner?](../../pages/twinkle-beer-tax.html) | [price-tax](../../pages/price-tax.html) |
-| 11 | [Big shed. Very clever light switch.](../../pages/twinkle-datacentres.html) | [web3-sensorium](../../pages/web3-sensorium.html) |
-| 12 | [My licence has frequent flyer points.](../../pages/twinkle-breaches.html) | [sovereignty-stack](../../pages/sovereignty-stack.html) |
-| 13 | [Dig it up. Buy the megaphone.](../../pages/twinkle-resources.html) | [public-assets](../../pages/public-assets.html) |
-| 14 | [Four bars of 5G. Zero for Triple Zero.](../../pages/twinkle-triple-zero.html) | [sovereignty-stack](../../pages/sovereignty-stack.html) |
-| 15 | [Subs by the 2040s. GP by Thursday week.](../../pages/twinkle-aukus.html) | [civic-ledger](../../pages/civic-ledger.html) |
-| 16 | [Friday: parliament. Monday: gas company.](../../pages/twinkle-revolving-door.html) | [civic-ledger](../../pages/civic-ledger.html) |
-| 17 | [Who paid for that ad?](../../pages/twinkle-donations.html) | [civic-ledger](../../pages/civic-ledger.html) |
-| 18 | [Gold in changing the plans.](../../pages/twinkle-olympics.html) | [civic-surges](../../pages/civic-surges.html) |
-| 19 | [Funny where the paperwork starts.](../../pages/twinkle-treaty.html) | [treaty-atlas](../../pages/treaty-atlas.html) |
-| 20 | [Aliens? We'll take that on notice.](../../pages/twinkle-uap.html) | [truth-engine](../../pages/truth-engine.html) |
-| 21 | [Third hundred-year flood this decade.](../../pages/twinkle-deep-time.html) | [community-insurance](../../pages/community-insurance.html) |
-| 22 | [The tour didn't break him. The form did.](../../pages/twinkle-ptsd.html) | [aura-clinical-path](../../pages/aura-clinical-path.html) |
-| 23 | [Mine was free. Yours is licensed.](../../pages/twinkle-ai-copyright.html) | [ai-copyright](../../pages/ai-copyright.html) |
-| 24 | [A chatbot shouldn't need a babysitter.](../../pages/twinkle-child-safety.html) | [child-safety](../../pages/child-safety.html) |
-| 25 | [Copyright gets a bodyguard.](../../pages/twinkle-online-safety.html) | [online-safety](../../pages/online-safety.html) |
-| 26 | [Full-price equality.](../../pages/twinkle-gender-pay-gap.html) | [gender-pay-gap](../../pages/gender-pay-gap.html) |
-| 27 | [Another report. How is the gap?](../../pages/twinkle-closing-the-gap.html) | [closing-the-gap](../../pages/closing-the-gap.html) |
-| 28 | [Tough on crime. Handy for ads.](../../pages/twinkle-youth-crime.html) | [youth-crime](../../pages/youth-crime.html) |
-| 29 | [We'd love a baby.](../../pages/twinkle-family-choices.html) | [family-choices](../../pages/family-choices.html) |
-| 30 | [Till fees do us part.](../../pages/twinkle-marriage-divorce.html) | [marriage-divorce](../../pages/marriage-divorce.html) |
-| 31 | [Same broke. Different decade.](../../pages/twinkle-super-housing.html) | [super-housing](../../pages/super-housing.html) |
-| 32 | [The house got the pay rise.](../../pages/twinkle-wealth-inequality.html) | [wealth-inequality](../../pages/wealth-inequality.html) |
-| 33 | [Big revenue. Pay tax.](../../pages/twinkle-multinational-tax.html) | [multinational-tax](../../pages/multinational-tax.html) |
-| 34 | [The wrong people got supported.](../../pages/twinkle-ndis-scams.html) | [ndis-scams](../../pages/ndis-scams.html) |
-| 35 | [Sounds just like Mum.](../../pages/twinkle-ai-scams.html) | [ai-scams](../../pages/ai-scams.html) |
-| 36 | [Lovely visit. Never happened.](../../pages/twinkle-aged-care-scams.html) | [aged-care-scams](../../pages/aged-care-scams.html) |
-| 37 | [Any chance of some footy?](../../pages/twinkle-gambling-harm.html) | [gambling-harm](../../pages/gambling-harm.html) |
-| 38 | [Tax on the tax. Nice touch.](../../pages/twinkle-fuel.html) | [fuel](../../pages/fuel.html) |
-| 39 | [For my own good. At my own expense.](../../pages/twinkle-tobacco.html) | [tobacco](../../pages/tobacco.html) |
-| 40 | [Three plans. Never met.](../../pages/twinkle-migration-equations.html) | [migration-equations](../../pages/migration-equations.html) |
-| 41 | [Funny who never goes.](../../pages/twinkle-international-wars.html) | [international-wars](../../pages/international-wars.html) |
-| 42 | [Billions later, 'trust us'.](../../pages/twinkle-security-fallacies.html) | [security-fallacies](../../pages/security-fallacies.html) |
-| 43 | [Depends which bloke in the sky.](../../pages/twinkle-ancient-aliens.html) | [ancient-aliens](../../pages/ancient-aliens.html) |
-| 44 | [Very aware. Still waiting.](../../pages/twinkle-mental-health.html) | [mental-health](../../pages/mental-health.html) |
-| 45 | [God had better chip in.](../../pages/twinkle-psychedelic-mental-health.html) | [psychedelic-mental-health](../../pages/psychedelic-mental-health.html) |
-| 46 | [Medicine, until I grow it.](../../pages/twinkle-restricted-plants.html) | [restricted-plants](../../pages/restricted-plants.html) |
-| 47 | [My super. What the hell's it buying?](../../pages/twinkle-super-investments.html) | [super-investments](../../pages/super-investments.html) |
-| 48 | [Lying, but authorised.](../../pages/twinkle-political-lies.html) | [truth-engine](../../pages/truth-engine.html) |
+| 01 | **Public assets** — [At this rate, I own a lane.](../../pages/twinkle-tolls.html) | [public-assets](../../pages/public-assets.html) |
+| 02 | **Food security** — [Two bags. One payslip.](../../pages/twinkle-food.html) | [food-security](../../pages/food-security.html) |
+| 03 | **Risk and mutual care** — [Covered. Except for that.](../../pages/twinkle-insurance.html) | [community-insurance](../../pages/community-insurance.html) |
+| 04 | **Workforce transition** — [Train your own replacement.](../../pages/twinkle-workforce.html) | [workforce-transition](../../pages/workforce-transition.html) |
+| 05 | **Housing** — [Rent went up. He painted one wall.](../../pages/twinkle-housing.html) | [housing-simulations](../../pages/housing-simulations.html) |
+| 06 | **Power bills** — [Opened the power bill standing up. Mistake.](../../pages/twinkle-power.html) | [public-assets](../../pages/public-assets.html) |
+| 07 | **Health** — [Doctor says less stress. How much is that?](../../pages/twinkle-health.html) | [aura-clinical-path](../../pages/aura-clinical-path.html) |
+| 08 | **Family violence** — [Stop asking why she didn't leave.](../../pages/twinkle-family-violence.html) | [family-violence](../../pages/family-violence.html) |
+| 09 | **Childcare** — [Daycare's a second mortgage.](../../pages/twinkle-childcare.html) | [fair-go](../../pages/fair-go.html) |
+| 10 | **Beer tax** — [Beer tax froze. Did your schooner?](../../pages/twinkle-beer-tax.html) | [price-tax](../../pages/price-tax.html) |
+| 11 | **Data centres** — [Big shed. Very clever light switch.](../../pages/twinkle-datacentres.html) | [web3-sensorium](../../pages/web3-sensorium.html) |
+| 12 | **Data breaches** — [My licence has frequent flyer points.](../../pages/twinkle-breaches.html) | [sovereignty-stack](../../pages/sovereignty-stack.html) |
+| 13 | **Resources** — [Dig it up. Buy the megaphone.](../../pages/twinkle-resources.html) | [public-assets](../../pages/public-assets.html) |
+| 14 | **Triple Zero** — [Four bars of 5G. Zero for Triple Zero.](../../pages/twinkle-triple-zero.html) | [sovereignty-stack](../../pages/sovereignty-stack.html) |
+| 15 | **AUKUS / defence spending** — [Subs by the 2040s. GP by Thursday week.](../../pages/twinkle-aukus.html) | [civic-ledger](../../pages/civic-ledger.html) |
+| 16 | **Lobbying and conflicts** — [Friday: parliament. Monday: gas company.](../../pages/twinkle-revolving-door.html) | [civic-ledger](../../pages/civic-ledger.html) |
+| 17 | **Donations** — [Who paid for that ad?](../../pages/twinkle-donations.html) | [civic-ledger](../../pages/civic-ledger.html) |
+| 18 | **Olympics** — [Gold in changing the plans.](../../pages/twinkle-olympics.html) | [civic-surges](../../pages/civic-surges.html) |
+| 19 | **First Nations treaties** — [Funny where the paperwork starts.](../../pages/twinkle-treaty.html) | [treaty-atlas](../../pages/treaty-atlas.html) |
+| 20 | **UAP disclosure** — [Aliens? We'll take that on notice.](../../pages/twinkle-uap.html) | [truth-engine](../../pages/truth-engine.html) |
+| 21 | **Climate change** — [Third hundred-year flood this decade.](../../pages/twinkle-deep-time.html) | [community-insurance](../../pages/community-insurance.html) |
+| 22 | **PTSD** — [The tour didn't break him. The form did.](../../pages/twinkle-ptsd.html) | [aura-clinical-path](../../pages/aura-clinical-path.html) |
+| 23 | **AI copyright** — [Mine was free. Yours is licensed.](../../pages/twinkle-ai-copyright.html) | [ai-copyright](../../pages/ai-copyright.html) |
+| 24 | **Child safety** — [A chatbot shouldn't need a babysitter.](../../pages/twinkle-child-safety.html) | [child-safety](../../pages/child-safety.html) |
+| 25 | **Online safety** — [Copyright gets a bodyguard.](../../pages/twinkle-online-safety.html) | [online-safety](../../pages/online-safety.html) |
+| 26 | **Gender pay gap** — [Full-price equality.](../../pages/twinkle-gender-pay-gap.html) | [gender-pay-gap](../../pages/gender-pay-gap.html) |
+| 27 | **Closing the Gap** — [Another report. How is the gap?](../../pages/twinkle-closing-the-gap.html) | [closing-the-gap](../../pages/closing-the-gap.html) |
+| 28 | **Youth crime** — [Tough on crime. Handy for ads.](../../pages/twinkle-youth-crime.html) | [youth-crime](../../pages/youth-crime.html) |
+| 29 | **Wanted families** — [We'd love a baby.](../../pages/twinkle-family-choices.html) | [family-choices](../../pages/family-choices.html) |
+| 30 | **Marriage & divorce** — [Till fees do us part.](../../pages/twinkle-marriage-divorce.html) | [marriage-divorce](../../pages/marriage-divorce.html) |
+| 31 | **Super for housing** — [Same broke. Different decade.](../../pages/twinkle-super-housing.html) | [super-housing](../../pages/super-housing.html) |
+| 32 | **Wealth inequality** — [The house got the pay rise.](../../pages/twinkle-wealth-inequality.html) | [wealth-inequality](../../pages/wealth-inequality.html) |
+| 33 | **Multinational tax** — [Big revenue. Pay tax.](../../pages/twinkle-multinational-tax.html) | [multinational-tax](../../pages/multinational-tax.html) |
+| 34 | **NDIS scams** — [The wrong people got supported.](../../pages/twinkle-ndis-scams.html) | [ndis-scams](../../pages/ndis-scams.html) |
+| 35 | **AI scams** — [Sounds just like Mum.](../../pages/twinkle-ai-scams.html) | [ai-scams](../../pages/ai-scams.html) |
+| 36 | **Aged-care scams** — [Lovely visit. Never happened.](../../pages/twinkle-aged-care-scams.html) | [aged-care-scams](../../pages/aged-care-scams.html) |
+| 37 | **Gambling harm** — [Any chance of some footy?](../../pages/twinkle-gambling-harm.html) | [gambling-harm](../../pages/gambling-harm.html) |
+| 38 | **Fuel tax** — [Tax on the tax. Nice touch.](../../pages/twinkle-fuel.html) | [fuel](../../pages/fuel.html) |
+| 39 | **Tobacco tax** — [For my own good. At my own expense.](../../pages/twinkle-tobacco.html) | [tobacco](../../pages/tobacco.html) |
+| 40 | **Migration equations** — [Three plans. Never met.](../../pages/twinkle-migration-equations.html) | [migration-equations](../../pages/migration-equations.html) |
+| 41 | **International wars** — [Funny who never goes.](../../pages/twinkle-international-wars.html) | [international-wars](../../pages/international-wars.html) |
+| 42 | **Security fallacies** — [Billions later, 'trust us'.](../../pages/twinkle-security-fallacies.html) | [security-fallacies](../../pages/security-fallacies.html) |
+| 43 | **Ancient aliens** — [Depends which bloke in the sky.](../../pages/twinkle-ancient-aliens.html) | [ancient-aliens](../../pages/ancient-aliens.html) |
+| 44 | **Mental health** — [Very aware. Still waiting.](../../pages/twinkle-mental-health.html) | [mental-health](../../pages/mental-health.html) |
+| 45 | **Psychedelic care** — [God had better chip in.](../../pages/twinkle-psychedelic-mental-health.html) | [psychedelic-mental-health](../../pages/psychedelic-mental-health.html) |
+| 46 | **Prohibited plants** — [Medicine, until I grow it.](../../pages/twinkle-restricted-plants.html) | [restricted-plants](../../pages/restricted-plants.html) |
+| 47 | **Super investments** — [My super. What the hell's it buying?](../../pages/twinkle-super-investments.html) | [super-investments](../../pages/super-investments.html) |
+| 48 | **Political lies** — [Lying, but authorised.](../../pages/twinkle-political-lies.html) | [truth-engine](../../pages/truth-engine.html) |
 
 ## The map, one gripe at a time
 
-### 01. At this rate, I own a lane.
+### 01. Public assets — At this rate, I own a lane.
 
 > I've paid so much in tolls the tag should open the bloody boardroom.
 
@@ -124,7 +124,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Local government funding inquiry submission](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/local-government-funding-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
-### 02. Two bags. One payslip.
+### 02. Food security — Two bags. One payslip.
 
 > The self-checkout asked if I'd brought my own bags; at these prices I thought I'd bought the shop.
 
@@ -152,7 +152,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Straddie Shared Table Initiative](https://auraofintelligence.github.io/shared-table-initiative/) ([repo](https://github.com/auraofintelligence/shared-table-initiative)); [AI Kitchen Food Waste Solution](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/AI%20Kitchen%20Food%20Waste%20Solution.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Integrated Food System AI Expansion](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/Integrated%20Food%20System%20AI%20Expansion.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Moreton Bay Autonomous Mobility](https://auraofintelligence.github.io/moreton-bay-autonomous-mobility/) ([repo](https://github.com/auraofintelligence/moreton-bay-autonomous-mobility)); [C-Hour Food and Wellbeing](https://auraofintelligence.github.io/C-Hour-introduction/food-and-wellbeing.html) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [AI Kitchen Food Waste Solution original](https://github.com/auraofintelligence/C-Hour-introduction/blob/main/references/originals/AI_Kitchen_Food_Waste_Solution.md) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 03. Covered. Except for that.
+### 03. Risk and mutual care — Covered. Except for that.
 
 > My insurance covers everything except the thing that happened, which must be why they call it comprehensive.
 
@@ -180,7 +180,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Mutual Care and Self-Insurance](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/mutual-care.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 04. Train your own replacement.
+### 04. Workforce transition — Train your own replacement.
 
 > They want me to teach the AI my job before they make me redundant; do I have to organise my own farewell too?
 
@@ -208,7 +208,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)); [Mutual Futures capital calculator](https://auraofintelligence.github.io/mutual-futures/capital.html) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Mutual Futures succession](https://auraofintelligence.github.io/mutual-futures/succession.html) ([repo](https://github.com/auraofintelligence/mutual-futures)).
 
-### 05. Rent went up. He painted one wall.
+### 05. Housing — Rent went up. He painted one wall.
 
 > My landlord's calling it a renovation; I watched him do it with a sample pot.
 
@@ -236,7 +236,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Multi-site working document library](https://auraofintelligence.github.io/multi-site-Minjerribah-network/documents.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Straddie Capsule Surge Lab](https://auraofintelligence.github.io/straddie-capsule-surge-lab/) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [Minjerribah Living Twin](https://auraofintelligence.github.io/minjerribah-living-twin/) ([repo](https://github.com/auraofintelligence/minjerribah-living-twin)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 06. Opened the power bill standing up. Mistake.
+### 06. Power bills — Opened the power bill standing up. Mistake.
 
 > I'm saving power by sitting in the dark, which makes it harder to read the bill telling me I'm saving fuck-all.
 
@@ -264,7 +264,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Straddie Clean Energy Superpower](https://auraofintelligence.github.io/straddie-clean-energy-superpower/) ([repo](https://github.com/auraofintelligence/straddie-clean-energy-superpower)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) ([repo](https://github.com/auraofintelligence/aura-direct-hardware)).
 
-### 07. Doctor says less stress. How much is that?
+### 07. Health — Doctor says less stress. How much is that?
 
 > The GP said I need less stress, so I asked if they bulk-bill.
 
@@ -292,7 +292,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [A Clinical Research and Implementation Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/clinical-research-path-aura-of-dementia.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Aura Dementia](https://auraofintelligence.github.io/aura-dementia/) ([repo](https://github.com/auraofintelligence/aura-dementia)); [Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/) ([repo](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops)); [Project Aura Geode HBOT: cooperative rollout framework](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/health-tech-cooperative-business-plan.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Health Surge and Aura](https://auraofintelligence.github.io/straddie-capsule-surge-lab/health-surge.html) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [Aged Care and NDIS venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-aged-care-and-ndis.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)).
 
-### 08. Stop asking why she didn't leave.
+### 08. Family violence — Stop asking why she didn't leave.
 
 > A woman gets told to leave a violent man, then asked where she plans to live.
 
@@ -318,7 +318,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Women and children](https://auraofintelligence.github.io/multi-site-Minjerribah-network/women-children.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
-### 09. Daycare's a second mortgage.
+### 09. Childcare — Daycare's a second mortgage.
 
 > After childcare fees, I'm mainly going to work for the air-conditioning.
 
@@ -346,7 +346,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Current C-Hour mechanics](https://auraofintelligence.github.io/C-Hour-introduction/community-hours.html) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [C-Hour twelve-week pilot](https://auraofintelligence.github.io/C-Hour-introduction/pilot.html) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 10. Beer tax froze. Did your schooner?
+### 10. Beer tax — Beer tax froze. Did your schooner?
 
 > They froze the tax on draught beer and wanted a round of applause; I was hoping for a round I could afford.
 
@@ -374,7 +374,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
-### 11. Big shed. Very clever light switch.
+### 11. Data centres — Big shed. Very clever light switch.
 
 > They've built a giant data centre up the road so AI can tell me to switch the lights off to save power.
 
@@ -402,7 +402,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)); [Senate AI and data centres submission, 24 August 2026](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/senate-ai-and-data-centres-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Do Not Put All Our Eggs in One Basket](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/do-not-put-all-our-eggs-in-one-basket.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) ([repo](https://github.com/auraofintelligence/aura-direct-hardware)).
 
-### 12. My licence has frequent flyer points.
+### 12. Data breaches — My licence has frequent flyer points.
 
 > My licence has been leaked so often I'm waiting for the scammers to remind me when it expires.
 
@@ -430,7 +430,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Data sovereignty](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/data-sovereignty.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)); [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) ([repo](https://github.com/auraofintelligence/aura-direct-hardware)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [A Fair Go for the AI Age](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node/blob/main/supporting-documents/a-fair-go-for-the-ai-age.md) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
-### 13. Dig it up. Buy the megaphone.
+### 13. Resources — Dig it up. Buy the megaphone.
 
 > We dig up the country, a few blokes get rich, then they buy a newspaper to explain why we should be grateful.
 
@@ -458,7 +458,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Country deals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/country-deals.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Indigenous Sovereign Resilience](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/indigenous-deals-and-sovereign-wealth.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Straddie Sovereign Wealth Fund and Civilisation of Sand](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/straddie-sovereign-wealth-fund-civilisation-of-sand.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Mineral Moonshots](https://auraofintelligence.github.io/mineral-moonshots/) ([repo](https://github.com/auraofintelligence/mineral-moonshots)).
 
-### 14. Four bars of 5G. Zero for Triple Zero.
+### 14. Triple Zero — Four bars of 5G. Zero for Triple Zero.
 
 > My phone can stream a bloke falling off a roof in 4K, but I'd like it to call an ambulance if it's me.
 
@@ -486,7 +486,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Straddie Disaster Kiosks](https://auraofintelligence.github.io/straddie-disaster-kiosks/) ([repo](https://github.com/auraofintelligence/straddie-disaster-kiosks)); [Minjerribah Sovereign Mesh](https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/main/docs/Minjerribah_Sovereign_Mesh.pdf) ([repo](https://github.com/auraofintelligence/straddie-disaster-kiosks)); [Straddie Disaster Kiosk Pitch](https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/main/docs/Straddie_Disaster_Kiosk_Pitch.pdf) ([repo](https://github.com/auraofintelligence/straddie-disaster-kiosks)); [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
-### 15. Subs by the 2040s. GP by Thursday week.
+### 15. AUKUS / defence spending — Subs by the 2040s. GP by Thursday week.
 
 > We've ordered submarines decades ahead, but booking a GP for next Thursday is getting ambitious.
 
@@ -514,7 +514,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [AUKUS Public Inquiry submission, 24 August 2026](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aukus-public-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [AUKUS Space Gambit](https://auraofintelligence.github.io/aukus-space-gambit/) ([repo](https://github.com/auraofintelligence/aukus-space-gambit)); [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) ([repo](https://github.com/auraofintelligence/aura-direct-hardware)).
 
-### 16. Friday: parliament. Monday: gas company.
+### 16. Lobbying and conflicts — Friday: parliament. Monday: gas company.
 
 > The revolving door between politics and big business is moving so fast we could put a turbine on it.
 
@@ -542,7 +542,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
-### 17. Who paid for that ad?
+### 17. Donations — Who paid for that ad?
 
 > They tell me who authorised the election ad at auctioneer speed; whoever paid for it must be shy.
 
@@ -570,7 +570,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 18. Gold in changing the plans.
+### 18. Olympics — Gold in changing the plans.
 
 > Brisbane's warming up for the Olympics by doing laps of the stadium decision.
 
@@ -598,7 +598,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Queensland Olympic Earn-to-Heal pilot](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/queensland-olympic-earn-to-heal-pilot.pdf) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Oceania Health and AI Surge Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/oceania-health-and-ai-surge-plan.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Straddie Capsule Surge Lab](https://auraofintelligence.github.io/straddie-capsule-surge-lab/) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [P4A Oceania cinematic lab](https://auraofintelligence.github.io/p4a-oceania-cinema/) ([repo](https://github.com/auraofintelligence/p4a-oceania-cinema)).
 
-### 19. Funny where the paperwork starts.
+### 19. First Nations treaties — Funny where the paperwork starts.
 
 > We managed to claim a whole continent, but a national treaty with First Peoples is where the paperwork gets tricky.
 
@@ -624,7 +624,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Native Nations Sovereign Co-Evolution Lab](https://auraofintelligence.github.io/p4a-native-nations-cinema/) ([repo](https://github.com/auraofintelligence/p4a-native-nations-cinema)); [Country deals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/country-deals.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Indigenous Sovereign Resilience](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/indigenous-deals-and-sovereign-wealth.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
-### 20. Aliens? We'll take that on notice.
+### 20. UAP disclosure — Aliens? We'll take that on notice.
 
 > If a UFO landed in Canberra, they'd be halfway through denying it before anyone asked.
 
@@ -652,19 +652,21 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Cosmic Nexus](https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/) ([repo](https://github.com/auraofintelligence/strange-but-true-cosmic-nexus)); [Cosmic Nexus UAP, AI, AA, R&D](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/Cosmic%20Nexus%20UAP%2C%20AI%2C%20AA%2C%20R%26D.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Virtual Solar Swarm](https://auraofintelligence.github.io/virtual-solar-swarm/) ([repo](https://github.com/auraofintelligence/virtual-solar-swarm)).
 
-### 21. Third hundred-year flood this decade.
+### 21. Climate change — Third hundred-year flood this decade.
+
+**Topic: climate change.** Deep time uses flooding as an example of long-term climate risk and short political planning horizons. The approved headline and gripe remain unchanged.
 
 > I've had three hundred-year floods and one pay rise; something's wrong with the calendar.
 
 **Current room:** [community-insurance.html](../../pages/community-insurance.html).
 
-**Already there:** Risk and Mutual Care explains annual flood probability and compares adaptation, planning/relocation and financial risk sharing.
+**Already there:** Deep time concerns climate change and long planning horizons. Risk and Mutual Care currently develops flooding as one example through probability, adaptation and financial risk sharing.
 
-**Potential solutions:** Use local flood studies, prevention works, voluntary relocation, mutual reserves and resilience investment together.
+**Potential solutions:** Connect public climate-risk models, prevention and long-term resilience planning; retain the existing flood study, adaptation and mutual-care options as one worked example.
 
-**Gap:** No local catchment model or sample household/area scenario, despite the strong conceptual connection.
+**Gap:** The current landing material is narrower than the climate-change topic; it does not yet cover the full subject or offer a worked climate scenario.
 
-**Next work:** Attach a council flood study and dated scenarios; compare costs, displacement and residual risk with a local place pack.
+**Next work:** Correct the topic framing first, preserve the approved flood joke, and identify the wider climate-change follow-through needed before expanding the room.
 
 **Existing project/document connections:** [R2 — Moreton Bay Community Wealth and Mutuals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/); [R14 — Straddie Digital Twin Builders](https://auraofintelligence.github.io/straddie-digital-twin-builders/); [S2 — Luke Hayes: Local Government Funding submission 2](https://www.aph.gov.au/DocumentStore.ashx?id=b0bb44ad-3515-4c22-bdb7-d5db605f6e0a&subId=780115).
 
@@ -672,15 +674,17 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [External Moreton Bay example](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/); [Leaves P4A GitHub repo Open the source repo for the Moreton Bay wealth and mutuals site.](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals); [Bureau of Meteorology: flood information](https://www.bom.gov.au/water/floods/).
 
-**Additional authored work found across repositories:** Deep-time risk testing and observational capability sit alongside ordinary local resilience and community prevention.
+**Additional authored work found across repositories:** Deep time is the climate-change topic. Long-term risk, community prevention and observational capability connect to the current flood example.
 
-**Stage / remaining gap:** Micronova hypotheses and observed flood risks have different evidence levels and timescales. The current Deep time gripe remains a flood-risk doorway.
+**Stage / remaining gap:** The flood-focused material currently covers only part of the climate-change subject. Micronova hypotheses are a separate research connection, not a replacement climate explanation or the topic definition.
 
-**Refined next step:** Keep hazard families separate and show uncertainty, exposure, prevention value and resilient actions rather than blend them into one forecast.
+**Refined next step:** Restore the climate-change framing while retaining flooding as an example; keep distinct hazard families, evidence levels and timescales separate and identify the wider topic gap before any further room development.
 
 **Specific project and supporting-document links:** [Micronova and Excursions](https://auraofintelligence.github.io/micronova-and-excursions/) ([repo](https://github.com/auraofintelligence/micronova-and-excursions)); [Mutual Care and Self-Insurance](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/mutual-care.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Minjerribah Living Twin](https://auraofintelligence.github.io/minjerribah-living-twin/) ([repo](https://github.com/auraofintelligence/minjerribah-living-twin)); [Virtual Solar Swarm](https://auraofintelligence.github.io/virtual-solar-swarm/) ([repo](https://github.com/auraofintelligence/virtual-solar-swarm)).
 
-### 22. The tour didn't break him. The form did.
+### 22. PTSD — The tour didn't break him. The form did.
+
+**Topic: PTSD**, especially veterans and first responders. The earlier “quiet one” wording described the tone, not the subject.
 
 > He came home with PTSD and got sent back through the worst of it, one claim form at a time.
 
@@ -706,7 +710,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)); [A Clinical Research and Implementation Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/clinical-research-path-aura-of-dementia.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Health Surge and Aura](https://auraofintelligence.github.io/straddie-capsule-surge-lab/health-surge.html) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [Surf-side men’s alcohol and drug free camp](https://auraofintelligence.github.io/multi-site-Minjerribah-network/mens-recovery.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
-### 23. Mine was free. Yours is licensed.
+### 23. AI copyright — Mine was free. Yours is licensed.
 
 > My work is 'training data' when AI companies take it and 'intellectual property' when they sell it back.
 
@@ -734,7 +738,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Sovereign Music Australia](https://auraofintelligence.github.io/sovereign-music-australia/) ([repo](https://github.com/auraofintelligence/sovereign-music-australia)); [Rights Engine](https://auraofintelligence.github.io/sovereign-music-australia/rights.html) ([repo](https://github.com/auraofintelligence/sovereign-music-australia)); [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Do Not Put All Our Eggs in One Basket](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/do-not-put-all-our-eggs-in-one-basket.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [A Fair Go for the AI Age](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node/blob/main/supporting-documents/a-fair-go-for-the-ai-age.md) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
-### 24. A chatbot shouldn't need a babysitter.
+### 24. Child safety — A chatbot shouldn't need a babysitter.
 
 > The chatbot calls my kid its best mate; I'm the one getting asked to upgrade the friendship.
 
@@ -760,7 +764,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)).
 
-### 25. Copyright gets a bodyguard.
+### 25. Online safety — Copyright gets a bodyguard.
 
 > The platform can recognise three seconds of a song, but the bloke threatening a kid is somehow a complex case.
 
@@ -786,7 +790,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Data sovereignty](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/data-sovereignty.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
-### 26. Full-price equality.
+### 26. Gender pay gap — Full-price equality.
 
 > Women earn less than men on average, but somehow the landlord’s never heard of a gender rent gap.
 
@@ -814,7 +818,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Designing Equality](https://auraofintelligence.github.io/500-Queens-VC-2026/designing-equality.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [Current C-Hour mechanics](https://auraofintelligence.github.io/C-Hour-introduction/community-hours.html) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 27. Another report. How is the gap?
+### 27. Closing the Gap — Another report. How is the gap?
 
 > We've got enough reports on Indigenous disadvantage to build a bridge across the bloody gap.
 
@@ -842,7 +846,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Native Nations Sovereign Co-Evolution Lab](https://auraofintelligence.github.io/p4a-native-nations-cinema/) ([repo](https://github.com/auraofintelligence/p4a-native-nations-cinema)); [Country deals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/country-deals.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Indigenous Sovereign Resilience](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/indigenous-deals-and-sovereign-wealth.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
-### 28. Tough on crime. Handy for ads.
+### 28. Youth crime — Tough on crime. Handy for ads.
 
 > Some kid's nicked my car; now a politician's trying to nick the story for his campaign.
 
@@ -870,7 +874,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Community Club Builder: Sandy Sports](https://auraofintelligence.github.io/community-club-builder-sandy-sports/) ([repo](https://github.com/auraofintelligence/community-club-builder-sandy-sports)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
-### 29. We'd love a baby.
+### 29. Wanted families — We'd love a baby.
 
 > They keep asking why we're not having kids, like we're hoarding all these spare bedrooms and stable futures.
 
@@ -896,7 +900,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Global Group Marriages framework](https://auraofintelligence.github.io/global-group-marriages/framework.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Sovereignty and care](https://auraofintelligence.github.io/global-group-marriages/sovereignty-care.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)).
 
-### 30. Till fees do us part.
+### 30. Marriage & divorce — Till fees do us part.
 
 > We've agreed the marriage is over; the lawyers reckon it's still got a few good years in it.
 
@@ -922,7 +926,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [U.N. of Love](https://auraofintelligence.github.io/global-group-marriages/un-of-love.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Global Group Marriages framework](https://auraofintelligence.github.io/global-group-marriages/framework.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Sovereignty and care](https://auraofintelligence.github.io/global-group-marriages/sovereignty-care.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)).
 
-### 31. Same broke. Different decade.
+### 31. Super for housing — Same broke. Different decade.
 
 > The plan is to let me raid my super for a house, so now I can be broke at two different ages.
 
@@ -948,7 +952,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
-### 32. The house got the pay rise.
+### 32. Wealth inequality — The house got the pay rise.
 
 > My landlord's house made more than I did, and it spent the year sitting on its arse.
 
@@ -976,7 +980,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures capital calculator](https://auraofintelligence.github.io/mutual-futures/capital.html) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Mutual Futures succession](https://auraofintelligence.github.io/mutual-futures/succession.html) ([repo](https://github.com/auraofintelligence/mutual-futures)).
 
-### 33. Big revenue. Pay tax.
+### 33. Multinational tax — Big revenue. Pay tax.
 
 > A multinational can lose its profits somewhere offshore, but I'd better have a receipt for those work socks.
 
@@ -1004,7 +1008,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Local government funding inquiry submission](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/local-government-funding-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
-### 34. The wrong people got supported.
+### 34. NDIS scams — The wrong people got supported.
 
 > The NDIS scammers don't need support; they seem to be doing very well on mine.
 
@@ -1032,7 +1036,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [A Clinical Research and Implementation Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/clinical-research-path-aura-of-dementia.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Aura Aged Care](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aged-care-act-adaptation-health-tech-plan.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Aged Care and NDIS venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-aged-care-and-ndis.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)).
 
-### 35. Sounds just like Mum.
+### 35. AI scams — Sounds just like Mum.
 
 > They said AI would give us more time with our families; now it rings pretending to be one of them.
 
@@ -1060,7 +1064,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Data sovereignty](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/data-sovereignty.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [A Fair Go for the AI Age](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node/blob/main/supporting-documents/a-fair-go-for-the-ai-age.md) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
-### 36. Lovely visit. Never happened.
+### 36. Aged-care scams — Lovely visit. Never happened.
 
 > Mum's aged-care bill has a better social life than she does.
 
@@ -1088,7 +1092,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Aura Aged Care](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aged-care-act-adaptation-health-tech-plan.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Aura Dementia](https://auraofintelligence.github.io/aura-dementia/) ([repo](https://github.com/auraofintelligence/aura-dementia)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Aged care, longevity and rejuvenation research](https://auraofintelligence.github.io/multi-site-Minjerribah-network/ageing-longevity.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Aged Care and NDIS venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-aged-care-and-ndis.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)).
 
-### 37. Any chance of some footy?
+### 37. Gambling harm — Any chance of some footy?
 
 > I'm trying to watch the footy, but first six blokes need to tell me how to lose the grocery money responsibly.
 
@@ -1116,7 +1120,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
-### 38. Tax on the tax. Nice touch.
+### 38. Fuel tax — Tax on the tax. Nice touch.
 
 > I'm paying tax on the fuel tax while dodging potholes; at least one part of the road system is beautifully maintained.
 
@@ -1144,7 +1148,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Moreton Bay Autonomous Mobility](https://auraofintelligence.github.io/moreton-bay-autonomous-mobility/) ([repo](https://github.com/auraofintelligence/moreton-bay-autonomous-mobility)); [Straddie Shared Table Initiative](https://auraofintelligence.github.io/shared-table-initiative/) ([repo](https://github.com/auraofintelligence/shared-table-initiative)); [Straddie Clean Energy Superpower](https://auraofintelligence.github.io/straddie-clean-energy-superpower/) ([repo](https://github.com/auraofintelligence/straddie-clean-energy-superpower)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
-### 39. For my own good. At my own expense.
+### 39. Tobacco tax — For my own good. At my own expense.
 
 > The government is so worried about my smoking it's made itself the most expensive part of the packet.
 
@@ -1172,7 +1176,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/) ([repo](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops)).
 
-### 40. Three plans. Never met.
+### 40. Migration equations — Three plans. Never met.
 
 > We've got a migration target, a housing target and a transport plan; be nice if someone introduced them.
 
@@ -1200,7 +1204,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Minjerribah Living Twin](https://auraofintelligence.github.io/minjerribah-living-twin/) ([repo](https://github.com/auraofintelligence/minjerribah-living-twin)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Australian Visa and Activity Atlas](https://auraofintelligence.github.io/Australian-visa-activity-atlas/) ([repo](https://github.com/auraofintelligence/Australian-visa-activity-atlas)); [Fiji Australia Vuvale Union submission](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/fiji-australia-vuvale-union-submission.docx) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
-### 41. Funny who never goes.
+### 41. International wars — Funny who never goes.
 
 > The people most certain we need another war never seem to need a seat on the plane.
 
@@ -1228,7 +1232,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [AUKUS Public Inquiry submission, 24 August 2026](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aukus-public-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Ocean of Peace Alliance submission](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/ocean-of-peace-alliance-submission.docx) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [U.N. of Love](https://auraofintelligence.github.io/global-group-marriages/un-of-love.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)).
 
-### 42. Billions later, 'trust us'.
+### 42. Security fallacies — Billions later, 'trust us'.
 
 > I get a clearer explanation of what could go wrong when I hire a trailer than when we buy another national-security plan.
 
@@ -1256,7 +1260,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [AUKUS Public Inquiry submission, 24 August 2026](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aukus-public-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Do Not Put All Our Eggs in One Basket](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/do-not-put-all-our-eggs-in-one-basket.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)); [Straddie Disaster Kiosks](https://auraofintelligence.github.io/straddie-disaster-kiosks/) ([repo](https://github.com/auraofintelligence/straddie-disaster-kiosks)).
 
-### 43. Depends which bloke in the sky.
+### 43. Ancient aliens — Depends which bloke in the sky.
 
 > Tell people a bloke came down from the sky and it's religion; ask what he arrived in and suddenly you're the idiot.
 
@@ -1268,7 +1272,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Gap:** No named object dossier or reproducible model; museum search homepages are not evidence for a particular claim.
 
-**Next work:** Choose one documented object or text and compare predictions, dating, translations and techniques; keep mystery, religion, UAP and flood risk distinct.
+**Next work:** Choose one documented object or text and compare predictions, dating, translations and techniques; keep mystery, religion, UAP and climate change distinct.
 
 **Existing project/document connections:** [R15 — Strange But True Cosmic Nexus](https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/); [R16 — Strange But True Travel Oracle](https://auraofintelligence.github.io/strange-but-true-travel-oracle/); [R14 — Straddie Digital Twin Builders](https://auraofintelligence.github.io/straddie-digital-twin-builders/).
 
@@ -1284,7 +1288,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Cosmic Nexus](https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/) ([repo](https://github.com/auraofintelligence/strange-but-true-cosmic-nexus)); [Cosmic Nexus UAP, AI, AA, R&D](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/Cosmic%20Nexus%20UAP%2C%20AI%2C%20AA%2C%20R%26D.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Micronova and Excursions](https://auraofintelligence.github.io/micronova-and-excursions/) ([repo](https://github.com/auraofintelligence/micronova-and-excursions)).
 
-### 44. Very aware. Still waiting.
+### 44. Mental health — Very aware. Still waiting.
 
 > By the time I get a mental-health appointment, I'll have been through three awareness weeks.
 
@@ -1310,7 +1314,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)); [Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/) ([repo](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops)); [Community Club Builder: Sandy Sports](https://auraofintelligence.github.io/community-club-builder-sandy-sports/) ([repo](https://github.com/auraofintelligence/community-club-builder-sandy-sports)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Mental Health Support venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-mental-health-support.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)).
 
-### 45. God had better chip in.
+### 45. Psychedelic care — God had better chip in.
 
 > At the price of legal psychedelic therapy, I'd want to meet God and get him to chip in.
 
@@ -1336,7 +1340,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Consciousness Parlor](https://auraofintelligence.github.io/aura-ecosystem/consciousness-parlor.html) ([repo](https://github.com/auraofintelligence/aura-ecosystem)); [AURA Consciousness Parlor & GAJRA Earth Encampment blueprint](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/AURA%20Consciousness%20Parlor%20%26%20GAJRA%20Earth%20Encampment%20%E2%80%93%20Blueprint%20for%20a%20Global%20Consciousness%20Festival%20N.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/) ([repo](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
-### 46. Medicine, until I grow it.
+### 46. Prohibited plants — Medicine, until I grow it.
 
 > Some plants are medicine when a company grows them and evidence when I do.
 
@@ -1362,7 +1366,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Consciousness Parlor](https://auraofintelligence.github.io/aura-ecosystem/consciousness-parlor.html) ([repo](https://github.com/auraofintelligence/aura-ecosystem)); [Medicinal Plants and Spices venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-medicinal-plants-and-spices.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)).
 
-### 47. My super. What the hell's it buying?
+### 47. Super investments — My super. What the hell's it buying?
 
 > I'm saving for a quiet retirement; I'd like to know if my super's spending the meantime in the arms trade.
 
@@ -1390,7 +1394,7 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Specific project and supporting-document links:** [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
-### 48. Lying, but authorised.
+### 48. Political lies — Lying, but authorised.
 
 > They can fit “authorised by” into every election ad; I’d love to see them have a crack at “true”.
 
