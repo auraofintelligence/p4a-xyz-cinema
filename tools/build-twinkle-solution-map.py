@@ -122,6 +122,8 @@ lines[topic_heading+2:topic_heading+2]=['**Topic: climate change.** Deep time us
 topic_heading=next(i for i,line in enumerate(lines) if line.startswith('### 22.'))
 lines[topic_heading+2:topic_heading+2]=['**Topic: PTSD**, especially veterans and first responders. The earlier “quiet one” wording described the tone, not the subject.','']
 data,lines=merge_research(data,lines,link)
+from prune_solution_associations import prune_map
+data,lines=prune_map(data,link)
 (OUT/'twinkle-solution-map-2026-10-03.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (OUT/'twinkle-solution-map-2026-10-03.md').write_text('\n'.join(lines),encoding='utf-8')
 print('Rendered 48-topic planning map and reference register; visitor pages unchanged')
