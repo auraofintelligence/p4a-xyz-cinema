@@ -20,8 +20,6 @@ Start with **housing as the depth benchmark**, then repair the broad destination
 
 **Evidence stages:** locally exercised Markdown tools; externally reported browser tools/retrieval code; developed proposals and thought experiments; and supporting files whose title/path alone were verified are identified separately. The public researcher reports 168 repositories and 166 retrieved READMEs. This editor has not rerun that entire review.
 
-**Transfer gap:** sections 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 were absent from the supplied research message, and #15 was partial. All 48 local rows remain complete; missing cross-repository additions are awaiting the exact text.
-
 ## What housing already does well
 
 The [Housing Simulations room](../../pages/housing-simulations.html) gives the useful depth benchmark: dated need and risk evidence; safe exits from violence; generational and ownership/control questions; a mix of private, public, community and cooperative pathways; Denmark’s tenant-democratic/cost-rent reference; repairs before sprawl; land trusts; distributed density; C-Hour contribution and stewardship; Grow Local delivery; and questions about who can act at household, neighbourhood, council and wider scales. Keep these hypotheses rather than replacing them with a generic policy checklist.
@@ -508,11 +506,11 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Straddie noticeboard example](https://auraofintelligence.github.io/straddie-noticeboard-network/index.html); [Open C-Hour introduction (new tab)](https://auraofintelligence.github.io/C-Hour-introduction/).
 
-**Additional authored work found across repositories:** A dedicated AUKUS inquiry submission and Space Gambit add authored alternatives to the broader Senate/ledger material.
+**Additional authored work found across repositories:** A dedicated AUKUS inquiry submission and Space Gambit add opportunity-cost comparisons with civilian intelligence, education, disaster resilience and scientific cooperation.
 
-**Stage / remaining gap:** The A$6m node allowance is a planning unit, not a vendor quote; strategic functions differ. The end of this research entry was truncated in transfer.
+**Stage / remaining gap:** The A$6m node allowance is a planning unit, not a vendor quote; distinct strategic functions must remain distinct.
 
-**Refined next step:** Develop the named 32-site, 100-site and global scenarios alongside defence costs and delivery assumptions; preserve the local audit's proposed capability/dependency dossier.
+**Refined next step:** Put the authored 32-site, 100-site and global scenarios beside defence costs, delivery and dependency assumptions; keep the ISS gambit a separate thought experiment.
 
 **Specific project and supporting-document links:** [AUKUS Public Inquiry submission, 24 August 2026](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/aukus-public-inquiry-submission.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [AUKUS Space Gambit](https://auraofintelligence.github.io/aukus-space-gambit/) ([repo](https://github.com/auraofintelligence/aukus-space-gambit)); [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) ([repo](https://github.com/auraofintelligence/aura-direct-hardware)).
 
@@ -536,7 +534,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Straddie noticeboard example](https://auraofintelligence.github.io/straddie-noticeboard-network/index.html); [Open C-Hour introduction (new tab)](https://auraofintelligence.github.io/C-Hour-introduction/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Conflict-of-interest registers, cooling-off time and source-linked institutional memory connect the existing ledger direction to legal tools.
+
+**Stage / remaining gap:** No operational revolving-door register verified.
+
+**Refined next step:** Model one public official, portfolio and subsequent-employer chain with source dates, applicable rules, response/correction and a cooling-off clock.
+
+**Specific project and supporting-document links:** [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
 ### 17. Who paid for that ad?
 
@@ -558,7 +562,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Straddie noticeboard example](https://auraofintelligence.github.io/straddie-noticeboard-network/index.html); [Open C-Hour introduction (new tab)](https://auraofintelligence.github.io/C-Hour-introduction/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** The UNGA81 source adds near-transfer-speed public donation receipts, lawful disclosure, conflicts and correction trails.
+
+**Stage / remaining gap:** No live political donation ingestion/disclosure system established. Current C-Hour remains nonmonetary.
+
+**Refined next step:** Develop a donation-specific schema and mock example separating political money, ordinary paid services and verified voluntary time.
+
+**Specific project and supporting-document links:** [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
 ### 18. Gold in changing the plans.
 
@@ -580,7 +590,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Evidence currently linked:** no external source links in the main room. The preserved original seed remains available; the next topic-specific case needs primary evidence.
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Original Olympic and Oceania surge proposals connect Games-scale mobilisation to enduring health, skills, compute and local infrastructure, with capsule surge capacity.
+
+**Stage / remaining gap:** No programme approval, Games partnership or funded infrastructure implied. The Earn-to-Heal PDF was file/title verified; historical contribution/reward wording needs reconciliation with current nonmonetary C-Hour.
+
+**Refined next step:** Create 2032 and 2050 legacy scenarios comparing temporary beds with stable housing, retained assets, operator skills, maintenance and everyday community use.
+
+**Specific project and supporting-document links:** [Queensland Olympic Earn-to-Heal pilot](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/queensland-olympic-earn-to-heal-pilot.pdf) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Oceania Health and AI Surge Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/oceania-health-and-ai-surge-plan.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Straddie Capsule Surge Lab](https://auraofintelligence.github.io/straddie-capsule-surge-lab/) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [P4A Oceania cinematic lab](https://auraofintelligence.github.io/p4a-oceania-cinema/) ([repo](https://github.com/auraofintelligence/p4a-oceania-cinema)).
 
 ### 19. Funny where the paperwork starts.
 
@@ -600,7 +616,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Global / nation-led Native Nations of the World A separate global workbench for nation-led Country, protocols, rights and self-description, with its own self-onboarding. Each nation chooses what to share.](https://auraofintelligence.github.io/p4a-native-nations-cinema/); [Regional / Oceania P4A Oceania A separate regional workbench for Oceania’s places, relationships, political geography and shared currents across the Blue Pacific.](https://auraofintelligence.github.io/p4a-oceania-cinema/); [Master list DFAT Australian Treaties Database The authoritative enumeration of what Australia is party to. This leaves P4A. Use it, and AustLII, as the source of record behind this sketch.](https://info.dfat.gov.au/Treaties).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Treaty Atlas and kintsugi agreement repair connect nation-authored participation with Indigenous data authority and equity/wealth research.
+
+**Stage / remaining gap:** Generic international comparisons do not settle Australian treaty scope or confer cultural authority.
+
+**Refined next step:** Give the existing room separate record/proposal layers and agreement-specific history, parties, authority, obligations and repair options.
+
+**Specific project and supporting-document links:** [Native Nations Sovereign Co-Evolution Lab](https://auraofintelligence.github.io/p4a-native-nations-cinema/) ([repo](https://github.com/auraofintelligence/p4a-native-nations-cinema)); [Country deals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/country-deals.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Indigenous Sovereign Resilience](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/indigenous-deals-and-sovereign-wealth.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
 ### 20. Aliens? We'll take that on notice.
 
@@ -622,7 +644,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [AEC: electoral communication and authorisation](https://www.aec.gov.au/About_AEC/electoral-communication.htm); [NASA UAP study and report](https://science.nasa.gov/uap/); [Search Australian archival records](https://www.naa.gov.au/explore-collection).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Cosmic Nexus source, hypothesis and fieldwork lanes add to Truth Engine provenance, public assessment and correction.
+
+**Stage / remaining gap:** Neither the site nor the source document establishes an extraordinary claim as true; the PDF was file/title verified.
+
+**Refined next step:** Build one claim dossier with observations, instruments, chain of custody, competing hypotheses and evidence that would change confidence.
+
+**Specific project and supporting-document links:** [Cosmic Nexus](https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/) ([repo](https://github.com/auraofintelligence/strange-but-true-cosmic-nexus)); [Cosmic Nexus UAP, AI, AA, R&D](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/Cosmic%20Nexus%20UAP%2C%20AI%2C%20AA%2C%20R%26D.pdf) ([repo](https://github.com/auraofintelligence/the-great-unveiling)); [Virtual Solar Swarm](https://auraofintelligence.github.io/virtual-solar-swarm/) ([repo](https://github.com/auraofintelligence/virtual-solar-swarm)).
 
 ### 21. Third hundred-year flood this decade.
 
@@ -644,7 +672,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [External Moreton Bay example](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/); [Leaves P4A GitHub repo Open the source repo for the Moreton Bay wealth and mutuals site.](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals); [Bureau of Meteorology: flood information](https://www.bom.gov.au/water/floods/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Deep-time risk testing and observational capability sit alongside ordinary local resilience and community prevention.
+
+**Stage / remaining gap:** Micronova hypotheses and observed flood risks have different evidence levels and timescales. The current Deep time gripe remains a flood-risk doorway.
+
+**Refined next step:** Keep hazard families separate and show uncertainty, exposure, prevention value and resilient actions rather than blend them into one forecast.
+
+**Specific project and supporting-document links:** [Micronova and Excursions](https://auraofintelligence.github.io/micronova-and-excursions/) ([repo](https://github.com/auraofintelligence/micronova-and-excursions)); [Mutual Care and Self-Insurance](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/mutual-care.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Minjerribah Living Twin](https://auraofintelligence.github.io/minjerribah-living-twin/) ([repo](https://github.com/auraofintelligence/minjerribah-living-twin)); [Virtual Solar Swarm](https://auraofintelligence.github.io/virtual-solar-swarm/) ([repo](https://github.com/auraofintelligence/virtual-solar-swarm)).
 
 ### 22. The tour didn't break him. The form did.
 
@@ -664,7 +698,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Medicare](https://www.health.gov.au/topics/medicare/about-medicare); [PBS medicines sit inside Medicare access](https://www.health.gov.au/topics/medicare/about/what-medicare-covers); [private insurance premiums changed in 2026](https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/2026-private-health-insurance-premiums?language=en); [NDIS](https://www.ndis.gov.au/understanding/what-ndis); [TGA software-based medical device pathway](https://www.tga.gov.au/products/medical-devices/software-and-artificial-intelligence-ai); [Official care access](https://www.medicarementalhealth.gov.au/medicare-mental-health-centres).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Owner-held context and supported intake connect reduced form burden with practical rest, recovery, care and community infrastructure.
+
+**Stage / remaining gap:** Dementia planning is not PTSD treatment evidence; no dedicated operating PTSD programme verified.
+
+**Refined next step:** Develop a veteran/first-responder journey with repeated-story burden, access delays, trusted support and validated care outcomes; keep optional research branches distinct.
+
+**Specific project and supporting-document links:** [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)); [A Clinical Research and Implementation Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/clinical-research-path-aura-of-dementia.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Health Surge and Aura](https://auraofintelligence.github.io/straddie-capsule-surge-lab/health-surge.html) ([repo](https://github.com/auraofintelligence/straddie-capsule-surge-lab)); [Surf-side men’s alcohol and drug free camp](https://auraofintelligence.github.io/multi-site-Minjerribah-network/mens-recovery.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)).
 
 ### 23. Mine was free. Yours is licensed.
 
@@ -686,7 +726,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [IP Australia: copyright policy priorities](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/australian-ip-report-2026/copyright/key-copyright-policy-priorities); [Ready S.E.T. permission model](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/culture.html); [Media projects and their status](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/projects.html); [Consultation paper and submission route](https://www.pmc.gov.au/resources/getting-it-right-building-ai-infrastructure-works-australia).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Sovereign Music adds creator-owned making records, rights provenance, distributor terms and concrete rights/royalty cases.
+
+**Stage / remaining gap:** A complete training-consent/licensing market is not demonstrated.
+
+**Refined next step:** Develop creator permission and contribution records plus licensing choices using the music cases and cited legal questions about human/AI contribution.
+
+**Specific project and supporting-document links:** [Sovereign Music Australia](https://auraofintelligence.github.io/sovereign-music-australia/) ([repo](https://github.com/auraofintelligence/sovereign-music-australia)); [Rights Engine](https://auraofintelligence.github.io/sovereign-music-australia/rights.html) ([repo](https://github.com/auraofintelligence/sovereign-music-australia)); [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Do Not Put All Our Eggs in One Basket](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/do-not-put-all-our-eggs-in-one-basket.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [A Fair Go for the AI Age](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node/blob/main/supporting-documents/a-fair-go-for-the-ai-age.md) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
 ### 24. A chatbot shouldn't need a babysitter.
 
@@ -706,7 +752,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [eSafety: Talking to machines](https://www.esafety.gov.au/research/talking-to-machines-childrens-experiences-with-ai-assistants-and-companions); [eSafety reporting routes](https://www.esafety.gov.au/report); [Resources for parents](https://www.esafety.gov.au/parents); [People and learning layer](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/cooperative.html).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Personal sovereignty and transparent AI terms provide foundations, but child-specific safety needs its own design.
+
+**Stage / remaining gap:** No dedicated public child-chatbot safety product/proposal verified in these external projects; Aura Toy is unrelated matrix UI. The local child-safety room already exists.
+
+**Refined next step:** Deepen that room with age-appropriate interactions, guardian/child rights, memory/data boundaries, escalation and independent testing supported by specialist evidence.
+
+**Specific project and supporting-document links:** [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) ([repo](https://github.com/auraofintelligence/aura-matrix-studio)).
 
 ### 25. Copyright gets a bodyguard.
 
@@ -726,7 +778,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [eSafety: Safety by Design](https://www.esafety.gov.au/industry/safety-by-design); [eSafety: choose the right reporting route](https://www.esafety.gov.au/report).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Owner-controlled boundaries, traceable platform/AI terms and public correction methods strengthen the existing accountability direction.
+
+**Stage / remaining gap:** No operational anti-harassment/moderation system or tested reporting workflow verified.
+
+**Refined next step:** Build abuse-reporting and remedy pathways with consent, evidence handling, response times and appeals, keeping platform obligations and personal tools distinct.
+
+**Specific project and supporting-document links:** [Data sovereignty](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/data-sovereignty.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [AI Trust Index](https://auraofintelligence.github.io/strange-but-true-ai-trust-index/) ([repo](https://github.com/auraofintelligence/strange-but-true-ai-trust-index)); [Joyful Responsible Abundance / UNGA81 contribution](https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/main/data/source-transcript.txt) ([repo](https://github.com/auraofintelligence/UNGA81-Luke-Hayes)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)).
 
 ### 26. Full-price equality.
 
@@ -748,7 +806,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [WGEA: measures and employer data](https://www.wgea.gov.au/pay-and-gender/gender-pay-gap-data); [Read Mutual Futures and its leadership connections](https://auraofintelligence.github.io/mutual-futures/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** 500 Queens executive leadership and investment influence connect paid-work protection with recognition of unpaid care.
+
+**Stage / remaining gap:** Hourly pay, career progression, care load, ownership and lifetime wealth are separate intervention targets; C-Hour recognition is nonmonetary.
+
+**Refined next step:** Make those levers visible separately, connect actual venture/leadership pathways and build an illustrative lifetime income/time model.
+
+**Specific project and supporting-document links:** [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Designing Equality](https://auraofintelligence.github.io/500-Queens-VC-2026/designing-equality.html) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [Current C-Hour mechanics](https://auraofintelligence.github.io/C-Hour-introduction/community-hours.html) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
 ### 27. Another report. How is the gap?
 
@@ -770,7 +834,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [July 2026 dashboard and measure definitions](https://www.pc.gov.au/closing-the-gap-data/dashboard/); [Coalition of Peaks: First Nations-led priorities](https://www.coalitionofpeaks.org.au/); [Review and participation status](https://www.pc.gov.au/inquiries-and-research/closing-the-gap-review-2026/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Country-led agreement repair connects Indigenous data/compute authority with community ownership and wealth pathways.
+
+**Stage / remaining gap:** No Indigenous consent, endorsement or outcome improvement follows from a proposal.
+
+**Refined next step:** Develop a nation-chosen outcome/decision-rights case that distinguishes official indicators, community priorities and optional proposals.
+
+**Specific project and supporting-document links:** [Native Nations Sovereign Co-Evolution Lab](https://auraofintelligence.github.io/p4a-native-nations-cinema/) ([repo](https://github.com/auraofintelligence/p4a-native-nations-cinema)); [Country deals](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/country-deals.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [Indigenous Sovereign Resilience](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/indigenous-deals-and-sovereign-wealth.md) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Ready S.E.T. Cultural Intelligence Node](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/) ([repo](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node)).
 
 ### 28. Tough on crime. Handy for ads.
 
@@ -792,7 +862,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [ABS: alleged-offender measures](https://www.abs.gov.au/statistics/people/crime-and-justice/recorded-crime-offenders/2024-25); [AIHW: youth justice 2024–25](https://www.aihw.gov.au/reports/youth-justice/youth-justice-in-australia-2024-25).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Belonging, skills, sport, maker/media work and supported family stability are developed prevention ingredients; Multi-site remains a local collaboration example only.
+
+**Stage / remaining gap:** No evaluated youth-crime reduction programme verified; club activity alone is not demonstrated to solve crime.
+
+**Refined next step:** Develop a specific prevention/restoration pathway with victims’ needs, youth needs, service responsibility and measurable safety outcomes.
+
+**Specific project and supporting-document links:** [Community Club Builder: Sandy Sports](https://auraofintelligence.github.io/community-club-builder-sandy-sports/) ([repo](https://github.com/auraofintelligence/community-club-builder-sandy-sports)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)).
 
 ### 29. We'd love a baby.
 
@@ -812,7 +888,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [UNFPA: reproductive agency and barriers](https://www.unfpa.org/swp2025?lang=en); [ABS: observed births and fertility](https://www.abs.gov.au/statistics/people/population/births-australia/latest-release); [AIFS: young Australians and family formation](https://aifs.gov.au/growing-australia/all-research/research-snapshots/young-australians-family-formation); [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/); [Private Household Lab](https://auraofintelligence.github.io/global-group-marriages/household-lab.html); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Housing security, shared care, adequate income and expanded family frameworks offer different ways to lower barriers to wanted families.
+
+**Stage / remaining gap:** Authored family thought experiments remain optional, not a prescribed moral answer; Multi-site is the clarified local example, not the missing national housing-policy source.
+
+**Refined next step:** Compare household choices, time, care, housing and autonomy using the authored framework alongside conventional arrangements.
+
+**Specific project and supporting-document links:** [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Global Group Marriages framework](https://auraofintelligence.github.io/global-group-marriages/framework.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Sovereignty and care](https://auraofintelligence.github.io/global-group-marriages/sovereignty-care.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)).
 
 ### 30. Till fees do us part.
 
@@ -832,7 +914,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [Marriage Act: current text](https://www.legislation.gov.au/C1961A00012/latest); [Family Law Act: current text](https://www.legislation.gov.au/C2004A00275/latest); [Luke’s Australian legal atlas](https://auraofintelligence.github.io/global-group-marriages/countries/australia.html); [Read the actual group-marriage framework](https://auraofintelligence.github.io/global-group-marriages/framework.html); [Use the private Household Lab](https://auraofintelligence.github.io/global-group-marriages/household-lab.html); [Enter U.N. of Love](https://auraofintelligence.github.io/global-group-marriages/un-of-love.html); [Compare six legal starting points](https://auraofintelligence.github.io/global-group-marriages/world-atlas.html).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** The household framework separates relationship structure, pooled resources, personal sovereignty, mediation and realistic exits, with legal-memory tools for clear agreements.
+
+**Stage / remaining gap:** Global Group Marriages is an authored framework, not current recognition of multi-person marriage.
+
+**Refined next step:** Develop the existing room through joining, care, resources, disagreement, leaving and ongoing responsibilities, separating law from proposed change.
+
+**Specific project and supporting-document links:** [Global Group Marriages](https://auraofintelligence.github.io/global-group-marriages/) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [U.N. of Love](https://auraofintelligence.github.io/global-group-marriages/un-of-love.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Legal Memory Workbench](https://auraofintelligence.github.io/legal-memory-workbench/) ([repo](https://github.com/auraofintelligence/legal-memory-workbench)); [Australian Law 2012: Luke’s Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) ([repo](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance)); [Global Group Marriages framework](https://auraofintelligence.github.io/global-group-marriages/framework.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)); [Sovereignty and care](https://auraofintelligence.github.io/global-group-marriages/sovereignty-care.html) ([repo](https://github.com/auraofintelligence/global-group-marriages)).
 
 ### 31. Same broke. Different decade.
 
@@ -852,7 +940,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [12 August 2026 policy status](https://www.liberal.org.au/2026/08/12/address-to-the-national-press-club); [PBO: earlier proposal costing](https://www.pbo.gov.au/sites/default/files/2025-05/PBO-ECR-2025-2301-Super%20Home%20Buyer%20Scheme.pdf).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Housing access can be compared with retirement security in a portfolio including co-ops, land trusts and public-interest leases; Multi-site supplies only a local collaboration example.
+
+**Stage / remaining gap:** No specific super-withdrawal financial model or endorsed recommendation verified.
+
+**Refined next step:** Add price-response and lifetime-balance comparisons, including people without super or deposits, with fund rules/current law sourced.
+
+**Specific project and supporting-document links:** [Housing and supported living across different stages of life](https://auraofintelligence.github.io/multi-site-Minjerribah-network/housing.html) ([repo](https://github.com/auraofintelligence/multi-site-Minjerribah-network)); [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) ([repo](https://github.com/auraofintelligence/australian-legal-engine)).
 
 ### 32. The house got the pay rise.
 
@@ -874,7 +968,13 @@ The [C-Hour pipeline](../../pages/c-hour-receipt-builder.html) explicitly descri
 
 **Sources and external pages already linked in this room:** [ABS: income, wealth and survey period](https://www.abs.gov.au/statistics/economy/finance/household-income-and-wealth-australia/latest-release); [Mutual Futures: shared productive wealth](https://auraofintelligence.github.io/mutual-futures/).
 
-**Cross-repository addition:** exact transferred section pending; the verified local findings above are retained.
+**Additional authored work found across repositories:** Mutual succession, learning from retiring owners, community wealth and women’s investment influence have concrete calculator and succession connections.
+
+**Stage / remaining gap:** These are proposals/tools, not completed redistribution or guaranteed returns. Current C-Hour records nonmonetary contribution.
+
+**Refined next step:** Model ownership transfer, debt, wages, reserves, dividends and care/time effects, preserving both business competence and broad participation questions.
+
+**Specific project and supporting-document links:** [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Community wealth funds](https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/wealth-funds.html) ([repo](https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals)); [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/) ([repo](https://github.com/auraofintelligence/500-Queens-VC-2026)); [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) ([repo](https://github.com/auraofintelligence/C-Hour-introduction)); [Mutual Futures capital calculator](https://auraofintelligence.github.io/mutual-futures/capital.html) ([repo](https://github.com/auraofintelligence/mutual-futures)); [Mutual Futures succession](https://auraofintelligence.github.io/mutual-futures/succession.html) ([repo](https://github.com/auraofintelligence/mutual-futures)).
 
 ### 33. Big revenue. Pay tax.
 
@@ -1418,6 +1518,17 @@ Source keys below are stable references in the structured map. Status descriptio
 - **parlor — [Consciousness Parlor](https://auraofintelligence.github.io/aura-ecosystem/consciousness-parlor.html)** · [Repository](https://github.com/auraofintelligence/aura-ecosystem). Professional-guided psychedelic research/therapy concept; no licensed clinic, approved protocol or efficacy established.
 - **parlor-pdf — [AURA Consciousness Parlor & GAJRA Earth Encampment blueprint](https://github.com/auraofintelligence/the-great-unveiling/blob/main/docs/AURA%20Consciousness%20Parlor%20%26%20GAJRA%20Earth%20Encampment%20%E2%80%93%20Blueprint%20for%20a%20Global%20Consciousness%20Festival%20N.pdf)** · [Repository](https://github.com/auraofintelligence/the-great-unveiling). Supporting PDF: file/title verified, not independently read in full by researcher.
 - **medicinal-venture — [Medicinal Plants and Spices venture brief](https://auraofintelligence.github.io/500-Queens-VC-2026/startup-medicinal-plants-and-spices.html)** · [Repository](https://github.com/auraofintelligence/500-Queens-VC-2026). Developed adjacent product/research brief; not prohibited-plant law reform or a policy covering all plants.
+- **olympic-pilot — [Queensland Olympic Earn-to-Heal pilot](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/queensland-olympic-earn-to-heal-pilot.pdf)** · [Repository](https://github.com/auraofintelligence/multi-site-Minjerribah-network). Original PDF: file/title verified, not independently read in full by researcher; no programme approval or Games partnership inferred.
+- **oceania-surge — [Oceania Health and AI Surge Plan](https://github.com/auraofintelligence/multi-site-Minjerribah-network/blob/main/source-documents/oceania-health-and-ai-surge-plan.md)** · [Repository](https://github.com/auraofintelligence/multi-site-Minjerribah-network). Original developed proposal, not funded infrastructure.
+- **oceania — [P4A Oceania cinematic lab](https://auraofintelligence.github.io/p4a-oceania-cinema/)** · [Repository](https://github.com/auraofintelligence/p4a-oceania-cinema). Regional civic and scenario workbench; not a Games partnership.
+- **native-nations — [Native Nations Sovereign Co-Evolution Lab](https://auraofintelligence.github.io/p4a-native-nations-cinema/)** · [Repository](https://github.com/auraofintelligence/p4a-native-nations-cinema). Nation-authored participation and agreement-repair workbench; no cultural authority, consent or endorsement inferred.
+- **solar-swarm — [Virtual Solar Swarm](https://auraofintelligence.github.io/virtual-solar-swarm/)** · [Repository](https://github.com/auraofintelligence/virtual-solar-swarm). Observational/research connection; does not establish extraordinary claims or a single forecast across hazard families.
+- **mens-recovery — [Surf-side men’s alcohol and drug free camp](https://auraofintelligence.github.io/multi-site-Minjerribah-network/mens-recovery.html)** · [Repository](https://github.com/auraofintelligence/multi-site-Minjerribah-network). Local recovery/care proposal; not a verified operating PTSD programme.
+- **music — [Sovereign Music Australia](https://auraofintelligence.github.io/sovereign-music-australia/)** · [Repository](https://github.com/auraofintelligence/sovereign-music-australia). Creator-owned records and rights/royalty work; not a complete training-consent market.
+- **rights — [Rights Engine](https://auraofintelligence.github.io/sovereign-music-australia/rights.html)** · [Repository](https://github.com/auraofintelligence/sovereign-music-australia). Concrete rights/provenance and royalty cases; not a complete licensing market.
+- **equality — [Designing Equality](https://auraofintelligence.github.io/500-Queens-VC-2026/designing-equality.html)** · [Repository](https://github.com/auraofintelligence/500-Queens-VC-2026). Developed leadership/equality design; outcomes require their own evaluation.
+- **ggm-framework — [Global Group Marriages framework](https://auraofintelligence.github.io/global-group-marriages/framework.html)** · [Repository](https://github.com/auraofintelligence/global-group-marriages). Authored optional family framework; not current legal recognition of multi-person marriage.
+- **ggm-care — [Sovereignty and care](https://auraofintelligence.github.io/global-group-marriages/sovereignty-care.html)** · [Repository](https://github.com/auraofintelligence/global-group-marriages). Authored personal-sovereignty and shared-care design, not a prescribed household form.
 
 ## Evidence and follow-up limits
 
@@ -1425,4 +1536,4 @@ This audit read the current local landing content, their links, the three founda
 
 The Senate Markdown was read directly. The APH local-government PDF and Shared Table public page could not be fetched through the web tool during this pass; their actual links and local descriptions are retained, but no inaccessible document content has been invented. Current legal/medical/fiscal claims and consultation deadlines in existing rooms still need topic-specific source rechecking when a room is developed; the inventory above is not a new verification of every external claim. The cross-repository report now supplies a public Markdown copy of the local-government submission and Shared Table findings; the original local fetch limitations remain historical facts, not a claim that those sources do not exist.
 
-Outstanding: the separate housing-policy source remains unidentified; no broader search is planned without a targeted lead. The missing transferred topic sections still need their exact research text. The next decision is which substantive room/case to develop. No visitor-page rewriting is included in this step.
+Outstanding: the separate housing-policy source remains unidentified; no broader search is planned without a targeted lead. The supplied cross-repository topic research is merged. The next decision is which substantive room/case to develop. No visitor-page rewriting is included in this step.
