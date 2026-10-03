@@ -19,6 +19,8 @@ function Write-Utf8NoBom {
 
   $encoding = [System.Text.UTF8Encoding]::new($false)
   [System.IO.File]::WriteAllText($Path, $Value, $encoding)
+  python (Join-Path $PSScriptRoot 'finalize-html.py') $Path
+  if ($LASTEXITCODE -ne 0) { throw "HTML finalization failed: $Path" }
 }
 
 function Read-FoundationPages {
@@ -107,7 +109,7 @@ function Render-Cards {
     $body = Escape-Html $card.body
     $href = Escape-Html $card.href
     $external = $href -match '^https?://'
-    $target = if ($external) { ' target="_blank" rel="noopener"' } else { '' }
+    $target = if ($external) { ' target="_blank" rel="noopener noreferrer"' } else { '' }
     $openTag = if ([string]::IsNullOrWhiteSpace($href)) { '<article class="track-card">' } else { "<a class=""track-card track-card-link"" href=""$href""$target>" }
     $closeTag = if ([string]::IsNullOrWhiteSpace($href)) { '</article>' } else { '</a>' }
 @"
@@ -145,7 +147,7 @@ function Render-Links {
     $label = Escape-Html $link.label
     $href = Escape-Html $link.href
     $external = $href -match '^https?://'
-    $target = if ($external) { ' target="_blank" rel="noopener"' } else { '' }
+    $target = if ($external) { ' target="_blank" rel="noopener noreferrer"' } else { '' }
     "<a href=""$href""$target>$label</a>"
   }
 

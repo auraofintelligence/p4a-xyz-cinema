@@ -1,4 +1,9 @@
+param([string]$StateSlug = "", [switch]$SkipHistory)
+
 $ErrorActionPreference = "Stop"
+# PowerShell 7.5 otherwise converts ISO strings to local DateTime values.
+$jsonOptions = @{}
+if ((Get-Command ConvertFrom-Json).Parameters.ContainsKey("DateKind")) { $jsonOptions["DateKind"] = "String" }
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $root = Split-Path -Parent $scriptDir
@@ -30,8 +35,38 @@ function Write-Utf8NoBom {
     [string]$Path,
     [string]$Value
   )
+  # A scoped refresh must preserve other jurisdictions' existing national cards,
+  # including editorial additions that have not yet reached their source files.
+  if ($StateSlug -and (Split-Path $Path -Leaf) -eq "states.html" -and (Test-Path -LiteralPath $Path)) {
+    $prior = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    $pattern = '<(a|article)\b[^>]*data-state="([^"]+)"[^>]*>[\s\S]*?</\1>'
+    $preserved = @{}
+    foreach ($block in [regex]::Matches($prior, $pattern)) {
+      $label = [regex]::Match($block.Value, 'data-election-label="([^"]*)"').Groups[1].Value
+      $preserved[$block.Groups[1].Value + '|' + $block.Groups[2].Value + '|' + $label] = $block.Value
+    }
+    $Value = [regex]::Replace($Value, $pattern, [System.Text.RegularExpressions.MatchEvaluator]{ param($block)
+      $label = [regex]::Match($block.Value, 'data-election-label="([^"]*)"').Groups[1].Value
+      $key = $block.Groups[1].Value + '|' + $block.Groups[2].Value + '|' + $label
+      if ($block.Groups[2].Value -ne $StateSlug -and $preserved.ContainsKey($key)) { return $preserved[$key] }
+      return $block.Value
+    })
+  }
+  if ([System.IO.Path]::GetExtension($Path) -eq ".html") {
+    $styleMatch = [regex]::Match($Value, 'href="([^"]*)styles\.css')
+    if ($styleMatch.Success -and -not $Value.Contains('assets/site-nav.js')) {
+      $assetPrefix = $styleMatch.Groups[1].Value
+      $Value = $Value.Replace('</body>', "<script src=""${assetPrefix}assets/site-nav.js?v=20261002-vic-map""></script>`n</body>")
+    }
+    $Value = [regex]::Replace($Value, '(styles\.css|script\.js)\?v=[^" ]+', '$1?v=20260707-cinema')
+    $Value = $Value.Replace("script.js?v=20260707-cinema", "script.js?v=20261002-vic-clock")
+  }
   $encoding = New-Object System.Text.UTF8Encoding($false)
   [System.IO.File]::WriteAllText($Path, $Value, $encoding)
+  if ([System.IO.Path]::GetExtension($Path) -eq ".html") {
+    python (Join-Path $PSScriptRoot 'finalize-html.py') $Path
+    if ($LASTEXITCODE -ne 0) { throw "HTML finalization failed: $Path" }
+  }
 }
 
 function Get-SortedElectionItems {
@@ -63,13 +98,13 @@ function Get-SortedElectionItems {
 function Get-StateData {
   $files = Get-ChildItem -Path $contentDir -Filter "*.md" | Where-Object { $_.Name -ne "README.md" } | Sort-Object Name
   foreach ($file in $files) {
-    $raw = Get-Content -LiteralPath $file.FullName -Raw
+    $raw = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
     $match = [regex]::Match($raw, '(?s)```json\s+state-data\s*(.*?)```')
     if (-not $match.Success) {
       throw "No ```json state-data block found in $($file.FullName)"
     }
 
-    $state = $match.Groups[1].Value | ConvertFrom-Json
+    $state = $match.Groups[1].Value | ConvertFrom-Json @jsonOptions
     $state | Add-Member -NotePropertyName "sourceMarkdown" -NotePropertyValue ("content/states/" + $file.Name) -Force
     $state
   }
@@ -82,13 +117,13 @@ function Get-HistoryData {
 
   $files = Get-ChildItem -Path $historyContentDir -Filter "*.md" | Where-Object { $_.Name -ne "README.md" } | Sort-Object Name
   foreach ($file in $files) {
-    $raw = Get-Content -LiteralPath $file.FullName -Raw
+    $raw = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
     $match = [regex]::Match($raw, '(?s)```json\s+history-data\s*(.*?)```')
     if (-not $match.Success) {
       throw "No ```json history-data block found in $($file.FullName)"
     }
 
-    $history = $match.Groups[1].Value | ConvertFrom-Json
+    $history = $match.Groups[1].Value | ConvertFrom-Json @jsonOptions
     $history | Add-Member -NotePropertyName "sourceMarkdown" -NotePropertyValue ("content/history/" + $file.Name) -Force
     $history
   }
@@ -169,13 +204,19 @@ function Get-Header {
     [string]$CurrentStateType = "state"
   )
 
-  $nav = Get-Nav -Prefix $Prefix -Active $Active -CurrentStateSlug $CurrentStateSlug -CurrentStateShort $CurrentStateShort -CurrentStateType $CurrentStateType
 @"
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-  <a class="brand" href="${Prefix}index.html"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
-  <button class="icon-button nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">Menu</button>
-  $nav
+  <a class="brand" href="${Prefix}index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
+  <nav class="site-nav" data-nav aria-label="Primary">
+    <a href="${Prefix}pages/rabbit-hole.html">Map</a>
+    <a href="${Prefix}pages/architecture.html">System</a>
+    <a href="${Prefix}pages/twinkle.html">Twinkle</a>
+    <a href="${Prefix}pages/states.html">States</a>
+    <a href="${Prefix}pages/starter-field-kit.html">Start local</a>
+    <a href="${Prefix}pages/deployment-gear.html">Gear</a>
+  </nav>
+  <button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button>
 </header>
 "@
 }
@@ -207,6 +248,7 @@ function Get-SiteLayerStrip {
   <span>You are inside the $safeName clone. The national map is one level up; council and local layers come next.</span>
   $stateArchitectureLink
   $stateConstitutionLink
+  $(if ($StateSlug -eq "vic") { "<a href=""${Prefix}states/vic/map/index.html"">Electorate atlas</a><a href=""${Prefix}states/vic/election/index.html"">2026 election guide</a>" })
   <a href="${Prefix}pages/states.html">National state map</a>
   <a href="${Prefix}index.html">National home</a>
 </div>
@@ -810,7 +852,7 @@ function Render-StateMap {
   <desc id="state-map-desc">Select a state or territory to open its P4A portal page.</desc>
   $($links -join "`n")
 </svg>
-<p class="state-map-source">Map geometry: <a href="https://commons.wikimedia.org/wiki/File:Australian_states_map.svg" target="_blank" rel="noopener">Australian states map.svg</a>, Wikimedia Commons, CC0.</p>
+<p class="state-map-source">Map geometry: <a href="https://commons.wikimedia.org/wiki/File:Australian_states_map.svg" target="_blank" rel="noopener noreferrer">Australian states map.svg</a>, Wikimedia Commons, CC0.</p>
 "@
 }
 
@@ -1021,7 +1063,7 @@ if ($states.Count -eq 0) {
   throw "No state data found in $contentDir"
 }
 
-$historyItems = @(Get-HistoryData | Sort-Object order)
+$historyItems = if ($SkipHistory) { @() } else { @(Get-HistoryData | Sort-Object order) }
 
 New-Item -ItemType Directory -Force -Path $pagesDir, $statesDir, $assetsDir | Out-Null
 
@@ -1236,6 +1278,7 @@ if ($historyItems.Count -gt 0) {
 }
 
 foreach ($state in $states) {
+  if ($StateSlug -and $state.slug -ne $StateSlug) { continue }
   $slug = [string]$state.slug
   $stateOutDir = Join-Path $statesDir $slug
   New-Item -ItemType Directory -Force -Path $stateOutDir | Out-Null
@@ -1265,6 +1308,7 @@ foreach ($state in $states) {
   $sourceMarkdown = Escape-Html $state.sourceMarkdown
   $stateMapLink = "../$slug/index.html"
 
+  $electionDoor = if ($slug -eq "vic") { '<p class="state-election-door"><a class="button" href="election/index.html">Victoria election 2026: dates, candidates and ways to take part</a></p>' } else { "" }
   $stateHtml = @"
 <!doctype html>
 <html lang="en-AU">
@@ -1288,6 +1332,7 @@ foreach ($state in $states) {
         <h1>$name</h1>
         <p>$short starts from $capital and works outward: current power, chamber balance, election clocks and the local civic rehearsal layer that can plug back into the national P4A preframe.</p>
         <div class="research-badge"><span>Last research run</span><strong>$research</strong><small>$timezone</small></div>
+        $electionDoor
       </div>
     </section>
 
@@ -1490,5 +1535,5 @@ foreach ($state in $states) {
   }
 }
 
-Write-Host "Generated $($states.Count) state portals, $($historyItems.Count) history portals, pages/states.html and pages/state-history.html"
+Write-Host "Generated selected state portals (filter: $StateSlug), national state index and data. History skipped: $SkipHistory."
 

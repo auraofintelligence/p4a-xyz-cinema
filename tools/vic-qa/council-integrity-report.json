@@ -1,0 +1,48 @@
+{
+  "municipalities": 79,
+  "unincorporatedAreas": 8,
+  "wardSourceFeatures": 467,
+  "currentCouncillors": 640,
+  "vacancies": 7,
+  "moiraAdministrators": 2,
+  "annualPopulationValuesVerified": 1975,
+  "allSourcePopulationFieldsMatch": true,
+  "populationChangeComponentsReconcile": true,
+  "topologyDefects": [
+    {
+      "feature": "lga_polygon.165",
+      "reason": "Ring Self-intersection[145.009806 -37.969291]"
+    },
+    {
+      "feature": "lga_polygon.325",
+      "reason": "Ring Self-intersection[145.200067 -37.861682]"
+    },
+    {
+      "feature": "lga_polygon.332",
+      "reason": "Ring Self-intersection[141.797527 -34.11505]"
+    },
+    {
+      "feature": "lga_polygon.334",
+      "reason": "Ring Self-intersection[145.200067 -37.861682]"
+    },
+    {
+      "feature": "lga_polygon.122",
+      "reason": "Self-intersection[145.123318 -38.122496]"
+    }
+  ],
+  "assemblyIntersections": 422,
+  "geometry": {
+    "lga": {
+      "features": 87,
+      "unchangedSourceHash": true,
+      "sourceInvalidFeatures": 5,
+      "fixtures": 146
+    },
+    "ward": {
+      "features": 467,
+      "unchangedSourceHash": true,
+      "sourceInvalidFeatures": 0,
+      "fixtures": 518
+    }
+  }
+}

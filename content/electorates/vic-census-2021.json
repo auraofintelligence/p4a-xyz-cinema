@@ -1,0 +1,2983 @@
+{
+  "observationYear": 2021,
+  "boundaryEdition": 2022,
+  "source": "https://www.parliament.vic.gov.au/4abecd/contentassets/8b0f8f063f7648f38f6c532ae4586d8b/abs-electorate-data-2021.xlsx",
+  "sourcePage": "https://www.parliament.vic.gov.au/teach-and-learn/Resources/electorate-data-cards/",
+  "sourceSha256": "7cd4edba20774d8f76d3651f3496eaed576647d091add423dca646bc9199ac4d",
+  "retrieved": "2026-10-02",
+  "explainer": "https://www.parliament.vic.gov.au/4ac8bd/contentassets/f5b3967268fa43239771c361c7ea513f/electorate-data-cards-explainer.pdf",
+  "note": "ABS Census 2021, collated by Parliament Library on 2022 electoral boundaries. ABS confidentiality perturbation can make counts differ slightly. Values are historical observations, not current estimates. No regional medians are inferred.",
+  "fields": [
+    {
+      "id": "population",
+      "label": "Total persons",
+      "unit": "persons",
+      "sheet": "Data from cards",
+      "column": "C",
+      "sourceHeader": "Total persons",
+      "sourceGroup": "Population"
+    },
+    {
+      "id": "medianAge",
+      "label": "Median age",
+      "unit": "years",
+      "sheet": "Additional data",
+      "column": "H",
+      "sourceHeader": "Median\n(in years)",
+      "sourceGroup": "Age"
+    },
+    {
+      "id": "medianWeeklyRent",
+      "label": "Rent (median per week)",
+      "unit": "AUD/week",
+      "sheet": "Data from cards",
+      "column": "AA",
+      "sourceHeader": "Rent",
+      "sourceGroup": "Income and expense (median per week)"
+    },
+    {
+      "id": "averageHouseholdSize",
+      "label": "People per household (average)",
+      "unit": "people",
+      "sheet": "Data from cards",
+      "column": "AH",
+      "sourceHeader": "People per household (average)",
+      "sourceGroup": "Dwelling type and household details"
+    },
+    {
+      "id": "personsPerBedroom",
+      "label": "Persons per bedroom (average)",
+      "unit": "people",
+      "sheet": "Data from cards",
+      "column": "AG",
+      "sourceHeader": "Persons per bedroom (average)",
+      "sourceGroup": "Dwelling type and household details"
+    },
+    {
+      "id": "areaKm2",
+      "label": "Electorate area",
+      "unit": "km²",
+      "sheet": "Data from cards",
+      "column": "H",
+      "sourceHeader": "\nKilometres squared ",
+      "sourceGroup": "Electorate size",
+      "note": "Published electorate area on 2022 boundaries; land/water treatment is not established. District areas need not reconcile to the published statewide area."
+    },
+    {
+      "id": "medianWeeklyHouseholdIncome",
+      "label": "Median weekly household income",
+      "unit": "AUD/week",
+      "sheet": "Data from cards",
+      "column": "Y",
+      "sourceHeader": "Income",
+      "sourceGroup": "Income and expense (median per week)",
+      "note": "Historical household income; not an electorate budget or a current income estimate."
+    }
+  ],
+  "districts": {
+    "vic-assembly-1": {
+      "name": "Albert Park",
+      "values": {
+        "population": {
+          "value": 74022,
+          "cell": "C5"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H5"
+        },
+        "medianWeeklyRent": {
+          "value": 430,
+          "cell": "AA5"
+        },
+        "averageHouseholdSize": {
+          "value": 1.9,
+          "cell": "AH5"
+        },
+        "personsPerBedroom": {
+          "value": 1,
+          "cell": "AG5"
+        },
+        "areaKm2": {
+          "value": 21.33,
+          "cell": "H5"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2080,
+          "cell": "Y5"
+        }
+      }
+    },
+    "vic-assembly-2": {
+      "name": "Ashwood",
+      "values": {
+        "population": {
+          "value": 80567,
+          "cell": "C6"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H6"
+        },
+        "medianWeeklyRent": {
+          "value": 457,
+          "cell": "AA6"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH6"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG6"
+        },
+        "areaKm2": {
+          "value": 29.44,
+          "cell": "H6"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2172,
+          "cell": "Y6"
+        }
+      }
+    },
+    "vic-assembly-3": {
+      "name": "Bass",
+      "values": {
+        "population": {
+          "value": 65996,
+          "cell": "C7"
+        },
+        "medianAge": {
+          "value": 44,
+          "cell": "H7"
+        },
+        "medianWeeklyRent": {
+          "value": 320,
+          "cell": "AA7"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH7"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG7"
+        },
+        "areaKm2": {
+          "value": 1357.65,
+          "cell": "H7"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1395,
+          "cell": "Y7"
+        }
+      }
+    },
+    "vic-assembly-4": {
+      "name": "Bayswater",
+      "values": {
+        "population": {
+          "value": 72956,
+          "cell": "C8"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H8"
+        },
+        "medianWeeklyRent": {
+          "value": 390,
+          "cell": "AA8"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH8"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG8"
+        },
+        "areaKm2": {
+          "value": 38.76,
+          "cell": "H8"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1714,
+          "cell": "Y8"
+        }
+      }
+    },
+    "vic-assembly-5": {
+      "name": "Bellarine",
+      "values": {
+        "population": {
+          "value": 69514,
+          "cell": "C9"
+        },
+        "medianAge": {
+          "value": 47,
+          "cell": "H9"
+        },
+        "medianWeeklyRent": {
+          "value": 380,
+          "cell": "AA9"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH9"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG9"
+        },
+        "areaKm2": {
+          "value": 355.66,
+          "cell": "H9"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1545,
+          "cell": "Y9"
+        }
+      }
+    },
+    "vic-assembly-6": {
+      "name": "Benambra",
+      "values": {
+        "population": {
+          "value": 66838,
+          "cell": "C10"
+        },
+        "medianAge": {
+          "value": 41,
+          "cell": "H10"
+        },
+        "medianWeeklyRent": {
+          "value": 280,
+          "cell": "AA10"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH10"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG10"
+        },
+        "areaKm2": {
+          "value": 9146.8,
+          "cell": "H10"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1480,
+          "cell": "Y10"
+        }
+      }
+    },
+    "vic-assembly-7": {
+      "name": "Bendigo East",
+      "values": {
+        "population": {
+          "value": 72117,
+          "cell": "C11"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H11"
+        },
+        "medianWeeklyRent": {
+          "value": 300,
+          "cell": "AA11"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH11"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG11"
+        },
+        "areaKm2": {
+          "value": 2711,
+          "cell": "H11"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1557,
+          "cell": "Y11"
+        }
+      }
+    },
+    "vic-assembly-8": {
+      "name": "Bendigo West",
+      "values": {
+        "population": {
+          "value": 63757,
+          "cell": "C12"
+        },
+        "medianAge": {
+          "value": 43,
+          "cell": "H12"
+        },
+        "medianWeeklyRent": {
+          "value": 285,
+          "cell": "AA12"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH12"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG12"
+        },
+        "areaKm2": {
+          "value": 1524.29,
+          "cell": "H12"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1318,
+          "cell": "Y12"
+        }
+      }
+    },
+    "vic-assembly-9": {
+      "name": "Bentleigh",
+      "values": {
+        "population": {
+          "value": 76579,
+          "cell": "C13"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H13"
+        },
+        "medianWeeklyRent": {
+          "value": 480,
+          "cell": "AA13"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH13"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG13"
+        },
+        "areaKm2": {
+          "value": 25.37,
+          "cell": "H13"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2150,
+          "cell": "Y13"
+        }
+      }
+    },
+    "vic-assembly-10": {
+      "name": "Berwick",
+      "values": {
+        "population": {
+          "value": 81414,
+          "cell": "C14"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H14"
+        },
+        "medianWeeklyRent": {
+          "value": 410,
+          "cell": "AA14"
+        },
+        "averageHouseholdSize": {
+          "value": 3.1,
+          "cell": "AH14"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG14"
+        },
+        "areaKm2": {
+          "value": 99.42,
+          "cell": "H14"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2212,
+          "cell": "Y14"
+        }
+      }
+    },
+    "vic-assembly-11": {
+      "name": "Box Hill",
+      "values": {
+        "population": {
+          "value": 84877,
+          "cell": "C15"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H15"
+        },
+        "medianWeeklyRent": {
+          "value": 410,
+          "cell": "AA15"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH15"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG15"
+        },
+        "areaKm2": {
+          "value": 29.01,
+          "cell": "H15"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1779,
+          "cell": "Y15"
+        }
+      }
+    },
+    "vic-assembly-12": {
+      "name": "Brighton",
+      "values": {
+        "population": {
+          "value": 66052,
+          "cell": "C16"
+        },
+        "medianAge": {
+          "value": 43,
+          "cell": "H16"
+        },
+        "medianWeeklyRent": {
+          "value": 480,
+          "cell": "AA16"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH16"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG16"
+        },
+        "areaKm2": {
+          "value": 20.12,
+          "cell": "H16"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2407,
+          "cell": "Y16"
+        }
+      }
+    },
+    "vic-assembly-13": {
+      "name": "Broadmeadows",
+      "values": {
+        "population": {
+          "value": 80455,
+          "cell": "C17"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H17"
+        },
+        "medianWeeklyRent": {
+          "value": 356,
+          "cell": "AA17"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH17"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG17"
+        },
+        "areaKm2": {
+          "value": 46.68,
+          "cell": "H17"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1433,
+          "cell": "Y17"
+        }
+      }
+    },
+    "vic-assembly-14": {
+      "name": "Brunswick",
+      "values": {
+        "population": {
+          "value": 68755,
+          "cell": "C18"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H18"
+        },
+        "medianWeeklyRent": {
+          "value": 450,
+          "cell": "AA18"
+        },
+        "averageHouseholdSize": {
+          "value": 2.1,
+          "cell": "AH18"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG18"
+        },
+        "areaKm2": {
+          "value": 14.08,
+          "cell": "H18"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2134,
+          "cell": "Y18"
+        }
+      }
+    },
+    "vic-assembly-15": {
+      "name": "Bulleen",
+      "values": {
+        "population": {
+          "value": 74860,
+          "cell": "C19"
+        },
+        "medianAge": {
+          "value": 44,
+          "cell": "H19"
+        },
+        "medianWeeklyRent": {
+          "value": 462,
+          "cell": "AA19"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH19"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG19"
+        },
+        "areaKm2": {
+          "value": 39.33,
+          "cell": "H19"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1823,
+          "cell": "Y19"
+        }
+      }
+    },
+    "vic-assembly-16": {
+      "name": "Bundoora",
+      "values": {
+        "population": {
+          "value": 69391,
+          "cell": "C20"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H20"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA20"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH20"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG20"
+        },
+        "areaKm2": {
+          "value": 35.32,
+          "cell": "H20"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1794,
+          "cell": "Y20"
+        }
+      }
+    },
+    "vic-assembly-17": {
+      "name": "Carrum",
+      "values": {
+        "population": {
+          "value": 74266,
+          "cell": "C21"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H21"
+        },
+        "medianWeeklyRent": {
+          "value": 391,
+          "cell": "AA21"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH21"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG21"
+        },
+        "areaKm2": {
+          "value": 86.64,
+          "cell": "H21"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1865,
+          "cell": "Y21"
+        }
+      }
+    },
+    "vic-assembly-18": {
+      "name": "Caulfield",
+      "values": {
+        "population": {
+          "value": 71168,
+          "cell": "C22"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H22"
+        },
+        "medianWeeklyRent": {
+          "value": 415,
+          "cell": "AA22"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH22"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG22"
+        },
+        "areaKm2": {
+          "value": 17.35,
+          "cell": "H22"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2124,
+          "cell": "Y22"
+        }
+      }
+    },
+    "vic-assembly-19": {
+      "name": "Clarinda",
+      "values": {
+        "population": {
+          "value": 73588,
+          "cell": "C23"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H23"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA23"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH23"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG23"
+        },
+        "areaKm2": {
+          "value": 45.02,
+          "cell": "H23"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1714,
+          "cell": "Y23"
+        }
+      }
+    },
+    "vic-assembly-20": {
+      "name": "Cranbourne",
+      "values": {
+        "population": {
+          "value": 87239,
+          "cell": "C24"
+        },
+        "medianAge": {
+          "value": 32,
+          "cell": "H24"
+        },
+        "medianWeeklyRent": {
+          "value": 380,
+          "cell": "AA24"
+        },
+        "averageHouseholdSize": {
+          "value": 3,
+          "cell": "AH24"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG24"
+        },
+        "areaKm2": {
+          "value": 63.28,
+          "cell": "H24"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1847,
+          "cell": "Y24"
+        }
+      }
+    },
+    "vic-assembly-21": {
+      "name": "Croydon",
+      "values": {
+        "population": {
+          "value": 74473,
+          "cell": "C25"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H25"
+        },
+        "medianWeeklyRent": {
+          "value": 385,
+          "cell": "AA25"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH25"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG25"
+        },
+        "areaKm2": {
+          "value": 41.99,
+          "cell": "H25"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1762,
+          "cell": "Y25"
+        }
+      }
+    },
+    "vic-assembly-22": {
+      "name": "Dandenong",
+      "values": {
+        "population": {
+          "value": 89531,
+          "cell": "C26"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H26"
+        },
+        "medianWeeklyRent": {
+          "value": 330,
+          "cell": "AA26"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH26"
+        },
+        "personsPerBedroom": {
+          "value": 1,
+          "cell": "AG26"
+        },
+        "areaKm2": {
+          "value": 57.82,
+          "cell": "H26"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1349,
+          "cell": "Y26"
+        }
+      }
+    },
+    "vic-assembly-23": {
+      "name": "Eildon",
+      "values": {
+        "population": {
+          "value": 66341,
+          "cell": "C27"
+        },
+        "medianAge": {
+          "value": 46,
+          "cell": "H27"
+        },
+        "medianWeeklyRent": {
+          "value": 310,
+          "cell": "AA27"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH27"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG27"
+        },
+        "areaKm2": {
+          "value": 10060.66,
+          "cell": "H27"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1486,
+          "cell": "Y27"
+        }
+      }
+    },
+    "vic-assembly-24": {
+      "name": "Eltham",
+      "values": {
+        "population": {
+          "value": 66329,
+          "cell": "C28"
+        },
+        "medianAge": {
+          "value": 42,
+          "cell": "H28"
+        },
+        "medianWeeklyRent": {
+          "value": 427,
+          "cell": "AA28"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH28"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG28"
+        },
+        "areaKm2": {
+          "value": 72.92,
+          "cell": "H28"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2358,
+          "cell": "Y28"
+        }
+      }
+    },
+    "vic-assembly-25": {
+      "name": "Essendon",
+      "values": {
+        "population": {
+          "value": 70088,
+          "cell": "C29"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H29"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA29"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH29"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG29"
+        },
+        "areaKm2": {
+          "value": 24.29,
+          "cell": "H29"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2054,
+          "cell": "Y29"
+        }
+      }
+    },
+    "vic-assembly-26": {
+      "name": "Eureka",
+      "values": {
+        "population": {
+          "value": 75628,
+          "cell": "C30"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H30"
+        },
+        "medianWeeklyRent": {
+          "value": 300,
+          "cell": "AA30"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH30"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG30"
+        },
+        "areaKm2": {
+          "value": 3915.29,
+          "cell": "H30"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1625,
+          "cell": "Y30"
+        }
+      }
+    },
+    "vic-assembly-27": {
+      "name": "Euroa",
+      "values": {
+        "population": {
+          "value": 66503,
+          "cell": "C31"
+        },
+        "medianAge": {
+          "value": 48,
+          "cell": "H31"
+        },
+        "medianWeeklyRent": {
+          "value": 264,
+          "cell": "AA31"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH31"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG31"
+        },
+        "areaKm2": {
+          "value": 11451.72,
+          "cell": "H31"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1288,
+          "cell": "Y31"
+        }
+      }
+    },
+    "vic-assembly-28": {
+      "name": "Evelyn",
+      "values": {
+        "population": {
+          "value": 69153,
+          "cell": "C32"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H32"
+        },
+        "medianWeeklyRent": {
+          "value": 390,
+          "cell": "AA32"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH32"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG32"
+        },
+        "areaKm2": {
+          "value": 254.81,
+          "cell": "H32"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2005,
+          "cell": "Y32"
+        }
+      }
+    },
+    "vic-assembly-29": {
+      "name": "Footscray",
+      "values": {
+        "population": {
+          "value": 72597,
+          "cell": "C33"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H33"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA33"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH33"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG33"
+        },
+        "areaKm2": {
+          "value": 23,
+          "cell": "H33"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2043,
+          "cell": "Y33"
+        }
+      }
+    },
+    "vic-assembly-30": {
+      "name": "Frankston",
+      "values": {
+        "population": {
+          "value": 68472,
+          "cell": "C34"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H34"
+        },
+        "medianWeeklyRent": {
+          "value": 345,
+          "cell": "AA34"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH34"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG34"
+        },
+        "areaKm2": {
+          "value": 42.98,
+          "cell": "H34"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1451,
+          "cell": "Y34"
+        }
+      }
+    },
+    "vic-assembly-31": {
+      "name": "Geelong",
+      "values": {
+        "population": {
+          "value": 71971,
+          "cell": "C35"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H35"
+        },
+        "medianWeeklyRent": {
+          "value": 330,
+          "cell": "AA35"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH35"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG35"
+        },
+        "areaKm2": {
+          "value": 328.46,
+          "cell": "H35"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1563,
+          "cell": "Y35"
+        }
+      }
+    },
+    "vic-assembly-32": {
+      "name": "Gippsland East",
+      "values": {
+        "population": {
+          "value": 63901,
+          "cell": "C36"
+        },
+        "medianAge": {
+          "value": 50,
+          "cell": "H36"
+        },
+        "medianWeeklyRent": {
+          "value": 260,
+          "cell": "AA36"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH36"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG36"
+        },
+        "areaKm2": {
+          "value": 27544.1,
+          "cell": "H36"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1155,
+          "cell": "Y36"
+        }
+      }
+    },
+    "vic-assembly-33": {
+      "name": "Gippsland South",
+      "values": {
+        "population": {
+          "value": 65853,
+          "cell": "C37"
+        },
+        "medianAge": {
+          "value": 47,
+          "cell": "H37"
+        },
+        "medianWeeklyRent": {
+          "value": 260,
+          "cell": "AA37"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH37"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG37"
+        },
+        "areaKm2": {
+          "value": 8231.52,
+          "cell": "H37"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1273,
+          "cell": "Y37"
+        }
+      }
+    },
+    "vic-assembly-34": {
+      "name": "Glen Waverley",
+      "values": {
+        "population": {
+          "value": 82290,
+          "cell": "C38"
+        },
+        "medianAge": {
+          "value": 42,
+          "cell": "H38"
+        },
+        "medianWeeklyRent": {
+          "value": 462,
+          "cell": "AA38"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH38"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG38"
+        },
+        "areaKm2": {
+          "value": 36.28,
+          "cell": "H38"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1924,
+          "cell": "Y38"
+        }
+      }
+    },
+    "vic-assembly-35": {
+      "name": "Greenvale",
+      "values": {
+        "population": {
+          "value": 77159,
+          "cell": "C39"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H39"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA39"
+        },
+        "averageHouseholdSize": {
+          "value": 3.3,
+          "cell": "AH39"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG39"
+        },
+        "areaKm2": {
+          "value": 60.08,
+          "cell": "H39"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1728,
+          "cell": "Y39"
+        }
+      }
+    },
+    "vic-assembly-36": {
+      "name": "Hastings",
+      "values": {
+        "population": {
+          "value": 66617,
+          "cell": "C40"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H40"
+        },
+        "medianWeeklyRent": {
+          "value": 351,
+          "cell": "AA40"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH40"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG40"
+        },
+        "areaKm2": {
+          "value": 395.48,
+          "cell": "H40"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1692,
+          "cell": "Y40"
+        }
+      }
+    },
+    "vic-assembly-37": {
+      "name": "Hawthorn",
+      "values": {
+        "population": {
+          "value": 70680,
+          "cell": "C41"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H41"
+        },
+        "medianWeeklyRent": {
+          "value": 425,
+          "cell": "AA41"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH41"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG41"
+        },
+        "areaKm2": {
+          "value": 21.01,
+          "cell": "H41"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2306,
+          "cell": "Y41"
+        }
+      }
+    },
+    "vic-assembly-38": {
+      "name": "Ivanhoe",
+      "values": {
+        "population": {
+          "value": 66225,
+          "cell": "C42"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H42"
+        },
+        "medianWeeklyRent": {
+          "value": 399,
+          "cell": "AA42"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH42"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG42"
+        },
+        "areaKm2": {
+          "value": 31.28,
+          "cell": "H42"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2062,
+          "cell": "Y42"
+        }
+      }
+    },
+    "vic-assembly-39": {
+      "name": "Kalkallo",
+      "values": {
+        "population": {
+          "value": 95389,
+          "cell": "C43"
+        },
+        "medianAge": {
+          "value": 31,
+          "cell": "H43"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA43"
+        },
+        "averageHouseholdSize": {
+          "value": 3.2,
+          "cell": "AH43"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG43"
+        },
+        "areaKm2": {
+          "value": 261.72,
+          "cell": "H43"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1901,
+          "cell": "Y43"
+        }
+      }
+    },
+    "vic-assembly-40": {
+      "name": "Kew",
+      "values": {
+        "population": {
+          "value": 73612,
+          "cell": "C44"
+        },
+        "medianAge": {
+          "value": 42,
+          "cell": "H44"
+        },
+        "medianWeeklyRent": {
+          "value": 491,
+          "cell": "AA44"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH44"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG44"
+        },
+        "areaKm2": {
+          "value": 31.07,
+          "cell": "H44"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2353,
+          "cell": "Y44"
+        }
+      }
+    },
+    "vic-assembly-41": {
+      "name": "Kororoit",
+      "values": {
+        "population": {
+          "value": 87201,
+          "cell": "C45"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H45"
+        },
+        "medianWeeklyRent": {
+          "value": 375,
+          "cell": "AA45"
+        },
+        "averageHouseholdSize": {
+          "value": 3.1,
+          "cell": "AH45"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG45"
+        },
+        "areaKm2": {
+          "value": 123.9,
+          "cell": "H45"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1837,
+          "cell": "Y45"
+        }
+      }
+    },
+    "vic-assembly-42": {
+      "name": "Lara",
+      "values": {
+        "population": {
+          "value": 70504,
+          "cell": "C46"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H46"
+        },
+        "medianWeeklyRent": {
+          "value": 300,
+          "cell": "AA46"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH46"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG46"
+        },
+        "areaKm2": {
+          "value": 701.5,
+          "cell": "H46"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1408,
+          "cell": "Y46"
+        }
+      }
+    },
+    "vic-assembly-43": {
+      "name": "Laverton",
+      "values": {
+        "population": {
+          "value": 94534,
+          "cell": "C47"
+        },
+        "medianAge": {
+          "value": 33,
+          "cell": "H47"
+        },
+        "medianWeeklyRent": {
+          "value": 361,
+          "cell": "AA47"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH47"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG47"
+        },
+        "areaKm2": {
+          "value": 87.4,
+          "cell": "H47"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1795,
+          "cell": "Y47"
+        }
+      }
+    },
+    "vic-assembly-44": {
+      "name": "Lowan",
+      "values": {
+        "population": {
+          "value": 68313,
+          "cell": "C48"
+        },
+        "medianAge": {
+          "value": 47,
+          "cell": "H48"
+        },
+        "medianWeeklyRent": {
+          "value": 210,
+          "cell": "AA48"
+        },
+        "averageHouseholdSize": {
+          "value": 2.2,
+          "cell": "AH48"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG48"
+        },
+        "areaKm2": {
+          "value": 41857.8,
+          "cell": "H48"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1252,
+          "cell": "Y48"
+        }
+      }
+    },
+    "vic-assembly-45": {
+      "name": "Macedon",
+      "values": {
+        "population": {
+          "value": 64175,
+          "cell": "C49"
+        },
+        "medianAge": {
+          "value": 45,
+          "cell": "H49"
+        },
+        "medianWeeklyRent": {
+          "value": 371,
+          "cell": "AA49"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH49"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG49"
+        },
+        "areaKm2": {
+          "value": 3366.11,
+          "cell": "H49"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1884,
+          "cell": "Y49"
+        }
+      }
+    },
+    "vic-assembly-46": {
+      "name": "Malvern",
+      "values": {
+        "population": {
+          "value": 64450,
+          "cell": "C50"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H50"
+        },
+        "medianWeeklyRent": {
+          "value": 430,
+          "cell": "AA50"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH50"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG50"
+        },
+        "areaKm2": {
+          "value": 20.19,
+          "cell": "H50"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2374,
+          "cell": "Y50"
+        }
+      }
+    },
+    "vic-assembly-47": {
+      "name": "Melbourne",
+      "values": {
+        "population": {
+          "value": 118384,
+          "cell": "C51"
+        },
+        "medianAge": {
+          "value": 29,
+          "cell": "H51"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA51"
+        },
+        "averageHouseholdSize": {
+          "value": 1.8,
+          "cell": "AH51"
+        },
+        "personsPerBedroom": {
+          "value": 1,
+          "cell": "AG51"
+        },
+        "areaKm2": {
+          "value": 24.51,
+          "cell": "H51"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1572,
+          "cell": "Y51"
+        }
+      }
+    },
+    "vic-assembly-48": {
+      "name": "Melton",
+      "values": {
+        "population": {
+          "value": 82799,
+          "cell": "C52"
+        },
+        "medianAge": {
+          "value": 33,
+          "cell": "H52"
+        },
+        "medianWeeklyRent": {
+          "value": 331,
+          "cell": "AA52"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH52"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG52"
+        },
+        "areaKm2": {
+          "value": 332.02,
+          "cell": "H52"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1576,
+          "cell": "Y52"
+        }
+      }
+    },
+    "vic-assembly-49": {
+      "name": "Mildura",
+      "values": {
+        "population": {
+          "value": 69753,
+          "cell": "C53"
+        },
+        "medianAge": {
+          "value": 41,
+          "cell": "H53"
+        },
+        "medianWeeklyRent": {
+          "value": 250,
+          "cell": "AA53"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH53"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG53"
+        },
+        "areaKm2": {
+          "value": 37528.84,
+          "cell": "H53"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1309,
+          "cell": "Y53"
+        }
+      }
+    },
+    "vic-assembly-50": {
+      "name": "Mill Park",
+      "values": {
+        "population": {
+          "value": 68500,
+          "cell": "C54"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H54"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA54"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH54"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG54"
+        },
+        "areaKm2": {
+          "value": 41.97,
+          "cell": "H54"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1828,
+          "cell": "Y54"
+        }
+      }
+    },
+    "vic-assembly-51": {
+      "name": "Monbulk",
+      "values": {
+        "population": {
+          "value": 66013,
+          "cell": "C55"
+        },
+        "medianAge": {
+          "value": 42,
+          "cell": "H55"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA55"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH55"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG55"
+        },
+        "areaKm2": {
+          "value": 458.56,
+          "cell": "H55"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2048,
+          "cell": "Y55"
+        }
+      }
+    },
+    "vic-assembly-52": {
+      "name": "Mordialloc",
+      "values": {
+        "population": {
+          "value": 72698,
+          "cell": "C56"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H56"
+        },
+        "medianWeeklyRent": {
+          "value": 421,
+          "cell": "AA56"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH56"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG56"
+        },
+        "areaKm2": {
+          "value": 56.02,
+          "cell": "H56"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2151,
+          "cell": "Y56"
+        }
+      }
+    },
+    "vic-assembly-53": {
+      "name": "Mornington",
+      "values": {
+        "population": {
+          "value": 65261,
+          "cell": "C57"
+        },
+        "medianAge": {
+          "value": 47,
+          "cell": "H57"
+        },
+        "medianWeeklyRent": {
+          "value": 440,
+          "cell": "AA57"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH57"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG57"
+        },
+        "areaKm2": {
+          "value": 154.63,
+          "cell": "H57"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1900,
+          "cell": "Y57"
+        }
+      }
+    },
+    "vic-assembly-54": {
+      "name": "Morwell",
+      "values": {
+        "population": {
+          "value": 72501,
+          "cell": "C58"
+        },
+        "medianAge": {
+          "value": 41,
+          "cell": "H58"
+        },
+        "medianWeeklyRent": {
+          "value": 236,
+          "cell": "AA58"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH58"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG58"
+        },
+        "areaKm2": {
+          "value": 907.54,
+          "cell": "H58"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1243,
+          "cell": "Y58"
+        }
+      }
+    },
+    "vic-assembly-55": {
+      "name": "Mulgrave",
+      "values": {
+        "population": {
+          "value": 77039,
+          "cell": "C59"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H59"
+        },
+        "medianWeeklyRent": {
+          "value": 369,
+          "cell": "AA59"
+        },
+        "averageHouseholdSize": {
+          "value": 2.7,
+          "cell": "AH59"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG59"
+        },
+        "areaKm2": {
+          "value": 35.54,
+          "cell": "H59"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1537,
+          "cell": "Y59"
+        }
+      }
+    },
+    "vic-assembly-56": {
+      "name": "Murray Plains",
+      "values": {
+        "population": {
+          "value": 64766,
+          "cell": "C60"
+        },
+        "medianAge": {
+          "value": 45,
+          "cell": "H60"
+        },
+        "medianWeeklyRent": {
+          "value": 230,
+          "cell": "AA60"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH60"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG60"
+        },
+        "areaKm2": {
+          "value": 11921.14,
+          "cell": "H60"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1270,
+          "cell": "Y60"
+        }
+      }
+    },
+    "vic-assembly-57": {
+      "name": "Narracan",
+      "values": {
+        "population": {
+          "value": 67344,
+          "cell": "C61"
+        },
+        "medianAge": {
+          "value": 41,
+          "cell": "H61"
+        },
+        "medianWeeklyRent": {
+          "value": 320,
+          "cell": "AA61"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH61"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG61"
+        },
+        "areaKm2": {
+          "value": 4502.8,
+          "cell": "H61"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1541,
+          "cell": "Y61"
+        }
+      }
+    },
+    "vic-assembly-58": {
+      "name": "Narre Warren North",
+      "values": {
+        "population": {
+          "value": 77866,
+          "cell": "C62"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H62"
+        },
+        "medianWeeklyRent": {
+          "value": 365,
+          "cell": "AA62"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH62"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG62"
+        },
+        "areaKm2": {
+          "value": 69.87,
+          "cell": "H62"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1778,
+          "cell": "Y62"
+        }
+      }
+    },
+    "vic-assembly-59": {
+      "name": "Narre Warren South",
+      "values": {
+        "population": {
+          "value": 90803,
+          "cell": "C63"
+        },
+        "medianAge": {
+          "value": 33,
+          "cell": "H63"
+        },
+        "medianWeeklyRent": {
+          "value": 380,
+          "cell": "AA63"
+        },
+        "averageHouseholdSize": {
+          "value": 3.3,
+          "cell": "AH63"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG63"
+        },
+        "areaKm2": {
+          "value": 39.55,
+          "cell": "H63"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1914,
+          "cell": "Y63"
+        }
+      }
+    },
+    "vic-assembly-60": {
+      "name": "Nepean",
+      "values": {
+        "population": {
+          "value": 62149,
+          "cell": "C64"
+        },
+        "medianAge": {
+          "value": 53,
+          "cell": "H64"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA64"
+        },
+        "averageHouseholdSize": {
+          "value": 2.2,
+          "cell": "AH64"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG64"
+        },
+        "areaKm2": {
+          "value": 387.25,
+          "cell": "H64"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1353,
+          "cell": "Y64"
+        }
+      }
+    },
+    "vic-assembly-61": {
+      "name": "Niddrie",
+      "values": {
+        "population": {
+          "value": 68768,
+          "cell": "C65"
+        },
+        "medianAge": {
+          "value": 42,
+          "cell": "H65"
+        },
+        "medianWeeklyRent": {
+          "value": 406,
+          "cell": "AA65"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH65"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG65"
+        },
+        "areaKm2": {
+          "value": 39.16,
+          "cell": "H65"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1939,
+          "cell": "Y65"
+        }
+      }
+    },
+    "vic-assembly-62": {
+      "name": "Northcote",
+      "values": {
+        "population": {
+          "value": 67269,
+          "cell": "C66"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H66"
+        },
+        "medianWeeklyRent": {
+          "value": 411,
+          "cell": "AA66"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH66"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG66"
+        },
+        "areaKm2": {
+          "value": 21.1,
+          "cell": "H66"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2120,
+          "cell": "Y66"
+        }
+      }
+    },
+    "vic-assembly-63": {
+      "name": "Oakleigh",
+      "values": {
+        "population": {
+          "value": 89812,
+          "cell": "C67"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H67"
+        },
+        "medianWeeklyRent": {
+          "value": 400,
+          "cell": "AA67"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH67"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG67"
+        },
+        "areaKm2": {
+          "value": 32.48,
+          "cell": "H67"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1858,
+          "cell": "Y67"
+        }
+      }
+    },
+    "vic-assembly-64": {
+      "name": "Ovens Valley",
+      "values": {
+        "population": {
+          "value": 63278,
+          "cell": "C68"
+        },
+        "medianAge": {
+          "value": 47,
+          "cell": "H68"
+        },
+        "medianWeeklyRent": {
+          "value": 260,
+          "cell": "AA68"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH68"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG68"
+        },
+        "areaKm2": {
+          "value": 10557.97,
+          "cell": "H68"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1288,
+          "cell": "Y68"
+        }
+      }
+    },
+    "vic-assembly-65": {
+      "name": "Pakenham",
+      "values": {
+        "population": {
+          "value": 76217,
+          "cell": "C69"
+        },
+        "medianAge": {
+          "value": 32,
+          "cell": "H69"
+        },
+        "medianWeeklyRent": {
+          "value": 361,
+          "cell": "AA69"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH69"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG69"
+        },
+        "areaKm2": {
+          "value": 225.98,
+          "cell": "H69"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1806,
+          "cell": "Y69"
+        }
+      }
+    },
+    "vic-assembly-66": {
+      "name": "Pascoe Vale",
+      "values": {
+        "population": {
+          "value": 68954,
+          "cell": "C70"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H70"
+        },
+        "medianWeeklyRent": {
+          "value": 400,
+          "cell": "AA70"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH70"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG70"
+        },
+        "areaKm2": {
+          "value": 20.81,
+          "cell": "H70"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2015,
+          "cell": "Y70"
+        }
+      }
+    },
+    "vic-assembly-67": {
+      "name": "Point Cook",
+      "values": {
+        "population": {
+          "value": 92601,
+          "cell": "C71"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H71"
+        },
+        "medianWeeklyRent": {
+          "value": 390,
+          "cell": "AA71"
+        },
+        "averageHouseholdSize": {
+          "value": 3,
+          "cell": "AH71"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG71"
+        },
+        "areaKm2": {
+          "value": 88.15,
+          "cell": "H71"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2179,
+          "cell": "Y71"
+        }
+      }
+    },
+    "vic-assembly-68": {
+      "name": "Polwarth",
+      "values": {
+        "population": {
+          "value": 70190,
+          "cell": "C72"
+        },
+        "medianAge": {
+          "value": 44,
+          "cell": "H72"
+        },
+        "medianWeeklyRent": {
+          "value": 320,
+          "cell": "AA72"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH72"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG72"
+        },
+        "areaKm2": {
+          "value": 8860.13,
+          "cell": "H72"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1592,
+          "cell": "Y72"
+        }
+      }
+    },
+    "vic-assembly-69": {
+      "name": "Prahran",
+      "values": {
+        "population": {
+          "value": 72798,
+          "cell": "C73"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H73"
+        },
+        "medianWeeklyRent": {
+          "value": 415,
+          "cell": "AA73"
+        },
+        "averageHouseholdSize": {
+          "value": 1.8,
+          "cell": "AH73"
+        },
+        "personsPerBedroom": {
+          "value": 1,
+          "cell": "AG73"
+        },
+        "areaKm2": {
+          "value": 10.85,
+          "cell": "H73"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2037,
+          "cell": "Y73"
+        }
+      }
+    },
+    "vic-assembly-70": {
+      "name": "Preston",
+      "values": {
+        "population": {
+          "value": 74143,
+          "cell": "C74"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H74"
+        },
+        "medianWeeklyRent": {
+          "value": 369,
+          "cell": "AA74"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH74"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG74"
+        },
+        "areaKm2": {
+          "value": 27.05,
+          "cell": "H74"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1611,
+          "cell": "Y74"
+        }
+      }
+    },
+    "vic-assembly-71": {
+      "name": "Richmond",
+      "values": {
+        "population": {
+          "value": 66866,
+          "cell": "C75"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H75"
+        },
+        "medianWeeklyRent": {
+          "value": 450,
+          "cell": "AA75"
+        },
+        "averageHouseholdSize": {
+          "value": 2,
+          "cell": "AH75"
+        },
+        "personsPerBedroom": {
+          "value": 1,
+          "cell": "AG75"
+        },
+        "areaKm2": {
+          "value": 12.5,
+          "cell": "H75"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2256,
+          "cell": "Y75"
+        }
+      }
+    },
+    "vic-assembly-72": {
+      "name": "Ringwood",
+      "values": {
+        "population": {
+          "value": 80319,
+          "cell": "C76"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H76"
+        },
+        "medianWeeklyRent": {
+          "value": 391,
+          "cell": "AA76"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH76"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG76"
+        },
+        "areaKm2": {
+          "value": 35.27,
+          "cell": "H76"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1893,
+          "cell": "Y76"
+        }
+      }
+    },
+    "vic-assembly-73": {
+      "name": "Ripon",
+      "values": {
+        "population": {
+          "value": 67865,
+          "cell": "C77"
+        },
+        "medianAge": {
+          "value": 46,
+          "cell": "H77"
+        },
+        "medianWeeklyRent": {
+          "value": 250,
+          "cell": "AA77"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH77"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG77"
+        },
+        "areaKm2": {
+          "value": 14444.11,
+          "cell": "H77"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1236,
+          "cell": "Y77"
+        }
+      }
+    },
+    "vic-assembly-74": {
+      "name": "Rowville",
+      "values": {
+        "population": {
+          "value": 71156,
+          "cell": "C78"
+        },
+        "medianAge": {
+          "value": 41,
+          "cell": "H78"
+        },
+        "medianWeeklyRent": {
+          "value": 435,
+          "cell": "AA78"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH78"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG78"
+        },
+        "areaKm2": {
+          "value": 61.81,
+          "cell": "H78"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2115,
+          "cell": "Y78"
+        }
+      }
+    },
+    "vic-assembly-75": {
+      "name": "Sandringham",
+      "values": {
+        "population": {
+          "value": 63135,
+          "cell": "C79"
+        },
+        "medianAge": {
+          "value": 44,
+          "cell": "H79"
+        },
+        "medianWeeklyRent": {
+          "value": 438,
+          "cell": "AA79"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH79"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG79"
+        },
+        "areaKm2": {
+          "value": 24,
+          "cell": "H79"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2229,
+          "cell": "Y79"
+        }
+      }
+    },
+    "vic-assembly-76": {
+      "name": "Shepparton",
+      "values": {
+        "population": {
+          "value": 74598,
+          "cell": "C80"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H80"
+        },
+        "medianWeeklyRent": {
+          "value": 260,
+          "cell": "AA80"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH80"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG80"
+        },
+        "areaKm2": {
+          "value": 3289.2,
+          "cell": "H80"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1373,
+          "cell": "Y80"
+        }
+      }
+    },
+    "vic-assembly-77": {
+      "name": "South Barwon",
+      "values": {
+        "population": {
+          "value": 72790,
+          "cell": "C81"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H81"
+        },
+        "medianWeeklyRent": {
+          "value": 400,
+          "cell": "AA81"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH81"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG81"
+        },
+        "areaKm2": {
+          "value": 360.79,
+          "cell": "H81"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1953,
+          "cell": "Y81"
+        }
+      }
+    },
+    "vic-assembly-78": {
+      "name": "South-West Coast",
+      "values": {
+        "population": {
+          "value": 70016,
+          "cell": "C82"
+        },
+        "medianAge": {
+          "value": 44,
+          "cell": "H82"
+        },
+        "medianWeeklyRent": {
+          "value": 270,
+          "cell": "AA82"
+        },
+        "averageHouseholdSize": {
+          "value": 2.4,
+          "cell": "AH82"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG82"
+        },
+        "areaKm2": {
+          "value": 6576.22,
+          "cell": "H82"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1407,
+          "cell": "Y82"
+        }
+      }
+    },
+    "vic-assembly-79": {
+      "name": "St Albans",
+      "values": {
+        "population": {
+          "value": 74487,
+          "cell": "C83"
+        },
+        "medianAge": {
+          "value": 37,
+          "cell": "H83"
+        },
+        "medianWeeklyRent": {
+          "value": 338,
+          "cell": "AA83"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH83"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG83"
+        },
+        "areaKm2": {
+          "value": 35.05,
+          "cell": "H83"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1382,
+          "cell": "Y83"
+        }
+      }
+    },
+    "vic-assembly-80": {
+      "name": "Sunbury",
+      "values": {
+        "population": {
+          "value": 63211,
+          "cell": "C84"
+        },
+        "medianAge": {
+          "value": 38,
+          "cell": "H84"
+        },
+        "medianWeeklyRent": {
+          "value": 370,
+          "cell": "AA84"
+        },
+        "averageHouseholdSize": {
+          "value": 2.6,
+          "cell": "AH84"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG84"
+        },
+        "areaKm2": {
+          "value": 339.79,
+          "cell": "H84"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1798,
+          "cell": "Y84"
+        }
+      }
+    },
+    "vic-assembly-81": {
+      "name": "Sydenham",
+      "values": {
+        "population": {
+          "value": 77258,
+          "cell": "C85"
+        },
+        "medianAge": {
+          "value": 36,
+          "cell": "H85"
+        },
+        "medianWeeklyRent": {
+          "value": 381,
+          "cell": "AA85"
+        },
+        "averageHouseholdSize": {
+          "value": 3.1,
+          "cell": "AH85"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG85"
+        },
+        "areaKm2": {
+          "value": 95.93,
+          "cell": "H85"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2111,
+          "cell": "Y85"
+        }
+      }
+    },
+    "vic-assembly-82": {
+      "name": "Tarneit",
+      "values": {
+        "population": {
+          "value": 92876,
+          "cell": "C86"
+        },
+        "medianAge": {
+          "value": 32,
+          "cell": "H86"
+        },
+        "medianWeeklyRent": {
+          "value": 361,
+          "cell": "AA86"
+        },
+        "averageHouseholdSize": {
+          "value": 3.2,
+          "cell": "AH86"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG86"
+        },
+        "areaKm2": {
+          "value": 76.38,
+          "cell": "H86"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1892,
+          "cell": "Y86"
+        }
+      }
+    },
+    "vic-assembly-83": {
+      "name": "Thomastown",
+      "values": {
+        "population": {
+          "value": 77695,
+          "cell": "C87"
+        },
+        "medianAge": {
+          "value": 35,
+          "cell": "H87"
+        },
+        "medianWeeklyRent": {
+          "value": 361,
+          "cell": "AA87"
+        },
+        "averageHouseholdSize": {
+          "value": 2.9,
+          "cell": "AH87"
+        },
+        "personsPerBedroom": {
+          "value": 0.9,
+          "cell": "AG87"
+        },
+        "areaKm2": {
+          "value": 90.59,
+          "cell": "H87"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1521,
+          "cell": "Y87"
+        }
+      }
+    },
+    "vic-assembly-84": {
+      "name": "Warrandyte",
+      "values": {
+        "population": {
+          "value": 73719,
+          "cell": "C88"
+        },
+        "medianAge": {
+          "value": 43,
+          "cell": "H88"
+        },
+        "medianWeeklyRent": {
+          "value": 458,
+          "cell": "AA88"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH88"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG88"
+        },
+        "areaKm2": {
+          "value": 106.66,
+          "cell": "H88"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2176,
+          "cell": "Y88"
+        }
+      }
+    },
+    "vic-assembly-85": {
+      "name": "Wendouree",
+      "values": {
+        "population": {
+          "value": 68566,
+          "cell": "C89"
+        },
+        "medianAge": {
+          "value": 39,
+          "cell": "H89"
+        },
+        "medianWeeklyRent": {
+          "value": 290,
+          "cell": "AA89"
+        },
+        "averageHouseholdSize": {
+          "value": 2.3,
+          "cell": "AH89"
+        },
+        "personsPerBedroom": {
+          "value": 0.7,
+          "cell": "AG89"
+        },
+        "areaKm2": {
+          "value": 64.02,
+          "cell": "H89"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1351,
+          "cell": "Y89"
+        }
+      }
+    },
+    "vic-assembly-86": {
+      "name": "Werribee",
+      "values": {
+        "population": {
+          "value": 84281,
+          "cell": "C90"
+        },
+        "medianAge": {
+          "value": 33,
+          "cell": "H90"
+        },
+        "medianWeeklyRent": {
+          "value": 340,
+          "cell": "AA90"
+        },
+        "averageHouseholdSize": {
+          "value": 2.8,
+          "cell": "AH90"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG90"
+        },
+        "areaKm2": {
+          "value": 338.91,
+          "cell": "H90"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 1778,
+          "cell": "Y90"
+        }
+      }
+    },
+    "vic-assembly-87": {
+      "name": "Williamstown",
+      "values": {
+        "population": {
+          "value": 66083,
+          "cell": "C91"
+        },
+        "medianAge": {
+          "value": 40,
+          "cell": "H91"
+        },
+        "medianWeeklyRent": {
+          "value": 420,
+          "cell": "AA91"
+        },
+        "averageHouseholdSize": {
+          "value": 2.5,
+          "cell": "AH91"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG91"
+        },
+        "areaKm2": {
+          "value": 51.54,
+          "cell": "H91"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2169,
+          "cell": "Y91"
+        }
+      }
+    },
+    "vic-assembly-88": {
+      "name": "Yan Yean",
+      "values": {
+        "population": {
+          "value": 73170,
+          "cell": "C92"
+        },
+        "medianAge": {
+          "value": 34,
+          "cell": "H92"
+        },
+        "medianWeeklyRent": {
+          "value": 388,
+          "cell": "AA92"
+        },
+        "averageHouseholdSize": {
+          "value": 3,
+          "cell": "AH92"
+        },
+        "personsPerBedroom": {
+          "value": 0.8,
+          "cell": "AG92"
+        },
+        "areaKm2": {
+          "value": 611.01,
+          "cell": "H92"
+        },
+        "medianWeeklyHouseholdIncome": {
+          "value": 2087,
+          "cell": "Y92"
+        }
+      }
+    }
+  }
+}

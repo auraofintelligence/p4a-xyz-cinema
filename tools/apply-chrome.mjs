@@ -10,7 +10,7 @@ import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 
 const ROOT = join(import.meta.dirname, '..');
-const VERSION = '20260707-cinema';
+const VERSION = '20261002-publication';
 
 const htmlFiles = [];
 const walk = (dir) => {

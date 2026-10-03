@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-10-02",
+  "licence": "CC BY 4.0",
+  "attribution": "State of Victoria (Victorian Electoral Commission), Vicmap Admin",
+  "boundaryEdition": "2020\u201321 redivision / 2022 boundaries",
+  "effectiveFrom": "2022-11-01",
+  "coordinateSystem": "EPSG:4326 (longitude, latitude)",
+  "processing": "WFS GeoJSON, original coordinates retained; no simplification, rounding, clipping or ring removal.",
+  "datasets": {
+    "assembly": {
+      "file": "vic-assembly.geojson",
+      "featureCount": 88,
+      "sha256": "6fdfb6d677465535b6fa0434a430772dc213f6d4a3e5fa5eb2f22df7851d70df",
+      "bytes": 26581934,
+      "request": "https://opendata.maps.vic.gov.au/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=open-data-platform%3Astate_assembly_2022&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=1000",
+      "catalogue": "https://discover.data.vic.gov.au/dataset/vicmap-admin-state-assembly-polygon-2022"
+    },
+    "council": {
+      "file": "vic-council.geojson",
+      "featureCount": 8,
+      "sha256": "b3192979734c508598d08c13e7166e3a4588e4d02007362f9f15a4bd8b0b70a6",
+      "bytes": 13487487,
+      "request": "https://opendata.maps.vic.gov.au/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=open-data-platform%3Astate_council_2022&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=1000",
+      "catalogue": "https://discover.data.vic.gov.au/dataset/vicmap-admin-state-council-polygon-2022"
+    }
+  }
+}

@@ -65,3 +65,17 @@ no-change run touches only `content/refresh-log.md`.
 ## Log
 
 Every run appends to [refresh-log.md](refresh-log.md) — one line per jurisdiction checked, even when nothing changed. That log is the cheap path: most runs should end there.
+
+## Victoria electorate atlas
+
+Refresh `content/electorates/vic.md` and `content/states/vic.md` together after membership changes. Reconcile Assembly members plus vacancies to 88 and Council members to 40; join by official district/region codes. Check VEC boundary edition and retain original coordinate sequences, provenance and licence. Never overwrite historical result periods or Census observation years with a retrieval date. Verify nominations after they open; keep announced and formally nominated candidates separate. Archive prior state facts and changed observation periods before regeneration. Build with `pwsh -File tools/build-state-sites.ps1 -StateSlug vic -SkipHistory` then `python tools/build-vic-map.py`; validate the navigation and geometry tests.
+
+
+## Victoria source-use triggers
+
+Consult [source-use register](licences/vic-source-register.md) and [machine-readable conditions](licences/vic-source-register.json) if this personal/public non-commercial research workbench becomes an actual political party, commercial operation, fundraising tool or wider dataset distributor. Check source-specific exceptions; preserve the project licence and community cultural permissions.
+
+
+- Victoria 2026 candidates: refresh all primary directories and campaign confirmations; preserve null announcement dates unless evidenced. Resolve the two AJP source conflicts with future primary updates; retain history separately. Expand unknown party/independent coverage without inferring withdrawal. Before/after 4–9 November, separately reconcile accepted VEC nominations and final ballot labels/order; do not promote an announcement automatically. Validate any changed registration, nomination, voting, donation or authorisation guidance against current VEC/legislation. Canonical source: `content/elections/vic-2026.json`; coverage/review records: `vic-candidate-research.json`.
+
+- Homepage ticker: review `content/home-ticker.json` against its primary sources before changing factual wording. Archive superseded dated claims, keep jurisdiction labels, and run `python tools/build-home-ticker.py`. It is a reviewed issue feed, not automated news. Keep tax amounts out unless specifically sourced and dated. Check countdown election-day/post-election states, hover/focus pause, mobile controls, reduced motion and external-link semantics.

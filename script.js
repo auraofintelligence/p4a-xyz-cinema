@@ -57,38 +57,13 @@ if (document.body?.dataset.page === 'site-map') {
   });
 }
 
-document.querySelectorAll('a[href]').forEach((link) => {
-  const href = link.getAttribute('href');
-  if (!href) return;
-
-  let url;
-  try {
-    url = new URL(href, location.href);
-  } catch {
-    return;
-  }
-
-  const isWebLink = url.protocol === 'http:' || url.protocol === 'https:';
-  if (!isWebLink) return;
-
-  const isSameOrigin = url.origin === location.origin;
-  const currentPathParts = location.pathname.split('/').filter(Boolean);
-  const targetPathParts = url.pathname.split('/').filter(Boolean);
-  const currentRepo = location.hostname.endsWith('github.io') ? currentPathParts[0] : '';
-  const leavesCurrentGithubRepo = Boolean(
-    currentRepo &&
-    isSameOrigin &&
-    targetPathParts[0] &&
-    targetPathParts[0] !== currentRepo
-  );
-  if (isSameOrigin && !leavesCurrentGithubRepo) return;
-
-  link.setAttribute('target', '_blank');
-  const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
-  rel.add('noopener');
-  rel.add('noreferrer');
-  link.setAttribute('rel', Array.from(rel).join(' '));
-});
+(() => {
+  if (window.P4A_LINKS || document.querySelector('script[data-p4a-link-policy]')) return;
+  const policy = document.createElement('script');
+  policy.src = new URL('assets/external-links.js', document.currentScript.src).href;
+  policy.dataset.p4aLinkPolicy = '';
+  document.head.append(policy);
+})();
 
 const ausPostCalculatorUrl = 'https://auspost.com.au/parcels-mail/calculate-postage-delivery-times/#/';
 const fulfilmentOptions = {
@@ -760,6 +735,13 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
   if (!countdowns.length && !mapTargets.length && !stateTargets.length) return;
 
   const dayMs = 86400000;
+  // Calendar-day displays for Victoria must not gain/lose a day at DST changes
+  // or depend on the viewer's device timezone. Clock mode remains elapsed time.
+  const vicCalendarDay = (instant) => {
+    const parts = new Intl.DateTimeFormat('en-AU', { timeZone: 'Australia/Melbourne', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(instant));
+    const n = (type) => Number(parts.find((p) => p.type === type).value);
+    return Date.UTC(n('year'), n('month') - 1, n('day')) / dayMs;
+  };
   const two = (value) => String(value).padStart(2, '0');
   const isByElection = (card) => {
     const scope = (card.getAttribute('data-election-scope') || '').toLowerCase();
@@ -786,6 +768,8 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     const sinceAbs = sinceValid ? Math.abs(sinceDiff) : 0;
     return {
       invalid: false,
+      calendarDays: card.getAttribute('data-state') === 'vic' ? vicCalendarDay(stamp) - vicCalendarDay(Date.now()) : null,
+      calendarSince: card.getAttribute('data-state') === 'vic' && sinceValid ? vicCalendarDay(Date.now()) - vicCalendarDay(sinceStamp) : null,
       diff,
       abs,
       stamp,
@@ -825,8 +809,8 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
       return;
     }
 
-    const elapsedDays = info.sinceInvalid ? 0 : Math.floor(info.sinceAbs / dayMs);
-    const remainingDays = Math.ceil(info.abs / dayMs);
+    const elapsedDays = info.sinceInvalid ? 0 : (info.calendarSince === null ? Math.floor(info.sinceAbs / dayMs) : Math.max(0, info.calendarSince));
+    const remainingDays = info.calendarDays === null ? Math.ceil(info.abs / dayMs) : Math.max(0, info.calendarDays);
     if (untilValue) {
       untilValue.textContent = info.diff >= 0 ? String(Math.max(0, remainingDays)) : '0';
     }
@@ -849,7 +833,7 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     }
 
     const days = Math.floor(info.abs / dayMs);
-    const futureDays = Math.ceil(info.abs / dayMs);
+    const futureDays = info.calendarDays === null ? Math.ceil(info.abs / dayMs) : Math.max(0, info.calendarDays);
     const hours = Math.floor((info.abs % dayMs) / 3600000);
     const minutes = Math.floor((info.abs % 3600000) / 60000);
     const seconds = Math.floor((info.abs % 60000) / 1000);

@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Site Map Tree | P4A</title>
-  <meta name="description" content="A clickable P4A site map tree for the Purple Party for Australia public workbench, including main doors, Markdown guides, civic rooms, state portals, reference pages and official Aura GitHub links out.">
+  <meta name="description" content="A clickable P4A site map tree for the Purple Party for Australia public workbench, including main doors, Markdown guides, civic rooms, state portals, reference pages and connected Aura projects.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260707-cinema">
+  <link rel="stylesheet" href="../styles.css?v=20261002-publication">
 </head>
 <body data-theme="royal" data-page="site-map">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -33,7 +33,7 @@
         <div class="hero-actions">
           <a class="button button-primary" href="#main-doors">Main doors</a>
           <a class="button button-secondary" href="#state-layer">State layer</a>
-          <a class="button button-secondary" href="#official-links-out">Official links out</a>
+          <a class="button button-secondary" href="#official-links-out">Connected projects</a>
         </div>
       </div>
     </section>
@@ -50,7 +50,7 @@
         <a href="#twinkle-series">Twinkle clips</a>
         <a href="#rabbit-rooms">Rabbit rooms</a>
         <a href="#state-layer">State layer</a>
-        <a href="#official-links-out">Official links out</a>
+        <a href="#official-links-out">Connected projects</a>
       </nav>
 
       <div class="site-map-tree reveal">
@@ -69,6 +69,7 @@
             <li><a href="state-history.html">State Histories</a><em>Jurisdiction histories for the state layer.</em></li>
             <li><a href="constitution.html">Purple Party Constitution</a><em>The internal rulebook workbench.</em></li>
             <li><a href="legal-rag.html">Law Engine / Legal RAG</a><em>Legal memory, citations, limits and human review.</em></li>
+            <li><a href="about.html">About the workbench</a><em>Implemented Victoria tools, project status, sources, licence limits and separate sibling projects.</em></li>
             <li><a href="treaty-atlas.html">Treaty Atlas</a><em>Inherited agreements mapped: who they touch, who they serve, whether to keep, renew, modernise or sunset each one.</em></li>
             <li><a href="civic-ledger.html">Civic Ledger</a><em>Public records, contribution trails and repair memory.</em></li>
           </ul>
@@ -130,69 +131,71 @@
 
         <details class="map-branch state-map-branch" id="state-layer" open>
           <summary><span>04</span><strong>State layer</strong><small>Eight portals, each with history, architecture and constitution rooms.</small></summary>
-          <div class="state-tree-grid">
-            <article>
+<p class="election-order-note">Next state and territory general elections, soonest first. Countdown days use each jurisdiction’s local calendar. Tasmania is placed by its expected year, without an invented polling date. Passed dates move to the end until refreshed. Sources checked 2 October 2026; statutory dates can change under legal exceptions.</p>
+<div class="state-tree-grid" data-election-grid><article data-election-state="vic">
+              <h3>Victoria</h3><p class="state-election-date"><strong data-election-label>2026-11-28</strong><br><span data-election-countdown></span><small>Commission date. <a href="https://www.vec.vic.gov.au/voting/2026-state-election" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p><p>Working atlas: Parliament, councils and public statutory recognition. The 2026 election guide has 482 dated candidate announcements/preselections, not a final ballot.</p>
+              <a href="../states/vic/index.html">Portal</a>
+              <a href="../states/vic/election/index.html">2026 election guide</a>
+              <a href="../states/vic/map/index.html">Electorate atlas</a>
+<a href="../states/vic/map/index.html?chamber=firstpeoples&amp;recognition=rap,rsa" title="Public RAP and settlement recognition; not a complete map of Country">First Peoples recognition map</a>
+              <a href="../states/vic/history/index.html">History</a>
+              <a href="../states/vic/architecture/index.html">Architecture</a>
+              <a href="../states/vic/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="nsw">
+              <h3>New South Wales</h3><p class="state-election-date"><strong data-election-label>2027-03-13</strong><br><span data-election-countdown></span><small>Commission date; moved from Easter. <a href="https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/nsw/index.html">Portal</a>
+              <a href="../states/nsw/history/index.html">History</a>
+              <a href="../states/nsw/architecture/index.html">Architecture</a>
+              <a href="../states/nsw/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="nt">
+              <h3>Northern Territory</h3><p class="state-election-date"><strong data-election-label>2028-08-26</strong><br><span data-election-countdown></span><small>Ordinary statutory date: fourth Saturday in August. <a href="https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/nt/index.html">Portal</a>
+              <a href="../states/nt/history/index.html">History</a>
+              <a href="../states/nt/architecture/index.html">Architecture</a>
+              <a href="../states/nt/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="act">
+              <h3>Australian Capital Territory</h3><p class="state-election-date"><strong data-election-label>2028-10-21</strong><br><span data-election-countdown></span><small>Commission date. <a href="https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/act/index.html">Portal</a>
+              <a href="../states/act/history/index.html">History</a>
+              <a href="../states/act/architecture/index.html">Architecture</a>
+              <a href="../states/act/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="qld">
+              <h3>Queensland</h3><p class="state-election-date"><strong data-election-label>2028-10-28</strong><br><span data-election-countdown></span><small>Ordinary statutory date: last Saturday in October. <a href="https://www.ecq.qld.gov.au/elections/election-events" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/qld/index.html">Portal</a>
+              <a href="../states/qld/history/index.html">History</a>
+              <a href="../states/qld/architecture/index.html">Architecture</a>
+              <a href="../states/qld/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="wa">
+              <h3>Western Australia</h3><p class="state-election-date"><strong data-election-label>2029-03-10</strong><br><span data-election-countdown></span><small>Ordinary statutory date: second Saturday in March. <a href="https://www.elections.wa.gov.au/about-us/media/releases/1892" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/wa/index.html">Portal</a>
+              <a href="../states/wa/history/index.html">History</a>
+              <a href="../states/wa/architecture/index.html">Architecture</a>
+              <a href="../states/wa/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="tas">
+              <h3>Tasmania</h3><p class="state-election-date"><strong data-election-label>Expected by 2029 — date not fixed</strong><br><span data-election-countdown></span><small>Expected by 2029; timing is not fixed and an earlier election is possible. <a href="https://www.tec.tas.gov.au/house-of-assembly/" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/tas/index.html">Portal</a>
+              <a href="../states/tas/history/index.html">History</a>
+              <a href="../states/tas/architecture/index.html">Architecture</a>
+              <a href="../states/tas/constitution/index.html">Constitution</a>
+            </article>
+<article data-election-state="sa">
+              <h3>South Australia</h3><p class="state-election-date"><strong data-election-label>2030-03-16</strong><br><span data-election-countdown></span><small>Ordinary statutory date: third Saturday in March. <a href="https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
+              <a href="../states/sa/index.html">Portal</a>
+              <a href="../states/sa/history/index.html">History</a>
+              <a href="../states/sa/architecture/index.html">Architecture</a>
+              <a href="../states/sa/constitution/index.html">Constitution</a>
+            </article>
+</div><h3 class="state-index-heading">National reference indexes</h3><div class="state-tree-grid state-reference-grid"><article>
               <h3>National indexes</h3>
               <a href="states.html">State map</a>
               <a href="state-history.html">State history index</a>
-            </article>
-            <article>
-              <h3>New South Wales</h3>
-              <a href="../states/nsw/index.html">Portal</a>
-              <a href="../states/nsw/history/">History</a>
-              <a href="../states/nsw/architecture/">Architecture</a>
-              <a href="../states/nsw/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Victoria</h3>
-              <a href="../states/vic/index.html">Portal</a>
-              <a href="../states/vic/history/">History</a>
-              <a href="../states/vic/architecture/">Architecture</a>
-              <a href="../states/vic/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Queensland</h3>
-              <a href="../states/qld/index.html">Portal</a>
-              <a href="../states/qld/history/">History</a>
-              <a href="../states/qld/architecture/">Architecture</a>
-              <a href="../states/qld/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Western Australia</h3>
-              <a href="../states/wa/index.html">Portal</a>
-              <a href="../states/wa/history/">History</a>
-              <a href="../states/wa/architecture/">Architecture</a>
-              <a href="../states/wa/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>South Australia</h3>
-              <a href="../states/sa/index.html">Portal</a>
-              <a href="../states/sa/history/">History</a>
-              <a href="../states/sa/architecture/">Architecture</a>
-              <a href="../states/sa/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Tasmania</h3>
-              <a href="../states/tas/index.html">Portal</a>
-              <a href="../states/tas/history/">History</a>
-              <a href="../states/tas/architecture/">Architecture</a>
-              <a href="../states/tas/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Northern Territory</h3>
-              <a href="../states/nt/index.html">Portal</a>
-              <a href="../states/nt/history/">History</a>
-              <a href="../states/nt/architecture/">Architecture</a>
-              <a href="../states/nt/constitution/">Constitution</a>
-            </article>
-            <article>
-              <h3>Australian Capital Territory</h3>
-              <a href="../states/act/index.html">Portal</a>
-              <a href="../states/act/history/">History</a>
-              <a href="../states/act/architecture/">Architecture</a>
-              <a href="../states/act/constitution/">Constitution</a>
-            </article>
-          </div>
+            </article></div>
         </details>
 
         <details class="map-branch" id="workbench" open>
@@ -215,8 +218,8 @@
             <li><a href="p4a-builder.html?tool=sensorium-place-pack">Sensorium Place Pack Builder</a><em>L1/L2 place twin source pack.</em></li>
             <li><a href="p4a-builder.html?tool=living-boundary-map">Living Boundary Map Builder</a><em>L1/L2 island, catchment, bioregion or civic boundary record.</em></li>
             <li><a href="p4a-builder.html?tool=local-civic-front">Local Civic Front Builder</a><em>L2 public civic doorway for projects, notices, ledger summaries and review.</em></li>
-            <li><a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">External How to Use Markdown with AI</a><em>Leaves P4A for the fuller plain-English .md guide and starter builder.</em></li>
-            <li><a href="https://auraofintelligence.github.io/straddie-digital-twin-builders/" target="_blank" rel="noopener">External Straddie Digital Twin Builders</a><em>Leaves P4A for the .md prompt-packet builder examples for spaces, places and bioregions.</em></li>
+            <li><a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener noreferrer">External How to Use Markdown with AI</a><em>Leaves P4A for the fuller plain-English .md guide and starter builder.</em></li>
+            <li><a href="https://auraofintelligence.github.io/straddie-digital-twin-builders/" target="_blank" rel="noopener noreferrer">External Straddie Digital Twin Builders</a><em>Leaves P4A for the .md prompt-packet builder examples for spaces, places and bioregions.</em></li>
             <li><a href="gear-store.html">Gear Store (design test)</a><em>Not a shop: a rapid-iteration sketch. The ladder, starter kits, dated prices, sovereign suppliers, open books.</em></li>
             <li><a href="colour-panel.html">Colour Panel</a><em>First principles merch: the exact purples, dyes, paints and threads. Images over words.</em></li>
             <li><a href="test-store1.html">Test Store 1 (design test)</a><em>Checkout sketch. Takes no money, no payment keys connected.</em></li>
@@ -228,111 +231,130 @@
           </ul>
         </details>
 
+        <span id="connected-projects"></span>
         <details class="map-branch" id="official-links-out" open>
-          <summary><span>06</span><strong>Official links out</strong><small>Only Aura of Intelligence GitHub Pages and repos linked from the P4A workbench.</small></summary>
+          <summary><span>06</span><strong>Connected projects</strong><small>Related workbenches and projects, with their connection to P4A explained.</small></summary>
           <div class="official-link-grid">
+<!-- reviewed-projects:start -->
+<article class="official-link-card"><h3>Australian Law: Luke’s Relevance</h3><p>Legal reform and public submissions, connected with the P4A Law Engine.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>C-Hour introduction</h3><p>An introduction to voluntary community contribution and the ideas behind C-Hour.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/C-Hour-introduction/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>Aura Direct Hardware</h3><p>A project exploring local compute and digital sovereignty, connected with community control of infrastructure.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/aura-direct-hardware/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>Mutual Futures</h3><p>A connected workbench exploring AI, working lives and care.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/mutual-futures/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>UNGA81: Luke Hayes</h3><p>Luke Nathan Hayes&#x27;s personal UNGA81 contribution, connected with the Fair Go discussion. This is not an official UN endorsement.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>500 Queens VC 2026</h3><p>A women-led enterprise project connected with the Braided Economy discussion.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/500-Queens-VC-2026/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<article class="official-link-card"><h3>Ready Set Co-op: Cultural Intelligence Node</h3><p>A Minjerribah project exploring local compute and cultural collaboration; proposed directions do not establish installed infrastructure or funding.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
+<!-- reviewed-projects:end -->
+
+
             <article class="official-link-card">
               <h3>P4A</h3>
               <p>The live public workbench and source repo for this P4A site.</p>
               <div class="official-link-actions">
                 <a href="https://auraofintelligence.github.io/p4a-xyz-cinema/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/p4a-xyz-cinema" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://github.com/auraofintelligence/p4a-xyz-cinema" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Strange But True</h3>
               <p>Practical local-help examples behind the friendly-bet and market-stall lanes.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/strange-but-true/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/strange-but-true" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/strange-but-true/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/strange-but-true" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Straddie Noticeboard Network</h3>
               <p>A working noticeboard example for local public information and builder patterns.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/straddie-noticeboard-network/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/straddie-noticeboard-network" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/straddie-noticeboard-network/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/straddie-noticeboard-network" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Straddie Digital Twin Builders</h3>
               <p>External .md prompt-packet builders for L0 private spaces, L1 place meshes and L2 bioregion-scale briefs.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/straddie-digital-twin-builders/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/straddie-digital-twin-builders" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/straddie-digital-twin-builders/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/straddie-digital-twin-builders" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Stradbroke Grants Lab</h3>
               <p>Project and grant-readiness examples for profiles, evidence and handover kits.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/stradbroke-grants-lab/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/stradbroke-grants-lab" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/stradbroke-grants-lab/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/stradbroke-grants-lab" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Legal Memory Workbench</h3>
               <p>An external legal-memory worksheet example linked out from the P4A Law Engine.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/legal-memory-workbench/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/legal-memory-workbench" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/legal-memory-workbench/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/legal-memory-workbench" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>How to Use Markdown with AI</h3>
               <p>This links out of P4A to the plain-English Markdown guide and browser-local starter builder.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/how-to-use-md-with-ai" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/how-to-use-md-with-ai" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Moreton Bay Community Wealth and Mutual Care</h3>
               <p>Moreton Bay example for community wealth funds, mutual protection, data sovereignty and Country-led deal pathways.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>I C. Infinity Music Universe</h3>
               <p>The P4A-adjacent music universe, albums and culture mythology.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/i-C-infinity-music-universe/index.html" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/i-C-infinity-music-universe" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/i-C-infinity-music-universe/index.html" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/i-C-infinity-music-universe" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Shared Table Initiative</h3>
               <p>The grow-local food and shared-table reference used by the housing simulation page.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/shared-table-initiative/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/shared-table-initiative" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/shared-table-initiative/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/shared-table-initiative" target="_blank" rel="noopener noreferrer">GitHub repo</a>
+              </div>
+            </article>
+            <article class="official-link-card">
+              <h3>Native Nations of the World</h3>
+              <p>A separate global workbench for nation-led Country, protocols, rights and self-description, with its own self-onboarding. Each nation chooses what to share.</p>
+              <div class="official-link-actions">
+                <a href="https://auraofintelligence.github.io/p4a-native-nations-cinema/" target="_blank" rel="noopener noreferrer">Open Native Nations (new tab)</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>P4A Oceania Expansion Lab</h3>
-              <p>The regional sibling site this P4A workbench ripples out into across the Blue Pacific.</p>
+              <p>A separate regional workbench for Oceania’s places, relationships, political geography and shared currents across the Blue Pacific.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/p4a-oceania-cinema/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/p4a-oceania-cinema" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/p4a-oceania-cinema/" target="_blank" rel="noopener noreferrer">Open Oceania (new tab)</a>
+                <a href="https://github.com/auraofintelligence/p4a-oceania-cinema" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Cosmic Nexus</h3>
               <p>The myth atlas, UAP sandbox and travel-circle world this P4A workbench's Alien Necklace film branch grows into.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/strange-but-true-cosmic-nexus" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/strange-but-true-cosmic-nexus" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
             <article class="official-link-card">
               <h3>Travel Oracle</h3>
               <p>Self-sovereign travel-life navigation: route loops, country dossiers and decade-scale world paths.</p>
               <div class="official-link-actions">
-                <a href="https://auraofintelligence.github.io/strange-but-true-travel-oracle/" target="_blank" rel="noopener">Open page</a>
-                <a href="https://github.com/auraofintelligence/strange-but-true-travel-oracle" target="_blank" rel="noopener">GitHub repo</a>
+                <a href="https://auraofintelligence.github.io/strange-but-true-travel-oracle/" target="_blank" rel="noopener noreferrer">Open page</a>
+                <a href="https://github.com/auraofintelligence/strange-but-true-travel-oracle" target="_blank" rel="noopener noreferrer">GitHub repo</a>
               </div>
             </article>
           </div>
@@ -342,6 +364,7 @@
   </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
   <script src="../script.js?v=20260707-cinema"></script>
-<script src="../assets/site-nav.js?v=20260707-cinema"></script>
+<script src="../assets/site-nav.js?v=20261002-publication"></script>
+<script src="../assets/state-election-calendar.js?v=20261002"></script>
 </body>
 </html>

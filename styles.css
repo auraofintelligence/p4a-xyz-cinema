@@ -3051,3 +3051,31 @@ footer.site-footer:not(.state-footer) { display: grid; gap: 1.7rem; padding: 2.6
 /* Layer strip refresh (state pages) */
 .site-layer-strip { font-family: var(--font-mono); font-size: .78rem; font-weight: 520; }
 .site-layer-strip strong { font-family: var(--font-mono); }
+
+/* Shared footer contract: full-width columns, top-aligned groups, natural rows.
+   Explicit tracks replace inherited flex space-between on grid containers. */
+body footer.site-footer,body footer.site-footer:not(.state-footer),body footer.site-footer.state-footer{display:grid;grid-template-columns:minmax(0,1fr);justify-content:stretch;align-items:start;align-content:start;gap:24px;width:100%;max-width:none;box-sizing:border-box;padding:38px clamp(16px,4vw,56px)}
+body footer.site-footer > *{min-width:0;max-width:none;width:100%;grid-column:1/-1;justify-self:stretch;align-self:start;margin-inline:0}
+body footer.site-footer > .footer-index{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));align-items:start;align-content:start;justify-content:stretch;gap:28px;width:100%;max-width:none;margin:0;padding-bottom:26px}
+body footer.site-footer .footer-index > div,body footer.site-footer .footer-index > section{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;align-content:start;align-self:start;gap:0;min-width:0}
+body footer.site-footer .footer-index strong,body footer.site-footer .footer-index h3{margin:0 0 12px;color:var(--gold,#f4d98c);font-family:var(--font-mono);font-size:.74rem;line-height:1.5;letter-spacing:.1em;text-transform:uppercase}
+body footer.site-footer .footer-index ul{display:grid;grid-auto-rows:max-content;align-items:start;align-content:start;gap:5px;width:100%;padding:0;margin:0;list-style:none}
+body footer.site-footer .footer-index li{min-width:0;margin:0;align-self:start}
+body footer.site-footer .footer-index li a{display:inline-block;min-height:26px;padding:3px 0;font-size:.86rem;line-height:1.45;overflow-wrap:anywhere}
+body footer.site-footer .footer-index .footer-state-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-content:start}
+body footer.site-footer .footer-index .footer-state-row a{padding:3px 8px}
+body footer.site-footer > nav:not(.footer-index){display:flex;justify-content:flex-start;align-items:flex-start;align-content:start;flex-wrap:wrap;gap:12px 18px}
+body footer.site-footer > div{align-content:start;align-items:start;gap:8px}
+body footer.site-footer p{line-height:1.6;max-width:90ch}
+body footer.site-footer .footer-index[data-footer-columns="4"]{grid-template-columns:repeat(4,minmax(0,1fr))}
+body footer.site-footer .footer-index[data-footer-columns="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+body footer.site-footer a:focus-visible{outline:3px solid var(--gold,#f4d98c);outline-offset:3px}
+/* Unequal state cards retain their top rhythm instead of spreading short lists. */
+.state-tree-grid{align-items:start}.state-tree-grid article{align-content:start;align-items:start;grid-auto-rows:max-content;min-height:0;gap:8px}.state-tree-grid article p{margin:0 0 6px;font-size:.84rem;line-height:1.5}.state-tree-grid article h3{margin:0 0 6px}
+@media(max-width:1150px){body footer.site-footer > .footer-index{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){body footer.site-footer > .footer-index,body footer.site-footer .footer-index[data-footer-columns="4"]{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 22px}}
+@media(max-width:480px){body footer.site-footer > .footer-index,body footer.site-footer .footer-index[data-footer-columns="4"],body footer.site-footer .footer-index[data-footer-columns="2"]{grid-template-columns:minmax(0,1fr);gap:26px}body footer.site-footer .footer-index li a{min-height:30px}body footer.site-footer{padding:30px 20px}}
+
+.state-election-date{color:var(--gold,#f4d98c)}.state-election-date small{display:block;color:var(--muted,#bbb);font-size:.76rem;margin-top:6px}.election-order-note,.state-index-heading{padding:0 20px}.state-reference-grid{margin-bottom:20px}
+
+.official-link-grid{align-items:start}.official-link-card{align-self:start;align-content:start;justify-content:start}.official-link-actions{margin-top:0}

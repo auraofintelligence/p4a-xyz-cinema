@@ -30,3 +30,8 @@ You are refreshing election data for the P4A public workbench.
 The same pattern, one level up: the sibling repo `p4a-oceania-cinema` keeps
 regional national-election clocks in `assets/oceania-pulse-data.js` with its
 own research stamp and follow-up flags — refresh that in its own repo run.
+
+
+## Victoria atlas and candidate scope
+
+For the implemented Victoria workbench, also read `content/electorates/vic-implementation.md` and the source-use register. Candidate records live in `content/elections/vic-2026.json`; preserve checked dates, null announcement dates, conflicts and separate historical events. Party announcements, preselection and accepted VEC nomination are distinct. Never infer recontesting from office-holding. Update the reviewed source, run the scoped state/election/map generators as needed, then verify source joins, counts, links, desktop/mobile and file/HTTP behaviour. Other jurisdictions and sibling repositories require their own scope. The homepage countdown updates automatically and does not refresh the underlying political data.

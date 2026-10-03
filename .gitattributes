@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve exact downloaded boundary bytes used by provenance hashes.
+assets/maps/*.geojson -text
+assets/maps/*.vic.gz -text

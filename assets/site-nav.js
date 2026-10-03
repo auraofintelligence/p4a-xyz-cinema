@@ -1,3 +1,11 @@
+(() => {
+  if (window.P4A_LINKS || document.querySelector('script[data-p4a-link-policy]')) return;
+  const policy = document.createElement('script');
+  policy.src = new URL('external-links.js', document.currentScript.src).href;
+  policy.dataset.p4aLinkPolicy = '';
+  document.head.append(policy);
+})();
+
 /*
  * P4A site chrome.
  * One data file describes every public room. The header, full-screen index,
@@ -79,6 +87,7 @@
         { href: 'pages/architecture.html', title: 'Civic architecture', note: 'Roots-up model: homes, neighbours, councils, states.' },
         { href: 'pages/constitution.html', title: 'Party constitution', note: 'The internal rulebook workbench.' },
         { href: 'pages/legal-rag.html', title: 'Law engine / Legal RAG', note: 'Legal memory, citations, limits, human review.' },
+        { href: 'pages/about.html', title: 'About the workbench', note: 'What is implemented, source limits, project status and distinct sibling sites.' },
         { href: 'pages/treaty-atlas.html', title: 'Treaty atlas', note: 'Inherited agreements mapped: who they touch, who they serve, what to renew.' },
         { href: 'pages/civic-ledger.html', title: 'Civic ledger', note: 'Public records, contribution trails, repair memory.' },
         { href: 'pages/truth-engine.html', title: 'Truth engine', note: 'Claim labels, correction paths, public audit trails.' },
@@ -134,6 +143,9 @@
       label: 'States and territories',
       blurb: 'Eight portals with election clocks, chamber maps, histories and constitution rooms.',
       links: [
+        { href: 'states/vic/election/index.html', title: 'Victoria election 2026', note: 'Dates, participation routes and sourced candidate announcements.' },
+        { href: 'states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa', title: 'Victoria First Peoples recognition', note: 'Community sources, RAP and settlement recognition; not a complete map of Country.' },
+        { href: 'states/vic/map/index.html', title: 'Victoria electorate atlas', note: 'Official district and region boundaries, current members and civic tools.' },
         { href: 'pages/states.html', title: 'National state map', note: 'All eight portals from one map.' },
         { href: 'pages/state-history.html', title: 'State histories', note: 'Jurisdiction histories generated from Markdown.' }
       ],
@@ -145,7 +157,8 @@
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema', title: 'Fork on GitHub' },
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md', title: 'Localise with an agent' },
     { href: 'https://auraofintelligence.github.io/strange-but-true/', title: 'Strange But True — live L1 example' },
-    { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania — regional expansion lab' },
+    { href: 'https://auraofintelligence.github.io/p4a-native-nations-cinema/', title: 'Native Nations - global, nation-led Country, rights and self-description' },
+    { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania - regional places, relationships and shared currents' },
     { href: 'https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/', title: 'Cosmic Nexus — myth, UAP and travel atlas' },
     { href: 'https://auraofintelligence.github.io/strange-but-true-travel-oracle/', title: 'Travel Oracle — self-sovereign travel-life navigation' }
   ];
@@ -322,6 +335,15 @@
 
   /* ---------- Footer explore columns ---------- */
   document.querySelectorAll('footer.site-footer').forEach((footer) => {
+    if (footer.hasAttribute('data-footer-compact')) {
+      const existing=footer.querySelector(':scope > .footer-index');
+      if(existing){existing.dataset.footerColumns=String(existing.children.length);return;}
+      const nav=footer.querySelector(':scope > nav');if(!nav)return;
+      const links=[...nav.querySelectorAll('a')];const split=Math.ceil(links.length/2);
+      const headings=footer.classList.contains('ve-footer')?['Victoria','Sources and site']:['Project','Reference'];
+      nav.replaceChildren();nav.className='footer-index';nav.dataset.footerColumns='2';
+      for(let i=0;i<2;i++){const group=document.createElement('section'),heading=document.createElement('strong'),list=document.createElement('ul');heading.textContent=headings[i];for(const link of links.slice(i*split,(i+1)*split)){const li=document.createElement('li');li.append(link);list.append(li);}group.append(heading,list);nav.append(group);}return;
+    }
     const explore = document.createElement('nav');
     explore.className = 'footer-index';
     explore.setAttribute('aria-label', 'Explore the workbench');

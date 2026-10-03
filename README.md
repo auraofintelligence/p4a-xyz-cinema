@@ -28,11 +28,46 @@ Each link below reflects an evidenced family, lineage or direct connection. This
 
 <!-- github-organisation:end -->
 
-> 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude — Fable 5, July 2026. Not a Codex build. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
+> 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude — Fable 5, July 2026. Original cinematic build credit; the October 2026 Victoria workbench and maintenance were developed with Codex. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
 
 Static multi-page prototype for the Purple Party for Australia.
 
 P4A is currently a proposed movement and drafting project, not a registered political party. The site is a public workbench for civic imagination, local-first democratic repair, transparent systems, constitutional literacy, public ledgers, state and region portals, legal-memory tooling and future cyber-republic rehearsal.
+
+
+## Victoria workbench — implemented October 2026
+
+Start at the [Victoria portal](https://p4a.xyz/states/vic/), [electorate atlas](https://p4a.xyz/states/vic/map/) or [2026 election guide](https://p4a.xyz/states/vic/election/). The [homepage](https://p4a.xyz/) includes a Melbourne-calendar countdown to 28 November 2026 with election-day and post-election wording. [About](https://p4a.xyz/pages/about.html) separates working tools from proposals and gaps; the [site map](https://p4a.xyz/pages/site-map.html) lists the public rooms.
+
+- Atlas: 88 Assembly districts, eight Council regions, 79 councils, eight unincorporated areas and 467 ward/electoral-structure records. Exact sourced geometry, search, map picking, public representative details and source-derived chamber seating work via `file://` and HTTP.
+- Election directory: **482 records, checked 2 October 2026** — 407 Assembly and 75 Council across 14 affiliations. Announced/preselected status is not formal VEC nomination. Source conflicts and unknown coverage are retained; no incumbent recontest or Council ticket order is inferred.
+- First Peoples: community reference links and separate public statutory RAP/RSA layers. These are not a national Country map; absence of a statutory polygon does not imply absence of Traditional Owners or rights.
+- Evidence: dated current representation, 2022 election results, 2021 Census indicators and local-government population/roster sources. Council finance fields remain unavailable where source retrieval was blocked. Broader civic-ledger, contribution and constitutional rooms remain exploratory.
+
+### Source files and local generation
+
+`content/electorates/vic.md`, `content/councils/vic.json`, `content/first-peoples/vic.json`, `content/representatives/` and `content/elections/vic-2026.json` are the reviewed sources. The election JSON is also the source for atlas candidate cards. Check the data’s own date; clocks update automatically, political records do not.
+
+```powershell
+pwsh -NoProfile -File tools/build-state-sites.ps1 -StateSlug vic -SkipHistory
+python tools/build-vic-election.py
+python tools/build-vic-map.py
+python tools/verify-vic-map.py
+python tools/verify-vic-numbers.py
+python tools/verify-vic-councils.py
+python -m http.server 8766 --bind 127.0.0.1
+```
+
+Generators use checked local data, not network acquisition. Python and PowerShell 7 are used for generation; Node checks JavaScript. The website is static and needs no package install or backend. Full source boundary files and lossless delivery encodings are intentionally retained; initial map loads are substantial on slower connections. See `content/electorates/vic-implementation.md`, `tools/vic-qa/` and `tools/link-qa/` for implementation and dated QA evidence.
+
+### Rights, limits and distinct siblings
+
+The [source-use register](content/licences/vic-source-register.md) records third-party conditions. The existing [Strange But True Public Source Licence](LICENCE.md) remains unchanged and is **not an open-source licence**. Source-specific rights are not relicensed by this repository. A changed political-party/campaign, fundraising or commercial role requires review; non-commercial status alone does not settle electoral authorisation or finance obligations.
+
+- [Native Nations of the World](https://auraofintelligence.github.io/p4a-native-nations-cinema/): global, nation-led Country, protocols, rights and self-description, with its own onboarding.
+- [P4A Oceania](https://auraofintelligence.github.io/p4a-oceania-cinema/): regional places, relationships, political geography and shared currents.
+
+Both are separate projects. The existing [Australian Treaty Atlas](pages/treaty-atlas.html) links to them without merging scopes. External web links open new tabs; internal navigation, downloads, mail and telephone links retain their intended behaviour.
 
 ## Two Ways To Localise It
 
@@ -58,7 +93,7 @@ The homepage is a cinematic, chaptered doorway: Act I the spark (Twinkle), Act I
 - Law: legal-memory and Legal RAG direction
 - Ledger: public records and trust infrastructure
 
-Current political and historical data should live in markdown under `content/` so future agents can refresh it with permission.
+Current political and historical data should live in reviewed Markdown or JSON under `content/` so future agents can refresh it with permission.
 
 ## Refreshing Election Data
 
@@ -105,3 +140,15 @@ Built on Minjerribah by Luke × Claude.
 [Mutual Futures](https://auraofintelligence.github.io/mutual-futures/) connects this project with Luke Nathan Hayes's proposed mutual business succession, Try Everything Once, Intermittent Retirement, personal intelligence, legal reflection, resilience, travel and wider civilisational horizon. The connection does not merge the projects or imply outside endorsement.
 
 [Source repository](https://github.com/auraofintelligence/mutual-futures) · [Project connections and sources](https://auraofintelligence.github.io/mutual-futures/sources.html)
+
+
+## Homepage issue ticker
+
+`content/home-ticker.json` contains dated issue headlines, jurisdiction labels, primary sources and editorial limits. Run `python tools/build-home-ticker.py` after a reviewed refresh. The ticker pauses on hover and keyboard focus, offers pause/play and touch-friendly links, respects reduced motion, and excludes animation clones from keyboard navigation. Prior topics are archived under `content/archive/`. It is not an automated breaking-news feed.
+
+
+## Sitemap election calendar and shared navigation
+
+`content/elections/state-election-calendar.json` records source-checked general-election dates, time zones and statutory-date qualifications. `assets/state-election-calendar.js` carries the same snapshot for file and HTTP use: update both together after a commission announcement. Fixed dates count calendar days locally; Tasmania has no invented exact date. Passed dates move below upcoming dates pending review; they never silently roll forward four years. All shared footers use top-aligned natural-height link groups. Sitemap directory links use explicit `index.html` paths for local-file compatibility.
+
+Connected projects are maintained in `content/connected-projects.json`; run `python tools/build-connected-projects.py` to refresh the seven reviewed cards and contextual links in existing pages. Other inherited cards remain in `pages/site-map.html`. The legacy `#official-links-out` anchor remains compatible and `#connected-projects` is an alias. The 2 October approved batch adds Australian Law: Luke’s Relevance, C-Hour introduction, Aura Direct Hardware and Mutual Futures.

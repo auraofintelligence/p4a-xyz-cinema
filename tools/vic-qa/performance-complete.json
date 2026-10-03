@@ -1,0 +1,217 @@
+{
+  "conditions": "Cold cache, mobile 390x844 DPR2, 10Mbps, 80ms latency; local Python HTTP server; isolated headless Edge with hardware acceleration disabled. Includes HTML transfer. Not a production or real-device benchmark.",
+  "results": [
+    {
+      "loadMs": 13691.599999999627,
+      "navigation": [
+        {
+          "bytes": 2527781,
+          "duration": 12423.199999999255
+        }
+      ],
+      "resources": [
+        {
+          "url": "styles.css?v=20260707-cinema",
+          "bytes": 124011,
+          "encoded": 123711,
+          "duration": 337.7000000011176
+        },
+        {
+          "url": "vic-map.css?v=20261002",
+          "bytes": 19851,
+          "encoded": 19551,
+          "duration": 181
+        },
+        {
+          "url": "archivo-var.woff2",
+          "bytes": 90404,
+          "encoded": 90104,
+          "duration": 280.30000000074506
+        },
+        {
+          "url": "jetbrains-mono-var.woff2",
+          "bytes": 40704,
+          "encoded": 40404,
+          "duration": 194.40000000037253
+        },
+        {
+          "url": "vic-geometry-codec.js?v=20261002-data",
+          "bytes": 3809,
+          "encoded": 3509,
+          "duration": 108.40000000037253
+        },
+        {
+          "url": "vic-map-geometry.js?v=20261002",
+          "bytes": 2149,
+          "encoded": 1849,
+          "duration": 111.10000000149012
+        },
+        {
+          "url": "vic-electorates.js?v=20261002",
+          "bytes": 553746,
+          "encoded": 553446,
+          "duration": 1092.199999999255
+        },
+        {
+          "url": "vic-people.js?v=20261002",
+          "bytes": 490266,
+          "encoded": 489966,
+          "duration": 1030.9000000003725
+        },
+        {
+          "url": "vic-seating-people.js?v=20261002",
+          "bytes": 26443,
+          "encoded": 26143,
+          "duration": 188.40000000037253
+        },
+        {
+          "url": "vic-representation.js?v=20261002",
+          "bytes": 11394,
+          "encoded": 11094,
+          "duration": 142.30000000074506
+        },
+        {
+          "url": "vic-profile-details.js?v=20261002",
+          "bytes": 9521,
+          "encoded": 9221,
+          "duration": 220.30000000074506
+        },
+        {
+          "url": "site-nav.js?v=20261002-vic-map",
+          "bytes": 21220,
+          "encoded": 20920,
+          "duration": 312.19999999925494
+        },
+        {
+          "url": "vic-electorate-map.js?v=20261002",
+          "bytes": 31720,
+          "encoded": 31420,
+          "duration": 312
+        },
+        {
+          "url": "vic-assembly.vic.gz",
+          "bytes": 2360826,
+          "encoded": 2360526,
+          "duration": 8938.5
+        }
+      ],
+      "wallSeconds": 13.708907199999999,
+      "layer": "assembly",
+      "pickerTiming": {
+        "p50Ms": 0,
+        "p95Ms": 0.09999999962747097,
+        "maxMs": 0.10000000149011612
+      },
+      "totalTransferBytes": 6313845
+    },
+    {
+      "loadMs": 15381.300000000745,
+      "navigation": [
+        {
+          "bytes": 2527781,
+          "duration": 12326.800000000745
+        }
+      ],
+      "resources": [
+        {
+          "url": "styles.css?v=20260707-cinema",
+          "bytes": 124011,
+          "encoded": 123711,
+          "duration": 343.5
+        },
+        {
+          "url": "vic-map.css?v=20261002",
+          "bytes": 19851,
+          "encoded": 19551,
+          "duration": 171.10000000149012
+        },
+        {
+          "url": "archivo-var.woff2",
+          "bytes": 90404,
+          "encoded": 90104,
+          "duration": 286.40000000037253
+        },
+        {
+          "url": "jetbrains-mono-var.woff2",
+          "bytes": 40704,
+          "encoded": 40404,
+          "duration": 190.69999999925494
+        },
+        {
+          "url": "vic-geometry-codec.js?v=20261002-data",
+          "bytes": 3809,
+          "encoded": 3509,
+          "duration": 107.90000000037253
+        },
+        {
+          "url": "vic-map-geometry.js?v=20261002",
+          "bytes": 2149,
+          "encoded": 1849,
+          "duration": 110.30000000074506
+        },
+        {
+          "url": "vic-electorates.js?v=20261002",
+          "bytes": 553746,
+          "encoded": 553446,
+          "duration": 1090
+        },
+        {
+          "url": "vic-people.js?v=20261002",
+          "bytes": 490266,
+          "encoded": 489966,
+          "duration": 1026.7000000011176
+        },
+        {
+          "url": "vic-representation.js?v=20261002",
+          "bytes": 11394,
+          "encoded": 11094,
+          "duration": 141.7000000011176
+        },
+        {
+          "url": "vic-seating-people.js?v=20261002",
+          "bytes": 26443,
+          "encoded": 26143,
+          "duration": 187.80000000074506
+        },
+        {
+          "url": "vic-profile-details.js?v=20261002",
+          "bytes": 9521,
+          "encoded": 9221,
+          "duration": 218.19999999925494
+        },
+        {
+          "url": "vic-electorate-map.js?v=20261002",
+          "bytes": 31720,
+          "encoded": 31420,
+          "duration": 309.3999999985099
+        },
+        {
+          "url": "site-nav.js?v=20261002-vic-map",
+          "bytes": 21220,
+          "encoded": 20920,
+          "duration": 309.69999999925494
+        },
+        {
+          "url": "vic-rsa.vic.gz",
+          "bytes": 912360,
+          "encoded": 912060,
+          "duration": 1648.6000000014901
+        },
+        {
+          "url": "vic-rap.vic.gz",
+          "bytes": 5280062,
+          "encoded": 5279762,
+          "duration": 11378.900000000373
+        }
+      ],
+      "wallSeconds": 15.413895100000001,
+      "layer": "firstpeoples",
+      "pickerTiming": {
+        "p50Ms": 0.19999999925494194,
+        "p95Ms": 0.30000000074505806,
+        "maxMs": 0.40000000037252903
+      },
+      "totalTransferBytes": 10145441
+    }
+  ]
+}

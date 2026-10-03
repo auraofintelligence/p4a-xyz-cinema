@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "checked": "2026-10-02",
+  "currentPurpose": "Personal/public non-commercial civic research and workbench; not a registered political party or commercial service.",
+  "scope": "Source-use review log, not a legal determination. No permissions were requested and no publication was performed.",
+  "projectLicence": "../../LICENCE.md",
+  "reviewTriggers": [
+    "Change to an actual political party or party campaign operation",
+    "Commercial use, sponsorship, advertising or paid access",
+    "Fundraising connected to these datasets",
+    "New bulk redistribution, syndication or copying source artwork",
+    "Public candidacy announcements, or electoral material made by or for candidates/regulated entities: review authorisation, finance, account and disclosure duties irrespective of non-commercial status."
+  ],
+  "entries": [
+    {
+      "id": "project",
+      "owner": "Luke Nathan Hayes / Strange But True / Aura of Intelligence",
+      "assetLocations": [
+        "LICENCE.md"
+      ],
+      "sourceUrl": "../../LICENCE.md",
+      "licence": "Strange But True Public Source Licence",
+      "verifiedExcerpt": "personal, educational, artistic, research, community or other non-commercial use",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Existing project licence remains unchanged. Third-party assets retain their own conditions.",
+      "conditions": [
+        "Retain required credit",
+        "Do not imply endorsement",
+        "Do not relicense third-party sources under the project licence"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "project-licence-preserved",
+      "culturalPermissions": null
+    },
+    {
+      "id": "vicmap-electorates",
+      "owner": "State of Victoria",
+      "assetLocations": [
+        "assets/maps/vic-assembly.*",
+        "assets/maps/vic-council.*",
+        "assets/maps/vic-provenance.json"
+      ],
+      "sourceUrl": "https://discover.data.vic.gov.au/dataset/vicmap-admin-state-assembly-polygon-2022",
+      "licence": "CC BY 4.0",
+      "verifiedExcerpt": "Creative Commons Attribution 4.0 International",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Open-data licence supports the present attributed reuse. Source coordinates are preserved; projection and delivery encoding are disclosed.",
+      "conditions": [
+        "Attribute State of Victoria; retain linked source and licence",
+        "Describe adaptation and dated boundary edition",
+        "Do not imply official endorsement"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": null
+    },
+    {
+      "id": "vicmap-local",
+      "owner": "State of Victoria",
+      "assetLocations": [
+        "assets/maps/vic-lga.*",
+        "assets/maps/vic-ward.*",
+        "content/councils/vic.json"
+      ],
+      "sourceUrl": "https://discover.data.vic.gov.au/dataset/vicmap-admin-local-government-area-lga-polygon-aligned-to-property",
+      "licence": "CC BY 4.0",
+      "verifiedExcerpt": "Creative Commons Attribution 4.0 International",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Municipal and ward catalogues declare CC BY 4.0. Exact display geometry is preserved; repaired analysis copies are separately explained.",
+      "conditions": [
+        "Attribute State of Victoria",
+        "Ward catalogue: https://discover.data.vic.gov.au/dataset/vicmap-admin-ward-polygon-2024",
+        "Preserve source hashes and topology qualification"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": null
+    },
+    {
+      "id": "recognition-rap",
+      "owner": "State of Victoria / Department of Premier and Cabinet",
+      "assetLocations": [
+        "assets/maps/vic-rap.*",
+        "content/first-peoples/vic.json"
+      ],
+      "sourceUrl": "https://discover.data.vic.gov.au/dataset/registered-aboriginal-parties-rap-appointed-boundaries",
+      "licence": "CC BY 4.0",
+      "verifiedExcerpt": "Creative Commons Attribution 4.0 International",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Public statutory geography only. Catalogue licensing does not authorise copying community cultural knowledge.",
+      "conditions": [
+        "Attribute State of Victoria and source catalogue",
+        "Distinguish statutory extent, registration/commencement dates and retrieval date",
+        "Keep overlapping records, source legal meaning and limitations"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": "No claim of community endorsement. No sensitive heritage-site geometry was accessed. Do not equate these boundaries with Country, language, ownership or native title."
+    },
+    {
+      "id": "recognition-rsa",
+      "owner": "State of Victoria / DEECA",
+      "assetLocations": [
+        "assets/maps/vic-rsa.*",
+        "content/first-peoples/vic.json"
+      ],
+      "sourceUrl": "https://discover.data.vic.gov.au/dataset/recognition-and-settlement-agreement-areas",
+      "licence": "CC BY 4.0",
+      "verifiedExcerpt": "Creative Commons Attribution 4.0 International",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Public statutory geography only. Catalogue licensing does not authorise copying community cultural knowledge.",
+      "conditions": [
+        "Attribute State of Victoria and source catalogue",
+        "Distinguish statutory extent, registration/commencement dates and retrieval date",
+        "Keep overlapping records, source legal meaning and limitations"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": "No claim of community endorsement. No sensitive heritage-site geometry was accessed. Do not equate these boundaries with Country, language, ownership or native title."
+    },
+    {
+      "id": "vec",
+      "owner": "Victorian Electoral Commission",
+      "assetLocations": [
+        "content/electorates/vic-election-results.json",
+        "content/councils/vic.json",
+        "content/representatives/vic.json"
+      ],
+      "sourceUrl": "https://www.vec.vic.gov.au/legal",
+      "licence": "CC BY 4.0, exclusions apply",
+      "verifiedExcerpt": "© Victorian Electoral Commission",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "VEC main-site legal page verified; attributed textual and numerical records are reused.",
+      "conditions": [
+        "Attribute © Victorian Electoral Commission",
+        "Exclude images, photographs, videos, branding and third-party content",
+        "Preserve dates and distinguish current roster from historical results"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": null
+    },
+    {
+      "id": "abs",
+      "owner": "Commonwealth of Australia / Australian Bureau of Statistics",
+      "assetLocations": [
+        "content/councils/vic.json",
+        "content/electorates/vic-census-2021.json"
+      ],
+      "sourceUrl": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
+      "licence": "CC BY 4.0, exclusions apply",
+      "verifiedExcerpt": "Creative Commons Attribution 4.0 International",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Aggregate ABS population observations support attributed reuse. Parliament compilation of Census electorate cells is also covered by the Parliament review entry.",
+      "conditions": [
+        "Attribute ABS and exact publication/period/geography",
+        "Do not extend permission to microdata, logos, trademarks, branding artwork or third-party material"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "reviewed-open-data",
+      "culturalPermissions": null
+    },
+    {
+      "id": "parliament",
+      "owner": "Parliament of Victoria",
+      "assetLocations": [
+        "content/electorates/vic-census-2021.json",
+        "content/representatives/vic.json",
+        "content/representatives/vic-seating.json",
+        "assets/vic-representation.js"
+      ],
+      "sourceUrl": "https://www.parliament.vic.gov.au/copyright/",
+      "licence": "Copyright; specified-purpose download/display permission",
+      "verifiedExcerpt": "personal, non-commercial use",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Current personal/non-commercial research purpose is within stated purposes. Factual seating positions are independently drawn. This is not a blanket open-data or artwork republication licence.",
+      "conditions": [
+        "Credit and link official source",
+        "Do not copy official PDF/SVG artwork or member photographs into the app",
+        "Preserve source date versus current occupancy",
+        "Seek Presiding Officers permission for uses beyond the listed purposes"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork",
+        "Bulk republishing the source workbook, contact CSV, seating artwork or photographs"
+      ],
+      "status": "watch-purpose-and-redistribution",
+      "culturalPermissions": null
+    },
+    {
+      "id": "local-government-finance",
+      "owner": "State of Victoria",
+      "assetLocations": [
+        "content/councils/vic.json: finance (null values)",
+        "tools/vic_council_facts.py: source links"
+      ],
+      "sourceUrl": "https://www.localgovernment.vic.gov.au/copyright",
+      "licence": "Conditional personal, in-house or non-commercial reproduction",
+      "verifiedExcerpt": "personal, in-house or non-commercial use",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Public non-commercial availability is not automatically disallowed. Current purpose fits the stated non-commercial pathway subject to conditions and dataset-specific exceptions. LGPRF bulk access returned HTTP 403: numerical series remain unavailable, not zero.",
+      "conditions": [
+        "Credit owner",
+        "No official connection claim",
+        "Make material available free of charge",
+        "Avoid inaccurate, misleading or derogatory treatment",
+        "Check each acquired workbook for different or third-party terms; do not bypass access controls"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork"
+      ],
+      "status": "terms-reviewed-source-access-blocked",
+      "culturalPermissions": null
+    },
+    {
+      "id": "community-cultural",
+      "owner": "Respective First Peoples organisations",
+      "assetLocations": [
+        "tools/templates/vic-map.html: source links",
+        "content/first-peoples/vic.json: community links"
+      ],
+      "sourceUrl": "https://gambay.com.au/",
+      "licence": "No bulk-copy licence verified",
+      "verifiedExcerpt": "",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Source links only to Gambay, VACL and FVTOC. Their maps, knowledge, artwork and recordings are not copied or traced.",
+      "conditions": [
+        "Keep community authority and attribution visible",
+        "VACL: https://vacl.org.au/languages/",
+        "FVTOC: https://fvtoc.com.au/about/"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork",
+        "Any proposed copying, embedding or derived cultural boundary dataset"
+      ],
+      "status": "links-only-permission-unverified",
+      "culturalPermissions": "Obtain source-holder/community guidance for the specific intended reuse. Public availability or government licensing does not establish cultural permission."
+    },
+    {
+      "id": "aiatsis",
+      "owner": "AIATSIS / Aboriginal Studies Press",
+      "assetLocations": [
+        "No imported map asset"
+      ],
+      "sourceUrl": "https://aiatsis.gov.au/form/permission/map",
+      "licence": "Specific reproduction permission required",
+      "verifiedExcerpt": "cannot be reproduced without approval from ASP",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "No AIATSIS map or GIS tracing is used. Linking is permitted without a permission application.",
+      "conditions": [
+        "Do not crop, recolour or add geospatial mapping",
+        "Request permission for any proposed reproduction; permission is use-specific"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork",
+        "Any proposed AIATSIS map reproduction"
+      ],
+      "status": "not-imported-permission-required",
+      "culturalPermissions": "Approximate historical cultural map; not suitable for precise electoral or ownership boundaries."
+    },
+    {
+      "id": "nntt",
+      "owner": "National Native Title Tribunal / Commonwealth of Australia",
+      "assetLocations": [
+        "tools/templates/vic-map.html: source link only"
+      ],
+      "sourceUrl": "https://www.nntt.gov.au/assistance/geospatial/spatial-data",
+      "licence": "Information reproduction permitted with attribution; artwork reserved",
+      "verifiedExcerpt": "reproductions of the information contained is permitted",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "Source link only; no native-title geometry imported. Future ingestion should inspect dataset terms and preserve legal status and dates.",
+      "conditions": [
+        "Attribute NNTT",
+        "Exclude logo/artwork",
+        "Detailed downloads preferred; web-service geometry may be simplified",
+        "Keep claims, determinations and agreements separate"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork",
+        "First native-title import or changes to source schema"
+      ],
+      "status": "not-imported-source-reviewed",
+      "culturalPermissions": "A legal-recognition record is not a comprehensive cultural boundary or legal advice."
+    },
+    {
+      "id": "aec",
+      "owner": "Australian Electoral Commission / Commonwealth of Australia",
+      "assetLocations": [
+        "Council profiles: federal source link only"
+      ],
+      "sourceUrl": "https://www.aec.gov.au/footer/copyright.htm",
+      "licence": "CC BY 4.0 general content; maps excluded",
+      "verifiedExcerpt": "AEC's maps",
+      "checked": "2026-10-02",
+      "currentUseAssessment": "No federal boundary geometry imported. The general website licence cannot be assumed to license maps.",
+      "conditions": [
+        "Review specific GIS download conditions before importing",
+        "No implied AEC endorsement",
+        "Preserve applicable Commonwealth attribution"
+      ],
+      "reviewTriggers": [
+        "Change to an actual political party or party campaign operation",
+        "Commercial use, sponsorship, advertising or paid access",
+        "Fundraising connected to these datasets",
+        "New bulk redistribution, syndication or copying source artwork",
+        "First federal geometry import"
+      ],
+      "status": "not-imported-map-terms-pending",
+      "culturalPermissions": null
+    }
+  ],
+  "electionLawReview": {
+    "checked": "2026-10-02",
+    "trigger": "Public candidacy announcements, or electoral material made by or for candidates/regulated entities: review authorisation, finance, account and disclosure duties irrespective of non-commercial status.",
+    "sources": [
+      "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/authorisation",
+      "https://www.vec.vic.gov.au/candidates-and-parties/political-donations"
+    ],
+    "assessment": "Potential duty review, not a determination that this workbench is a regulated entity. No applications, money or private nominator data collected."
+  },
+  "candidateSourceUse": {
+    "assets": [
+      "content/elections/vic-2026.json",
+      "states/vic/election/index.html"
+    ],
+    "use": "Independently written factual name, affiliation, electorate, announcement status and dates with primary citations. No source photographs, logos, artwork or biographies copied. Source owners retain their rights.",
+    "review": "Review bulk republication/source-specific conditions and changed campaign/party purposes before such use."
+  }
+}

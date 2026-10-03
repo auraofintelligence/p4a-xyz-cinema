@@ -1,0 +1,30 @@
+from cdp_client import CDP
+import json,pathlib,time,statistics
+R=pathlib.Path(__file__).resolve().parents[2];out=pathlib.Path('qa');data=json.loads((R/'content/councils/vic.json').read_text(encoding='utf-8'));c=CDP();c.call('Page.enable');c.call('Runtime.enable');c.call('Network.enable');c.call('Network.setBlockedURLs',{'urls':[]});c.call('Emulation.setScriptExecutionDisabled',{'value':False});report={}
+def ev(s):return c.evaluate(s)
+def load(url,layer,count):
+ c.call('Page.navigate',{'url':url+'?chamber='+layer});c.wait('window.P4A_VIC_MAP && P4A_VIC_MAP.getState().count==='+str(count),seconds=75)
+for protocol,url in [('file','file:///G:/GithubLocal-PC/p4a-xyz-cinema/states/vic/map/index.html'),('http','http://127.0.0.1:8766/states/vic/map/')]:
+ c.call('Emulation.setDeviceMetricsOverride',{'width':390,'height':844,'deviceScaleFactor':2,'mobile':True});load(url,'lga',87)
+ report[protocol]={'municipalities':ev('P4A_VIC_ELECTORATES.lga.filter(r=>r.kind==="municipality").length'),'unincorporated':ev('P4A_VIC_ELECTORATES.lga.filter(r=>r.kind==="unincorporated").length')}
+ assert report[protocol]['municipalities']==79 and report[protocol]['unincorporated']==8
+ report[protocol]['sorts']=ev('''(()=>{const results=[];const field=document.querySelector('[data-electorate-sort]'),order=document.querySelector('[data-electorate-order]');for(const key of ['name','population','areaKm2','populationGrowth','populationDensity'])for(const dir of ['asc','desc']){field.value=key;order.value=dir;field.dispatchEvent(new Event('change'));const actual=[...document.querySelectorAll('[data-electorate-list] button')].map(b=>b.dataset.electorate);const expected=[...P4A_VIC_ELECTORATES.lga].sort((a,b)=>P4A_VIC_MAP.compareRecords(a,b,key,dir)).map(r=>r.id);if(JSON.stringify(actual)!==JSON.stringify(expected))throw Error(key+dir);if(key!=='name'){const last=actual.slice(-8);if(!last.every(id=>P4A_VIC_ELECTORATES.lga.find(r=>r.id===id).kind==='unincorporated'))throw Error('Missing values not last');}results.push(key+':'+dir);}return results;})()''')
+ report[protocol]['allProfiles']=ev('''(()=>{const bad=[];for(const r of P4A_VIC_ELECTORATES.lga){document.querySelector(`[data-electorate="${r.id}"]`).click();const p=document.querySelector('[data-electorate-profile]');if(p.querySelectorAll('[data-local-facts]').length!==1||!p.textContent.includes('Numerical series unavailable'))bad.push(r.id);if(r.kind==='municipality'&&!p.textContent.includes('All 25 annual population estimates'))bad.push(r.id+':history');if(r.kind==='unincorporated'&&p.querySelector('.vic-pop-chart'))bad.push(r.id+':allocated');}return {count:87,errors:bad};})()''');assert not report[protocol]['allProfiles']['errors']
+ ev("document.querySelector('[data-electorate=vic-lga-347]').click()")
+ report[protocol]['moira']=ev("document.querySelector('[data-electorate-profile]').textContent.includes('Susan Benedyka') && document.querySelector('[data-electorate-profile]').textContent.includes('no sitting councillors')");assert report[protocol]['moira']
+ ev("document.querySelector('[data-electorate-search]').value='Yarra City';document.querySelector('[data-electorate-search]').dispatchEvent(new Event('input'));document.querySelector('[data-electorate-list] button').click()")
+ parent=ev('P4A_VIC_MAP.getState().selected');ev("document.querySelector('[data-local-wards]').click()");c.wait('P4A_VIC_MAP.getState().layer==="ward" && P4A_VIC_MAP.getState().count===9',seconds=75)
+ report[protocol]['wardDrilldown']=ev('({count:P4A_VIC_MAP.getState().count,scope:P4A_VIC_MAP.getState().localScope,list:document.querySelectorAll("[data-electorate-list] button").length})');assert report[protocol]['wardDrilldown']['scope']==parent and report[protocol]['wardDrilldown']['list']==9
+ ev("document.querySelector('[data-electorate-list] button').click()");ident=ev('P4A_VIC_MAP.getState().selected');assert ev("document.querySelector('[data-electorate-profile]').textContent.includes('Council-wide values are not allocated to wards')")
+ permanent=ev("[...document.querySelectorAll('[data-electorate-profile] a')].find(a=>a.textContent==='Permanent link to this place').href")
+ c.call('Page.navigate',{'url':permanent});c.wait('window.P4A_VIC_MAP && P4A_VIC_MAP.getState().selected==='+json.dumps(ident),seconds=75)
+ ev("document.querySelector('[data-electorate-profile] a[href^=\"?chamber=lga\"]').click()");c.wait('P4A_VIC_MAP.getState().selected==='+json.dumps(parent));ev('history.back()');c.wait('P4A_VIC_MAP.getState().selected==='+json.dumps(ident));report[protocol]['permalinkAndBack']=True
+ ev("document.querySelector('[data-map-layer=ward]').click()");c.wait('P4A_VIC_MAP.getState().count===467',seconds=75)
+ report[protocol]['allWardProfiles']=ev('''(()=>{const bad=[];for(const r of P4A_VIC_ELECTORATES.ward){const p=document.querySelector(`#${r.id} [data-local-facts]`);if(!p||!p.textContent.includes('Official ward code'))bad.push(r.id);}for(const r of P4A_VIC_ELECTORATES.ward.slice(0,12)){document.querySelector(`[data-electorate="${r.id}"]`).click();if(!document.querySelector('[data-electorate-profile]').textContent.includes(r.name))bad.push(r.id+':interactive');}return {count:467,interactiveSample:12,errors:bad};})()''');assert not report[protocol]['allWardProfiles']['errors']
+ report[protocol]['noOverflow']=ev('document.documentElement.scrollWidth<=innerWidth');assert report[protocol]['noOverflow']
+ report[protocol]['partyModeDisabledForLocal']=ev("document.querySelector('[data-map-colours]').disabled");assert report[protocol]['partyModeDisabledForLocal']
+ # Return to state mode and confirm current representation remains intact.
+ ev("document.querySelector('[data-map-layer=assembly]').click()");c.wait('P4A_VIC_MAP.getState().count===88');assert ev("document.querySelectorAll('.vic-seat').length") in [88,40]
+ report[protocol]['stateLayerPreserved']=True
+report['exceptions']=[e for e in c.events if e.get('method')=='Runtime.exceptionThrown'];assert not report['exceptions'],report['exceptions']
+(out/'council-browser-report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

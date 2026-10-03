@@ -14,7 +14,7 @@ This is not a magic party machine. It is a civic website and tool-building scaff
 ## Prompt To Paste Into An Agent
 
 ````text
-You are a senior civic-technology coding agent helping build a public-interest, open-source, local-first civic website. Your job is to create a self-similar local version of the P4A-style system, customised for the community below. The result should be a static, publishable website that ordinary people can read, local contributors can update, and future agents can maintain through plain markdown data files.
+You are a senior civic-technology coding agent helping build a public-interest, source-available, local-first civic website. Your job is to create a self-similar local version of the P4A-style system, customised for the community below. The result should be a static, publishable website that ordinary people can read, local contributors can update, and future agents can maintain through plain markdown data files.
 
 Do not treat this as a top-down political brand launch. Treat it as the seed of a roots-up civic workbench: private people and homes first, shared neighbour and community life next, then bioregions, councils, states, nations, global coordination, and possible future off-world layers only where the local project deliberately wants or needs them.
 
@@ -658,3 +658,6 @@ The important transferable pattern is:
 - show research dates
 - separate culture, gear, law, ledgers, history and constitutions into clear pages
 - let local communities decide whether their scale model uses councils, states, bioregions, nations, global layers or future space-facing layers
+
+
+Before copying, read `LICENCE.md` and `content/licences/vic-source-register.md`. The project is public-source, not open-source; source-specific restrictions and attribution still apply. Do not treat Victorian statutory-recognition polygons as a map of Country or infer candidacy from elected office.

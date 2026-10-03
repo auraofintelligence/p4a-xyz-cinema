@@ -24,6 +24,28 @@
   "sourceMarkdown": "content/foundation/treaty-atlas.md",
   "sections": [
     {
+      "id": "sibling-workbenches",
+      "eyebrow": "Related workbenches / external sites",
+      "heading": "Different places to continue exploring.",
+      "paragraphs": [
+        "This Treaty Atlas remains the Australian inherited-agreements workbench. These sibling sites have their own scope and participation paths; neither speaks for a nation or replaces nation-led sources. Both links open in a new tab."
+      ],
+      "cards": [
+        {
+          "label": "Global / nation-led",
+          "title": "Native Nations of the World",
+          "body": "A separate global workbench for nation-led Country, protocols, rights and self-description, with its own self-onboarding. Each nation chooses what to share.",
+          "href": "https://auraofintelligence.github.io/p4a-native-nations-cinema/"
+        },
+        {
+          "label": "Regional / Oceania",
+          "title": "P4A Oceania",
+          "body": "A separate regional workbench for Oceania’s places, relationships, political geography and shared currents across the Blue Pacific.",
+          "href": "https://auraofintelligence.github.io/p4a-oceania-cinema/"
+        }
+      ]
+    },
+    {
       "id": "why",
       "eyebrow": "Why this room",
       "heading": "A republic is more than removing the Crown.",
