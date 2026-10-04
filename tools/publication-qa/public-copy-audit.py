@@ -32,6 +32,6 @@ for p in paths:
    if a['href'] not in old:errors.append([str(p),'missing destination',a['href']])
   else:checks+=1
 assert not errors,errors
-report={'publicHTMLFiles':len(paths),'localDestinationsChecked':checks,'strayPublicNames':errors,'intentionalOtherPeople':exceptions,'preservedURLSlugFiles':address_files,'legalProvenanceUnchanged':['LICENCE.md','content/licences/vic-source-register.json','content/licences/vic-source-register.md'],'historyPreserved':['content/archive','docs/planning'],'scope':'Visible copy and metadata checked; factual authorship in original sources and legal notices retained.'}
+report={'publicHTMLFiles':len(paths),'localDestinationsChecked':checks,'strayPublicNames':errors,'intentionalOtherPeople':exceptions,'preservedURLSlugFiles':address_files,'legalProvenanceUnchanged':['LICENCE.md','content/licences/vic-source-register.json','content/licences/vic-source-register.md'],'historyPreserved':['content/archive','docs/planning'],'intentionalToolingPatterns':'tools/public_copy.py retains retired personal strings only as replacement match patterns; planning generators retain internal research provenance, not rendered visitor copy.','scope':'Visible copy and metadata checked; factual authorship in original sources and legal notices retained.'}
 (R/'tools/publication-qa/public-copy-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('PASS',len(paths),'public HTML files;',checks,'local destinations; no promotional names; explicit exceptions recorded.')

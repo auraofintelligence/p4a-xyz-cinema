@@ -68,12 +68,15 @@ def neutral_copy(text):
  "Strange But True is Luke's personal sole trader business and can be used as one pattern library for practical field setup.":'The linked field examples offer one optional pattern library for practical setup.',
  'his Web3 global sensorium plan':'the Web3 global sensorium proposal',
  'sits missing middle:':'sits the missing middle:',
+ 'public-resource receipt should record':'A public-resource record should record',
  'It is marriage-based simulacrum':'It is a marriage-based simulacrum',
  'His Protopian Gambit':'The Protopian Gambit',
  'His Oceania and Native Nations connections':'The separate Oceania and Native Nations projects',
  }
  for a,b in replacements.items():text=text.replace(a,b)
  text=re.sub(r"\bLuke(?:’s|'s|&#x27;s|&#39;s|&rsquo;s)\s+",'',text)
+ text=text.replace('The The missing-middle proposal','The missing-middle proposal')
+ text=re.sub(r'(?<!The )missing-middle proposal adds public access','The missing-middle proposal adds public access',text)
  for i,u in enumerate(urls):text=text.replace('PUBLIC_URL_'+str(i)+'_END',u)
  return text
 
@@ -96,6 +99,7 @@ def public_html(name,text):
    raw=text[a:b]
    if 'origin-deck' in raw:text=text[:a]+panel('Two blokes from Straddie. An open invitation.','A friendly disagreement over a beer became a question: how could people make public decisions more transparent, useful and open to correction? Bring a problem, test an idea, share what you learn. The workbench belongs to the conversation, not a candidate.')+text[b:]
    elif 'trying to get off Centrelink' in raw:text=text[:a]+panel('Small wins before big claims.','Start with a useful local task: explain a form, trace a public decision, test a tool or help neighbours compare options. Publish what worked and what did not. Communities can adapt the method without adopting a brand.',[('starter-field-kit.html','Practical starter field kit')])+text[b:]
+ if stem=='marriage-divorce':text=text.replace('<h2>related solutions</h2>','<h2>Household agreements and a wider thought experiment</h2>')
  text=neutral_copy(text)
  return text
 
