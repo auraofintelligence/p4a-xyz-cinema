@@ -9,7 +9,7 @@ baseline=json.loads(old('content/home-ticker.json'))
 assert [(x['headline'],x['href']) for x in t['items'][:23]]==[(x['headline'],x['href']) for x in baseline['items'][:23]]
 assert all(1<=len(x['headline'].split())<=3 for x in t['items'])
 for f in ['assets/homepage-ticker.css','assets/homepage-ticker.js']:
- assert (R/f).read_text(encoding='utf-8')==old(f),f
+ assert (R/f).read_text(encoding='utf-8')==old(f).replace("?'\u2014':paused","?'-':paused"),f
 hub=(R/'pages/twinkle.html').read_text(encoding='utf-8');nav=(R/'assets/site-nav.js').read_text(encoding='utf-8');sm=(R/'pages/site-map.html').read_text(encoding='utf-8')
 cards=re.findall(r'<a class="twinkle-card" href="(twinkle-[^"]+\.html)">(.*?)</a>',hub,re.S)
 assert len(cards)==total and len(set(x[0] for x in cards))==total
@@ -40,6 +40,6 @@ before=snapshot()
 subprocess.run(['python','tools/build-policy-rooms.py'],cwd=R,check=True,stdout=subprocess.DEVNULL)
 subprocess.run(['python','tools/build-home-ticker.py'],cwd=R,check=True,stdout=subprocess.DEVNULL)
 assert snapshot()==before,'Generators must be idempotent'
-report={'checked':'2026-10-03','requestedTopics':24,'twinkles':total,'inlineVisualCoverage':total,'tickerLabels':len(t['items']),'originalTickerTopicsPreserved':23,'tickerStyleAndClickScriptUnchanged':True,'originalTwinkleMediaPreserved':22,'sequenceAndDestinations':True,'adultResearchGrouping':True,'generatorsIdempotent':True}
+report={'checked':'2026-10-04','requestedTopics':24,'twinkles':total,'inlineVisualCoverage':total,'tickerLabels':len(t['items']),'originalTickerTopicsPreserved':23,'tickerStyleAndBehaviourPreserved':True,'reducedMotionSymbol':'ASCII hyphen by user request','originalTwinkleMediaPreserved':22,'sequenceAndDestinations':True,'adultResearchGrouping':True,'generatorsIdempotent':True}
 (R/'tools/publication-qa/topic-integrity-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
 print('PASS',json.dumps(report))

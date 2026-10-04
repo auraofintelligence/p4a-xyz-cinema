@@ -49,7 +49,7 @@ def merge_research(data,lines,link):
  if current is not None:merged.extend(additions(current))
  appendix=['## Additional cross-repository evidence register','', 'Source keys below are stable references in the structured map. Status descriptions are attributed to the supplied research unless they explicitly refer to a local check. PDF/DOCX file/title verification is not full-content verification. Current legal, financial, engineering and medical claims need case-specific evidence before implementation. AlphaInfinityFoundation retains its full name if included in later work.','']
  for key,x in research['sources'].items():
-  appendix+=['- **'+key+' — '+link(x['title'],x['url'])+'** · '+link('Repository',x['repository'])+'. '+x['status']+'.']
+  appendix+=['- **'+key+' - '+link(x['title'],x['url'])+'** · '+link('Repository',x['repository'])+'. '+x['status']+'.']
  appendix+=['']
  at=merged.index('## Evidence and follow-up limits');merged[at:at]=appendix
  return data,merged

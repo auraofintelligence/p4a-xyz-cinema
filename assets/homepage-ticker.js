@@ -9,7 +9,7 @@
   function update(){
     ticker.classList.toggle('is-paused',stopped());ticker.classList.toggle('is-running',!stopped());
     button.disabled=reduced.matches;button.setAttribute('aria-pressed',String(paused||reduced.matches));
-    button.textContent=reduced.matches?'—':paused?'▶':'Ⅱ';
+    button.textContent=reduced.matches?'-':paused?'▶':'Ⅱ';
     button.setAttribute('aria-label',reduced.matches?'Ticker motion off to respect reduced-motion preference':paused?'Play ticker':'Pause ticker');
   }
   // Scroll the same two equal groups over the original 38-second cycle.

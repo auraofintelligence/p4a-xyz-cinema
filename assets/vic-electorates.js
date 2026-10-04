@@ -19032,7 +19032,7 @@ window.P4A_VIC_ELECTORATES = {
     {
       "id": "vic-ward-37901",
       "code": "37901",
-      "name": "French-Elizabeth-Sandstone Islands — electoral area",
+      "name": "French-Elizabeth-Sandstone Islands - electoral area",
       "kind": "unspecified",
       "body": "ward",
       "level": "local",

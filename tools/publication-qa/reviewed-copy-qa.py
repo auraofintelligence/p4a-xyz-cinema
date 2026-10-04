@@ -9,8 +9,8 @@ records=json.loads((R/'content/twinkle-reviewed-copy.json').read_text(encoding='
 seeds=json.loads((R/'content/twinkle-earlier-seeds.json').read_text(encoding='utf-8'))
 hub=(R/'pages/twinkle.html').read_text(encoding='utf-8')
 cards=dict(re.findall(r'<a class="twinkle-card" href="([^"]+)">(.*?)</a>',hub,re.S))
-assert len(records)==len(cards)==48
-assert records[:47]==json.loads(subprocess.check_output(['git','show','9c5c148:content/twinkle-reviewed-copy.json'],cwd=R).decode('utf-8'))
+assert len(records)==len(cards)==49
+assert records[:48]==json.loads(subprocess.check_output(['git','show','7bbf65a:content/twinkle-reviewed-copy.json'],cwd=R).decode('utf-8'))
 for record in records:
  filename='twinkle-'+record['slug']+'.html'
  page=(R/'pages'/filename).read_text(encoding='utf-8')
@@ -32,11 +32,11 @@ for seed in seeds:
  assert seed['html'] in room and seed['hero'] in room,seed['slug']
  assert room.count('<!-- earlier-twinkle-seeds:start -->')==1,seed['destination']
 for name in ['assets/homepage-ticker.css','assets/homepage-ticker.js']:
- assert (R/name).read_text(encoding='utf-8')==before(name),name
+ assert (R/name).read_text(encoding='utf-8')==before(name).replace("?'\u2014':paused","?'-':paused"),name
 assert 'The fix gets said' not in hub
 old_ticker=json.loads(before('content/home-ticker.json'))['items'];ticker=json.loads((R/'content/home-ticker.json').read_text(encoding='utf-8'))['items']
-assert ticker[:len(old_ticker)]==old_ticker and len(ticker)==len(old_ticker)+1
-assert 'Forty-eight Twinkles' in hub and 'Forty-four more connections' in hub
-report={'baseline':BASE,'approvedCopyEntries':48,'exactCardHeroSeedAndMetadataMatches':48,'previous47CopyUnchanged':True,'originalAuthoredSeedsPreservedInDeeperRooms':22,'previousTickerLabelsAndAppearanceUnchanged':True,'copyDeviations':[]}
+assert ticker[:len(old_ticker)]==old_ticker and len(ticker)==len(old_ticker)+2
+assert 'Forty-nine Twinkles' in hub and 'Forty-five more connections' in hub
+report={'baseline':BASE,'approvedCopyEntries':49,'exactCardHeroSeedAndMetadataMatches':49,'previous48CopyUnchanged':True,'originalAuthoredSeedsPreservedInDeeperRooms':22,'previousTickerLabelsAndAppearanceUnchanged':True,'copyDeviations':[]}
 (R/'tools/publication-qa/reviewed-copy-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
 print('PASS',json.dumps(report))

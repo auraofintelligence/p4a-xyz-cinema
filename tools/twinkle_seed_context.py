@@ -13,7 +13,7 @@ def with_seed_context(page_name,document):
  document=re.sub(re.escape(START)+'.*?'+re.escape(END),'',document,flags=re.S)
  blocks=[]
  for seed in seeds:
-  blocks.append('<details class="feature-panel"><summary>Twinkle '+str(seed['number']).zfill(2)+' — earlier seed and related proposals</summary><p>'+seed['hero']+'</p>'+seed['html']+'<p><a href="twinkle-'+seed['slug']+'.html">Back to Twinkle '+str(seed['number']).zfill(2)+'</a></p></details>')
+  blocks.append('<details class="feature-panel"><summary>Twinkle '+str(seed['number']).zfill(2)+' - earlier seed and related proposals</summary><p>'+seed['hero']+'</p>'+seed['html']+'<p><a href="twinkle-'+seed['slug']+'.html">Back to Twinkle '+str(seed['number']).zfill(2)+'</a></p></details>')
  section=START+'<section class="section" id="earlier-twinkle-seeds"><div class="page-copy reveal"><h2>From the original Twinkle seeds</h2><p>Earlier clip briefs and proposals are kept here alongside the current evidence and options above. These are exploratory ideas, not adopted policy.</p>'+''.join(blocks)+'</div></section>'+END
  return document.replace('</main>',section+'</main>',1)
 

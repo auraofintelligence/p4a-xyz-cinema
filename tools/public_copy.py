@@ -2,6 +2,7 @@
 from pathlib import Path
 import re,html
 from html.parser import HTMLParser
+from public_punctuation import public_punctuation
 ROOT=Path(__file__).resolve().parents[1]
 
 def panel(title,body,links=()):
@@ -100,7 +101,7 @@ def public_html(name,text):
    if 'origin-deck' in raw:text=text[:a]+panel('Two blokes from Straddie. An open invitation.','A friendly disagreement over a beer became a question: how could people make public decisions more transparent, useful and open to correction? Bring a problem, test an idea, share what you learn. The workbench belongs to the conversation, not a candidate.')+text[b:]
    elif 'trying to get off Centrelink' in raw:text=text[:a]+panel('Small wins before big claims.','Start with a useful local task: explain a form, trace a public decision, test a tool or help neighbours compare options. Publish what worked and what did not. Communities can adapt the method without adopting a brand.',[('starter-field-kit.html','Practical starter field kit')])+text[b:]
  if stem=='marriage-divorce':text=text.replace('<h2>related solutions</h2>','<h2>Household agreements and a wider thought experiment</h2>')
- text=neutral_copy(text)
+ text=public_punctuation(neutral_copy(text))
  return text
 
 if __name__=='__main__':
