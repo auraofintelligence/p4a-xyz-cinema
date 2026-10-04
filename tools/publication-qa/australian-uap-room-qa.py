@@ -19,6 +19,10 @@ for term in ['empathy, black swan preparedness, and existential threat avoidance
 assert 'What should disclosure require?' not in t
 assert len(s.select('#traditions .official-link-card'))==4
 assert len(s.select('#australian-records .official-link-card'))==4
+assert len(s.select('#disclosure > .official-link-grid > .official-link-card'))==2
+assert s.select_one('#whistleblower-protection').find_parent(class_='official-link-card')
+assert 'Faith matters, but it is not an excuse to switch your brain off and discount rational inquiry.' in s.get_text(' ',strip=True)
+for term in ['Potential benefits','Pitfalls:','Nobody speaks or vetoes','Record whether the exercise changed']:assert term in s.get_text(' ',strip=True)
 before=hashlib.sha256(p.read_bytes()).hexdigest();subprocess.run([sys.executable,str(R/'tools/build-policy-rooms.py'),'ancient-aliens'],check=True,cwd=R);assert before==hashlib.sha256(p.read_bytes()).hexdigest()
 for f in ['tools/build-policy-rooms.py','tools/public_copy.py']:py_compile.compile(str(R/f),doraise=True)
 assert not subprocess.check_output(['git','diff','--','styles.css','assets/homepage-ticker.css','pages/twinkle-ancient-aliens.html'],cwd=R)
@@ -52,6 +56,7 @@ c=CDP();c.call('Page.enable');c.call('Runtime.enable');runs=[];shots=R/'tools/pu
 for w in [1440,390]:
  c.call('Emulation.setDeviceMetricsOverride',{'width':w,'height':950,'deviceScaleFactor':1,'mobile':w<500});c.evaluate('window.__oldAU=true');c.call('Page.navigate',{'url':'http://127.0.0.1:8765/pages/ancient-aliens.html'});c.wait("!window.__oldAU&&document.readyState==='complete'&&!!document.querySelector('.footer-index')");c.evaluate("document.documentElement.style.scrollBehavior='auto';document.querySelectorAll('.reveal').forEach(e=>e.classList.add('is-visible','visible'))")
  for anchor in ['main','disclosure','empty-chair','records','traditions','sky-country-partnership','defence-records','recent-sightings','religion-and-aliens','belief-and-power','whistleblower-protection','regional-cooperation']:
+  c.evaluate('(()=>{let e=document.getElementById('+json.dumps(anchor)+');for(let p=e;p;p=p.parentElement){if(p.tagName==="DETAILS")p.open=true;}if(e.id==="traditions")e.querySelector("details").open=true;})()')
   c.evaluate('document.querySelector('+json.dumps('#'+anchor)+').scrollIntoView({block:"start",behavior:"instant"});window.scrollBy(0,-90)');c.evaluate('new Promise(r=>setTimeout(r,200))')
   result=c.evaluate("(()=>{let r=[...document.querySelectorAll('.button,.source-links a,.official-link-actions a')].filter(e=>e.getBoundingClientRect().width);return {overflow:document.documentElement.scrollWidth>innerWidth+2,clippedActions:r.filter(e=>e.scrollWidth>e.clientWidth+2).map(e=>e.textContent.trim())}})()")
   assert not result['overflow'] and not result['clippedActions'],[w,anchor,result]
