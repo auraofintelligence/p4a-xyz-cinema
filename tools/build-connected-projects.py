@@ -20,7 +20,7 @@ for project in data['projects']:
         text = path.read_text(encoding='utf-8')
         key = project['links'][0].rstrip('/').rsplit('/', 1)[-1]
         start, end = f'<!-- connected:{key} -->', f'<!-- /connected:{key} -->'
-        panel = f'{start}\n<div class="feature-panel"><h2>Connected project: {title}</h2><p>{description}</p><p><a href="{url}" target="_blank" rel="noopener noreferrer">Open {title} (new tab)</a></p></div>\n{end}'
+        panel = f'{start}\n<div class="feature-panel"><h2>Connected project: {title}</h2><p>{description}</p><div class="source-links"><a href="{url}" target="_blank" rel="noopener noreferrer">Open {title} (new tab)</a></div></div>\n{end}'
         if start in text:
             text = re.sub(re.escape(start) + r'.*?' + re.escape(end), lambda _: panel, text, flags=re.S)
         elif url not in text:

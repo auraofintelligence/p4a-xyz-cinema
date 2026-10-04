@@ -3079,3 +3079,124 @@ body footer.site-footer a:focus-visible{outline:3px solid var(--gold,#f4d98c);ou
 .state-election-date{color:var(--gold,#f4d98c)}.state-election-date small{display:block;color:var(--muted,#bbb);font-size:.76rem;margin-top:6px}.election-order-note,.state-index-heading{padding:0 20px}.state-reference-grid{margin-bottom:20px}
 
 .official-link-grid{align-items:start}.official-link-card{align-self:start;align-content:start;justify-content:start}.official-link-actions{margin-top:0}
+
+/* Shared action system: glass-lit purple, warm metal edges, stable content-sized rows.
+   Explicit action selectors leave prose links, status tags and the original ticker alone. */
+:root {
+  --action-fill: linear-gradient(180deg, #41314f 0%, #2b2037 48%, #231a30 100%);
+  --action-primary: linear-gradient(180deg, #8352b7 0%, #663497 48%, #4d2579 100%);
+  --action-edge: #927851;
+  --action-ink: #fff0c6;
+  --action-shadow: inset 0 1px 0 #ffffff38, inset 0 -1px 0 #120d2080, 0 3px 9px #08051040;
+}
+body :is(.button, .ve-button, .source-links a, .official-link-actions a, .builder-nav-strip a, .map-jump a,
+ .index-toggle, .icon-button, .floating-action-link, .floating-top-button,
+ .support-presets button, .segmented-control button, .ve-filters button,
+ .vic-workbench button:where(:not(.vic-physical-seat)), .vic-candidate-actions a, .ve-candidate-actions a) {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  width: auto;
+  min-width: 0;
+  min-height: 44px;
+  max-width: 100%;
+  padding: .68rem 1.05rem;
+  border: 1px solid var(--action-edge);
+  border-radius: 11px;
+  background: var(--action-fill);
+  color: var(--action-ink);
+  box-shadow: var(--action-shadow);
+  font: 650 .9rem/1.35 var(--font-body, system-ui, sans-serif);
+  letter-spacing: .01em;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  transform: none;
+  transition: border-color .16s ease, box-shadow .16s ease, filter .16s ease;
+}
+body :is(.button-primary, .ve-button:not(.ve-outline)) {
+  background: var(--action-primary);
+  border-color: #c3a0e6;
+  color: #fff;
+  box-shadow: inset 0 1px 0 #ffffff55, inset 0 -1px 0 #25133680, 0 3px 12px #5b287b40;
+}
+body .ve-button:not(.ve-outline) { color: #fff !important; }
+body .ve-button.ve-outline { color: var(--action-ink) !important; }
+body :is(.button, .ve-button, .source-links a, .official-link-actions a, .builder-nav-strip a, .map-jump a,
+ .index-toggle, .icon-button, .floating-action-link, .floating-top-button,
+ .support-presets button, .segmented-control button, .ve-filters button,
+ .vic-workbench button:where(:not(.vic-physical-seat)), .vic-candidate-actions a, .ve-candidate-actions a):hover {
+  border-color: #f4d98c;
+  color: #fff8e3;
+  filter: brightness(1.12);
+  box-shadow: inset 0 1px 0 #ffffff60, 0 0 0 1px #f4d98c20, 0 4px 12px #08051055;
+  transform: none;
+  text-decoration: none;
+}
+body :is(a, button, input, select, textarea, summary, [tabindex]):focus-visible:not(.issue-ticker *) {
+  outline: 3px solid #ffe3a1;
+  outline-offset: 3px;
+}
+body :is(.button, .ve-button, .source-links a, .official-link-actions a, .builder-nav-strip a, .map-jump a, .index-toggle, .vic-workbench button:where(:not(.vic-physical-seat))):active {
+  filter: brightness(.96);
+  box-shadow: inset 0 2px 4px #10071b70, inset 0 -1px 0 #ffffff20;
+  transform: none;
+}
+body :is(button:disabled:not(.ticker-toggle), .button[aria-disabled="true"]) {
+  opacity: .55; cursor: not-allowed; filter: none; box-shadow: none;
+}
+body :is(.next-trail, .hero-actions, .button-row, .builder-actions, .source-links,
+ .official-link-actions, .builder-nav-strip, .map-jump, .ve-actions, .vic-candidate-actions, .ve-candidate-actions) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: .65rem;
+}
+body :is(.next-trail, .builder-actions) .button { flex: 0 1 auto; width: auto; }
+body :is(.next-trail, .hero-actions, .button-row) > .button { min-height: 48px; }
+body :is(.source-links, .official-link-actions) a { font-size: .84rem; padding: .6rem .82rem; }
+/* Navigation remains compact and distinct from calls to action. */
+body .site-layer-strip a {
+  display: inline-flex; align-items: center; min-height: 40px; padding: .4rem .72rem;
+  border: 1px solid #92785180; border-radius: 8px; background: var(--action-fill);
+  box-shadow: inset 0 1px 0 #ffffff25; color: #ffe9ad; text-decoration: none; line-height: 1.35;
+}
+body .site-layer-strip a:hover { border-color: #f4d98c; filter: brightness(1.12); }
+body .index-toggle { font-size: .78rem; padding: .65rem .95rem; }
+/* Atlas row selectors keep their list layout; map icon controls stay small. */
+body .vic-workbench .vic-list button {
+  display: block; width: 100%; text-align: left; background: transparent;
+  border: 1px solid transparent; box-shadow: none; padding: .65rem .7rem; font-size: .86rem;
+}
+body .vic-workbench .vic-list button[aria-pressed="true"] {
+  background: #3b294c; border-color: #c5a369; box-shadow: inset 3px 0 0 #f4d98c;
+}
+body .vic-workbench .vic-tabs button { font-size: .75rem; padding: .55rem .7rem; }
+body :is(.vic-tabs button[aria-pressed="true"], .segmented-control button.is-active, .support-presets button.is-active) {
+  background: linear-gradient(180deg, #ffe4a6, #d7b86f); color: #24182f; border-color: #ffe9b5;
+}
+body .vic-workbench .vic-map-controls button { min-width: 44px; min-height: 44px; padding: .4rem .6rem; }
+body :is(.vic-candidate-actions, .ve-candidate-actions) { gap: .5rem; }
+body :is(.vic-candidate-actions a, .vic-candidate-actions button, .ve-candidate-actions a) { font-size: .8rem; padding: .5rem .7rem; }
+body .icon-button.nav-toggle { display: none; }
+@media (max-width: 620px) {
+  body :is(.next-trail, .builder-actions, .hero-actions, .ve-actions) {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 155px), 1fr)); align-items: stretch;
+  }
+  body :is(.next-trail, .builder-actions, .hero-actions, .ve-actions) > :is(.button, .ve-button) { width: 100%; min-height: 48px; }
+  body .site-layer-strip a { min-height: 44px; }
+  body :is(.floating-action-link, .floating-top-button) { min-height: 44px; font-size: .78rem; padding: .55rem .65rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body :is(.button, .ve-button, .source-links a, .official-link-actions a, .builder-nav-strip a, .map-jump a, .index-toggle,
+   .vic-workbench button:where(:not(.vic-physical-seat)), .segmented-control button, .floating-action-link, .floating-top-button) { transition: none; }
+}
+/* Resource actions need readable labels inside one-column cards on narrow screens. */
+@media (max-width: 620px) {
+  .official-link-grid { grid-template-columns: minmax(0, 1fr); }
+}
