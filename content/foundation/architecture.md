@@ -20,7 +20,7 @@
   },
   "researchRun": "2026-05-08",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Roots-up architecture pass drafted from the P4A site direction and Luke's local government funding inquiry submission. This is a participatory architecture draft, not adopted policy.",
+  "researchStatus": "Roots-up architecture pass drafted from the P4A site direction and local government funding inquiry submission. This is a participatory architecture draft, not adopted policy.",
   "sourceMarkdown": "content/foundation/architecture.md",
   "sections": [
     {
