@@ -101,7 +101,8 @@
         { href: 'pages/twinkle-psychedelic-mental-health.html', title: "Twinkle 45: Psychedelic care", note: 'A public question with policy follow-through.' },
         { href: 'pages/twinkle-restricted-plants.html', title: "Twinkle 46: Prohibited plants", note: 'A public question with policy follow-through.' },
         { href: 'pages/twinkle-super-investments.html', title: 'Twinkle 47: Super investments', note: 'My super. What is it buying?' },
-        { href: 'pages/twinkle-political-lies.html', title: 'Twinkle 48: Political lies', note: 'Lying, but authorised.' }
+        { href: 'pages/twinkle-political-lies.html', title: 'Twinkle 48: Political lies', note: 'Lying, but authorised.' },
+        { href: 'pages/twinkle-ai-pdoom.html', title: 'Twinkle 49: AI p(doom)', note: 'Odds on a fair go?' }
       ]
     },
     {
@@ -155,7 +156,8 @@
         { href: 'pages/mental-health.html', title: 'Mental health', note: 'Public choices and participation.' },
         { href: 'pages/psychedelic-mental-health.html', title: "Psychedelic care", note: 'Evidence, choices and participation.' },
         { href: 'pages/restricted-plants.html', title: "Prohibited plants", note: 'Evidence, choices and participation.' },
-        { href: 'pages/super-investments.html', title: 'Super investments', note: 'Holdings, fees, screens and member control.' }
+        { href: 'pages/super-investments.html', title: 'Super investments', note: 'Holdings, fees, screens and member control.' },
+        { href: 'pages/ai-pdoom.html', title: 'AI futures', note: 'Doom, protopia, a fair go and joyful responsible abundance.' }
       ]
     },
     {
@@ -209,11 +211,11 @@
   const EXTERNAL = [
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema', title: 'Fork on GitHub' },
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md', title: 'Localise with an agent' },
-    { href: 'https://auraofintelligence.github.io/strange-but-true/', title: 'Strange But True — live L1 example' },
+    { href: 'https://auraofintelligence.github.io/strange-but-true/', title: 'Strange But True - live L1 example' },
     { href: 'https://auraofintelligence.github.io/p4a-native-nations-cinema/', title: 'Native Nations - global, nation-led Country, rights and self-description' },
     { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania - regional places, relationships and shared currents' },
-    { href: 'https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/', title: 'Cosmic Nexus — myth, UAP and travel atlas' },
-    { href: 'https://auraofintelligence.github.io/strange-but-true-travel-oracle/', title: 'Travel Oracle — self-sovereign travel-life navigation' }
+    { href: 'https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/', title: 'Cosmic Nexus - myth, UAP and travel atlas' },
+    { href: 'https://auraofintelligence.github.io/strange-but-true-travel-oracle/', title: 'Travel Oracle - self-sovereign travel-life navigation' }
   ];
 
   /* Normalise: strip /index.html and .html so clean URLs match too. */
