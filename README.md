@@ -84,7 +84,8 @@ The homepage is a cinematic, chaptered doorway: Act I the spark (Twinkle), Act I
 
 - Architecture: roots-up civic model and flexible scale layers
 - Twinkle: public gripe series
-- Rabbit Hole: deeper campaign map
+- Rabbit-hole policies: all 49 Twinkle solutions and seven key civic systems.
+- Civic pathway: the preserved journey through origins, culture, organising and civic design.
 - Gear: support bundles and deployment materials
 - Music: culture layer
 - States: Australian state and territory portals
@@ -142,6 +143,18 @@ Built on Minjerribah by Luke × Claude.
 [Source repository](https://github.com/auraofintelligence/mutual-futures) · [Project connections and sources](https://auraofintelligence.github.io/mutual-futures/sources.html)
 
 
+## October 2026 Twinkles and public rooms
+
+The workbench now has 49 Twinkles. `content/public-topic-inventory.json` maps Luke's 24-topic expansion to its actual Twinkle and deeper room, alongside the previously approved AI copyright, broader mental health and Sensorium work; `followupTopics` records the separate super-investment transparency addition. The original 22 Twinkles and their media remain; new topics extend the sequence. Migration equations, International wars and Security fallacies are distinct rooms. Marriage and divorce is one doorway into Global Group Marriages and U.N. of Love. Tobacco tax and Prohibited plants are separate.
+
+Reviewed page HTML is authoritative in `content/rooms/`. Publish it with `python tools/build-policy-rooms.py`; optional stem arguments limit the run. These sources preserve each existing room's artwork, media and chrome. When refreshing connected projects, run `python tools/build-connected-projects.py` first, then publish rooms: that generator updates the canonical room source where present. Do not rerun the one-time `upgrade-sensorium.py`, `expand-policy-rooms.py`, `polish-twinkle-batch.py`, `expand-public-topics.py` or `finish-topic-order.py` migrations for routine updates.
+
+`content/twinkle-topic-icons.json` records the topic icon mapping. Feather 4.29.2 icons are locally served under `assets/topic-icons/`, with the upstream MIT licence. Games uses a five-ring CSS cue. Icon and number share one row, and every card retains its text and keyboard link. New adult mental-health research and prohibited-plant topics sit together away from child/youth entries; the first 23 original ticker labels retain their order.
+
+Validation: `python tools/publication-qa/policy-qa.py` uses the repository's isolated CDP browser on port 9227 for desktop/mobile renders, local links, anchors and external-link targets. `python tools/publication-qa/topic-integrity.py` checks the topic inventory, sequence, icons, ticker and preserved media. Reports and selected screenshots live under `tools/publication-qa/`. This is local generation and QA, not a deployment.
+
+The 3 October author's reviewed 47 headlines and gripes are recorded in `content/twinkle-reviewed-copy.json`, including the final donations, pay-gap and plant wording. All 49 Twinkle HTML sources now live in `content/rooms/`. `tools/apply-reviewed-twinkle-copy.py` is a completed one-time migration, not a routine generator. Earlier long-form seeds and hero descriptions are preserved verbatim in `content/twinkle-earlier-seeds.json`; `tools/twinkle_seed_context.py` publishes them as expandable context in their existing follow-through rooms. The policy and foundation publishers integrate this context. Run the context publisher explicitly after another generator that rewrites those rooms. `python tools/publication-qa/reviewed-copy-qa.py` verifies the exact approved copy, preserved original material and unchanged ticker against the pre-copy commit.
+
 ## Homepage issue ticker
 
 `content/home-ticker.json` contains dated issue headlines, jurisdiction labels, primary sources and editorial limits. Run `python tools/build-home-ticker.py` after a reviewed refresh. The ticker pauses on hover and keyboard focus, offers pause/play and touch-friendly links, respects reduced motion, and excludes animation clones from keyboard navigation. Prior topics are archived under `content/archive/`. It is not an automated breaking-news feed.
@@ -152,3 +165,13 @@ Built on Minjerribah by Luke × Claude.
 `content/elections/state-election-calendar.json` records source-checked general-election dates, time zones and statutory-date qualifications. `assets/state-election-calendar.js` carries the same snapshot for file and HTTP use: update both together after a commission announcement. Fixed dates count calendar days locally; Tasmania has no invented exact date. Passed dates move below upcoming dates pending review; they never silently roll forward four years. All shared footers use top-aligned natural-height link groups. Sitemap directory links use explicit `index.html` paths for local-file compatibility.
 
 Connected projects are maintained in `content/connected-projects.json`; run `python tools/build-connected-projects.py` to refresh the seven reviewed cards and contextual links in existing pages. Other inherited cards remain in `pages/site-map.html`. The legacy `#official-links-out` anchor remains compatible and `#connected-projects` is an alias. The 2 October approved batch adds Australian Law: Luke’s Relevance, C-Hour introduction, Aura Direct Hardware and Mutual Futures.
+
+Twinkle 48, Political lies, adds the approved “Lying, but authorised.” seed without changing the earlier 47 entries. It opens the Truth Engine and remains distinct from Twinkle 17 on donations. The inventory maps this shared destination; `add-political-lies-twinkle.py` is a completed one-time migration.
+
+Twinkle 49, AI p(doom), opens `pages/ai-pdoom.html`: four outcome questions with dated primary sources and links to the existing GAJRA Earth Claude build. `tools/add-ai-pdoom-twinkle.py` is a completed one-time migration; publish subsequent edits with `build-policy-rooms.py`. Earlier 48 approved entries and historical planning audits remain intact.
+
+Editorial preference: do not use "bloody" or "bloody hell" as colloquialisms in new copy; use "bloomin’" where requested. Preserve unrelated source quotations and previously approved seeds unless an edit is specifically authorised.
+
+Public prose uses ordinary ASCII hyphens (-), never en or em dashes, including HTML entities. Prefer natural sentence punctuation. Preserve URLs, code operators, source quotations and historical archives. Run `python tools/publication-qa/punctuation-qa.py` after generators.
+
+The complete policy directory and every-page site inventory are generated from `content/twinkle-policy-drafts.json` by `tools/build-rabbit-hole-policies.py`. `tools/build-p4a-connections.py` also refreshes that directory; it preserves the earlier civic journey at `pages/civic-pathway.html`. Bare policy-room routes display their connected proposals; a `?twinkle=slug` route focuses one proposal.

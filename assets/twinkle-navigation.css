@@ -1,0 +1,53 @@
+/* One family of cards and navigation across the Twinkle journey. */
+.twinkle-entry { display:flex; flex-direction:column; min-width:0; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:linear-gradient(145deg,rgba(111,34,200,.32),rgba(17,0,28,.72)); }
+.twinkle-entry .twinkle-card { flex:1; min-height:0; border:0; border-radius:0; box-shadow:none; padding:1.2rem; }
+.twinkle-entry .twinkle-card .seed-marker { margin-bottom:1.3rem; }
+.twinkle-entry h3 { font-size:1.25rem; line-height:1.25; }
+.twinkle-entry-links { display:flex; flex-wrap:wrap; gap:.6rem; padding:0 1.2rem 1.2rem; }
+.twinkle-grid .twinkle-entry-links a,.twinkle-entry-links a { display:inline-flex; align-items:center; min-height:2.75rem; padding:.55rem .8rem; border:1px solid var(--line); border-radius:999px; box-shadow:none; background:rgba(255,255,255,.06); color:var(--gold); font-size:.9rem; font-weight:700; text-decoration:none; }
+.twinkle-trail { display:flex; flex-wrap:wrap; align-items:center; gap:.6rem; max-width:var(--max); margin:0 auto; padding:1rem clamp(1rem,4vw,2rem); font-size:.9rem; }
+.twinkle-trail a,.twinkle-related a { color:var(--gold); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:.55rem .85rem; }
+.twinkle-trail [aria-current="page"] { color:white; border-color:var(--gold); background:rgba(255,214,110,.08); }
+.twinkle-entry-links a:hover,.twinkle-trail a:hover,.twinkle-related a:hover { border-color:var(--gold); }
+.twinkle-entry-links a:focus-visible,.twinkle-trail a:focus-visible,.twinkle-related a:focus-visible { outline:3px solid var(--gold); outline-offset:4px; }
+.twinkle-policy-context { padding-top:1.4rem; padding-bottom:1.4rem; }
+.twinkle-related { display:flex; flex-wrap:wrap; gap:.65rem; }
+.twinkle-context-gripe { color:var(--muted); }
+.twinkle-context-actions { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1rem; }
+.twinkle-clip-page .page-hero h1 { max-width:23ch; font-size:clamp(2rem,5vw,4.4rem); }
+.twinkle-clip-page #clip,.twinkle-policy-context,.twinkle-entry { scroll-margin-top:6rem; }
+@media(max-width:760px) { .twinkle-entry .twinkle-card { padding:1rem; } .twinkle-entry-links { padding:0 1rem 1rem; } .twinkle-trail { gap:.5rem; font-size:.82rem; } .twinkle-clip-page .page-hero h1 { max-width:100%; font-size:clamp(2rem,8vw,2.75rem); } }
+
+/* twinkle-policy-upgrade:start */
+.twinkle-clip-page .video-grid { display:block; margin:.8rem 0; }
+.twinkle-clip-page .video-frame.video-portrait { width:min(100%,20rem); min-height:0; aspect-ratio:9/16; padding:1rem; margin:0 auto; box-sizing:border-box; }
+.twinkle-clip-page .page-hero,.twinkle-policy-page .page-hero { min-height:0; padding:1.5rem clamp(1rem,4vw,3rem); }
+.twinkle-policy-page .page-hero h1 { max-width:35ch; font-size:clamp(1.7rem,4vw,3rem); }
+.twinkle-policy-page .twinkle-policy-context { padding-block:.5rem; }
+.twinkle-policy-page .twinkle-policy-context .feature-panel { padding:.8rem 1rem; }
+.twinkle-clip-page .video-brief { margin:.6rem auto 1rem; max-width:42rem; text-align:center; }
+.twinkle-policy-draft { padding-block:1rem; scroll-margin-top:6rem; }
+.twinkle-policy-draft .feature-panel { padding:clamp(1rem,3vw,1.6rem); }
+.twinkle-policy-draft .policy-fix { font-size:1.15rem; color:var(--text,#fff); margin-bottom:1rem; }
+.twinkle-policy-draft h3 { color:var(--gold); font-size:1.05rem; margin:1rem 0 .35rem; }
+.twinkle-policy-draft p { margin:.35rem 0 .6rem; }
+.twinkle-policy-draft ol { margin:.4rem 0; padding-left:1.3rem; }
+.twinkle-policy-draft li { margin:.4rem 0; }
+.twinkle-policy-draft[hidden] { display:none; }
+.policy-background { padding-block:.75rem; }
+.policy-background summary { cursor:pointer; color:var(--gold); font-weight:700; padding:.7rem 0; }
+.policy-background .section { padding-block:1rem; }
+.policy-background-note { margin:0 0 .5rem; color:var(--muted); }
+/* twinkle-policy-upgrade:end */
+/* connected-layout:start */
+.project-paths ul,.connected-gateway ul {padding-left:1.2rem;margin:.5rem 0;}
+.project-paths li,.connected-gateway li {margin:.55rem 0;}
+.twinkle-explainer {padding:1rem; margin:1rem 0;}
+.twinkle-explainer details {margin:.6rem 0;}
+.twinkle-policy-page .policy-background {padding:0 1rem;}
+.twinkle-policy-page .hero-actions {flex-wrap:wrap;}
+.twinkle-policy-page .page-hero,.twinkle-clip-page .page-hero {min-height:0;}
+.connected-gateway {padding-block:1rem;}
+.vic-early-clock {margin:.6rem 0;}
+.vic-early-clock span {display:block;}
+/* connected-layout:end */

@@ -234,7 +234,7 @@ window.P4A_STATE_DATA = [
         "kind": "State general election",
         "scope": "general",
         "status": "Scheduled",
-        "note": "Enrolment closes 3 November at 8 pm. Nominations: 4 November 9 am to 9 November noon. Early voting: 18–27 November. All dates and times are Australia/Melbourne. No final candidate list is presented.",
+        "note": "Enrolment closes 3 November at 8 pm. Nominations: 4 November 9 am to 9 November noon. Early voting: 18-27 November. All dates and times are Australia/Melbourne. No final candidate list is presented.",
         "source": "https://www.vec.vic.gov.au/voting/2026-state-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -317,7 +317,7 @@ window.P4A_STATE_DATA = [
             "memberSource": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/"
           },
           {
-            "party": "Vacant — Brunswick",
+            "party": "Vacant - Brunswick",
             "short": "VAC",
             "seats": 1
           }

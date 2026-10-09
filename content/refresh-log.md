@@ -78,3 +78,19 @@ Added a Melbourne-calendar election countdown with non-negative election-day/pos
 - Completed all seven approved Connected projects cards and contextual links; retained the legacy sitemap anchor and Native Nations/Oceania connections. The rejected stale link batch was not added.
 - Added the reviewed project generator and shared HTML finalization so source rebuilds retain the publication footer styles and external-link policy.
 - Verified 99 pages, 4,836 local links and 24 file/HTTP desktop/mobile browser cases, plus Victoria geometry, Census/election arithmetic, council integrity and reproducible 482-candidate generation. See `tools/publication-qa/recovery-report.json`. These are local validation results; deployment must be verified separately.
+
+
+## 3 October 2026 — Restore original ticker topics
+
+The prior release incorrectly replaced the original ticker when additions were requested. Restored all 23 original topic labels verbatim and in their original order, followed by all 11 added political topics (34 items total). The old strip repeated its 23 labels twice solely for animation and contained no links or factual assertions; the restored labels now link to existing P4A topic pages. No original factual correction was needed. All 11 additional topic slots remain, with one-to-three-word political topic labels. Explanations are kept in source notes and linked destinations. The mismatched Payday Super item is corrected to the super-for-housing debate; the fuel link now opens ACCC market context. The alcohol topic links to the existing Beer tax issue page; other addition destinations remain unchanged. Bragg’s official 22 September speech explicitly describes ideas rather than settled Coalition policy, so no enacted access or settled party commitment is claimed.
+
+`content/home-ticker.json` is the complete source. `tools/build-home-ticker.py` now checks the original archived inventory before generation to prevent replacement or deletion. Hover/focus pause, pause/play, reduced-motion support and usable links remain; animation duration scales with track width to keep the longer inventory readable. Only the ticker and its maintenance evidence changed.
+
+
+## 3 October 2026 — Broader political ticker topics
+
+Preserved all 23 original labels verbatim and in order. Renamed the AI jobs addition to the user’s “Job apocalypse” and linked the workforce-transition room, as a debate label rather than an established forecast. Appended Copyright, Data sovereignty, Child safety, Mental health, Gas prices, Corporate tax, Multinational tax avoidance and Resource profits. Consolidated Grocery prices, Housing affordability, Insurance premiums and Alcohol taxes under the preserved Food, Housing, Insurance and Beer tax topics; their previous records remain in the ticker source’s consolidation notes. Final inventory: 23 originals plus 15 distinct additions, 38 labels.
+
+Official copyright/AI, eSafety, ACCC, Treasury and OECD sources inform the new destinations and notes. The gas/resources/data-centre connection is an editorial question about public benefit, control and costs. No blanket zero-tax claim or universal overseas-price comparison is made: royalties, company income tax and PRRT are distinguished; market, period, contract basis and costs matter to gas-price comparisons. No unrelated page sections were edited.
+
+Resource profits opens the existing Public Assets room for public-return and extraction-rights discussion. Source notes distinguish resource ownership and extraction licences from surface Crown-land tenure, and do not claim a universal public opinion.

@@ -13,7 +13,7 @@
  *   renderer ages it automatically; over 90 days it flags itself stale.
  *
  * Adding a supplier or a price? Follow SUPPLIER-INTAKE.md. The process is the
- * product: anyone should be able to add a supplier without asking Luke.
+ * product: anyone should be able to add a supplier through the documented process.
  */
 window.P4A_CATALOGUE = {
   meta: {

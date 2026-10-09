@@ -20,7 +20,7 @@
   },
   "researchRun": "2026-07-08",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Starting map drafted Luke x Claude from a Claude deep-research run on Australia's treaties. A reference sketch, not a register. The DFAT Australian Treaties Database and AustLII remain the master list, and each instrument still needs source-by-source review.",
+  "researchStatus": "Starting map developed from an AI-assisted research draft on Australia's treaties. A reference sketch, not a register. The DFAT Australian Treaties Database and AustLII remain the master list, and each instrument still needs source-by-source review.",
   "sourceMarkdown": "content/foundation/treaty-atlas.md",
   "sections": [
     {
@@ -274,4 +274,4 @@ Nothing here declares an outcome. The five questions (who it touches, who it ser
 
 The peace-first posture is deliberate. Alliance and security instruments belong on the map because an honest inventory cannot skip them, but they are read the same calm way as a tax treaty or a wetlands convention, and never tied to the drum of any current conflict.
 
-Source of record: the DFAT Australian Treaties Database and the AustLII Australian Treaties Library. Starting sketch: a Claude deep-research run dated 8 July 2026. Drafted Luke x Claude. Exploratory, open to correction, not legal advice, not adopted policy.
+Source of record: the DFAT Australian Treaties Database and the AustLII Australian Treaties Library. Starting sketch: a Claude deep-research run dated 8 July 2026. An exploratory research draft. Exploratory, open to correction, not legal advice, not adopted policy.

@@ -11,8 +11,8 @@
   "heading": "Civic Architecture Builder",
   "heroCopy": "Architecture starts at the roots: private homes stay private, shared civic life begins with neighbours and community groups, then councils, bioregions, states and wider coordination only earn their place where they help. The Constitution page is different: it turns some of those patterns into rules, powers, limits and amendment paths.",
   "primaryCta": {
-    "label": "Start at the roots",
-    "href": "#council"
+    "label": "Open tools and maps",
+    "href": "#current-tools"
   },
   "secondaryCta": {
     "label": "Open builder suite",
@@ -20,9 +20,93 @@
   },
   "researchRun": "2026-05-08",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Roots-up architecture pass drafted from the P4A site direction and Luke's local government funding inquiry submission. This is a participatory architecture draft, not adopted policy.",
+  "researchStatus": "Roots-up architecture pass drafted from the P4A site direction and local government funding inquiry submission. This is a participatory architecture draft, not adopted policy.",
   "sourceMarkdown": "content/foundation/architecture.md",
   "sections": [
+    {
+      "id": "current-tools",
+      "eyebrow": "Open the useful next step",
+      "heading": "Tools, maps and connected projects",
+      "paragraphs": [
+        "Choose a practical entry point below, or use the section links to inspect the full architecture. These are tools and policy possibilities at different stages of development."
+      ],
+      "cards": [
+        {
+          "label": "Explore",
+          "title": "Maps",
+          "href": "maps.html",
+          "body": "Interactive geography and direct map routes."
+        },
+        {
+          "label": "Explore",
+          "title": "Community builders",
+          "href": "civic-twin-builders.html",
+          "body": "Private profiles, neighbour meshes and civic fronts."
+        },
+        {
+          "label": "Explore",
+          "title": "Missing-middle computing",
+          "href": "web3-sensorium.html?twinkle=datacentres#policy-datacentres",
+          "body": "Community-scale computing between a laptop and a corporate data centre."
+        },
+        {
+          "label": "Explore",
+          "title": "Shared ownership and livelihoods",
+          "href": "https://auraofintelligence.github.io/mutual-futures/",
+          "body": "Patient capital, business succession, learning, care and time."
+        },
+        {
+          "label": "Explore",
+          "title": "C-Hour Introduction",
+          "href": "https://auraofintelligence.github.io/C-Hour-introduction/",
+          "body": "Voluntary contribution recognition alongside paid work."
+        },
+        {
+          "label": "Explore",
+          "title": "The wider project network",
+          "href": "https://auraofintelligence.github.io/project-atlas/",
+          "body": "Connected projects, public pages and source repositories."
+        }
+      ],
+      "links": [
+        {
+          "label": "Start where people actually live.",
+          "href": "#council"
+        },
+        {
+          "label": "Humans and agents need the same readable files.",
+          "href": "#public-private-md"
+        },
+        {
+          "label": "Digital twins should belong to the person.",
+          "href": "#digital-twins"
+        },
+        {
+          "label": "Contribution ledgers are fractal, not just public scoreboards.",
+          "href": "#contribution-ledger"
+        },
+        {
+          "label": "C-Hours make local contribution visible.",
+          "href": "#braided-economy"
+        },
+        {
+          "label": "Every layer should feel familiar.",
+          "href": "#pattern"
+        },
+        {
+          "label": "The layer count is not fixed.",
+          "href": "#layers"
+        },
+        {
+          "label": "Legal maps and living maps both matter.",
+          "href": "#maps"
+        },
+        {
+          "label": "Tools before authority.",
+          "href": "#toolchain"
+        }
+      ]
+    },
     {
       "id": "council",
       "eyebrow": "Grassroots first",
@@ -448,6 +532,20 @@
           "label": "Digital",
           "title": "Simulation maps",
           "body": "Digital twins, Legal RAG memory, public ledgers, contribution graphs, model versions, consent scopes and scenario histories."
+        }
+      ],
+      "links": [
+        {
+          "label": "Open the geographic maps",
+          "href": "maps.html"
+        },
+        {
+          "label": "Victoria electorates and councils",
+          "href": "../states/vic/map/index.html"
+        },
+        {
+          "label": "Public First Peoples recognition",
+          "href": "../states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa"
         }
       ]
     },

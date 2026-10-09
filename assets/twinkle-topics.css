@@ -1,0 +1,12 @@
+/* Feather topic icons: local, lightweight and supplementary to the card title. */
+.twinkle-card .seed-marker { display:flex; align-items:center; gap:.8rem; height:2.2rem; margin-bottom:2.5rem; }
+.twinkle-card .seed-marker > span { margin:0; flex:none; }
+.twinkle-card .seed-icon { display:block; width:28px; height:28px; margin:0; padding:0; filter:invert(83%) sepia(74%) saturate(585%) hue-rotate(346deg) brightness(104%); }
+.twinkle-card { align-content:start; }
+.twinkle-card:focus-visible { outline:3px solid #ffd86b; outline-offset:5px; }
+.olympic-rings { position:relative; display:block; width:55px; height:28px; flex:none; }
+.olympic-rings i { position:absolute; width:19px; height:19px; border:2px solid var(--gold); border-radius:50%; top:0; left:0; }
+.olympic-rings i:nth-child(2) { left:18px; }
+.olympic-rings i:nth-child(3) { left:36px; }
+.olympic-rings i:nth-child(4) { left:9px; top:9px; }
+.olympic-rings i:nth-child(5) { left:27px; top:9px; }

@@ -1,0 +1,38 @@
+/* Compact solution directory; cards contain the policy, not a decorative poster. */
+.rabbit-policy-page main{max-width:1240px;margin:auto;padding:1.5rem clamp(1rem,3vw,2rem) 2rem;}
+.rabbit-policy-intro{padding:.5rem 0 1rem;}
+.rabbit-policy-intro h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.12;margin:.3rem 0 .6rem;}
+.rabbit-policy-intro>p{max-width:70ch;}
+.rabbit-policy-page .hero-actions{margin-top:.8rem;gap:.6rem;flex-wrap:wrap;}
+.rabbit-policy-page h2{font-size:clamp(1.3rem,3vw,1.8rem);margin:1rem 0 .7rem;}
+.rabbit-policy-page h3{font-size:1.2rem;line-height:1.3;margin:.2rem 0 .65rem;}
+.rabbit-policy-page p{margin:.4rem 0 .7rem;line-height:1.55;}
+.rabbit-key-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;}
+.rabbit-key-card,.rabbit-solution{border:1px solid var(--line);border-radius:14px;padding:1rem 1.15rem;background:linear-gradient(135deg,rgba(98,32,144,.28),rgba(19,8,32,.8));min-width:0;}
+.rabbit-key-card{display:flex;flex-direction:column;}
+.rabbit-key-card h3 a{color:var(--gold);}
+.rabbit-key-card .source-links{margin-top:auto;padding-top:.5rem;}
+.rabbit-key-policies{margin-bottom:1.6rem;}
+.rabbit-topic-jumps{display:flex;flex-wrap:wrap;gap:.45rem .9rem;margin:.6rem 0 1rem;}
+.rabbit-topic-jumps a{color:var(--gold);font-size:.95rem;}
+.rabbit-filter{display:grid;grid-template-columns:1fr 1fr auto;gap:.8rem;align-items:end;margin:1rem 0 .5rem;}
+.rabbit-filter label{display:grid;gap:.35rem;font-size:.95rem;font-weight:600;}
+.rabbit-filter input,.rabbit-filter select{min-width:0;width:100%;padding:.7rem;border:1px solid var(--line);border-radius:8px;background:#1d0d2f;color:#fff;font:inherit;box-sizing:border-box;}
+.rabbit-filter select option{background:#1d0d2f;color:#fff;}
+.rabbit-filter :focus-visible,.rabbit-policy-page a:focus-visible{outline:3px solid var(--gold);outline-offset:3px;}
+.rabbit-policy-count{color:var(--muted);font-size:.95rem;}
+.rabbit-solution-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;}
+.rabbit-policy-group{margin:1.4rem 0 2rem;scroll-margin-top:6.5rem;}
+.rabbit-solution{display:flex;flex-direction:column;scroll-margin-top:6.5rem;}
+.rabbit-solution>.eyebrow{font-size:.8rem;margin:0 0 .4rem;}
+.rabbit-solution>.hero-actions{margin-top:auto;padding-top:.4rem;}
+.rabbit-solution .button{padding:.65rem .9rem;font-size:.95rem;white-space:normal;}
+.rabbit-solution details{margin-top:.8rem;font-size:.9rem;}
+.rabbit-solution summary{cursor:pointer;color:var(--gold);}
+.rabbit-solution details ul{padding-left:1.1rem;margin:.7rem 0;}
+.rabbit-solution details li{margin:.45rem 0;}
+.rabbit-other-paths{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem;border-top:1px solid var(--line);padding-top:1rem;}
+.rabbit-policy-page [hidden]{display:none!important;}
+#key-policies,#rooms{scroll-margin-top:6.5rem;}
+@media(max-width:900px){.rabbit-key-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:620px){.rabbit-key-grid,.rabbit-solution-grid{grid-template-columns:1fr;}.rabbit-filter{grid-template-columns:1fr;}.rabbit-filter button{justify-self:start;}.rabbit-key-card,.rabbit-solution{padding:1rem;}.rabbit-policy-page main{padding-top:1rem;}}

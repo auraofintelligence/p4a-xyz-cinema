@@ -1,3 +1,4 @@
+from public_punctuation import public_punctuation
 from web_link_policy import external_links
 """Build the Victoria atlas from reviewed local records. No network access."""
 import json, re, pathlib, html
@@ -26,8 +27,8 @@ def build():
     e=html.escape
     for chamber in ['assembly','council']:
         for r in data[chamber]:
-            members='; '.join(f"{m['name']} ({m['party']})" for m in r['members']) or 'Vacant — Brunswick; no sitting member listed as at 2 October 2026.'
-            records.append(f'<details class="vic-record" id="{e(r["id"])}"><summary>{e(r["name"])} — {"Assembly district" if chamber=="assembly" else "Council region"}</summary><p>{e(members)}</p><p>{e(r.get("regionName", "Victoria"))} · Representation checked 2 October 2026.</p><p><a href="{e(r["vecUrl"])}">VEC electorate information</a> · <a href="{e(r["resultsUrl"])}">{e(r["resultsLabel"])}</a></p>{facts(r,data,elections,census)}</details>')
+            members='; '.join(f"{m['name']} ({m['party']})" for m in r['members']) or 'Vacant - Brunswick; no sitting member listed as at 2 October 2026.'
+            records.append(f'<details class="vic-record" id="{e(r["id"])}"><summary>{e(r["name"])} - {"Assembly district" if chamber=="assembly" else "Council region"}</summary><p>{e(members)}</p><p>{e(r.get("regionName", "Victoria"))} · Representation checked 2 October 2026.</p><p><a href="{e(r["vecUrl"])}">VEC electorate information</a> · <a href="{e(r["resultsUrl"])}">{e(r["resultsLabel"])}</a></p>{facts(r,data,elections,census)}</details>')
     local=json.loads((ROOT/'content/councils/vic.json').read_text(encoding='utf-8'))
     for layer in ['lga','ward']:
         data[layer]=[{k:r[k] for k in ['id','code','name','kind','body','level','members','labelPoint','sortMetrics','wardIds','parentId','parentName','governance'] if k in r} for r in local[layer]]
@@ -40,7 +41,7 @@ def build():
     portal=(ROOT/'states/vic/index.html').read_text(encoding='utf-8')
     header=re.search(r'<header class="site-header">.*?</header>',portal,re.S).group(0).replace('../../','../../../')
     page=(ROOT/'tools/templates/vic-map.html').read_text(encoding='utf-8').replace('@@HEADER@@',header).replace('@@DIRECTORY@@','\n'.join(records))
-    page=external_links(page)
+    page=external_links(public_punctuation(page))
     dest=ROOT/'states/vic/map';dest.mkdir(parents=True,exist_ok=True)
     (dest/'index.html').write_text(page,encoding='utf-8')
     (ROOT/'assets/vic-electorates.js').write_text('window.P4A_VIC_ELECTORATES = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
