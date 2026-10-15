@@ -193,7 +193,9 @@
         { href: 'pages/musicverse.html', title: 'Musicverse', note: 'i C. infinity, P4A songs and culture hooks.' },
         { href: 'pages/aura-politics.html', title: 'Aura politics', note: 'AI, care, public trust and civic architecture.' },
         { href: 'pages/aura-genesis.html', title: 'Aura genesis', note: 'Myth, reflection and system imagination.' },
-        { href: 'pages/aura-clinical-path.html', title: 'Aura clinical path', note: 'Health, dementia and assistive-tech caution.' },
+        { href: 'pages/aura-clinical-path.html', title: 'Clinical care and GP proposals', note: 'General clinical governance and GP care, with separate care pathways.' },
+        { href: 'pages/dementia-aged-care.html', title: 'Dementia and aged care', note: 'Digital memoirs, everyday preferences, carers, consent and research evidence.' },
+        { href: 'pages/ptsd.html', title: 'PTSD care and claims', note: 'Named human support, consent, continuity and claims coordination.' },
         { href: 'pages/alien-necklace-film.html', title: 'Alien necklace film', note: 'Fiction threshold and creative world-building.' }
       ]
     },
