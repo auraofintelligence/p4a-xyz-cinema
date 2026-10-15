@@ -1,2 +1,8 @@
 /* Preserve existing deep-link offsets without changing page presentation. */
 .aura-anchor { display: block; scroll-margin-top: 7rem; }
+
+/* Let this short Genesis heading use the available panel width. */
+#aura-of-intelligence > h2 {
+  max-width: none;
+  text-wrap: wrap;
+}
