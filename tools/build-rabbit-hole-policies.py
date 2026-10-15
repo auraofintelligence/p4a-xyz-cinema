@@ -2,6 +2,7 @@
 from pathlib import Path
 from urllib.parse import urlsplit
 import html,json,re
+from editorial_rooms import is_editorial_room
 BASE=Path(__file__).resolve().parents[1]
 OUT=BASE
 def read(rel):
@@ -23,7 +24,7 @@ KEY=[
  ('c-hour','C-Hour','Recognise a verified voluntary hour of care, teaching or community work alongside ordinary money and paid work. C-Hours would have no fixed dollar equivalent and would not replace wages.','https://auraofintelligence.github.io/C-Hour-introduction/community-hours.html','braided-economy.html'),
  ('worker-mutuals','Worker mutuals','Help workers gain a shared stake in productive businesses through willing succession, patient finance, mentoring and learning as they go. Mutual Futures connects ownership with livelihoods, care and time.','https://auraofintelligence.github.io/mutual-futures/','workforce-transition.html?twinkle=workforce#policy-workforce'),
  ('sensorium','Web3 Sensorium','Build the missing middle between a household laptop and a corporate data centre: community-scale computing, sovereign data and useful models of places, services and possible futures.','web3-sensorium.html','web3-sensorium.html?twinkle=datacentres#policy-datacentres'),
- ('genesis','Aura Genesis','Explore consent-led AI reflection, digital memoirs and personal intelligence, with separate paths into civic trust, care research and creative worldbuilding.','aura-genesis.html','aura-politics.html'),
+ ('genesis','Aura Genesis Protocol','Understand the proposed process of guided reflection, personal AI and practical learning, with links to its source programme and research questions.','aura-genesis.html','aura-politics.html'),
  ('truth','Truth Engine','Make public claims traceable: show sources, uncertainty, contested interpretations and visible corrections. Connect honest politics to public evidence and accountability.','truth-engine.html','truth-engine.html?twinkle=political-lies#policy-political-lies'),
  ('legal','Legal RAG','Use retrieval-augmented generation: find the relevant legal sources, explain their wording and follow the citations back. Connect Luke’s Relevance and the Legal Engine to contracts, disputes and reform design.','legal-rag.html','community-insurance.html?twinkle=insurance#policy-insurance'),
  ('republic','Cyber-Republic Simulator','Let people explore proposed constitutional and democratic changes before choosing them. Compare rules, powers and consequences through a public rehearsal that people can inspect and improve.','cyber-republic.html','constitution.html')]
@@ -122,6 +123,7 @@ def build():
   for folder in ['pages','states','content/rooms']:
    for p in (root/folder).rglob('*.html'):
     rel=p.relative_to(root).as_posix();text=read(rel)
+    if is_editorial_room(text):continue
     text=re.sub(r'(<a\b[^>]*href="[^"]*rabbit-hole.html(?:#[^"]*)?"[^>]*>)Rabbit-hole map(</a>)',r'\1Rabbit-hole policies\2',text)
     text=re.sub(r'(assets/site-nav.js)(?:\?[^"\s]*)?',r'\1?v=20261009-policy-directory',text)
     write(rel,text)

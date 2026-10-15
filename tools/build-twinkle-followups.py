@@ -6,6 +6,7 @@ from pathlib import Path
 from collections import defaultdict
 from urllib.parse import urlsplit
 import html, json, re, sys
+from editorial_rooms import is_editorial_room
 
 BASE = Path(__file__).resolve().parents[1]
 WORK = BASE
@@ -16,7 +17,7 @@ def section(r):
     return '<section class="section twinkle-policy-draft" id="policy-'+r['slug']+'" data-policy-draft="'+r['slug']+'"><div class="page-copy"><article class="feature-panel"><p class="eyebrow">Twinkle '+str(r['number']).zfill(2)+' / Working policy proposal</p><h2>'+e(r['policyTitle'])+'</h2><p class="policy-fix">'+e(r['proposal'])+'</p><h3>How it works</h3><ol>'+''.join('<li>'+e(x)+'</li>' for x in r['steps'])+'</ol><h3>Everyday example</h3><p>'+e(r['example'])+'</p><h3>Who acts and who pays</h3><p>'+e(r['deliveryAndFunding'])+'</p><h3>Fair-go safeguards</h3><p>'+e(r['safeguards'])+'</p><h3>How we know it works</h3><p>'+e(r['measures'])+'</p><div class="source-links"><a href="twinkle-'+r['slug']+'.html#clip">Twinkle '+str(r['number']).zfill(2)+' · video</a><a href="#policy-background">Evidence and related ideas</a></div></article></div></section>'
 
 def write(rel,text):
-    if rel.endswith('.html'):
+    if rel.endswith('.html') and not is_editorial_room(text):
         for name in ['twinkle-navigation.css','twinkle-navigation.js']:
             text=re.sub(r'(assets/'+re.escape(name)+r')(?:\?[^"\s]*)?',lambda m:m[1]+'?v=20261009-fairgo',text)
     path=OUT/rel
@@ -72,6 +73,8 @@ def build(proposals):
     for name,connected in groups.items():
         source=BASE/'content/rooms'/name
         text=(source if source.exists() else BASE/'pages'/name).read_text(encoding='utf-8')
+        if is_editorial_room(text):
+            continue
         text=re.sub(r'<!-- earlier-twinkle-seeds:start -->.*?<!-- earlier-twinkle-seeds:end -->','',text,flags=re.S)
         text=text.replace('<body data-theme="royal">','<body data-theme="royal" class="twinkle-policy-page">',1)
         # Idempotent: retain substantive background and historic source material.

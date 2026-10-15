@@ -3,6 +3,7 @@ from pathlib import Path
 from collections import defaultdict
 import html,json,re
 import importlib.util
+from editorial_rooms import is_editorial_room
 BASE=Path(__file__).resolve().parents[1]
 OUT=BASE
 spec=importlib.util.spec_from_file_location('followups',BASE/'tools/build-twinkle-followups.py')
@@ -42,6 +43,7 @@ def build():
    files.add(folder+'/twinkle-'+r['slug']+'.html');files.add(folder+'/'+r['destination'].split('#')[0])
  for rel in files:
   text=read(rel)
+  if is_editorial_room(text):continue
   for a,b in replacements:text=text.replace(a,b)
   write(rel,text)
  groups=defaultdict(list)
@@ -49,6 +51,7 @@ def build():
  for name,connected in groups.items():
   for folder in ['content/rooms','pages']:
    rel=folder+'/'+name;text=read(rel)
+   if is_editorial_room(text):continue
    hero=reg['roomHeroes'][name]
    hero=re.sub(r'(<div class="hero-actions">.*?)(</div>)',lambda m:m[1]+'<a class="button button-secondary" data-policy-video href="twinkle-'+connected[0]['slug']+'.html#clip">Twinkle '+str(connected[0]['number']).zfill(2)+' · video</a>'+m[2],hero,count=1,flags=re.S)
    text=re.sub(r'<div class="hero-content.*?</section>',lambda _:hero,text,count=1,flags=re.S)
@@ -124,6 +127,7 @@ def build():
  # Cache token is shared by every updated entry point.
  for rel in list(files)+['pages/rabbit-hole.html','content/rooms/rabbit-hole.html','pages/site-map.html','content/rooms/site-map.html']:
   text=read(rel)
+  if is_editorial_room(text):continue
   if 'twinkle-navigation.css' not in text:text=text.replace('</head>','<link rel="stylesheet" href="'+('assets/' if rel=='index.html' else '../assets/')+'twinkle-navigation.css?v=20261009-connected">\n</head>')
   text=re.sub(r'(assets/twinkle-navigation\.(?:css|js))(?:\?[^"\s]*)?',r'\1?v=20261009-connected',text)
   write(rel,text)
