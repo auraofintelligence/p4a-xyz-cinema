@@ -1,0 +1,40 @@
+name: Civic place checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-and-journey-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check every registered council, state and federal contract
+        run: python tools/verify-place-contracts.py
+      - name: Check the Redlands reference build
+        run: python tools/verify-redland.py
+      - name: Check public discovery and preserved licence
+        run: python tools/verify-discovery.py
+      - name: Check the existing Victoria atlas
+        run: |
+          python tools/verify-vic-map.py
+          python tools/verify-vic-numbers.py
+          python tools/verify-vic-councils.py
+      - name: Check election clock behavior and map script
+        run: |
+          node tools/check-redland-clock.mjs
+          node --check assets/qld-council-map.js

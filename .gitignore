@@ -1,2 +1,14 @@
 __pycache__/
 *.py[cod]
+
+# Local browser sessions and generated upload bundles are never public source.
+/qa/public-polish-browser/
+**/browser-profile/
+**/user-data-dir/
+node_modules/
+/.env
+/.env.*
+!/.env.example
+/tmp/
+/upload-ready/
+*.log

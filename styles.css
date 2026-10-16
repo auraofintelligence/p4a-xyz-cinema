@@ -1,4 +1,9 @@
 /* ---------- Self-hosted variable fonts (offline-first, no CDN) ---------- */
+/* 2026-10-17: actual Wikimedia raster map; state labels are navigation anchors. */
+.state-raster-map{position:relative;width:100%;max-width:650px;margin:auto;line-height:0;background:#f7efff;border-radius:12px;overflow:hidden}
+.state-raster-map>img{display:block;width:100%;height:auto}
+.state-raster-label{position:absolute;transform:translate(-50%,-50%);padding:6px 8px;border-radius:6px;background:#3f0f75;color:#fff!important;font:700 clamp(.66rem,1.5vw,.9rem)/1.2 var(--font-body);text-decoration:none;border:1px solid #fff;z-index:1}
+.state-raster-label:hover,.state-raster-label:focus-visible{background:#215a38;outline:3px solid #ffe28b;outline-offset:2px}
 @font-face {
   font-family: "Archivo Var";
   src: url("assets/fonts/archivo-var.woff2") format("woff2-variations");

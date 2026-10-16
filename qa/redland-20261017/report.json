@@ -1,0 +1,33 @@
+{
+  "scope": "First Redland local journey; local checkout only",
+  "started": "2026-10-16",
+  "completed": "2026-10-17",
+  "timezone": "Australia/Brisbane",
+  "pages": 8,
+  "localReferencesChecked": 844,
+  "records": 43,
+  "illustrativeLocalTwinkles": 24,
+  "indicators": 18,
+  "sourceMapRecords": 10,
+  "structuralChecks": "PASS",
+  "repeatGeneration": "PASS; 15 output hashes unchanged",
+  "clockChecks": "PASS; AEST before/on/after date and synthetic early-voting window before/during/after",
+  "browserChecks": [
+    "States to Queensland to councils to Redland",
+    "Actual raster map and official council divisions visible",
+    "Search and related solution link",
+    "No results and reset",
+    "Malformed URL fragment leaves search initialised",
+    "Private synthetic journey-note download and output inspection",
+    "390px overview visual inspection in local iframe fixture"
+  ],
+  "limits": [
+    "No physical mobile device test",
+    "No public submissions or shared database",
+    "Individual candidate dossiers and locally collected vote history not populated",
+    "No announced by-election or verified early-voting timetable",
+    "No quantitative boundary-overlap calculation or opinion prevalence claim",
+    "No commit, push or publication"
+  ],
+  "preview": "http://127.0.0.1:8768/pages/states.html"
+}

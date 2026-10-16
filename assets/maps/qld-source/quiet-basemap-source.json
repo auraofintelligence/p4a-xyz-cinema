@@ -1,0 +1,38 @@
+{
+  "title": "Queensland official pastel geographic raster basemap",
+  "sourceChecked": "2026-10-17",
+  "retrieved": "2026-10-17",
+  "timezone": "Australia/Brisbane",
+  "publisher": "State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development)",
+  "serviceURL": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldBase_Pastel/MapServer",
+  "serviceItemInfoURL": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldBase_Pastel/MapServer/info/iteminfo",
+  "attribution": "Pastel basemap: © State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development) 2025, CC BY 4.0.",
+  "licenceURL": "https://creativecommons.org/licenses/by/4.0/",
+  "image": "assets/maps/qld-geographic-quiet.png",
+  "format": "PNG32 raster exported by the official Queensland Government map service",
+  "width": 2600,
+  "height": 3500,
+  "bytes": 2098028,
+  "sha256": "3e0daa78dad37212e53d22f150dff36ee37154c8c634f8a047d59e8494092765",
+  "request": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldBase_Pastel/MapServer/export?bbox=137.7%2C-29.5%2C154%2C-8.8&bboxSR=4326&imageSR=3857&size=2600%2C3500&format=png32&transparent=false&dpi=96&f=pjson",
+  "exportResponse": "assets/maps/qld-source/quiet-geographic-export.json",
+  "serviceMetadata": "assets/maps/qld-source/quiet-service.json",
+  "licenceMetadata": "assets/maps/qld-source/quiet-iteminfo.json",
+  "extent": {
+    "xmin": 15323736.159097018,
+    "ymin": -3439440.060731262,
+    "xmax": 17148159.30530088,
+    "ymax": -983485.8254568299,
+    "spatialReference": {"wkid": 3857, "serviceWkid": 102100}
+  },
+  "processing": "Unchanged official PNG export downloaded from its returned href. No tracing, SVG, synthetic coastline, recolouring or pixel resampling applied to the stored source image.",
+  "displayNote": "This official pastel style reduces road colour and contrast, retaining the geographic coast, islands and labels. Roads remain present as subdued grey lines; do not describe this as a road-free map.",
+  "serviceLimit": "QldMap_Topo and QldBase_Pastel are fused cached map services with supportsDynamicLayers:false; individual roads cannot be switched off within those services.",
+  "freshnessNote": "Service metadata states May and November cache refreshes. Copyright 2025 is retained separately from retrieval in 2026; this is not a claim that every feature was observed in 2026.",
+  "representativePreview": {
+    "image": "assets/maps/qld-source/quiet-candidate.png",
+    "exportResponse": "assets/maps/qld-source/quiet-candidate-export.json",
+    "request": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldBase_Pastel/MapServer/export?bbox=152.7%2C-27.85%2C153.65%2C-27.1&bboxSR=4326&imageSR=3857&size=1000%2C800&format=png32&transparent=false&dpi=96&f=pjson",
+    "visualCheck": "Official pastel preview inspected at South East Queensland extent; pale cream and green land, blue water, North Stradbroke and Moreton islands, urban place names and thin grey roads visible. Whole-Queensland fallback inspected separately."
+  }
+}

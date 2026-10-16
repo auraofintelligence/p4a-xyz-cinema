@@ -3,18 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site Map Tree | P4A</title>
-  <meta name="description" content="A clickable P4A site map tree for the Purple Party for Australia public workbench, including main doors, Markdown guides, civic rooms, state portals, reference pages and connected Aura projects.">
+  <title>Find your way | P4A site map</title>
+  <meta name="description" content="A readable, searchable guide to every P4A page: maps, places, Redlands, Twinkles, systems and ways to take part.">
   <meta name="theme-color" content="#3F0F75">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
   <link rel="stylesheet" href="../styles.css?v=20261002-publication">
+<link rel="stylesheet" href="../assets/twinkle-navigation.css?v=20261009-connected">
+<script src="../assets/vic-early-voting.js?v=20261009-early" defer></script>
+<link rel="stylesheet" href="../assets/site-map.css?v=20261017">
+<script src="../assets/site-map.js?v=20261017" defer></script>
 </head>
 <body data-theme="royal" data-page="site-map">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
   <a class="brand" href="../index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a>
   <nav class="site-nav" data-nav aria-label="Primary">
-    <a href="../pages/rabbit-hole.html">Map</a>
+    <a href="../pages/maps.html">Maps</a>
     <a href="../pages/architecture.html">System</a>
     <a href="../pages/twinkle.html">Twinkle</a>
     <a href="../pages/states.html">States</a>
@@ -23,217 +27,224 @@
   </nav>
   <button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button>
 </header>
-  <main id="main">
-    <section class="hero page-hero site-map-hero">
-      <div class="hero-image"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/p4a-map-card.webp" alt="Purple Party for Australia civic map artwork"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow">Navigation tree</p>
-        <h1>Site Map Tree</h1>
-        <p class="hero-copy">A fancy but practical map of the P4A public workbench: jump straight to the main rooms, the Twinkle clips, their follow-through rooms, the deeper civic machinery, or the state and territory layers.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#main-doors">Main doors</a>
-          <a class="button button-secondary" href="#state-layer">State layer</a>
-          <a class="button button-secondary" href="#official-links-out">Connected projects</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section site-map-section" aria-label="Clickable P4A site map">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">Pick a branch</p><h2>Every public room, one tree.</h2></div>
-        <p>Open a branch, follow the links, and keep your bearings. The map is deliberately human-readable so future contributors can see how the rooms fit together.</p>
-      </div>
-
-      <nav class="map-jump reveal" aria-label="Site map branch jumps">
-        <a href="#main-doors">Main doors</a>
-        <a href="#workbench">Builders and reference</a>
-        <a href="#twinkle-series">Twinkle clips</a>
-        <a href="#rabbit-rooms">Rabbit rooms</a>
-        <a href="#state-layer">State layer</a>
-        <a href="#official-links-out">Connected projects</a>
-      </nav>
-
-      <div class="site-map-tree reveal">
-        <details class="map-branch" id="main-doors" open>
-          <summary><span>01</span><strong>Main doors</strong><small>The front-of-house paths most people need first.</small></summary>
-          <ul>
-            <li><a href="../index.html">Home</a><em>Plain project doorway and placeholder song video.</em></li>
-            <li><a href="architecture.html">Civic Architecture Builder</a><em>Roots-up model: homes, neighbours, councils, states and future layers.</em></li>
-            <li><a href="civic-twin-builders.html">Civic Twin Builders</a><em>Browser-local Markdown builders for L0 profiles, L1 meshes, L2 civic fronts and the future C-Hour pipeline.</em></li>
-            <li><a href="markdown-with-ai.html">Markdown with AI</a><em>P4A-format beginner guide for .md files, agent context, sources, privacy lanes and review notes.</em></li>
-            <li><a href="twinkle.html">Twinkle Series</a><em>Short gripe clips that open into named follow-through rooms.</em></li>
-            <li><a href="rabbit-hole.html">Rabbit-hole map</a><em>The deeper map: entry points, follow-through rooms, trust layers and future rooms.</em></li>
-            <li><a href="deployment-gear.html">Deployment Gear</a><em>Support bundles, clothing and culture objects.</em></li>
-            <li><a href="musicverse.html">Musicverse</a><em>i C. infinity, P4A songs, myth and culture hooks.</em></li>
-            <li><a href="states.html">State and Territory Portals</a><em>Eight local doors into the national rehearsal.</em></li>
-            <li><a href="state-history.html">State Histories</a><em>Jurisdiction histories for the state layer.</em></li>
-            <li><a href="constitution.html">Purple Party Constitution</a><em>The internal rulebook workbench.</em></li>
-            <li><a href="legal-rag.html">Law Engine / Legal RAG</a><em>Legal memory, citations, limits and human review.</em></li>
-            <li><a href="about.html">About the workbench</a><em>Implemented Victoria tools, project status, sources, licence limits and separate sibling projects.</em></li>
-            <li><a href="treaty-atlas.html">Treaty Atlas</a><em>Inherited agreements mapped: who they touch, who they serve, whether to keep, renew, modernise or sunset each one.</em></li>
-            <li><a href="civic-ledger.html">Civic Ledger</a><em>Public records, contribution trails and repair memory.</em></li>
-          </ul>
-        </details>
-
-        <details class="map-branch" id="twinkle-series" open>
-          <summary><span>02</span><strong>Twinkle clips</strong><small>An open short-clip format: twenty-two seeds, small shareable sparks before the bigger machinery.</small></summary>
-          <ul>
-            <li><a href="twinkle-tolls.html">Twinkle 01: Tolls</a><em>Commuter pain into the Public Assets follow-through room.</em></li>
-            <li><a href="twinkle-food.html">Twinkle 02: Food</a><em>Grocery shock into the Food Security follow-through room.</em></li>
-            <li><a href="twinkle-insurance.html">Twinkle 03: Insurance</a><em>Premium pressure into the Risk and Mutual Care follow-through room.</em></li>
-            <li><a href="twinkle-workforce.html">Twinkle 04: Workforce</a><em>AI job shock into the Workforce Transition follow-through room.</em></li>
-            <li><a href="twinkle-housing.html">Twinkle 05: Housing</a><em>Renter maths into the Housing Simulations follow-through room.</em></li>
-            <li><a href="twinkle-power.html">Twinkle 06: Power bills</a><em>Rebate-cliff shock into Public Assets and the Sovereignty Stack.</em></li>
-            <li><a href="twinkle-health.html">Twinkle 07: Health</a><em>Gap-fee pain into the Aura Clinical Path.</em></li>
-            <li><a href="twinkle-family-violence.html">Twinkle 08: Family violence</a><em>A quiet clip aimed only at the system, into safe housing on demand and a coordinated response.</em></li>
-            <li><a href="twinkle-childcare.html">Twinkle 09: Childcare</a><em>Fees that eat a pay packet, into care funded as infrastructure.</em></li>
-            <li><a href="twinkle-beer-tax.html">Twinkle 10: Beer tax</a><em>The pub test in a pub, into the Civic Ledger.</em></li>
-            <li><a href="twinkle-datacentres.html">Twinkle 11: Data centres</a><em>The thirsty grey shed into the Web3 Sensorium.</em></li>
-            <li><a href="twinkle-breaches.html">Twinkle 12: Data breaches</a><em>Breach fatigue into the Sovereignty Stack.</em></li>
-            <li><a href="twinkle-resources.html">Twinkle 13: Resources</a><em>Dig it up, ship it out, buy the feed: into Public Assets and the Civic Ledger.</em></li>
-            <li><a href="twinkle-triple-zero.html">Twinkle 14: Triple Zero</a><em>Four bars of 5G, zero for Triple Zero, into the Sovereignty Stack and Civic Surges.</em></li>
-            <li><a href="twinkle-aukus.html">Twinkle 15: AUKUS / defence spending</a><em>AUKUS commitments, opportunity costs and the public receipt.</em></li>
-            <li><a href="twinkle-revolving-door.html">Twinkle 16: Lobbying and conflicts</a><em>Lobbying, conflicts of interest and post-public-office employment.</em></li>
-            <li><a href="twinkle-donations.html">Twinkle 17: Donations</a><em>Who paid for that ad, into real-time disclosure on the Civic Ledger.</em></li>
-            <li><a href="twinkle-olympics.html">Twinkle 18: Olympics</a><em>Venue whiplash into the Civic Surges legacy: stewards, earn-to-heal, health and AI surge, referendum rehearsal.</em></li>
-            <li><a href="twinkle-treaty.html">Twinkle 19: First Nations treaties</a><em>First Nations treaties, agreement-making and the Treaty Atlas.</em></li>
-            <li><a href="twinkle-uap.html">Twinkle 20: UAP disclosure</a><em>UAP observations, disclosure and source records in the Truth Engine.</em></li>
-            <li><a href="twinkle-deep-time.html">Twinkle 21: Climate change</a><em>Climate change, long planning horizons and public risk models.</em></li>
-            <li><a href="twinkle-ptsd.html">Twinkle 22: PTSD</a><em>PTSD, especially veterans and first responders: claims, care and repeated histories.</em></li>
-          </ul>
-        </details>
-
-        <details class="map-branch" id="rabbit-rooms" open>
-          <summary><span>03</span><strong>Rabbit-hole rooms</strong><small>Follow-through rooms first, then foundations, trust layers and future rooms.</small></summary>
-          <ul>
-            <li><a href="public-assets.html">Twinkle 01 follow-through: Public Assets</a><em>Tolls, leases, ownership and long public memory.</em></li>
-            <li><a href="housing-simulations.html">Fair Go foundation: Housing Simulations</a><em>Census baselines, housing as a right and Grow Local shelter models.</em></li>
-            <li><a href="food-security.html">Twinkle 02 follow-through: Food Security</a><em>Waste, local production, logistics and resilience.</em></li>
-            <li><a href="community-insurance.html">Twinkle 03 follow-through: Risk and Mutual Care</a><em>Premium pressure, prevention, lawful pooling, reinsurance and local wealth.</em></li>
-            <li><a href="workforce-transition.html">Twinkle 04 follow-through: Workforce Transition</a><em>Human adaptability, Try Everything Once and civic readiness.</em></li>
-            <li><a href="fair-go.html">Fair Go foundation: The Fair Go Evolves</a><em>A familiar Australian value moved into modern systems.</em></li>
-            <li><a href="purple-synthesis.html">Purple Synthesis</a><em>Market efficiency plus community reciprocity.</em></li>
-            <li><a href="braided-economy.html">Braided Economy</a><em>Money, care, contribution and transparent support.</em></li>
-            <li><a href="sovereignty-stack.html">Sovereignty Stack</a><em>Consent, identity, privacy and self-governance layers.</em></li>
-            <li><a href="civic-surges.html">Civic Surges</a><em>Volunteer energy, disaster response and practical mobilisation.</em></li>
-            <li><a href="truth-engine.html">Truth Engine</a><em>Claim labels, correction paths and public audit trails.</em></li>
-            <li><a href="web3-sensorium.html">Web3 Sensorium</a><em>Open data, digital twins and human-reviewed simulations.</em></li>
-            <li><a href="cyber-republic.html">Cyber-Republic Simulator</a><em>Referendum rehearsal fed by local proof.</em></li>
-            <li><a href="starter-field-kit.html">Starter Field Kit</a><em>Market table, QR trails, signs and organiser basics.</em></li>
-            <li><a href="minjerribah.html">Minjerribah</a><em>Island-scale thinking and local context.</em></li>
-            <li><a href="joke.html">Started As A Friendly Bet</a><em>The origin note before the machinery gets formal.</em></li>
-            <li><a href="aura-politics.html">Aura Politics</a><em>AI, care, public trust and civic architecture.</em></li>
-            <li><a href="aura-genesis.html">Aura Genesis</a><em>Myth, reflection and system imagination.</em></li>
-            <li><a href="aura-clinical-path.html">Aura Clinical Path</a><em>Health, dementia and assistive technology caution.</em></li>
-            <li><a href="alien-necklace-film.html">Alien Necklace Film</a><em>Fiction threshold and creative world-building.</em></li>
-          </ul>
-        </details>
-
-        <details class="map-branch state-map-branch" id="state-layer" open>
-          <summary><span>04</span><strong>State layer</strong><small>Eight portals, each with history, architecture and constitution rooms.</small></summary>
-<p class="election-order-note">Next state and territory general elections, soonest first. Countdown days use each jurisdiction’s local calendar. Tasmania is placed by its expected year, without an invented polling date. Passed dates move to the end until refreshed. Sources checked 2 October 2026; statutory dates can change under legal exceptions.</p>
-<div class="state-tree-grid" data-election-grid><article data-election-state="vic">
-              <h3>Victoria</h3><p class="state-election-date"><strong data-election-label>2026-11-28</strong><br><span data-election-countdown></span><small>Commission date. <a href="https://www.vec.vic.gov.au/voting/2026-state-election" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p><p>Working atlas: Parliament, councils and public statutory recognition. The 2026 election guide has 482 dated candidate announcements/preselections, not a final ballot.</p>
-              <a href="../states/vic/index.html">Portal</a>
-              <a href="../states/vic/election/index.html">2026 election guide</a>
-              <a href="../states/vic/map/index.html">Electorate atlas</a>
-<a href="../states/vic/map/index.html?chamber=firstpeoples&amp;recognition=rap,rsa" title="Public RAP and settlement recognition; not a complete map of Country">First Peoples recognition map</a>
-              <a href="../states/vic/history/index.html">History</a>
-              <a href="../states/vic/architecture/index.html">Architecture</a>
-              <a href="../states/vic/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="nsw">
-              <h3>New South Wales</h3><p class="state-election-date"><strong data-election-label>2027-03-13</strong><br><span data-election-countdown></span><small>Commission date; moved from Easter. <a href="https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/nsw/index.html">Portal</a>
-              <a href="../states/nsw/history/index.html">History</a>
-              <a href="../states/nsw/architecture/index.html">Architecture</a>
-              <a href="../states/nsw/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="nt">
-              <h3>Northern Territory</h3><p class="state-election-date"><strong data-election-label>2028-08-26</strong><br><span data-election-countdown></span><small>Ordinary statutory date: fourth Saturday in August. <a href="https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/nt/index.html">Portal</a>
-              <a href="../states/nt/history/index.html">History</a>
-              <a href="../states/nt/architecture/index.html">Architecture</a>
-              <a href="../states/nt/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="act">
-              <h3>Australian Capital Territory</h3><p class="state-election-date"><strong data-election-label>2028-10-21</strong><br><span data-election-countdown></span><small>Commission date. <a href="https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/act/index.html">Portal</a>
-              <a href="../states/act/history/index.html">History</a>
-              <a href="../states/act/architecture/index.html">Architecture</a>
-              <a href="../states/act/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="qld">
-              <h3>Queensland</h3><p class="state-election-date"><strong data-election-label>2028-10-28</strong><br><span data-election-countdown></span><small>Ordinary statutory date: last Saturday in October. <a href="https://www.ecq.qld.gov.au/elections/election-events" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/qld/index.html">Portal</a>
-              <a href="../states/qld/history/index.html">History</a>
-              <a href="../states/qld/architecture/index.html">Architecture</a>
-              <a href="../states/qld/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="wa">
-              <h3>Western Australia</h3><p class="state-election-date"><strong data-election-label>2029-03-10</strong><br><span data-election-countdown></span><small>Ordinary statutory date: second Saturday in March. <a href="https://www.elections.wa.gov.au/about-us/media/releases/1892" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/wa/index.html">Portal</a>
-              <a href="../states/wa/history/index.html">History</a>
-              <a href="../states/wa/architecture/index.html">Architecture</a>
-              <a href="../states/wa/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="tas">
-              <h3>Tasmania</h3><p class="state-election-date"><strong data-election-label>Expected by 2029 - date not fixed</strong><br><span data-election-countdown></span><small>Expected by 2029; timing is not fixed and an earlier election is possible. <a href="https://www.tec.tas.gov.au/house-of-assembly/" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/tas/index.html">Portal</a>
-              <a href="../states/tas/history/index.html">History</a>
-              <a href="../states/tas/architecture/index.html">Architecture</a>
-              <a href="../states/tas/constitution/index.html">Constitution</a>
-            </article>
-<article data-election-state="sa">
-              <h3>South Australia</h3><p class="state-election-date"><strong data-election-label>2030-03-16</strong><br><span data-election-countdown></span><small>Ordinary statutory date: third Saturday in March. <a href="https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html" target="_blank" rel="noopener noreferrer">Electoral source</a></small></p>
-              <a href="../states/sa/index.html">Portal</a>
-              <a href="../states/sa/history/index.html">History</a>
-              <a href="../states/sa/architecture/index.html">Architecture</a>
-              <a href="../states/sa/constitution/index.html">Constitution</a>
-            </article>
-</div><h3 class="state-index-heading">National reference indexes</h3><div class="state-tree-grid state-reference-grid"><article>
-              <h3>National indexes</h3>
-              <a href="states.html">State map</a>
-              <a href="state-history.html">State history index</a>
-            </article></div>
-        </details>
-
-        <details class="map-branch" id="workbench" open>
-          <summary><span>05</span><strong>Workbench and reference</strong><small>Useful source notes and practical build surfaces.</small></summary>
-          <ul>
-            <li><a href="civic-twin-builders.html">Civic Twin Builders</a><em>Suite doorway for the P4A local Markdown builders.</em></li>
-            <li><a href="markdown-with-ai.html">Markdown with AI</a><em>P4A-format guide for using .md files with AI, agents, sources, privacy boundaries and review notes.</em></li>
-            <li><a href="private-civic-profile-builder.html">Private Civic Profile Builder</a><em>L0 private civic twin starter file.</em></li>
-            <li><a href="p4a-builder.html?tool=contributor-card">Contributor Card Builder</a><em>Opt-in public contributor summary before public ledger references.</em></li>
-            <li><a href="p4a-builder.html?tool=private-noticeboard">Private Noticeboard Builder</a><em>L0 self, home, care, learning or life-improvement board.</em></li>
-            <li><a href="noticeboard-contract-builder.html">Public Noticeboard Builder</a><em>L1 public_noticeboard.md contract with private exclusions.</em></li>
-            <li><a href="p4a-builder.html?tool=local-crew-onboarding">Local Crew Onboarding Builder</a><em>L1 handover file for local tables, markets, events and project crews.</em></li>
-            <li><a href="p4a-builder.html?tool=project-readiness">Project Readiness Builder</a><em>L1/L2 project preparation, evidence and permissions.</em></li>
-            <li><a href="p4a-builder.html?tool=milestone-report">Milestone Report Builder</a><em>L1/L2 public-benefit progress and evidence record.</em></li>
-            <li><a href="p4a-builder.html?tool=contribution-ledger-summary">Contribution Ledger Summary Builder</a><em>Fractal L0-L3 contribution summary before any future C-Hour issuance.</em></li>
-            <li><a href="c-hour-receipt-builder.html">C-Hour Receipt Pipeline</a><em>Future agent-generated receipt lane with accepted authority and HITL checkpoints.</em></li>
-            <li><a href="p4a-builder.html?tool=legal-source-trail">Legal Source Trail Builder</a><em>Legal RAG source, jurisdiction, risk and review primer.</em></li>
-            <li><a href="p4a-builder.html?tool=media-assets">Media Assets Builder</a><em>Culture, asset provenance, licences and approval notes.</em></li>
-            <li><a href="p4a-builder.html?tool=sovereign-space-node">Sovereign Space Node Builder</a><em>L0 private place-node planning record.</em></li>
-            <li><a href="p4a-builder.html?tool=sensorium-place-pack">Sensorium Place Pack Builder</a><em>L1/L2 place twin source pack.</em></li>
-            <li><a href="p4a-builder.html?tool=living-boundary-map">Living Boundary Map Builder</a><em>L1/L2 island, catchment, bioregion or civic boundary record.</em></li>
-            <li><a href="p4a-builder.html?tool=local-civic-front">Local Civic Front Builder</a><em>L2 public civic doorway for projects, notices, ledger summaries and review.</em></li>
-            <li><a href="https://auraofintelligence.github.io/how-to-use-md-with-ai/" target="_blank" rel="noopener noreferrer">External How to Use Markdown with AI</a><em>Leaves P4A for the fuller plain-English .md guide and starter builder.</em></li>
-            <li><a href="https://auraofintelligence.github.io/straddie-digital-twin-builders/" target="_blank" rel="noopener noreferrer">External Straddie Digital Twin Builders</a><em>Leaves P4A for the .md prompt-packet builder examples for spaces, places and bioregions.</em></li>
-            <li><a href="gear-store.html">Gear Store (design test)</a><em>Not a shop: a rapid-iteration sketch. The ladder, starter kits, dated prices, sovereign suppliers, open books.</em></li>
-            <li><a href="colour-panel.html">Colour Panel</a><em>First principles merch: the exact purples, dyes, paints and threads. Images over words.</em></li>
-            <li><a href="test-store1.html">Test Store 1 (design test)</a><em>Checkout sketch. Takes no money, no payment keys connected.</em></li>
-            <li><a href="../README.md">Project README</a><em>Short repo-level description.</em></li>
-            <li><a href="../LICENCE.md">P4A Public Licence</a><em>Reuse boundaries and public workbench licence.</em></li>
-            <li><a href="../LOCALISE_WITH_AN_AGENT.md">Localise With An Agent</a><em>Prompt for adapting the scaffold to a local civic project.</em></li>
-            <li><a href="../content/states/README.md">State data notes</a><em>How state markdown feeds generated pages.</em></li>
-            <li><a href="../content/history/README.md">History data notes</a><em>How history markdown feeds generated pages.</em></li>
-          </ul>
-        </details>
-
-        <span id="connected-projects"></span>
-        <details class="map-branch" id="official-links-out" open>
-          <summary><span>06</span><strong>Connected projects</strong><small>Related workbenches and projects, with their connection to P4A explained.</small></summary>
+  <main id="main" class="human-site-map">
+ <section class="human-map-intro">
+ <p class="eyebrow">P4A · Find your way</p><h1>Where would you like to go?</h1>
+ <p class="human-lead">Start with your place, a question, or an idea. Each path connects to evidence, people and ways to take part.</p>
+ <p class="human-map-date">Navigation updated <time datetime="2026-10-17">17 October 2026</time> · 177 public pages. This date records the navigation review; facts keep their own source dates.</p>
+ <div class="human-start-grid">
+ <article><h2>Find my place</h2><p>Use a map, search an area, inspect it, then open its journey.</p><a href="../pages/states.html">Choose a state or territory</a></article>
+ <article><h2>Follow a local question</h2><p>Redlands connects ordinary experiences to systems, records and useful action.</p><a href="../states/qld/councils/redland/explore/index.html">Explore Redlands questions</a></article>
+ <article><h2>Explore an idea</h2><p>Twinkles open the door. The policy rooms carry the serious detail.</p><a href="../pages/twinkle.html">Browse Twinkles and their meanings</a></article>
+ </div>
+ <nav class="human-jumps" aria-label="Site map sections"><a href="#places">Maps and places</a><a href="#redland-local-journey">Redlands journey</a><a href="#all-site-pages">Every page</a><a href="#official-links-out">Connected projects</a><a href="../states/qld/councils/redland/sources/index.html#review-register">Changes and review dates</a></nav>
+ <div class="human-filter" hidden data-site-filter><label for="site-map-search">Find a page or topic</label><div><input id="site-map-search" type="search" placeholder="Try rates, housing, Victoria, legal, Division 2…" autocomplete="off"><button type="button" data-site-clear>Clear</button></div><p role="status" aria-live="polite" data-site-search-status>177 pages available.</p></div>
+ </section>
+ <section class="human-places" aria-labelledby="places-heading"><h2 id="places-heading">Places: three different public responsibilities</h2>
+ <div class="human-place-grid">
+ <article><h3>Councils and divisions</h3><p><strong>Built example: Redlands.</strong> Queensland’s council map selects all council areas; Redlands opens ten local divisions. Victoria also has a council atlas.</p><a href="../states/qld/councils/index.html">Queensland council map</a> <a href="../states/qld/councils/redland/index.html">Open Redlands</a></article>
+ <article><h3>State and territory electorates</h3><p><strong>Atlas foundation: Victoria.</strong> Maps and data for 88 Assembly districts and eight Council regions; the deeper local journeys are still to be built.</p><a href="../states/vic/map/index.html">Victoria electorate atlas</a> <a href="../states/vic/election/index.html">Victoria election guide</a></article>
+ <article><h3>Federal electorates</h3><p><strong>Context only so far.</strong> Bowman boundary material is available through Redlands. A dedicated federal atlas and electorate journeys have not been built.</p><a href="../states/qld/councils/redland/sources/index.html">Bowman and overlapping boundaries</a></article>
+ </div></section>
+ <!-- redland-local-route:start -->
+ <section id="redland-local-journey" class="human-local"><h2>Redlands: keep your thread as you explore</h2><p class="human-local-flow">Queensland → council map → Redlands → a division, question, system, person or piece of evidence → participation → outcomes.</p><p>Keep three accounts together: <strong>what it cost, what was given freely, and what changed.</strong></p>
+ <details class="human-directory" id="redland" data-site-group open>
+ <summary><strong>Redlands: the local journey</strong><span>8 pages</span></summary>
+ <p>Map, questions, possibilities, people, participation and outcomes.</p><ul><li data-site-page data-search="redlands overview and division map states/qld/councils/redland/index.html redlands: the local journey"><a href="../states/qld/councils/redland/index.html">Redlands overview and division map</a></li>
+<li data-site-page data-search="all redlands divisions states/qld/councils/redland/divisions/index.html redlands: the local journey"><a href="../states/qld/councils/redland/divisions/index.html">All Redlands divisions</a></li>
+<li data-site-page data-search="local questions and twinkles states/qld/councils/redland/explore/index.html redlands: the local journey"><a href="../states/qld/councils/redland/explore/index.html">Local questions and Twinkles</a></li>
+<li data-site-page data-search="connected systems and possibilities states/qld/councils/redland/possibilities/index.html redlands: the local journey"><a href="../states/qld/councils/redland/possibilities/index.html">Connected systems and possibilities</a></li>
+<li data-site-page data-search="people, elections and public records states/qld/councils/redland/candidates/index.html redlands: the local journey"><a href="../states/qld/councils/redland/candidates/index.html">People, elections and public records</a></li>
+<li data-site-page data-search="take part and plan a contribution states/qld/councils/redland/action/index.html redlands: the local journey"><a href="../states/qld/councils/redland/action/index.html">Take part and plan a contribution</a></li>
+<li data-site-page data-search="outcomes: cost, freely given, change states/qld/councils/redland/outcomes/index.html redlands: the local journey"><a href="../states/qld/councils/redland/outcomes/index.html">Outcomes: cost, freely given, change</a></li>
+<li data-site-page data-search="sources, dates and review register states/qld/councils/redland/sources/index.html redlands: the local journey"><a href="../states/qld/councils/redland/sources/index.html">Sources, dates and review register</a></li></ul></details><details class="human-directory" id="divisions" data-site-group >
+ <summary><strong>Redlands: ten divisions</strong><span>10 pages</span></summary>
+ <p>Choose a division for local orientation, public records and connected questions.</p><ul><li data-site-page data-search="division 1: wellington point and ormiston states/qld/councils/redland/divisions/1/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/1/index.html">Division 1: Wellington Point and Ormiston</a></li>
+<li data-site-page data-search="division 2: cleveland and north stradbroke island / minjerribah states/qld/councils/redland/divisions/2/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/2/index.html">Division 2: Cleveland and North Stradbroke Island / Minjerribah</a></li>
+<li data-site-page data-search="division 3: cleveland south, thornlands and victoria point states/qld/councils/redland/divisions/3/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/3/index.html">Division 3: Cleveland South, Thornlands and Victoria Point</a></li>
+<li data-site-page data-search="division 4: victoria point and coochiemudlo island states/qld/councils/redland/divisions/4/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/4/index.html">Division 4: Victoria Point and Coochiemudlo Island</a></li>
+<li data-site-page data-search="division 5: redland bay and southern moreton bay islands states/qld/councils/redland/divisions/5/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/5/index.html">Division 5: Redland Bay and Southern Moreton Bay Islands</a></li>
+<li data-site-page data-search="division 6: mount cotton and redland bay states/qld/councils/redland/divisions/6/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/6/index.html">Division 6: Mount Cotton and Redland Bay</a></li>
+<li data-site-page data-search="division 7: alexandra hills, capalaba, thornlands and cleveland states/qld/councils/redland/divisions/7/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/7/index.html">Division 7: Alexandra Hills, Capalaba, Thornlands and Cleveland</a></li>
+<li data-site-page data-search="division 8: birkdale, alexandra hills, capalaba and wellington point states/qld/councils/redland/divisions/8/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/8/index.html">Division 8: Birkdale, Alexandra Hills, Capalaba and Wellington Point</a></li>
+<li data-site-page data-search="division 9: sheldon, capalaba and thornlands states/qld/councils/redland/divisions/9/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/9/index.html">Division 9: Sheldon, Capalaba and Thornlands</a></li>
+<li data-site-page data-search="division 10: birkdale and thorneside states/qld/councils/redland/divisions/10/index.html redlands: ten divisions"><a href="../states/qld/councils/redland/divisions/10/index.html">Division 10: Birkdale and Thorneside</a></li></ul></details>
+ </section>
+ <!-- redland-local-route:end -->
+ <!-- site-page-inventory:start -->
+ <section id="all-site-pages" class="human-all-pages"><h2>Every page, grouped by what you want to do</h2><p>Open a group to browse. Search narrows the links; clearing it brings the groups back.</p>
+ <span id="main-doors"></span><details class="human-directory" id="start" data-site-group open>
+ <summary><strong>Start and find your bearings</strong><span>4 pages</span></summary>
+ <p>A few useful ways into P4A.</p><ul><li data-site-page data-search="home index.html start and find your bearings"><a href="../index.html">Home</a></li>
+<li data-site-page data-search="about this workbench pages/about.html start and find your bearings"><a href="../pages/about.html">About this workbench</a></li>
+<li data-site-page data-search="the civic pathway pages/civic-pathway.html start and find your bearings"><a href="../pages/civic-pathway.html">The civic pathway</a></li>
+<li data-site-page data-search="site map pages/site-map.html start and find your bearings"><a href="../pages/site-map.html">Site map</a></li></ul></details><details class="human-directory" id="places" data-site-group >
+ <summary><strong>Maps and places</strong><span>6 pages</span></summary>
+ <p>Find your state, council or electorate. The types stay separate.</p><ul><li data-site-page data-search="geographic maps pages/maps.html maps and places"><a href="../pages/maps.html">Geographic maps</a></li>
+<li data-site-page data-search="minjerribah to gold coast pipeline pages/minjerribah.html maps and places"><a href="../pages/minjerribah.html">Minjerribah to Gold Coast Pipeline</a></li>
+<li data-site-page data-search="how each state became different. pages/state-history.html maps and places"><a href="../pages/state-history.html">How each state became different.</a></li>
+<li data-site-page data-search="states and territories pages/states.html maps and places"><a href="../pages/states.html">States and territories</a></li>
+<li data-site-page data-search="treaty atlas pages/treaty-atlas.html maps and places"><a href="../pages/treaty-atlas.html">Treaty Atlas</a></li>
+<li data-site-page data-search="queensland council map and search states/qld/councils/index.html maps and places"><a href="../states/qld/councils/index.html">Queensland council map and search</a></li></ul></details><span id="rabbit-rooms"></span><details class="human-directory" id="policies" data-site-group >
+ <summary><strong>Everyday questions and policy ideas</strong><span>38 pages</span></summary>
+ <p>Explore the serious context and possible responses behind public concerns.</p><ul><li data-site-page data-search="care should come with a clear receipt. pages/aged-care-scams.html everyday questions and policy ideas"><a href="../pages/aged-care-scams.html">Care should come with a clear receipt.</a></li>
+<li data-site-page data-search="ai copyright pages/ai-copyright.html everyday questions and policy ideas"><a href="../pages/ai-copyright.html">AI copyright</a></li>
+<li data-site-page data-search="better odds.better futures. pages/ai-pdoom.html everyday questions and policy ideas"><a href="../pages/ai-pdoom.html">Better odds.Better futures.</a></li>
+<li data-site-page data-search="it sounded like someone you trust. pages/ai-scams.html everyday questions and policy ideas"><a href="../pages/ai-scams.html">It sounded like someone you trust.</a></li>
+<li data-site-page data-search="a fair goat the truth. pages/ancient-aliens.html everyday questions and policy ideas"><a href="../pages/ancient-aliens.html">A fair goat the truth.</a></li>
+<li data-site-page data-search="clinical pathways pages/aura-clinical-path.html everyday questions and policy ideas"><a href="../pages/aura-clinical-path.html">Clinical pathways</a></li>
+<li data-site-page data-search="child safety pages/child-safety.html everyday questions and policy ideas"><a href="../pages/child-safety.html">Child safety</a></li>
+<li data-site-page data-search="another target. who holds the power? pages/closing-the-gap.html everyday questions and policy ideas"><a href="../pages/closing-the-gap.html">Another target. Who holds the power?</a></li>
+<li data-site-page data-search="risk and mutual care pages/community-insurance.html everyday questions and policy ideas"><a href="../pages/community-insurance.html">Risk and Mutual Care</a></li>
+<li data-site-page data-search="dementia and aged care pages/dementia-aged-care.html everyday questions and policy ideas"><a href="../pages/dementia-aged-care.html">Dementia and aged care</a></li>
+<li data-site-page data-search="the fair go evolves pages/fair-go.html everyday questions and policy ideas"><a href="../pages/fair-go.html">The Fair Go Evolves</a></li>
+<li data-site-page data-search="the family you want. the support to choose. pages/family-choices.html everyday questions and policy ideas"><a href="../pages/family-choices.html">The family you want. The support to choose.</a></li>
+<li data-site-page data-search="violence against women pages/family-violence.html everyday questions and policy ideas"><a href="../pages/family-violence.html">Violence against women</a></li>
+<li data-site-page data-search="food security and shared tables pages/food-security.html everyday questions and policy ideas"><a href="../pages/food-security.html">Food Security and Shared Tables</a></li>
+<li data-site-page data-search="fuel tax pages/fuel.html everyday questions and policy ideas"><a href="../pages/fuel.html">Fuel tax</a></li>
+<li data-site-page data-search="the app keeps playing after the match. pages/gambling-harm.html everyday questions and policy ideas"><a href="../pages/gambling-harm.html">The app keeps playing after the match.</a></li>
+<li data-site-page data-search="same ambition. different pay packet. pages/gender-pay-gap.html everyday questions and policy ideas"><a href="../pages/gender-pay-gap.html">Same ambition. Different pay packet.</a></li>
+<li data-site-page data-search="housing simulations pages/housing-simulations.html everyday questions and policy ideas"><a href="../pages/housing-simulations.html">Housing Simulations</a></li>
+<li data-site-page data-search="before the next war, show the alternatives. pages/international-wars.html everyday questions and policy ideas"><a href="../pages/international-wars.html">Before the next war, show the alternatives.</a></li>
+<li data-site-page data-search="what if the family had more room? pages/marriage-divorce.html everyday questions and policy ideas"><a href="../pages/marriage-divorce.html">What if the family had more room?</a></li>
+<li data-site-page data-search="mental health pages/mental-health.html everyday questions and policy ideas"><a href="../pages/mental-health.html">Mental health</a></li>
+<li data-site-page data-search="people, homes, skills. show the whole equation. pages/migration-equations.html everyday questions and policy ideas"><a href="../pages/migration-equations.html">People, homes, skills. Show the whole equation.</a></li>
+<li data-site-page data-search="multinational tax pages/multinational-tax.html everyday questions and policy ideas"><a href="../pages/multinational-tax.html">Multinational tax</a></li>
+<li data-site-page data-search="the support was billed. was it delivered? pages/ndis-scams.html everyday questions and policy ideas"><a href="../pages/ndis-scams.html">The support was billed. Was it delivered?</a></li>
+<li data-site-page data-search="a block button isn’t the whole safety plan. pages/online-safety.html everyday questions and policy ideas"><a href="../pages/online-safety.html">A block button isn’t the whole safety plan.</a></li>
+<li data-site-page data-search="the price and the tax pages/price-tax.html everyday questions and policy ideas"><a href="../pages/price-tax.html">The price and the tax</a></li>
+<li data-site-page data-search="promising treatment. who can reach it? pages/psychedelic-mental-health.html everyday questions and policy ideas"><a href="../pages/psychedelic-mental-health.html">Promising treatment. Who can reach it?</a></li>
+<li data-site-page data-search="ptsd care and claims pages/ptsd.html everyday questions and policy ideas"><a href="../pages/ptsd.html">PTSD care and claims</a></li>
+<li data-site-page data-search="public assets and long contracts pages/public-assets.html everyday questions and policy ideas"><a href="../pages/public-assets.html">Public Assets and Long Contracts</a></li>
+<li data-site-page data-search="policy ideas: the full directory pages/rabbit-hole.html everyday questions and policy ideas"><a href="../pages/rabbit-hole.html">Policy ideas: the full directory</a></li>
+<li data-site-page data-search="rethinking restricted plants and fungi pages/restricted-plants.html everyday questions and policy ideas"><a href="../pages/restricted-plants.html">Rethinking restricted plants and fungi</a></li>
+<li data-site-page data-search="a bigger receipt is not a safety guarantee. pages/security-fallacies.html everyday questions and policy ideas"><a href="../pages/security-fallacies.html">A bigger receipt is not a safety guarantee.</a></li>
+<li data-site-page data-search="super for housing pages/super-housing.html everyday questions and policy ideas"><a href="../pages/super-housing.html">Super for housing</a></li>
+<li data-site-page data-search="where does your super money go? pages/super-investments.html everyday questions and policy ideas"><a href="../pages/super-investments.html">Where does your super money go?</a></li>
+<li data-site-page data-search="tobacco tax pages/tobacco.html everyday questions and policy ideas"><a href="../pages/tobacco.html">Tobacco tax</a></li>
+<li data-site-page data-search="the economy grew. whose balance sheet did? pages/wealth-inequality.html everyday questions and policy ideas"><a href="../pages/wealth-inequality.html">The economy grew. Whose balance sheet did?</a></li>
+<li data-site-page data-search="workforce transition pages/workforce-transition.html everyday questions and policy ideas"><a href="../pages/workforce-transition.html">Workforce Transition</a></li>
+<li data-site-page data-search="safe tonight. fewer victims tomorrow. pages/youth-crime.html everyday questions and policy ideas"><a href="../pages/youth-crime.html">Safe tonight. Fewer victims tomorrow.</a></li></ul></details><span id="twinkle-series"></span><details class="human-directory" id="twinkles" data-site-group >
+ <summary><strong>Twinkles: one scene, one gripe, one breath</strong><span>50 pages</span></summary>
+ <p>Short seeds into deeper questions, evidence and policy rooms.</p><ul><li data-site-page data-search="aged-care scams: visits on paper only. pages/twinkle-aged-care-scams.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-aged-care-scams.html">Aged-care scams: visits on paper only.</a></li>
+<li data-site-page data-search="ai copyright: mine was free, yours is licensed. pages/twinkle-ai-copyright.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ai-copyright.html">AI copyright: mine was free, yours is licensed.</a></li>
+<li data-site-page data-search="ai extinction odds. any odds on a fair go? pages/twinkle-ai-pdoom.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ai-pdoom.html">AI extinction odds. Any odds on a fair go?</a></li>
+<li data-site-page data-search="ai phone scams: sounds just like mum. pages/twinkle-ai-scams.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ai-scams.html">AI phone scams: sounds just like Mum.</a></li>
+<li data-site-page data-search="ancient aliens: same sky, different standards. pages/twinkle-ancient-aliens.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ancient-aliens.html">Ancient aliens: same sky, different standards.</a></li>
+<li data-site-page data-search="aukus tech: all our eggs in one basket. pages/twinkle-aukus.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-aukus.html">AUKUS tech: all our eggs in one basket.</a></li>
+<li data-site-page data-search="beer tax: the pub beats resource rent. pages/twinkle-beer-tax.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-beer-tax.html">Beer tax: the pub beats resource rent.</a></li>
+<li data-site-page data-search="data breaches: my licence gets around. pages/twinkle-breaches.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-breaches.html">Data breaches: my licence gets around.</a></li>
+<li data-site-page data-search="child chatbot safety: best mates, paid upgrades. pages/twinkle-child-safety.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-child-safety.html">Child chatbot safety: best mates, paid upgrades.</a></li>
+<li data-site-page data-search="childcare fees: daycare&#x27;s a second mortgage. pages/twinkle-childcare.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-childcare.html">Childcare fees: daycare&#x27;s a second mortgage.</a></li>
+<li data-site-page data-search="indigenous disadvantage: reports won&#x27;t close the gap. pages/twinkle-closing-the-gap.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-closing-the-gap.html">Indigenous disadvantage: reports won&#x27;t close the gap.</a></li>
+<li data-site-page data-search="ai data centres: power to tell me to save power. pages/twinkle-datacentres.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-datacentres.html">AI data centres: power to tell me to save power.</a></li>
+<li data-site-page data-search="climate change: third hundred-year flood this decade. pages/twinkle-deep-time.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-deep-time.html">Climate change: third hundred-year flood this decade.</a></li>
+<li data-site-page data-search="political donations: who paid for that ad? pages/twinkle-donations.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-donations.html">Political donations: who paid for that ad?</a></li>
+<li data-site-page data-search="having kids: life&#x27;s missing from the birth-rate chart. pages/twinkle-family-choices.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-family-choices.html">Having kids: life&#x27;s missing from the birth-rate chart.</a></li>
+<li data-site-page data-search="family violence: leave him. live where? pages/twinkle-family-violence.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-family-violence.html">Family violence: leave him. Live where?</a></li>
+<li data-site-page data-search="grocery prices: two bags, one payslip. pages/twinkle-food.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-food.html">Grocery prices: two bags, one payslip.</a></li>
+<li data-site-page data-search="fuel tax: now with tax on top. pages/twinkle-fuel.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-fuel.html">Fuel tax: now with tax on top.</a></li>
+<li data-site-page data-search="gambling ads: any chance of some footy? pages/twinkle-gambling-harm.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-gambling-harm.html">Gambling ads: any chance of some footy?</a></li>
+<li data-site-page data-search="gender pay gap: full-price rent. pages/twinkle-gender-pay-gap.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-gender-pay-gap.html">Gender pay gap: full-price rent.</a></li>
+<li data-site-page data-search="gp fees: paying to hear &#x27;less stress&#x27;. pages/twinkle-health.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-health.html">GP fees: paying to hear &#x27;less stress&#x27;.</a></li>
+<li data-site-page data-search="rent hike. one wall painted. pages/twinkle-housing.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-housing.html">Rent hike. One wall painted.</a></li>
+<li data-site-page data-search="insurance covers everything. except my claim. pages/twinkle-insurance.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-insurance.html">Insurance covers everything. Except my claim.</a></li>
+<li data-site-page data-search="overseas wars: very brave from canberra. pages/twinkle-international-wars.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-international-wars.html">Overseas wars: very brave from Canberra.</a></li>
+<li data-site-page data-search="divorce lawyers: till fees do us part. pages/twinkle-marriage-divorce.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-marriage-divorce.html">Divorce lawyers: till fees do us part.</a></li>
+<li data-site-page data-search="mental-health care: awareness doesn&#x27;t book appointments. pages/twinkle-mental-health.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-mental-health.html">Mental-health care: awareness doesn&#x27;t book appointments.</a></li>
+<li data-site-page data-search="migration targets: housing didn&#x27;t get the memo. pages/twinkle-migration-equations.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-migration-equations.html">Migration targets: housing didn&#x27;t get the memo.</a></li>
+<li data-site-page data-search="multinational tax: big revenue, offshore profits. pages/twinkle-multinational-tax.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-multinational-tax.html">Multinational tax: big revenue, offshore profits.</a></li>
+<li data-site-page data-search="ndis scams: the scammers are well supported. pages/twinkle-ndis-scams.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ndis-scams.html">NDIS scams: the scammers are well supported.</a></li>
+<li data-site-page data-search="olympic stadium plans: gold in changing them. pages/twinkle-olympics.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-olympics.html">Olympic stadium plans: gold in changing them.</a></li>
+<li data-site-page data-search="online threats to kids: copyright gets faster help. pages/twinkle-online-safety.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-online-safety.html">Online threats to kids: copyright gets faster help.</a></li>
+<li data-site-page data-search="political lies. but the ad&#x27;s authorised. pages/twinkle-political-lies.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-political-lies.html">Political lies. But the ad&#x27;s authorised.</a></li>
+<li data-site-page data-search="power bill up. lights off. pages/twinkle-power.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-power.html">Power bill up. Lights off.</a></li>
+<li data-site-page data-search="psychedelic therapy prices: god had better chip in. pages/twinkle-psychedelic-mental-health.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-psychedelic-mental-health.html">Psychedelic therapy prices: God had better chip in.</a></li>
+<li data-site-page data-search="ptsd claims: the paperwork sends him back. pages/twinkle-ptsd.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-ptsd.html">PTSD claims: the paperwork sends him back.</a></li>
+<li data-site-page data-search="mining profits: dig it up, buy the news. pages/twinkle-resources.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-resources.html">Mining profits: dig it up, buy the news.</a></li>
+<li data-site-page data-search="restricted plants: medicine, unless i grow it. pages/twinkle-restricted-plants.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-restricted-plants.html">Restricted plants: medicine, unless I grow it.</a></li>
+<li data-site-page data-search="political revolving doors: friday mp, monday gas company. pages/twinkle-revolving-door.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-revolving-door.html">Political revolving doors: Friday MP, Monday gas company.</a></li>
+<li data-site-page data-search="national security: billions for &#x27;trust us&#x27;. pages/twinkle-security-fallacies.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-security-fallacies.html">National security: billions for &#x27;trust us&#x27;.</a></li>
+<li data-site-page data-search="super for housing: broke at two different ages. pages/twinkle-super-housing.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-super-housing.html">Super for housing: broke at two different ages.</a></li>
+<li data-site-page data-search="my super. is it buying weapons? pages/twinkle-super-investments.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-super-investments.html">My super. Is it buying weapons?</a></li>
+<li data-site-page data-search="tobacco tax: the government&#x27;s pricey habit. pages/twinkle-tobacco.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-tobacco.html">Tobacco tax: the government&#x27;s pricey habit.</a></li>
+<li data-site-page data-search="road tolls: surely i own a lane. pages/twinkle-tolls.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-tolls.html">Road tolls: surely I own a lane.</a></li>
+<li data-site-page data-search="first peoples treaty: suddenly paperwork&#x27;s hard. pages/twinkle-treaty.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-treaty.html">First Peoples treaty: suddenly paperwork&#x27;s hard.</a></li>
+<li data-site-page data-search="triple zero: full signal, no help. pages/twinkle-triple-zero.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-triple-zero.html">Triple Zero: full signal, no help.</a></li>
+<li data-site-page data-search="ufo secrecy: we&#x27;ll take that on notice. pages/twinkle-uap.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-uap.html">UFO secrecy: we&#x27;ll take that on notice.</a></li>
+<li data-site-page data-search="wealth inequality: the landlord&#x27;s house got the pay rise. pages/twinkle-wealth-inequality.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-wealth-inequality.html">Wealth inequality: the landlord&#x27;s house got the pay rise.</a></li>
+<li data-site-page data-search="ai takes my job. i train it. pages/twinkle-workforce.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-workforce.html">AI takes my job. I train it.</a></li>
+<li data-site-page data-search="youth crime: tough talk, handy campaign ads. pages/twinkle-youth-crime.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle-youth-crime.html">Youth crime: tough talk, handy campaign ads.</a></li>
+<li data-site-page data-search="twinkle hub and format rules pages/twinkle.html twinkles: one scene, one gripe, one breath"><a href="../pages/twinkle.html">Twinkle hub and format rules</a></li></ul></details><details class="human-directory" id="systems" data-site-group >
+ <summary><strong>Systems and shared possibilities</strong><span>11 pages</span></summary>
+ <p>How local questions connect to wider civic and economic patterns.</p><ul><li data-site-page data-search="civic architecture builder pages/architecture.html systems and shared possibilities"><a href="../pages/architecture.html">Civic Architecture Builder</a></li>
+<li data-site-page data-search="the braided economy pages/braided-economy.html systems and shared possibilities"><a href="../pages/braided-economy.html">The Braided Economy</a></li>
+<li data-site-page data-search="public ledger and electorate fronts pages/civic-ledger.html systems and shared possibilities"><a href="../pages/civic-ledger.html">Public Ledger and Electorate Fronts</a></li>
+<li data-site-page data-search="civic surges pages/civic-surges.html systems and shared possibilities"><a href="../pages/civic-surges.html">Civic Surges</a></li>
+<li data-site-page data-search="creating the purple party constitution pages/constitution.html systems and shared possibilities"><a href="../pages/constitution.html">Creating the Purple Party Constitution</a></li>
+<li data-site-page data-search="the cyber-republic simulator pages/cyber-republic.html systems and shared possibilities"><a href="../pages/cyber-republic.html">The Cyber-Republic Simulator</a></li>
+<li data-site-page data-search="law engine / legal rag pages/legal-rag.html systems and shared possibilities"><a href="../pages/legal-rag.html">Law Engine / Legal RAG</a></li>
+<li data-site-page data-search="the purple synthesis pages/purple-synthesis.html systems and shared possibilities"><a href="../pages/purple-synthesis.html">The Purple Synthesis</a></li>
+<li data-site-page data-search="the sovereignty stack pages/sovereignty-stack.html systems and shared possibilities"><a href="../pages/sovereignty-stack.html">The Sovereignty Stack</a></li>
+<li data-site-page data-search="the truth engine pages/truth-engine.html systems and shared possibilities"><a href="../pages/truth-engine.html">The Truth Engine</a></li>
+<li data-site-page data-search="web3 sensorium pages/web3-sensorium.html systems and shared possibilities"><a href="../pages/web3-sensorium.html">Web3 Sensorium</a></li></ul></details><span id="workbench"></span><details class="human-directory" id="tools" data-site-group >
+ <summary><strong>Build, contribute and take part</strong><span>7 pages</span></summary>
+ <p>Practical guides and browser-local drafting tools.</p><ul><li data-site-page data-search="c-hour receipt pipeline pages/c-hour-receipt-builder.html build, contribute and take part"><a href="../pages/c-hour-receipt-builder.html">C-Hour Receipt Pipeline</a></li>
+<li data-site-page data-search="civic twin builders pages/civic-twin-builders.html build, contribute and take part"><a href="../pages/civic-twin-builders.html">Civic Twin Builders</a></li>
+<li data-site-page data-search="markdown with ai pages/markdown-with-ai.html build, contribute and take part"><a href="../pages/markdown-with-ai.html">Markdown with AI</a></li>
+<li data-site-page data-search="public noticeboard builder pages/noticeboard-contract-builder.html build, contribute and take part"><a href="../pages/noticeboard-contract-builder.html">Public Noticeboard Builder</a></li>
+<li data-site-page data-search="p4a markdown builder pages/p4a-builder.html build, contribute and take part"><a href="../pages/p4a-builder.html">P4A Markdown Builder</a></li>
+<li data-site-page data-search="private civic profile builder pages/private-civic-profile-builder.html build, contribute and take part"><a href="../pages/private-civic-profile-builder.html">Private Civic Profile Builder</a></li>
+<li data-site-page data-search="starter field kit pages/starter-field-kit.html build, contribute and take part"><a href="../pages/starter-field-kit.html">Starter Field Kit</a></li></ul></details><details class="human-directory" id="culture" data-site-group >
+ <summary><strong>Culture, origins and meaning</strong><span>5 pages</span></summary>
+ <p>Stories, lyric meanings and the ideas behind the project.</p><ul><li data-site-page data-search="alien necklace to cosmic nexus pages/alien-necklace-film.html culture, origins and meaning"><a href="../pages/alien-necklace-film.html">Alien Necklace to Cosmic Nexus</a></li>
+<li data-site-page data-search="aura genesis protocol pages/aura-genesis.html culture, origins and meaning"><a href="../pages/aura-genesis.html">Aura Genesis Protocol</a></li>
+<li data-site-page data-search="no genesis? no candidacy. pages/aura-politics.html culture, origins and meaning"><a href="../pages/aura-politics.html">No Genesis? No candidacy.</a></li>
+<li data-site-page data-search="it started as a friendly bet over a beer pages/joke.html culture, origins and meaning"><a href="../pages/joke.html">It Started as a Friendly Bet Over a Beer</a></li>
+<li data-site-page data-search="musicverse pages/musicverse.html culture, origins and meaning"><a href="../pages/musicverse.html">Musicverse</a></li></ul></details><details class="human-directory" id="support" data-site-group >
+ <summary><strong>Support and design</strong><span>4 pages</span></summary>
+ <p>Support options, gear and visual experiments.</p><ul><li data-site-page data-search="the colour is the merch. pages/colour-panel.html support and design"><a href="../pages/colour-panel.html">The colour is the merch.</a></li>
+<li data-site-page data-search="deployment gear pages/deployment-gear.html support and design"><a href="../pages/deployment-gear.html">Deployment Gear</a></li>
+<li data-site-page data-search="shop it. share it. dye it. build it. pages/gear-store.html support and design"><a href="../pages/gear-store.html">Shop it. Share it. Dye it. Build it.</a></li>
+<li data-site-page data-search="deployment gear pages/test-store1.html support and design"><a href="../pages/test-store1.html">Deployment Gear</a></li></ul></details><span id="state-layer"></span><details class="human-directory" id="state-rooms" data-site-group >
+ <summary><strong>State and territory rooms</strong><span>34 pages</span></summary>
+ <p>Portals, histories, architecture and rulebooks. Victoria also has an electorate atlas and election guide.</p><ul><li data-site-page data-search="australian capital territory civic architecture states/act/architecture/index.html state and territory rooms"><a href="../states/act/architecture/index.html">Australian Capital Territory civic architecture</a></li>
+<li data-site-page data-search="australian capital territory rulebook workbench states/act/constitution/index.html state and territory rooms"><a href="../states/act/constitution/index.html">Australian Capital Territory rulebook workbench</a></li>
+<li data-site-page data-search="australian capital territory history states/act/history/index.html state and territory rooms"><a href="../states/act/history/index.html">Australian Capital Territory history</a></li>
+<li data-site-page data-search="australian capital territory states/act/index.html state and territory rooms"><a href="../states/act/index.html">Australian Capital Territory</a></li>
+<li data-site-page data-search="new south wales civic architecture states/nsw/architecture/index.html state and territory rooms"><a href="../states/nsw/architecture/index.html">New South Wales civic architecture</a></li>
+<li data-site-page data-search="new south wales rulebook workbench states/nsw/constitution/index.html state and territory rooms"><a href="../states/nsw/constitution/index.html">New South Wales rulebook workbench</a></li>
+<li data-site-page data-search="new south wales history states/nsw/history/index.html state and territory rooms"><a href="../states/nsw/history/index.html">New South Wales history</a></li>
+<li data-site-page data-search="new south wales states/nsw/index.html state and territory rooms"><a href="../states/nsw/index.html">New South Wales</a></li>
+<li data-site-page data-search="northern territory civic architecture states/nt/architecture/index.html state and territory rooms"><a href="../states/nt/architecture/index.html">Northern Territory civic architecture</a></li>
+<li data-site-page data-search="northern territory rulebook workbench states/nt/constitution/index.html state and territory rooms"><a href="../states/nt/constitution/index.html">Northern Territory rulebook workbench</a></li>
+<li data-site-page data-search="northern territory history states/nt/history/index.html state and territory rooms"><a href="../states/nt/history/index.html">Northern Territory history</a></li>
+<li data-site-page data-search="northern territory states/nt/index.html state and territory rooms"><a href="../states/nt/index.html">Northern Territory</a></li>
+<li data-site-page data-search="queensland civic architecture states/qld/architecture/index.html state and territory rooms"><a href="../states/qld/architecture/index.html">Queensland civic architecture</a></li>
+<li data-site-page data-search="queensland rulebook workbench states/qld/constitution/index.html state and territory rooms"><a href="../states/qld/constitution/index.html">Queensland rulebook workbench</a></li>
+<li data-site-page data-search="queensland history states/qld/history/index.html state and territory rooms"><a href="../states/qld/history/index.html">Queensland history</a></li>
+<li data-site-page data-search="queensland states/qld/index.html state and territory rooms"><a href="../states/qld/index.html">Queensland</a></li>
+<li data-site-page data-search="south australia civic architecture states/sa/architecture/index.html state and territory rooms"><a href="../states/sa/architecture/index.html">South Australia civic architecture</a></li>
+<li data-site-page data-search="south australia rulebook workbench states/sa/constitution/index.html state and territory rooms"><a href="../states/sa/constitution/index.html">South Australia rulebook workbench</a></li>
+<li data-site-page data-search="south australia history states/sa/history/index.html state and territory rooms"><a href="../states/sa/history/index.html">South Australia history</a></li>
+<li data-site-page data-search="south australia states/sa/index.html state and territory rooms"><a href="../states/sa/index.html">South Australia</a></li>
+<li data-site-page data-search="tasmania civic architecture states/tas/architecture/index.html state and territory rooms"><a href="../states/tas/architecture/index.html">Tasmania civic architecture</a></li>
+<li data-site-page data-search="tasmania rulebook workbench states/tas/constitution/index.html state and territory rooms"><a href="../states/tas/constitution/index.html">Tasmania rulebook workbench</a></li>
+<li data-site-page data-search="tasmania history states/tas/history/index.html state and territory rooms"><a href="../states/tas/history/index.html">Tasmania history</a></li>
+<li data-site-page data-search="tasmania states/tas/index.html state and territory rooms"><a href="../states/tas/index.html">Tasmania</a></li>
+<li data-site-page data-search="victoria civic architecture states/vic/architecture/index.html state and territory rooms"><a href="../states/vic/architecture/index.html">Victoria civic architecture</a></li>
+<li data-site-page data-search="victoria rulebook workbench states/vic/constitution/index.html state and territory rooms"><a href="../states/vic/constitution/index.html">Victoria rulebook workbench</a></li>
+<li data-site-page data-search="victoria 2026 election guide states/vic/election/index.html state and territory rooms"><a href="../states/vic/election/index.html">Victoria 2026 election guide</a></li>
+<li data-site-page data-search="victoria history states/vic/history/index.html state and territory rooms"><a href="../states/vic/history/index.html">Victoria history</a></li>
+<li data-site-page data-search="victoria states/vic/index.html state and territory rooms"><a href="../states/vic/index.html">Victoria</a></li>
+<li data-site-page data-search="victoria electorate and council atlas states/vic/map/index.html state and territory rooms"><a href="../states/vic/map/index.html">Victoria electorate and council atlas</a></li>
+<li data-site-page data-search="western australia civic architecture states/wa/architecture/index.html state and territory rooms"><a href="../states/wa/architecture/index.html">Western Australia civic architecture</a></li>
+<li data-site-page data-search="western australia rulebook workbench states/wa/constitution/index.html state and territory rooms"><a href="../states/wa/constitution/index.html">Western Australia rulebook workbench</a></li>
+<li data-site-page data-search="western australia history states/wa/history/index.html state and territory rooms"><a href="../states/wa/history/index.html">Western Australia history</a></li>
+<li data-site-page data-search="western australia states/wa/index.html state and territory rooms"><a href="../states/wa/index.html">Western Australia</a></li></ul></details>
+ </section><!-- site-page-inventory:end -->
+ <details class="human-directory connected-projects" id="official-links-out">
+          <summary><strong>Connected projects</strong><span>External sites and source libraries</span></summary>
           <div class="official-link-grid">
 <!-- reviewed-projects:start -->
 <article class="official-link-card"><h3>Australian Law: Relevance Ladder</h3><p>Legal reform and public submissions, connected with the P4A Law Engine.</p><div class="official-link-actions"><a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/" target="_blank" rel="noopener noreferrer">Open project (new tab)</a></div></article>
@@ -359,12 +370,12 @@
             </article>
           </div>
         </details>
-      </div>
-    </section>
-  <section class="section"><div class="page-copy"><div class="feature-panel"><h2>More Twinkle doors and public rooms</h2><div class="source-links"><a href="twinkle-ai-copyright.html">Twinkle 23: AI copyright</a><a href="ai-copyright.html">AI copyright: explore the room</a><a href="twinkle-child-safety.html">Twinkle 24: Child safety</a><a href="child-safety.html">Child safety: explore the room</a><a href="twinkle-online-safety.html">Twinkle 25: Online safety</a><a href="online-safety.html">Online safety: explore the room</a><a href="twinkle-gender-pay-gap.html">Twinkle 26: Gender pay gap</a><a href="gender-pay-gap.html">Gender pay gap: explore the room</a><a href="twinkle-closing-the-gap.html">Twinkle 27: Closing the Gap</a><a href="closing-the-gap.html">Closing the Gap: explore the room</a><a href="twinkle-youth-crime.html">Twinkle 28: Youth crime</a><a href="youth-crime.html">Youth crime: explore the room</a><a href="twinkle-family-choices.html">Twinkle 29: Wanted families</a><a href="family-choices.html">Wanted families: explore the room</a><a href="twinkle-marriage-divorce.html">Twinkle 30: Marriage & divorce</a><a href="marriage-divorce.html">Marriage & divorce: explore the room</a><a href="twinkle-super-housing.html">Twinkle 31: Super for housing</a><a href="super-housing.html">Super for housing: explore the room</a><a href="twinkle-wealth-inequality.html">Twinkle 32: Wealth inequality</a><a href="wealth-inequality.html">Wealth inequality: explore the room</a><a href="twinkle-multinational-tax.html">Twinkle 33: Multinational tax avoidance</a><a href="multinational-tax.html">Multinational tax avoidance: explore the room</a><a href="twinkle-ndis-scams.html">Twinkle 34: NDIS scams</a><a href="ndis-scams.html">NDIS scams: explore the room</a><a href="twinkle-ai-scams.html">Twinkle 35: AI scams</a><a href="ai-scams.html">AI scams: explore the room</a><a href="twinkle-aged-care-scams.html">Twinkle 36: Aged-care scams</a><a href="aged-care-scams.html">Aged-care scams: explore the room</a><a href="twinkle-gambling-harm.html">Twinkle 37: Gambling harm</a><a href="gambling-harm.html">Gambling harm: explore the room</a><a href="twinkle-fuel.html">Twinkle 38: Fuel tax</a><a href="fuel.html">Fuel tax: explore the room</a><a href="twinkle-tobacco.html">Twinkle 39: Tobacco tax</a><a href="tobacco.html">Tobacco tax: explore the room</a><a href="twinkle-migration-equations.html">Twinkle 40: Migration equations</a><a href="migration-equations.html">Migration equations: explore the room</a><a href="twinkle-international-wars.html">Twinkle 41: International wars</a><a href="international-wars.html">International wars: explore the room</a><a href="twinkle-security-fallacies.html">Twinkle 42: Security fallacies</a><a href="security-fallacies.html">Security fallacies: explore the room</a><a href="twinkle-ancient-aliens.html">Twinkle 43: Ancient aliens</a><a href="ancient-aliens.html">Ancient aliens: explore the room</a><a href="twinkle-mental-health.html">Twinkle 44: Mental health</a><a href="mental-health.html">Mental health: explore the room</a><a href="twinkle-psychedelic-mental-health.html">Twinkle 45: Psychedelic care</a><a href="psychedelic-mental-health.html">Psychedelic care: explore the room</a><a href="twinkle-restricted-plants.html">Twinkle 46: Prohibited plants</a><a href="restricted-plants.html">Prohibited plants: explore the room</a><a href="twinkle-super-investments.html">Twinkle 47: Super investments</a><a href="super-investments.html">Super investments: explore the room</a><a href="twinkle-political-lies.html">Twinkle 48: Political lies</a><a href="truth-engine.html">Political lies: explore the room</a><a href="twinkle-ai-pdoom.html">Twinkle 49: AI p(doom)</a><a href="ai-pdoom.html">AI p(doom): explore the room</a><a href="family-violence.html">Violence against women: explore the room</a><a href="price-tax.html">Alcohol: price and tax</a></div></div></div></section></main>
+ <details class="human-directory human-agents"><summary><strong>For contributors and agents</strong><span>Rules and review trail</span></summary><p>Separate guides preserve the same human journey without copying local laws, dates or unreviewed claims.</p><ul>
+ <li><a href="../docs/agents/council-journey-rules.md">Council and division rules</a></li><li><a href="../docs/agents/state-electorate-journey-rules.md">State electorate rules</a></li><li><a href="../docs/agents/federal-electorate-journey-rules.md">Federal electorate rules</a></li><li><a href="../content/history/civic-page-review-register-2026-10-17.json">Dated page and rule review register</a></li></ul></details>
+ </main>
   <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class.</p></div><nav class="footer-links" aria-label="Footer links"><a href="site-map.html">Site map</a></nav></footer>
   <script src="../script.js?v=20260707-cinema"></script>
-<script src="../assets/site-nav.js?v=20261002-publication"></script>
+<script src="../assets/site-nav.js?v=20261015-care-rooms"></script>
 <script src="../assets/state-election-calendar.js?v=20261002"></script>
 </body>
 </html>

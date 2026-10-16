@@ -1,5 +1,7 @@
 # Localise This System With An Agent
 
+For an Australian council, state electorate or federal electorate in this repository, first read `AGENTS.md` and the separate level guide under `docs/agents/`. `docs/agents/local-place-pattern.md` is the shared implementation contract; its acceptance checks and completion report apply before calling a place finished. Check `docs/agents/existing-place-coverage.md` so existing Victoria and Redlands work is reused. The broader prompt below does not replace the level-specific rules.
+
 This file is a pasteable agent prompt for communities, councils, regions, countries or future civic projects that want to build a self-similar version of this website without manually forking and rewriting the code.
 
 Use it like this:
@@ -141,7 +143,7 @@ STATE_AREAS_TO_INCLUDE:
   Example: Queensland, New South Wales, Victoria, Tasmania, South Australia, Western Australia, Northern Territory, Australian Capital Territory
 
 MAP_STYLE:
-  Example: interactive SVG map with clickable regions, clear selected state, touch-friendly highlights and accessible labels
+  Example: exact sourced boundaries on Canvas with an attributed geographic PNG base, clickable/searchable areas, drag and zoom, clear selection and accessible text routes; no new SVG maps
 
 CORE_PAGES_TO_BUILD:
   Example: Home, Architecture, Twinkle or public gripe series, Rabbit Hole or deeper campaign map, Gear, Music or culture layer, Local councils within state levels, State or region map, History, Constitution, Law Engine, Public Ledger

@@ -837,22 +837,19 @@ function Render-StateMap {
     $pathId = $shape.pathId
     $x = $shape.x
     $y = $shape.y
-    $sourceHref = "${Prefix}assets/australian-states-map-wikipedia.svg#$pathId"
+    $left = ($x / 460 * 100).ToString("0.000", $invariant)
+    $top = ($y / 420 * 100).ToString("0.000", $invariant)
 @"
-<a href="$href" class="state-map-link" data-map-state="$slug" aria-label="$label">
-  <use class="state-shape" href="$sourceHref"></use>
-  <text x="$x" y="$y" text-anchor="middle">$short</text>
-</a>
+<a href="$href" class="state-raster-label" data-map-state="$slug" style="left:$left%;top:$top%" aria-label="$label">$short</a>
 "@
   }
 
 @"
-<svg class="australia-state-map" viewBox="0 0 460 420" role="img" aria-labelledby="state-map-title state-map-desc">
-  <title id="state-map-title">Interactive state and territory map of Australia</title>
-  <desc id="state-map-desc">Select a state or territory to open its P4A portal page.</desc>
+<div class="state-raster-map" aria-label="Australian state and territory map">
+  <img src="${Prefix}assets/maps/australian-states-wikipedia.png" width="1280" height="1169" alt="Wikimedia map of Australian state and territory boundaries">
   $($links -join "`n")
-</svg>
-<p class="state-map-source">Map geometry: <a href="https://commons.wikimedia.org/wiki/File:Australian_states_map.svg" target="_blank" rel="noopener noreferrer">Australian states map.svg</a>, Wikimedia Commons, CC0.</p>
+</div>
+<p class="state-map-source">Actual map: <a href="https://commons.wikimedia.org/wiki/File:Australian_states_map.svg" target="_blank" rel="noopener noreferrer">Australian states map by PoliticsMaps</a>, 9 March 2024, Wikimedia Commons, CC0. PNG rendered by Wikimedia; acquired 17 October 2026. Select a state label or a card.</p>
 "@
 }
 

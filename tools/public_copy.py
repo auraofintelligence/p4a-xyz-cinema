@@ -102,6 +102,8 @@ def public_html(name,text):
    elif 'trying to get off Centrelink' in raw:text=text[:a]+panel('Small wins before big claims.','Start with a useful local task: explain a form, trace a public decision, test a tool or help neighbours compare options. Publish what worked and what did not. Communities can adapt the method without adopting a brand.',[('starter-field-kit.html','Practical starter field kit')])+text[b:]
  if stem=='marriage-divorce':text=text.replace('<h2>related solutions</h2>','<h2>Household agreements and a wider thought experiment</h2>')
  text=public_punctuation(neutral_copy(text))
+ # Keep geographic maps separate from the rabbit-hole policy directory.
+ text=re.sub(r'(<a href=")([^"]*)rabbit-hole.html(">)Map</a>',r'\1\2maps.html\3Maps</a>',text)
  return text
 
 if __name__=='__main__':

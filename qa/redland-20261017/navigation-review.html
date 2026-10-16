@@ -1,0 +1,12 @@
+<!doctype html><html lang="en-AU"><meta charset="utf-8"><title>Navigation layout review</title><style>body{font:16px system-ui;background:#ddd;margin:18px}iframe{height:780px;display:block;margin:20px 0;border:1px solid #333}pre{white-space:pre-wrap}</style><h1>Navigation review, 17 October 2026</h1><p>Local QA fixture. Widths are synthetic browser frames, not physical devices.</p><pre data-testid="navigation-metrics">Checking…</pre><iframe title="390px sitemap" style="width:390px" src="../../pages/site-map.html"></iframe><iframe title="680px sitemap" style="width:680px" src="../../pages/site-map.html"></iframe><iframe title="390px page register" style="width:390px" src="../../states/qld/councils/redland/sources/index.html#review-register"></iframe><script>
+const reports=[];
+document.querySelectorAll('iframe').forEach(frame=>frame.addEventListener('load',async()=>{
+  const d=frame.contentDocument;await d.fonts.ready;
+  if(frame.title.includes('register'))d.querySelectorAll('#review-register details').forEach(detail=>detail.open=true);
+  await new Promise(resolve=>frame.contentWindow.requestAnimationFrame(resolve));
+  const buttons=[...d.querySelectorAll('.human-jumps a,.local-nav a')].map(node=>node.getBoundingClientRect()).filter(box=>box.width&&box.height);
+  let overlaps=0;for(let i=0;i<buttons.length;i++)for(let j=i+1;j<buttons.length;j++){const a=buttons[i],b=buttons[j];if(a.left<b.right-1&&a.right>b.left+1&&a.top<b.bottom-1&&a.bottom>b.top+1)overlaps++;}
+  reports.push({page:frame.title,viewport:d.documentElement.clientWidth,scrollWidth:d.documentElement.scrollWidth,buttonOverlaps:overlaps,visibleHeading:d.querySelector('h1')?.textContent.trim(),datedRegister:!!d.querySelector('#review-register')});
+  document.querySelector('[data-testid=navigation-metrics]').textContent=JSON.stringify(reports,null,2);
+}));
+</script></html>

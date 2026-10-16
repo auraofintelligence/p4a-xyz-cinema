@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "title": "Redland City electoral division boundary sources",
+  "checked": "2026-10-17",
+  "retrieved": "2026-10-17",
+  "timezone": "Australia/Brisbane",
+  "publisher": "State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development); Electoral Commission of Queensland",
+  "boundaryEdition": "2024 current local-government division layer, retrieved 17 October 2026",
+  "boundaryCurrentness": "The official current layer identifies all ten Redland features as election year 2024. ECQ's Redland-specific final determination remains the 2019 review. The current layer description identifies Bundaberg, Fraser Coast and Isaac as councils changed in the 2023 review; it warns that other councils' 2020 and 2024 spatial alignment may vary because of cadastre accuracy upgrades. Use this current service snapshot rather than tracing the historical 2019 overview image.",
+  "catalogueDataUpdated": "2024-04-02",
+  "catalogueDataUpdatedMeaning": "The portal's dataset date is separate from this retrieval date and the 2019 Redland review date. It does not establish that every Redland division was redrawn in 2024.",
+  "licence": "Creative Commons Attribution 4.0 International",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Boundary data © State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development) 2026, CC BY 4.0. Local presentation by P4A; no endorsement implied.",
+  "layerCopyrightText": "© State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development) 2026. © State of Queensland (Electoral Commission of Queensland) 2024. © Local Government Area Change Commission (Change Commission) 2024. © Australian Electoral Commission (AEC) 2024. © Australian Bureau of Statistics (ABS) 2024. © Queensland Government Statistician s Office (QGSO) 2024.",
+  "sources": [
+    {
+      "id": "qld-current-divisions",
+      "title": "Administrative Boundaries: Local government division, current layer 7",
+      "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer/7",
+      "role": "Authoritative current polygon geometry and election-year attributes. Layer 11 is superseded and is not used."
+    },
+    {
+      "id": "qld-2024-divisions-catalogue",
+      "title": "Local government area divisional boundaries - Queensland - 2024",
+      "url": "https://www.data.qld.gov.au/dataset/local-government-area-divisional-boundaries-queensland-2024",
+      "role": "Official catalogue, licence and boundary edition context."
+    },
+    {
+      "id": "qld-service-terms",
+      "title": "Administrative Boundaries service information and licence",
+      "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer/info/iteminfo?f=pjson",
+      "role": "CC BY 4.0 attribution and notice that native service coordinates changed to EPSG:3857 on 26 June 2026."
+    },
+    {
+      "id": "ecq-redland-review",
+      "title": "ECQ: Redland City Local Government Area final divisional review",
+      "url": "https://www.ecq.qld.gov.au/electoral-boundaries/local-government-boundary-reviews/divisional-boundary-reviews/redland-city-council",
+      "role": "Redland final determination published 20 September 2019; ten divisions. Historical map enrolment and projection figures must not be presented as current counts."
+    },
+    {
+      "id": "ecq-current-review-programme",
+      "title": "ECQ: Divisional boundary reviews",
+      "url": "https://www.ecq.qld.gov.au/electoral-boundaries/local-government-boundary-reviews/divisional-boundary-reviews",
+      "role": "ECQ is monitoring enrolment before reviews for the March 2028 local-government elections. Check for a new Redland determination before refreshing this snapshot."
+    }
+  ],
+  "geometry": {
+    "file": "assets/maps/redlands/redland-divisions-2024.geojson",
+    "format": "GeoJSON FeatureCollection",
+    "request": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer/7/query?where=lga%20%3D%20%27REDLAND%20CITY%27&outFields=*&outSR=4326&returnGeometry=true&f=geojson",
+    "bytes": 322846,
+    "sha256": "bc2cc7ef4994b49c93f1ddafd462352538e4db63e3f7c6f1be00b06e5a24b8bf",
+    "featureCount": 10,
+    "polygonCount": 10,
+    "multiPolygonCount": 0,
+    "ringCount": 10,
+    "coordinatePairCount": 7858,
+    "bbox": [153.1715249980001, -27.74376251222201, 153.54651301700005, -27.388097511228672],
+    "sourceDatasetCoordinateSystem": "EPSG:4283 GDA94 geographic, as identified in layer sourceSpatialReference",
+    "nativeServiceCoordinateSystem": "EPSG:3857 Web Mercator, service identifier 102100",
+    "deliveryCoordinateSystem": "EPSG:4326 longitude, latitude, explicitly requested from the service",
+    "processing": "The source GeoJSON response is retained byte-for-byte. No tracing, rounding, simplification, clipping, ring removal or invented geometry. The official service performs the requested coordinate transformation.",
+    "fields": {
+      "elect_div": "Source division label: DIVISION 1 through DIVISION 10. Use the division number with the parent council as the stable local route; it is not a nationwide identifier.",
+      "div_name": "Optional official division name. All ten Redland values are null; do not invent names.",
+      "lga": "Parent local-government name; REDLAND CITY for all ten features.",
+      "elect_yr": "Source election-year edition; 2024 for every returned Redland feature.",
+      "act": "Source legislative context; Local Government Act 2009.",
+      "objectid": "Source feature identifier. It may change when the service is republished and must not be used as the permanent public route."
+    },
+    "divisions": [
+      {"division": 1, "sourceObjectId": 469, "coordinatePairCount": 359},
+      {"division": 2, "sourceObjectId": 492, "coordinatePairCount": 1642},
+      {"division": 3, "sourceObjectId": 470, "coordinatePairCount": 403},
+      {"division": 4, "sourceObjectId": 471, "coordinatePairCount": 537},
+      {"division": 5, "sourceObjectId": 490, "coordinatePairCount": 836},
+      {"division": 6, "sourceObjectId": 514, "coordinatePairCount": 1397},
+      {"division": 7, "sourceObjectId": 472, "coordinatePairCount": 500},
+      {"division": 8, "sourceObjectId": 517, "coordinatePairCount": 461},
+      {"division": 9, "sourceObjectId": 516, "coordinatePairCount": 1383},
+      {"division": 10, "sourceObjectId": 594, "coordinatePairCount": 340}
+    ]
+  },
+  "displayRules": [
+    "Use the same map, search, select, inspect and open interaction as the Queensland council map.",
+    "Render the exact supplied polygon rings on Canvas with no SVG tracing or replacement outlines.",
+    "Use a geographic raster beneath transparent division colours; division polygons include marine areas and must not be mistaken for land outlines.",
+    "Use the same projection for raster registration, geometry drawing and picking; preserve actual export extents.",
+    "Show the source boundary edition and retrieval date separately. Do not carry historical 2019 enrolment figures into current division profiles.",
+    "This is a dated navigational display, not an official address-to-division or voter-eligibility determination. Link to ECQ for official enquiries."
+  ],
+  "refreshRules": [
+    "Check the ECQ Redland review page and divisional-review programme for a newer determination.",
+    "Check the official current layer 7 metadata and query REDLAND CITY with outSR=4326. Do not use superseded layer 11 or assume native coordinates are longitude and latitude.",
+    "Retain the complete downloaded response, record a new checksum, and verify divisions 1 through 10 exactly once unless an official arrangement change authorises a different set.",
+    "Validate closed rings, all coordinate pairs and source edition attributes; test mainland and island selection after any data or projection change.",
+    "Record the real update date and source changes in the local history. Update routes, captions and agent rules when an official boundary change takes effect."
+  ]
+}

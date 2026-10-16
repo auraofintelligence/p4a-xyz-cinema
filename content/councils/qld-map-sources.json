@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "title": "Queensland council boundary map sources",
+  "checked": "2026-10-17",
+  "timezone": "Australia/Brisbane",
+  "retrieved": "2026-10-17",
+  "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+  "datasetPortalUpdated": "2026-10-15",
+  "datasetPortalUpdatedMeaning": "The open-data portal reports this update date. It is not an assertion that every boundary changed on that date.",
+  "publisher": "State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development)",
+  "licence": "Creative Commons Attribution 4.0 International",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Boundary data: State of Queensland (Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development) 2026, CC BY 4.0. Local display by P4A; no endorsement implied.",
+  "sources": [
+    {
+      "id": "ecq-spatial-direction",
+      "title": "Electoral Commission of Queensland: local government boundary reviews",
+      "url": "https://www.ecq.qld.gov.au/electoral-boundaries/local-government-boundary-reviews",
+      "role": "ECQ directs readers to QSpatial for local government divisional and area boundary data."
+    },
+    {
+      "id": "qld-open-data",
+      "title": "Queensland Government: Local government area boundaries - Queensland",
+      "url": "https://www.data.qld.gov.au/dataset/local-government-area-boundaries-queensland",
+      "role": "Authoritative dataset catalogue; source licence and near-realtime update frequency."
+    },
+    {
+      "id": "qld-rest-layer",
+      "title": "Administrative Boundaries: Local government (layer 1)",
+      "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer/1",
+      "role": "Authoritative Queensland Government polygon layer used in the map."
+    },
+    {
+      "id": "ecq-council-count",
+      "title": "Electoral Commission of Queensland: electoral boundaries",
+      "url": "https://www.ecq.qld.gov.au/electoral-boundaries",
+      "role": "ECQ identifies 77 local government areas."
+    },
+    {
+      "id": "weipa-status",
+      "title": "Weipa Town Authority: governance",
+      "url": "https://www.weipatownauthority.com.au/Your-WTA/Governance",
+      "role": "Explains Weipa Town Authority's distinct governing basis and administration."
+    },
+    {
+      "id": "qld-77-plus-weipa",
+      "title": "Queensland Government: annual report for local government activities under the Food Act 2006",
+      "url": "https://www.qld.gov.au/health/staying-healthy/food-pantry/local-government-food-safety-activities-annual-report",
+      "role": "Explicitly distinguishes 77 local governments and one town authority, Weipa."
+    }
+  ],
+  "geometry": {
+    "file": "assets/maps/qld-councils.geojson",
+    "format": "GeoJSON FeatureCollection",
+    "request": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer/1/query?where=1%3D1&outFields=*&outSR=4326&returnGeometry=true&f=geojson",
+    "bytes": 12967966,
+    "sha256": "a02932e3b3e0fa5b6ceca604748acd4cec7f1bf49e4208835fe0071e7693bd2f",
+    "featureCount": 78,
+    "councilCount": 77,
+    "townAuthorityCount": 1,
+    "polygonCount": 60,
+    "multiPolygonCount": 18,
+    "coordinatePairCount": 317588,
+    "sourceCoordinateSystem": "EPSG:3857 (Web Mercator)",
+    "deliveryCoordinateSystem": "EPSG:4326 (longitude, latitude), requested explicitly from the service",
+    "processing": "The service GeoJSON response is retained byte-for-byte. No tracing, redrawing, simplification, rounding, clipping, ring removal or invented geometry. The service performs the requested coordinate transformation.",
+    "fields": {
+      "objectid": "Service feature identifier; may change when the service is republished.",
+      "lga": "Source local-government area name.",
+      "abbrev_name": "Source abbreviated local-government area name.",
+      "lga_code": "Queensland source local-government code, not an ABS LGA code.",
+      "ca_area_sqkm": "Source polygon area in square kilometres, which may include marine extent; do not substitute for land-area indicators."
+    },
+    "specialAreas": [
+      {
+        "name": "Weipa Town",
+        "sourceCode": "7300",
+        "category": "town-authority",
+        "note": "Retain and label this separate town-authority area. It is the 78th source polygon, in addition to the 77 councils. Do not mislabel it as an ordinary council or delete its geography."
+      }
+    ],
+    "redland": {
+      "name": "Redland City",
+      "sourceCode": "6250",
+      "sourceObjectId": 59,
+      "coordinatePairCount": 2981,
+      "sourcePolygonAreaSqKm": 907.391402,
+      "localJourney": "states/qld/councils/redland/index.html"
+    }
+  },
+  "displayRules": [
+    "Render the supplied actual polygon geometry on Canvas. Do not replace it with invented SVG outlines or illustrative shapes.",
+    "Preserve holes, islands and multipolygon parts in drawing and hit testing.",
+    "All 77 councils and the separately labelled Weipa Town area must be searchable and selectable.",
+    "Only Redland City has a built P4A local journey in this pass; other selections must not imply completed local portals.",
+    "This is a dated navigation display, not an official boundary determination or address eligibility service. Link users to ECQ for official electoral enquiries."
+  ],
+  "refreshRules": [
+    "Check the ECQ boundary and review pages, then the Queensland Government catalogue and source layer before replacement.",
+    "Download the full current source query with outSR=4326. The service changed its native CRS to EPSG:3857 on 26 June 2026; do not assume native coordinates are longitude and latitude.",
+    "Validate feature names, unique source codes, geometry types, non-empty coordinates, ring closure and count; distinguish any new or changed area before altering the expected 77-plus-Weipa classification.",
+    "Retain the raw response, update its byte count and SHA-256, and record the retrieval date, catalogue update date, processing and attribution separately.",
+    "Regenerate the local delivery bundle and verify map selection, search, holes, islands, Redland navigation, source links and small-screen controls.",
+    "Do not advance source review dates simply because a page or bundle was regenerated."
+  ]
+}

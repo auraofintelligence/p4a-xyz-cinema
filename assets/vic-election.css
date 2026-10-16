@@ -8,3 +8,16 @@
 .ve-candidate h3{margin:0 0 8px}.ve-candidate-party{font-weight:700}.ve-candidate-place{font-size:.88rem;color:#c9bdd5!important}.ve-candidate-actions{display:flex;gap:12px 18px;flex-wrap:wrap;margin:16px 0}.ve-candidate-actions a{min-height:30px;display:inline-flex;align-items:center}.ve-record-details{font-size:.84rem;border-top:1px solid #5b426c;padding-top:12px}.ve-record-details summary,.ve-directory-notes>summary{color:#f4d98c;cursor:pointer;line-height:1.5}.ve-directory-notes{margin:12px 0 22px}.ve-record-note{font-size:.84rem}.ve-record-details summary:focus-visible,.ve-directory-notes>summary:focus-visible{outline:3px solid #f4d98c;outline-offset:4px}
 
 .ve-candidate{display:flex;flex-direction:column}.ve-candidate[hidden]{display:none}.ve-candidate .ve-status{align-self:flex-start}.ve-candidate-actions{margin-top:auto;padding-top:14px}
+
+/* Shared P4A chrome: white headings, amethyst controls, restrained gold links. */
+.vic-election-page h1,.vic-election-page h2,.vic-election-page h3{color:#fff5ff;}
+.vic-election-page .ve-button{background:linear-gradient(135deg,#8650b6,#4b1c7b);border-color:#ad82d0;color:#fff5ff!important;}
+.vic-election-page .ve-outline{background:#21122f;border-color:#806093;color:#fff5ff!important;}
+.ve-clock>strong,.ve-clock [data-vic-early-value]{display:block;font-size:clamp(2.4rem,4vw,3.8rem);line-height:1.1;color:#fff5ff;}
+.ve-clock .ve-deadline{font-size:1.9rem;}
+.ve-clock [data-vic-early-label]{display:block;color:#ded4e5;}
+.ve-clock hr{border-color:#604573;}
+.ve-kicker,.ve-timeline time,.ve-status{color:#d6b5f1;}
+.ve-note,.ve-coverage{border-left-color:#ae75d7;background:#261436;}
+.ve-callout{border-color:#8053a2;background:#261436;}
+.ve-status{border-color:#8053a2;}

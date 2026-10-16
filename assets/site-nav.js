@@ -34,6 +34,23 @@
   ];
 
   const SECTIONS = [
+/* redland-navigation:start */
+    {
+      id: 'local-places', num: 'Local', label: 'Council journeys',
+      blurb: 'States → Queensland → councils → Redlands → divisions. Follow a local question into evidence, possibilities, participation and outcomes.',
+      links: [
+        { href: 'states/qld/councils/index.html', title: 'Queensland council map', note: 'Drag, zoom, search and select an actual council boundary. Redlands is the first full journey.' },
+        { href: 'states/qld/councils/redland/index.html', title: 'Redlands local journey', note: 'Start with your place, its map, statistics and a few useful paths.', footer: true },
+        { href: 'states/qld/councils/redland/divisions/index.html', title: 'Redlands divisions', note: 'Find one of the ten council divisions, then open its local overview.', footer: true },
+        { href: 'states/qld/councils/redland/explore/index.html', title: 'Redlands questions and Twinkles', note: 'Search everyday gripes, evidence, systems, data and lyric meanings.', footer: true },
+        { href: 'states/qld/councils/redland/possibilities/index.html', title: 'Redlands systems and possibilities', note: 'Connect local issues to wider proposals, their limits and the three accounts.' },
+        { href: 'states/qld/councils/redland/candidates/index.html', title: 'Redlands people and elections', note: 'Find public representatives, candidate evidence, votes, explanations and election stages.', footer: true },
+        { href: 'states/qld/councils/redland/action/index.html', title: 'Take part in Redlands', note: 'Prepare an observation, correction, offer or useful next step.' },
+        { href: 'states/qld/councils/redland/outcomes/index.html', title: 'Redlands outcomes', note: 'What it cost, what was given freely and what changed.', footer: true },
+        { href: 'states/qld/councils/redland/sources/index.html#review-register', title: 'Redlands sources and review dates', note: 'Review page changes, source periods, correction notes and refresh triggers.', footer: true }
+      ]
+    },
+/* redland-navigation:end */
     {
       id: 'start',
       num: '01',
@@ -42,16 +59,20 @@
       links: [
         { href: 'index.html', title: 'Home', note: 'The doorway to the whole workbench.' },
         { href: 'pages/joke.html', title: 'Started as a friendly bet', note: 'The origin note, before the machinery gets formal.' },
-        { href: 'pages/rabbit-hole.html', title: 'Rabbit-hole map', note: 'The deeper campaign map: entries, rooms, trust layers.' },
+        { href: 'pages/rabbit-hole.html', title: 'Rabbit-hole policies', note: 'All 49 policy solutions, key civic systems and connected source projects.' },
         { href: 'pages/markdown-with-ai.html', title: 'Markdown with AI', note: 'Plain-English guide to .md files as civic memory.' },
-        { href: 'pages/site-map.html', title: 'Site map tree', note: 'Every public room, one clickable tree.' }
+        { href: 'pages/maps.html', title: 'Geographic maps', note: 'Victoria electorates, councils, public recognition and state geography.' },
+        { href: 'pages/site-map.html', title: 'Site map', note: 'Choose a subject or place from a readable directory of the public site.' }
       ]
     },
+/* key-policy-navigation:start */
+{"id": "key-policies", "num": "Key", "label": "Key policy ideas", "blurb": "The core proposals connecting the Twinkle solutions.", "links": [{"href": "pages/rabbit-hole.html#key-c-hour", "title": "C-Hour", "note": "Recognise a verified voluntary hour of care, teaching or community work alongside ordinary money and paid work. C-Hours would have no fixed dollar equivalent and would not replace wages."}, {"href": "pages/rabbit-hole.html#key-worker-mutuals", "title": "Worker mutuals", "note": "Help workers gain a shared stake in productive businesses through willing succession, patient finance, mentoring and learning as they go. Mutual Futures connects ownership with livelihoods, care and time."}, {"href": "pages/web3-sensorium.html", "title": "Web3 Sensorium", "note": "Build the missing middle between a household laptop and a corporate data centre: community-scale computing, sovereign data and useful models of places, services and possible futures."}, {"href": "pages/aura-genesis.html", "title": "Aura Genesis Protocol", "note": "Understand the proposed process of guided reflection, personal AI and practical learning, with links to its source programme and research questions."}, {"href": "pages/truth-engine.html", "title": "Truth Engine", "note": "Make public claims traceable: show sources, uncertainty, contested interpretations and visible corrections. Connect honest politics to public evidence and accountability."}, {"href": "pages/legal-rag.html", "title": "Legal RAG", "note": "Use retrieval-augmented generation: find the relevant legal sources, explain their wording and follow the citations back. Connect Luke’s Relevance and the Legal Engine to contracts, disputes and reform design."}, {"href": "pages/cyber-republic.html", "title": "Cyber-Republic Simulator", "note": "Let people explore proposed constitutional and democratic changes before choosing them. Compare rules, powers and consequences through a public rehearsal that people can inspect and improve."}]},
+/* key-policy-navigation:end */
     {
       id: 'spark',
       num: '02',
       label: 'The spark',
-      blurb: 'Twinkle: an open short-clip format for the obvious gripes. Forty-six Twinkles, anyone can film. The way in, not the whole system.',
+      blurb: 'Twinkle: an open short-clip format for the obvious gripes. 49 Twinkles, anyone can film. The way in, not the whole system.',
       links: [
         { href: 'pages/twinkle.html', title: 'Twinkle series', note: 'The format, all the seeds and the credibility ledger.' },
         { href: 'pages/twinkle-tolls.html', title: 'Twinkle 01: Tolls', note: 'Commuter pain, into Public Assets.' },
@@ -101,8 +122,8 @@
         { href: 'pages/twinkle-psychedelic-mental-health.html', title: "Twinkle 45: Psychedelic care", note: 'A public question with policy follow-through.' },
         { href: 'pages/twinkle-restricted-plants.html', title: "Twinkle 46: Prohibited plants", note: 'A public question with policy follow-through.' },
         { href: 'pages/twinkle-super-investments.html', title: 'Twinkle 47: Super investments', note: 'My super. What is it buying?' },
-        { href: 'pages/twinkle-political-lies.html', title: 'Twinkle 48: Political lies', note: 'Lying, but authorised.' },
-        { href: 'pages/twinkle-ai-pdoom.html', title: 'Twinkle 49: AI p(doom)', note: 'Odds on a fair go?' }
+        { href: 'pages/twinkle-political-lies.html', title: 'Twinkle 48: Political lies', note: "Political lies. But the ad's authorised." },
+        { href: 'pages/twinkle-ai-pdoom.html', title: 'Twinkle 49: AI p(doom)', note: "AI extinction odds. Any odds on a fair go?" }
       ]
     },
     {
@@ -111,7 +132,8 @@
       label: 'The system',
       blurb: 'The serious rooms underneath: architecture, policy foundations, law, ledgers and rehearsal.',
       links: [
-        { href: 'pages/price-tax.html', title: 'Price and tax', note: 'Alcohol categories and the enacted draught freeze.' },
+        { href: 'pages/price-tax.html', title: 'Price and tax', note: 'Beer tax, resource rent and the public return.' },
+        { href: 'pages/civic-pathway.html', title: 'Civic pathway', note: 'Origins, culture, organising and the broader civic journey.' },
         { href: 'pages/architecture.html', title: 'Civic architecture', note: 'Roots-up model: homes, neighbours, councils, states.' },
         { href: 'pages/constitution.html', title: 'Party constitution', note: 'The internal rulebook workbench.' },
         { href: 'pages/legal-rag.html', title: 'Law engine / Legal RAG', note: 'Legal memory, citations, limits, human review.' },
@@ -126,8 +148,8 @@
         { href: 'pages/housing-simulations.html', title: 'Housing simulations', note: 'Housing as a right: models, C-Hours, ending homelessness.' },
         { href: 'pages/public-assets.html', title: 'Public assets', note: 'Tolls, leases, ownership and long public memory.' },
         { href: 'pages/food-security.html', title: 'Food security', note: 'Waste, local production, logistics, resilience.' },
-        { href: 'pages/community-insurance.html', title: 'Risk and mutual care', note: 'Prevention, lawful pooling, reinsurance, local wealth.' },
-        { href: 'pages/workforce-transition.html', title: 'Workforce transition', note: 'Human adaptability and civic readiness.' },
+        { href: 'pages/community-insurance.html', title: 'Risk and mutual care', note: 'AI legal and contract support, then mutual protection.' },
+        { href: 'pages/workforce-transition.html', title: 'Workforce transition', note: 'Worker mutuals, C-Hours, patient capital and AI learning.' },
         { href: 'pages/civic-surges.html', title: 'Civic surges', note: 'Volunteer energy and practical mobilisation.' },
         { href: 'pages/web3-sensorium.html', title: 'Web3 sensorium', note: 'Open data, digital twins, human-reviewed simulation.' },
         { href: 'pages/cyber-republic.html', title: 'Referendum rehearsal', note: 'A national simulator fed by local proof.' },
@@ -187,8 +209,10 @@
       links: [
         { href: 'pages/musicverse.html', title: 'Musicverse', note: 'i C. infinity, P4A songs and culture hooks.' },
         { href: 'pages/aura-politics.html', title: 'Aura politics', note: 'AI, care, public trust and civic architecture.' },
-        { href: 'pages/aura-genesis.html', title: 'Aura genesis', note: 'Myth, reflection and system imagination.' },
-        { href: 'pages/aura-clinical-path.html', title: 'Aura clinical path', note: 'Health, dementia and assistive-tech caution.' },
+        { href: 'pages/aura-genesis.html', title: 'Aura Genesis Protocol', note: 'Guided reflection, personal AI, learning and supporting research.' },
+        { href: 'pages/aura-clinical-path.html', title: 'Clinical pathways', note: 'From a care task through consent, evaluation and professional responsibility.' },
+        { href: 'pages/dementia-aged-care.html', title: 'Dementia and aged care', note: 'Digital memoirs, everyday preferences, carers, consent and research evidence.' },
+        { href: 'pages/ptsd.html', title: 'PTSD care and claims', note: 'Named human support, consent, continuity and claims coordination.' },
         { href: 'pages/alien-necklace-film.html', title: 'Alien necklace film', note: 'Fiction threshold and creative world-building.' }
       ]
     },
@@ -196,11 +220,11 @@
       id: 'states',
       num: '06',
       label: 'States and territories',
-      blurb: 'Eight portals with election clocks, chamber maps, histories and constitution rooms.',
+      blurb: 'Eight portals with election clocks, chamber maps, histories and constitution rooms. Victoria has a state electorate atlas; a federal electorate atlas is still to be built.',
       links: [
         { href: 'states/vic/election/index.html', title: 'Victoria election 2026', note: 'Dates, participation routes and sourced candidate announcements.' },
         { href: 'states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa', title: 'Victoria First Peoples recognition', note: 'Community sources, RAP and settlement recognition; not a complete map of Country.' },
-        { href: 'states/vic/map/index.html', title: 'Victoria electorate atlas', note: 'Official district and region boundaries, current members and civic tools.' },
+        { href: 'states/vic/map/index.html', title: 'Victoria state electorate atlas', note: 'Official districts and upper-house regions, with sourced statistics and public member records.' },
         { href: 'pages/states.html', title: 'National state map', note: 'All eight portals from one map.' },
         { href: 'pages/state-history.html', title: 'State histories', note: 'Jurisdiction histories generated from Markdown.' }
       ],
@@ -402,12 +426,16 @@
     const explore = document.createElement('nav');
     explore.className = 'footer-index';
     explore.setAttribute('aria-label', 'Explore the workbench');
-    explore.innerHTML = SECTIONS.map((section) => `
+    explore.innerHTML = SECTIONS.map((section) => {
+      const chosen = section.links.filter((link) => link.footer);
+      const footerLinks = chosen.length ? chosen : section.links.slice(0, 6);
+      return `
       <div>
         <strong>${section.label}</strong>
-        <ul>${section.links.slice(0, 6).map((link) => `<li><a href="${P}${link.href}">${link.title}</a></li>`).join('')}
+        <ul>${footerLinks.map((link) => `<li><a href="${P}${link.href}">${link.title}</a></li>`).join('')}
         ${section.states ? `<li class="footer-state-row">${STATES.map((s) => `<a href="${P}states/${s.slug}/index.html">${s.slug.toUpperCase()}</a>`).join('')}</li>` : ''}</ul>
-      </div>`).join('');
+      </div>`;
+    }).join('');
     footer.insertAdjacentElement('afterbegin', explore);
   });
 

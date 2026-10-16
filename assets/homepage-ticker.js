@@ -12,13 +12,13 @@
     button.textContent=reduced.matches?'-':paused?'▶':'Ⅱ';
     button.setAttribute('aria-label',reduced.matches?'Ticker motion off to respect reduced-motion preference':paused?'Play ticker':'Pause ticker');
   }
-  // Scroll the same two equal groups over the original 38-second cycle.
+  // Scroll the same two equal groups over the slightly slower 45-second cycle.
   // Pausing changes only state: no transform reset, clone removal or relayout.
   function frame(now){
     const elapsed=previous===null?0:Math.min(now-previous,64);previous=now;
     const width=group.getBoundingClientRect().width;
     if(!stopped()&&!document.hidden&&width>0){
-      viewport.scrollLeft=(viewport.scrollLeft+elapsed*width/38000)%width;
+      viewport.scrollLeft=(viewport.scrollLeft+elapsed*width/45000)%width;
     }
     requestAnimationFrame(frame);
   }

@@ -1,4 +1,33 @@
-# p4a-xyz-cinema
+# P4A civic workbench
+
+This is the `p4a-xyz-cinema` source for [p4a.xyz](https://p4a.xyz): connected places, everyday questions, evidence, public decisions and possibilities for meaningful change.
+
+## Find your way
+
+Start with the [human-readable site map](pages/site-map.html). It groups the whole site by what you want to do, rather than by filenames.
+
+| I want to… | Start here |
+| --- | --- |
+| Find my place | [States and territories](pages/states.html) → [Queensland councils](states/qld/councils/index.html) |
+| Explore the full local example | [Redlands](states/qld/councils/redland/index.html) → [choose a division](states/qld/councils/redland/divisions/index.html) |
+| Follow an everyday gripe | [Local Twinkles and their connections](states/qld/councils/redland/explore/index.html?type=twinkle) |
+| Explore wider systems | [Connected possibilities](states/qld/councils/redland/possibilities/index.html) |
+| Examine people and decisions | [Public records and elections](states/qld/councils/redland/candidates/index.html) |
+| Contribute or see what changed | [Take part](states/qld/councils/redland/action/index.html) · [Outcomes](states/qld/councils/redland/outcomes/index.html) |
+| Inspect Victoria's existing electorate work | [Victorian state electorate atlas](states/vic/map/index.html) |
+| Review page dates and sources | [Page and rule update register](docs/releases/2026-10-17-page-and-rule-register.md) · [Sources and dates](states/qld/councils/redland/sources/index.html#review-register) |
+| Build another place with an agent | [Read the agent entry rules](AGENTS.md), then the separate council, state or federal guide |
+| Prepare a GitHub upload | [Upload instructions](docs/github-upload.md) |
+
+**Local preview:** run `node scripts/serve.mjs` in this folder, then open [the local site map](http://127.0.0.1:8768/pages/site-map.html). The [public site map](https://p4a.xyz/pages/site-map.html) shows the deployed version; GitHub's commit history and Pages run record its publication status.
+
+**Latest implementation updates:** 17 October 2026, Australia/Brisbane. Nineteen new Redlands/council pages and the rules have explicit review records. Source facts retain their own observation, boundary-edition and check dates; rebuilding a page does not make its data newer.
+
+## Search discovery and rights
+
+Added 17 October 2026, following the recent Aura Genesis repository pattern: [robots.txt](robots.txt) points search crawlers to the [XML sitemap](sitemap.xml), and [llms.txt](llms.txt) provides a voluntary guide for assistants. These discovery files preserve the [Strange But True Public Source Licence](LICENCE.md) and third-party rights; they grant no additional reuse or AI-training permission. The crawl policy welcomes search discovery and separately signals a GPTBot training opt-out. These are cooperative signals, not enforcement or a promise of indexing.
+
+Run `python tools/build-human-site-map.py` after adding or retiring public pages; it rebuilds the human directory, page inventory and discovery files together. Run `python tools/verify-discovery.py` to check coverage, supported update dates, crawler rules and the unchanged licence. See the [discovery and rights maintenance notes](docs/discovery-and-rights.md) for the examples and review triggers.
 
 <!-- github-organisation:start -->
 
@@ -31,6 +60,22 @@ Each link below reflects an evidenced family, lineage or direct connection. This
 > 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude — Fable 5, July 2026. Original cinematic build credit; the October 2026 Victoria workbench and maintenance were developed with Codex. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
 
 Static multi-page prototype for the Purple Party for Australia.
+
+## Redland local journey - first pass, 16-17 October 2026
+
+Agent replication now starts at [AGENTS.md](AGENTS.md), with separate [council](docs/agents/council-journey-rules.md), [state electorate](docs/agents/state-electorate-journey-rules.md) and [federal electorate](docs/agents/federal-electorate-journey-rules.md) guides. They share the [civic place contract](docs/agents/local-place-pattern.md), [acceptance gates](docs/agents/council-build-acceptance.md) and a completion report. Check [existing coverage](docs/agents/existing-place-coverage.md) and the [Victoria–Redlands lessons](docs/agents/victoria-redlands-lessons.md) before extending a place. Victoria already has its state atlas/data foundation; that is distinct from a full per-electorate civic deep dive. Federal Bowman material remains contextual coverage.
+
+Run `python tools/verify-place-contracts.py` to check all reviewed manifests named `*-pattern-contract.json` under `content/`. New places register their own properly adapted contract. The included GitHub Actions workflow repeats structural/source-integrity checks after upload; browser, editorial and original-source reviews still have explicit acceptance requirements. [GitHub preparation](docs/github-upload.md) explains the clean public-source bundle and upload status.
+
+The 17 October correction puts the same draggable, zoomable, searchable atlas on the Queensland portal, council directory and Redlands division journey. Actual Queensland Government boundary geometry overlays the official QldBase Pastel PNG in shared EPSG:3857 coordinates. Soft colours distinguish areas; gold marks selection. Faint grey roads stay in the quiet default, with detailed topographic roads optional. Marine areas remain transparent, so the actual coast and islands stay visible. All 77 councils plus Weipa Town Authority are selectable; Redlands opens one interactive map of its ten divisions, each leading to a sourced local overview. Historical maps remain on Sources & dates. No SVG map is used. Tablet navigation wraps without overlapping text. Attribution, unchanged geometry, original PNGs, returned extents and refresh notes are retained in `content/councils/qld-map-sources.json`, `qld-basemap-sources.json` and `redland-divisions-sources.json`.
+
+The existing States map uses an attributed Wikimedia PNG with accessible state-label links. Follow Queensland -> councils -> Redland City -> a division. The 19-page local example includes 18 dated indicators, 24 worked Twinkle seeds within 43 connected records, wider systems, public-record pathways, participation, outcomes and the cost/free-contribution/change trinity. Twinkles follow the existing one-scene, one-gripe, one-breath rules; their spoken seeds appear before serious context and sources. Personal Genesis reflection is optional within candidates. No individual is announced as a candidate.
+
+Run `node scripts/serve.mjs` in this checkout, then open [the local States entry](http://127.0.0.1:8768/pages/states.html) or [the local Redlands overview](http://127.0.0.1:8768/states/qld/councils/redland/index.html). The server binds only to this computer. This build has not been published.
+
+`content/councils/redland.json`, `content/local/redland-connections.json` and `content/local/redland-election.json` hold reviewed source records. Run `python tools/build-redland.py`, `python tools/verify-redland.py` and `node tools/check-redland-clock.mjs` after scoped changes. The local generator also restores its marked entry links after another state/room generator has run; it preserves surrounding content. Research dates do not advance when pages regenerate.
+
+The live clock targets the rule-derived scheduled local election day, 25 March 2028, subject to the official timetable and any regulation. Early voting and a possible mayoral by-election have independent null dates until official notices establish them. The UI supports a sourced early-voting window without inventing one now. See [the repeatable agent pattern](docs/agents/local-place-pattern.md), [dated change history](content/history/redland.md) and each map's source-specific rights. Historical numbers printed on a boundary map are not current enrolment.
 
 P4A is currently a proposed movement and drafting project, not a registered political party. The site is a public workbench for civic imagination, local-first democratic repair, transparent systems, constitutional literacy, public ledgers, state and region portals, legal-memory tooling and future cyber-republic rehearsal.
 
@@ -84,7 +129,8 @@ The homepage is a cinematic, chaptered doorway: Act I the spark (Twinkle), Act I
 
 - Architecture: roots-up civic model and flexible scale layers
 - Twinkle: public gripe series
-- Rabbit Hole: deeper campaign map
+- Rabbit-hole policies: all 49 Twinkle solutions and seven key civic systems.
+- Civic pathway: the preserved journey through origins, culture, organising and civic design.
 - Gear: support bundles and deployment materials
 - Music: culture layer
 - States: Australian state and territory portals
@@ -172,3 +218,5 @@ Twinkle 49, AI p(doom), opens `pages/ai-pdoom.html`: four outcome questions with
 Editorial preference: do not use "bloody" or "bloody hell" as colloquialisms in new copy; use "bloomin’" where requested. Preserve unrelated source quotations and previously approved seeds unless an edit is specifically authorised.
 
 Public prose uses ordinary ASCII hyphens (-), never en or em dashes, including HTML entities. Prefer natural sentence punctuation. Preserve URLs, code operators, source quotations and historical archives. Run `python tools/publication-qa/punctuation-qa.py` after generators.
+
+The complete policy directory and every-page site inventory are generated from `content/twinkle-policy-drafts.json` by `tools/build-rabbit-hole-policies.py`. `tools/build-p4a-connections.py` also refreshes that directory; it preserves the earlier civic journey at `pages/civic-pathway.html`. Bare policy-room routes display their connected proposals; a `?twinkle=slug` route focuses one proposal.
