@@ -18,6 +18,8 @@ For any election, by-election, vacancy, member/profile, previous-contestant, cou
 
 ## Civic places
 
+The 23 October visitor correction makes the national state map open each jurisdiction's electorate map directly. Keep Maps, Members and Elections before long state summaries, compact readable map choices and reciprocal Australia/state/council/federal routes. ACT local areas must not imply separate elected councils. `tools/national_place_links.py` applies this visitor chrome after both legacy and national builds; do not reintroduce public clone language, tailoring/setup cards or oversized navigation headings. Keep deeper engineering documentation and source dates separate from the visitor journey. Run `python tools/check-civic-navigation.py` and repeat affected phone, map-layer, selection and Back/Forward checks after changing it.
+
 Before creating or changing a council, council division, state electorate or federal electorate journey, read `docs/agents/local-place-pattern.md` and the separate guide for the requested level:
 
 - Councils and their divisions: `docs/agents/council-journey-rules.md`.

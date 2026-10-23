@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-10-23T12:53:21+10:00",
+  "baseUrl": "http://127.0.0.1:8778/",
+  "browser": "Codex in-app Chromium",
+  "observedScenarios": [
+    {
+      "id": "national-map-and-keyboard-route",
+      "status": "PASS",
+      "paths": [
+        "pages/states.html",
+        "pages/maps.html",
+        "pages/places.html"
+      ],
+      "observed": {
+        "eightNationalLabelsTargetElectorateMaps": true,
+        "generalMapEightLabelsAlsoTargetElectorateMaps": true,
+        "generalMapWAClickOpensLoadedElectorateMap": true,
+        "waLabelClickAndKeyboardEnterOpenElectorateMap": true,
+        "keyboardAustraliaMapReturn": true,
+        "directoryCards": 8,
+        "nationalDirectoryPhoneClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "finalGeneralMapPhoneClientAndScrollWidth": [
+          375,
+          375
+        ]
+      }
+    },
+    {
+      "id": "eight-phone-portals",
+      "status": "PASS",
+      "paths": [
+        "states/act/index.html",
+        "states/nsw/index.html",
+        "states/nt/index.html",
+        "states/qld/index.html",
+        "states/sa/index.html",
+        "states/tas/index.html",
+        "states/vic/index.html",
+        "states/wa/index.html"
+      ],
+      "observed": {
+        "jurisdictions": [
+          "act",
+          "nsw",
+          "nt",
+          "qld",
+          "sa",
+          "tas",
+          "vic",
+          "wa"
+        ],
+        "fontStatus": "loaded",
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "entryBeforePoliticalSummary": true,
+        "entryHeadingFontPx": 21.6,
+        "eachMapChoiceHeightPx": 44.375,
+        "cloneLanguageAbsent": true,
+        "waPhoneScreenshotVisuallyReviewed": true,
+        "finalNavigationDateSeparatelyLabelledFromResearchDate": true
+      }
+    },
+    {
+      "id": "eight-electorate-map-entries",
+      "status": "PASS",
+      "paths": [
+        "states/act/places/state/index.html",
+        "states/nsw/places/state/index.html",
+        "states/nt/places/state/index.html",
+        "states/qld/places/state/index.html",
+        "states/sa/places/state/index.html",
+        "states/tas/places/state/index.html",
+        "states/vic/places/state/index.html",
+        "states/wa/places/state/index.html"
+      ],
+      "observed": {
+        "allLoadedExactSourceBoundaries": true,
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "eachControlAtLeast44Px": true,
+        "currentMapChoiceHighlighted": true,
+        "saDefault": "House of Assembly districts — 2026 election",
+        "tasDefault": "House of Assembly divisions",
+        "otherDefaults": "Legislative Assembly districts"
+      }
+    },
+    {
+      "id": "wa-state-council-history",
+      "status": "PASS",
+      "paths": [
+        "states/wa/places/state/index.html",
+        "states/wa/places/councils/index.html",
+        "states/wa/councils/perth/index.html"
+      ],
+      "observed": {
+        "statePerthSearchSelect": true,
+        "upperHouseIsSeparateWholeStateContext": true,
+        "layerBackRestoresPerthSelection": true,
+        "layerForwardRestoresUpperHouse": true,
+        "councilChoiceLoadsCouncilLayer": true,
+        "councilPerthSelectAndOpen": true,
+        "backRestoresCouncilPerthSelection": true,
+        "phoneClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "phoneControlMinimumHeightPx": 44,
+        "phoneScreenshotVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "act-real-arrangements",
+      "status": "PASS",
+      "paths": [
+        "states/act/places/state/index.html",
+        "states/act/electorates/districts/kurrajong/index.html",
+        "states/act/places/councils/index.html"
+      ],
+      "observed": {
+        "kurrajongSearchSelectOpen": true,
+        "fivePublishedRepresentativesRetained": true,
+        "localChoiceLabel": "ACT local areas",
+        "localMapLabel": "ACT local areas: ABS statistical boundaries",
+        "oneUnincorporatedAreaNotElectedCouncil": true,
+        "noInventedCouncilOrElection": true
+      }
+    },
+    {
+      "id": "nt-map-and-responsive-controls",
+      "status": "PASS",
+      "paths": [
+        "states/nt/places/state/index.html",
+        "states/nt/places/councils/index.html"
+      ],
+      "observed": {
+        "nightcliffSearchSelect": true,
+        "councilTransitionLoadsLocalBoundaries": true,
+        "officialWardLayerAvailable": true,
+        "tabletClientAndScrollWidth": [
+          665,
+          665
+        ],
+        "desktopClientAndScrollWidth": [
+          1265,
+          1265
+        ],
+        "tabletScreenshotVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "federal-reciprocal-navigation",
+      "status": "PASS",
+      "paths": [
+        "states/wa/federal/perth/index.html"
+      ],
+      "observed": {
+        "perthSelected": true,
+        "stateCouncilFederalChoicesPresent": true,
+        "houseAndSenateContextRemainSeparate": true
+      }
+    },
+    {
+      "id": "legacy-queensland-and-redlands-entry",
+      "status": "PASS",
+      "paths": [
+        "states/qld/councils/index.html",
+        "states/qld/councils/redland/candidates/index.html"
+      ],
+      "observed": {
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "retainedQueenslandMapCanvasCount": 1,
+        "developerBuildLinkRemoved": true,
+        "redlandsElectionEntry": "../elections/index.html",
+        "factsAndJourneyContentPreserved": true
+      }
+    }
+  ]
+}

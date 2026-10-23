@@ -25,7 +25,10 @@ class BoundedPageCache(OrderedDict):
         super().__setitem__(key, value)
         self.move_to_end(key)
         while len(self) > 96:
-            self.popitem(last=False)
+            # Some OrderedDict implementations call the overridden getter
+            # after unlinking popitem's key. Its LRU touch then raises.
+            # Delete the oldest entry without invoking our getter.
+            del self[next(iter(self))]
 
 
 def main(argv=None):

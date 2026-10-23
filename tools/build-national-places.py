@@ -16,7 +16,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-UPDATED = '2026-10-17'
+UPDATED = '2026-10-23'
 NAMES = {'act':'Australian Capital Territory','nsw':'New South Wales','nt':'Northern Territory','qld':'Queensland','sa':'South Australia','tas':'Tasmania','vic':'Victoria','wa':'Western Australia'}
 SCOPES = {'councils': 'Councils and local areas', 'state': 'State and territory electorates', 'federal': 'Federal representation'}
 KINDS = {'council':'Local council','ward':'Council electoral area','unincorporated-area':'Unincorporated area','special-local-body':'Special local body','state-district':'State/territory district','state-region':'State upper-house region','statewide-upper-house':'Statewide upper house','federal-division':'House of Representatives division','senate-area':'Senate state/territory area'}
@@ -163,11 +163,11 @@ def header(page):
 
 def shell(page, title, body, description=None):
     return f'''<!doctype html>
-<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#30104c"><title>{esc(title)} | P4A</title><meta name="description" content="{esc(description or title + ': boundaries, public representatives, election history and sources.')}"><link rel="icon" href="{rel(page,'assets/favicon.svg')}"><link rel="stylesheet" href="{rel(page,'styles.css')}?v=20261017"><link rel="stylesheet" href="{rel(page,'assets/civic-places.css')}?v=20261017"><script src="{rel(page,'assets/civic-places.js')}?v=20261017" defer></script><script src="{rel(page,'assets/site-nav.js')}?v=20261017" defer></script><script src="{rel(page,'assets/external-links.js')}?v=20261017" defer></script></head><body data-theme="royal"><a class="skip-link" href="#main">Skip to content</a>{header(page)}<main id="main" class="civic-main">{body}<footer class="civic-footer"><p>Page implementation updated <time datetime="{UPDATED}">{UPDATED}</time>. Facts, roles and boundaries keep their own source dates. This is a static public workbench; use the responsible electoral authority for official address and voting enquiries.</p><p>{link(page,'pages/site-map.html','Site map')} · {link(page,'docs/agents/fractal-election-updates.md','How an agent updates this place')} · {link(page,'LICENCE.md','Project licence and third-party rights')} · <a href="#main">Back to top ↑</a></p></footer></main></body></html>'''
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#30104c"><title>{esc(title)} | P4A</title><meta name="description" content="{esc(description or title + ': boundaries, public representatives, election history and sources.')}"><link rel="icon" href="{rel(page,'assets/favicon.svg')}"><link rel="stylesheet" href="{rel(page,'styles.css')}?v=20261017"><link rel="stylesheet" href="{rel(page,'assets/civic-places.css')}?v=20261017"><script src="{rel(page,'assets/civic-places.js')}?v=20261017" defer></script><script src="{rel(page,'assets/site-nav.js')}?v=20261017" defer></script><script src="{rel(page,'assets/external-links.js')}?v=20261017" defer></script></head><body data-theme="royal"><a class="skip-link" href="#main">Skip to content</a>{header(page)}<main id="main" class="civic-main">{body}<footer class="civic-footer"><p>Page implementation updated <time datetime="{UPDATED}">{UPDATED}</time>. Facts, roles and boundaries keep their own source dates. This is a static public workbench; use the responsible electoral authority for official address and voting enquiries.</p><p>{link(page,'pages/site-map.html','Site map')} · {link(page,'LICENCE.md','Project licence and third-party rights')} · <a href="#main">Back to top ↑</a></p></footer></main></body></html>'''
 
 
 def crumbs(page, state=None, scope=None):
-    items = [link(page, 'pages/places.html', 'Australia')]
+    items = [link(page, 'pages/states.html', 'Australia map')]
     if state:
         items.append(link(page, f'states/{state}/index.html', NAMES[state]))
         items.append(link(page, directory_route(state), 'Places & representation'))
@@ -177,7 +177,14 @@ def crumbs(page, state=None, scope=None):
 
 
 def choices(page, state, selected_scope=None):
-    return '<nav class="civic-choices" aria-label="Place choices">' + ''.join(link(page, directory_route(state, scope), label) for scope, label in SCOPES.items()) + '</nav>'
+    labels = {'state':'State / territory electorates', 'councils':'ACT local areas' if state=='act' else 'Councils and local areas', 'federal':'Federal electorates'}
+    links = []
+    for scope, label in labels.items():
+        item = link(page, directory_route(state, scope), label)
+        if scope == selected_scope:
+            item = item.replace('<a ', '<a aria-current="page" ', 1)
+        links.append(item)
+    return '<nav class="civic-choices civic-map-choices" aria-label="Choose a map">' + ''.join(links) + '</nav>'
 
 
 def listing(page, places, identifier='place-directory'):
@@ -189,7 +196,7 @@ def listing(page, places, identifier='place-directory'):
     return f'<div><label for="{identifier}-search">Search the full text directory</label> <input class="civic-directory-filter" id="{identifier}-search" type="search" data-directory-filter aria-controls="{identifier}" placeholder="Place or representative"><p class="civic-note" data-directory-count aria-live="polite">{len(ordered)} places · every entry is a direct page link</p></div><ul id="{identifier}" class="civic-directory">' + ''.join(rows) + '</ul>'
 
 
-def map_widget(page, places, layers, basemap, selected=None, filter_geometry=True):
+def map_widget(page, places, layers, basemap, selected=None, filter_geometry=True, initial_layer=None):
     layer_ids = {p.get('layerId') for p in places if p.get('layerId')}
     layer_ids.update(ref['layerId'] for p in places for ref in p.get('mapRefs', []))
     available = [l for l in layers if l['id'] in layer_ids and not l.get('unavailable')]
@@ -207,7 +214,7 @@ def map_widget(page, places, layers, basemap, selected=None, filter_geometry=Tru
         for layer_id, feature_ids in grouped.items():
             records.append({key:p.get(key) for key in ('id','name','kind','url','aliases')} | {'layerId':layer_id,'featureId':feature_ids[0],'featureIds':feature_ids, 'kindLabel': KINDS.get(p['kind'],p['kind']), 'members':[r['name'] for r in p.get('representatives',[]) if r.get('name')]})
     selected_id = selected['id'] if selected else None
-    selected_layer = selected.get('layerId') if selected else None
+    selected_layer = selected.get('layerId') if selected else initial_layer
     config = {'siteRoot': rel(page, 'index.html').removesuffix('index.html'), 'layers': available, 'places': records, 'basemap': basemap, 'selectedId': selected_id, 'initialLayer': selected_layer, 'filterGeometry': filter_geometry}
     options = ''.join(f'<option value="{esc(l["id"])}">{esc(l["name"])}</option>' for l in available)
     attribution = ' '.join(dict.fromkeys(l.get('attribution','') for l in available))
@@ -330,11 +337,12 @@ def place_page(place, places, layers, sources, basemap):
 def directory_page(state, scope, places, layers, basemap):
     page = directory_route(state, scope)
     subset = [p for p in places if p['jurisdiction'] == state and (not scope or p['scope'] == scope)]
-    title = NAMES[state] + ' · ' + (SCOPES[scope] if scope else 'places & representation')
-    body = crumbs(page,state) + f'<div class="civic-heading"><div><p class="civic-kicker">Find your place</p><h1>{esc(title)}</h1><p>Search or select an official area, inspect it, then open its page. Local councils, state parliaments and Commonwealth representation remain distinct.</p></div><aside><span class="civic-chip">{len(subset)} sourced area records</span></aside></div>' + choices(page,state,scope)
+    title = NAMES[state] + ' · ' + ({'state':'electorate map','councils':'local areas map' if state=='act' else 'council map','federal':'federal electorate map'}[scope] if scope else 'maps, members & elections')
+    body = crumbs(page,state) + f'<div class="civic-heading civic-directory-heading"><div><p class="civic-kicker">Maps, members &amp; elections</p><h1>{esc(title)}</h1><p>Choose a map below. Search or select an area, then open its members and election records.</p></div><aside><span class="civic-chip">{len(subset)} sourced area records</span></aside></div>' + choices(page,state,scope)
     if state == 'act' and scope == 'councils':
         body += '<p class="civic-note">The ACT context is shown using its actual territory/local-government arrangements. A mapped statistical local area is not an invented elected council or council election.</p>'
-    body += map_widget(page,subset,layers,basemap)
+    preferred = next((p.get('layerId') for p in subset if p['kind']=='state-district' and p.get('status')!='historical' and p.get('layerId')),None) if scope in (None,'state') else None
+    body += map_widget(page,subset,layers,basemap,initial_layer=preferred)
     body += '<section class="civic-section" id="directory"><h2>Every area · direct page links</h2>' + listing(page,subset) + '</section>'
     body += '<p class="civic-note">Each place page states its own source coverage. A public directory link does not mean every individual profile or historical contestant has been verified. Compare boundary editions before comparing results or statistics.</p>'
     write(page,shell(page,title,body))
@@ -342,10 +350,10 @@ def directory_page(state, scope, places, layers, basemap):
 
 def national_page(places,layers,basemap):
     page='pages/places.html'
-    body='<div class="civic-heading"><div><p class="civic-kicker">Australia / places & representation</p><h1>Find your place.<br>Follow the public record.</h1><p>Councils, state and territory electorates, House divisions and Senate representation. Exact sourced maps connect to dedicated pages, people, election dates and previous contestants.</p></div></div><div class="civic-grid">'
+    body=crumbs(page)+'<div class="civic-heading"><div><p class="civic-kicker">Australia / places & representation</p><h1>Find your place.<br>Follow the public record.</h1><p>Councils, state and territory electorates, House divisions and Senate representation. Exact sourced maps connect to dedicated pages, people, election dates and previous contestants.</p></div></div><div class="civic-grid">'
     for state,name in NAMES.items():
         subset=[p for p in places if p['jurisdiction']==state]
-        body+='<article class="civic-panel"><h2>'+link(page,directory_route(state),name)+'</h2><p>'+str(len(subset))+' sourced area records</p><nav class="civic-choices" aria-label="'+esc(name)+' directories">'+''.join(link(page,directory_route(state,s),label) for s,label in SCOPES.items())+'</nav></article>'
+        body+='<article class="civic-panel"><h2>'+link(page,directory_route(state,'state'),name)+'</h2><p>'+str(len(subset))+' sourced area records</p>'+choices(page,state)+'</article>'
     body+='</div><p class="civic-note">Maps load one layer at a time. Source dates and current/upcoming boundary editions are retained. Local Twinkles are left for grassroots implementation.</p><section class="civic-section"><h2>Existing deeper workbenches</h2><div class="civic-choices">'+link(page,'states/vic/map/index.html','Victoria atlas & profiles')+link(page,'states/qld/councils/redland/index.html','Redlands local journey')+link(page,'pages/site-map.html','Every public page')+'</div></section>'
     write(page,shell(page,'Councils, electorates & public representation',body))
 

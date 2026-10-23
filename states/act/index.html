@@ -23,14 +23,7 @@
   </nav>
   <button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button>
 </header>
-  <div class="site-layer-strip state-layer" aria-label="Current site layer">
-  <strong>ACT territory site</strong>
-  <span>You are inside the Australian Capital Territory clone. The national map is one level up; council and local layers come next.</span>
-  <a href="../../states/act/architecture/index.html">Architecture builder</a>
-  <a href="../../states/act/constitution/index.html">Constitution builder</a>
-  <a href="../../pages/states.html">National state map</a>
-  <a href="../../index.html">National home</a>
-</div>
+  <nav class="site-layer-strip civic-wayfinding" aria-label="Map navigation"><a href="../../pages/states.html">Australia map</a><a href="index.html">Australian Capital Territory</a><a href="places/state/index.html">Electorate map</a><a href="places/councils/index.html">Local areas map</a></nav>
   <main id="main" class="state-site-main">
     <section class="state-hero state-detail-hero">
       <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
@@ -41,8 +34,8 @@
         <div class="research-badge"><span>Last research run</span><strong>2026-05-08</strong><small>Australia/Brisbane</small></div>
       </div>
     </section>
-
-    <section class="section state-summary-grid">
+<!-- national-place-links:start --><section class="civic-national-entry" aria-label="Maps, members and elections"><h2>Maps, members &amp; elections</h2><p>The ACT has no separate elected councils; local areas retain their actual arrangements.</p><nav class="civic-entry-choices" aria-label="Choose a map"><a href="places/state/index.html">State / territory electorate map</a><a href="places/councils/index.html">ACT local areas map</a><a href="places/federal/index.html">Federal electorate map</a></nav><small class="civic-navigation-date">Map navigation updated <time datetime="2026-10-23">23 October 2026</time>. Facts retain their own source dates.</small></section><!-- national-place-links:end -->
+<section class="section state-summary-grid">
       <article class="summary-panel reveal">
         <p class="eyebrow">Who is in power</p>
         <h2>Chief Minister Andrew Barr</h2>
@@ -57,7 +50,6 @@
         <p class="eyebrow">Research status</p>
         <h2>Checked 2026-05-08</h2>
         <p>Current members, party breakdown and end-of-term date were checked against ACT Legislative Assembly and Elections ACT sources.</p>
-        <p>Editable source: <code>content/states/act.md</code></p>
         <div class="button-row">
           <a class="button button-secondary" href="architecture/index.html">Open ACT architecture</a>
           <a class="button button-secondary" href="constitution/index.html">Open ACT constitution</a>
@@ -74,7 +66,7 @@
           <p class="eyebrow">ACT timers</p>
           <h2>Election timers.</h2>
         </div>
-        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days-until, days-since and the markdown archive rule.</p>
+        <p>Scheduled, expected, recent or last-possible dates are labelled directly on each card, including days until and days since each event.</p>
       </div>
       <div class="timer-module reveal" data-timer-module>
         <div class="timer-controls" data-timer-controls aria-label="ACT timer controls">
@@ -127,7 +119,7 @@
           <p class="eyebrow">Chamber split</p>
           <h2>Party seats and named crossbench.</h2>
         </div>
-        <p>These totals are the data layer future agents should refresh when resignations, recounts or by-elections change the map.</p>
+        <p>These dated chamber totals show party representation. Follow the linked sources for changes since the recorded check.</p>
       </div>
       <div class="chamber-grid reveal">
         <article class="chamber-card">
@@ -172,15 +164,6 @@
 
     <section class="section state-notes-sources">
       <article class="summary-panel reveal">
-        <p class="eyebrow">Tailoring notes</p>
-        <h2>How this clone should think.</h2>
-        <ul class="plain-list">
-          <li>The ACT is the simplest chamber model: one house, five multi-member electorates.</li>
-<li>The Labor-Greens pattern makes it useful for testing coalition, confidence and supply language.</li>
-<li>Canberra is also symbolically important for the 2031 referendum simulator.</li>
-        </ul>
-      </article>
-      <article class="summary-panel reveal">
         <p class="eyebrow">Sources</p>
         <h2>Research links.</h2>
         <ul class="source-list">
@@ -190,20 +173,18 @@
         </ul>
       </article>
     </section>
-  <!-- national-place-links:start --><section class="civic-national-entry" style="padding:1.2rem;margin:1rem;border:1px solid #a184bd;border-radius:6px"><h2>Maps, members &amp; elections</h2><p><a href="places/index.html">Open councils, electorates, election dates and previous contestants</a></p><p>Each place retains its sources, boundary edition and representation history.</p></section><!-- national-place-links:end --></main>
+  </main>
   <footer class="site-footer state-footer">
   <div>
     <strong>P4A state portal</strong>
-    <span>Data-first pages generated from markdown files agents can use, with edits handled through permissioned review.</span>
+    <span>Maps, public representation, election dates and sources for every state and territory.</span>
   </div>
   <nav aria-label="State portal footer links">
     <a href="../../index.html">National page</a>
     <a href="../../pages/states.html">State map</a>
     <a href="../../pages/state-history.html">State histories</a>
     <a href="../../pages/site-map.html">Site map</a>
-    <a href="../../content/states/README.md">State data notes</a>
-    <a href="../../content/history/README.md">History data notes</a>
-  </nav>
+    </nav>
 </footer>
   <script src="../../assets/state-data.js?v=20260509-pills"></script>
   <script src="../../script.js?v=20260707-cinema"></script>

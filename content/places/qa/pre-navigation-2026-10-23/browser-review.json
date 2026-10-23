@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-23",
+  "checkedAt": "2026-10-23T11:27:48+10:00",
+  "status": "PASS",
+  "scope": "Focused shared navigation, footer, responsive directory and representative council/state/federal browser review for publication. Earlier broader scenarios remain dated historical evidence.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        680,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "physicalTouchTested": false
+  },
+  "fixtures": [
+    {
+      "id": "national-directory-desktop-and-responsive",
+      "status": "PASS",
+      "paths": [
+        "pages/places.html"
+      ],
+      "metrics": {
+        "viewports": [
+          [
+            1280,
+            720
+          ],
+          [
+            680,
+            900
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "phoneScrollWidth": 375,
+        "tabletScrollWidth": 665,
+        "eightJurisdictions": true,
+        "phoneCardHeadingFontPx": 20.48,
+        "screenshotsVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "index-and-balanced-australia-footer",
+      "status": "PASS",
+      "paths": [
+        "index.html",
+        "pages/places.html"
+      ],
+      "metrics": {
+        "themes": [
+          "start",
+          "spark",
+          "system",
+          "ground",
+          "states"
+        ],
+        "entries": 132,
+        "primaryIdeas": 9,
+        "defaultStartOpen": true,
+        "emptySearch": "0 OF 132 ROOMS MATCH",
+        "clearRestored": true,
+        "escapeCloses": true,
+        "australiaPortalCount": 8,
+        "duplicateChips": 0,
+        "phoneScrollWidth": 375
+      }
+    },
+    {
+      "id": "nsw-council-search-select-open",
+      "status": "PASS",
+      "paths": [
+        "states/nsw/places/councils/index.html",
+        "states/nsw/councils/ballina/index.html"
+      ],
+      "metrics": {
+        "search": "Ballina",
+        "results": 1,
+        "selection": "Ballina · selected",
+        "openRoute": "states/nsw/councils/ballina/index.html",
+        "phoneScrollWidth": 375,
+        "screenshotsVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "sa-current-edition-state-electorate",
+      "status": "PASS",
+      "paths": [
+        "states/sa/electorates/districts/ngadjuri/index.html"
+      ],
+      "metrics": {
+        "heading": "Ngadjuri",
+        "selection": "Ngadjuri · selected",
+        "selectedLayer": "House of Assembly districts — 2026 election",
+        "historicalEditionOfferedSeparately": true
+      }
+    },
+    {
+      "id": "wa-federal-map-and-controls",
+      "status": "PASS",
+      "paths": [
+        "states/wa/federal/perth/index.html"
+      ],
+      "metrics": {
+        "selection": "Perth · selected",
+        "servingBoundaryEdition": "2025 election / serving representation",
+        "senateLinkSeparate": true,
+        "zoomInAndSelectedAreaControls": true,
+        "screenshotsVisuallyReviewed": true
+      }
+    }
+  ],
+  "testedPagePaths": [
+    "index.html",
+    "pages/places.html",
+    "states/nsw/councils/ballina/index.html",
+    "states/nsw/places/councils/index.html",
+    "states/sa/electorates/districts/ngadjuri/index.html",
+    "states/wa/federal/perth/index.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/publication-browser-fixture-2026-10-23.json"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+      "bytes": 6817
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "6ec2448ae59e9de7b62c4a05b93bd11e08da6d554b187840bfdc380f982d4dc9",
+      "bytes": 33792
+    },
+    {
+      "path": "content/places/qa/publication-browser-fixture-2026-10-23.json",
+      "sha256": "f61f2577fda6c2e26cb10dbdf045d06e822936f229c1331a8e65056a49dacb02",
+      "bytes": 2732
+    },
+    {
+      "path": "index.html",
+      "sha256": "de651150fea19188aaf9b4d21a9480413a0dd4fceaef0d7586a96745316e30b3",
+      "bytes": 32897
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "c76661e48de9f43af531b6c2ba252de9eaf6ca36157dbbb072fec9707f8cd88d",
+      "bytes": 6569
+    },
+    {
+      "path": "states/nsw/councils/ballina/index.html",
+      "sha256": "783809b84915d0116cfb4d440ae88fc0e04f790cff87b22d1be36a15aa33b408",
+      "bytes": 160893
+    },
+    {
+      "path": "states/nsw/places/councils/index.html",
+      "sha256": "3914c851d818e1068edd66fe85e64ea99f0e73cda03a64b46227938bf13dd6d7",
+      "bytes": 150247
+    },
+    {
+      "path": "states/sa/electorates/districts/ngadjuri/index.html",
+      "sha256": "2955362c878c01df9457d821663e95d3a0fc15a10f8734202a51c749b075c5c9",
+      "bytes": 58560
+    },
+    {
+      "path": "states/wa/federal/perth/index.html",
+      "sha256": "82ea0e5f3d89a7633804954f00e30965a783826a16f3c8bf88e5f636b133a4f9",
+      "bytes": 28087
+    },
+    {
+      "path": "styles.css",
+      "sha256": "a19bf3e8046105c39f7086b67a313f066202261e5a471b56c3ed25a61c00db37",
+      "bytes": 137195
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c",
+      "bytes": 36550
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-publication-2026-10-23/browser-review.json",
+  "limits": [
+    "This is sampled browser evidence, not exhaustive per-place visual, accessibility, source-currentness or political completeness review.",
+    "No physical touch, screen-reader hardware or multi-browser matrix was tested.",
+    "Earlier source observations and retained screenshots keep their original dates. No new Twinkles were created."
+  ]
+}

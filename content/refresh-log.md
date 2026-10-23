@@ -293,3 +293,8 @@ Seven expanded GeoJSON duplicates, totalling 348,541,152 bytes, remain local; ex
 Initial national commit a3057c1 deployed successfully; 18 live paths matched exact committed bytes. GitHub's civic workflow passed national validation, every contract and Redlands, then detected different bytes between the human sitemap source and public copy after Linux checkout. Windows text-mode writes combined with differing Git newline filters caused this portability defect.
 
 The sitemap generator now writes one explicit UTF-8 byte string to both mirrors. Fresh discovery passes and the exact staged Git blobs match at 545,363 bytes. All national/browser evidence fingerprints remain unchanged and pass verification. This correction changes newline delivery only; political facts, dates, map geometry and coverage gaps remain unchanged. Its subsequent GitHub checks and Pages deployment require separate verification.
+
+
+## 23 October 2026 — civic map navigation
+
+Made the national map open state/territory electorate maps directly, moved map choices before state summaries, added reciprocal state/council/federal routes and compact phone controls, and removed public clone/tailoring/setup text. Political records, boundaries, source dates, licence and grassroots Twinkle exclusion are unchanged. Browser review: all eight phone entries/maps, WA layer/selection/Open/Back/Forward, ACT real local arrangements, NT tablet/desktop and federal return choices. See `docs/releases/2026-10-23-civic-navigation.md` and the dated QA files for actual validation and remaining limits. Publication outcome is recorded by GitHub commit and deployment history.

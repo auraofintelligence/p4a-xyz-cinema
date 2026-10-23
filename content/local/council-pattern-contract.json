@@ -520,7 +520,8 @@
       "content/history/redland.md",
       "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
       "content/places/qa/browser-review.json",
-      "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json"
+      "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+      "content/places/qa/pre-navigation-2026-10-23/browser-review.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -558,11 +559,11 @@
       },
       {
         "path": "styles.css",
-        "sha256": "a19bf3e8046105c39f7086b67a313f066202261e5a471b56c3ed25a61c00db37"
+        "sha256": "f96bb8f7f95ddbd53c43db0ce2acf3c298d03de470089a7b9fe127916a885d04"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
       },
       {
         "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
@@ -596,9 +597,14 @@
     },
     "indexHierarchyReview": {
       "reviewedOn": "2026-10-23",
-      "path": "content/places/qa/browser-review.json",
+      "path": "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
       "scope": "Actual focused publication browser review: five Index themes, 132 entries, nine Start ideas, no-results/clear/Escape, one portal per state/territory in Australia footer and measured 390/680-pixel layouts. Excludes later wiki links and Oceania rebranding. Original broader Redlands, clinical-route, source and Twinkle reviews retain their dated archived scope.",
       "earlierEvidence": "content/places/qa/pre-publication-2026-10-23/browser-review.json"
+    },
+    "visitorNavigationReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Actual affected shared-style and entry review across all eight portals/maps plus legacy Queensland council and Redlands candidate entry; previous Index, sources, Twinkles and full local journey reviews retain their dated archived evidence."
     }
   },
   "dateInventories": [

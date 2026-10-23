@@ -26,11 +26,15 @@ jobs:
       - name: Check national pages without replacing reviewed evidence
         run: python -B tools/verify-national-places.py --source-hashes --no-write
       - name: Check every registered council, state and federal contract
-        run: python tools/verify-place-contracts.py
+        run: |
+          python tools/check-contract-cache.py
+          python tools/verify-place-contracts.py
       - name: Check the Redlands reference build
         run: python tools/verify-redland.py
       - name: Check public discovery and preserved licence
-        run: python tools/verify-discovery.py
+        run: |
+          python tools/check-civic-navigation.py
+          python tools/verify-discovery.py
       - name: Check the existing Victoria atlas
         run: |
           python tools/verify-vic-map.py

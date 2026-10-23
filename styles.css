@@ -3226,3 +3226,13 @@ body .icon-button.nav-toggle { display: none; }
 @media (max-width: 620px) {
   .official-link-grid { grid-template-columns: minmax(0, 1fr); }
 }
+/* Public civic navigation: shared map choices before long state summaries. */
+.civic-national-entry{padding:1.2rem clamp(1rem,3vw,2rem);margin:1rem auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--glass);max-width:var(--max);scroll-margin-top:5rem}
+.civic-national-entry h2{font-size:clamp(1.35rem,2.5vw,2rem);line-height:1.2;letter-spacing:0;text-transform:none;margin:0 0 .65rem}
+.civic-national-entry p{line-height:1.55;margin:.6rem 0 1rem}
+.civic-entry-choices{display:flex;flex-wrap:wrap;gap:.65rem}
+.civic-entry-choices a,.civic-wayfinding a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem .85rem;border:1px solid var(--amethyst);border-radius:var(--radius-sm);color:var(--text);text-decoration:none;white-space:normal;line-height:1.35}
+.civic-entry-choices a:first-child{background:var(--gold);border-color:var(--gold);color:#21142f;font-weight:700}
+.civic-entry-choices a:focus-visible,.civic-wayfinding a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.civic-wayfinding{justify-content:flex-start;gap:.5rem;padding:.7rem max(1rem,calc((100% - var(--max))/2));font-size:.85rem}
+@media(max-width:620px){.civic-national-entry{margin:1rem}.civic-entry-choices{display:grid;grid-template-columns:minmax(0,1fr)}.civic-wayfinding a{flex:1 1 135px}.civic-entry-choices a{justify-content:flex-start}}

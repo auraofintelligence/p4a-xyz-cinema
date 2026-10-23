@@ -23,11 +23,7 @@
   </nav>
   <button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button>
 </header>
-  <div class="site-layer-strip national-layer" aria-label="Current site layer">
-  <strong>National P4A site</strong>
-  <span>You are on the national layer. Choose a state or territory clone before future council and local layers.</span>
-  <a href="../pages/states.html">Open state map</a>
-</div>
+  <nav class="site-layer-strip civic-wayfinding" aria-label="Map navigation"><a href="states.html">Australia map</a></nav>
   <main id="main" class="state-site-main history-site-main">
     <section class="state-hero history-hero">
       <div class="state-hero-bg"><img loading="eager" fetchpriority="high" decoding="async" src="../assets/p4a-map-card.webp" alt="Purple Australia map artwork"></div>
@@ -45,7 +41,7 @@
           <p class="eyebrow">State history doors</p>
           <h2>Open a local history portal.</h2>
         </div>
-        <p>Each card links to the history page inside that state or territory clone, keeping the national layer and state layer distinct before future council layers arrive.</p>
+        <p>Explore the history of each state or territory, then return to its maps and public records.</p>
       </div>
       <div class="history-index-grid reveal">
         <a class="history-index-card" href="../states/nsw/history/index.html" data-state="nsw">
@@ -1576,26 +1572,19 @@
       </div>
     </section>
 
-    <section class="section state-data-note reveal">
-      <p class="eyebrow">Agent-ready history</p>
-      <h2>The timeline lives in markdown.</h2>
-      <p>Source files are in <code>content/history/</code>. Each event has a sort year, layer, period, themes, source links and advanced notes so future agents can use the record without touching the page template. Edits still belong in a permissioned review step.</p>
-    </section>
-  </main>
+    </main>
   <footer class="site-footer state-footer">
   <div>
     <strong>P4A state portal</strong>
-    <span>Data-first pages generated from markdown files agents can use, with edits handled through permissioned review.</span>
+    <span>Maps, public representation, election dates and sources for every state and territory.</span>
   </div>
   <nav aria-label="State portal footer links">
     <a href="../index.html">National page</a>
     <a href="../pages/states.html">State map</a>
     <a href="../pages/state-history.html">State histories</a>
     <a href="../pages/site-map.html">Site map</a>
-    <a href="../content/states/README.md">State data notes</a>
-    <a href="../content/history/README.md">History data notes</a>
-  </nav>
-</footer>
+    </nav>
+<small class="civic-navigation-date">Map navigation updated <time datetime="2026-10-23">23 October 2026</time>. Facts retain their own source dates.</small></footer>
   <script src="../assets/history-data.js?v=20260509-pills"></script>
   <script src="../script.js?v=20260707-cinema"></script>
 <script src="../assets/site-nav.js?v=20261009-policy-directory"></script>
