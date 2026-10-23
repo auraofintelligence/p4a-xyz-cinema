@@ -19,6 +19,7 @@
     "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
     "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
     "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review.",
+    "23 October review: extraordinary-election process verified. Existing current roster requires follow-up for vacancies and replacements; do not treat the old roster as freshly certified. Individual accepted ballots not yet entered.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -76,7 +77,8 @@
           "council-ward-supp-geoscape-wa-native",
           "council-ward-supp-geoscape-ward-item",
           "council-ward-supp-geoscape-lga-attributes",
-          "council-wa-walga-2026-53290"
+          "council-wa-walga-2026-53290",
+          "refresh-wa-council-53290-december2026"
         ],
         "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
         "representatives": [
@@ -159,7 +161,21 @@
             "wardLabel": "Town Ward"
           }
         ],
-        "elections": [],
+        "elections": [
+          {
+            "id": "wa-ward-wad34da53cd7ae1-extraordinary-2026-12-03",
+            "label": "December 2026 Esperance extraordinary election — Town Ward",
+            "kind": "extraordinary",
+            "status": "scheduled",
+            "date": "2026-12-03",
+            "dateBasis": "Official postal receipt deadline after nominations closed 20 October; not an in-person polling opening.",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
+            "candidates": [],
+            "dateTime": "2026-12-03T18:00:00+08:00",
+            "milestoneLabel": "postal voting closes"
+          }
+        ],
         "sourceWardId": "wad34da53cd7ae1",
         "sourceLgaId": "lgad2283997d8bb",
         "sourceLgaName": "Shire of Esperance",
@@ -167,8 +183,10 @@
           "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
           "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
           "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
-          "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review."
-        ]
+          "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review.",
+          "23 October review: extraordinary-election process verified. Existing current roster requires follow-up for vacancies and replacements; do not treat the old roster as freshly certified. Individual accepted ballots not yet entered."
+        ],
+        "representationReview": "23 October: an extraordinary vacancy election is confirmed. The retained current-office snapshot has not been reconciled to individual vacancies/replacements; use the official current council roster."
       }
     }
   ],
@@ -193,7 +211,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -201,11 +219,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

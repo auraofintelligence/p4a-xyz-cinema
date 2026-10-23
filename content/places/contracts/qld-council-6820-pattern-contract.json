@@ -80,19 +80,18 @@
           "council-qld-2024-browser-verified-xml",
           "council-qld-2024-browser-verified-xml-acquisition",
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
-          "council-qld-current-leaders-browser"
+          "council-qld-current-leaders-browser",
+          "refresh-tablelands-current-20261023"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
           {
-            "name": "Rod Marti",
+            "name": "Kevin Cardew",
             "role": "Mayor",
-            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
-            "profileType": "official current-member directory roster",
-            "website": "https://www.trc.qld.gov.au/",
-            "sourceId": "council-qld-current-leaders-browser",
-            "checked": "2026-10-17",
-            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+            "profileUrl": "https://www.trc.qld.gov.au/our-council/councillors/",
+            "profileType": "official current-member roster",
+            "sourceId": "refresh-tablelands-current-20261023",
+            "checked": "2026-10-23"
           }
         ],
         "elections": [
@@ -393,6 +392,31 @@
             ],
             "votingSystem": "Optional Preferential",
             "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6820-mayoral-by-election-2026-08-22",
+            "label": "2026 Tablelands mayoral by-election",
+            "kind": "by-election",
+            "status": "historical; current mayor independently verified",
+            "date": "2026-08-22",
+            "dateBasis": "Official ECQ postal election date. Council confirms Kevin Cardew as current Mayor and refers to his election on 2 September; formal declaration date/votes not independently extracted.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election",
+            "candidates": []
+          },
+          {
+            "id": "qld-council-6820-by-election-2026-10-31",
+            "label": "2026 Tablelands Division 1 by-election",
+            "kind": "by-election",
+            "status": "Scheduled; full postal voting; nominations closed",
+            "date": "2026-10-31",
+            "dateBasis": "Official ECQ full postal timetable: complete the vote by 6 pm on 31 October; ECQ receipt closes 5 pm on 10 November, Australia/Brisbane. These are distinct deadlines; no in-person polling opening or winner is inferred.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+            "candidates": [],
+            "dateTime": "2026-10-31T18:00:00+10:00",
+            "milestoneLabel": "postal vote completion deadline",
+            "postalReceiptDeadline": "2026-11-10T17:00:00+10:00"
           }
         ],
         "coverageNotes": [
@@ -428,7 +452,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -436,11 +460,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

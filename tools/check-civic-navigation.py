@@ -3,6 +3,8 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import posixpath
+import re
+import importlib.util
 from urllib.parse import urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -55,4 +57,34 @@ for state in STATES:
         assert 'not an invented elected council' in local.text
 assert 'clone' not in national.text.lower()
 assert 'Agent-ready data' not in national.text
-print('PASS: 8 national map targets, 8 prominent state entries, 24 reciprocal map directories and ACT arrangement')
+spec=importlib.util.spec_from_file_location('national_builder',ROOT/'tools/build-national-places.py')
+builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
+places,_,_,_=builder.load()
+local=[p for p in places if p['scope']=='councils']
+def directory_targets(page):
+    section=re.search(r'<section[^>]*id="directory"[^>]*>(.*?)</section>',page.text,re.S)
+    assert section,page.path
+    return [page.resolve({'href':href}) for href in re.findall(r'href="([^"]+)"',section.group(1))]
+summary={}
+for state in STATES:
+    subset=[p for p in local if p['jurisdiction']==state]
+    roots=[p for p in subset if not p.get('parentId')]
+    page=Page(f'states/{state}/places/councils/index.html')
+    targets=directory_targets(page)
+    assert len(targets)==len(roots) and set(targets)=={p['url'] for p in roots},state
+    assert all((ROOT/path).is_file() for path in targets),state
+    # Layer switching still reaches the complete sourced records, while the
+    # ordinary linked directory starts at councils and exceptional local areas.
+    assert {p['id'] for p in page.config['places']}=={p['id'] for p in subset},state
+    for parent in roots:
+        children=[p for p in subset if p.get('parentId')==parent['id']]
+        if children:
+            child_targets=directory_targets(Page(parent['url']))
+            assert set(child_targets)=={p['url'] for p in children},parent['id']
+            for child in children:
+                child_page=Page(child['url'])
+                assert any(child_page.resolve(a)==parent['url'] for a in child_page.links),child['id']
+    landing=Page(f'states/{state}/places/index.html')
+    assert len(directory_targets(landing))==3,state
+    summary[state]={'topLevel':len(roots),'childrenOnExistingParentPages':len(subset)-len(roots)}
+print('PASS: 8 national targets, 8 early state entries, reciprocal maps and layered existing council/child routes: '+json.dumps(summary))

@@ -19,6 +19,7 @@
     "Five members elected by Hare-Clark. Current roster checked independently from historical results; Leanne Castley is currently Independent, and Rebecca Vassarotti replaced Shane Rattenbury by countback in June 2026.",
     "2024 contestant first preference roster complete; historical ballot affiliations retained.",
     "All six consenting 2026 Kurrajong countback contestants retain the final count-3 transferred vote values, not 2024 first preferences. The outgoing member is not a consenting contestant. Ballot-paper counts, exhausted vote value and fraction loss remain separate source measures.",
+    "23 October 2026 scoped review: current Assembly roster reconciled; currently serving boundaries retained. Redistribution suggestions close 3 November; comments run 4–17 November. Final boundaries remain unannounced.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -78,7 +79,8 @@
           "state-act-brindabella-results",
           "state-act-kurrajong-2026-countback",
           "state-act-kurrajong-2026-table1",
-          "state-act-kurrajong-2026-table2"
+          "state-act-kurrajong-2026-table2",
+          "refresh-act-current-20261023"
         ],
         "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
         "representatives": [
@@ -94,11 +96,11 @@
           {
             "name": "Thomas Emerson",
             "role": "Member of the Legislative Assembly",
-            "party": "I ndependent",
+            "party": "Independent",
             "profileUrl": "https://www.parliament.act.gov.au/members/current/emerson",
             "website": "https://www.facebook.com/EmersonMLA",
-            "sourceId": "state-act-current",
-            "checked": "2026-10-17"
+            "sourceId": "refresh-act-current-20261023",
+            "checked": "2026-10-23"
           },
           {
             "name": "Elizabeth Lee",
@@ -135,7 +137,7 @@
             "kind": "countback",
             "status": "historical",
             "date": "2026-06-04",
-            "dateBasis": "Official countback conducted 4 June 2026; formal declaration scheduled 5 June is a separate milestone",
+            "dateBasis": "Official countback conducted 4 June 2026; formal declaration scheduled 5 June is a separate milestone Formal declaration on 5 June 2026 confirmed by the current Elections ACT casual-vacancy register; 4 June is the countback, not a new poll.",
             "timezone": "Australia/Sydney",
             "sourceUrl": "https://www.elections.act.gov.au/about-the-commission/publications/news-archives/casual-vacancy-countback-result-ms-rebecca-vassarotti-to-be-elected-to-the-act-legislative-assembly",
             "resultsUrl": "https://www.elections.act.gov.au/__data/assets/pdf_file/0004/3079120/Scrutiny-Sheet-Table-2-Rattenbury.pdf",
@@ -199,7 +201,9 @@
             "formalBallotPapers": 10215,
             "totalVoteValueDistributed": "8154.000000",
             "exhaustedVoteValue": "709.419984",
-            "lossByFraction": "-0.000010"
+            "lossByFraction": "-0.000010",
+            "declarationDate": "2026-06-05",
+            "milestoneLabel": "countback"
           },
           {
             "id": "act-2024-kurrajong",
@@ -501,7 +505,8 @@
         "coverageNotes": [
           "Five members elected by Hare-Clark. Current roster checked independently from historical results; Leanne Castley is currently Independent, and Rebecca Vassarotti replaced Shane Rattenbury by countback in June 2026.",
           "2024 contestant first preference roster complete; historical ballot affiliations retained.",
-          "All six consenting 2026 Kurrajong countback contestants retain the final count-3 transferred vote values, not 2024 first preferences. The outgoing member is not a consenting contestant. Ballot-paper counts, exhausted vote value and fraction loss remain separate source measures."
+          "All six consenting 2026 Kurrajong countback contestants retain the final count-3 transferred vote values, not 2024 first preferences. The outgoing member is not a consenting contestant. Ballot-paper counts, exhausted vote value and fraction loss remain separate source measures.",
+          "23 October 2026 scoped review: current Assembly roster reconciled; currently serving boundaries retained. Redistribution suggestions close 3 November; comments run 4–17 November. Final boundaries remain unannounced."
         ]
       }
     }
@@ -527,7 +532,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -535,11 +540,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

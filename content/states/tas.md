@@ -8,9 +8,9 @@
   "shortName": "TAS",
   "capital": "Hobart",
   "stateType": "State",
-  "researchRun": "2026-05-08",
+  "researchRun": "2026-10-23",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "House members were checked against the 2025 TEC elected-candidates list. Legislative Council member names now include Clare Glade-Wright after the 7 May 2026 Huon result; Rosevears remains to be confirmed in final declarations.",
+  "researchStatus": "Scoped review 23 October: current Parliament lists confirm 35 MHAs and 15 MLCs. Helen Burnet is Independent; Casey Hiscutt’s affiliation is resolved as Independent. Huon/Rosevears counting is complete. Council postal ballots close 27 October at 2 pm Hobart (1 pm Brisbane). Exact future House and May 2027 Council polling dates remain unannounced. Individual council profiles and federal rosters are not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -22,14 +22,14 @@
   "elections": [
     {
       "label": "Next Tasmanian House of Assembly election",
-      "date": "2029-07-19T08:00:00+10:00",
+      "date": null,
       "kind": "State general election",
       "scope": "general",
-      "status": "Last-possible guide, not fixed",
-      "note": "Tasmanian House elections are held at least every four years, but the date is not fixed and can be earlier.",
+      "status": "Exact date not announced",
+      "note": "No fixed House polling date has been announced; the former 19 July 2029 anniversary was not a verified legal last polling day.",
       "source": "https://www.tec.tas.gov.au/house-of-assembly/",
       "dayMetrics": {
-        "displayDaysUntil": true,
+        "displayDaysUntil": false,
         "displayDaysSince": true,
         "daysSinceDate": "2025-07-19T08:00:00+10:00",
         "daysSinceLabel": "Previous Tasmanian House of Assembly general election polling day",
@@ -42,14 +42,14 @@
     },
     {
       "label": "2027 Legislative Council periodic elections",
-      "date": "2027-05-01T08:00:00+10:00",
+      "date": null,
       "kind": "Legislative Council periodic elections",
       "scope": "upper-house",
-      "status": "Expected cycle",
-      "note": "Derwent, Mersey and Windermere are due in 2027 according to the TEC candidate handbook cycle table.",
-      "source": "https://www.tec.tas.gov.au/legislative-council/elections-2026/downloads/2026-Legislative-Council-Candidate-Handbook.pdf",
+      "status": "Exact date not announced",
+      "note": "TEC confirms May 2027 for Derwent, Mersey and Windermere; no exact polling date is verified.",
+      "source": "https://www.tec.tas.gov.au/legislative-council/",
       "dayMetrics": {
-        "displayDaysUntil": true,
+        "displayDaysUntil": false,
         "displayDaysSince": true,
         "daysSinceDate": "2026-05-02T08:00:00+10:00",
         "daysSinceLabel": "Most recent Tasmanian Legislative Council periodic election polling day",
@@ -65,8 +65,8 @@
       "date": "2026-05-02T08:00:00+10:00",
       "kind": "Legislative Council periodic elections",
       "scope": "recent",
-      "status": "Counting and declaration process active during research run",
-      "note": "Huon had an unassailable lead update on 7 May; Rosevears counting had adjourned on 7 May.",
+      "status": "Counting completed; elected members confirmed",
+      "note": "Huon: Clare Glade-Wright elected announcement 7 May; counting completed 12 May. Rosevears: Jo Palmer elected after counting completed 12 May. Later ceremony dates were scheduled notices, not independently verified completion.",
       "source": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -79,6 +79,22 @@
         "archiveWithCycle": "tas-2029-general archive",
         "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
       }
+    },
+    {
+      "label": "2026 ordinary council elections — postal receipt deadline",
+      "date": "2026-10-27T14:00:00+11:00",
+      "kind": "Ordinary council elections",
+      "scope": "local-government",
+      "status": "Postal voting underway; receipt deadline published",
+      "note": "Completed ballots must reach the council by 2 pm Hobart time (1 pm Brisbane) on 27 October; TEC advises returning them in person rather than posting now. Counting starts 28 October at 9 am Hobart time. No result or current-member replacement is inferred.",
+      "source": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "tas-2026-ordinary-council-elections-postal-receipt-deadline",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
     }
   ],
   "chambers": [
@@ -87,8 +103,8 @@
       "type": "Lower house",
       "seats": 35,
       "majority": 18,
-      "note": "Final elected-candidate party labels from the 2025 state election.",
-      "source": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/candidates-elected.html",
+      "note": "Current affiliations from the August 2026 Parliament list, reviewed 23 October; Helen Burnet is Independent. The 2025 ballot affiliations remain historical.",
+      "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
       "composition": [
         {
           "party": "Liberal Party",
@@ -103,13 +119,13 @@
         {
           "party": "Tasmanian Greens",
           "short": "GRN",
-          "seats": 5
+          "seats": 4
         },
         {
-          "party": "George Razay, Craig Garland, Kristie Johnston, Peter George and David O'Byrne",
-          "short": "5 MHAs",
-          "seats": 5,
-          "memberSource": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/candidates-elected.html",
+          "party": "George Razay, Craig Garland, Helen Burnet, Kristie Johnston, Peter George, David O’Byrne",
+          "short": "6 MHAs",
+          "seats": 6,
+          "memberSource": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
           "members": [
             {
               "name": "George Razay",
@@ -120,6 +136,10 @@
               "seat": "Braddon"
             },
             {
+              "name": "Helen Burnet",
+              "seat": "Clark"
+            },
+            {
               "name": "Kristie Johnston",
               "seat": "Clark"
             },
@@ -128,7 +148,7 @@
               "seat": "Franklin"
             },
             {
-              "name": "David O'Byrne",
+              "name": "David O’Byrne",
               "seat": "Franklin"
             }
           ]
@@ -235,7 +255,67 @@
     {
       "label": "ABC Huon crossbench result report",
       "url": "https://www.abc.net.au/news/2026-05-07/clare-glade-wright-huon-election-result/106654874"
+    },
+    {
+      "label": "tas current ha list",
+      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf"
+    },
+    {
+      "label": "tas current ha directory",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers"
+    },
+    {
+      "label": "tas burnet current",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/helen-burnet"
+    },
+    {
+      "label": "tas burnet history",
+      "url": "https://www.parliament.tas.gov.au/visit-and-learn/historyindex/members/parliament-of-tasmania-helen-burnet"
+    },
+    {
+      "label": "tas current lc list",
+      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf"
+    },
+    {
+      "label": "tas current lc directory",
+      "url": "https://www.parliament.tas.gov.au/legislative-council/members"
+    },
+    {
+      "label": "tas current cabinet",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/cabinet"
+    },
+    {
+      "label": "tas huon declaration release",
+      "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1688198&k=1P4JIgwcxv2YwS1vPq_fNXK2-5TvC_QYP-8-78xk3SU"
+    },
+    {
+      "label": "tas rosevears declaration release",
+      "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1689722&k=ahbyWx01lUrrzg2B3WjMrr6ex_vOhtEeA7-R3Ep6gAE"
+    },
+    {
+      "label": "tas lc cycle",
+      "url": "https://www.tec.tas.gov.au/legislative-council/"
+    },
+    {
+      "label": "tas lg 2026",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
+    },
+    {
+      "label": "tas tec front page",
+      "url": "https://www.tec.tas.gov.au/"
+    },
+    {
+      "label": "tas lg vacancies",
+      "url": "https://www.tec.tas.gov.au/local-government/vacancies.html"
     }
-  ]
+  ],
+  "previousResearchRun": "2026-05-08",
+  "researchReview": {
+    "checked": "2026-10-23",
+    "timezone": "Australia/Brisbane",
+    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+    "previousResearchRun": "2026-05-08",
+    "sourceDatesPreserved": true
+  }
 }
 ```

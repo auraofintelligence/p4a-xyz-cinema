@@ -1,0 +1,242 @@
+{
+  "checkedAt": "2026-10-23T14:12:46+10:00",
+  "browser": "Codex in-app Chromium",
+  "baseUrl": "http://127.0.0.1:8778/",
+  "observedScenarios": [
+    {
+      "id": "eight-refreshed-phone-portals",
+      "status": "PASS",
+      "paths": [
+        "states/act/index.html",
+        "states/nsw/index.html",
+        "states/nt/index.html",
+        "states/qld/index.html",
+        "states/sa/index.html",
+        "states/tas/index.html",
+        "states/vic/index.html",
+        "states/wa/index.html"
+      ],
+      "observed": {
+        "allResearchRuns": "2026-10-23",
+        "researchTimezones": {
+          "vic": "Australia/Melbourne",
+          "others": "Australia/Brisbane"
+        },
+        "scopeAndPartialStatusVisible": true,
+        "mapsBeforeLongSummaries": true,
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "eachMapChoiceHeightPx": 44.375,
+        "fonts": "loaded",
+        "cloneTailoringTextAbsent": true,
+        "SAHeroScreenshotVisuallyReviewed": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "tasmania-announced-and-unannounced-dates",
+      "status": "PASS",
+      "paths": [
+        "states/tas/index.html"
+      ],
+      "observed": {
+        "ordinaryCouncilReceipt": "2026-10-27T14:00:00+11:00",
+        "nextHouseDate": null,
+        "may2027CouncilExactDate": null,
+        "unknownCards": "Date not announced",
+        "unknownCardsActiveCountdownElements": 0,
+        "unknownDayMetricsHidden": true,
+        "completedMayEventRetained": true,
+        "width": [
+          375,
+          375
+        ]
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "nt-member-join-search-and-history",
+      "status": "PASS",
+      "paths": [
+        "states/nt/places/state/index.html",
+        "states/nt/electorates/districts/johnston/index.html"
+      ],
+      "observed": {
+        "search": "Justine Davis",
+        "matchingAreas": 1,
+        "selection": "Johnston",
+        "detailMember": "Justine Davis — Independent",
+        "checked": "2026-10-23",
+        "OpenThenBackRestoresJohnston": true,
+        "ForwardOpensSameDetail": true,
+        "settledExactMapLoaded": true,
+        "settledWidth": [
+          375,
+          375
+        ],
+        "transientLoadFramesExcludedFromLayoutConclusion": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "nsw-council-casual-vacancy",
+      "status": "PASS",
+      "paths": [
+        "states/nsw/electorates/regions/legislative-council/index.html"
+      ],
+      "observed": {
+        "currentMemberCards": 42,
+        "GovindPresent": true,
+        "replacementDate": "2026-10-15",
+        "clockMilestone": "parliamentary replacement",
+        "participantRecordNotPublicBallot": true,
+        "old41MemberGapResolved": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "wa-secret-harbour-event-history",
+      "status": "PASS",
+      "paths": [
+        "states/wa/electorates/districts/secret-harbour/index.html"
+      ],
+      "observed": {
+        "byElectionDate": "2026-08-29",
+        "declarationDate": "2026-09-09",
+        "recordedAcceptedBallot": 16,
+        "currentHerdegenRetainsOctober17Check": true,
+        "general2025AndByElection2026Separate": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "tas-montgomery-current-affiliation",
+      "status": "PASS",
+      "paths": [
+        "states/tas/electorates/regions/montgomery/index.html"
+      ],
+      "observed": {
+        "member": "Casey Hiscutt",
+        "party": "Independent",
+        "checked": "2026-10-23"
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "postal-deadlines-vacancy-and-partial-roster-notes",
+      "status": "PASS",
+      "paths": [
+        "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3550520240528/index.html",
+        "states/nsw/councils/cobar/index.html",
+        "states/wa/councils/carnarvon/index.html"
+      ],
+      "observed": {
+        "TablelandsConfirmedVacant": true,
+        "TablelandsCompletion": "2026-10-31T18:00:00+10:00",
+        "TablelandsReceipt": "2026-11-10T17:00:00+10:00",
+        "KinglakePostalReceipt": "2026-12-04T18:00:00+11:00",
+        "KinglakeFormalElectionDateSeparate": "2026-12-05",
+        "KinglakeNominations": "2026-10-27T12:00:00+11:00",
+        "CobarVotingClose": "2026-11-28T18:00:00+11:00",
+        "CarnarvonPostalReceipt": "2026-12-03T18:00:00+08:00",
+        "CobarAndCarnarvonUnreconciledCurrentRosterWarningBeforeCards": true,
+        "noFutureWinnerInferred": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "act-countback-and-real-local-context",
+      "status": "PASS",
+      "paths": [
+        "states/act/electorates/districts/kurrajong/index.html",
+        "states/act/places/councils/index.html"
+      ],
+      "observed": {
+        "KurrajongMembers": 5,
+        "VassarottiPresent": true,
+        "countbackDate": "2026-06-04",
+        "formalDeclarationDate": "2026-06-05",
+        "clockMilestone": "countback",
+        "oneUnincorporatedArea": true,
+        "noInventedElectedCouncil": true,
+        "localLayerLoaded": "ACT local areas: ABS statistical boundaries"
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "legacy-victoria-six-current-office-dependants",
+      "reviewedAt": "2026-10-23T14:38:26+10:00",
+      "status": "PASS",
+      "paths": [
+        "states/vic/map/index.html",
+        "states/vic/councils/mornington-peninsula-shire-council/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html"
+      ],
+      "observed": {
+        "legacyTextDirectoryNames": [
+          "Nicola Rooks",
+          "David Thorpe",
+          "Christine Leahy",
+          "Rob Moffatt",
+          "Nikki Kaur",
+          "Kim McAliney"
+        ],
+        "datedBaseRosterRetained": "2026-10-02",
+        "namedOfficeSourceChecks": "2026-10-23",
+        "ChristineSearchResultAndGovernancePanelVerified": true,
+        "KaurVCATReviewQualificationVisibleInTextRecord": true,
+        "otherRosterAndGeometryDatesNotRefreshed": true
+      }
+    },
+    {
+      "id": "eight-layered-council-directories",
+      "reviewedAt": "2026-10-23T14:38:26+10:00",
+      "status": "PASS",
+      "paths": [
+        "states/act/places/councils/index.html",
+        "states/nsw/places/councils/index.html",
+        "states/nt/places/councils/index.html",
+        "states/qld/places/councils/index.html",
+        "states/sa/places/councils/index.html",
+        "states/tas/places/councils/index.html",
+        "states/vic/places/councils/index.html",
+        "states/wa/places/councils/index.html",
+        "states/vic/councils/mornington-peninsula-shire-council/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html"
+      ],
+      "observed": {
+        "phoneDirectoryCounts": {
+          "act": 1,
+          "nsw": 129,
+          "nt": 20,
+          "qld": 78,
+          "sa": 71,
+          "tas": 29,
+          "vic": 87,
+          "wa": 137
+        },
+        "wardLinksInEachStateTextDirectory": 0,
+        "eachPhoneClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "VicCouncilsAndSpecialArrangementsSeparatelyLabelled": true,
+        "VicHeader": "87 councils and local areas",
+        "independentTextFilters": [
+          "Mornington - one council match",
+          "Gabo - one special-area match"
+        ],
+        "MorningtonExistingCouncilChildLinks": 11,
+        "BriarsExistingPageAndParentLinkVerified": true,
+        "VICWardLayerSwitchAndBriarsSearch": 1,
+        "directWardNavigationThenBackRestoresWardLayer": true,
+        "ForwardReturnsBriarsDetail": true,
+        "mouseAndKeyboardActivation": "inconclusive: automation returned without navigation or button selection in two task tabs; no runtime click pass claimed"
+      }
+    }
+  ],
+  "lastAdditionalReviewAt": "2026-10-23T14:38:26+10:00"
+}

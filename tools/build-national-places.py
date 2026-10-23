@@ -239,10 +239,13 @@ def people_section(page, place):
             cards = ['<p>This record preserves a historical boundary edition. No current member is assigned to it. Consult the current electoral-area directory for serving representation; historical boundaries and contests remain separate.</p>']
         elif place.get('representationStatus') == 'next-election-division':
             cards = ['<p>This is a division for the next election on the newly determined boundaries. It does not yet have an elected member under that edition. Serving representation and previous results remain attached to their applicable historical/current areas.</p>']
+        elif place.get('representationStatus') == 'vacant':
+            cards = ['<p>This office is confirmed vacant. A scheduled election does not itself establish a new officeholder; use the official result and current roster when available.</p>']
         else:
             cards = ['<p>Individual current-office records have not yet been verified in this collection. Use the official directory below for the current roster; an earlier election winner is not automatically a current officeholder.</p>']
     official = link(page, place['officialUrl'], 'Official place / representative directory') if place.get('officialUrl') else ''
-    return '<section class="civic-section" id="people"><h2>Current representation</h2><div class="civic-grid">' + ''.join(cards) + '</div><p>' + official + '</p><p class="civic-note">Current office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.</p></section>'
+    review_note = '<p class="civic-note">'+esc(place['representationReview'])+'</p>' if place.get('representationReview') else ''
+    return '<section class="civic-section" id="people"><h2>Current representation</h2>'+review_note+'<div class="civic-grid">' + ''.join(cards) + '</div><p>' + official + '</p><p class="civic-note">Current office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.</p></section>'
 
 
 def elections_section(page, place):
@@ -277,7 +280,9 @@ def elections_section(page, place):
         if not rows and (not date or date[:10] > UPDATED):
             table = '<p class="civic-note">No verified contestant roster has been entered for this future event. Previous candidacy does not establish future candidacy; follow the official nominations record.</p>'
         if rows:
-            table = f'<details><summary>{len(rows)} recorded contestants · names, affiliations and public records</summary><div class="civic-table-wrap"><table class="civic-table"><caption>{esc(label)} · event-specific contestant records</caption><thead><tr><th>Name / public profile</th><th>Affiliation at this event</th><th>Recorded status / result</th><th>Source</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></details>'
+            participant_label = 'participants' if event.get('kind') == 'casual-vacancy-replacement' else 'contestants'
+            record_label = 'participant' if event.get('kind') == 'casual-vacancy-replacement' else 'contestant'
+            table = f'<details><summary>{len(rows)} recorded {participant_label} · names, affiliations and public records</summary><div class="civic-table-wrap"><table class="civic-table"><caption>{esc(label)} · event-specific {record_label} records</caption><thead><tr><th>Name / public profile</th><th>Affiliation at this event</th><th>Recorded status / result</th><th>Source</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></details>'
         time_note = 'Published closing time: '+esc(event['dateTime'])+'. The clock respects this deadline.' if event.get('dateTime') else 'Calendar days to the local event date; exact polling or closing hours remain with the official notice.'
         sections.append(f'<article class="civic-panel civic-event" id="event-{slug(event.get("id",str(index)))}"><h3>{esc(label)}</h3><p>{esc(status)} · {esc(event.get("kind","election"))}</p>{clock}<p>{"<time datetime=" + chr(34) + esc(date) + chr(34) + ">" + esc(date) + "</time> · " if date else ""}{esc(basis)}</p><p class="civic-note">{esc(zone)} · {time_note} The clock does not refresh results or declare a winner. {esc(event.get("boundaryEdition", ""))}</p><p>{source_link}</p>{table}</article>')
     if not sections:
@@ -337,13 +342,29 @@ def place_page(place, places, layers, sources, basemap):
 def directory_page(state, scope, places, layers, basemap):
     page = directory_route(state, scope)
     subset = [p for p in places if p['jurisdiction'] == state and (not scope or p['scope'] == scope)]
+    directory_count = len([p for p in subset if not p.get('parentId')]) if scope == 'councils' else len(subset)
     title = NAMES[state] + ' · ' + ({'state':'electorate map','councils':'local areas map' if state=='act' else 'council map','federal':'federal electorate map'}[scope] if scope else 'maps, members & elections')
-    body = crumbs(page,state) + f'<div class="civic-heading civic-directory-heading"><div><p class="civic-kicker">Maps, members &amp; elections</p><h1>{esc(title)}</h1><p>Choose a map below. Search or select an area, then open its members and election records.</p></div><aside><span class="civic-chip">{len(subset)} sourced area records</span></aside></div>' + choices(page,state,scope)
+    body = crumbs(page,state) + f'<div class="civic-heading civic-directory-heading"><div><p class="civic-kicker">Maps, members &amp; elections</p><h1>{esc(title)}</h1><p>Choose a map below. Search or select an area, then open its members and election records.</p></div><aside><span class="civic-chip">{directory_count} {"councils and local areas" if scope == "councils" else "sourced area records"}</span></aside></div>' + choices(page,state,scope)
     if state == 'act' and scope == 'councils':
         body += '<p class="civic-note">The ACT context is shown using its actual territory/local-government arrangements. A mapped statistical local area is not an invented elected council or council election.</p>'
     preferred = next((p.get('layerId') for p in subset if p['kind']=='state-district' and p.get('status')!='historical' and p.get('layerId')),None) if scope in (None,'state') else None
     body += map_widget(page,subset,layers,basemap,initial_layer=preferred)
-    body += '<section class="civic-section" id="directory"><h2>Every area · direct page links</h2>' + listing(page,subset) + '</section>'
+    if scope == 'councils':
+        # Start with institutions. Genuine child wards/divisions already have
+        # their own links on the existing parent page; keep every map layer.
+        roots = [p for p in subset if not p.get('parentId')]
+        councils = [p for p in roots if p['kind'] == 'council']
+        special = [p for p in roots if p['kind'] != 'council']
+        body += '<section class="civic-section" id="directory"><h2>' + ('Local areas' if state == 'act' else 'Choose a council') + '</h2>'
+        if councils:
+            body += '<p>Open a council to explore its wards or divisions, where they exist, then open an individual area for its members and elections.</p>' + listing(page,councils)
+        if special:
+            body += '<h3>Unincorporated areas and special local arrangements</h3><p>These areas retain their actual arrangements; they are separate from ordinary councils.</p>' + listing(page,special,identifier='special-local-directory')
+        body += '</section>'
+    elif scope is None:
+        body += '<section class="civic-section" id="directory"><h2>Continue by level</h2><p>Choose a level, then open an area. Council wards and divisions are linked from their council pages.</p>' + choices(page,state) + '</section>'
+    else:
+        body += '<section class="civic-section" id="directory"><h2>Every area · direct page links</h2>' + listing(page,subset) + '</section>'
     body += '<p class="civic-note">Each place page states its own source coverage. A public directory link does not mean every individual profile or historical contestant has been verified. Compare boundary editions before comparing results or statistics.</p>'
     write(page,shell(page,title,body))
 

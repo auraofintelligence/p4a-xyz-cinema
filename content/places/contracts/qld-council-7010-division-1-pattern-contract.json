@@ -77,10 +77,19 @@
           "council-qld-2024-browser-verified-xml",
           "council-qld-2024-browser-verified-xml-acquisition",
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
-          "council-qld-current-leaders-browser"
+          "council-qld-current-leaders-browser",
+          "refresh-townsville-div1-current-20261023"
         ],
         "boundaryEdition": "2024 election division edition; current source service",
-        "representatives": [],
+        "representatives": [
+          {
+            "name": "Michelle Hobson",
+            "role": "Councillor — Division 1",
+            "profileUrl": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1",
+            "sourceId": "refresh-townsville-div1-current-20261023",
+            "checked": "2026-10-23"
+          }
+        ],
         "elections": [
           {
             "id": "qld-council-7010-division-1-next-ordinary",
@@ -131,6 +140,20 @@
             ],
             "votingSystem": "Optional Preferential",
             "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-7010-division-1-by-election-2026-09-19",
+            "label": "2026 Townsville Division 1 by-election",
+            "kind": "by-election",
+            "status": "Historical; poll held; see official result/current-office evidence",
+            "date": "2026-09-19",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Postal ballots received by 2026-09-29T17:00:00+10:00.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election",
+            "candidates": [],
+            "dateTime": "2026-09-19T18:00:00+10:00",
+            "milestoneLabel": "postal vote completion deadline",
+            "postalReceiptDeadline": "2026-09-29T17:00:00+10:00"
           }
         ],
         "coverageNotes": [
@@ -162,7 +185,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -170,11 +193,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

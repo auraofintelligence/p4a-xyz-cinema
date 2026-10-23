@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-23",
+  "checkedAt": "2026-10-23T12:53:21+10:00",
+  "status": "PASS",
+  "scope": "Focused national/state/council navigation correction. All eight entry points plus sampled WA, ACT, NT and federal interactions; political facts were not refreshed.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        680,
+        900
+      ],
+      [
+        1280,
+        720
+      ]
+    ],
+    "physicalTouchTested": false
+  },
+  "fixtures": [
+    {
+      "id": "national-map-and-keyboard-route",
+      "status": "PASS",
+      "paths": [
+        "pages/states.html",
+        "pages/maps.html",
+        "pages/places.html"
+      ],
+      "observed": {
+        "eightNationalLabelsTargetElectorateMaps": true,
+        "generalMapEightLabelsAlsoTargetElectorateMaps": true,
+        "generalMapWAClickOpensLoadedElectorateMap": true,
+        "waLabelClickAndKeyboardEnterOpenElectorateMap": true,
+        "keyboardAustraliaMapReturn": true,
+        "directoryCards": 8,
+        "nationalDirectoryPhoneClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "finalGeneralMapPhoneClientAndScrollWidth": [
+          375,
+          375
+        ]
+      }
+    },
+    {
+      "id": "eight-phone-portals",
+      "status": "PASS",
+      "paths": [
+        "states/act/index.html",
+        "states/nsw/index.html",
+        "states/nt/index.html",
+        "states/qld/index.html",
+        "states/sa/index.html",
+        "states/tas/index.html",
+        "states/vic/index.html",
+        "states/wa/index.html"
+      ],
+      "observed": {
+        "jurisdictions": [
+          "act",
+          "nsw",
+          "nt",
+          "qld",
+          "sa",
+          "tas",
+          "vic",
+          "wa"
+        ],
+        "fontStatus": "loaded",
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "entryBeforePoliticalSummary": true,
+        "entryHeadingFontPx": 21.6,
+        "eachMapChoiceHeightPx": 44.375,
+        "cloneLanguageAbsent": true,
+        "waPhoneScreenshotVisuallyReviewed": true,
+        "finalNavigationDateSeparatelyLabelledFromResearchDate": true
+      }
+    },
+    {
+      "id": "eight-electorate-map-entries",
+      "status": "PASS",
+      "paths": [
+        "states/act/places/state/index.html",
+        "states/nsw/places/state/index.html",
+        "states/nt/places/state/index.html",
+        "states/qld/places/state/index.html",
+        "states/sa/places/state/index.html",
+        "states/tas/places/state/index.html",
+        "states/vic/places/state/index.html",
+        "states/wa/places/state/index.html"
+      ],
+      "observed": {
+        "allLoadedExactSourceBoundaries": true,
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "eachControlAtLeast44Px": true,
+        "currentMapChoiceHighlighted": true,
+        "saDefault": "House of Assembly districts — 2026 election",
+        "tasDefault": "House of Assembly divisions",
+        "otherDefaults": "Legislative Assembly districts"
+      }
+    },
+    {
+      "id": "wa-state-council-history",
+      "status": "PASS",
+      "paths": [
+        "states/wa/places/state/index.html",
+        "states/wa/places/councils/index.html",
+        "states/wa/councils/perth/index.html"
+      ],
+      "observed": {
+        "statePerthSearchSelect": true,
+        "upperHouseIsSeparateWholeStateContext": true,
+        "layerBackRestoresPerthSelection": true,
+        "layerForwardRestoresUpperHouse": true,
+        "councilChoiceLoadsCouncilLayer": true,
+        "councilPerthSelectAndOpen": true,
+        "backRestoresCouncilPerthSelection": true,
+        "phoneClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "phoneControlMinimumHeightPx": 44,
+        "phoneScreenshotVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "act-real-arrangements",
+      "status": "PASS",
+      "paths": [
+        "states/act/places/state/index.html",
+        "states/act/electorates/districts/kurrajong/index.html",
+        "states/act/places/councils/index.html"
+      ],
+      "observed": {
+        "kurrajongSearchSelectOpen": true,
+        "fivePublishedRepresentativesRetained": true,
+        "localChoiceLabel": "ACT local areas",
+        "localMapLabel": "ACT local areas: ABS statistical boundaries",
+        "oneUnincorporatedAreaNotElectedCouncil": true,
+        "noInventedCouncilOrElection": true
+      }
+    },
+    {
+      "id": "nt-map-and-responsive-controls",
+      "status": "PASS",
+      "paths": [
+        "states/nt/places/state/index.html",
+        "states/nt/places/councils/index.html"
+      ],
+      "observed": {
+        "nightcliffSearchSelect": true,
+        "councilTransitionLoadsLocalBoundaries": true,
+        "officialWardLayerAvailable": true,
+        "tabletClientAndScrollWidth": [
+          665,
+          665
+        ],
+        "desktopClientAndScrollWidth": [
+          1265,
+          1265
+        ],
+        "tabletScreenshotVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "federal-reciprocal-navigation",
+      "status": "PASS",
+      "paths": [
+        "states/wa/federal/perth/index.html"
+      ],
+      "observed": {
+        "perthSelected": true,
+        "stateCouncilFederalChoicesPresent": true,
+        "houseAndSenateContextRemainSeparate": true
+      }
+    },
+    {
+      "id": "legacy-queensland-and-redlands-entry",
+      "status": "PASS",
+      "paths": [
+        "states/qld/councils/index.html",
+        "states/qld/councils/redland/candidates/index.html"
+      ],
+      "observed": {
+        "eachClientAndScrollWidth": [
+          375,
+          375
+        ],
+        "retainedQueenslandMapCanvasCount": 1,
+        "developerBuildLinkRemoved": true,
+        "redlandsElectionEntry": "../elections/index.html",
+        "factsAndJourneyContentPreserved": true
+      }
+    }
+  ],
+  "testedPagePaths": [
+    "pages/maps.html",
+    "pages/places.html",
+    "pages/states.html",
+    "states/act/electorates/districts/kurrajong/index.html",
+    "states/act/index.html",
+    "states/act/places/councils/index.html",
+    "states/act/places/state/index.html",
+    "states/nsw/index.html",
+    "states/nsw/places/state/index.html",
+    "states/nt/index.html",
+    "states/nt/places/councils/index.html",
+    "states/nt/places/state/index.html",
+    "states/qld/councils/index.html",
+    "states/qld/councils/redland/candidates/index.html",
+    "states/qld/index.html",
+    "states/qld/places/state/index.html",
+    "states/sa/index.html",
+    "states/sa/places/state/index.html",
+    "states/tas/index.html",
+    "states/tas/places/state/index.html",
+    "states/vic/index.html",
+    "states/vic/places/state/index.html",
+    "states/wa/councils/perth/index.html",
+    "states/wa/federal/perth/index.html",
+    "states/wa/index.html",
+    "states/wa/places/councils/index.html",
+    "states/wa/places/state/index.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/navigation-browser-fixture-2026-10-23.json"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "6ec2448ae59e9de7b62c4a05b93bd11e08da6d554b187840bfdc380f982d4dc9",
+      "bytes": 33792
+    },
+    {
+      "path": "content/places/qa/navigation-browser-fixture-2026-10-23.json",
+      "sha256": "586e1c6e3cae14658c196d4065ced63bfbc83e88aeb1544aac53f563e1e5e4b3",
+      "bytes": 5509
+    },
+    {
+      "path": "pages/maps.html",
+      "sha256": "1cdb9da0aba518732c7b2ffd07cc6b329270a95d94831ec273629cf64ab5d710",
+      "bytes": 6343
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "1a418b086fe2d46e8efb65e47865c09ac8c62d0c3d3bcafabd2f219b3efe3e5d",
+      "bytes": 6596
+    },
+    {
+      "path": "pages/states.html",
+      "sha256": "a80b4341e147bf8bd0f9a84989bb85be643430a460fcc5da162863d990fe72ef",
+      "bytes": 39745
+    },
+    {
+      "path": "states/act/electorates/districts/kurrajong/index.html",
+      "sha256": "55029db53f7602cede916439c32440fadb0215beed3cd2a6548f75c7d07e0385",
+      "bytes": 42203
+    },
+    {
+      "path": "states/act/index.html",
+      "sha256": "d13520e0442d96599cf6d233b1e40df01039b6fb7093abd3419a3457a1be148a",
+      "bytes": 12006
+    },
+    {
+      "path": "states/act/places/councils/index.html",
+      "sha256": "fb464eeee72b36bb5fff4de898e5b6f9d99fb170d1547041d3710fb8c297b1aa",
+      "bytes": 13371
+    },
+    {
+      "path": "states/act/places/state/index.html",
+      "sha256": "772619502b7708a2d362123ba3ec46ae620e0ef22b6275a8396d5ce19c087fc1",
+      "bytes": 16566
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "9d193a16403c45872eb0fbdc5e86586cca20e733b1e95b826a904386677622a9",
+      "bytes": 15810
+    },
+    {
+      "path": "states/nsw/places/state/index.html",
+      "sha256": "faa67a7bff81633b7f52ba0ac9b13a64a5de757f0fc617a0d537f215c18a8041",
+      "bytes": 57932
+    },
+    {
+      "path": "states/nt/index.html",
+      "sha256": "0bdc79c7ac4954488933024f506c12662e0aceb5d7f6d57381ff82ae82179920",
+      "bytes": 13996
+    },
+    {
+      "path": "states/nt/places/councils/index.html",
+      "sha256": "ce8a075625e11c50f5db7dfb6d8aab1a4c0e057ad128c0e5ee00cdb7273e3312",
+      "bytes": 68763
+    },
+    {
+      "path": "states/nt/places/state/index.html",
+      "sha256": "c65189f53c40e34e8c3519af09ce201cf2e13088c8df9b2011aebbe81c097816",
+      "bytes": 24758
+    },
+    {
+      "path": "states/qld/councils/index.html",
+      "sha256": "c6cc04ed9f4df3b58a9ca6c2fd74b7aa4b0a916a31df92f7323b0d00670a69c1",
+      "bytes": 15434
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "8c684f5bc827ade08b245c7c19bfdbb943eb13d243eae0680cd8187aca9a5265",
+      "bytes": 13580
+    },
+    {
+      "path": "states/qld/index.html",
+      "sha256": "e1858b0a87ab60c93719ebbefb5efa0d1e3b626459f00c44cfd2a86b2fab648a",
+      "bytes": 25989
+    },
+    {
+      "path": "states/qld/places/state/index.html",
+      "sha256": "d6bf8c1dbd847766b40c2f340e4c5a77c6d59a6efa154b387dea0237de6cbda4",
+      "bytes": 55232
+    },
+    {
+      "path": "states/sa/index.html",
+      "sha256": "df80d524a00b97e381f759986b120b09d1815d99b7cf5536f545de1053416a4d",
+      "bytes": 15631
+    },
+    {
+      "path": "states/sa/places/state/index.html",
+      "sha256": "4696c421d9e2c52167c8b1ff70ce2b1dfee2cd06cc725f1d86effb3593b4db39",
+      "bytes": 52637
+    },
+    {
+      "path": "states/tas/index.html",
+      "sha256": "7cec81900097acd923b132773abb374c90eaca11fb1dee9572ad2d57b4ef2801",
+      "bytes": 19339
+    },
+    {
+      "path": "states/tas/places/state/index.html",
+      "sha256": "d5da56f10dab9747acc52342d7039a26b30bdfbb8df99a0ecbb85cfe39d1f563",
+      "bytes": 25062
+    },
+    {
+      "path": "states/vic/index.html",
+      "sha256": "040b27b13e3df7d94a937e42da15b7a8e854413791475209e96c416f28d45f6c",
+      "bytes": 20099
+    },
+    {
+      "path": "states/vic/places/state/index.html",
+      "sha256": "78531f4ebe7c585bb8bcb2e423151c2c444bc4ce4ba2e40ba2cf5e7728421cd8",
+      "bytes": 55915
+    },
+    {
+      "path": "states/wa/councils/perth/index.html",
+      "sha256": "23274abdd347327933235c92dfabcd8ac1ecbd85e7248a8a806264555554d496",
+      "bytes": 106983
+    },
+    {
+      "path": "states/wa/federal/perth/index.html",
+      "sha256": "3876550892d29e25f930965f591fa71488d2cb4f8dc721111847863c75ab149d",
+      "bytes": 28022
+    },
+    {
+      "path": "states/wa/index.html",
+      "sha256": "ebdb507fe55deea0cc476b2419fe179a387dace8f2306b34c9e89398ea426b0e",
+      "bytes": 13977
+    },
+    {
+      "path": "states/wa/places/councils/index.html",
+      "sha256": "d489090adfa85e1334f7fda1bec3b4f6b59491395ed8db4064d5510becc0273e",
+      "bytes": 160433
+    },
+    {
+      "path": "states/wa/places/state/index.html",
+      "sha256": "9654c557a8add8b725a36c2d0d8c5780d5c907703c84d7e7c20baa61f4e9e009",
+      "bytes": 42388
+    },
+    {
+      "path": "styles.css",
+      "sha256": "f96bb8f7f95ddbd53c43db0ce2acf3c298d03de470089a7b9fe127916a885d04",
+      "bytes": 138599
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1",
+      "bytes": 37051
+    },
+    {
+      "path": "tools/check-civic-navigation.py",
+      "sha256": "3fae485a4997a86df8c489659ee38692ac8bfa5dd607db1d9852fc42f8bc0175",
+      "bytes": 3199
+    },
+    {
+      "path": "tools/national_place_links.py",
+      "sha256": "b719b01a8eff36321798aa61002a892a4c7e8c29493c36d58151f409f660a76a",
+      "bytes": 8632
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
+  "limits": [
+    "Sampled Chromium review, not exhaustive per-place, physical touch, screen-reader or multi-browser certification.",
+    "Existing source dates, roster/history gaps and grassroots Twinkle exclusion are unchanged.",
+    "Phone layout measurements were taken after fonts settled; immediate navigation captures can contain transient compositor frames."
+  ],
+  "unchangedDependencies": [
+    {
+      "path": "script.js",
+      "basis": "Canonical Git bytes of unchanged dependency; working-copy CRLF/LF normalization equals this blob exactly.",
+      "commit": "106146af6163747b1edaaee31e03dfe4fdb7c281",
+      "gitBlob": "a2618849b6436fd5f104a3c0bf256ddd5ce81e76",
+      "sha256": "0258efeb75144b4bb55211f114153531d13c277e46dd9647a1281d43664938b4",
+      "bytes": 54274
+    }
+  ],
+  "evidenceByteBasis": "Changed renderers/styles, delivered HTML and fixtures retain exact byte fingerprints. The unchanged common script is separately cited by canonical Git bytes, preserving its existing line-ending policy and content."
+}

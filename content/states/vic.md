@@ -8,9 +8,9 @@
   "shortName": "VIC",
   "capital": "Melbourne",
   "stateType": "State",
-  "researchRun": "2026-10-02",
+  "researchRun": "2026-10-23",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "Checked 2 October 2026 against the official Premier page, Parliament member CSV and September chamber membership lists, and the VEC 2026 election calendar. Assembly: 87 members plus the Brunswick vacancy. Historical election results and Census observations are labelled separately.",
+  "researchStatus": "Scoped review 23 October: all 127 serving members, electorates and parties match the official roster; Brunswick remains vacant. Candidate Helper is now available. State nominations open 4 November 9 am and close 9 November noon; polling is 28 November. Kinglake ward nominations close 27 October noon. Candidate campaign sources/legal guidance retain their individual earlier dates and unresolved gaps.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
@@ -229,7 +229,23 @@
     {
       "label": "Nepean 2026 historical result",
       "url": "https://www.vec.vic.gov.au/results/state-election-results/state-by-elections-timeline/nepean-by-election-results/results-by-district/nepean-district-results"
+    },
+    {
+      "label": "VEC current state election process",
+      "url": "https://www.vec.vic.gov.au/voting/types-of-elections/state-elections"
+    },
+    {
+      "label": "VEC current state election process",
+      "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
     }
-  ]
+  ],
+  "previousResearchRun": "2026-10-02",
+  "researchReview": {
+    "checked": "2026-10-23",
+    "timezone": "Australia/Brisbane",
+    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+    "previousResearchRun": "2026-10-02",
+    "sourceDatesPreserved": true
+  }
 }
 ```

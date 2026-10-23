@@ -6,9 +6,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NSW",
     "capital": "Sydney",
     "stateType": "State",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Current party representation and the 2027 election date were checked against NSW Parliament and NSW Electoral Commission sources.",
+    "researchStatus": "Scoped review 23 October: current official Assembly and Council lists checked. Nine independents include Jacqui Scruby; Bernard Govind fills the documented Council roster gap. General poll remains 13 March 2027. New council polls: Cobar 28 November, Coffs Harbour and Hunters Hill South Ward 12 December. Affected council roster removals remain follow-up where named resignation pages were inaccessible; federal roster audit not claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -24,8 +24,8 @@ window.P4A_STATE_DATA = [
         "kind": "State general election",
         "scope": "general",
         "status": "Scheduled",
-        "note": "Election day for the 59th Parliament of New South Wales.",
-        "source": "https://elections.nsw.gov.au/bulletins/2027-nsw-state-election-bulletin-1",
+        "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm.",
+        "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
         "dayMetrics": {
           "displayDaysUntil": true,
           "displayDaysSince": true,
@@ -37,6 +37,54 @@ window.P4A_STATE_DATA = [
           "archiveWithCycle": "next-higher-order-cycle-after-nsw-2027-general",
           "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
         }
+      },
+      {
+        "label": "2026 Cobar Shire Council by-election",
+        "date": "2026-11-28T18:00:00+11:00",
+        "kind": "Council by-election",
+        "scope": "local-government",
+        "status": "Scheduled; nominations open",
+        "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-10-28T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+        "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "nsw-2026-cobarshirecouncil-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
+      },
+      {
+        "label": "2026 CityofCoffsHarbourCouncil by-election",
+        "date": "2026-12-12T18:00:00+11:00",
+        "kind": "Council by-election",
+        "scope": "local-government",
+        "status": "Scheduled; nominationsnotyetopenasat23October",
+        "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+        "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "nsw-2026-cityofcoffsharbourcouncil-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
+      },
+      {
+        "label": "2026 Hunters Hill South Ward by-election",
+        "date": "2026-12-12T18:00:00+11:00",
+        "kind": "Council by-election",
+        "scope": "local-government",
+        "status": "Scheduled; nominations open 2 November",
+        "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+        "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "nsw-2026-huntershillsouthward-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
       }
     ],
     "chambers": [
@@ -45,8 +93,8 @@ window.P4A_STATE_DATA = [
         "type": "Lower house",
         "seats": 93,
         "majority": 47,
-        "note": "Current NSW Parliament party representation page lists 93 Assembly members.",
-        "source": "https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx",
+        "note": "Current official Assembly list, 16 September 2026, reviewed 23 October. Jacqui Scruby is the independent for Pittwater; Kiama is represented by Labor member Katelin McInerney.",
+        "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
         "composition": [
           {
             "party": "Australian Labor Party",
@@ -69,10 +117,10 @@ window.P4A_STATE_DATA = [
             "seats": 3
           },
           {
-            "party": "Alex Greenwich plus eight named MLAs",
+            "party": "Alex Greenwich, Roy Butler, Helen Dalton, Philip Donato, Judy Hannan, Joe McGirr, Greg Piper, Michael Regan, Jacqui Scruby",
             "short": "9 MLAs",
             "seats": 9,
-            "memberSource": "https://www.parliament.nsw.gov.au/members/Pages/all-members.aspx?house=LA",
+            "memberSource": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
             "members": [
               {
                 "name": "Alex Greenwich",
@@ -107,8 +155,8 @@ window.P4A_STATE_DATA = [
                 "seat": "Wakehurst"
               },
               {
-                "name": "Gareth Ward",
-                "seat": "Kiama"
+                "name": "Jacqui Scruby",
+                "seat": "Pittwater"
               }
             ]
           }
@@ -119,8 +167,8 @@ window.P4A_STATE_DATA = [
         "type": "Upper house",
         "seats": 42,
         "majority": 22,
-        "note": "The Council is elected in staggered terms, with 21 of 42 seats contested at a periodic election.",
-        "source": "https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx",
+        "note": "Official Council list No. 322, 15 October 2026, lists all 42 serving members. Bernard Govind (Labor) elected on 15 October to replace Greg Donnelly; historical election rosters remain separate.",
+        "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
         "composition": [
           {
             "party": "Australian Labor Party",
@@ -205,8 +253,32 @@ window.P4A_STATE_DATA = [
       {
         "label": "NSW Parliament all current members",
         "url": "https://www.parliament.nsw.gov.au/members"
+      },
+      {
+        "label": "nsw la list 48",
+        "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf"
+      },
+      {
+        "label": "nsw lc list 322",
+        "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf"
+      },
+      {
+        "label": "nsw 2027 election",
+        "url": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election"
+      },
+      {
+        "label": "nsw current election index",
+        "url": "https://elections.nsw.gov.au/elections"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/nsw.md"
   },
   {
@@ -216,9 +288,9 @@ window.P4A_STATE_DATA = [
     "shortName": "VIC",
     "capital": "Melbourne",
     "stateType": "State",
-    "researchRun": "2026-10-02",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Melbourne",
-    "researchStatus": "Checked 2 October 2026 against the official Premier page, Parliament member CSV and September chamber membership lists, and the VEC 2026 election calendar. Assembly: 87 members plus the Brunswick vacancy. Historical election results and Census observations are labelled separately.",
+    "researchStatus": "Scoped review 23 October: all 127 serving members, electorates and parties match the official roster; Brunswick remains vacant. Candidate Helper is now available. State nominations open 4 November 9 am and close 9 November noon; polling is 28 November. Kinglake ward nominations close 27 October noon. Candidate campaign sources/legal guidance retain their individual earlier dates and unresolved gaps.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Ben Carroll",
@@ -437,8 +509,24 @@ window.P4A_STATE_DATA = [
       {
         "label": "Nepean 2026 historical result",
         "url": "https://www.vec.vic.gov.au/results/state-election-results/state-by-elections-timeline/nepean-by-election-results/results-by-district/nepean-district-results"
+      },
+      {
+        "label": "VEC current state election process",
+        "url": "https://www.vec.vic.gov.au/voting/types-of-elections/state-elections"
+      },
+      {
+        "label": "VEC current state election process",
+        "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
       }
     ],
+    "previousResearchRun": "2026-10-02",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-10-02",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/vic.md"
   },
   {
@@ -448,9 +536,9 @@ window.P4A_STATE_DATA = [
     "shortName": "QLD",
     "capital": "Brisbane",
     "stateType": "State",
-    "researchRun": "2026-07-14",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Current members were checked against the Queensland Parliament member list. The Stafford by-election was held on 16 May 2026 and Labor retained the seat.",
+    "researchStatus": "Scoped review 23 October: official 20 October Parliament roster confirms 93 seats and unchanged party totals; Stafford member Luke Richmond remains Labor. Historical Stafford percentages retain their July check. Tablelands Mayor Kevin Cardew and Townsville Division 1 Michelle Hobson verified from current council sources. Tablelands Division 1 is vacant: postal ballots must be completed by 31 October 6 pm and received by 10 November 5 pm Brisbane time. Other council/federal coverage remains partial.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "David Crisafulli",
@@ -465,8 +553,8 @@ window.P4A_STATE_DATA = [
         "date": "2028-10-28T08:00:00+10:00",
         "kind": "State general election",
         "scope": "general",
-        "status": "Scheduled by fixed-term cycle",
-        "note": "Queensland state elections are held on the last Saturday in October every four years.",
+        "status": "Ordinary rule-derived date",
+        "note": "Normal four-year cycle: last Saturday in October, subject to the Act. This is not a newly announced writ or detailed 2028 timetable.",
         "source": "https://www.ecq.qld.gov.au/elections/election-events",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -498,6 +586,22 @@ window.P4A_STATE_DATA = [
           "cycleKey": "qld-2026-by-election",
           "archiveWithCycle": "qld-2028-general archive",
           "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+        }
+      },
+      {
+        "label": "2026 Tablelands Division 1 by-election — postal completion deadline",
+        "date": "2026-10-31T18:00:00+10:00",
+        "kind": "Council by-election",
+        "scope": "local-government",
+        "status": "Full postal election; nominations closed",
+        "note": "Complete ballot by 6 pm 31 October; ECQ must receive it by 5 pm 10 November (Australia/Brisbane). Completion and receipt are distinct deadlines. Accepted candidates not imported; no result inferred.",
+        "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "qld-2026-tablelands-division-1-by-election-postal-completion-deadline",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
         }
       }
     ],
@@ -574,8 +678,32 @@ window.P4A_STATE_DATA = [
       {
         "label": "ECQ state election participant dates",
         "url": "https://www.ecq.qld.gov.au/election-participants/state-election-participants"
+      },
+      {
+        "label": "qld member roster 20261020",
+        "url": "https://documents.parliament.qld.gov.au/members/mailinglists/memlist.pdf"
+      },
+      {
+        "label": "qld tablelands div1 event",
+        "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election"
+      },
+      {
+        "label": "qld tablelands councillors",
+        "url": "https://www.trc.qld.gov.au/our-council/councillors/"
+      },
+      {
+        "label": "qld townsville div1 profile",
+        "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1"
       }
     ],
+    "previousResearchRun": "2026-07-14",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-07-14",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/qld.md"
   },
   {
@@ -585,9 +713,9 @@ window.P4A_STATE_DATA = [
     "shortName": "WA",
     "capital": "Perth",
     "stateType": "State",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Current lower and upper house party totals were checked against Parliament of Western Australia member-by-party pages.",
+    "researchStatus": "Scoped review 23 October: Secret Harbour declaration and October council notices verified; Cook remains Premier. State chamber totals now match the retained 17 October roster, with fresh full Parliament access blocked (403). December extraordinary postal ballots close 3 December at 6 pm Perth time. September council declarations are retained with incomplete individual winners/rosters; federal records were not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Roger Cook",
@@ -616,6 +744,38 @@ window.P4A_STATE_DATA = [
           "archiveWithCycle": "next-higher-order-cycle-after-wa-2029-general",
           "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
         }
+      },
+      {
+        "label": "2026 Secret Harbour by-election",
+        "date": "2026-08-29T08:00:00+08:00",
+        "kind": "Assembly by-election",
+        "scope": "recent",
+        "status": "Declared 9 September 2026",
+        "note": "Luke Herdegen (One Nation) elected; final two-candidate preferred 57.19% against Georgia Tree 42.81%. This is separate from the March 2025 general election.",
+        "source": "https://www.elections.wa.gov.au/about-us/media/releases/2627",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "wa-2026-secret-harbour-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
+      },
+      {
+        "label": "December 2026 council extraordinary elections — postal receipt deadline",
+        "date": "2026-12-03T18:00:00+08:00",
+        "kind": "Council extraordinary elections",
+        "scope": "local-government",
+        "status": "Nominations closed; postal election scheduled",
+        "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon Coral Bay/Plantation candidates were elected unopposed; names and affected current rosters remain follow-up.",
+        "source": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "wa-december-2026-council-extraordinary-elections-postal-receipt-deadline",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
       }
     ],
     "chambers": [
@@ -624,23 +784,40 @@ window.P4A_STATE_DATA = [
         "type": "Lower house",
         "seats": 59,
         "majority": 30,
-        "note": "Current Legislative Assembly members by political party.",
+        "note": "Current composition retained from the 17 October official roster: Secret Harbour One Nation, Nedlands Independent. Fresh full Parliament roster access returned 403 on 23 October.",
         "source": "https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty",
         "composition": [
           {
             "party": "Australian Labor Party",
             "short": "ALP",
-            "seats": 46
+            "seats": 45
           },
           {
             "party": "Liberal Party",
             "short": "LIB",
-            "seats": 7
+            "seats": 6
           },
           {
             "party": "The Nationals WA",
             "short": "NAT",
             "seats": 6
+          },
+          {
+            "party": "Jonathan Huston",
+            "short": "1 MLA",
+            "seats": 1,
+            "members": [
+              {
+                "name": "Jonathan Huston",
+                "seat": "Nedlands"
+              }
+            ],
+            "memberSource": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WebCurrentMembLA"
+          },
+          {
+            "party": "Pauline Hanson's One Nation",
+            "short": "ONP",
+            "seats": 1
           }
         ]
       },
@@ -649,7 +826,7 @@ window.P4A_STATE_DATA = [
         "type": "Upper house",
         "seats": 37,
         "majority": 19,
-        "note": "WA now elects the Legislative Council as one whole-of-state electorate.",
+        "note": "Whole-state 37-member chamber; current party totals retained from 17 October. Fresh full roster access was blocked on 23 October.",
         "source": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&Expand=1&OpenForm=&Seq=8&Start=1",
         "composition": [
           {
@@ -710,14 +887,58 @@ window.P4A_STATE_DATA = [
         "url": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&Expand=1&OpenForm=&Seq=8&Start=1"
       },
       {
-        "label": "WAEC state elections information",
-        "url": "https://www.elections.wa.gov.au/about-us/media/state-elections-information"
+        "label": "WAEC state elections",
+        "url": "https://www.elections.wa.gov.au/elections/state"
       },
       {
         "label": "WAEC voting in a state election",
         "url": "https://www.elections.wa.gov.au/vote/voting-state-election"
+      },
+      {
+        "label": "wa secret harbour declaration 2026",
+        "url": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+      },
+      {
+        "label": "wa secret harbour ballot 2026",
+        "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+      },
+      {
+        "label": "wa fixed date rule",
+        "url": "https://www.elections.wa.gov.au/about-us/media/releases/1892"
+      },
+      {
+        "label": "wa government current",
+        "url": "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/New-laws-to-protect-more-Western-Australians-from-discrimination-20261020"
+      },
+      {
+        "label": "wa december lg notice",
+        "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640"
+      },
+      {
+        "label": "wa december lg hub",
+        "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+      },
+      {
+        "label": "wa september lg declaration",
+        "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2633"
+      },
+      {
+        "label": "wa september lg hub",
+        "url": "https://www.elections.wa.gov.au/2026-september-local-government-extraordinary-elections"
+      },
+      {
+        "label": "wa june lg hub",
+        "url": "https://www.elections.wa.gov.au/2026-june-local-government-extraordinary-elections"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/wa.md"
   },
   {
@@ -727,9 +948,9 @@ window.P4A_STATE_DATA = [
     "shortName": "SA",
     "capital": "Adelaide",
     "stateType": "State",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "The 2026 election and Legislative Council declaration were checked against ECSA result sources. House totals are derived from ECSA final district data.",
+    "researchStatus": "Scoped review 23 October: current House roster (source updated 22 May) confirms Labor 33 and five independents, including Speaker Nat Cook. Council summary now matches the retained 17 October roster; fresh full Council access was blocked. Final 2026 Council elected-order file and 7 April 2027 council postal deadline rechecked. Historical ballots and current affiliations remain separate.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Peter Malinauskas",
@@ -745,8 +966,8 @@ window.P4A_STATE_DATA = [
         "kind": "State general election",
         "scope": "general",
         "status": "Scheduled by fixed-term cycle",
-        "note": "South Australian state elections are ordinarily held on the third Saturday in March every four years.",
-        "source": "https://ecsa.sa.gov.au/elections",
+        "note": "Rule-derived ordinary date: third Saturday in March every four years, subject to the Act; not a newly announced 2030 timetable.",
+        "source": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html",
         "dayMetrics": {
           "displayDaysUntil": true,
           "displayDaysSince": true,
@@ -778,6 +999,22 @@ window.P4A_STATE_DATA = [
           "archiveWithCycle": "sa-2030-general archive",
           "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
         }
+      },
+      {
+        "label": "2027 periodic council elections — postal receipt deadline",
+        "date": "2027-04-07T17:00:00+09:30",
+        "kind": "Ordinary council elections",
+        "scope": "local-government",
+        "status": "Official timetable published",
+        "note": "Voting packages must be received by 5 pm Adelaide time. Rolls close 4 January; nominations run 26 January–9 February (noon). This replaces the earlier November 2026 schedule; council-specific exceptions remain separate.",
+        "source": "https://www.councilelections.sa.gov.au/about/key-dates",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "sa-2027-periodic-council-elections-postal-receipt-deadline",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
       }
     ],
     "chambers": [
@@ -786,13 +1023,13 @@ window.P4A_STATE_DATA = [
         "type": "Lower house",
         "seats": 47,
         "majority": 24,
-        "note": "Derived from ECSA final district results after the 2026 election.",
-        "source": "https://result.ecsa.sa.gov.au/",
+        "note": "Current official House roster, last updated 22 May 2026 and read 23 October. Nat Cook is Independent Speaker; her March election affiliation remains in historical results.",
+        "source": "https://contact-details-api.parliament.sa.gov.au/api/HAMembersDetails",
         "composition": [
           {
             "party": "Australian Labor Party",
             "short": "ALP",
-            "seats": 34
+            "seats": 33
           },
           {
             "party": "Liberal Party",
@@ -805,10 +1042,10 @@ window.P4A_STATE_DATA = [
             "seats": 4
           },
           {
-            "party": "Geoff Brock, Matt Schultz, Lou Nicholson and Travis Fatchen",
-            "short": "4 MHAs",
-            "seats": 4,
-            "memberSource": "https://www.abc.net.au/news/elections/sa/2026/results",
+            "party": "Geoff Brock, Matt Schultz, Lou Nicholson, Travis Fatchen, Nat Cook",
+            "short": "5 MHAs",
+            "seats": 5,
+            "memberSource": "https://contact-details-api.parliament.sa.gov.au/api/HAMembersDetails",
             "members": [
               {
                 "name": "Geoff Brock",
@@ -825,6 +1062,10 @@ window.P4A_STATE_DATA = [
               {
                 "name": "Travis Fatchen",
                 "seat": "Mount Gambier"
+              },
+              {
+                "name": "Nat Cook",
+                "seat": "Hurtle Vale"
               }
             ]
           }
@@ -835,8 +1076,8 @@ window.P4A_STATE_DATA = [
         "type": "Upper house",
         "seats": 22,
         "majority": 12,
-        "note": "Full chamber estimate combines the 2026 elected half with continuing 2022 members.",
-        "source": "https://ecsa.sa.gov.au/elections/2026se-lc-results",
+        "note": "22-member roster retained from the 17 October review: One Nation 3 and Family First 1. Fresh complete roster access was blocked on 23 October; this is not a new full certification.",
+        "source": "https://www.parliament.sa.gov.au/en/Legislative-Council/Members",
         "composition": [
           {
             "party": "Australian Labor Party",
@@ -851,12 +1092,17 @@ window.P4A_STATE_DATA = [
           {
             "party": "Pauline Hanson's One Nation",
             "short": "ONP",
-            "seats": 4
+            "seats": 3
           },
           {
             "party": "The Greens",
             "short": "GRN",
             "seats": 2
+          },
+          {
+            "party": "Family First Party",
+            "short": "FF",
+            "seats": 1
           }
         ]
       }
@@ -868,8 +1114,8 @@ window.P4A_STATE_DATA = [
     ],
     "sources": [
       {
-        "label": "ECSA 2026 Legislative Council results",
-        "url": "https://ecsa.sa.gov.au/elections/2026se-lc-results"
+        "label": "ECSA final 2026 elected Legislative Council members",
+        "url": "https://result.ecsa.sa.gov.au/assets/Elected_Members_of_Parliament_2026.csv"
       },
       {
         "label": "ECSA results website",
@@ -886,8 +1132,24 @@ window.P4A_STATE_DATA = [
       {
         "label": "ABC SA 2026 results and named crossbench winners",
         "url": "https://www.abc.net.au/news/elections/sa/2026/results"
+      },
+      {
+        "label": "Official assembly source",
+        "url": "https://contact-details-api.parliament.sa.gov.au/api/HAMembersDetails"
+      },
+      {
+        "label": "Official stateElectionSchedule source",
+        "url": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/sa.md"
   },
   {
@@ -897,9 +1159,9 @@ window.P4A_STATE_DATA = [
     "shortName": "TAS",
     "capital": "Hobart",
     "stateType": "State",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "House members were checked against the 2025 TEC elected-candidates list. Legislative Council member names now include Clare Glade-Wright after the 7 May 2026 Huon result; Rosevears remains to be confirmed in final declarations.",
+    "researchStatus": "Scoped review 23 October: current Parliament lists confirm 35 MHAs and 15 MLCs. Helen Burnet is Independent; Casey Hiscutt’s affiliation is resolved as Independent. Huon/Rosevears counting is complete. Council postal ballots close 27 October at 2 pm Hobart (1 pm Brisbane). Exact future House and May 2027 Council polling dates remain unannounced. Individual council profiles and federal rosters are not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -911,14 +1173,14 @@ window.P4A_STATE_DATA = [
     "elections": [
       {
         "label": "Next Tasmanian House of Assembly election",
-        "date": "2029-07-19T08:00:00+10:00",
+        "date": null,
         "kind": "State general election",
         "scope": "general",
-        "status": "Last-possible guide, not fixed",
-        "note": "Tasmanian House elections are held at least every four years, but the date is not fixed and can be earlier.",
+        "status": "Exact date not announced",
+        "note": "No fixed House polling date has been announced; the former 19 July 2029 anniversary was not a verified legal last polling day.",
         "source": "https://www.tec.tas.gov.au/house-of-assembly/",
         "dayMetrics": {
-          "displayDaysUntil": true,
+          "displayDaysUntil": false,
           "displayDaysSince": true,
           "daysSinceDate": "2025-07-19T08:00:00+10:00",
           "daysSinceLabel": "Previous Tasmanian House of Assembly general election polling day",
@@ -931,14 +1193,14 @@ window.P4A_STATE_DATA = [
       },
       {
         "label": "2027 Legislative Council periodic elections",
-        "date": "2027-05-01T08:00:00+10:00",
+        "date": null,
         "kind": "Legislative Council periodic elections",
         "scope": "upper-house",
-        "status": "Expected cycle",
-        "note": "Derwent, Mersey and Windermere are due in 2027 according to the TEC candidate handbook cycle table.",
-        "source": "https://www.tec.tas.gov.au/legislative-council/elections-2026/downloads/2026-Legislative-Council-Candidate-Handbook.pdf",
+        "status": "Exact date not announced",
+        "note": "TEC confirms May 2027 for Derwent, Mersey and Windermere; no exact polling date is verified.",
+        "source": "https://www.tec.tas.gov.au/legislative-council/",
         "dayMetrics": {
-          "displayDaysUntil": true,
+          "displayDaysUntil": false,
           "displayDaysSince": true,
           "daysSinceDate": "2026-05-02T08:00:00+10:00",
           "daysSinceLabel": "Most recent Tasmanian Legislative Council periodic election polling day",
@@ -954,8 +1216,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-05-02T08:00:00+10:00",
         "kind": "Legislative Council periodic elections",
         "scope": "recent",
-        "status": "Counting and declaration process active during research run",
-        "note": "Huon had an unassailable lead update on 7 May; Rosevears counting had adjourned on 7 May.",
+        "status": "Counting completed; elected members confirmed",
+        "note": "Huon: Clare Glade-Wright elected announcement 7 May; counting completed 12 May. Rosevears: Jo Palmer elected after counting completed 12 May. Later ceremony dates were scheduled notices, not independently verified completion.",
         "source": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -968,6 +1230,22 @@ window.P4A_STATE_DATA = [
           "archiveWithCycle": "tas-2029-general archive",
           "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
         }
+      },
+      {
+        "label": "2026 ordinary council elections — postal receipt deadline",
+        "date": "2026-10-27T14:00:00+11:00",
+        "kind": "Ordinary council elections",
+        "scope": "local-government",
+        "status": "Postal voting underway; receipt deadline published",
+        "note": "Completed ballots must reach the council by 2 pm Hobart time (1 pm Brisbane) on 27 October; TEC advises returning them in person rather than posting now. Counting starts 28 October at 9 am Hobart time. No result or current-member replacement is inferred.",
+        "source": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "tas-2026-ordinary-council-elections-postal-receipt-deadline",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
       }
     ],
     "chambers": [
@@ -976,8 +1254,8 @@ window.P4A_STATE_DATA = [
         "type": "Lower house",
         "seats": 35,
         "majority": 18,
-        "note": "Final elected-candidate party labels from the 2025 state election.",
-        "source": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/candidates-elected.html",
+        "note": "Current affiliations from the August 2026 Parliament list, reviewed 23 October; Helen Burnet is Independent. The 2025 ballot affiliations remain historical.",
+        "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
         "composition": [
           {
             "party": "Liberal Party",
@@ -992,13 +1270,13 @@ window.P4A_STATE_DATA = [
           {
             "party": "Tasmanian Greens",
             "short": "GRN",
-            "seats": 5
+            "seats": 4
           },
           {
-            "party": "George Razay, Craig Garland, Kristie Johnston, Peter George and David O'Byrne",
-            "short": "5 MHAs",
-            "seats": 5,
-            "memberSource": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/candidates-elected.html",
+            "party": "George Razay, Craig Garland, Helen Burnet, Kristie Johnston, Peter George, David O’Byrne",
+            "short": "6 MHAs",
+            "seats": 6,
+            "memberSource": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
             "members": [
               {
                 "name": "George Razay",
@@ -1009,6 +1287,10 @@ window.P4A_STATE_DATA = [
                 "seat": "Braddon"
               },
               {
+                "name": "Helen Burnet",
+                "seat": "Clark"
+              },
+              {
                 "name": "Kristie Johnston",
                 "seat": "Clark"
               },
@@ -1017,7 +1299,7 @@ window.P4A_STATE_DATA = [
                 "seat": "Franklin"
               },
               {
-                "name": "David O'Byrne",
+                "name": "David O’Byrne",
                 "seat": "Franklin"
               }
             ]
@@ -1124,8 +1406,68 @@ window.P4A_STATE_DATA = [
       {
         "label": "ABC Huon crossbench result report",
         "url": "https://www.abc.net.au/news/2026-05-07/clare-glade-wright-huon-election-result/106654874"
+      },
+      {
+        "label": "tas current ha list",
+        "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf"
+      },
+      {
+        "label": "tas current ha directory",
+        "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers"
+      },
+      {
+        "label": "tas burnet current",
+        "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/helen-burnet"
+      },
+      {
+        "label": "tas burnet history",
+        "url": "https://www.parliament.tas.gov.au/visit-and-learn/historyindex/members/parliament-of-tasmania-helen-burnet"
+      },
+      {
+        "label": "tas current lc list",
+        "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf"
+      },
+      {
+        "label": "tas current lc directory",
+        "url": "https://www.parliament.tas.gov.au/legislative-council/members"
+      },
+      {
+        "label": "tas current cabinet",
+        "url": "https://www.parliament.tas.gov.au/house-of-assembly/cabinet"
+      },
+      {
+        "label": "tas huon declaration release",
+        "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1688198&k=1P4JIgwcxv2YwS1vPq_fNXK2-5TvC_QYP-8-78xk3SU"
+      },
+      {
+        "label": "tas rosevears declaration release",
+        "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1689722&k=ahbyWx01lUrrzg2B3WjMrr6ex_vOhtEeA7-R3Ep6gAE"
+      },
+      {
+        "label": "tas lc cycle",
+        "url": "https://www.tec.tas.gov.au/legislative-council/"
+      },
+      {
+        "label": "tas lg 2026",
+        "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
+      },
+      {
+        "label": "tas tec front page",
+        "url": "https://www.tec.tas.gov.au/"
+      },
+      {
+        "label": "tas lg vacancies",
+        "url": "https://www.tec.tas.gov.au/local-government/vacancies.html"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/tas.md"
   },
   {
@@ -1135,16 +1477,16 @@ window.P4A_STATE_DATA = [
     "shortName": "ACT",
     "capital": "Canberra",
     "stateType": "Territory",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Current members, party breakdown and end-of-term date were checked against ACT Legislative Assembly and Elections ACT sources.",
+    "researchStatus": "Scoped review 23 October: 25 current MLAs reconciled; 10 Labor, 8 Liberal, 4 Green and 3 independents. September confidence-and-supply change confirmed. Redistribution suggestions close 3 November and comments run 4–17 November; current map remains in force. Federal profiles were inaccessible; no full federal refresh is claimed.",
     "government": {
       "leaderTitle": "Chief Minister",
       "leader": "Andrew Barr",
       "party": "Australian Labor Party",
-      "arrangement": "Labor minority government with Greens support",
+      "arrangement": "Labor minority government; former Greens confidence-and-supply agreement ended",
       "inPowerSince": "2014-12-11",
-      "note": "The Assembly has 25 members and no upper house."
+      "note": "The Greens ended the former confidence-and-supply arrangement in September 2026. Barr confirmed this in Assembly Hansard; it does not establish a change of government or a new election."
     },
     "elections": [
       {
@@ -1185,7 +1527,7 @@ window.P4A_STATE_DATA = [
           {
             "party": "Canberra Liberals",
             "short": "LIB",
-            "seats": 9
+            "seats": 8
           },
           {
             "party": "ACT Greens",
@@ -1193,9 +1535,9 @@ window.P4A_STATE_DATA = [
             "seats": 4
           },
           {
-            "party": "Fiona Carrick and Thomas Emerson",
-            "short": "2 MLAs",
-            "seats": 2,
+            "party": "Fiona Carrick, Thomas Emerson, Leanne Castley",
+            "short": "3 MLAs",
+            "seats": 3,
             "memberSource": "https://www.parliament.act.gov.au/members/current",
             "members": [
               {
@@ -1205,6 +1547,10 @@ window.P4A_STATE_DATA = [
               {
                 "name": "Thomas Emerson",
                 "seat": "Kurrajong"
+              },
+              {
+                "name": "Leanne Castley",
+                "seat": "Yerrabi"
               }
             ]
           }
@@ -1228,8 +1574,32 @@ window.P4A_STATE_DATA = [
       {
         "label": "Elections ACT elections page",
         "url": "https://www.elections.act.gov.au/elections"
+      },
+      {
+        "label": "act vacancy register",
+        "url": "https://www.elections.act.gov.au/elections/casual-vacancies/casual-vacancies-in-the-11th-legislative-assembly-2024-2028"
+      },
+      {
+        "label": "act arrangement hansard",
+        "url": "https://www.hansard.act.gov.au/hansard/11th-assembly/2026/PDF/tP260917.pdf"
+      },
+      {
+        "label": "act arrangement party primary",
+        "url": "https://greens.org.au/act/news/media-release/act-greens-end-confidence-and-supply-agreement-labor"
+      },
+      {
+        "label": "act redistribution current",
+        "url": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/act.md"
   },
   {
@@ -1239,9 +1609,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NT",
     "capital": "Darwin",
     "stateType": "Territory",
-    "researchRun": "2026-05-08",
+    "researchRun": "2026-10-23",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Current party count reflects the February 2026 official chamber seating plan plus the March 2026 Nightcliff by-election result.",
+    "researchStatus": "Scoped review 23 October: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents. Johnston identity join corrected. Mulka and Nightcliff results retained separately. NTEC lists no current elections; council review is index-level and federal profiles were inaccessible. Milngin replacement date remains unannounced.",
     "government": {
       "leaderTitle": "Chief Minister",
       "leader": "Lia Finocchiaro",
@@ -1257,8 +1627,8 @@ window.P4A_STATE_DATA = [
         "kind": "Territory general election",
         "scope": "general",
         "status": "Scheduled by four-year cycle",
-        "note": "NTEC states the next Legislative Assembly election is scheduled for August 2028; the last Saturday guide is 26 August.",
-        "source": "https://ntec.nt.gov.au/about-us",
+        "note": "Ordinary cycle: fourth Saturday in August every four years, subject to applicable exceptions. No new writ or timetable is implied.",
+        "source": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
         "dayMetrics": {
           "displayDaysUntil": true,
           "displayDaysSince": true,
@@ -1278,7 +1648,7 @@ window.P4A_STATE_DATA = [
         "scope": "by-election",
         "status": "Recently held",
         "note": "Ed Smelt won Nightcliff for Territory Labor after the resignation of Greens MLA Kat McNamara.",
-        "source": "https://parliament.nt.gov.au/members/by-name/Ed-Smelt",
+        "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results",
         "dayMetrics": {
           "displayDaysUntil": true,
           "displayDaysSince": true,
@@ -1289,6 +1659,22 @@ window.P4A_STATE_DATA = [
           "cycleKey": "nt-2026-by-election",
           "archiveWithCycle": "nt-2028-general archive",
           "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+        }
+      },
+      {
+        "label": "2026 Mulka by-election",
+        "date": "2026-09-12T08:00:00+09:30",
+        "kind": "Assembly by-election",
+        "scope": "recent",
+        "status": "Held; official results published",
+        "note": "Yiwarr McGrath (Territory Labor) is the current Mulka member; official first preferences 1,960 of 2,534 formal votes. NTEC reports no two-candidate-preferred count. Office-start date is not inferred from the timetable.",
+        "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "nt-2026-mulka-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
         }
       }
     ],
@@ -1309,18 +1695,14 @@ window.P4A_STATE_DATA = [
           {
             "party": "Territory Labor",
             "short": "ALP",
-            "seats": 5
+            "seats": 6
           },
           {
-            "party": "Yingiya Mark Guyula, Robyn Lambley and Justine Davis",
-            "short": "3 MLAs",
-            "seats": 3,
-            "memberSource": "https://parliament.nt.gov.au/members/chamber-seating/One-page-seating-plan-Feb-2026.pdf",
+            "party": "Robyn Lambley, Justine Davis",
+            "short": "2 MLAs",
+            "seats": 2,
+            "memberSource": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf",
             "members": [
-              {
-                "name": "Yingiya Mark Guyula",
-                "seat": "Mulka"
-              },
               {
                 "name": "Robyn Lambley",
                 "seat": "Araluen"
@@ -1355,8 +1737,72 @@ window.P4A_STATE_DATA = [
       {
         "label": "ABC Nightcliff result report",
         "url": "https://www.abc.net.au/news/2026-03-09/nt-labor-ed-smelt-wins-nightcliff-byelection-greens-seat-suki/106432806"
+      },
+      {
+        "label": "nt current roster",
+        "url": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf"
+      },
+      {
+        "label": "nt current davis",
+        "url": "https://parliament.nt.gov.au/members/by-name/justine-davis"
+      },
+      {
+        "label": "nt current paech",
+        "url": "https://parliament.nt.gov.au/members/by-name/chanston-paech"
+      },
+      {
+        "label": "nt current mcgrath",
+        "url": "https://parliament.nt.gov.au/members/by-name/yiwarr-mcgrath"
+      },
+      {
+        "label": "nt current lambley",
+        "url": "https://parliament.nt.gov.au/members/by-name/robyn-jane-lambley"
+      },
+      {
+        "label": "nt current ministry",
+        "url": "https://parliament.nt.gov.au/members/ministry"
+      },
+      {
+        "label": "nt assembly index",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly"
+      },
+      {
+        "label": "nt mulka results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results"
+      },
+      {
+        "label": "nt mulka timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/Mulka-timetable"
+      },
+      {
+        "label": "nt nightcliff results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results"
+      },
+      {
+        "label": "nt nightcliff timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/timetable"
+      },
+      {
+        "label": "nt ordinary rule",
+        "url": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable"
+      },
+      {
+        "label": "nt current elections",
+        "url": "https://ntec.nt.gov.au/elections/current-elections"
+      },
+      {
+        "label": "nt public notices",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
       }
     ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-10-23",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    },
     "sourceMarkdown": "content/states/nt.md"
   }
 ];

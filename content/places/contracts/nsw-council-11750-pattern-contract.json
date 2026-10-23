@@ -73,7 +73,8 @@
           "council-abs-2026-lga",
           "council-nsw-olg-directory",
           "council-nsw-legal-boundaries",
-          "council-nsw-2024-cobar-councillors"
+          "council-nsw-2024-cobar-councillors",
+          "refresh-nsw-council-11750-20261023"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -295,6 +296,24 @@
                 "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/cobar/councillor"
               }
             ]
+          },
+          {
+            "id": "nsw-council-11750-by-election-2026-11-28",
+            "label": "2026 Cobar Shire Council by-election",
+            "kind": "by-election",
+            "status": "Scheduled; nominations open",
+            "date": "2026-11-28",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-10-28T12:00:00+11:00. Postal ballots received by 2026-12-11T18:00:00+11:00.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+            "candidates": [],
+            "dateTime": "2026-11-28T18:00:00+11:00",
+            "milestoneLabel": "election-day voting closes",
+            "postalReceiptDeadline": "2026-12-11T18:00:00+11:00",
+            "nominationsClose": "2026-10-28T12:00:00+11:00",
+            "earlyVotingOpens": "2026-11-23T08:30:00+11:00",
+            "earlyVotingCloses": "2026-11-27T18:00:00+11:00",
+            "postalApplicationsClose": "2026-11-23T17:00:00+11:00"
           }
         ],
         "coverageNotes": [
@@ -307,7 +326,8 @@
             "featureId": "11750",
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
           }
-        ]
+        ],
+        "representationReview": "23 October review: one councillor vacancy is officially confirmed for this by-election. The retained 17 October roster is not reconciled to the departing member; named resignation evidence was incomplete/inaccessible. Follow the current official council directory."
       }
     }
   ],
@@ -332,7 +352,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -340,11 +360,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

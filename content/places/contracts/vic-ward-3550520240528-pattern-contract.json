@@ -17,6 +17,7 @@
   "coverageNotes": [
     "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
     "Previous local-election contestant roster is not yet reconciled.",
+    "23 October review: by-election process/result verified; individual current council profile not freshly verified. Retain that distinction and follow the official roster.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -71,7 +72,8 @@
         "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils",
         "sources": [
           "council-vic-retained",
-          "council-vic-2024-355"
+          "council-vic-2024-355",
+          "refresh-vic-ward-3550520240528-20261023"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
         "representatives": [],
@@ -118,13 +120,30 @@
             "timezone": "Australia/Melbourne",
             "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
             "candidates": []
+          },
+          {
+            "id": "vic-ward-3550520240528-by-election-2026-2026-12-05",
+            "label": "2026 Kinglake Ward by-election",
+            "kind": "by-election",
+            "status": "scheduled",
+            "date": "2026-12-04",
+            "dateBasis": "Official postal receipt deadline. Election date 2026-12-05 is separate; the timer targets the published preceding Friday close. Nominations close 27 October 2026 at noon Australia/Melbourne; no final ballot or winner is inferred.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+            "candidates": [],
+            "dateTime": "2026-12-04T18:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "electionDate": "2026-12-05",
+            "nominationsClose": "2026-10-27T12:00:00+11:00"
           }
         ],
         "coverageNotes": [
           "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
-          "Previous local-election contestant roster is not yet reconciled."
+          "Previous local-election contestant roster is not yet reconciled.",
+          "23 October review: by-election process/result verified; individual current council profile not freshly verified. Retain that distinction and follow the official roster."
         ],
-        "parentId": "vic-lga-355"
+        "parentId": "vic-lga-355",
+        "representationStatus": "vacant"
       }
     }
   ],
@@ -149,7 +168,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -157,11 +176,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

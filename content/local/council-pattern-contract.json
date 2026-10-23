@@ -521,7 +521,8 @@
       "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
       "content/places/qa/browser-review.json",
       "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
-      "content/places/qa/pre-navigation-2026-10-23/browser-review.json"
+      "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
+      "content/places/qa/pre-research-2026-10-23/browser-review.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -563,7 +564,7 @@
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       },
       {
         "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
@@ -603,8 +604,13 @@
     },
     "visitorNavigationReview": {
       "reviewedOn": "2026-10-23",
-      "path": "content/places/qa/browser-review.json",
+      "path": "content/places/qa/pre-research-2026-10-23/browser-review.json",
       "scope": "Actual affected shared-style and entry review across all eight portals/maps plus legacy Queensland council and Redlands candidate entry; previous Index, sources, Twinkles and full local journey reviews retain their dated archived evidence."
+    },
+    "stateResearchReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Affected Queensland portal and shared current-member/event rendering reviewed after scoped national state research; unchanged Redlands facts, maps, local journeys and prior broader acceptance retain their earlier evidence."
     }
   },
   "dateInventories": [

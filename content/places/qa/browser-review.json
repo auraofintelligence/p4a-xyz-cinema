@@ -1,55 +1,23 @@
 {
   "schemaVersion": 1,
   "checked": "2026-10-23",
-  "checkedAt": "2026-10-23T12:53:21+10:00",
+  "checkedAt": "2026-10-23T14:38:26+10:00",
   "status": "PASS",
-  "scope": "Focused national/state/council navigation correction. All eight entry points plus sampled WA, ACT, NT and federal interactions; political facts were not refreshed.",
+  "scope": "Actual bounded 23 October state-research browser review: eight phone overviews and named changed member/event/map views. This does not freshly certify all national profiles, legal/candidate sources, history or physical devices. Additional bounded review of six legacy Victorian current-office dependants and council-first hierarchy at all eight phone entry points. Runtime click activation is inconclusive; rendered links, direct destinations, layer/search controls and browser history were verified.",
   "environment": {
     "browser": "Codex in-app Chromium",
     "viewports": [
       [
         390,
         844
-      ],
-      [
-        680,
-        900
-      ],
-      [
-        1280,
-        720
       ]
     ],
+    "effectiveContentWidthPx": 375,
     "physicalTouchTested": false
   },
   "fixtures": [
     {
-      "id": "national-map-and-keyboard-route",
-      "status": "PASS",
-      "paths": [
-        "pages/states.html",
-        "pages/maps.html",
-        "pages/places.html"
-      ],
-      "observed": {
-        "eightNationalLabelsTargetElectorateMaps": true,
-        "generalMapEightLabelsAlsoTargetElectorateMaps": true,
-        "generalMapWAClickOpensLoadedElectorateMap": true,
-        "waLabelClickAndKeyboardEnterOpenElectorateMap": true,
-        "keyboardAustraliaMapReturn": true,
-        "directoryCards": 8,
-        "nationalDirectoryPhoneClientAndScrollWidth": [
-          375,
-          375
-        ],
-        "finalGeneralMapPhoneClientAndScrollWidth": [
-          375,
-          375
-        ]
-      }
-    },
-    {
-      "id": "eight-phone-portals",
+      "id": "eight-refreshed-phone-portals",
       "status": "PASS",
       "paths": [
         "states/act/index.html",
@@ -62,180 +30,260 @@
         "states/wa/index.html"
       ],
       "observed": {
-        "jurisdictions": [
-          "act",
-          "nsw",
-          "nt",
-          "qld",
-          "sa",
-          "tas",
-          "vic",
-          "wa"
-        ],
-        "fontStatus": "loaded",
+        "allResearchRuns": "2026-10-23",
+        "researchTimezones": {
+          "vic": "Australia/Melbourne",
+          "others": "Australia/Brisbane"
+        },
+        "scopeAndPartialStatusVisible": true,
+        "mapsBeforeLongSummaries": true,
         "eachClientAndScrollWidth": [
           375,
           375
         ],
-        "entryBeforePoliticalSummary": true,
-        "entryHeadingFontPx": 21.6,
         "eachMapChoiceHeightPx": 44.375,
-        "cloneLanguageAbsent": true,
-        "waPhoneScreenshotVisuallyReviewed": true,
-        "finalNavigationDateSeparatelyLabelledFromResearchDate": true
-      }
+        "fonts": "loaded",
+        "cloneTailoringTextAbsent": true,
+        "SAHeroScreenshotVisuallyReviewed": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
     },
     {
-      "id": "eight-electorate-map-entries",
+      "id": "tasmania-announced-and-unannounced-dates",
       "status": "PASS",
       "paths": [
-        "states/act/places/state/index.html",
-        "states/nsw/places/state/index.html",
+        "states/tas/index.html"
+      ],
+      "observed": {
+        "ordinaryCouncilReceipt": "2026-10-27T14:00:00+11:00",
+        "nextHouseDate": null,
+        "may2027CouncilExactDate": null,
+        "unknownCards": "Date not announced",
+        "unknownCardsActiveCountdownElements": 0,
+        "unknownDayMetricsHidden": true,
+        "completedMayEventRetained": true,
+        "width": [
+          375,
+          375
+        ]
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "nt-member-join-search-and-history",
+      "status": "PASS",
+      "paths": [
         "states/nt/places/state/index.html",
-        "states/qld/places/state/index.html",
-        "states/sa/places/state/index.html",
-        "states/tas/places/state/index.html",
-        "states/vic/places/state/index.html",
-        "states/wa/places/state/index.html"
+        "states/nt/electorates/districts/johnston/index.html"
       ],
       "observed": {
-        "allLoadedExactSourceBoundaries": true,
-        "eachClientAndScrollWidth": [
+        "search": "Justine Davis",
+        "matchingAreas": 1,
+        "selection": "Johnston",
+        "detailMember": "Justine Davis — Independent",
+        "checked": "2026-10-23",
+        "OpenThenBackRestoresJohnston": true,
+        "ForwardOpensSameDetail": true,
+        "settledExactMapLoaded": true,
+        "settledWidth": [
           375,
           375
         ],
-        "eachControlAtLeast44Px": true,
-        "currentMapChoiceHighlighted": true,
-        "saDefault": "House of Assembly districts — 2026 election",
-        "tasDefault": "House of Assembly divisions",
-        "otherDefaults": "Legislative Assembly districts"
-      }
+        "transientLoadFramesExcludedFromLayoutConclusion": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
     },
     {
-      "id": "wa-state-council-history",
+      "id": "nsw-council-casual-vacancy",
       "status": "PASS",
       "paths": [
-        "states/wa/places/state/index.html",
-        "states/wa/places/councils/index.html",
-        "states/wa/councils/perth/index.html"
+        "states/nsw/electorates/regions/legislative-council/index.html"
       ],
       "observed": {
-        "statePerthSearchSelect": true,
-        "upperHouseIsSeparateWholeStateContext": true,
-        "layerBackRestoresPerthSelection": true,
-        "layerForwardRestoresUpperHouse": true,
-        "councilChoiceLoadsCouncilLayer": true,
-        "councilPerthSelectAndOpen": true,
-        "backRestoresCouncilPerthSelection": true,
-        "phoneClientAndScrollWidth": [
-          375,
-          375
-        ],
-        "phoneControlMinimumHeightPx": 44,
-        "phoneScreenshotVisuallyReviewed": true
-      }
+        "currentMemberCards": 42,
+        "GovindPresent": true,
+        "replacementDate": "2026-10-15",
+        "clockMilestone": "parliamentary replacement",
+        "participantRecordNotPublicBallot": true,
+        "old41MemberGapResolved": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
     },
     {
-      "id": "act-real-arrangements",
+      "id": "wa-secret-harbour-event-history",
       "status": "PASS",
       "paths": [
-        "states/act/places/state/index.html",
+        "states/wa/electorates/districts/secret-harbour/index.html"
+      ],
+      "observed": {
+        "byElectionDate": "2026-08-29",
+        "declarationDate": "2026-09-09",
+        "recordedAcceptedBallot": 16,
+        "currentHerdegenRetainsOctober17Check": true,
+        "general2025AndByElection2026Separate": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "tas-montgomery-current-affiliation",
+      "status": "PASS",
+      "paths": [
+        "states/tas/electorates/regions/montgomery/index.html"
+      ],
+      "observed": {
+        "member": "Casey Hiscutt",
+        "party": "Independent",
+        "checked": "2026-10-23"
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "postal-deadlines-vacancy-and-partial-roster-notes",
+      "status": "PASS",
+      "paths": [
+        "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3550520240528/index.html",
+        "states/nsw/councils/cobar/index.html",
+        "states/wa/councils/carnarvon/index.html"
+      ],
+      "observed": {
+        "TablelandsConfirmedVacant": true,
+        "TablelandsCompletion": "2026-10-31T18:00:00+10:00",
+        "TablelandsReceipt": "2026-11-10T17:00:00+10:00",
+        "KinglakePostalReceipt": "2026-12-04T18:00:00+11:00",
+        "KinglakeFormalElectionDateSeparate": "2026-12-05",
+        "KinglakeNominations": "2026-10-27T12:00:00+11:00",
+        "CobarVotingClose": "2026-11-28T18:00:00+11:00",
+        "CarnarvonPostalReceipt": "2026-12-03T18:00:00+08:00",
+        "CobarAndCarnarvonUnreconciledCurrentRosterWarningBeforeCards": true,
+        "noFutureWinnerInferred": true
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
+    },
+    {
+      "id": "act-countback-and-real-local-context",
+      "status": "PASS",
+      "paths": [
         "states/act/electorates/districts/kurrajong/index.html",
         "states/act/places/councils/index.html"
       ],
       "observed": {
-        "kurrajongSearchSelectOpen": true,
-        "fivePublishedRepresentativesRetained": true,
-        "localChoiceLabel": "ACT local areas",
-        "localMapLabel": "ACT local areas: ABS statistical boundaries",
-        "oneUnincorporatedAreaNotElectedCouncil": true,
-        "noInventedCouncilOrElection": true
-      }
+        "KurrajongMembers": 5,
+        "VassarottiPresent": true,
+        "countbackDate": "2026-06-04",
+        "formalDeclarationDate": "2026-06-05",
+        "clockMilestone": "countback",
+        "oneUnincorporatedArea": true,
+        "noInventedElectedCouncil": true,
+        "localLayerLoaded": "ACT local areas: ABS statistical boundaries"
+      },
+      "reviewedAt": "2026-10-23T14:12:46+10:00"
     },
     {
-      "id": "nt-map-and-responsive-controls",
+      "id": "legacy-victoria-six-current-office-dependants",
+      "reviewedAt": "2026-10-23T14:38:26+10:00",
       "status": "PASS",
       "paths": [
-        "states/nt/places/state/index.html",
-        "states/nt/places/councils/index.html"
+        "states/vic/map/index.html",
+        "states/vic/councils/mornington-peninsula-shire-council/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html"
       ],
       "observed": {
-        "nightcliffSearchSelect": true,
-        "councilTransitionLoadsLocalBoundaries": true,
-        "officialWardLayerAvailable": true,
-        "tabletClientAndScrollWidth": [
-          665,
-          665
+        "legacyTextDirectoryNames": [
+          "Nicola Rooks",
+          "David Thorpe",
+          "Christine Leahy",
+          "Rob Moffatt",
+          "Nikki Kaur",
+          "Kim McAliney"
         ],
-        "desktopClientAndScrollWidth": [
-          1265,
-          1265
-        ],
-        "tabletScreenshotVisuallyReviewed": true
+        "datedBaseRosterRetained": "2026-10-02",
+        "namedOfficeSourceChecks": "2026-10-23",
+        "ChristineSearchResultAndGovernancePanelVerified": true,
+        "KaurVCATReviewQualificationVisibleInTextRecord": true,
+        "otherRosterAndGeometryDatesNotRefreshed": true
       }
     },
     {
-      "id": "federal-reciprocal-navigation",
+      "id": "eight-layered-council-directories",
+      "reviewedAt": "2026-10-23T14:38:26+10:00",
       "status": "PASS",
       "paths": [
-        "states/wa/federal/perth/index.html"
+        "states/act/places/councils/index.html",
+        "states/nsw/places/councils/index.html",
+        "states/nt/places/councils/index.html",
+        "states/qld/places/councils/index.html",
+        "states/sa/places/councils/index.html",
+        "states/tas/places/councils/index.html",
+        "states/vic/places/councils/index.html",
+        "states/wa/places/councils/index.html",
+        "states/vic/councils/mornington-peninsula-shire-council/index.html",
+        "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html"
       ],
       "observed": {
-        "perthSelected": true,
-        "stateCouncilFederalChoicesPresent": true,
-        "houseAndSenateContextRemainSeparate": true
-      }
-    },
-    {
-      "id": "legacy-queensland-and-redlands-entry",
-      "status": "PASS",
-      "paths": [
-        "states/qld/councils/index.html",
-        "states/qld/councils/redland/candidates/index.html"
-      ],
-      "observed": {
-        "eachClientAndScrollWidth": [
+        "phoneDirectoryCounts": {
+          "act": 1,
+          "nsw": 129,
+          "nt": 20,
+          "qld": 78,
+          "sa": 71,
+          "tas": 29,
+          "vic": 87,
+          "wa": 137
+        },
+        "wardLinksInEachStateTextDirectory": 0,
+        "eachPhoneClientAndScrollWidth": [
           375,
           375
         ],
-        "retainedQueenslandMapCanvasCount": 1,
-        "developerBuildLinkRemoved": true,
-        "redlandsElectionEntry": "../elections/index.html",
-        "factsAndJourneyContentPreserved": true
+        "VicCouncilsAndSpecialArrangementsSeparatelyLabelled": true,
+        "VicHeader": "87 councils and local areas",
+        "independentTextFilters": [
+          "Mornington - one council match",
+          "Gabo - one special-area match"
+        ],
+        "MorningtonExistingCouncilChildLinks": 11,
+        "BriarsExistingPageAndParentLinkVerified": true,
+        "VICWardLayerSwitchAndBriarsSearch": 1,
+        "directWardNavigationThenBackRestoresWardLayer": true,
+        "ForwardReturnsBriarsDetail": true,
+        "mouseAndKeyboardActivation": "inconclusive: automation returned without navigation or button selection in two task tabs; no runtime click pass claimed"
       }
     }
   ],
   "testedPagePaths": [
-    "pages/maps.html",
-    "pages/places.html",
-    "pages/states.html",
     "states/act/electorates/districts/kurrajong/index.html",
     "states/act/index.html",
     "states/act/places/councils/index.html",
-    "states/act/places/state/index.html",
+    "states/nsw/councils/cobar/index.html",
+    "states/nsw/electorates/regions/legislative-council/index.html",
     "states/nsw/index.html",
-    "states/nsw/places/state/index.html",
+    "states/nsw/places/councils/index.html",
+    "states/nt/electorates/districts/johnston/index.html",
     "states/nt/index.html",
     "states/nt/places/councils/index.html",
     "states/nt/places/state/index.html",
-    "states/qld/councils/index.html",
-    "states/qld/councils/redland/candidates/index.html",
     "states/qld/index.html",
-    "states/qld/places/state/index.html",
+    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+    "states/qld/places/councils/index.html",
     "states/sa/index.html",
-    "states/sa/places/state/index.html",
+    "states/sa/places/councils/index.html",
+    "states/tas/electorates/regions/montgomery/index.html",
     "states/tas/index.html",
-    "states/tas/places/state/index.html",
+    "states/tas/places/councils/index.html",
+    "states/vic/councils/mornington-peninsula-shire-council/index.html",
     "states/vic/index.html",
-    "states/vic/places/state/index.html",
-    "states/wa/councils/perth/index.html",
-    "states/wa/federal/perth/index.html",
+    "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html",
+    "states/vic/local-electoral-areas/vic-ward-3550520240528/index.html",
+    "states/vic/map/index.html",
+    "states/vic/places/councils/index.html",
+    "states/wa/councils/carnarvon/index.html",
+    "states/wa/electorates/districts/secret-harbour/index.html",
     "states/wa/index.html",
-    "states/wa/places/councils/index.html",
-    "states/wa/places/state/index.html"
+    "states/wa/places/councils/index.html"
   ],
   "fixturePaths": [
-    "content/places/qa/navigation-browser-fixture-2026-10-23.json"
+    "content/places/qa/research-browser-fixture-2026-10-23.json"
   ],
   "artifactFingerprints": [
     {
@@ -254,144 +302,214 @@
       "bytes": 33792
     },
     {
-      "path": "content/places/qa/navigation-browser-fixture-2026-10-23.json",
-      "sha256": "586e1c6e3cae14658c196d4065ced63bfbc83e88aeb1544aac53f563e1e5e4b3",
-      "bytes": 5509
+      "path": "assets/state-data.js",
+      "sha256": "10526e29178f243e712b3932025878c5f57f91f95debcedda461a6a054805dfd",
+      "bytes": 76303
     },
     {
-      "path": "pages/maps.html",
-      "sha256": "1cdb9da0aba518732c7b2ffd07cc6b329270a95d94831ec273629cf64ab5d710",
-      "bytes": 6343
+      "path": "assets/vic-electorates.js",
+      "sha256": "3773f00ad2ea3de8e73eb268096b0ded122aa4bcd0154f1aa30053e3d1927184",
+      "bytes": 536627
     },
     {
-      "path": "pages/places.html",
-      "sha256": "1a418b086fe2d46e8efb65e47865c09ac8c62d0c3d3bcafabd2f219b3efe3e5d",
-      "bytes": 6596
+      "path": "content/councils/vic.json",
+      "sha256": "97e766a8c6a6aade3344fd8be01c5014a8ac52af4456121bae2edc35c56ec6e9",
+      "bytes": 1470004
     },
     {
-      "path": "pages/states.html",
-      "sha256": "a80b4341e147bf8bd0f9a84989bb85be643430a460fcc5da162863d990fe72ef",
-      "bytes": 39745
+      "path": "content/elections/vic-2026.json",
+      "sha256": "0e950ed8013de0d0661615e779e767b052b30680da9fde4c718a9dc24263d897",
+      "bytes": 656883
+    },
+    {
+      "path": "content/places/qa/research-browser-fixture-2026-10-23.json",
+      "sha256": "8247ccadb5b1fdca0529b30cfae7de244c19699255c189710b1ca43e4d36bcf6",
+      "bytes": 8144
+    },
+    {
+      "path": "content/states/act.md",
+      "sha256": "0190fb94358b3bbe7436da3fab9c12e45c42a5dca8fe3e8681b2ed4b6db78298",
+      "bytes": 5312
+    },
+    {
+      "path": "content/states/nsw.md",
+      "sha256": "1b2fdfbd37fbc93480cd8fdfad47597a212478117da06d8bbeb885fb4a20d063",
+      "bytes": 11138
+    },
+    {
+      "path": "content/states/nt.md",
+      "sha256": "b76d4b51d3aabfd525e6552c05fc8706634a0f9c86ff7e2ccb3d80e64e43b112",
+      "bytes": 8695
+    },
+    {
+      "path": "content/states/qld.md",
+      "sha256": "8deedf57ac841349c9e4cdaae0959172b5bbd6b146f24415d3901729010bf27f",
+      "bytes": 7628
+    },
+    {
+      "path": "content/states/sa.md",
+      "sha256": "65fa75d84bdc38cef45e8bc4b7a0f2003b752c7d023e86fffd18b3a32388f1c9",
+      "bytes": 8465
+    },
+    {
+      "path": "content/states/tas.md",
+      "sha256": "7d5ceaa179e1c104649859baf6536cef3fcf924143d2bad82c4cca496aac3880",
+      "bytes": 12815
+    },
+    {
+      "path": "content/states/vic.md",
+      "sha256": "abd2ecdcc5b54243bb93632d5ad7a9865cc14777669b1a0a4bb73286d4d704e5",
+      "bytes": 9514
+    },
+    {
+      "path": "content/states/wa.md",
+      "sha256": "95cb4bf567d8389f245a8e7b3f76857a09a7827dae87b2e06f36cc6253a673ae",
+      "bytes": 9067
     },
     {
       "path": "states/act/electorates/districts/kurrajong/index.html",
-      "sha256": "55029db53f7602cede916439c32440fadb0215beed3cd2a6548f75c7d07e0385",
-      "bytes": 42203
+      "sha256": "34031c4d1b15f656a4ac1874358368c9d08d67a51ad2f39d8d2e336d192e0b4c",
+      "bytes": 42858
     },
     {
       "path": "states/act/index.html",
-      "sha256": "d13520e0442d96599cf6d233b1e40df01039b6fb7093abd3419a3457a1be148a",
-      "bytes": 12006
+      "sha256": "8aaee37cd9c038a4dc872428b162fd218c8e2d22108c6ee492bcdcf79181713c",
+      "bytes": 13536
     },
     {
       "path": "states/act/places/councils/index.html",
-      "sha256": "fb464eeee72b36bb5fff4de898e5b6f9d99fb170d1547041d3710fb8c297b1aa",
-      "bytes": 13371
+      "sha256": "d01c513c19abe3833b4a960d508c7566d2a1176fa6b1ced82aec46a6de5aa6c0",
+      "bytes": 13541
     },
     {
-      "path": "states/act/places/state/index.html",
-      "sha256": "772619502b7708a2d362123ba3ec46ae620e0ef22b6275a8396d5ce19c087fc1",
-      "bytes": 16566
+      "path": "states/nsw/councils/cobar/index.html",
+      "sha256": "569a15223060993735ade25b00c6d2aed969559af2c26cf13a601aa25c602e82",
+      "bytes": 165975
+    },
+    {
+      "path": "states/nsw/electorates/regions/legislative-council/index.html",
+      "sha256": "cf85502b3820edda6ce6780c33bfc3f5c877e3d97ea624d7cc689beb83c39aa1",
+      "bytes": 123583
     },
     {
       "path": "states/nsw/index.html",
-      "sha256": "9d193a16403c45872eb0fbdc5e86586cca20e733b1e95b826a904386677622a9",
-      "bytes": 15810
+      "sha256": "a06b08522e470e364b917d05e80da3cd3c9149d5385e1f8b69951e918b98d3ad",
+      "bytes": 23173
     },
     {
-      "path": "states/nsw/places/state/index.html",
-      "sha256": "faa67a7bff81633b7f52ba0ac9b13a64a5de757f0fc617a0d537f215c18a8041",
-      "bytes": 57932
+      "path": "states/nsw/places/councils/index.html",
+      "sha256": "d62fbffb68e30eee0cfd5f3cb32bd09b2291808f93511e13516941c7e5442262",
+      "bytes": 150853
+    },
+    {
+      "path": "states/nt/electorates/districts/johnston/index.html",
+      "sha256": "af9c6dc839ee71af916e755539cfdb29dee7d03729864ff685dd3d62873619db",
+      "bytes": 32806
     },
     {
       "path": "states/nt/index.html",
-      "sha256": "0bdc79c7ac4954488933024f506c12662e0aceb5d7f6d57381ff82ae82179920",
-      "bytes": 13996
+      "sha256": "36516bf78e2e6b680e0dbe96d6022bdce3f0beacba8c0b90872acdbaaccaaa75",
+      "bytes": 18739
     },
     {
       "path": "states/nt/places/councils/index.html",
-      "sha256": "ce8a075625e11c50f5db7dfb6d8aab1a4c0e057ad128c0e5ee00cdb7273e3312",
-      "bytes": 68763
+      "sha256": "901c0e149a3075a36eb04bb8dd87266b38c774c7764a8e41b22eff21f9e4f2f9",
+      "bytes": 59459
     },
     {
       "path": "states/nt/places/state/index.html",
-      "sha256": "c65189f53c40e34e8c3519af09ce201cf2e13088c8df9b2011aebbe81c097816",
-      "bytes": 24758
-    },
-    {
-      "path": "states/qld/councils/index.html",
-      "sha256": "c6cc04ed9f4df3b58a9ca6c2fd74b7aa4b0a916a31df92f7323b0d00670a69c1",
-      "bytes": 15434
-    },
-    {
-      "path": "states/qld/councils/redland/candidates/index.html",
-      "sha256": "8c684f5bc827ade08b245c7c19bfdbb943eb13d243eae0680cd8187aca9a5265",
-      "bytes": 13580
+      "sha256": "033add6143b104ce871e56e80dbf11a86dbb092798dbabd1b50f8aa844eb1ac7",
+      "bytes": 24756
     },
     {
       "path": "states/qld/index.html",
-      "sha256": "e1858b0a87ab60c93719ebbefb5efa0d1e3b626459f00c44cfd2a86b2fab648a",
-      "bytes": 25989
+      "sha256": "65bdf7ecada61381c95d2260070c9050e390ed6c1b3373cd021bdf7fed76605d",
+      "bytes": 29708
     },
     {
-      "path": "states/qld/places/state/index.html",
-      "sha256": "d6bf8c1dbd847766b40c2f340e4c5a77c6d59a6efa154b387dea0237de6cbda4",
-      "bytes": 55232
+      "path": "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+      "sha256": "ce09ec9b492cc5c599e046fc490504f03e7cb60a03b7740075ff654032c4b9a7",
+      "bytes": 26050
+    },
+    {
+      "path": "states/qld/places/councils/index.html",
+      "sha256": "f00eaf77006a59b79ffc925ea95c75f892072c0b4357d942844995a35eb3563c",
+      "bytes": 101584
     },
     {
       "path": "states/sa/index.html",
-      "sha256": "df80d524a00b97e381f759986b120b09d1815d99b7cf5536f545de1053416a4d",
-      "bytes": 15631
+      "sha256": "419e1f62b1ee6b023225ea9aa2d0deb0df74939009bdfe78eb69c64acac8c38a",
+      "bytes": 19278
     },
     {
-      "path": "states/sa/places/state/index.html",
-      "sha256": "4696c421d9e2c52167c8b1ff70ce2b1dfee2cd06cc725f1d86effb3593b4db39",
-      "bytes": 52637
+      "path": "states/sa/places/councils/index.html",
+      "sha256": "a194c5e44ea7c44205d23239df1a80c72fd991eed79e4adfc6ed43f06927bf12",
+      "bytes": 83282
+    },
+    {
+      "path": "states/tas/electorates/regions/montgomery/index.html",
+      "sha256": "c44dd64753e12723637328153f7d3e2f05b2216d75fe9b962ecba09605afbfdf",
+      "bytes": 31228
     },
     {
       "path": "states/tas/index.html",
-      "sha256": "7cec81900097acd923b132773abb374c90eaca11fb1dee9572ad2d57b4ef2801",
-      "bytes": 19339
+      "sha256": "39ea4ed28dc2e41bbb6f9688e758adc6b9c25310d99ada82bb10f2985741eaa8",
+      "bytes": 24477
     },
     {
-      "path": "states/tas/places/state/index.html",
-      "sha256": "d5da56f10dab9747acc52342d7039a26b30bdfbb8df99a0ecbb85cfe39d1f563",
-      "bytes": 25062
+      "path": "states/tas/places/councils/index.html",
+      "sha256": "a9e6c2dc9ae4d9fa5d75a47cc2d8727a9923a506d6d47e87bd727820a5bfa721",
+      "bytes": 32264
+    },
+    {
+      "path": "states/vic/councils/mornington-peninsula-shire-council/index.html",
+      "sha256": "d03f0b80b4bcbdf90130fa1b183fe7f238237c54c105c223acc6d700c74dd94d",
+      "bytes": 49759
     },
     {
       "path": "states/vic/index.html",
-      "sha256": "040b27b13e3df7d94a937e42da15b7a8e854413791475209e96c416f28d45f6c",
-      "bytes": 20099
+      "sha256": "adcc1172d970d6cd7afb8294f323411ba85a6f3f252b447a07f56180e0b7ab1a",
+      "bytes": 20504
     },
     {
-      "path": "states/vic/places/state/index.html",
-      "sha256": "78531f4ebe7c585bb8bcb2e423151c2c444bc4ce4ba2e40ba2cf5e7728421cd8",
-      "bytes": 55915
+      "path": "states/vic/local-electoral-areas/vic-ward-3520320240215/index.html",
+      "sha256": "c3857e0edf654fbfc8fde978bf6fd04ff9bd50a8c8ff980a7fbeae4e1924ccd0",
+      "bytes": 27776
     },
     {
-      "path": "states/wa/councils/perth/index.html",
-      "sha256": "23274abdd347327933235c92dfabcd8ac1ecbd85e7248a8a806264555554d496",
-      "bytes": 106983
+      "path": "states/vic/local-electoral-areas/vic-ward-3550520240528/index.html",
+      "sha256": "a068481fcd0ad2393ae5fe0226310a24bcc3a084bc035d98b40764ac3ed7d491",
+      "bytes": 24763
     },
     {
-      "path": "states/wa/federal/perth/index.html",
-      "sha256": "3876550892d29e25f930965f591fa71488d2cb4f8dc721111847863c75ab149d",
-      "bytes": 28022
+      "path": "states/vic/map/index.html",
+      "sha256": "c85af618787f45e82066682e293ea6e8a5004751c249c33e40ee08bfc719815c",
+      "bytes": 2654740
+    },
+    {
+      "path": "states/vic/places/councils/index.html",
+      "sha256": "b71d0c0713b914eab348afdc148238e55b91c089d32bf1e8e46f9e2e8861dd68",
+      "bytes": 218763
+    },
+    {
+      "path": "states/wa/councils/carnarvon/index.html",
+      "sha256": "d767958e56933830e7fab69845f8c4abe798845e4d13d0620629a98b76e95c88",
+      "bytes": 29357
+    },
+    {
+      "path": "states/wa/electorates/districts/secret-harbour/index.html",
+      "sha256": "536af3204a89fccfa8d7c4218f1159eeb3a032223d1b183289592ca7b8d4c26b",
+      "bytes": 51836
     },
     {
       "path": "states/wa/index.html",
-      "sha256": "ebdb507fe55deea0cc476b2419fe179a387dace8f2306b34c9e89398ea426b0e",
-      "bytes": 13977
+      "sha256": "f705af896f087937b0b3a5d219f9189139eb14f965c479fd97b3ac006b650298",
+      "bytes": 20766
     },
     {
       "path": "states/wa/places/councils/index.html",
-      "sha256": "d489090adfa85e1334f7fda1bec3b4f6b59491395ed8db4064d5510becc0273e",
-      "bytes": 160433
-    },
-    {
-      "path": "states/wa/places/state/index.html",
-      "sha256": "9654c557a8add8b725a36c2d0d8c5780d5c907703c84d7e7c20baa61f4e9e009",
-      "bytes": 42388
+      "sha256": "85fda67e6246a8be4a17b216d156e55f0120b318e04b055479b4fe6ac515d9c6",
+      "bytes": 139233
     },
     {
       "path": "styles.css",
@@ -400,35 +518,46 @@
     },
     {
       "path": "tools/build-national-places.py",
-      "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1",
-      "bytes": 37051
+      "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8",
+      "bytes": 39157
+    },
+    {
+      "path": "tools/build-redland.py",
+      "sha256": "6e2243c3a64c0985905c818b6e430fa0c2320b0999dc11a3fcf3498b01fd8d78",
+      "bytes": 54949
+    },
+    {
+      "path": "tools/build-state-sites.ps1",
+      "sha256": "0ab2f97fdac2e5e78f7c8eda1cff00252f4c65ebc13b07bfa93180c06036e942",
+      "bytes": 71482
+    },
+    {
+      "path": "tools/build-vic-map.py",
+      "sha256": "2e6d577b04f62c31a2ac2963495a567b65a594ad0c2030c2f24f7bcfb5d37b48",
+      "bytes": 4236
     },
     {
       "path": "tools/check-civic-navigation.py",
-      "sha256": "3fae485a4997a86df8c489659ee38692ac8bfa5dd607db1d9852fc42f8bc0175",
-      "bytes": 3199
+      "sha256": "36df81aa1b6f1aedc0792bf1fa809c9ba9aee33a82237713a9566dce16b0b0cc",
+      "bytes": 5046
     },
     {
-      "path": "tools/national_place_links.py",
-      "sha256": "b719b01a8eff36321798aa61002a892a4c7e8c29493c36d58151f409f660a76a",
-      "bytes": 8632
-    }
-  ],
-  "earlierEvidence": "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
-  "limits": [
-    "Sampled Chromium review, not exhaustive per-place, physical touch, screen-reader or multi-browser certification.",
-    "Existing source dates, roster/history gaps and grassroots Twinkle exclusion are unchanged.",
-    "Phone layout measurements were taken after fonts settled; immediate navigation captures can contain transient compositor frames."
-  ],
-  "unchangedDependencies": [
+      "path": "tools/verify-vic-councils.py",
+      "sha256": "da117e4321992e1311f5f08d526b35768849c3909d618511131f55e2f09c26e6",
+      "bytes": 2091
+    },
     {
-      "path": "script.js",
-      "basis": "Canonical Git bytes of unchanged dependency; working-copy CRLF/LF normalization equals this blob exactly.",
-      "commit": "106146af6163747b1edaaee31e03dfe4fdb7c281",
-      "gitBlob": "a2618849b6436fd5f104a3c0bf256ddd5ce81e76",
-      "sha256": "0258efeb75144b4bb55211f114153531d13c277e46dd9647a1281d43664938b4",
-      "bytes": 54274
+      "path": "tools/vic_council_facts.py",
+      "sha256": "f6ea057f560d5a129ab6eda35e43e77b52714db4df48d1e2e683e4f778b18586",
+      "bytes": 9482
     }
   ],
-  "evidenceByteBasis": "Changed renderers/styles, delivered HTML and fixtures retain exact byte fingerprints. The unchanged common script is separately cited by canonical Git bytes, preserving its existing line-ending policy and content."
+  "earlierEvidence": "content/places/qa/pre-research-2026-10-23/browser-review.json",
+  "limits": [
+    "Sampled single-browser review; no new screen-reader, physical-touch or comprehensive per-place acceptance.",
+    "Earlier full navigation/Index/Redlands/Twinkle reviews retain their dated scope; current research does not replace them.",
+    "Partial sources, denied reads and current-roster/history gaps remain explicit in four source-review manifests and the release note.",
+    "Source encoding is canonical Git LF for normalised files; exact -text source/geometry/evidence bytes are preserved.",
+    "Current click activation attempts are inconclusive: documented mouse/keyboard actions returned without activating existing anchors/buttons in two task tabs, including fresh-tab and viewport-reset checks. No live click pass is claimed; unchanged interaction code retains its prior dated review. Direct routes, rendered links, layer switching, filters and Back/Forward were checked."
+  ]
 }

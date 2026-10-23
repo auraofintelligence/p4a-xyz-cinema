@@ -21,6 +21,7 @@
     "All previous ballot contestants are retained, including unsuccessful candidates. Historical personal/campaign websites are not assumed to remain available; every contestant has the original ECQ result record.",
     "The ECQ public Final archive contains declared candidates and official count rounds while retaining district final=NO flags. This adapter preserves that flag and labels the data as a declared archived official count rather than rewriting the source flag.",
     "No local Twinkles or inferred resident views are created.",
+    "23 October review reconciled aggregate party totals and all member surnames/districts to the official 20 October PDF. This text-presence check is not a fresh individual-profile audit.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -82,7 +83,8 @@
           "state-qld-supp-qrc-2026-effect",
           "state-qld-supp-results-2024-final",
           "state-qld-supp-electorates-2024",
-          "state-qld-supp-results-events"
+          "state-qld-supp-results-events",
+          "refresh-qld-roster-20261023"
         ],
         "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
         "representatives": [
@@ -213,7 +215,8 @@
           "Historical election records use the boundaries applying at each event. The 2026 redistributed boundaries take effect for the 2028 general election; earlier by-elections use the existing boundaries.",
           "All previous ballot contestants are retained, including unsuccessful candidates. Historical personal/campaign websites are not assumed to remain available; every contestant has the original ECQ result record.",
           "The ECQ public Final archive contains declared candidates and official count rounds while retaining district final=NO flags. This adapter preserves that flag and labels the data as a declared archived official count rather than rewriting the source flag.",
-          "No local Twinkles or inferred resident views are created."
+          "No local Twinkles or inferred resident views are created.",
+          "23 October review reconciled aggregate party totals and all member surnames/districts to the official 20 October PDF. This text-presence check is not a fresh individual-profile audit."
         ]
       }
     }
@@ -239,7 +242,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -247,11 +250,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

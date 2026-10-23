@@ -7,7 +7,10 @@ def roster(rows):
  s='<ul class="vic-local-roster">'
  for x in rows:
   if x['status']=='vacant':s+=f'<li><strong>Vacant - {e(x["role"])}</strong><small>VEC note: {e(x["sourceNote"])} '+ ' · '.join(link(a['url'],a['label']) for a in x.get('links',[]))+'</small></li>'
-  else:s+=f'<li><strong>{e(x["name"])}</strong><small>{e(x["role"])}</small></li>'
+  else:
+   checked=(' — checked '+e(x['checked'])+'; '+link(x['sourceUrl'],'official current-office source')) if x.get('checked') and x.get('sourceUrl') else ''
+   note=(' '+e(x['sourceNote'])) if x.get('checked') and x.get('sourceNote') else ''
+   s+=f'<li><strong>{e(x["name"])}</strong><small>{e(x["role"])}{checked}{note}</small></li>'
  return s+'</ul>'
 def facts(r,data):
  parents={p['id']:p for p in data['lga']};ward=r['body']=='ward';parent=parents[r['parentId']] if ward else r
@@ -22,6 +25,7 @@ def facts(r,data):
   out.append(f'<p>{e(parent["populationNote"])}</p>')
  else:
   out.append('<section><h3>Current governance and representation</h3>')
+  if r.get('representationReviewNote'):out.append('<p class="vic-data-note">'+e(r['representationReviewNote'])+'</p>')
   if parent['governance']=='administration':
    out.append(f'<p><strong>Administered council - no sitting councillors.</strong> {e(parent["administrationNote"])}</p><ul>')
    out.extend(f'<li>{e(x["name"])} - {e(x["role"])}</li>' for x in parent['administrators']);out.append('</ul>'+link(parent['administrationSource'],'Official administrator panel'))

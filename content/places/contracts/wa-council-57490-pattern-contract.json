@@ -22,6 +22,7 @@
     "The printed President leadership label for Lorna Buchan is corrected to Mayor using the official council source checked17October2026.",
     "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
     "The printed President leadership label for Lorna Buchan is corrected to Mayor using the official council source checked 17 October 2026.",
+    "24 September extraordinary election declared in aggregate by WAEC on 25 September. Individual ballot/results and changed current roles remain follow-up; no winner is inferred.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -79,7 +80,8 @@
           "council-ward-supp-geoscape-wa-native",
           "council-ward-supp-geoscape-lga-attributes",
           "council-wa-walga-2026-57490",
-          "council-wa-role-review-57490"
+          "council-wa-role-review-57490",
+          "refresh-wa-council-57490-september2026"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -268,6 +270,17 @@
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/elections/local",
             "candidates": []
+          },
+          {
+            "id": "wa-council-57490-extraordinary-2026-09-24",
+            "label": "September 2026 extraordinary council election",
+            "kind": "extraordinary",
+            "status": "historical; aggregate declaration published",
+            "date": "2026-09-24",
+            "dateBasis": "Official poll date and aggregate declarations notice. Individual result names are not populated.",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2633",
+            "candidates": []
           }
         ],
         "coverageNotes": [
@@ -277,7 +290,8 @@
           "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office.",
           "The printed President leadership label for Lorna Buchan is corrected to Mayor using the official council source checked17October2026.",
           "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
-          "The printed President leadership label for Lorna Buchan is corrected to Mayor using the official council source checked 17 October 2026."
+          "The printed President leadership label for Lorna Buchan is corrected to Mayor using the official council source checked 17 October 2026.",
+          "24 September extraordinary election declared in aggregate by WAEC on 25 September. Individual ballot/results and changed current roles remain follow-up; no winner is inferred."
         ]
       }
     }
@@ -303,7 +317,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -311,11 +325,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

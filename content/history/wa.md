@@ -260,3 +260,10 @@ This markdown file powers the generated P4A history page for Western Australia. 
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+SecretHarbour29Augby-election/9Sepdeclaration added separately;16ballotnamesretainacceptedaffiliations andfinal2CPmeasure. DecemberCarnarvon/Coolgardie/Esperanceextraordinarypostalclose3Dec18:00Perth;Septemberaggregatecouncildeclarationsaddedwithwinner/rostergaps. Statepartyoverviewalignsretained17Octroster;freshParliament403, no blanketfreshcurrent-rosterclaim.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

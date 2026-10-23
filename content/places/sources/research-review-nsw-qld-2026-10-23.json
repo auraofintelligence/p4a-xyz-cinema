@@ -1,0 +1,541 @@
+{
+  "researchDate": "2026-10-23",
+  "researchTimezone": "Australia/Brisbane",
+  "scope": "Read-only NSW and Queensland review for parent integration. State overview, national current-member/event records, commission event registers and narrowly identified council changes. Not a fresh exhaustive council or federal roster audit.",
+  "repositoryChanged": false,
+  "instructionsRead": [
+    "AGENTS.md",
+    "content/refresh-watchlist.md",
+    "docs/agents/fractal-election-updates.md",
+    "content/places/AGENTS.md",
+    "content/states/nsw.md",
+    "content/states/qld.md"
+  ],
+  "baseline": {
+    "nswOverviewResearchRun": "2026-05-08",
+    "qldOverviewResearchRun": "2026-07-14",
+    "nationalStateDataChecked": "2026-10-17",
+    "notes": "Overview dates and individual source observation dates are separate. No-change checks should be logged; unchecked records should not acquire today's verification date."
+  },
+  "stateFindings": [
+    {
+      "jurisdiction": "nsw",
+      "status": "changes-verified-with-explicit-limits",
+      "government": {
+        "leader": "Chris Minns",
+        "party": "Australian Labor Party",
+        "arrangement": "Minority government",
+        "change": "No change identified in official current Assembly roster; 46 of 93 seats remains below majority 47."
+      },
+      "assembly": {
+        "sourceId": "nsw-la-list-48",
+        "sourceObservationDate": "2026-09-16",
+        "seats": 93,
+        "partyTotals": {
+          "ALP": 46,
+          "Liberal": 24,
+          "Nationals": 11,
+          "Greens": 3,
+          "Independent": 9
+        },
+        "namedOverviewCorrection": {
+          "old": "Gareth Ward, Kiama, appears in overview's independent list",
+          "verified": "Katelin McInerney is serving Member for Kiama; Jacqui Scruby, Pittwater, belongs in the nine-member independent list instead of Gareth Ward.",
+          "sourceIds": [
+            "nsw-la-list-48",
+            "nsw-kiama-profile",
+            "nsw-state-results-index"
+          ],
+          "canonicalPlaceId": "state-nsw-nsw407",
+          "alreadyCorrectInNationalData": true
+        },
+        "note": "This is an older overview error, not a newly held October 2026 Kiama poll. Assembly aggregate party counts already match current roster.",
+        "independentMembers": [
+          {
+            "name": "Alex Greenwich",
+            "seat": "Sydney"
+          },
+          {
+            "name": "Roy Butler",
+            "seat": "Barwon"
+          },
+          {
+            "name": "Helen Dalton",
+            "seat": "Murray"
+          },
+          {
+            "name": "Philip Donato",
+            "seat": "Orange"
+          },
+          {
+            "name": "Judy Hannan",
+            "seat": "Wollondilly"
+          },
+          {
+            "name": "Joe McGirr",
+            "seat": "Wagga Wagga"
+          },
+          {
+            "name": "Greg Piper",
+            "seat": "Lake Macquarie"
+          },
+          {
+            "name": "Michael Regan",
+            "seat": "Wakehurst"
+          },
+          {
+            "name": "Jacqui Scruby",
+            "seat": "Pittwater"
+          }
+        ]
+      },
+      "council": {
+        "canonicalPlaceId": "state-nsw-legislative-council-statewide",
+        "old": "Canonical October list has 41 serving representatives, including ALP14; overview already reports constitutional42 and ALP15.",
+        "verified": "Official current Council list No.322 dated15 October2026 lists42, including Bernard Govind(ALP).",
+        "partyTotals": {
+          "ALP": 15,
+          "Liberal": 9,
+          "Nationals": 5,
+          "Greens": 4,
+          "Independent": 4,
+          "ShootersFishersFarmers": 2,
+          "AnimalJustice": 1,
+          "LegaliseCannabis": 1,
+          "Libertarian": 1
+        },
+        "sourceId": "nsw-lc-list-322",
+        "replacement": {
+          "name": "Bernard Govind",
+          "fullNameInHansard": "Suresh Vijendra Govind",
+          "party": "Australian Labor Party",
+          "role": "Member of the Legislative Council",
+          "date": "2026-10-15",
+          "mechanism": "Elected by joint sitting to fill casual vacancy caused by Greg Donnelly's resignation; not a public by-election.",
+          "term": "Expires at dissolution or expiry of58th Parliament.",
+          "sourceIds": [
+            "nsw-lc-list-322"
+          ],
+          "profileUrl": null,
+          "profileLimit": "No independently verified new profile URL discovered. Do not guess memberId.",
+          "hansardLead": "Official search exposed matching15October joint-sitting transcript, but direct fetch timed out; PDF footnote independently establishes election/date/predecessor."
+        },
+        "recommendedChange": "Add Govind to current representatives with dated PDF source; preserve resignation/replacement history and the existing2023 periodic election. Update old41-member coverage note rather than inventing a remaining vacancy."
+      },
+      "generalElection": {
+        "canonicalEventIds": [
+          "nsw-state-2027",
+          "nsw-next-lc-periodic"
+        ],
+        "sourceId": "nsw-2027-election",
+        "date": "2027-03-13",
+        "timezone": "Australia/Sydney",
+        "pollOpens": "2027-03-13T08:00:00+11:00",
+        "pollCloses": "2027-03-13T18:00:00+11:00",
+        "status": "Scheduled; nominations have not opened as at review date.",
+        "verifiedTimetable": {
+          "postalApplicationsOpen": "2027-01-12",
+          "nominationsOpen": "2027-02-15T08:00:00+11:00",
+          "writsExpected": "2027-02-22",
+          "nominationsClose": "2027-02-24T12:00:00+11:00",
+          "candidateAnnouncementBallotDraw": "2027-02-25T10:00:00+11:00",
+          "earlyVotingOpens": "2027-03-06",
+          "postalApplicationsClose": "2027-03-08T18:00:00+11:00",
+          "earlyVotingCloses": "2027-03-12T18:00:00+11:00",
+          "postalReceiptCloses": "2027-03-25T18:00:00+11:00"
+        },
+        "relevance": "Official page updated19October2026. Date unchanged; specific timetable is stronger than old bulletin. Separate opening/closing/receipt/counting deadlines; future estimated declaration dates are not declared results."
+      },
+      "stateByElectionRegister": "Current NSWEC state results index has latest public state by-election Kiama13September2025, declared1October2025. Current elections index lists no forthcoming NSW state by-election, only2027general and three council polls. This is a bounded register check, not proof against unannounced vacancies."
+    },
+    {
+      "jurisdiction": "qld",
+      "status": "state-membership-no-change-verified; scoped-local-changes",
+      "government": {
+        "leader": "David Crisafulli",
+        "party": "Liberal National Party",
+        "arrangement": "Majority government",
+        "sourceId": "qld-member-roster-20261020",
+        "note": "Official roster lists Crisafulli as Premier and Minister for Veterans."
+      },
+      "currentRoster": {
+        "sourceObservationDate": "2026-10-20",
+        "sourceId": "qld-member-roster-20261020",
+        "seats": 93,
+        "partyTotals": {
+          "LNP": 53,
+          "ALP": 36,
+          "KAP": 2,
+          "GRN": 1,
+          "IND": 1
+        },
+        "comparison": "Matches overview and October canonical totals. All93 canonical member surnames and districts occur in the complete15-page current PDF; no mismatches found in this text-presence check. This automated comparison does not claim to re-pair every PDF row or re-audit all individual profiles.",
+        "method": "Read all857 extracted PDF lines; tally exactly93 party tokens:53LNP,36ALP,2KAP,1GRN,1IND. Do not publish contact fields from the source roster."
+      },
+      "stafford": {
+        "canonicalPlaceId": "state-qld-qld272",
+        "canonicalEventId": "ecq-648-district-80",
+        "date": "2026-05-16",
+        "status": "Final results per ECQ event page; Luke Richmond is serving Stafford ALP member in20October roster.",
+        "sourceIds": [
+          "qld-stafford-event",
+          "qld-member-roster-20261020"
+        ],
+        "alreadyCorrect": true,
+        "limit": "Official results app rendered only a JavaScript shell through web reading. Did not recompute July overview51.3/48.7 percentages or4percent swing; do not claim these numbers were freshly verified. Existing historical data should be preserved."
+      },
+      "generalElection": {
+        "canonicalEventPattern": "qld-state-normal-2028-*",
+        "date": "2028-10-28",
+        "timezone": "Australia/Brisbane",
+        "status": "Rule-derived normal date; not a published writ/timetable.",
+        "sourceId": "qld-election-events",
+        "note": "ECQ confirms everyfouryears on lastSaturdayOctober, previous poll26October2024. Existing national rule/date semantics are correct; overview should not overstate announcement."
+      },
+      "redistribution": {
+        "sourceId": "qld-redistribution-effect",
+        "finalDeterminationPublished": "2026-06-29",
+        "boundariesFinal": "2026-07-21",
+        "appliesFrom": "2028State general election",
+        "byElectionsBefore2028Writ": "Existing boundaries",
+        "alreadyCorrectInCanonicalData": true
+      },
+      "newStateEvents": "ECQ current/upcoming register lists TablelandsDivision1 council poll only;2026past state event isStafford. No later public state by-election found in reviewed official register.93-member roster lists no vacant seat."
+    }
+  ],
+  "councilFindings": [
+    {
+      "parentId": "qld-council-6820",
+      "wardId": "qld-council-6820-division-1",
+      "old": "Parent current mayor RodMarti; Division1 current representative list empty; no2026by-election events retained.",
+      "verifiedCurrent": {
+        "mayor": "Kevin Cardew",
+        "division1": "Vacant pending upcoming by-election",
+        "sourceIds": [
+          "qld-tablelands-councillors",
+          "qld-tablelands-vacancy"
+        ]
+      },
+      "events": [
+        {
+          "label": "2026Tablelands mayoral by-election",
+          "kind": "mayoral-by-election",
+          "date": "2026-08-22",
+          "status": "Held; council confirms KevinCardew's election on2September2026 and lists him as currentMayor.",
+          "timezone": "Australia/Brisbane",
+          "sourceIds": [
+            "qld-tablelands-mayor-event",
+            "qld-tablelands-vacancy",
+            "qld-tablelands-councillors"
+          ],
+          "declarationDateLimit": "Council calls2September dateofelection; do not silently relabel it formal ECQ declaration without retained declaration."
+        },
+        {
+          "label": "2026TablelandsDivision1 by-election",
+          "kind": "councillor-by-election",
+          "date": "2026-10-31",
+          "status": "Upcoming; nominationsclosed8October; fullpostal voting underway",
+          "dateTime": "2026-10-31T18:00:00+10:00",
+          "milestoneLabel": "postal vote completion deadline",
+          "timezone": "Australia/Brisbane",
+          "postalReceiptDeadline": "2026-11-10T17:00:00+10:00",
+          "sourceId": "qld-tablelands-div1-event",
+          "dateBasis": "ECQ published fullpostal election timetable. No in-person8am opening timer. Source differentiates completing from returning ballot.",
+          "candidates": "Not imported; accepted nominations linked byECQ, not independently extracted here."
+        }
+      ],
+      "preserve": "Keep2024ordinary election contestants and2028rule-derived ordinary event separately. CurrentMayor replacement is independently sourced, not inferred from oldwinner."
+    },
+    {
+      "parentId": "qld-council-7010",
+      "wardId": "qld-council-7010-division-1",
+      "old": "Division1 representative list empty; no2026poll event.",
+      "verifiedCurrent": {
+        "name": "Michelle Hobson",
+        "role": "Councillor forDivision1",
+        "sourceIds": [
+          "qld-townsville-councillors",
+          "qld-townsville-div1-profile"
+        ]
+      },
+      "event": {
+        "label": "2026TownsvilleDivision1 by-election",
+        "date": "2026-09-19",
+        "status": "Held; council independently lists current serving representative",
+        "timezone": "Australia/Brisbane",
+        "dateTime": "2026-09-19T18:00:00+10:00",
+        "milestoneLabel": "postal vote completion deadline",
+        "postalReceiptDeadline": "2026-09-29T17:00:00+10:00",
+        "sourceId": "qld-townsville-div1-event",
+        "limit": "Formal declaration date, candidate counts and finalvote totals not extracted; do not infer from poll date."
+      }
+    },
+    {
+      "parentId": "nsw-council-11750",
+      "wardId": null,
+      "event": {
+        "label": "2026CobarShireCouncil by-election",
+        "date": "2026-11-28",
+        "dateTime": "2026-11-28T18:00:00+11:00",
+        "milestoneLabel": "election-day voting closes",
+        "status": "Scheduled; nominations openasat23October",
+        "timezone": "Australia/Sydney",
+        "vacancies": 1,
+        "nominationsClose": "2026-10-28T12:00:00+11:00",
+        "earlyVotingOpens": "2026-11-23T08:30:00+11:00",
+        "earlyVotingCloses": "2026-11-27T18:00:00+11:00",
+        "postalApplicationsClose": "2026-11-23T17:00:00+11:00",
+        "postalReceiptDeadline": "2026-12-11T18:00:00+11:00",
+        "sourceId": "nsw-cobar-event"
+      },
+      "rosterLimit": "Officialcommission confirms councillorresignation but named departingmember not independently readfromprimarysource. Do not remove a guessedmember. Future15December resultdeclaration listedintimetable is scheduled,not anactualresult."
+    },
+    {
+      "parentId": "nsw-council-11800",
+      "wardId": null,
+      "event": {
+        "label": "2026CityofCoffsHarbourCouncil by-election",
+        "date": "2026-12-12",
+        "dateTime": "2026-12-12T18:00:00+11:00",
+        "milestoneLabel": "election-day voting closes",
+        "status": "Scheduled; nominationsnotyetopenasat23October",
+        "timezone": "Australia/Sydney",
+        "vacancies": 1,
+        "rollClose": "2026-11-02T18:00:00+11:00",
+        "nominationsOpen": "2026-11-02",
+        "nominationsClose": "2026-11-11T12:00:00+11:00",
+        "earlyVotingOpens": "2026-12-05",
+        "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
+        "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
+        "postalReceiptDeadline": "2026-12-29T18:00:00+11:00",
+        "sourceId": "nsw-coffs-event"
+      },
+      "namedLeadNotFullRead": "Officialcouncilsearch result namesPaulAmos resigning effective14October2026; canonical stilllistshim. Direct primarypage andfollow-updatepage returned403, so this identityremoval is partial evidence,not independentlyreadpageverification.",
+      "sourceIds": [
+        "nsw-coffs-event",
+        "nsw-coffs-resignation-blocked"
+      ]
+    },
+    {
+      "parentId": "nsw-council-14100",
+      "wardId": null,
+      "contest": "SouthWard",
+      "wardIdLimit": "NoNSW SouthWard placeexistsincanonicalcouncils.json orward supplement/route registry. Addward-scopedeventtoparent; do notinventageometry/placeID. ExistinghistoricalparenteventID: nsw-council-14100-ordinary-2024-south-ward.",
+      "event": {
+        "label": "2026HuntersHillSouthWard by-election",
+        "date": "2026-12-12",
+        "dateTime": "2026-12-12T18:00:00+11:00",
+        "milestoneLabel": "election-day voting closes",
+        "status": "Scheduled; nominationsnotyetopenasat23October",
+        "timezone": "Australia/Sydney",
+        "vacancies": 1,
+        "rollClose": "2026-11-02T18:00:00+11:00",
+        "nominationsOpen": "2026-11-02",
+        "nominationsClose": "2026-11-11T12:00:00+11:00",
+        "earlyVotingOpens": "2026-12-05",
+        "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
+        "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
+        "postalReceiptDeadline": "2026-12-29T18:00:00+11:00",
+        "sourceId": "nsw-hunters-event"
+      },
+      "vacancyDate": "2026-10-14",
+      "sourceIds": [
+        "nsw-hunters-event",
+        "nsw-hunters-council-election"
+      ],
+      "namedLeadNotFullRead": "OfficialcouncilsearchresultnamesMarcLane asresignedSouthWardmember. Directresignationpagereturned403. Accessiblecouncilelectionpageconfirms14Octoberresignationwithoutname; canonicalstilllistsMarcLane. Keepidentityverificationpartial."
+    }
+  ],
+  "additionalBoundedEvents": [
+    {
+      "placeId": "qld-council-7400",
+      "label": "WintonShire councillorby-election",
+      "date": "2026-06-20",
+      "status": "Held perECQ; winner/declarationnotreviewed",
+      "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/winton-shire-council-by-election"
+    },
+    {
+      "placeId": "qld-council-2270",
+      "label": "CentralHighlandsRegional councillorby-election",
+      "date": "2026-05-16",
+      "status": "Held perECQ; eventpage stillsaysresultsarepublishedascountprogresses, so donotlabeldeclaredfromthatpagealone",
+      "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/central-highlands-regional-council-by-election"
+    },
+    {
+      "placeId": "federal-house-118",
+      "eventId": "aec-31633-118",
+      "label": "Farrer federalby-election",
+      "date": "2026-05-09",
+      "status": "AECindexconfirmspoll/OneNationgain; alreadyretainedincanonicalfederaldata. Nofurtherfederalby-electionlistedafterFarrerontheexaminedAECindex.",
+      "sourceUrl": "https://www.aec.gov.au/elections/supplementary_by_elections/",
+      "limit": "Notanallfederalmember/profileaudit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nsw-la-list-48",
+      "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
+      "observationDate": "2026-09-16",
+      "support": "Rosterp4listsMcInerney/Kiama/ALP andMinns/Premier; p5listsScruby/Pittwater/Ind; p7prints46/24/11/9/3partytotals."
+    },
+    {
+      "id": "nsw-lc-list-322",
+      "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+      "observationDate": "2026-10-15",
+      "extract": "Elected (15.10.26) to vacancy caused by the resignation of the Hon. Greg Donnelly.",
+      "support": "Footnote8attachestoBernardGovind(ALP); page2partytablesums42."
+    },
+    {
+      "id": "nsw-kiama-profile",
+      "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2311",
+      "support": "CurrentpositionMemberforKiama,since13September2025; identityKatelinMcInerney."
+    },
+    {
+      "id": "nsw-state-results-index",
+      "url": "https://elections.nsw.gov.au/elections/past-results/state-election-results",
+      "support": "Kiama13September2025; KatelinMcInerney(Labor)declaredelected10:21am1October2025. Lateststateby-electionlisted."
+    },
+    {
+      "id": "nsw-2027-election",
+      "url": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
+      "observationDate": "2026-10-19",
+      "support": "13March2027,8am-6pm; publishedvoterandnominationtimetable."
+    },
+    {
+      "id": "nsw-current-election-index",
+      "url": "https://elections.nsw.gov.au/elections",
+      "support": "ListsCobar28Nov,CoffsHarbour12Dec,HuntersHillSouthWard12Dec,2027Stategeneral13March."
+    },
+    {
+      "id": "qld-member-roster-20261020",
+      "url": "https://documents.parliament.qld.gov.au/members/mailinglists/memlist.pdf",
+      "observationDate": "2026-10-20",
+      "extract": "(93 Members) (As at 20 October 2026)",
+      "support": "15-pagecurrentofficialroster,partycountsderivedfromallrows; p3CrisafulliPremier/LNP,p13LukeRichmondStafford/ALP."
+    },
+    {
+      "id": "qld-election-events",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events",
+      "support": "CurrentTablelandsDivision1poll;2026historicalevents; statefouryearlastSaturdayOctoberandcouncilfouryearlastSaturdayMarchrules(subjecttoregulation)."
+    },
+    {
+      "id": "qld-stafford-event",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election",
+      "extract": "Results are final.",
+      "support": "Poll16May2026; previousvoterdeadlinesaredatedhistory."
+    },
+    {
+      "id": "qld-redistribution-effect",
+      "url": "https://redistribution.ecq.qld.gov.au/redistribution-process/electoral-boundary-reviews-in-queensland",
+      "support": "Determinationgazetted29June2026,final21July; apply2028general; earlierby-electionsexistingboundaries."
+    },
+    {
+      "id": "qld-tablelands-councillors",
+      "url": "https://www.trc.qld.gov.au/our-council/councillors/",
+      "extract": "Mayor Kevin Cardew",
+      "support": "AlsoexplicitDivision1Vacantpendingupcomingby-election. Otherfiveservingdivisionmemberslisted; didnotimportbroadroster."
+    },
+    {
+      "id": "qld-tablelands-vacancy",
+      "url": "https://www.trc.qld.gov.au/2026-by-election/",
+      "support": "Division1vacancyfollowingKevinCardew'selectionasMayoron2September2026."
+    },
+    {
+      "id": "qld-tablelands-mayor-event",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-by-election",
+      "support": "22August2026fullpostal mayoralby-electionheld; separatecompletion/receiptdates."
+    },
+    {
+      "id": "qld-tablelands-div1-event",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+      "support": "31October2026fullpostal; nominationsclosed8October; complete6pm31October,received5pm10November."
+    },
+    {
+      "id": "qld-townsville-div1-event",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/townsville-city-council-division-1-by-election",
+      "support": "Fullpostalby-electionheld19September2026,complete6pm19September,return5pm29September."
+    },
+    {
+      "id": "qld-townsville-councillors",
+      "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles",
+      "support": "MichelleHobsonelectedrepresentativeDivision1; NickDamettocurrentMayor."
+    },
+    {
+      "id": "qld-townsville-div1-profile",
+      "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1",
+      "support": "CurrentofficialCouncillorMichelleHobsonprofile; factualrole/identityonly,biographynotcopied."
+    },
+    {
+      "id": "nsw-cobar-event",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+      "observationDate": "2026-10-22",
+      "support": "Onecouncillorresignation;28Novemberpoll; actualcurrentnominationperiodanddistinctvoterdeadlines."
+    },
+    {
+      "id": "nsw-coffs-event",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+      "observationDate": "2026-10-21",
+      "support": "Onecouncillorresignation;12Decemberpoll; nominations2-11November."
+    },
+    {
+      "id": "nsw-hunters-event",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+      "observationDate": "2026-10-21",
+      "support": "OneSouthWardcouncillorresignation;12Decemberpoll; nominations2-11November; NorthWardexcluded."
+    },
+    {
+      "id": "nsw-hunters-council-election",
+      "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward",
+      "observationDate": "2026-10-20",
+      "support": "Resignationoccurred14October2026; confirms12DecemberSouthWardpoll."
+    },
+    {
+      "id": "nsw-coffs-resignation-blocked",
+      "url": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation",
+      "support": "Primarysearchtextpublished13OctoberstatesPaulAmosresigningeffective14October; directpageread403. Treatpartial,notfreshfull-pageverification."
+    }
+  ],
+  "limitsAndAccess": [
+    {
+      "target": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List",
+      "action": "Webread",
+      "outcome": "denied403Forbidden",
+      "continued": "IndependentlypubliccurrentParliamentPDFrosterreadsuccessfully; didnotretry/bypassthedeniedHTMLpage."
+    },
+    {
+      "target": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation",
+      "action": "Directofficialresignationpageread",
+      "outcome": "denied403Forbidden",
+      "continued": "No retry. Commissiontimetrackverified; namedresignationremainspartialofficialsearchtext."
+    },
+    {
+      "target": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Coffs-Harbour-local-government-by-election-set-for-12-December",
+      "action": "Readseparateofficialelectionnotice",
+      "outcome": "denied403Forbidden",
+      "continued": "No retry; NSWECsamepollverified."
+    },
+    {
+      "target": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Councillor-resignation",
+      "action": "Directofficialresignationpageread",
+      "outcome": "denied403Forbidden",
+      "continued": "No retry; separateaccessiblecouncilannouncementconfirmsevent/vacancydatewithoutname."
+    },
+    {
+      "target": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard/hansard-full-details?id=HANSARD-1820781676-105873&section=HANSARD-1820781676-105926",
+      "action": "DirectGovindjoint-sittingtranscriptread",
+      "outcome": "timeout; notaccessdenial",
+      "continued": "Didnotclaimdirectread; currentPDFindependentlyestablishesGovindelection/replacement."
+    },
+    {
+      "target": "OfficialECQresultsapplications",
+      "action": "ReadStafford/Tablelands/Townsvillefinalresults",
+      "outcome": "JavaScriptapplicationshellonly",
+      "continued": "Useactualcommissioneventstatusandindependentcurrentcouncilrosters; noinventedvotes/declarationdates."
+    },
+    {
+      "target": "Unreviewedcouncilcountbacks/casualvacanciesandindividualparliamentprofiles",
+      "outcome": "partialcoverage",
+      "continued": "Notexhaustivelyaudited. NoequivalenceclaimforMaydateorallnationalrosters; retainoriginalchecks/historyandknowncoveragegaps."
+    }
+  ]
+}

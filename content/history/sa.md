@@ -258,3 +258,10 @@ This markdown file powers the generated P4A history page for South Australia. Ed
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+CurrentHA feed(lastupdated22May) verifiesALP33/IND5 includingSpeakerNatCook; historicalALPballot unchanged. Council summary alignsretained17OctON3/FamilyFirst1roster; freshcompleteLCAPI403. Final2026elected-orderCSV unchanged; council postalclose7Apr2027 17:00Adelaide rechecked; old404resultslink replaced.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

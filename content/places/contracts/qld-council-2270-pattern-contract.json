@@ -22,6 +22,7 @@
     "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
     "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
     "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "23 October bounded event check confirms held poll only. Individual result, declaration and current-role reconciliation remain incomplete.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -80,7 +81,8 @@
           "council-qld-2024-browser-verified-xml",
           "council-qld-2024-browser-verified-xml-acquisition",
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
-          "council-qld-current-leaders-browser"
+          "council-qld-current-leaders-browser",
+          "refresh-qld-council-2270-2026-05-16"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
@@ -304,6 +306,17 @@
             ],
             "votingSystem": "First Past the Post",
             "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2270-by-election-2026-05-16",
+            "label": "2026 Central Highlands Regional councillor by-election",
+            "kind": "by-election",
+            "status": "Historical; poll held; see official result/current-office evidence",
+            "date": "2026-05-16",
+            "dateBasis": "Official ECQ event date; result stage retained as expressly stated. No inferred declared winner.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/central-highlands-regional-council-by-election",
+            "candidates": []
           }
         ],
         "coverageNotes": [
@@ -313,8 +326,10 @@
           "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
           "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
           "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
-          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
-        ]
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+          "23 October bounded event check confirms held poll only. Individual result, declaration and current-role reconciliation remain incomplete."
+        ],
+        "representationReview": "23 October: held by-election verified from ECQ. The older current-office snapshot is retained pending result and current-role reconciliation; no replacement is inferred."
       }
     }
   ],
@@ -339,7 +354,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -347,11 +362,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

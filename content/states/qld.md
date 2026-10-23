@@ -8,9 +8,9 @@
   "shortName": "QLD",
   "capital": "Brisbane",
   "stateType": "State",
-  "researchRun": "2026-07-14",
+  "researchRun": "2026-10-23",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Current members were checked against the Queensland Parliament member list. The Stafford by-election was held on 16 May 2026 and Labor retained the seat.",
+  "researchStatus": "Scoped review 23 October: official 20 October Parliament roster confirms 93 seats and unchanged party totals; Stafford member Luke Richmond remains Labor. Historical Stafford percentages retain their July check. Tablelands Mayor Kevin Cardew and Townsville Division 1 Michelle Hobson verified from current council sources. Tablelands Division 1 is vacant: postal ballots must be completed by 31 October 6 pm and received by 10 November 5 pm Brisbane time. Other council/federal coverage remains partial.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "David Crisafulli",
@@ -25,8 +25,8 @@
       "date": "2028-10-28T08:00:00+10:00",
       "kind": "State general election",
       "scope": "general",
-      "status": "Scheduled by fixed-term cycle",
-      "note": "Queensland state elections are held on the last Saturday in October every four years.",
+      "status": "Ordinary rule-derived date",
+      "note": "Normal four-year cycle: last Saturday in October, subject to the Act. This is not a newly announced writ or detailed 2028 timetable.",
       "source": "https://www.ecq.qld.gov.au/elections/election-events",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -58,6 +58,22 @@
         "cycleKey": "qld-2026-by-election",
         "archiveWithCycle": "qld-2028-general archive",
         "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+      }
+    },
+    {
+      "label": "2026 Tablelands Division 1 by-election — postal completion deadline",
+      "date": "2026-10-31T18:00:00+10:00",
+      "kind": "Council by-election",
+      "scope": "local-government",
+      "status": "Full postal election; nominations closed",
+      "note": "Complete ballot by 6 pm 31 October; ECQ must receive it by 5 pm 10 November (Australia/Brisbane). Completion and receipt are distinct deadlines. Accepted candidates not imported; no result inferred.",
+      "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "qld-2026-tablelands-division-1-by-election-postal-completion-deadline",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
       }
     }
   ],
@@ -134,7 +150,31 @@
     {
       "label": "ECQ state election participant dates",
       "url": "https://www.ecq.qld.gov.au/election-participants/state-election-participants"
+    },
+    {
+      "label": "qld member roster 20261020",
+      "url": "https://documents.parliament.qld.gov.au/members/mailinglists/memlist.pdf"
+    },
+    {
+      "label": "qld tablelands div1 event",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election"
+    },
+    {
+      "label": "qld tablelands councillors",
+      "url": "https://www.trc.qld.gov.au/our-council/councillors/"
+    },
+    {
+      "label": "qld townsville div1 profile",
+      "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1"
     }
-  ]
+  ],
+  "previousResearchRun": "2026-07-14",
+  "researchReview": {
+    "checked": "2026-10-23",
+    "timezone": "Australia/Brisbane",
+    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+    "previousResearchRun": "2026-07-14",
+    "sourceDatesPreserved": true
+  }
 }
 ```

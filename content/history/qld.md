@@ -259,3 +259,10 @@ This markdown file powers the generated P4A history page for Queensland. Edit th
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+20Oct official roster confirms unchanged93party totals; Stafford result percentages retainJulycheck. TablelandsMayorKevinCardew, vacantDiv1 and TownsvilleDiv1MichelleHobson verified independently. Tablelands postal completion31Oct18:00, receipt10Nov17:00Brisbane; separate past mayoral/councillor polls preserved. Other local/federal records partial.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

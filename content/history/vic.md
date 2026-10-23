@@ -260,3 +260,10 @@ This markdown file powers the generated P4A history page for Victoria. Edit the 
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+All127currentmembers/electorates/partiesmatchofficialCSV; Brunswickvacancyretained. CandidateHelpernowavailable; state nominations4Nov09:00–9Nov12:00Melbourne, poll28Nov. Sevennamedcouncileventshistory/processadded, includingOctoberBeale/Lockwood/Briarsresults andKinglakenominations27Octnoon/postalclose4Dec18:00. Candidatecampaign/legalchecksretainolderdates.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

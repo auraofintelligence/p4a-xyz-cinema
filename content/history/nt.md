@@ -269,3 +269,10 @@ This markdown file powers the generated P4A history page for Northern Territory.
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+September roster confirms17CLP/6Labor/2independent; Johnston identity join corrected toJustineDavis, Paech retained inGwoja. Mulka12Sep results already detailed and now in overview; Nightcliff official support retained. NTEC current-election index lists none. Milngin failed nomination round still no replacement date; local/federal review partial.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

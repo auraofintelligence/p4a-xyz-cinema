@@ -8,9 +8,9 @@
   "shortName": "WA",
   "capital": "Perth",
   "stateType": "State",
-  "researchRun": "2026-05-08",
+  "researchRun": "2026-10-23",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Current lower and upper house party totals were checked against Parliament of Western Australia member-by-party pages.",
+  "researchStatus": "Scoped review 23 October: Secret Harbour declaration and October council notices verified; Cook remains Premier. State chamber totals now match the retained 17 October roster, with fresh full Parliament access blocked (403). December extraordinary postal ballots close 3 December at 6 pm Perth time. September council declarations are retained with incomplete individual winners/rosters; federal records were not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Roger Cook",
@@ -39,6 +39,38 @@
         "archiveWithCycle": "next-higher-order-cycle-after-wa-2029-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
       }
+    },
+    {
+      "label": "2026 Secret Harbour by-election",
+      "date": "2026-08-29T08:00:00+08:00",
+      "kind": "Assembly by-election",
+      "scope": "recent",
+      "status": "Declared 9 September 2026",
+      "note": "Luke Herdegen (One Nation) elected; final two-candidate preferred 57.19% against Georgia Tree 42.81%. This is separate from the March 2025 general election.",
+      "source": "https://www.elections.wa.gov.au/about-us/media/releases/2627",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "wa-2026-secret-harbour-by-election",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
+    },
+    {
+      "label": "December 2026 council extraordinary elections — postal receipt deadline",
+      "date": "2026-12-03T18:00:00+08:00",
+      "kind": "Council extraordinary elections",
+      "scope": "local-government",
+      "status": "Nominations closed; postal election scheduled",
+      "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon Coral Bay/Plantation candidates were elected unopposed; names and affected current rosters remain follow-up.",
+      "source": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "wa-december-2026-council-extraordinary-elections-postal-receipt-deadline",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
     }
   ],
   "chambers": [
@@ -47,23 +79,40 @@
       "type": "Lower house",
       "seats": 59,
       "majority": 30,
-      "note": "Current Legislative Assembly members by political party.",
+      "note": "Current composition retained from the 17 October official roster: Secret Harbour One Nation, Nedlands Independent. Fresh full Parliament roster access returned 403 on 23 October.",
       "source": "https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty",
       "composition": [
         {
           "party": "Australian Labor Party",
           "short": "ALP",
-          "seats": 46
+          "seats": 45
         },
         {
           "party": "Liberal Party",
           "short": "LIB",
-          "seats": 7
+          "seats": 6
         },
         {
           "party": "The Nationals WA",
           "short": "NAT",
           "seats": 6
+        },
+        {
+          "party": "Jonathan Huston",
+          "short": "1 MLA",
+          "seats": 1,
+          "members": [
+            {
+              "name": "Jonathan Huston",
+              "seat": "Nedlands"
+            }
+          ],
+          "memberSource": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WebCurrentMembLA"
+        },
+        {
+          "party": "Pauline Hanson's One Nation",
+          "short": "ONP",
+          "seats": 1
         }
       ]
     },
@@ -72,7 +121,7 @@
       "type": "Upper house",
       "seats": 37,
       "majority": 19,
-      "note": "WA now elects the Legislative Council as one whole-of-state electorate.",
+      "note": "Whole-state 37-member chamber; current party totals retained from 17 October. Fresh full roster access was blocked on 23 October.",
       "source": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&Expand=1&OpenForm=&Seq=8&Start=1",
       "composition": [
         {
@@ -133,13 +182,57 @@
       "url": "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WParty?Count=100&Expand=1&OpenForm=&Seq=8&Start=1"
     },
     {
-      "label": "WAEC state elections information",
-      "url": "https://www.elections.wa.gov.au/about-us/media/state-elections-information"
+      "label": "WAEC state elections",
+      "url": "https://www.elections.wa.gov.au/elections/state"
     },
     {
       "label": "WAEC voting in a state election",
       "url": "https://www.elections.wa.gov.au/vote/voting-state-election"
+    },
+    {
+      "label": "wa secret harbour declaration 2026",
+      "url": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+    },
+    {
+      "label": "wa secret harbour ballot 2026",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+    },
+    {
+      "label": "wa fixed date rule",
+      "url": "https://www.elections.wa.gov.au/about-us/media/releases/1892"
+    },
+    {
+      "label": "wa government current",
+      "url": "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/New-laws-to-protect-more-Western-Australians-from-discrimination-20261020"
+    },
+    {
+      "label": "wa december lg notice",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640"
+    },
+    {
+      "label": "wa december lg hub",
+      "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+    },
+    {
+      "label": "wa september lg declaration",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2633"
+    },
+    {
+      "label": "wa september lg hub",
+      "url": "https://www.elections.wa.gov.au/2026-september-local-government-extraordinary-elections"
+    },
+    {
+      "label": "wa june lg hub",
+      "url": "https://www.elections.wa.gov.au/2026-june-local-government-extraordinary-elections"
     }
-  ]
+  ],
+  "previousResearchRun": "2026-05-08",
+  "researchReview": {
+    "checked": "2026-10-23",
+    "timezone": "Australia/Brisbane",
+    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+    "previousResearchRun": "2026-05-08",
+    "sourceDatesPreserved": true
+  }
 }
 ```

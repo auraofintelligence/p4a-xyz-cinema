@@ -1,0 +1,535 @@
+{
+  "reviewDate": "2026-10-23",
+  "reviewTimezone": "Australia/Brisbane",
+  "scope": "Read-only VIC/SA official-source refresh evidence; parent integrates and publishes. No repository files edited.",
+  "dateSemantics": "retrieved/reviewed dates below do not replace source publication dates, result timestamps, election dates, Census periods or historical affiliations. Candidate-directory coverage is partial; no accepted state nominations inferred.",
+  "vic": {
+    "summaryFile": "content/states/vic.md",
+    "baselineResearchRun": "2026-10-02",
+    "government": {
+      "outcome": "no-change",
+      "leader": "Ben Carroll",
+      "party": "Australian Labor Party",
+      "sworn": "2026-07-28",
+      "url": "https://www.vic.gov.au/premier",
+      "support": "Official Premier page names Ben Carroll, Victorian Labor leader, sworn as 50th Premier on 28 July 2026; page updated 29 July."
+    },
+    "membership": {
+      "outcome": "verified-no-change-to-names-electorates-parties",
+      "url": "https://povwebsiteresourcestore.blob.core.windows.net/lists/members.csv",
+      "retrieval": "HTTP200 via permitted direct read on 23 October; CSV has 127 rows; set comparison of (electorate, preferred name + surname, party) against all national VIC representatives gave zero additions and zero removals.",
+      "localOnlyEvidence": "vic-members-20261023-source.txt",
+      "sha256": "759d0fba2e20302e51b85617b061c273bb50245795652232dc0823f76b53ffb0",
+      "assembly": {
+        "members": 87,
+        "vacancies": 1,
+        "ALP": 54,
+        "Liberal": 20,
+        "Nationals": 9,
+        "Greens": 2,
+        "Independent": 2
+      },
+      "council": {
+        "members": 40,
+        "ALP": 15,
+        "Liberal": 11,
+        "Nationals": 2,
+        "Greens": 4,
+        "Independent": 1,
+        "ShootersFishersFarmers": 1,
+        "Libertarian": 1,
+        "AnimalJustice": 1,
+        "OneNationVictoria": 1,
+        "LegaliseCannabis": 2,
+        "FamilyFirstVictoria": 1
+      },
+      "vacantPlaceId": "vic-assembly-14",
+      "vacancyNote": "Brunswick has no current member; do not invent a separate by-election date. Official current-election and state by-election timeline checks disclosed no new state by-election after Nepean.",
+      "crossChecks": [
+        "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+        "https://www.parliament.vic.gov.au/4a7318/contentassets/1ed360d4f9984647b7a85d16f2f82d0b/lamemlist-as-at-2026-09-21.pdf",
+        "https://povwebsiteresourcestore.blob.core.windows.net/lists/lc_members.pdf"
+      ],
+      "sourceDates": "Assembly PDF remains 21 September; Council PDF remains 30 September; CSV row updates include October21. Preserve original source dates."
+    },
+    "stateElection": {
+      "eventId": "vic-state-2026",
+      "canonicalFile": "content/elections/vic-2026.json",
+      "outcome": "calendar-no-change; Candidate Helper stage changed from future availability to available",
+      "timezone": "Australia/Melbourne",
+      "pollingDate": "2026-11-28",
+      "pollingHours": "08:00-18:00 AEDT",
+      "milestones": [
+        {
+          "label": "enrolment closes / writs issue",
+          "dateTime": "2026-11-03T20:00:00+11:00"
+        },
+        {
+          "label": "nominations open",
+          "dateTime": "2026-11-04T09:00:00+11:00"
+        },
+        {
+          "label": "nominations close",
+          "dateTime": "2026-11-09T12:00:00+11:00"
+        },
+        {
+          "label": "early voting",
+          "startDate": "2026-11-18",
+          "endDate": "2026-11-27"
+        },
+        {
+          "label": "low sensory voting",
+          "date": "2026-11-17",
+          "localHours": "10:00-16:00"
+        }
+      ],
+      "urls": [
+        "https://www.vec.vic.gov.au/voting/2026-state-election",
+        "https://www.vec.vic.gov.au/voting/types-of-elections/state-elections",
+        "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
+      ],
+      "supportQuote": "Candidate Helper is now available to help you prepare your nomination.",
+      "recommendedCopy": "Candidate Helper is now available; nominations open 4 November at9am and close9Novembernoon. Do not label announced candidates formally nominated. The existing21October timeline can be historical/passed rather than future.",
+      "partial": "Did not recheck all64 party/campaign sources, financial/legal guidance or existing AJP conflicts; retain individual candidate/source check dates and uncertainty."
+    },
+    "nepean": {
+      "placeId": "vic-assembly-60",
+      "eventId": "vic-assembly-60-2026-05-02",
+      "date": "2026-05-02",
+      "outcome": "historical-result-no-change; metadata correction recommended",
+      "oldKind": "general-election",
+      "verifiedKind": "by-election",
+      "winner": "Anthony Marsh",
+      "party": "Liberal",
+      "firstPreferences": 15682,
+      "finalDistributionVotes": 25642,
+      "finalDistributionPercent": 63.24,
+      "url": "https://www.vec.vic.gov.au/results/state-election-results/state-by-elections-timeline/nepean-by-election-results/results-by-district/nepean-district-results"
+    }
+  },
+  "sa": {
+    "summaryFile": "content/states/sa.md",
+    "baselineResearchRun": "2026-05-08",
+    "government": {
+      "outcome": "no-change",
+      "leader": "Peter Malinauskas",
+      "url": "https://premier.sa.gov.au/the-team/peter-malinauskas-mp",
+      "support": "Current official Premier page confirms47th Premier and Member for Croydon; HA official feed marks ALP/Premier."
+    },
+    "assembly": {
+      "outcome": "summary-correction; Oct17 national canonical already correct",
+      "url": "https://contact-details-api.parliament.sa.gov.au/api/HAMembersDetails",
+      "retrieval": "Actual complete JSON read through web tool; source lastUpdated2026-05-22. Direct executor request returned403 and was not retried.",
+      "oldSummary": {
+        "ALP": 34,
+        "Liberal": 5,
+        "OneNation": 4,
+        "Independent": 4
+      },
+      "verifiedCurrentRoster": {
+        "members": 47,
+        "ALP": 33,
+        "Liberal": 5,
+        "OneNation": 4,
+        "Independent": 5
+      },
+      "affectedPlaceId": "state-sa-sa18500081",
+      "name": "Hurtle Vale",
+      "member": "Nat Cook",
+      "currentParty": "Independent",
+      "currentPosition": "Speaker",
+      "historicalEventId": "sa-ha-2026-hurtle-vale",
+      "history": "Keep Nat Cook's March2026 historical ballot affiliation Australian Labor Party. Current affiliation and election-winning totals are distinct.",
+      "sourceLimit": "Roster lastUpdatedMay22, despite being the official current roster returned on review. No later state vacancy discovered on the inspected election/news pages; absence of a notice is a bounded search result, not exhaustive certification."
+    },
+    "council": {
+      "placeId": "state-sa-legislative-council-statewide",
+      "outcome": "summary-stale; retain existing Oct17 roster; fresh complete roster review blocked",
+      "oldSummary": {
+        "ALP": 10,
+        "Liberal": 6,
+        "OneNation": 4,
+        "Greens": 2
+      },
+      "existingOct17Canonical": {
+        "members": 22,
+        "ALP": 10,
+        "Liberal": 6,
+        "OneNation": 3,
+        "Greens": 2,
+        "FamilyFirst": 1
+      },
+      "relevantMember": "Sarah Game",
+      "url": "https://www.parliament.sa.gov.au/en/Legislative-Council/Members",
+      "partialSupport": "Search-index text of official roster names Sarah Game / Family First Party, but opening page returns only iframe; not accepted as a new full roster verification.",
+      "blockedUrl": "https://contact-details-api.parliament.sa.gov.au/api/LCMembersDetails",
+      "blockedReason": "web tool not accessible; direct permitted GET HTTP403 Forbidden; no retry/bypass. Do not bump all22 member checked dates to23October."
+    },
+    "electionResults": {
+      "outcome": "2026 Legislative Council elected-order CSV freshly verified unchanged from Oct17 bytes",
+      "url": "https://result.ecsa.sa.gov.au/assets/Elected_Members_of_Parliament_2026.csv",
+      "localOnlyEvidence": "sa-elected-order-20261023-source.csv",
+      "sha256": "2a9629c82f6fc979bbecd89fa605c53ad06e14aa8c3bb9678dbc5326eab7ae34",
+      "electedHalfPartyTotals": {
+        "ALP": 5,
+        "OneNation": 3,
+        "Liberal": 2,
+        "Greens": 1
+      },
+      "history": "This eleven-member result is not the current22-member chamber. Retain existing full48-person historical ballot roster and unresolved individual first-preference/transfer-stage gaps. HA388 candidate data not downloaded/revalidated this run.",
+      "brokenSummaryLink": "https://ecsa.sa.gov.au/elections/2026se-lc-results",
+      "brokenOutcome": "Official404 page; replace visitor-facing stale results link with working result.ecsa.sa.gov.au and/or official CSV as appropriate."
+    },
+    "stateElectionSchedule": {
+      "eventId": "sa-next-state-general",
+      "date": "2030-03-16",
+      "outcome": "rule-derived ordinary schedule retained, not newly announced timetable",
+      "timezone": "Australia/Adelaide",
+      "url": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html",
+      "support": "ECSA report states third Saturday in March every4years. Separate official2026 information confirms previous polling21March2026: https://www.ecsa.sa.gov.au/se2026"
+    },
+    "localSchedule": {
+      "outcome": "verified-no-change-to-Oct17-canonical; relevant sinceMay overview",
+      "eventIds": "Existing <SA council stable-id>-next-ordinary records:66 announced7April2027, one date-not-verified, plus separate cancelled historical entry. Preserve exceptions (including Roxby).",
+      "postalVotingCloses": "2027-04-07T17:00:00+09:30",
+      "timezone": "Australia/Adelaide",
+      "milestones": {
+        "rollsClose": "2027-01-04T17:00:00+10:30",
+        "nominationsOpen": "2027-01-26",
+        "nominationsClose": "2027-02-09T12:00:00+10:30",
+        "mailoutStart": "2027-03-11",
+        "mailoutEnd": "2027-03-17",
+        "countStart": "2027-04-10T09:00:00+09:30"
+      },
+      "urls": [
+        "https://www.ecsa.sa.gov.au/parties-and-candidates/council-elections",
+        "https://www.ecsa.sa.gov.au/elections/current-elections",
+        "https://www.councilelections.sa.gov.au/about/key-dates"
+      ],
+      "supportQuote": "The next periodic local government council elections will now be held in April 2027",
+      "history": "November2026 schedule superseded; existing canonical already correctly uses7April2027 postal close. Do not use polling-day midnight timer for17:00 postal deadline."
+    },
+    "otherRelevantNotice": {
+      "url": "https://www.ecsa.sa.gov.au/news",
+      "outcome": "officialnotice read",
+      "facts": [
+        "Sarah Game Fair Go for Australians de-registered15October2026",
+        "Jing Lee - Better Community de-registered24September2026",
+        "SA-BEST Incorporated de-registered24September2026"
+      ],
+      "limit": "Registration changes do not retroactively rewrite historical ballot affiliations; no roster assumption follows merely from deregistration."
+    }
+  },
+  "vicCouncilChecks": {
+    "scope": "Named current/recent VEC by-election pages and primary council profiles. This is not complete all-council source certification.",
+    "timelineUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline",
+    "entries": [
+      {
+        "wardId": "vic-ward-3030220200423",
+        "councilId": "vic-lga-303",
+        "ward": "Beale",
+        "old": "No2026 event; ward reps empty; council list eightmembers omitsRooks",
+        "verified": "Nicola Rooks declared elected; VEC16October release calls her new representative",
+        "date": "2026-10-03",
+        "postalVotingCloses": "2026-10-02T18:00:00+10:00",
+        "declarationDate": "2026-10-15",
+        "scheduledSwearingIn": "2026-10-19",
+        "resultsUpdated": "2026-10-15T16:50:00+11:00",
+        "winner": "Nicola Rooks",
+        "firstPreferences": 1700,
+        "finalDistributionVotes": 4486,
+        "resultUrl": "https://www.vec.vic.gov.au/voting/current-elections/banyule-city-council-beale-ward-by-election/banyule-beale-ward-by-election-results",
+        "noticeUrl": "https://www.vec.vic.gov.au/voting/current-elections/banyule-city-council-beale-ward-by-election",
+        "officeSupportUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-banyule-city-council",
+        "councilUrl": "https://www.banyule.vic.gov.au/News-items/New-councillor-elected-for-Beale-Ward",
+        "candidateFirstPreferences": [
+          [
+            "HILL, Kevan",
+            1653
+          ],
+          [
+            "TAYLOR, Fleur",
+            492
+          ],
+          [
+            "LANDERS, Kate",
+            1330
+          ],
+          [
+            "ROOKS, Nicola",
+            1700
+          ],
+          [
+            "BARRA, Renato",
+            720
+          ],
+          [
+            "FARRELL, Logan",
+            778
+          ],
+          [
+            "SANDARS, Lauren",
+            1106
+          ]
+        ],
+        "history": "Wayne Phillips retired28August and was excluded from ballot; do not silently treat him as a contestant."
+      },
+      {
+        "wardId": "vic-ward-3250720240215",
+        "councilId": "vic-lga-325",
+        "ward": "Lockwood",
+        "old": "No2026 event; ward reps empty; council listeightmembers",
+        "verified": "David Thorpe elected; VEC16October release explicitly calls him newrepresentative",
+        "date": "2026-10-03",
+        "postalVotingCloses": "2026-10-02T18:00:00+10:00",
+        "declarationDate": "2026-10-15",
+        "winner": "David Thorpe",
+        "firstPreferences": 1846,
+        "finalDistributionVotes": 4365,
+        "resultUrl": "https://www.vec.vic.gov.au/voting/current-elections/greater-bendigo-city-council-lockwood-ward-by-election-oct26/bendigo-lockwood-ward-by-election-results",
+        "noticeUrl": "https://www.vec.vic.gov.au/voting/current-elections/greater-bendigo-city-council-lockwood-ward-by-election-oct26",
+        "officeSupportUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-greater-bendigo-city-council",
+        "candidateFirstPreferences": [
+          [
+            "LOCKWOOD, Grant",
+            569
+          ],
+          [
+            "MISHRA, Ajay",
+            2287
+          ],
+          [
+            "MARTINEK, MaryAnn",
+            1135
+          ],
+          [
+            "THORPE, David",
+            1846
+          ],
+          [
+            "EDGAR, Emily",
+            1251
+          ],
+          [
+            "HOLIAN, Robert Phillip",
+            1397
+          ]
+        ],
+        "history": "March2026 Lockwood by-election is distinct; preserve its DonnaNicholas result if present, do not mergeOctober intoMarch."
+      },
+      {
+        "wardId": "vic-ward-3520320240215",
+        "councilId": "vic-lga-352",
+        "ward": "Briars",
+        "old": "No2026 event; ward reps empty; council listtenmembers omitsLeahy",
+        "verified": "Christine Leahy elected and sworn14October",
+        "date": "2026-10-03",
+        "postalVotingCloses": "2026-10-02T18:00:00+10:00",
+        "declarationDate": "2026-10-14",
+        "declarationNoticePublished": "2026-10-15",
+        "sworn": "2026-10-14",
+        "winner": "Christine Leahy",
+        "firstPreferences": 6525,
+        "resultUrl": "https://www.vec.vic.gov.au/voting/current-elections/mornington-peninsula-shire-council-briars-ward-by-election/results",
+        "noticeUrl": "https://www.vec.vic.gov.au/voting/current-elections/mornington-peninsula-shire-council-briars-ward-by-election",
+        "officeSupportUrl": "https://www.mornpen.vic.gov.au/The-Shire/About-our-Council/Our-Councillors/Councillor-Christine-Leahy",
+        "swearingSource": "https://www.mornpen.vic.gov.au/The-Shire/News-media-and-publications/News-and-media-releases/New-Briars-Ward-Councillor-sworn-in",
+        "candidateFirstPreferences": [
+          [
+            "ELLISON-WHYTE, Sue",
+            3644
+          ],
+          [
+            "LEAHY, Christine",
+            6525
+          ]
+        ]
+      },
+      {
+        "wardId": "vic-ward-3550520240528",
+        "councilId": "vic-lga-355",
+        "ward": "Kinglake",
+        "old": "No2026 event; no ward representative; council listsixmembers",
+        "verified": "JodiAdams resignation; postal by-election scheduledDecember; nominations open",
+        "date": "2026-12-05",
+        "postalVotingCloses": "2026-12-04T18:00:00+11:00",
+        "nominationsClose": "2026-10-27T12:00:00+11:00",
+        "ballotMailoutFrom": "2026-11-16",
+        "enrolmentClosed": "2026-09-23T16:00:00+10:00",
+        "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+        "limit": "Do not invent winner or accepted final ballot before nominationsclose."
+      },
+      {
+        "wardId": "vic-ward-3370620240215",
+        "councilId": "vic-lga-337",
+        "ward": "Morwell River",
+        "old": "No2026 event; no ward representative; council listeightmembers omitsMoffatt",
+        "verified": "RobMoffatt electedAugust and current councilprofile exists",
+        "date": "2026-08-01",
+        "declarationDate": "2026-08-13",
+        "sworn": "2026-08-14",
+        "resultsUpdated": "2026-10-22T09:35:00+11:00",
+        "winner": "Rob Moffatt",
+        "firstPreferences": 1565,
+        "finalDistributionVotes": 2527,
+        "resultUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline/latrobe-morwell-river-by-election-results",
+        "officeSupportUrl": "https://www.latrobe.vic.gov.au/Council/Our_Council/Councillors/Cr_Rob_Moffatt",
+        "swearingSource": "https://www.latrobe.vic.gov.au/news-and-media/New_Councillor_welcomed_to_Latrobe_City_Council",
+        "candidateFirstPreferences": [
+          [
+            "MOFFATT, Rob",
+            1565
+          ],
+          [
+            "SUTTON, Dean",
+            974
+          ],
+          [
+            "ELLINGHAM, John",
+            752
+          ],
+          [
+            "LAMBDEN, Guss",
+            635
+          ],
+          [
+            "LOUGHEED, Graham",
+            433
+          ]
+        ],
+        "dateWarning": "22October is resultPAGE update, not election/declaration date. Postal close time not separately checked."
+      },
+      {
+        "wardId": "vic-ward-3350820200709",
+        "councilId": "vic-lga-335",
+        "ward": "Melaleuca",
+        "old": "No2026 event; no wardrepresentative; council listtenmembers omitsKaur",
+        "verified": "NikkiKaur declared elected in August by-election",
+        "date": "2026-08-01",
+        "resultsUpdated": "2026-08-14T11:10:00+10:00",
+        "winner": "Nikki Kaur",
+        "firstPreferences": 1260,
+        "finalDistributionVotes": 4336,
+        "resultUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline/kingston-melaleuca-ward-by-election-results",
+        "limit": "Current council profile not separately read; do not claim fully reverified currentoffice on result alone."
+      },
+      {
+        "wardId": "vic-ward-3750620240215",
+        "councilId": "vic-lga-375",
+        "ward": "Heathdale",
+        "old": "No2026 event; no wardrepresentative; council listtenmembers omitsMcAliney",
+        "verified": "KimMcAliney declared elected in August by-election",
+        "date": "2026-08-01",
+        "resultsUpdated": "2026-08-13T14:12:00+10:00",
+        "winner": "Kim McAliney",
+        "firstPreferences": 5985,
+        "resultUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline/wyndham-heathdale-ward-by-election-results",
+        "candidateFirstPreferences": [
+          [
+            "PACE, Pippa",
+            3153
+          ],
+          [
+            "MAHFOUD, Marcel",
+            2243
+          ],
+          [
+            "MCALINEY, Kim",
+            5985
+          ]
+        ],
+        "limit": "Current councilprofile not separately read; do not claim fully reverified currentoffice on result alone."
+      }
+    ],
+    "unresearchedLeads": "VEC timeline also lists11MaySouthernGrampians countback,30MayThomastown by-election,1JuneGlenelg countback and28MarchLockwood by-election. Do not certify comprehensive2026 council history or import unverifiedfacts."
+  },
+  "remainingLimits": [
+    "No fresh federal research in this subtask.",
+    "No exhaustive all-council roster/history refresh.",
+    "SA complete fresh Council roster inaccessible; preserve17October snapshot and mark follow-up.",
+    "HA388 historic candidate results not freshly revalidated; LC individual firstpreferences/transfer stages remain incomplete.",
+    "Victoria full candidate announcements/legal guidance not re-researched; preserve2October per-source checks and knownconflicts.",
+    "No repository edits, builds, commits, pushes, contacts or submissions performed."
+  ],
+  "accessOutcomes": [
+    {
+      "action": "Direct read public SA HA/LC member API",
+      "target": "https://contact-details-api.parliament.sa.gov.au/api/HAMembersDetails and /api/LCMembersDetails",
+      "reason": "HTTP403 Forbidden after permitted network read",
+      "outcome": "denied-by-source; not retried; HA separately already available via web read; LC fresh review partial"
+    },
+    {
+      "action": "Read oldSA Council result link",
+      "target": "https://ecsa.sa.gov.au/elections/2026se-lc-results",
+      "reason": "404 officialerror page",
+      "outcome": "unavailable; working officialresultsite/CSV found"
+    },
+    {
+      "action": "Read proposedJune council delay pressrelease",
+      "target": "https://www.premier.sa.gov.au/media-releases/news-items/ensuring-the-integrity-of-council-elections",
+      "reason": "404",
+      "outcome": "unavailable; actual currentECSA timetable read instead"
+    }
+  ],
+  "finalCurrentOfficeChecks": {
+    "reviewDate": "2026-10-23",
+    "reviewTimezone": "Australia/Brisbane",
+    "scope": "Two bounded current-office verifications requested by parent; resolves earlier current-profile gaps for Melaleuca and Heathdale only. No further research or repository edits.",
+    "entries": [
+      {
+        "wardId": "vic-ward-3350820200709",
+        "councilId": "vic-lga-335",
+        "name": "Nikki Kaur",
+        "verifiedRole": "Councillor for Melaleuca Ward",
+        "outcome": "current-office-verified-from-official-current-roster",
+        "sources": [
+          {
+            "url": "https://www.kingston.vic.gov.au/council/your-council/councillors",
+            "sourceDate": null,
+            "sourceDateMeaning": "Undated current councillor roster; no publication/update date inferred.",
+            "retrieved": "2026-10-23",
+            "method": "web open, actual complete HTML text read successfully",
+            "support": "Cr Nikki Kaur / Melaleuca Ward"
+          },
+          {
+            "url": "https://www.kingston.vic.gov.au/council/news/latest-news/by-election-result",
+            "sourceDate": "2026-08-14",
+            "sourceDateMeaning": "Published on 14 August 2026",
+            "retrieved": "2026-10-23",
+            "method": "web open, actual HTML text read successfully",
+            "support": "Council announcement confirms Nikki Kaur was declared elected and immediately took the oath of office."
+          }
+        ],
+        "qualification": "The official 14 August announcement says the result was referred to VCAT over potential voting irregularities, and Kaur would serve until further advice from VCAT/VEC. Current roster lists her. No later VCAT determination was verified; do not imply one or attribute wrongdoing to her.",
+        "accessGap": {
+          "action": "Read individual public council profile using web open",
+          "target": "https://www.kingston.vic.gov.au/council/your-council/councillors/nikki-kaur",
+          "reason": "HTTP403 Forbidden",
+          "outcome": "denied-by-source; not retried; no restriction bypass; independent official current roster and announcement were readable"
+        }
+      },
+      {
+        "wardId": "vic-ward-3750620240215",
+        "councilId": "vic-lga-375",
+        "name": "Kim McAliney",
+        "verifiedRole": "Councillor for Heathdale Ward",
+        "outcome": "current-office-verified-from-official-current-profile",
+        "sources": [
+          {
+            "url": "https://www.wyndham.vic.gov.au/about-council/councillors-wards/know-your-councillor-and-ward/councillor-kim-mcaliney",
+            "sourceDate": null,
+            "sourceDateMeaning": "Current profile read; no publication/update date verified.",
+            "retrieved": "2026-10-23",
+            "method": "Permitted direct urllib.request HTTP GET succeeded200, response83260 decoded HTML characters, after web-tool timeouts. Actual page text inspected.",
+            "support": "Cr Kim McAliney represents Heathdale Ward and is a long-serving advocate for the Wyndham community."
+          }
+        ],
+        "retrievalHistory": {
+          "webProfile": "Timed out on initial open and one read-only retry",
+          "webRoster": "Timed out",
+          "directProfile": "HTTP200 succeeded; current office established; no pending or uncertain write"
+        }
+      }
+    ]
+  }
+}

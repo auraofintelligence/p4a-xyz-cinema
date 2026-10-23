@@ -8,9 +8,9 @@
   "shortName": "NT",
   "capital": "Darwin",
   "stateType": "Territory",
-  "researchRun": "2026-05-08",
+  "researchRun": "2026-10-23",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Current party count reflects the February 2026 official chamber seating plan plus the March 2026 Nightcliff by-election result.",
+  "researchStatus": "Scoped review 23 October: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents. Johnston identity join corrected. Mulka and Nightcliff results retained separately. NTEC lists no current elections; council review is index-level and federal profiles were inaccessible. Milngin replacement date remains unannounced.",
   "government": {
     "leaderTitle": "Chief Minister",
     "leader": "Lia Finocchiaro",
@@ -26,8 +26,8 @@
       "kind": "Territory general election",
       "scope": "general",
       "status": "Scheduled by four-year cycle",
-      "note": "NTEC states the next Legislative Assembly election is scheduled for August 2028; the last Saturday guide is 26 August.",
-      "source": "https://ntec.nt.gov.au/about-us",
+      "note": "Ordinary cycle: fourth Saturday in August every four years, subject to applicable exceptions. No new writ or timetable is implied.",
+      "source": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
       "dayMetrics": {
         "displayDaysUntil": true,
         "displayDaysSince": true,
@@ -47,7 +47,7 @@
       "scope": "by-election",
       "status": "Recently held",
       "note": "Ed Smelt won Nightcliff for Territory Labor after the resignation of Greens MLA Kat McNamara.",
-      "source": "https://parliament.nt.gov.au/members/by-name/Ed-Smelt",
+      "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results",
       "dayMetrics": {
         "displayDaysUntil": true,
         "displayDaysSince": true,
@@ -58,6 +58,22 @@
         "cycleKey": "nt-2026-by-election",
         "archiveWithCycle": "nt-2028-general archive",
         "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+      }
+    },
+    {
+      "label": "2026 Mulka by-election",
+      "date": "2026-09-12T08:00:00+09:30",
+      "kind": "Assembly by-election",
+      "scope": "recent",
+      "status": "Held; official results published",
+      "note": "Yiwarr McGrath (Territory Labor) is the current Mulka member; official first preferences 1,960 of 2,534 formal votes. NTEC reports no two-candidate-preferred count. Office-start date is not inferred from the timetable.",
+      "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "nt-2026-mulka-by-election",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
       }
     }
   ],
@@ -78,18 +94,14 @@
         {
           "party": "Territory Labor",
           "short": "ALP",
-          "seats": 5
+          "seats": 6
         },
         {
-          "party": "Yingiya Mark Guyula, Robyn Lambley and Justine Davis",
-          "short": "3 MLAs",
-          "seats": 3,
-          "memberSource": "https://parliament.nt.gov.au/members/chamber-seating/One-page-seating-plan-Feb-2026.pdf",
+          "party": "Robyn Lambley, Justine Davis",
+          "short": "2 MLAs",
+          "seats": 2,
+          "memberSource": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf",
           "members": [
-            {
-              "name": "Yingiya Mark Guyula",
-              "seat": "Mulka"
-            },
             {
               "name": "Robyn Lambley",
               "seat": "Araluen"
@@ -124,7 +136,71 @@
     {
       "label": "ABC Nightcliff result report",
       "url": "https://www.abc.net.au/news/2026-03-09/nt-labor-ed-smelt-wins-nightcliff-byelection-greens-seat-suki/106432806"
+    },
+    {
+      "label": "nt current roster",
+      "url": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf"
+    },
+    {
+      "label": "nt current davis",
+      "url": "https://parliament.nt.gov.au/members/by-name/justine-davis"
+    },
+    {
+      "label": "nt current paech",
+      "url": "https://parliament.nt.gov.au/members/by-name/chanston-paech"
+    },
+    {
+      "label": "nt current mcgrath",
+      "url": "https://parliament.nt.gov.au/members/by-name/yiwarr-mcgrath"
+    },
+    {
+      "label": "nt current lambley",
+      "url": "https://parliament.nt.gov.au/members/by-name/robyn-jane-lambley"
+    },
+    {
+      "label": "nt current ministry",
+      "url": "https://parliament.nt.gov.au/members/ministry"
+    },
+    {
+      "label": "nt assembly index",
+      "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly"
+    },
+    {
+      "label": "nt mulka results",
+      "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results"
+    },
+    {
+      "label": "nt mulka timetable",
+      "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/Mulka-timetable"
+    },
+    {
+      "label": "nt nightcliff results",
+      "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results"
+    },
+    {
+      "label": "nt nightcliff timetable",
+      "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/timetable"
+    },
+    {
+      "label": "nt ordinary rule",
+      "url": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable"
+    },
+    {
+      "label": "nt current elections",
+      "url": "https://ntec.nt.gov.au/elections/current-elections"
+    },
+    {
+      "label": "nt public notices",
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
     }
-  ]
+  ],
+  "previousResearchRun": "2026-05-08",
+  "researchReview": {
+    "checked": "2026-10-23",
+    "timezone": "Australia/Brisbane",
+    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+    "previousResearchRun": "2026-05-08",
+    "sourceDatesPreserved": true
+  }
 }
 ```

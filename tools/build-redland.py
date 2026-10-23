@@ -249,7 +249,7 @@ def integrate(outputs):
     block='<div class="section">'+council_widget(page)+'</div>'
     file=ROOT/page;text=file.read_text(encoding='utf-8')
     if start not in text:
-        marker='    <section class="section state-summary-grid">'
+        marker='<section class="section state-summary-grid">'
         if marker not in text:raise ValueError('QLD summary marker missing')
         text=text.replace(marker,start+'\n'+block+'\n'+end+'\n'+marker,1)
         file.write_text(text,encoding='utf-8')

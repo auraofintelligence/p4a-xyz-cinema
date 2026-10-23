@@ -23,6 +23,7 @@ function Escape-Html {
 
 function Format-DateLabel {
   param([string]$IsoDate)
+  if ([string]::IsNullOrWhiteSpace($IsoDate)) { return "Date not announced" }
   try {
     return ([DateTimeOffset]::Parse($IsoDate)).ToString("d MMM yyyy", $culture)
   } catch {
@@ -62,6 +63,7 @@ function Write-Utf8NoBom {
     $Value = $Value.Replace("script.js?v=20260707-cinema", "script.js?v=20261002-vic-clock")
   }
   $encoding = New-Object System.Text.UTF8Encoding($false)
+  $Value = [regex]::Replace($Value, '(?m)^[\t ]+(?=\r?$)', '')
   [System.IO.File]::WriteAllText($Path, $Value, $encoding)
   if ([System.IO.Path]::GetExtension($Path) -eq ".html") {
     python (Join-Path $PSScriptRoot 'finalize-html.py') $Path
@@ -350,12 +352,15 @@ function Render-ElectionCard {
   $daysSinceLabel = if ($null -ne $metrics -and -not [string]::IsNullOrWhiteSpace([string]$metrics.daysSinceLabel)) { Escape-Html $metrics.daysSinceLabel } else { "Days-since reference date not yet set in markdown." }
   $daysSinceSource = if ($null -ne $metrics -and -not [string]::IsNullOrWhiteSpace([string]$metrics.daysSinceSource)) { Escape-Html $metrics.daysSinceSource } else { "" }
   $daysSinceSourceLink = if ([string]::IsNullOrWhiteSpace($daysSinceSource)) { "" } else { "<a class=""timer-meta-link"" href=""$daysSinceSource"">Days-since source</a>" }
+  $countdownAttribute = if ([string]::IsNullOrWhiteSpace($date)) { "" } else { "data-countdown=""$date""" }
+  $countdownText = if ([string]::IsNullOrWhiteSpace($date)) { "Date not announced" } else { "Checking timer..." }
+  $dayMetricsHidden = if ([string]::IsNullOrWhiteSpace($date)) { " hidden" } else { "" }
 @"
 <article class="election-timer $ExtraClass" data-election-card data-state="$slug" data-election-date="$date" data-days-since-date="$daysSinceDate" data-days-since-label="$daysSinceLabel" data-election-scope="$scope" data-election-kind="$kind" data-election-label="$label" data-days-until-enabled="$showDaysUntil" data-days-since-enabled="$showDaysSince" data-archive-days-since="$archiveDaysSince" data-cycle-key="$cycleKey" data-archive-with-cycle="$archiveWithCycle">
   <div class="timer-topline"><span>$name</span><span>$kind</span></div>
   <h3>$label</h3>
-  <p class="countdown-value" data-countdown="$date">Checking timer...</p>
-  <dl class="timer-day-metrics">
+  <p class="countdown-value" $countdownAttribute>$countdownText</p>
+  <dl class="timer-day-metrics"$dayMetricsHidden>
     <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
     <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
   </dl>

@@ -72,7 +72,9 @@
         "sources": [
           "council-vic-retained",
           "council-vic-2024-335",
-          "council-vic-roster-335"
+          "council-vic-roster-335",
+          "refresh-vic-ward-3350820200709-20261023",
+          "council-vic-scoped-roles-20261023"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
         "representatives": [
@@ -175,6 +177,15 @@
             "sourceId": "council-vic-roster-335",
             "checked": "2026-10-02",
             "profileType": "official published council roster"
+          },
+          {
+            "name": "Nikki Kaur",
+            "role": "Councillor — Melaleuca Ward",
+            "profileUrl": "https://www.kingston.vic.gov.au/council/your-council/councillors",
+            "profileType": "official current-member profile or roster",
+            "sourceId": "council-vic-scoped-roles-20261023",
+            "checked": "2026-10-23",
+            "status": "Current office independently verified 23 October 2026; historical election remains separate. Kingston reports referral of the August result to VCAT; no later determination verified."
           }
         ],
         "elections": [
@@ -787,6 +798,26 @@
             "timezone": "Australia/Melbourne",
             "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
             "candidates": []
+          },
+          {
+            "id": "vic-lga-335-vic-ward-3350820200709-by-election-2026-2026-08-01",
+            "label": "2026 Melaleuca Ward by-election",
+            "kind": "by-election",
+            "status": "historical; result published",
+            "date": "2026-08-01",
+            "dateBasis": "Official VEC election date; result-page update and declaration dates are separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline/kingston-melaleuca-ward-by-election-results",
+            "candidates": [
+              {
+                "name": "Nikki Kaur",
+                "status": "declared elected; full historical ballot not entered",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/council-by-elections-and-countbacks-timeline/kingston-melaleuca-ward-by-election-results",
+                "votes": 1260,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "resultSourceUpdated": "2026-08-14T11:10:00+10:00"
           }
         ],
         "coverageNotes": [
@@ -818,7 +849,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -826,11 +857,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

@@ -77,7 +77,8 @@
           "council-qld-2024-browser-verified-xml",
           "council-qld-2024-browser-verified-xml-acquisition",
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
-          "council-qld-current-leaders-browser"
+          "council-qld-current-leaders-browser",
+          "refresh-tablelands-current-20261023"
         ],
         "boundaryEdition": "2024 election division edition; current source service",
         "representatives": [],
@@ -131,13 +132,29 @@
             ],
             "votingSystem": "Optional Preferential",
             "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6820-division-1-by-election-2026-10-31",
+            "label": "2026 Tablelands Division 1 by-election",
+            "kind": "by-election",
+            "status": "Scheduled; full postal voting; nominations closed",
+            "date": "2026-10-31",
+            "dateBasis": "Official ECQ full postal timetable: complete the vote by 6 pm on 31 October; ECQ receipt closes 5 pm on 10 November, Australia/Brisbane. These are distinct deadlines; no in-person polling opening or winner is inferred.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+            "candidates": [],
+            "dateTime": "2026-10-31T18:00:00+10:00",
+            "milestoneLabel": "postal vote completion deadline",
+            "postalReceiptDeadline": "2026-11-10T17:00:00+10:00"
           }
         ],
         "coverageNotes": [
           "Actual division geometry retained from the official current Queensland service. Councillor roster and previous election contestants still require reconciliation.",
           "The2024 councillor contest matches this council and official division number. It supplies historical ballots, not a current-office inference.",
           "The inherited retired generic directory link is replaced by this division parent council's independently published institutional website. Individual representative profiles remain separately sourced."
-        ]
+        ],
+        "representationReview": "Verified 23 October: Division 1 is vacant pending the by-election. No winner is inferred from the former 2024 ballot.",
+        "representationStatus": "vacant"
       }
     }
   ],
@@ -162,7 +179,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -170,11 +187,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

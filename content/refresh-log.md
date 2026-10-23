@@ -298,3 +298,23 @@ The sitemap generator now writes one explicit UTF-8 byte string to both mirrors.
 ## 23 October 2026 — civic map navigation
 
 Made the national map open state/territory electorate maps directly, moved map choices before state summaries, added reciprocal state/council/federal routes and compact phone controls, and removed public clone/tailoring/setup text. Political records, boundaries, source dates, licence and grassroots Twinkle exclusion are unchanged. Browser review: all eight phone entries/maps, WA layer/selection/Open/Back/Forward, ACT real local arrangements, NT tablet/desktop and federal return choices. See `docs/releases/2026-10-23-civic-navigation.md` and the dated QA files for actual validation and remaining limits. Publication outcome is recorded by GitHub commit and deployment history.
+
+
+## 23 October 2026 — scoped state research refresh
+
+Latest review is distinct from source publication, event, current-office and historical dates. The prior state snapshots are retained in `content/history/state-research-before-2026-10-23.json`; four official-source review manifests document successful reads, denied targets and partial coverage. No new grassroots Twinkles or geometry changes.
+
+- ACT: 25 MLAs reconciled; summary10Labor/8Liberal/4Green/3independent; former Greens confidence-and-supply arrangement ended. June Kurrajong countback retained; formal declaration5June clarified. Redistribution suggestions close3Nov, comments4–17Nov; current geometry retained. Federal profiles inaccessible.
+- NSW: Scruby/Pittwater corrects old named independent list; Govind elected15Oct to Council casual vacancy, resolving41/42roster gap. This is not a public by-election. Cobar28Nov; CoffsHarbour/HuntersHillSouth12Dec polls added; named roster removals remain follow-up after denied resignation reads.
+- NT: September roster confirms17CLP/6Labor/2independent; Johnston identity join corrected toJustineDavis, Paech retained inGwoja. Mulka12Sep results already detailed and now in overview; Nightcliff official support retained. NTEC current-election index lists none. Milngin failed nomination round still no replacement date; local/federal review partial.
+- QLD: 20Oct official roster confirms unchanged93party totals; Stafford result percentages retainJulycheck. TablelandsMayorKevinCardew, vacantDiv1 and TownsvilleDiv1MichelleHobson verified independently. Tablelands postal completion31Oct18:00, receipt10Nov17:00Brisbane; separate past mayoral/councillor polls preserved. Other local/federal records partial.
+- SA: CurrentHA feed(lastupdated22May) verifiesALP33/IND5 includingSpeakerNatCook; historicalALPballot unchanged. Council summary alignsretained17OctON3/FamilyFirst1roster; freshcompleteLCAPI403. Final2026elected-orderCSV unchanged; council postalclose7Apr2027 17:00Adelaide rechecked; old404resultslink replaced.
+- TAS: Currentofficial35MHA/15MLC lists checked; HelenBurnetIndependent and CaseyHiscuttIndependent. Huon/Rosevears countcompleted12May. Unsupportedexact2029House/May2027Council polls removed; no invented replacementdates. Ordinarycouncilpostalreceipt27Oct14:00Hobart(13:00Brisbane); individualcouncil/federalcoveragepartial.
+- VIC: All127currentmembers/electorates/partiesmatchofficialCSV; Brunswickvacancyretained. CandidateHelpernowavailable; state nominations4Nov09:00–9Nov12:00Melbourne, poll28Nov. Sevennamedcouncileventshistory/processadded, includingOctoberBeale/Lockwood/Briarsresults andKinglakenominations27Octnoon/postalclose4Dec18:00. Candidatecampaign/legalchecksretainolderdates.
+- WA: SecretHarbour29Augby-election/9Sepdeclaration added separately;16ballotnamesretainacceptedaffiliations andfinal2CPmeasure. DecemberCarnarvon/Coolgardie/Esperanceextraordinarypostalclose3Dec18:00Perth;Septemberaggregatecouncildeclarationsaddedwithwinner/rostergaps. Statepartyoverviewalignsretained17Octroster;freshParliament403, no blanketfreshcurrent-rosterclaim.
+
+Integration and generators completed; validation, browser, staged evidence and publication outcomes are recorded in the release note and actual QA/GitHub reports. No earlier PASS is treated as acceptance of these new facts.
+
+### 23 October 2026 - Layered council directories
+
+At Luke's request, replace flattened statewide inventories with existing council, ward/division and detail pages. Victoria formerly listed 531 records (79 councils, eight unincorporated areas, 444 children). Apply council-first lists across all eight jurisdictions, separately label exceptional areas, preserve ACT/NT arrangements and all map layers, and retain child/parent links. No additional factual research or new pages is implied by this navigation correction. Validation/publication recorded with the state-research release.

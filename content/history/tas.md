@@ -258,3 +258,10 @@ This markdown file powers the generated P4A history page for Tasmania. Edit the 
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+Currentofficial35MHA/15MLC lists checked; HelenBurnetIndependent and CaseyHiscuttIndependent. Huon/Rosevears countcompleted12May. Unsupportedexact2029House/May2027Council polls removed; no invented replacementdates. Ordinarycouncilpostalreceipt27Oct14:00Hobart(13:00Brisbane); individualcouncil/federalcoveragepartial.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-23",
+  "researchTimezone": "Australia/Brisbane",
+  "scope": "Read-only official-source WA/TAS state-summary refresh, with bounded notices for councils already covered by the national registry. Parent integrates and publishes. No repository files edited.",
+  "canonicalRead": [
+    "AGENTS.md",
+    "content/refresh-watchlist.md",
+    "docs/agents/fractal-election-updates.md",
+    "content/places/AGENTS.md",
+    "content/states/wa.md",
+    "content/states/tas.md",
+    "content/places/state.json",
+    "content/places/councils.json",
+    "content/places/federal.json"
+  ],
+  "sources": [
+    {
+      "id": "wa-secret-harbour-declaration-2026",
+      "url": "https://www.elections.wa.gov.au/about-us/media/releases/2627",
+      "publicationDate": "2026-09-09",
+      "outcome": "read",
+      "support": "WAEC declares Luke Herdegen elected for Secret Harbour; poll held 29 August 2026; declaration and writ return 9 September. Final two-candidate preferred: Herdegen 57.19%, Georgia Tree 42.81%. Turnout 78.98%, informality 3.42%.",
+      "shortQuote": "This declaration finalises the by-election result and supersedes the indicative result reported on polling night."
+    },
+    {
+      "id": "wa-secret-harbour-ballot-2026",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610",
+      "publicationDate": "2026-07-21",
+      "outcome": "read",
+      "support": "Official accepted 16-candidate ballot/order, 29 August poll, early voting 17 August, postal applications 26 August 18:00, postal receipt deadline 3 September 09:00, all Perth time. This is a past by-election, separate from the 2025 general election."
+    },
+    {
+      "id": "wa-state-events",
+      "url": "https://www.elections.wa.gov.au/elections/state",
+      "outcome": "read",
+      "support": "Last state election 8 March 2025. Assembly vacancies lead to by-election; Council vacancies use recount of previous-election votes, or fresh election if no qualified consenting candidate."
+    },
+    {
+      "id": "wa-fixed-date-rule",
+      "url": "https://www.elections.wa.gov.au/about-us/media/releases/1892",
+      "publicationDate": "2021-02-03",
+      "outcome": "read",
+      "support": "Official WAEC statement identifies second Saturday of March every four years as the ordinary state general election rule. Existing 10 March 2029 remains rule-derived, not an announced 2029 writ/timetable. This older statement is not proof of a fresh full legal review."
+    },
+    {
+      "id": "wa-voting-state",
+      "url": "https://www.elections.wa.gov.au/vote/voting-state-election",
+      "outcome": "read",
+      "support": "59 Assembly members representing districts; 37 Council members elected statewide."
+    },
+    {
+      "id": "wa-government-current",
+      "url": "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/New-laws-to-protect-more-Western-Australians-from-discrimination-20261020",
+      "publicationDate": "2026-10-20",
+      "outcome": "read",
+      "support": "Government statement identifies Cook Labor Government and Premier Roger Cook. Relevant only to continued leader/government identity; unrelated policy content is outside this election refresh."
+    },
+    {
+      "id": "wa-december-lg-notice",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
+      "publicationDate": "2026-10-22",
+      "outcome": "read",
+      "support": "Nominations closed 20 October. Carnarvon president/Town/Gascoyne-Minilya, Coolgardie, Esperance Town proceed to 3 December extraordinary postal elections. Completed voting packages received by 18:00 Thursday 3 December. Carnarvon Coral Bay and Plantation candidates elected unopposed; no names exposed in this notice."
+    },
+    {
+      "id": "wa-december-lg-hub",
+      "url": "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections",
+      "outcome": "read",
+      "support": "December extraordinary elections for Carnarvon, Coolgardie and Esperance; nominations opened 13 October, closed 20 October 16:00; enrolment closed 7 October. Replacement serves remainder of original term. Linked individual election pages expose no substantive text through web extraction."
+    },
+    {
+      "id": "wa-september-lg-declaration",
+      "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2633",
+      "publicationDate": "2026-09-25",
+      "outcome": "read",
+      "support": "WAEC declares all results for six local governments proceeding to extraordinary polls on 24 September. Notice supports aggregate declaration, not individual winners or a fresh current council roster."
+    },
+    {
+      "id": "wa-september-lg-hub",
+      "url": "https://www.elections.wa.gov.au/2026-september-local-government-extraordinary-elections",
+      "outcome": "read",
+      "support": "Six polls: Cue; Mandurah Town Ward; Northam East Ward; Northampton; Rockingham-Safety Bay Ward; South Perth Como and Moresby Ward. Dowerin, Merredin and Upper Gascoyne did not proceed because no nominations or unopposed; individual reason not disambiguated. Manjimup did not proceed because vacancy filled by backfill. Individual result names require further official detail."
+    },
+    {
+      "id": "wa-june-lg-hub",
+      "url": "https://www.elections.wa.gov.au/2026-june-local-government-extraordinary-elections",
+      "outcome": "read",
+      "support": "Final results linked for Brookton, Chittering, Coolgardie and Upper Gascoyne. Dowerin and Merredin did not proceed because no nominations. This bounded hub check did not verify individual dates/winners/current office."
+    },
+    {
+      "id": "tas-current-ha-list",
+      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
+      "sourceDate": "2026-08",
+      "outcome": "read",
+      "support": "Official current list linked by House Members page: 35 named members, Liberal14, Labor10, Greens4, Independent6, SFF1; Helen Burnet IND Clark. Jeremy Rockliff Premier. No vacancy listed. PDF pages1-5 carry members/party/electorate; p5 party totals."
+    },
+    {
+      "id": "tas-current-ha-directory",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers",
+      "outcome": "read",
+      "support": "Current directory lists the same35 named MHAs as the August PDF; source is current directory, while the linked PDF retains its actual August2026 observation date."
+    },
+    {
+      "id": "tas-burnet-current",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/helen-burnet",
+      "outcome": "read",
+      "shortQuote": "Independent member for Clark",
+      "support": "Current office and party verified independently of her2025 election label."
+    },
+    {
+      "id": "tas-burnet-history",
+      "url": "https://www.parliament.tas.gov.au/visit-and-learn/historyindex/members/parliament-of-tasmania-helen-burnet",
+      "outcome": "read",
+      "support": "Official biography labels Tasmanian Greens2024-2026, Independent2026 onward; exact2026 transition day is not supplied and must not be invented."
+    },
+    {
+      "id": "tas-current-lc-list",
+      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf",
+      "sourceDate": "2026-08-25",
+      "outcome": "read",
+      "support": "Current15 MLCs: Independent8, Liberal3, Labor3, Greens1; no vacancy. Clare Glade-Wright Huon Ind; Jo Palmer Rosevears LP; Casey Hiscutt Montgomery Ind. Tania Rattray remains Independent despite government-leader role. Party totals p3."
+    },
+    {
+      "id": "tas-current-lc-directory",
+      "url": "https://www.parliament.tas.gov.au/legislative-council/members",
+      "outcome": "read",
+      "support": "Current15-name directory links25August2026 printable list and current Glade-Wright/Palmer profiles."
+    },
+    {
+      "id": "tas-current-cabinet",
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/cabinet",
+      "outcome": "read",
+      "support": "Jeremy Rockliff remains Premier; current14Liberal seats among35 support minority-government description. Roster and government identity checked; not an exhaustive policy/cabinet-history review."
+    },
+    {
+      "id": "tas-huon-final",
+      "url": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
+      "outcome": "read",
+      "support": "7May provisional distribution gave unassailable lead and Glade-Wright elected. 12May11:06 postal votes before10am deadline included; counting completed. Retain2May polling date and7May elected announcement separately from final counting."
+    },
+    {
+      "id": "tas-huon-declaration-release",
+      "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1688198&k=1P4JIgwcxv2YwS1vPq_fNXK2-5TvC_QYP-8-78xk3SU",
+      "publicationDate": "2026-05-07",
+      "outcome": "read official TEC release linked by TEC result page",
+      "support": "TEC release says Glade-Wright declared elected7May, final figures expected12May; formal declaration ceremony scheduled11May11:00. Do not collapse these distinct stages."
+    },
+    {
+      "id": "tas-rosevears-final",
+      "url": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/rosevears/index.html",
+      "outcome": "read",
+      "support": "12May14:48 distribution completed and PALMER elected; first preferences final12May10:26 after postal deadline. Replaces stale May7 adjourned-count description."
+    },
+    {
+      "id": "tas-rosevears-declaration-release",
+      "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1689722&k=ahbyWx01lUrrzg2B3WjMrr6ex_vOhtEeA7-R3Ep6gAE",
+      "publicationDate": "2026-05-12",
+      "outcome": "read official TEC release linked by TEC result page",
+      "support": "TEC says counting complete and Jo Palmer elected12May; declaration ceremony scheduled13May11:00. This release is not separate evidence that the later ceremony occurred."
+    },
+    {
+      "id": "tas-ha-elections",
+      "url": "https://www.tec.tas.gov.au/house-of-assembly/",
+      "outcome": "read",
+      "support": "Last House general election19July2025. Exact timing not fixed; elections at least every4years and may be earlier. No newer House recount shown in current official history index. This source does not establish19July2029 as an exact legal last-possible polling day."
+    },
+    {
+      "id": "tas-lc-cycle",
+      "url": "https://www.tec.tas.gov.au/legislative-council/",
+      "outcome": "read",
+      "support": "Next Legislative Council election May2027: Derwent, Mersey, Windermere. Six-year cycle; official current page gives month/year, not exact2027polling date. Canonical national date-unannounced records already reflect this."
+    },
+    {
+      "id": "tas-lg-2026",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+      "outcome": "read",
+      "support": "All29 councils in postal election. Receipt closes27October14:00 Tasmania daylight time; counting starts28October09:00. Too late to post: return in person to council.441candidates contest213councillor positions,258also mayor/deputy mayor. These future positions do not replace263current roster entries before results."
+    },
+    {
+      "id": "tas-tec-front-page",
+      "url": "https://www.tec.tas.gov.au/",
+      "outcome": "read",
+      "support": "Telephone Assisted Voting available until23October17:00Tasmania daylight time.27October14:00postal receipt deadline and in-person ballot-return advice reiterated. No future results inferred."
+    },
+    {
+      "id": "tas-lg-vacancies",
+      "url": "https://www.tec.tas.gov.au/local-government/vacancies.html",
+      "outcome": "read",
+      "shortQuote": "There are currently no local government vacancies.",
+      "support": "Commission's current vacancies register says none; retained earlier replacement history runs through2025. This scoped commission-register check does not freshly verify each council's individual member profile."
+    }
+  ],
+  "wa": {
+    "reviewStatus": "partial-current-roster; verified commission event and bounded council notices",
+    "summaryChanges": [
+      {
+        "field": "chambers[Legislative Assembly].composition",
+        "existingMay": {
+          "ALP": 46,
+          "LIB": 7,
+          "NAT": 6
+        },
+        "existingOctoberCanonical": {
+          "ALP": 45,
+          "LIB": 6,
+          "NAT": 6,
+          "IND": 1,
+          "ONP": 1
+        },
+        "recommendation": "Use dated October17canonical roster provenance plus newly verified Secret Harbour declaration; do not call full roster fresh-checked23October. Nedlands Independent current in canonical; primary current roster access failed here."
+      },
+      {
+        "field": "elections",
+        "recommendation": "Add separate historical29August2026Secret Harbour by-election; do not overwrite2025general. Keep2029ordinary rule-derived election separate."
+      },
+      {
+        "field": "sources[WAEC state elections information]",
+        "recommendation": "Existing May sourceURL returned404; replace broken public link with applicable accessible primary record and keep limitation on current legal date verification."
+      }
+    ],
+    "unchangedOrRetained": [
+      "Roger Cook / Labor government identity verified by20Octoberofficial release; majority supported by dated45of59canonical composition.",
+      "37whole-state upper-house structure verified bycurrent WAEC voting page. Existing16ALP/10LIB/4Greens/2NAT/2ONP/1AJP/1AC/1LCWA composition retained asOctober17roster, not freshly verified.",
+      "No broad no-change claim on all vacancies or all2026WAcouncils: individual latest rosters/results remain partial."
+    ],
+    "statePlaces": {
+      "secretHarbour": {
+        "id": "state-wa-wa395",
+        "currentRepresentative": "Luke HERDEGEN",
+        "currentParty": "ONP",
+        "representativeSourceId": "state-wa-current-la-browser-roster",
+        "existingChecked": "2026-10-17",
+        "existingEvents": [
+          "wa-2025-secret-harbour",
+          "wa-next-state-general"
+        ],
+        "missingEventRecommendedLocalId": "wa-2026-secret-harbour-by-election",
+        "pollDate": "2026-08-29",
+        "declarationDate": "2026-09-09",
+        "status": "historical / declared result",
+        "timezone": "Australia/Perth",
+        "winner": "Luke Herdegen",
+        "finalTwoCandidatePreferred": [
+          {
+            "name": "Luke Herdegen",
+            "percent": 57.19
+          },
+          {
+            "name": "Georgia Tree",
+            "percent": 42.81
+          }
+        ],
+        "sourceIds": [
+          "wa-secret-harbour-declaration-2026",
+          "wa-secret-harbour-ballot-2026"
+        ]
+      },
+      "nedlands": {
+        "id": "state-wa-wa387",
+        "currentRepresentative": "Jonathan HUSTON",
+        "party": "IND",
+        "checkedRetain": "2026-10-17",
+        "note": "Do not alter2025Liberal contestant label. Search index points to official biography saying Liberal resignation25June2026, but actual page returned403; date is NOT fresh-verified by this investigation."
+      },
+      "upperHouse": {
+        "id": "state-wa-legislative-council-statewide",
+        "checkedRetain": "2026-10-17"
+      }
+    },
+    "secretHarbourAcceptedBallot": [
+      {
+        "order": 1,
+        "name": "ROBERTSON, Ryan",
+        "party": "Liberal Party"
+      },
+      {
+        "order": 2,
+        "name": "BARTON, Matthew",
+        "party": "Libertarian"
+      },
+      {
+        "order": 3,
+        "name": "DAVIES, Rhi",
+        "party": "The Greens (WA)"
+      },
+      {
+        "order": 4,
+        "name": "BUCHANAN, Craig Robert",
+        "party": "Legalise Cannabis Party WA"
+      },
+      {
+        "order": 5,
+        "name": "HAMILTON, Tim",
+        "party": "Shooters Fishers and Farmers"
+      },
+      {
+        "order": 6,
+        "name": "TREE, Georgia",
+        "party": "WA Labor"
+      },
+      {
+        "order": 7,
+        "name": "HOWARD, Paul",
+        "party": "Independent"
+      },
+      {
+        "order": 8,
+        "name": "BURDETT, Robert",
+        "party": "Australian Christians"
+      },
+      {
+        "order": 9,
+        "name": "JENSEN, Neil",
+        "party": "Animal Justice Party"
+      },
+      {
+        "order": 10,
+        "name": "VAN LIESHOUT, Teresa",
+        "party": "Independent"
+      },
+      {
+        "order": 11,
+        "name": "GULLAN, Paul",
+        "party": "Independent"
+      },
+      {
+        "order": 12,
+        "name": "FELS, Anthony",
+        "party": "WA First"
+      },
+      {
+        "order": 13,
+        "name": "PALMER, Jayne",
+        "party": "Independent"
+      },
+      {
+        "order": 14,
+        "name": "HERDEGEN, Luke",
+        "party": "One Nation"
+      },
+      {
+        "order": 15,
+        "name": "DUNNE, Peter D.",
+        "party": "Independent"
+      },
+      {
+        "order": 16,
+        "name": "MURRELL, Brett",
+        "party": "Independent"
+      }
+    ],
+    "decemberCouncilEvents": {
+      "status": "officially announced; nominations closed; candidates accepted but names not extracted",
+      "dateTime": "2026-12-03T18:00:00+08:00",
+      "milestoneLabel": "postal voting closes",
+      "timezone": "Australia/Perth",
+      "existingCanonical": "No separate2026extraordinary events present; preserve2025ordinary andunknownnextordinary entries.",
+      "places": [
+        {
+          "id": "wa-council-51540",
+          "name": "Carnarvon",
+          "contestedOffices": [
+            "Shire President",
+            "Town Ward",
+            "Gascoyne/Minilya Ward"
+          ],
+          "wardIds": [
+            "wa-ward-wad76ffebcf31a1",
+            "wa-ward-wad81060d56c255"
+          ],
+          "unopposedWardIds": [
+            "wa-ward-wadf2fdc0372045",
+            "wa-ward-wad40598f2e783d"
+          ],
+          "unopposedNames": "not exposed in read notice; do not invent or conflate with current roster",
+          "recommendedLocalEventId": "wa-council-51540-extraordinary-2026-12-03"
+        },
+        {
+          "id": "wa-council-51960",
+          "name": "Coolgardie",
+          "contestedOffices": [
+            "councillor vacancy; number not stated in notice"
+          ],
+          "recommendedLocalEventId": "wa-council-51960-extraordinary-2026-12-03"
+        },
+        {
+          "id": "wa-council-53290",
+          "name": "Esperance",
+          "contestedOffices": [
+            "Town Ward"
+          ],
+          "wardIds": [
+            "wa-ward-wad34da53cd7ae1"
+          ],
+          "recommendedLocalEventId": "wa-council-53290-extraordinary-2026-12-03"
+        }
+      ],
+      "currentRosterWarning": "Notices evidence vacancies/process but do not establish which stale current-role entries to remove or names of unopposed replacements. Treat existing affected council roster as needs-follow-up; do not silently claim allcurrentmembers verified."
+    },
+    "septemberCouncilEvents": {
+      "pollDate": "2026-09-24",
+      "declaredBy": "2026-09-25",
+      "status": "historical declared in aggregate",
+      "placeIds": [
+        "wa-council-52380",
+        "wa-council-55110",
+        "wa-council-56730",
+        "wa-council-56790",
+        "wa-council-57490",
+        "wa-council-57840"
+      ],
+      "scope": "Cue; MandurahTown; NorthamEast; Northampton; Rockingham-SafetyBay; SouthPerthComo/Moresby. No separate canonical2026events. Individual ballots/winner names not freshly acquired.",
+      "otherIds": {
+        "dowerin": "wa-council-52940",
+        "merredin": "wa-council-55460",
+        "upperGascoyne": "wa-council-58470",
+        "manjimup": "wa-council-55180"
+      }
+    },
+    "federal": "Canonical current WAHouse/Senate identities inspected for existing scope, but not freshly researched here. Parent should retain dates/explicit coverage and handle shared national current-source checks separately."
+  },
+  "tas": {
+    "reviewStatus": "state summary/current parliamentary roster and main event/cycle sources verified; individual council/member profile history and federal remain bounded gaps",
+    "houseComposition": {
+      "total": 35,
+      "Liberal": 14,
+      "Labor": 10,
+      "Greens": 4,
+      "Independent": 6,
+      "ShootersFishersFarmers": 1,
+      "sourceId": "tas-current-ha-list",
+      "sourceDate": "2026-08",
+      "retrieved": "2026-10-23",
+      "vacanciesListed": 0,
+      "note": "Current party composition, not2025electedparty totals. May summary's5Greens/5namedindependents is2025historical snapshot and should be retained inhistory rather than assertedcurrent."
+    },
+    "independentMhas": [
+      {
+        "name": "George Razay",
+        "seat": "Bass"
+      },
+      {
+        "name": "Craig Garland",
+        "seat": "Braddon"
+      },
+      {
+        "name": "Helen Burnet",
+        "seat": "Clark"
+      },
+      {
+        "name": "Kristie Johnston",
+        "seat": "Clark"
+      },
+      {
+        "name": "Peter George",
+        "seat": "Franklin"
+      },
+      {
+        "name": "David O’Byrne",
+        "seat": "Franklin"
+      }
+    ],
+    "lcComposition": {
+      "total": 15,
+      "Independent": 8,
+      "Liberal": 3,
+      "Labor": 3,
+      "Greens": 1,
+      "sourceDate": "2026-08-25",
+      "sourceId": "tas-current-lc-list",
+      "vacanciesListed": 0
+    },
+    "canonicalChangesOrConfirmations": [
+      {
+        "placeId": "state-tas-tas2965",
+        "person": "Helen Burnet",
+        "currentParty": "Independent",
+        "status": "canonical already correct; updateMaystateoverviewcurrenttotals;retain2025electionaffiliation"
+      },
+      {
+        "placeId": "state-tas-lc-100028",
+        "person": "Casey Hiscutt",
+        "existingParty": "Affiliation not published on current profile",
+        "verifiedParty": "Independent",
+        "sourceId": "tas-current-lc-list",
+        "status": "canonical unknown resolved byofficialcurrentPDF"
+      },
+      {
+        "placeId": "state-tas-lc-100019",
+        "person": "Clare Glade-Wright",
+        "eventId": "tas-lc-2026-05-02-huon",
+        "status": "canonical historical finaltable already correct; replaceMayoverviewcountingclaim",
+        "pollDate": "2026-05-02",
+        "electedAnnounced": "2026-05-07",
+        "declarationCeremonyScheduled": "2026-05-11T11:00:00+10:00",
+        "countCompleted": "2026-05-12"
+      },
+      {
+        "placeId": "state-tas-lc-100029",
+        "person": "Jo Palmer",
+        "eventId": "tas-lc-2026-05-02-rosevears",
+        "status": "canonical historical finaltable already correct; replaceMayoverviewadjournedclaim",
+        "pollDate": "2026-05-02",
+        "electedAndCountCompleted": "2026-05-12",
+        "declarationCeremonyScheduled": "2026-05-13T11:00:00+10:00"
+      }
+    ],
+    "timingCorrections": [
+      {
+        "target": "content/states/tas.md general election date 2029-07-19T08:00:00+10:00",
+        "canonicalEventId": "tas-next-state-general",
+        "finding": "TEC says no fixed date and at least every four years; it does not establish this polling anniversary as an exact legal last-possible poll. Recommend date=null/date-unannounced and no exact countdown; retain previous 19 July 2025 historical date and four-year term context. Full legal maximum calculation not attempted. All five national House records already have tas-next-state-general date=null, status=date-unannounced; no change needed to those."
+      },
+      {
+        "target": "content/states/tas.md 2027 Legislative Council date 2027-05-01T08:00:00+10:00",
+        "finding": "Current TEC supports May 2027 only. Recommend no exact poll countdown until an official date is established; national Derwent/Mersey/Windermere date-unannounced records are already consistent.",
+        "placeIds": [
+          "state-tas-lc-100025",
+          "state-tas-lc-100027",
+          "state-tas-lc-100030"
+        ],
+        "eventIds": [
+          "tas-lc-2027-derwent",
+          "tas-lc-2027-mersey",
+          "tas-lc-2027-windermere"
+        ]
+      }
+    ],
+    "councils": {
+      "coverage": "All29canonicaltas-council-*next-ordinaryevents alreadycarry27Octoberreceiptdeadline. CurrentTECregisterreportsnocouncilvacancies; nofreshindividualcurrentrosterassertion.",
+      "status": "postalvotingunderway",
+      "receiptDeadline": "2026-10-27T14:00:00+11:00",
+      "countingStarts": "2026-10-28T09:00:00+11:00",
+      "telephoneVotingCloses": "2026-10-23T17:00:00+11:00",
+      "timezone": "Australia/Hobart",
+      "receiptDeadlineBrisbane": "2026-10-27T13:00:00+10:00",
+      "telephoneVotingClosesBrisbane": "2026-10-23T16:00:00+10:00",
+      "advice": "Returncompletedballotpacksinpersontolocalcounciloffices;officialpagesaystoolatetopost.",
+      "candidateCount": 441,
+      "councillorPositionsContested": 213,
+      "mayorOrDeputyCandidacies": 258,
+      "currentCanonicalRepresentativeEntries": 263,
+      "warning": "213newtermpositionsisnot263currentofficemembers;donotreplacecurrentpeoplewithcandidatesorassumefutureresults."
+    },
+    "noNewStatePollFound": "CurrentTEC House history shows2025generalaslatestandnonewerHouserecountentry; currentLCpagepointsnextMay2027andcompleted2026polls. This is aboundedindex/rosterreview, notaproofofnopossibleunindexednotice.",
+    "federal": "CanonicalSenatealreadyhasVanessaBleyer,JoshDolega,RichardDowling,ChrisGatenbyandTammyTyrrell/ALP; nofreshfederalresearchperformedbythischild. Retainexistingsource datesandavoidinferringnewfederalreplacementfromoldannouncement."
+  },
+  "accessAndLimitations": [
+    {
+      "action": "web open",
+      "targets": [
+        "https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty",
+        "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WebCurrentMembLA",
+        "https://www.parliament.wa.gov.au/parliament/memblist.nsf/WebCurrentMembLC",
+        "https://www.parliament.wa.gov.au/parliament/library/MPHistoricalData.nsf/%28Lookup%29/C321E80DCF336A9348258C5800080E97?OpenDocument="
+      ],
+      "outcome": "denied byremote403Forbidden",
+      "effect": "FullWAcurrentroster/currentpartychangeeffectivedatecannotbefreshcertified;keepOctober17canonicalprovenance. Noaccessbypassorrepeateddeniedoperation."
+    },
+    {
+      "action": "supportedCUAbrowserlookupforordinaryofficialrosterread",
+      "target": "WAParliamentpublicroster",
+      "outcome": "unavailable: No browser is available",
+      "effect": "Noalternativeordinarybrowserreviewinthischild;noUIchanges."
+    },
+    {
+      "action": "web open",
+      "target": "https://www.elections.wa.gov.au/about-us/media/state-elections-information",
+      "outcome": "404NotFound",
+      "effect": "ExistingMayoverviewlinkbroken;accessibleolderWAECruleandcurrentstatehubreadseparately."
+    },
+    {
+      "action": "web open",
+      "target": "WAECindividualcouncilelectionpageslinkedbyDecemberhub",
+      "outcome": "readreturnedonlyback-to-top;noresult/candidatedata",
+      "effect": "Futureofficialevent/deadlinesverifiedfromnotice;individualballots/unopposednames/currentrostersremainneeds-follow-up."
+    },
+    {
+      "action": "ordinaryPythonurllibreadonlyGET",
+      "target": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
+      "outcome": "failedbeforeHTTP:DNSgetaddrinfo11001",
+      "effect": "Couldnotinspectactualindividual-electionlinkparameters;noescalationorbypassattempted. Samepublicnoticewasalreadyfullyreadthroughwebtool."
+    },
+    {
+      "action": "web open",
+      "target": "https://www.elections.wa.gov.au/",
+      "outcome": "timeout",
+      "effect": "Specificcommissioneventpageswork;homepagefailureisnotno-changeevidence."
+    }
+  ],
+  "delivery": "Evidence only, outside repository. JSON parse passed: 27 source records. Parent must review/integrate canonical facts and actual dependants, run validators and publication checks. No repository edits, commits or pushes by this child. No assertion that full state/council/federal source coverage is fresh."
+}

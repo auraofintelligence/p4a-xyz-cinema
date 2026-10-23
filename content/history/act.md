@@ -246,3 +246,10 @@ This markdown file powers the generated P4A history page for Australian Capital 
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+25 MLAs reconciled; summary10Labor/8Liberal/4Green/3independent; former Greens confidence-and-supply arrangement ended. June Kurrajong countback retained; formal declaration5June clarified. Redistribution suggestions close3Nov, comments4–17Nov; current geometry retained. Federal profiles inaccessible.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

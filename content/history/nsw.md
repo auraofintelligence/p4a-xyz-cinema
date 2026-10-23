@@ -259,3 +259,10 @@ This markdown file powers the generated P4A history page for New South Wales. Ed
   ]
 }
 ```
+
+
+## Scoped current-civic review, 23 October 2026
+
+Scruby/Pittwater corrects old named independent list; Govind elected15Oct to Council casual vacancy, resolving41/42roster gap. This is not a public by-election. Cobar28Nov; CoffsHarbour/HuntersHillSouth12Dec polls added; named roster removals remain follow-up after denied resignation reads.
+
+This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.

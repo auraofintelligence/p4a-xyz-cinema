@@ -16,9 +16,9 @@
     "scope": "state"
   },
   "coverageNotes": [
-    "41 current members are listed by the filtered official directory checked 17 October 2026. The difference from the 42-seat chamber is unresolved roster coverage, not an invented member, vacancy reason or party balance.",
     "The 2023 contest elects 21 members. Individual candidate votes are below-the-line first preferences; above-the-line votes belong to groups and are not assigned to individual candidates.",
     "Current affiliations come from the current directory; historical affiliations retain the 2023 ballot group labels. Current office is never inferred from that election result.",
+    "23 October review resolves the former 41-of-42 roster coverage gap: official 15 October list supplies Bernard Govind (Labor). No guessed individual profile URL. Historical 2023 ballot and current replacement are separate.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -70,7 +70,8 @@
           "state-nsw-upper-house-structure",
           "state-nsw-supp-lc-current-roster",
           "state-nsw-supp-lc-results-2023",
-          "state-nsw-supp-lc-check-2023"
+          "state-nsw-supp-lc-check-2023",
+          "refresh-nsw-lc-20261023"
         ],
         "representatives": [
           {
@@ -400,6 +401,16 @@
             "profileUrl": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2236",
             "sourceId": "state-nsw-supp-lc-current-roster",
             "checked": "2026-10-17"
+          },
+          {
+            "name": "Bernard Govind",
+            "role": "Member of the Legislative Council",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+            "profileType": "official current-member roster; individual profile not verified",
+            "sourceId": "refresh-nsw-lc-20261023",
+            "checked": "2026-10-23",
+            "status": "Elected 15 October 2026 to casual vacancy caused by Greg Donnelly’s resignation; term expires with the 58th Parliament."
           }
         ],
         "elections": [
@@ -3479,12 +3490,31 @@
             "candidates": [],
             "dateTime": "2027-03-13T18:00:00+11:00",
             "milestoneLabel": "election-day voting closes"
+          },
+          {
+            "id": "nsw-lc-govind-casual-vacancy-2026",
+            "label": "2026 Legislative Council casual-vacancy replacement",
+            "kind": "casual-vacancy-replacement",
+            "status": "historical; replacement elected",
+            "date": "2026-10-15",
+            "dateBasis": "Official member list footnote 8: elected 15 October to vacancy caused by Greg Donnelly’s resignation. This is a replacement record, not a public by-election.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+            "candidates": [
+              {
+                "name": "Bernard Govind",
+                "party": "Australian Labor Party",
+                "status": "elected to casual vacancy",
+                "sourceUrl": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf"
+              }
+            ],
+            "milestoneLabel": "parliamentary replacement"
           }
         ],
         "coverageNotes": [
-          "41 current members are listed by the filtered official directory checked 17 October 2026. The difference from the 42-seat chamber is unresolved roster coverage, not an invented member, vacancy reason or party balance.",
           "The 2023 contest elects 21 members. Individual candidate votes are below-the-line first preferences; above-the-line votes belong to groups and are not assigned to individual candidates.",
-          "Current affiliations come from the current directory; historical affiliations retain the 2023 ballot group labels. Current office is never inferred from that election result."
+          "Current affiliations come from the current directory; historical affiliations retain the 2023 ballot group labels. Current office is never inferred from that election result.",
+          "23 October review resolves the former 41-of-42 roster coverage gap: official 15 October list supplies Bernard Govind (Labor). No guessed individual profile URL. Historical 2023 ballot and current replacement are separate."
         ]
       }
     }
@@ -3510,7 +3540,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -3518,11 +3548,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

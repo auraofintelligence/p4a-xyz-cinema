@@ -1,6 +1,6 @@
 # Pages and rules review register
 
-Updated 2026-10-18, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
+Updated 2026-10-23, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
 
 ## The local journey
 
@@ -8,11 +8,11 @@ Work started 2026-10-16; first verified build 2026-10-17.
 
 | Page | Last updated | Change | Review when |
 | --- | --- | --- | --- |
-| [Queensland councils](../../states/qld/councils/index.html) | 2026-10-17 | Added the council doorway, then the real searchable, draggable map. | Council boundaries, map service, source rights, built destinations or navigation change. |
+| [Queensland councils](../../states/qld/councils/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. | Council boundaries, map service, source rights, built destinations or navigation change. |
 | [Redlands overview](../../states/qld/councils/redland/index.html) | 2026-10-17 | Connected maps, facts and choices; replaced duplicate pictures with one interactive division map. | Boundaries, statistics, representation, election status or linked journey changes. |
 | [Local Twinkles and connections](../../states/qld/councils/redland/explore/index.html) | 2026-10-17 | Added 43 connected records; corrected 24 Twinkles to spoken gripe seeds with deeper context. | Local evidence, project status, links or canonical Twinkle rules change. |
 | [Connected possibilities](../../states/qld/councils/redland/possibilities/index.html) | 2026-10-17 | Connected local experiences, wider systems and overlapping lyric meanings; linked named songs to their individual lyric pages. | Proposal status, dependencies, evidence, song destinations or the human purpose changes. |
-| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-10-17 | Added representation, vote/reason pathways, election branches and optional personal learning. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
+| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
 | [Take part](../../states/qld/councils/redland/action/index.html) | 2026-10-17 | Added contribution choices, responsible-body routes and a private local note export. | Participation channels, authority, permissions, form behaviour or linked tools change. |
 | [Outcomes and learning](../../states/qld/councils/redland/outcomes/index.html) | 2026-10-17 | Added delivery stages and the cost, freely given contribution and change accounts. | A proposal, decision, delivery record, measured result or correction becomes available. |
 | [Sources, dates and this review register](../../states/qld/councils/redland/sources/index.html) | 2026-10-17 | Added source maps, dated statistics, change history and the explicit page/rule register. | Any linked page, rule, source, map edition, data release or recorded review changes. |
@@ -41,11 +41,11 @@ These were updated, rather than newly created.
 
 | Page | Updated | Change |
 | --- | --- | --- |
-| [States and territories](../../pages/states.html) | 2026-10-17 | Added the sourced raster state map and local journey route; existing page retained. |
-| [Queensland portal](../../states/qld/index.html) | 2026-10-17 | Added the actual interactive council map and clear opening route. |
-| [Queensland systems workbench](../../states/qld/architecture/index.html) | 2026-10-17 | Connected the public council journey to the existing workbench. |
-| [Maps and places](../../pages/maps.html) | 2026-10-17 | Added the Queensland and Redlands doorway while preserving existing map routes. |
-| [Find your way around](../../pages/site-map.html) | 2026-10-18 | Updated human-readable groups, all page destinations, divisions and review links. Renamed the sitemap grouping to “Origins, music and imagination”, removing the misleading cultural-coverage label while preserving its anchor and page membership. |
+| [States and territories](../../pages/states.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |
+| [Queensland portal](../../states/qld/index.html) | 2026-10-23 | Scoped 23 October state research review, verified changes and deadlines; explicit partial coverage. Original facts/event/source dates remain distinct. |
+| [Queensland systems workbench](../../states/qld/architecture/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |
+| [Maps and places](../../pages/maps.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |
+| [Find your way around](../../pages/site-map.html) | 2026-10-23 | Reviewed the national place directory, all public routes and readable sitemap for focused publication. Origins, music and imagination retains its existing group identity and membership. Source observation dates remain unchanged. |
 
 ## Rules and versions
 

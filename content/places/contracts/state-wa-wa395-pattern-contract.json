@@ -74,7 +74,8 @@
         "sources": [
           "state-boundaries-wa",
           "state-wa-la-candidates",
-          "state-wa-current-la-browser-roster"
+          "state-wa-current-la-browser-roster",
+          "refresh-wa-secret-harbour-20261023"
         ],
         "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
         "representatives": [
@@ -154,6 +155,135 @@
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/releases/1892",
             "candidates": []
+          },
+          {
+            "id": "wa-2026-secret-harbour-by-election",
+            "label": "2026 Secret Harbour by-election",
+            "kind": "by-election",
+            "status": "historical; declared elected",
+            "date": "2026-08-29",
+            "dateBasis": "Official WAEC poll day; declaration and writ returned 9 September. Final 2CP percentages are not primary votes.",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/releases/2627",
+            "candidates": [
+              {
+                "name": "ROBERTSON, Ryan",
+                "party": "Liberal Party",
+                "ballotOrder": 1,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "BARTON, Matthew",
+                "party": "Libertarian",
+                "ballotOrder": 2,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "DAVIES, Rhi",
+                "party": "The Greens (WA)",
+                "ballotOrder": 3,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "BUCHANAN, Craig Robert",
+                "party": "Legalise Cannabis Party WA",
+                "ballotOrder": 4,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "HAMILTON, Tim",
+                "party": "Shooters Fishers and Farmers",
+                "ballotOrder": 5,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "TREE, Georgia",
+                "party": "WA Labor",
+                "ballotOrder": 6,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610",
+                "result": "Final two-candidate preferred 42.81%; source: WAEC declaration 9 September",
+                "resultSourceUrl": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+              },
+              {
+                "name": "HOWARD, Paul",
+                "party": "Independent",
+                "ballotOrder": 7,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "BURDETT, Robert",
+                "party": "Australian Christians",
+                "ballotOrder": 8,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "JENSEN, Neil",
+                "party": "Animal Justice Party",
+                "ballotOrder": 9,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "VAN LIESHOUT, Teresa",
+                "party": "Independent",
+                "ballotOrder": 10,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "GULLAN, Paul",
+                "party": "Independent",
+                "ballotOrder": 11,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "FELS, Anthony",
+                "party": "WA First",
+                "ballotOrder": 12,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "PALMER, Jayne",
+                "party": "Independent",
+                "ballotOrder": 13,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "HERDEGEN, Luke",
+                "party": "One Nation",
+                "ballotOrder": 14,
+                "status": "elected",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610",
+                "result": "Final two-candidate preferred 57.19%; source: WAEC declaration 9 September",
+                "resultSourceUrl": "https://www.elections.wa.gov.au/about-us/media/releases/2627"
+              },
+              {
+                "name": "DUNNE, Peter D.",
+                "party": "Independent",
+                "ballotOrder": 15,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              },
+              {
+                "name": "MURRELL, Brett",
+                "party": "Independent",
+                "ballotOrder": 16,
+                "status": "contested",
+                "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2610"
+              }
+            ],
+            "declarationDate": "2026-09-09"
           }
         ],
         "coverageNotes": [
@@ -184,7 +314,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "85982d24a90ff819148aa7158d7a87126d997131721f9e6bf12cd39c594310d1"
+        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -192,11 +322,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6adb1a199480ae8aedaff55cbab25dd41072e6a7c08d00766491505ec6649159"
+        "sha256": "8bf1d43746ef32eb3429061c196b9b1b1496f6ebdd6fdfd2a74fe8fbe1b4645e"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "328612b0184090c3e80e53d8748d498d2f851ad8d049d6f65435232bcb2260da"
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
       }
     ],
     "requiredHumanChecks": [

@@ -4711,6 +4711,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Michael Stephens",
           "party": "Affiliation not verified",
           "role": "Warringine Ward"
+        },
+        {
+          "name": "Christine Leahy",
+          "party": "Affiliation not verified",
+          "role": "Briars Ward",
+          "sourceUrl": "https://www.mornpen.vic.gov.au/The-Shire/About-our-Council/Our-Councillors/Councillor-Christine-Leahy",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -5389,6 +5396,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Owen Cosgriff",
           "party": "Affiliation not verified",
           "role": "Whipstick Ward"
+        },
+        {
+          "name": "David Thorpe",
+          "party": "Affiliation not verified",
+          "role": "Lockwood Ward",
+          "sourceUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-greater-bendigo-city-council",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -6272,6 +6286,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Josh Gilligan",
           "party": "Affiliation not verified",
           "role": "Wimba Ward"
+        },
+        {
+          "name": "Kim McAliney",
+          "party": "Affiliation not verified",
+          "role": "Heathdale Ward",
+          "sourceUrl": "https://www.wyndham.vic.gov.au/about-council/councillors-wards/know-your-councillor-and-ward/councillor-kim-mcaliney",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -7255,6 +7276,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Alison Champion",
           "party": "Affiliation not verified",
           "role": "Sherbourne Ward"
+        },
+        {
+          "name": "Nicola Rooks",
+          "party": "Affiliation not verified",
+          "role": "Beale Ward",
+          "sourceUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-banyule-city-council",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -7592,6 +7620,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Sarah O'Donnell",
           "party": "Affiliation not verified",
           "role": "Yammerbook Ward"
+        },
+        {
+          "name": "Nikki Kaur",
+          "party": "Affiliation not verified",
+          "role": "Melaleuca Ward",
+          "sourceUrl": "https://www.kingston.vic.gov.au/council/your-council/councillors",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -8351,6 +8386,13 @@ window.P4A_VIC_ELECTORATES = {
           "name": "Steph Morgan",
           "party": "Affiliation not verified",
           "role": "Yallourn Ward"
+        },
+        {
+          "name": "Rob Moffatt",
+          "party": "Affiliation not verified",
+          "role": "Morwell River Ward",
+          "sourceUrl": "https://www.latrobe.vic.gov.au/Council/Our_Council/Councillors/Cr_Rob_Moffatt",
+          "checked": "2026-10-23"
         }
       ],
       "labelPoint": [
@@ -11179,7 +11221,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Nikki Kaur",
+          "party": "Affiliation not verified",
+          "role": "Melaleuca Ward",
+          "sourceUrl": "https://www.kingston.vic.gov.au/council/your-council/councillors",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         145.08942032089553,
         -37.998337
@@ -11934,7 +11984,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Nicola Rooks",
+          "party": "Affiliation not verified",
+          "role": "Beale Ward",
+          "sourceUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-banyule-city-council",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         145.1209889668435,
         -37.697983
@@ -13318,7 +13376,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "David Thorpe",
+          "party": "Affiliation not verified",
+          "role": "Lockwood Ward",
+          "sourceUrl": "https://www.vec.vic.gov.au/about-us/media/media-releases/new-councillor-for-greater-bendigo-city-council",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         144.13950984071272,
         -36.7854345
@@ -13726,7 +13792,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Kim McAliney",
+          "party": "Affiliation not verified",
+          "role": "Heathdale Ward",
+          "sourceUrl": "https://www.wyndham.vic.gov.au/about-council/councillors-wards/know-your-councillor-and-ward/councillor-kim-mcaliney",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         144.66730233944955,
         -37.886528
@@ -14850,7 +14924,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Christine Leahy",
+          "party": "Affiliation not verified",
+          "role": "Briars Ward",
+          "sourceUrl": "https://www.mornpen.vic.gov.au/The-Shire/About-our-Council/Our-Councillors/Councillor-Christine-Leahy",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         145.03440515899774,
         -38.271840499999996
@@ -17105,7 +17187,15 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Rob Moffatt",
+          "party": "Affiliation not verified",
+          "role": "Morwell River Ward",
+          "sourceUrl": "https://www.latrobe.vic.gov.au/Council/Our_Council/Councillors/Cr_Rob_Moffatt",
+          "checked": "2026-10-23"
+        }
+      ],
       "labelPoint": [
         146.37197613064944,
         -38.2527725

@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-23",
+  "checkedTimezone": "Australia/Brisbane",
+  "checkedAtUtc": "2026-10-23T03:40:08Z",
+  "purpose": "Read-only ACT/NT source research for the parent integrator; no repository edits or publication performed by this agent.",
+  "method": "Read repository instructions and May overview JSON, compared October 17 canonical state/council/federal records, then read public primary-source pages/PDF text with web tools. This is a minimal factual research extraction, not original downloaded source bytes. Source publication/effective dates remain separate from this retrieval date.",
+  "act": {
+    "outcome": "changed-since-May; current-office canonical largely already matches October sources; government arrangement and summary composition require correction",
+    "verified": {
+      "members": 25,
+      "vacanciesShownByCurrentRoster": 0,
+      "electorates": 5,
+      "membersPerElectorate": 5,
+      "composition": {
+        "Labor": 10,
+        "Liberal": 8,
+        "Green": 4,
+        "Independent": 3
+      },
+      "chiefMinister": "Andrew Barr",
+      "government": "Labor minority government; former Greens confidence-and-supply agreement no longer in place. This does not establish that the government fell or an election was called.",
+      "independents": [
+        "Fiona Carrick (Murrumbidgee)",
+        "Thomas Emerson (Kurrajong)",
+        "Leanne Castley (Yerrabi)"
+      ],
+      "ordinaryElectionDate": "2028-10-21",
+      "ordinaryElectionTimezone": "Australia/Sydney"
+    },
+    "changes": [
+      {
+        "effectiveDate": "2026-06-03",
+        "fact": "Leanne Castley left the Liberals and sits as a non-party Independent.",
+        "placeId": "state-act-act21",
+        "eventId": null,
+        "comparison": "October current-office record already correct; May overview Liberal9/independent2 is stale."
+      },
+      {
+        "resignationDate": "2026-05-15",
+        "countbackDate": "2026-06-04",
+        "formalDeclarationDate": "2026-06-05",
+        "fact": "Rebecca Vassarotti replaced Shane Rattenbury for Kurrajong by countback, not a fresh by-election poll.",
+        "placeId": "state-act-act19",
+        "eventId": "act-kurrajong-countback-2026",
+        "comparison": "October event/current-office already present. Casual-vacancy page now expressly confirms formal declaration5June, beyond the older scheduled-declaration wording. Six consenting candidates match canonical roster."
+      },
+      {
+        "effectiveDate": "2026-09-16",
+        "fact": "ACT Greens announced there would be no new confidence-and-supply agreement this term. Barr confirmed the former agreement was no longer in place in official Hansard17September.",
+        "canonicalTarget": "content/states/act.md government.arrangement and researchStatus",
+        "comparison": "May wording 'Labor minority government with Greens support' is materially stale."
+      }
+    ],
+    "noNewVacancyFound": "Elections ACT11th Assembly vacancy register says one casual vacancy since2024 and lists only Rattenbury; current parliament and commission roster agree on25 incumbents.",
+    "canonicalPlaceIds": [
+      "state-act-act17",
+      "state-act-act18",
+      "state-act-act19",
+      "state-act-act20",
+      "state-act-act21"
+    ],
+    "canonicalEventIds": [
+      "act-kurrajong-countback-2026",
+      "act-next-state-general",
+      "act-2024-brindabella",
+      "act-2024-ginninderra",
+      "act-2024-kurrajong",
+      "act-2024-murrumbidgee",
+      "act-2024-yerrabi"
+    ],
+    "sourceIdsAlreadyInCanonicalState": [
+      "state-act-current",
+      "state-act-kurrajong-2026-countback",
+      "state-act-kurrajong-2026-table1",
+      "state-act-kurrajong-2026-table2"
+    ],
+    "dataQuality": "Current Thomas Emerson party is scraped as 'I ndependent'; source typo/spacing may be normalised to Independent without changing historical ballot affiliation. Current Liberal/Liberals labels vary in source but reconcile to8.",
+    "redistribution": {
+      "status": "2026/27 process active; final boundaries and proposed redistribution still TBC; preserve currently serving-member map edition",
+      "publicSuggestionsOpen": "2026-10-06",
+      "publicSuggestionsClose": "2026-11-03",
+      "publicCommentsOpen": "2026-11-04",
+      "publicCommentsClose": "2026-11-17",
+      "source": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution"
+    },
+    "localGovernment": "ACT has no separate elected municipal-council process to fabricate. Existing act-council-89399 is contextual local-area geography, not an elected council; retain its special structure.",
+    "sources": [
+      {
+        "id": "act-current-parliament",
+        "url": "https://www.parliament.act.gov.au/members/current",
+        "locator": "Current members introduction and25-row roster",
+        "support": "25 MLAs/five electorates/five members each;10Labor8Liberal4Green3independent; Barr Chief Minister; roster matches October canonical identities; June changes.",
+        "quote": "Leanne Castley changed affiliation from Liberal to Independent on 3 June 2026."
+      },
+      {
+        "id": "act-current-commission",
+        "url": "https://www.elections.act.gov.au/elections/our-electoral-system/current-members-of-the-legislative-assembly",
+        "locator": "Five electorate lists, Castley/Rattenbury footnotes and final term sentence",
+        "support": "Independent Castley and Emerson; Vassarotti replaced Rattenbury by4June countback; current terms end21October2028."
+      },
+      {
+        "id": "act-vacancy-register",
+        "url": "https://www.elections.act.gov.au/elections/casual-vacancies/casual-vacancies-in-the-11th-legislative-assembly-2024-2028",
+        "locator": "Mr Shane Rattenbury / Results",
+        "support": "Only one casual vacancy;15May resignation;4June countback; six consenting candidates Ramon Bouckaert, James Cruz, Marilena Damiano, Jenny Hentzschel, Harrison Pike, Rebecca Vassarotti; declaration3pm5June.",
+        "quote": "There has been one casual vacancy since the 2024 Legislative Assembly election."
+      },
+      {
+        "id": "act-arrangement-hansard",
+        "url": "https://www.hansard.act.gov.au/hansard/11th-assembly/2026/PDF/tP260917.pdf",
+        "locator": "17September2026 proof Hansard PDF pp41–42, printedP2789–P2790; Barr answering regarding supply and confidence",
+        "support": "Chief Minister expressly says former agreement is no longer in place; issues considered on merits, continued engagement with Greens/other crossbench/Liberals. Proof status retained.",
+        "quote": "that that agreement is no longer place"
+      },
+      {
+        "id": "act-arrangement-party-primary",
+        "url": "https://greens.org.au/act/news/media-release/act-greens-end-confidence-and-supply-agreement-labor",
+        "publicationDate": "2026-09-16",
+        "locator": "ACT Greens End Confidence and Supply Agreement with Labor",
+        "support": "Party's own announcement of no new confidence-and-supply agreement for remainder of term; primary participant evidence corroborates official Hansard. Policy accusations are not adopted as fact."
+      },
+      {
+        "id": "act-redistribution-current",
+        "url": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution",
+        "locator": "2026/2027 redistribution key dates",
+        "support": "Suggestions6Oct–3Nov; comments4–17Nov; proposed/final redistributionTBC;21Oct2028 election; still five electorates of five."
+      }
+    ],
+    "checkedRoster": [
+      {
+        "placeId": "state-act-act17",
+        "electorate": "Brindabella",
+        "members": [
+          {
+            "name": "Deborah Morris",
+            "party": "Liberal"
+          },
+          {
+            "name": "Laura Nuttall",
+            "party": "Green"
+          },
+          {
+            "name": "Mark Parton",
+            "party": "Liberal"
+          },
+          {
+            "name": "Caitlin Tough",
+            "party": "Labor"
+          },
+          {
+            "name": "Taimus Werner-Gibbings",
+            "party": "Labor"
+          }
+        ]
+      },
+      {
+        "placeId": "state-act-act18",
+        "electorate": "Ginninderra",
+        "members": [
+          {
+            "name": "Chiaka Barry",
+            "party": "Liberal"
+          },
+          {
+            "name": "Yvette Berry",
+            "party": "Labor"
+          },
+          {
+            "name": "Peter Cain",
+            "party": "Liberals"
+          },
+          {
+            "name": "Tara Cheyne",
+            "party": "Labor"
+          },
+          {
+            "name": "Jo Clay",
+            "party": "Green"
+          }
+        ]
+      },
+      {
+        "placeId": "state-act-act19",
+        "electorate": "Kurrajong",
+        "members": [
+          {
+            "name": "Andrew Barr",
+            "party": "Labor"
+          },
+          {
+            "name": "Thomas Emerson",
+            "party": "Independent"
+          },
+          {
+            "name": "Elizabeth Lee",
+            "party": "Liberal"
+          },
+          {
+            "name": "Rachel Stephen-Smith",
+            "party": "Labor"
+          },
+          {
+            "name": "Rebecca Vassarotti",
+            "party": "Green"
+          }
+        ]
+      },
+      {
+        "placeId": "state-act-act20",
+        "electorate": "Murrumbidgee",
+        "members": [
+          {
+            "name": "Fiona Carrick",
+            "party": "Independent"
+          },
+          {
+            "name": "Ed Cocks",
+            "party": "Liberals"
+          },
+          {
+            "name": "Jeremy Hanson CSC",
+            "party": "Liberal"
+          },
+          {
+            "name": "Marisa Paterson",
+            "party": "Labor"
+          },
+          {
+            "name": "Chris Steel",
+            "party": "Labor"
+          }
+        ]
+      },
+      {
+        "placeId": "state-act-act21",
+        "electorate": "Yerrabi",
+        "members": [
+          {
+            "name": "Andrew Braddock",
+            "party": "Green"
+          },
+          {
+            "name": "Leanne Castley",
+            "party": "Independent"
+          },
+          {
+            "name": "James Milligan",
+            "party": "Liberal"
+          },
+          {
+            "name": "Suzanne Orr",
+            "party": "Labor"
+          },
+          {
+            "name": "Michael Pettersson",
+            "party": "Labor"
+          }
+        ]
+      }
+    ],
+    "checkedRosterComparison": "All25 current identities/districts/affiliations match official Parliament and Elections ACT rosters after treating Liberal/Liberals labels as one party and source spacing I ndependent as Independent."
+  },
+  "nt": {
+    "outcome": "changed-since-May; September Mulka event already canonical; Johnston current-office join requires correction",
+    "verified": {
+      "members": 25,
+      "vacanciesShownByCurrentRoster": 0,
+      "composition": {
+        "Country Liberal Party": 17,
+        "Territory Labor Party": 6,
+        "Independent": 2
+      },
+      "chiefMinister": "Lia Finocchiaro",
+      "government": "CLP majority",
+      "independents": [
+        "Robyn Lambley (Araluen)",
+        "Justine Davis (Johnston)"
+      ],
+      "ordinaryElectionDate": "2028-08-26",
+      "ordinaryDateBasis": "Fourth Saturday in August every4years, statutory cycle; same date as existing record",
+      "ordinaryElectionTimezone": "Australia/Darwin"
+    },
+    "changes": [
+      {
+        "placeId": "state-nt-nt1000126",
+        "name": "Johnston",
+        "canonicalBefore": {
+          "name": "Chanston Paech",
+          "party": "Independent",
+          "profileUrl": "https://parliament.nt.gov.au/members/by-name/chanston-paech"
+        },
+        "verifiedCurrent": {
+          "name": "Justine Davis",
+          "party": "Independent",
+          "profileUrl": "https://parliament.nt.gov.au/members/by-name/justine-davis"
+        },
+        "comparison": "Existing canonical join error, not a newly discovered election. Paech remains correctly represented separately in state-nt-nt1000125 Gwoja as Territory Labor. Fix only Johnston current representative/name/profile; do not rewrite historical contestants."
+      },
+      {
+        "placeId": "state-nt-nt1000129",
+        "eventId": "nt-mulka-by-election-2026",
+        "pollingDate": "2026-09-12",
+        "fact": "Yiwarr McGrath (Labor) is current Mulka MLA; official result primary1960 vs Andrew Blamey574, formal2534, informal72; NTEC says no TCP count.",
+        "comparison": "Already present in October canonical, missing May overview. May compositionLabor5/independent3 becomesLabor6/independent2. Do not infer exact office-start date from roster publication or scheduled declaration."
+      },
+      {
+        "placeId": "state-nt-nt1000132",
+        "eventId": "nt-nightcliff-by-election-2026",
+        "pollingDate": "2026-03-07",
+        "fact": "Ed Smelt elected at count3;1973TCP51.6% vs Suki Dorras-Walker1853TCP48.4%; four contestants; formal3826, informal87.",
+        "comparison": "No result change; already May/October data. Replace secondary ABC support in summary with NTEC official result/timetable. Timetable's23March declaration is scheduled evidence, not independent proof it occurred."
+      }
+    ],
+    "currentElectionsCheck": {
+      "source": "https://ntec.nt.gov.au/elections/current-elections",
+      "sourceUpdated": "2026-10-06",
+      "quote": "There are no current elections in the Northern Territory.",
+      "qualification": "Read23October. An index states what it lists; this is not a guarantee against later unpublished vacancies."
+    },
+    "assemblyEventIndex": "Official past Assembly index updated6October lists only2026Mulka and Nightcliff. Both are retained separately from2024general events and nt-next-state-general.",
+    "canonicalSourceIds": [
+      "state-nt-current-roster-20260918",
+      "state-nt-current-profiles-browser",
+      "state-nt-mulka-2026-browser-results",
+      "state-nt-nightcliff-2026-browser-results"
+    ],
+    "rosterUrlChange": "Canonical source uses a filename ending May-2026.pdf but the current Parliament directory links MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf; document dated18September2026. Keep document date separate from today's check. Document includes Mulka McGrath before timetable's28September scheduled declaration, so use it as current roster evidence, not proof of an18September office-start date.",
+    "localGovernment": {
+      "outcome": "index-level no new current election found; existing canonical coverage of2026groups retained; individual full council roster/results review partial",
+      "review": {
+        "source": "https://ntec.nt.gov.au/electoral-boundaries/2026-local-government-representation-review",
+        "status": "Independent representation review under Local Government Act2019; committee recommends, Minister determines; no implemented new boundaries established by this review page.",
+        "timelineSource": "https://lgrr2026.com.au/review-process/",
+        "plannedSecondConsultationOpen": "2026-10-22",
+        "plannedSecondConsultationClose": "2026-12-21",
+        "qualification": "Timeline says preliminary report release22October, but report itself not located/verified in this bounded review. Same timeline also incorrectly places preliminary report publication22August; do not assert publication or final boundaries based on timeline alone.",
+        "plannedFinalConsideration": "April2027; changes intended before August2029local elections"
+      },
+      "milngin": {
+        "councilId": "nt-council-74550",
+        "wardId": "nt-ward-wad03749a797707",
+        "eventIds": [
+          "nt-council-74550-failed-milngin-2026-milngin-ward",
+          "nt-ward-wad03749a797707-failed-milngin-2026"
+        ],
+        "status": "failed-no-nominations; no replacement date announced on event page; no poll/countdown inferred",
+        "source": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-victoria-daly-regional-council-by-election",
+        "sourceUpdated": "2026-08-24",
+        "sourceConflict": "Public-notices listing calls this Milingimbi; event page and canonical area say Milngin. Preserve actual Victoria Daly Milngin identity; do not create another ward."
+      },
+      "eventIndexSource": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections",
+      "groupsFound": [
+        "Victoria Daly Milngin failed nomination round",
+        "Tiwi Islands Milikapiti",
+        "Barkly supplementary",
+        "Regional Councils July: Warruwi/EastWard",
+        "Regional Councils June: Kuwarrangu/GumurrMiwatj/WestWard/YugulMangi",
+        "Darwin ChanWard",
+        "Local Government April: LuritjaPintubi/Kakadu"
+      ],
+      "groupsComparison": "All seven index groups have existing2026canonical council/ward event records. Individual incomplete first-preference/result/timetable coverage remains declared; not certified complete by this index comparison. Current council rosters were not exhaustively re-researched.",
+      "existingNullDateGapsRetained": [
+        "MacDonnell Luritja Pintubi April event",
+        "Roper Gulf Yugul Mangi June event",
+        "West Arnhem Warruwi July event",
+        "West Arnhem Kakadu April event",
+        "failed Kuwarrangu and Milngin nomination rounds"
+      ]
+    },
+    "sources": [
+      {
+        "id": "nt-current-roster",
+        "url": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf",
+        "observationDate": "2026-09-18",
+        "locator": "List of Memberspp1–5, Party Representationp5",
+        "support": "25listed members, CLP17Labor6independent2; McGrathMulka; DavisJohnston; PaechGwoja; FinocchiaroChiefMinister.",
+        "quote": "Party Representation: Country Liberal Party – 17; Territory Labor Party – 6; Independent – 2"
+      },
+      {
+        "id": "nt-current-davis",
+        "url": "https://parliament.nt.gov.au/members/by-name/justine-davis",
+        "sourceUpdated": "2026-05-12",
+        "locator": "Electorate/Party table",
+        "support": "Justine Davis;Johnston;Independent."
+      },
+      {
+        "id": "nt-current-paech",
+        "url": "https://parliament.nt.gov.au/members/by-name/chanston-paech",
+        "sourceUpdated": "2026-07-27",
+        "locator": "Electorate/Party table",
+        "support": "Chanston Paech;Gwoja;Territory Labor;Opposition Whip."
+      },
+      {
+        "id": "nt-current-mcgrath",
+        "url": "https://parliament.nt.gov.au/members/by-name/yiwarr-mcgrath",
+        "locator": "Electorate/Party table",
+        "support": "Yiwarr McGrath;Mulka;Territory Labor."
+      },
+      {
+        "id": "nt-current-lambley",
+        "url": "https://parliament.nt.gov.au/members/by-name/robyn-jane-lambley",
+        "locator": "Electorate/Party/Position table",
+        "support": "Robyn Lambley;Araluen;Independent;Speaker."
+      },
+      {
+        "id": "nt-current-ministry",
+        "url": "https://parliament.nt.gov.au/members/ministry",
+        "sourceUpdated": "2024-09-23",
+        "locator": "Ministry",
+        "support": "Lia FinocchiaroChiefMinister;Gerard MaleyDeputyChiefMinister; cross-check against newer roster rather than assume old page stamp alone is fresh."
+      },
+      {
+        "id": "nt-assembly-index",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly",
+        "sourceUpdated": "2026-10-06",
+        "locator": "2026elections",
+        "support": "Mulka and Nightcliff by-elections only in2026listing."
+      },
+      {
+        "id": "nt-mulka-results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results",
+        "resultUpdated": "2026-09-25T12:39:00+09:30",
+        "locator": "Electorate summary",
+        "support": "AndrewBlameyInd574;YiwarrMcGrathALP1960;formal2534;informal72;total2606;enrolment6863;noTCPcount."
+      },
+      {
+        "id": "nt-mulka-timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/Mulka-timetable",
+        "sourceUpdated": "2026-08-27",
+        "locator": "12September/28September/9November entries",
+        "support": "Poll12Sep2026; timetable scheduled declaration28Sep10am; last day for validity dispute9Nov; expenditure returns11Nov. Scheduled milestones not independently proved completed."
+      },
+      {
+        "id": "nt-nightcliff-results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results",
+        "sourceUpdated": "2026-03-20",
+        "locator": "Results/Electorate summary",
+        "support": "SmeltALPelectedcount3; four candidates and TCP/primary/formal/informal totals reconcile with canonical record."
+      },
+      {
+        "id": "nt-nightcliff-timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/timetable",
+        "sourceUpdated": "2026-04-15",
+        "locator": "7March2026entry",
+        "support": "Poll7March2026;23March10amdeclarationscheduled."
+      },
+      {
+        "id": "nt-ordinary-rule",
+        "url": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
+        "sourceUpdated": "2024-11-20",
+        "locator": "Timetable overview",
+        "quote": "Election day: Fourth Saturday in August every 4 years",
+        "support": "Existing26August2028date retained, correct generic fourth-Saturday wording rather than last-Saturday assumption."
+      },
+      {
+        "id": "nt-current-elections",
+        "url": "https://ntec.nt.gov.au/elections/current-elections",
+        "sourceUpdated": "2026-10-06",
+        "locator": "Page body",
+        "support": "No current elections listed."
+      },
+      {
+        "id": "nt-public-notices",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices",
+        "sourceUpdated": "2026-10-20",
+        "locator": "2026notices",
+        "support": "Latest notices relate toMulka/local2026rounds already known; Milingimbi/Milngin naming discrepancy noted above."
+      },
+      {
+        "id": "nt-lg-index",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections",
+        "locator": "2026elections",
+        "support": "Seven2026event-group links compared with canonical council/ward history; not a full source recheck of every result."
+      },
+      {
+        "id": "nt-lg-milngin",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-victoria-daly-regional-council-by-election",
+        "sourceUpdated": "2026-08-24",
+        "locator": "Page body",
+        "support": "No nominations/no voting; future date to be fixed, not yet announced."
+      },
+      {
+        "id": "nt-lg-review",
+        "url": "https://ntec.nt.gov.au/electoral-boundaries/2026-local-government-representation-review",
+        "sourceUpdated": "2026-09-08",
+        "locator": "Review introduction/committee",
+        "support": "Independent review of all local council representation, ward boundaries and member numbers; links official review site."
+      },
+      {
+        "id": "nt-lg-review-process",
+        "url": "https://lgrr2026.com.au/review-process/",
+        "locator": "Key milestones",
+        "support": "Planned second round22Oct–21Dec2026; final considerationApril2027; timeline has conflicting preliminary-publication dates22August/22October, so actual report release remains unverified."
+      }
+    ],
+    "checkedRoster": [
+      {
+        "placeId": "state-nt-nt1000112",
+        "electorate": "Arafura",
+        "name": "Manuel Brown",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000113",
+        "electorate": "Araluen",
+        "name": "Robyn Lambley",
+        "party": "Independent"
+      },
+      {
+        "placeId": "state-nt-nt1000114",
+        "electorate": "Arnhem",
+        "name": "Selena Uibo",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000115",
+        "electorate": "Barkly",
+        "name": "Steven Edgington",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000116",
+        "electorate": "Blain",
+        "name": "Matthew Kerle",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000117",
+        "electorate": "Braitling",
+        "name": "Joshua Burgoyne",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000118",
+        "electorate": "Brennan",
+        "name": "Marie-Clare Boothby",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000119",
+        "electorate": "Casuarina",
+        "name": "Khoda Patel",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000120",
+        "electorate": "Daly",
+        "name": "Dheran Young",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000121",
+        "electorate": "Drysdale",
+        "name": "Clinton Howe",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000122",
+        "electorate": "Fannie Bay",
+        "name": "Laurie Zio",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000123",
+        "electorate": "Fong Lim",
+        "name": "Tanzil Rahman",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000124",
+        "electorate": "Goyder",
+        "name": "Andrew Mackay",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000125",
+        "electorate": "Gwoja",
+        "name": "Chanston Paech",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000126",
+        "electorate": "Johnston",
+        "name": "Justine Davis",
+        "party": "Independent"
+      },
+      {
+        "placeId": "state-nt-nt1000127",
+        "electorate": "Karama",
+        "name": "Brian O’Gallagher",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000128",
+        "electorate": "Katherine",
+        "name": "Jo Hersey",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000129",
+        "electorate": "Mulka",
+        "name": "Yiwarr McGrath",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000130",
+        "electorate": "Namatjira",
+        "name": "Bill Yan",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000131",
+        "electorate": "Nelson",
+        "name": "Gerard Maley",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000132",
+        "electorate": "Nightcliff",
+        "name": "Ed Smelt",
+        "party": "Territory Labor Party"
+      },
+      {
+        "placeId": "state-nt-nt1000133",
+        "electorate": "Port Darwin",
+        "name": "Robyn Cahill OAM",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000134",
+        "electorate": "Sanderson",
+        "name": "Jinson Anto Charls",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000135",
+        "electorate": "Spillett",
+        "name": "Lia Finocchiaro",
+        "party": "Country Liberal Party"
+      },
+      {
+        "placeId": "state-nt-nt1000136",
+        "electorate": "Wanguri",
+        "name": "Oly Carlson",
+        "party": "Country Liberal Party"
+      }
+    ],
+    "checkedRosterComparison": "25 canonical districts checked against official September roster;24 current identities/districts/parties match. Johnston correction above resolves the only identity join defect. Public-profile name variants (Steve/Steven, Bill/William, Jo/Jo-Anne) are not treated as different people."
+  },
+  "federalScope": {
+    "outcome": "partial",
+    "placeIds": [
+      "federal-house-318",
+      "federal-house-101",
+      "federal-house-102",
+      "federal-house-306",
+      "federal-house-307",
+      "federal-senate-act",
+      "federal-senate-nt"
+    ],
+    "successfulCheck": {
+      "url": "https://www.aec.gov.au/elections/supplementary_by_elections/",
+      "locator": "By-election dates and results",
+      "support": "Latestlisted2026event isFarrer9May; no2026ACT/NT House by-election appears. This alone does not freshly verify current House or Senate members/party affiliations."
+    },
+    "deniedReads": [
+      {
+        "action": "web open",
+        "target": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=276714",
+        "reason": "Failed to fetch restricted URL",
+        "outcome": "denied; no content returned; no retry"
+      },
+      {
+        "action": "web open",
+        "target": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=144732",
+        "reason": "Failed to fetch restricted URL",
+        "outcome": "denied; no content returned; no retry"
+      },
+      {
+        "action": "web open",
+        "target": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=BU8",
+        "reason": "403 Forbidden",
+        "outcome": "denied; no content returned; no retry"
+      },
+      {
+        "action": "web open",
+        "target": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=F2S",
+        "reason": "403 Forbidden",
+        "outcome": "denied; no content returned; no retry"
+      },
+      {
+        "action": "web open",
+        "target": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=245392",
+        "reason": "403 Forbidden",
+        "outcome": "denied; no content returned; no retry"
+      }
+    ],
+    "otherInaccessible": {
+      "action": "web open",
+      "target": "https://www.aec.gov.au/Elections/supplementary_by_elections.htm",
+      "reason": "URL not accessible via web tool; obsolete path",
+      "outcome": "no content; actual current index found through official search and independently read; no access protection bypass"
+    },
+    "remainingGap": "Do not advance federal current-member/profile verification dates or assert exhaustive absence of Senate changes. Four current Senator profiles were not checked in this bounded pass after House profile access failures. Preserve October canonical federal facts pending a permitted fresh roster source."
+  },
+  "integrationRecommendations": [
+    "ACT: update May overview composition/independent names and government arrangement; include countback/history note and upcoming redistribution participation dates with current-source references. Preserve2024results and current map geometry.",
+    "NT: update May overview to17CLP6Labor2independents; add separate Mulka12September history, replace ABCNightcliff support with NTEC, correct fourth-Saturday cycle wording. Existing2028poll date unchanged.",
+    "Correct only Johnston current representative identity/profile toJustineDavis in canonical state.json; PaechGwoja and historical election rosters remain separate. Review dependant maps/member pages.",
+    "Do not claim exhaustive local/federal verification: NT local event-index review is partial and federal profile access denied. No wholesale source/research-date bump for unreviewed lower-level records.",
+    "No repository files changed, no commands run that mutate repository, no commit/push performed by this research child. Parent remains sole integrator/publisher."
+  ]
+}
