@@ -150,7 +150,9 @@ main = f'''<main id="main" class="human-site-map">
  </main>'''
 rendered=header+main+footer
 for target in ['pages/site-map.html','content/rooms/site-map.html']:
- (ROOT/target).write_text(rendered,encoding='utf-8')
+ # Both mirrors must retain identical bytes after Git checkout on any OS.
+ # Explicit bytes avoid Windows newline translation before Git's filters.
+ (ROOT/target).write_bytes(rendered.encode('utf-8'))
 (ROOT/'content/site-page-inventory.json').write_text(json.dumps({'purpose':'Every public HTML route in the checkout; canonical content mirrors are not separate pages. Navigation review does not refresh source facts.','navigationReviewed':UPDATED,'timezone':'Australia/Brisbane','pageCount':len(inventory),'generator':'tools/build-human-site-map.py','pages':inventory},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'Built human site map: {len(inventory)} actual public routes; canonical and public pages match.')
 runpy.run_path(str(ROOT/'tools/build-discovery.py'))['build']()

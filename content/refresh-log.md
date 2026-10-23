@@ -287,3 +287,9 @@ Fresh national validation passed 1,001,438 assertions across 2,080 places, 33 di
 The final complete contract run passed all 2,081 contracts with zero failures at 2026-10-23T11:49:38+10:00, after correcting only two stale shared-navigation pins identified in the preceding legacy Redlands declaration. The final rebuild changed zero files. Exact staged blob bytes match all 2,223 required national/browser evidence artifacts. Forty-two unrelated line-ending-only changes were excluded.
 
 Seven expanded GeoJSON duplicates, totalling 348,541,152 bytes, remain local; exact gzip equality preserves every coordinate/ring/feature while keeping the public tree below Pages' 1 GB limit. No politician, candidate, event date or result was invented. Source/current-office/history and deeper-journey gaps remain documented. See docs/releases/2026-10-23-national-expansion-publication.md and the linked actual reports. This entry records local review before push; GitHub commit/workflow history and the publication handover establish the subsequent remote/deployment outcome.
+
+### 23 October: cross-platform sitemap correction after deployment
+
+Initial national commit a3057c1 deployed successfully; 18 live paths matched exact committed bytes. GitHub's civic workflow passed national validation, every contract and Redlands, then detected different bytes between the human sitemap source and public copy after Linux checkout. Windows text-mode writes combined with differing Git newline filters caused this portability defect.
+
+The sitemap generator now writes one explicit UTF-8 byte string to both mirrors. Fresh discovery passes and the exact staged Git blobs match at 545,363 bytes. All national/browser evidence fingerprints remain unchanged and pass verification. This correction changes newline delivery only; political facts, dates, map geometry and coverage gaps remain unchanged. Its subsequent GitHub checks and Pages deployment require separate verification.
