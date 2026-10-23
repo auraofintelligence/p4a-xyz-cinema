@@ -35,6 +35,14 @@ Work started 2026-10-17; first verified build 2026-10-17.
 | [Division 9](../../states/qld/councils/redland/divisions/9/index.html) | 2026-10-17 | Added a division overview with public representative links and connected local paths. | The boundary, representative, related questions or compatible division data changes. |
 | [Division 10](../../states/qld/councils/redland/divisions/10/index.html) | 2026-10-17 | Added a division overview with public representative links and connected local paths. | The boundary, representative, related questions or compatible division data changes. |
 
+## Private law research starting point
+
+Work started 2026-10-23; first verified build 2026-10-23.
+
+| Page | Last updated | Change | Review when |
+| --- | --- | --- | --- |
+| [Start your P4A law map](../../pages/your-relevance.html) | 2026-10-23 | Adapted the pinned Your Relevance questionnaire with private optional context, editable research brief, civic-area fields and distinct existing council/state/federal map links. No membership registration, answer collection or automatic law retrieval. | Questions, privacy/storage/export behaviour, source routing, licence or shared navigation changes. |
+
 ## Existing pages updated
 
 These were updated, rather than newly created.

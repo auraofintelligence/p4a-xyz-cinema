@@ -318,3 +318,7 @@ Integration and generators completed; validation, browser, staged evidence and p
 ### 23 October 2026 - Layered council directories
 
 At Luke's request, replace flattened statewide inventories with existing council, ward/division and detail pages. Victoria formerly listed 531 records (79 councils, eight unincorporated areas, 444 children). Apply council-first lists across all eight jurisdictions, separately label exceptional areas, preserve ACT/NT arrangements and all map layers, and retain child/parent links. No additional factual research or new pages is implied by this navigation correction. Validation/publication recorded with the state-research release.
+
+### 23 October 2026 - Your Relevance private questionnaire
+
+Adapt the completed source at australian-law-2012-lukes-relevance commit 97b523a9253f968dfe901b144cea8c32a52a9ed4, with attribution and retained licence. Twelve optional sections create an editable research brief; add explicit council/ward, state/territory and federal context and separate existing map links. Source observations, historical/future area identities and the earlier count reports remain unchanged. No answer upload, backend, political scoring, actual membership or electoral enrolment is added. Device saving is opt-in under a separate P4A key. Native rebuild/reset confirmation acceptance remains untested because approval to replace or clear synthetic QA data was not given; no alternative route is used. Functional/mobile review and publication outcomes are recorded in the questionnaire release/evidence.

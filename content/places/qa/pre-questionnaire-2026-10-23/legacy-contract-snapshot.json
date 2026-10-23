@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "title": "Civic place acceptance contract â€” reviewed Redland reference",
+  "purpose": "Copy and adapt declarations for each civic place; do not copy Redland facts, laws, dates, counts, sources, representatives or child geography. This is a static completion gate, not a certificate of current truth.",
+  "place": {
+    "id": "qld-redland",
+    "kind": "council",
+    "name": "Redland City",
+    "jurisdiction": "Queensland, Australia",
+    "timezone": "Australia/Brisbane"
+  },
+  "adaptationRules": [
+    "A place.kind may be council, ward/division, state-district, federal-house-electorate, senate-region or another accurately named civic geography.",
+    "Declare the actual entry routes, page choices, geometry layers, source fields and dates for the place. Keep statutory, statistical, electoral and cultural geographies distinct.",
+    "Children and child maps are optional. Undivided councils and electorates do not acquire invented divisions. A missing or unpublished source is an explicit limitation.",
+    "Counts, route names, timezone and identifiers below belong to this reviewed reference only. Replace them using that place's official evidence.",
+    "The script is offline and read-only. It can detect structural regressions in declared scope; live links, law, geography, editorial care and interaction still need the listed human/browser checks.",
+    "When an input bound to browser evidence changes, repeat the affected review, save its evidence, then deliberately replace that fingerprint. Do not auto-refresh review dates, hashes or passing results.",
+    "Use declaredLayers/coverageNotes to disclose missing comparisons. An unbuilt state/federal overlay must not be described as an exact intersection analysis."
+  ],
+  "coverageNotes": [
+    "Reference scope includes the Queensland council layer and ten Redland electoral divisions.",
+    "Current state and federal electorates have source-map pathways; interactive state/federal overlay geometry and quantitative overlap analysis are not built in this reference.",
+    "Individual candidate dossiers and a harvested voting-history database are not populated. Official pathways and ten dated councillor profile listings are present.",
+    "The reference has no shared database, official submissions, currency issuance, candidate registration or election announcement."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "local-crumbs",
+    "choicesClass": "local-nav",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/index.html",
+      "role": "jurisdiction-entry",
+      "breadcrumbClass": null,
+      "choicesClass": null,
+      "visibleDateValues": [],
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/index.html",
+      "role": "place-directory",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/explore/index.html",
+      "role": "explore",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/possibilities/index.html",
+      "role": "possibilities",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "role": "candidates",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/action/index.html",
+      "role": "action",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ],
+      "privateNoteGuard": "data-note-fields"
+    },
+    {
+      "path": "states/qld/councils/redland/outcomes/index.html",
+      "role": "outcomes",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/sources/index.html",
+      "role": "sources",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/index.html",
+      "role": "divisions",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/1/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/2/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/3/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/4/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/5/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/6/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/7/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/8/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/9/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/10/index.html",
+      "role": "child-place",
+      "requiredNextPaths": [
+        "states/qld/councils/redland/index.html",
+        "states/qld/councils/redland/divisions/index.html",
+        "states/qld/councils/redland/explore/index.html"
+      ]
+    }
+  ],
+  "mapDefaults": {
+    "searchAttribute": "data-council-search",
+    "requiredAttributes": [
+      "data-map-zoom-in",
+      "data-map-zoom-out",
+      "data-map-reset",
+      "data-council-search",
+      "data-council-results",
+      "data-council-selection",
+      "data-open-council",
+      "data-basemap-status"
+    ]
+  },
+  "maps": [
+    {
+      "path": "states/qld/index.html",
+      "id": "qld-council-map",
+      "totalCanvasCount": 1,
+      "layer": "qld-councils",
+      "scripts": [
+        "assets/maps/qld-councils-data.js",
+        "assets/qld-council-map.js"
+      ]
+    },
+    {
+      "path": "states/qld/councils/index.html",
+      "id": "qld-council-map",
+      "totalCanvasCount": 1,
+      "layer": "qld-councils",
+      "scripts": [
+        "assets/maps/qld-councils-data.js",
+        "assets/qld-council-map.js"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "id": "redland-division-map",
+      "totalCanvasCount": 1,
+      "staticImageCount": 0,
+      "layer": "redland-divisions",
+      "scripts": [
+        "assets/maps/redland-divisions-data.js",
+        "assets/qld-council-map.js"
+      ]
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/index.html",
+      "id": "redland-division-map",
+      "totalCanvasCount": 1,
+      "layer": "redland-divisions",
+      "scripts": [
+        "assets/maps/redland-divisions-data.js",
+        "assets/qld-council-map.js"
+      ]
+    }
+  ],
+  "boundaryLayers": [
+    {
+      "id": "qld-councils",
+      "sourceRecord": "content/councils/qld-map-sources.json",
+      "sourceFields": [
+        "checked",
+        "retrieved",
+        "publisher",
+        "boundaryEdition",
+        "licence",
+        "licenceUrl",
+        "attribution",
+        "refreshRules"
+      ],
+      "geometryPointer": "/geometry",
+      "deliveryFile": "assets/maps/qld-councils-data.js",
+      "assignment": "window.P4A_QLD_COUNCILS",
+      "deliveryIdentifier": "lga_code",
+      "expectedFeatureCount": 78,
+      "note": "Source-specific: 77 councils plus the separately labelled Weipa Town Authority. Never copy this count to another jurisdiction."
+    },
+    {
+      "id": "redland-divisions",
+      "sourceRecord": "content/councils/redland-divisions-sources.json",
+      "sourceFields": [
+        "checked",
+        "retrieved",
+        "publisher",
+        "boundaryEdition",
+        "licence",
+        "licenceUrl",
+        "attribution",
+        "refreshRules"
+      ],
+      "geometryPointer": "/geometry",
+      "deliveryFile": "assets/maps/redland-divisions-data.js",
+      "assignment": "window.P4A_REDLAND_DIVISIONS",
+      "deliveryIdentifier": "lga_code",
+      "expectedFeatureCount": 10,
+      "expectedIdentifiers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "note": "Source-specific ten-division arrangement; child geographies are optional for other places."
+    }
+  ],
+  "basemaps": [
+    {
+      "id": "official-quiet-geography",
+      "sourceRecord": "content/councils/qld-basemap-sources.json",
+      "pointer": "",
+      "projection": 3857,
+      "deliveredInLayers": [
+        "qld-councils",
+        "redland-divisions"
+      ],
+      "deliveryPointer": "/basemap"
+    },
+    {
+      "id": "optional-detailed-roads",
+      "sourceRecord": "content/councils/qld-basemap-sources.json",
+      "pointer": "/roads",
+      "projection": 3857,
+      "deliveredInLayers": [
+        "qld-councils",
+        "redland-divisions"
+      ],
+      "deliveryPointer": "/basemap/roads"
+    }
+  ],
+  "recordSets": [
+    {
+      "path": "content/local/redland-connections.json",
+      "recordsPointer": "/records",
+      "documentFields": [
+        "created",
+        "checked",
+        "reviewTriggers",
+        "note",
+        "trinity",
+        "twinkleEditorialBasis"
+      ],
+      "recordFields": [
+        "id",
+        "title",
+        "type",
+        "summary",
+        "place",
+        "status",
+        "action",
+        "next",
+        "trinity",
+        "updated"
+      ],
+      "recordDateField": "updated",
+      "sourceFields": [
+        "title",
+        "url",
+        "checked"
+      ],
+      "sourceDateField": "checked",
+      "editorialBasisPointer": "/twinkleEditorialBasis",
+      "twinkleType": "twinkle",
+      "twinkleFields": [
+        "title",
+        "summary",
+        "context",
+        "question",
+        "seedStatus",
+        "presentation"
+      ],
+      "seedWordBudget": 30,
+      "seedWordBudgetNote": "Local review budget only. The canonical rule is one gripe/one breath; a word count does not certify that rule or humour.",
+      "presentations": [
+        "comic",
+        "quiet"
+      ],
+      "renderedPath": "states/qld/councils/redland/explore/index.html",
+      "renderedTwinkleClass": "record-twinkle"
+    }
+  ],
+  "catalogues": [
+    {
+      "path": "content/councils/redland.json",
+      "documentFields": [
+        "id",
+        "name",
+        "createdAt",
+        "updatedAt",
+        "checkedAt",
+        "snapshotStatus",
+        "boundaryNotes",
+        "censusStatus"
+      ],
+      "sourceFields": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "referencePeriod",
+        "checkedAt"
+      ],
+      "sourceDateField": "checkedAt"
+    }
+  ],
+  "representativeSets": [
+    {
+      "path": "content/local/redland-divisions.json",
+      "recordsPointer": "/divisions",
+      "representativePointer": "/representative",
+      "fields": [
+        "name",
+        "role",
+        "url",
+        "sourceId",
+        "checked"
+      ],
+      "dateField": "checked",
+      "localRouteTemplate": "states/qld/councils/redland/divisions/{id}/index.html"
+    }
+  ],
+  "elections": [
+    {
+      "path": "content/local/redland-election.json",
+      "eventPointers": [
+        "/general",
+        "/byElection"
+      ],
+      "earlyVotingPointers": [
+        "/earlyVoting"
+      ],
+      "conditionalEarlyDateFields": [
+        "earlyVotingOpens",
+        "earlyVotingCloses"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/councils/redland.json",
+      "pointer": "/checkedAt",
+      "expected": "2026-10-16"
+    },
+    {
+      "path": "content/councils/redland.json",
+      "pointer": "/updatedAt",
+      "expected": "2026-10-17"
+    },
+    {
+      "path": "content/local/redland-connections.json",
+      "pointer": "/checked",
+      "expected": "2026-10-16"
+    },
+    {
+      "path": "content/local/redland-connections.json",
+      "pointer": "/editorialUpdated",
+      "expected": "2026-10-17"
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "pointer": "/checked",
+      "expected": "2026-10-16"
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "pointer": "/byElection/date",
+      "expected": null
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "pointer": "/earlyVoting/opens",
+      "expected": null
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "pointer": "/earlyVoting/closes",
+      "expected": null
+    },
+    {
+      "path": "content/local/redland-divisions.json",
+      "pointer": "/updated",
+      "expected": "2026-10-17"
+    },
+    {
+      "path": "content/councils/qld-map-sources.json",
+      "pointer": "/checked",
+      "expected": "2026-10-17"
+    },
+    {
+      "path": "content/councils/redland-divisions-sources.json",
+      "pointer": "/checked",
+      "expected": "2026-10-17"
+    },
+    {
+      "path": "content/councils/qld-basemap-sources.json",
+      "pointer": "/sourceChecked",
+      "expected": "2026-10-17"
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-17",
+    "timezone": "Australia/Brisbane",
+    "meaning": "Existing dated evidence is carried forward, not rerun or newly certified by this validator. Current fingerprints bind the reusable renderer, styles, local journey handler and widget to that saved review. A later implementation change requires an affected-check rerun.",
+    "paths": [
+      "qa/redland-20261017/interactive-layout-results.json",
+      "qa/redland-20261017/twinkle-rule-review.md",
+      "content/history/redland.md",
+      "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+      "content/places/qa/browser-review.json",
+      "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+      "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
+      "content/places/qa/pre-research-2026-10-23/browser-review.json"
+    ],
+    "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
+    "artifactFingerprints": [
+      {
+        "path": "assets/qld-council-map.js",
+        "sha256": "b98327e6606c51365f0f29a3fc9d64f96fa6b95a1f939fa321230a584eaade56"
+      },
+      {
+        "path": "assets/qld-council-map.css",
+        "sha256": "cff2f180bc02d6220a090ba4725a8d4ede9cebb46e5de1506eebd3091eeadc56"
+      },
+      {
+        "path": "assets/local-council.css",
+        "sha256": "2b75c769071f0fada8a9277a735f7affe8477c2829972bb16d3ae3b05b5e99d9"
+      },
+      {
+        "path": "assets/local-council.js",
+        "sha256": "080ef0affcaf40c3f1b596bfc867553df90719a7d47eb9ae700504fef1c8c21e"
+      },
+      {
+        "path": "tools/qld_council_widget.py",
+        "sha256": "54d060622bea7f5bd7fb54cdede985dc31b5a5639dc69a6fd2873dc8641b5e5c"
+      },
+      {
+        "path": "qa/redland-20261017/interactive-layout-results.json",
+        "sha256": "131edd8c7975e1e158f7fed58d119fef61b0fc2e7168ae5a2fe3bbbbce74379d"
+      },
+      {
+        "path": "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+        "sha256": "0b2fe11f6b74692166fc7d100921be43026d0fb4c613336ecb9eb8533d4c5548"
+      },
+      {
+        "path": "assets/site-nav.js",
+        "sha256": "6ec2448ae59e9de7b62c4a05b93bd11e08da6d554b187840bfdc380f982d4dc9"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "f96bb8f7f95ddbd53c43db0ce2acf3c298d03de470089a7b9fe127916a885d04"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
+      },
+      {
+        "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+        "sha256": "57f59ee84ffb7225cd088f78f8d9ac84788015432136b04f19f3973b9d9be45b"
+      },
+      {
+        "path": "content/places/qa/pre-culture-removal-2026-10-18/browser-review.json",
+        "sha256": "bfaa7a237aacf6eb67306c1d7ffb63da009ae99ae5c4396355714a9e9a11a87d"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Walk entry -> state -> council -> a child if officially applicable, and a direct detail link -> route back. Confirm understandable next choices and the same search/select/inspect/open interaction.",
+      "Inspect the actual coast, islands, marine boundaries, geographic registration, colours and source credits at full-place and local zoom. Compare real source-based picks, holes and multipolygon parts.",
+      "Exercise drag, zoom, reset, search/no-results, keyboard, focus, selected-area link, optional road style, narrow navigation and no-JavaScript fallback.",
+      "Review every Twinkle against the canonical format: one ordinary gripe in its title, one self-contained spoken breath, systems rather than vulnerable people as the target, quiet care where appropriate, and evidence/context below.",
+      "Check public source links, observation periods, boundary editions/effective dates, statistical denominators, representatives, jurisdiction-specific election law and current official election/early-voting notices.",
+      "Verify clock behavior before/on/after its local date and any sourced early-voting window. Check private note handling, permissions and static archive limits.",
+      "Read the local-to-system connections, lyric meanings, optional candidate/Genesis learning and the cost/freely-given/change accounts for truthful scope and coherent human choices."
+    ],
+    "limitations": [
+      "Saved browser fixture results are dated evidence; the validator does not launch a browser or test a physical touch device.",
+      "No review date is inferred from generation time, file modification time or a passing check.",
+      "Live source freshness, law, exact address eligibility, humour and cultural authority require original-source and human review.",
+      "No quantitative electorate overlap, population influence estimate, completed civic outcome or candidate announcement is inferred.",
+      "Future places must supply their own source-specific counts, routes, timezone, boundaries, representatives, election rules and review evidence."
+    ],
+    "resumedSharedNavigationReview": {
+      "reviewedOn": "2026-10-17",
+      "path": "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+      "scope": "Affected Queensland council search, selection, Open to Brisbane, retained Redland destination, Back and 390 CSS-pixel layout. Original broader Redlands evidence is preserved, not copied into new places."
+    },
+    "indexHierarchyReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
+      "scope": "Actual focused publication browser review: five Index themes, 132 entries, nine Start ideas, no-results/clear/Escape, one portal per state/territory in Australia footer and measured 390/680-pixel layouts. Excludes later wiki links and Oceania rebranding. Original broader Redlands, clinical-route, source and Twinkle reviews retain their dated archived scope.",
+      "earlierEvidence": "content/places/qa/pre-publication-2026-10-23/browser-review.json"
+    },
+    "visitorNavigationReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/pre-research-2026-10-23/browser-review.json",
+      "scope": "Actual affected shared-style and entry review across all eight portals/maps plus legacy Queensland council and Redlands candidate entry; previous Index, sources, Twinkles and full local journey reviews retain their dated archived evidence."
+    },
+    "stateResearchReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Affected Queensland portal and shared current-member/event rendering reviewed after scoped national state research; unchanged Redlands facts, maps, local journeys and prior broader acceptance retain their earlier evidence."
+    }
+  },
+  "dateInventories": [
+    {
+      "path": "content/councils/redland.json",
+      "selectors": [
+        "/createdAt",
+        "/updatedAt",
+        "/checkedAt",
+        "/sources/*/checkedAt",
+        "/indicators/*/checkedAt"
+      ],
+      "sha256": "a40c10b81a74000829430dcf7cee7309eb267f32e405f3a9ac2fb0db15da7c28"
+    },
+    {
+      "path": "content/local/redland-connections.json",
+      "selectors": [
+        "/created",
+        "/checked",
+        "/editorialUpdated",
+        "/records/*/updated",
+        "/records/*/sources/*/checked"
+      ],
+      "sha256": "12d5967c86a8df12a69b23eacbdd6278b9b49a17e7f01a6151bbf7d23ddf0347"
+    },
+    {
+      "path": "content/local/redland-divisions.json",
+      "selectors": [
+        "/created",
+        "/updated",
+        "/sources/*/checked",
+        "/divisions/*/representative/checked"
+      ],
+      "sha256": "25ccb6e77ef345b972aa646b870a94341e02506a62a12e1e0d9ee4ba143ba3f5"
+    },
+    {
+      "path": "content/councils/qld-map-sources.json",
+      "selectors": [
+        "/checked",
+        "/retrieved"
+      ],
+      "sha256": "714f7173e99582c115c3e421d773dbcae8a7a9f1e091fd61fa32d9c894d297c0"
+    },
+    {
+      "path": "content/councils/redland-divisions-sources.json",
+      "selectors": [
+        "/checked",
+        "/retrieved"
+      ],
+      "sha256": "714f7173e99582c115c3e421d773dbcae8a7a9f1e091fd61fa32d9c894d297c0"
+    },
+    {
+      "path": "content/councils/qld-basemap-sources.json",
+      "selectors": [
+        "/sourceChecked",
+        "/retrieved"
+      ],
+      "sha256": "04c5a9208e9f47efb5b5d6683d38c362b2180fd6b9ae9e7405feb0ae61243a63"
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "selectors": [
+        "/checked",
+        "/changed"
+      ],
+      "sha256": "226b74c5c684eb65c5c6f17e7d25af790ff7cd77fa805c130f39897efb99eeca"
+    }
+  ]
+}

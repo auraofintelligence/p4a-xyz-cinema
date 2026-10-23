@@ -24,7 +24,7 @@ GROUPS = {
  'state-rooms': ('State and territory rooms', 'Portals, histories, architecture and rulebooks. Victoria also has an electorate atlas and election guide.')
 }
 EXPLICIT = {
- 'start': ['index','about','civic-pathway','site-map'],
+ 'start': ['index','about','civic-pathway','site-map','your-relevance'],
  'places': ['maps','states','places','state-history','minjerribah','treaty-atlas'],
  'systems': ['architecture','braided-economy','civic-ledger','civic-surges','constitution','cyber-republic','legal-rag','sovereignty-stack','truth-engine','web3-sensorium','purple-synthesis'],
  'tools': ['civic-twin-builders','markdown-with-ai','starter-field-kit','p4a-builder','c-hour-receipt-builder','noticeboard-contract-builder','private-civic-profile-builder'],
@@ -32,7 +32,7 @@ EXPLICIT = {
  'support': ['colour-panel','deployment-gear','gear-store','test-store1']
 }
 LABELS = {
- 'index.html':'Home', 'pages/site-map.html':'Site map', 'pages/maps.html':'Geographic maps',
+ 'pages/your-relevance.html':'Start your P4A law map', 'index.html':'Home', 'pages/site-map.html':'Site map', 'pages/maps.html':'Geographic maps',
  'pages/states.html':'States and territories', 'pages/twinkle.html':'Twinkle hub and format rules',
  'pages/rabbit-hole.html':'Policy ideas: the full directory',
  'states/vic/map/index.html':'Victoria electorate and council atlas',

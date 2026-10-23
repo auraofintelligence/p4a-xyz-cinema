@@ -1,0 +1,132 @@
+{
+  "reviewedAt": "2026-10-23T17:06:40+10:00",
+  "baseURL": "http://127.0.0.1:8779/",
+  "observedScenarios": [
+    {
+      "id": "questionnaire-functional-export-and-opt-in-restore",
+      "status": "PASS",
+      "paths": [
+        "pages/your-relevance.html"
+      ],
+      "observed": {
+        "questionSections": 12,
+        "reviewDestinations": 13,
+        "defaultSavingOff": true,
+        "multipleLocations": [
+          "QLD",
+          "ACT"
+        ],
+        "optionalCivicFieldsRoundTrip": [
+          "council",
+          "ward",
+          "stateElectorate",
+          "stateRegion",
+          "federalElectorate"
+        ],
+        "ACTContextNotInventedCouncil": true,
+        "conditionalEmployeeFollowupVisibleThenHidden": true,
+        "hiddenPriorAnswerExplicitlyRetained": true,
+        "editedBriefCopyActualClipboardEquality": true,
+        "downloadActualBytes": 6544,
+        "downloadSha256": "932f0f6efa7e9663875164b93dd02d3f3c8c9fc68de07c20ea6b88d8078490aa",
+        "downloadMatchesEditedBriefExactly": true,
+        "optInRestoreIncludesEditedTextAndActiveSection": true,
+        "nativeConfirmationAcceptance": "UNTESTED - no approval to replace/clear synthetic QA draft; no retry or bypass"
+      }
+    },
+    {
+      "id": "questionnaire-four-widths-and-all-mobile-sections",
+      "status": "PASS",
+      "paths": [
+        "pages/your-relevance.html"
+      ],
+      "observed": {
+        "viewports": [
+          320,
+          390,
+          768,
+          1366
+        ],
+        "measuredClientScrollWidths": [
+          [
+            305,
+            305
+          ],
+          [
+            375,
+            375
+          ],
+          [
+            753,
+            753
+          ],
+          [
+            1351,
+            1351
+          ]
+        ],
+        "all13MobileDestinationsFocusHeading": "H2",
+        "mobileSelectorVisibleDesktopSidebarVisible": true,
+        "editedEndingPreservedAcrossAllSectionsAndWidths": true,
+        "desktopAndPhoneVisualReview": true,
+        "physicalTouchTested": false
+      }
+    },
+    {
+      "id": "homepage-and-shared-index-discovery",
+      "status": "PASS",
+      "paths": [
+        "index.html",
+        "pages/your-relevance.html",
+        "states/qld/councils/redland/sources/index.html"
+      ],
+      "observed": {
+        "homepageStartYourLawMapLinkOpensQuestionnaire": true,
+        "IndexKeyboardOpeningSearchAndEscapeExpandedFalse": true,
+        "themeOrder": [
+          "start",
+          "spark",
+          "system",
+          "ground",
+          "states"
+        ],
+        "StartOpenInitially": true,
+        "nineStartIdeasPreserved": true,
+        "newLawMapIndexHomeCount": 1,
+        "newHomeCategory": "ground",
+        "AustraliaFooterPortals": 8,
+        "phoneWidth": [
+          375,
+          375
+        ],
+        "datedReviewLinkOpensExistingNewPageRoute": true
+      }
+    },
+    {
+      "id": "questionnaire-distinct-queensland-map-doors",
+      "status": "PASS",
+      "paths": [
+        "pages/your-relevance.html",
+        "states/qld/places/state/index.html",
+        "states/qld/places/federal/index.html"
+      ],
+      "observed": {
+        "stateLinkURL": "states/qld/places/state/index.html",
+        "stateVisibleMap": "Legislative Assembly districts",
+        "stateVisibleMatchingAreas": 93,
+        "federalLinkURL": "states/qld/places/federal/index.html",
+        "federalVisibleHouseAreas": 30,
+        "separateSenateLayer": "Senate - geographic context",
+        "sameWebsiteRelativeLinks": true,
+        "noSuppliedCivicNameEncodedInDestination": true,
+        "existingLiveStateFederalDoorsAlsoVerified": true
+      }
+    }
+  ],
+  "limits": [
+    "Native Rebuild, reset, section/place removal, opt-out deletion and stale-edited-export confirmation acceptance were not executed. Approval to replace or clear synthetic QA data was not given; these tests are explicitly untested and no alternative route was used.",
+    "Other browsers, physical touch, screen-reader hardware, blocked-storage/clipboard simulation and exhaustive field-by-field browser trials were not newly tested. The model/schema tests cover all recognised answers and escaping.",
+    "No legal completeness/current-law finding, current-address entitlement, party registration or operating membership system is established. Political records/geometry/source dates are unchanged.",
+    "Earlier 23 October state research and broader navigation acceptance remain separately dated in pre-questionnaire-2026-10-23; this is a bounded questionnaire/shared-navigation review."
+  ]
+}

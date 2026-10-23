@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Check the private law research questionnaire
+        run: |
+          node --test tests/your-relevance.test.mjs
+          node --check assets/your-relevance.mjs
       - name: Check national pages without replacing reviewed evidence
         run: python -B tools/verify-national-places.py --source-hashes --no-write
       - name: Check every registered council, state and federal contract

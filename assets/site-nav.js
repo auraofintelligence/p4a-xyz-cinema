@@ -170,6 +170,7 @@
       label: 'The ground game',
       blurb: 'Where it becomes real: local builders, the L1 outreach kit and visible support.',
       links: [
+        { href: 'pages/your-relevance.html', title: 'Start your law map', note: 'A private first step for prospective members: your life, laws and civic areas.' },
         { href: 'pages/starter-field-kit.html', title: 'Starter field kit', note: 'Market table, signs, QR trails, organiser basics.' },
         { href: 'pages/civic-twin-builders.html', title: 'Civic twin builders', note: 'L0 profiles, L1 meshes, L2 civic fronts.' },
         { href: 'pages/p4a-builder.html', title: 'P4A local builder', note: 'Build a self-similar local version of this site.' },

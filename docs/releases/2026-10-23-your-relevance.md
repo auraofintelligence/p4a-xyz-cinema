@@ -1,0 +1,27 @@
+# Start your P4A law map
+
+Implementation review, 23 October 2026, Australia/Brisbane. Publication is pending the final checks and exact GitHub/Pages/live result.
+
+The new `pages/your-relevance.html` adapts the completed [Your Relevance questionnaire](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html) from source commit [97b523a9253f968dfe901b144cea8c32a52a9ed4](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance/tree/97b523a9253f968dfe901b144cea8c32a52a9ed4). The original Luke Nathan Hayes / Strange But True / Aura of Intelligence credit remains visible; the [source licence](../attribution/your-relevance-source-licence.md) is retained alongside P4A's unchanged licence. The page links back to the original questionnaire and research method.
+
+## Behaviour and scope
+
+Twelve optional sections cover places/priorities, household, housing, work, organisations, licences/transport, education/care, services/money/health, online/creative work, property/environment, civic life and friction/missing context. Conditional follow-ups retain and label earlier answers. Multiple locations can have different purposes and jurisdictions, including other territories, overseas connections and unknown answers. The editable Markdown brief asks a researcher to verify official sources, applicable provisions, currency, duties/rights, uncertainties and points of contention. It does not retrieve or determine every applicable law automatically.
+
+P4A additions are optional council/administering authority, ward/division, state/territory lower-house, state upper-house and federal House electorate fields. Council, state and federal maps are visibly separate choices. Existing parent council pages lead to genuine wards/divisions. No address lookup, postcode assignment, name matching or giant merged list is added; boundaries can overlap without nesting. ACT local responsibilities retain their territory context. Upper-house and Senate representation are explained separately.
+
+The homepage offers Start your law map; the shared Index has one new entry in Ground game while preserving the nine Start ideas, five themes and eight Australia footer portals. Human and machine discovery include the new page. P4A's ambition to become a grassroots political party is explicit; the page does not claim party registration or operating membership registration.
+
+## Privacy and ownership
+
+Answers remain in the browser tab. Device saving defaults off and uses only `p4a-your-relevance-draft-v1` when the reader opts in. Copy and Markdown download are reader initiated and preserve edited text. Opt-out/reset remove the P4A draft key and preserve unrelated site storage. There is no answer backend, analytics, political scoring, automatic AI transmission, account, membership application or electoral enrolment. The shared site uses existing self-hosted fonts and navigation. Readers choose what to research and where to share their brief.
+
+The questionnaire routes to official legislation registers and responsible local authorities; those links are research entry points, not fresh legal findings. Source routing research retains its 23 October date and access limitations from the source implementation. Its [maintenance record](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance/blob/97b523a9253f968dfe901b144cea8c32a52a9ed4/docs/your-relevance.md) distinguishes routing checks from law applicability/currentness. Substantive law, boundary changes and the earlier count/wiki discussion are outside this implementation.
+
+## Verification
+
+Thirteen model/schema/privacy/navigation/link/licence unit tests passed. The upstream licence Git blob matches the pinned source exactly. Actual browser review has verified multiple places, distinct civic map doors, ACT context, conditional show/hide and retained-answer labelling, editable brief content, actual clipboard equality, actual 6,544-byte Markdown download equality, opt-in restore including edited text, and layout at 320/390/768/1366 pixels. All 13 mobile destinations focus their headings and retain the edited brief, with no observed horizontal overflow. Homepage entry, Index keyboard opening/search/closing, preserved five themes/nine Start ideas/eight Australia portals, distinct Queensland 93-area state and 30-area federal map doors, and the dated review link passed. Discovery covers 2,291 routes; national source/hash validation passed 997,937 assertions, and the Redlands reference check passed.
+
+The Rebuild from answers confirmation test is paused: a browser action timed out, no replacement was verified, and the synthetic QA ending remained intact. Its confirmation asks to replace only an edited test brief with fresh text from test answers. Approval was not given; rebuild/reset confirmation-dependent tests remain explicitly untested and were not retried or bypassed. This disclosed test limitation does not block the separately authorised focused publication. No real personal draft is targeted. Final contract validation passed all 2,081 registered contracts with zero failures. Staged-byte review, push, CI/Pages and live verification remain publication gates.
+
+The earlier state-research acceptance is retained under `content/places/qa/pre-questionnaire-2026-10-23/`. A shared navigation update does not refresh individual political records, geometry, source dates or incomplete local civic journeys. Physical-device, screen-reader and exhaustive legal/source validation are not claimed.

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your law map | P4A</title>
+<meta name="description" content="Map your life, places and activities into a practical research brief for Australian legislation, regulations and local laws.">
+<link rel="canonical" href="https://p4a.xyz/pages/your-relevance.html">
+<meta name="theme-color" content="#3F0F75">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="P4A civic workbench">
+<meta property="og:title" content="Your law map | P4A">
+<meta property="og:description" content="Start with your circumstances. Build a personal law research brief and record the rules you want to understand or change.">
+<meta property="og:url" content="https://p4a.xyz/pages/your-relevance.html">
+<link rel="stylesheet" href="../styles.css?v=20261002-publication">
+<link rel="stylesheet" href="../assets/your-relevance.css?v=20261023">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body data-theme="royal" data-page="your-relevance" id="page-top">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="../index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a><nav class="site-nav" aria-label="Primary"><a href="../pages/places.html">Find your place</a><a href="../pages/starter-field-kit.html">Start local</a></nav><button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button></header>
+
+<main id="main" class="relevance-main">
+  <section class="relevance-hero">
+    <p class="kicker">Your relevance / P4A starting point</p>
+    <h1>Start with your life.<br>Map the rules.</h1>
+    <p class="lede">Where you live, what you do and the people you care for lead to different parts of the law. Describe your circumstances, then take a clear research brief to an AI or a person helping you investigate.</p>
+    <p class="measure">Explore council, state or territory and Commonwealth requirements, and record where they create friction. This builds a research starting point, not an exhaustive finding about which laws bind you.</p>
+    <p class="measure member-start">P4A aims to grow from a civic workbench into an active grassroots political party, with people connected across councils, wards, state and federal electorates. This is a starting point for prospective members and anyone exploring their civic life: understand your circumstances, research the rules and choose what you want to contribute.</p><p class="measure history-link">Adapted from <a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html">Your Relevance in Luke’s Australian law workbench</a>. Its <a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/the-method.html">research method</a> remains the reference.</p>
+    <div class="hero-actions"><a class="button button-primary" href="#questionnaire">Start my law map</a><a class="button button-secondary" href="places.html">Explore civic areas</a></div>
+  </section>
+  <div class="privacy-note">
+    <h2>Share only the context you want researched</h2>
+    <p>Every question is optional. Broad locations and descriptions are enough. Leave out names, exact addresses, identifying documents and account or licence numbers. Sensitive life context is optional.</p>
+    <p>Answers stay in this tab unless you choose device saving or export them. This form has no answer upload, analytics or automatic AI connection. You choose where to share your brief.</p>
+    <label class="check-line"><input type="checkbox" id="remember"> Save my draft on this device</label>
+    <p id="save-status" role="status">Device saving is off. Closing or reloading this tab loses unsaved answers.</p>
+    <button type="button" class="quiet-button" data-reset>Clear / reset</button>
+  </div>
+  <noscript><div class="panel"><h2>The questionnaire needs JavaScript</h2><p>The questions and brief are built in your browser. Enable JavaScript to use them, or follow <a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/the-method.html">the method</a> with your own notes and the <a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/nine-registers.html">official registers</a>.</p></div></noscript>
+  <div id="questionnaire" hidden>
+    <div class="progress-heading"><p id="position"></p><p id="answer-count" class="muted"></p></div>
+    <progress id="section-progress" value="1" max="13" aria-label="Position in questionnaire"></progress>
+    <div class="questionnaire-layout">
+      <nav class="section-nav" aria-label="Questionnaire sections">
+        <label for="section-choice">Go to a section</label>
+        <select id="section-choice"></select>
+        <ol id="section-list"></ol>
+        <p class="muted">Short answers are fine. Skip any section and return whenever you like.</p>
+      </nav>
+      <div class="questionnaire-main">
+        <form id="life-form" autocomplete="off"><div id="question-sections"></div></form>
+        <section id="brief-section" class="question-panel" hidden aria-labelledby="brief-heading">
+          <p class="kicker">Review & export</p>
+          <h2 id="brief-heading" tabindex="-1">Your research brief</h2>
+          <p>Review what you are sharing. Edit the Markdown here, then copy or download it for your chosen AI or researcher. The brief asks for official sources, current versions, applicability checks and a contention record.</p>
+          <div id="review-summary" class="review-summary"></div>
+          <p id="brief-status" role="status"></p>
+          <label for="brief-output">Editable Markdown brief</label>
+          <textarea id="brief-output" rows="22" spellcheck="false" aria-describedby="edit-help"></textarea>
+          <p id="edit-help" class="muted">Your edits stay when you move between sections. Rebuild replaces them with the latest answers. Device saving includes this edited brief when switched on.</p>
+          <div class="action-row">
+            <button type="button" id="copy-brief">Copy brief</button>
+            <button type="button" id="download-brief">Download .md</button>
+            <button type="button" id="rebuild-brief" class="quiet-button">Rebuild from answers</button>
+          </div>
+          <p id="export-status" role="status"></p>
+          <button type="button" class="quiet-button" data-reset>Clear / reset</button>
+        </section>
+        <div class="step-actions">
+          <button type="button" id="previous-section" class="quiet-button">Previous</button>
+          <button type="button" id="next-section">Next section</button>
+          <button type="button" id="review-brief" class="quiet-button">Review brief</button>
+        </div>
+      </div>
+    </div>
+    <p id="form-status" role="status"></p>
+  </div>
+  <details class="source-directory">
+    <summary>Official research starting points</summary>
+    <p>Choose a jurisdiction in Places & priorities for its links. Confirm each activity’s council or administering authority, then follow the official site to local laws, planning instruments and the responsible regulator. A directory helps find sources; it does not establish that a law applies.</p>
+    <div id="all-sources"></div>
+    <p><a href="https://www.legislation.gov.au/">Federal Register of Legislation</a> · <a href="https://ablis.business.gov.au/">Business licences and approvals (ABLIS)</a> · <a href="https://www.infrastructure.gov.au/territories-regions/australian-territories">Other Australian territories</a></p>
+    <p>The <a href="https://www.parliament.act.gov.au/visit-and-learn/learn/resources/fs/levels-of-gov">ACT combines territory and local responsibilities</a>. Other territories and unincorporated areas need their own routing check. Directory routing reviewed <time datetime="2026-10-23">23 October 2026</time>; no personal law assessment has been performed.</p>
+    <p><a href="https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/nine-registers.html">Nine registers</a> gives the wider tour.</p>
+  </details>
+  <p class="measure prototype-note">P4A is currently a civic workbench, not a registered political party. This page creates a private research brief; it does not register membership or electoral enrolment.</p>
+
+</main>
+<footer class="site-footer relevance-footer"><p>Based on <a href="https://github.com/auraofintelligence/australian-law-2012-lukes-relevance/tree/97b523a9253f968dfe901b144cea8c32a52a9ed4">australian-law-2012-lukes-relevance</a> by Luke Nathan Hayes / Strange But True / Aura of Intelligence. Used under the <a href="../docs/attribution/your-relevance-source-licence.md">Strange But True Public Source Licence</a>.</p><p><a href="../LICENCE.md">P4A licence</a> · <a href="site-map.html">Site map</a> · <a href="places.html">Councils and electorates</a></p><div class="footer-explore"></div></footer>
+<a id="to-top" href="#page-top" hidden>↑ To top</a>
+<script src="../assets/site-nav.js"></script>
+<script type="module" src="../assets/your-relevance.mjs?v=20261023"></script>
+</body>
+</html>
