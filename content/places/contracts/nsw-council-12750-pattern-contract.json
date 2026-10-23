@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "title": "Eurobodalla — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-12750",
+    "kind": "council",
+    "name": "Eurobodalla",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/658",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/eurobodalla/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/658/id",
+      "expected": "nsw-council-12750"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/658/name",
+      "expected": "Eurobodalla"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/658/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/658",
+      "expected": {
+        "id": "nsw-council-12750",
+        "name": "Eurobodalla",
+        "slug": "eurobodalla",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "5156",
+        "officialUrl": "https://www.esc.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-eurobodalla-councillors",
+          "council-nsw-2024-eurobodalla-mayor"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Mat Hatcher",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Colleen Turner",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Laurence Babington",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Phil Constable",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mick Johnson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Anthony Mayne",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Robert Pollock",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Amber Schutz",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Sharon Winslade",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.esc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-12750-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-12750-ordinary-2024-councillors",
+            "label": "2024 Eurobodalla â€” Councillors",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+            "candidates": [
+              {
+                "name": "CONSTABLE Phil",
+                "status": "elected",
+                "votes": 699,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "JOHNSON Mick",
+                "status": "elected",
+                "votes": 83,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "HELLIER Trish",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "BEECHAM Kristy",
+                "status": "contested",
+                "votes": 142,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "FORD Jason",
+                "status": "contested",
+                "votes": 84,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "BRAYSHAW Marlene",
+                "status": "contested",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "GREER Dave",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "DEADMAN Rosemary",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "FORTUNA Robert",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MARTIN Geoff",
+                "status": "contested",
+                "votes": 0,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MCASH Claire",
+                "status": "contested",
+                "votes": 154,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "HAWKE John",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "TRITTON Krystal",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "TRAYNOR Gary",
+                "status": "contested",
+                "votes": 60,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MAYNE Anthony",
+                "status": "elected",
+                "votes": 257,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "STARMER Karyn",
+                "status": "contested",
+                "votes": 41,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "HAMROSI Michelle",
+                "status": "contested",
+                "votes": 47,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "CHRISTIANSEN Sally",
+                "status": "contested",
+                "votes": 24,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "GRICE David",
+                "status": "contested",
+                "votes": 10,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "POLLOCK Rob",
+                "status": "elected",
+                "votes": 713,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "KEADY Sofia",
+                "status": "contested",
+                "votes": 132,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "TAIT John",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MARCHINI Keira",
+                "status": "contested",
+                "votes": 47,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "ZAHRA Emily",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "THOMSON James",
+                "status": "contested",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "BROWN Lindsay",
+                "status": "contested",
+                "votes": 60,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "WINSLADE Sharon",
+                "status": "elected",
+                "votes": 112,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SEARSON Maureen",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "ELLIS Patricia",
+                "status": "contested",
+                "votes": 86,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "VINCENT Gail",
+                "status": "contested",
+                "votes": 3,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TURNER Colleen",
+                "status": "elected",
+                "votes": 151,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "VAN DER MOOLEN Joslyn",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BELL Charlie",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "O'DONNELL Niall",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HATCHER Mathew",
+                "status": "contested",
+                "votes": 595,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "SCHUTZ Amber",
+                "status": "elected",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "BABINGTON Laurence",
+                "status": "elected",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MEEK Ronald",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "TAYLOR Carrie",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "MAHON Rebecca",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "STUART Charles",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "GOW Neil",
+                "status": "contested",
+                "votes": 213,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2341,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-12750-ordinary-2024-mayor",
+            "label": "2024 Eurobodalla â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+            "candidates": [
+              {
+                "name": "CONSTABLE Phil",
+                "status": "contested",
+                "votes": 3726,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "HATCHER Mathew",
+                "status": "elected",
+                "votes": 9467,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "MAYNE Anthony",
+                "status": "contested",
+                "votes": 2136,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "TURNER Colleen",
+                "status": "contested",
+                "votes": 1527,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "The Greens NSW"
+              },
+              {
+                "name": "POLLOCK Rob",
+                "status": "contested",
+                "votes": 4297,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "JOHNSON Mick",
+                "status": "contested",
+                "votes": 601,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "MCASH Claire",
+                "status": "contested",
+                "votes": 1276,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "WINSLADE Sharon",
+                "status": "contested",
+                "votes": 2321,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/eurobodalla/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "12750",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

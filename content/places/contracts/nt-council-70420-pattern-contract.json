@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "title": "Barkly — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-70420",
+    "kind": "council",
+    "name": "Barkly",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/986",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/barkly/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/986/id",
+      "expected": "nt-council-70420"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/986/name",
+      "expected": "Barkly"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/986/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/986",
+      "expected": {
+        "id": "nt-council-70420",
+        "name": "Barkly",
+        "slug": "barkly",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "70420",
+        "officialUrl": "https://www.barkly.nt.gov.au/elected-members",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-barkly",
+          "council-nt-ballot-barkly-general-2024-barkly-mayor",
+          "council-nt-ballot-barkly-general-2024-barkly-mayor-timetable",
+          "council-nt-ballot-barkly-general-2024-barkly-patta-ward",
+          "council-nt-ballot-barkly-general-2024-barkly-patta-ward-timetable",
+          "council-nt-ballot-barkly-general-2024-barkly-alpurrurulam-ward",
+          "council-nt-ballot-barkly-general-2024-barkly-alpurrurulam-ward-timetable",
+          "council-nt-ballot-barkly-general-2024-barkly-alyawarr-ward",
+          "council-nt-ballot-barkly-general-2024-barkly-alyawarr-ward-timetable",
+          "council-nt-ballot-barkly-general-2024-barkly-kuwarrangu-ward",
+          "council-nt-ballot-barkly-general-2024-barkly-kuwarrangu-ward-timetable",
+          "council-nt-ballot-by-june-2026-barkly-kuwarrangu-ward",
+          "council-nt-ballot-supplementary-kuwarrangu-2026-barkly-kuwarrangu-ward",
+          "council-nt-ballot-supplementary-kuwarrangu-2026-barkly-kuwarrangu-ward-result"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Sid Vashist",
+            "role": "Mayor",
+            "profileUrl": "https://www.barkly.nt.gov.au/about-barkly-regional-council-mayor",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Valerie Campbell",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Alpurrurulam"
+          },
+          {
+            "name": "Darryl Rex Morton",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Alyawarr"
+          },
+          {
+            "name": "Zacieus Long",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Alyawarr"
+          },
+          {
+            "name": "Noel Hayes",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Alyawarr"
+          },
+          {
+            "name": "Ben Neade",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Kuwarrangu"
+          },
+          {
+            "name": "Dianne Stokes",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Patta"
+          },
+          {
+            "name": "Greg Marlow",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Patta"
+          },
+          {
+            "name": "Pennie Cowin",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Patta"
+          },
+          {
+            "name": "Sharen Lake",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Patta"
+          },
+          {
+            "name": "Valda Napurrula Shannon",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Patta"
+          },
+          {
+            "name": "Harold Dalywaters",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Kuwarrangu"
+          },
+          {
+            "name": "Andrew Tsavaris",
+            "role": "Councillor",
+            "profileUrl": "https://www.barkly.nt.gov.au/elected-members",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-barkly",
+            "checked": "2026-10-17",
+            "wardLabel": "Alyawarr"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-70420-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-70420-barkly-general-2024-mayor",
+            "label": "2024 Barkly — Mayor",
+            "kind": "general",
+            "status": "historical",
+            "date": "2024-11-02",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+            "candidates": [
+              {
+                "name": "Greg MARLOW",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Valda Napurrula SHANNON",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nungarayi Shirley LEWIS",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sid VASHIST",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Dianne STOKES",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Barb SHAW",
+                "status": "official historical nominee",
+                "contest": "Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2024-barkly-regional-council-election/timetable/Timetable-as-at-29-Oct.pdf"
+          },
+          {
+            "id": "nt-council-70420-barkly-general-2024-patta-ward",
+            "label": "2024 Barkly — Patta Ward",
+            "kind": "general",
+            "status": "historical",
+            "date": "2024-11-02",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+            "candidates": [
+              {
+                "name": "Valda Napurrula SHANNON",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Dianne STOKES",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Pennie COWIN",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Greg MARLOW",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nungarayi Shirley LEWIS",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sharen LAKE",
+                "status": "official historical nominee",
+                "contest": "Patta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2024-barkly-regional-council-election/list-of-candidates/patta",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2024-barkly-regional-council-election/timetable/Timetable-as-at-29-Oct.pdf"
+          },
+          {
+            "id": "nt-council-70420-barkly-general-2024-alpurrurulam-ward",
+            "label": "2024 Barkly — Alpurrurulam Ward",
+            "kind": "general",
+            "status": "historical",
+            "date": "2024-11-02",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+            "candidates": [
+              {
+                "name": "Valerie CAMPBELL",
+                "status": "official historical nominee",
+                "contest": "Alpurrurulam Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Pamela CORBETT",
+                "status": "official historical nominee",
+                "contest": "Alpurrurulam Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2024-barkly-regional-council-election/timetable/Timetable-as-at-29-Oct.pdf"
+          },
+          {
+            "id": "nt-council-70420-barkly-general-2024-alyawarr-ward",
+            "label": "2024 Barkly — Alyawarr Ward",
+            "kind": "general",
+            "status": "historical",
+            "date": "2024-11-02",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+            "candidates": [
+              {
+                "name": "Noel HAYES",
+                "status": "official historical nominee",
+                "contest": "Alyawarr Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Andrew TSAVARIS",
+                "status": "official historical nominee",
+                "contest": "Alyawarr Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Darryl Rex MORTON",
+                "status": "official historical nominee",
+                "contest": "Alyawarr Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Zacieus LONG",
+                "status": "official historical nominee",
+                "contest": "Alyawarr Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2024-barkly-regional-council-election/timetable/Timetable-as-at-29-Oct.pdf"
+          },
+          {
+            "id": "nt-council-70420-barkly-general-2024-kuwarrangu-ward",
+            "label": "2024 Barkly — Kuwarrangu Ward",
+            "kind": "general",
+            "status": "historical",
+            "date": "2024-11-02",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+            "candidates": [
+              {
+                "name": "Angela SAMMON",
+                "status": "official historical nominee",
+                "contest": "Kuwarrangu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lennie BARTON",
+                "status": "official historical nominee",
+                "contest": "Kuwarrangu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ben NEADE",
+                "status": "official historical nominee",
+                "contest": "Kuwarrangu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/election-events/local-government-election-reports/local-government-election-reports/2024/2024-Barkly-Regional-Council-general-election-report.pdf",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 3,
+              "retainedCandidateCount": 3,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2024-barkly-regional-council-election/timetable/Timetable-as-at-29-Oct.pdf"
+          },
+          {
+            "id": "nt-council-70420-by-june-2026-kuwarrangu-ward",
+            "label": "2026 Barkly — Kuwarrangu Ward",
+            "kind": "by-election",
+            "status": "failed-no-nominations",
+            "date": null,
+            "dateBasis": "Official NTEC event context and nomination summary verified; exact polling day not yet retained, so date remains null.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "exact election day unresolved",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/candidate-summary-table-for-all-councils",
+            "candidates": [],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited.",
+              "Official source records zero nominations; this was a failed nomination round, with no elected candidate."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 0,
+              "retainedCandidateCount": 0,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-70420-supplementary-kuwarrangu-2026-kuwarrangu-ward",
+            "label": "2026 Barkly — Kuwarrangu Ward",
+            "kind": "supplementary-by-election",
+            "status": "historical",
+            "date": "2026-08-06",
+            "dateBasis": "NTEC candidate page expressly dates the declaration of nominations and election of the single nominee; this is not a polling day.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "declared elected unopposed",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-barkly-regional-council-supplementary-by-election/list-of-candidates",
+            "candidates": [
+              {
+                "name": "Harold DALYWATERS",
+                "status": "declared elected unopposed",
+                "contest": "Kuwarrangu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-barkly-regional-council-supplementary-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-barkly-regional-council-supplementary-by-election/list-of-candidates",
+                "profileType": "official historical nomination list",
+                "resultSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-barkly-regional-council-supplementary-by-election/list-of-candidates"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            },
+            "resultsUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-barkly-regional-council-supplementary-by-election/list-of-candidates"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

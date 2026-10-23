@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "title": "Eastern Victoria — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-council-1",
+    "kind": "state-region",
+    "name": "Eastern Victoria",
+    "jurisdiction": "vic",
+    "chamber": "Legislative Council"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/88",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/electorates/regions/eastern-victoria/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/88/id",
+      "expected": "vic-council-1"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/88/name",
+      "expected": "Eastern Victoria"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/88/boundaryEdition",
+      "expected": "2020–21 redivision / 2022 boundaries"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/88",
+      "expected": {
+        "id": "vic-council-1",
+        "name": "Eastern Victoria",
+        "slug": "eastern-victoria",
+        "jurisdiction": "vic",
+        "kind": "state-region",
+        "chamber": "Legislative Council",
+        "layerId": "state-vic-council-2022",
+        "featureId": 1,
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/state-regions/eastern-victoria-region",
+        "sources": [
+          "state-vic-council-2022",
+          "state-vic-members-20261002",
+          "state-vic-results-20261002"
+        ],
+        "boundaryEdition": "2020–21 redivision / 2022 boundaries",
+        "representatives": [
+          {
+            "name": "Harriet Shing",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.harrietshing.com.au",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Jeff Bourman",
+            "role": "Legislative Council member",
+            "party": "Shooters, Fishers and Farmers Party Victoria",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Melina Bath",
+            "role": "Legislative Council member",
+            "party": "The Nationals",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Tom McIntosh",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://tommcintosh.com.au/",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Renee Heath",
+            "role": "Legislative Council member",
+            "party": "Liberal Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://vic.liberal.org.au/team/renee-heath",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-council-1-2022-11-26",
+            "label": "State general election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2022-11-26",
+            "dateBasis": "Official historical results; original source checked 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+            "candidates": [
+              {
+                "name": "MANN, Richard",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 2144,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ACREMAN, Natalie",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 156,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "STANFIELD, Ruth",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 9292,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "O'CONNELL, Lachlan",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 208,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HEATH, Renee",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 167133,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BATH, Melina",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 2457,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BURGESS, David",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 1346,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COOMBES, Sharn",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 457,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HARRINGTON, Mick",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 815,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CASEY, Shane",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 2116,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "RIZZO, Virginia",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 97,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MARSHALL, Ben",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 67,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HANSFORD, Greg",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 7962,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "AKERS, Ray",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 423,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BARNES, Dean",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 3147,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CASH, Eve",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 351,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SEMMEL, Philip",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 17832,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "KENNEDY, Catherine",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 285,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WALLACE, Kristy Michelle",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 1801,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WHITE, Tania",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 120,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "AJJAMPURA, Srilakshmi",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 496,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DARJI, Komalben Rasiklal",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 9,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SHAH, Namrata Rajan",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 28,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PICKERING, Warren",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 16620,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WADDELL, Jeff",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 344,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WILDE, Milton",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 7413,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SAWTELL, Natasha",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 221,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McCATHIE, Rob",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 12020,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WARD, Angus",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 110,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MORGAN, Mat",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 36040,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "FROGLEY, Adam",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 426,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WHEELOCK, Jessica",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 790,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WHEELOCK, Lynda",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 228,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BARDALES, Rodrigo",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 311,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "FORREST, Thomas",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 19434,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SMITH, Mark",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 220,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BOURMAN, Jeff",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 13860,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MUIR, Kerrie-Anne",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 357,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "UNKLES, James William",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 3317,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WILSON, Paul",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 65,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CRAM, Austin",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 8153,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McADAM, Jennifer",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 260,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PATERSON, Sophie",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 1723,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CRESSWELL, Anthony",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 49,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HUTCHISON, John",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 2227,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "EDDY, Sean",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 24,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McINTOSH, Tom",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 122413,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SHING, Harriet",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 1169,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TEMPLAR-KANSHLO, Amie",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 401,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LANGLEY, Jannette",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 765,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "D'ARCY, Marg",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 733,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TROSHEN, Ralf",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 691,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DUNN, Mark",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 38,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COSKUN, Cengiz",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 3913,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COSKUN, Connie",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 71,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "O'BRIEN, John",
+                "party": "No affiliation published",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/eastern-victoria-region-results",
+                "votes": 170,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              }
+            ]
+          },
+          {
+            "id": "vic-state-2026",
+            "label": "2026 Victorian state election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2026-11-28",
+            "dateBasis": "Commission date; calendar snapshot 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/2026-state-election",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

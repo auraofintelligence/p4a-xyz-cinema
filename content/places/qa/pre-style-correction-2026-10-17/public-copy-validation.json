@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Actual public-only source copy, without local-only raw originals or oversized expanded duplicate; no remote CI run claimed.",
+  "files": 5246,
+  "rawExcluded": true,
+  "expandedTasExcluded": true,
+  "savedEvidenceUnchanged": true,
+  "national": {
+    "status": "pass",
+    "mode": "generated-pages-and-data",
+    "checks": {
+      "assertions": 1001441,
+      "councils_places": 1479,
+      "state_places": 442,
+      "federal_places": 159,
+      "canonical_places": 2080,
+      "source_hashes_checked": 204,
+      "local_only_source_snapshots_absent": 1061,
+      "sources": 1270,
+      "current_representative_records": 5247,
+      "election_events": 4421,
+      "contestant_records": 18314,
+      "historical_only_place_records": 1,
+      "registered_routes": 2080,
+      "gzip_byte_round_trips": 49,
+      "geometry_layers": 49,
+      "geometry_features_including_editions": 3270,
+      "canonical_delivery_byte_comparisons": 21,
+      "local_link_references": 181254,
+      "fragment_references_checked": 14658,
+      "generated_pages_checked": 2113,
+      "rendered_representative_records_checked": 5247,
+      "map_configs_checked": 2112,
+      "external_link_references_not_fetched": 55876,
+      "rendered_event_records_checked": 4421,
+      "rendered_contestant_records_checked": 18314,
+      "stylesheets_checked": 2,
+      "evidence_artifacts_bound": 3058
+    },
+    "coverageGaps": {
+      "councils": {
+        "places_without_event_records": 115,
+        "places_without_individual_historical_contestants": 291,
+        "historical_events_without_individual_contestants": 177,
+        "places_without_individual_current_office_records": 334
+      },
+      "state": {
+        "places_without_individual_current_office_records": 1,
+        "places_without_event_records": 1,
+        "places_without_individual_historical_contestants": 1,
+        "historical_events_without_individual_contestants": 7
+      }
+    }
+  },
+  "contractEvidenceFreshness": {
+    "status": "PASS",
+    "mandatoryPublicArtifactsChecked": 2228,
+    "absentLocalOnlyOriginalsRecorded": 830,
+    "browserArtifactsChecked": 31,
+    "completeArtifactSet": 3058
+  }
+}

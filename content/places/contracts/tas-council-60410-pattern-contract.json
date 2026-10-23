@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "title": "Brighton — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-60410",
+    "kind": "council",
+    "name": "Brighton",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/957",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/brighton/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/957/id",
+      "expected": "tas-council-60410"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/957/name",
+      "expected": "Brighton"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/957/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/957",
+      "expected": {
+        "id": "tas-council-60410",
+        "name": "Brighton",
+        "slug": "brighton",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "60410",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-801",
+          "council-tas-2022-tas-council-60410-bri-c",
+          "council-tas-2022-tas-council-60410-bri-m",
+          "council-tas-2022-tas-council-60410-bri-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Barbara Curran",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Aaron De La Torre",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Peter Geard",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Leigh Gray",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Greg Irons",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "John McMaster",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Tennille Murtagh",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Phil Owen",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          },
+          {
+            "name": "Michael Whelan",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=801&LGGo=Go",
+            "website": "http://www.brighton.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-801"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-60410-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-60410-bri-c",
+            "label": "2022 Brighton Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html",
+            "candidates": [
+              {
+                "name": "CAVANAGH, Jack",
+                "status": "contested this 2022 event",
+                "votes": 315,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "CURRAN, Barbara",
+                "status": "elected in this 2022 contest",
+                "votes": 1561,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "DE LA TORRE, Aaron",
+                "status": "elected in this 2022 contest",
+                "votes": 701,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "GEARD, Peter",
+                "status": "elected in this 2022 contest",
+                "votes": 380,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "GRAY, Leigh",
+                "status": "elected in this 2022 contest",
+                "votes": 3053,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "IRONS, Greg",
+                "status": "elected in this 2022 contest",
+                "votes": 885,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "McMASTER, John",
+                "status": "elected in this 2022 contest",
+                "votes": 330,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "MURTAGH, Tennille",
+                "status": "elected in this 2022 contest",
+                "votes": 864,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "OWEN, Phil",
+                "status": "elected in this 2022 contest",
+                "votes": 1471,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "WHELAN, Michael",
+                "status": "elected in this 2022 contest",
+                "votes": 458,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "WILLIAMS, Kellyanne",
+                "status": "contested this 2022 event",
+                "votes": 363,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-60410-bri-m",
+            "label": "2022 Brighton Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html",
+            "candidates": [
+              {
+                "name": "GRAY, Leigh",
+                "status": "contested this 2022 event",
+                "votes": 5177,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "McMASTER, John",
+                "status": "contested this 2022 event",
+                "votes": 858,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "MURTAGH, Tennille",
+                "status": "contested this 2022 event",
+                "votes": 1878,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "OWEN, Phil",
+                "status": "contested this 2022 event",
+                "votes": 2533,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-60410-bri-dm",
+            "label": "2022 Brighton Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html",
+            "candidates": [
+              {
+                "name": "CURRAN, Barbara",
+                "status": "contested this 2022 event",
+                "votes": 6634,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              },
+              {
+                "name": "DE LA TORRE, Aaron",
+                "status": "contested this 2022 event",
+                "votes": 3543,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60410-bri-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/bri-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/brighton/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

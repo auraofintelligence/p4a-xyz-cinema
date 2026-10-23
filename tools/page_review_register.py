@@ -9,6 +9,20 @@ SOURCE='content/history/civic-page-review-register-2026-10-17.json'
 def load_register():
     return json.loads((ROOT/SOURCE).read_text(encoding='utf-8'))
 
+def reviewed_page_entries(root=ROOT):
+    """Read explicit dated entries, including separately scoped national work."""
+    data=json.loads((root/SOURCE).read_text(encoding='utf-8'))
+    registers=[data]
+    for path in data.get('additionalPageRegisters',[]):
+        if not path.startswith('content/history/') or '..' in Path(path).parts:
+            raise ValueError('Page register must stay under content/history: '+path)
+        registers.append(json.loads((root/path).read_text(encoding='utf-8')))
+    rows=[row for register in registers for group in register['pageGroups'] for row in group['pages']]
+    rows += [row for register in registers for row in register.get('updatedExistingPages',[])]
+    if len({row['path'] for row in rows}) != len(rows):
+        raise ValueError('Repeated route across reviewed page registers')
+    return rows
+
 def render_register(page,link):
     data=load_register()
     escape=lambda value:html.escape(str(value),quote=True)
@@ -18,7 +32,8 @@ def render_register(page,link):
         result+='<details class="local-panel"><summary>'+escape(group['label'])+' · '+str(len(group['pages']))+' pages</summary><p>Work started '+group['workStarted']+' · first verified build '+group['firstVerifiedBuild']+'.</p><div class="local-table-scroll"><table class="local-table"><caption>'+escape(group['label'])+' review dates</caption><thead><tr><th>Page</th><th>Last updated</th><th>Review when</th></tr></thead><tbody>'+rows+'</tbody></table></div></details>'
     rows=''.join('<tr><td>'+link(page,entry['path'],entry['label'])+'</td><td>'+escape(entry['version'])+'</td><td>'+escape(entry['updated'])+'</td></tr>' for entry in data['rules'])
     result+='<details class="local-panel"><summary>Rules and their versions</summary><div class="local-table-scroll"><table class="local-table"><caption>Agent rule versions</caption><thead><tr><th>Rules</th><th>Version</th><th>Updated</th></tr></thead><tbody>'+rows+'</tbody></table></div></details>'
-    result+='<p>'+link(page,SOURCE,'Full page register, changes and review triggers')+' · '+link(page,'content/history/redland.md','Chronological change history')+'</p><p>A page update is not a new Census observation, map edition or election notice. The source records keep those dates. Review before publishing and when the listed conditions change.</p></section>'
+    extra=''.join(' · '+link(page,path,'Separate national place implementation register') for path in data.get('additionalPageRegisters',[]))
+    result+='<p>'+link(page,SOURCE,'Full page register, changes and review triggers')+' · '+link(page,'content/history/redland.md','Chronological change history')+extra+'</p><p>A page update is not a new Census observation, map edition or election notice. The source records keep those dates. Review before publishing and when the listed conditions change.</p></section>'
     return result
 
 def write_review_notes():
@@ -36,4 +51,5 @@ def write_review_notes():
     for entry in data['rules']:
         lines.append('| ['+entry['label']+'](../../'+entry['path']+') | '+entry['version']+' | '+entry['updated']+' | '+entry['reviewWhen']+' |')
     lines+=['','## Keeping this reviewable','']+[ '- '+rule for rule in data['maintenanceRules']]+['','[Machine-readable register](../../'+SOURCE+') · [Place history](../../'+data['history']+')','']
+    lines += ['[Separate national place implementation register](../../'+path+')' for path in data.get('additionalPageRegisters',[])]
     (ROOT/'docs/releases/2026-10-17-page-and-rule-register.md').write_text('\n'.join(lines),encoding='utf-8')

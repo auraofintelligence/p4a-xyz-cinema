@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "title": "Katherine — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-72200",
+    "kind": "council",
+    "name": "Katherine",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/994",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/katherine/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/994/id",
+      "expected": "nt-council-72200"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/994/name",
+      "expected": "Katherine"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/994/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/994",
+      "expected": {
+        "id": "nt-council-72200",
+        "name": "Katherine",
+        "slug": "katherine",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "72200",
+        "officialUrl": "https://www.katherine.nt.gov.au/profiles/elected-members",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nt-roster-katherine",
+          "council-nt-2025-ballot-katherine-katherine-councillor",
+          "council-nt-2025-ballot-katherine-katherine-mayor"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Joanna Holden",
+            "role": "Mayor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/mayor-joanna-holden",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Mel Doyle",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-mel-doyle",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Kathryn Whitehouse",
+            "role": "Councillor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-kathryn-woodhouse",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jim King",
+            "role": "Councillor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-jim-king",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Toni Coutts",
+            "role": "Councillor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-toni-coutts",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Kathy Glass",
+            "role": "Councillor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-kathy-glass",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Anjali Palmer",
+            "role": "Councillor",
+            "profileUrl": "https://www.katherine.nt.gov.au/profiles/elected-members/councillor-anjali-palmer",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-katherine",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-72200-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-72200-ordinary-2025-katherine-councillor",
+            "label": "2025 Katherine — Katherine Councillor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+            "candidates": [
+              {
+                "name": "Peter MCDOUGALL",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kathy GLASS",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cristian COMAN",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kathryn WHITEHOUSE",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Toni Tapp COUTTS",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jim KING",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ron GREEN",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Anjali PALMER",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Wayne CONNOP",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lee FORTMANN",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mel DOYLE",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Amanda KINGDON",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kerrie MOTT",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jon RAYNOR",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Matt HURLEY",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Dirk AMBJERG",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ian David CLARK",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Matt MORTON",
+                "status": "official historical nominee",
+                "contest": "Katherine Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 18,
+              "retainedCandidateCount": 18,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72200-ordinary-2025-katherine-mayor",
+            "label": "2025 Katherine — Katherine Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+            "candidates": [
+              {
+                "name": "Cristian COMAN",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Wayne CONNOP",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Amanda KINGDON",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jon RAYNOR",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Joanna HOLDEN",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mel DOYLE",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Anjali PALMER",
+                "status": "official historical nominee",
+                "contest": "Katherine Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/katherine/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 7,
+              "retainedCandidateCount": 7,
+              "complete": true
+            }
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

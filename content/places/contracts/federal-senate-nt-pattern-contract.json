@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "title": "Northern Territory Senate — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "federal-senate-nt",
+    "kind": "senate-area",
+    "name": "Northern Territory Senate",
+    "jurisdiction": "nt",
+    "chamber": "Senate"
+  },
+  "canonicalInput": {
+    "path": "content/places/federal.json",
+    "recordPointer": "/places/153",
+    "scope": "federal"
+  },
+  "coverageNotes": [
+    "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+    "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+    "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+    "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+    "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim.",
+    "No boundaryEdition value is populated in this canonical place record; no boundary-edition value is invented or pinned."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/federal/senate/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/federal/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/153/id",
+      "expected": "federal-senate-nt"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/153/name",
+      "expected": "Northern Territory Senate"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/153",
+      "expected": {
+        "id": "federal-senate-nt",
+        "name": "Northern Territory Senate",
+        "slug": "senate",
+        "jurisdiction": "nt",
+        "kind": "senate-area",
+        "chamber": "Senate",
+        "officialUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1&sta=NT",
+        "sources": [
+          "federal-aec-senate-candidates-2025",
+          "federal-aec-senate-votes-2025",
+          "federal-handbook-current",
+          "federal-aec-2025-timetable",
+          "federal-aec-election-dates"
+        ],
+        "representatives": [
+          {
+            "name": "Malarndirri McCARTHY",
+            "role": "Senator for Northern Territory",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=122087",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/122087",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jacinta NAMPIJINPA PRICE",
+            "role": "Senator for Northern Territory",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=263528",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/263528",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "aec-31496-nt",
+            "officialEventId": "31496",
+            "label": "2025 federal election",
+            "kind": "general-election",
+            "status": "final",
+            "date": "2025-05-03",
+            "dateBasis": "Official AEC polling date; final results are retained separately from current office.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+            "dateSourceUrl": "https://www.aec.gov.au/Elections/federal_elections/2025/timetable.htm",
+            "resultsUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+            "candidates": [
+              {
+                "id": "aec-candidate-40986",
+                "name": "Michael William ALSOP",
+                "party": "Australian Labor Party (Northern Territory) Branch",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 185,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40641",
+                "name": "Trudy CAMPBELL",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 35,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41889",
+                "name": "Ian CHIVERS",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 522,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41684",
+                "name": "Jed HANSEN",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 102,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40990",
+                "name": "Dean HERSEY",
+                "party": "NT CLP",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 165,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41010",
+                "name": "Caine HEWES",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 68,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41550",
+                "name": "Que KENNY",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1140,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40684",
+                "name": "Lance Alfred LAWRENCE",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 357,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40686",
+                "name": "Suzette LUYKEN",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 67,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40984",
+                "name": "Malarndirri McCARTHY",
+                "party": "Australian Labor Party (Northern Territory) Branch",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2476,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=122087"
+              },
+              {
+                "id": "aec-candidate-40980",
+                "name": "Aia NEWPORT",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2112,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41009",
+                "name": "Darren NUGENT",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 544,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40989",
+                "name": "Jacinta Nampijinpa PRICE",
+                "party": "NT CLP",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2363,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41688",
+                "name": "Trevor SMITH",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 31,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40983",
+                "name": "Hugo WELLS",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 149,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41900",
+                "name": "Lamaan WHYTE",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 60,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40640",
+                "name": "Lionel WYLIE",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-NT.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 81,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              }
+            ],
+            "boundaryEdition": "2025 federal election boundaries",
+            "resultMeasure": "Senate multi-member ballot; elected status from AEC final candidate roster (not House 2PP)"
+          },
+          {
+            "id": "federal-senate-next-nt",
+            "label": "Next Senate election",
+            "kind": "general-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "No verified polling date entered. State Senate rotation and territory terms differ; current office does not establish future candidacy.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://www.aec.gov.au/learn/election-timetable.htm",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+          "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+          "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+          "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+          "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

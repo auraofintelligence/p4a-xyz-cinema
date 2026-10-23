@@ -1,0 +1,936 @@
+{
+  "schemaVersion": 1,
+  "title": "Queanbeyan-Palerang — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-16490",
+    "kind": "council",
+    "name": "Queanbeyan-Palerang",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/713",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/queanbeyan-palerang/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/713/id",
+      "expected": "nsw-council-16490"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/713/name",
+      "expected": "Queanbeyan-Palerang"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/713/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/713",
+      "expected": {
+        "id": "nsw-council-16490",
+        "name": "Queanbeyan-Palerang",
+        "slug": "queanbeyan-palerang",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9934",
+        "officialUrl": "https://www.qprc.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-queanbeyan-palerang-councillors"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Kenrick Winchester",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Esma Livermore",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Morgan Broadbent",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mareeta Grundy",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ross Macdonald",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "John Preston",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mark Schweikert",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Steve Taskovski",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bill Waterhouse",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Katrina Willis",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bryce Wilson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.qprc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-16490-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-16490-ordinary-2024-councillors",
+            "label": "2024 Queanbeyan-Palerang â€” Councillors",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+            "candidates": [
+              {
+                "name": "WINCHESTER Kenrick",
+                "status": "elected",
+                "votes": 505,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "WATERHOUSE Bill",
+                "status": "elected",
+                "votes": 347,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "SACHSE Margot",
+                "status": "contested",
+                "votes": 53,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "PRESCOTT Kylie",
+                "status": "contested",
+                "votes": 44,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "TINE Alex",
+                "status": "contested",
+                "votes": 42,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "TIPA Shane",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "LINDBECK Peter",
+                "status": "contested",
+                "votes": 167,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "MARTIN Dean",
+                "status": "contested",
+                "votes": 41,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "WOOD Tony",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "RAYNER Tony",
+                "status": "contested",
+                "votes": 87,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "BROWNE Jan",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "HOLGATE James",
+                "status": "contested",
+                "votes": 67,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "THOMPSON Michael",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "REYNOLDS John",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "HOLGATE Katrina",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "GARNON Darren",
+                "status": "contested",
+                "votes": 1,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "SNARE Philip",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "MACDONALD Ross",
+                "status": "elected",
+                "votes": 272,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SCHWEIKERT Mark",
+                "status": "elected",
+                "votes": 41,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BROADBENT Morgan",
+                "status": "elected",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SCHWARTZ Robert",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BURTON Louise",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "TERNOUTH Jacqueline",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BROWN Wayne",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ROYDS Margaret",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "WILSON Bryce",
+                "status": "elected",
+                "votes": 242,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LIVERMORE Esma",
+                "status": "elected",
+                "votes": 102,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "PRESTON John",
+                "status": "elected",
+                "votes": 75,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SOUTH Barrina",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "NICHOLSON Timothy",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "EVANS Shelley",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "MACWILLIAM Michael",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HICKS Trevor",
+                "status": "contested",
+                "votes": 117,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "HART Scott",
+                "status": "contested",
+                "votes": 89,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "ABBOTT Natasha",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "KIRCHNER Horst",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "O'BRIEN Bonnie",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "WEBB Jason",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "MACDONALD Rachael",
+                "status": "contested",
+                "votes": 42,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "RAYNOLDS Walter",
+                "status": "contested",
+                "votes": 27,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "KOWALSKI May",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "MCKITTRICK Todd",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "KEW Samantha",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "LAWRENCE Joanne",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "WILLIS Katrina",
+                "status": "elected",
+                "votes": 251,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ANSELL James",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ROONEY Tonya",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "MAHER Kathleen",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BUCKMAN Gregory",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WOOLDRIDGE Simon",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TASKOVSKI Steve",
+                "status": "elected",
+                "votes": 158,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "CHEEMA Manpreet Singh",
+                "status": "contested",
+                "votes": 112,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "TRAJANOSKI Velice (Vic)",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "BALDAN Lou",
+                "status": "contested",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "KIRCHNER Samantha",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "FAYAQ Bashir",
+                "status": "contested",
+                "votes": 1,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "TRAN Charles",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "AHMED Hasina",
+                "status": "contested",
+                "votes": 10,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "AGRESTA Frank",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "HILL Alan",
+                "status": "contested",
+                "votes": 25,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "DUCKINOSKI Zoran",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "GRUNDY Mareeta",
+                "status": "elected",
+                "votes": 438,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "IVIMEY Shane",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "LANGE Johnny",
+                "status": "contested",
+                "votes": 63,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "SCATTERGOOD Rachel",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "WOODS Antoni (Billie)",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "EDWARDS Bec",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "RINALDI Sian",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "BAGLEY Michael",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "GRAHAM Richard",
+                "status": "contested",
+                "votes": 370,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1822,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/queanbeyan-palerang/councillor"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "16490",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

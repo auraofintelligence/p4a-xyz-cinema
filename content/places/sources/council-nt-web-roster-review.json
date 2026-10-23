@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "method": "Minimal factual names/roles/ward extract from official council pages read with the web tool. Original direct HTTPS reads failed certificate-expired validation and were not bypassed. This review file's hash describes the extract, not an original HTML download.",
+  "councils": [
+    {
+      "key": "west-arnhem",
+      "url": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+      "representatives": [
+        {"name":"Henry Yates","role":"Councillor","wardLabel":"Gunbalanya Ward"},
+        {"name":"Ralph McCoy","role":"Councillor","wardLabel":"Gunbalanya Ward"},
+        {"name":"Daniel Siebert","role":"Councillor","wardLabel":"Gunbalanya Ward"},
+        {"name":"Geraldine Narul","role":"Councillor","wardLabel":"Warruwi Ward"},
+        {"name":"Steven Nabalmarda","role":"Councillor","wardLabel":"Minjilang Ward"},
+        {"name":"Dwane Baker","role":"Councillor","wardLabel":"Kakadu Ward"},
+        {"name":"Mickitja Onus","role":"Councillor","wardLabel":"Kakadu Ward"},
+        {"name":"Ralph Blyth","role":"Councillor","wardLabel":"Kakadu Ward"},
+        {"name":"Joseph Diddo","role":"Councillor","wardLabel":"Maningrida Ward"},
+        {"name":"Jacqueline Phillips","role":"Deputy Mayor","wardLabel":"Maningrida Ward"},
+        {"name":"James Woods","role":"Mayor","wardLabel":"Maningrida Ward"},
+        {"name":"Jermaine Namanurki","role":"Councillor","wardLabel":"Maningrida Ward"}
+      ],
+      "notes": ["Official roster cards list twelve members, including later replacements, while its introductory sentence still names 2021 as the most recent election. Preserve the published card snapshot with this discrepancy; do not silently redraft its source year or use 2025 winners as the current roster."]
+    },
+    {
+      "key": "belyuen",
+      "url": "https://www.belyuen.nt.gov.au/councillors-and-staff-1",
+      "representatives": [],
+      "notes": ["Official page displays only President Rex Edmunds and Councillor John Moreen, while the 2025 NTEC ballot identifies different candidates. No complete independently current roster has been established; these two possibly stale entries are not published as current officeholders."]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "title": "Rockingham — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-wa-wa392",
+    "kind": "state-district",
+    "name": "Rockingham",
+    "jurisdiction": "wa",
+    "chamber": "Legislative Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/375",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Western Australia has one statewide Legislative Council electorate from the 2025 election; former six regions are historical.",
+    "Current office independently verified from the Parliament current-member table in the normal public browser. Affiliation codes and official profile URLs retain the source display.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/wa/electorates/districts/rockingham/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/wa/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/375/id",
+      "expected": "state-wa-wa392"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/375/name",
+      "expected": "Rockingham"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/375/boundaryEdition",
+      "expected": "Geoscape / Digital Atlas of Australia May 2025 source edition"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/375",
+      "expected": {
+        "id": "state-wa-wa392",
+        "name": "Rockingham",
+        "slug": "rockingham",
+        "jurisdiction": "wa",
+        "kind": "state-district",
+        "chamber": "Legislative Assembly",
+        "layerId": "state-wa-assembly-2025",
+        "featureId": "WA392",
+        "officialUrl": "https://www.elections.wa.gov.au",
+        "sources": [
+          "state-boundaries-wa",
+          "state-wa-la-candidates",
+          "state-wa-current-la-browser-roster"
+        ],
+        "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
+        "representatives": [
+          {
+            "name": "Magenta MARSHALL",
+            "sourceName": "Mrs Magenta MARSHALL",
+            "role": "Member of the Legislative Assembly",
+            "party": "ALP",
+            "profileUrl": "https://www.parliament.wa.gov.au/Parliament/Memblist.nsf/WAllMembersFlat2/Marshall,+Magenta?opendocument",
+            "sourceId": "state-wa-current-la-browser-roster",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "wa-2025-rockingham",
+            "label": "2025 Legislative Assembly election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2025-03-08",
+            "dateBasis": "Official election results / parliamentary record",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname",
+            "resultsUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname",
+            "candidates": [
+              {
+                "name": "DELVES, Robert",
+                "party": "The Greens (WA)",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "EDWARDS, Hayley",
+                "party": "Liberal Party",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "GOULD, Sarah",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "KEANE, Jason",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "LESLIE, Phillip",
+                "party": "Legalise Cannabis Party WA",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "MARSHALL, Magenta",
+                "party": "WA Labor",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "OREGIONI, Cristina",
+                "party": "One Nation",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              },
+              {
+                "name": "PEARCE, Tim",
+                "party": "Australian Christians",
+                "status": "contested",
+                "sourceUrl": "https://eis.waec.wa.gov.au/api/sgElections/sg2025/LACandidateSurname"
+              }
+            ]
+          },
+          {
+            "id": "wa-next-state-general",
+            "label": "Next ordinary WA state/territory election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2029-03-10",
+            "dateBasis": "Ordinary statutory date: second Saturday in March; source calendar checked 2026-10-02",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/releases/1892",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Western Australia has one statewide Legislative Council electorate from the 2025 election; former six regions are historical.",
+          "Current office independently verified from the Parliament current-member table in the normal public browser. Affiliation codes and official profile URLs retain the source display."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

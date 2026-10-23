@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "title": "Ginninderra — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-act-act18",
+    "kind": "state-district",
+    "name": "Ginninderra",
+    "jurisdiction": "act",
+    "chamber": "Legislative Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/419",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Five members elected by Hare-Clark. Current roster checked independently from historical results; Leanne Castley is currently Independent, and Rebecca Vassarotti replaced Shane Rattenbury by countback in June 2026.",
+    "2024 contestant first preference roster complete; historical ballot affiliations retained.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/act/electorates/districts/ginninderra/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/act/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/419/id",
+      "expected": "state-act-act18"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/419/name",
+      "expected": "Ginninderra"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/419/boundaryEdition",
+      "expected": "Geoscape / Digital Atlas of Australia May 2025 source edition"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/419",
+      "expected": {
+        "id": "state-act-act18",
+        "name": "Ginninderra",
+        "slug": "ginninderra",
+        "jurisdiction": "act",
+        "kind": "state-district",
+        "chamber": "Legislative Assembly",
+        "layerId": "state-act-assembly-2025",
+        "featureId": "ACT18",
+        "officialUrl": "https://www.elections.act.gov.au",
+        "sources": [
+          "state-boundaries-act",
+          "state-act-current",
+          "state-act-brindabella-results"
+        ],
+        "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
+        "representatives": [
+          {
+            "name": "Chiaka Barry",
+            "role": "Member of the Legislative Assembly",
+            "party": "Liberal",
+            "profileUrl": "https://www.parliament.act.gov.au/members/current/barry",
+            "website": "https://www.facebook.com/ChiakaBarryLiberal",
+            "sourceId": "state-act-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Yvette Berry",
+            "role": "Member of the Legislative Assembly",
+            "party": "Labor",
+            "profileUrl": "https://www.parliament.act.gov.au/members/current/berry",
+            "website": "https://www.facebook.com/YvetteSBerry",
+            "sourceId": "state-act-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Peter Cain",
+            "role": "Member of the Legislative Assembly",
+            "party": "Liberals",
+            "profileUrl": "https://www.parliament.act.gov.au/members/current/cain",
+            "website": "https://www.facebook.com/petercainliberal",
+            "sourceId": "state-act-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Tara Cheyne",
+            "role": "Member of the Legislative Assembly",
+            "party": "Labor",
+            "profileUrl": "https://www.parliament.act.gov.au/members/current/cheyne",
+            "website": "https://www.facebook.com/taraforginninderra",
+            "sourceId": "state-act-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jo Clay",
+            "role": "Member of the Legislative Assembly",
+            "party": "Green",
+            "profileUrl": "https://www.parliament.act.gov.au/members/current/clay",
+            "website": "https://www.facebook.com/joclayginninderra",
+            "sourceId": "state-act-current",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "act-2024-ginninderra",
+            "label": "2024 Legislative Assembly election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2024-10-19",
+            "dateBasis": "Official election results / parliamentary record",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+            "resultsUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+            "candidates": [
+              {
+                "name": "BAVINTON, Tim",
+                "party": "ACT Labor",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2095,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "BERRY, Yvette",
+                "party": "ACT Labor",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 7727,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CHEYNE, Tara",
+                "party": "ACT Labor",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 7813,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "PROWSE, Heidi",
+                "party": "ACT Labor",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2190,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "SADIMOEN, Sean",
+                "party": "ACT Labor",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1001,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "DREW, Carolyne",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 443,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "DREW, Lara",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 514,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "LOUNT, Angela",
+                "party": "Belco Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 397,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "STEFANIAK, Bill",
+                "party": "Belco Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1527,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "TUTT, Alan",
+                "party": "Belco Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 696,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "BARRY, Chiaka",
+                "party": "Canberra Liberals",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 3601,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CAIN, Peter",
+                "party": "Canberra Liberals",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 5782,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "PREVEDELLO, Joe",
+                "party": "Canberra Liberals",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2894,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "ROBERTS, Darren",
+                "party": "Canberra Liberals",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2494,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "BABY, Sunil",
+                "party": "Family First",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 223,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "KIKKERT, Elizabeth",
+                "party": "Family First",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1926,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "WALLACE, Andrew",
+                "party": "Family First",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 445,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "FORESTI, Leanne",
+                "party": "Independents for Canberra",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1443,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "NUCIFORA, Suzanne",
+                "party": "Independents for Canberra",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 670,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "RICHARDSON, Mark",
+                "party": "Independents for Canberra",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2116,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "COOPER, Douglas",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 146,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CROWE, Helen",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 233,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "HOWARD, Rick",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 129,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "SPENCER, Maxwell",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 152,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "VANDERBURGH, John",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 149,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "JAKEMAN, Guy",
+                "party": "Libertarian Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 221,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "VON BRASCH, Arved",
+                "party": "Libertarian Party",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 178,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CLAY, Jo",
+                "party": "The ACT Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 3426,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "HUNTER, Dani",
+                "party": "The ACT Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1238,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "LIERSCH, Tim",
+                "party": "The ACT Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 1126,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "SINCLAIR, Adele",
+                "party": "The ACT Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 2090,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CULLEN, Mignonne",
+                "party": "Ungrouped",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 324,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "HASKINS, Janine",
+                "party": "Ungrouped",
+                "status": "contested",
+                "sourceUrl": "https://www.elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2024-election/2024-election-results/electorate-results?select=Brindabella",
+                "votes": 643,
+                "voteMeasure": "first preferences"
+              }
+            ]
+          },
+          {
+            "id": "act-next-state-general",
+            "label": "Next ordinary ACT state/territory election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2028-10-21",
+            "dateBasis": "Commission date; source calendar checked 2026-10-02",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Five members elected by Hare-Clark. Current roster checked independently from historical results; Leanne Castley is currently Independent, and Rebecca Vassarotti replaced Shane Rattenbury by countback in June 2026.",
+          "2024 contestant first preference roster complete; historical ballot affiliations retained."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

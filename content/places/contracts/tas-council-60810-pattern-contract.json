@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "title": "Central Coast (Tas) — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-60810",
+    "kind": "council",
+    "name": "Central Coast (Tas)",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/959",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/central-coast-tas/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/959/id",
+      "expected": "tas-council-60810"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/959/name",
+      "expected": "Central Coast (Tas)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/959/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/959",
+      "expected": {
+        "id": "tas-council-60810",
+        "name": "Central Coast (Tas)",
+        "slug": "central-coast-tas",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "60810",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-901",
+          "council-tas-2022-tas-council-60810-cco-c",
+          "council-tas-2022-tas-council-60810-cco-m",
+          "council-tas-2022-tas-council-60810-cco-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "John Beswick",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Garry Carpenter",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Amanda Diprose",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Cheryl Fuller",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Sophie Lehmann",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Michael Smith",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Andrew van Rooyen",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Philip Viney",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          },
+          {
+            "name": "Kate Wylie",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=901&LGGo=Go",
+            "website": "http://www.centralcoast.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-901"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-60810-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-60810-cco-c",
+            "label": "2022 Central Coast (Tas) Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html",
+            "candidates": [
+              {
+                "name": "ACKLAND, Ariele",
+                "status": "contested this 2022 event",
+                "votes": 429,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "ANDREWS, Micheline",
+                "status": "contested this 2022 event",
+                "votes": 352,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "BESWICK, John",
+                "status": "elected in this 2022 contest",
+                "votes": 647,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "BRIGGS, Darren",
+                "status": "contested this 2022 event",
+                "votes": 602,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "BROOKS, Justine",
+                "status": "contested this 2022 event",
+                "votes": 137,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "BRYAN, Gaye",
+                "status": "contested this 2022 event",
+                "votes": 139,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "CARPENTER, Garry",
+                "status": "elected in this 2022 contest",
+                "votes": 2386,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "DIPROSE, Amanda",
+                "status": "elected in this 2022 contest",
+                "votes": 716,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "FABIAN, Patrick",
+                "status": "contested this 2022 event",
+                "votes": 517,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "FULLER, Cheryl",
+                "status": "elected in this 2022 contest",
+                "votes": 2611,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "HISCUTT, Casey",
+                "status": "elected in this 2022 contest",
+                "votes": 822,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "HUTCHESON, Bill",
+                "status": "contested this 2022 event",
+                "votes": 257,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "JACKSON, Stephen",
+                "status": "contested this 2022 event",
+                "votes": 300,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "JEFFREY, Darrell",
+                "status": "contested this 2022 event",
+                "votes": 129,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "JOHNSTON, Garth",
+                "status": "contested this 2022 event",
+                "votes": 115,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "KELLY, Matt",
+                "status": "contested this 2022 event",
+                "votes": 150,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "KURRLE, Dianne",
+                "status": "contested this 2022 event",
+                "votes": 206,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "LEHMANN, Sophie",
+                "status": "elected in this 2022 contest",
+                "votes": 521,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "McCULLOCH, Damien",
+                "status": "contested this 2022 event",
+                "votes": 387,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "MOLLER, Adam",
+                "status": "contested this 2022 event",
+                "votes": 83,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "O'NEIL, Lyndon",
+                "status": "contested this 2022 event",
+                "votes": 207,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "ROBINSON, David",
+                "status": "contested this 2022 event",
+                "votes": 73,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "SMITH, Michael",
+                "status": "elected in this 2022 contest",
+                "votes": 706,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "VAN ROOYEN, Andrew",
+                "status": "contested this 2022 event",
+                "votes": 424,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "VINEY, Philip",
+                "status": "elected in this 2022 contest",
+                "votes": 606,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "WING, Greg",
+                "status": "contested this 2022 event",
+                "votes": 471,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "WYLIE, Kate",
+                "status": "elected in this 2022 contest",
+                "votes": 536,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-60810-cco-m",
+            "label": "2022 Central Coast (Tas) Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html",
+            "candidates": [
+              {
+                "name": "CARPENTER, Garry",
+                "status": "contested this 2022 event",
+                "votes": 6549,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "FULLER, Cheryl",
+                "status": "contested this 2022 event",
+                "votes": 7848,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-60810-cco-dm",
+            "label": "2022 Central Coast (Tas) Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html",
+            "candidates": [
+              {
+                "name": "BESWICK, John",
+                "status": "contested this 2022 event",
+                "votes": 3455,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "HISCUTT, Casey",
+                "status": "contested this 2022 event",
+                "votes": 3967,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "HUTCHESON, Bill",
+                "status": "contested this 2022 event",
+                "votes": 1508,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "KELLY, Matt",
+                "status": "contested this 2022 event",
+                "votes": 1032,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "KURRLE, Dianne",
+                "status": "contested this 2022 event",
+                "votes": 1505,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              },
+              {
+                "name": "VINEY, Philip",
+                "status": "contested this 2022 event",
+                "votes": 3083,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-60810-cco-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/cco-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/central-coast/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

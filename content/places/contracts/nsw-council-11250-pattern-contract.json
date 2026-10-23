@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "title": "Broken Hill — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-11250",
+    "kind": "council",
+    "name": "Broken Hill",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/635",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/broken-hill/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/635/id",
+      "expected": "nsw-council-11250"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/635/name",
+      "expected": "Broken Hill"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/635/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/635",
+      "expected": {
+        "id": "nsw-council-11250",
+        "name": "Broken Hill",
+        "slug": "broken-hill",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "4508",
+        "officialUrl": "https://www.brokenhill.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-broken-hill-councillors",
+          "council-nsw-2024-broken-hill-mayor"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Thomas Kennedy",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jim Hickey",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Robert Algate",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Micheal Boland",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Alan Chandler",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Blake Edgecombe",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Elaine Gillett",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Hayley Jewitt",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ron Page",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Darriea Turley AM",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.brokenhill.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-11250-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-11250-ordinary-2024-councillors",
+            "label": "2024 Broken Hill â€” Councillors",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+            "candidates": [
+              {
+                "name": "TURLEY Darriea",
+                "status": "elected",
+                "votes": 244,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BYRNE Ashley",
+                "status": "elected",
+                "votes": 34,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "EDGECOMBE Blake",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FELL Nathan",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SHOEBRIDGE Richard",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "GALLAGHER Dave",
+                "status": "elected",
+                "votes": 203,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "PAGE Ron",
+                "status": "contested",
+                "votes": 24,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "GROSE Dean",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "McCARTHY Matthew",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "HOYSTED Anita",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "KENNEDY Tom",
+                "status": "contested",
+                "votes": 760,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "BOLAND Micheal",
+                "status": "elected",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "HICKEY Jim",
+                "status": "elected",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "ALGATE Bob",
+                "status": "elected",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "JEWITT Hayley",
+                "status": "elected",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "CHANDLER Alan",
+                "status": "elected",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "GILLETT Elaine",
+                "status": "elected",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "KENNEDY Thomas",
+                "status": "contested",
+                "votes": 24,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "ELSTON James",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "LICUL Branko",
+                "status": "contested",
+                "votes": 168,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 801,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-11250-ordinary-2024-mayor",
+            "label": "2024 Broken Hill â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral",
+            "candidates": [
+              {
+                "name": "GALLAGHER Dave",
+                "status": "contested",
+                "votes": 1410,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "KENNEDY Tom",
+                "status": "elected",
+                "votes": 7419,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "TURLEY Darriea",
+                "status": "contested",
+                "votes": 1707,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/broken-hill/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "11250",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

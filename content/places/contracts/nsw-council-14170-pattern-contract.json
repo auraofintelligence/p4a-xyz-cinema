@@ -1,0 +1,917 @@
+{
+  "schemaVersion": 1,
+  "title": "Inner West — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-14170",
+    "kind": "council",
+    "name": "Inner West",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/675",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/inner-west/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/675/id",
+      "expected": "nsw-council-14170"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/675/name",
+      "expected": "Inner West"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/675/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/675",
+      "expected": {
+        "id": "nsw-council-14170",
+        "name": "Inner West",
+        "slug": "inner-west",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9335",
+        "officialUrl": "https://www.innerwest.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-inner-west-ashfield-djarrawunang-magpie-ward",
+          "council-nsw-2024-inner-west-balmain-baludarri-leather-jacket-ward",
+          "council-nsw-2024-inner-west-leichhardt-gulgadya-grass-tree-ward",
+          "council-nsw-2024-inner-west-marrickville-midjuburi-lillypilly-ward",
+          "council-nsw-2024-inner-west-stanmore-damun-port-jackson-fig-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Darcy Byrne",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Chloe Smith",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Izabella Antoniou",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Liz Atkins",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Olivia Barlow",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Andrew Blake",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jo Carlisle",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Vicki Clay",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jessica D'Arienzo",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Kerrie Fergusson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mat Howard",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Victor Macri",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Vittoria Raciti",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Philippa Scott",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ismet Tastan",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.innerwest.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-14170-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-14170-ordinary-2024-ashfield-djarrawunang-magpie-ward",
+            "label": "2024 Inner West â€” Ashfield Djarrawunang Magpie Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+            "candidates": [
+              {
+                "name": "ZHANG Wenjie",
+                "status": "contested",
+                "votes": 359,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "GUO Funing",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SHEN Lauren",
+                "status": "contested",
+                "votes": 100,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "D'ARIENZO Jessica",
+                "status": "elected",
+                "votes": 863,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CARLISLE Jo",
+                "status": "elected",
+                "votes": 138,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "JAMES Elayn",
+                "status": "contested",
+                "votes": 59,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "ANTONIOU Izabella",
+                "status": "elected",
+                "votes": 919,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CHOWDHURY Nabilah",
+                "status": "contested",
+                "votes": 80,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ALLEN Beth",
+                "status": "contested",
+                "votes": 59,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 831,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ashfield Djarrawunang Magpie Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/ashfield-djarrawunang-magpie-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14170-ordinary-2024-balmain-baludarri-leather-jacket-ward",
+            "label": "2024 Inner West â€” Balmain Baludarri Leather Jacket Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+            "candidates": [
+              {
+                "name": "TASTAN Ismet",
+                "status": "elected",
+                "votes": 750,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BOOTH Shelley",
+                "status": "contested",
+                "votes": 120,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DAVIS Michael",
+                "status": "contested",
+                "votes": 26,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BYRNE Darcy",
+                "status": "elected",
+                "votes": 1380,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FERGUSSON Kerrie",
+                "status": "elected",
+                "votes": 150,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FRANKHAM Brian",
+                "status": "contested",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BRACCI Christian",
+                "status": "contested",
+                "votes": 253,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "NAVARRA Joanne",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "LEVY Elizabeth",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "STAMOLIS John",
+                "status": "contested",
+                "votes": 1300,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              },
+              {
+                "name": "BROOKS Tracey",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              },
+              {
+                "name": "HACKING Kathleen",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              },
+              {
+                "name": "BASSIL Dorothy",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              },
+              {
+                "name": "SULTANA Taneal",
+                "status": "contested",
+                "votes": 249,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 483,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Balmain Baludarri Leather Jacket Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/balmain-baludarri-leather-jacket-ward/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14170-ordinary-2024-leichhardt-gulgadya-grass-tree-ward",
+            "label": "2024 Inner West â€” Leichhardt Gulgadya Grass Tree Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+            "candidates": [
+              {
+                "name": "RACITI Vittoria",
+                "status": "elected",
+                "votes": 332,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "COCO Maurizio",
+                "status": "contested",
+                "votes": 96,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "STEFANELLI Domenico",
+                "status": "contested",
+                "votes": 56,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BLAKE Andrew",
+                "status": "elected",
+                "votes": 473,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CARUSI Luciana",
+                "status": "contested",
+                "votes": 166,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RICHARDS Brooke",
+                "status": "contested",
+                "votes": 74,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SCOTT Philippa",
+                "status": "elected",
+                "votes": 813,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "STEPHENS Tim",
+                "status": "contested",
+                "votes": 165,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TAKSA-GRIMSHAW Emma",
+                "status": "contested",
+                "votes": 58,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "O'CONNOR Matthew",
+                "status": "contested",
+                "votes": 212,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 747,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Leichhardt Gulgadya Grass Tree Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/leichhardt-gulgadya-grass-tree-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14170-ordinary-2024-marrickville-midjuburi-lillypilly-ward",
+            "label": "2024 Inner West â€” Marrickville Midjuburi Lillypilly Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+            "candidates": [
+              {
+                "name": "MACRI Victor",
+                "status": "elected",
+                "votes": 515,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor"
+              },
+              {
+                "name": "ALEPIDIS Arthur",
+                "status": "contested",
+                "votes": 126,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor"
+              },
+              {
+                "name": "NGUYEN Catherine",
+                "status": "contested",
+                "votes": 315,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor"
+              },
+              {
+                "name": "HOWARD Mat",
+                "status": "elected",
+                "votes": 822,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HORSLEY Leah",
+                "status": "contested",
+                "votes": 120,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SU-MANLUTAC Christine",
+                "status": "contested",
+                "votes": 52,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BARLOW Olivia",
+                "status": "elected",
+                "votes": 567,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "LANGFORD Justine",
+                "status": "contested",
+                "votes": 135,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "OLIVE Peter",
+                "status": "contested",
+                "votes": 74,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 800,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Marrickville Midjuburi Lillypilly Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/marrickville-midjuburi-lillypilly-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14170-ordinary-2024-stanmore-damun-port-jackson-fig-ward",
+            "label": "2024 Inner West â€” Stanmore Damun Port Jackson Fig Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+            "candidates": [
+              {
+                "name": "SMITH Chloe",
+                "status": "elected",
+                "votes": 905,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CLAY Vicki",
+                "status": "elected",
+                "votes": 49,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DELISLE Mits",
+                "status": "contested",
+                "votes": 73,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TYLER Rosana",
+                "status": "contested",
+                "votes": 205,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "TYLER Alicia",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "TYLER Edward",
+                "status": "contested",
+                "votes": 39,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ATKINS Liz",
+                "status": "elected",
+                "votes": 896,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "FRANKLIN-BAKER Flynn",
+                "status": "contested",
+                "votes": 107,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SHIELD Robert",
+                "status": "contested",
+                "votes": 50,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 571,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Stanmore Damun Port Jackson Fig Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/inner-west/stanmore-damun-port-jackson-fig-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "14170",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

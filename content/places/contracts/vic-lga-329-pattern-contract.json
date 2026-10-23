@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "title": "Hepburn Shire Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-329",
+    "kind": "council",
+    "name": "Hepburn Shire Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/136",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/hepburn-shire-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/136/id",
+      "expected": "vic-lga-329"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/136/name",
+      "expected": "Hepburn Shire Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/136/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/136",
+      "expected": {
+        "id": "vic-lga-329",
+        "name": "Hepburn Shire Council",
+        "slug": "hepburn-shire-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "329",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-329",
+          "council-vic-roster-329"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Don Henderson",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Brian Hood",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Lesley Hewitt",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Tony Clark",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Tim Drylie",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Pat Hockey",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Shirley Cornish",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/hepburn-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-329",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-329-ordinary-2024",
+            "label": "2024 Hepburn Shire Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+            "candidates": [
+              {
+                "name": "HENDERSON, Don\n(1st elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HOOD, Brian\n(2nd elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HEWITT, Lesley\n(3rd elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "CLARK, Tony\n(4th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "DRYLIE, Tim\n(5th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HOCKEY, Pat\n(6th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "CORNISH, Shirley\n(7th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HENDERSON, Don",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 2440,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CLARK, Tony",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 660,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "POROCHOWSKY, Christian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 537,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DRYLIE, Tim",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 963,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SEDGMAN, Derek",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 492,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PETTERSSON, Benny",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 423,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOOD, Brian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 1540,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STONE, Cameron",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 438,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOCKEY, Pat",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 768,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HEWITT, Lesley",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 1079,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CORNISH, Shirley",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 618,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WINFIELD-GRAY, Bernie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/hepburn-shire-council",
+                "contest": "Hepburn Shire Council",
+                "votes": 434,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-329-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council",
+        "mapRefs": [
+          {
+            "layerId": "council-vic-ward",
+            "featureId": "3290120240215",
+            "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

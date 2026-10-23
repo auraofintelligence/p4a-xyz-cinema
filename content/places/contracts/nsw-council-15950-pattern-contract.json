@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "title": "North Sydney — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-15950",
+    "kind": "council",
+    "name": "North Sydney",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/704",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/north-sydney/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/704/id",
+      "expected": "nsw-council-15950"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/704/name",
+      "expected": "North Sydney"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/704/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/704",
+      "expected": {
+        "id": "nsw-council-15950",
+        "name": "North Sydney",
+        "slug": "north-sydney",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "8838",
+        "officialUrl": "https://www.northsydney.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-north-sydney-cammeraygal-ward",
+          "council-nsw-2024-north-sydney-st-leonards-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Zoe Baker",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Maryann Beregi",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Nicole Antonini",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Efi Carr",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Christopher Holding",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Angus Hoy",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jessica Keen",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Godfrey Santer",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "James Spenceley",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Shannon Welch",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.northsydney.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-15950-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-15950-ordinary-2024-cammeraygal-ward",
+            "label": "2024 North Sydney â€” Cammeraygal Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+            "candidates": [
+              {
+                "name": "KOK Sarah",
+                "status": "contested",
+                "votes": 128,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "EGGLETON Bob",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "MOOR Peter",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "MARSI Mark",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "LYTLE Anne",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "BEREGI MaryAnn",
+                "status": "elected",
+                "votes": 330,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "RICHMOND Katie",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "GREY Ian",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "BLAIR Estelle",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "CHRISTIE Jillian",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "HOY Angus",
+                "status": "elected",
+                "votes": 112,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "EDDLESTON Christopher",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ASSAEE Andrew",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HEALY Graham",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SIMS Fuchsia",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WELCH Shannon",
+                "status": "elected",
+                "votes": 192,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "VELINGOS Travis",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LAKE Christopher",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "ALT Merilyn",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CAMPBELL Mathew",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "NOBLE Peter Gregory",
+                "status": "contested",
+                "votes": 137,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "MUTTON Ian",
+                "status": "contested",
+                "votes": 57,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "STREET Joan",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "LEE Julie",
+                "status": "contested",
+                "votes": 137,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "RESTOM Conway",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "KEEN Jessica",
+                "status": "elected",
+                "votes": 283,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "CARR Efi",
+                "status": "elected",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "CONSTABLE Bryson",
+                "status": "contested",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SKINNER Andrew",
+                "status": "contested",
+                "votes": 40,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "WARDMAN Hunter",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SINHA Pallavi",
+                "status": "contested",
+                "votes": 141,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "BILLINGHURST Strephon",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "ROTHWELL Leonie",
+                "status": "contested",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "BLACK Craig",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "JYOTI Harshita",
+                "status": "contested",
+                "votes": 1,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "SWAMINATHAN Rajeswari",
+                "status": "contested",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 677,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Cammeraygal Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/cammeraygal-ward/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15950-ordinary-2024-st-leonards-ward",
+            "label": "2024 North Sydney â€” St Leonards Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+            "candidates": [
+              {
+                "name": "BAKER Zoe",
+                "status": "elected",
+                "votes": 809,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "HOLDING Christopher",
+                "status": "elected",
+                "votes": 24,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "ANTONINI Nicole",
+                "status": "elected",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "DAVIDSON Diana",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "MCDONALD Rebecca",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "SPENCELEY James",
+                "status": "elected",
+                "votes": 395,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "WHITFORD Daniel",
+                "status": "contested",
+                "votes": 26,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "GARDNER Felicity",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "LUDICK Deon",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "NEVILLE Christopher",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor"
+              },
+              {
+                "name": "WANT Michael",
+                "status": "contested",
+                "votes": 113,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "BOURKE William",
+                "status": "contested",
+                "votes": 25,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "KITCHENER Susan",
+                "status": "contested",
+                "votes": 25,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "HEATHERS John",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "SMITH Enzo",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "SUSTAINABLE AUSTRALIA PARTY - STOP OVERDEVELOPMENT / CORRUPTION"
+              },
+              {
+                "name": "SANTER Godfrey",
+                "status": "elected",
+                "votes": 146,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TYRRELL Jade",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BROWN Rayna",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "NEWTON Julie Anne",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LEE Olivia",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1054,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "St Leonards Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/north-sydney/st-leonards-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "15950",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

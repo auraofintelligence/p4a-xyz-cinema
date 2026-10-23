@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "title": "Western Victoria — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-council-8",
+    "kind": "state-region",
+    "name": "Western Victoria",
+    "jurisdiction": "vic",
+    "chamber": "Legislative Council"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/95",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/electorates/regions/western-victoria/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/95/id",
+      "expected": "vic-council-8"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/95/name",
+      "expected": "Western Victoria"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/95/boundaryEdition",
+      "expected": "2020–21 redivision / 2022 boundaries"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/95",
+      "expected": {
+        "id": "vic-council-8",
+        "name": "Western Victoria",
+        "slug": "western-victoria",
+        "jurisdiction": "vic",
+        "kind": "state-region",
+        "chamber": "Legislative Council",
+        "layerId": "state-vic-council-2022",
+        "featureId": 8,
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/state-regions/western-victoria-region",
+        "sources": [
+          "state-vic-council-2022",
+          "state-vic-members-20261002",
+          "state-vic-results-20261002"
+        ],
+        "boundaryEdition": "2020–21 redivision / 2022 boundaries",
+        "representatives": [
+          {
+            "name": "Gayle Tierney",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Bev McArthur",
+            "role": "Legislative Council member",
+            "party": "Liberal Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://twitter.com/BevMcArthurMP",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Jacinta Ermacora",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Joe McCracken",
+            "role": "Legislative Council member",
+            "party": "Liberal Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.joemccracken.com.au/",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Sarah Mansfield",
+            "role": "Legislative Council member",
+            "party": "The Australian Greens - Victoria",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.facebook.com/SarahMansfieldGreens",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-council-8-2022-11-26",
+            "label": "State general election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2022-11-26",
+            "dateBasis": "Official historical results; original source checked 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+            "candidates": [
+              {
+                "name": "GORMAN, Madilyn",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 3385,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "RANDALL, Abbey",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 271,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COLLYER, Ben",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 18046,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "STANDEN, Graeme",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 414,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PRYSE-SMITH, Terri Elizabeth",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 12779,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DE PYLE, Sabine",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 286,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LAZOS, Constantine",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 2463,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BRENNFLECK, Angelica",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 144,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DOWLING, Andrew",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 24201,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HUMPHREY, Melanie",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 562,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SINCLAIR, Emma",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 3351,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HURLEY, Olivia",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 124,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WEARNE, Madeleine",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 2007,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PASCOE, Robert",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 76,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ERMACORA, Jacinta",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 171778,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TIERNEY, Gayle",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 1547,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BRIDGER-DARLING, Megan",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 186,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PAVLOVICH, Sue",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 245,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "STOKES, Heather",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 1268,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CRONKWRIGHT, Dean",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 10183,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "IKEH, Chioma",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 137,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "KOVAC, Antun",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 2216,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BECERRA-KOVAC, Flor Vanessa",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 91,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "FINNIGAN, Tosh-Jake",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 4958,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CELIKDOGEN, Ismail Efe",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 29,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ORHAN, Sinan",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 25,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McGRATH, Julia",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 16025,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BARKER, Paul",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 446,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COLLINS, Geoff",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 2428,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "FISHER, Simone",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 116,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GOMEZ BENITEZ, Cecilia",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 511,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "KACHHIA, Vijaykumar",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 14,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DAVE, Hardik Bipinchandra",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 9,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PATEL, Jaymik Mahendrakumar",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 7,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "KEARNS, Antonela",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 1414,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DUNN, Eddie",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 43,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GRIMLEY, Stuart",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 8472,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "O'BRIEN, Simone",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 225,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "FAILLA, Natalie Valerie",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 3493,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "RAYMOND, Keith",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 92,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "Di BIASE, Costa",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 10643,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SKRUZNY, Ron",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 53,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BURSON, Chris",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 2627,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BEECK, Richard",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 72,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MEDDICK, Andy",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 8532,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WILSHIER, Hannah",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 128,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MANSFIELD, Sarah",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 41430,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BARNES, John",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 510,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BALDACCHINO, Judith",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 185,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "van der VLIES, Eva",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 149,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ZIBELL, Linda",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 435,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McARTHUR, Bev",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 130863,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McCRACKEN, Joe",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 584,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "RANK, Anita",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 440,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SHEARMAN, Angela",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 714,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LETTS, Robert",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 620,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HELLMUTH, Storm",
+                "party": "No affiliation published",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/western-victoria-region-results",
+                "votes": 161,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              }
+            ]
+          },
+          {
+            "id": "vic-state-2026",
+            "label": "2026 Victorian state election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2026-11-28",
+            "dateBasis": "Commission date; calendar snapshot 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/2026-state-election",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

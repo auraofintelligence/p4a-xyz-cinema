@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "title": "Armidale — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-10180",
+    "kind": "council",
+    "name": "Armidale",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/620",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/armidale/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/620/id",
+      "expected": "nsw-council-10180"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/620/name",
+      "expected": "Armidale"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/620/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/620",
+      "expected": {
+        "id": "nsw-council-10180",
+        "name": "Armidale",
+        "slug": "armidale",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9236",
+        "officialUrl": "https://www.armidale.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-armidale-councillors"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Sam Coupland",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Todd Redwood",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Kay Endres",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Paul Gaddes",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Eli Imad",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Susan McMichael",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Dorothy Robinson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Rob Taber",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bradley Widders",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.armidale.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-10180-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-10180-ordinary-2024-councillors",
+            "label": "2024 Armidale â€” Councillors",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+            "candidates": [
+              {
+                "name": "McMICHAEL Susan",
+                "status": "elected",
+                "votes": 184,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CHAPMAN Caroline",
+                "status": "contested",
+                "votes": 95,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "O'BRIEN Debra",
+                "status": "contested",
+                "votes": 46,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LANGENBERG Yvonne",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WARD Lisa",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "ROBINSON Dorothy",
+                "status": "elected",
+                "votes": 196,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "O'HARA Elizabeth",
+                "status": "contested",
+                "votes": 78,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SCHULTZ Pat",
+                "status": "contested",
+                "votes": 26,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DAVIES Gayle",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CAIRNS Gay (Alice)",
+                "status": "contested",
+                "votes": 24,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "IMAD Eli",
+                "status": "elected",
+                "votes": 219,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "LENEHAN Rob",
+                "status": "contested",
+                "votes": 100,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "HEAGNEY Peter",
+                "status": "contested",
+                "votes": 38,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "JACKSON Robert",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "HOOPER Jypsi",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "COUPLAND Sam",
+                "status": "elected",
+                "votes": 1008,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "REDWOOD Todd",
+                "status": "elected",
+                "votes": 73,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "GADDES Paul",
+                "status": "elected",
+                "votes": 45,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "ENDRES Kay",
+                "status": "elected",
+                "votes": 218,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "MACTIER Jane",
+                "status": "contested",
+                "votes": 283,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "SCHMUDE Jane",
+                "status": "contested",
+                "votes": 189,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "FILLIOS Melanie",
+                "status": "contested",
+                "votes": 53,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "GALLETLY Jon",
+                "status": "contested",
+                "votes": 151,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "TABER Rob",
+                "status": "elected",
+                "votes": 170,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "RICHARDSON Rob",
+                "status": "contested",
+                "votes": 99,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "GAMAGE Siri",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "NEWBERRY Josephine",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "BERRIMAN Andy",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "O'CONNOR Margaret",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "FLINT Brian",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "MORAN Kerry",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "NEWBERRY Bruce",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "McKENZIE Deni",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "EDMONDS Janet",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "FITTLER Joshua",
+                "status": "contested",
+                "votes": 230,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "LEDGER Natasha",
+                "status": "contested",
+                "votes": 85,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "WILD Jenny",
+                "status": "contested",
+                "votes": 450,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "WIDDERS Bradley",
+                "status": "elected",
+                "votes": 589,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "NARAYANAMURTHY Madank",
+                "status": "contested",
+                "votes": 180,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 933,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/armidale/councillor"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "10180",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

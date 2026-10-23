@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 1,
+  "title": "Launceston — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-64010",
+    "kind": "council",
+    "name": "Launceston",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/976",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/launceston/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/976/id",
+      "expected": "tas-council-64010"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/976/name",
+      "expected": "Launceston"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/976/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/976",
+      "expected": {
+        "id": "tas-council-64010",
+        "name": "Launceston",
+        "slug": "launceston",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "64010",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-601",
+          "council-tas-2022-tas-council-64010-lcc-c",
+          "council-tas-2022-tas-council-64010-lcc-m",
+          "council-tas-2022-tas-council-64010-lcc-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Alex Britton",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Susie Cai",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Matthew Garwood",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Alan Harris",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Ross Marsden",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Hugh McKenzie",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Lindi McMahon",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Andrew Palmer",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Joe Pentridge",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Krista Preece",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Vacant councillor position 1",
+            "role": "Councillor vacancy",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "profileType": "official current-member roster",
+            "status": "Vacant in TEC roster as at31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections.",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          },
+          {
+            "name": "Tim Walker",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=601&LGGo=Go",
+            "website": "http://www.launceston.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-601"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-64010-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-64010-lcc-c",
+            "label": "2022 Launceston Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html",
+            "candidates": [
+              {
+                "name": "BARRETT, Adrian",
+                "status": "contested this 2022 event",
+                "votes": 256,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "BRADY, Thane",
+                "status": "contested this 2022 event",
+                "votes": 835,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "BRAYFORD, Geoff",
+                "status": "contested this 2022 event",
+                "votes": 516,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "BRITTON, Alex",
+                "status": "elected in this 2022 contest",
+                "votes": 1030,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "CAI, Susie",
+                "status": "elected in this 2022 contest",
+                "votes": 1570,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "DAWKINS, Andrea",
+                "status": "elected in this 2022 contest",
+                "votes": 1593,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "EDWARDS, Fenella",
+                "status": "contested this 2022 event",
+                "votes": 108,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GARWOOD, Matthew",
+                "status": "elected in this 2022 contest",
+                "votes": 3387,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GELSTON, Jacob",
+                "status": "contested this 2022 event",
+                "votes": 993,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GIBSON, Danny",
+                "status": "elected in this 2022 contest",
+                "votes": 5894,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GUNTON, Tim",
+                "status": "contested this 2022 event",
+                "votes": 401,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "HARRIS, Alan",
+                "status": "elected in this 2022 contest",
+                "votes": 1642,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "HAY, Sam",
+                "status": "contested this 2022 event",
+                "votes": 351,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "LOVITT, Andrew",
+                "status": "contested this 2022 event",
+                "votes": 379,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "MARSDEN, Ross",
+                "status": "contested this 2022 event",
+                "votes": 503,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "McKENZIE, Hugh",
+                "status": "elected in this 2022 contest",
+                "votes": 1665,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "McMAHON, Lindi",
+                "status": "elected in this 2022 contest",
+                "votes": 1576,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "MURRAY, Jarad",
+                "status": "contested this 2022 event",
+                "votes": 236,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "PALMER, Andrew",
+                "status": "elected in this 2022 contest",
+                "votes": 1444,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "PENTLAND, Tenille",
+                "status": "contested this 2022 event",
+                "votes": 740,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "PENTRIDGE, Joe",
+                "status": "elected in this 2022 contest",
+                "votes": 2494,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "POTTER, Bruce",
+                "status": "contested this 2022 event",
+                "votes": 525,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "PREECE, Krista",
+                "status": "contested this 2022 event",
+                "votes": 624,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "RAZAY, George",
+                "status": "elected in this 2022 contest",
+                "votes": 2538,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "RITCHIE, Kirsten",
+                "status": "contested this 2022 event",
+                "votes": 431,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "ROSOL, Cecily",
+                "status": "contested this 2022 event",
+                "votes": 1227,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "SALT, Bob",
+                "status": "contested this 2022 event",
+                "votes": 739,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "SAUNDERS, Steve",
+                "status": "contested this 2022 event",
+                "votes": 366,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "SPENCER, Paul",
+                "status": "contested this 2022 event",
+                "votes": 936,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "SUITOR, John",
+                "status": "contested this 2022 event",
+                "votes": 203,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "TABE, Nelson",
+                "status": "contested this 2022 event",
+                "votes": 254,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "TILBURY, Owen",
+                "status": "contested this 2022 event",
+                "votes": 393,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "WALKER, Tim",
+                "status": "elected in this 2022 contest",
+                "votes": 1729,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-64010-lcc-m",
+            "label": "2022 Launceston Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html",
+            "candidates": [
+              {
+                "name": "GIBSON, Danny",
+                "status": "contested this 2022 event",
+                "votes": 14359,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "HARRIS, Alan",
+                "status": "contested this 2022 event",
+                "votes": 6436,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "RAZAY, George",
+                "status": "contested this 2022 event",
+                "votes": 6938,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "SALT, Bob",
+                "status": "contested this 2022 event",
+                "votes": 2799,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "WALKER, Tim",
+                "status": "contested this 2022 event",
+                "votes": 7065,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-64010-lcc-dm",
+            "label": "2022 Launceston Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html",
+            "candidates": [
+              {
+                "name": "BRADY, Thane",
+                "status": "contested this 2022 event",
+                "votes": 2678,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "DAWKINS, Andrea",
+                "status": "contested this 2022 event",
+                "votes": 6476,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GARWOOD, Matthew",
+                "status": "contested this 2022 event",
+                "votes": 8355,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GELSTON, Jacob",
+                "status": "contested this 2022 event",
+                "votes": 3024,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "GUNTON, Tim",
+                "status": "contested this 2022 event",
+                "votes": 2018,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "MARSDEN, Ross",
+                "status": "contested this 2022 event",
+                "votes": 2487,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "McKENZIE, Hugh",
+                "status": "contested this 2022 event",
+                "votes": 7242,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "MURRAY, Jarad",
+                "status": "contested this 2022 event",
+                "votes": 827,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "PREECE, Krista",
+                "status": "contested this 2022 event",
+                "votes": 3069,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              },
+              {
+                "name": "RITCHIE, Kirsten",
+                "status": "contested this 2022 event",
+                "votes": 1650,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-64010-lcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/lcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/launceston-city/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

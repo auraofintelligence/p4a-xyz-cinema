@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "title": "Quilpie Shire — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-6150",
+    "kind": "council",
+    "name": "Quilpie Shire",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/57",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/quilpie-shire/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/57/id",
+      "expected": "qld-council-6150"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/57/name",
+      "expected": "Quilpie Shire"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/57/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/57",
+      "expected": {
+        "id": "qld-council-6150",
+        "name": "Quilpie Shire",
+        "slug": "quilpie-shire",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "6150",
+        "officialUrl": "https://www.quilpie.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Ben Hall",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.quilpie.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-6150-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-6150-ordinary-2024-058",
+            "label": "2024 Quilpie Shire — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+            "candidates": [
+              {
+                "name": "HALL, Benjamin (Ben)",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+                "votes": 310,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LOVEDAY, Dick",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/058",
+                "votes": 181,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6150-ordinary-2024-05801",
+            "label": "2024 Quilpie Shire — Quilpie Shire Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+            "candidates": [
+              {
+                "name": "RICHARDS, Corey",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 219,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "HENNESSY, Janet",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 176,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "COONEY, Gerard",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 141,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "BONSEY, Jake",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 227,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "VOLZ, Roger",
+                "ballotOrder": 5,
+                "status": "declared elected in this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 352,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "BARNES, Lyn",
+                "ballotOrder": 6,
+                "status": "declared elected in this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 249,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "LANDER, Anthony (Tony)",
+                "ballotOrder": 7,
+                "status": "declared elected in this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 363,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              },
+              {
+                "name": "MILOSEVIC, Milan",
+                "ballotOrder": 8,
+                "status": "declared elected in this2024 event",
+                "contest": "Quilpie Shire Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/05801",
+                "votes": 229,
+                "voteMeasure": "candidate votes in multi-member first-past-the-post contest; multiple votes per formal ballot"
+              }
+            ],
+            "votingSystem": "First Past the Post",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

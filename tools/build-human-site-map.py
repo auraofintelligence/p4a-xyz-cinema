@@ -1,26 +1,31 @@
 """Build the human directory from actual public routes, without refreshing source dates."""
 from pathlib import Path
+from datetime import date
 import html, json, re, runpy
 
 ROOT = Path(__file__).resolve().parents[1]
-UPDATED = '2026-10-17'
+UPDATED = '2026-10-23'
+UPDATED_LABEL = date.fromisoformat(UPDATED).strftime('%d %B %Y').lstrip('0')
 STATE_NAMES = {'act':'Australian Capital Territory','nsw':'New South Wales','nt':'Northern Territory','qld':'Queensland','sa':'South Australia','tas':'Tasmania','vic':'Victoria','wa':'Western Australia'}
 GROUPS = {
  'start': ('Start and find your bearings', 'A few useful ways into P4A.'),
  'places': ('Maps and places', 'Find your state, council or electorate. The types stay separate.'),
+ 'councils-national': ('Councils and local electoral areas', 'Sourced local-government pages, actual subdivisions, representation and election records across Australia.'),
+ 'state-electorates': ('State and territory electorates', 'Actual districts, upper-house regions and statewide chambers; source dates and boundary editions stay visible.'),
+ 'federal-electorates': ('Federal divisions and Senate representation', 'House division pages, Senate state/territory context, previous contestants and current public profiles.'),
  'redland': ('Redlands: the local journey', 'Map, questions, possibilities, people, participation and outcomes.'),
  'divisions': ('Redlands: ten divisions', 'Choose a division for local orientation, public records and connected questions.'),
  'policies': ('Everyday questions and policy ideas', 'Explore the serious context and possible responses behind public concerns.'),
  'twinkles': ('Twinkles: one scene, one gripe, one breath', 'Short seeds into deeper questions, evidence and policy rooms.'),
  'systems': ('Systems and shared possibilities', 'How local questions connect to wider civic and economic patterns.'),
  'tools': ('Build, contribute and take part', 'Practical guides and browser-local drafting tools.'),
- 'culture': ('Culture, origins and meaning', 'Stories, lyric meanings and the ideas behind the project.'),
+ 'culture': ('Origins, music and imagination', 'Stories, lyric meanings and the ideas behind the project.'),
  'support': ('Support and design', 'Support options, gear and visual experiments.'),
  'state-rooms': ('State and territory rooms', 'Portals, histories, architecture and rulebooks. Victoria also has an electorate atlas and election guide.')
 }
 EXPLICIT = {
  'start': ['index','about','civic-pathway','site-map'],
- 'places': ['maps','states','state-history','minjerribah','treaty-atlas'],
+ 'places': ['maps','states','places','state-history','minjerribah','treaty-atlas'],
  'systems': ['architecture','braided-economy','civic-ledger','civic-surges','constitution','cyber-republic','legal-rag','sovereignty-stack','truth-engine','web3-sensorium','purple-synthesis'],
  'tools': ['civic-twin-builders','markdown-with-ai','starter-field-kit','p4a-builder','c-hour-receipt-builder','noticeboard-contract-builder','private-civic-profile-builder'],
  'culture': ['alien-necklace-film','aura-genesis','aura-politics','joke','musicverse'],
@@ -53,6 +58,10 @@ def group(path):
  if '/redland/divisions/' in path and not path.endswith('/divisions/index.html'): return 'divisions'
  if path.startswith('states/qld/councils/redland/'): return 'redland'
  if path == 'states/qld/councils/index.html': return 'places'
+ if '/places/' in path: return 'places'
+ if '/councils/' in path or '/local-electoral-areas/' in path: return 'councils-national'
+ if '/electorates/' in path: return 'state-electorates'
+ if '/federal/' in path: return 'federal-electorates'
  if path.startswith('states/'): return 'state-rooms'
  stem = Path(path).stem
  if stem.startswith('twinkle-') or stem == 'twinkle': return 'twinkles'
@@ -78,8 +87,8 @@ def rows(key):
  selected = [row for row in inventory if row['navigationGroup'] == key]
  if key == 'divisions': selected.sort(key=lambda row:int(row['path'].split('/')[-2]))
  if key == 'redland':
-  order = ['index.html','divisions/index.html','explore/index.html','possibilities/index.html','candidates/index.html','action/index.html','outcomes/index.html','sources/index.html']
-  selected.sort(key=lambda row:order.index(row['path'].split('states/qld/councils/redland/')[1]))
+  order = ['index.html','divisions/index.html','explore/index.html','possibilities/index.html','candidates/index.html','elections/index.html','action/index.html','outcomes/index.html','sources/index.html']
+  selected.sort(key=lambda row:order.index(row['path'].split('states/qld/councils/redland/')[1]) if row['path'].split('states/qld/councils/redland/')[1] in order else len(order))
  return selected
 
 def directory(key, opened=False):
@@ -111,7 +120,7 @@ main = f'''<main id="main" class="human-site-map">
  <section class="human-map-intro">
  <p class="eyebrow">P4A · Find your way</p><h1>Where would you like to go?</h1>
  <p class="human-lead">Start with your place, a question, or an idea. Each path connects to evidence, people and ways to take part.</p>
- <p class="human-map-date">Navigation updated <time datetime="{UPDATED}">17 October 2026</time> · {len(inventory)} public pages. This date records the navigation review; facts keep their own source dates.</p>
+ <p class="human-map-date">Navigation updated <time datetime="{UPDATED}">{UPDATED_LABEL}</time> · {len(inventory)} public pages. This date records the navigation review; facts keep their own source dates.</p>
  <div class="human-start-grid">
  <article><h2>Find my place</h2><p>Use a map, search an area, inspect it, then open its journey.</p>{a('pages/states.html','Choose a state or territory')}</article>
  <article><h2>Follow a local question</h2><p>Redlands connects ordinary experiences to systems, records and useful action.</p>{a('states/qld/councils/redland/explore/index.html','Explore Redlands questions')}</article>
@@ -122,9 +131,9 @@ main = f'''<main id="main" class="human-site-map">
  </section>
  <section class="human-places" aria-labelledby="places-heading"><h2 id="places-heading">Places: three different public responsibilities</h2>
  <div class="human-place-grid">
- <article><h3>Councils and divisions</h3><p><strong>Built example: Redlands.</strong> Queensland’s council map selects all council areas; Redlands opens ten local divisions. Victoria also has a council atlas.</p>{a('states/qld/councils/index.html','Queensland council map')} {a('states/qld/councils/redland/index.html','Open Redlands')}</article>
- <article><h3>State and territory electorates</h3><p><strong>Atlas foundation: Victoria.</strong> Maps and data for 88 Assembly districts and eight Council regions; the deeper local journeys are still to be built.</p>{a('states/vic/map/index.html','Victoria electorate atlas')} {a('states/vic/election/index.html','Victoria election guide')}</article>
- <article><h3>Federal electorates</h3><p><strong>Context only so far.</strong> Bowman boundary material is available through Redlands. A dedicated federal atlas and electorate journeys have not been built.</p>{a('states/qld/councils/redland/sources/index.html','Bowman and overlapping boundaries')}</article>
+ <article><h3>Councils and divisions</h3><p>The national directory reaches council records across all eight jurisdictions. Source coverage and local subdivisions vary. Redlands retains the fuller local journey; Victoria also has its existing atlas.</p>{a('pages/places.html','National place directory')} {a('states/qld/councils/redland/index.html','Open Redlands')}</article>
+ <article><h3>State and territory electorates</h3><p>The national directory reaches state and territory representation with dated source records and coverage gaps. Victoria retains its existing atlas and election guide.</p>{a('states/vic/map/index.html','Victoria electorate atlas')} {a('states/vic/election/index.html','Victoria election guide')}</article>
+ <article><h3>Federal electorates</h3><p>House divisions and Senate representation have dedicated national place routes. A route does not establish complete historical or individual source coverage; inspect the record and its review notes.</p>{a('pages/places.html','Find federal representation')} {a('docs/releases/2026-10-17-national-expansion-resumed.md','Coverage and gaps')}</article>
  </div></section>
  <!-- redland-local-route:start -->
  <section id="redland-local-journey" class="human-local"><h2>Redlands: keep your thread as you explore</h2><p class="human-local-flow">Queensland → council map → Redlands → a division, question, system, person or piece of evidence → participation → outcomes.</p><p>Keep three accounts together: <strong>what it cost, what was given freely, and what changed.</strong></p>

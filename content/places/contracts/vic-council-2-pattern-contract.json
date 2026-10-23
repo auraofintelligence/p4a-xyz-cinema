@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "title": "North-Eastern Metropolitan — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-council-2",
+    "kind": "state-region",
+    "name": "North-Eastern Metropolitan",
+    "jurisdiction": "vic",
+    "chamber": "Legislative Council"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/89",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/electorates/regions/north-eastern-metropolitan/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/89/id",
+      "expected": "vic-council-2"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/89/name",
+      "expected": "North-Eastern Metropolitan"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/89/boundaryEdition",
+      "expected": "2020–21 redivision / 2022 boundaries"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/89",
+      "expected": {
+        "id": "vic-council-2",
+        "name": "North-Eastern Metropolitan",
+        "slug": "north-eastern-metropolitan",
+        "jurisdiction": "vic",
+        "kind": "state-region",
+        "chamber": "Legislative Council",
+        "layerId": "state-vic-council-2022",
+        "featureId": 2,
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/state-regions/north-eastern-metropolitan-region",
+        "sources": [
+          "state-vic-council-2022",
+          "state-vic-members-20261002",
+          "state-vic-results-20261002"
+        ],
+        "boundaryEdition": "2020–21 redivision / 2022 boundaries",
+        "representatives": [
+          {
+            "name": "Shaun Leane",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.shaunleanemp.com.au",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Sonja Terpstra",
+            "role": "Legislative Council member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.facebook.com/SonjaTerpstraMP/",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Nick McGowan",
+            "role": "Legislative Council member",
+            "party": "Liberal Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Aiv Puglielli",
+            "role": "Legislative Council member",
+            "party": "The Australian Greens - Victoria",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.twitter.com/aivgoesgreen",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          },
+          {
+            "name": "Richard Welch",
+            "role": "Legislative Council member",
+            "party": "Liberal Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": "https://www.richardwelch.com.au/",
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-council-2-2022-11-26",
+            "label": "State general election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2022-11-26",
+            "dateBasis": "Official historical results; original source checked 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+            "candidates": [
+              {
+                "name": "MUNRO, Leesa Michelle",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 2994,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HICKS, Andrew",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 177,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DOLAN, Hugh",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 24580,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "VAN DER ENDE, Brenton",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 250,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TSINGOPOULOS, George",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 104,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TRA, James",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 121,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "JAISINGHANI, Darshan Lal",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 802,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GARG, Rajat",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 54,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "NARANG, Pushpdeep",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 23,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TESA, Maya",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 19991,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LAY, Josh",
+                "party": "Liberal Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 388,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "EDWARDS, Wally",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 1608,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GIANFRIDDO, Joe",
+                "party": "Angry Victorians Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 65,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BANHIDY, Chris",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 4292,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HANSON, Hugh",
+                "party": "Shooters, Fishers & Farmers Vic",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 109,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "THOMPSON, Judith",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 6580,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PHILPOTT, Annette",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 179,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COBANKARA, Serife",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 3178,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COBANKARA, Husyin",
+                "party": "Sack Dan Andrews Restore Democracy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 58,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "MOORE, Lucas",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 2349,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "KOPSCHEWA, Lillian",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 236,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SPRINGLE, Nina",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 4579,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CAIRNS, Francis",
+                "party": "Fiona Patten's Reason Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 195,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "REID, Craig",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 1677,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "JONES, Julia",
+                "party": "Companions and Pets Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 61,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "RICHARDSON, Peter",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 5926,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TURNER, William",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 160,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "DELFORCE, Chris",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 6665,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ALEKSOV, Angel",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 134,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "WALLIS, Nicholas",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 15158,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "NEGRI, Anna",
+                "party": "Legalise Cannabis Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 199,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LEANE, Shaun",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 159126,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "TERPSTRA, Sonja",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 1225,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GADANI, Nildhara",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 671,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "JAVED, Rana Shahid",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 269,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SIMPSON, Kieran",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 892,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CORCORAN, Jack",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 1802,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CLOW, William",
+                "party": "Sustainable Australia Party - Stop Overdevelopment / Corruption",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 73,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BACH, Matthew",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 142882,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "McGOWAN, Nick",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 1516,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LANGFORD, Kirsten",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 451,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "LING, Irene",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 647,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HOUGUET, Sally",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 292,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "PUGLIELLI, Aiv",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 46952,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SUN, Sophia",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 932,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CHASE, Liz",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 766,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "COOKSON, Asher",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 296,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "NEWMAN, Sarah",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 988,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CAMERON, Alister",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 9939,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "van STRIJP, Nina",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 124,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "BARTON, Rod",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 969,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "GUEST, Kim",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 54,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "CHEESMAN, Greg",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 4472,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "HEATHERICH, Daniella",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 212,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "SCAGLIONE, Nathan",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 2389,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              },
+              {
+                "name": "ZIVKOVIC, Irene",
+                "party": "United Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-region/north-eastern-metropolitan-region-results",
+                "votes": 47,
+                "voteMeasure": "candidate first preferences; see official table for above/below-line treatment"
+              }
+            ]
+          },
+          {
+            "id": "vic-state-2026",
+            "label": "2026 Victorian state election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2026-11-28",
+            "dateBasis": "Commission date; calendar snapshot 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/2026-state-election",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

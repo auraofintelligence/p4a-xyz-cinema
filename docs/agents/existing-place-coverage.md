@@ -2,6 +2,14 @@
 
 Repository audit: 17 October 2026, Australia/Brisbane. This inventories the local `p4a-xyz-cinema` checkout. It does not claim to audit other repositories or the deployed website, or to recheck every political fact against live sources.
 
+## National place routes implemented locally
+
+The same-day national expansion adds `pages/places.html`, eight jurisdiction place gateways, separate council/state/federal directories and dedicated place pages. Its canonical inputs are `content/places/councils.json`, `state.json` and `federal.json`; exact route and layer coverage is in the generated `route-registry.json`. The [canonical agent file](../../content/places/AGENTS.md) documents the implemented generator and scoped update commands. Current verification and outstanding individual-source coverage are recorded under `content/places/qa/`; a structural pass is not a claim of complete per-place source or browser review.
+
+The [resumed local report](../releases/2026-10-17-national-expansion-resumed.md) records the 2,080 place routes, 33 directories, actual scoped evidence and remaining deeper-journey gaps. The earlier stopped handoff is historical. This local implementation has no national commit, push or deployment.
+
+The following sections preserve the pre-expansion audit and explain the deeper features that must survive. Their statements about then-unbuilt atlases are historical baseline findings, superseded for national map/page coverage by the registry above. New local Twinkles remain for grassroots authorship.
+
 ## Councils
 
 Redland City is the fuller public journey: one interactive division map, ten division overview pages, local Twinkle seeds, connected systems, public-record routes, participation, outcomes and the three accounts. The Queensland atlas selects all 77 councils plus the separately labelled Weipa Town Authority; those other councils do not yet have equivalent local journeys.

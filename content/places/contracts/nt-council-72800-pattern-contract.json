@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "title": "Palmerston — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-72800",
+    "kind": "council",
+    "name": "Palmerston",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/997",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/palmerston/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/997/id",
+      "expected": "nt-council-72800"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/997/name",
+      "expected": "Palmerston"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/997/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/997",
+      "expected": {
+        "id": "nt-council-72800",
+        "name": "Palmerston",
+        "slug": "palmerston",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "72800",
+        "officialUrl": "https://palmerston.nt.gov.au/your-council/elected-members",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nt-roster-palmerston",
+          "council-nt-2025-ballot-palmerston-palmerston-councillor",
+          "council-nt-2025-ballot-palmerston-palmerston-mayor"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Athina Pascoe-Bell",
+            "role": "Mayor",
+            "profileUrl": "https://palmerston.nt.gov.au/mayor-athina-pascoe-bell",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Wayne Bayliss",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://palmerston.nt.gov.au/deputy-mayor-wayne-bayliss",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Mark Fraser",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-mark-fraser",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Damian Hale",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-damian-hale",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Sarah Henderson",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-sarah-henderson",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Yolanda Kanyai",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-yolanda-kanyai-0",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Lucy Morrison",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-lucy-morrison",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Rob Waters",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-rob-waters",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-72800-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-72800-ordinary-2025-palmerston-councillor",
+            "label": "2025 Palmerston — Palmerston Councillor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+            "candidates": [
+              {
+                "name": "Mark FRASER",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cindy Mebbingarri ROBERTS",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Melissa MAGUIRE",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lucy MORRISON",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sarah HENDERSON",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Raj Samson RAJWIN",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Rob WATERS",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Wayne BAYLISS",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Colin SOUTHAM",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jacob BRANT",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Appa Rao ADARI",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ben GIESECKE",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Damian HALE",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "John-Paul MACDONAGH",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Yolanda KANYAI",
+                "status": "official historical nominee",
+                "contest": "Palmerston Councillor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/councillor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 15,
+              "retainedCandidateCount": 15,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72800-ordinary-2025-palmerston-mayor",
+            "label": "2025 Palmerston — Palmerston Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+            "candidates": [
+              {
+                "name": "Raj Samson RAJWIN",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Rob WATERS",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Dani EVELEIGH",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Athina PASCOE-BELL",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Appa Rao ADARI",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cindy Mebbingarri ROBERTS",
+                "status": "official historical nominee",
+                "contest": "Palmerston Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/palmerston/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

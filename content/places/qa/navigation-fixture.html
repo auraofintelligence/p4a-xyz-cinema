@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-AU">
+<meta charset="utf-8">
+<title>Navigation review fixture</title>
+<style>
+body{margin:16px;font:15px system-ui;background:#ddd;color:#222}
+h1{font-size:22px}label{margin-right:12px}input{width:440px;max-width:90vw}
+button,select,input{font:inherit;padding:8px}
+iframe{display:block;height:780px;border:1px solid #555;margin-top:16px;background:#20102e}
+pre{white-space:pre-wrap;max-width:1100px;max-height:160px;overflow:auto}
+</style>
+<h1>Navigation review · 17 October 2026</h1>
+<p>The iframe uses its real CSS width. This fixture does not emulate a physical phone, touch hardware or device pixel ratio. Open the actual Index control inside the preview, then measure.</p>
+<form id="controls">
+<label>Local page <input id="path" value="/pages/places.html"></label>
+<label>Frame width <select id="width"><option>390</option><option>680</option><option selected>1200</option></select></label>
+<button>Load preview</button><button type="button" id="measure">Measure</button>
+</form>
+<pre id="metrics">Load a page, use its Index control, then measure the settled navigation.</pre>
+<iframe id="preview" title="Navigation browser preview" width="1200" src="/pages/places.html"></iframe>
+<script>
+const frame=document.querySelector('#preview'),path=document.querySelector('#path'),width=document.querySelector('#width'),output=document.querySelector('#metrics');
+document.querySelector('#controls').addEventListener('submit',event=>{
+  event.preventDefault();
+  const url=new URL(path.value,location.href);
+  if(!path.value.startsWith('/')||path.value.startsWith('//')||url.origin!==location.origin){output.textContent='Enter a local path beginning with one slash.';return;}
+  frame.width=width.value;
+  frame.src=url.pathname+url.search+url.hash;
+  output.textContent='Use the actual Index control inside the loaded preview, then Measure.';
+});
+document.querySelector('#measure').addEventListener('click',async()=>{
+  try{
+    const d=frame.contentDocument,w=frame.contentWindow;
+    await d.fonts.ready;
+    await new Promise(resolve=>w.requestAnimationFrame(resolve));
+    const rect=n=>{const r=n.getBoundingClientRect();return{x:r.x,y:r.y,top:r.top,right:r.right,bottom:r.bottom,left:r.left,width:r.width,height:r.height};};
+    const visible=n=>{const s=w.getComputedStyle(n),r=n.getBoundingClientRect();return!n.hidden&&s.display!=='none'&&s.visibility!=='hidden'&&s.visibility!=='collapse'&&n.getClientRects().length>0&&r.width>0&&r.height>0;};
+    const text=n=>(n?.innerText||n?.textContent||'').replace(/\s+/g,' ').trim();
+    const summaryMetrics=n=>{
+      if(!n)return null;
+      const s=w.getComputedStyle(n);
+      return{text:text(n),rect:rect(n),visible:visible(n),color:s.color,backgroundColor:s.backgroundColor,fontFamily:s.fontFamily,fontSize:s.fontSize,fontWeight:s.fontWeight,lineHeight:s.lineHeight,textTransform:s.textTransform,overflowX:s.overflowX,overflowY:s.overflowY,clientWidth:n.clientWidth,scrollWidth:n.scrollWidth,clientHeight:n.clientHeight,scrollHeight:n.scrollHeight,horizontalOverflow:n.scrollWidth>n.clientWidth,verticalOverflow:n.scrollHeight>n.clientHeight};
+    };
+    const overlay=d.querySelector('.site-index');
+    const sections=overlay?[...overlay.querySelectorAll('[data-index-section]')]:[];
+    const sectionIdentity=n=>n?{category:n.dataset.indexCategory||null,label:text(n.querySelector('summary h2'))}:null;
+    output.textContent=JSON.stringify({
+      path:w.location.pathname+w.location.search+w.location.hash,
+      requestedWidth:Number(frame.width),
+      frameCssWidth:Number.parseFloat(getComputedStyle(frame).width),
+      frameRect:rect(frame),
+      devicePixelRatio:w.devicePixelRatio,
+      page:{innerWidth:w.innerWidth,clientWidth:d.documentElement.clientWidth,scrollWidth:d.documentElement.scrollWidth},
+      overlay:overlay?{selector:'.site-index',id:overlay.id,hidden:overlay.hidden,open:overlay.classList.contains('is-open'),bodyIndexOpen:d.body.classList.contains('index-open'),visible:visible(overlay),display:w.getComputedStyle(overlay).display,visibility:w.getComputedStyle(overlay).visibility,rect:rect(overlay),clientWidth:overlay.clientWidth,scrollWidth:overlay.scrollWidth,clientHeight:overlay.clientHeight,scrollHeight:overlay.scrollHeight}:null,
+      sectionsDomOrder:sections.map((n,index)=>({index,...sectionIdentity(n),hidden:n.hidden,open:n.open,visible:visible(n),empty:n.classList.contains('is-empty'),summary:summaryMetrics(n.querySelector('summary')),heading:summaryMetrics(n.querySelector('summary h2'))})),
+      visibleLinks:overlay?[...overlay.querySelectorAll('a[href]')].filter(visible).map(n=>({text:text(n),destination:n.href,rawHref:n.getAttribute('href'),parentSection:sectionIdentity(n.closest('[data-index-section]')),rect:rect(n)})):[],
+      triggers:[...d.querySelectorAll('[data-menu-toggle]')].map(n=>({text:text(n),label:n.getAttribute('aria-label'),ariaExpanded:n.getAttribute('aria-expanded'),visible:visible(n),rect:rect(n)}))
+    },null,2);
+  }catch(error){output.textContent=JSON.stringify({error:String(error)},null,2);}
+});
+</script>
+</html>

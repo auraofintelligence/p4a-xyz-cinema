@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "title": "Cardinia Shire Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-311",
+    "kind": "council",
+    "name": "Cardinia Shire Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/78",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/cardinia-shire-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/78/id",
+      "expected": "vic-lga-311"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/78/name",
+      "expected": "Cardinia Shire Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/78/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/78",
+      "expected": {
+        "id": "vic-lga-311",
+        "name": "Cardinia Shire Council",
+        "slug": "cardinia-shire-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "311",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-311",
+          "council-vic-roster-311"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Brett Owen",
+            "role": "Beacon Hills Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Alanna Pomeroy",
+            "role": "Bunyip Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Collin Ross",
+            "role": "Central Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Liz Roberts",
+            "role": "Henty Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Samantha-Jane Potter",
+            "role": "Officer Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Jack Kowarzik",
+            "role": "Pakenham Hills Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "David Nickell",
+            "role": "Ranges Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Casey Thomsen",
+            "role": "Toomuc Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Trudi Paton",
+            "role": "Westernport Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/cardinia-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-311",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-311-ordinary-2024",
+            "label": "2024 Cardinia Shire Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+            "candidates": [
+              {
+                "name": "OWEN, Brett",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Beacon Hills Ward",
+                "status": "elected",
+                "votes": 6036,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WAGSTAFF, Kylie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Beacon Hills Ward",
+                "votes": 1856,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "POMEROY, Alanna",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Bunyip Ward",
+                "status": "elected",
+                "votes": 3929,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PARKER, Travis",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Bunyip Ward",
+                "votes": 3129,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ROSS, Collin",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Central Ward",
+                "status": "elected",
+                "votes": 5519,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DEVDAS NAIDU, Rekha",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Central Ward",
+                "votes": 1685,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ROBERTS, Liz",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Henty Ward",
+                "status": "elected",
+                "votes": 2550,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SUNJIDA, Shoheli",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Henty Ward",
+                "votes": 1083,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MPHANDE, Cecilia Rabecca",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Henty Ward",
+                "votes": 782,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RYAN, Carol",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Henty Ward",
+                "votes": 1735,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GRIGG, Stephanie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Henty Ward",
+                "votes": 834,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "POTTER, Samantha-Jane",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Officer Ward",
+                "status": "elected",
+                "votes": 4866,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MALHOTRA, Ron",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Officer Ward",
+                "votes": 2319,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KOWARZIK, Jack",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Pakenham Hills Ward",
+                "status": "elected-unopposed"
+              },
+              {
+                "name": "NICKELL, David",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Ranges Ward",
+                "status": "elected",
+                "votes": 2841,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "OLDENBURGER, Catherine",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Ranges Ward",
+                "votes": 1956,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SPRINGFIELD, Jeff",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Ranges Ward",
+                "votes": 2732,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "THOMSEN, Casey",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Toomuc Ward",
+                "status": "elected",
+                "votes": 2674,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DAVIES, Stephanie Marie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Toomuc Ward",
+                "votes": 2468,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BARDALES SALGUERO, Rodrigo Alonso",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Toomuc Ward",
+                "votes": 875,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DHILEEPAN, Amirthalingam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Toomuc Ward",
+                "votes": 1282,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PATON, Trudi",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Westernport Ward",
+                "status": "elected",
+                "votes": 3720,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CAMERON, Kaye",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/cardinia-shire-council",
+                "contest": "Westernport Ward",
+                "votes": 3205,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-311-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

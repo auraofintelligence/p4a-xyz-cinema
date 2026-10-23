@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "title": "Blacktown — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-10750",
+    "kind": "council",
+    "name": "Blacktown",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/628",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/blacktown/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/628/id",
+      "expected": "nsw-council-10750"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/628/name",
+      "expected": "Blacktown"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/628/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/628",
+      "expected": {
+        "id": "nsw-council-10750",
+        "name": "Blacktown",
+        "slug": "blacktown",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "4264",
+        "officialUrl": "https://www.blacktown.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-blacktown-ward-1",
+          "council-nsw-2024-blacktown-ward-2",
+          "council-nsw-2024-blacktown-ward-3",
+          "council-nsw-2024-blacktown-ward-4",
+          "council-nsw-2024-blacktown-ward-5"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Brad Bunting",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Carol Israel",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Talia Amituanai",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Damien Atkins",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Susai Benjamin",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Peter Camilleri",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Dorothy Del Villar",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jess Diaz",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bob Fitzgerald",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Allan Green",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Julie Griffiths",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mohit Kumar",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Pradeep Pathi",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jugandeep Singh",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Moninder Singh",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.blacktown.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-10750-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-10750-ordinary-2024-ward-1",
+            "label": "2024 Blacktown â€” Ward 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+            "candidates": [
+              {
+                "name": "SINGH Moninderjit",
+                "status": "elected",
+                "votes": 1505,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "RENTALA Ahalya",
+                "status": "contested",
+                "votes": 393,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HEDI Jordan",
+                "status": "contested",
+                "votes": 699,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SINGH Shabir",
+                "status": "contested",
+                "votes": 622,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RAJASEKARAN Kayal",
+                "status": "contested",
+                "votes": 110,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "COLBORNE Parker",
+                "status": "contested",
+                "votes": 300,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DIAZ Jess",
+                "status": "elected",
+                "votes": 1164,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "GREEN Allan",
+                "status": "elected",
+                "votes": 1293,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "RAWAL Rahul",
+                "status": "contested",
+                "votes": 516,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2397,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-1/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10750-ordinary-2024-ward-2",
+            "label": "2024 Blacktown â€” Ward 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+            "candidates": [
+              {
+                "name": "ATKINS Damien",
+                "status": "elected",
+                "votes": 551,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SUBRAMANIAN Palaniappan",
+                "status": "contested",
+                "votes": 169,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TALL Hannah",
+                "status": "contested",
+                "votes": 178,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "KUMAR Mohit",
+                "status": "elected",
+                "votes": 989,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MILNE Damian",
+                "status": "contested",
+                "votes": 515,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MIDDLETON Cara",
+                "status": "contested",
+                "votes": 420,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "GRIFFITHS Julie",
+                "status": "elected",
+                "votes": 1373,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KAUR Kushpinder",
+                "status": "contested",
+                "votes": 347,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WILLIS Emma",
+                "status": "contested",
+                "votes": 291,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2288,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-2/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10750-ordinary-2024-ward-3",
+            "label": "2024 Blacktown â€” Ward 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+            "candidates": [
+              {
+                "name": "KERIN Emma",
+                "status": "contested",
+                "votes": 655,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "ANIMAL JUSTICE PARTY"
+              },
+              {
+                "name": "AKKARI Ingrid",
+                "status": "contested",
+                "votes": 81,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "ANIMAL JUSTICE PARTY"
+              },
+              {
+                "name": "BEST Rigel",
+                "status": "contested",
+                "votes": 62,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "ANIMAL JUSTICE PARTY"
+              },
+              {
+                "name": "PATHI Pradeep",
+                "status": "elected",
+                "votes": 794,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MCDONALD Richard",
+                "status": "contested",
+                "votes": 605,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "CREWS Jacob",
+                "status": "contested",
+                "votes": 218,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ISRAEL Carol",
+                "status": "elected",
+                "votes": 1061,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BENJAMIN Susai",
+                "status": "elected",
+                "votes": 658,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "MAHONY Caitlin",
+                "status": "contested",
+                "votes": 381,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2308,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-3/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10750-ordinary-2024-ward-4",
+            "label": "2024 Blacktown â€” Ward 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+            "candidates": [
+              {
+                "name": "FITZGERALD Bob",
+                "status": "elected",
+                "votes": 2168,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DEL VILLAR Dorothy",
+                "status": "elected",
+                "votes": 588,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SHAMS Shoaib",
+                "status": "contested",
+                "votes": 562,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CAMILLERI Peter",
+                "status": "elected",
+                "votes": 1153,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MULLARD Cassandra",
+                "status": "contested",
+                "votes": 465,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SANTOS Fiel",
+                "status": "contested",
+                "votes": 257,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "HANIFI Maywand",
+                "status": "contested",
+                "votes": 390,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2906,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-4/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10750-ordinary-2024-ward-5",
+            "label": "2024 Blacktown â€” Ward 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+            "candidates": [
+              {
+                "name": "SINGH Talwinder",
+                "status": "contested",
+                "votes": 515,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HOBBS Len",
+                "status": "contested",
+                "votes": 337,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RAHMAN Arif",
+                "status": "contested",
+                "votes": 247,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BUNTING Brad",
+                "status": "elected",
+                "votes": 1805,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "AMITUANAI Talia",
+                "status": "elected",
+                "votes": 461,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DUGGAL Neeraj",
+                "status": "contested",
+                "votes": 496,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SINGH Jugandeep",
+                "status": "elected",
+                "votes": 828,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "NASIR Waqar",
+                "status": "contested",
+                "votes": 296,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "PATEL Jigishaben",
+                "status": "contested",
+                "votes": 776,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 3069,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 5",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blacktown/ward-5/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "10750",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

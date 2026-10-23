@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "title": "Wollondilly — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-18400",
+    "kind": "council",
+    "name": "Wollondilly",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/743",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/wollondilly/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/743/id",
+      "expected": "nsw-council-18400"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/743/name",
+      "expected": "Wollondilly"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/743/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/743",
+      "expected": {
+        "id": "nsw-council-18400",
+        "name": "Wollondilly",
+        "slug": "wollondilly",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9596",
+        "officialUrl": "https://www.wollondilly.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-wollondilly-east-ward",
+          "council-nsw-2024-wollondilly-mayor",
+          "council-nsw-2024-wollondilly-north-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Matthew Gould",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Matthew Deeth",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Benn Banasik",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Suzy Brandstater",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ms Ally Dench",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Hilton Gibbs",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Trish Hill",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jacqueline Jenson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Paul Rogers",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.wollondilly.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-18400-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-18400-ordinary-2024-east-ward",
+            "label": "2024 Wollondilly â€” East Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor",
+            "candidates": [
+              {
+                "name": "DEETH Matthew",
+                "status": "elected",
+                "votes": 377,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "NASSER Diaan",
+                "status": "contested",
+                "votes": 76,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "MOOLHUYZEN Ren",
+                "status": "contested",
+                "votes": 49,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "SLEE Ray",
+                "status": "contested",
+                "votes": 76,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "NEILSEN Christine",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "COLLEY Aaron",
+                "status": "contested",
+                "votes": 78,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "QUINLAN Christopher",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "DELL Alana",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "JURD Mitchell",
+                "status": "contested",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "BANASIK Benn",
+                "status": "elected",
+                "votes": 231,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "DAVIS Sam",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "HAWKINS Alex",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "BELANSZKY Alex",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "QUILTER Joe",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "BRANDSTATER Suzy",
+                "status": "elected",
+                "votes": 343,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "MOXON Michael",
+                "status": "contested",
+                "votes": 82,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "BUNGA Anne",
+                "status": "contested",
+                "votes": 110,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "VEECH Tia",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "ROGERS Paul",
+                "status": "elected",
+                "votes": 267,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "BROWNE Pam",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "PEARCE Nicole",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "MAROUN Michelle",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "HALE Matt",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2326,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/east-ward/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-18400-ordinary-2024-mayor",
+            "label": "2024 Wollondilly â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+            "candidates": [
+              {
+                "name": "SPEARPOINT Beverley",
+                "status": "contested",
+                "votes": 1845,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "ROGERS Paul",
+                "status": "contested",
+                "votes": 5439,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "BANASIK Benn",
+                "status": "contested",
+                "votes": 5464,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "GOULD Matt",
+                "status": "elected",
+                "votes": 21413,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/mayoral",
+                "party": "Independent"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-18400-ordinary-2024-north-ward",
+            "label": "2024 Wollondilly â€” North Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor",
+            "candidates": [
+              {
+                "name": "DENCH Ally",
+                "status": "elected",
+                "votes": 352,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "PHILLIPS Maddy",
+                "status": "contested",
+                "votes": 37,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "KLEIN Karl",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "MULLINS Maree",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "RUDD Ken",
+                "status": "contested",
+                "votes": 47,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "SPEARPOINT Beverley",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "EDWARDS Christopher",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "BERG Elizabeth",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "HEYDON Lauren",
+                "status": "contested",
+                "votes": 4,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "GOULD Matt",
+                "status": "contested",
+                "votes": 885,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "GIBBS Hilton",
+                "status": "elected",
+                "votes": 44,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "JENSON Jacqueline",
+                "status": "elected",
+                "votes": 34,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "HILL Trish",
+                "status": "elected",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "BRIGGS Blair",
+                "status": "contested",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "VAN DE PUTTE John",
+                "status": "contested",
+                "votes": 112,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "MASON Rheya",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "MITCHELL Teonie",
+                "status": "contested",
+                "votes": 1,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "DAVLOUROS Fotios (Frank)",
+                "status": "contested",
+                "votes": 3,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "REEVES Luke",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1754,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/wollondilly/north-ward/councillor"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "18400",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

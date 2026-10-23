@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "checked": "2026-10-17",
+  "scope": "Exact service geometry delivery, rights metadata and source-ID/parent joins",
+  "checks": [
+    {
+      "jurisdiction": "nt",
+      "sourcePolygonFeatures": 830,
+      "distinctWards": 51,
+      "parentCouncils": 13,
+      "coordinatePairs": 70495,
+      "allSourceObjectIdsPresent": true,
+      "allSourcePartsHavePlaceRefs": true,
+      "nativeCRS": "EPSG:4283",
+      "sourceSha256": "7b55d3ab7ac9f8599a0242159d4c87c6468099ec777806aa71f5818fc6be16ce",
+      "deliverySha256": "7b55d3ab7ac9f8599a0242159d4c87c6468099ec777806aa71f5818fc6be16ce",
+      "gzipRoundTripExactBytes": true
+    },
+    {
+      "jurisdiction": "wa",
+      "sourcePolygonFeatures": 202,
+      "distinctWards": 113,
+      "parentCouncils": 28,
+      "coordinatePairs": 177095,
+      "allSourceObjectIdsPresent": true,
+      "allSourcePartsHavePlaceRefs": true,
+      "nativeCRS": "EPSG:4283",
+      "sourceSha256": "2397f6fcb79677b5b826e934a143f42705ce63fc7c6eeb99166b5352acef2567",
+      "deliverySha256": "2397f6fcb79677b5b826e934a143f42705ce63fc7c6eeb99166b5352acef2567",
+      "gzipRoundTripExactBytes": true
+    }
+  ],
+  "limitations": [
+    "No current individual-office or candidate completeness claim. Council agent merges people/events separately.",
+    "NSW is not covered by the Geoscape Wards product. Separately discovered NSW sources require currency and licence reconciliation before use.",
+    "No source denial or TLS certificate failure was bypassed. All retained transfers used verified TLS certificates and hostnames."
+  ]
+}

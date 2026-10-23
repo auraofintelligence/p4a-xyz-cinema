@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 1,
+  "title": "Maitland — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-15050",
+    "kind": "council",
+    "name": "Maitland",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/691",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/maitland/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/691/id",
+      "expected": "nsw-council-15050"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/691/name",
+      "expected": "Maitland"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/691/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/691",
+      "expected": {
+        "id": "nsw-council-15050",
+        "name": "Maitland",
+        "slug": "maitland",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9683",
+        "officialUrl": "https://www.maitland.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-maitland-mayor",
+          "council-nsw-2024-maitland-ward-1",
+          "council-nsw-2024-maitland-ward-2",
+          "council-nsw-2024-maitland-ward-3",
+          "council-nsw-2024-maitland-ward-4"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Philip Penfold",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mike Yarrington",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Amelia Atkinson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Rachel (Race) Barstow",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Donald Ferris",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Kristy-Lee Flannery",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mitchell Griffin",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bill Hackney",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Sally Halliday",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ken Jordan",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Warrick Penfold",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ben Whiting",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ben Worth",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.maitland.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-15050-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-15050-ordinary-2024-mayor",
+            "label": "2024 Maitland â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+            "candidates": [
+              {
+                "name": "KNOX Campbell",
+                "status": "contested",
+                "votes": 5675,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+                "party": "The Greens NSW"
+              },
+              {
+                "name": "SAFFARI Shahriar (Sean)",
+                "status": "contested",
+                "votes": 2133,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "PENFOLD Philip",
+                "status": "elected",
+                "votes": 31701,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "WHITING Ben",
+                "status": "contested",
+                "votes": 17473,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15050-ordinary-2024-ward-1",
+            "label": "2024 Maitland â€” Ward 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+            "candidates": [
+              {
+                "name": "JORDAN Ken",
+                "status": "elected",
+                "votes": 353,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor"
+              },
+              {
+                "name": "ROBINSON Tony",
+                "status": "contested",
+                "votes": 58,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor"
+              },
+              {
+                "name": "JORDAN Jodie",
+                "status": "contested",
+                "votes": 43,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor"
+              },
+              {
+                "name": "HALLIDAY Sally",
+                "status": "elected",
+                "votes": 214,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "DOHERTY Rod",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "DOHERTY Carol",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ATKINSON Amelia",
+                "status": "elected",
+                "votes": 407,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BAKER Loretta",
+                "status": "contested",
+                "votes": 120,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FOY Aidan",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KNOX Campbell",
+                "status": "contested",
+                "votes": 118,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "MASTERTON Natalie",
+                "status": "contested",
+                "votes": 26,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "JACOBS Kayla",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "LEONARD Matthew",
+                "status": "contested",
+                "votes": 65,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 906,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-1/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15050-ordinary-2024-ward-2",
+            "label": "2024 Maitland â€” Ward 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+            "candidates": [
+              {
+                "name": "JOHNS Paul",
+                "status": "contested",
+                "votes": 231,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ROOKE Jenny",
+                "status": "contested",
+                "votes": 48,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "THURLOW Dennis",
+                "status": "contested",
+                "votes": 10,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "GRIFFIN Mitchell",
+                "status": "elected",
+                "votes": 232,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "GRIFFIN Larissa",
+                "status": "contested",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "GREEN Selby",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "BARSTOW Rachel (Race)",
+                "status": "elected",
+                "votes": 236,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "VOORBIJ Michael",
+                "status": "contested",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "AITCHISON Robert",
+                "status": "contested",
+                "votes": 103,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FLANNERY Kristy-Lee",
+                "status": "elected",
+                "votes": 267,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "YARRINGTON Nicole",
+                "status": "contested",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "FERGUSON Gary",
+                "status": "contested",
+                "votes": 45,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1218,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-2/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15050-ordinary-2024-ward-3",
+            "label": "2024 Maitland â€” Ward 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+            "candidates": [
+              {
+                "name": "HACKNEY Bill",
+                "status": "elected",
+                "votes": 650,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor"
+              },
+              {
+                "name": "WORTH Ben",
+                "status": "elected",
+                "votes": 160,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor"
+              },
+              {
+                "name": "VOLLMER Christopher",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor"
+              },
+              {
+                "name": "WHITING Ben",
+                "status": "elected",
+                "votes": 413,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "RAW Andrew",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LINDSAY Peta",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "JACOBS Michael",
+                "status": "contested",
+                "votes": 83,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DAVIS Jan",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "JACOBS Keryn",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1073,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-3/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15050-ordinary-2024-ward-4",
+            "label": "2024 Maitland â€” Ward 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+            "candidates": [
+              {
+                "name": "PENFOLD Philip",
+                "status": "contested",
+                "votes": 736,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "YARRINGTON Mike",
+                "status": "elected",
+                "votes": 27,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "PENFOLD Warrick",
+                "status": "elected",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "SHORTLAND Melanie",
+                "status": "contested",
+                "votes": 159,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "ALEX Marilyn",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "BROWN Judith",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor"
+              },
+              {
+                "name": "FERRIS Donald",
+                "status": "elected",
+                "votes": 209,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "PYNE Brendan",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SINCLAIR Carolyn",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "McDONNELL Jessie",
+                "status": "contested",
+                "votes": 63,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WHITE Wendy",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "O'BRIEN Errin",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1125,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/maitland/ward-4/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "15050",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

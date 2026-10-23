@@ -5,6 +5,12 @@ import html
 import os
 ROOT=Path(__file__).resolve().parents[1]
 
+def national_routes():
+    registry=ROOT/'content/places/route-registry.json'
+    if not registry.exists():return {}
+    rows=json.loads(registry.read_text(encoding='utf-8'))['places']
+    return {str(p['featureId']):('states/qld/councils/redland/index.html' if str(p['featureId'])=='6250' else p['url']) for p in rows if p['jurisdiction']=='qld' and p['kind'] in ['council','special-local-body']}
+
 def rel(page,target):
     if target.startswith('https://'):return html.escape(target,quote=True)
     return html.escape(os.path.relpath(ROOT/target,(ROOT/page).parent).replace('\\','/'),quote=True)
@@ -37,7 +43,8 @@ def build_division_delivery():
 
 def assets(page,level='council'):
     data='assets/maps/redland-divisions-data.js' if level=='division' else 'assets/maps/qld-councils-data.js'
-    return f'<link rel="stylesheet" href="{rel(page,"assets/qld-council-map.css")}?v=20261017-places"><script src="{rel(page,data)}?v=20261017-places" defer></script><script src="{rel(page,"assets/qld-council-map.js")}?v=20261017-places" defer></script>'
+    route_asset=f'<script src="{rel(page,"assets/qld-place-routes.js")}?v=20261017-places" defer></script>' if national_routes() else ''
+    return f'<link rel="stylesheet" href="{rel(page,"assets/qld-council-map.css")}?v=20261017-places"><script src="{rel(page,data)}?v=20261017-places" defer></script>{route_asset}<script src="{rel(page,"assets/qld-council-map.js")}?v=20261017-places" defer></script>'
 
 def widget(page,level='council'):
     division=level=='division'
@@ -45,7 +52,8 @@ def widget(page,level='council'):
         directory=''.join(f'<li><a href="{rel(page,f"states/qld/councils/redland/divisions/{number}/index.html")}">Division {number}</a></li>' for number in range(1,11))
     else:
         raw=json.loads((ROOT/'assets/maps/qld-councils.geojson').read_text(encoding='utf-8'))
-        directory=''.join('<li>'+html.escape(f['properties']['lga'])+'</li>' for f in sorted(raw['features'],key=lambda f:f['properties']['lga']))
+        routes=national_routes()
+        directory=''.join('<li>'+('<a href="'+rel(page,routes[str(f['properties']['lga_code'])])+'">'+html.escape(f['properties']['lga'])+'</a>' if str(f['properties']['lga_code']) in routes else html.escape(f['properties']['lga']))+'</li>' for f in sorted(raw['features'],key=lambda f:f['properties']['lga']))
     atlas_id='redland-division-map' if division else 'qld-council-map'
     place='Redlands' if division else 'Queensland'
     area='division' if division else 'council'
@@ -59,6 +67,9 @@ def widget(page,level='council'):
     open_href='states/qld/councils/redland/divisions/1/index.html' if division else 'states/qld/councils/redland/index.html'
     fallback_note='All ten division overviews are available below.' if division else 'Redlands is the first built example.'
     source_note='The official 2024 electoral-division layer supplies all ten Redland City divisions. The 2019 review map is retained separately as a historical source.' if division else 'The boundary source contains 77 councils plus Weipa Town Authority. Only Redlands has a completed P4A local journey in this pass.'
+    if not division and national_routes():
+        fallback_note='Open the sourced council pages below; Redlands retains its fuller local journey.'
+        source_note='The boundary source contains 77 councils plus Weipa Town Authority. National council pages connect representation, elections and original sources; each states its own evidence gaps. Local Twinkles are left to grassroots implementation.'
     site_root=rel(page,'index.html').removesuffix('index.html')
     return f'''<section class="council-atlas" id="{atlas_id}" data-qld-council-map data-map-level="{level}" data-site-root="{site_root}" aria-labelledby="{atlas_id}-heading">
 <p class="atlas-kicker">The same journey, one place closer · Updated 17 October 2026</p><h2 id="{atlas_id}-heading">{title}</h2>

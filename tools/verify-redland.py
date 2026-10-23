@@ -25,8 +25,13 @@ class Page(HTMLParser):
         if tag=='fieldset' and 'data-note-fields' in a and 'disabled' in a:self.disabled_note=True
         if 'data-election-countdown' in a:self.clocks.append(a['data-election-countdown'])
 
-pages={p:Page(p) for p in (ROOT/'states/qld/councils').rglob('*.html')}
-assert len(pages)==19,f'Expected19 generated pages, found{len(pages)}'
+# The national expansion adds other council/election routes to this tree.
+# Keep this regression check bound to its actual reviewed reference contract;
+# tools/verify-national-places.py verifies the new national routes separately.
+reference_contract=json.loads((ROOT/'content/local/council-pattern-contract.json').read_text(encoding='utf-8'))
+reference_paths=[ROOT/row['path'] for row in reference_contract['routes'] if row['path'].startswith('states/qld/councils/')]
+assert reference_paths and len(reference_paths)==len(set(reference_paths)),'Invalid Redland reference route scope'
+pages={p:Page(p) for p in reference_paths}
 refs=0
 for path,page in list(pages.items()):
     assert not page.svg,f'InlineSVG innewpage{path}'
@@ -133,8 +138,9 @@ assert (ROOT/basemap['image']).read_bytes().startswith(b'\x89PNG\r\n\x1a\n')
 assert delivered['basemap']['extent']==basemap['extent']
 assert delivered['basemap']['roads']==basemap['roads']
 page_register=json.loads((ROOT/'content/history/civic-page-review-register-2026-10-17.json').read_text(encoding='utf-8'))
-registered_pages=[entry for group in page_register['pageGroups'] for entry in group['pages']]
-assert {entry['path'] for entry in registered_pages}=={p.relative_to(ROOT).as_posix() for p in (ROOT/'states/qld/councils').rglob('*.html')}
+reference_routes={p.relative_to(ROOT).as_posix() for p in reference_paths}
+registered_pages=[entry for group in page_register['pageGroups'] for entry in group['pages'] if entry['path'] in reference_routes]
+assert {entry['path'] for entry in registered_pages}==reference_routes,'Every reviewed reference route needs its own dated register entry'
 for entry in registered_pages:
     assert entry['lastUpdated'] and entry['reviewWhen'] and entry['label']
     assert entry['lastUpdated'] in (ROOT/entry['path']).read_text(encoding='utf-8')

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "title": "Maiwar — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-qld-qld242",
+    "kind": "state-district",
+    "name": "Maiwar",
+    "jurisdiction": "qld",
+    "chamber": "Legislative Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/236",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Current office is independently sourced from the Parliament’s current roster, published as at 23 September 2026 and retrieved 17 October 2026. Official public profile identity/district/party is separately reconciled; it is not inferred from the 2024 winner.",
+    "Historical election records use the boundaries applying at each event. The 2026 redistributed boundaries take effect for the 2028 general election; earlier by-elections use the existing boundaries.",
+    "All previous ballot contestants are retained, including unsuccessful candidates. Historical personal/campaign websites are not assumed to remain available; every contestant has the original ECQ result record.",
+    "The ECQ public Final archive contains declared candidates and official count rounds while retaining district final=NO flags. This adapter preserves that flag and labels the data as a declared archived official count rather than rewriting the source flag.",
+    "No local Twinkles or inferred resident views are created.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/electorates/districts/maiwar/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/236/id",
+      "expected": "state-qld-qld242"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/236/name",
+      "expected": "Maiwar"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/236/boundaryEdition",
+      "expected": "Geoscape / Digital Atlas of Australia May 2025 source edition"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/236",
+      "expected": {
+        "id": "state-qld-qld242",
+        "name": "Maiwar",
+        "slug": "maiwar",
+        "jurisdiction": "qld",
+        "kind": "state-district",
+        "chamber": "Legislative Assembly",
+        "layerId": "state-qld-assembly-2025",
+        "featureId": "QLD242",
+        "officialUrl": "https://www.ecq.qld.gov.au",
+        "sources": [
+          "state-boundaries-qld",
+          "state-qld-supp-members-current-mailing",
+          "state-qld-supp-member-profiles",
+          "state-qld-supp-constitution-current",
+          "state-qld-supp-qrc-2026-effect",
+          "state-qld-supp-results-2024-final",
+          "state-qld-supp-electorates-2024",
+          "state-qld-supp-results-events"
+        ],
+        "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
+        "representatives": [
+          {
+            "name": "Michael Berkman",
+            "role": "Member for Maiwar",
+            "party": "GRN",
+            "profileUrl": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=7768263",
+            "sourceId": "state-qld-supp-members-current-mailing",
+            "profileSourceId": "state-qld-supp-member-profiles",
+            "checked": "2026-10-17",
+            "rosterAsAt": "2026-09-23",
+            "sourcePage": 2
+          }
+        ],
+        "elections": [
+          {
+            "id": "ecq-632-district-49",
+            "officialEventId": "632",
+            "eventStub": "SGE2024",
+            "label": "2024 State General Election",
+            "kind": "general-election",
+            "status": "declared; archived official count",
+            "date": "2024-10-26",
+            "dateBasis": "ECQ official polling date from retained event metadata and published Final archive.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+            "resultsUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+            "sourceId": "state-qld-supp-results-2024-final",
+            "boundaryEdition": "2017 Queensland state electoral boundaries, used at the 2024 election and subsequent by-elections before the 2028 general-election writ",
+            "sourceFinalFlag": "NO",
+            "sourceCountUpdated": "2024-11-07T12:07:59",
+            "candidates": [
+              {
+                "id": "ecq-632-49-ballot-1",
+                "name": "SPORK, Grant",
+                "party": "Pauline Hanson's One Nation Queensland Division",
+                "status": "contested",
+                "ballotPosition": 1,
+                "sourceUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+                "sourceId": "state-qld-supp-results-2024-final",
+                "votes": 1119,
+                "voteMeasure": "official first preferences"
+              },
+              {
+                "id": "ecq-632-49-ballot-2",
+                "name": "WINTERS, Natasha",
+                "party": "Liberal National Party of Queensland",
+                "status": "contested",
+                "ballotPosition": 2,
+                "sourceUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+                "sourceId": "state-qld-supp-results-2024-final",
+                "votes": 13676,
+                "voteMeasure": "official first preferences"
+              },
+              {
+                "id": "ecq-632-49-ballot-3",
+                "name": "IRVINE, Susan",
+                "party": "Australian Labor Party (State of Queensland)",
+                "status": "contested",
+                "ballotPosition": 3,
+                "sourceUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+                "sourceId": "state-qld-supp-results-2024-final",
+                "votes": 9160,
+                "voteMeasure": "official first preferences"
+              },
+              {
+                "id": "ecq-632-49-ballot-4",
+                "name": "BERKMAN, Michael",
+                "party": "Queensland Greens",
+                "status": "elected",
+                "ballotPosition": 4,
+                "sourceUrl": "https://results.elections.qld.gov.au/SGE2024/maiwar/primary",
+                "sourceId": "state-qld-supp-results-2024-final",
+                "votes": 12319,
+                "voteMeasure": "official first preferences",
+                "profileUrl": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=7768263"
+              }
+            ]
+          },
+          {
+            "id": "qld-state-normal-2028-maiwar",
+            "label": "2028 Queensland ordinary state election",
+            "kind": "general-election",
+            "status": "rule-derived normal date",
+            "date": "2028-10-28",
+            "dateBasis": "Rule-derived normal polling day under Constitution of Queensland 2001 s19B: last Saturday in October in the fourth calendar year after the ordinary 2024 election. This is not a published writ/timetable; statutory postponement and extraordinary-election provisions remain applicable.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2001-080#sec.19B",
+            "sourceId": "state-qld-supp-constitution-current",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Current office is independently sourced from the Parliament’s current roster, published as at 23 September 2026 and retrieved 17 October 2026. Official public profile identity/district/party is separately reconciled; it is not inferred from the 2024 winner.",
+          "Historical election records use the boundaries applying at each event. The 2026 redistributed boundaries take effect for the 2028 general election; earlier by-elections use the existing boundaries.",
+          "All previous ballot contestants are retained, including unsuccessful candidates. Historical personal/campaign websites are not assumed to remain available; every contestant has the original ECQ result record.",
+          "The ECQ public Final archive contains declared candidates and official count rounds while retaining district final=NO flags. This adapter preserves that flag and labels the data as a declared archived official count rather than rewriting the source flag.",
+          "No local Twinkles or inferred resident views are created."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

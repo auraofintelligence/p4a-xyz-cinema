@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "title": "MacDonnell — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-72330",
+    "kind": "council",
+    "name": "MacDonnell",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/996",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Published roster has eleven named people and an explicit Iyarrka vacancy. Its introductory general-election date and resignation narrative are stale or inconsistent with its individual cards; the displayed roster is retained as a dated published snapshot, without asserting that every sentence is current.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/macdonnell/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/996/id",
+      "expected": "nt-council-72330"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/996/name",
+      "expected": "MacDonnell"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/996/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/996",
+      "expected": {
+        "id": "nt-council-72330",
+        "name": "MacDonnell",
+        "slug": "macdonnell",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "72330",
+        "officialUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-macdonnell",
+          "council-nt-2025-ballot-macdonnell-iyarrka-ward",
+          "council-nt-2025-ballot-macdonnell-ljirapinta-ward",
+          "council-nt-2025-ballot-macdonnell-luritja-pintubi-ward",
+          "council-nt-2025-ballot-macdonnell-rodinga-ward",
+          "council-nt-ballot-by-april-2026-macdonnell-luritja-pintubi-ward",
+          "council-nt-ballot-supplementary-2025-macdonnell-rodinga-ward",
+          "council-nt-ballot-supplementary-2025-macdonnell-rodinga-ward-timetable"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Roxanne Kenny",
+            "role": "President",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Ljirapinta Ward"
+          },
+          {
+            "name": "Maryanne Malbunka",
+            "role": "Deputy President",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Ljirapinta Ward"
+          },
+          {
+            "name": "Mark Inkamala",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Ljirapinta Ward"
+          },
+          {
+            "name": "Abraham Poulson",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Iyarrka Ward"
+          },
+          {
+            "name": "Vacant seat",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Iyarrka Ward",
+            "status": "vacant"
+          },
+          {
+            "name": "Tommy Conway",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Luritja Pintubi Ward"
+          },
+          {
+            "name": "Dalton McDonald",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Luritja Pintubi Ward"
+          },
+          {
+            "name": "Lynn Ward",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Luritja Pintubi Ward"
+          },
+          {
+            "name": "Matthew Palmer",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Rodinga Ward"
+          },
+          {
+            "name": "Veronica Lynch Kngwarraye",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Rodinga Ward"
+          },
+          {
+            "name": "Andrew Davis",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Rodinga Ward"
+          },
+          {
+            "name": "Patrick Allen",
+            "role": "Councillor",
+            "profileUrl": "https://www.macdonnell.nt.gov.au/governance/elected-councillors.aspx",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-macdonnell",
+            "checked": "2026-10-17",
+            "wardLabel": "Rodinga Ward"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-72330-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-72330-ordinary-2025-iyarrka-ward",
+            "label": "2025 Macdonnell — Iyarrka Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+            "candidates": [
+              {
+                "name": "Peter WILSON",
+                "status": "official historical nominee",
+                "contest": "Iyarrka Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Abraham POULSON",
+                "status": "official historical nominee",
+                "contest": "Iyarrka Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Marlene ABBOTT",
+                "status": "official historical nominee",
+                "contest": "Iyarrka Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lyle KENNY",
+                "status": "official historical nominee",
+                "contest": "Iyarrka Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/iyarrka",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72330-ordinary-2025-ljirapinta-ward",
+            "label": "2025 Macdonnell — Ljirapinta Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+            "candidates": [
+              {
+                "name": "Mark INKAMALA",
+                "status": "official historical nominee",
+                "contest": "Ljirapinta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Maryanne MALBUNKA",
+                "status": "official historical nominee",
+                "contest": "Ljirapinta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Roxanne KENNY",
+                "status": "official historical nominee",
+                "contest": "Ljirapinta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Conrad RATARA",
+                "status": "official historical nominee",
+                "contest": "Ljirapinta Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/ljirapinta",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72330-ordinary-2025-luritja-pintubi-ward",
+            "label": "2025 Macdonnell — Luritja Pintubi Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+            "candidates": [
+              {
+                "name": "Tommy CONWAY",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lynn WARD",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Dalton MCDONALD",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Garrard ANDERSON",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/luritja-pintubi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72330-ordinary-2025-rodinga-ward",
+            "label": "2025 Macdonnell — Rodinga Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+            "candidates": [
+              {
+                "name": "Veronica LYNCH KNGWARRAYE",
+                "status": "official historical nominee",
+                "contest": "Rodinga Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Patrick ALLEN",
+                "status": "official historical nominee",
+                "contest": "Rodinga Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Andrew DAVIS",
+                "status": "official historical nominee",
+                "contest": "Rodinga Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/macdonnell/list-of-candidates/rodinga",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 3,
+              "retainedCandidateCount": 3,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72330-by-april-2026-luritja-pintubi-ward",
+            "label": "2026 Macdonnell — Luritja Pintubi Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": null,
+            "dateBasis": "Official NTEC event context and nomination summary verified; exact polling day not yet retained, so date remains null.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "exact election day unresolved",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+            "candidates": [
+              {
+                "name": "Douglas MULTA",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Tommy CONWAY",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sarah STOCKMAN",
+                "status": "official historical nominee",
+                "contest": "Luritja Pintubi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/macdonnell/list-of-candidates",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 3,
+              "retainedCandidateCount": 3,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72330-supplementary-2025-rodinga-ward",
+            "label": "2025 Macdonnell — Rodinga Ward",
+            "kind": "supplementary",
+            "status": "historical",
+            "date": "2025-11-29",
+            "dateBasis": "Official NTEC supplementary timetable; nominal election day, including uncontested contexts.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/macdonnell/list-of-candidates/",
+            "candidates": [
+              {
+                "name": "Matthew James PALMER",
+                "status": "official historical nominee",
+                "contest": "Rodinga Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/macdonnell/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/macdonnell/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2025-local-government-supplementary-elections/timetable"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+          "Published roster has eleven named people and an explicit Iyarrka vacancy. Its introductory general-election date and resignation narrative are stale or inconsistent with its individual cards; the displayed roster is retained as a dated published snapshot, without asserting that every sentence is current."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "title": "O'Donoghue — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "federal-house-975",
+    "kind": "federal-division",
+    "name": "O'Donoghue",
+    "jurisdiction": "sa",
+    "chamber": "House of Representatives"
+  },
+  "canonicalInput": {
+    "path": "content/places/federal.json",
+    "recordPointer": "/places/150",
+    "scope": "federal"
+  },
+  "coverageNotes": [
+    "The 2026 redistribution replaces the electorate name Grey with O'Donoghue for the next federal election. Members continue to represent the electorate on which they were elected until that election.",
+    "Current Member for Grey: see the serving Grey page and its independent parliamentary roster; no current Member for this future electoral edition is inferred.",
+    "There has been no previous election under this new name/edition. Previous Grey contestants and results remain attached to Grey, with their historical boundary basis.",
+    "The original 2026 GIS, Gazette determination page and source identity 975 are retained. No new Twinkles are created.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/sa/federal/odonoghue/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/sa/places/federal/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/150/id",
+      "expected": "federal-house-975"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/150/name",
+      "expected": "O'Donoghue"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/150/boundaryEdition",
+      "expected": "October 2026 proclaimed; applies to federal election writs issued after 8 October 2026"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/150",
+      "expected": {
+        "id": "federal-house-975",
+        "name": "O'Donoghue",
+        "slug": "odonoghue",
+        "jurisdiction": "sa",
+        "kind": "federal-division",
+        "chamber": "House of Representatives",
+        "layerId": "federal-house-sa-2026-next",
+        "featureId": "975",
+        "aecDivisionId": "975",
+        "officialUrl": "https://www.aec.gov.au/redistributions/2025/sa/determination.html",
+        "sources": [
+          "federal-aec-sa-2026-boundaries",
+          "federal-aec-sa-2026-determination",
+          "federal-aec-sa-2026-announcement",
+          "federal-aec-odonoghue-localities"
+        ],
+        "boundaryEdition": "October 2026 proclaimed; applies to federal election writs issued after 8 October 2026",
+        "representationStatus": "next-election-division",
+        "predecessorPlaceId": "federal-house-183",
+        "representatives": [],
+        "elections": [
+          {
+            "id": "federal-house-next-975",
+            "label": "First election under the name O'Donoghue",
+            "kind": "general-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "New name determined 8 October 2026. No verified future polling date entered.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://www.aec.gov.au/redistributions/2025/sa/determination.html",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "The 2026 redistribution replaces the electorate name Grey with O'Donoghue for the next federal election. Members continue to represent the electorate on which they were elected until that election.",
+          "Current Member for Grey: see the serving Grey page and its independent parliamentary roster; no current Member for this future electoral edition is inferred.",
+          "There has been no previous election under this new name/edition. Previous Grey contestants and results remain attached to Grey, with their historical boundary basis.",
+          "The original 2026 GIS, Gazette determination page and source identity 975 are retained. No new Twinkles are created."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

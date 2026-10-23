@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "title": "Hornsby — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-14000",
+    "kind": "council",
+    "name": "Hornsby",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/673",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/hornsby/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/673/id",
+      "expected": "nsw-council-14000"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/673/name",
+      "expected": "Hornsby"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/673/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/673",
+      "expected": {
+        "id": "nsw-council-14000",
+        "name": "Hornsby",
+        "slug": "hornsby",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "8906",
+        "officialUrl": "https://www.hornsby.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-hornsby-mayor",
+          "council-nsw-2024-hornsby-ward-a",
+          "council-nsw-2024-hornsby-ward-b",
+          "council-nsw-2024-hornsby-ward-c"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Warren Waddell",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Sallianne McClelland",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Monika Ball",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Matthew Conley",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Verity Greenwood",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Janelle McIntosh",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Ben McSweeney",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jane Seaglove",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Olivia Simons",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Nathan Tilbury",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.hornsby.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-14000-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-14000-ordinary-2024-mayor",
+            "label": "2024 Hornsby â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+            "candidates": [
+              {
+                "name": "WADDELL Warren",
+                "status": "elected",
+                "votes": 36249,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+                "party": "The Liberal Party Of Australia, New South Wales Division"
+              },
+              {
+                "name": "MCINTOSH Janelle",
+                "status": "contested",
+                "votes": 16899,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              },
+              {
+                "name": "TILBURY Nathan",
+                "status": "contested",
+                "votes": 15175,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "WOODWARD Roger",
+                "status": "contested",
+                "votes": 2421,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "SALITRA Tania",
+                "status": "contested",
+                "votes": 16260,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/mayoral",
+                "party": "The Greens NSW"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14000-ordinary-2024-ward-a",
+            "label": "2024 Hornsby â€” Ward A",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor",
+            "candidates": [
+              {
+                "name": "WADDELL Warren",
+                "status": "contested",
+                "votes": 9365,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "SEAGLOVE Jane",
+                "status": "elected",
+                "votes": 527,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "SIMONS Olivia",
+                "status": "elected",
+                "votes": 849,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DICKSON Peter",
+                "status": "contested",
+                "votes": 42,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "FIELD David",
+                "status": "contested",
+                "votes": 27,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TILBURY Nathan",
+                "status": "elected",
+                "votes": 2376,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "FRIEND Kate",
+                "status": "contested",
+                "votes": 243,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "CHAMBERS Kristie",
+                "status": "contested",
+                "votes": 90,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "GOODE Benjamin",
+                "status": "contested",
+                "votes": 2219,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 3652,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward A",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-a/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14000-ordinary-2024-ward-b",
+            "label": "2024 Hornsby â€” Ward B",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+            "candidates": [
+              {
+                "name": "MCINTOSH Janelle",
+                "status": "elected",
+                "votes": 665,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SMART Lilith",
+                "status": "contested",
+                "votes": 80,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "McCLELLAND Rory",
+                "status": "contested",
+                "votes": 58,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "McCLELLAND Sallianne",
+                "status": "elected",
+                "votes": 562,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "KNOWLES Geoffrey",
+                "status": "contested",
+                "votes": 284,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BATEMAN Grahame",
+                "status": "contested",
+                "votes": 158,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BALL Monika",
+                "status": "elected",
+                "votes": 468,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TING Matthew",
+                "status": "contested",
+                "votes": 39,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HATLEY Dana",
+                "status": "contested",
+                "votes": 40,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SELLERS Tom",
+                "status": "contested",
+                "votes": 408,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor"
+              },
+              {
+                "name": "CALDER Nathan",
+                "status": "contested",
+                "votes": 91,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor"
+              },
+              {
+                "name": "SCOTT Milly",
+                "status": "contested",
+                "votes": 52,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor"
+              },
+              {
+                "name": "WEIHART Ilan",
+                "status": "contested",
+                "votes": 131,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1474,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward B",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-b/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14000-ordinary-2024-ward-c",
+            "label": "2024 Hornsby â€” Ward C",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+            "candidates": [
+              {
+                "name": "CONLEY Matthew",
+                "status": "elected",
+                "votes": 227,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TAYLOR Barbara",
+                "status": "contested",
+                "votes": 111,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "MACDONALD Andrew",
+                "status": "contested",
+                "votes": 44,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SALITRA Tania",
+                "status": "contested",
+                "votes": 435,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WARNECKE Ana",
+                "status": "contested",
+                "votes": 40,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WHEATLEY Robyn",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "GREENWOOD Verity",
+                "status": "elected",
+                "votes": 463,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "McSWEENEY Ben",
+                "status": "elected",
+                "votes": 356,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "PILLAMARRI Samyuta",
+                "status": "contested",
+                "votes": 166,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "CASWELL Benjamin",
+                "status": "contested",
+                "votes": 248,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor"
+              },
+              {
+                "name": "CARDELLI Elizabeth",
+                "status": "contested",
+                "votes": 48,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor"
+              },
+              {
+                "name": "ROWLAND James",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor"
+              },
+              {
+                "name": "CHUDLEIGH Harrison",
+                "status": "contested",
+                "votes": 217,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1213,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward C",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/hornsby/ward-c/councillor"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "14000",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

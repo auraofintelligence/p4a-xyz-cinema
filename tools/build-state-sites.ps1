@@ -1533,4 +1533,8 @@ foreach ($state in $states) {
 }
 
 Write-Host "Generated selected state portals (filter: $StateSlug), national state index and data. History skipped: $SkipHistory."
+if (Test-Path -LiteralPath (Join-Path $root 'content/places/route-registry.json')) {
+  python (Join-Path $scriptDir 'national_place_links.py')
+  if ($LASTEXITCODE -ne 0) { throw 'National place entry-link restoration failed.' }
+}
 

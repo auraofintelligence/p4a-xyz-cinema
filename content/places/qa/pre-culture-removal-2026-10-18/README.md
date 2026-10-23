@@ -1,0 +1,1 @@
+Historical navigation review before the user requested deleting the misleading Culture category on18October2026. Earlier checks did not certify the category meaning or multicultural coverage. Preserve their dated scope and hashes.

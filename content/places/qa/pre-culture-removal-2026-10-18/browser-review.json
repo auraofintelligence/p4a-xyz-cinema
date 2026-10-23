@@ -1,0 +1,3448 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Focused shared-navigation deduplication: unique destinations, retained nine Start ideas/six themes, distinct System/Culture lists, related search matches, keyboard and 390 CSS-pixel layout. Previous wider navigation checks retain their archived scope.",
+  "reason": "User identified repeated navigation entries after the Start here promotion. Removed the duplicate Key policy section and repeated entries across System/Culture; each menu destination has one category home.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "responsiveMethod": "Real same-origin iframe at390 CSS px, fonts.ready and settled layout; not physical-phone/touch emulation."
+  },
+  "majorOrder": [
+    "start",
+    "spark",
+    "system",
+    "ground",
+    "culture",
+    "states"
+  ],
+  "navigationCounts": {
+    "beforeEntries": 154,
+    "afterEntries": 137,
+    "uniqueDestinations": 137,
+    "removedEntries": 17
+  },
+  "fixtures": [
+    {
+      "id": "unique-menu-destinations-and-six-sections",
+      "status": "PASS",
+      "metrics": {
+        "chosen": [
+          "Aura Genesis Protocol",
+          "Truth Engine",
+          "Musicverse",
+          "C-Hour & Braided Economy",
+          "Worker mutuals",
+          "Web3 Sensorium",
+          "Sovereignty Stack",
+          "Purple Synthesis",
+          "Cyber-Republic Simulator"
+        ],
+        "count": 137,
+        "duplicates": [],
+        "footerLabels": [
+          "START HERE",
+          "THE SPARK",
+          "THE SYSTEM",
+          "THE GROUND GAME",
+          "CULTURE",
+          "STATES AND TERRITORIES"
+        ],
+        "mapLenses": [
+          "states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa",
+          "states/vic/map/index.html"
+        ],
+        "path": "/index.html",
+        "sections": [
+          {
+            "count": 16,
+            "id": "start"
+          },
+          {
+            "count": 50,
+            "id": "spark"
+          },
+          {
+            "count": 40,
+            "id": "system"
+          },
+          {
+            "count": 11,
+            "id": "ground"
+          },
+          {
+            "count": 5,
+            "id": "culture"
+          },
+          {
+            "count": 15,
+            "id": "states"
+          }
+        ],
+        "unique": 137
+      }
+    },
+    {
+      "id": "search-core-entries-once-with-distinct-related-matches",
+      "status": "PASS",
+      "metrics": [
+        {
+          "count": "1 OF 137 ROOMS MATCH",
+          "matches": [
+            {
+              "section": "start",
+              "title": "Aura Genesis Protocol"
+            }
+          ],
+          "query": "Genesis"
+        },
+        {
+          "count": "2 OF 137 ROOMS MATCH",
+          "matches": [
+            {
+              "section": "start",
+              "title": "Truth Engine"
+            },
+            {
+              "section": "spark",
+              "title": "Twinkle 20: UAP disclosure"
+            }
+          ],
+          "query": "Truth Engine"
+        },
+        {
+          "count": "1 OF 137 ROOMS MATCH",
+          "matches": [
+            {
+              "section": "start",
+              "title": "Musicverse"
+            }
+          ],
+          "query": "Musicverse"
+        }
+      ],
+      "note": "Full-text search legitimately includes the distinct UAP Twinkle because its description mentions Truth Engine; the core Truth Engine destination appears once."
+    },
+    {
+      "id": "system-and-culture-distinct-pages-retained",
+      "status": "PASS",
+      "metrics": [
+        {
+          "id": "system",
+          "open": true,
+          "titles": [
+            "Price and tax",
+            "Civic architecture",
+            "Party constitution",
+            "Law engine / Legal RAG",
+            "About the workbench",
+            "Treaty atlas",
+            "Civic ledger",
+            "The fair go evolves",
+            "Housing simulations",
+            "Public assets",
+            "Food security",
+            "Risk and mutual care",
+            "Civic surges",
+            "Violence against women",
+            "AI copyright",
+            "Child safety",
+            "Online safety",
+            "Gender pay gap",
+            "Closing the Gap",
+            "Youth crime",
+            "Wanted families",
+            "Marriage & divorce",
+            "Super for housing",
+            "Wealth inequality",
+            "Multinational tax",
+            "NDIS scams",
+            "AI scams",
+            "Aged-care scams",
+            "Gambling harm",
+            "Fuel tax",
+            "Tobacco tax",
+            "Migration equations",
+            "International wars",
+            "Security fallacies",
+            "Ancient aliens",
+            "Mental health",
+            "Psychedelic care",
+            "Prohibited plants",
+            "Super investments",
+            "AI futures"
+          ]
+        },
+        {
+          "id": "culture",
+          "open": true,
+          "titles": [
+            "Aura politics",
+            "Clinical pathways",
+            "Dementia and aged care",
+            "PTSD care and claims",
+            "Alien necklace film"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyboard-first-start-idea",
+      "status": "PASS",
+      "metrics": {
+        "href": "pages/aura-genesis.html",
+        "title": "Aura Genesis Protocol"
+      }
+    },
+    {
+      "id": "unique-six-section-menu-390",
+      "status": "PASS",
+      "metrics": {
+        "path": "/pages/places.html",
+        "requestedWidth": 390,
+        "frameCssWidth": 390,
+        "frameRect": {
+          "x": 16,
+          "y": 327,
+          "top": 327,
+          "right": 408,
+          "bottom": 1109,
+          "left": 16,
+          "width": 392,
+          "height": 782
+        },
+        "devicePixelRatio": 1,
+        "page": {
+          "innerWidth": 390,
+          "clientWidth": 375,
+          "scrollWidth": 375
+        },
+        "overlay": {
+          "selector": ".site-index",
+          "id": "site-index",
+          "hidden": false,
+          "open": true,
+          "bodyIndexOpen": true,
+          "visible": true,
+          "display": "block",
+          "visibility": "visible",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "top": 0,
+            "right": 375,
+            "bottom": 780,
+            "left": 0,
+            "width": 375,
+            "height": 780
+          },
+          "clientWidth": 360,
+          "scrollWidth": 360,
+          "clientHeight": 780,
+          "scrollHeight": 2893
+        },
+        "sectionsDomOrder": [
+          {
+            "index": 0,
+            "category": "start",
+            "label": "START HERE",
+            "hidden": false,
+            "open": true,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "01 START HERE Stories, care, truth and possibilities for a life worth living. Follow the idea that draws you in. Browse 16 pages",
+              "rect": {
+                "x": 16,
+                "y": 399.53125,
+                "top": 399.53125,
+                "right": 344,
+                "bottom": 544.40625,
+                "left": 16,
+                "width": 328,
+                "height": 144.875
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 144,
+              "scrollHeight": 144,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "START HERE",
+              "rect": {
+                "x": 16,
+                "y": 435.84375,
+                "top": 435.84375,
+                "right": 321.609375,
+                "bottom": 460.203125,
+                "left": 16,
+                "width": 305.609375,
+                "height": 24.359375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 24,
+              "scrollHeight": 24,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          },
+          {
+            "index": 1,
+            "category": "spark",
+            "label": "THE SPARK",
+            "hidden": false,
+            "open": false,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "02 THE SPARK Twinkle: an open short-clip format for the obvious gripes. 49 Twinkles, anyone can film. The way in, not the whole system. Browse 50 pages",
+              "rect": {
+                "x": 16,
+                "y": 1443.59375,
+                "top": 1443.59375,
+                "right": 344,
+                "bottom": 1608.421875,
+                "left": 16,
+                "width": 328,
+                "height": 164.828125
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 164,
+              "scrollHeight": 164,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "THE SPARK",
+              "rect": {
+                "x": 16,
+                "y": 1479.90625,
+                "top": 1479.90625,
+                "right": 321.609375,
+                "bottom": 1504.265625,
+                "left": 16,
+                "width": 305.609375,
+                "height": 24.359375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 24,
+              "scrollHeight": 24,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          },
+          {
+            "index": 2,
+            "category": "system",
+            "label": "THE SYSTEM",
+            "hidden": false,
+            "open": false,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "03 THE SYSTEM The serious rooms underneath: architecture, policy foundations, law, ledgers and rehearsal. Browse 40 pages",
+              "rect": {
+                "x": 16,
+                "y": 1634.015625,
+                "top": 1634.015625,
+                "right": 344,
+                "bottom": 1778.890625,
+                "left": 16,
+                "width": 328,
+                "height": 144.875
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 144,
+              "scrollHeight": 144,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "THE SYSTEM",
+              "rect": {
+                "x": 16,
+                "y": 1670.328125,
+                "top": 1670.328125,
+                "right": 321.609375,
+                "bottom": 1694.6875,
+                "left": 16,
+                "width": 305.609375,
+                "height": 24.359375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 24,
+              "scrollHeight": 24,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          },
+          {
+            "index": 3,
+            "category": "ground",
+            "label": "THE GROUND GAME",
+            "hidden": false,
+            "open": false,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "04 THE GROUND GAME Where it becomes real: local builders, the L1 outreach kit and visible support. Browse 11 pages",
+              "rect": {
+                "x": 16,
+                "y": 1804.484375,
+                "top": 1804.484375,
+                "right": 344,
+                "bottom": 1949.359375,
+                "left": 16,
+                "width": 328,
+                "height": 144.875
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 144,
+              "scrollHeight": 144,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "THE GROUND GAME",
+              "rect": {
+                "x": 16,
+                "y": 1840.796875,
+                "top": 1840.796875,
+                "right": 321.609375,
+                "bottom": 1865.15625,
+                "left": 16,
+                "width": 305.609375,
+                "height": 24.359375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 24,
+              "scrollHeight": 24,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          },
+          {
+            "index": 4,
+            "category": "culture",
+            "label": "CULTURE",
+            "hidden": false,
+            "open": false,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "05 CULTURE Songs, myth and the creative worlds that keep the rest human. Browse 5 pages",
+              "rect": {
+                "x": 16,
+                "y": 1974.953125,
+                "top": 1974.953125,
+                "right": 344,
+                "bottom": 2119.828125,
+                "left": 16,
+                "width": 328,
+                "height": 144.875
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 144,
+              "scrollHeight": 144,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "CULTURE",
+              "rect": {
+                "x": 16,
+                "y": 2011.265625,
+                "top": 2011.265625,
+                "right": 321.609375,
+                "bottom": 2035.625,
+                "left": 16,
+                "width": 305.609375,
+                "height": 24.359375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 24,
+              "scrollHeight": 24,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          },
+          {
+            "index": 5,
+            "category": "states",
+            "label": "STATES AND TERRITORIES",
+            "hidden": false,
+            "open": false,
+            "visible": true,
+            "empty": false,
+            "summary": {
+              "text": "06 STATES AND TERRITORIES Eight portals with election clocks, chamber maps, histories and constitution rooms. The national place directories connect council, state electorate, House and Senate pages; Victoria also retains its deeper atlas. Browse 15 pages",
+              "rect": {
+                "x": 16,
+                "y": 2145.421875,
+                "top": 2145.421875,
+                "right": 344,
+                "bottom": 2374.515625,
+                "left": 16,
+                "width": 328,
+                "height": 229.09375
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "460",
+              "lineHeight": "26.4px",
+              "textTransform": "none",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 328,
+              "scrollWidth": 328,
+              "clientHeight": 228,
+              "scrollHeight": 228,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            },
+            "heading": {
+              "text": "STATES AND TERRITORIES",
+              "rect": {
+                "x": 16,
+                "y": 2181.734375,
+                "top": 2181.734375,
+                "right": 321.609375,
+                "bottom": 2230.453125,
+                "left": 16,
+                "width": 305.609375,
+                "height": 48.71875
+              },
+              "visible": true,
+              "color": "rgb(255, 247, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Archivo Var\", Montserrat, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "23.2px",
+              "fontWeight": "880",
+              "lineHeight": "24.36px",
+              "textTransform": "uppercase",
+              "overflowX": "visible",
+              "overflowY": "visible",
+              "clientWidth": 306,
+              "scrollWidth": 306,
+              "clientHeight": 49,
+              "scrollHeight": 49,
+              "horizontalOverflow": false,
+              "verticalOverflow": false
+            }
+          }
+        ],
+        "visibleLinks": [
+          {
+            "text": "Aura Genesis Protocol A proposed personal Aura, shaped by your stories, values and hopes.",
+            "destination": "http://127.0.0.1:8768/pages/aura-genesis.html",
+            "rawHref": "../pages/aura-genesis.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 557.203125,
+              "top": 557.203125,
+              "right": 344,
+              "bottom": 625.109375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Truth Engine Where claims come from, what is uncertain and how mistakes get repaired.",
+            "destination": "http://127.0.0.1:8768/pages/truth-engine.html",
+            "rawHref": "../pages/truth-engine.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 631.5,
+              "top": 631.5,
+              "right": 344,
+              "bottom": 699.40625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Musicverse Songs, myth and creative worlds that keep the work human.",
+            "destination": "http://127.0.0.1:8768/pages/musicverse.html",
+            "rawHref": "../pages/musicverse.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 705.796875,
+              "top": 705.796875,
+              "right": 344,
+              "bottom": 773.703125,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "C-Hour & Braided Economy Care and freely given time recognised beside ordinary money.",
+            "destination": "http://127.0.0.1:8768/pages/braided-economy.html",
+            "rawHref": "../pages/braided-economy.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 780.09375,
+              "top": 780.09375,
+              "right": 344,
+              "bottom": 848,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Worker mutuals A shared stake in work, with learning, care and time for living.",
+            "destination": "http://127.0.0.1:8768/pages/workforce-transition.html",
+            "rawHref": "../pages/workforce-transition.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 854.390625,
+              "top": 854.390625,
+              "right": 344,
+              "bottom": 922.296875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Web3 Sensorium Explore how community computing could serve people and places.",
+            "destination": "http://127.0.0.1:8768/pages/web3-sensorium.html",
+            "rawHref": "../pages/web3-sensorium.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 928.6875,
+              "top": 928.6875,
+              "right": 344,
+              "bottom": 996.59375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Sovereignty Stack A say over your digital life, your data and what you choose to share.",
+            "destination": "http://127.0.0.1:8768/pages/sovereignty-stack.html",
+            "rawHref": "../pages/sovereignty-stack.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1002.984375,
+              "top": 1002.984375,
+              "right": 344,
+              "bottom": 1070.890625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Purple Synthesis Reciprocity and enterprise, brought together around a fair go.",
+            "destination": "http://127.0.0.1:8768/pages/purple-synthesis.html",
+            "rawHref": "../pages/purple-synthesis.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1077.28125,
+              "top": 1077.28125,
+              "right": 344,
+              "bottom": 1145.1875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Cyber-Republic Simulator Imagine and test democratic futures before choosing them.",
+            "destination": "http://127.0.0.1:8768/pages/cyber-republic.html",
+            "rawHref": "../pages/cyber-republic.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1151.578125,
+              "top": 1151.578125,
+              "right": 344,
+              "bottom": 1219.484375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Home",
+            "destination": "http://127.0.0.1:8768/index.html",
+            "rawHref": "../index.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1282.859375,
+              "top": 1282.859375,
+              "right": 60.03125,
+              "bottom": 1313.046875,
+              "left": 16,
+              "width": 44.03125,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Started as a friendly bet",
+            "destination": "http://127.0.0.1:8768/pages/joke.html",
+            "rawHref": "../pages/joke.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 76.03125,
+              "y": 1282.859375,
+              "top": 1282.859375,
+              "right": 248.890625,
+              "bottom": 1313.046875,
+              "left": 76.03125,
+              "width": 172.859375,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "The civic pathway",
+            "destination": "http://127.0.0.1:8768/pages/civic-pathway.html",
+            "rawHref": "../pages/civic-pathway.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1317.84375,
+              "top": 1317.84375,
+              "right": 148.15625,
+              "bottom": 1348.03125,
+              "left": 16,
+              "width": 132.15625,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Rabbit-hole policies",
+            "destination": "http://127.0.0.1:8768/pages/rabbit-hole.html",
+            "rawHref": "../pages/rabbit-hole.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 164.15625,
+              "y": 1317.84375,
+              "top": 1317.84375,
+              "right": 310.703125,
+              "bottom": 1348.03125,
+              "left": 164.15625,
+              "width": 146.546875,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Markdown with AI",
+            "destination": "http://127.0.0.1:8768/pages/markdown-with-ai.html",
+            "rawHref": "../pages/markdown-with-ai.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1352.828125,
+              "top": 1352.828125,
+              "right": 146.796875,
+              "bottom": 1383.015625,
+              "left": 16,
+              "width": 130.796875,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Geographic maps",
+            "destination": "http://127.0.0.1:8768/pages/maps.html",
+            "rawHref": "../pages/maps.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 162.796875,
+              "y": 1352.828125,
+              "top": 1352.828125,
+              "right": 293.46875,
+              "bottom": 1383.015625,
+              "left": 162.796875,
+              "width": 130.671875,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Site map",
+            "destination": "http://127.0.0.1:8768/pages/site-map.html",
+            "rawHref": "../pages/site-map.html",
+            "parentSection": {
+              "category": "start",
+              "label": "START HERE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1387.8125,
+              "top": 1387.8125,
+              "right": 80.34375,
+              "bottom": 1418,
+              "left": 16,
+              "width": 64.34375,
+              "height": 30.1875
+            }
+          },
+          {
+            "text": "Twinkle series The format, all the seeds and the credibility ledger.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle.html",
+            "rawHref": "../pages/twinkle.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1621.21875,
+              "top": 1621.21875,
+              "right": 344,
+              "bottom": 1671.859375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 01: Tolls Commuter pain, into Public Assets.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-tolls.html",
+            "rawHref": "../pages/twinkle-tolls.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1674.25,
+              "top": 1674.25,
+              "right": 344,
+              "bottom": 1724.890625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 02: Food Grocery shock, into Food Security.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-food.html",
+            "rawHref": "../pages/twinkle-food.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1727.28125,
+              "top": 1727.28125,
+              "right": 344,
+              "bottom": 1777.921875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 03: Insurance Premium pressure, into Risk and Mutual Care.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-insurance.html",
+            "rawHref": "../pages/twinkle-insurance.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1780.3125,
+              "top": 1780.3125,
+              "right": 344,
+              "bottom": 1830.953125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 04: Workforce AI job shock, into Workforce Transition.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-workforce.html",
+            "rawHref": "../pages/twinkle-workforce.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1833.34375,
+              "top": 1833.34375,
+              "right": 344,
+              "bottom": 1883.984375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 05: Housing Renter maths, into Housing Simulations.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-housing.html",
+            "rawHref": "../pages/twinkle-housing.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1886.375,
+              "top": 1886.375,
+              "right": 344,
+              "bottom": 1937.015625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 06: Power bills Rebate-cliff shock, into Public Assets.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-power.html",
+            "rawHref": "../pages/twinkle-power.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1939.40625,
+              "top": 1939.40625,
+              "right": 344,
+              "bottom": 1990.046875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 07: Health Gap-fee pain, into the Aura Clinical Path.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-health.html",
+            "rawHref": "../pages/twinkle-health.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1992.4375,
+              "top": 1992.4375,
+              "right": 344,
+              "bottom": 2043.078125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 08: Family violence A quiet one. Aimed at the system, into safe housing on demand.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-family-violence.html",
+            "rawHref": "../pages/twinkle-family-violence.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2045.46875,
+              "top": 2045.46875,
+              "right": 344,
+              "bottom": 2113.375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 09: Childcare Fees that eat a pay packet, into care funded as infrastructure.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-childcare.html",
+            "rawHref": "../pages/twinkle-childcare.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2115.765625,
+              "top": 2115.765625,
+              "right": 344,
+              "bottom": 2183.671875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 10: Beer tax The pub test in a pub, into the Civic Ledger.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-beer-tax.html",
+            "rawHref": "../pages/twinkle-beer-tax.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2186.0625,
+              "top": 2186.0625,
+              "right": 344,
+              "bottom": 2236.703125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 11: Data centres The local infrastructure bargain, into the Web3 Sensorium.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-datacentres.html",
+            "rawHref": "../pages/twinkle-datacentres.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2239.09375,
+              "top": 2239.09375,
+              "right": 344,
+              "bottom": 2307,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 12: Data breaches Breach fatigue, into the Sovereignty Stack.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-breaches.html",
+            "rawHref": "../pages/twinkle-breaches.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2309.390625,
+              "top": 2309.390625,
+              "right": 344,
+              "bottom": 2360.03125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 13: Resources Dig it up, ship it out, buy the feed. Into Public Assets and the Civic Ledger.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-resources.html",
+            "rawHref": "../pages/twinkle-resources.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2362.421875,
+              "top": 2362.421875,
+              "right": 344,
+              "bottom": 2430.328125,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 14: Triple Zero Four bars of 5G, zero for Triple Zero, into the Sovereignty Stack.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-triple-zero.html",
+            "rawHref": "../pages/twinkle-triple-zero.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2432.71875,
+              "top": 2432.71875,
+              "right": 344,
+              "bottom": 2500.625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 15: AUKUS / defence spending AUKUS commitments, opportunity costs and the public receipt.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-aukus.html",
+            "rawHref": "../pages/twinkle-aukus.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2503.015625,
+              "top": 2503.015625,
+              "right": 344,
+              "bottom": 2570.921875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 16: Lobbying and conflicts Lobbying, conflicts of interest and post-public-office employment.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-revolving-door.html",
+            "rawHref": "../pages/twinkle-revolving-door.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2573.3125,
+              "top": 2573.3125,
+              "right": 344,
+              "bottom": 2641.21875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 17: Donations Who paid for that ad, into real-time disclosure.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-donations.html",
+            "rawHref": "../pages/twinkle-donations.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2643.609375,
+              "top": 2643.609375,
+              "right": 344,
+              "bottom": 2694.25,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 18: Olympics Venue whiplash, into the Civic Surges legacy: stewards, healing, referendum.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-olympics.html",
+            "rawHref": "../pages/twinkle-olympics.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2696.640625,
+              "top": 2696.640625,
+              "right": 344,
+              "bottom": 2764.546875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 19: First Nations treaties First Nations treaties, agreement-making and the Treaty Atlas.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-treaty.html",
+            "rawHref": "../pages/twinkle-treaty.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2766.9375,
+              "top": 2766.9375,
+              "right": 344,
+              "bottom": 2834.84375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 20: UAP disclosure UAP observations, disclosure and source records in the Truth Engine.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-uap.html",
+            "rawHref": "../pages/twinkle-uap.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2837.234375,
+              "top": 2837.234375,
+              "right": 344,
+              "bottom": 2905.140625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 21: Climate change Climate change, long planning horizons and public risk models.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-deep-time.html",
+            "rawHref": "../pages/twinkle-deep-time.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2907.53125,
+              "top": 2907.53125,
+              "right": 344,
+              "bottom": 2975.4375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 22: PTSD PTSD, especially veterans and first responders: claims, care and repeated histories.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ptsd.html",
+            "rawHref": "../pages/twinkle-ptsd.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2977.828125,
+              "top": 2977.828125,
+              "right": 344,
+              "bottom": 3045.734375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Twinkle 23: AI copyright Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ai-copyright.html",
+            "rawHref": "../pages/twinkle-ai-copyright.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3048.125,
+              "top": 3048.125,
+              "right": 344,
+              "bottom": 3098.765625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 24: Child safety Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-child-safety.html",
+            "rawHref": "../pages/twinkle-child-safety.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3101.15625,
+              "top": 3101.15625,
+              "right": 344,
+              "bottom": 3151.796875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 25: Online safety A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-online-safety.html",
+            "rawHref": "../pages/twinkle-online-safety.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3154.1875,
+              "top": 3154.1875,
+              "right": 344,
+              "bottom": 3204.828125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 26: Gender pay gap A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-gender-pay-gap.html",
+            "rawHref": "../pages/twinkle-gender-pay-gap.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3207.21875,
+              "top": 3207.21875,
+              "right": 344,
+              "bottom": 3257.859375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 27: Closing the Gap A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-closing-the-gap.html",
+            "rawHref": "../pages/twinkle-closing-the-gap.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3260.25,
+              "top": 3260.25,
+              "right": 344,
+              "bottom": 3310.890625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 28: Youth crime A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-youth-crime.html",
+            "rawHref": "../pages/twinkle-youth-crime.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3313.28125,
+              "top": 3313.28125,
+              "right": 344,
+              "bottom": 3363.921875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 29: Wanted families A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-family-choices.html",
+            "rawHref": "../pages/twinkle-family-choices.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3366.3125,
+              "top": 3366.3125,
+              "right": 344,
+              "bottom": 3416.953125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 30: Marriage & divorce A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-marriage-divorce.html",
+            "rawHref": "../pages/twinkle-marriage-divorce.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3419.34375,
+              "top": 3419.34375,
+              "right": 344,
+              "bottom": 3469.984375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 31: Super for housing Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-super-housing.html",
+            "rawHref": "../pages/twinkle-super-housing.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3472.375,
+              "top": 3472.375,
+              "right": 344,
+              "bottom": 3523.015625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 32: Wealth inequality A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-wealth-inequality.html",
+            "rawHref": "../pages/twinkle-wealth-inequality.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3525.40625,
+              "top": 3525.40625,
+              "right": 344,
+              "bottom": 3576.046875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 33: Multinational tax Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-multinational-tax.html",
+            "rawHref": "../pages/twinkle-multinational-tax.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3578.4375,
+              "top": 3578.4375,
+              "right": 344,
+              "bottom": 3629.078125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 34: NDIS scams A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ndis-scams.html",
+            "rawHref": "../pages/twinkle-ndis-scams.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3631.46875,
+              "top": 3631.46875,
+              "right": 344,
+              "bottom": 3682.109375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 35: AI scams A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ai-scams.html",
+            "rawHref": "../pages/twinkle-ai-scams.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3684.5,
+              "top": 3684.5,
+              "right": 344,
+              "bottom": 3735.140625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 36: Aged-care scams A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-aged-care-scams.html",
+            "rawHref": "../pages/twinkle-aged-care-scams.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3737.53125,
+              "top": 3737.53125,
+              "right": 344,
+              "bottom": 3788.171875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 37: Gambling harm A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-gambling-harm.html",
+            "rawHref": "../pages/twinkle-gambling-harm.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3790.5625,
+              "top": 3790.5625,
+              "right": 344,
+              "bottom": 3841.203125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 38: Fuel tax Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-fuel.html",
+            "rawHref": "../pages/twinkle-fuel.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3843.59375,
+              "top": 3843.59375,
+              "right": 344,
+              "bottom": 3894.234375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 39: Tobacco tax Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-tobacco.html",
+            "rawHref": "../pages/twinkle-tobacco.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3896.625,
+              "top": 3896.625,
+              "right": 344,
+              "bottom": 3947.265625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 40: Migration equations A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-migration-equations.html",
+            "rawHref": "../pages/twinkle-migration-equations.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3949.65625,
+              "top": 3949.65625,
+              "right": 344,
+              "bottom": 4000.296875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 41: International wars A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-international-wars.html",
+            "rawHref": "../pages/twinkle-international-wars.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4002.6875,
+              "top": 4002.6875,
+              "right": 344,
+              "bottom": 4053.328125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 42: Security fallacies A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-security-fallacies.html",
+            "rawHref": "../pages/twinkle-security-fallacies.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4055.71875,
+              "top": 4055.71875,
+              "right": 344,
+              "bottom": 4106.359375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 43: Ancient aliens Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ancient-aliens.html",
+            "rawHref": "../pages/twinkle-ancient-aliens.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4108.75,
+              "top": 4108.75,
+              "right": 344,
+              "bottom": 4159.390625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 44: Mental health Evidence, options and a deeper policy room.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-mental-health.html",
+            "rawHref": "../pages/twinkle-mental-health.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4161.78125,
+              "top": 4161.78125,
+              "right": 344,
+              "bottom": 4212.421875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 45: Psychedelic care A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-psychedelic-mental-health.html",
+            "rawHref": "../pages/twinkle-psychedelic-mental-health.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4214.8125,
+              "top": 4214.8125,
+              "right": 344,
+              "bottom": 4265.453125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 46: Prohibited plants A public question with policy follow-through.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-restricted-plants.html",
+            "rawHref": "../pages/twinkle-restricted-plants.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4267.84375,
+              "top": 4267.84375,
+              "right": 344,
+              "bottom": 4318.484375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 47: Super investments My super. What is it buying?",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-super-investments.html",
+            "rawHref": "../pages/twinkle-super-investments.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4320.875,
+              "top": 4320.875,
+              "right": 344,
+              "bottom": 4371.515625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 48: Political lies Political lies. But the ad's authorised.",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-political-lies.html",
+            "rawHref": "../pages/twinkle-political-lies.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4373.90625,
+              "top": 4373.90625,
+              "right": 344,
+              "bottom": 4424.546875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Twinkle 49: AI p(doom) AI extinction odds. Any odds on a fair go?",
+            "destination": "http://127.0.0.1:8768/pages/twinkle-ai-pdoom.html",
+            "rawHref": "../pages/twinkle-ai-pdoom.html",
+            "parentSection": {
+              "category": "spark",
+              "label": "THE SPARK"
+            },
+            "rect": {
+              "x": 16,
+              "y": 4426.9375,
+              "top": 4426.9375,
+              "right": 344,
+              "bottom": 4477.578125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Price and tax Beer tax, resource rent and the public return.",
+            "destination": "http://127.0.0.1:8768/pages/price-tax.html",
+            "rawHref": "../pages/price-tax.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1791.6875,
+              "top": 1791.6875,
+              "right": 344,
+              "bottom": 1842.328125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Civic architecture Roots-up model: homes, neighbours, councils, states.",
+            "destination": "http://127.0.0.1:8768/pages/architecture.html",
+            "rawHref": "../pages/architecture.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1844.71875,
+              "top": 1844.71875,
+              "right": 344,
+              "bottom": 1912.625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Party constitution The internal rulebook workbench.",
+            "destination": "http://127.0.0.1:8768/pages/constitution.html",
+            "rawHref": "../pages/constitution.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1915.015625,
+              "top": 1915.015625,
+              "right": 344,
+              "bottom": 1965.65625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Law engine / Legal RAG Legal memory, citations, limits, human review.",
+            "destination": "http://127.0.0.1:8768/pages/legal-rag.html",
+            "rawHref": "../pages/legal-rag.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1968.046875,
+              "top": 1968.046875,
+              "right": 344,
+              "bottom": 2018.6875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "About the workbench What is implemented, source limits, project status and distinct sibling sites.",
+            "destination": "http://127.0.0.1:8768/pages/about.html",
+            "rawHref": "../pages/about.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2021.078125,
+              "top": 2021.078125,
+              "right": 344,
+              "bottom": 2088.984375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Treaty atlas Inherited agreements mapped: who they touch, who they serve, what to renew.",
+            "destination": "http://127.0.0.1:8768/pages/treaty-atlas.html",
+            "rawHref": "../pages/treaty-atlas.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2091.375,
+              "top": 2091.375,
+              "right": 344,
+              "bottom": 2159.28125,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Civic ledger Public records, contribution trails, repair memory.",
+            "destination": "http://127.0.0.1:8768/pages/civic-ledger.html",
+            "rawHref": "../pages/civic-ledger.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2161.671875,
+              "top": 2161.671875,
+              "right": 344,
+              "bottom": 2212.3125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "The fair go evolves A familiar Australian value moved into modern systems.",
+            "destination": "http://127.0.0.1:8768/pages/fair-go.html",
+            "rawHref": "../pages/fair-go.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2214.703125,
+              "top": 2214.703125,
+              "right": 344,
+              "bottom": 2282.609375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Housing simulations Housing as a right: models, C-Hours, ending homelessness.",
+            "destination": "http://127.0.0.1:8768/pages/housing-simulations.html",
+            "rawHref": "../pages/housing-simulations.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2285,
+              "top": 2285,
+              "right": 344,
+              "bottom": 2352.90625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Public assets Tolls, leases, ownership and long public memory.",
+            "destination": "http://127.0.0.1:8768/pages/public-assets.html",
+            "rawHref": "../pages/public-assets.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2355.296875,
+              "top": 2355.296875,
+              "right": 344,
+              "bottom": 2405.9375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Food security Waste, local production, logistics, resilience.",
+            "destination": "http://127.0.0.1:8768/pages/food-security.html",
+            "rawHref": "../pages/food-security.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2408.328125,
+              "top": 2408.328125,
+              "right": 344,
+              "bottom": 2458.96875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Risk and mutual care AI legal and contract support, then mutual protection.",
+            "destination": "http://127.0.0.1:8768/pages/community-insurance.html",
+            "rawHref": "../pages/community-insurance.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2461.359375,
+              "top": 2461.359375,
+              "right": 344,
+              "bottom": 2512,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Civic surges Volunteer energy and practical mobilisation.",
+            "destination": "http://127.0.0.1:8768/pages/civic-surges.html",
+            "rawHref": "../pages/civic-surges.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2514.390625,
+              "top": 2514.390625,
+              "right": 344,
+              "bottom": 2565.03125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Violence against women Safety, housing, prevention and recovery.",
+            "destination": "http://127.0.0.1:8768/pages/family-violence.html",
+            "rawHref": "../pages/family-violence.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2567.421875,
+              "top": 2567.421875,
+              "right": 344,
+              "bottom": 2618.0625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "AI copyright Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/ai-copyright.html",
+            "rawHref": "../pages/ai-copyright.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2620.453125,
+              "top": 2620.453125,
+              "right": 344,
+              "bottom": 2671.09375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Child safety Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/child-safety.html",
+            "rawHref": "../pages/child-safety.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2673.484375,
+              "top": 2673.484375,
+              "right": 344,
+              "bottom": 2724.125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Online safety Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/online-safety.html",
+            "rawHref": "../pages/online-safety.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2726.515625,
+              "top": 2726.515625,
+              "right": 344,
+              "bottom": 2777.15625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Gender pay gap Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/gender-pay-gap.html",
+            "rawHref": "../pages/gender-pay-gap.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2779.546875,
+              "top": 2779.546875,
+              "right": 344,
+              "bottom": 2830.1875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Closing the Gap Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/closing-the-gap.html",
+            "rawHref": "../pages/closing-the-gap.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2832.578125,
+              "top": 2832.578125,
+              "right": 344,
+              "bottom": 2883.21875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Youth crime Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/youth-crime.html",
+            "rawHref": "../pages/youth-crime.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2885.609375,
+              "top": 2885.609375,
+              "right": 344,
+              "bottom": 2936.25,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Wanted families Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/family-choices.html",
+            "rawHref": "../pages/family-choices.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2938.640625,
+              "top": 2938.640625,
+              "right": 344,
+              "bottom": 2989.28125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Marriage & divorce Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/marriage-divorce.html",
+            "rawHref": "../pages/marriage-divorce.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2991.671875,
+              "top": 2991.671875,
+              "right": 344,
+              "bottom": 3042.3125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Super for housing Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/super-housing.html",
+            "rawHref": "../pages/super-housing.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3044.703125,
+              "top": 3044.703125,
+              "right": 344,
+              "bottom": 3095.34375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Wealth inequality Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/wealth-inequality.html",
+            "rawHref": "../pages/wealth-inequality.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3097.734375,
+              "top": 3097.734375,
+              "right": 344,
+              "bottom": 3148.375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Multinational tax Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/multinational-tax.html",
+            "rawHref": "../pages/multinational-tax.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3150.765625,
+              "top": 3150.765625,
+              "right": 344,
+              "bottom": 3201.40625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "NDIS scams Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/ndis-scams.html",
+            "rawHref": "../pages/ndis-scams.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3203.796875,
+              "top": 3203.796875,
+              "right": 344,
+              "bottom": 3254.4375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "AI scams Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/ai-scams.html",
+            "rawHref": "../pages/ai-scams.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3256.828125,
+              "top": 3256.828125,
+              "right": 344,
+              "bottom": 3307.46875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Aged-care scams Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/aged-care-scams.html",
+            "rawHref": "../pages/aged-care-scams.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3309.859375,
+              "top": 3309.859375,
+              "right": 344,
+              "bottom": 3360.5,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Gambling harm Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/gambling-harm.html",
+            "rawHref": "../pages/gambling-harm.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3362.890625,
+              "top": 3362.890625,
+              "right": 344,
+              "bottom": 3413.53125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Fuel tax Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/fuel.html",
+            "rawHref": "../pages/fuel.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3415.921875,
+              "top": 3415.921875,
+              "right": 344,
+              "bottom": 3466.5625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Tobacco tax Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/tobacco.html",
+            "rawHref": "../pages/tobacco.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3468.953125,
+              "top": 3468.953125,
+              "right": 344,
+              "bottom": 3519.59375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Migration equations Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/migration-equations.html",
+            "rawHref": "../pages/migration-equations.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3521.984375,
+              "top": 3521.984375,
+              "right": 344,
+              "bottom": 3572.625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "International wars Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/international-wars.html",
+            "rawHref": "../pages/international-wars.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3575.015625,
+              "top": 3575.015625,
+              "right": 344,
+              "bottom": 3625.65625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Security fallacies Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/security-fallacies.html",
+            "rawHref": "../pages/security-fallacies.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3628.046875,
+              "top": 3628.046875,
+              "right": 344,
+              "bottom": 3678.6875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Ancient aliens Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/ancient-aliens.html",
+            "rawHref": "../pages/ancient-aliens.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3681.078125,
+              "top": 3681.078125,
+              "right": 344,
+              "bottom": 3731.71875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Mental health Public choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/mental-health.html",
+            "rawHref": "../pages/mental-health.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3734.109375,
+              "top": 3734.109375,
+              "right": 344,
+              "bottom": 3784.75,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Psychedelic care Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/psychedelic-mental-health.html",
+            "rawHref": "../pages/psychedelic-mental-health.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3787.140625,
+              "top": 3787.140625,
+              "right": 344,
+              "bottom": 3837.78125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Prohibited plants Evidence, choices and participation.",
+            "destination": "http://127.0.0.1:8768/pages/restricted-plants.html",
+            "rawHref": "../pages/restricted-plants.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3840.171875,
+              "top": 3840.171875,
+              "right": 344,
+              "bottom": 3890.8125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Super investments Holdings, fees, screens and member control.",
+            "destination": "http://127.0.0.1:8768/pages/super-investments.html",
+            "rawHref": "../pages/super-investments.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3893.203125,
+              "top": 3893.203125,
+              "right": 344,
+              "bottom": 3943.84375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "AI futures Doom, protopia, a fair go and joyful responsible abundance.",
+            "destination": "http://127.0.0.1:8768/pages/ai-pdoom.html",
+            "rawHref": "../pages/ai-pdoom.html",
+            "parentSection": {
+              "category": "system",
+              "label": "THE SYSTEM"
+            },
+            "rect": {
+              "x": 16,
+              "y": 3946.234375,
+              "top": 3946.234375,
+              "right": 344,
+              "bottom": 4014.140625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Starter field kit Market table, signs, QR trails, organiser basics.",
+            "destination": "http://127.0.0.1:8768/pages/starter-field-kit.html",
+            "rawHref": "../pages/starter-field-kit.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 1962.15625,
+              "top": 1962.15625,
+              "right": 344,
+              "bottom": 2012.796875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Civic twin builders L0 profiles, L1 meshes, L2 civic fronts.",
+            "destination": "http://127.0.0.1:8768/pages/civic-twin-builders.html",
+            "rawHref": "../pages/civic-twin-builders.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2015.1875,
+              "top": 2015.1875,
+              "right": 344,
+              "bottom": 2065.828125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "P4A local builder Build a self-similar local version of this site.",
+            "destination": "http://127.0.0.1:8768/pages/p4a-builder.html",
+            "rawHref": "../pages/p4a-builder.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2068.21875,
+              "top": 2068.21875,
+              "right": 344,
+              "bottom": 2118.859375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Private civic profile The L0 starting point. Private by default.",
+            "destination": "http://127.0.0.1:8768/pages/private-civic-profile-builder.html",
+            "rawHref": "../pages/private-civic-profile-builder.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2121.25,
+              "top": 2121.25,
+              "right": 344,
+              "bottom": 2171.890625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Noticeboard contracts Public notices and local agreements as Markdown.",
+            "destination": "http://127.0.0.1:8768/pages/noticeboard-contract-builder.html",
+            "rawHref": "../pages/noticeboard-contract-builder.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2174.28125,
+              "top": 2174.28125,
+              "right": 344,
+              "bottom": 2224.921875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "C-Hour receipts Contribution-hour receipts for the braided economy.",
+            "destination": "http://127.0.0.1:8768/pages/c-hour-receipt-builder.html",
+            "rawHref": "../pages/c-hour-receipt-builder.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2227.3125,
+              "top": 2227.3125,
+              "right": 344,
+              "bottom": 2277.953125,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Minjerribah Island-scale thinking. The live L1 test ground.",
+            "destination": "http://127.0.0.1:8768/pages/minjerribah.html",
+            "rawHref": "../pages/minjerribah.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2280.34375,
+              "top": 2280.34375,
+              "right": 344,
+              "bottom": 2330.984375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Deployment gear Support bundles, hoodies and culture objects.",
+            "destination": "http://127.0.0.1:8768/pages/deployment-gear.html",
+            "rawHref": "../pages/deployment-gear.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2333.375,
+              "top": 2333.375,
+              "right": 344,
+              "bottom": 2384.015625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Gear store (design test) Not a shop. A rapid-iteration sketch: the ladder, kits, dated prices, open books.",
+            "destination": "http://127.0.0.1:8768/pages/gear-store.html",
+            "rawHref": "../pages/gear-store.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2386.40625,
+              "top": 2386.40625,
+              "right": 344,
+              "bottom": 2454.3125,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Colour panel First principles: the exact purples, plus dyes, paints and threads. Images over words.",
+            "destination": "http://127.0.0.1:8768/pages/colour-panel.html",
+            "rawHref": "../pages/colour-panel.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2456.703125,
+              "top": 2456.703125,
+              "right": 344,
+              "bottom": 2524.609375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Gear test store (design test) Checkout sketch. Takes no money; no keys connected.",
+            "destination": "http://127.0.0.1:8768/pages/test-store1.html",
+            "rawHref": "../pages/test-store1.html",
+            "parentSection": {
+              "category": "ground",
+              "label": "THE GROUND GAME"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2527,
+              "top": 2527,
+              "right": 344,
+              "bottom": 2594.90625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Aura politics AI, care, public trust and civic architecture.",
+            "destination": "http://127.0.0.1:8768/pages/aura-politics.html",
+            "rawHref": "../pages/aura-politics.html",
+            "parentSection": {
+              "category": "culture",
+              "label": "CULTURE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2132.625,
+              "top": 2132.625,
+              "right": 344,
+              "bottom": 2183.265625,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Clinical pathways From a care task through consent, evaluation and professional responsibility.",
+            "destination": "http://127.0.0.1:8768/pages/aura-clinical-path.html",
+            "rawHref": "../pages/aura-clinical-path.html",
+            "parentSection": {
+              "category": "culture",
+              "label": "CULTURE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2185.65625,
+              "top": 2185.65625,
+              "right": 344,
+              "bottom": 2253.5625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Dementia and aged care Digital memoirs, everyday preferences, carers, consent and research evidence.",
+            "destination": "http://127.0.0.1:8768/pages/dementia-aged-care.html",
+            "rawHref": "../pages/dementia-aged-care.html",
+            "parentSection": {
+              "category": "culture",
+              "label": "CULTURE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2255.953125,
+              "top": 2255.953125,
+              "right": 344,
+              "bottom": 2323.859375,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "PTSD care and claims Named human support, consent, continuity and claims coordination.",
+            "destination": "http://127.0.0.1:8768/pages/ptsd.html",
+            "rawHref": "../pages/ptsd.html",
+            "parentSection": {
+              "category": "culture",
+              "label": "CULTURE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2326.25,
+              "top": 2326.25,
+              "right": 344,
+              "bottom": 2394.15625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Alien necklace film Fiction threshold and creative world-building.",
+            "destination": "http://127.0.0.1:8768/pages/alien-necklace-film.html",
+            "rawHref": "../pages/alien-necklace-film.html",
+            "parentSection": {
+              "category": "culture",
+              "label": "CULTURE"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2396.546875,
+              "top": 2396.546875,
+              "right": 344,
+              "bottom": 2447.1875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Victoria election 2026 Dates, participation routes and sourced candidate announcements.",
+            "destination": "http://127.0.0.1:8768/states/vic/election/index.html",
+            "rawHref": "../states/vic/election/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2387.3125,
+              "top": 2387.3125,
+              "right": 344,
+              "bottom": 2455.21875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Victoria First Peoples recognition Community sources, RAP and settlement recognition; not a complete map of Country.",
+            "destination": "http://127.0.0.1:8768/states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa",
+            "rawHref": "../states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2457.609375,
+              "top": 2457.609375,
+              "right": 344,
+              "bottom": 2525.515625,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Victoria state electorate atlas Official districts and upper-house regions, with sourced statistics and public member records.",
+            "destination": "http://127.0.0.1:8768/states/vic/map/index.html",
+            "rawHref": "../states/vic/map/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2527.90625,
+              "top": 2527.90625,
+              "right": 344,
+              "bottom": 2595.8125,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "National state map All eight portals from one map.",
+            "destination": "http://127.0.0.1:8768/pages/states.html",
+            "rawHref": "../pages/states.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2598.203125,
+              "top": 2598.203125,
+              "right": 344,
+              "bottom": 2648.84375,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "State histories Jurisdiction histories generated from Markdown.",
+            "destination": "http://127.0.0.1:8768/pages/state-history.html",
+            "rawHref": "../pages/state-history.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2651.234375,
+              "top": 2651.234375,
+              "right": 344,
+              "bottom": 2701.875,
+              "left": 16,
+              "width": 328,
+              "height": 50.640625
+            }
+          },
+          {
+            "text": "Find a council or electorate Choose a jurisdiction, then its council, state or federal areas.",
+            "destination": "http://127.0.0.1:8768/pages/places.html",
+            "rawHref": "../pages/places.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2704.265625,
+              "top": 2704.265625,
+              "right": 344,
+              "bottom": 2772.171875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "Redlands local journey A deeper local example, reached through Queensland and its council map.",
+            "destination": "http://127.0.0.1:8768/states/qld/councils/redland/index.html",
+            "rawHref": "../states/qld/councils/redland/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2774.5625,
+              "top": 2774.5625,
+              "right": 344,
+              "bottom": 2842.46875,
+              "left": 16,
+              "width": 328,
+              "height": 67.90625
+            }
+          },
+          {
+            "text": "QLDQueensland",
+            "destination": "http://127.0.0.1:8768/states/qld/index.html",
+            "rawHref": "../states/qld/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2856.0625,
+              "top": 2856.0625,
+              "right": 141.28125,
+              "bottom": 2892.859375,
+              "left": 16,
+              "width": 125.28125,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "NSWNew South Wales",
+            "destination": "http://127.0.0.1:8768/states/nsw/index.html",
+            "rawHref": "../states/nsw/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 148.46875,
+              "y": 2856.0625,
+              "top": 2856.0625,
+              "right": 303.5625,
+              "bottom": 2892.859375,
+              "left": 148.46875,
+              "width": 155.09375,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "VICVictoria",
+            "destination": "http://127.0.0.1:8768/states/vic/index.html",
+            "rawHref": "../states/vic/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2900.046875,
+              "top": 2900.046875,
+              "right": 115.65625,
+              "bottom": 2936.84375,
+              "left": 16,
+              "width": 99.65625,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "WAWestern Australia",
+            "destination": "http://127.0.0.1:8768/states/wa/index.html",
+            "rawHref": "../states/wa/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 122.84375,
+              "y": 2900.046875,
+              "top": 2900.046875,
+              "right": 269.84375,
+              "bottom": 2936.84375,
+              "left": 122.84375,
+              "width": 147,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "SASouth Australia",
+            "destination": "http://127.0.0.1:8768/states/sa/index.html",
+            "rawHref": "../states/sa/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2944.03125,
+              "top": 2944.03125,
+              "right": 150.15625,
+              "bottom": 2980.828125,
+              "left": 16,
+              "width": 134.15625,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "TASTasmania",
+            "destination": "http://127.0.0.1:8768/states/tas/index.html",
+            "rawHref": "../states/tas/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 157.34375,
+              "y": 2944.03125,
+              "top": 2944.03125,
+              "right": 268.71875,
+              "bottom": 2980.828125,
+              "left": 157.34375,
+              "width": 111.375,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "ACTACT",
+            "destination": "http://127.0.0.1:8768/states/act/index.html",
+            "rawHref": "../states/act/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2988.015625,
+              "top": 2988.015625,
+              "right": 97.890625,
+              "bottom": 3024.8125,
+              "left": 16,
+              "width": 81.890625,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "NTNorthern Territory",
+            "destination": "http://127.0.0.1:8768/states/nt/index.html",
+            "rawHref": "../states/nt/index.html",
+            "parentSection": {
+              "category": "states",
+              "label": "STATES AND TERRITORIES"
+            },
+            "rect": {
+              "x": 105.078125,
+              "y": 2988.015625,
+              "top": 2988.015625,
+              "right": 252.40625,
+              "bottom": 3024.8125,
+              "left": 105.078125,
+              "width": 147.328125,
+              "height": 36.796875
+            }
+          },
+          {
+            "text": "Fork on GitHub",
+            "destination": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+            "rawHref": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2420.296875,
+              "top": 2420.296875,
+              "right": 160.515625,
+              "bottom": 2457.890625,
+              "left": 16,
+              "width": 144.515625,
+              "height": 37.59375
+            }
+          },
+          {
+            "text": "Localise with an agent",
+            "destination": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md",
+            "rawHref": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2467.484375,
+              "top": 2467.484375,
+              "right": 226.40625,
+              "bottom": 2505.078125,
+              "left": 16,
+              "width": 210.40625,
+              "height": 37.59375
+            }
+          },
+          {
+            "text": "Strange But True - live L1 example",
+            "destination": "https://auraofintelligence.github.io/strange-but-true/",
+            "rawHref": "https://auraofintelligence.github.io/strange-but-true/",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2514.671875,
+              "top": 2514.671875,
+              "right": 325.25,
+              "bottom": 2552.265625,
+              "left": 16,
+              "width": 309.25,
+              "height": 37.59375
+            }
+          },
+          {
+            "text": "Native Nations - global, nation-led Country, rights and self-description",
+            "destination": "https://auraofintelligence.github.io/p4a-native-nations-cinema/",
+            "rawHref": "https://auraofintelligence.github.io/p4a-native-nations-cinema/",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2561.859375,
+              "top": 2561.859375,
+              "right": 344,
+              "bottom": 2619.421875,
+              "left": 16,
+              "width": 328,
+              "height": 57.5625
+            }
+          },
+          {
+            "text": "P4A Oceania - regional places, relationships and shared currents",
+            "destination": "https://auraofintelligence.github.io/p4a-oceania-cinema/",
+            "rawHref": "https://auraofintelligence.github.io/p4a-oceania-cinema/",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2629.015625,
+              "top": 2629.015625,
+              "right": 344,
+              "bottom": 2686.578125,
+              "left": 16,
+              "width": 328,
+              "height": 57.5625
+            }
+          },
+          {
+            "text": "Cosmic Nexus - myth, UAP and travel atlas",
+            "destination": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
+            "rawHref": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2696.171875,
+              "top": 2696.171875,
+              "right": 344,
+              "bottom": 2753.734375,
+              "left": 16,
+              "width": 328,
+              "height": 57.5625
+            }
+          },
+          {
+            "text": "Travel Oracle - self-sovereign travel-life navigation",
+            "destination": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/",
+            "rawHref": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/",
+            "parentSection": null,
+            "rect": {
+              "x": 16,
+              "y": 2763.328125,
+              "top": 2763.328125,
+              "right": 344,
+              "bottom": 2820.890625,
+              "left": 16,
+              "width": 328,
+              "height": 57.5625
+            }
+          }
+        ],
+        "triggers": [
+          {
+            "text": "INDEX",
+            "label": null,
+            "ariaExpanded": "true",
+            "visible": true,
+            "rect": {
+              "x": 277.46875,
+              "y": 11.59375,
+              "top": 11.59375,
+              "right": 359,
+              "bottom": 55.59375,
+              "left": 277.46875,
+              "width": 81.53125,
+              "height": 44
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+  "testedPagePaths": [
+    "index.html",
+    "pages/places.html",
+    "content/places/qa/navigation-fixture.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/navigation-fixture.html",
+    "content/places/qa/nav-deduplicated-desktop.png"
+  ],
+  "limits": [
+    "Full-text search retains distinct related pages; the UAP Twinkle mentions Truth Engine in its description and is not a duplicate destination.",
+    "This review covers changed navigation only; prior direct-destination, broader responsive, source/maps and typography reviews retain their dated archived scopes.",
+    "No physical-device, screen-reader or complete per-place source review is claimed."
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+      "bytes": 6817
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "776da806d63e4846b0b2d4128eaf83f50efe26734220523f3069457f61b73c20",
+      "bytes": 34362
+    },
+    {
+      "path": "content/places/qa/nav-deduplicated-desktop.png",
+      "sha256": "5978af581a283c74b1cef324b24558c07d0c8822f89a95dd2a0b283ac6124cdf",
+      "bytes": 67102
+    },
+    {
+      "path": "content/places/qa/navigation-fixture.html",
+      "sha256": "c490e9d9d9388c6eeea4c8733eadf079b80a727020518f32312a07d077637ce3",
+      "bytes": 5091
+    },
+    {
+      "path": "index.html",
+      "sha256": "de651150fea19188aaf9b4d21a9480413a0dd4fceaef0d7586a96745316e30b3",
+      "bytes": 32897
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "c76661e48de9f43af531b6c2ba252de9eaf6ca36157dbbb072fec9707f8cd88d",
+      "bytes": 6569
+    },
+    {
+      "path": "styles.css",
+      "sha256": "24d40bb1233902618716565d576bf3a961b7d1aac67e9449006236c2f66868b3",
+      "bytes": 137195
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "46d998ef28b6f48998edb9e73b43905f133962b1ce287d1080abf43094784892",
+      "bytes": 36399
+    }
+  ]
+}

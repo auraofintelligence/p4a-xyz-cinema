@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "title": "Coffs Harbour — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-11800",
+    "kind": "council",
+    "name": "Coffs Harbour",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/649",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/coffs-harbour/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/649/id",
+      "expected": "nsw-council-11800"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/649/name",
+      "expected": "Coffs Harbour"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/649/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/649",
+      "expected": {
+        "id": "nsw-council-11800",
+        "name": "Coffs Harbour",
+        "slug": "coffs-harbour",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "6561",
+        "officialUrl": "https://www.coffsharbour.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-coffs-harbour-councillors",
+          "council-nsw-2024-coffs-harbour-mayor"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Nikki Williams",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "George Cecato",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Paul Amos",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jonathon Cassell",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Cath Fowler",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Tony Judge",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Les Oxford",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Gurminder Saro",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Julie Sechi",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.coffsharbour.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-11800-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-11800-ordinary-2024-councillors",
+            "label": "2024 Coffs Harbour â€” Councillors",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+            "candidates": [
+              {
+                "name": "WILLIAMS Nikki",
+                "status": "contested",
+                "votes": 1363,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "FOWLER Cath",
+                "status": "elected",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "OXFORD Les",
+                "status": "elected",
+                "votes": 30,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "SARO Gurminder",
+                "status": "elected",
+                "votes": 72,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "GOSLING Matt",
+                "status": "contested",
+                "votes": 54,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "OTHMAN Falak",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "HAYES Clinton",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "HAIGH Barbara",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "MANSON Neil",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "FOX Rodney",
+                "status": "contested",
+                "votes": 302,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "BOURNE Nicole",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "THOMPSON-BLAIR Michael",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "MITCHELL-ADAMS Dudley",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "O'BRIEN John",
+                "status": "contested",
+                "votes": 125,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "BRAUN Jasmine",
+                "status": "contested",
+                "votes": 2,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "SKOLUDEK Dorothea",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "O'BRIEN Kristel",
+                "status": "contested",
+                "votes": 3,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "CASSELL Jonathan",
+                "status": "elected",
+                "votes": 291,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "NOTT Tim",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "GERLACH Eugenie",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SHERWOOD Elaine",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "LA MER-ADAIR Olivier",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CECATO George",
+                "status": "elected",
+                "votes": 339,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "YOUNG Jesse",
+                "status": "contested",
+                "votes": 39,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "DIX Jeffrey (Jack)",
+                "status": "contested",
+                "votes": 66,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "CROSS Tiga",
+                "status": "contested",
+                "votes": 20,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "CULGAN Matthew",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "LISTKOW Katherine",
+                "status": "contested",
+                "votes": 3,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "SWAN Tegan",
+                "status": "contested",
+                "votes": 320,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "BLACKWELL Marcus",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "CRAIG Lucas",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "NICHOLS Lisa",
+                "status": "contested",
+                "votes": 53,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "BROWNE Mel",
+                "status": "contested",
+                "votes": 7,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "AMOS Paul",
+                "status": "elected",
+                "votes": 1184,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "SECHI Julie",
+                "status": "elected",
+                "votes": 37,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "WOLGAMOT Scott",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "TOWNLEY Sally",
+                "status": "contested",
+                "votes": 139,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor"
+              },
+              {
+                "name": "JUDGE Tony",
+                "status": "elected",
+                "votes": 419,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "OO Htun Htun",
+                "status": "contested",
+                "votes": 118,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DUROW Lealah",
+                "status": "contested",
+                "votes": 8,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HUNTER Glenis",
+                "status": "contested",
+                "votes": 6,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WILSON Danny",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 4206,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Councillors",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-11800-ordinary-2024-mayor",
+            "label": "2024 Coffs Harbour â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+            "candidates": [
+              {
+                "name": "AMOS Paul",
+                "status": "contested",
+                "votes": 12591,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "WILLIAMS Nikki",
+                "status": "elected",
+                "votes": 15411,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "CASSELL Jonathan",
+                "status": "contested",
+                "votes": 3546,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "The Greens NSW"
+              },
+              {
+                "name": "CECATO George",
+                "status": "contested",
+                "votes": 4066,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "SWAN Tegan",
+                "status": "contested",
+                "votes": 4007,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "JUDGE Tony",
+                "status": "contested",
+                "votes": 4204,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              },
+              {
+                "name": "FOX Rodney",
+                "status": "contested",
+                "votes": 3214,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/coffs-harbour/mayoral",
+                "party": "Independent"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "11800",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

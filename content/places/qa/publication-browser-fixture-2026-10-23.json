@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-10-23T11:27:48+10:00",
+  "browser": "Codex in-app Chromium",
+  "baseUrl": "http://127.0.0.1:8778/",
+  "observedScenarios": [
+    {
+      "id": "national-directory-desktop-and-responsive",
+      "status": "PASS",
+      "paths": [
+        "pages/places.html"
+      ],
+      "metrics": {
+        "viewports": [
+          [
+            1280,
+            720
+          ],
+          [
+            680,
+            900
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "phoneScrollWidth": 375,
+        "tabletScrollWidth": 665,
+        "eightJurisdictions": true,
+        "phoneCardHeadingFontPx": 20.48,
+        "screenshotsVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "index-and-balanced-australia-footer",
+      "status": "PASS",
+      "paths": [
+        "index.html",
+        "pages/places.html"
+      ],
+      "metrics": {
+        "themes": [
+          "start",
+          "spark",
+          "system",
+          "ground",
+          "states"
+        ],
+        "entries": 132,
+        "primaryIdeas": 9,
+        "defaultStartOpen": true,
+        "emptySearch": "0 OF 132 ROOMS MATCH",
+        "clearRestored": true,
+        "escapeCloses": true,
+        "australiaPortalCount": 8,
+        "duplicateChips": 0,
+        "phoneScrollWidth": 375
+      }
+    },
+    {
+      "id": "nsw-council-search-select-open",
+      "status": "PASS",
+      "paths": [
+        "states/nsw/places/councils/index.html",
+        "states/nsw/councils/ballina/index.html"
+      ],
+      "metrics": {
+        "search": "Ballina",
+        "results": 1,
+        "selection": "Ballina · selected",
+        "openRoute": "states/nsw/councils/ballina/index.html",
+        "phoneScrollWidth": 375,
+        "screenshotsVisuallyReviewed": true
+      }
+    },
+    {
+      "id": "sa-current-edition-state-electorate",
+      "status": "PASS",
+      "paths": [
+        "states/sa/electorates/districts/ngadjuri/index.html"
+      ],
+      "metrics": {
+        "heading": "Ngadjuri",
+        "selection": "Ngadjuri · selected",
+        "selectedLayer": "House of Assembly districts — 2026 election",
+        "historicalEditionOfferedSeparately": true
+      }
+    },
+    {
+      "id": "wa-federal-map-and-controls",
+      "status": "PASS",
+      "paths": [
+        "states/wa/federal/perth/index.html"
+      ],
+      "metrics": {
+        "selection": "Perth · selected",
+        "servingBoundaryEdition": "2025 election / serving representation",
+        "senateLinkSeparate": true,
+        "zoomInAndSelectedAreaControls": true,
+        "screenshotsVisuallyReviewed": true
+      }
+    }
+  ]
+}

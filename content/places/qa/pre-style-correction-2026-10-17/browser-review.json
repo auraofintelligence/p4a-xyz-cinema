@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Actual representative shared-renderer browser fixtures only, as recorded; not full per-place source, browser or accessibility acceptance.",
+  "environment": {
+    "browser": "Codex in-app Chromium browser",
+    "baseUrl": "http://127.0.0.1:8768",
+    "viewport": {
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "clientWidth": 1265,
+      "devicePixelRatio": 1
+    },
+    "responsiveMethod": "Real same-origin iframe widths 390, 680 and 1200 CSS px; observed DPR 1; physical touch and phone hardware not emulated."
+  },
+  "fixtures": [
+    {
+      "id": "qld-existing-brisbane-open",
+      "status": "pass",
+      "steps": [
+        "Existing Queensland council search Brisbane returned one result",
+        "Selected Brisbane City and observed council=1000 URL and sourced Open destination",
+        "Open loaded Brisbane City dedicated page, distinct breadcrumbs, one Canvas map and explicit current-office/history coverage gaps"
+      ],
+      "metrics": {
+        "h1": "BRISBANE CITY",
+        "mapCount": 1,
+        "path": "/states/qld/councils/brisbane-city/index.html",
+        "scrollWidth": 1265,
+        "width": 1265
+      },
+      "supersededForCurrentRosterBy": "rebuilt-qld-current-vs-ballot"
+    },
+    {
+      "id": "qld-existing-redland-preserved",
+      "status": "pass",
+      "steps": [
+        "Browser Back restored council=1000 and Brisbane Open link",
+        "Search Redland and select restored council=6250",
+        "Open Redland City retains the existing Redlands overview destination",
+        "Inspected the settled selected boundary, coast and islands over quiet licensed raster; source credits and controls remain visible"
+      ],
+      "screenshot": "content/places/qa/resumed-qld-map.png"
+    },
+    {
+      "id": "redland-existing-overview",
+      "status": "pass",
+      "steps": [
+        "Open Redland City landed on original Redlands overview, preserving the deeper journey"
+      ],
+      "metrics": {
+        "canvas": 1,
+        "h1": "REDLANDS, FROM THE GROUND UP.",
+        "path": "/states/qld/councils/redland/index.html"
+      }
+    },
+    {
+      "id": "qld-existing-390-layout",
+      "status": "pass",
+      "metrics": {
+        "path": "/states/qld/councils/index.html",
+        "requestedWidth": 390,
+        "innerWidth": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "QUEENSLAND, COUNCIL BY COUNCIL.",
+        "canvas": [
+          {
+            "cssWidth": 337,
+            "bitmapWidth": 337,
+            "cssHeight": 420
+          }
+        ],
+        "search": ""
+      },
+      "limitations": [
+        "390 CSS-pixel browser frame with a 375-pixel content width after scrollbar; DPR1. No physical phone or touch claim."
+      ]
+    },
+    {
+      "id": "tas-lc-complete-gzip",
+      "status": "pass",
+      "steps": [
+        "Murchison loaded from the complete 15-division licensed gzip layer; busy=false and sourced selection restored",
+        "Selected area button displayed west-coast Murchison and King Island over registered raster",
+        "Clicked King Island polygon at visible screen position; Murchison stable selection and area URL verified",
+        "Keyboard plus visibly zoomed and retained focus; Home reset completed",
+        "Search McIntyre returned one region"
+      ],
+      "screenshot": "content/places/qa/tas-council-murchison.png",
+      "limitations": [
+        "Large exact layer has substantial initial download/decoding cost; no universal performance claim. No physical touch test."
+      ]
+    },
+    {
+      "id": "tas-mcintyre-open",
+      "status": "pass",
+      "steps": [
+        "Search selected McIntyre using source LEG_CNL_ID 100031",
+        "Open reached the dedicated McIntyre route with the same layer and area query"
+      ],
+      "metrics": {
+        "h1": "MCINTYRE",
+        "path": "/states/tas/electorates/regions/mcintyre/index.html?layer=state-tas-council-2017&area=state-tas-lc-100031"
+      }
+    },
+    {
+      "id": "sa-current-ngadjuri",
+      "status": "pass",
+      "steps": [
+        "SA state directory defaulted to the 2026 House layer, distinct from historical national May2025 layer",
+        "Ngadjuri search returned one current area; selected and Open retained current layer/area identifiers",
+        "Dedicated page has independently sourced current representation and separate 2026 House contestant event"
+      ],
+      "metrics": {
+        "events": [
+          "2026 House of Assembly election",
+          "Next ordinary SA state/territory election"
+        ],
+        "path": "/states/sa/electorates/districts/ngadjuri/index.html?layer=state-sa-assembly-2026&area=state-sa-2026-ngadjuri",
+        "people": "CURRENT REPRESENTATION\nDavid Paton\n\nHouse of Assembly member · Pauline Hanson's One Nation\n\nDated current-office snapshot · source checked 2026-10-17\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.",
+        "scrollWidth": 1265,
+        "width": 1265
+      }
+    },
+    {
+      "id": "sa-historical-frome",
+      "status": "pass",
+      "steps": [
+        "Changed the same overview map to the distinct historical May2025 layer",
+        "Search Frome selected one historical record and Open retained historical layer/area query",
+        "Frome page does not inherit the Ngadjuri current member"
+      ],
+      "metrics": {
+        "path": "/states/sa/electorates/districts/frome/index.html?layer=state-sa-assembly-2025&area=state-sa-sa18500073",
+        "people": "CURRENT REPRESENTATION\n\nIndividual current-office records have not yet been verified in this collection. Use the official directory below for the current roster; an earlier election winner is not automatically a current officeholder.\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.",
+        "sources": "rced edition; they do not determine a person's current address entitlement.\n\nDigital Atlas of Australia / Geoscape SA electoral boundary source · checked 2026-10-17. CC BY 4.0; source-specific Geoscape attributions retained\nHistorical district in the retained May 2025 national layer. Absent from the official 2026 district roster. No current member or next election is assigned; current Ngadjuri is a separate place, with no assumed one-to-one correspondence.\n\nCanonical records, dates and source references · Map source editions and delivery checks"
+      },
+      "supersededForCurrentWordingBy": "rebuilt-historical-frome-wording"
+    },
+    {
+      "id": "federal-next-edition",
+      "status": "pass",
+      "steps": [
+        "Switched one SA federal map from serving2025 to proclaimed2026 next-election layer",
+        "Search/select/Open ODonoghue preserved next-edition layer/area in route",
+        "Dedicated page explicitly has no current member under that edition, no previous-election contestant table, and no unannounced exact election countdown"
+      ],
+      "metrics": {
+        "candidateRows": 0,
+        "eventTitles": [
+          "First election under the name O'Donoghue"
+        ],
+        "path": "/states/sa/federal/odonoghue/index.html?layer=federal-house-sa-2026-next&area=federal-house-975",
+        "people": "CURRENT REPRESENTATION\n\nThis is a division for the next election on the newly determined boundaries. It does not yet have an elected member under that edition. Serving representation and previous results remain attached to their applicable historical/current areas.\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred."
+      }
+    },
+    {
+      "id": "shared-index",
+      "status": "pass",
+      "steps": [
+        "Shared Index opened from a national place page",
+        "Focus moved to Filter the index",
+        "Close index closed the panel and collapsed the trigger"
+      ]
+    },
+    {
+      "id": "national-390-layout",
+      "status": "pass",
+      "metrics": {
+        "path": "/states/sa/federal/odonoghue/index.html?layer=federal-house-sa-2026-next&area=federal-house-975",
+        "requestedWidth": 390,
+        "innerWidth": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "O'DONOGHUE",
+        "canvas": [
+          {
+            "cssWidth": 341,
+            "bitmapWidth": 341,
+            "cssHeight": 360
+          }
+        ],
+        "search": ""
+      },
+      "limitations": [
+        "390 CSS-pixel browser frame, 375px content width with scrollbar, DPR1; no physical touch or phone claim."
+      ],
+      "screenshot": "content/places/qa/national-390.png"
+    },
+    {
+      "id": "ward-680-layout",
+      "status": "pass",
+      "metrics": {
+        "path": "/states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+        "requestedWidth": 680,
+        "innerWidth": 680,
+        "clientWidth": 665,
+        "scrollWidth": 665,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "THAMARRURR/PINDI PINDI WARD",
+        "canvas": [
+          {
+            "cssWidth": 622.21875,
+            "bitmapWidth": 622,
+            "cssHeight": 430
+          }
+        ],
+        "search": ""
+      },
+      "limitations": [
+        "680 CSS-pixel browser frame (665px content width), DPR1. No physical tablet/touch claim."
+      ]
+    },
+    {
+      "id": "bare-historical-back",
+      "status": "pass",
+      "steps": [
+        "Opened bare Frome detail URL with historical initial layer while current2026 layer also available",
+        "Switched to current2026 layer, then used browser Back",
+        "Bare URL and historical layer selection were restored correctly"
+      ],
+      "metrics": {
+        "layer": "state-sa-assembly-2025",
+        "message": "Frome · selected",
+        "path": "/states/sa/electorates/districts/frome/index.html"
+      }
+    },
+    {
+      "id": "retained-raster-fallback-and-controls",
+      "status": "pass",
+      "steps": [
+        "Loaded a clearly labelled QA fixture using actual retained boundaries/raster and an intentionally missing localhost online-detail endpoint",
+        "Toggled detailed map; observed explicit Online detail unavailable message while retained geographic raster and exact boundaries remained visible",
+        "Pointer drag visibly moved boundary and raster together; wheel zoom visibly changed scale; Whole layer reset worked",
+        "Impossible search displayed no matching guidance; 78 static text destinations remained present; clearing restored 78 map results"
+      ],
+      "metrics": {
+        "count": "78 matching areas",
+        "message": "Online detail unavailable; retained geographic background remains.",
+        "path": "/content/places/qa/network-fallback.html",
+        "scrollWidth": 1265,
+        "staticLinks": 78,
+        "width": 1265
+      },
+      "fixture": "content/places/qa/network-fallback.html",
+      "limitations": [
+        "Failure was deliberately simulated through a missing local endpoint. The national retained raster is coarse at local zoom; no street-level offline detail or physical touch claim."
+      ]
+    },
+    {
+      "id": "rebuilt-historical-frome-wording",
+      "status": "PASS",
+      "steps": [
+        "Opened rebuilt historical Frome directly; explicit historical boundary and no-current-member explanation present; current Ngadjuri stays separate."
+      ],
+      "metrics": {
+        "historical": [
+          "Historical boundary record. This area is retained for the earlier source edition; it is not a current electoral district."
+        ],
+        "people": "CURRENT REPRESENTATION\n\nThis record preserves a historical boundary edition. No current member is assigned to it. Consult the current electoral-area directory for serving representation; historical boundaries and contests remain separate.\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.",
+        "url": "http://127.0.0.1:8768/states/sa/electorates/districts/frome/index.html"
+      }
+    },
+    {
+      "id": "rebuilt-wa-ward-roster",
+      "status": "PASS",
+      "steps": [
+        "Direct Osborne Ward route names Teresa Olow and Lisa Thornton, uses one Canvas, and visibly retains March 2026 roster date with subsequent changes unverified."
+      ],
+      "metrics": {
+        "canvases": 1,
+        "people": "CURRENT REPRESENTATION\nTeresa Olow\n\nCouncillor\n\nPublished WALGA roster as at March2026; subsequent changes unverified · source checked 2026-10-17\n\nPublic website Name links to the official roster.\n\nLisa Thornton\n\nCouncillor\n\nPublished WALGA roster as at March2026; subsequent changes unverified · source checked 2026-10-17\n\nPublic website Name links to the official roster.\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.",
+        "url": "http://127.0.0.1:8768/states/wa/local-electoral-areas/wa-ward-wad004e424f5e5a/index.html"
+      }
+    },
+    {
+      "id": "rebuilt-qld-current-vs-ballot",
+      "status": "PASS",
+      "steps": [
+        "Rebuilt Brisbane page independently names current mayor Adrian Schrinner with 17 October check; historical ballot contexts remain separate from current office."
+      ],
+      "metrics": {
+        "eventCount": 28,
+        "people": "CURRENT REPRESENTATION\nAdrian Schrinner\n\nMayor\n\nIndependently named in the official Queensland Government directory checked 17 October 2026 · source checked 2026-10-17\n\nPublic website Name links to the official roster.\n\nOfficial place / representative directory\n\nCurrent office, previous contestants and future candidacy are separate records. Published affiliation and links retain their source dates; no recontest is inferred.",
+        "url": "http://127.0.0.1:8768/states/qld/councils/brisbane-city/index.html"
+      }
+    },
+    {
+      "id": "rebuilt-nt-ward-680-layout",
+      "status": "PASS",
+      "metrics": {
+        "path": "/states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+        "requestedWidth": 680,
+        "innerWidth": 680,
+        "clientWidth": 665,
+        "scrollWidth": 665,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "THAMARRURR/PINDI PINDI WARD",
+        "canvas": [
+          {
+            "cssWidth": 622.21875,
+            "bitmapWidth": 622,
+            "cssHeight": 430
+          }
+        ],
+        "search": ""
+      },
+      "screenshot": "content/places/qa/nt-ward-680.png",
+      "limitations": [
+        "Real browser iframe at CSS width 680; DPR 1, not physical touch hardware."
+      ]
+    },
+    {
+      "id": "rebuilt-federal-390-layout",
+      "status": "PASS",
+      "metrics": {
+        "path": "/states/sa/federal/odonoghue/index.html",
+        "requestedWidth": 390,
+        "innerWidth": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "O'DONOGHUE",
+        "canvas": [
+          {
+            "cssWidth": 341,
+            "bitmapWidth": 341,
+            "cssHeight": 360
+          }
+        ],
+        "search": ""
+      },
+      "screenshot": "content/places/qa/final-390.png",
+      "limitations": [
+        "Browser iframe at CSS width 390 and DPR 1; no physical phone or touch hardware emulation."
+      ]
+    },
+    {
+      "id": "rebuilt-nsw-statewide-ballot-measures",
+      "status": "PASS",
+      "steps": [
+        "Direct statewide Council route displays 41 independently listed current people, 290 2023 candidates, separate future calendar date and statewide geographic-context label."
+      ],
+      "metrics": {
+        "candidateRows": 290,
+        "coverage": "nt.\n\nGeographic state/territory context from ABS; this is not a legal voting-entitlement boundary or a map of subdivisions within this chamber.\n\nNew South Wales Legislative Council structure · checked 2026-10-17. Publisher rights retained; linked factual institutional context.\nNSW Parliament: current Legislative Council directory factual extraction · checked 2026-10-17\nNSWEC: 2023 Legislative Council final first-preference group and candidate report · checked 2026-10-17\nNSWEC: 2023 Legislative Council completed check-count summary · checked 2026-10-17\nABS ASGS Edition4 State and Territory2026 · checked 2026-10-17. CC BY 4.0\n41 current members are listed by the filtered official directory checked 17 October 2026. The difference from the 42-seat chamber is unresolved roster coverage, not an invented member, vacancy reason or party balance.\nThe 2023 contest elects 21 members. Individual candidate votes are below-the-line first preferences; above-the-line votes belong to groups and are not assigned to individual candidates.\nCurrent affiliations come from the current directory; historical affiliations retain the 2023 ballot group labels. Current office is never inferred from that election result.\n\nCanonical records, dates and source references · Map source editions and delivery checks",
+        "eventText": "ELECTION DATES & PREVIOUS CONTESTANTS\n\nEach event keeps its own roster, result stage and boundary edition. A subsequent by-election does not replace the previous general-election record.\n\n2023 NSW Legislative Council election\n\ncompleted; official check count complete · periodic upper-house election\n\n1,302 days since polling day\n\n2023-03-25 · Official NSW Electoral Commission 2023 final count reports.\n\nAustralia/Sydney · Calendar days to the local event date; exact polling or closing hours remain with the official notice. The clock does not refresh results or declare a winner.\n\nOfficial event / results\n\n290 recorded contestants · names, affiliations and public records\nNext New South Wales Legislative Council periodic election\n\nscheduled · periodic-election\n\n147 days until election-day voting closes\n\n2027-03-13 · NSW Electoral Commission publishes Saturday 13 March 2027, election-day voting 8am–6pm. Timer targets published 6pm election-day voting close in Australia/Sydney; postal receipt and other deadlines differ.\n\nAustralia/Sydney · Published closing time: 2027-03-13T18:00:00+11:00. The clock respects this deadline. The clock does not refresh results or declare a winner.\n\nOfficial event / results\n\nNo verified contestant roster has been entered for this future event. Previous candidacy does not establish future candidacy; follow the official nominations record.",
+        "path": "/states/nsw/electorates/regions/legislative-council/index.html",
+        "people": 41
+      }
+    },
+    {
+      "id": "final-national-entry-and-index",
+      "status": "PASS",
+      "steps": [
+        "National entry lists all eight real jurisdictions and their distinct council/state/federal directories.",
+        "After legacy regeneration Index opened, focus entered filter, and Close restored collapsed state."
+      ],
+      "metrics": {
+        "clientWidth": 1265,
+        "path": "/pages/places.html",
+        "scopeCards": 8,
+        "scrollWidth": 1265,
+        "visibleH1": "FIND YOUR PLACE.\nFOLLOW THE PUBLIC RECORD."
+      }
+    }
+  ],
+  "limitations": [
+    "No disabled-JavaScript browser session was run; retained static text navigation is inspected in DOM and structural checks, and unsupported gzip guidance has isolated delivered-loader tests.",
+    "No full external-link crawl or per-place visual/source approval is claimed.",
+    "No physical touch, screen-reader hardware, multi-browser matrix or exhaustive performance audit was run.",
+    "Early source/wording fixture snapshots describe their actual earlier reviewed bytes; rebuilt fixtures supersede changed Frome, Brisbane and current ward content.",
+    "Local tests submit no personal profile or candidacy data; these are public fact and navigation pages."
+  ],
+  "testedPagePaths": [
+    "pages/places.html",
+    "states/qld/councils/index.html",
+    "states/qld/councils/brisbane-city/index.html",
+    "states/qld/councils/redland/index.html",
+    "states/tas/electorates/regions/murchison/index.html",
+    "states/tas/electorates/regions/mcintyre/index.html",
+    "states/sa/places/state/index.html",
+    "states/sa/electorates/districts/ngadjuri/index.html",
+    "states/sa/electorates/districts/frome/index.html",
+    "states/sa/places/federal/index.html",
+    "states/sa/federal/odonoghue/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad004e424f5e5a/index.html",
+    "states/nsw/electorates/regions/legislative-council/index.html",
+    "content/places/qa/responsive-fixture.html",
+    "content/places/qa/network-fallback.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/responsive-fixture.html",
+    "content/places/qa/network-fallback.html",
+    "content/places/qa/resumed-qld-map.png",
+    "content/places/qa/resumed-qld-390.png",
+    "content/places/qa/tas-council-murchison.png",
+    "content/places/qa/national-390.png",
+    "content/places/qa/nt-ward-680.png",
+    "content/places/qa/network-fallback.png",
+    "content/places/qa/final-390.png",
+    "content/places/qa/national-entry.png"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "4e16d6fa325a60cf7892d4050760fb8a3956cb25432d8caee65241dfaa5b68ba",
+      "bytes": 6173
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/qld-council-map.css",
+      "sha256": "cff2f180bc02d6220a090ba4725a8d4ede9cebb46e5de1506eebd3091eeadc56",
+      "bytes": 4421
+    },
+    {
+      "path": "assets/qld-council-map.js",
+      "sha256": "b98327e6606c51365f0f29a3fc9d64f96fa6b95a1f939fa321230a584eaade56",
+      "bytes": 18573
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "ad3650767722e66c40c72700eb39d29825898195df8ba472b692ccc686a8c23a",
+      "bytes": 36130
+    },
+    {
+      "path": "content/places/qa/final-390.png",
+      "sha256": "5050242107b2332e8d372328842b4a460601a3a5950e18562adc88f43b16f46e",
+      "bytes": 63263
+    },
+    {
+      "path": "content/places/qa/national-390.png",
+      "sha256": "77f97f6b66680f27bd199937c3e12b525dc483bfb68a3b39e7b9070664e69876",
+      "bytes": 48544
+    },
+    {
+      "path": "content/places/qa/national-entry.png",
+      "sha256": "05389966a4a8f86908004adb49af64f5004b0b85701a505df862770d446fe386",
+      "bytes": 80586
+    },
+    {
+      "path": "content/places/qa/network-fallback.html",
+      "sha256": "94292814172ffdbaab0538e92012d6e43faecc602a8bc4966f4d3387b78fed56",
+      "bytes": 45201
+    },
+    {
+      "path": "content/places/qa/network-fallback.png",
+      "sha256": "237604e94dde690da3dd180e41bb1f45fce8b58ee019c9199214d78a9e160c9e",
+      "bytes": 109007
+    },
+    {
+      "path": "content/places/qa/nt-ward-680.png",
+      "sha256": "797583d1480d48e1122dfa6ab660c59b3bf20cb65039d0b636ee9f136403e214",
+      "bytes": 76085
+    },
+    {
+      "path": "content/places/qa/responsive-fixture.html",
+      "sha256": "f3931cc9e2280f3ef78ee299a24af6f489cfd8f2d6d4ea9861b9db3f2e86ecad",
+      "bytes": 2857
+    },
+    {
+      "path": "content/places/qa/resumed-qld-390.png",
+      "sha256": "b49ebe7150489750935968ee2a89975ef14daa43d0bf72043f705e0e20484b27",
+      "bytes": 53729
+    },
+    {
+      "path": "content/places/qa/resumed-qld-map.png",
+      "sha256": "dec06a8031b2627787212bc2e22a37c45157652e2fd7c500fa2ed27c5b3750d9",
+      "bytes": 105947
+    },
+    {
+      "path": "content/places/qa/tas-council-murchison.png",
+      "sha256": "aa6ca364cdaac3a30ae3a727dc5e90f3de62913a874c003678181a77c3937dc9",
+      "bytes": 93711
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "c76661e48de9f43af531b6c2ba252de9eaf6ca36157dbbb072fec9707f8cd88d",
+      "bytes": 6569
+    },
+    {
+      "path": "states/nsw/electorates/regions/legislative-council/index.html",
+      "sha256": "6226742cb6c6af6d57a3a44bc897caf3774ec9c4724695a52aa194f86f2df2b9",
+      "bytes": 120917
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+      "sha256": "1ff5964511e6e327f2905a7ad36ee8634be1ed7e6281f4c9e773fbf574a0dd31",
+      "bytes": 26920
+    },
+    {
+      "path": "states/qld/councils/brisbane-city/index.html",
+      "sha256": "8b8c8215b0c8d2247135776c3ede48f52f155ca0c7751564a7f584ad781a8672",
+      "bytes": 130902
+    },
+    {
+      "path": "states/qld/councils/index.html",
+      "sha256": "8188ceff088572bb6e973f7a6d3161b072a93f5a54def04c9b98261e740fd745",
+      "bytes": 15322
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "sha256": "5514807f1df7a257ebbb6d55e192073fbf536892024e002fe94ba8c59bc4e259",
+      "bytes": 15931
+    },
+    {
+      "path": "states/sa/electorates/districts/frome/index.html",
+      "sha256": "725ed8e1f2ded1ba1f7b69da3c317e4684760effd79b68c20f377f187d9a898f",
+      "bytes": 53495
+    },
+    {
+      "path": "states/sa/electorates/districts/ngadjuri/index.html",
+      "sha256": "acf2df01a71a197d7ebbace4f8cc0c64b400f41d55aca92401ba59c699fa36b4",
+      "bytes": 58557
+    },
+    {
+      "path": "states/sa/federal/odonoghue/index.html",
+      "sha256": "821c4906593cf9e734d2cf4884081a524591597b7d9fd28302fc3c1f091722f1",
+      "bytes": 27130
+    },
+    {
+      "path": "states/sa/places/federal/index.html",
+      "sha256": "27ed464bc24857839f3c2e66f2f6d854e87040d05c650c9c0c504b1d37bcd52e",
+      "bytes": 23667
+    },
+    {
+      "path": "states/sa/places/state/index.html",
+      "sha256": "52b0b4268acfbebe1eb093deaaee1a1628ae14abda2f0c224aa2695706b9e0a5",
+      "bytes": 52749
+    },
+    {
+      "path": "states/tas/electorates/regions/mcintyre/index.html",
+      "sha256": "9369d0026de614ec66c1ffee1ed9d2429301df31d383a31a1dc89cd3b5b5427d",
+      "bytes": 29387
+    },
+    {
+      "path": "states/tas/electorates/regions/murchison/index.html",
+      "sha256": "293a5269c71d56e9da8afe32278d925adce8c2e753fa9b8454a4946bbf04cb2a",
+      "bytes": 29600
+    },
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wad004e424f5e5a/index.html",
+      "sha256": "11a703dc67a31311e00e046b02bb71cdc48f3758b125e2c5d29f6dbeb273ac70",
+      "bytes": 23642
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "46d998ef28b6f48998edb9e73b43905f133962b1ce287d1080abf43094784892",
+      "bytes": 36399
+    },
+    {
+      "path": "tools/qld_council_widget.py",
+      "sha256": "54d060622bea7f5bd7fb54cdede985dc31b5a5639dc69a6fd2873dc8641b5e5c",
+      "bytes": 10601
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "title": "Litchfield — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-72300",
+    "kind": "council",
+    "name": "Litchfield",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/995",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/litchfield/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/995/id",
+      "expected": "nt-council-72300"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/995/name",
+      "expected": "Litchfield"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/995/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/995",
+      "expected": {
+        "id": "nt-council-72300",
+        "name": "Litchfield",
+        "slug": "litchfield",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "72300",
+        "officialUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-litchfield",
+          "council-nt-2025-ballot-litchfield-central-ward",
+          "council-nt-2025-ballot-litchfield-litchfield-mayor",
+          "council-nt-2025-ballot-litchfield-north-ward",
+          "council-nt-2025-ballot-litchfield-south-ward",
+          "council-nt-ballot-supplementary-2025-litchfield-north-ward",
+          "council-nt-ballot-supplementary-2025-litchfield-north-ward-timetable"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Rachael Wright",
+            "role": "Mayor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Plaxy QF Purich",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "North Ward"
+          },
+          {
+            "name": "Daisy Crawford",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "North Ward"
+          },
+          {
+            "name": "Kevin Harlan",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "Central Ward"
+          },
+          {
+            "name": "Pauline Cass",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "Central Ward"
+          },
+          {
+            "name": "Emma Sharp",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "South Ward"
+          },
+          {
+            "name": "Kris Civitarese",
+            "role": "Councillor",
+            "profileUrl": "https://www.litchfield.nt.gov.au/your-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-litchfield",
+            "checked": "2026-10-17",
+            "wardLabel": "South Ward"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-72300-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-72300-ordinary-2025-central-ward",
+            "label": "2025 Litchfield — Central Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+            "candidates": [
+              {
+                "name": "Darren NUGENT",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Tony PRITCHARD",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kev HARLAN",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sherry NAMATOVU",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Pauline CASS",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cecilia COLEMAN",
+                "status": "official historical nominee",
+                "contest": "Central Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/central",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72300-ordinary-2025-litchfield-mayor",
+            "label": "2025 Litchfield — Litchfield Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+            "candidates": [
+              {
+                "name": "Sue STANTON",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Darren NUGENT",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Rachael WRIGHT",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mark SIDEY",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Doug BARDEN",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Tony PRITCHARD",
+                "status": "official historical nominee",
+                "contest": "Litchfield Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/mayor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72300-ordinary-2025-north-ward",
+            "label": "2025 Litchfield — North Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/north",
+            "candidates": [
+              {
+                "name": "Rachael WRIGHT",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/north",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/north",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Daisy CRAWFORD",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/north",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/north",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72300-ordinary-2025-south-ward",
+            "label": "2025 Litchfield — South Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+            "candidates": [
+              {
+                "name": "Emma SHARP",
+                "status": "official historical nominee",
+                "contest": "South Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sue STANTON",
+                "status": "official historical nominee",
+                "contest": "South Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kris CIVITARESE",
+                "status": "official historical nominee",
+                "contest": "South Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Beckie KERNICH",
+                "status": "official historical nominee",
+                "contest": "South Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/litchfield/list-of-candidates/south",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-72300-supplementary-2025-north-ward",
+            "label": "2025 Litchfield — North Ward",
+            "kind": "supplementary",
+            "status": "historical",
+            "date": "2025-11-29",
+            "dateBasis": "Official NTEC supplementary timetable; nominal election day, including uncontested contexts.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+            "candidates": [
+              {
+                "name": "Plaxy QF PURICH",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Suzanne PILKIE",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Doug BARDEN",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Beckie KERNICH",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Brigid MCCULLOUGH",
+                "status": "official historical nominee",
+                "contest": "North Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/litchfield/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 5,
+              "retainedCandidateCount": 5,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2025-local-government-supplementary-elections/timetable"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

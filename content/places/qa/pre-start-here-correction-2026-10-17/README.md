@@ -1,0 +1,1 @@
+Historical navigation-order evidence, before the user requested the original human ideas directly in Start here. These checks did not establish that the editorial front door was right. Preserve their original scope and fingerprints.

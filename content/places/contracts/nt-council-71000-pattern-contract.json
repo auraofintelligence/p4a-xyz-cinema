@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "title": "Darwin — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-71000",
+    "kind": "council",
+    "name": "Darwin",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/990",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/darwin/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/990/id",
+      "expected": "nt-council-71000"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/990/name",
+      "expected": "Darwin"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/990/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/990",
+      "expected": {
+        "id": "nt-council-71000",
+        "name": "Darwin",
+        "slug": "darwin",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "71000",
+        "officialUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-darwin",
+          "council-nt-roster-darwin-lord-mayor",
+          "council-nt-2025-ballot-darwin-chan-ward",
+          "council-nt-2025-ballot-darwin-darwin-lord-mayor",
+          "council-nt-2025-ballot-darwin-lyons-ward",
+          "council-nt-2025-ballot-darwin-richardson-ward",
+          "council-nt-2025-ballot-darwin-waters-ward",
+          "council-nt-ballot-darwin-chan-by-2026-darwin-chan-ward",
+          "council-nt-ballot-darwin-chan-by-2026-darwin-chan-ward-timetable",
+          "council-nt-ballot-darwin-chan-by-2026-darwin-chan-ward-result"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Julie Fraser",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Chan Ward"
+          },
+          {
+            "name": "Clarence McCarthy-Grogan",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Chan Ward"
+          },
+          {
+            "name": "Peter Pangquee",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Chan Ward"
+          },
+          {
+            "name": "Nicole Brown",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Lyons Ward"
+          },
+          {
+            "name": "Mick Palmer",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Lyons Ward"
+          },
+          {
+            "name": "Sam Weston",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Lyons Ward"
+          },
+          {
+            "name": "Jimmy Bouhoris",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Richardson Ward"
+          },
+          {
+            "name": "Shani Carson",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Richardson Ward"
+          },
+          {
+            "name": "Edwin Joseph",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Richardson Ward"
+          },
+          {
+            "name": "Kim Farrar",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Waters Ward"
+          },
+          {
+            "name": "Sylvia Klonaris",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Waters Ward"
+          },
+          {
+            "name": "Patrik Ralph",
+            "role": "Councillor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-darwin",
+            "checked": "2026-10-17",
+            "wardLabel": "Waters Ward"
+          },
+          {
+            "name": "Peter Styles",
+            "role": "Lord Mayor",
+            "profileUrl": "https://www.darwin.nt.gov.au/council/about-council/lord-mayor-aldermen/the-lord-mayor",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-darwin-lord-mayor",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-71000-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-71000-ordinary-2025-chan-ward",
+            "label": "2025 Darwin — Chan Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+            "candidates": [
+              {
+                "name": "Ed SMELT",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Julie FRASER",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ellyane WALL",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Clarence CJ MCCARTHY-GROGAN",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Peter PANGQUEE",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Manik GOWDA",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "LENNY",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Gary STRACHAN",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/chan",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 8,
+              "retainedCandidateCount": 8,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-71000-ordinary-2025-darwin-lord-mayor",
+            "label": "2025 Darwin — Darwin Lord Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+            "candidates": [
+              {
+                "name": "Kon VATSKALIS",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Peter STYLES",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Andrew John ARTHUR",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Vicki BONSON",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Leah POTTER",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sylvia KLONARIS",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Robin LAWRENCE",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sam WESTON",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nicole BROWN",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Julie FRASER",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Amye UN",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Scarlet D'ARC",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Edwin JOSEPH",
+                "status": "official historical nominee",
+                "contest": "Darwin Lord Mayor",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lord-mayor",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 13,
+              "retainedCandidateCount": 13,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-71000-ordinary-2025-lyons-ward",
+            "label": "2025 Darwin — Lyons Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+            "candidates": [
+              {
+                "name": "Mick PALMER",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Brett HAGAN",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Vicki BONSON",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Andrew LEE",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mark BARNES",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sam WESTON",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Scarlet D'ARC",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Amye UN",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nicole BROWN",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nick O'LOUGHLIN",
+                "status": "official historical nominee",
+                "contest": "Lyons Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/lyons",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 10,
+              "retainedCandidateCount": 10,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-71000-ordinary-2025-richardson-ward",
+            "label": "2025 Darwin — Richardson Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+            "candidates": [
+              {
+                "name": "Edwin JOSEPH",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jimmy BOUHORIS",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Peter STYLES",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Andrew John ARTHUR",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Yulita VILLANUEVA",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Shani CARSON",
+                "status": "official historical nominee",
+                "contest": "Richardson Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/richardson",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-71000-ordinary-2025-waters-ward",
+            "label": "2025 Darwin — Waters Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+            "candidates": [
+              {
+                "name": "Mirella FEJO",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Robin LAWRENCE",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sylvia KLONARIS",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Tejinder SINGH",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Manoli PAPATHOMAS",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kim FARRAR",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Otto KAINULAINEN",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Patrik RALPH",
+                "status": "official historical nominee",
+                "contest": "Waters Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/darwin/list-of-candidates/waters",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 8,
+              "retainedCandidateCount": 8,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-71000-darwin-chan-by-2026-chan-ward",
+            "label": "2026 Darwin — Chan Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": "2026-05-30",
+            "dateBasis": "Official event-specific NTEC timetable; nomination lists may include uncontested wards and do not establish voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+            "candidates": [
+              {
+                "name": "Manik GOWDA",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Nick KIRLEW",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Annette GILLANDERS",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Clarence CJ MCCARTHY-GROGAN",
+                "status": "elected",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list",
+                "resultSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-city-of-darwin-chan-ward-by-election/results"
+              },
+              {
+                "name": "Mirella FEJO",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "LENNY",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Shiva PANCHALINGAM",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Steve DOHERTY",
+                "status": "official historical nominee",
+                "contest": "Chan Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2026-city-of-darwin-chan-ward-by-election/list-of-candidates",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 8,
+              "retainedCandidateCount": 8,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/__data/assets/pdf_file/0006/1609998/election-timetable-2026-city-of-darwin-chan-ward-by-election.pdf",
+            "resultsUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-city-of-darwin-chan-ward-by-election/results"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

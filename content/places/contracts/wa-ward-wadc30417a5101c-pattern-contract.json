@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "title": "Rockingham - Safety Bay Ward — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "wa-ward-wadc30417a5101c",
+    "kind": "ward",
+    "name": "Rockingham - Safety Bay Ward",
+    "jurisdiction": "wa"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/1317",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+    "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+    "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+    "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wadc30417a5101c/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/wa/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1317/id",
+      "expected": "wa-ward-wadc30417a5101c"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1317/name",
+      "expected": "Rockingham - Safety Bay Ward"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1317/boundaryEdition",
+      "expected": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1317",
+      "expected": {
+        "id": "wa-ward-wadc30417a5101c",
+        "name": "Rockingham - Safety Bay Ward",
+        "slug": "rockingham-rockingham-safety-bay-ward",
+        "jurisdiction": "wa",
+        "kind": "ward",
+        "parentId": "wa-council-57490",
+        "layerId": "council-ward-supp-wa",
+        "featureId": "wdp41d3b6c90794",
+        "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+        "sources": [
+          "council-ward-supp-geoscape-wa-native",
+          "council-ward-supp-geoscape-ward-item",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-wa-walga-2026-57490",
+          "council-wa-role-review-57490"
+        ],
+        "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
+        "representatives": [
+          {
+            "name": "Craig Buchanan",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2027",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          },
+          {
+            "name": "Peter Hudson",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2027",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          },
+          {
+            "name": "Dawn Jecks",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2029",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          },
+          {
+            "name": "Mark Jones",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2027",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          },
+          {
+            "name": "Leigh Liley",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2029",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          },
+          {
+            "name": "Ryan Robertson",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=34",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-57490",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.rockingham.wa.gov.au",
+            "termEndYear": "2029",
+            "wardLabel": "Rockingham/Safety Bay Ward"
+          }
+        ],
+        "elections": [],
+        "sourceWardId": "wadc30417a5101c",
+        "sourceLgaId": "lga4559e6ef11e9",
+        "sourceLgaName": "City of Rockingham",
+        "coverageNotes": [
+          "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+          "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+          "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+          "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp30e80f35d35f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp8f6738b19b44",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp8b6669dc389c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpeacb3fec56cd",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpd8d13e5e8b9b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpdf38bac55eb2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp78e31168fc07",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpdf24a173c61c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp6addb39b0f2b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp5efa553c7c88",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpf4704da86f0b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp454228a73753",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp1d5aebee016d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp06a76eb10419",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpa7199ca44106",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp3a4f5dc6cf9c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp489b72db2879",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp970249ee8ff1",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpb682e47a71c9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpcf074de280fd",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp66307f428f2c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp2f008210bec0",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp7ba9fbe166f9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp9d0c56f8cc5b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpa8d3a3aa7956",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpKVeKC-jOY6H6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp694edf1f1b32",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp75352f7498cf",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp5e4e8b9099ca",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp28eca3db0227",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpbd34c1f869a9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpd0a9784092a5",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpb35cc4033714",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp074589bf1ca2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdpee1a5ae3b752",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-wa",
+            "featureId": "wdp2a6ecfa48227",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

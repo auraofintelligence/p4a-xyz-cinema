@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Saved national generation repeatability retained for unchanged HTML/canonical inputs; fresh shared Index hierarchy and current national structural checks added. No new source research claimed.",
+  "lastBuildOutput": "Built national place pages: {'councils': 1479, 'state': 442, 'federal': 159}; 0 files changed. Source research dates preserved.",
+  "generatedPlacePages": 2080,
+  "directories": 33,
+  "repeatBuildFilesChanged": 0,
+  "canonicalInputs": [
+    {
+      "path": "content/places/councils.json",
+      "sha256": "05a24e0ad7b207359bc4becfe741fda7b26c335a5dd106b7d4ff533bdb4fe911"
+    },
+    {
+      "path": "content/places/state.json",
+      "sha256": "989445f216122a7f3dbbbb61c967075bdeb4aa582e0e6a0efdf2ce0300fba349"
+    },
+    {
+      "path": "content/places/federal.json",
+      "sha256": "f2296781e14987fffdd5cb335543b26f03811a01950faef9a5efa68e2898875c"
+    }
+  ],
+  "validation": "content/places/qa/national-validation.json",
+  "validationSha256": "28a42271719c89f9b806506e138547b35bbc18616639f58097d18191855874f0",
+  "discovery": {
+    "result": "PASS",
+    "publicPages": 2290,
+    "evidencedLastmodDates": 2137,
+    "licence": "unchanged"
+  },
+  "limits": [
+    "No new source observation or publication date is inferred from rebuilding.",
+    "Shared source/browser evidence retains explicit coverage gaps."
+  ],
+  "legacyChecks": {
+    "redlands": "PASS: 19 pages, 43 records, 24 original Twinkles, 18 indicators; private no-script guard and exact geometry",
+    "redlandsContract": "PASS: 20 declared routes, original evidence plus affected Queensland navigation supplement",
+    "victoriaAtlas": "PASS: 96 joins, 127 members and one vacancy; source/generated parity, links, dates, holes/multipart",
+    "victoriaNumbers": "PASS: 96 results and 616 Census values; vote totals reconcile with separate measures retained",
+    "victoriaCouncils": "PASS: 79 municipalities, 8 unincorporated contexts, 467 wards; dated member/statistics/source parity",
+    "redlandClock": "PASS: synthetic local date and sourced early-window before/during/after cases"
+  },
+  "nationalNodeChecks": {
+    "clocks": "PASS: 14 synthetic delivered-clock cases",
+    "geometry": "PASS: actual controller hole, multipart, shared features, water, projection, zoom/reset and Back cases",
+    "delivery": "PASS: actual loader gzip, decoded JSON, plain fallback, same-URL single request and unsupported-browser guidance"
+  },
+  "contracts": {
+    "result": "PASS",
+    "registered": 2081,
+    "failed": 0,
+    "newStructuralPlaceContracts": 2080,
+    "existingRedlandsContract": 1,
+    "evidence": "content/places/qa/contract-validation.json",
+    "evidenceSha256": "2d9d985dedcd39bee6e26b99cf59502a67938bcd02e73b466c03a105c5c004c4",
+    "afterTypographyCorrection": true,
+    "afterNavigationCorrection": true,
+    "verificationSeconds": 409.848,
+    "contractBuildSeconds": 34.38
+  },
+  "publicCopyEvidence": "content/places/qa/public-copy-validation.json",
+  "typographyCorrection": {
+    "status": "PASS",
+    "reason": "User screenshot exposed oversized card headings missed by prior review",
+    "browserEvidence": "content/places/qa/pre-navigation-correction-2026-10-17/browser-review.json",
+    "freshTypographyFixtures": 8,
+    "earlierBuildEvidence": "content/places/qa/pre-style-correction-2026-10-17/final-build-review.json",
+    "limits": "Only shared CSS changed; earlier zero-output-change generation and JavaScript/source checks are retained for their original unchanged scope.",
+    "cssSha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+    "contracts": "Historical PASS for the earlier typography correction; current navigation contract evidence is separate."
+  },
+  "navigationCorrection": {
+    "status": "PASS",
+    "majorOrder": [
+      "Start here",
+      "The spark",
+      "The system",
+      "The ground game",
+      "Culture",
+      "States and territories"
+    ],
+    "nestedDiscovery": "Council/electorate finder and Redlands inside States and territories; full choices on deeper pages.",
+    "browserEvidence": "content/places/qa/browser-review.json",
+    "browserEvidenceSha256": "d03d9d812025ad894f7ab8ab77d3a99a2c2007e335ff6aeda10a2c9d7e0de6f4",
+    "freshNavigationFixtures": 10,
+    "testedHtmlPaths": 4,
+    "sharedNavSha256": "b83a480cb1b8f3b1458dc80712b024b0c8e4c1fcbb38f1a8914731d63206f591",
+    "stylesSha256": "68552e3164e3c8908d1f8c3ed0059097f084a9d011706d385f7cd6c9eb742caa",
+    "redlandGenerator": "PASS: completed regeneration kept shared nav bytes identical; 19 pages and 1526 local references pass Redlands verifier.",
+    "earlierEvidence": "content/places/qa/pre-navigation-correction-2026-10-17/final-build-review.json",
+    "limits": "Fresh review covers shared hierarchy, disclosures, keyboard/search and responsive layout. Earlier map, source and typography evidence retains its own scope.",
+    "contracts": "PASS: 2081 registered, zero failures; freshness binds 3058 national artifacts and 13 current browser artifacts.",
+    "packageOutcome": "Recorded separately in the adjacent external upload manifest under G:/GithubLocal-PC/_upload-ready/national-expansion-2026-10-17-navigation-corrected; no self-referential archive hash is stored in packaged source."
+  }
+}

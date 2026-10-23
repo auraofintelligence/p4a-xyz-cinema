@@ -5,3 +5,43 @@
 assets/maps/*.geojson -text
 assets/maps/**/*.geojson -text
 assets/maps/*.vic.gz -text
+
+# National evidence binds exact reviewed bytes on Windows and Linux.
+# Keep source/hash evidence portable without changing source observations.
+.gitattributes -text
+content/places/** -text
+states/*/places/** -text
+states/*/electorates/** -text
+states/*/federal/** -text
+states/*/local-electoral-areas/** -text
+states/*/councils/*/index.html -text
+states/qld/councils/redland/index.html text=auto
+states/qld/councils/redland/elections/index.html -text
+pages/places.html -text
+assets/favicon.svg -text
+assets/site-nav.js -text
+assets/civic-places.js -text
+assets/civic-places.css -text
+assets/external-links.js -text
+styles.css -text
+content/councils/vic.json -text
+content/electorates/vic-election-results.json -text
+content/representatives/vic.json -text
+content/local/redland-divisions.json -text
+tools/build-national-places.py -text
+tools/national_evidence.py -text
+tools/build-national-contracts.py -text
+tools/verify-national-places.py -text
+tools/verify-place-contracts.py -text
+assets/qld-council-map.js -text
+assets/qld-council-map.css -text
+assets/local-council.css -text
+assets/local-council.js -text
+tools/qld_council_widget.py -text
+qa/redland-20261017/interactive-layout-results.json -text
+
+# Preserve the exact HTML bytes used by the shared-navigation browser review.
+index.html -text
+pages/aura-genesis.html -text
+pages/aura-clinical-path.html -text
+pages/site-map.html -text

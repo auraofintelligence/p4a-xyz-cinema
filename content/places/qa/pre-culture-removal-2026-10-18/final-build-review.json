@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Original national generation repeatability retained for unchanged HTML/canonical inputs; fresh shared navigation deduplication and current structural checks added. No source research or layout/event-handler change claimed.",
+  "lastBuildOutput": "Built national place pages: {'councils': 1479, 'state': 442, 'federal': 159}; 0 files changed. Source research dates preserved.",
+  "generatedPlacePages": 2080,
+  "directories": 33,
+  "repeatBuildFilesChanged": 0,
+  "canonicalInputs": [
+    {
+      "path": "content/places/councils.json",
+      "sha256": "05a24e0ad7b207359bc4becfe741fda7b26c335a5dd106b7d4ff533bdb4fe911"
+    },
+    {
+      "path": "content/places/state.json",
+      "sha256": "989445f216122a7f3dbbbb61c967075bdeb4aa582e0e6a0efdf2ce0300fba349"
+    },
+    {
+      "path": "content/places/federal.json",
+      "sha256": "f2296781e14987fffdd5cb335543b26f03811a01950faef9a5efa68e2898875c"
+    }
+  ],
+  "validation": "content/places/qa/national-validation.json",
+  "validationSha256": "06dba94ae050915770a32803e8c6833a9d1e199dfd6f388d3a704f711d7646e0",
+  "discovery": {
+    "result": "PASS",
+    "publicPages": 2290,
+    "evidencedLastmodDates": 2137,
+    "licence": "unchanged"
+  },
+  "limits": [
+    "No new source observation or publication date is inferred from rebuilding.",
+    "Shared source/browser evidence retains explicit coverage gaps."
+  ],
+  "legacyChecks": {
+    "redlands": "PASS: 19 pages, 43 records, 24 original Twinkles, 18 indicators; private no-script guard and exact geometry",
+    "redlandsContract": "PASS: 20 declared routes, original evidence plus affected Queensland navigation supplement",
+    "victoriaAtlas": "PASS: 96 joins, 127 members and one vacancy; source/generated parity, links, dates, holes/multipart",
+    "victoriaNumbers": "PASS: 96 results and 616 Census values; vote totals reconcile with separate measures retained",
+    "victoriaCouncils": "PASS: 79 municipalities, 8 unincorporated contexts, 467 wards; dated member/statistics/source parity",
+    "redlandClock": "PASS: synthetic local date and sourced early-window before/during/after cases"
+  },
+  "nationalNodeChecks": {
+    "clocks": "PASS: 14 synthetic delivered-clock cases",
+    "geometry": "PASS: actual controller hole, multipart, shared features, water, projection, zoom/reset and Back cases",
+    "delivery": "PASS: actual loader gzip, decoded JSON, plain fallback, same-URL single request and unsupported-browser guidance"
+  },
+  "contracts": {
+    "result": "PASS",
+    "registered": 2081,
+    "failed": 0,
+    "newStructuralPlaceContracts": 2080,
+    "existingRedlandsContract": 1,
+    "evidence": "content/places/qa/contract-validation.json",
+    "evidenceSha256": "48ae726851795f721263cd432c88af45a0fbc9f0989d214f237ebeb9d7bd3fc5",
+    "afterTypographyCorrection": true,
+    "afterNavigationCorrection": true,
+    "verificationSeconds": 408.147,
+    "contractBuildSeconds": 33.4,
+    "afterStartHereCorrection": true,
+    "afterNavigationDeduplication": true,
+    "completedAt": "2026-10-18T00:05:22+10:00"
+  },
+  "publicCopyEvidence": "content/places/qa/public-copy-validation.json",
+  "typographyCorrection": {
+    "status": "PASS",
+    "reason": "User screenshot exposed oversized card headings missed by prior review",
+    "browserEvidence": "content/places/qa/pre-navigation-correction-2026-10-17/browser-review.json",
+    "freshTypographyFixtures": 8,
+    "earlierBuildEvidence": "content/places/qa/pre-style-correction-2026-10-17/final-build-review.json",
+    "limits": "Only shared CSS changed; earlier zero-output-change generation and JavaScript/source checks are retained for their original unchanged scope.",
+    "cssSha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+    "contracts": "Historical PASS for the earlier typography correction; current navigation contract evidence is separate."
+  },
+  "navigationCorrection": {
+    "status": "historical-PASS-before-start-here-correction",
+    "majorOrder": [
+      "Start here",
+      "The spark",
+      "The system",
+      "The ground game",
+      "Culture",
+      "States and territories"
+    ],
+    "nestedDiscovery": "Council/electorate finder and Redlands inside States and territories; full choices on deeper pages.",
+    "browserEvidence": "content/places/qa/pre-start-here-correction-2026-10-17/browser-review.json",
+    "browserEvidenceSha256": "d03d9d812025ad894f7ab8ab77d3a99a2c2007e335ff6aeda10a2c9d7e0de6f4",
+    "freshNavigationFixtures": 10,
+    "testedHtmlPaths": 4,
+    "sharedNavSha256": "b83a480cb1b8f3b1458dc80712b024b0c8e4c1fcbb38f1a8914731d63206f591",
+    "stylesSha256": "68552e3164e3c8908d1f8c3ed0059097f084a9d011706d385f7cd6c9eb742caa",
+    "redlandGenerator": "PASS: completed regeneration kept shared nav bytes identical; 19 pages and 1526 local references pass Redlands verifier.",
+    "earlierEvidence": "content/places/qa/pre-navigation-correction-2026-10-17/final-build-review.json",
+    "limits": "Fresh review covers shared hierarchy, disclosures, keyboard/search and responsive layout. Earlier map, source and typography evidence retains its own scope.",
+    "contracts": "Historical PASS for the prior navigation-order correction; current front-door acceptance is separate.",
+    "packageOutcome": "Recorded separately in the adjacent external upload manifest under G:/GithubLocal-PC/_upload-ready/national-expansion-2026-10-17-navigation-corrected; no self-referential archive hash is stored in packaged source."
+  },
+  "startHereCorrection": {
+    "status": "historical-PASS-before-navigation-deduplication",
+    "selectedIdeas": [
+      {
+        "title": "Aura Genesis Protocol",
+        "href": "../pages/aura-genesis.html"
+      },
+      {
+        "title": "Truth Engine",
+        "href": "../pages/truth-engine.html"
+      },
+      {
+        "title": "Musicverse",
+        "href": "../pages/musicverse.html"
+      },
+      {
+        "title": "C-Hour & Braided Economy",
+        "href": "../pages/braided-economy.html"
+      },
+      {
+        "title": "Worker mutuals",
+        "href": "../pages/workforce-transition.html"
+      },
+      {
+        "title": "Web3 Sensorium",
+        "href": "../pages/web3-sensorium.html"
+      },
+      {
+        "title": "Sovereignty Stack",
+        "href": "../pages/sovereignty-stack.html"
+      },
+      {
+        "title": "Purple Synthesis",
+        "href": "../pages/purple-synthesis.html"
+      },
+      {
+        "title": "Cyber-Republic Simulator",
+        "href": "../pages/cyber-republic.html"
+      }
+    ],
+    "editorialBasis": "Human ideas from the original homepage and civic pathway brought directly into Start here; not an identical historical Start list.",
+    "behavior": "Start here opens by default with nine direct ideas; six original theme shortcuts remain prominent above; seven bearings links including civic pathway below. Reopening clears search and resets to the starting ideas.",
+    "browserEvidence": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+    "browserEvidenceSha256": "57f59ee84ffb7225cd088f78f8d9ac84788015432136b04f19f3973b9d9be45b",
+    "freshFixtures": 9,
+    "testedHtmlPaths": 8,
+    "sharedNavSha256": "98f133c6a4b44db8d2568d0aeedb5f13607d7577cab87d5e16ff5243e60b251b",
+    "stylesSha256": "24d40bb1233902618716565d576bf3a961b7d1aac67e9449006236c2f66868b3",
+    "earlierEvidence": "content/places/qa/pre-start-here-correction-2026-10-17/final-build-review.json",
+    "limits": "Shared navigation, direct destinations and responsive samples only; no new source research or exhaustive civic journey review.",
+    "packageOutcome": "Adjacent external manifest under G:/GithubLocal-PC/_upload-ready/national-expansion-2026-10-17-start-here-corrected records the actual outcome; no self-referential archive hash in packaged source.",
+    "contracts": "Historical PASS for the earlier Start here correction; current deduplicated navigation acceptance is separate.",
+    "discovery": {
+      "result": "PASS",
+      "publicPages": 2290,
+      "evidencedLastmodDates": 2137
+    }
+  },
+  "navigationDeduplication": {
+    "status": "PASS",
+    "beforeEntries": 154,
+    "afterEntries": 137,
+    "uniqueDestinations": 137,
+    "removedEntries": 17,
+    "primaryIdeasRetained": 9,
+    "themesRetained": 6,
+    "removed": "Duplicate Key policy category (7 entries), and ten repeated destinations in System/Culture. Legal RAG and distinct VIC query lens preserved.",
+    "generator": "Policy builder retains KEY for cards/home but no longer recreates the duplicate Index category. Syntax checked; broad policy build was not rerun.",
+    "browserEvidence": "content/places/qa/browser-review.json",
+    "browserEvidenceSha256": "bfaa7a237aacf6eb67306c1d7ffb63da009ae99ae5c4396355714a9e9a11a87d",
+    "freshFixtures": 5,
+    "testedHtmlPaths": 3,
+    "sharedNavSha256": "776da806d63e4846b0b2d4128eaf83f50efe26734220523f3069457f61b73c20",
+    "stylesSha256": "24d40bb1233902618716565d576bf3a961b7d1aac67e9449006236c2f66868b3",
+    "earlierEvidence": "content/places/qa/pre-nav-deduplication-2026-10-17/final-build-review.json",
+    "limits": "Focused navigation data review; no new layout/event handlers, source research, physical-device or broader per-place acceptance.",
+    "packageOutcome": "Adjacent external manifest under G:/GithubLocal-PC/_upload-ready/national-expansion-2026-10-17-nav-deduplicated records actual preparation/integrity; no self-referential archive hash in packaged source.",
+    "contracts": "PASS: 2,081 registered, zero failures; freshness binds 3,058 national artifacts and 9 current browser artifacts.",
+    "contractsCompletedAt": "2026-10-18T00:05:22+10:00",
+    "discovery": {
+      "result": "PASS",
+      "publicPages": 2290,
+      "evidencedLastmodDates": 2137
+    }
+  },
+  "lastVerificationCompletedAt": "2026-10-18T00:05:22+10:00"
+}

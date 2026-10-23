@@ -141,3 +141,149 @@ Added origin-root robots.txt, sitemap.xml and voluntary llms.txt from the recent
 ## 17 October 2026: reviewed song links and publication authorisation
 
 Linked named Redlands song references directly to the user's individual lyric/context pages in i-C-infinity-music-universe. All eleven destinations returned HTTP 200 with lyrics; the canonical link register records the check. Meanings remain in place. Shared civic rules version 2.1 require reviewed per-song destinations rather than only a general music door. GitHub publication was authorised; preserve newer remote Aura/Twinkle work alongside the prepared local journey and record the published revision through Git history and Pages deployment status.
+
+## 17 October 2026 — Scoped election maintenance guide
+
+Documentation update only, requested for future individual by-elections at council/ward, state/territory and federal levels. Added `docs/agents/fractal-election-updates.md` version 1.0 and linked it from `AGENTS.md`, `README.md`, `REFRESH_WITH_AN_AGENT.md` and the watchlist. The guide covers current elected members/public profiles, previous contestants by event, shared countdowns, actual replacement processes, source dates, dependency-scoped generation, sitemap/navigation/links, checks and handover. Reconciled legacy state-only/manual-mirroring/automatic-commit instructions and recorded the rule in the review register. No political facts rechecked, election dates advanced, Twinkles authored or public HTML routes changed. This entry records local documentation work; it is not an election-source review or publication claim.
+
+Validation: watchlist JSON and seven registered rule paths parse/resolve; 53 local documentation links resolve; the readable rule register was regenerated from its canonical record. Existing discovery checks pass for 177 public routes and 24 supported last-modified dates, preserving the licence and crawler policy. Independent review checked actual adapter commands, shared-output scope and the paired human/discovery grouping procedure. Whitespace checks pass. No commit, push or deployment.
+
+## 17 October 2026: national expansion stopped for handoff
+
+At the user's request, stopped national acquisition/implementation because repeated Allow prompts made the session burdensome. Saved `docs/agents/national-expansion-handoff-2026-10-17.md` and separate council, state, federal/ward handoffs under `content/places/qa/`. The owned preview server was stopped; all three source agents reported no remaining owned download sessions. This is a handoff, not a completion or fresh source-review claim.
+
+The last generated national build has1,782place pages and33directories; discovery passed for1,992public routes. Canonical source additions and shared code have changed since that build, so generated pages and final national validation/contracts remain outstanding. The last full national validation failed and is stale. The handoff records current data counts, incomplete member/ballot coverage, cached but unmerged ward/current-boundary sources, the unfinished Tasmania council parser, three erroneous Tasmania candidate-header rows, actual browser/unit checks and remaining evidence work.
+
+Raw source pages/PDFs are local-only under `content/places/raw/`, ignored by Git and excluded from public-source packaging; normalized public facts and licensed attributed maps remain distinct. A council-script TLS fallback was removed; two affected Queensland downloads were not used for canonical facts and failed subsequent normal certificate re-verification. Preserve that audit and access restrictions. No new Twinkles, commit, push or deployment. Reading the handoff does not authorise resuming acquisition; await a resume instruction and address permission workflow first.
+
+
+## 17 October 2026: national work explicitly resumed and locally reviewed
+
+The user resumed the saved handoff after changing authorization settings. Public sources were read through supported ordinary browser/HTTP paths; no certificate warning, authentication barrier, CAPTCHA or source restriction was bypassed. The earlier stopped snapshot and failed-access audit remain historical. No new Twinkles, staging, commit, push or deployment.
+
+The synchronized local build now has **2,080 dedicated place pages and 33 directories**, with **49 delivered map layers**. Its 5,247 representative context records and 18,314 historical contestant context records are not unique people. TAS council rosters/87 contests, WA parent/106 exactly joined ward rosters, QLD 77 independent mayors/343 parent ballot contests and repaired child links, SA leaders/222 parent ballot contests, and NT 80 historical contexts/all 336 parent nominees were integrated. State additions include independent WA/NSW Council/NT rosters, SA2026 current districts and ballots, complete TAS Council geometry and division cycles, and NT/ACT intervening results. Current office, historical nominees, vote measures, exact postal deadlines and serving/historical/future boundary editions stay distinct.
+
+The actual full national data/rendered-record/geometry/link validation passed; a repeat full build changed zero files. Browser evidence records 21 representative shared-renderer fixture outcomes, including 390/680 CSS-pixel frames, original Queensland/Redlands Open routes, Tasmania island selection, historical Frome/current Ngadjuri/future O'Donoghue, Back, keyboard, search, shared Index and retained raster fallback. These are not 2,113 browser reviews or physical touch tests or disabled-JavaScript browser sessions. Static text navigation is checked separately. Source records and deeper civic journeys remain incomplete; see the explicit report gaps.
+
+The original page/rule dates were preserved and a separate national implementation register added. Discovery passed for 2,290 actual public routes with 2,137 evidenced lastmod dates and unchanged licence/crawler rights. Raw original research pages/PDFs/contact directories moved or remain under ignored `content/places/raw/`, including federal originals now in `raw/federal/`. Exact licensed geometry remains public; the optional 179 MB TAS expanded duplicate is excluded while its 61.2 MB gzip preserves all points. Scoped Git attributes preserve reviewed hashes across Windows/Linux; CI checks avoid replacing saved acceptance reports. Source-specific rights and live source gaps remain explicit.
+
+See [the resumed report](../docs/releases/2026-10-17-national-expansion-resumed.md), [final build review](places/qa/final-build-review.json), [national validation](places/qa/national-validation.json), [actual browser review](places/qa/browser-review.json), and [the national implementation register](history/national-place-review-register-2026-10-17.json). This records the local implementation snapshot and its limits; publication remains separate.
+
+Final scoped acceptance: all 2,081 registered contracts passed (2,080 new structural route/identity declarations plus the existing Redlands contract). The actual public-only copy also passed the national validator with saved evidence unchanged; its freshness guard checked 2,228 mandatory public artifacts and separately recorded 830 intentionally absent local-only originals. No remote workflow was run. Upload preparation has its own external manifest, outside this checkout.
+
+
+## 17 October 2026: correct national directory styling after user review
+
+The user screenshot exposed a visible failure missed by the earlier smoke review: national directory H2s inherited the global cinematic size/stretch/case, while `overflow-wrap:anywhere` split state names into oversized fragments. This was an implementation and visual-review mistake. Applied the original state-card Archivo scale/title case, normal name wrapping, original panel/width/radius tokens and the actual self-hosted mono font token. The global style guide, canonical people/events and exact geometry were unchanged.
+
+Fresh browser evidence checks eight actual shared-style fixtures, including all eight national card titles after fonts settle at 390, 680 and 1200 CSS px, a long ward, council person/clock styling, TAS search/select/Open and shared Index. No broken heading words, page overflow or measured map-control overlap in those samples. The default full national structural/source validation passed again. Prior evidence and the earlier upload snapshot remain historical; corrected contracts and the separate typography-corrected package bind the current bytes. Broader per-place source, physical touch and accessibility gaps remain explicit.
+
+After the typography correction, all 2,081 registered contracts passed again with zero failures, binding 3,058 national artifacts and 15 fresh browser artifacts. The corrected public-source package is prepared separately under `national-expansion-2026-10-17-typography-corrected`; its external manifest records the actual archive integrity result. No staging, commit, push or deployment.
+
+
+## 17 October 2026: restore the original shared Index hierarchy
+
+The user identified council/electorate navigation overtaking Start here and the original thematic navigation. Restored the six primary themes first in 01–06 order: Start here, The spark, The system, The ground game, Culture, States and territories. The original Start here destinations and unrelated Key policy ideas data remain. Council, electorate and Redlands discovery now sits inside States and the deeper state/map pages. Link lists start collapsed in a responsive grid; native summaries open each list, search reveals matching links, and clearing the search restores the previous expanded groups. Original site font and colour conventions remain.
+
+Removed the Redland generator's shared-navigation prepend logic. The implementation workflow ran it after this change and verified identical shared-navigation bytes before and after. Updated the root and national-place agent rules to preserve this hierarchy on future scoped builds. Canonical source facts, event dates, geometry and the earlier coverage gaps remain unchanged; this is not a new political source review.
+
+The full national validator passed again with 1,002,502 assertions and 3,058 bound artifacts. Fresh navigation browser review and actual fixture/path counts, current contract acceptance and preparation of `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-navigation-corrected` are pending at this documentation step. Earlier typography/browser/contract/package results above remain dated history and do not certify this correction. Record the actual final checks and external archive manifest when they finish. No stage, commit, push, deployment or remote workflow.
+
+
+### Navigation correction: completed browser and discovery checks
+
+Fresh navigation browser review passed exactly ten fixtures across four HTML paths: home, national places, legacy Redlands and the navigation fixture. Responsive frames used 390, 680 and 1200 CSS px; all six primary themes were visible together at 1280 × 720 after fonts and transitions settled. Keyboard navigation, search/no-results/clear, Escape and the deeper Redlands link passed. Evidence is `content/places/qa/browser-review.json`; screenshots are `nav-original-order-desktop.png`, `nav-original-order-390.png`, `nav-original-order-680.png` and `nav-original-order-1200.png` in the same QA directory. This is a shared-navigation sample, not physical-device, screen-reader or per-place source acceptance.
+
+Fresh discovery passed 2,290 public pages and 2,137 evidenced lastmod dates. Redlands validation passed 19 pages, 1,526 local references, 43 records, 24 existing Twinkles, ten maps and 18 indicators; no new Twinkles were created. Current contract acceptance and the new navigation-corrected package/archive manifest remain pending. Earlier pending-at-documentation wording above records that earlier step; these actual results supersede its browser/discovery placeholders without advancing any political source dates. No stage, commit, push, deployment or remote workflow.
+
+
+### Navigation correction: final contract acceptance and external package manifest
+
+All 2,081 registered contracts passed with zero failures: 2,080 structural route/identity contracts and the existing legacy Redlands contract. Freshness bound 3,058 national artifacts and 13 browser artifacts; the declarations checked 2,100 routes and 177,871 local references. Contract generation took 34.380 seconds and verification took 409.848 seconds. The ten-fixture/four-path navigation browser review and discovery checks recorded above are complete; the earlier pending-at-step contract/browser wording remains historical.
+
+Packaging outcome authority is the adjacent external JSON manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-navigation-corrected`. It records the actual preparation/archive outcome, included-path hashes and byte verification outside the source tree, avoiding self-referential archive hashes. Package status is external-manifest; this source log does not claim package PASS. Earlier typography/resumed bundles remain superseded historical snapshots. Political source gaps and dates are preserved. No stage, commit, push, deployment or remote workflow.
+
+
+## 17 October 2026: put the human ideas at the Start here front door
+
+The user rejected a mechanically restored but sparse Start list and asked us to choose the ideas that carry the site's purpose. Chose nine direct entries in order: Aura Genesis Protocol, Truth Engine, Musicverse, C-Hour & Braided Economy, Worker mutuals, Web3 Sensorium, Sovereignty Stack, Purple Synthesis and Cyber-Republic Simulator. Start here opens by default; six major-theme shortcut buttons stay above it, with seven bearings links including the civic pathway below. Council/electorate/Redlands discovery remains inside States. Existing font, colour and panel tokens remain. The choice follows the original homepage/civic-pathway journey through stories, meaning, trust, care and possible futures; it is not a claim that the literal historical Start list held these nine links.
+
+Updated maintenance rules to preserve this conceptual front door and the existing deeper navigation. New national, browser and contract checks are pending; the preceding completed navigation review and its 2,081-contract PASS remain archived history under `content/places/qa/pre-start-here-correction-2026-10-17/`. Target output is `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-start-here-corrected`; its adjacent external manifest records the actual packaging/archive/byte-verification outcome outside source. No package PASS is claimed. Source gaps, source dates, earlier records and publication limits are preserved. No code or QA changes are claimed by this documentation step; no stage, commit, push or deployment.
+
+
+### Start here correction: completed national and browser review
+
+Final-byte national validation passed 1,002,502 assertions with 3,058 bound artifacts. Fresh browser review passed exactly nine fixtures across eight tested HTML paths with 17 browser fingerprints. It verified all nine ideas visible at 1280 × 720; direct Genesis, Truth Engine and Musicverse journeys with Start breadcrumbs; keyboard theme-shortcut and first-idea navigation; search/no-results/clear; States jump, Escape and reopening at the Start here top; 390/680/1200 CSS-pixel frames; and home, national places, rabbit-hole policy and legacy Redlands contexts. Evidence is `content/places/qa/browser-review.json`, with `nav-start-here-desktop.png`, `nav-start-here-390.png`, `nav-start-here-680.png` and `nav-start-here-1200.png`. This remains a shared-interface sample, not physical-device or full per-place source acceptance.
+
+Maintenance rules now require each Index reopen to return to Start here at the top. Earlier pending national/browser wording records the prior documentation step and is superseded by these actual results. Current contract acceptance remains pending. The start-here-corrected output keeps external-manifest packaging outcome authority; no package PASS, source-date advance, stage, commit, push or deployment is claimed.
+
+
+### Start here correction: final current contracts and discovery
+
+All 2,081 current contracts passed with zero failures: 2,080 structural route/identity declarations plus the existing legacy Redlands contract. Freshness bound 3,058 national artifacts and 17 browser artifacts; the declarations checked 2,100 routes and 177,871 local references. Contract generation took 33.182 seconds and verification 411.617 seconds, with 444.801 seconds total reported elapsed time. Fresh discovery passed 2,290 public routes and 2,137 evidenced lastmod dates. The final-byte national PASS and nine-fixture/eight-path browser review recorded above are complete; earlier pending-at-step wording remains chronological history.
+
+Package status remains external-manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-start-here-corrected`. The adjacent external manifest is the authority for the actual preparation/archive outcome, included-path hashes and byte verification outside source. This source log claims no package PASS or archive SHA before creation. Earlier source/civic-journey gaps and dated reviews remain intact. No stage, commit, push, deployment or remote workflow.
+
+
+## 17 October 2026: remove repeated shared navigation destinations
+
+The user identified too much repetition in navigation. Removed the seven-link Key policy ideas category and ten repeated System/Culture links, including the civic-pathway duplicate: 154 entries become 137 entries with 137 unique destinations. The nine Start ideas, six original themes, default-open Start, shortcut/bearings behavior and original style/layout tokens remain. Each destination has one category home; Legal RAG stays in System and the meaningful Victoria query lens is preserved. The rabbit-hole policy generator removes its legacy Key navigation marker without reinserting a category; KEY still supplies policy cards and homepage links.
+
+The actual homepage audit passed 137/137 uniqueness and six footer categories with no Key group. Full current national validation, browser acceptance and contracts are pending. The preceding completed Start here results remain archived under `content/places/qa/pre-nav-deduplication-2026-10-17/`; they do not certify the latest source cleanup. Target is `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-nav-deduplicated`, with adjacent external-manifest authority for the actual package/archive/byte-verification outcome. No package PASS is claimed. Earlier gaps, dates and chronological reviews remain intact; no stage, commit, push or deployment.
+
+
+### Navigation source cleanup: fresh national and focused browser checks
+
+Fresh national validation passed 1,002,502 assertions and 3,058 artifacts. Focused browser review passed five fixtures across three HTML paths (home, places through the frame and the navigation fixture), bound by nine fingerprints. It checked 137/137 unique destinations; retained chosen nine and six themes; System 40/Culture five distinct pages; retained Legal RAG; single core title entries in search; keyboard first-idea navigation; and no overflow at 390 CSS px. Evidence is `content/places/qa/browser-review.json` and `nav-deduplicated-desktop.png`. Truth Engine full-text search also returns a distinct UAP Twinkle whose description mentions it; this is relevant search coverage, not a repeated menu destination or a claim of one total result.
+
+No CSS or event-handler change, repeated broader browser review or repeated Redlands review is claimed. The earlier Start review remains archived. This supersedes the previous pending national/browser step; current contracts remain pending. Packaging outcome remains external-manifest authority for the nav-deduplicated output, with no package PASS claimed. Source dates/gaps and publication limits remain unchanged.
+
+
+## 18 October 2026: final navigation-deduplication contract acceptance
+
+Final acceptance completed at **00:05:22 Australia/Brisbane on 18 October 2026** (`2026-10-18T00:05:22+10:00`; `2026-10-17T14:05:22Z`). All 2,081 contracts passed with zero failures, bound to 3,058 national artifacts and nine browser artifacts; 2,100 declared routes and 177,871 local references. Generation took 33.400 seconds, verification 408.147 seconds and total reported elapsed time 441.548 seconds. Fresh discovery passed 2,290 public routes and 2,137 evidenced lastmod dates. The prior 17 October pending-at-step entries remain chronological history. Implementation, source and focused browser dates remain 17 October; no fresh source currentness or repeated broader browser/Redlands review is implied.
+
+Package outcome authority remains the adjacent external manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-17-nav-deduplicated`. The directory date is the implementation phase label; actual `preparedAt` may be 18 October and is recorded by that external manifest with the actual archive outcome, path hashes and byte verification. This source log claims no package PASS or archive SHA before creation. Source/civic-journey gaps, earlier review records and publication limits remain intact. No stage, commit, push, deployment or remote workflow.
+
+
+## 18 October 2026: delete the misleading Culture navigation category
+
+The user explicitly rejected the Culture category and chose deletion. Removed its shared Index section, shortcut and footer entry. The five remaining themes, numbered 01–05, are Start here, The spark, The system, The ground game and States and territories; the nine Start ideas stay unchanged. The Index now has 132 unique destinations. Five specialist pages remain on their existing Genesis clinical/political/fiction paths, with no relocation, new topic or Musicverse edit. No Culture placeholder or broad multicultural-coverage claim is added. The base shortcut grid uses five columns with existing style tokens. Readable sitemap label becomes Origins, music and imagination, preserving its group id/routes/membership.
+
+Current national validation, actual browser acceptance/fixture counts, contracts and rebuilt discovery checks are pending. The preceding completed review remains archived under `content/places/qa/pre-culture-removal-2026-10-18/`; its 18 October 00:05:22 contract completion and older source/browser dates are preserved. Package outcome authority is the adjacent external manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-18-culture-removed`, outside source. No package PASS or archive SHA is claimed before creation. Earlier gaps and dated history remain intact; no stage, commit, push or deployment.
+
+
+### Culture category deletion: completed browser and discovery checks
+
+Actual browser review passed seven fixtures across six tested HTML paths with 12 exact-byte fingerprints. Views were native 1280 × 720, the user's 678 × 884 viewport and a real 390 CSS-pixel frame. Checks confirmed five categories/no Culture, 132 unique destinations, unchanged nine Start ideas, all five existing specialist links on Genesis, an actual clinical-page click/breadcrumb, States shortcut 05, and the precise Origins, music and imagination sitemap label with its 18 October date. Evidence is `content/places/qa/browser-review.json` (SHA-256 `627ca42c865e600db4b7c9905a45a6b97931e4698241b9dfa7bf5a643dfe3be3`) and `nav-no-culture-desktop.png`. This is sampled browser acceptance, not physical-device or complete per-place review.
+
+Fresh discovery passed 2,290 public routes and 2,137 evidenced dates. These results supersede the earlier pending browser/discovery step; current national validation and contracts remain pending. Packaging retains external-manifest outcome authority at the 18 October culture-removed target, without a package PASS or archive SHA claim. Political source dates, earlier history and stated gaps remain unchanged.
+
+
+### Culture category deletion: completed fresh national validation
+
+Fresh national validation passed at `2026-10-18T01:54:30+10:00` in 111.261 seconds: 1,002,502 assertions, zero errors/warnings, 3,058 artifacts and 1,265 retained source hashes across 2,113 pages/2,080 places. The saved 646,636-byte report is `content/places/qa/national-validation.json`, SHA-256 `6c72ffd15887ae65897906cba4784b54cce03a94f04d47ef11a4742748ca3159`. Browser and discovery passes are recorded above. This supersedes the preceding pending-national step; current contracts remain pending and the actual package/archive outcome is left to the adjacent external manifest. No package PASS or archive SHA is claimed.
+
+
+### Culture category deletion: final contract acceptance at 02:02:02 Brisbane
+
+Final current acceptance passed at `2026-10-18T02:02:02+10:00` (`2026-10-17T16:02:02Z`): all 2,081 contracts, comprising 2,080 national structural declarations and one legacy contract, with zero failures. Freshness bound 3,058 national and 12 browser artifacts, with zero errors/absences. Declarations checked 2,100 routes and 177,871 local references. Generation took 33.454 seconds, verification 399.833 seconds and total reported elapsed time 433.289 seconds. The saved 1,238-byte report is `content/places/qa/contract-validation.json`, SHA-256 `1f48bf1c98ddb68d96b47877352a04fcb6702f1ddae2cc3a68e1c3c47921d350`. National, seven-fixture browser and discovery passes are recorded above; prior pending-at-step text remains chronological history.
+
+Packaging still uses the adjacent external manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-18-culture-removed` as the authority for actual preparation/archive outcome, hashes and byte verification outside source. This documentation does not claim package PASS or an archive SHA before creation. Underlying political source dates, scoped gaps and prior completed reviews remain intact. No stage, commit, push, deployment or remote workflow.
+
+
+## 18 October 2026: balanced Australia footer with eight state/territory portals
+
+The user's final clarification replaces the interim Queensland-priority plan: the right footer is Australia, with exactly one portal for each of all eight states/territories. The States section uses an explicit STATES-derived footer list rather than its first six Index entries. Removed repeated state chips and excluded Minjerribah, Olympics and specialist Victoria links from that footer column. The full Index remains five themes/132 unique destinations/nine Start ideas, with existing state specialist links untouched. Only shared JavaScript changes; no new or reinvented Queensland topic pages.
+
+Current national validation, actual browser fixture/path counts, contracts and discovery checks are pending. Completed Culture-removal acceptance is archived under `content/places/qa/pre-queensland-footer-2026-10-18/`; its prior dates/results remain historical. Package outcome authority is the adjacent external manifest for `G:\GithubLocal-PC\_upload-ready\national-expansion-2026-10-18-australia-footer`, outside source. No package PASS/archive SHA is claimed. Preserve earlier source dates, scoped gaps and chronology. No stage, commit, push or deployment.
+
+## 23 October 2026: recovered national expansion publication review
+
+Luke explicitly authorised focused publication. The original dirty checkout and later wiki work remain intact; publication is prepared in an isolated checkout of verified remote main 6e924cc. Existing source observations and the intentional absence of new grassroots Twinkles remain unchanged.
+
+Fresh national validation passed 1,001,438 assertions across 2,080 places, 33 directories and 49 lossless map layers. Discovery passed 2,290 public routes and 2,137 evidenced lastmod dates. Victoria, Redlands, geometry, compressed-loader and clock checks passed. The actual sampled Chromium review covers five scenarios across six delivered HTML paths, including responsive directories, Index/footer behavior and council/state/federal maps.
+
+The final complete contract run passed all 2,081 contracts with zero failures at 2026-10-23T11:49:38+10:00, after correcting only two stale shared-navigation pins identified in the preceding legacy Redlands declaration. The final rebuild changed zero files. Exact staged blob bytes match all 2,223 required national/browser evidence artifacts. Forty-two unrelated line-ending-only changes were excluded.
+
+Seven expanded GeoJSON duplicates, totalling 348,541,152 bytes, remain local; exact gzip equality preserves every coordinate/ring/feature while keeping the public tree below Pages' 1 GB limit. No politician, candidate, event date or result was invented. Source/current-office/history and deeper-journey gaps remain documented. See docs/releases/2026-10-23-national-expansion-publication.md and the linked actual reports. This entry records local review before push; GitHub commit/workflow history and the publication handover establish the subsequent remote/deployment outcome.

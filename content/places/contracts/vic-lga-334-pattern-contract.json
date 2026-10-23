@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "title": "Indigo Shire Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-334",
+    "kind": "council",
+    "name": "Indigo Shire Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/134",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/indigo-shire-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/134/id",
+      "expected": "vic-lga-334"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/134/name",
+      "expected": "Indigo Shire Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/134/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/134",
+      "expected": {
+        "id": "vic-lga-334",
+        "name": "Indigo Shire Council",
+        "slug": "indigo-shire-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "334",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-334",
+          "council-vic-roster-334"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Sophie Price",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Jane Dowsley",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "John Harvey",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Scott Landells",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Roberta Horne",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Greg Bourke",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Diane Shepheard",
+            "role": "Council-wide",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/indigo-shire-council",
+            "website": null,
+            "sourceId": "council-vic-roster-334",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-334-ordinary-2024",
+            "label": "2024 Indigo Shire Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+            "candidates": [
+              {
+                "name": "PRICE, Sophie\n(1st elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "DOWSLEY, Jane\n(2nd elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HARVEY, John\n(3rd elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "LANDELLS, Scott\n(4th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HORNE, Roberta\n(5th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "BOURKE, Greg\n(6th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "SHEPHEARD, Diane\n(7th elected)",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "status": "elected"
+              },
+              {
+                "name": "HARVEY, John",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 1231,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GAFFNEY, Bernard",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 933,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LANDELLS, Scott",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 1007,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HORNE, Roberta",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 1035,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BOURKE, Greg",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 1137,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TEISSL, Emmerick",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 580,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SHEPHEARD, Diane",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 639,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PARTON, Graham",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 639,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DOWSLEY, Jane",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 911,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TURNER, Lisa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 405,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PRICE, Sophie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/indigo-shire-council",
+                "contest": "Indigo Shire Council",
+                "votes": 2351,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-334-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council",
+        "mapRefs": [
+          {
+            "layerId": "council-vic-ward",
+            "featureId": "3340120050801",
+            "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

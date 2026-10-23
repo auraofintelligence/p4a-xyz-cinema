@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "title": "Kingborough — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-63610",
+    "kind": "council",
+    "name": "Kingborough",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/974",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "TEC MyReps lists the Mayor office as vacant as at 31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections. This leadership vacancy is not an additional councillor seat.",
+    "Kingborough Council notice published 19 June 2026 independently names Acting Mayor Christian Street. Only this explicitly supported TEC spelling discrepancy is corrected; no fuzzy person merging is applied.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/kingborough/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/974/id",
+      "expected": "tas-council-63610"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/974/name",
+      "expected": "Kingborough"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/974/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/974",
+      "expected": {
+        "id": "tas-council-63610",
+        "name": "Kingborough",
+        "slug": "kingborough",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "63610",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-1801",
+          "council-tas-kingborough-role-review",
+          "council-tas-2022-tas-council-63610-kgb-c",
+          "council-tas-2022-tas-council-63610-kgb-m",
+          "council-tas-2022-tas-council-63610-kgb-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Aldo Antolli",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "David Bain",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Gideon Cordover",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Kaspar Deane",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Flora Fox",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Amanda Midgley",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Mark Richardson",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Christian Street",
+            "role": "Deputy Mayor (TEC roster); Acting Mayor (council notice)",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "website": "http://www.kingborough.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801",
+            "sourceName": "Christians Street",
+            "nameNote": "TEC councillor row spells Christians Street; its deputy-mayor row and independently published Kingborough Council notice identify Christian Street.",
+            "additionalSourceIds": [
+              "council-tas-kingborough-role-review"
+            ]
+          },
+          {
+            "name": "Vacant councillor position 1",
+            "role": "Councillor vacancy",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "profileType": "official current-member roster",
+            "status": "Vacant in TEC roster as at31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections.",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          },
+          {
+            "name": "Vacant councillor position 2",
+            "role": "Councillor vacancy",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1801&LGGo=Go",
+            "profileType": "official current-member roster",
+            "status": "Vacant in TEC roster as at31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections.",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1801"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-63610-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-63610-kgb-c",
+            "label": "2022 Kingborough Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html",
+            "candidates": [
+              {
+                "name": "ANTOLLI, Aldo",
+                "status": "elected in this 2022 contest",
+                "votes": 2438,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "BAIN, David",
+                "status": "elected in this 2022 contest",
+                "votes": 911,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "CARTER, Di",
+                "status": "contested this 2022 event",
+                "votes": 767,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "CORDOVER, Gideon",
+                "status": "elected in this 2022 contest",
+                "votes": 2063,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "DEANE, Kaspar",
+                "status": "elected in this 2022 contest",
+                "votes": 1936,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "FOX, Flora",
+                "status": "elected in this 2022 contest",
+                "votes": 877,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "GLADE-WRIGHT, Clare",
+                "status": "elected in this 2022 contest",
+                "votes": 1946,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "HICKIE, Jill",
+                "status": "contested this 2022 event",
+                "votes": 803,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "JENSEN, Alex",
+                "status": "contested this 2022 event",
+                "votes": 279,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "LUCAS, Kate",
+                "status": "contested this 2022 event",
+                "votes": 493,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "McQUILLAN, David",
+                "status": "contested this 2022 event",
+                "votes": 592,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "MIDGLEY, Amanda",
+                "status": "elected in this 2022 contest",
+                "votes": 1079,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "RICHARDSON, Mark",
+                "status": "elected in this 2022 contest",
+                "votes": 2155,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "ROWAN, Michael",
+                "status": "contested this 2022 event",
+                "votes": 461,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "STREET, Christian",
+                "status": "elected in this 2022 contest",
+                "votes": 941,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "WRIEDT, Paula",
+                "status": "elected in this 2022 contest",
+                "votes": 5503,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63610-kgb-m",
+            "label": "2022 Kingborough Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html",
+            "candidates": [
+              {
+                "name": "RICHARDSON, Mark",
+                "status": "contested this 2022 event",
+                "votes": 8830,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "WRIEDT, Paula",
+                "status": "contested this 2022 event",
+                "votes": 14042,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63610-kgb-dm",
+            "label": "2022 Kingborough Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html",
+            "candidates": [
+              {
+                "name": "ANTOLLI, Aldo",
+                "status": "contested this 2022 event",
+                "votes": 4792,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "CORDOVER, Gideon",
+                "status": "contested this 2022 event",
+                "votes": 4345,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "DEANE, Kaspar",
+                "status": "contested this 2022 event",
+                "votes": 4095,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "FOX, Flora",
+                "status": "contested this 2022 event",
+                "votes": 2436,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "GLADE-WRIGHT, Clare",
+                "status": "contested this 2022 event",
+                "votes": 5057,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              },
+              {
+                "name": "STREET, Christian",
+                "status": "contested this 2022 event",
+                "votes": 2864,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63610-kgb-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/kgb-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kingborough/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "TEC MyReps lists the Mayor office as vacant as at 31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections. This leadership vacancy is not an additional councillor seat.",
+          "Kingborough Council notice published 19 June 2026 independently names Acting Mayor Christian Street. Only this explicitly supported TEC spelling discrepancy is corrected; no fuzzy person merging is applied.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

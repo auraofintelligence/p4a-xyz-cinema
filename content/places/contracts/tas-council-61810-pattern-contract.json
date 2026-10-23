@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "title": "Dorset — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-61810",
+    "kind": "council",
+    "name": "Dorset",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/965",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/dorset/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/965/id",
+      "expected": "tas-council-61810"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/965/name",
+      "expected": "Dorset"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/965/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/965",
+      "expected": {
+        "id": "tas-council-61810",
+        "name": "Dorset",
+        "slug": "dorset",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "61810",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-1201",
+          "council-tas-2022-tas-council-61810-dor-c",
+          "council-tas-2022-tas-council-61810-dor-m",
+          "council-tas-2022-tas-council-61810-dor-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Rhys Beattie",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Nick Bicanic",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Mervyn Chilcott",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Jan Hughes",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Wendy McLennan",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Edwina Powell",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Anthony Richards",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Kahlia Simmons",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          },
+          {
+            "name": "Vincent Teichmann",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1201&LGGo=Go",
+            "website": "http://www.dorset.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1201"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-61810-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-61810-dor-c",
+            "label": "2022 Dorset Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html",
+            "candidates": [
+              {
+                "name": "BICANIC, Nick",
+                "status": "contested this 2022 event",
+                "votes": 208,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "CASHION, James",
+                "status": "contested this 2022 event",
+                "votes": 93,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "CHILCOTT, Mervyn",
+                "status": "elected in this 2022 contest",
+                "votes": 159,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "COXEN, Anna Curtayne",
+                "status": "elected in this 2022 contest",
+                "votes": 317,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "CUTHBERTSON, Karlene",
+                "status": "contested this 2022 event",
+                "votes": 140,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "DONOGHUE, Beth",
+                "status": "elected in this 2022 contest",
+                "votes": 653,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "HOWARD, Greg",
+                "status": "elected in this 2022 contest",
+                "votes": 1159,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "HUGHES, Jan",
+                "status": "contested this 2022 event",
+                "votes": 105,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "JESSUP, Dale",
+                "status": "elected in this 2022 contest",
+                "votes": 289,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "McLENNAN, Wendy",
+                "status": "contested this 2022 event",
+                "votes": 157,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "NICHOLS, Jerrod",
+                "status": "elected in this 2022 contest",
+                "votes": 293,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "POWELL, Edwina",
+                "status": "elected in this 2022 contest",
+                "votes": 300,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "SIMMONS, Kahlia",
+                "status": "elected in this 2022 contest",
+                "votes": 400,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "STEIN, Leonie",
+                "status": "elected in this 2022 contest",
+                "votes": 261,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "TEICHMANN, Vincent",
+                "status": "contested this 2022 event",
+                "votes": 56,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-61810-dor-m",
+            "label": "2022 Dorset Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html",
+            "candidates": [
+              {
+                "name": "DONOGHUE, Beth",
+                "status": "contested this 2022 event",
+                "votes": 1609,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "HOWARD, Greg",
+                "status": "contested this 2022 event",
+                "votes": 2191,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "POWELL, Edwina",
+                "status": "contested this 2022 event",
+                "votes": 844,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-61810-dor-dm",
+            "label": "2022 Dorset Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html",
+            "candidates": [
+              {
+                "name": "JESSUP, Dale",
+                "status": "contested this 2022 event",
+                "votes": 2666,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              },
+              {
+                "name": "STEIN, Leonie",
+                "status": "contested this 2022 event",
+                "votes": 1872,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-61810-dor-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/dor-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/dorset/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

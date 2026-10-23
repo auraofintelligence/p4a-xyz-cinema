@@ -1,0 +1,968 @@
+{
+  "schemaVersion": 1,
+  "title": "Playford — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "sa-council-45680",
+    "kind": "council",
+    "name": "Playford",
+    "jurisdiction": "sa"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/792",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The 2024/2025 representation review changes this council for the next periodic election: 5 to 4 wards. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+    "From polling day of the next periodic election, four wards named Ward 1 to Ward 4 each elect three councillors. The retained five-ward polygons are a preceding edition. Gazette 2025-12-11, p. 4936; https://www.ecsa.sa.gov.au/images/Council_Boundaries_2026/Playford_Gazette%20Notice_11%20December%202025.pdf",
+    "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+    "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+    "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/sa/councils/playford/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/sa/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/792/id",
+      "expected": "sa-council-45680"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/792/name",
+      "expected": "Playford"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/792/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/792",
+      "expected": {
+        "id": "sa-council-45680",
+        "name": "Playford",
+        "slug": "playford",
+        "jurisdiction": "sa",
+        "kind": "council",
+        "layerId": "council-sa-abs-2026",
+        "featureId": "45680",
+        "officialUrl": "https://www.playford.sa.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-sa-next-timetable",
+          "council-sa-official-wards",
+          "council-sa-ward-edition-review",
+          "council-sa-2022-contest-controls",
+          "council-sa-2022-postal-close-review",
+          "council-sa-2022-candidate-and-historical-elected-master",
+          "council-sa-2022-sa-council-45680-results",
+          "council-sa-lga-current-leaders-2026-09-23"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Glenn Docherty",
+            "role": "Mayor",
+            "profileUrl": "https://www.lga.sa.gov.au/__data/assets/excel_doc/0035/650879/All-Council-Database-as-at-23-September-2026.xlsx",
+            "profileType": "official published LGA current-leader directory roster",
+            "website": "https://www.playford.sa.gov.au",
+            "sourceId": "council-sa-lga-current-leaders-2026-09-23",
+            "checked": "2026-10-17",
+            "asAt": "2026-09-23",
+            "status": "Published LGA-SA leader snapshot declared 23 September 2026; checked 17 October 2026, subsequent individual changes not fully reconciled"
+          }
+        ],
+        "elections": [
+          {
+            "id": "sa-council-45680-next-ordinary",
+            "label": "2027 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2027-04-07",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 5pm local time.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/parties-and-candidates/council-elections",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2027-04-07T17:00:00+09:30"
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-mayor",
+            "label": "2022 Playford — Mayor",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Mayor",
+            "electionCouncilName": "Playford",
+            "vacancies": 1,
+            "expectedCandidateCount": 3,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "DOCHERTY, Glenn",
+                "status": "elected in this2022 result workbook",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 8366,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "REARDON, Shaun",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 6809,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SMITH, Jerome",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 2459,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-ward-1",
+            "label": "2022 Playford — Ward 1",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Ward 1",
+            "electionCouncilName": "Playford",
+            "vacancies": 3,
+            "expectedCandidateCount": 11,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BALFORT, Gary",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Family First Party Inc",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 177,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DIESSA, Possible",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 8,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 320,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DOUGLAS, Victoria Jayne",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 97,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "KUHLMANN, Rita",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 11,
+                "partyMembershipAtElection": "Animal Justice Party",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 64,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "MARSH, Clint",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 10,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 717,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "MCDONALD, Rita Anne",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 92,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "MUSOLINO, Dino",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 557,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "NICOL, Phillip",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 7,
+                "votes": 158,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "RENTOULIS, Peter",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 915,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "TAME, Cathy Jo",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 9,
+                "votes": 150,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "VANDEPEEAR, Rebecca",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 1",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 737,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-ward-2",
+            "label": "2022 Playford — Ward 2",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Ward 2",
+            "electionCouncilName": "Playford",
+            "vacancies": 3,
+            "expectedCandidateCount": 10,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "COPPINS, Stephen ",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 308,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "CURREY, Donna-marie",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 300,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DAVIES, Russell Francis",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 258,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HANTON, Kym",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 9,
+                "votes": 457,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HATUNGIMANA, Modeste",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 8,
+                "votes": 175,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "JAMES, Corina",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 282,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "KARLSEN, Chantelle",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 10,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 825,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "ONUZANS, Jane",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 738,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "SHARMA POUDYAL, Puskar ",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 7,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 152,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SMALLWOOD-SMITH, Gay",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 2",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 580,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-ward-3",
+            "label": "2022 Playford — Ward 3",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Ward 3",
+            "electionCouncilName": "Playford",
+            "vacancies": 3,
+            "expectedCandidateCount": 10,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "AMANI, Ahmad",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 9,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 167,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "CRAIG, Andrew",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 10,
+                "votes": 383,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "FEDERICO, Joe",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 339,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "GOSSINK, Veronica",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 214,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HENDRICK, Sanja",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "partyMembershipAtElection": "Family First Party Inc",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 125,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "KERRISON, David ",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 8,
+                "votes": 849,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "O'DONNELL, Tom ",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 7,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 201,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "RAE, Clare Louise",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 267,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SMILJANIC, Tanya",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 384,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "SOUTHERN, Lainie",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 3",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 150,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-ward-4",
+            "label": "2022 Playford — Ward 4",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Ward 4",
+            "electionCouncilName": "Playford",
+            "vacancies": 3,
+            "expectedCandidateCount": 12,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "ACHARYA, Ram",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 8,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 170,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "ALI, Mohammad",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 11,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 52,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "BAKER, Marilyn",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 10,
+                "votes": 637,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "BAYANI, Zahra",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 604,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "DAVEY, Denis",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 248,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HOLFTER, Rae",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 9,
+                "votes": 255,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HORSELL, Chris",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 7,
+                "votes": 73,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "KRANZ, Lisa D",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 237,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "PARKIN, Benjamin Jeffrey",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 50,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "STROET, Katrina ",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 266,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "STUART, Terry",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 149,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "WALKER, Sara",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 4",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 12,
+                "votes": 188,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45680-ordinary-2022-ward-5",
+            "label": "2022 Playford — Ward 5",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Ward 5",
+            "electionCouncilName": "Playford",
+            "vacancies": 3,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "ARIFI, Akram",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 1260,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "CALLAGHAN, Tammy",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 188,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "HALLS, Shirley Patricia",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 448,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "NORRIS, Misty",
+                "status": "elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 747,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "RETALLICK, Matthew",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 272,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SHAW, Mark Daniel",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Ward 5",
+                "sourceId": "council-sa-2022-sa-council-45680-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/playford-results-statistics-7-sheets/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 385,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The 2024/2025 representation review changes this council for the next periodic election: 5 to 4 wards. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+          "From polling day of the next periodic election, four wards named Ward 1 to Ward 4 each elect three councillors. The retained five-ward polygons are a preceding edition. Gazette 2025-12-11, p. 4936; https://www.ecsa.sa.gov.au/images/Council_Boundaries_2026/Playford_Gazette%20Notice_11%20December%202025.pdf",
+          "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+          "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+          "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

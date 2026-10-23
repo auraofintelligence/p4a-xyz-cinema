@@ -1,0 +1,859 @@
+{
+  "schemaVersion": 1,
+  "title": "Torres Strait Island Regional — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-6960",
+    "kind": "council",
+    "name": "Torres Strait Island Regional",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/69",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/torres-strait-island-regional/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/69/id",
+      "expected": "qld-council-6960"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/69/name",
+      "expected": "Torres Strait Island Regional"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/69/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/69",
+      "expected": {
+        "id": "qld-council-6960",
+        "name": "Torres Strait Island Regional",
+        "slug": "torres-strait-island-regional",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "6960",
+        "officialUrl": "https://www.tsirc.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Phillemon Mosby",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.tsirc.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-6960-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-070",
+            "label": "2024 Torres Strait Island Regional — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+            "candidates": [
+              {
+                "name": "SABATINO, Mario",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "votes": 184,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MOSBY, Phillemon Sereako",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "votes": 797,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "KRIS, John Toshie",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "votes": 641,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TURNER, Regina",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "votes": 206,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "STEPHEN, Jerry Dixie",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/070",
+                "votes": 165,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07001",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+            "candidates": [
+              {
+                "name": "TOBY, Dimas Pinaith Laza Oppie",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "votes": 72,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ANAU, Suzanne",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "votes": 13,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ANAU, Tanaio",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07001",
+                "votes": 39,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07010",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 10",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+            "candidates": [
+              {
+                "name": "BILLY, Iris",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 10",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "votes": 28,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BILLY, Lui",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 10",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "votes": 39,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TAMU, Kabay",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 10",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07010",
+                "votes": 87,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07011",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 11",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07011",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07011",
+            "candidates": [
+              {
+                "name": "PEARSON, Francis",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 11",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07011",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07011"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07012",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 12",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+            "candidates": [
+              {
+                "name": "MOSBY, Ted",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 12",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+                "votes": 79,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MOSBY, Hilda",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 12",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07012",
+                "votes": 26,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07013",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 13",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07013",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07013",
+            "candidates": [
+              {
+                "name": "STEPHEN, Rocky Gabriel",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 13",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07013"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07014",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 14",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+            "candidates": [
+              {
+                "name": "GELA, Jimmy Joe",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "votes": 34,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "THAIDAY, Patrick",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "votes": 35,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GHEE, Isaac F",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "votes": 37,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MYE, Nixon",
+                "ballotOrder": 4,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07014",
+                "votes": 61,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07015",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 15",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+            "candidates": [
+              {
+                "name": "NOAH, Aven S.",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 15",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+                "votes": 68,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "KAIGEY, Bob",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 15",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07015",
+                "votes": 115,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07002",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07002",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07002",
+            "candidates": [
+              {
+                "name": "ELISALA, Torenzo",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07002",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07002"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07003",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+            "candidates": [
+              {
+                "name": "ATU, Timothy N (Wosomo)",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "votes": 62,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ANIBA, Chelsea",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "votes": 69,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TABUAI, Conwell",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07003",
+                "votes": 31,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07004",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07004",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07004",
+            "candidates": [
+              {
+                "name": "FELL, Keith",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07004",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07004"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07005",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+            "candidates": [
+              {
+                "name": "NONA, Timena",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "votes": 26,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WOSOMO, Ranetta",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "votes": 155,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "AHMAT, Solomon",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07005",
+                "votes": 151,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07006",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 6",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+            "candidates": [
+              {
+                "name": "TRINKOON, Lama",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "votes": 21,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SAVAGE, Danie",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "votes": 26,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MANAS, Iona",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07006",
+                "votes": 30,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07007",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 7",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+            "candidates": [
+              {
+                "name": "SAILOR, Bana",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+                "votes": 54,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LEVI, John",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07007",
+                "votes": 81,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07008",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 8",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+            "candidates": [
+              {
+                "name": "DORANTE, Eugene",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+                "votes": 46,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DORANTE, Seriako Henry",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07008",
+                "votes": 72,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          },
+          {
+            "id": "qld-council-6960-ordinary-2024-07009",
+            "label": "2024 Torres Strait Island Regional — Torres Strait Island Regional Division 9",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-23",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "Official14 March 2024 Gazette changes the Torres Strait Island Regional Council polling day from 16March to 23 March 2024 because weather prevented mobile polling; the jurisdiction date is not copied into these events.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+            "candidates": [
+              {
+                "name": "HANKIN, Aggie Sumai",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Torres Strait Island Regional Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+                "votes": 105,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DAVID, Charles Albert",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Torres Strait Island Regional Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/07009",
+                "votes": 47,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "calendarSourceUrl": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf"
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

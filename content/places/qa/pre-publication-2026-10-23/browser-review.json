@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-18",
+  "status": "PASS",
+  "scope": "Shared footer Australia column: one portal for each of eight states and territories, with no specialist links or duplicate abbreviation row. Main Index and affected responsive/search behavior checked.",
+  "reason": "User requested one Queensland, one Victoria and one of each state under Australia; earlier suggestions of Queensland local-topic links were explicitly superseded.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "desktopViewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "responsiveMethod": "Real same-origin iframe at 390 CSS pixels, fonts and layout measured by the existing fixture. Not a physical-phone or touch emulation."
+  },
+  "majorOrder": [
+    "start",
+    "spark",
+    "system",
+    "ground",
+    "states"
+  ],
+  "navigationCounts": {
+    "indexEntries": 132,
+    "uniqueIndexDestinations": 132,
+    "primaryIdeasRetained": 9,
+    "australiaFooterLinks": 8,
+    "uniqueAustraliaFooterDestinations": 8
+  },
+  "fixtures": [
+    {
+      "id": "desktop-australia-eight-portals-once",
+      "status": "PASS",
+      "metrics": {
+        "columns": [
+          "Start here",
+          "The spark",
+          "The system",
+          "The ground game",
+          "Australia"
+        ],
+        "extraChipRow": false,
+        "fontStatus": "loaded",
+        "footerColumns": "210.125px 210.125px 210.125px 210.125px 210.125px",
+        "headingTop": 12.515625,
+        "links": [
+          {
+            "href": "states/qld/index.html",
+            "rect": {
+              "bottom": 69.28125,
+              "top": 43.28125
+            },
+            "title": "Queensland"
+          },
+          {
+            "href": "states/nsw/index.html",
+            "rect": {
+              "bottom": 101.28125,
+              "top": 75.28125
+            },
+            "title": "New South Wales"
+          },
+          {
+            "href": "states/vic/index.html",
+            "rect": {
+              "bottom": 133.28125,
+              "top": 107.28125
+            },
+            "title": "Victoria"
+          },
+          {
+            "href": "states/wa/index.html",
+            "rect": {
+              "bottom": 165.28125,
+              "top": 139.28125
+            },
+            "title": "Western Australia"
+          },
+          {
+            "href": "states/sa/index.html",
+            "rect": {
+              "bottom": 197.28125,
+              "top": 171.28125
+            },
+            "title": "South Australia"
+          },
+          {
+            "href": "states/tas/index.html",
+            "rect": {
+              "bottom": 229.28125,
+              "top": 203.28125
+            },
+            "title": "Tasmania"
+          },
+          {
+            "href": "states/act/index.html",
+            "rect": {
+              "bottom": 261.28125,
+              "top": 235.28125
+            },
+            "title": "ACT"
+          },
+          {
+            "href": "states/nt/index.html",
+            "rect": {
+              "bottom": 293.28125,
+              "top": 267.28125
+            },
+            "title": "Northern Territory"
+          }
+        ],
+        "page": {
+          "clientWidth": 1265,
+          "scrollWidth": 1265
+        },
+        "path": "/index.html",
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        }
+      }
+    },
+    {
+      "id": "five-index-themes-and-nine-start-ideas-retained",
+      "status": "PASS",
+      "metrics": {
+        "chosen": [
+          "Aura Genesis Protocol",
+          "Truth Engine",
+          "Musicverse",
+          "C-Hour & Braided Economy",
+          "Worker mutuals",
+          "Web3 Sensorium",
+          "Sovereignty Stack",
+          "Purple Synthesis",
+          "Cyber-Republic Simulator"
+        ],
+        "defaultStart": true,
+        "entries": 132,
+        "path": "/index.html",
+        "scrollTop": 0,
+        "sections": [
+          {
+            "id": "start",
+            "label": "Start here"
+          },
+          {
+            "id": "spark",
+            "label": "The spark"
+          },
+          {
+            "id": "system",
+            "label": "The system"
+          },
+          {
+            "id": "ground",
+            "label": "The ground game"
+          },
+          {
+            "id": "states",
+            "label": "States and territories"
+          }
+        ],
+        "unique": 132
+      }
+    },
+    {
+      "id": "relevant-search-and-clear-restoration",
+      "status": "PASS",
+      "metrics": {
+        "search": {
+          "visible": [
+            {
+              "href": "pages/truth-engine.html",
+              "title": "Truth Engine"
+            },
+            {
+              "href": "pages/twinkle-uap.html",
+              "title": "Twinkle 20: UAP disclosure"
+            }
+          ]
+        },
+        "clear": {
+          "openCategories": [
+            "start"
+          ],
+          "startOpen": true
+        }
+      }
+    },
+    {
+      "id": "narrow-australia-footer-and-keyboard-focus",
+      "status": "PASS",
+      "metrics": {
+        "path": "/index.html",
+        "requestedWidth": 390,
+        "page": {
+          "innerWidth": 390,
+          "clientWidth": 375,
+          "scrollWidth": 375
+        },
+        "visibleFooterHeading": "Australia",
+        "visiblePortalLabels": [
+          "Queensland",
+          "New South Wales",
+          "Victoria",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "ACT",
+          "Northern Territory"
+        ],
+        "keyboardFocusAfterTab": "New South Wales",
+        "screenshot": "content/places/qa/australia-footer-narrow.png"
+      }
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-queensland-footer-2026-10-18/browser-review.json",
+  "testedPagePaths": [
+    "index.html",
+    "content/places/qa/navigation-fixture.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/navigation-fixture.html",
+    "content/places/qa/australia-footer-desktop.png",
+    "content/places/qa/australia-footer-narrow.png"
+  ],
+  "limits": [
+    "Only shared footer data selection/rendering changed; the full States Index keeps its specialist links and the same 132 unique destinations. No page or source facts were changed.",
+    "Australia is the footer heading only. The main Index still says States and territories, numbered 05. Each footer state/territory appears once with no repeated chip row.",
+    "Minjerribah and Olympics are absent from this footer column; their existing pages and navigation remain. Compact Victoria-specific footers and national civic-place footer templates retain their separate scope.",
+    "Full-text search can retain a distinct UAP Twinkle that mentions Truth Engine; it is not a duplicate destination.",
+    "Earlier source/map, clinical paths and broader navigation reviews retain their dated archived scope. No new source research, physical-device or full per-place review is claimed."
+  ]
+}

@@ -70,9 +70,8 @@ def build():
  if "href: 'pages/civic-pathway.html'" not in nav:nav=nav.replace("{ href: 'pages/architecture.html'","{ href: 'pages/civic-pathway.html', title: 'Civic pathway', note: 'Origins, culture, organising and the broader civic journey.' },\n        { href: 'pages/architecture.html'",1)
  start='/* key-policy-navigation:start */';end='/* key-policy-navigation:end */'
  nav=re.sub(re.escape(start)+'.*?'+re.escape(end)+'\n?','',nav,flags=re.S)
- keys=[{'href':'pages/rabbit-hole.html#key-'+slug if url.startswith('https:') else 'pages/'+url,'title':title,'note':body} for slug,title,body,url,_ in KEY]
- block=start+'\n'+json.dumps({'id':'key-policies','num':'Key','label':'Key policy ideas','blurb':'The core proposals connecting the Twinkle solutions.','links':keys},ensure_ascii=False)+',\n'+end+'\n'
- nav=nav.replace("    {\n      id: 'spark',",block+"    {\n      id: 'spark',",1)
+ # Shared navigation owns each idea once: Start here or its thematic section.
+ # KEY still supplies policy cards and the homepage; do not add a duplicate Index category.
  write('assets/site-nav.js',nav)
  # Make prominent policy links visible on the homepage as well.
  home=read('index.html')

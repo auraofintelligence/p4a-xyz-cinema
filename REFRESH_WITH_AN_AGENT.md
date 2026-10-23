@@ -1,29 +1,36 @@
 # Refresh Election Data With An Agent
 
 Paste this prompt into a capable coding agent working in this repo to check
-and refresh Australian election data (by-elections, seat splits, leadership,
-election dates) across the whole site. It is designed to conserve tokens: a
-run where nothing has changed reads two small files per state and writes one
-log line.
+and refresh an individual council, ward, state/territory or federal event,
+member/profile, previous contest or countdown. Follow the
+[fractal update guide](docs/agents/fractal-election-updates.md), including its
+sitemap and link procedure. A no-change check updates only the refresh log.
 
 ---
 
 You are refreshing election data for the P4A public workbench.
 
-1. Read `content/refresh-watchlist.md` in full. It defines the signals to
-   check, the source-of-truth order, the exact update recipe and the hard
-   rules. Follow it precisely.
-2. Scope: the jurisdictions the operator named, or all eight if unspecified.
-3. For each jurisdiction in scope, read only `content/states/<slug>.md`,
-   then check the live sources listed in that file's `sources[]` array plus
-   a web search for "<state> by-election <current year>".
-4. If the site data still matches reality, append one "no change" line to
-   `content/refresh-log.md` and move on. Touch nothing else.
-5. If something changed, verify it against an official or expert source,
-   then apply the watchlist recipe through every layer (canonical md →
-   assets/state-data.js → rendered HTML), validate, log it, and commit.
-6. Never invent or guess a result. Unclear or undeclared results are logged
-   as "needs follow-up" and the site keeps saying what it currently says.
+1. Read `AGENTS.md`, `docs/agents/fractal-election-updates.md` and
+   `content/refresh-watchlist.md`, then the guide for the actual place level.
+2. Scope: the place, event or jurisdictions the operator named. Resolve a
+   named by-election to its area/event IDs; follow only affected dependencies.
+   Use all eight jurisdictions only for an explicitly national check.
+   If no target can be inferred, clarify the scope before a broad refresh.
+3. Find the real canonical place/event/people/contestant records and official
+   source URLs. Check the current election stage, membership and required
+   timetable/profile/result sources; preserve their distinct dates and editions.
+4. If nothing changed, append one scoped "no change" entry to
+   `content/refresh-log.md`. Leave data and research dates unchanged.
+5. For verified changes, edit canonical records first, then use the actual
+   scoped adapter and review all outputs, including shared files. Keep current
+   office, previous contestants and future candidacy separate. Update affected
+   countdowns, summaries, public profile links and navigation/discovery; validate
+   using the guide's applicable checks and log the evidence and remaining gaps.
+6. Never guess a winner or poll date. Verified vacancy, poll-held or counting
+   status can change while a winner remains unknown. Record inaccessible or
+   conflicting evidence as "needs follow-up". Create no new Twinkles. Commit
+   or publish only within the operator's existing authorisation; report the
+   exact delivery state.
 
 ---
 

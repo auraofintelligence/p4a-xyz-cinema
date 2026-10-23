@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "source": {
+    "id": "council-sa-official-wards",
+    "title": "Location SA: Local Government Area Wards (dataset 836)",
+    "url": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=836&pa=dpti",
+    "checked": "2026-10-17",
+    "rawFile": "content/places/raw/sa-ward-geometry/metadata.json",
+    "sha256": "05ae8a50c07aab8745adc5e535ae0869611b1b1ca3b8626b54940092274234e1",
+    "licence": "Dataset metadata: AusGOAL CC BY (Attribution); metadata report CC BY 3.0 Australia. Copyright Crown in right of South Australia and licensors; original terms retained.",
+    "licenceUrl": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=836&pa=dpti",
+    "attribution": "Local Government Area Wards, Location SA / Government of South Australia. CC BY (Attribution); source rights and accuracy limitations apply."
+  },
+  "layer": {
+    "id": "council-sa-official-wards",
+    "jurisdiction": "sa",
+    "kind": "ward",
+    "name": "South Australia local government wards",
+    "geometryFile": "assets/maps/national/council-sa-wards.geojson",
+    "featureIdField": "objectid",
+    "sourceId": "council-sa-official-wards",
+    "crs": "EPSG:4326",
+    "nativeCrs": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -22041258.62706707,
+      "falseY": -33265068.604224768,
+      "xyUnits": 135385249.94349548,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "boundaryEdition": "Current Location SA source snapshot 17 October 2026; verify applicable election edition separately",
+    "attribution": "Local Government Area Wards, Location SA / Government of South Australia. CC BY (Attribution); source rights and accuracy limitations apply."
+  },
+  "sourceFeatureCount": 140,
+  "metadata": {
+    "currentVersion": 10.91,
+    "cimVersion": "2.9.0",
+    "id": 12,
+    "name": "Local Government Area Wards",
+    "type": "Feature Layer",
+    "description": "",
+    "geometryType": "esriGeometryPolygon",
+    "sourceSpatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 10000,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyrightText": "",
+    "parentLayer": {
+      "id": 0,
+      "name": "Boundaries"
+    },
+    "subLayers": [],
+    "minScale": 0,
+    "maxScale": 0,
+    "referenceScale": 0.0,
+    "drawingInfo": {
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outline": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              77,
+              153,
+              255,
+              255
+            ],
+            "width": 2
+          }
+        }
+      },
+      "scaleSymbols": true,
+      "transparency": 0,
+      "labelingInfo": null
+    },
+    "defaultVisibility": false,
+    "extent": {
+      "xmin": 14360418.930799998,
+      "ymin": -4588209.486699998,
+      "xmax": 15693128.904600002,
+      "ymax": -2998903.6394999996,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -22041258.62706707,
+        "falseY": -33265068.604224768,
+        "xyUnits": 135385249.94349548,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "abbname",
+    "typeIdField": null,
+    "subtypeFieldName": null,
+    "subtypeField": null,
+    "defaultSubtypeCode": null,
+    "fields": [
+      {
+        "name": "objectid",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "lgatype",
+        "type": "esriFieldTypeString",
+        "alias": "LGAtype",
+        "length": 3,
+        "domain": {
+          "type": "codedValue",
+          "name": "WS1_dLGAtypes_1",
+          "description": "",
+          "codedValues": [
+            {
+              "name": "Corporate City",
+              "code": "CC"
+            },
+            {
+              "name": "Corporate Town",
+              "code": "CT"
+            },
+            {
+              "name": "District Council",
+              "code": "DC"
+            },
+            {
+              "name": "Municipal Council",
+              "code": "MC"
+            },
+            {
+              "name": "Regional Council",
+              "code": "RC"
+            },
+            {
+              "name": "Water District",
+              "code": "WD"
+            }
+          ],
+          "mergePolicy": "esriMPTDefaultValue",
+          "splitPolicy": "esriSPTDefaultValue"
+        }
+      },
+      {
+        "name": "abbname",
+        "type": "esriFieldTypeString",
+        "alias": "ABBNAME",
+        "length": 60,
+        "domain": {
+          "type": "codedValue",
+          "name": "WS1_dAdmin_LGAabbname",
+          "description": "Unique values in ABBNAME field",
+          "codedValues": [
+            {
+              "name": "ADELAIDE",
+              "code": "ADELAIDE"
+            },
+            {
+              "name": "ADELAIDE HILLS",
+              "code": "ADELAIDE HILLS"
+            },
+            {
+              "name": "ALEXANDRINA",
+              "code": "ALEXANDRINA"
+            },
+            {
+              "name": "BAROSSA",
+              "code": "BAROSSA"
+            },
+            {
+              "name": "BARUNGA WEST",
+              "code": "BARUNGA WEST"
+            },
+            {
+              "name": "BERRI BARMERA",
+              "code": "BERRI BARMERA"
+            },
+            {
+              "name": "BURNSIDE",
+              "code": "BURNSIDE"
+            },
+            {
+              "name": "CAMPBELLTOWN",
+              "code": "CAMPBELLTOWN"
+            },
+            {
+              "name": "CEDUNA",
+              "code": "CEDUNA"
+            },
+            {
+              "name": "CHARLES STURT",
+              "code": "CHARLES STURT"
+            },
+            {
+              "name": "CLARE AND GILBERT VALLEYS",
+              "code": "CLARE AND GILBERT VALLEYS"
+            },
+            {
+              "name": "CLEVE",
+              "code": "CLEVE"
+            },
+            {
+              "name": "COOBER PEDY",
+              "code": "COOBER PEDY"
+            },
+            {
+              "name": "COPPER COAST",
+              "code": "COPPER COAST"
+            },
+            {
+              "name": "ELLISTON",
+              "code": "ELLISTON"
+            },
+            {
+              "name": "FLINDERS RANGES",
+              "code": "FLINDERS RANGES"
+            },
+            {
+              "name": "FRANKLIN HARBOUR",
+              "code": "FRANKLIN HARBOUR"
+            },
+            {
+              "name": "GAWLER",
+              "code": "GAWLER"
+            },
+            {
+              "name": "GOYDER",
+              "code": "GOYDER"
+            },
+            {
+              "name": "GRANT",
+              "code": "GRANT"
+            },
+            {
+              "name": "HOLDFAST BAY",
+              "code": "HOLDFAST BAY"
+            },
+            {
+              "name": "KANGAROO ISLAND",
+              "code": "KANGAROO ISLAND"
+            },
+            {
+              "name": "KAROONDA EAST MURRAY",
+              "code": "KAROONDA EAST MURRAY"
+            },
+            {
+              "name": "KIMBA",
+              "code": "KIMBA"
+            },
+            {
+              "name": "KINGSTON",
+              "code": "KINGSTON"
+            },
+            {
+              "name": "LIGHT",
+              "code": "LIGHT"
+            },
+            {
+              "name": "LOWER EYRE PENINSULA",
+              "code": "LOWER EYRE PENINSULA"
+            },
+            {
+              "name": "LOXTON WAIKERIE",
+              "code": "LOXTON WAIKERIE"
+            },
+            {
+              "name": "MARION",
+              "code": "MARION"
+            },
+            {
+              "name": "MID MURRAY",
+              "code": "MID MURRAY"
+            },
+            {
+              "name": "MITCHAM",
+              "code": "MITCHAM"
+            },
+            {
+              "name": "MOUNT BARKER",
+              "code": "MOUNT BARKER"
+            },
+            {
+              "name": "MOUNT GAMBIER",
+              "code": "MOUNT GAMBIER"
+            },
+            {
+              "name": "MOUNT REMARKABLE",
+              "code": "MOUNT REMARKABLE"
+            },
+            {
+              "name": "MURRAY BRIDGE",
+              "code": "MURRAY BRIDGE"
+            },
+            {
+              "name": "NARACOORTE LUCINDALE",
+              "code": "NARACOORTE LUCINDALE"
+            },
+            {
+              "name": "NORTHERN AREAS",
+              "code": "NORTHERN AREAS"
+            },
+            {
+              "name": "NORWOOD PAYNEHAM AND ST PETERS",
+              "code": "NORWOOD PAYNEHAM AND ST PETERS"
+            },
+            {
+              "name": "ONKAPARINGA",
+              "code": "ONKAPARINGA"
+            },
+            {
+              "name": "ORROROO/CARRIETON",
+              "code": "ORROROO/CARRIETON"
+            },
+            {
+              "name": "PETERBOROUGH",
+              "code": "PETERBOROUGH"
+            },
+            {
+              "name": "PLAYFORD",
+              "code": "PLAYFORD"
+            },
+            {
+              "name": "PORT ADELAIDE ENFIELD",
+              "code": "PORT ADELAIDE ENFIELD"
+            },
+            {
+              "name": "PORT AUGUSTA",
+              "code": "PORT AUGUSTA"
+            },
+            {
+              "name": "PORT LINCOLN",
+              "code": "PORT LINCOLN"
+            },
+            {
+              "name": "PORT PIRIE",
+              "code": "PORT PIRIE"
+            },
+            {
+              "name": "PROSPECT",
+              "code": "PROSPECT"
+            },
+            {
+              "name": "RENMARK PARINGA",
+              "code": "RENMARK PARINGA"
+            },
+            {
+              "name": "ROBE",
+              "code": "ROBE"
+            },
+            {
+              "name": "ROXBY DOWNS",
+              "code": "ROXBY DOWNS"
+            },
+            {
+              "name": "SALISBURY",
+              "code": "SALISBURY"
+            },
+            {
+              "name": "SOUTHERN MALLEE",
+              "code": "SOUTHERN MALLEE"
+            },
+            {
+              "name": "STREAKY BAY",
+              "code": "STREAKY BAY"
+            },
+            {
+              "name": "TATIARA",
+              "code": "TATIARA"
+            },
+            {
+              "name": "TEA TREE GULLY",
+              "code": "TEA TREE GULLY"
+            },
+            {
+              "name": "TUMBY BAY",
+              "code": "TUMBY BAY"
+            },
+            {
+              "name": "UIA RIVERLAND",
+              "code": "UIA RIVERLAND"
+            },
+            {
+              "name": "UIA WHYALLA",
+              "code": "UIA WHYALLA"
+            },
+            {
+              "name": "UNLEY",
+              "code": "UNLEY"
+            },
+            {
+              "name": "VICTOR HARBOR",
+              "code": "VICTOR HARBOR"
+            },
+            {
+              "name": "WAKEFIELD",
+              "code": "WAKEFIELD"
+            },
+            {
+              "name": "WALKERVILLE",
+              "code": "WALKERVILLE"
+            },
+            {
+              "name": "WATTLE RANGE",
+              "code": "WATTLE RANGE"
+            },
+            {
+              "name": "WEST TORRENS",
+              "code": "WEST TORRENS"
+            },
+            {
+              "name": "WHYALLA",
+              "code": "WHYALLA"
+            },
+            {
+              "name": "YANKALILLA",
+              "code": "YANKALILLA"
+            },
+            {
+              "name": "YORKE PENINSULA",
+              "code": "YORKE PENINSULA"
+            },
+            {
+              "name": "WUDINNA",
+              "code": "WUDINNA"
+            },
+            {
+              "name": "LE HUNTE",
+              "code": "LE HUNTE"
+            },
+            {
+              "name": "APY",
+              "code": "APY"
+            },
+            {
+              "name": "MT",
+              "code": "MT"
+            },
+            {
+              "name": "PUA",
+              "code": "PUA"
+            },
+            {
+              "name": "COORONG",
+              "code": "COORONG"
+            },
+            {
+              "name": "ADELAIDE PLAINS",
+              "code": "ADELAIDE PLAINS"
+            },
+            {
+              "name": "UIA TORRENS ISLAND",
+              "code": "UIA TORRENS ISLAND"
+            }
+          ],
+          "mergePolicy": "esriMPTDefaultValue",
+          "splitPolicy": "esriSPTDefaultValue"
+        }
+      },
+      {
+        "name": "ward",
+        "type": "esriFieldTypeString",
+        "alias": "WARD",
+        "length": 60,
+        "domain": null
+      },
+      {
+        "name": "shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "st_area(shape)",
+        "type": "esriFieldTypeDouble",
+        "alias": "st_area(shape)",
+        "domain": null
+      },
+      {
+        "name": "st_perimeter(shape)",
+        "type": "esriFieldTypeDouble",
+        "alias": "st_perimeter(shape)",
+        "domain": null
+      }
+    ],
+    "geometryField": {
+      "name": "shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape"
+    },
+    "indexes": [
+      {
+        "name": "r81573_sde_rowid_uk",
+        "fields": "objectid",
+        "isAscending": true,
+        "isUnique": true,
+        "description": ""
+      },
+      {
+        "name": "a81175_ix1",
+        "fields": "shape",
+        "isAscending": true,
+        "isUnique": true,
+        "description": ""
+      }
+    ],
+    "subtypes": [],
+    "relationships": [],
+    "canModifyLayer": true,
+    "canScaleSymbols": false,
+    "hasLabels": false,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 2000,
+    "supportsStatistics": true,
+    "supportsExceedsLimitStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, geoJSON, PBF",
+    "isDataVersioned": false,
+    "ownershipBasedAccessControlForFeatures": {
+      "allowOthersToQuery": true
+    },
+    "supportedSpatialRelationships": [
+      "esriSpatialRelIntersects",
+      "esriSpatialRelContains",
+      "esriSpatialRelCrosses",
+      "esriSpatialRelEnvelopeIntersects",
+      "esriSpatialRelIndexIntersects",
+      "esriSpatialRelOverlaps",
+      "esriSpatialRelTouches",
+      "esriSpatialRelWithin",
+      "esriSpatialRelRelation"
+    ],
+    "advancedQueryCapabilities": {
+      "useStandardizedQueries": false,
+      "supportsStatistics": true,
+      "supportsPercentileStatistics": true,
+      "supportsHavingClause": true,
+      "supportsOrderBy": true,
+      "supportsDistinct": true,
+      "supportsCountDistinct": true,
+      "supportsPagination": true,
+      "supportsLod": false,
+      "supportsQueryWithLodSR": false,
+      "supportsTrueCurve": true,
+      "supportsQueryWithDatumTransformation": true,
+      "supportsReturningQueryExtent": true,
+      "supportsQueryWithDistance": true,
+      "supportsSqlExpression": true,
+      "supportsTimeRelation": true,
+      "supportsSqlFormat": true,
+      "supportsQueryAnalytic": true
+    },
+    "supportsDatumTransformation": true,
+    "advancedQueryAnalyticCapabilities": {
+      "supportsLinearRegression": true,
+      "supportsAsync": false,
+      "supportsPercentileAnalytic": false
+    },
+    "dateFieldsTimeReference": null,
+    "preferredTimeReference": null,
+    "datesInUnknownTimezone": false,
+    "hasGeometryProperties": true,
+    "geometryProperties": {
+      "shapeAreaFieldName": "st_area(shape)",
+      "shapeLengthFieldName": "st_perimeter(shape)",
+      "units": "esriMeters"
+    },
+    "hasMetadata": true,
+    "isDataArchived": false,
+    "archivingInfo": {
+      "supportsQueryWithHistoricMoment": false,
+      "startArchivingMoment": -1
+    },
+    "supportsCoordinatesQuantization": true,
+    "supportsDynamicLegends": true
+  },
+  "requests": [
+    {
+      "url": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=836&pa=dpti",
+      "rawFile": "content/places/raw/sa-ward-geometry/catalogue.html",
+      "sha256": "992ec4507b170e8f1b003500e96a4acf27260c4dbec27c5da64d272592213597",
+      "bytes": 24089
+    },
+    {
+      "url": "https://lsa4.geohub.sa.gov.au/server/rest/services/LSA/LocationSAViewerV34/MapServer/12?f=pjson",
+      "rawFile": "content/places/raw/sa-ward-geometry/metadata.json",
+      "sha256": "05ae8a50c07aab8745adc5e535ae0869611b1b1ca3b8626b54940092274234e1",
+      "bytes": 11260
+    },
+    {
+      "url": "https://lsa4.geohub.sa.gov.au/server/rest/services/LSA/LocationSAViewerV34/MapServer/12/query?where=1%3D1&returnIdsOnly=true&f=json",
+      "rawFile": "content/places/raw/sa-ward-geometry/ids.json",
+      "sha256": "531ac4771477a55029f435630c046d02f5aab3c92e9978d9662a5dccb8a86559",
+      "bytes": 498
+    },
+    {
+      "url": "https://lsa4.geohub.sa.gov.au/server/rest/services/LSA/LocationSAViewerV34/MapServer/12/query?objectIds=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C67%2C68%2C26%2C27%2C28%2C29%2C79%2C80%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C90%2C91%2C39%2C40%2C41%2C42%2C43%2C44%2C45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C81%2C82%2C83%2C84%2C85%2C86%2C87%2C88%2C89%2C92%2C93%2C94%2C95%2C96%2C97%2C98%2C99%2C100&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "rawFile": "content/places/raw/sa-ward-geometry/features-0.json",
+      "sha256": "814bb994a690ddc4e87e7732e5169f7a239dc7475306263aa77fa8d15e08dacd",
+      "bytes": 11783492
+    },
+    {
+      "url": "https://lsa4.geohub.sa.gov.au/server/rest/services/LSA/LocationSAViewerV34/MapServer/12/query?objectIds=101%2C102%2C103%2C104%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C112%2C113%2C114%2C115%2C116%2C117%2C118%2C119%2C120%2C121%2C122%2C123%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C132%2C133%2C134%2C135%2C136%2C137%2C138%2C139%2C140&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "rawFile": "content/places/raw/sa-ward-geometry/features-100.json",
+      "sha256": "0db42d8621a252c8c627d4c76c522e6220b4727ad72982b95bb6232d3481ad5a",
+      "bytes": 1814156
+    }
+  ],
+  "processing": "Official source GeoJSON response requested in EPSG4326; all properties, polygon parts, rings and coordinates retained without rounding, union, clipping or simplification. Parent joins must use source local-government fields; no spatially inferred parent."
+}

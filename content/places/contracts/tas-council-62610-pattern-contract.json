@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "title": "Glenorchy — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-62610",
+    "kind": "council",
+    "name": "Glenorchy",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/969",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/glenorchy/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/969/id",
+      "expected": "tas-council-62610"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/969/name",
+      "expected": "Glenorchy"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/969/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/969",
+      "expected": {
+        "id": "tas-council-62610",
+        "name": "Glenorchy",
+        "slug": "glenorchy",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "62610",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-401",
+          "council-tas-2022-tas-council-62610-gcc-c",
+          "council-tas-2022-tas-council-62610-gcc-m",
+          "council-tas-2022-tas-council-62610-gcc-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Shane Alderton",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Josh Cockshutt",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Sue Hickey",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Molly Kendall",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Steven King",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Tim Marks",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Peter Ridler",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Stuart Slade",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Justin Stringer",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          },
+          {
+            "name": "Russell Yaxley",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=401&LGGo=Go",
+            "website": "http://www.gcc.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-401"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-62610-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-62610-gcc-c",
+            "label": "2022 Glenorchy Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html",
+            "candidates": [
+              {
+                "name": "ALDERTON, Shane",
+                "status": "contested this 2022 event",
+                "votes": 687,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "BRANCH-ALLEN, Jenny",
+                "status": "contested this 2022 event",
+                "votes": 555,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "COCKSHUTT, Josh",
+                "status": "elected in this 2022 contest",
+                "votes": 943,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "CREW, Mala",
+                "status": "contested this 2022 event",
+                "votes": 336,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "DUNSBY, Jan",
+                "status": "elected in this 2022 contest",
+                "votes": 851,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "EDMONDSON, Nic",
+                "status": "contested this 2022 event",
+                "votes": 378,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "FRASER, Philip",
+                "status": "contested this 2022 event",
+                "votes": 148,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "GRAFANAKIS, Aris",
+                "status": "contested this 2022 event",
+                "votes": 714,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "HANGAN, Michael",
+                "status": "contested this 2022 event",
+                "votes": 315,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "HAUBRICK, Matt",
+                "status": "contested this 2022 event",
+                "votes": 155,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "HICKEY, Sue",
+                "status": "elected in this 2022 contest",
+                "votes": 3932,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "KENDALL, Molly",
+                "status": "elected in this 2022 contest",
+                "votes": 1412,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "KING, Steven",
+                "status": "elected in this 2022 contest",
+                "votes": 631,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "MALONE, Morris",
+                "status": "contested this 2022 event",
+                "votes": 803,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "MARKS, Tim",
+                "status": "contested this 2022 event",
+                "votes": 227,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "QUICK, Harry",
+                "status": "elected in this 2022 contest",
+                "votes": 803,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "RAHAT, Md Imadul Islam",
+                "status": "contested this 2022 event",
+                "votes": 237,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "RIDLER, Peter",
+                "status": "contested this 2022 event",
+                "votes": 487,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SAWYER, Ali",
+                "status": "contested this 2022 event",
+                "votes": 628,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SHARMA, Bhavika",
+                "status": "contested this 2022 event",
+                "votes": 379,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SIMS, Kelly",
+                "status": "elected in this 2022 contest",
+                "votes": 2191,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SLADE, Stuart",
+                "status": "elected in this 2022 contest",
+                "votes": 643,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "THOMAS, Bec",
+                "status": "elected in this 2022 contest",
+                "votes": 7465,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "YAXLEY, Russell",
+                "status": "elected in this 2022 contest",
+                "votes": 586,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-62610-gcc-m",
+            "label": "2022 Glenorchy Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html",
+            "candidates": [
+              {
+                "name": "BRANCH-ALLEN, Jenny",
+                "status": "contested this 2022 event",
+                "votes": 1813,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "GRAFANAKIS, Aris",
+                "status": "contested this 2022 event",
+                "votes": 1760,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "HAUBRICK, Matt",
+                "status": "contested this 2022 event",
+                "votes": 846,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "RIDLER, Peter",
+                "status": "contested this 2022 event",
+                "votes": 2090,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SIMS, Kelly",
+                "status": "contested this 2022 event",
+                "votes": 5433,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "THOMAS, Bec",
+                "status": "contested this 2022 event",
+                "votes": 13775,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-62610-gcc-dm",
+            "label": "2022 Glenorchy Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html",
+            "candidates": [
+              {
+                "name": "ALDERTON, Shane",
+                "status": "contested this 2022 event",
+                "votes": 2252,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "DUNSBY, Jan",
+                "status": "contested this 2022 event",
+                "votes": 4051,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "FRASER, Philip",
+                "status": "contested this 2022 event",
+                "votes": 733,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "HICKEY, Sue",
+                "status": "contested this 2022 event",
+                "votes": 9782,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "KING, Steven",
+                "status": "contested this 2022 event",
+                "votes": 3402,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "SLADE, Stuart",
+                "status": "contested this 2022 event",
+                "votes": 2415,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              },
+              {
+                "name": "YAXLEY, Russell",
+                "status": "contested this 2022 event",
+                "votes": 2930,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-62610-gcc-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/gcc-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/glenorchy-city/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

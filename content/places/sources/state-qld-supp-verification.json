@@ -1,0 +1,34 @@
+{
+  "checked": "2026-10-17",
+  "status": "pass",
+  "districts": 93,
+  "currentMembers": 93,
+  "profileURLsIndependentlyLocated": 93,
+  "rosterObservationDate": "2026-09-23",
+  "events": {
+    "SGE2024": {
+      "districts": 93,
+      "contestants": 525
+    },
+    "Hinchinbrook2025": {
+      "districts": 1,
+      "contestants": 7
+    },
+    "Stafford2026": {
+      "districts": 1,
+      "contestants": 9
+    }
+  },
+  "checks": [
+    "All93 current parliamentary districts reconcile to ECQ2024 districts and independent official profile district/party/name facts.",
+    "Every ECQ archive candidate count and ballot name reconciles to the independently retained ECQ electorate JSON.",
+    "Official first-preference totals sum exactly to formal votes for each district and event.",
+    "Stafford2026 and Hinchinbrook2025 preserve their event identities separately from2024 general results.",
+    "Current office is never inferred from declared election winners. No addresses are copied into normalized data."
+  ],
+  "limitations": [
+    "Historical unsuccessful-candidate personal/campaign website review remains incomplete; all official result links are provided.",
+    "Direct Parliamentary API/member HTML requests returned403 and remain recorded; public PDF and publicly indexed official profile facts are the lawful alternatives used.",
+    "ECQ source TLS certificate verification failed in the local Python trust environment; public unauthenticated read-only retrieval used a documented certificate exception, with source URLs and hashes retained."
+  ]
+}

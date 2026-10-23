@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "pass",
+  "scope": "Retained ward source integrity, exact geometry delivery, real parent joins and preservation of canonical people/events",
+  "checks": [
+    {
+      "jurisdiction": "nt",
+      "realWards": 51,
+      "parentCouncils": 13,
+      "sourceFeatures": 830,
+      "polygonParts": 830,
+      "rings": 838,
+      "coordinatePairs": 70495,
+      "allObjectIdsAndPartsJoinedOnce": true,
+      "deliveryBytesEqualSource": true,
+      "gzipRoundTripExactBytes": true,
+      "sourceAndDeliverySha256": "7b55d3ab7ac9f8599a0242159d4c87c6468099ec777806aa71f5818fc6be16ce",
+      "nativeCRS": "EPSG:4283"
+    },
+    {
+      "jurisdiction": "wa",
+      "realWards": 113,
+      "parentCouncils": 28,
+      "sourceFeatures": 202,
+      "polygonParts": 202,
+      "rings": 208,
+      "coordinatePairs": 177095,
+      "allObjectIdsAndPartsJoinedOnce": true,
+      "deliveryBytesEqualSource": true,
+      "gzipRoundTripExactBytes": true,
+      "sourceAndDeliverySha256": "2397f6fcb79677b5b826e934a143f42705ce63fc7c6eeb99166b5352acef2567",
+      "nativeCRS": "EPSG:4283"
+    },
+    {
+      "jurisdiction": "sa",
+      "realWards": 133,
+      "parentCouncils": 30,
+      "specialBodyParentContexts": 1,
+      "specialBodySourceFeatures": 7,
+      "sourceFeatures": 140,
+      "polygonParts": 155,
+      "rings": 172,
+      "coordinatePairs": 332606,
+      "allObjectIdsAndPartsJoinedOnce": true,
+      "allSourceFeaturesPropertiesAndCoordinatesEqual": true,
+      "deliverySha256": "8d27ea786ec1b424dc923b39bfd753da160aace62347db9c2dd32a57a86fb489",
+      "sourceCRS": "EPSG:3857",
+      "officialServiceResponseCRS": "EPSG:4326",
+      "identityExceptions": {
+        "SOUTHERN LIMESTONE COAST": "sa-council-42250",
+        "APY": "sa-council-40250"
+      }
+    }
+  ],
+  "limitations": [
+    "Geometry integration alone does not establish complete current ward members or previous ballots.",
+    "NT/WA item/service currency disagreement remains explicit. No restrictive Landgate source is imported.",
+    "SA preceding ward editions remain separate from next-election representation reviews; upcoming geometry/successor joins are not fabricated.",
+    "Seven APY statutory electoral features are parent-only geographic context, without ordinary council wards or election assumptions.",
+    "NSW ward coverage remains incomplete. Retained Western Parkland source requires edition reconciliation, Ballina KML remains unparsed/unreviewed, North Sydney prohibits reproduction without permission and NSW ward proxy services required unavailable tokens. None are delivered by this adapter.",
+    "This local source/join verification does not certify generated pages, map picking, browser behaviour, accessibility, discovery, contracts or publication."
+  ],
+  "originalSourceHashes": {
+    "content/places/raw/council-ward-supp-geoscape-lga-attributes.json": "e21ab46605f898a56e4d5fb569e75abc2d0bf845d3e8618bc13939bd1186fbbc",
+    "content/places/raw/council-ward-supp-geoscape-lga-item.json": "8ca0e0dfc8befb80396c2414174ae671ba160ddd2611fa7a7fe50034f3c69c16",
+    "content/places/raw/council-ward-supp-geoscape-nt-ids.json": "179dc64e00aa9a979c01198a6989f6654af1026523e18ac5656fb0c244b50a4a",
+    "content/places/raw/council-ward-supp-geoscape-nt-native.geojson": "7b55d3ab7ac9f8599a0242159d4c87c6468099ec777806aa71f5818fc6be16ce",
+    "content/places/raw/council-ward-supp-geoscape-wa-ids.json": "32562d19a76b412cdf4785a9afd81e35327b134836f28665910714ecbe46b6aa",
+    "content/places/raw/council-ward-supp-geoscape-wa-native.geojson": "2397f6fcb79677b5b826e934a143f42705ce63fc7c6eeb99166b5352acef2567",
+    "content/places/raw/council-ward-supp-geoscape-ward-item.json": "591764ac4117113dc61ad1c6e1a026f0df7911a16565efc6251debc434b3bb81",
+    "content/places/raw/council-ward-supp-geoscape-ward-layer.json": "3996940e76430cb2f67eff9bb463fb87296ff098d57fc4deecb1b1c1ebfa2066",
+    "content/places/raw/council-ward-supp-geoscape-ward-service.json": "91631fb0597cbfd60415ae63c9a08266549881a197392158596a101b8225fefa",
+    "content/places/raw/sa-ward-geometry/catalogue.html": "992ec4507b170e8f1b003500e96a4acf27260c4dbec27c5da64d272592213597",
+    "content/places/raw/sa-ward-geometry/features-0.json": "814bb994a690ddc4e87e7732e5169f7a239dc7475306263aa77fa8d15e08dacd",
+    "content/places/raw/sa-ward-geometry/features-100.json": "0db42d8621a252c8c627d4c76c522e6220b4727ad72982b95bb6232d3481ad5a",
+    "content/places/raw/sa-ward-geometry/ids.json": "531ac4771477a55029f435630c046d02f5aab3c92e9978d9662a5dccb8a86559",
+    "content/places/raw/sa-ward-geometry/metadata.json": "05ae8a50c07aab8745adc5e535ae0869611b1b1ca3b8626b54940092274234e1",
+    "content/places/sources/council-sa-ward-edition-review.json": "b2a325ec79ad4fda398a25648049489fb603c208a38d737fca4c0f2cb7a026b2"
+  },
+  "allOriginalMapAssetsUnchanged": true,
+  "existingCanonicalPeopleAndEventsUnchanged": true,
+  "deterministicSecondMergeIdentical": true,
+  "canonicalWritten": true
+}

@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Fresh review of the corrected shared typography and representative affected pages; previous broader fixtures are archived and not re-certified.",
+  "reason": "User screenshot exposed oversized uppercase H2 card titles that inherited hero rules and broke words. Prior shared smoke review missed the visible typography problem.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "nativeViewport": {
+      "width": 1280,
+      "height": 720,
+      "clientWidth": 1265,
+      "devicePixelRatio": 1
+    },
+    "responsiveMethod": "Real same-origin iframe widths 390, 680 and 1200 CSS px, after fonts.ready; not physical phone/touch emulation."
+  },
+  "styleReferences": [
+    "README.md:159 Typography and Performance",
+    "LOCALISE_WITH_AN_AGENT.md:521 Design Rules",
+    "styles.css:1886 original state panel treatment",
+    "styles.css:1979 original state-card headings"
+  ],
+  "originalCardMeasurement": {
+    "font": "Archivo Var",
+    "fontSize": "20.48px",
+    "fontStretch": "100%",
+    "textTransform": "none"
+  },
+  "fixtures": [
+    {
+      "id": "national-directory-1200",
+      "status": "PASS",
+      "metrics": {
+        "path": "/pages/places.html",
+        "requestedWidth": 1200,
+        "innerWidth": 1200,
+        "clientWidth": 1185,
+        "scrollWidth": 1185,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 0,
+        "controlOverlaps": 0,
+        "h1": "FIND YOUR PLACE.\nFOLLOW THE PUBLIC RECORD.",
+        "cardHeadings": [
+          {
+            "text": "Australian Capital Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "New South Wales",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "Northern Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "Queensland",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "South Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "Tasmania",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "Victoria",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          },
+          {
+            "text": "Western Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 314,
+            "scrollWidth": 314,
+            "height": 24.578125
+          }
+        ],
+        "headingWords": [],
+        "canvas": [],
+        "search": ""
+      },
+      "notes": [
+        "Original Archivo card font at 20.48px, title case, normal wrapping; every heading word remains whole.",
+        "Matched against actual original state cards at 20.48px, not the global hero heading scale."
+      ]
+    },
+    {
+      "id": "national-directory-680",
+      "status": "PASS",
+      "metrics": {
+        "path": "/pages/places.html",
+        "requestedWidth": 680,
+        "innerWidth": 680,
+        "clientWidth": 665,
+        "scrollWidth": 665,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 0,
+        "controlOverlaps": 0,
+        "h1": "FIND YOUR PLACE.\nFOLLOW THE PUBLIC RECORD.",
+        "cardHeadings": [
+          {
+            "text": "Australian Capital Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 49.15625
+          },
+          {
+            "text": "New South Wales",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "Northern Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "Queensland",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "South Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "Tasmania",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "Victoria",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          },
+          {
+            "text": "Western Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 257,
+            "scrollWidth": 257,
+            "height": 24.578125
+          }
+        ],
+        "headingWords": [],
+        "canvas": [],
+        "search": ""
+      },
+      "limitations": [
+        "Real browser iframe; physical touch or device emulation not claimed."
+      ]
+    },
+    {
+      "id": "national-directory-390",
+      "status": "PASS",
+      "metrics": {
+        "path": "/pages/places.html",
+        "requestedWidth": 390,
+        "innerWidth": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 0,
+        "controlOverlaps": 0,
+        "h1": "FIND YOUR PLACE.\nFOLLOW THE PUBLIC RECORD.",
+        "cardHeadings": [
+          {
+            "text": "Australian Capital Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "New South Wales",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "Northern Territory",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "Queensland",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "South Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "Tasmania",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "Victoria",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          },
+          {
+            "text": "Western Australia",
+            "font": "\"Archivo Var\", Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "20.48px",
+            "lineHeight": "24.576px",
+            "textTransform": "none",
+            "overflowWrap": "normal",
+            "clientWidth": 307,
+            "scrollWidth": 307,
+            "height": 24.578125
+          }
+        ],
+        "headingWords": [],
+        "canvas": [],
+        "search": ""
+      },
+      "limitations": [
+        "Real browser iframe; physical touch or device emulation not claimed."
+      ]
+    },
+    {
+      "id": "ward-680-after-style-correction",
+      "status": "PASS",
+      "metrics": {
+        "path": "/states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+        "requestedWidth": 680,
+        "innerWidth": 680,
+        "clientWidth": 665,
+        "scrollWidth": 665,
+        "devicePixelRatio": 1,
+        "controlsMeasured": 6,
+        "controlOverlaps": 0,
+        "h1": "THAMARRURR/PINDI PINDI WARD",
+        "cardHeadings": [],
+        "headingWords": [],
+        "canvas": [
+          {
+            "cssWidth": 622.21875,
+            "bitmapWidth": 622,
+            "cssHeight": 430
+          }
+        ],
+        "search": ""
+      }
+    },
+    {
+      "id": "council-person-and-clock-style",
+      "status": "PASS",
+      "metrics": {
+        "clientWidth": 1265,
+        "mono": "\"JetBrains Mono Var\", Rajdhani, Consolas, monospace",
+        "path": "/states/qld/councils/brisbane-city/index.html",
+        "peopleHeadings": [
+          {
+            "size": "20.48px",
+            "text": "Adrian Schrinner",
+            "transform": "none"
+          }
+        ],
+        "scrollWidth": 1265
+      },
+      "steps": [
+        "Dated current mayor and separate historical ballots remain readable; the clock uses the original self-hosted mono font."
+      ]
+    },
+    {
+      "id": "map-search-select-open-after-style-correction",
+      "status": "PASS",
+      "steps": [
+        "Full exact TAS Council layer settled on Murchison. Search McIntyre returned one area; select and Open reached the dedicated McIntyre page with matching layer/area URL."
+      ],
+      "metrics": {
+        "canvases": 1,
+        "clientWidth": 1265,
+        "clockFont": "\"JetBrains Mono Var\", Rajdhani, Consolas, monospace",
+        "path": "/states/tas/electorates/regions/mcintyre/index.html?layer=state-tas-council-2017&area=state-tas-lc-100031",
+        "personTitles": [
+          {
+            "size": "20.48px",
+            "text": "Tania Rattray"
+          }
+        ],
+        "scrollWidth": 1280
+      }
+    },
+    {
+      "id": "shared-index-after-style-correction",
+      "status": "PASS",
+      "steps": [
+        "Index opens, filter receives focus, and Close collapses the panel after the typography correction."
+      ]
+    },
+    {
+      "id": "native-desktop-directory-style",
+      "status": "PASS",
+      "metrics": {
+        "cardCount": 8,
+        "clientWidth": 1265,
+        "headings": [
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Australian Capital Territory"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "New South Wales"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Northern Territory"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Queensland"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "South Australia"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Tasmania"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Victoria"
+          },
+          {
+            "height": 24.578125,
+            "size": "20.48px",
+            "text": "Western Australia"
+          }
+        ],
+        "path": "/pages/places.html",
+        "scrollWidth": 1265,
+        "viewport": [
+          1280,
+          720
+        ]
+      },
+      "screenshot": "content/places/qa/typography-national-corrected.png"
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+  "limitations": [
+    "No full per-place source, browser, physical touch or screen-reader acceptance is claimed.",
+    "Existing source observations, event data, geometry and JavaScript behavior were not changed; only the recorded shared styling fixtures were reviewed anew.",
+    "No disabled-JavaScript or multi-browser session was run."
+  ],
+  "testedPagePaths": [
+    "pages/places.html",
+    "pages/states.html",
+    "states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+    "states/qld/councils/brisbane-city/index.html",
+    "states/tas/electorates/regions/murchison/index.html",
+    "states/tas/electorates/regions/mcintyre/index.html",
+    "content/places/qa/typography-fixture.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/typography-fixture.html",
+    "content/places/qa/typography-national-1200.png",
+    "content/places/qa/typography-national-390.png",
+    "content/places/qa/typography-national-corrected.png"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+      "bytes": 6817
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "ad3650767722e66c40c72700eb39d29825898195df8ba472b692ccc686a8c23a",
+      "bytes": 36130
+    },
+    {
+      "path": "content/places/qa/typography-fixture.html",
+      "sha256": "50ee9d8aa0677a994570cabe0aa1ada69dce7ede28b3919343387540b04d06d2",
+      "bytes": 3631
+    },
+    {
+      "path": "content/places/qa/typography-national-1200.png",
+      "sha256": "82fef24822b1e3f537c3ca438cc05dcbf7986fa66f30da40624d65d7485a6d6f",
+      "bytes": 80330
+    },
+    {
+      "path": "content/places/qa/typography-national-390.png",
+      "sha256": "60429278c2f19e81d2fd503759f149099f14b0c8c4b360cf3b2ccdf3e2a78cff",
+      "bytes": 56856
+    },
+    {
+      "path": "content/places/qa/typography-national-corrected.png",
+      "sha256": "34f9a340cf06cb89b3f11a2aa033621e9f8eb955cce9497d1c39a77d71802a74",
+      "bytes": 81304
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "c76661e48de9f43af531b6c2ba252de9eaf6ca36157dbbb072fec9707f8cd88d",
+      "bytes": 6569
+    },
+    {
+      "path": "pages/states.html",
+      "sha256": "a52832ba67d5b19181f8164a6335b397e8373b923dc1333a912b54e8692802a5",
+      "bytes": 40624
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad0987a98398dc/index.html",
+      "sha256": "1ff5964511e6e327f2905a7ad36ee8634be1ed7e6281f4c9e773fbf574a0dd31",
+      "bytes": 26920
+    },
+    {
+      "path": "states/qld/councils/brisbane-city/index.html",
+      "sha256": "8b8c8215b0c8d2247135776c3ede48f52f155ca0c7751564a7f584ad781a8672",
+      "bytes": 130902
+    },
+    {
+      "path": "states/tas/electorates/regions/mcintyre/index.html",
+      "sha256": "9369d0026de614ec66c1ffee1ed9d2429301df31d383a31a1dc89cd3b5b5427d",
+      "bytes": 29387
+    },
+    {
+      "path": "states/tas/electorates/regions/murchison/index.html",
+      "sha256": "293a5269c71d56e9da8afe32278d925adce8c2e753fa9b8454a4946bbf04cb2a",
+      "bytes": 29600
+    },
+    {
+      "path": "styles.css",
+      "sha256": "97f830b8c44e9cc0d953af407990fa5dbf559ff813556aa854fd82d94fb134bf",
+      "bytes": 134723
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "46d998ef28b6f48998edb9e73b43905f133962b1ce287d1080abf43094784892",
+      "bytes": 36399
+    }
+  ]
+}

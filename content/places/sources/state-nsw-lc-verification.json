@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "checked": "2026-10-17",
+  "scope": "NSW Council retained roster extraction and completed 2023 ballot reconciliation",
+  "counts": {
+    "currentDirectoryListings": 41,
+    "2023Contestants": 290,
+    "2023ElectedPositions": 21,
+    "ballotGroups": 21,
+    "formalVotes": 4616858
+  },
+  "checks": [
+    "41 distinct official roster cards/profile URLs reconcile to the displayed current Council result count.",
+    "Final report and completed check-count summary agree on every candidate name, group label and vote.",
+    "Each group total equals above-the-line plus individual below-the-line votes; all groups plus ungrouped sum to published formal votes.",
+    "Current roster and historical elected positions remain independent."
+  ],
+  "limitations": [
+    "41 current members are listed by the filtered official directory checked 17 October 2026. The difference from the 42-seat chamber is unresolved roster coverage, not an invented member, vacancy reason or party balance.",
+    "The 2023 contest elects 21 members. Individual candidate votes are below-the-line first preferences; above-the-line votes belong to groups and are not assigned to individual candidates.",
+    "Current affiliations come from the current directory; historical affiliations retain the 2023 ballot group labels. Current office is never inferred from that election result.",
+    "Profile URLs were read from the directory; this does not assert successful HTTP access or a full individual profile review.",
+    "Full retained originals are local-only. No browser acceptance of generated place pages is claimed by this data adapter."
+  ]
+}

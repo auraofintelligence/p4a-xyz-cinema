@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "title": "Point Cook — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-assembly-67",
+    "kind": "state-district",
+    "name": "Point Cook",
+    "jurisdiction": "vic",
+    "chamber": "Legislative Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/66",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/electorates/districts/point-cook/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/66/id",
+      "expected": "vic-assembly-67"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/66/name",
+      "expected": "Point Cook"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/66/boundaryEdition",
+      "expected": "2020–21 redivision / 2022 boundaries"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/66",
+      "expected": {
+        "id": "vic-assembly-67",
+        "name": "Point Cook",
+        "slug": "point-cook",
+        "jurisdiction": "vic",
+        "kind": "state-district",
+        "chamber": "Legislative Assembly",
+        "layerId": "state-vic-assembly-2022",
+        "featureId": 67,
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/state-districts/point-cook-district",
+        "sources": [
+          "state-vic-assembly-2022",
+          "state-vic-members-20261002",
+          "state-vic-results-20261002"
+        ],
+        "boundaryEdition": "2020–21 redivision / 2022 boundaries",
+        "representatives": [
+          {
+            "name": "Mathew Hilakari",
+            "role": "Legislative Assembly member",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+            "website": null,
+            "sourceId": "state-vic-members-20261002",
+            "checked": "2026-10-02"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-assembly-67-2022-11-26",
+            "label": "State general election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2022-11-26",
+            "dateBasis": "Official historical results; original source checked 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+            "candidates": [
+              {
+                "name": "CRONKWRIGHT, Carolyn",
+                "party": "Family First Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 1496,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "BEECH, Terri",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 804,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "KHAN, Shamsher",
+                "party": "Australian Greens",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 2657,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "ZHAO, Larry",
+                "party": "No affiliation published",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 814,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "NEWHOUSE, Angela",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 9651,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "McAULAY, Alex",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 1399,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "GATTI, Lisa Jane",
+                "party": "Transport Matters",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 245,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "LAW, Emma",
+                "party": "Health Australia Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 383,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "CHAUDHARY, Rakhi P.",
+                "party": "New Democrats",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 358,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "HILAKARI, Mathew",
+                "party": "Australian Labor Party - Victorian Branch",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 15657,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "ABDULOVSKI, Adrian",
+                "party": "Freedom Party of Victoria",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 571,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "SAWANT, Shwetali",
+                "party": "No affiliation published",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 469,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "GRIMLEY, Scott",
+                "party": "Derryn Hinch's Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 514,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "HAMMAN, Daniel",
+                "party": "Labour DLP",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 1369,
+                "voteMeasure": "first preferences"
+              },
+              {
+                "name": "GARRA, Joe",
+                "party": "No affiliation published",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/state-election-results/2022-state-election-results/results-by-district/point-cook-district-results",
+                "votes": 2712,
+                "voteMeasure": "first preferences"
+              }
+            ]
+          },
+          {
+            "id": "vic-state-2026",
+            "label": "2026 Victorian state election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2026-11-28",
+            "dateBasis": "Commission date; calendar snapshot 2026-10-02",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/2026-state-election",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Existing reviewed Victorian snapshot retained; member and result source checks remain 2 October 2026."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "Offline generation repeatability; source currentness is unchanged.",
+  "lastBuildOutput": "Built national place pages: {'councils': 1479, 'state': 442, 'federal': 159}; 0 files changed. Source research dates preserved.",
+  "generatedPlacePages": 2080,
+  "directories": 33,
+  "repeatBuildFilesChanged": 0,
+  "canonicalInputs": [
+    {
+      "path": "content/places/councils.json",
+      "sha256": "05a24e0ad7b207359bc4becfe741fda7b26c335a5dd106b7d4ff533bdb4fe911"
+    },
+    {
+      "path": "content/places/state.json",
+      "sha256": "989445f216122a7f3dbbbb61c967075bdeb4aa582e0e6a0efdf2ce0300fba349"
+    },
+    {
+      "path": "content/places/federal.json",
+      "sha256": "f2296781e14987fffdd5cb335543b26f03811a01950faef9a5efa68e2898875c"
+    }
+  ],
+  "validation": "content/places/qa/national-validation.json",
+  "validationSha256": "39ef90c28460065b2f6dc51d6c3176b3b52974ed1a48d9eabd997b56435c1d59",
+  "discovery": {
+    "result": "PASS",
+    "publicPages": 2290,
+    "evidencedLastmodDates": 2137,
+    "licence": "unchanged"
+  },
+  "limits": [
+    "No new source observation or publication date is inferred from rebuilding.",
+    "Shared source/browser evidence retains explicit coverage gaps."
+  ],
+  "legacyChecks": {
+    "redlands": "PASS: 19 pages, 43 records, 24 original Twinkles, 18 indicators; private no-script guard and exact geometry",
+    "redlandsContract": "PASS: 20 declared routes, original evidence plus affected Queensland navigation supplement",
+    "victoriaAtlas": "PASS: 96 joins, 127 members and one vacancy; source/generated parity, links, dates, holes/multipart",
+    "victoriaNumbers": "PASS: 96 results and 616 Census values; vote totals reconcile with separate measures retained",
+    "victoriaCouncils": "PASS: 79 municipalities, 8 unincorporated contexts, 467 wards; dated member/statistics/source parity",
+    "redlandClock": "PASS: synthetic local date and sourced early-window before/during/after cases"
+  },
+  "nationalNodeChecks": {
+    "clocks": "PASS: 14 synthetic delivered-clock cases",
+    "geometry": "PASS: actual controller hole, multipart, shared features, water, projection, zoom/reset and Back cases",
+    "delivery": "PASS: actual loader gzip, decoded JSON, plain fallback, same-URL single request and unsupported-browser guidance"
+  },
+  "contracts": {
+    "result": "PASS",
+    "registered": 2081,
+    "failed": 0,
+    "newStructuralPlaceContracts": 2080,
+    "existingRedlandsContract": 1,
+    "evidence": "content/places/qa/contract-validation.json",
+    "evidenceSha256": "5bcaf67d30e2a86ad163b293d4c5a30233f2efdf0ee7930181bf5622315be42c",
+    "afterTypographyCorrection": true
+  },
+  "publicCopyEvidence": "content/places/qa/public-copy-validation.json",
+  "typographyCorrection": {
+    "status": "PASS",
+    "reason": "User screenshot exposed oversized card headings missed by prior review",
+    "browserEvidence": "content/places/qa/browser-review.json",
+    "freshTypographyFixtures": 8,
+    "earlierBuildEvidence": "content/places/qa/pre-style-correction-2026-10-17/final-build-review.json",
+    "limits": "Only shared CSS changed; earlier zero-output-change generation and JavaScript/source checks are retained for their original unchanged scope.",
+    "cssSha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+    "contracts": "PASS: all 2,081 registered contracts refreshed against current evidence"
+  }
+}

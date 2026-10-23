@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "title": "Lyons — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-tas-tas2949",
+    "kind": "state-district",
+    "name": "Lyons",
+    "jurisdiction": "tas",
+    "chamber": "House of Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/390",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Seven members elected by Hare-Clark; current parliamentary profiles checked independently from the historical ballot.",
+    "All 2025 contestant first preference totals transcribed from the official workbook; party/group labels retain the ballot roster.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/electorates/districts/lyons/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/390/id",
+      "expected": "state-tas-tas2949"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/390/name",
+      "expected": "Lyons"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/390/boundaryEdition",
+      "expected": "Geoscape / Digital Atlas of Australia May 2025 source edition"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/390",
+      "expected": {
+        "id": "state-tas-tas2949",
+        "name": "Lyons",
+        "slug": "lyons",
+        "jurisdiction": "tas",
+        "kind": "state-district",
+        "chamber": "House of Assembly",
+        "layerId": "state-tas-assembly-2025",
+        "featureId": "TAS2949",
+        "officialUrl": "https://www.tec.tas.gov.au",
+        "sources": [
+          "state-boundaries-tas",
+          "state-tas-profile-tabatha-badger",
+          "state-tas-profile-guy-barnett",
+          "state-tas-profile-jenna-butler",
+          "state-tas-profile-carlo-di-falco",
+          "state-tas-profile-jane-howlett",
+          "state-tas-profile-brian-mitchell",
+          "state-tas-profile-mark-shelton",
+          "state-tas-2025-firstprefs"
+        ],
+        "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
+        "representatives": [
+          {
+            "name": "Tabatha Badger",
+            "role": "House of Assembly member",
+            "party": "Green",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/tabatha-badger",
+            "website": "https://tasgreensmps.org/your-greens-mps/tabatha-badger/",
+            "sourceId": "state-tas-profile-tabatha-badger",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Guy Barnett",
+            "role": "House of Assembly member",
+            "party": "Liberal",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/guy-barnett",
+            "website": "http://www.guybarnett.com.au/",
+            "sourceId": "state-tas-profile-guy-barnett",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jen Butler",
+            "role": "House of Assembly member",
+            "party": "Labor",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/jenna-butler",
+            "website": "http://taslabor.com/people/jen-butler/",
+            "sourceId": "state-tas-profile-jenna-butler",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Carlo Di Falco",
+            "role": "House of Assembly member",
+            "party": "Shooters, Fishers and Farmers Party",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/carlo-di-falco",
+            "website": null,
+            "sourceId": "state-tas-profile-carlo-di-falco",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jane Howlett",
+            "role": "House of Assembly member",
+            "party": "Liberal",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/jane-howlett",
+            "website": "https://tas.liberal.org.au/our-team/jane-howlett",
+            "sourceId": "state-tas-profile-jane-howlett",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Brian Mitchell",
+            "role": "House of Assembly member",
+            "party": "Labor",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell",
+            "website": "https://taslabor.org.au/people/brian-mitchell/",
+            "sourceId": "state-tas-profile-brian-mitchell",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Mark Shelton",
+            "role": "House of Assembly member",
+            "party": "Liberal",
+            "profileUrl": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/mark-shelton",
+            "website": "https://tas.liberal.org.au/our-team/mark-shelton",
+            "sourceId": "state-tas-profile-mark-shelton",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-ha-2025-lyons",
+            "label": "2025 House of Assembly election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2025-07-19",
+            "dateBasis": "Official election results / parliamentary record",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+            "resultsUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+            "candidates": [
+              {
+                "name": "DI FALCO, Carlo",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 5050,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!3",
+                "party": "Shooters, Fishers, Farmers TAS"
+              },
+              {
+                "name": "HADDON-CAVE, Francis",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 200,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!5",
+                "party": "The Nationals"
+              },
+              {
+                "name": "JENNER, Andrew",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 833,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!6",
+                "party": "The Nationals"
+              },
+              {
+                "name": "MANDELSON, Rick",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 263,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!7",
+                "party": "The Nationals"
+              },
+              {
+                "name": "PYECROFT, Lesley",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 273,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!8",
+                "party": "The Nationals"
+              },
+              {
+                "name": "TUCKER, John",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 1608,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!9",
+                "party": "The Nationals"
+              },
+              {
+                "name": "ALLAN, Alistair",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 932,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!11",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "BADGER, Tabatha",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 5507,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!12",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "BROWN, Craig",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 776,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!13",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "CAVANAGH, Joey",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 514,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!14",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "HOUGHTON, Mitch",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 563,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!15",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "RUBENACH-QUINN, Hannah",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 1053,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!16",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "SHAPCOTT, Isabel",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 813,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!17",
+                "party": "Tasmanian Greens"
+              },
+              {
+                "name": "OFFORD, Angela",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 941,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!19",
+                "party": "Group D"
+              },
+              {
+                "name": "BATT, Edwin",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 1428,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!21",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "BUTLER, Jen",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 6445,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!22",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "CAMPBELL, Shannon",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 1732,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!23",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "FARRELL, Casey",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 2640,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!24",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "GOSS, Richard",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 2674,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!25",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "MITCHELL, Brian",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 5400,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!26",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "O'DONNELL, Saxon",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 990,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!27",
+                "party": "Australian Labor Party"
+              },
+              {
+                "name": "BARNETT, Guy",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 9975,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!29",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "CAMERON, Stephanie",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 2793,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!30",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "GROVES, Bree",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 996,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!31",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "HALLETT, Richard",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 2129,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!32",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "HOWLETT, Jane",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 9346,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!33",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "LYNE, Poppy",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 1544,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!34",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "SHELTON, Mark",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 4698,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!35",
+                "party": "Liberal Party"
+              },
+              {
+                "name": "BIGG, Phillip",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 364,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!37",
+                "party": "ungrouped"
+              },
+              {
+                "name": "BROOMHALL, Ray",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 256,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!38",
+                "party": "ungrouped"
+              },
+              {
+                "name": "DARE, Paul",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 189,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!39",
+                "party": "ungrouped"
+              },
+              {
+                "name": "DRACOULIS, Michelle",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 845,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!40",
+                "party": "ungrouped"
+              },
+              {
+                "name": "HAWKINS, John",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 475,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!41",
+                "party": "ungrouped"
+              },
+              {
+                "name": "LEV, Jiri",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 498,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!42",
+                "party": "ungrouped"
+              },
+              {
+                "name": "MURTAGH, Tennille",
+                "status": "contested",
+                "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/results/downloads/2025-state-election-first-preferences-by-polling-places.xlsx",
+                "votes": 193,
+                "voteMeasure": "first preferences",
+                "sourceCell": "Lyons!43",
+                "party": "ungrouped"
+              }
+            ]
+          },
+          {
+            "id": "tas-next-state-general",
+            "label": "Next ordinary TAS state/territory election",
+            "kind": "general-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "Expected by 2029; timing is not fixed and an earlier election is possible; source calendar checked 2026-10-02",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/house-of-assembly/",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Seven members elected by Hare-Clark; current parliamentary profiles checked independently from the historical ballot.",
+          "All 2025 contestant first preference totals transcribed from the official workbook; party/group labels retain the ballot roster."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

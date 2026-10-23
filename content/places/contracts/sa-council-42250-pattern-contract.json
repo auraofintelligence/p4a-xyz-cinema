@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "title": "Southern Limestone Coast — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "sa-council-42250",
+    "kind": "council",
+    "name": "Southern Limestone Coast",
+    "jurisdiction": "sa"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/769",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The same council is now Southern Limestone Coast (ABN Lookup name from 1 July 2026; ECSA corroboration). Its stable ID and Grant URL retain existing inbound routes and histories.",
+    "The 2024/2025 representation review changes this council for the next periodic election: 3 wards abolished. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+    "From polling day of the next periodic election, wards are abolished; nine area councillors and the elected mayor represent the whole area. Gazette 2025-04-17, p. 768; https://www.ecsa.sa.gov.au/images/Council_Boundaries_2026/Grant_Gazette%20Notice_No.%2023%20-%20Thursday%2017%20April%202025%20pp.%20751-770.pdf",
+    "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+    "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+    "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/sa/councils/grant/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/sa/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/769/id",
+      "expected": "sa-council-42250"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/769/name",
+      "expected": "Southern Limestone Coast"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/769/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/769",
+      "expected": {
+        "id": "sa-council-42250",
+        "name": "Southern Limestone Coast",
+        "slug": "grant",
+        "jurisdiction": "sa",
+        "kind": "council",
+        "layerId": "council-sa-abs-2026",
+        "featureId": "42250",
+        "officialUrl": "https://www.dcgrant.sa.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-sa-next-timetable",
+          "council-sa-ward-edition-review",
+          "council-sa-official-wards",
+          "council-sa-2022-contest-controls",
+          "council-sa-2022-postal-close-review",
+          "council-sa-2022-candidate-and-historical-elected-master",
+          "council-sa-2022-sa-council-42250-results",
+          "council-sa-lga-current-leaders-2026-09-23"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Kylie Boston",
+            "role": "Mayor",
+            "profileUrl": "https://www.lga.sa.gov.au/__data/assets/excel_doc/0035/650879/All-Council-Database-as-at-23-September-2026.xlsx",
+            "profileType": "official published LGA current-leader directory roster",
+            "website": "https://www.dcgrant.sa.gov.au",
+            "sourceId": "council-sa-lga-current-leaders-2026-09-23",
+            "checked": "2026-10-17",
+            "asAt": "2026-09-23",
+            "status": "Published LGA-SA leader snapshot declared 23 September 2026; checked 17 October 2026, subsequent individual changes not fully reconciled"
+          }
+        ],
+        "elections": [
+          {
+            "id": "sa-council-42250-next-ordinary",
+            "label": "2027 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2027-04-07",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 5pm local time.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/parties-and-candidates/council-elections",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2027-04-07T17:00:00+09:30"
+          },
+          {
+            "id": "sa-council-42250-ordinary-2022-mayor",
+            "label": "2022 Grant — Mayor",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Mayor",
+            "electionCouncilName": "Grant",
+            "vacancies": 1,
+            "expectedCandidateCount": 2,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BOSTON, Kylie",
+                "status": "elected in this2022 result workbook",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 2168,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "SAGE, Richard",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 1284,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-42250-ordinary-2022-central-ward",
+            "label": "2022 Grant — Central Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Central Ward",
+            "electionCouncilName": "Grant",
+            "vacancies": 7,
+            "expectedCandidateCount": 10,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BAIN, Bruce James",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 418,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "BAXENDALE, Greg",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 108,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "CLARKE, Gavin",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 7,
+                "votes": 249,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "DUKALSKIS, Megan Jane",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 546,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "DUNCAN, Peter",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 8,
+                "votes": 167,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "GREENE, Katherine",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 267,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "KUHL, Barry Ross",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 392,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "MANN, Brad",
+                "status": "elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 278,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "SMITH, Terry",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 10,
+                "votes": 74,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SWIGGS, David",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Central Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 9,
+                "votes": 88,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-42250-ordinary-2022-tarpeena-ward",
+            "label": "2022 Grant — Tarpeena Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Tarpeena Ward",
+            "electionCouncilName": "Grant",
+            "vacancies": 1,
+            "expectedCandidateCount": 2,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "PHILLIPS, Valma",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Tarpeena Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 174,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "TURNBULL, Karen",
+                "status": "elected in this2022 result workbook",
+                "contest": "Tarpeena Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 197,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-42250-ordinary-2022-port-macdonnell-ward",
+            "label": "2022 Grant — Port MacDonnell Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Port MacDonnell Ward",
+            "electionCouncilName": "Grant",
+            "vacancies": 1,
+            "expectedCandidateCount": 3,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "CLAYFIELD, Gill ",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port MacDonnell Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 179,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "ROGERS, Kaydee",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port MacDonnell Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 28,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "VIRGO, Rodney James",
+                "status": "elected in this2022 result workbook",
+                "contest": "Port MacDonnell Ward",
+                "sourceId": "council-sa-2022-sa-council-42250-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/grant-results-statistics-5-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 222,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The same council is now Southern Limestone Coast (ABN Lookup name from 1 July 2026; ECSA corroboration). Its stable ID and Grant URL retain existing inbound routes and histories.",
+          "The 2024/2025 representation review changes this council for the next periodic election: 3 wards abolished. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+          "From polling day of the next periodic election, wards are abolished; nine area councillors and the elected mayor represent the whole area. Gazette 2025-04-17, p. 768; https://www.ecsa.sa.gov.au/images/Council_Boundaries_2026/Grant_Gazette%20Notice_No.%2023%20-%20Thursday%2017%20April%202025%20pp.%20751-770.pdf",
+          "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+          "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+          "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence."
+        ],
+        "aliases": [
+          "Grant",
+          "District Council of Grant",
+          "Southern Limestone Coast Council"
+        ],
+        "nameChange": {
+          "previousName": "Grant",
+          "effectiveDate": "2026-07-01",
+          "sourceUrl": "https://abr.business.gov.au/AbnHistory/View?id=60468119582",
+          "sourceId": "council-sa-ward-edition-review",
+          "stableIdAndPreviousRouteRetained": true
+        }
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

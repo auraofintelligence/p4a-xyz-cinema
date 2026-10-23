@@ -11,6 +11,7 @@ from pathlib import Path, PurePosixPath
 import re
 from urllib.parse import quote
 import xml.etree.ElementTree as ET
+from page_review_register import reviewed_page_entries
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,13 +23,16 @@ EXCLUSIONS = ("/qa/", "/content/", "/tools/", "/scripts/", "/backend/")
 GROUPS = OrderedDict([
     ("start", ("Start and find your bearings", "Introductions and readable ways into the workbench.")),
     ("places", ("Maps and places", "Find a state, council or electorate; keep their responsibilities distinct.")),
+    ("councils-national", ("Councils and local electoral areas", "Sourced local-government places, actual subdivisions, public representation and election records.")),
+    ("state-electorates", ("State and territory electorates", "Actual districts, upper-house regions and statewide chambers with their dated source editions.")),
+    ("federal-electorates", ("Federal divisions and Senate representation", "House divisions and Senate state/territory context; current office and previous contestants remain distinct.")),
     ("redland", ("Redlands: the local journey", "Follow a place or question through evidence, systems, public records, participation and outcomes.")),
     ("divisions", ("Redlands: ten divisions", "Local orientation, exact division boundaries and connected questions.")),
     ("policies", ("Everyday questions and policy ideas", "Inspect public concerns, evidence and proposed responses.")),
     ("twinkles", ("Twinkles", "One scene, one gripe, one spoken breath, followed by deeper context.")),
     ("systems", ("Systems and shared possibilities", "Connect local questions to wider civic, economic and information systems.")),
     ("tools", ("Build, contribute and take part", "Guides and browser-local drafting tools; check each tool's own scope.")),
-    ("culture", ("Culture, origins and meaning", "Stories, lyric meanings and ideas behind the project.")),
+    ("culture", ("Origins, music and imagination", "Stories, lyric meanings and ideas behind the project.")),
     ("support", ("Support and design", "Support options, gear and visual experiments.")),
     ("state-rooms", ("State and territory rooms", "Portals, histories and rulebooks, including Victoria's existing atlas and election guide.")),
 ])
@@ -61,9 +65,7 @@ def public_inventory(root=ROOT):
 
 def reviewed_dates(root=ROOT):
     """Implementation lastmod dates, never inferred from mtime or a build clock."""
-    register = json.loads((root / REGISTER).read_text(encoding="utf-8"))
-    rows = [row for group in register["pageGroups"] for row in group["pages"]]
-    rows += register["updatedExistingPages"]
+    rows = reviewed_page_entries(root)
     dates = {}
     for row in rows:
         value = row["lastUpdated"]
@@ -157,9 +159,9 @@ def render_llms(root, inventory):
         "",
         "## Follow a thread",
         "",
-        "Start with States and territories, choose Queensland, search or select a council on the map, then inspect and open it. Redlands is the first fuller local journey; choose a division, question, system, person or source, then follow through to participation and outcomes. Keep three accounts together: what it cost, what was given freely, and what changed. Verified freely given hours are counted once, with no fixed dollar conversion.",
+        "Start with the national place directory, choose a state or territory, then councils, state electorates or federal representation. Search or select an actual area, inspect it and Open its dedicated page. Redlands retains the fuller local journey with divisions, questions, systems, people, participation and outcomes. Keep three accounts together: what it cost, what was given freely, and what changed. Verified freely given hours are counted once, with no fixed dollar conversion.",
         "",
-        "Victoria has an existing state electorate and council atlas and a 2026 state election guide. A complete civic journey for every electorate has not been built. Federal Bowman material is contextual; a dedicated federal electorate atlas and full federal journeys remain unbuilt. Do not assume that Queensland's rules, boundaries, dates or division structures apply elsewhere.",
+        "The national place pages supply sourced maps, dated public representation, election events and available historical contestants. Individual source coverage remains explicit on each page and in the canonical records; do not infer completeness from a route count. Victoria retains its deeper atlas, Census comparisons and 2026 election guide. Current and next-election boundary editions remain distinct. New local Twinkles are left to grassroots implementation. Do not assume that Queensland's rules, boundaries, dates or division structures apply elsewhere.",
         "",
         "Twinkles begin with one ordinary scene, one everyday gripe and one self-contained spoken breath. Read the serious context and evidence beneath the seed. Public voting records need the exact motion; a stated reason needs an attributable source, and an inferred explanation must remain labelled.",
         "",
@@ -172,8 +174,8 @@ def render_llms(root, inventory):
         if key == "divisions":
             rows.sort(key=lambda row: int(row["path"].split("/")[-2]))
         if key == "redland":
-            flow = ["index.html", "divisions/index.html", "explore/index.html", "possibilities/index.html", "candidates/index.html", "action/index.html", "outcomes/index.html", "sources/index.html"]
-            rows.sort(key=lambda row: flow.index(row["path"].split("states/qld/councils/redland/")[1]))
+            flow = ["index.html", "divisions/index.html", "explore/index.html", "possibilities/index.html", "candidates/index.html", "elections/index.html", "action/index.html", "outcomes/index.html", "sources/index.html"]
+            rows.sort(key=lambda row: flow.index(row["path"].split("states/qld/councils/redland/")[1]) if row["path"].split("states/qld/councils/redland/")[1] in flow else len(flow))
         lines += ["", "### " + title, "", purpose, ""]
         for row in rows:
             lines.append(f"- [{markdown_label(row['title'])}]({canonical(row['path'])}): {concise_description(root, row)}")
@@ -194,7 +196,8 @@ def build(root=ROOT):
         "llms.txt": render_llms(root, inventory),
     }
     for name, body in files.items():
-        (root / name).write_text(body, encoding="utf-8", newline="\n")
+        with (root / name).open("w", encoding="utf-8", newline="\n") as output:
+            output.write(body)
     return {"publicPages": len(inventory["pages"]), "evidencedLastmodDates": len(dates), "files": list(files)}
 
 

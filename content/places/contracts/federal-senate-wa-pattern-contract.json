@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "title": "Western Australia Senate — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "federal-senate-wa",
+    "kind": "senate-area",
+    "name": "Western Australia Senate",
+    "jurisdiction": "wa",
+    "chamber": "Senate"
+  },
+  "canonicalInput": {
+    "path": "content/places/federal.json",
+    "recordPointer": "/places/158",
+    "scope": "federal"
+  },
+  "coverageNotes": [
+    "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+    "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+    "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+    "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+    "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim.",
+    "No boundaryEdition value is populated in this canonical place record; no boundary-edition value is invented or pinned."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/wa/federal/senate/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/wa/places/federal/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/158/id",
+      "expected": "federal-senate-wa"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/158/name",
+      "expected": "Western Australia Senate"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/158",
+      "expected": {
+        "id": "federal-senate-wa",
+        "name": "Western Australia Senate",
+        "slug": "senate",
+        "jurisdiction": "wa",
+        "kind": "senate-area",
+        "chamber": "Senate",
+        "officialUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1&sta=WA",
+        "sources": [
+          "federal-aec-senate-candidates-2025",
+          "federal-aec-senate-votes-2025",
+          "federal-handbook-current",
+          "federal-aec-2025-timetable",
+          "federal-aec-election-dates"
+        ],
+        "representatives": [
+          {
+            "name": "(Slade) BROCKMAN",
+            "role": "Senator for Western Australia",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=30484",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/30484",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Michaelia CASH",
+            "role": "Senator for Western Australia",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=I0M",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/I0M",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Dorinda COX",
+            "role": "Senator for Western Australia",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=296215",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/296215",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Varun GHOSH",
+            "role": "Senator for Western Australia",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=257613",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/257613",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "(Sue) LINES",
+            "role": "Senator for Western Australia",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=112096",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/112096",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "(Matt) O'SULLIVAN",
+            "role": "Senator for Western Australia",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=283585",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/283585",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Fatima PAYMAN",
+            "role": "Senator for Western Australia",
+            "party": "Australia's Voice",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300707",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/300707",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Dean SMITH",
+            "role": "Senator for Western Australia",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=241710",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/241710",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jordon STEELE-JOHN",
+            "role": "Senator for Western Australia",
+            "party": "Australian Greens",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/250156",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Glenn STERLE",
+            "role": "Senator for Western Australia",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=E68",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/E68",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Ellie WHITEAKER",
+            "role": "Senator for Western Australia",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=316555",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/316555",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Tyron WHITTEN",
+            "role": "Senator for Western Australia",
+            "party": "One Nation",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=317026",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/317026",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "aec-31496-wa",
+            "officialEventId": "31496",
+            "label": "2025 federal election",
+            "kind": "general-election",
+            "status": "final",
+            "date": "2025-05-03",
+            "dateBasis": "Official AEC polling date; final results are retained separately from current office.",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+            "dateSourceUrl": "https://www.aec.gov.au/Elections/federal_elections/2025/timetable.htm",
+            "resultsUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+            "candidates": [
+              {
+                "id": "aec-candidate-42107",
+                "name": "Tamara ALDERDICE",
+                "party": "FUSION | Planet Rescue | Whistleblower Protection | Innovation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 104,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42025",
+                "name": "Michael ANAGNO",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 755,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41995",
+                "name": "Melissa BANNISTER",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1148,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40923",
+                "name": "Trish BOTHA",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 445,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41230",
+                "name": "Riley BREEN",
+                "party": "Socialist Alliance",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 81,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40914",
+                "name": "Slade BROCKMAN",
+                "party": "Liberal",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 5744,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41943",
+                "name": "Paul BROWN",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2309,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41998",
+                "name": "Ryan BURNS",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 694,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42090",
+                "name": "Ky CAO",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1045,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42106",
+                "name": "Tian CARRIE-WILSON",
+                "party": "FUSION | Planet Rescue | Whistleblower Protection | Innovation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 306,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42003",
+                "name": "Donald CLARKE",
+                "party": "The Greens (WA) Inc",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 162,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40670",
+                "name": "Jody CLUNE",
+                "party": "Gerard Rennick People First",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 118,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42002",
+                "name": "Simone COLLINS",
+                "party": "The Greens (WA) Inc",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1239,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42092",
+                "name": "Rodney CULLERTON",
+                "party": "The Great Australian Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1629,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40922",
+                "name": "Melissa Rose D'ATH",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 351,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40924",
+                "name": "Tarun DEWAN",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 394,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42031",
+                "name": "Conor DOYLE",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 354,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40917",
+                "name": "Varun GHOSH",
+                "party": "Australian Labor Party",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 796,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=257613"
+              },
+              {
+                "id": "aec-candidate-42004",
+                "name": "Verity IVES",
+                "party": "The Greens (WA) Inc",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 538,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40668",
+                "name": "Madison KING",
+                "party": "Gerard Rennick People First",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2628,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41890",
+                "name": "Steve KLOMP",
+                "party": "Australian Christians",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2326,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41983",
+                "name": "Megan KRAKOUER",
+                "party": "Australia's Voice",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 767,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41985",
+                "name": "Tano LA MACCHIA",
+                "party": "Australia's Voice",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 52,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42005",
+                "name": "Heather LONSDALE",
+                "party": "The Greens (WA) Inc",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 912,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40929",
+                "name": "Jennifer MATHEWS",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 784,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40919",
+                "name": "Jason MEOTTI",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2202,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41947",
+                "name": "Jeremy MILES",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 276,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42006",
+                "name": "Elana MITCHELL",
+                "party": "Australian Democrats",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 540,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41996",
+                "name": "Trent Kenneth MONGAN",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 83,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41992",
+                "name": "Kim MUBARAK",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 448,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42096",
+                "name": "William NEWTON-WORDSWORTH",
+                "party": "The Great Australian Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 193,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41915",
+                "name": "Joan Lee NG",
+                "party": "Australian Christians",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 362,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42000",
+                "name": "Gary NICOL",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 58,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40726",
+                "name": "Aisha Nancy NOVAKOVICH",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 422,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40918",
+                "name": "Matt O'SULLIVAN",
+                "party": "Liberal",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1031,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42021",
+                "name": "Karen OBORN",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 584,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42030",
+                "name": "Ryan OOSTRYCK",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 98,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40932",
+                "name": "Brock OSWALD",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 659,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41997",
+                "name": "Peter ROBINS",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 73,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40728",
+                "name": "Rex Michael RYLES",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 75,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42007",
+                "name": "Simon SIMSON",
+                "party": "Australian Democrats",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 67,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40921",
+                "name": "Deep SINGH",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 964,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41228",
+                "name": "Jade SOBIERALSKI",
+                "party": "Socialist Alliance",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 399,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42001",
+                "name": "Jordon STEELE-JOHN",
+                "party": "The Greens (WA) Inc",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 10566,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156"
+              },
+              {
+                "id": "aec-candidate-42032",
+                "name": "Grant STEWART",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 101,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41999",
+                "name": "Lincoln STEWART",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 132,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40928",
+                "name": "Ally WHITE",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1191,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40916",
+                "name": "Ellie WHITEAKER",
+                "party": "Australian Labor Party",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 10549,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=316555"
+              },
+              {
+                "id": "aec-candidate-42022",
+                "name": "Tyron WHITTEN",
+                "party": "Pauline Hanson's One Nation",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-WA.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 3621,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=317026"
+              }
+            ],
+            "boundaryEdition": "2025 federal election boundaries",
+            "resultMeasure": "Senate multi-member ballot; elected status from AEC final candidate roster (not House 2PP)"
+          },
+          {
+            "id": "federal-senate-next-wa",
+            "label": "Next Senate election",
+            "kind": "general-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "No verified polling date entered. State Senate rotation and territory terms differ; current office does not establish future candidacy.",
+            "timezone": "Australia/Perth",
+            "sourceUrl": "https://www.aec.gov.au/learn/election-timetable.htm",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+          "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+          "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+          "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+          "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

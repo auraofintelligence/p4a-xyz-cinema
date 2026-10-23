@@ -1,0 +1,1025 @@
+{
+  "schemaVersion": 1,
+  "title": "Gumurr Marthakal Ward — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-ward-wadb375eb08e92f",
+    "kind": "ward",
+    "name": "Gumurr Marthakal Ward",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/1215",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+    "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+    "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+    "Current council roster explicitly identifies this ward; join uses the verified parent plus an exact punctuation/spacing-normalized ward label. A council-wide mayor is not assigned to a ward without an explicit source ward label.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wadb375eb08e92f/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1215/id",
+      "expected": "nt-ward-wadb375eb08e92f"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1215/name",
+      "expected": "Gumurr Marthakal Ward"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1215/boundaryEdition",
+      "expected": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1215",
+      "expected": {
+        "id": "nt-ward-wadb375eb08e92f",
+        "name": "Gumurr Marthakal Ward",
+        "slug": "eastarnhem-gumurr-marthakal-ward",
+        "jurisdiction": "nt",
+        "kind": "ward",
+        "parentId": "nt-council-71500",
+        "layerId": "council-ward-supp-nt",
+        "featureId": "wdpaa67c3900f95",
+        "officialUrl": "https://nt.gov.au/community/local-councils-remote-communities-and-homelands/local-councils-and-local-authorities",
+        "sources": [
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-ward-item",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-east-arnhem",
+          "council-nt-2025-ballot-east-arnhem-gumurr-marthakal-ward"
+        ],
+        "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
+        "representatives": [
+          {
+            "name": "Stephen Dhamarrandji",
+            "role": "Councillor",
+            "profileUrl": "https://eastarnhem.nt.gov.au/our-council/about-council/meet-the-council",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-east-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gumurr Marthakal Ward"
+          },
+          {
+            "name": "Evelyna Dhamarrandji",
+            "role": "Councillor",
+            "profileUrl": "https://eastarnhem.nt.gov.au/our-council/about-council/meet-the-council",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-east-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gumurr Marthakal Ward"
+          },
+          {
+            "name": "Cyril Bukulatjpi",
+            "role": "Councillor",
+            "profileUrl": "https://eastarnhem.nt.gov.au/our-council/about-council/meet-the-council",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-east-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gumurr Marthakal Ward"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-ward-wadb375eb08e92f-ordinary-2025",
+            "label": "2025 East Arnhem — Gumurr Marthakal Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+            "candidates": [
+              {
+                "name": "Gurrumgurrum BURARRWANGA",
+                "status": "official historical nominee",
+                "contest": "Gumurr Marthakal Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Evelyna DHAMARRANDJI",
+                "status": "official historical nominee",
+                "contest": "Gumurr Marthakal Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cyril BUKULATJPI",
+                "status": "official historical nominee",
+                "contest": "Gumurr Marthakal Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Stephen DHAMARRANDJI",
+                "status": "official historical nominee",
+                "contest": "Gumurr Marthakal Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/east-arnhem/list-of-candidates/gumurr-marthakal",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          }
+        ],
+        "sourceWardId": "wadb375eb08e92f",
+        "sourceLgaId": "lga1bed9266d38b",
+        "sourceLgaName": "East Arnhem Region",
+        "coverageNotes": [
+          "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+          "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+          "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+          "Current council roster explicitly identifies this ward; join uses the verified parent plus an exact punctuation/spacing-normalized ward label. A council-wide mayor is not assigned to a ward without an explicit source ward label."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4ace00b69dc2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp22dc5acd30e7",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb333b6c86ef6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp84f24b1ed9c0",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe0857415f698",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp6a9967f3f4e8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp017b0d8aff27",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp0082d587215b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp771ed215b9b0",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1b2106142334",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp029433a6c901",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp61704a22e464",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe77bab137b45",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpf91c04a45076",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp72c87948c245",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe1229a9d9585",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp656f4ad9852b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1af9102d7214",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb336fc562ab9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp5d6505d80339",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp7ff80bdce390",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4b88bf77895b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp27e3af42a8d6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpecb118ebe6c8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp097be618252e",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp7b1bb48fbe8b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1f26b1366961",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpaf4e0a2d4f03",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpde6a1bfc3205",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp32fcfa43e415",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp12a71ff4c564",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpc364328e2e86",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb7da7e426afe",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp361cdbe92f54",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp092a87447dcb",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd7c69b60e9a9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp066ce1dc92d2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp6888e6e303f2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp14ff355dc224",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp93b27da13b54",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp7158492ce9f6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpaf162710fb01",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp7a8d068da9d3",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd9b49085e352",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdped7008b17b4f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp95123bc2e916",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp0ebae0011350",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp6558a52be16c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpeafc7112a931",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpf5578b89782f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp10396ceb6bb8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp8bf665e38ebe",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp30192ee15d2f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp5eeba65dfabd",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp2100f716d278",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp8c352290fd51",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe01ceba0264c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpf2238af49297",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpeb44b96263a8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb9d8f04a345e",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp5163eabfc8d5",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpfda7db1c9fbe",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb59860cd96e1",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4ec36816fe05",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1e2adc65aaab",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpf61e24f4aa45",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpdaa71727e818",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp41e3c491eb3c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpae6f50bfd673",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4492ac22e43b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpda77444b7452",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp5030ffcc6d79",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe1542688c74d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1020f4e646d6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp603573893eaa",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp44b0badf0d0c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1690bd5cdb97",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpded5e80f992f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpa5807dd02974",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp58ccb04fbd8e",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpefaec93c22db",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp47d00ca2305c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpdfd2cf349b3c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp0983ab88e667",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpbb84b4efa9d2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpdb4de3673f50",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3005d8153ca8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd42054b5867d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe25733e7ce3c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpc6e874d5f2cd",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp95ec053cccd5",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp717c7d793bf8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp353e98340aa8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp47926aa86674",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp9a336fb7a576",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp2b0fc39fdc83",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpbf9ff7523566",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3a76adfb7231",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe0e873104f35",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp9ca07e4f35b2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp6a8075a6c317",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp70bd54a71446",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpdfaad30a923a",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1616d94031f1",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd17dfc109b54",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd13bd3a26457",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3f14765a3dfa",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp893f3e06d2e0",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp458fd16606e5",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp46da727af2b4",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpf8abc1bdb171",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp2308f689d6b9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp66e0aae5f26f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb9ec67af5d3a",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpeb9e2c922217",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp624e0de95032",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpbba1f9affaab",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3c32f6082e31",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpc96bbd138f3b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4cb6f01ebbcf",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp327f7d589c2d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp86d5473b7d4f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpbfcd4381c9f0",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp5f01091f1d1c",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp01683414d561",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpc4016efb3da6",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpac45fc7e0ee4",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp97f9b557f285",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe4e8159c8aca",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpbf08c969f451",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp4f9339fc443b",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp190d7a289fb9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp70a85887eaf7",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3cd2ad70f49d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1e5e4e5f7a34",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1f8f1cdaee60",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpebee8458d4c7",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp80bad2cc3dc2",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp62bf009951a9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp0332b8870e1d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp426ae394976f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpda439e131797",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp87d6b672aac7",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpfee8ea7528b5",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp7dbe4b539dd7",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpw6NQczxC_jfx",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp181951bcb1ec",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpe6840f63370d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp2b908b362ac3",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp98926400d04f",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp6b76f41d1184",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpcb942f5d967d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp1ff75c396bde",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd21c48b5b1e9",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp3ebc05cba3e3",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp8c33a43da433",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpd1cf848e0f8d",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdp91062eccb845",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          },
+          {
+            "layerId": "council-ward-supp-nt",
+            "featureId": "wdpb6a051e349c8",
+            "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

@@ -14,6 +14,7 @@
   document.querySelectorAll('[data-qld-council-map]').forEach(root=>{
   const divisions=root.dataset.mapLevel==='division';
   const bundle=divisions?window.P4A_REDLAND_DIVISIONS:window.P4A_QLD_COUNCILS;
+  const nationalRoutes=window.P4A_NATIONAL_QLD_ROUTES||{};
   if(!bundle)return;
   const queryKey=divisions?'division':'council';
   const items=bundle.features.map(feature=>{
@@ -23,7 +24,7 @@
     }
     const p=feature.properties;
     const id=String(p.lga_code);
-    return {id,name:p.lga,path,bounds,colour:councilColours[(divisions?Number(id):Math.floor(Number(id)/10))%councilColours.length],kind:divisions?'Redland City council division':id==='7300'?'Town authority area':'Local government council',search:normal(p.lga+' '+p.abbrev_name+' '+id+(!divisions&&id==='6250'?' Redlands Minjerribah North Stradbroke Russell Macleay Coochiemudlo':'')),built:divisions||id==='6250'};
+    return {id,name:p.lga,path,bounds,colour:councilColours[(divisions?Number(id):Math.floor(Number(id)/10))%councilColours.length],kind:divisions?'Redland City council division':id==='7300'?'Town authority area':'Local government council',search:normal(p.lga+' '+p.abbrev_name+' '+id+(!divisions&&id==='6250'?' Redlands Minjerribah North Stradbroke Russell Macleay Coochiemudlo':'')),built:divisions||id==='6250'||Boolean(nationalRoutes[id])};
   }).sort((a,b)=>a.name.localeCompare(b.name,undefined,{numeric:true}));
   const allBounds=items.reduce((b,item)=>[Math.min(b[0],item.bounds[0]),Math.min(b[1],item.bounds[1]),Math.max(b[2],item.bounds[2]),Math.max(b[3],item.bounds[3])],[Infinity,Infinity,-Infinity,-Infinity]);
     const canvas=root.querySelector('canvas'),ctx=canvas.getContext('2d'),hit=document.createElement('canvas').getContext('2d');
@@ -135,10 +136,11 @@
     }
     function select(item,zoom){
       selected=item;hover=null;panel.hidden=false;name.textContent=item.name;kind.textContent=item.kind;
-      copy.textContent=divisions?'Follow this division into local questions, its current representative, source records and connected possibilities.':item.built?'Open the Redlands local journey: maps, statistics, questions, systems, people, participation and outcomes.':'Council selected. Its P4A local journey has not been built yet. The same place pattern can be extended here; use the official boundary and council references below.';
+      copy.textContent=divisions?'Follow this division into local questions, its current representative, source records and connected possibilities.':item.built?(item.id==='6250'?'Open the Redlands local journey: maps, statistics, questions, systems, people, participation and outcomes.':'Open this council’s sourced page: boundaries, representation, election history and public records.'):'Council selected. Its P4A local journey has not been built yet. The same place pattern can be extended here; use the official boundary and council references below.';
       if(!divisions&&item.id==='7300')copy.textContent='Weipa Town has a town authority rather than an elected local government council. It is retained as a separately labelled area in the official boundary layer.';
       open.hidden=!item.built;
       if(divisions){open.textContent='Open '+item.name;open.href=new URL(`states/qld/councils/redland/divisions/${item.id}/index.html`,new URL(root.dataset.siteRoot,location.href)).href;}
+      else if(nationalRoutes[item.id]){open.textContent='Open '+item.name;open.href=new URL(nationalRoutes[item.id],new URL(root.dataset.siteRoot,location.href)).href;}
       if(zoom)fit(item.bounds);else queue();
       renderResults();updateUrl();
     }

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "title": "Central Ward — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "wa-ward-wad45d81b71861a",
+    "kind": "ward",
+    "name": "Central Ward",
+    "jurisdiction": "wa"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/1262",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+    "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+    "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+    "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wad45d81b71861a/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/wa/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1262/id",
+      "expected": "wa-ward-wad45d81b71861a"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1262/name",
+      "expected": "Central Ward"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1262/boundaryEdition",
+      "expected": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1262",
+      "expected": {
+        "id": "wa-ward-wad45d81b71861a",
+        "name": "Central Ward",
+        "slug": "bayswater-central-ward",
+        "jurisdiction": "wa",
+        "kind": "ward",
+        "parentId": "wa-council-50420",
+        "layerId": "council-ward-supp-wa",
+        "featureId": "wdpsgOB7QsRyjzN",
+        "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+        "sources": [
+          "council-ward-supp-geoscape-wa-native",
+          "council-ward-supp-geoscape-ward-item",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-wa-walga-2026-50420"
+        ],
+        "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
+        "representatives": [
+          {
+            "name": "Calla Loiacono",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=9",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-50420",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.bayswater.wa.gov.au",
+            "termEndYear": "2029",
+            "wardLabel": "Central Ward"
+          },
+          {
+            "name": "Steven Ostaszewskyj",
+            "role": "Councillor",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=9",
+            "profileType": "official published WALGA roster",
+            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+            "sourceId": "council-wa-walga-2026-50420",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.bayswater.wa.gov.au",
+            "termEndYear": "2027",
+            "wardLabel": "Central Ward"
+          }
+        ],
+        "elections": [],
+        "sourceWardId": "wad45d81b71861a",
+        "sourceLgaId": "lga3eb9e8612da7",
+        "sourceLgaName": "City of Bayswater",
+        "coverageNotes": [
+          "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+          "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+          "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+          "Named ward members are projected only from an explicit WALGA published ward label with one exact parent-and-full-label match. The roster remains the declared March 2026 snapshot; subsequent replacements and individual profiles require separate review."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

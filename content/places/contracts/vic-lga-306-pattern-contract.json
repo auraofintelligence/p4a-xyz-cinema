@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "title": "Bayside City Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-306",
+    "kind": "council",
+    "name": "Bayside City Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/89",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/bayside-city-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/89/id",
+      "expected": "vic-lga-306"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/89/name",
+      "expected": "Bayside City Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/89/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/89",
+      "expected": {
+        "id": "vic-lga-306",
+        "name": "Bayside City Council",
+        "slug": "bayside-city-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "306",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-306",
+          "council-vic-roster-306"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Debbie Taylor-Haynes",
+            "role": "Beckett Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Robert Irlicht",
+            "role": "Bleazby Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Kylie McIntosh",
+            "role": "Boyd Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Elli Murray",
+            "role": "Castlefield Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Hanna El Mouallem",
+            "role": "Dendy Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Geoff Leigh",
+            "role": "Ebden Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Andrew Hockley",
+            "role": "Ivison Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/bayside-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-306",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-306-ordinary-2024",
+            "label": "2024 Bayside City Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+            "candidates": [
+              {
+                "name": "TAYLOR-HAYNES, Debbie",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Beckett Ward",
+                "status": "elected",
+                "votes": 3337,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CLARK, Jess",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Beckett Ward",
+                "votes": 812,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SUTTON, Chris",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Beckett Ward",
+                "votes": 3130,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOOVER, Garry",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Beckett Ward",
+                "votes": 1553,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "IRLICHT, Robert",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "status": "elected",
+                "votes": 2535,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ANDREWS, Lily",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 1580,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MAVER, Lyn",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 1189,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SOLDATOS, Jerry",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 330,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RUNDELL, John",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 1515,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "FISCHETTO, Tony",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 401,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GALVIN, Jenson",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Bleazby Ward",
+                "votes": 1556,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MCINTOSH, Kylie",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "status": "elected",
+                "votes": 1973,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BARCA, Christine",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 1155,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STITFOLD, Fiona",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 1471,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WILLIAMS, David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 1034,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PROSKURNYA, Jane Ev",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 1900,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HEALEY, Nicholas",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 758,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NOUMAN, Faiza",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Boyd Ward",
+                "votes": 868,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MURRAY, Elli",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "status": "elected",
+                "votes": 1282,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WOOD, Tim",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 1202,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOWARD, Kevin",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 1235,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ARMSTRONG, Toni",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 398,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HANSEN, Penelope Ann",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 138,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CLEMENTS, Karen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 375,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CATLIN, James D.",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 371,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CAMPBELL, Richard",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 191,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUGHES, Hamish",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 720,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MCSWEENEY, Amanda",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 202,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "FITZGERALD, Anne Elizabeth",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 312,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KANIZAY, Jarrod",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 241,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "IRLICHT, Bella",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 315,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BUCCHERI, Robyn",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 160,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HARKIN, Colleen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Castlefield Ward",
+                "votes": 1820,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "EL MOUALLEM, Hanna",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "status": "elected",
+                "votes": 2592,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TSEYTLIN, Mark",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 169,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "XU, Ming Min",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 235,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RAWLINSON, Mike",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 132,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LURIE, David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 158,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BRYANT, Joanne",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 313,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "FRENCH, Natalie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 357,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SCANLON, Terence",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 280,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NUTMAN, Alex",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 320,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GOLDSTAT, Joshua",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 366,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WOLF, Steve",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 137,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BARTELS, Thomas",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 380,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "JOFFE, Lindsey",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 339,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GEORGOULOS, Paras",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 97,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MCFADDEN, Hugh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 172,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SMITH, Greg",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 119,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HEFFERNAN, Michael",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 1539,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DO ROZARIO-ROMIC, Isabella",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Dendy Ward",
+                "votes": 264,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LEIGH, Geoff",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "status": "elected",
+                "votes": 2467,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KAPLAN, Matthew",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 675,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "EVANS, Laurence",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 1610,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PERRY, David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 234,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "COCHRANE, Ian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 365,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ABADEE, Janet",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 653,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WATTS, Timothy David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 263,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CLEMENTS, Calista",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 1119,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MAILLARD, Clifford",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ebden Ward",
+                "votes": 727,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOCKLEY, Andrew",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "status": "elected",
+                "votes": 3821,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOULT, Brandon",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 580,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KRUGER, Liam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 402,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LONG, James",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 955,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BATZIALAS, Nicholas",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 311,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CASTELLI, Sonia",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 833,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "REGAN, Alysia",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 652,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "AUSTIN, Lyn",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 158,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SAGRIS-DESMOND, Anastasia",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/bayside-city-council",
+                "contest": "Ivison Ward",
+                "votes": 337,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-306-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

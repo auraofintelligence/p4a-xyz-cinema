@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "source": "Independent shared-code review in this local run",
+  "checks": {
+    "freshnessPositiveAndNegativeCases": 8,
+    "fallbackSizeBoundaryCases": 5,
+    "publicArtifactCleanAndCheckoutPolicies": 2228
+  },
+  "cases": [
+    "Modified canonical/raw/page/code or omitted public evidence refuses contract binding; missing mandatory geometry refuses binding; genuinely absent local-only raw is recorded separately.",
+    "Small stale fallback repaired; absent fallback stays gzip-only; decoded source exactly 100 MiB and 100 MiB+1 never replaces small fallback; existing 100 MiB plain stays unused.",
+    "All 2,228 collected public artifacts preserve reviewed bytes under Git clean with autocrlf true and false; no custom filter or working-tree encoding. The 42 auto-text artifacts are binary by Git NUL heuristic; all public text is explicitly byte-preserved."
+  ],
+  "indexChanged": false,
+  "limits": [
+    "Isolated cases and Git attribute review do not certify all browsers, source currentness or legal boundaries."
+  ]
+}

@@ -4,11 +4,14 @@ This is the `p4a-xyz-cinema` source for [p4a.xyz](https://p4a.xyz): connected pl
 
 ## Find your way
 
+
+The national expansion resumed on 17 October 2026. [Find a council, state electorate or federal area](pages/places.html) across all eight jurisdictions. The [23 October publication review](docs/releases/2026-10-23-national-expansion-publication.md) and [resumed implementation report](docs/releases/2026-10-17-national-expansion-resumed.md) record coverage, evidence and remaining source/journey gaps. These new place routes preserve the deeper Victoria and Redlands workbenches; no new Twinkles were authored for the expansion.
+
 Start with the [human-readable site map](pages/site-map.html). It groups the whole site by what you want to do, rather than by filenames.
 
 | I want to… | Start here |
 | --- | --- |
-| Find my place | [States and territories](pages/states.html) → [Queensland councils](states/qld/councils/index.html) |
+| Find my place | [Councils and electorates](pages/places.html) → choose a jurisdiction and institution |
 | Explore the full local example | [Redlands](states/qld/councils/redland/index.html) → [choose a division](states/qld/councils/redland/divisions/index.html) |
 | Follow an everyday gripe | [Local Twinkles and their connections](states/qld/councils/redland/explore/index.html?type=twinkle) |
 | Explore wider systems | [Connected possibilities](states/qld/councils/redland/possibilities/index.html) |
@@ -17,6 +20,7 @@ Start with the [human-readable site map](pages/site-map.html). It groups the who
 | Inspect Victoria's existing electorate work | [Victorian state electorate atlas](states/vic/map/index.html) |
 | Review page dates and sources | [Page and rule update register](docs/releases/2026-10-17-page-and-rule-register.md) · [Sources and dates](states/qld/councils/redland/sources/index.html#review-register) |
 | Build another place with an agent | [Read the agent entry rules](AGENTS.md), then the separate council, state or federal guide |
+| Update one election, member, countdown or linked page | [Fractal election and navigation updates](docs/agents/fractal-election-updates.md), including individual by-elections, previous contestants, profiles and sitemap maintenance |
 | Prepare a GitHub upload | [Upload instructions](docs/github-upload.md) |
 
 **Local preview:** run `node scripts/serve.mjs` in this folder, then open [the local site map](http://127.0.0.1:8768/pages/site-map.html). The [public site map](https://p4a.xyz/pages/site-map.html) shows the deployed version; GitHub's commit history and Pages run record its publication status.
@@ -147,7 +151,7 @@ By-elections, seat splits, leadership and election dates are agent-refreshable. 
 
 ## Navigation System
 
-Every page shares a compact header (six primary doors plus an Index button) and a full-screen searchable index of all public rooms. The whole navigation layer — index overlay, breadcrumbs and footer explore-columns — is generated from one data file: `assets/site-nav.js`. To surface a new page everywhere, add one entry to the `SECTIONS` list in that file. No other page needs touching.
+Every page shares a compact header (six primary doors plus an Index button) and a full-screen searchable index of public rooms. `assets/site-nav.js` supplies the shared index, breadcrumbs and footer links. New pages also need their real parent/directory links, canonical generator changes and discovery updates; follow [the sitemap and link procedure](docs/agents/fractal-election-updates.md#7-maintain-sitemap-navigation-and-links). Keep large place directories within their appropriate council/electorate entry points.
 
 Without JavaScript the static header links and the site-map page still cover the whole site.
 

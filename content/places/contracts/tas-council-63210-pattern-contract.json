@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "title": "Kentish — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-63210",
+    "kind": "council",
+    "name": "Kentish",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/972",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/kentish/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/972/id",
+      "expected": "tas-council-63210"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/972/name",
+      "expected": "Kentish"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/972/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/972",
+      "expected": {
+        "id": "tas-council-63210",
+        "name": "Kentish",
+        "slug": "kentish",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "63210",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-1701",
+          "council-tas-2022-tas-council-63210-ken-c",
+          "council-tas-2022-tas-council-63210-ken-dm",
+          "council-tas-2022-tas-council-63210-mayor-unopposed"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Rodney Blenkhorn",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Linda Cassidy",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Phil Dickinson",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Kate Haberle",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Simone Haigh",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Terry Hughes",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Penny Lane",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Phillip Richards",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          },
+          {
+            "name": "Don Thwaites",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1701&LGGo=Go",
+            "website": "http://www.kentish.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1701"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-63210-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-63210-ken-c",
+            "label": "2022 Kentish Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html",
+            "candidates": [
+              {
+                "name": "BLENKHORN, Rodney",
+                "status": "elected in this 2022 contest",
+                "votes": 331,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "CASSIDY, Linda",
+                "status": "elected in this 2022 contest",
+                "votes": 284,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "DICKINSON, Phil",
+                "status": "elected in this 2022 contest",
+                "votes": 137,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "HABERLE, Kate",
+                "status": "elected in this 2022 contest",
+                "votes": 1042,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "HAIGH, Simone",
+                "status": "elected in this 2022 contest",
+                "votes": 170,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "HUGHES, Terry",
+                "status": "elected in this 2022 contest",
+                "votes": 181,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "LANE, Penny",
+                "status": "elected in this 2022 contest",
+                "votes": 843,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "RICHARDS, Phillip",
+                "status": "elected in this 2022 contest",
+                "votes": 569,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "SIMMONS, Bob",
+                "status": "contested this 2022 event",
+                "votes": 96,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "THWAITES, Don",
+                "status": "elected in this 2022 contest",
+                "votes": 526,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63210-ken-dm",
+            "label": "2022 Kentish Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html",
+            "candidates": [
+              {
+                "name": "BLENKHORN, Rodney",
+                "status": "contested this 2022 event",
+                "votes": 720,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "LANE, Penny",
+                "status": "contested this 2022 event",
+                "votes": 2128,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              },
+              {
+                "name": "RICHARDS, Phillip",
+                "status": "contested this 2022 event",
+                "votes": 1338,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63210-ken-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/ken-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63210-mayor-unopposed",
+            "label": "2022 Kentish Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final-unopposed",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC ordinary2022 postal election context; this specific office was declared elected unopposed and no vote count is invented.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html#mayor",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html",
+            "candidates": [
+              {
+                "name": "HABERLE, Kate",
+                "status": "elected unopposed in this2022 contest",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63210-mayor-unopposed",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html#mayor",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/kentish/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

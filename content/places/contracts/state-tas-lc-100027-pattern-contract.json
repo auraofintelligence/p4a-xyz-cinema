@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "title": "Mersey — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-tas-lc-100027",
+    "kind": "state-region",
+    "name": "Mersey",
+    "jurisdiction": "tas",
+    "chamber": "Legislative Council"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/434",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "Single-member Legislative Council division. Six-year periodic election cycles are division-specific; House of Assembly dates do not apply.",
+    "The latest 2021–2026 final periodic ballot and available intervening by-election contestants are retained from TEC, with exact first-preference measures. Earlier 2018–2020 histories remain separately dated without complete contestant rows; future exact polling days remain unannounced.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/electorates/regions/mersey/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/434/id",
+      "expected": "state-tas-lc-100027"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/434/name",
+      "expected": "Mersey"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/434/boundaryEdition",
+      "expected": "2017 redistribution; official LIST full download, checked 17 October 2026"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/434",
+      "expected": {
+        "id": "state-tas-lc-100027",
+        "name": "Mersey",
+        "slug": "mersey",
+        "jurisdiction": "tas",
+        "kind": "state-region",
+        "chamber": "Legislative Council",
+        "featureId": 100027,
+        "officialUrl": "https://www.tec.tas.gov.au/legislative-council/Maps_LegislativeCouncil.html#Mersey",
+        "sources": [
+          "state-tas-council-attributes",
+          "state-tas-profile-michael-gaffney",
+          "state-tas-lc-official-zip",
+          "state-tas-lc-calendar",
+          "state-tas-lc-history",
+          "state-tas-lc-result-mersey-2021"
+        ],
+        "boundaryEdition": "2017 redistribution; official LIST full download, checked 17 October 2026",
+        "representatives": [
+          {
+            "name": "Michael Gaffney",
+            "role": "Legislative Council member",
+            "party": "Independent",
+            "profileUrl": "https://www.parliament.tas.gov.au/legislative-council/members/michael-gaffney",
+            "website": "https://www.mikegaffney.com.au/",
+            "sourceId": "state-tas-profile-michael-gaffney",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-lc-2027-mersey",
+            "label": "Next Mersey Legislative Council periodic election — May 2027",
+            "kind": "periodic-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "Official TEC six-year calendar names May 2027; subsequent six-year cycle where applicable. Exact polling day unannounced.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/legislative-council/",
+            "candidates": []
+          },
+          {
+            "id": "tas-lc-2021-05-01-mersey",
+            "label": "2021 Mersey Legislative Council periodic election",
+            "kind": "periodic-election",
+            "status": "historical",
+            "date": "2021-05-01",
+            "dateBasis": "Official TEC election history; elected name alone is not a complete contestant ballot",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/legislative-council/LegislativeCouncilElections_2021/results/mersey/index.html",
+            "candidates": [
+              {
+                "name": "GAFFNEY, Michael ",
+                "party": "Independent",
+                "status": "elected unopposed; no ballot required",
+                "sourceUrl": "https://www.tec.tas.gov.au/legislative-council/LegislativeCouncilElections_2021/results/mersey/index.html"
+              }
+            ],
+            "resultsUrl": "https://www.tec.tas.gov.au/legislative-council/LegislativeCouncilElections_2021/results/mersey/index.html",
+            "resultStatus": "elected unopposed; no ballot required"
+          }
+        ],
+        "coverageNotes": [
+          "Single-member Legislative Council division. Six-year periodic election cycles are division-specific; House of Assembly dates do not apply.",
+          "The latest 2021–2026 final periodic ballot and available intervening by-election contestants are retained from TEC, with exact first-preference measures. Earlier 2018–2020 histories remain separately dated without complete contestant rows; future exact polling days remain unannounced."
+        ],
+        "layerId": "state-tas-council-2017"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

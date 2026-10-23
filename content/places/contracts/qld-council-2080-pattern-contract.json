@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 1,
+  "title": "Cairns Regional — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-2080",
+    "kind": "council",
+    "name": "Cairns Regional",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/8",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/cairns-regional/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/8/id",
+      "expected": "qld-council-2080"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/8/name",
+      "expected": "Cairns Regional"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/8/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/8",
+      "expected": {
+        "id": "qld-council-2080",
+        "name": "Cairns Regional",
+        "slug": "cairns-regional",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "2080",
+        "officialUrl": "https://www.cairns.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Amy Eden",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.cairns.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-2080-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-013",
+            "label": "2024 Cairns Regional — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+            "candidates": [
+              {
+                "name": "KELLY, John (Kel)",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 3854,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "VETTERS, Warren (Binda)",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 1139,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "EDEN, Amy",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 25782,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "POTTER, Leah",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 2747,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WALLS, Denis",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 10745,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TAYLOR, Paul",
+                "ballotOrder": 6,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 19532,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "JAMES, Terry",
+                "ballotOrder": 7,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/013",
+                "votes": 20187,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01301",
+            "label": "2024 Cairns Regional — Cairns Regional Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01301",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01301",
+            "candidates": [
+              {
+                "name": "MOLLER, Brett",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01301",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01301"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01302",
+            "label": "2024 Cairns Regional — Cairns Regional Division 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+            "candidates": [
+              {
+                "name": "COURTENAY, Patricia",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 600,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GIUMELLI, Nikki",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 1541,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TICKNER, Matthew",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 3137,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "STRIEBY, Kesa",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 1160,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LIPPINGWELL, Steve",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 1530,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SCHILLING, John",
+                "ballotOrder": 6,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01302",
+                "votes": 1702,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01303",
+            "label": "2024 Cairns Regional — Cairns Regional Division 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+            "candidates": [
+              {
+                "name": "SEDEN, Marisa",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "votes": 1164,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HEALY, Heidi",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "votes": 1601,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ZEIGER, Cathy",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01303",
+                "votes": 6450,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01304",
+            "label": "2024 Cairns Regional — Cairns Regional Division 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+            "candidates": [
+              {
+                "name": "TIM, Trevor",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "votes": 2591,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CUTHBERT, Shane",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "votes": 1407,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MAHONEY, Cate",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "votes": 1772,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "NEAL, Jeremy",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01304",
+                "votes": 2750,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01305",
+            "label": "2024 Cairns Regional — Cairns Regional Division 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+            "candidates": [
+              {
+                "name": "PYNE, Rob",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "votes": 2296,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MACHNITZKE, Birgit Ariane",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "votes": 948,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "COLL, James",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "votes": 675,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LEE LONG, Nathan",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "votes": 1851,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GELLING, Emma",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01305",
+                "votes": 1882,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01306",
+            "label": "2024 Cairns Regional — Cairns Regional Division 6",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+            "candidates": [
+              {
+                "name": "TRIMBY, Shane",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "votes": 2609,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SLEEMAN, Nicole",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "votes": 1981,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BENN, Alan",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "votes": 1506,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "VALLELY, Kristy",
+                "ballotOrder": 4,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01306",
+                "votes": 3984,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01307",
+            "label": "2024 Cairns Regional — Cairns Regional Division 7",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+            "candidates": [
+              {
+                "name": "MOLLER-NIELSEN, Ian",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "votes": 1703,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LEES, Renee",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "votes": 2130,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MIDDLETON, Anna",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "votes": 2554,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CALANNA, Matthew",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01307",
+                "votes": 2395,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01308",
+            "label": "2024 Cairns Regional — Cairns Regional Division 8",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+            "candidates": [
+              {
+                "name": "COGHLAN, Rhonda",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "votes": 3155,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BOON, Hannah",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "votes": 1640,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PIGGOTT, Jo",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "votes": 2532,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MUSUMECI, Phillip",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01308",
+                "votes": 1965,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-2080-ordinary-2024-01309",
+            "label": "2024 Cairns Regional — Cairns Regional Division 9",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+            "candidates": [
+              {
+                "name": "OLDS, Brett",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Cairns Regional Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+                "votes": 8029,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "VISSCHERS, Carine",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Cairns Regional Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/01309",
+                "votes": 2425,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

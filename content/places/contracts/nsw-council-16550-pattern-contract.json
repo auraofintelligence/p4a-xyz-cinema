@@ -1,0 +1,893 @@
+{
+  "schemaVersion": 1,
+  "title": "Randwick — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-16550",
+    "kind": "council",
+    "name": "Randwick",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/714",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/randwick/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/714/id",
+      "expected": "nsw-council-16550"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/714/name",
+      "expected": "Randwick"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/714/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/714",
+      "expected": {
+        "id": "nsw-council-16550",
+        "name": "Randwick",
+        "slug": "randwick",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "7999",
+        "officialUrl": "https://www.randwick.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-randwick-central-ward",
+          "council-nsw-2024-randwick-east-ward",
+          "council-nsw-2024-randwick-north-ward",
+          "council-nsw-2024-randwick-south-ward",
+          "council-nsw-2024-randwick-west-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Dylan Parker",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Clare Willington",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Masoomeh Asgari",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bill Burst",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Noel D'Souza",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Dexter Gordon",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Christie Hamilton",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Andrew Hay",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Alexandra Luxford",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Aaron Magner",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Carolyn Martin",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Daniel Rosenfeld",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Danny Said",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Philipa Veitch",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Marea Wilson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.randwick.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-16550-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-16550-ordinary-2024-central-ward",
+            "label": "2024 Randwick â€” Central Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+            "candidates": [
+              {
+                "name": "CHAPPLE Kym",
+                "status": "contested",
+                "votes": 342,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BEVES Jonathon",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "MOLLISON James",
+                "status": "contested",
+                "votes": 14,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ROSENFELD Daniel",
+                "status": "elected",
+                "votes": 349,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "FERNANDO Anna",
+                "status": "contested",
+                "votes": 89,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ARNFIELD David",
+                "status": "contested",
+                "votes": 50,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "PARKER Dylan",
+                "status": "elected",
+                "votes": 782,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "GORDON Dexter",
+                "status": "elected",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KLEVANSKY Tanna",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 639,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/central-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-16550-ordinary-2024-east-ward",
+            "label": "2024 Randwick â€” East Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+            "candidates": [
+              {
+                "name": "WILSON Marea",
+                "status": "elected",
+                "votes": 354,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CUNNINGHAM Patrick",
+                "status": "contested",
+                "votes": 65,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SUMMERS Katherine",
+                "status": "contested",
+                "votes": 79,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "MARTIN Carolyn",
+                "status": "elected",
+                "votes": 369,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BELCHER Lisa",
+                "status": "contested",
+                "votes": 87,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "GILTINAN James",
+                "status": "contested",
+                "votes": 87,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "ASGARI Masoomeh",
+                "status": "elected",
+                "votes": 226,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SMITH Wendy",
+                "status": "contested",
+                "votes": 73,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ATHERTON Michael",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 467,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/east-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-16550-ordinary-2024-north-ward",
+            "label": "2024 Randwick â€” North Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+            "candidates": [
+              {
+                "name": "MAGNER Aaron",
+                "status": "elected",
+                "votes": 413,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "TREACY-MACLEAN Madeleine",
+                "status": "contested",
+                "votes": 63,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "GRIFFIN Louise",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WILLINGTON Clare",
+                "status": "elected",
+                "votes": 261,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "FITZGERALD Maureen",
+                "status": "contested",
+                "votes": 31,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DAVIS Stuart",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HAMILTON Christie",
+                "status": "elected",
+                "votes": 286,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BEAUMONT Katharine",
+                "status": "contested",
+                "votes": 76,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "YOUNG Jason",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 394,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/north-ward/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-16550-ordinary-2024-south-ward",
+            "label": "2024 Randwick â€” South Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+            "candidates": [
+              {
+                "name": "BURST Bill",
+                "status": "elected",
+                "votes": 410,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "LEE Yuen",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MORGAN David",
+                "status": "contested",
+                "votes": 37,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "D'SOUZA Noel",
+                "status": "elected",
+                "votes": 1086,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor"
+              },
+              {
+                "name": "DA ROCHA Carlos",
+                "status": "contested",
+                "votes": 38,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor"
+              },
+              {
+                "name": "ANTOINE Annick",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor"
+              },
+              {
+                "name": "WESTON Russell",
+                "status": "contested",
+                "votes": 202,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "KEOGH Daniel",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ONYX Jennifer",
+                "status": "contested",
+                "votes": 35,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SAID Danny",
+                "status": "elected",
+                "votes": 407,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HUTCHISON Susan",
+                "status": "contested",
+                "votes": 64,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SHORE Katelyn",
+                "status": "contested",
+                "votes": 32,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 715,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "South Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/south-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-16550-ordinary-2024-west-ward",
+            "label": "2024 Randwick â€” West Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+            "candidates": [
+              {
+                "name": "LUXFORD Alexandra",
+                "status": "elected",
+                "votes": 365,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BULL Ivan",
+                "status": "contested",
+                "votes": 78,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LUXFORD Yanni",
+                "status": "contested",
+                "votes": 47,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HAY Andrew",
+                "status": "elected",
+                "votes": 407,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "TAN Grace",
+                "status": "contested",
+                "votes": 120,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "SMALLBONE David",
+                "status": "contested",
+                "votes": 37,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "VEITCH Philipa",
+                "status": "elected",
+                "votes": 383,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "JENKINS-FLINT Jennifer",
+                "status": "contested",
+                "votes": 48,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BRYAN Simeon",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 539,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/randwick/west-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "16550",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

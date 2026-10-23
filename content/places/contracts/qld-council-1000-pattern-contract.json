@@ -1,0 +1,1655 @@
+{
+  "schemaVersion": 1,
+  "title": "Brisbane City — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-1000",
+    "kind": "council",
+    "name": "Brisbane City",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/7",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/brisbane-city/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/7/id",
+      "expected": "qld-council-1000"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/7/name",
+      "expected": "Brisbane City"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/7/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/7",
+      "expected": {
+        "id": "qld-council-1000",
+        "name": "Brisbane City",
+        "slug": "brisbane-city",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "1000",
+        "officialUrl": "https://www.brisbane.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Adrian Schrinner",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.brisbane.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-1000-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-008",
+            "label": "2024 Brisbane City — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+            "candidates": [
+              {
+                "name": "TANTI, Bruce",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "votes": 10070,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PRICE, Tracey",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 186250,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SCHRINNER, Adrian",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "party": "Liberal National Party of Queensland",
+                "votes": 343330,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HOLMES, Gilbert",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "votes": 5958,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BRAZIER, Clive",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "party": "Legalise Cannabis Queensland (Party)",
+                "votes": 23580,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SRIRANGANATHAN, Jonathan",
+                "ballotOrder": 6,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/008",
+                "party": "Queensland Greens",
+                "votes": 137454,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00801",
+            "label": "2024 Brisbane City — Brisbane City Bracken Ridge",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+            "candidates": [
+              {
+                "name": "LANDERS, Sandy",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Bracken Ridge",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "party": "Liberal National Party of Queensland",
+                "votes": 14997,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "STEPHEN, Thomas",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Bracken Ridge",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 7836,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HARBISON, John",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Bracken Ridge",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00801",
+                "party": "Queensland Greens",
+                "votes": 3519,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00810",
+            "label": "2024 Brisbane City — Brisbane City Hamilton",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+            "candidates": [
+              {
+                "name": "DIXON, Julia",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Hamilton",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "party": "Liberal National Party of Queensland",
+                "votes": 16862,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CORDERY, Edward",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Hamilton",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "party": "Queensland Greens",
+                "votes": 5297,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MALZARD, Leah",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Hamilton",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00810",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 4498,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00811",
+            "label": "2024 Brisbane City — Brisbane City Holland Park",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+            "candidates": [
+              {
+                "name": "ADAMS, Krista",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Holland Park",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "party": "Liberal National Party of Queensland",
+                "votes": 13121,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WARREN, Shane",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Holland Park",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 7543,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "FORD, David",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Holland Park",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00811",
+                "party": "Queensland Greens",
+                "votes": 6807,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00812",
+            "label": "2024 Brisbane City — Brisbane City Jamboree",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+            "candidates": [
+              {
+                "name": "RICHARDSON, Chris",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Jamboree",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "party": "Queensland Greens",
+                "votes": 3991,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HUTTON, Sarah",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Jamboree",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "party": "Liberal National Party of Queensland",
+                "votes": 17391,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GOLAFSHANI, Leili",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Jamboree",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00812",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 5007,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00813",
+            "label": "2024 Brisbane City — Brisbane City McDowall",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+            "candidates": [
+              {
+                "name": "DAVIS, Tracy",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City McDowall",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "party": "Liberal National Party of Queensland",
+                "votes": 17056,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DALLASTON, David",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City McDowall",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "votes": 1103,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WOLHUTER, Mark",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City McDowall",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 6093,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SANDERSON, Joshua",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City McDowall",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00813",
+                "party": "Queensland Greens",
+                "votes": 3885,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00814",
+            "label": "2024 Brisbane City — Brisbane City MacGregor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+            "candidates": [
+              {
+                "name": "TIDESWELL, Brent",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City MacGregor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "party": "Queensland Greens",
+                "votes": 4009,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HUANG, Steven",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City MacGregor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "party": "Liberal National Party of Queensland",
+                "votes": 15165,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GOTAME, Ashwina",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City MacGregor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00814",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 5957,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00815",
+            "label": "2024 Brisbane City — Brisbane City Marchant",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+            "candidates": [
+              {
+                "name": "PARRY, Danita",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Marchant",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "party": "Liberal National Party of Queensland",
+                "votes": 13200,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MITCHELL, Darren",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Marchant",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 8610,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ANOG, Mekayla",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Marchant",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00815",
+                "party": "Queensland Greens",
+                "votes": 6429,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00816",
+            "label": "2024 Brisbane City — Brisbane City Moorooka",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+            "candidates": [
+              {
+                "name": "GRIFFITHS, Steve",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Moorooka",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 11269,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ZHUANG, Peter",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Moorooka",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "party": "Liberal National Party of Queensland",
+                "votes": 6515,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCARDLE, Melissa",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Moorooka",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00816",
+                "party": "Queensland Greens",
+                "votes": 6910,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00817",
+            "label": "2024 Brisbane City — Brisbane City Morningside",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+            "candidates": [
+              {
+                "name": "BARRY, Linda",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Morningside",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "party": "Queensland Greens",
+                "votes": 6637,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "COLLIER, Lucy",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Morningside",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 9173,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GRIFFIN, Allie",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Morningside",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00817",
+                "party": "Liberal National Party of Queensland",
+                "votes": 10600,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00818",
+            "label": "2024 Brisbane City — Brisbane City Northgate",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+            "candidates": [
+              {
+                "name": "PENEHA, Tiana",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Northgate",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "party": "Queensland Greens",
+                "votes": 5520,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ALLAN, Adam",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Northgate",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "party": "Liberal National Party of Queensland",
+                "votes": 12930,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "RYAN, Vicki",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Northgate",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00818",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 9725,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00819",
+            "label": "2024 Brisbane City — Brisbane City Paddington",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+            "candidates": [
+              {
+                "name": "CHONG WAH, Seal",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Paddington",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "party": "Queensland Greens",
+                "votes": 10863,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "JENKINSON, Clare",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Paddington",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "party": "Liberal National Party of Queensland",
+                "votes": 12090,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ETHERIDGE, Sun",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Paddington",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00819",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 4613,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00802",
+            "label": "2024 Brisbane City — Brisbane City Calamvale",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+            "candidates": [
+              {
+                "name": "OWEN, Angela",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Calamvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "party": "Liberal National Party of Queensland",
+                "votes": 13447,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WILDIN, Andrea",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Calamvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "party": "Queensland Greens",
+                "votes": 3141,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "KIM, Emily",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Calamvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00802",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 13280,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00820",
+            "label": "2024 Brisbane City — Brisbane City Pullenvale",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+            "candidates": [
+              {
+                "name": "RICHARDS, Kate",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Pullenvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "votes": 3062,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DRUCKMANN, Charles",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Pullenvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "party": "Queensland Greens",
+                "votes": 7001,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ALBRECHT, Roberta",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Pullenvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 3312,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ADERMANN, Greg",
+                "ballotOrder": 4,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Pullenvale",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00820",
+                "party": "Liberal National Party of Queensland",
+                "votes": 15590,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00821",
+            "label": "2024 Brisbane City — Brisbane City Runcorn",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+            "candidates": [
+              {
+                "name": "MARX, Kim",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Runcorn",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "party": "Liberal National Party of Queensland",
+                "votes": 13086,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PRESCOTT, John",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Runcorn",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 8952,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "EASTAUGHFFE, Emma",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Runcorn",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00821",
+                "party": "Queensland Greens",
+                "votes": 3695,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00822",
+            "label": "2024 Brisbane City — Brisbane City Tennyson",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+            "candidates": [
+              {
+                "name": "SWINDON, Henry",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Tennyson",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "party": "Liberal National Party of Queensland",
+                "votes": 4844,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "KEARNS, River",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Tennyson",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "party": "Queensland Greens",
+                "votes": 4233,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "JOHNSTON, Nicole",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Tennyson",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "votes": 13991,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HART, Kane",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Tennyson",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00822",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 2881,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00823",
+            "label": "2024 Brisbane City — Brisbane City The Gabba",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+            "candidates": [
+              {
+                "name": "MASSEY, Trina",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City The Gabba",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "party": "Queensland Greens",
+                "votes": 11463,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCINTOSH, Rebecca (Bec Mac)",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City The Gabba",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 6043,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WONG, Laura",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City The Gabba",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00823",
+                "party": "Liberal National Party of Queensland",
+                "votes": 7899,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00824",
+            "label": "2024 Brisbane City — Brisbane City The Gap",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+            "candidates": [
+              {
+                "name": "AITKEN, Ann",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City The Gap",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "party": "Queensland Greens",
+                "votes": 8026,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LONG, Ben",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City The Gap",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 5767,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TOOMEY, Steve",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City The Gap",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00824",
+                "party": "Liberal National Party of Queensland",
+                "votes": 15210,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00825",
+            "label": "2024 Brisbane City — Brisbane City Walter Taylor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+            "candidates": [
+              {
+                "name": "WOLFF, Penny",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Walter Taylor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "party": "Liberal National Party of Queensland",
+                "votes": 13281,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SARGENT, Michaela",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Walter Taylor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "party": "Queensland Greens",
+                "votes": 11271,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HACK, Rebecca",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Walter Taylor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00825",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 3897,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00826",
+            "label": "2024 Brisbane City — Brisbane City Wynnum-Manly",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+            "candidates": [
+              {
+                "name": "GIVNEY, Alex",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Wynnum-Manly",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "party": "Liberal National Party of Queensland",
+                "votes": 10813,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ELLIS, Bel",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Wynnum-Manly",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "party": "Queensland Greens",
+                "votes": 4049,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WHITMEE, Sara",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Wynnum-Manly",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 8196,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MOORE, Craig",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Wynnum-Manly",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00826",
+                "votes": 3234,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00803",
+            "label": "2024 Brisbane City — Brisbane City Central",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+            "candidates": [
+              {
+                "name": "HOWARD, Vicki",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Central",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "party": "Liberal National Party of Queensland",
+                "votes": 11674,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "AGHDAM, Wendy",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Central",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "party": "Queensland Greens",
+                "votes": 8888,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MURRAY, Ash",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Central",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00803",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 4440,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00804",
+            "label": "2024 Brisbane City — Brisbane City Chandler",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+            "candidates": [
+              {
+                "name": "DAVID, Alex",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Chandler",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "party": "Queensland Greens",
+                "votes": 3321,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "YOUNG, Tabatha",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Chandler",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 5748,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MURPHY, Ryan",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Chandler",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00804",
+                "party": "Liberal National Party of Queensland",
+                "votes": 17167,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00805",
+            "label": "2024 Brisbane City — Brisbane City Coorparoo",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+            "candidates": [
+              {
+                "name": "ANGUS, Kath",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Coorparoo",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "party": "Queensland Greens",
+                "votes": 9500,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WEIDERMAN, Alicia",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Coorparoo",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 5523,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CUNNINGHAM, Fiona",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Coorparoo",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00805",
+                "party": "Liberal National Party of Queensland",
+                "votes": 12226,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00806",
+            "label": "2024 Brisbane City — Brisbane City Deagon",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+            "candidates": [
+              {
+                "name": "CASSIDY, Jared",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Deagon",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 16672,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "NAUS, Edward",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Deagon",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "party": "Queensland Greens",
+                "votes": 4754,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "ALEXANDER, Brock",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Deagon",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00806",
+                "party": "Liberal National Party of Queensland",
+                "votes": 7092,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00807",
+            "label": "2024 Brisbane City — Brisbane City Doboy",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+            "candidates": [
+              {
+                "name": "ATWOOD, Lisa",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Doboy",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "party": "Liberal National Party of Queensland",
+                "votes": 15377,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "COSSU, Alex",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Doboy",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 6757,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SMART, James",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Doboy",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00807",
+                "party": "Queensland Greens",
+                "votes": 3971,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00808",
+            "label": "2024 Brisbane City — Brisbane City Enoggera",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+            "candidates": [
+              {
+                "name": "WINES, Andrew",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Enoggera",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "party": "Liberal National Party of Queensland",
+                "votes": 12467,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DENNIZ, Quintessa",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Enoggera",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "party": "Queensland Greens",
+                "votes": 8487,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WOJTASIK, Taylar",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Enoggera",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00808",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 6521,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-1000-ordinary-2024-00809",
+            "label": "2024 Brisbane City — Brisbane City Forest Lake",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+            "candidates": [
+              {
+                "name": "GATES, Kylie",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Forest Lake",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "party": "Liberal National Party of Queensland",
+                "votes": 9237,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "NGUYEN, Vi",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Brisbane City Forest Lake",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "party": "Queensland Greens",
+                "votes": 6941,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "STRUNK, Charles",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Brisbane City Forest Lake",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/00809",
+                "party": "Australian Labor Party (State of Queensland)",
+                "votes": 10654,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

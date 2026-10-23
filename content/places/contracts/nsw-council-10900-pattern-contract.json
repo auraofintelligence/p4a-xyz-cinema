@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "title": "Blue Mountains — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-10900",
+    "kind": "council",
+    "name": "Blue Mountains",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/631",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/blue-mountains/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/631/id",
+      "expected": "nsw-council-10900"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/631/name",
+      "expected": "Blue Mountains"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/631/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/631",
+      "expected": {
+        "id": "nsw-council-10900",
+        "name": "Blue Mountains",
+        "slug": "blue-mountains",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9413",
+        "officialUrl": "https://www.bmcc.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-blue-mountains-ward-1",
+          "council-nsw-2024-blue-mountains-ward-2",
+          "council-nsw-2024-blue-mountains-ward-3",
+          "council-nsw-2024-blue-mountains-ward-4"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Mark Greenhill",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Romola Hollywood",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Margaret Buckham",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mick Fell",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Nyree Fisher",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Brent Hoare",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Suzanne Jamieson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Daniel Myles",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Sarah Redshaw",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Darren Rodrigo",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Suzie Van Opdorp",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Claire West",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.bmcc.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-10900-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-10900-ordinary-2024-ward-1",
+            "label": "2024 Blue Mountains â€” Ward 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+            "candidates": [
+              {
+                "name": "REDSHAW Sarah",
+                "status": "elected",
+                "votes": 499,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TURNER Melanie-Ann",
+                "status": "contested",
+                "votes": 69,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HERBERT Kathleen",
+                "status": "contested",
+                "votes": 55,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "VAN OPDORP Suzie",
+                "status": "elected",
+                "votes": 848,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "JAMIESON Suzanne",
+                "status": "elected",
+                "votes": 99,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FORBES David",
+                "status": "contested",
+                "votes": 98,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1418,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-1/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10900-ordinary-2024-ward-2",
+            "label": "2024 Blue Mountains â€” Ward 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+            "candidates": [
+              {
+                "name": "HOLLYWOOD Romola",
+                "status": "elected",
+                "votes": 1377,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WEST Claire",
+                "status": "elected",
+                "votes": 107,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "GANNON Paul",
+                "status": "contested",
+                "votes": 68,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HOARE Brent",
+                "status": "elected",
+                "votes": 319,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CONDIE Jenna",
+                "status": "contested",
+                "votes": 114,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WARN Sandra",
+                "status": "contested",
+                "votes": 44,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "DE LIMA Joaquim",
+                "status": "contested",
+                "votes": 1082,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1299,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-2/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10900-ordinary-2024-ward-3",
+            "label": "2024 Blue Mountains â€” Ward 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+            "candidates": [
+              {
+                "name": "MYLES Daniel",
+                "status": "elected",
+                "votes": 725,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor"
+              },
+              {
+                "name": "HULL Shawn",
+                "status": "contested",
+                "votes": 52,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor"
+              },
+              {
+                "name": "HULL Jakalin",
+                "status": "contested",
+                "votes": 46,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor"
+              },
+              {
+                "name": "OCARRIGAN Sarah",
+                "status": "contested",
+                "votes": 286,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "TREICHLER Angelika",
+                "status": "contested",
+                "votes": 16,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ORD Michael",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RODRIGO Darren",
+                "status": "elected",
+                "votes": 507,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FELL Mick",
+                "status": "elected",
+                "votes": 142,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KENNEDY Ramona",
+                "status": "contested",
+                "votes": 109,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 969,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-3/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-10900-ordinary-2024-ward-4",
+            "label": "2024 Blue Mountains â€” Ward 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+            "candidates": [
+              {
+                "name": "GREENHILL Mark",
+                "status": "elected",
+                "votes": 1326,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FISHER Nyree",
+                "status": "elected",
+                "votes": 117,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BUCKHAM Margaret",
+                "status": "elected",
+                "votes": 150,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "GRUNER William",
+                "status": "contested",
+                "votes": 142,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BROWN Jennifer",
+                "status": "contested",
+                "votes": 77,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WILLIS Noel",
+                "status": "contested",
+                "votes": 40,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1363,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/blue-mountains/ward-4/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "10900",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

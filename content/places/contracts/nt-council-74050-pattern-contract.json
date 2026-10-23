@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "title": "Tiwi Islands — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-74050",
+    "kind": "council",
+    "name": "Tiwi Islands",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/999",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "The roster page still displays a Milikapiti vacancy. The dated council announcement, including its full article read in the ordinary browser, independently confirms Norman James Tipiloura elected to this ward on 19 August 2026, corroborated by NTEC. Current office is recorded as at that announcement; the stale roster is retained in rosterHistory.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/tiwi-islands/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/999/id",
+      "expected": "nt-council-74050"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/999/name",
+      "expected": "Tiwi Islands"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/999/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/999",
+      "expected": {
+        "id": "nt-council-74050",
+        "name": "Tiwi Islands",
+        "slug": "tiwi-islands",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "74050",
+        "officialUrl": "https://www.tiwiislands.nt.gov.au/profiles",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-tiwi-islands",
+          "council-nt-2025-ballot-tiwi-islands-bathurst-island-ward",
+          "council-nt-2025-ballot-tiwi-islands-milikapiti-ward",
+          "council-nt-2025-ballot-tiwi-islands-pirlangimpi-ward",
+          "council-nt-tiwi-milikapiti-council-declaration-2026",
+          "council-nt-ballot-by-milikapiti-2026-tiwi-islands-milikapiti-ward",
+          "council-nt-ballot-by-milikapiti-2026-tiwi-islands-milikapiti-ward-result"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Lynette De Santis",
+            "role": "Mayor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/lynette-de-santis",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Milikapiti"
+          },
+          {
+            "name": "Mary Dunn",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/mary-dunn",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "Pius Tipungwuti",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/pius-tipungwuti",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Milikapiti"
+          },
+          {
+            "name": "Jennifer Clancy",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/jennifer-clancy",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "Luke Tipuamantumirri",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/luke-tipuamantumirri",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "John Pilakui",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/john-pilakui",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "Stanley Tipiloura",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/stanley-tipiloura",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "Brian Tipungwuti",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/brian-tipungwuti",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Bathurst Island"
+          },
+          {
+            "name": "Deanne Rioli",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/deanne-rioli",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Pirlangimpi"
+          },
+          {
+            "name": "Joseph Gideon Pangiraminni",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/joseph-gideon-pangiraminni",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Pirlangimpi"
+          },
+          {
+            "name": "Daniel Costa",
+            "role": "Councillor",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/daniel-costa",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "checked": "2026-10-17",
+            "wardLabel": "Pirlangimpi"
+          },
+          {
+            "name": "Norman James Tipiloura",
+            "role": "Councillor",
+            "wardLabel": "Milikapiti Ward",
+            "profileUrl": "https://www.tiwiislands.nt.gov.au/news/milikapiti-ward-by-election-declaration-of-result/311",
+            "profileType": "official council dated announcement",
+            "sourceId": "council-nt-tiwi-milikapiti-council-declaration-2026",
+            "asAt": "2026-08-19",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-74050-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-74050-ordinary-2025-bathurst-island-ward",
+            "label": "2025 Tiwi Islands — Bathurst Island Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+            "candidates": [
+              {
+                "name": "Stanley TIPILOURA",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mary DUNN",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jennifer Ullungura CLANCY",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Brian TIPUNGWUTI",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Luke TIPUAMANTUMIRRI",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "John PILAKUI",
+                "status": "official historical nominee",
+                "contest": "Bathurst Island Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileUrl": "https://ntec.nt.gov.au/_resources/documents/CandidatesList2025LGE.pdf",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74050-ordinary-2025-milikapiti-ward",
+            "label": "2025 Tiwi Islands — Milikapiti Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+            "candidates": [
+              {
+                "name": "Pius Sarto TIPUNGWUTI",
+                "status": "official historical nominee",
+                "contest": "Milikapiti Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Lynette Jane DE SANTIS",
+                "status": "official historical nominee",
+                "contest": "Milikapiti Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jeffrey SIMON ULLUNGURA",
+                "status": "official historical nominee",
+                "contest": "Milikapiti Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/milikapiti",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 3,
+              "retainedCandidateCount": 3,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74050-ordinary-2025-pirlangimpi-ward",
+            "label": "2025 Tiwi Islands — Pirlangimpi Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+            "candidates": [
+              {
+                "name": "Deanne RIOLI",
+                "status": "official historical nominee",
+                "contest": "Pirlangimpi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Rebekah YUNUPINGU",
+                "status": "official historical nominee",
+                "contest": "Pirlangimpi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Daniel COSTA",
+                "status": "official historical nominee",
+                "contest": "Pirlangimpi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Joseph Gideon PANGIRAMINNI",
+                "status": "official historical nominee",
+                "contest": "Pirlangimpi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Therese BOURKE",
+                "status": "official historical nominee",
+                "contest": "Pirlangimpi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/tiwi-islands/list-of-candidates/pirlangimpi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 5,
+              "retainedCandidateCount": 5,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74050-by-milikapiti-2026-milikapiti-ward",
+            "label": "2026 Tiwi Islands — Milikapiti Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": "2026-08-19",
+            "dateBasis": "Official NTEC result declares the only nominee elected at close of nominations on 19 August 2026; this is not a polling day.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "declared elected unopposed",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-tiwi-regional-council-by-election/results",
+            "candidates": [
+              {
+                "name": "Norman James Tipiloura",
+                "status": "declared elected unopposed",
+                "contest": "Milikapiti Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-tiwi-regional-council-by-election/results",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-tiwi-regional-council-by-election/results",
+                "profileType": "official historical nomination list",
+                "resultSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-tiwi-regional-council-by-election/results"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            },
+            "resultsUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-tiwi-regional-council-by-election/results"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+          "The roster page still displays a Milikapiti vacancy. The dated council announcement, including its full article read in the ordinary browser, independently confirms Norman James Tipiloura elected to this ward on 19 August 2026, corroborated by NTEC. Current office is recorded as at that announcement; the stale roster is retained in rosterHistory."
+        ],
+        "rosterHistory": [
+          {
+            "label": "Published roster snapshot with stale Milikapiti vacancy",
+            "checked": "2026-10-17",
+            "sourceId": "council-nt-roster-tiwi-islands",
+            "representatives": [
+              {
+                "name": "Lynette De Santis",
+                "role": "Mayor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/lynette-de-santis",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Milikapiti"
+              },
+              {
+                "name": "Mary Dunn",
+                "role": "Deputy Mayor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/mary-dunn",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "Vacant Seat",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/vacant-seat",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Milikapiti",
+                "status": "vacant"
+              },
+              {
+                "name": "Pius Tipungwuti",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/pius-tipungwuti",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Milikapiti"
+              },
+              {
+                "name": "Jennifer Clancy",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/jennifer-clancy",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "Luke Tipuamantumirri",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/luke-tipuamantumirri",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "John Pilakui",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/john-pilakui",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "Stanley Tipiloura",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/stanley-tipiloura",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "Brian Tipungwuti",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/brian-tipungwuti",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Bathurst Island"
+              },
+              {
+                "name": "Deanne Rioli",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/deanne-rioli",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Pirlangimpi"
+              },
+              {
+                "name": "Joseph Gideon Pangiraminni",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/joseph-gideon-pangiraminni",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Pirlangimpi"
+              },
+              {
+                "name": "Daniel Costa",
+                "role": "Councillor",
+                "profileUrl": "https://www.tiwiislands.nt.gov.au/profiles/daniel-costa",
+                "profileType": "official individual profile",
+                "sourceId": "council-nt-roster-tiwi-islands",
+                "checked": "2026-10-17",
+                "wardLabel": "Pirlangimpi"
+              }
+            ],
+            "coverageNote": "Superseded for the Milikapiti vacancy by the independently dated 19 August 2026 council declaration announcement, corroborated by NTEC. This retains what the roster page actually displayed."
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

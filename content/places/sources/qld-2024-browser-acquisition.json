@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "sourcePage": "https://results.elections.qld.gov.au/2024QLGE/event-data",
+  "method": "Ordinary browser navigation of the official ECQ2024 results application, then its visible XML archive button and normal browser file download. No browser warning was presented or bypassed. Direct Python transport remains separately recorded as certificate-expired; no validation setting was changed.",
+  "rawFile": "content/places/raw/council-qld-2024-browser-verified-final-results.zip",
+  "sha256": "366e52a87a3ee7e9b0005a2915856bfaf473e60e0541095d3b852529c7ba780f",
+  "bytes": 1322172,
+  "matchesPreviouslyRetainedArchive": true,
+  "postponedPoll": {
+    "place": "Torres Strait Island Regional Council",
+    "date": "2024-03-23",
+    "published": "2024-03-14",
+    "url": "https://www.ecq.qld.gov.au/_resource/documents/pdf/elections/election-events/lge/2024/2024-lge/14.03.24_56_Extra-Gazette_2024-TSIRC_Changing-Election-Day-Notice.pdf",
+    "method": "Official Gazette read through web tool; it expressly substitutes23March2024 for16March2024 because weather prevented mobile polling."
+  },
+  "scope": "The independently downloaded archive contains local election622 and two separate state by-elections. Only local election622 is normalized by this adapter. The previously unverified ballot JSON is not used. Raw venue/contact/address data stays local-only."
+}

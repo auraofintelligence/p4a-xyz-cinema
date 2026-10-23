@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "title": "Scenic Rim Regional — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-6510",
+    "kind": "council",
+    "name": "Scenic Rim Regional",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/61",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/scenic-rim-regional/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/61/id",
+      "expected": "qld-council-6510"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/61/name",
+      "expected": "Scenic Rim Regional"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/61/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/61",
+      "expected": {
+        "id": "qld-council-6510",
+        "name": "Scenic Rim Regional",
+        "slug": "scenic-rim-regional",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "6510",
+        "officialUrl": "https://www.scenicrim.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Tom Sharp",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.scenicrim.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-6510-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-062",
+            "label": "2024 Scenic Rim Regional — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+            "candidates": [
+              {
+                "name": "CHRISTENSEN, Greg",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "votes": 4730,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SHARP, Tom",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "votes": 12572,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCCONNELL, Jeffrey",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/062",
+                "votes": 9571,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06201",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+            "candidates": [
+              {
+                "name": "EVERSON, Steven",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "party": "Queensland Greens",
+                "votes": 548,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HAY, Amanda",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "votes": 2576,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "KILSBY, Alick",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06201",
+                "votes": 1586,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06202",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+            "candidates": [
+              {
+                "name": "THOMPSON, Nicole",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+                "party": "Queensland Greens",
+                "votes": 1015,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CRYER, Kerri",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06202",
+                "votes": 3224,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06203",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06203",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06203",
+            "candidates": [
+              {
+                "name": "MORIARTY, Steve",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06203",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06203"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06204",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+            "candidates": [
+              {
+                "name": "SANDERS, Jennifer",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+                "votes": 3262,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CHANCELLOR, Ken",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06204",
+                "votes": 1310,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06205",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+            "candidates": [
+              {
+                "name": "CHALK, Marshall",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+                "votes": 2267,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BARTRIM, Leanne",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06205",
+                "votes": 2180,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-6510-ordinary-2024-06206",
+            "label": "2024 Scenic Rim Regional — Scenic Rim Regional Division 6",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+            "candidates": [
+              {
+                "name": "SMITH, Elissa",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "votes": 1274,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PACE, Stephen",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Scenic Rim Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "votes": 1167,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCINNES, Duncan",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Scenic Rim Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/06206",
+                "votes": 2311,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

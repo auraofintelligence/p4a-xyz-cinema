@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Check national pages without replacing reviewed evidence
+        run: python -B tools/verify-national-places.py --source-hashes --no-write
       - name: Check every registered council, state and federal contract
         run: python tools/verify-place-contracts.py
       - name: Check the Redlands reference build
@@ -38,3 +40,8 @@ jobs:
         run: |
           node tools/check-redland-clock.mjs
           node --check assets/qld-council-map.js
+      - name: Check national map geometry, delivery and local clocks
+        run: |
+          node tools/check-civic-geometry.mjs
+          node tools/check-civic-delivery.mjs
+          node tools/check-civic-clocks.mjs

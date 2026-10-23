@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "title": "Lane Cove — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-14700",
+    "kind": "council",
+    "name": "Lane Cove",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/684",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/lane-cove/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/684/id",
+      "expected": "nsw-council-14700"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/684/name",
+      "expected": "Lane Cove"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/684/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/684",
+      "expected": {
+        "id": "nsw-council-14700",
+        "name": "Lane Cove",
+        "slug": "lane-cove",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9399",
+        "officialUrl": "https://www.lanecove.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-lane-cove-central-ward",
+          "council-nsw-2024-lane-cove-east-ward",
+          "council-nsw-2024-lane-cove-west-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Merri Southwood",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Rochelle Flood",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Scott Bennison",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Kathy Bryla",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Helena Greenwell",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Bridget Kennedy",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Katie Little",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "David Roenfeldt",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Caleb Taylor",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.lanecove.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-14700-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-14700-ordinary-2024-central-ward",
+            "label": "2024 Lane Cove â€” Central Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor",
+            "candidates": [
+              {
+                "name": "BRYLA Kathy",
+                "status": "elected",
+                "votes": 358,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "GARDINER Trent",
+                "status": "contested",
+                "votes": 40,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "PHILLIPS Tanya",
+                "status": "contested",
+                "votes": 31,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "TAYLOR Caleb",
+                "status": "elected",
+                "votes": 242,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "BAO Yi (Ian)",
+                "status": "contested",
+                "votes": 18,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "O'DONNELL Sarah",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "QUAIL Ken",
+                "status": "contested",
+                "votes": 122,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "NASIR Lynette",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DEANE Bronwyn",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KENNEDY Bridget",
+                "status": "elected",
+                "votes": 390,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "VACCHER Alex",
+                "status": "contested",
+                "votes": 11,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "KENNEDY Sally",
+                "status": "contested",
+                "votes": 10,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 562,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/central-ward/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14700-ordinary-2024-east-ward",
+            "label": "2024 Lane Cove â€” East Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+            "candidates": [
+              {
+                "name": "RIGGS Nick",
+                "status": "contested",
+                "votes": 174,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RIGGS Milo",
+                "status": "contested",
+                "votes": 12,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "KING Alan",
+                "status": "contested",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SOUTHWOOD Merri",
+                "status": "elected",
+                "votes": 605,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor"
+              },
+              {
+                "name": "GREENWELL Helena",
+                "status": "elected",
+                "votes": 92,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor"
+              },
+              {
+                "name": "RE Peter",
+                "status": "contested",
+                "votes": 63,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor"
+              },
+              {
+                "name": "ROENFELDT David",
+                "status": "elected",
+                "votes": 165,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BAKER Rachel",
+                "status": "contested",
+                "votes": 42,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "de VRIES Sieger",
+                "status": "contested",
+                "votes": 10,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 371,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/east-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-14700-ordinary-2024-west-ward",
+            "label": "2024 Lane Cove â€” West Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+            "candidates": [
+              {
+                "name": "BENNISON Scott",
+                "status": "elected",
+                "votes": 315,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor"
+              },
+              {
+                "name": "HILL Deborah",
+                "status": "contested",
+                "votes": 121,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor"
+              },
+              {
+                "name": "STRASSBERG Daniel",
+                "status": "contested",
+                "votes": 94,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor"
+              },
+              {
+                "name": "FLOOD Rochelle",
+                "status": "elected",
+                "votes": 250,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "RANGWALA Murtaza",
+                "status": "contested",
+                "votes": 17,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "LEE Seamus",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "LITTLE Katie",
+                "status": "elected",
+                "votes": 269,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "HANSEN James",
+                "status": "contested",
+                "votes": 55,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "OGILVIE Heather",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 405,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/lane-cove/west-ward/councillor",
+                "party": "LABOR"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "14700",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

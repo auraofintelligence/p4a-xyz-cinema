@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "title": "Huon Valley — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "tas-council-63010",
+    "kind": "council",
+    "name": "Huon Valley",
+    "jurisdiction": "tas"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/971",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+    "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+    "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/tas/councils/huon-valley/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/tas/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/971/id",
+      "expected": "tas-council-63010"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/971/name",
+      "expected": "Huon Valley"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/971/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/971",
+      "expected": {
+        "id": "tas-council-63010",
+        "name": "Huon Valley",
+        "slug": "huon-valley",
+        "jurisdiction": "tas",
+        "kind": "council",
+        "layerId": "council-tas-abs-2026",
+        "featureId": "63010",
+        "officialUrl": "https://www.lgat.tas.gov.au/tasmanian-councils",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-tas-next-timetable",
+          "council-tas-my-reps-1601",
+          "council-tas-2022-tas-council-63010-hvy-c",
+          "council-tas-2022-tas-council-63010-hvy-m",
+          "council-tas-2022-tas-council-63010-hvy-dm"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Debbie Armstrong",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Sally Doyle",
+            "role": "Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Paul Gibson",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Mark Jessop",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Lukas Mrosek",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "David O'Neill",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Amy Robertson",
+            "role": "Councillor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Toby Thorpe",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "website": "http://www.huonvalley.tas.gov.au",
+            "profileType": "official current-member roster",
+            "status": "TEC current-office roster as at 31 July 2026",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          },
+          {
+            "name": "Vacant councillor position 1",
+            "role": "Councillor vacancy",
+            "profileUrl": "https://www.tec.tas.gov.au/services/MyReps/Process.php?LGDivision=1601&LGGo=Go",
+            "profileType": "official current-member roster",
+            "status": "Vacant in TEC roster as at31 July 2026: Casual vacancy to be filled at Oct '26 ordinary elections.",
+            "checked": "2026-10-17",
+            "asAt": "2026-07-31",
+            "sourceId": "council-tas-my-reps-1601"
+          }
+        ],
+        "elections": [
+          {
+            "id": "tas-council-63010-next-ordinary",
+            "label": "2026 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2026-10-27",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2026-10-27T14:00:00+11:00"
+          },
+          {
+            "id": "council-tas-2022-tas-council-63010-hvy-c",
+            "label": "2022 Huon Valley Councillor election",
+            "kind": "ordinary-councillor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html",
+            "candidates": [
+              {
+                "name": "ARMSTRONG, Debbie",
+                "status": "elected in this 2022 contest",
+                "votes": 709,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "BOWLING, Joshua",
+                "status": "contested this 2022 event",
+                "votes": 277,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "BURGESS, Andrew",
+                "status": "contested this 2022 event",
+                "votes": 263,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "CALLAGHAN, Marshall",
+                "status": "contested this 2022 event",
+                "votes": 570,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "CAMBERS-SMITH, Jenny",
+                "status": "elected in this 2022 contest",
+                "votes": 460,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "COULSON, Mary",
+                "status": "contested this 2022 event",
+                "votes": 98,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "DENNY, Bryan",
+                "status": "contested this 2022 event",
+                "votes": 401,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "DOYLE, Sally",
+                "status": "elected in this 2022 contest",
+                "votes": 1453,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "GIBSON, Paul",
+                "status": "elected in this 2022 contest",
+                "votes": 1250,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "HORNER, Sarah",
+                "status": "contested this 2022 event",
+                "votes": 95,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "HURST, Carol",
+                "status": "contested this 2022 event",
+                "votes": 111,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "JESSOP, Mark",
+                "status": "elected in this 2022 contest",
+                "votes": 614,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "JOHNSON, Shane",
+                "status": "contested this 2022 event",
+                "votes": 232,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "KOEFOED, Janine",
+                "status": "contested this 2022 event",
+                "votes": 58,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "MROSEK, Lukas",
+                "status": "contested this 2022 event",
+                "votes": 179,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "O'NEILL, David",
+                "status": "elected in this 2022 contest",
+                "votes": 508,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "RICHTER, Amanda",
+                "status": "contested this 2022 event",
+                "votes": 69,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "ROBERTSON, Amy",
+                "status": "contested this 2022 event",
+                "votes": 285,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "RYAN, John",
+                "status": "contested this 2022 event",
+                "votes": 178,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "SMITH, Cameron",
+                "status": "contested this 2022 event",
+                "votes": 134,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "SWAN, Geoffrey",
+                "status": "contested this 2022 event",
+                "votes": 398,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "TEMBY, Cathy",
+                "status": "elected in this 2022 contest",
+                "votes": 450,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "THOMAS, Malcolm",
+                "status": "contested this 2022 event",
+                "votes": 412,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "THORPE, Toby",
+                "status": "elected in this 2022 contest",
+                "votes": 1534,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "WILSON, Mike",
+                "status": "elected in this 2022 contest",
+                "votes": 648,
+                "voteMeasure": "first preferences",
+                "contest": "Councillor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-c",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-c.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63010-hvy-m",
+            "label": "2022 Huon Valley Mayor election",
+            "kind": "ordinary-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html",
+            "candidates": [
+              {
+                "name": "ARMSTRONG, Debbie",
+                "status": "contested this 2022 event",
+                "votes": 1487,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "CALLAGHAN, Marshall",
+                "status": "contested this 2022 event",
+                "votes": 1250,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "DOYLE, Sally",
+                "status": "contested this 2022 event",
+                "votes": 2698,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "GIBSON, Paul",
+                "status": "contested this 2022 event",
+                "votes": 2465,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "SWAN, Geoffrey",
+                "status": "contested this 2022 event",
+                "votes": 888,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "TEMBY, Cathy",
+                "status": "contested this 2022 event",
+                "votes": 1168,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "WILSON, Mike",
+                "status": "contested this 2022 event",
+                "votes": 1322,
+                "voteMeasure": "first preferences",
+                "contest": "Mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-m",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-m.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              }
+            ]
+          },
+          {
+            "id": "council-tas-2022-tas-council-63010-hvy-dm",
+            "label": "2022 Huon Valley Deputy mayor election",
+            "kind": "ordinary-deputy-mayor",
+            "status": "final",
+            "date": "2022-10-25",
+            "dateTime": "2022-10-25T14:00:00+11:00",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "TEC official2022 postal election: poll closed 2pm25October2022. Candidate/result facts are final for this specific contest, not current office.",
+            "timezone": "Australia/Hobart",
+            "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html",
+            "candidates": [
+              {
+                "name": "BURGESS, Andrew",
+                "status": "contested this 2022 event",
+                "votes": 998,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "JESSOP, Mark",
+                "status": "contested this 2022 event",
+                "votes": 1577,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "O'NEILL, David",
+                "status": "contested this 2022 event",
+                "votes": 2032,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "ROBERTSON, Amy",
+                "status": "contested this 2022 event",
+                "votes": 1622,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "THOMAS, Malcolm",
+                "status": "contested this 2022 event",
+                "votes": 1121,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              },
+              {
+                "name": "THORPE, Toby",
+                "status": "contested this 2022 event",
+                "votes": 4058,
+                "voteMeasure": "first preferences",
+                "contest": "Deputy mayor",
+                "sourceId": "council-tas-2022-tas-council-63010-hvy-dm",
+                "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/hvy-dm.html",
+                "profileUrl": "https://www.tec.tas.gov.au/local-government/elections-2022/results/huon-valley/index.html"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
+          "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

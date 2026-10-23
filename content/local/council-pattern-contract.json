@@ -517,13 +517,16 @@
     "paths": [
       "qa/redland-20261017/interactive-layout-results.json",
       "qa/redland-20261017/twinkle-rule-review.md",
-      "content/history/redland.md"
+      "content/history/redland.md",
+      "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+      "content/places/qa/browser-review.json",
+      "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
       {
         "path": "assets/qld-council-map.js",
-        "sha256": "ecfbe76d13bd28f425186e6013f54077711a93f012f1c1d8ca2af4377370f826"
+        "sha256": "b98327e6606c51365f0f29a3fc9d64f96fa6b95a1f939fa321230a584eaade56"
       },
       {
         "path": "assets/qld-council-map.css",
@@ -539,11 +542,35 @@
       },
       {
         "path": "tools/qld_council_widget.py",
-        "sha256": "e9866a785145d15d39af4c0038714608ecfdac6ce18e9cd2a17877c715c4b605"
+        "sha256": "54d060622bea7f5bd7fb54cdede985dc31b5a5639dc69a6fd2873dc8641b5e5c"
       },
       {
         "path": "qa/redland-20261017/interactive-layout-results.json",
         "sha256": "131edd8c7975e1e158f7fed58d119fef61b0fc2e7168ae5a2fe3bbbbce74379d"
+      },
+      {
+        "path": "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+        "sha256": "0b2fe11f6b74692166fc7d100921be43026d0fb4c613336ecb9eb8533d4c5548"
+      },
+      {
+        "path": "assets/site-nav.js",
+        "sha256": "6ec2448ae59e9de7b62c4a05b93bd11e08da6d554b187840bfdc380f982d4dc9"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "a19bf3e8046105c39f7086b67a313f066202261e5a471b56c3ed25a61c00db37"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      },
+      {
+        "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
+        "sha256": "57f59ee84ffb7225cd088f78f8d9ac84788015432136b04f19f3973b9d9be45b"
+      },
+      {
+        "path": "content/places/qa/pre-culture-removal-2026-10-18/browser-review.json",
+        "sha256": "bfaa7a237aacf6eb67306c1d7ffb63da009ae99ae5c4396355714a9e9a11a87d"
       }
     ],
     "requiredHumanChecks": [
@@ -561,7 +588,18 @@
       "Live source freshness, law, exact address eligibility, humour and cultural authority require original-source and human review.",
       "No quantitative electorate overlap, population influence estimate, completed civic outcome or candidate announcement is inferred.",
       "Future places must supply their own source-specific counts, routes, timezone, boundaries, representatives, election rules and review evidence."
-    ]
+    ],
+    "resumedSharedNavigationReview": {
+      "reviewedOn": "2026-10-17",
+      "path": "content/places/qa/pre-style-correction-2026-10-17/browser-review.json",
+      "scope": "Affected Queensland council search, selection, Open to Brisbane, retained Redland destination, Back and 390 CSS-pixel layout. Original broader Redlands evidence is preserved, not copied into new places."
+    },
+    "indexHierarchyReview": {
+      "reviewedOn": "2026-10-23",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Actual focused publication browser review: five Index themes, 132 entries, nine Start ideas, no-results/clear/Escape, one portal per state/territory in Australia footer and measured 390/680-pixel layouts. Excludes later wiki links and Oceania rebranding. Original broader Redlands, clinical-route, source and Twinkle reviews retain their dated archived scope.",
+      "earlierEvidence": "content/places/qa/pre-publication-2026-10-23/browser-review.json"
+    }
   },
   "dateInventories": [
     {

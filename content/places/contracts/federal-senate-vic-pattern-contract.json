@@ -1,0 +1,997 @@
+{
+  "schemaVersion": 1,
+  "title": "Victoria Senate — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "federal-senate-vic",
+    "kind": "senate-area",
+    "name": "Victoria Senate",
+    "jurisdiction": "vic",
+    "chamber": "Senate"
+  },
+  "canonicalInput": {
+    "path": "content/places/federal.json",
+    "recordPointer": "/places/157",
+    "scope": "federal"
+  },
+  "coverageNotes": [
+    "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+    "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+    "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+    "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+    "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim.",
+    "No boundaryEdition value is populated in this canonical place record; no boundary-edition value is invented or pinned."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/federal/senate/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/federal/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/157/id",
+      "expected": "federal-senate-vic"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/157/name",
+      "expected": "Victoria Senate"
+    },
+    {
+      "path": "content/places/federal.json",
+      "pointer": "/places/157",
+      "expected": {
+        "id": "federal-senate-vic",
+        "name": "Victoria Senate",
+        "slug": "senate",
+        "jurisdiction": "vic",
+        "kind": "senate-area",
+        "chamber": "Senate",
+        "officialUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?sen=1&sta=VIC",
+        "sources": [
+          "federal-aec-senate-candidates-2025",
+          "federal-aec-senate-votes-2025",
+          "federal-handbook-current",
+          "federal-aec-2025-timetable",
+          "federal-aec-election-dates"
+        ],
+        "representatives": [
+          {
+            "name": "Michelle ANANDA-RAJAH",
+            "role": "Senator for Victoria",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=290544",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/290544",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Ralph BABET",
+            "role": "Senator for Victoria",
+            "party": "United Australia Party [2018]",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300706",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/300706",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "(Raff) CICCONE",
+            "role": "Senator for Victoria",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=281503",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/281503",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Lisa DARMANIN",
+            "role": "Senator for Victoria",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=301128",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/301128",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Sarah HENDERSON",
+            "role": "Senator for Victoria",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=ZN4",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/ZN4",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Steph HODGINS-MAY",
+            "role": "Senator for Victoria",
+            "party": "Australian Greens",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=310860",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/310860",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "(Jane) HUME",
+            "role": "Senator for Victoria",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=266499",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/266499",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Bridget McKENZIE",
+            "role": "Senator for Victoria",
+            "party": "The Nationals",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=207825",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/207825",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "James PATERSON",
+            "role": "Senator for Victoria",
+            "party": "Liberal Party of Australia",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=144138",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/144138",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jana STEWART",
+            "role": "Senator for Victoria",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=299352",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/299352",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Lidia THORPE",
+            "role": "Senator for Victoria",
+            "party": "Independent",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=280304",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/280304",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Jess WALSH",
+            "role": "Senator for Victoria",
+            "party": "Australian Labor Party",
+            "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=252157",
+            "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/252157",
+            "sourceId": "federal-handbook-current",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "aec-31496-vic",
+            "officialEventId": "31496",
+            "label": "2025 federal election",
+            "kind": "general-election",
+            "status": "final",
+            "date": "2025-05-03",
+            "dateBasis": "Official AEC polling date; final results are retained separately from current office.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+            "dateSourceUrl": "https://www.aec.gov.au/Elections/federal_elections/2025/timetable.htm",
+            "resultsUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+            "candidates": [
+              {
+                "id": "aec-candidate-40998",
+                "name": "Susantha ABEYSINGHE",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 266,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41738",
+                "name": "Celeste ACKERLY",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1112,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42104",
+                "name": "Laylah AL-SAIMARY",
+                "party": "Indigenous - Aboriginal Party of Australia",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 458,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41668",
+                "name": "Kirti ALLE",
+                "party": "",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 29,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40714",
+                "name": "Michelle ANANDA-RAJAH",
+                "party": "Australian Labor Party",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 5572,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=290544"
+              },
+              {
+                "id": "aec-candidate-40883",
+                "name": "Navera ARI",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1032,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40720",
+                "name": "Glenn ARNOLD",
+                "party": "The Nationals",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1775,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42103",
+                "name": "Racquel AUSTIN-ABDULLAH",
+                "party": "Indigenous - Aboriginal Party of Australia",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2404,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40718",
+                "name": "David BAKER",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 3660,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40695",
+                "name": "Robert BARWICK",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 624,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42041",
+                "name": "K BLACK",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 253,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41672",
+                "name": "Christopher BRADBURY",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 642,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41979",
+                "name": "Heena Sinha CHEUNG",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1679,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40707",
+                "name": "Raffaele CICCONE",
+                "party": "Australian Labor Party",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 30897,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=281503"
+              },
+              {
+                "id": "aec-candidate-40996",
+                "name": "Nick CLONARIDIS",
+                "party": "HEART Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 243,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42054",
+                "name": "Ethan CONSTANTINOU",
+                "party": "Shooters, Fishers and Farmers Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2605,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42019",
+                "name": "Cory CORBETT",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 385,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41812",
+                "name": "Kammy CORDNER HUNT",
+                "party": "FUSION | Planet Rescue | Whistleblower Protection | Innovation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1241,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41449",
+                "name": "Alice DAVY",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 605,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41441",
+                "name": "Jordan DITTLOFF",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1621,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42069",
+                "name": "Rasheed EL ACHKAR",
+                "party": "Australia's Voice",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 131,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42060",
+                "name": "Mohamed EL-MASRI",
+                "party": "Australia's Voice",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1696,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41451",
+                "name": "Shea EVANS",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 367,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41663",
+                "name": "Bernie FINN",
+                "party": "Family First",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 4993,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41450",
+                "name": "Matthew FORD",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 189,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41664",
+                "name": "Jane FOREMAN",
+                "party": "Family First",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 675,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41821",
+                "name": "Simon Mark Simcha GNIESLAW",
+                "party": "FUSION | Planet Rescue | Whistleblower Protection | Innovation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 165,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41804",
+                "name": "Lawrence HARVEY",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 314,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40887",
+                "name": "Brittney HENDERSON",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1640,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41716",
+                "name": "Taylor HERNAN",
+                "party": "",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 100,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40890",
+                "name": "Steph HODGINS-MAY",
+                "party": "The Greens",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 28023,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=310860"
+              },
+              {
+                "id": "aec-candidate-40722",
+                "name": "Kyle HOPPITT",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 2163,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40721",
+                "name": "Jane HUME",
+                "party": "Liberal",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 4406,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40895",
+                "name": "Rachel IAMPOLSKI",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 919,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41673",
+                "name": "Ron JEAN",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 311,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41435",
+                "name": "Helen JEGES",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 4033,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41750",
+                "name": "Bert JESSUP",
+                "party": "Sustainable Australia Party - Universal Basic Income",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 126,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41671",
+                "name": "Yashaswini Srinivas KANAKAGIRI",
+                "party": "",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 65,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42064",
+                "name": "Harsimran KAUR",
+                "party": "Australia's Voice",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 324,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40716",
+                "name": "Stephenie KELLEY",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 3463,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40724",
+                "name": "Chrestyna KMETJ",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 910,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42089",
+                "name": "Viesha LEWAND",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 129,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41455",
+                "name": "Stephen MATULEC",
+                "party": "Libertarian",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 74,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41675",
+                "name": "Roger Ivan McKAY",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 316,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40710",
+                "name": "Heath McKENZIE",
+                "party": "Australian Democrats",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1532,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41437",
+                "name": "Benjamin McMILLAN",
+                "party": "Animal Justice Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 425,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40723",
+                "name": "Greg MIRABELLA",
+                "party": "Liberal",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1397,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40994",
+                "name": "Chris NEIL",
+                "party": "Gerard Rennick People First",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 4237,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40711",
+                "name": "Carly NOBLE",
+                "party": "Australian Democrats",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 338,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40719",
+                "name": "James PATERSON",
+                "party": "Liberal",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 30374,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=144138"
+              },
+              {
+                "id": "aec-candidate-41440",
+                "name": "Fiona PATTEN",
+                "party": "Legalise Cannabis Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 13334,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41666",
+                "name": "Warren PICKERING",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 7674,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41008",
+                "name": "Steph PRICE",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 929,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40715",
+                "name": "Lynn PSAILA",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1048,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41822",
+                "name": "Nate RITTER",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 416,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41665",
+                "name": "Raj SAINI",
+                "party": "",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 232,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40882",
+                "name": "Maddie SLATER",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 1924,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41669",
+                "name": "James William UNKLES",
+                "party": "Trumpet of Patriots",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 3395,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41964",
+                "name": "David VAN",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 554,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41005",
+                "name": "Jordan VAN DEN LAMB",
+                "party": "Victorian Socialists",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 12182,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-42061",
+                "name": "Ken VICKERS",
+                "party": "Shooters, Fishers and Farmers Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 481,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-41709",
+                "name": "Keo VONGVIXAY",
+                "party": "",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 255,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40713",
+                "name": "Jess WALSH",
+                "party": "Australian Labor Party",
+                "status": "elected",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 5744,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025",
+                "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=252157"
+              },
+              {
+                "id": "aec-candidate-40885",
+                "name": "Nasser YAWARI",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 3801,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              },
+              {
+                "id": "aec-candidate-40698",
+                "name": "Sleiman YOHANNA",
+                "party": "Citizens Party",
+                "status": "contested",
+                "sourceUrl": "https://results.aec.gov.au/31496/Website/SenateStatePage-31496-VIC.htm",
+                "sourceId": "federal-aec-senate-candidates-2025",
+                "votes": 235,
+                "voteMeasure": "below-the-line first preferences; group above-the-line votes are separate",
+                "voteSourceId": "federal-aec-senate-votes-2025"
+              }
+            ],
+            "boundaryEdition": "2025 federal election boundaries",
+            "resultMeasure": "Senate multi-member ballot; elected status from AEC final candidate roster (not House 2PP)"
+          },
+          {
+            "id": "federal-senate-next-vic",
+            "label": "Next Senate election",
+            "kind": "general-election",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "No verified polling date entered. State Senate rotation and territory terms differ; current office does not establish future candidacy.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.aec.gov.au/learn/election-timetable.htm",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Senators represent the state/territory as a whole; House divisions are a different representation layer.",
+          "2025 Senate contestants include elected and unsuccessful candidates; this was a half-Senate election for states, and an election of both territory senators.",
+          "A state Senate casual vacancy normally uses a replacement process, not a House-style by-election. Verify the actual vacancy process before adding an event.",
+          "Current senators are independently sourced from the Parliamentary Handbook; 2022 continuing terms and subsequent replacements are not inferred from 2025 winners.",
+          "External territory representation needs AEC enrolment advice; state/territory context maps are navigation aids, not enrolment determinations."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "title": "Roper Gulf — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-73600",
+    "kind": "council",
+    "name": "Roper Gulf",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/998",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Official roster page last updated 26 August 2026; the current Yugul Mangi listings are Michelle Farrell and Olga Daniels. Earlier 2025 winners and vacancies are not used as current office evidence.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/roper-gulf/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/998/id",
+      "expected": "nt-council-73600"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/998/name",
+      "expected": "Roper Gulf"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/998/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/998",
+      "expected": {
+        "id": "nt-council-73600",
+        "name": "Roper Gulf",
+        "slug": "roper-gulf",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "73600",
+        "officialUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-roper-gulf",
+          "council-nt-2025-ballot-roper-gulf-never-never-ward",
+          "council-nt-2025-ballot-roper-gulf-numbulwar-numburindi-ward",
+          "council-nt-2025-ballot-roper-gulf-nyirranggulung-ward",
+          "council-nt-2025-ballot-roper-gulf-south-west-gulf-ward",
+          "council-nt-2025-ballot-roper-gulf-yugul-mangi-ward",
+          "council-nt-ballot-by-june-2026-roper-gulf-yugul-mangi-ward",
+          "council-nt-ballot-supplementary-2025-roper-gulf-yugul-mangi-ward",
+          "council-nt-ballot-supplementary-2025-roper-gulf-yugul-mangi-ward-timetable"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Tony Jack",
+            "role": "Mayor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "South West Gulf Ward"
+          },
+          {
+            "name": "Helen Lee",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Nyirranggulung Ward"
+          },
+          {
+            "name": "Sue Edwards",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Never Never Ward"
+          },
+          {
+            "name": "Des Barritt",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Never Never Ward"
+          },
+          {
+            "name": "Patricia Farrell",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Never Never Ward"
+          },
+          {
+            "name": "Edwin Nunggumajbarr",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Numbulwar Numburindi Ward"
+          },
+          {
+            "name": "Kathy-Anne Numamurdirdi",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Numbulwar Numburindi Ward"
+          },
+          {
+            "name": "John Dalywater",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Nyirranggulung Ward"
+          },
+          {
+            "name": "Preston Lee",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Nyirranggulung Ward"
+          },
+          {
+            "name": "Ash Garner",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "South West Gulf Ward"
+          },
+          {
+            "name": "Samuel Evans",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "South West Gulf Ward"
+          },
+          {
+            "name": "Michelle Farrell",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Yugul Mangi Ward"
+          },
+          {
+            "name": "Olga Daniels",
+            "role": "Councillor",
+            "profileUrl": "https://www.ropergulf.nt.gov.au/our-council/elected-members",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-roper-gulf",
+            "checked": "2026-10-17",
+            "wardLabel": "Yugul Mangi Ward"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-73600-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-73600-ordinary-2025-never-never-ward",
+            "label": "2025 Roper Gulf — Never Never Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+            "candidates": [
+              {
+                "name": "Edna Prescilla ILES",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Rosemary JOSHUA",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cecilia LAKE",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Des BARRITT",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sue EDWARDS",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Patricia FARRELL",
+                "status": "official historical nominee",
+                "contest": "Never Never Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/never-never",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 6,
+              "retainedCandidateCount": 6,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-ordinary-2025-numbulwar-numburindi-ward",
+            "label": "2025 Roper Gulf — Numbulwar Numburindi Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/numbulwar-numburindi",
+            "candidates": [
+              {
+                "name": "Kathy-Anne NUMAMURDIRDI",
+                "status": "official historical nominee",
+                "contest": "Numbulwar Numburindi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/numbulwar-numburindi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/numbulwar-numburindi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Edwin NUNGGUMAJBARR",
+                "status": "official historical nominee",
+                "contest": "Numbulwar Numburindi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/numbulwar-numburindi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/numbulwar-numburindi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-ordinary-2025-nyirranggulung-ward",
+            "label": "2025 Roper Gulf — Nyirranggulung Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+            "candidates": [
+              {
+                "name": "John DALYWATER",
+                "status": "official historical nominee",
+                "contest": "Nyirranggulung Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Preston LEE",
+                "status": "official historical nominee",
+                "contest": "Nyirranggulung Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Helen Leanne LEE",
+                "status": "official historical nominee",
+                "contest": "Nyirranggulung Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Selina ASHLEY",
+                "status": "official historical nominee",
+                "contest": "Nyirranggulung Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Anne Marie LEE",
+                "status": "official historical nominee",
+                "contest": "Nyirranggulung Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/nyirranggulung",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 5,
+              "retainedCandidateCount": 5,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-ordinary-2025-south-west-gulf-ward",
+            "label": "2025 Roper Gulf — South West Gulf Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+            "candidates": [
+              {
+                "name": "Tony JACK",
+                "status": "official historical nominee",
+                "contest": "South West Gulf Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ash GARNER",
+                "status": "official historical nominee",
+                "contest": "South West Gulf Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Samuel EVANS",
+                "status": "official historical nominee",
+                "contest": "South West Gulf Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Gadrian HOOSAN",
+                "status": "official historical nominee",
+                "contest": "South West Gulf Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/south-west-gulf",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-ordinary-2025-yugul-mangi-ward",
+            "label": "2025 Roper Gulf — Yugul Mangi Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/yugul-mangi",
+            "candidates": [
+              {
+                "name": "Melissa ANDREWS-WURRAMARRBA",
+                "status": "official historical nominee",
+                "contest": "Yugul Mangi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/yugul-mangi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/roper-gulf/list-of-candidates/yugul-mangi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-by-june-2026-yugul-mangi-ward",
+            "label": "2026 Roper Gulf — Yugul Mangi Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": null,
+            "dateBasis": "Official NTEC event context and nomination summary verified; exact polling day not yet retained, so date remains null.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "exact election day unresolved",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+            "candidates": [
+              {
+                "name": "Donna MCMASTERS",
+                "status": "official historical nominee",
+                "contest": "Yugul Mangi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Olga DANIELS",
+                "status": "official historical nominee",
+                "contest": "Yugul Mangi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Sarah SILVER",
+                "status": "official historical nominee",
+                "contest": "Yugul Mangi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-june-by-elections/council-information/roper-gulf/list-of-candidates",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 3,
+              "retainedCandidateCount": 3,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-73600-supplementary-2025-yugul-mangi-ward",
+            "label": "2025 Roper Gulf — Yugul Mangi Ward",
+            "kind": "supplementary",
+            "status": "historical",
+            "date": "2025-11-29",
+            "dateBasis": "Official NTEC supplementary timetable; nominal election day, including uncontested contexts.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/roper-gulf/list-of-candidates/",
+            "candidates": [
+              {
+                "name": "Michelle FARRELL",
+                "status": "official historical nominee",
+                "contest": "Yugul Mangi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/roper-gulf/list-of-candidates/",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/roper-gulf/list-of-candidates/",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2025-local-government-supplementary-elections/timetable"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+          "Official roster page last updated 26 August 2026; the current Yugul Mangi listings are Michelle Farrell and Olga Daniels. Earlier 2025 winners and vacancies are not used as current office evidence."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

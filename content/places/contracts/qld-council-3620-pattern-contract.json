@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "title": "Gympie Regional — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-3620",
+    "kind": "council",
+    "name": "Gympie Regional",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/30",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/gympie-regional/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/30/id",
+      "expected": "qld-council-3620"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/30/name",
+      "expected": "Gympie Regional"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/30/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/30",
+      "expected": {
+        "id": "qld-council-3620",
+        "name": "Gympie Regional",
+        "slug": "gympie-regional",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "3620",
+        "officialUrl": "https://www.gympie.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Glen Hartwig",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.gympie.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-3620-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-031",
+            "label": "2024 Gympie Regional — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+            "candidates": [
+              {
+                "name": "WILSON, Naomi",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "votes": 8731,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HARTWIG, Glen",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "votes": 18756,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCDONALD, Mark",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/031",
+                "votes": 6897,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03101",
+            "label": "2024 Gympie Regional — Gympie Regional Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+            "candidates": [
+              {
+                "name": "MILNE, Jess",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+                "votes": 2279,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SMERDON, Hilary",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03101",
+                "votes": 2253,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03102",
+            "label": "2024 Gympie Regional — Gympie Regional Division 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+            "candidates": [
+              {
+                "name": "JENSEN, Dolly",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+                "votes": 2787,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CLAASSENS, Marcel",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03102",
+                "votes": 1474,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03103",
+            "label": "2024 Gympie Regional — Gympie Regional Division 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+            "candidates": [
+              {
+                "name": "WARNES, Shane Arthur",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+                "votes": 2203,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HORNE, Charlie",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03103",
+                "votes": 2065,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03104",
+            "label": "2024 Gympie Regional — Gympie Regional Division 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+            "candidates": [
+              {
+                "name": "GATE, Rae",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "votes": 884,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TORRENS, Michael",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "votes": 273,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CURRAN, Mick",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "votes": 1349,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DEVEREAUX, Bruce",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "votes": 1284,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BOYD, Wayne",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03104",
+                "votes": 157,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03105",
+            "label": "2024 Gympie Regional — Gympie Regional Division 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+            "candidates": [
+              {
+                "name": "KAHLER, Kris",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "votes": 1214,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "STEWART, Dan",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "votes": 1379,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LAHN, Allona",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03105",
+                "votes": 1402,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03106",
+            "label": "2024 Gympie Regional — Gympie Regional Division 6",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+            "candidates": [
+              {
+                "name": "MCEWAN, Warren",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "votes": 2547,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "THOMAS, Brian",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "votes": 800,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GOLDING, Dave",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03106",
+                "votes": 968,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03107",
+            "label": "2024 Gympie Regional — Gympie Regional Division 7",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+            "candidates": [
+              {
+                "name": "REARDON, Donna",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "votes": 967,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "CONNELLY, Sean",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "votes": 1169,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "POLLEY, Warren",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "votes": 1346,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "JEROME, Tim",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03107",
+                "votes": 783,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3620-ordinary-2024-03108",
+            "label": "2024 Gympie Regional — Gympie Regional Division 8",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+            "candidates": [
+              {
+                "name": "GOLDEN, Ruth",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gympie Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+                "votes": 1711,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MAUDSLEY, Gordon",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gympie Regional Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/03108",
+                "votes": 2786,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

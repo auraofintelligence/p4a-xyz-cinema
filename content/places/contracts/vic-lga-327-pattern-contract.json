@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "title": "Greater Geelong City Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-327",
+    "kind": "council",
+    "name": "Greater Geelong City Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/151",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/greater-geelong-city-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/151/id",
+      "expected": "vic-lga-327"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/151/name",
+      "expected": "Greater Geelong City Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/151/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/151",
+      "expected": {
+        "id": "vic-lga-327",
+        "name": "Greater Geelong City Council",
+        "slug": "greater-geelong-city-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "327",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-327",
+          "council-vic-roster-327"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Ron Nelson",
+            "role": "Barrabool Hills Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Emma Sinclair",
+            "role": "Charlemont Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Melissa Cadwell",
+            "role": "Cheetham Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Elise Wilkinson",
+            "role": "Connewarre Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Anthony Aitken",
+            "role": "Corio Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Andrew Katos",
+            "role": "Deakin Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Eddy Kontelj",
+            "role": "Hamlyn Heights Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Stretch Kontelj",
+            "role": "Kardinia Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Trent Sullivan",
+            "role": "Leopold Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Rowan D. Story",
+            "role": "Murradoc Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Chris Burson",
+            "role": "You Yangs Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/greater-geelong-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-327",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-327-ordinary-2024",
+            "label": "2024 Greater Geelong City Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+            "candidates": [
+              {
+                "name": "NELSON, Ron",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Barrabool Hills Ward",
+                "status": "elected",
+                "votes": 8817,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "McGINNESS, David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Barrabool Hills Ward",
+                "votes": 2118,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MORIARTY, Aleta",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Barrabool Hills Ward",
+                "votes": 6128,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SINCLAIR, Emma",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "status": "elected",
+                "votes": 3108,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "JOACHIM, Susan",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "votes": 1578,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HADLOW, Blake",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "votes": 3510,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MILTON-McGURK, Sian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "votes": 1102,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MITCHELL, Teagan",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "votes": 3336,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DHALIWAL, Sunny",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Charlemont Ward",
+                "votes": 2269,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CADWELL, Melissa",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Cheetham Ward",
+                "status": "elected",
+                "votes": 6478,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HARPER, Jess",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Cheetham Ward",
+                "votes": 2378,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "METRIKAS, Jon",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Cheetham Ward",
+                "votes": 1494,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUTCHINSON, Mellissa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Cheetham Ward",
+                "votes": 1513,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GANT, Tom",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Cheetham Ward",
+                "votes": 2450,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WILKINSON, Elise",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Connewarre Ward",
+                "status": "elected",
+                "votes": 7478,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SHEARMAN, Angela",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Connewarre Ward",
+                "votes": 7475,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "AITKEN, Anthony",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "status": "elected",
+                "votes": 6700,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DOOSTI, Azadeh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "votes": 1233,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HATHWAY, Sarah",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "votes": 2679,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SLATER, Maddie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "votes": 853,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BLASZCZYK, Robert",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "votes": 1924,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MAHFOUD, Danny",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Corio Ward",
+                "votes": 515,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KATOS, Andrew",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "status": "elected",
+                "votes": 4492,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "COX, Sue",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 2230,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KENNEDY, Nicholas",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 509,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SCHERRER, Izzy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 2571,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RICHARDS, Andy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 2252,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HAITSMA, Joshua",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 1525,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WALLACE, Derek",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 447,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HILTON, Anastasia",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Deakin Ward",
+                "votes": 1970,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KONTELJ, Eddy",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Hamlyn Heights Ward",
+                "status": "elected",
+                "votes": 6905,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CARR, Angela",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Hamlyn Heights Ward",
+                "votes": 3821,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOOD, Mathew",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Hamlyn Heights Ward",
+                "votes": 2978,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NICITA, Joey",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Hamlyn Heights Ward",
+                "votes": 1410,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KONTELJ, Stretch",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "status": "elected",
+                "votes": 4124,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DUNSTAN, Johnny",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 865,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "COSTOSO, Candice",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 1767,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GARCIA, Daniel",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 1260,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DESBROWE-ANNEAR, Peter",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 294,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MURRIHY, Peter",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 3024,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "FLYNN, Emilie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Kardinia Ward",
+                "votes": 3298,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SULLIVAN, Trent",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Leopold Ward",
+                "status": "elected",
+                "votes": 8865,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "McKEEN, Shona",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Leopold Ward",
+                "votes": 5118,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LYNCH, David",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Leopold Ward",
+                "votes": 1789,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STORY, Rowan D.",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Murradoc Ward",
+                "status": "elected",
+                "votes": 7449,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LOCKHART, Kate",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "Murradoc Ward",
+                "votes": 7096,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BURSON, Chris",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "You Yangs Ward",
+                "status": "elected",
+                "votes": 7015,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SLATER, Theresa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "You Yangs Ward",
+                "votes": 2278,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KULIC, Lorraine",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "You Yangs Ward",
+                "votes": 3882,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LYNCH, Nicole",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/greater-geelong-city-council",
+                "contest": "You Yangs Ward",
+                "votes": 1475,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-327-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

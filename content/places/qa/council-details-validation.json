@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-17",
+  "status": "pass",
+  "canonicalSha256": "05a24e0ad7b207359bc4becfe741fda7b26c335a5dd106b7d4ff533bdb4fe911",
+  "checks": {
+    "sourceRecordsChecked": 449,
+    "uniqueOriginalFilesHashed": 207,
+    "eventIdsChecked": 3200,
+    "canonicalPlaceCount": 1479,
+    "repeatMergeIdentical": true
+  },
+  "supplements": [
+    {
+      "file": "tas-council-details.json",
+      "sha256": "5b23655f55e68c903d70dc4c3d819c8ff095ff1def1e00f5ce5e2fc90bda1379",
+      "coverage": {
+        "councils": 29,
+        "representativeRecords": 263,
+        "events": 87,
+        "contestantRecords": 735
+      },
+      "sourceRecords": 117
+    },
+    {
+      "file": "wa-council-details.json",
+      "sha256": "7b18ce038541dd40402de2f107f57e948d571715d4c5f6829b0957c5638ff33e",
+      "coverage": {
+        "councils": 137,
+        "parentRepresentativeRecords": 1101,
+        "wardsWithExactRosterJoin": 106,
+        "wardRepresentativeRecords": 247,
+        "representativeRecords": 1348
+      },
+      "sourceRecords": 144
+    },
+    {
+      "file": "sa-council-ballots.json",
+      "sha256": "7e995830a88fb9021e457ce7c434c0659635e7dc582df7302cbb47d8338d2b07",
+      "coverage": {
+        "councils": 66,
+        "parentContests": 222,
+        "parentContestants": 1256,
+        "contested": 184,
+        "uncontested": 36,
+        "failed": 2,
+        "projectedWardContests": 133
+      },
+      "sourceRecords": 61
+    },
+    {
+      "file": "sa-current-leaders.json",
+      "sha256": "d593ee0808b60b39adc00c03d0508a685ba6ec23406be5e75004d88f682c263d",
+      "coverage": {
+        "ordinaryCouncilRecords": 68,
+        "publishedMayors": 66,
+        "independentlyNamedAdministrators": 3,
+        "officialBodyWebsites": 69
+      },
+      "sourceRecords": 3
+    },
+    {
+      "file": "qld-council-ballots.json",
+      "sha256": "4d4d187faaba19237a1c325a0dde274d4895511cfa3d30be87064eb9b6ebdad5",
+      "coverage": {
+        "councils": 77,
+        "parentContests": 343,
+        "parentContestants": 1422,
+        "officialFirstPreferenceCounts": 282,
+        "contestsWithoutCount": 61,
+        "projectedWardContests": 186
+      },
+      "sourceRecords": 3
+    },
+    {
+      "file": "qld-current-leaders.json",
+      "sha256": "3fc7470918dadd0e24d7eece969fb741f05100ed6e10aa57f82ab40a5e84660e",
+      "coverage": {
+        "councilsWithIndependentMayor": 77,
+        "officialBodyWebsites": 78,
+        "retiredInheritedWardLinksReplaced": 176
+      },
+      "sourceRecords": 1
+    },
+    {
+      "file": "nt-council-details.json",
+      "sha256": "35a76009b38e23ae5f146a50c76c562997879d0a848834e01347b2a02cbce72a",
+      "coverage": {},
+      "sourceRecords": 120
+    }
+  ],
+  "issues": [],
+  "limits": [
+    "Checks source hashes, supplement-to-canonical equality, independent current-roster provenance, typed votes and in-memory repeatability only.",
+    "Does not certify currentness of dated roster snapshots, complete biographies or later-event coverage, rendered pages, all links or browser acceptance."
+  ]
+}

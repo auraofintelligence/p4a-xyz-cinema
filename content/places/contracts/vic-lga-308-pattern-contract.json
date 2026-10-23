@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "title": "Brimbank City Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-308",
+    "kind": "council",
+    "name": "Brimbank City Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/149",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/brimbank-city-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/149/id",
+      "expected": "vic-lga-308"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/149/name",
+      "expected": "Brimbank City Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/149/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/149",
+      "expected": {
+        "id": "vic-lga-308",
+        "name": "Brimbank City Council",
+        "slug": "brimbank-city-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "308",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-308",
+          "council-vic-roster-308"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Victoria Borg",
+            "role": "Albanvale Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Kim Thien Truong",
+            "role": "Cherry Creek Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Maria Kerr",
+            "role": "Copernicus Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Katharine Nikolic",
+            "role": "Delahey Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Thuy Dang",
+            "role": "Grasslands Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Daniel Kruk",
+            "role": "Harvester Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Virginia Tachos",
+            "role": "Horseshoe Bend Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Lucy Nguyen",
+            "role": "Kororoit Creek Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Joh Bauch",
+            "role": "Mount Derrimut Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Ranka Rasic",
+            "role": "Organ Pipes Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Duyen Anh Pham",
+            "role": "St Albans East Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/brimbank-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-308",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-308-ordinary-2024",
+            "label": "2024 Brimbank City Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+            "candidates": [
+              {
+                "name": "BORG, Victoria",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Albanvale Ward",
+                "status": "elected",
+                "votes": 5166,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RASPA, Kristian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Albanvale Ward",
+                "votes": 1754,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUSSEIN, Mariam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Albanvale Ward",
+                "votes": 1573,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TRUONG, Kim Thien",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Cherry Creek Ward",
+                "status": "elected",
+                "votes": 2733,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MARKHAM, Andrea",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Cherry Creek Ward",
+                "votes": 1824,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MENDOZA, Eiren",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Cherry Creek Ward",
+                "votes": 697,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "O'REILLY, Thomas",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Cherry Creek Ward",
+                "votes": 2002,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BLORE, Graeme",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Cherry Creek Ward",
+                "votes": 2443,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KERR, Maria",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "status": "elected",
+                "votes": 1972,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CAO, Chien Duc",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 1050,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HAVELAS, Aristea",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 668,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ATANASOVSKA, Draga",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 315,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KORONEOS, Stefan Christopher",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 341,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ANDREEVSKI, Dimitri",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 851,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NIKOLIC, Sonja",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 419,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GIUDICE, Margaret",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 798,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GAUCI, Adrian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 1151,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BETHI, Bhasker Reddy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 169,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PAPAFOTIOU, Georgina",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 1430,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CAPPELLI, Dianne",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Copernicus Ward",
+                "votes": 404,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NIKOLIC, Katharine",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "status": "elected",
+                "votes": 2591,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "VU, Don",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 1596,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NAUMOVSKI, Vasko",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 479,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GREENWOOD, Angelina",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 1659,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ACEVSKI, Jason",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 1111,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GALATI, Robert",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 583,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SINGH, Poonam D.",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Delahey Ward",
+                "votes": 936,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DANG, Thuy",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Grasslands Ward",
+                "status": "elected",
+                "votes": 3318,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LU, Phung Hoa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Grasslands Ward",
+                "votes": 2234,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ASHRAF, Tauseef",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Grasslands Ward",
+                "votes": 1759,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NGUYEN, Leanna",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Grasslands Ward",
+                "votes": 2066,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KRUK, Daniel",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Harvester Ward",
+                "status": "elected",
+                "votes": 2656,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SELIGMANN, Benoit",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Harvester Ward",
+                "votes": 1788,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WALSH, Liz",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Harvester Ward",
+                "votes": 2397,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DOUGLAS, Ian",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Harvester Ward",
+                "votes": 2263,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TACHOS, Virginia",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Horseshoe Bend Ward",
+                "status": "elected",
+                "votes": 3991,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ACKERMAN, Fred",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Horseshoe Bend Ward",
+                "votes": 3426,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BRUNO, Rosa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Horseshoe Bend Ward",
+                "votes": 1517,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MELHEM, Lina",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Horseshoe Bend Ward",
+                "votes": 1087,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NGUYEN, Lucy",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Kororoit Creek Ward",
+                "status": "elected",
+                "votes": 2658,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOLLINGWORTH, Paul",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Kororoit Creek Ward",
+                "votes": 889,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DAVID, Sam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Kororoit Creek Ward",
+                "votes": 1946,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BLIGH, Ben",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Kororoit Creek Ward",
+                "votes": 841,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "O'REILLY, Christopher",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Kororoit Creek Ward",
+                "votes": 1547,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BAUCH, Joh",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Mount Derrimut Ward",
+                "status": "elected",
+                "votes": 3291,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MUSCAT, Sam Charles Joseph",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Mount Derrimut Ward",
+                "votes": 1302,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "VORGIATZIDIS, Tayla",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Mount Derrimut Ward",
+                "votes": 2088,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TARCZON, Les",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Mount Derrimut Ward",
+                "votes": 726,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "JEKIC, Mark Bernhard",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Mount Derrimut Ward",
+                "votes": 1632,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RASIC, Ranka",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "status": "elected",
+                "votes": 4516,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CAMENZULI, Joseph",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "votes": 1550,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LEO, Frank",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "votes": 801,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CULLIA, Joe",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "votes": 1689,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CHITTEDI, Srujan Reddy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "votes": 269,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "COVENTRY, Peter",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "Organ Pipes Ward",
+                "votes": 1033,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PHAM, Duyen Anh",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "status": "elected",
+                "votes": 2102,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RUDD, Van Thanh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "votes": 1258,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LE, Trinh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "votes": 1758,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TA, Nghi Neil",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "votes": 1691,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TRIBE, Nick",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "votes": 1633,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUSSAIN, Sajid",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/brimbank-city-council",
+                "contest": "St Albans East Ward",
+                "votes": 406,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-308-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

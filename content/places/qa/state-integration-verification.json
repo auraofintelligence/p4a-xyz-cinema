@@ -1,0 +1,74 @@
+{
+  "checked": "2026-10-17",
+  "status": "PASS",
+  "scope": "State-specific offline data and original/persisted geometry verification; not national/browser/deep-journey acceptance",
+  "counts": {
+    "vic": {
+      "places": 96,
+      "currentMemberRecords": 127,
+      "eventContestants": 1197
+    },
+    "nsw": {
+      "places": 94,
+      "currentMemberRecords": 134,
+      "eventContestants": 893
+    },
+    "qld": {
+      "places": 93,
+      "currentMemberRecords": 93,
+      "eventContestants": 541
+    },
+    "sa": {
+      "places": 49,
+      "currentMemberRecords": 69,
+      "eventContestants": 436
+    },
+    "wa": {
+      "places": 60,
+      "currentMemberRecords": 96,
+      "eventContestants": 544
+    },
+    "tas": {
+      "places": 20,
+      "currentMemberRecords": 50,
+      "eventContestants": 235
+    },
+    "nt": {
+      "places": 25,
+      "currentMemberRecords": 25,
+      "eventContestants": 86
+    },
+    "act": {
+      "places": 5,
+      "currentMemberRecords": 25,
+      "eventContestants": 155
+    }
+  },
+  "southAustralia": {
+    "currentDistricts": 47,
+    "nativeEncodedPathCoordinatesRetained": true,
+    "points": 192949,
+    "houseContestants": 388,
+    "councilContestants": 48,
+    "historicFromePreservedSeparately": true,
+    "all11CouncilElectionOrdersReconciledWithoutTreatingQuotaAsZero": true
+  },
+  "tasmania": {
+    "houseBallotNames": 161,
+    "councilDivisions": 15,
+    "councilContestantRecords": 74,
+    "sourceRings": 901,
+    "sourcePoints": 4494197,
+    "allNativeVerticesEqualOriginalShapefile": true,
+    "allDeliveredVerticesEqualDocumentedProjection": true,
+    "divisionSpecificMayCyclesWithNoInventedDay": true,
+    "latestBallotForEveryCouncilDivision": true
+  },
+  "unresolved": [
+    "NSW official current Council directory lists 41; missing 42nd seat status not inferred",
+    "SA Council full individual first preferences and transfer stages not normalized; elected order and actual quota/final stage values retained",
+    "WA historical numeric result totals are not normalized",
+    "TAS 2018–2020 earlier contestant ballots are not normalized; latest ballots for all 15 divisions and intervening by-elections are present",
+    "Jurisdiction redistribution commencement review not complete beyond retained explicit editions"
+  ]
+}

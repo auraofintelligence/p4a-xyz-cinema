@@ -5,22 +5,31 @@ across the P4A site. Read this first; it tells you what to check, where the
 truth lives, and exactly which files change. Designed to be token-lean: a
 no-change run touches only `content/refresh-log.md`.
 
+For an individual council, ward, state/territory or federal event, follow the
+[fractal update guide](../docs/agents/fractal-election-updates.md), version 1.0,
+17 October 2026. It defines scoped member/profile, previous-contestant and
+countdown updates, canonical adapters, sitemap/navigation maintenance and checks.
+The state files listed below are the state-summary adapter, not a universal
+storage model for every council or federal event.
+
 ```json refresh-watchlist
 {
-  "purpose": "Detect and apply changes to by-elections, seat composition, government leadership and election dates for each Australian state and territory.",
+  "purpose": "Detect and apply scoped council, state/territory and federal election, by-election, representation, contestant, public-profile and timetable changes; update only affected records and dependants.",
   "signals": [
-    "A new by-election has been announced (add an elections[] entry + timer cards)",
-    "A scheduled by-election has been held (apply the result: status, notes, composition, sources)",
+    "A new by-election has been officially announced (add its separate event record and only supported countdown milestones)",
+    "A scheduled by-election has been held (verify poll/count/declaration status; update result and composition only as supported)",
     "Seat composition changed for any reason (resignation, defection, recount, vacancy)",
     "Premier / Chief Minister or governing arrangement changed",
-    "A general election date was set, moved or held"
+    "A general election date was set, moved or held",
+    "A council/ward or federal event, replacement process, accepted nomination, public profile or historical contestant record changed",
+    "An affected route, directory, source/profile link or discovery entry changed"
   ],
   "sourceOfTruthOrder": [
-    "1. content/states/<slug>.md  (canonical JSON block — edit FIRST)",
-    "2. assets/state-data.js      (mirror of the same JSON, wider indentation — keep in lockstep)",
-    "3. states/<slug>/index.html  (summary panels, timer cards, chamber rows, notes, sources)",
-    "4. states/<slug>/architecture/index.html and states/<slug>/constitution/index.html (researchStatus sentence + research date)",
-    "5. pages/states.html         (the state's portal card em-text and its timer cards ONLY — never touch other states' blocks)"
+    "1. Resolve the target place/institution/chamber and event IDs; read its actual canonical files, local guide and dependency list.",
+    "2. Edit canonical event, current-role, contestant/result and source records FIRST; keep historical events and boundary editions separate.",
+    "3. For state-summary changes, content/states/<slug>.md is canonical; assets/state-data.js and affected state/parent HTML must remain in parity.",
+    "4. Build the affected detail/map/profile views and parent summaries with their actual scoped adapters. Inspect shared outputs for unrelated changes.",
+    "5. When routes/navigation change, update canonical templates and assets/site-nav.js as applicable, then rebuild and verify discovery using the fractal guide."
   ],
   "jurisdictions": [
     { "slug": "qld", "name": "Queensland" },
@@ -32,31 +41,33 @@ no-change run touches only `content/refresh-log.md`.
     { "slug": "act", "name": "Australian Capital Territory" },
     { "slug": "nt",  "name": "Northern Territory" }
   ],
-  "whereTheSourceUrlsLive": "Each jurisdiction's canonical md carries its own electoral-commission and parliament member-list URLs in its sources[] array. Do not duplicate URLs here; read the state md.",
+  "whereTheSourceUrlsLive": "Read the target's canonical source records and local guide. State-summary commission/parliament URLs live in content/states/<slug>.md sources[]; council, electorate, federal and event-specific records keep their own primary URLs. Do not assume the state source list covers every institution.",
   "checkMethod": [
-    "For the jurisdiction in scope, read ONLY content/states/<slug>.md (small file).",
-    "Web-check: search '<state> by-election <current year>' and fetch the commission events URL from the md's sources[]. Compare against the md's elections[] and researchRun.",
-    "If nothing changed: append one line to content/refresh-log.md and STOP for that state. Do not touch any other file, do not bump researchRun.",
-    "If something changed: verify the fact against at least one official or expert source (commission results page, parliament member list, ABC/Antony Green), then follow the recipe below."
+    "Scope to the named place/event and affected dependants. Read its actual canonical records and official source URLs; use the state markdown when state summaries are affected.",
+    "Check official notices, roster, timetable, nominations/ballot and results as applicable. Secondary reporting can identify a lead; preserve primary support for the published status.",
+    "If nothing changed: append one scoped line to content/refresh-log.md and STOP. Do not bump research dates. Inaccessible or conflicting evidence is needs-follow-up, not no change.",
+    "If something changed: verify the applicable institution/process and facts, then follow the recipe below and docs/agents/fractal-election-updates.md."
   ],
   "recipe": {
     "learnedFrom": "Stafford by-election update, 2026-07-14",
     "steps": [
-      "Update the canonical md JSON: researchRun (today), researchStatus sentence, government.note if affected, the elections[] entry status + note (include winner, party, 2PP and swing), chambers[].composition seat numbers (remove/add Vacant rows as needed), strategyNotes if they referenced the pending event, and append result sources to sources[].",
-      "Mirror the exact same changes into assets/state-data.js (same strings, wider indentation; whitespace-tolerant regex recommended). Run node --check afterwards.",
-      "Rendered HTML: use grep to find the same sentences — they appear verbatim in states/<slug>/index.html, the two sub-pages and pages/states.html. Replace sentence-for-sentence. Chamber rows: update <span class=\"party-seats\">N</span> and the party-bar width percentage (seats/total, rounded); delete a Vacant <li class=\"party-row\"> block entirely if the vacancy is filled.",
-      "Timer cards: the <p class=\"timer-status\"> inside the card whose data-election-label matches — 'Scheduled' becomes 'Held - <result>' — and the card's note paragraph gets the result sentence. The countdown flips to 'Held ... ago' automatically from data-election-date; do not edit the date unless the poll was moved.",
-      "Research dates: bump the date ONLY in that state's files (md, states/<slug>/*.html). The national badge in pages/states.html and other states' researchRun stamps keep their own dates — they were not re-verified.",
-      "Validate: canonical md JSON parses; composition seats sum to the chamber total; node --check assets/state-data.js; grep confirms no stale sentence remains.",
-      "Append a dated entry to content/refresh-log.md describing what changed and the sources used.",
-      "Commit with message 'Refresh <state> election data: <one-line summary>' and the standard Co-Authored-By trailer. Push only when the operator has asked for publishing."
+      "Identify stable place/event IDs, boundary basis, actual canonical inputs, generated routes and dependent summaries. Preserve unrelated work and archive superseded facts using the existing history pattern.",
+      "Edit canonical event/status/timetable, current office, historical contestants/results and public-profile links only as verified. Keep general elections and subsequent by-elections separate; published result measures must retain their actual meaning.",
+      "Update state-summary JSON only when affected: event notes, sourced composition/leadership, source URLs and scoped check dates. A verified vacancy or count can change before a winner is declared.",
+      "Run existing scoped generators from the target guide. The state -StateSlug adapter also writes shared assets/state-data.js and pages/states.html: inspect their complete diffs and preserve unrelated jurisdictions. Use narrow parity-checked source/output edits only where no safe generator exists.",
+      "Ensure all countdown surfaces use the same supported event/date basis and local timezone. Separate ordinary, by-election and early/postal milestones; unknown dates get no exact countdown. Polling day alone does not establish a winner or officeholder.",
+      "Update navigation/link dependencies. For route/directory changes follow the fractal guide's canonical navigation, sitemap build and discovery verification procedure; preserve working deep links and historical routes.",
+      "Validate affected source joins, roster/contestant completeness, counts, dates, clock boundary states, links and delivered pages using actual existing tools. Research/source dates advance only for the facts actually checked; no unrelated date bumps.",
+      "Append scoped evidence, actual validation, remaining gaps and delivery/publication state to content/refresh-log.md and relevant place history. Commit or publish only within existing operator authorisation."
     ]
   },
   "hardRules": [
-    "Never invent a result. If sources conflict or a result is not yet declared, record 'needs follow-up' in the log and leave the site data untouched.",
+    "Never invent a result or poll date. Verified vacancy, poll-held, counting and other supported facts may be updated while a winner remains unknown; record conflicting/inaccessible evidence as needs follow-up.",
     "Australian English in all copy.",
-    "Sentence-level find-and-replace across layers; never regenerate whole files.",
-    "Files in this repo use CRLF line endings — use whitespace-tolerant patterns.",
+    "Edit canonical sources first; use actual scoped generators and inspect every shared output diff. Preserve unrelated places and dates; narrow manual parity repairs are for missing/unsafe adapters.",
+    "Respect each file's existing line endings and .gitattributes; use whitespace-tolerant searches.",
+    "Keep current officeholders, historical contestants and future candidate stages separate; retain verified public-profile links and event/boundary history.",
+    "Create no new Twinkles in the current national expansion or routine election refresh; leave local authorship to grassroots implementation.",
     "The sibling Oceania pulse board (p4a-oceania-cinema/assets/oceania-pulse-data.js) follows the same ethic for national elections across the region; refresh it in its own repo with its own research stamp."
   ]
 }

@@ -272,27 +272,8 @@ def integrate(outputs):
         publicpage='pages/maps.html' if page=='content/rooms/maps.html' else page
         block=f'''<section class="section"><div class="feature-panel"><p class="eyebrow">Queensland local example · 16 October 2026</p><h2>From the state map into Redlands.</h2><p>Actual boundary-map images, local statistics, searchable questions and systems, people and records, participation and outcomes.</p><div class="button-row">{link(publicpage,'states/qld/councils/index.html','Queensland councils','button')}{link(publicpage,BASE+'index.html','Redlands journey','button button-secondary')}</div></div></section>'''
         insert(page,block)
-    navfile=ROOT/'assets/site-nav.js';nav=navfile.read_text(encoding='utf-8')
-    navstart='/* redland-navigation:start */';navend='/* redland-navigation:end */'
-    entry='''    {
-      id: 'local-places', num: 'Local', label: 'Council journeys',
-      blurb: 'States → Queensland → councils → Redlands → divisions. Follow a local question into evidence, possibilities, participation and outcomes.',
-      links: [
-        { href: 'states/qld/councils/index.html', title: 'Queensland council map', note: 'Drag, zoom, search and select an actual council boundary. Redlands is the first full journey.' },
-        { href: 'states/qld/councils/redland/index.html', title: 'Redlands local journey', note: 'Start with your place, its map, statistics and a few useful paths.', footer: true },
-        { href: 'states/qld/councils/redland/divisions/index.html', title: 'Redlands divisions', note: 'Find one of the ten council divisions, then open its local overview.', footer: true },
-        { href: 'states/qld/councils/redland/explore/index.html', title: 'Redlands questions and Twinkles', note: 'Search everyday gripes, evidence, systems, data and lyric meanings.', footer: true },
-        { href: 'states/qld/councils/redland/possibilities/index.html', title: 'Redlands systems and possibilities', note: 'Connect local issues to wider proposals, their limits and the three accounts.' },
-        { href: 'states/qld/councils/redland/candidates/index.html', title: 'Redlands people and elections', note: 'Find public representatives, candidate evidence, votes, explanations and election stages.', footer: true },
-        { href: 'states/qld/councils/redland/action/index.html', title: 'Take part in Redlands', note: 'Prepare an observation, correction, offer or useful next step.' },
-        { href: 'states/qld/councils/redland/outcomes/index.html', title: 'Redlands outcomes', note: 'What it cost, what was given freely and what changed.', footer: true },
-        { href: 'states/qld/councils/redland/sources/index.html#review-register', title: 'Redlands sources and review dates', note: 'Review page changes, source periods, correction notes and refresh triggers.', footer: true }
-      ]
-    },'''
-    wrapped=navstart+'\n'+entry+'\n'+navend
-    if navstart in nav:nav=re.sub(re.escape(navstart)+r'[\s\S]*?'+re.escape(navend),lambda _:wrapped,nav,count=1)
-    else:nav=nav.replace('  const SECTIONS = [','  const SECTIONS = [\n'+wrapped,1)
-    navfile.write_text(nav,encoding='utf-8')
+    # The shared Index keeps its original thematic hierarchy in assets/site-nav.js.
+    # Local discovery belongs inside States and the existing state/map pages.
     # The national map is an actual Wikimedia PNG. Labels navigate; they do not
     # claim exact electoral polygon picking. Keep the existing accessible cards.
     labels=[('wa','Western Australia','WA',94,178),('nt','Northern Territory','NT',226,112),('qld','Queensland','QLD',360,132),('sa','South Australia','SA',247,244),('nsw','New South Wales','NSW',358,286),('vic','Victoria','VIC',340,346),('tas','Tasmania','TAS',371,396),('act','Australian Capital Territory','ACT',401,316)]
@@ -307,4 +288,7 @@ def integrate(outputs):
         text=re.sub(r'<p class="state-map-source">[\s\S]*?</p>',lambda _:credit,text,count=1)
         file.write_text(text,encoding='utf-8')
 
-if __name__=='__main__': main()
+if __name__=='__main__':
+    main()
+    from national_place_links import apply_existing_links
+    apply_existing_links()

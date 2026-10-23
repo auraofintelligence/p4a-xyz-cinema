@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "title": "Coomalie — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-70700",
+    "kind": "council",
+    "name": "Coomalie",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/989",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/coomalie/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/989/id",
+      "expected": "nt-council-70700"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/989/name",
+      "expected": "Coomalie"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/989/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/989",
+      "expected": {
+        "id": "nt-council-70700",
+        "name": "Coomalie",
+        "slug": "coomalie",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "70700",
+        "officialUrl": "https://coomalie.nt.gov.au/our-councillors",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-coomalie",
+          "council-nt-2025-ballot-coomalie-adelaide-river-ward",
+          "council-nt-2025-ballot-coomalie-batchelor-township-ward",
+          "council-nt-2025-ballot-coomalie-coomalie-rural-ward"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Ross McGorman",
+            "role": "President",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Chris Whatley",
+            "role": "Deputy President",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Sharon Beswick",
+            "role": "Councillor",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Mae Mae Morrison",
+            "role": "Councillor",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Alan Roe",
+            "role": "Councillor",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          },
+          {
+            "name": "Greg Strettles",
+            "role": "Councillor",
+            "profileUrl": "https://coomalie.nt.gov.au/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-coomalie",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-70700-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-70700-ordinary-2025-adelaide-river-ward",
+            "label": "2025 Coomalie — Adelaide River Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+            "candidates": [
+              {
+                "name": "Sharon BESWICK",
+                "status": "official historical nominee",
+                "contest": "Adelaide River Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Alan ROE",
+                "status": "official historical nominee",
+                "contest": "Adelaide River Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Neil MACDONALD",
+                "status": "official historical nominee",
+                "contest": "Adelaide River Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Stephen Bones NOBLE",
+                "status": "official historical nominee",
+                "contest": "Adelaide River Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/adelaide-river",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-70700-ordinary-2025-batchelor-township-ward",
+            "label": "2025 Coomalie — Batchelor Township Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+            "candidates": [
+              {
+                "name": "Ross MCGORMAN",
+                "status": "official historical nominee",
+                "contest": "Batchelor Township Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Margaret COUPER",
+                "status": "official historical nominee",
+                "contest": "Batchelor Township Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Troy CROTON",
+                "status": "official historical nominee",
+                "contest": "Batchelor Township Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "MaeMae MORRISON",
+                "status": "official historical nominee",
+                "contest": "Batchelor Township Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mary ASHLEY",
+                "status": "official historical nominee",
+                "contest": "Batchelor Township Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/batchelor-township",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 5,
+              "retainedCandidateCount": 5,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-70700-ordinary-2025-coomalie-rural-ward",
+            "label": "2025 Coomalie — Coomalie Rural Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+            "candidates": [
+              {
+                "name": "Cheryl CAMPBELL",
+                "status": "official historical nominee",
+                "contest": "Coomalie Rural Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Cherrian LUXTON",
+                "status": "official historical nominee",
+                "contest": "Coomalie Rural Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Greg STRETTLES",
+                "status": "official historical nominee",
+                "contest": "Coomalie Rural Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Chris WHATLEY",
+                "status": "official historical nominee",
+                "contest": "Coomalie Rural Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/coomalie/list-of-candidates/coomalie-rural",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 4,
+              "retainedCandidateCount": 4,
+              "complete": true
+            }
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

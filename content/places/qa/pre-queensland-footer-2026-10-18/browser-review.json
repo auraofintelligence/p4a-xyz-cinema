@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-18",
+  "status": "PASS",
+  "scope": "Focused removal of misleading Culture navigation category, its shortcut/footer entry, five-theme layout and retained Genesis paths. Earlier navigation/source/map reviews retain their archived dated scope.",
+  "reason": "User chose deletion because the category incorrectly grouped clinical care, politics and fiction and implied cultural coverage the site does not have.",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "desktopViewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "userViewport": {
+      "width": 678,
+      "height": 884
+    },
+    "responsiveMethod": "Real same-origin iframe at 390 CSS px, fonts.ready and settled layout; not a physical phone or touch emulation."
+  },
+  "majorOrder": [
+    "start",
+    "spark",
+    "system",
+    "ground",
+    "states"
+  ],
+  "navigationCounts": {
+    "beforeEntries": 137,
+    "afterEntries": 132,
+    "uniqueDestinations": 132,
+    "removedEntries": 5,
+    "primaryIdeasRetained": 9,
+    "retainedSpecialistPagePaths": 5
+  },
+  "fixtures": [
+    {
+      "id": "culture-removed-index-shortcuts-footer",
+      "status": "PASS",
+      "metrics": {
+        "categories": [
+          {
+            "id": "start",
+            "label": "START HERE",
+            "number": "01"
+          },
+          {
+            "id": "spark",
+            "label": "THE SPARK",
+            "number": "02"
+          },
+          {
+            "id": "system",
+            "label": "THE SYSTEM",
+            "number": "03"
+          },
+          {
+            "id": "ground",
+            "label": "THE GROUND GAME",
+            "number": "04"
+          },
+          {
+            "id": "states",
+            "label": "STATES AND TERRITORIES",
+            "number": "05"
+          }
+        ],
+        "chosen": [
+          "Aura Genesis Protocol",
+          "Truth Engine",
+          "Musicverse",
+          "C-Hour & Braided Economy",
+          "Worker mutuals",
+          "Web3 Sensorium",
+          "Sovereignty Stack",
+          "Purple Synthesis",
+          "Cyber-Republic Simulator"
+        ],
+        "count": 132,
+        "cultureSectionPresent": false,
+        "footerColumns": "293.391px 293.391px",
+        "footerLabels": [
+          "START HERE",
+          "THE SPARK",
+          "THE SYSTEM",
+          "THE GROUND GAME",
+          "STATES AND TERRITORIES"
+        ],
+        "path": "/index.html",
+        "shortcutColumns": "192.594px 192.594px 192.594px",
+        "shortcuts": [
+          "start",
+          "spark",
+          "system",
+          "ground",
+          "states"
+        ],
+        "unique": 132,
+        "viewport": [
+          678,
+          884
+        ]
+      }
+    },
+    {
+      "id": "five-specialist-paths-retained-on-genesis",
+      "status": "PASS",
+      "metrics": {
+        "links": [
+          {
+            "href": "aura-politics.html",
+            "title": "candidate-mirror satire"
+          },
+          {
+            "href": "aura-clinical-path.html",
+            "title": "Clinical pathways"
+          },
+          {
+            "href": "dementia-aged-care.html",
+            "title": "dementia and aged care"
+          },
+          {
+            "href": "ptsd.html",
+            "title": "PTSD care and claims"
+          },
+          {
+            "href": "aura-politics.html",
+            "title": "Political what-if"
+          },
+          {
+            "href": "alien-necklace-film.html",
+            "title": "Alien Necklace film"
+          }
+        ],
+        "path": "/pages/aura-genesis.html"
+      }
+    },
+    {
+      "id": "five-theme-desktop-and-nine-start-ideas",
+      "status": "PASS",
+      "metrics": {
+        "cultureCount": 0,
+        "fontStatus": "loaded",
+        "footerColumns": "210.125px 210.125px 210.125px 210.125px 210.125px",
+        "overlay": {
+          "client": 1250,
+          "scroll": 1250,
+          "scrollTop": 0,
+          "width": 1265
+        },
+        "primary": [
+          {
+            "bottom": 422.125,
+            "text": "Aura Genesis Protocol",
+            "top": 354.21875
+          },
+          {
+            "bottom": 422.125,
+            "text": "Truth Engine",
+            "top": 354.21875
+          },
+          {
+            "bottom": 404.859375,
+            "text": "Musicverse",
+            "top": 354.21875
+          },
+          {
+            "bottom": 496.421875,
+            "text": "C-Hour & Braided Economy",
+            "top": 428.515625
+          },
+          {
+            "bottom": 479.15625,
+            "text": "Worker mutuals",
+            "top": 428.515625
+          },
+          {
+            "bottom": 496.421875,
+            "text": "Web3 Sensorium",
+            "top": 428.515625
+          },
+          {
+            "bottom": 570.71875,
+            "text": "Sovereignty Stack",
+            "top": 502.8125
+          },
+          {
+            "bottom": 570.71875,
+            "text": "Purple Synthesis",
+            "top": 502.8125
+          },
+          {
+            "bottom": 553.453125,
+            "text": "Cyber-Republic Simulator",
+            "top": 502.8125
+          }
+        ],
+        "sections": [
+          {
+            "category": "start",
+            "id": "index-start",
+            "open": true
+          },
+          {
+            "category": "spark",
+            "id": "index-spark",
+            "open": false
+          },
+          {
+            "category": "system",
+            "id": "index-system",
+            "open": false
+          },
+          {
+            "category": "ground",
+            "id": "index-ground",
+            "open": false
+          },
+          {
+            "category": "states",
+            "id": "index-states",
+            "open": false
+          }
+        ],
+        "shortcutColumns": "222.391px 222.406px 222.391px 222.406px 222.391px",
+        "startOpen": true,
+        "themeCount": 5,
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        }
+      }
+    },
+    {
+      "id": "clinical-path-without-culture-breadcrumb",
+      "status": "PASS",
+      "metrics": {
+        "crumbs": "HOME\n/\nROOMS\n/\nCLINICAL PATHWAYS",
+        "h1": "CLINICAL PATHWAYS",
+        "path": "/pages/aura-clinical-path.html",
+        "related": [
+          "dementia-aged-care.html",
+          "ptsd.html"
+        ]
+      }
+    },
+    {
+      "id": "states-shortcut-renumbered-05",
+      "status": "PASS",
+      "metrics": {
+        "cultureExists": false,
+        "id": "states",
+        "number": "05",
+        "open": true
+      }
+    },
+    {
+      "id": "five-themes-at-390-css-pixels",
+      "status": "PASS",
+      "metrics": {
+        "requestedWidth": 390,
+        "page": {
+          "innerWidth": 390,
+          "clientWidth": 375,
+          "scrollWidth": 375
+        },
+        "overlay": {
+          "clientWidth": 360,
+          "scrollWidth": 360,
+          "open": true
+        },
+        "sections": [
+          {
+            "category": "start",
+            "label": "START HERE",
+            "open": true,
+            "headingOverflow": false
+          },
+          {
+            "category": "spark",
+            "label": "THE SPARK",
+            "open": false,
+            "headingOverflow": false
+          },
+          {
+            "category": "system",
+            "label": "THE SYSTEM",
+            "open": false,
+            "headingOverflow": false
+          },
+          {
+            "category": "ground",
+            "label": "THE GROUND GAME",
+            "open": false,
+            "headingOverflow": false
+          },
+          {
+            "category": "states",
+            "label": "STATES AND TERRITORIES",
+            "open": false,
+            "headingOverflow": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sitemap-origins-music-imagination-label",
+      "status": "PASS",
+      "metrics": {
+        "groups": [
+          "Redlands: the local journey9 pages",
+          "Redlands: ten divisions10 pages",
+          "Start and find your bearings4 pages",
+          "Maps and places39 pages",
+          "Councils and local electoral areas1478 pages",
+          "State and territory electorates442 pages",
+          "Federal divisions and Senate representation159 pages",
+          "Everyday questions and policy ideas38 pages",
+          "Twinkles: one scene, one gripe, one breath50 pages",
+          "Systems and shared possibilities11 pages",
+          "Build, contribute and take part7 pages",
+          "Origins, music and imagination5 pages",
+          "Support and design4 pages",
+          "State and territory rooms34 pages",
+          "Connected projectsExternal sites and source libraries",
+          "For contributors and agentsRules and review trail"
+        ],
+        "path": "/pages/site-map.html",
+        "reviewDate": "18 October 2026",
+        "reviewIntro": "P4A · FIND YOUR WAY\n\nWhere would you like to go?\n\nStart with your place, a question, or an idea. Each path connects to evidence, people and ways to take part.\n\nNavigation updated 18 October 2026 · 2290 public pages. This date records the navigation review; facts keep their own source dates.\n\nFind my place\n\nUse a map, search an area, inspect it, then open its journey.\n\nChoose a "
+      }
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-culture-removal-2026-10-18/browser-review.json",
+  "testedPagePaths": [
+    "index.html",
+    "pages/places.html",
+    "pages/aura-genesis.html",
+    "pages/aura-clinical-path.html",
+    "pages/site-map.html",
+    "content/places/qa/navigation-fixture.html"
+  ],
+  "fixturePaths": [
+    "content/places/qa/navigation-fixture.html",
+    "content/places/qa/nav-no-culture-desktop.png"
+  ],
+  "limits": [
+    "No pages were deleted or relocated: the five specialist pages retain their existing clinical, political and fiction paths through Genesis. Musicverse content is unchanged.",
+    "The sitemap label now says Origins, music and imagination; its existing internal group id, routes and membership remain. This is not a claim of multicultural coverage.",
+    "This review covers changed navigation only; earlier search/keyboard, direct-destination, maps/source and typography evidence retains its dated archived scope.",
+    "No source, clinical accuracy, physical-device, screen-reader or complete per-place source review is claimed."
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d",
+      "bytes": 6817
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "c6bea74cbe929d1ea45a80a6bddf764324515ca8377ae578611f052a207541b2",
+      "bytes": 33422
+    },
+    {
+      "path": "content/places/qa/nav-no-culture-desktop.png",
+      "sha256": "5eef1b6a3c863a425e4c0ce26bb8ac1fc9065d9af17f1b1ab69a86edcf20c2f5",
+      "bytes": 82486
+    },
+    {
+      "path": "content/places/qa/navigation-fixture.html",
+      "sha256": "c490e9d9d9388c6eeea4c8733eadf079b80a727020518f32312a07d077637ce3",
+      "bytes": 5091
+    },
+    {
+      "path": "index.html",
+      "sha256": "de651150fea19188aaf9b4d21a9480413a0dd4fceaef0d7586a96745316e30b3",
+      "bytes": 32897
+    },
+    {
+      "path": "pages/aura-clinical-path.html",
+      "sha256": "4b16bf2ac2bbe68b2d6546ba1838fec1cd1849ca108e3c7b2945f2e4179c9597",
+      "bytes": 10437
+    },
+    {
+      "path": "pages/aura-genesis.html",
+      "sha256": "c7231d3cf79982994180cf8ba2f68e2e1d5eaba364c83db8943ad35d6c5ddd5c",
+      "bytes": 11084
+    },
+    {
+      "path": "pages/places.html",
+      "sha256": "c76661e48de9f43af531b6c2ba252de9eaf6ca36157dbbb072fec9707f8cd88d",
+      "bytes": 6569
+    },
+    {
+      "path": "pages/site-map.html",
+      "sha256": "3aff038d44caf300ae27e1bc1ca6da58f1905aa63b8610dd5883ce117dd6e3cc",
+      "bytes": 547738
+    },
+    {
+      "path": "styles.css",
+      "sha256": "a19bf3e8046105c39f7086b67a313f066202261e5a471b56c3ed25a61c00db37",
+      "bytes": 137195
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "46d998ef28b6f48998edb9e73b43905f133962b1ce287d1080abf43094784892",
+      "bytes": 36399
+    }
+  ]
+}

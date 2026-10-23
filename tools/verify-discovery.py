@@ -8,6 +8,7 @@ import re
 from urllib.parse import quote, unquote, urlparse
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
+from page_review_register import reviewed_page_entries
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,9 +35,7 @@ def verify(root=ROOT):
     check(set(paths) == actual, "Public HTML routes changed; rebuild the human sitemap and discovery files")
     check((root/"pages/site-map.html").read_bytes() == (root/"content/rooms/site-map.html").read_bytes(), "Human sitemap source and public copy differ")
 
-    register = json.loads((root / "content/history/civic-page-review-register-2026-10-17.json").read_text(encoding="utf-8"))
-    dates = {row["path"]: row["lastUpdated"] for group in register["pageGroups"] for row in group["pages"]}
-    dates.update({row["path"]: row["lastUpdated"] for row in register["updatedExistingPages"]})
+    dates = {row["path"]: row["lastUpdated"] for row in reviewed_page_entries(root)}
     check(set(dates) <= set(paths), "A review-register path is missing from the inventory")
 
     tree = ET.fromstring((root / "sitemap.xml").read_text(encoding="utf-8"))

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "title": "Waite — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "state-sa-sa18500103",
+    "kind": "state-district",
+    "name": "Waite",
+    "jurisdiction": "sa",
+    "chamber": "House of Assembly"
+  },
+  "canonicalInput": {
+    "path": "content/places/state.json",
+    "recordPointer": "/places/328",
+    "scope": "state"
+  },
+  "coverageNotes": [
+    "All 2026 ballot contestants retained. First preferences use official final distribution round 0, independently joined to the static ballot roster. Current members remain independently sourced from Parliament.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/sa/electorates/districts/waite/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/sa/places/state/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/328/id",
+      "expected": "state-sa-sa18500103"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/328/name",
+      "expected": "Waite"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/328/boundaryEdition",
+      "expected": "ECSA 2026 state election district viewer edition"
+    },
+    {
+      "path": "content/places/state.json",
+      "pointer": "/places/328",
+      "expected": {
+        "id": "state-sa-sa18500103",
+        "name": "Waite",
+        "slug": "waite",
+        "jurisdiction": "sa",
+        "kind": "state-district",
+        "chamber": "House of Assembly",
+        "layerId": "state-sa-assembly-2026",
+        "featureId": "waite",
+        "officialUrl": "https://www.ecsa.sa.gov.au",
+        "sources": [
+          "state-boundaries-sa",
+          "state-sa-map-geometry",
+          "state-sa-ha-api",
+          "state-sa-2026-ha-results",
+          "state-sa-2026-ha-change"
+        ],
+        "boundaryEdition": "ECSA 2026 state election district viewer edition",
+        "representatives": [
+          {
+            "name": "Catherine Hutchesson",
+            "role": "House of Assembly member",
+            "party": "ALP",
+            "profileUrl": "https://www.parliament.sa.gov.au/Search/Member?type=member&id=6896",
+            "sourceId": "state-sa-ha-api",
+            "checked": "2026-10-17"
+          }
+        ],
+        "elections": [
+          {
+            "id": "sa-ha-2026-waite",
+            "label": "2026 House of Assembly election",
+            "kind": "general-election",
+            "status": "historical",
+            "date": "2026-03-21",
+            "dateBasis": "Official ECSA state election results",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+            "resultsUrl": "https://result.ecsa.sa.gov.au/",
+            "boundaryEdition": "ECSA 2026 state election district viewer edition",
+            "resultStatus": "final",
+            "resultUpdated": "2026-09-21T14:59:56.227",
+            "candidates": [
+              {
+                "name": "GARGETT, Alec",
+                "party": "Independent",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 751,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "PAWLEY, Ross",
+                "party": "Australian Family Party",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 259,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "VON FRATTNER, Aaron",
+                "party": "Pauline Hanson's One Nation",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 3070,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "PANGALLO, Frank",
+                "party": "Liberal Party",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 4769,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "BRUMFIELD, Declan",
+                "party": "The Greens",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 4199,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "RUTA, Mark",
+                "party": "Sarah Game Fair Go for Australians",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 61,
+                "voteMeasure": "first preferences — final distribution round 0"
+              },
+              {
+                "name": "HUTCHESSON, Catherine",
+                "party": "Australian Labor Party",
+                "status": "contested",
+                "sourceUrl": "https://apim-ecsa-production.azure-api.net/results-display/HAChange/2026-03-21/0",
+                "votes": 12742,
+                "voteMeasure": "first preferences — final distribution round 0"
+              }
+            ]
+          },
+          {
+            "id": "sa-next-state-general",
+            "label": "Next ordinary SA state/territory election",
+            "kind": "general-election",
+            "status": "scheduled",
+            "date": "2030-03-16",
+            "dateBasis": "Ordinary statutory date: third Saturday in March; source calendar checked 2026-10-02",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "All 2026 ballot contestants retained. First preferences use official final distribution round 0, independently joined to the static ballot roster. Current members remain independently sourced from Parliament."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "state-sa-assembly-2025",
+            "featureId": "SA18500103",
+            "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
+            "status": "historical"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

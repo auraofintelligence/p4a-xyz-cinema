@@ -34,40 +34,30 @@
   ];
 
   const SECTIONS = [
-/* redland-navigation:start */
-    {
-      id: 'local-places', num: 'Local', label: 'Council journeys',
-      blurb: 'States → Queensland → councils → Redlands → divisions. Follow a local question into evidence, possibilities, participation and outcomes.',
-      links: [
-        { href: 'states/qld/councils/index.html', title: 'Queensland council map', note: 'Drag, zoom, search and select an actual council boundary. Redlands is the first full journey.' },
-        { href: 'states/qld/councils/redland/index.html', title: 'Redlands local journey', note: 'Start with your place, its map, statistics and a few useful paths.', footer: true },
-        { href: 'states/qld/councils/redland/divisions/index.html', title: 'Redlands divisions', note: 'Find one of the ten council divisions, then open its local overview.', footer: true },
-        { href: 'states/qld/councils/redland/explore/index.html', title: 'Redlands questions and Twinkles', note: 'Search everyday gripes, evidence, systems, data and lyric meanings.', footer: true },
-        { href: 'states/qld/councils/redland/possibilities/index.html', title: 'Redlands systems and possibilities', note: 'Connect local issues to wider proposals, their limits and the three accounts.' },
-        { href: 'states/qld/councils/redland/candidates/index.html', title: 'Redlands people and elections', note: 'Find public representatives, candidate evidence, votes, explanations and election stages.', footer: true },
-        { href: 'states/qld/councils/redland/action/index.html', title: 'Take part in Redlands', note: 'Prepare an observation, correction, offer or useful next step.' },
-        { href: 'states/qld/councils/redland/outcomes/index.html', title: 'Redlands outcomes', note: 'What it cost, what was given freely and what changed.', footer: true },
-        { href: 'states/qld/councils/redland/sources/index.html#review-register', title: 'Redlands sources and review dates', note: 'Review page changes, source periods, correction notes and refresh triggers.', footer: true }
-      ]
-    },
-/* redland-navigation:end */
     {
       id: 'start',
       num: '01',
       label: 'Start here',
-      blurb: 'The front door, the origin story and the maps that keep your bearings.',
+      blurb: 'Stories, care, truth and possibilities for a life worth living. Follow the idea that draws you in.',
       links: [
-        { href: 'index.html', title: 'Home', note: 'The doorway to the whole workbench.' },
-        { href: 'pages/joke.html', title: 'Started as a friendly bet', note: 'The origin note, before the machinery gets formal.' },
-        { href: 'pages/rabbit-hole.html', title: 'Rabbit-hole policies', note: 'All 49 policy solutions, key civic systems and connected source projects.' },
-        { href: 'pages/markdown-with-ai.html', title: 'Markdown with AI', note: 'Plain-English guide to .md files as civic memory.' },
-        { href: 'pages/maps.html', title: 'Geographic maps', note: 'Victoria electorates, councils, public recognition and state geography.' },
-        { href: 'pages/site-map.html', title: 'Site map', note: 'Choose a subject or place from a readable directory of the public site.' }
+        { href: 'pages/aura-genesis.html', title: 'Aura Genesis Protocol', note: 'A proposed personal Aura, shaped by your stories, values and hopes.', footer: true },
+        { href: 'pages/truth-engine.html', title: 'Truth Engine', note: 'Where claims come from, what is uncertain and how mistakes get repaired.', footer: true },
+        { href: 'pages/musicverse.html', title: 'Musicverse', note: 'Songs, myth and creative worlds that keep the work human.', footer: true },
+        { href: 'pages/braided-economy.html', title: 'C-Hour & Braided Economy', note: 'Care and freely given time recognised beside ordinary money.', footer: true },
+        { href: 'pages/workforce-transition.html', title: 'Worker mutuals', note: 'A shared stake in work, with learning, care and time for living.', footer: true },
+        { href: 'pages/web3-sensorium.html', title: 'Web3 Sensorium', note: 'Explore how community computing could serve people and places.', footer: true },
+        { href: 'pages/sovereignty-stack.html', title: 'Sovereignty Stack', note: 'A say over your digital life, your data and what you choose to share.', footer: true },
+        { href: 'pages/purple-synthesis.html', title: 'Purple Synthesis', note: 'Reciprocity and enterprise, brought together around a fair go.', footer: true },
+        { href: 'pages/cyber-republic.html', title: 'Cyber-Republic Simulator', note: 'Imagine and test democratic futures before choosing them.', footer: true },
+        { href: 'index.html', title: 'Home', note: 'The doorway to the whole workbench.', orientation: true },
+        { href: 'pages/joke.html', title: 'Started as a friendly bet', note: 'The origin note, before the machinery gets formal.', orientation: true },
+        { href: 'pages/civic-pathway.html', title: 'The civic pathway', note: 'The original journey through stories, everyday gripes and possible futures.', orientation: true },
+        { href: 'pages/rabbit-hole.html', title: 'Rabbit-hole policies', note: 'All 49 policy solutions and their connected source projects.', orientation: true },
+        { href: 'pages/markdown-with-ai.html', title: 'Markdown with AI', note: 'Plain-English guide to .md files as civic memory.', orientation: true },
+        { href: 'pages/maps.html', title: 'Geographic maps', note: 'Victoria electorates, councils, public recognition and state geography.', orientation: true },
+        { href: 'pages/site-map.html', title: 'Site map', note: 'Choose a subject or place from a readable directory of the public site.', orientation: true }
       ]
     },
-/* key-policy-navigation:start */
-{"id": "key-policies", "num": "Key", "label": "Key policy ideas", "blurb": "The core proposals connecting the Twinkle solutions.", "links": [{"href": "pages/rabbit-hole.html#key-c-hour", "title": "C-Hour", "note": "Recognise a verified voluntary hour of care, teaching or community work alongside ordinary money and paid work. C-Hours would have no fixed dollar equivalent and would not replace wages."}, {"href": "pages/rabbit-hole.html#key-worker-mutuals", "title": "Worker mutuals", "note": "Help workers gain a shared stake in productive businesses through willing succession, patient finance, mentoring and learning as they go. Mutual Futures connects ownership with livelihoods, care and time."}, {"href": "pages/web3-sensorium.html", "title": "Web3 Sensorium", "note": "Build the missing middle between a household laptop and a corporate data centre: community-scale computing, sovereign data and useful models of places, services and possible futures."}, {"href": "pages/aura-genesis.html", "title": "Aura Genesis Protocol", "note": "Understand the proposed process of guided reflection, personal AI and practical learning, with links to its source programme and research questions."}, {"href": "pages/truth-engine.html", "title": "Truth Engine", "note": "Make public claims traceable: show sources, uncertainty, contested interpretations and visible corrections. Connect honest politics to public evidence and accountability."}, {"href": "pages/legal-rag.html", "title": "Legal RAG", "note": "Use retrieval-augmented generation: find the relevant legal sources, explain their wording and follow the citations back. Connect Luke’s Relevance and the Legal Engine to contracts, disputes and reform design."}, {"href": "pages/cyber-republic.html", "title": "Cyber-Republic Simulator", "note": "Let people explore proposed constitutional and democratic changes before choosing them. Compare rules, powers and consequences through a public rehearsal that people can inspect and improve."}]},
-/* key-policy-navigation:end */
     {
       id: 'spark',
       num: '02',
@@ -133,26 +123,18 @@
       blurb: 'The serious rooms underneath: architecture, policy foundations, law, ledgers and rehearsal.',
       links: [
         { href: 'pages/price-tax.html', title: 'Price and tax', note: 'Beer tax, resource rent and the public return.' },
-        { href: 'pages/civic-pathway.html', title: 'Civic pathway', note: 'Origins, culture, organising and the broader civic journey.' },
         { href: 'pages/architecture.html', title: 'Civic architecture', note: 'Roots-up model: homes, neighbours, councils, states.' },
         { href: 'pages/constitution.html', title: 'Party constitution', note: 'The internal rulebook workbench.' },
         { href: 'pages/legal-rag.html', title: 'Law engine / Legal RAG', note: 'Legal memory, citations, limits, human review.' },
         { href: 'pages/about.html', title: 'About the workbench', note: 'What is implemented, source limits, project status and distinct sibling sites.' },
         { href: 'pages/treaty-atlas.html', title: 'Treaty atlas', note: 'Inherited agreements mapped: who they touch, who they serve, what to renew.' },
         { href: 'pages/civic-ledger.html', title: 'Civic ledger', note: 'Public records, contribution trails, repair memory.' },
-        { href: 'pages/truth-engine.html', title: 'Truth engine', note: 'Claim labels, correction paths, public audit trails.' },
-        { href: 'pages/sovereignty-stack.html', title: 'Sovereignty stack', note: 'Consent, identity, privacy and self-governance layers.' },
         { href: 'pages/fair-go.html', title: 'The fair go evolves', note: 'A familiar Australian value moved into modern systems.' },
-        { href: 'pages/purple-synthesis.html', title: 'Purple synthesis', note: 'Market efficiency plus community reciprocity.' },
-        { href: 'pages/braided-economy.html', title: 'Braided economy', note: 'Money, care, contribution, transparent support.' },
         { href: 'pages/housing-simulations.html', title: 'Housing simulations', note: 'Housing as a right: models, C-Hours, ending homelessness.' },
         { href: 'pages/public-assets.html', title: 'Public assets', note: 'Tolls, leases, ownership and long public memory.' },
         { href: 'pages/food-security.html', title: 'Food security', note: 'Waste, local production, logistics, resilience.' },
         { href: 'pages/community-insurance.html', title: 'Risk and mutual care', note: 'AI legal and contract support, then mutual protection.' },
-        { href: 'pages/workforce-transition.html', title: 'Workforce transition', note: 'Worker mutuals, C-Hours, patient capital and AI learning.' },
         { href: 'pages/civic-surges.html', title: 'Civic surges', note: 'Volunteer energy and practical mobilisation.' },
-        { href: 'pages/web3-sensorium.html', title: 'Web3 sensorium', note: 'Open data, digital twins, human-reviewed simulation.' },
-        { href: 'pages/cyber-republic.html', title: 'Referendum rehearsal', note: 'A national simulator fed by local proof.' },
         { href: 'pages/family-violence.html', title: 'Violence against women', note: 'Safety, housing, prevention and recovery.' },
         { href: 'pages/ai-copyright.html', title: 'AI copyright', note: 'Public choices and participation.' },
         { href: 'pages/child-safety.html', title: 'Child safety', note: 'Public choices and participation.' },
@@ -202,35 +184,33 @@
       ]
     },
     {
-      id: 'culture',
-      num: '05',
-      label: 'Culture',
-      blurb: 'Songs, myth and the creative worlds that keep the rest human.',
-      links: [
-        { href: 'pages/musicverse.html', title: 'Musicverse', note: 'i C. infinity, P4A songs and culture hooks.' },
-        { href: 'pages/aura-politics.html', title: 'Aura politics', note: 'AI, care, public trust and civic architecture.' },
-        { href: 'pages/aura-genesis.html', title: 'Aura Genesis Protocol', note: 'Guided reflection, personal AI, learning and supporting research.' },
-        { href: 'pages/aura-clinical-path.html', title: 'Clinical pathways', note: 'From a care task through consent, evaluation and professional responsibility.' },
-        { href: 'pages/dementia-aged-care.html', title: 'Dementia and aged care', note: 'Digital memoirs, everyday preferences, carers, consent and research evidence.' },
-        { href: 'pages/ptsd.html', title: 'PTSD care and claims', note: 'Named human support, consent, continuity and claims coordination.' },
-        { href: 'pages/alien-necklace-film.html', title: 'Alien necklace film', note: 'Fiction threshold and creative world-building.' }
-      ]
-    },
-    {
       id: 'states',
-      num: '06',
+      num: '05',
       label: 'States and territories',
-      blurb: 'Eight portals with election clocks, chamber maps, histories and constitution rooms. Victoria has a state electorate atlas; a federal electorate atlas is still to be built.',
+      blurb: 'Eight portals with election clocks, chamber maps, histories and constitution rooms. The national place directories connect council, state electorate, House and Senate pages; Victoria also retains its deeper atlas.',
+      // One portal per state or territory in the national footer. Specialist
+      // place links remain in the full Index and their deeper local paths.
+      footerLabel: 'Australia',
+      footerLinks: STATES.map((state) => ({ href: `states/${state.slug}/index.html`, title: state.name })),
       links: [
         { href: 'states/vic/election/index.html', title: 'Victoria election 2026', note: 'Dates, participation routes and sourced candidate announcements.' },
         { href: 'states/vic/map/index.html?chamber=firstpeoples&recognition=rap,rsa', title: 'Victoria First Peoples recognition', note: 'Community sources, RAP and settlement recognition; not a complete map of Country.' },
         { href: 'states/vic/map/index.html', title: 'Victoria state electorate atlas', note: 'Official districts and upper-house regions, with sourced statistics and public member records.' },
         { href: 'pages/states.html', title: 'National state map', note: 'All eight portals from one map.' },
-        { href: 'pages/state-history.html', title: 'State histories', note: 'Jurisdiction histories generated from Markdown.' }
+        { href: 'pages/state-history.html', title: 'State histories', note: 'Jurisdiction histories generated from Markdown.' },
+        { href: 'pages/places.html', title: 'Find a council or electorate', note: 'Choose a jurisdiction, then its council, state or federal areas.' },
+        { href: 'states/qld/councils/redland/index.html', title: 'Redlands local journey', note: 'A deeper local example, reached through Queensland and its council map.' }
       ],
       states: true
     }
   ];
+
+  // Keep the five reviewed themes prominent; Culture was removed by user request.
+  const MAJOR_ORDER = ['start', 'spark', 'system', 'ground', 'states'];
+  const INDEX_SECTIONS = [...SECTIONS].sort((a, b) => {
+    const rank = id => MAJOR_ORDER.includes(id) ? MAJOR_ORDER.indexOf(id) : MAJOR_ORDER.length;
+    return rank(a.id) - rank(b.id);
+  });
 
   const EXTERNAL = [
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema', title: 'Fork on GitHub' },
@@ -249,23 +229,27 @@
 
   /* ---------- Full-screen index ---------- */
   const sectionMarkup = (section) => {
-    const links = section.links.map((link) => `
+    const renderLinks = (links) => links.map((link) => `
       <li data-index-item>
         <a href="${P}${link.href}"${isCurrent(link.href) ? ' aria-current="page"' : ''}>
           <strong>${link.title}</strong>
           <em>${link.note}</em>
         </a>
       </li>`).join('');
+    const links = renderLinks(section.links.filter(link => !link.orientation));
+    const orientation = section.links.filter(link => link.orientation);
+    const bearings = orientation.length ? `<nav class="index-bearings" aria-label="Origins and finding your way"><span>Origins & finding your way</span><ul class="index-links">${renderLinks(orientation)}</ul></nav>` : '';
     const states = section.states ? `
       <ul class="index-states" aria-label="State and territory portals">
         ${STATES.map((s) => `<li data-index-item><a href="${P}states/${s.slug}/index.html"${isCurrent('states/' + s.slug + '/index.html') ? ' aria-current="page"' : ''}><strong>${s.slug.toUpperCase()}</strong><em>${s.name}</em></a></li>`).join('')}
       </ul>` : '';
     return `
-    <section class="index-section" data-index-section>
-      <header><span>${section.num}</span><h2>${section.label}</h2><p>${section.blurb}</p></header>
+    <details class="index-section" id="index-${section.id}" data-index-section data-index-category="${section.id}"${section.id === 'start' ? ' open' : ''}>
+      <summary><span class="index-section-number">${section.num}</span><h2>${section.label}</h2><span class="index-section-note">${section.blurb}</span><span class="index-section-count">Browse ${section.links.length + (section.states ? STATES.length : 0)} pages</span></summary>
       <ul class="index-links">${links}</ul>
+      ${bearings}
       ${states}
-    </section>`;
+    </details>`;
   };
 
   const overlay = document.createElement('div');
@@ -285,8 +269,9 @@
         </label>
         <button class="index-close" type="button" data-menu-close aria-label="Close index">Close</button>
       </div>
+      <nav class="index-themes" aria-label="Major themes">${INDEX_SECTIONS.filter(section => MAJOR_ORDER.includes(section.id)).map(section => `<button type="button" data-index-jump="${section.id}" aria-controls="index-${section.id}"><span>${section.num}</span>${section.label}</button>`).join('')}</nav>
       <p class="index-count" data-index-count aria-live="polite"></p>
-      <div class="index-grid">${SECTIONS.map(sectionMarkup).join('')}</div>
+      <div class="index-grid">${INDEX_SECTIONS.map(sectionMarkup).join('')}</div>
       <footer class="index-foot">
         ${EXTERNAL.map((l) => `<a href="${l.href}" target="_blank" rel="noopener noreferrer">${l.title}</a>`).join('')}
       </footer>
@@ -308,8 +293,11 @@
   };
   setCount(items.length);
 
+  let filtering = false;
+  let expandedBeforeFilter = new Set();
   const filterIndex = () => {
     const q = (searchInput.value || '').trim().toLowerCase();
+    if (q && !filtering) expandedBeforeFilter = new Set(sections.filter(section => section.open));
     let visible = 0;
     items.forEach((item) => {
       const match = !q || item.textContent.toLowerCase().includes(q);
@@ -319,15 +307,33 @@
     sections.forEach((section) => {
       const any = Array.from(section.querySelectorAll('[data-index-item]')).some((i) => !i.hidden);
       section.classList.toggle('is-empty', !any);
+      if (q) section.open = any;
+      else if (filtering) section.open = expandedBeforeFilter.has(section);
     });
+    filtering = Boolean(q);
     setCount(visible);
   };
   searchInput.addEventListener('input', filterIndex);
+  overlay.querySelectorAll('[data-index-jump]').forEach(button => {
+    button.addEventListener('click', () => {
+      searchInput.value = '';
+      filterIndex();
+      const section = sections.find(item => item.dataset.indexCategory === button.dataset.indexJump);
+      if (!section) return;
+      section.open = true;
+      section.scrollIntoView({ block: 'start' });
+      section.querySelector('summary').focus({ preventScroll: true });
+    });
+  });
 
   const setExpanded = (value) => toggles.forEach((t) => t.setAttribute('aria-expanded', String(value)));
   const openIndex = () => {
     lastFocus = document.activeElement;
+    searchInput.value = '';
+    filterIndex();
+    sections.find(section => section.dataset.indexCategory === 'start').open = true;
     overlay.hidden = false;
+    overlay.scrollTop = 0;
     document.body.classList.add('index-open');
     setExpanded(true);
     requestAnimationFrame(() => {
@@ -354,7 +360,7 @@
     if (overlay.hidden) return;
     if (event.key === 'Escape') { closeIndex(); return; }
     if (event.key !== 'Tab') return;
-    const focusables = Array.from(overlay.querySelectorAll('a, button, input')).filter((el) => !el.hidden && el.offsetParent !== null);
+    const focusables = Array.from(overlay.querySelectorAll('a, button, input, summary')).filter((el) => !el.hidden && el.offsetParent !== null);
     if (!focusables.length) return;
     const first = focusables[0];
     const last = focusables[focusables.length - 1];
@@ -386,7 +392,7 @@
 
   /* ---------- Breadcrumb (topic pages only; state pages keep their layer strip) ---------- */
   const findPage = () => {
-    for (const section of SECTIONS) {
+    for (const section of INDEX_SECTIONS) {
       for (const link of section.links) {
         if (isCurrent(link.href)) return { section, link };
       }
@@ -426,14 +432,14 @@
     const explore = document.createElement('nav');
     explore.className = 'footer-index';
     explore.setAttribute('aria-label', 'Explore the workbench');
-    explore.innerHTML = SECTIONS.map((section) => {
+    explore.innerHTML = INDEX_SECTIONS.map((section) => {
       const chosen = section.links.filter((link) => link.footer);
-      const footerLinks = chosen.length ? chosen : section.links.slice(0, 6);
+      const footerLinks = section.footerLinks || (chosen.length ? chosen : section.links.slice(0, 6));
       return `
       <div>
-        <strong>${section.label}</strong>
+        <strong>${section.footerLabel || section.label}</strong>
         <ul>${footerLinks.map((link) => `<li><a href="${P}${link.href}">${link.title}</a></li>`).join('')}
-        ${section.states ? `<li class="footer-state-row">${STATES.map((s) => `<a href="${P}states/${s.slug}/index.html">${s.slug.toUpperCase()}</a>`).join('')}</li>` : ''}</ul>
+        ${section.states && !section.footerLinks ? `<li class="footer-state-row">${STATES.map((s) => `<a href="${P}states/${s.slug}/index.html">${s.slug.toUpperCase()}</a>`).join('')}</li>` : ''}</ul>
       </div>`;
     }).join('');
     footer.insertAdjacentElement('afterbegin', explore);

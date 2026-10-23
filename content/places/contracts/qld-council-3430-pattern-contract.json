@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 1,
+  "title": "Gold Coast City — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "qld-council-3430",
+    "kind": "council",
+    "name": "Gold Coast City",
+    "jurisdiction": "qld"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/28",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+    "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked17October2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+    "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+    "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+    "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/qld/councils/gold-coast-city/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/qld/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/28/id",
+      "expected": "qld-council-3430"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/28/name",
+      "expected": "Gold Coast City"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/28/boundaryEdition",
+      "expected": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/28",
+      "expected": {
+        "id": "qld-council-3430",
+        "name": "Gold Coast City",
+        "slug": "gold-coast-city",
+        "jurisdiction": "qld",
+        "kind": "council",
+        "layerId": "council-qld",
+        "featureId": "3430",
+        "officialUrl": "https://www.goldcoast.qld.gov.au/",
+        "sources": [
+          "council-qld-boundaries",
+          "council-qld-election-rule-web",
+          "council-qld-2024-browser-verified-xml",
+          "council-qld-2024-browser-verified-xml-acquisition",
+          "council-qld-2024-browser-verified-xml-tsirc-postponement",
+          "council-qld-current-leaders-browser"
+        ],
+        "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
+        "representatives": [
+          {
+            "name": "Tom Tate",
+            "role": "Mayor",
+            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
+            "profileType": "official current-member directory roster",
+            "website": "https://www.goldcoast.qld.gov.au/",
+            "sourceId": "council-qld-current-leaders-browser",
+            "checked": "2026-10-17",
+            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+          }
+        ],
+        "elections": [
+          {
+            "id": "qld-council-3430-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "scheduled",
+            "date": "2028-03-25",
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "milestoneLabel": "scheduled ordinary election day"
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-029",
+            "label": "2024 Gold Coast City — Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+            "candidates": [
+              {
+                "name": "TATE, Tom",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 170150,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PEAD, Gary",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 6846,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DUNSMORE, Danielle",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 25983,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "FREEBODY, Virginia",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 7800,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "FOSTER, Rosie",
+                "ballotOrder": 5,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 14642,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LAMBERT, Brett",
+                "ballotOrder": 6,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 7581,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HORSBURGH, Jennifer",
+                "ballotOrder": 7,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "party": "Animal Justice Party (Queensland)",
+                "votes": 18130,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SARROFF, Eddy",
+                "ballotOrder": 8,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 68061,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "RAMPINO, Lavinia",
+                "ballotOrder": 9,
+                "status": "contested this2024 event",
+                "contest": "Mayor",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/029",
+                "votes": 9137,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02901",
+            "label": "2024 Gold Coast City — Gold Coast City Division 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+            "candidates": [
+              {
+                "name": "FINDLAY, Lisa",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+                "party": "Animal Justice Party (Queensland)",
+                "votes": 5810,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HAMMEL, Mark",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 1",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02901",
+                "votes": 19347,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02910",
+            "label": "2024 Gold Coast City — Gold Coast City Division 10",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+            "candidates": [
+              {
+                "name": "TAYLOR, Darren A",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 10",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+                "votes": 14198,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HECKE, Mona",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 10",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02910",
+                "votes": 9279,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02911",
+            "label": "2024 Gold Coast City — Gold Coast City Division 11",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+            "candidates": [
+              {
+                "name": "RONE, Nicholas",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 11",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+                "votes": 9207,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DORAN, Dan",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 11",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02911",
+                "votes": 14189,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02912",
+            "label": "2024 Gold Coast City — Gold Coast City Division 12",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+            "candidates": [
+              {
+                "name": "OSBORNE, Cathy",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 12",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "votes": 7450,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "HENDERSON, Luke",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 12",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "votes": 6401,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MARSHALL, Nick",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 12",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02912",
+                "votes": 8392,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02913",
+            "label": "2024 Gold Coast City — Gold Coast City Division 13",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+            "candidates": [
+              {
+                "name": "ARCHER, Nikki",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 13",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+                "votes": 9896,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MARTIN, Josh",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 13",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02913",
+                "votes": 12015,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02914",
+            "label": "2024 Gold Coast City — Gold Coast City Division 14",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+            "candidates": [
+              {
+                "name": "THEAKSTONE, Benjamin",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "party": "Animal Justice Party (Queensland)",
+                "votes": 2132,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "DOWN, Kath",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "votes": 9451,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "O'NEILL, Gail",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 14",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02914",
+                "votes": 9844,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02902",
+            "label": "2024 Gold Coast City — Gold Coast City Division 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+            "candidates": [
+              {
+                "name": "FINDLAY, Ben",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+                "votes": 6807,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "FOWLER, Naomi",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 2",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02902",
+                "votes": 18734,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02903",
+            "label": "2024 Gold Coast City — Gold Coast City Division 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+            "candidates": [
+              {
+                "name": "REVELL, Tamzin",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "votes": 2222,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BANHAM, Michael",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "votes": 5233,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "GATES, Donna",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 3",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02903",
+                "votes": 15852,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02904",
+            "label": "2024 Gold Coast City — Gold Coast City Division 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02904",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02904",
+            "candidates": [
+              {
+                "name": "CURTIS, Shelley",
+                "ballotOrder": 1,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 4",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02904",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02904"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate.",
+            "sourceNote": "The archive lists ballot candidates and declarations but supplies no official first-preference count for this contest. No vote values are invented."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02905",
+            "label": "2024 Gold Coast City — Gold Coast City Division 5",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+            "candidates": [
+              {
+                "name": "BROOKE, Katherine",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "votes": 3797,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "VINCENT, Martin",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "votes": 5106,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BASTIN, Craig",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "votes": 574,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "YOUNG, Peter",
+                "ballotOrder": 4,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 5",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02905",
+                "votes": 15349,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02906",
+            "label": "2024 Gold Coast City — Gold Coast City Division 6",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+            "candidates": [
+              {
+                "name": "DELMEGE, Samantha",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "votes": 8422,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WOODLEY, David E",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "votes": 2055,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "PATTERSON, Brooke",
+                "ballotOrder": 3,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 6",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02906",
+                "votes": 10820,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02907",
+            "label": "2024 Gold Coast City — Gold Coast City Division 7",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+            "candidates": [
+              {
+                "name": "BYATT, Bruce",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 1460,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "BAYLDON-LUMSDEN, Ryan",
+                "ballotOrder": 2,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 5234,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SARROFF, Edward",
+                "ballotOrder": 3,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 3016,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "MCINNES, Joel",
+                "ballotOrder": 4,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 3285,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "WILKINSON, Joe",
+                "ballotOrder": 5,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 5882,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "SCHROEDER, Jenna",
+                "ballotOrder": 6,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 7",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02907",
+                "votes": 5311,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02908",
+            "label": "2024 Gold Coast City — Gold Coast City Division 8",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+            "candidates": [
+              {
+                "name": "JEREMIAH, Monique",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+                "votes": 7813,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "LA CASTRA, Bob",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 8",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02908",
+                "votes": 14463,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "qld-council-3430-ordinary-2024-02909",
+            "label": "2024 Gold Coast City — Gold Coast City Division 9",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-03-16",
+            "timezone": "Australia/Brisbane",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "ECQ2024 local ordinary election archive; jurisdiction ordinary day16 March 2024. Any council-specific postponed polling day requires its own notice. First preferences are only the expressly official count; no count is invented where absent.",
+            "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+            "resultsUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+            "candidates": [
+              {
+                "name": "DENNY, Sarah",
+                "ballotOrder": 1,
+                "status": "contested this2024 event",
+                "contest": "Gold Coast City Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+                "votes": 7422,
+                "voteMeasure": "first preference votes"
+              },
+              {
+                "name": "TOZER, Glenn",
+                "ballotOrder": 2,
+                "status": "declared elected in this2024 event",
+                "contest": "Gold Coast City Division 9",
+                "sourceId": "council-qld-2024-browser-verified-xml",
+                "sourceUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+                "profileUrl": "https://results.elections.qld.gov.au/2024QLGE/02909",
+                "votes": 16589,
+                "voteMeasure": "first preference votes"
+              }
+            ],
+            "votingSystem": "Optional Preferential",
+            "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          }
+        ],
+        "coverageNotes": [
+          "Current individual councillor roster, personal public profiles and complete previous contestants require council-level source reconciliation.",
+          "All2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked17October2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
+          "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
+          "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

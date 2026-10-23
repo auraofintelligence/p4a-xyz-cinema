@@ -16,6 +16,7 @@ Run from the repository root with Python and Node available:
 
 ```text
 python tools/verify-place-contracts.py
+python tools/verify-national-places.py --source-hashes --no-write
 python tools/verify-redland.py
 python tools/verify-discovery.py
 python tools/verify-vic-map.py
@@ -23,6 +24,9 @@ python tools/verify-vic-numbers.py
 python tools/verify-vic-councils.py
 node tools/check-redland-clock.mjs
 node --check assets/qld-council-map.js
+node tools/check-civic-geometry.mjs
+node tools/check-civic-delivery.mjs
+node tools/check-civic-clocks.mjs
 ```
 
 A static pass preserves the dated review evidence; it is not a fresh source, legal, editorial or browser review. Follow the acceptance guide when source data or an implementation changes.
@@ -35,11 +39,13 @@ python scripts/prepare-github-upload.py
 
 The output goes to `../_upload-ready/`, outside this checkout. The ZIP contains the complete current public-source allowlist, including existing uncommitted public work from earlier sessions. It is a source snapshot, not a selective patch or a new repository. Preserve the destination repository's `.git` history when applying it.
 
-The adjacent JSON manifest lists every included path, byte count and SHA-256 hash. The tool checks tracked-file completeness, public path boundaries, common credential signatures, per-file size and ZIP readback. It preserves CNAME `p4a.xyz`, licences and source maps, the public AUKUS submission and the linked backend documentation. `.gitattributes` preserves raw GeoJSON bytes, including nested Redland geometry.
+The adjacent JSON manifest lists every included path, byte count and SHA-256 hash. The tool checks tracked-file completeness, public path boundaries, common credential signatures, per-file size and ZIP readback. It preserves CNAME `p4a.xyz`, licences and source maps, the public AUKUS submission and the linked backend documentation. `.gitattributes` preserves exact geometry and fingerprinted public evidence bytes across Windows/Linux checkouts. Do not normalize these originals or regenerate saved acceptance reports in CI; `--no-write` repeats national structural checks without replacing their reviewed evidence.
 
 The root discovery files `robots.txt`, `sitemap.xml` and `llms.txt` are included. On the custom domain the effective crawler policy belongs at `https://p4a.xyz/robots.txt`; the local files do not affect the live site until uploaded. They preserve existing rights and add no reuse permission. See [discovery maintenance](discovery-and-rights.md).
 
 Only the reviewed `qa/redland-20261017/` folder is included from local QA. Browser profiles, sessions and caches, dependencies, bytecode, environment/key files, temporary files and upload output are excluded. The local browser profile is over 1 GB and is not site source. Existing tracked QA under `tools/` remains part of the source snapshot.
+
+National QA reports and minimal reproducible fixtures under `content/places/qa/` are public evidence. Full original research downloads under `content/places/raw/` stay local; an absent raw snapshot is distinct from an absent mandatory map asset. The retention register excludes the optional expanded 179 MB TAS Council GeoJSON; its exact licensed gzip remains mandatory and preserves all vertices/rings. Use a separate output for the balanced Australia footer, for example `--output-dir ../_upload-ready/national-expansion-2026-10-18-australia-footer`. The Australia footer has one portal for each of all eight states/territories, no repeated chips or specialist links; the full Index stays five themes/132 unique destinations/nine Start ideas. This replaces the interim Queensland-priority plan without new topic pages. Current national/browser/contracts/discovery checks are pending; completed Culture-removal acceptance is retained in `content/places/qa/pre-queensland-footer-2026-10-18/`. Culture-removed and earlier bundles remain superseded history. The adjacent external manifest records actual preparation/archive outcome, path hashes and byte verification outside source. This document claims no package PASS/archive SHA before creation and does not reuse an earlier manifest as current evidence.
 
 ## Apply and upload
 
@@ -48,5 +54,7 @@ Use the existing Git checkout or apply the snapshot to a clean checkout of the s
 Review the staged diff, commit with a description of the final change, and push only when upload is authorised. Check the new Actions run. Keep the existing custom domain and Pages settings unless a separate hosting change is requested. `.nojekyll` keeps this buildless static tree usable with a branch-based Pages setup; no new hosting registration or account is needed.
 
 ## Source references for the workflow
+
+The recovered national expansion was explicitly authorised for focused publication on 23 October 2026. See the [publication review](releases/2026-10-23-national-expansion-publication.md) and its actual validation/browser/contract reports; earlier pending statements above retain their 17-18 October scope. The publication keeps optional expanded map duplicates over 25 MiB local and uses their exact lossless gzip originals, preserving all coordinates while keeping the public tree below GitHub Pages' 1 GB site limit. Preserve those canonical gzip paths on later merges and rerun the affected checks. Commit, push and deployment outcomes must still be verified rather than inferred from a local package.
 
 The workflow uses the official [checkout](https://github.com/actions/checkout), [Python setup](https://github.com/actions/setup-python) and [Node setup](https://github.com/actions/setup-node) actions. Their documented v7 usage was checked on 17 October 2026. Recheck the official action documentation before a future version change.

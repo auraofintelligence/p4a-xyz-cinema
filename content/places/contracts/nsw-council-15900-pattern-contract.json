@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "title": "Newcastle — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-15900",
+    "kind": "council",
+    "name": "Newcastle",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/703",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/newcastle/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/703/id",
+      "expected": "nsw-council-15900"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/703/name",
+      "expected": "Newcastle"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/703/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/703",
+      "expected": {
+        "id": "nsw-council-15900",
+        "name": "Newcastle",
+        "slug": "newcastle",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9717",
+        "officialUrl": "https://www.newcastle.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-newcastle-mayor",
+          "council-nsw-2024-newcastle-ward-1",
+          "council-nsw-2024-newcastle-ward-2",
+          "council-nsw-2024-newcastle-ward-3",
+          "council-nsw-2024-newcastle-ward-4"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Gavin Morris",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Charlotte McCabe",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Elizabeth Adamczyk",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jenny Barrie",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mark Brooker",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Declan Clausen",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Peter Gittins",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Siobhan Isherwood",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Paige Johnson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Joel Pringle",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Callum Pull",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Deahnna Richardson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Peta Winney-Baartz",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.newcastle.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-15900-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-15900-ordinary-2024-mayor",
+            "label": "2024 Newcastle â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+            "candidates": [
+              {
+                "name": "O'BRIEN Steve",
+                "status": "contested",
+                "votes": 2662,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "Socialist Alliance"
+              },
+              {
+                "name": "CAINE Milton",
+                "status": "contested",
+                "votes": 2965,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "KERRIDGE Ross",
+                "status": "elected",
+                "votes": 35350,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "Independent"
+              },
+              {
+                "name": "PULL Callum",
+                "status": "contested",
+                "votes": 13167,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "The Liberal Party Of Australia, New South Wales Division"
+              },
+              {
+                "name": "NELMES Nuatali",
+                "status": "contested",
+                "votes": 32759,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              },
+              {
+                "name": "McCABE Charlotte",
+                "status": "contested",
+                "votes": 15656,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/mayoral",
+                "party": "The Greens NSW"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15900-ordinary-2024-ward-1",
+            "label": "2024 Newcastle â€” Ward 1",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+            "candidates": [
+              {
+                "name": "McCABE Charlotte",
+                "status": "elected",
+                "votes": 394,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BURGESS Catherine",
+                "status": "contested",
+                "votes": 36,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WEST Simon",
+                "status": "contested",
+                "votes": 21,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "CLAUSEN Declan",
+                "status": "elected",
+                "votes": 287,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FELTHAM Sandra",
+                "status": "contested",
+                "votes": 106,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SMOOTHY Rachel",
+                "status": "contested",
+                "votes": 81,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "O'BRIEN Steve",
+                "status": "contested",
+                "votes": 68,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "SOCIALIST ALLIANCE"
+              },
+              {
+                "name": "ASHBY Samantha",
+                "status": "contested",
+                "votes": 9,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "SOCIALIST ALLIANCE"
+              },
+              {
+                "name": "STRAZZARI Stefani",
+                "status": "contested",
+                "votes": 5,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "SOCIALIST ALLIANCE"
+              },
+              {
+                "name": "MANNING Rochelle",
+                "status": "contested",
+                "votes": 194,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "LEE Lucas",
+                "status": "contested",
+                "votes": 29,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "PEEBLES Colin",
+                "status": "contested",
+                "votes": 15,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "KERRIDGE Ross",
+                "status": "contested",
+                "votes": 1002,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              },
+              {
+                "name": "GITTINS Peter",
+                "status": "elected",
+                "votes": 13,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              },
+              {
+                "name": "COKER Emily",
+                "status": "contested",
+                "votes": 19,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              },
+              {
+                "name": "OSLAND Grant",
+                "status": "contested",
+                "votes": 37,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              },
+              {
+                "name": "MACKENZIE Deborah",
+                "status": "contested",
+                "votes": 50,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1369,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 1",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-1/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15900-ordinary-2024-ward-2",
+            "label": "2024 Newcastle â€” Ward 2",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+            "candidates": [
+              {
+                "name": "PRINGLE Joel",
+                "status": "elected",
+                "votes": 292,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "GILES Greg",
+                "status": "contested",
+                "votes": 34,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "McAULEY Sophie",
+                "status": "contested",
+                "votes": 153,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BARRIE Jenny",
+                "status": "elected",
+                "votes": 280,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MCNAMARA Paul",
+                "status": "contested",
+                "votes": 122,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "MANN Natarsha",
+                "status": "contested",
+                "votes": 33,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "JOHNSON Paige",
+                "status": "elected",
+                "votes": 419,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DUNCAN Carol",
+                "status": "contested",
+                "votes": 244,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CLARK Justine",
+                "status": "contested",
+                "votes": 64,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "PARKINSON Leisha",
+                "status": "contested",
+                "votes": 511,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor"
+              },
+              {
+                "name": "BEACH John",
+                "status": "contested",
+                "votes": 167,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor"
+              },
+              {
+                "name": "EVERINGHAM Christine",
+                "status": "contested",
+                "votes": 76,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1534,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 2",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-2/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15900-ordinary-2024-ward-3",
+            "label": "2024 Newcastle â€” Ward 3",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+            "candidates": [
+              {
+                "name": "FRANCIS-COAN Sinead",
+                "status": "elected",
+                "votes": 287,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ISHERWOOD Siobhan",
+                "status": "contested",
+                "votes": 59,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "ROOKE-FRIZELL Anne",
+                "status": "contested",
+                "votes": 74,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "NELMES Nuatali",
+                "status": "elected",
+                "votes": 585,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WINNEY-BAARTZ Peta",
+                "status": "contested",
+                "votes": 89,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WOOD Margaret",
+                "status": "contested",
+                "votes": 95,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "MILLARD Phillip",
+                "status": "contested",
+                "votes": 55,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "BROOKER Mark",
+                "status": "elected",
+                "votes": 679,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "BROWN Michelle",
+                "status": "contested",
+                "votes": 89,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "LOCHRIN Alyssa",
+                "status": "contested",
+                "votes": 41,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "WARK Katrina",
+                "status": "contested",
+                "votes": 229,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "CAINE Milton",
+                "status": "contested",
+                "votes": 87,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "WEATHERSTONE Andrew",
+                "status": "contested",
+                "votes": 22,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1765,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 3",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-3/councillor"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-15900-ordinary-2024-ward-4",
+            "label": "2024 Newcastle â€” Ward 4",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+            "candidates": [
+              {
+                "name": "ADAMCZYK Elizabeth",
+                "status": "elected",
+                "votes": 507,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "RICHARDSON Deahnna",
+                "status": "elected",
+                "votes": 170,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SCOTT Jimmy",
+                "status": "contested",
+                "votes": 172,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "WATKINS Rebecca",
+                "status": "contested",
+                "votes": 237,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WHITTALL Graham",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "MAHER Phillip",
+                "status": "contested",
+                "votes": 23,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "PULL Callum",
+                "status": "elected",
+                "votes": 423,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "GIGLI Beniamino",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "HAYES Edward",
+                "status": "contested",
+                "votes": 28,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "KELSO Tahlia",
+                "status": "contested",
+                "votes": 368,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              },
+              {
+                "name": "DAVIES Julie",
+                "status": "contested",
+                "votes": 63,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              },
+              {
+                "name": "ROGERS Wayne",
+                "status": "contested",
+                "votes": 174,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              },
+              {
+                "name": "BOYCE Timothy",
+                "status": "contested",
+                "votes": 210,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              },
+              {
+                "name": "HARRIS Anna",
+                "status": "contested",
+                "votes": 47,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 2256,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Ward 4",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/newcastle/ward-4/councillor"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "15900",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

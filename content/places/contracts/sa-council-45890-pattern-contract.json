@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "title": "Port Adelaide Enfield — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "sa-council-45890",
+    "kind": "council",
+    "name": "Port Adelaide Enfield",
+    "jurisdiction": "sa"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/793",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The 2024/2025 representation review changes this council for the next periodic election: 7 wards retained; minor boundary adjustments. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+    "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+    "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+    "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+    "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/sa/councils/port-adelaide-enfield/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/sa/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/793/id",
+      "expected": "sa-council-45890"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/793/name",
+      "expected": "Port Adelaide Enfield"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/793/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/793",
+      "expected": {
+        "id": "sa-council-45890",
+        "name": "Port Adelaide Enfield",
+        "slug": "port-adelaide-enfield",
+        "jurisdiction": "sa",
+        "kind": "council",
+        "layerId": "council-sa-abs-2026",
+        "featureId": "45890",
+        "officialUrl": "https://www.cityofpae.sa.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-sa-next-timetable",
+          "council-sa-official-wards",
+          "council-sa-ward-edition-review",
+          "council-sa-2022-contest-controls",
+          "council-sa-2022-postal-close-review",
+          "council-sa-2022-candidate-and-historical-elected-master",
+          "council-sa-2022-sa-council-45890-results",
+          "council-sa-lga-current-leaders-2026-09-23"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Claire Boan",
+            "role": "Mayor",
+            "profileUrl": "https://www.lga.sa.gov.au/__data/assets/excel_doc/0035/650879/All-Council-Database-as-at-23-September-2026.xlsx",
+            "profileType": "official published LGA current-leader directory roster",
+            "website": "https://www.cityofpae.sa.gov.au",
+            "sourceId": "council-sa-lga-current-leaders-2026-09-23",
+            "checked": "2026-10-17",
+            "asAt": "2026-09-23",
+            "status": "Published LGA-SA leader snapshot declared 23 September 2026; checked 17 October 2026, subsequent individual changes not fully reconciled"
+          }
+        ],
+        "elections": [
+          {
+            "id": "sa-council-45890-next-ordinary",
+            "label": "2027 ordinary council election",
+            "kind": "ordinary",
+            "status": "announced",
+            "date": "2027-04-07",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 5pm local time.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/parties-and-candidates/council-elections",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "dateTime": "2027-04-07T17:00:00+09:30"
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-mayor",
+            "label": "2022 Port Adelaide Enfield — Mayor",
+            "kind": "ordinary",
+            "status": "historical-uncontested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/vacancies-candidates-and-election-status-by-council/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Mayor",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 1,
+            "expectedCandidateCount": 1,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BOAN, Claire",
+                "status": "elected unopposed in this2022 event",
+                "contest": "Mayor",
+                "sourceId": "council-sa-2022-candidate-and-historical-elected-master",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/details-of-candidates-and-elected-members-by-council/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article"
+              }
+            ],
+            "sourceNote": "Candidate(s) who nominated were elected unopposed"
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-outer-harbor-ward",
+            "label": "2022 Port Adelaide Enfield — Outer Harbor Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Outer Harbor Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 2,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "LE RAYE, John",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 323,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "LIPSON, Emma",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 254,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "PLUTA, Wally",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 101,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SMITH, Mark",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 154,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "TULLOCH, Vanessa",
+                "status": "elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 1451,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "WOTTON, Adrian",
+                "status": "elected in this2022 result workbook",
+                "contest": "Outer Harbor Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 744,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-semaphore-ward",
+            "label": "2022 Port Adelaide Enfield — Semaphore Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Semaphore Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 2,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "LINEAGE, Ignatius",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 198,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "McGREGOR, Peter",
+                "status": "elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 884,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "McLAREN, Chad Christian",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 221,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "WILKINS, David",
+                "status": "elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 893,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "WITT, Jamie",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 188,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "WRIGHT, Helen",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Semaphore Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "votes": 804,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-port-adelaide-ward",
+            "label": "2022 Port Adelaide Enfield — Port Adelaide Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Port Adelaide Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 2,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "ANDERSON, Scott",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 261,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DEN HARTOG, Joost",
+                "status": "elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 1001,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "LAILEY, Jason ",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 206,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SARDINHA, Denzyl Savio",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 143,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "THOMPSON, Martina",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 445,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "VINES, Steve",
+                "status": "elected in this2022 result workbook",
+                "contest": "Port Adelaide Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 1015,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-parks-ward",
+            "label": "2022 Port Adelaide Enfield — Parks Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Parks Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 3,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "CROCI, John",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 407,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DINH, Kim",
+                "status": "elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 1989,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "MITCHELL, Kat",
+                "status": "elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 986,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "MORE, Sadanand",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 224,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "PLEH, Anna",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 497,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "SAEED, Wasim",
+                "status": "elected in this2022 result workbook",
+                "contest": "Parks Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 775,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-enfield-ward",
+            "label": "2022 Port Adelaide Enfield — Enfield Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Enfield Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 3,
+            "expectedCandidateCount": 4,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "CLAYTON, Barbara",
+                "status": "elected in this2022 result workbook",
+                "contest": "Enfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "votes": 1005,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "COLOMBO, Olivia",
+                "status": "elected in this2022 result workbook",
+                "contest": "Enfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 2188,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "MARTIN, Carol",
+                "status": "elected in this2022 result workbook",
+                "contest": "Enfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 1473,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "SHINDE, Mihir",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Enfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 547,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-klemzig-ward",
+            "label": "2022 Port Adelaide Enfield — Klemzig Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Klemzig Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 2,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BARBARO, Paul",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 375,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "EVANS, Hannah",
+                "status": "elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 990,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "GADHIA, Rahul",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "votes": 105,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "McSHANE, Janice",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 349,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "RUSSELL, Paul",
+                "status": "elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 770,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "YARA, Haritha Reddy",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Klemzig Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 360,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          },
+          {
+            "id": "sa-council-45890-ordinary-2022-northfield-ward",
+            "label": "2022 Port Adelaide Enfield — Northfield Ward",
+            "kind": "ordinary",
+            "status": "historical-contested",
+            "date": "2022-11-10",
+            "dateTime": "2022-11-10T17:00:00+10:30",
+            "milestoneLabel": "postal voting closes",
+            "dateBasis": "ECSA ordinary2022 postal voting closed 5pm10 November 2022; counting began 12November. Unopposed/failed offices have no invented poll or votes. Later recounts, court corrections and current office are separate.",
+            "timezone": "Australia/Adelaide",
+            "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "resultsUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+            "boundaryEdition": "2022 local election arrangement; delivered current geometry is a separately dated snapshot and is not asserted to represent2022 boundaries.",
+            "contest": "Northfield Ward",
+            "electionCouncilName": "Port Adelaide Enfield",
+            "vacancies": 3,
+            "expectedCandidateCount": 6,
+            "supplementaryRequired": false,
+            "candidates": [
+              {
+                "name": "BASHAM, Mark",
+                "status": "elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 5,
+                "votes": 1794,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "DARJI, Nayan",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 6,
+                "votes": 675,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "DOSTIZADA, Hafiz",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 2,
+                "votes": 230,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              },
+              {
+                "name": "OSBORN, Matt",
+                "status": "elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 4,
+                "partyMembershipAtElection": "Australian Labor Party (South Australian Branch)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 2089,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "PANAYIOTOU, Lazaras",
+                "status": "elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 1,
+                "partyMembershipAtElection": "Australian Greens SA",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 718,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "elected in this2022 event"
+              },
+              {
+                "name": "YOON, Jin Wook",
+                "status": "not elected in this2022 result workbook",
+                "contest": "Northfield Ward",
+                "sourceId": "council-sa-2022-sa-council-45890-results",
+                "sourceUrl": "https://ecsa.sa.gov.au/component/edocman/port-adelaide-enfield-results-statistics-8-sheets-2/download?Itemid=0;XLS",
+                "profileUrl": "https://ecsa.sa.gov.au/?catid=9&id=1011%3A2022-council-elections-results-and-statistics&view=article",
+                "ballotOrder": 3,
+                "partyMembershipAtElection": "Liberal Party of Australia (SA Division)",
+                "affiliationNote": "The ECSA master records party membership; this is not an assertion of party endorsement or a ballot affiliation.",
+                "votes": 540,
+                "voteMeasure": "first preference votes",
+                "masterHistoricalStatus": "not elected in this2022 event"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The 2024/2025 representation review changes this council for the next periodic election: 7 wards retained; minor boundary adjustments. This page preserves the preceding source ward, and must not be used as the upcoming-election ward map. See the linked ECSA review/gazette source; new geometry and successor joins remain unresolved.",
+          "All2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Party membership in the historical master is retained separately and is not treated as party endorsement.",
+          "All 2022 ordinary-event candidates come from ECSA master/control workbooks; contested first preferences come from the separate official council results workbook. Source-published historical outcome corrections are retained as published. These records do not establish current office or completion of later by-election/recount histories.",
+          "Official institutional website comes from the public LGA-SA directory snapshot declared 23 September 2026, checked 17 October 2026. The full copyrighted workbook and contact details remain local-only.",
+          "Only the independently published council leader is supplied here. Complete current councillor rosters and individual profiles remain unpopulated unless separately sourced; historical2022 winners are not used as current-office evidence."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

@@ -1,0 +1,919 @@
+{
+  "status": "pass",
+  "checked": "2026-10-17",
+  "scope": "Retained NSW supplemental source transformations and factual joins only",
+  "counts": {
+    "districts": 93,
+    "independentCurrentMembers": 93,
+    "2023DistrictBallots": 93,
+    "subsequentByElectionBallots": 6,
+    "previousContestants": 603,
+    "scheduledGeneralElectionDate": "2027-03-13",
+    "scheduledVotingClose": "2027-03-13T18:00:00+11:00"
+  },
+  "checks": [
+    "93 distinct current official profile URLs, each with matching district in Current positions table; no Prior positions accepted.",
+    "93 2023 district reports and six later district by-election reports each parse complete candidate summary; all candidate vote sums equal published total formal votes.",
+    "All normalized vote counts are first-preference check-count votes, independently labelled.",
+    "2027 clock uses published 13 March 2027 election-day 6pm close, Sydney time."
+  ],
+  "limitations": [
+    "Public profile facts were viewed via indexed official HTML because direct archival HTTP returned403; no denial was bypassed. Minimal factual extraction is retained, not full profile text.",
+    "Current affiliation is omitted where not separately retained. Profiles may change after checked date.",
+    "This supplement covers Legislative Assembly districts. Legislative Council requires a separate statewide record.",
+    "Original official source HTML is retained locally with SHA256 provenance; packaging requires review of its separate rights."
+  ],
+  "districtEvents": [
+    {
+      "district": "Epping",
+      "eventId": "nsw-state-sb2402-epping",
+      "date": "2024-10-19",
+      "candidates": 5,
+      "formalVotes": 44567,
+      "candidateVotesSum": 44567,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2024-epping-state-by-election-19-october-2024.html"
+    },
+    {
+      "district": "Hornsby",
+      "eventId": "nsw-state-sb2402-hornsby",
+      "date": "2024-10-19",
+      "candidates": 9,
+      "formalVotes": 49224,
+      "candidateVotesSum": 49224,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2024-hornsby-state-by-election-nbsp-19-october-2024.html"
+    },
+    {
+      "district": "Northern Tablelands",
+      "eventId": "nsw-state-sb2401-northern-tablelands",
+      "date": "2024-06-22",
+      "candidates": 5,
+      "formalVotes": 45934,
+      "candidateVotesSum": 45934,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2024-northern-tablelands-state-by-election-22-june-2024.html"
+    },
+    {
+      "district": "Pittwater",
+      "eventId": "nsw-state-sb2402-pittwater",
+      "date": "2024-10-19",
+      "candidates": 3,
+      "formalVotes": 47450,
+      "candidateVotesSum": 47450,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2024-pittwater-state-by-election-19-october-2024.html"
+    },
+    {
+      "district": "Kiama",
+      "eventId": "nsw-state-sb2502-kiama",
+      "date": "2025-09-13",
+      "candidates": 13,
+      "formalVotes": 49895,
+      "candidateVotesSum": 49895,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2025-kiama-state-by-election-saturday-13-september-2025.html"
+    },
+    {
+      "district": "Port Macquarie",
+      "eventId": "nsw-state-sb2501-port-macquarie",
+      "date": "2025-03-15",
+      "candidates": 6,
+      "formalVotes": 51814,
+      "candidateVotesSum": 51814,
+      "sourceFile": "content/places/raw/state-nsw-supp-by-2025-port-macquarie-state-by-election-15-march-2025.html"
+    },
+    {
+      "district": "Albury",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 49788,
+      "candidateVotesSum": 49788,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-albury.html"
+    },
+    {
+      "district": "Auburn",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 46853,
+      "candidateVotesSum": 46853,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-auburn.html"
+    },
+    {
+      "district": "Badgerys Creek",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52078,
+      "candidateVotesSum": 52078,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-badgerys-creek.html"
+    },
+    {
+      "district": "Ballina",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 47739,
+      "candidateVotesSum": 47739,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-ballina.html"
+    },
+    {
+      "district": "Balmain",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 49997,
+      "candidateVotesSum": 49997,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-balmain.html"
+    },
+    {
+      "district": "Bankstown",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 45888,
+      "candidateVotesSum": 45888,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-bankstown.html"
+    },
+    {
+      "district": "Barwon",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 43837,
+      "candidateVotesSum": 43837,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-barwon.html"
+    },
+    {
+      "district": "Bathurst",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 52399,
+      "candidateVotesSum": 52399,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-bathurst.html"
+    },
+    {
+      "district": "Bega",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 51684,
+      "candidateVotesSum": 51684,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-bega.html"
+    },
+    {
+      "district": "Blacktown",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 48748,
+      "candidateVotesSum": 48748,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-blacktown.html"
+    },
+    {
+      "district": "Blue Mountains",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 53056,
+      "candidateVotesSum": 53056,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-blue-mountains.html"
+    },
+    {
+      "district": "Cabramatta",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 51329,
+      "candidateVotesSum": 51329,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-cabramatta.html"
+    },
+    {
+      "district": "Camden",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 54072,
+      "candidateVotesSum": 54072,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-camden.html"
+    },
+    {
+      "district": "Campbelltown",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 47728,
+      "candidateVotesSum": 47728,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-campbelltown.html"
+    },
+    {
+      "district": "Canterbury",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 48283,
+      "candidateVotesSum": 48283,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-canterbury.html"
+    },
+    {
+      "district": "Castle Hill",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 53427,
+      "candidateVotesSum": 53427,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-castle-hill.html"
+    },
+    {
+      "district": "Cessnock",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 52781,
+      "candidateVotesSum": 52781,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-cessnock.html"
+    },
+    {
+      "district": "Charlestown",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 52981,
+      "candidateVotesSum": 52981,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-charlestown.html"
+    },
+    {
+      "district": "Clarence",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 48933,
+      "candidateVotesSum": 48933,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-clarence.html"
+    },
+    {
+      "district": "Coffs Harbour",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 49229,
+      "candidateVotesSum": 49229,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-coffs-harbour.html"
+    },
+    {
+      "district": "Coogee",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 49004,
+      "candidateVotesSum": 49004,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-coogee.html"
+    },
+    {
+      "district": "Cootamundra",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 48848,
+      "candidateVotesSum": 48848,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-cootamundra.html"
+    },
+    {
+      "district": "Cronulla",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 52612,
+      "candidateVotesSum": 52612,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-cronulla.html"
+    },
+    {
+      "district": "Davidson",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 53319,
+      "candidateVotesSum": 53319,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-davidson.html"
+    },
+    {
+      "district": "Drummoyne",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 51639,
+      "candidateVotesSum": 51639,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-drummoyne.html"
+    },
+    {
+      "district": "Dubbo",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 49544,
+      "candidateVotesSum": 49544,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-dubbo.html"
+    },
+    {
+      "district": "East Hills",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 50393,
+      "candidateVotesSum": 50393,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-east-hills.html"
+    },
+    {
+      "district": "Epping",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 51985,
+      "candidateVotesSum": 51985,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-epping.html"
+    },
+    {
+      "district": "Fairfield",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 47598,
+      "candidateVotesSum": 47598,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-fairfield.html"
+    },
+    {
+      "district": "Gosford",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 49018,
+      "candidateVotesSum": 49018,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-gosford.html"
+    },
+    {
+      "district": "Goulburn",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 50775,
+      "candidateVotesSum": 50775,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-goulburn.html"
+    },
+    {
+      "district": "Granville",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 48687,
+      "candidateVotesSum": 48687,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-granville.html"
+    },
+    {
+      "district": "Hawkesbury",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 53179,
+      "candidateVotesSum": 53179,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-hawkesbury.html"
+    },
+    {
+      "district": "Heathcote",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 52723,
+      "candidateVotesSum": 52723,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-heathcote.html"
+    },
+    {
+      "district": "Heffron",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 45171,
+      "candidateVotesSum": 45171,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-heffron.html"
+    },
+    {
+      "district": "Holsworthy",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 48791,
+      "candidateVotesSum": 48791,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-holsworthy.html"
+    },
+    {
+      "district": "Hornsby",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 54166,
+      "candidateVotesSum": 54166,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-hornsby.html"
+    },
+    {
+      "district": "Keira",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 50026,
+      "candidateVotesSum": 50026,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-keira.html"
+    },
+    {
+      "district": "Kellyville",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 53193,
+      "candidateVotesSum": 53193,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-kellyville.html"
+    },
+    {
+      "district": "Kiama",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52371,
+      "candidateVotesSum": 52371,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-kiama.html"
+    },
+    {
+      "district": "Kogarah",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 50993,
+      "candidateVotesSum": 50993,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-kogarah.html"
+    },
+    {
+      "district": "Lake Macquarie",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 50609,
+      "candidateVotesSum": 50609,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-lake-macquarie.html"
+    },
+    {
+      "district": "Lane Cove",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52060,
+      "candidateVotesSum": 52060,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-lane-cove.html"
+    },
+    {
+      "district": "Leppington",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 50666,
+      "candidateVotesSum": 50666,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-leppington.html"
+    },
+    {
+      "district": "Lismore",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 48686,
+      "candidateVotesSum": 48686,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-lismore.html"
+    },
+    {
+      "district": "Liverpool",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 48065,
+      "candidateVotesSum": 48065,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-liverpool.html"
+    },
+    {
+      "district": "Londonderry",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 51725,
+      "candidateVotesSum": 51725,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-londonderry.html"
+    },
+    {
+      "district": "Macquarie Fields",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 49194,
+      "candidateVotesSum": 49194,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-macquarie-fields.html"
+    },
+    {
+      "district": "Maitland",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 51633,
+      "candidateVotesSum": 51633,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-maitland.html"
+    },
+    {
+      "district": "Manly",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 52825,
+      "candidateVotesSum": 52825,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-manly.html"
+    },
+    {
+      "district": "Maroubra",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 49789,
+      "candidateVotesSum": 49789,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-maroubra.html"
+    },
+    {
+      "district": "Miranda",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52864,
+      "candidateVotesSum": 52864,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-miranda.html"
+    },
+    {
+      "district": "Monaro",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 50856,
+      "candidateVotesSum": 50856,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-monaro.html"
+    },
+    {
+      "district": "Mount Druitt",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 48746,
+      "candidateVotesSum": 48746,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-mount-druitt.html"
+    },
+    {
+      "district": "Murray",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 10,
+      "formalVotes": 49415,
+      "candidateVotesSum": 49415,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-murray.html"
+    },
+    {
+      "district": "Myall Lakes",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 52686,
+      "candidateVotesSum": 52686,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-myall-lakes.html"
+    },
+    {
+      "district": "Newcastle",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 50736,
+      "candidateVotesSum": 50736,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-newcastle.html"
+    },
+    {
+      "district": "Newtown",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 49502,
+      "candidateVotesSum": 49502,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-newtown.html"
+    },
+    {
+      "district": "North Shore",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 48177,
+      "candidateVotesSum": 48177,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-north-shore.html"
+    },
+    {
+      "district": "Northern Tablelands",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 10,
+      "formalVotes": 49655,
+      "candidateVotesSum": 49655,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-northern-tablelands.html"
+    },
+    {
+      "district": "Oatley",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 50196,
+      "candidateVotesSum": 50196,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-oatley.html"
+    },
+    {
+      "district": "Orange",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 50518,
+      "candidateVotesSum": 50518,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-orange.html"
+    },
+    {
+      "district": "Oxley",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 52608,
+      "candidateVotesSum": 52608,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-oxley.html"
+    },
+    {
+      "district": "Parramatta",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 48281,
+      "candidateVotesSum": 48281,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-parramatta.html"
+    },
+    {
+      "district": "Penrith",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 50344,
+      "candidateVotesSum": 50344,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-penrith.html"
+    },
+    {
+      "district": "Pittwater",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 49511,
+      "candidateVotesSum": 49511,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-pittwater.html"
+    },
+    {
+      "district": "Port Macquarie",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 53330,
+      "candidateVotesSum": 53330,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-port-macquarie.html"
+    },
+    {
+      "district": "Port Stephens",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 52161,
+      "candidateVotesSum": 52161,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-port-stephens.html"
+    },
+    {
+      "district": "Prospect",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 49699,
+      "candidateVotesSum": 49699,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-prospect.html"
+    },
+    {
+      "district": "Riverstone",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 55575,
+      "candidateVotesSum": 55575,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-riverstone.html"
+    },
+    {
+      "district": "Rockdale",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 47071,
+      "candidateVotesSum": 47071,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-rockdale.html"
+    },
+    {
+      "district": "Ryde",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 53840,
+      "candidateVotesSum": 53840,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-ryde.html"
+    },
+    {
+      "district": "Shellharbour",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 52395,
+      "candidateVotesSum": 52395,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-shellharbour.html"
+    },
+    {
+      "district": "South Coast",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 51285,
+      "candidateVotesSum": 51285,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-south-coast.html"
+    },
+    {
+      "district": "Strathfield",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 50618,
+      "candidateVotesSum": 50618,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-strathfield.html"
+    },
+    {
+      "district": "Summer Hill",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 49758,
+      "candidateVotesSum": 49758,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-summer-hill.html"
+    },
+    {
+      "district": "Swansea",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52167,
+      "candidateVotesSum": 52167,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-swansea.html"
+    },
+    {
+      "district": "Sydney",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 48740,
+      "candidateVotesSum": 48740,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-sydney.html"
+    },
+    {
+      "district": "Tamworth",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 8,
+      "formalVotes": 52875,
+      "candidateVotesSum": 52875,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-tamworth.html"
+    },
+    {
+      "district": "Terrigal",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 50470,
+      "candidateVotesSum": 50470,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-terrigal.html"
+    },
+    {
+      "district": "The Entrance",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 49191,
+      "candidateVotesSum": 49191,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-the-entrance.html"
+    },
+    {
+      "district": "Tweed",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 46690,
+      "candidateVotesSum": 46690,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-tweed.html"
+    },
+    {
+      "district": "Upper Hunter",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 53660,
+      "candidateVotesSum": 53660,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-upper-hunter.html"
+    },
+    {
+      "district": "Vaucluse",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 48263,
+      "candidateVotesSum": 48263,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-vaucluse.html"
+    },
+    {
+      "district": "Wagga Wagga",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 49310,
+      "candidateVotesSum": 49310,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wagga-wagga.html"
+    },
+    {
+      "district": "Wahroonga",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52959,
+      "candidateVotesSum": 52959,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wahroonga.html"
+    },
+    {
+      "district": "Wakehurst",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 51334,
+      "candidateVotesSum": 51334,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wakehurst.html"
+    },
+    {
+      "district": "Wallsend",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 7,
+      "formalVotes": 51808,
+      "candidateVotesSum": 51808,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wallsend.html"
+    },
+    {
+      "district": "Willoughby",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 52830,
+      "candidateVotesSum": 52830,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-willoughby.html"
+    },
+    {
+      "district": "Winston Hills",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 53212,
+      "candidateVotesSum": 53212,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-winston-hills.html"
+    },
+    {
+      "district": "Wollondilly",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 6,
+      "formalVotes": 52369,
+      "candidateVotesSum": 52369,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wollondilly.html"
+    },
+    {
+      "district": "Wollongong",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 4,
+      "formalVotes": 49062,
+      "candidateVotesSum": 49062,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wollongong.html"
+    },
+    {
+      "district": "Wyong",
+      "eventId": "nsw-state-2023-SG2301",
+      "date": "2023-03-25",
+      "candidates": 5,
+      "formalVotes": 47046,
+      "candidateVotesSum": 47046,
+      "sourceFile": "content/places/raw/state-nsw-supp-result-2023-wyong.html"
+    }
+  ]
+}

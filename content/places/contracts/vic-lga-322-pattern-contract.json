@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "title": "Glen Eira City Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-322",
+    "kind": "council",
+    "name": "Glen Eira City Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/83",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/glen-eira-city-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/83/id",
+      "expected": "vic-lga-322"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/83/name",
+      "expected": "Glen Eira City Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/83/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/83",
+      "expected": {
+        "id": "vic-lga-322",
+        "name": "Glen Eira City Council",
+        "slug": "glen-eira-city-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "322",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-322",
+          "council-vic-roster-322"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Margaret Esakoff",
+            "role": "Bambra Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Jane Karslake",
+            "role": "Booran Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Sam Parasol",
+            "role": "Caulfield Park Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Arabella Daniel",
+            "role": "Jasper Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Kimberley Young",
+            "role": "Mallanbool Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Kay Rimbaldo",
+            "role": "Moorleigh Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Luca Ragni",
+            "role": "Murrumbeena Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Simone Zmood",
+            "role": "Orrong Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Li Zhang",
+            "role": "Wattle Grove Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/glen-eira-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-322",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-322-ordinary-2024",
+            "label": "2024 Glen Eira City Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+            "candidates": [
+              {
+                "name": "ESAKOFF, Margaret",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "status": "elected",
+                "votes": 3542,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "McNAUGHTON, Catherine",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 1621,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CADERAMANPULLE, Anouchkar",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 721,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SHMUEL, Shane",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 1418,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GROSS, Max",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 1137,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CODRON, Richard",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 456,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DAVID, Elen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Bambra Ward",
+                "votes": 364,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KARSLAKE, Jane",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Booran Ward",
+                "status": "elected",
+                "votes": 3056,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LYELL, Meg",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Booran Ward",
+                "votes": 914,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CADE, Anne-Marie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Booran Ward",
+                "votes": 2992,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KARP, Cliff",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Booran Ward",
+                "votes": 1174,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KOADLOW, Jeremy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Booran Ward",
+                "votes": 823,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PARASOL, Sam",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Caulfield Park Ward",
+                "status": "elected",
+                "votes": 5154,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GRAEVE, Tammy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Caulfield Park Ward",
+                "votes": 759,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TRAVIS, Jaynaya",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Caulfield Park Ward",
+                "votes": 785,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DENG, Victor",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Caulfield Park Ward",
+                "votes": 1658,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STEEDMAN, James",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Caulfield Park Ward",
+                "votes": 740,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "DANIEL, Arabella",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Jasper Ward",
+                "status": "elected",
+                "votes": 4582,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HAN, J.",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Jasper Ward",
+                "votes": 1178,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LOBO, Josh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Jasper Ward",
+                "votes": 3600,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "YOUNG, Kimberley",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Mallanbool Ward",
+                "status": "elected",
+                "votes": 4037,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BREDA, Robert",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Mallanbool Ward",
+                "votes": 663,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PALAMARAS, Nick",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Mallanbool Ward",
+                "votes": 1391,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MAGEE, Jim",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Mallanbool Ward",
+                "votes": 3230,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RIMBALDO, Kay",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Moorleigh Ward",
+                "status": "elected",
+                "votes": 6554,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NISBET, Karen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Moorleigh Ward",
+                "votes": 2612,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RAGNI, Luca",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Murrumbeena Ward",
+                "status": "elected",
+                "votes": 2828,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "AITKEN, Matthew",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Murrumbeena Ward",
+                "votes": 1060,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PILLING, Neil",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Murrumbeena Ward",
+                "votes": 2704,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KREYMER, Edward",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Murrumbeena Ward",
+                "votes": 702,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BUGBIRD, Callum",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Murrumbeena Ward",
+                "votes": 1830,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ZMOOD, Simone",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Orrong Ward",
+                "status": "elected",
+                "votes": 2236,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STEINER, Lily",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Orrong Ward",
+                "votes": 634,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PENNICUIK, Sue",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Orrong Ward",
+                "votes": 2423,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CRAIG, Mike",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Orrong Ward",
+                "votes": 1281,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SALAMON, Yossi",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Orrong Ward",
+                "votes": 1991,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ZHANG, Li",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "status": "elected",
+                "votes": 3019,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MORRISON, Angus",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 1442,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "LAW, Kenneth",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 480,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STONE, Eric",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 1390,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUNT, Emiko",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 504,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GLANCE, Angie",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 1054,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KORN, Mish-elle",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/glen-eira-city-council",
+                "contest": "Wattle Grove Ward",
+                "votes": 1191,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-322-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

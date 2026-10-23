@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "registeredContracts": 2081,
+  "failedContracts": 0,
+  "declaredScopes": {
+    "legacy-declared-civic-journey": 1,
+    "structural-route-and-canonical-identity": 2080
+  },
+  "counts": {
+    "routes": 2100,
+    "localReferences": 177871,
+    "interactiveMaps": 4,
+    "boundaryLayers": 2,
+    "sourceFeatures": 88,
+    "basemaps": 2,
+    "records": 43,
+    "twinkles": 24,
+    "indicators": 18,
+    "sourceMapRecords": 10,
+    "representativeListings": 10,
+    "electionSnapshots": 1
+  },
+  "declaredLimitations": 10405,
+  "failures": [],
+  "nationalEvidencePreflights": [
+    {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json",
+      "result": {
+        "national": {
+          "errors": [],
+          "checked": 3058,
+          "absentLocalOnly": []
+        },
+        "browser": {
+          "errors": [],
+          "checked": 9,
+          "absentLocalOnly": []
+        },
+        "artifactCount": 3058
+      }
+    }
+  ],
+  "scope": "Original manifest validator semantics; in-process, offline, read-only. Structural route contracts do not certify complete national source/browser coverage."
+}

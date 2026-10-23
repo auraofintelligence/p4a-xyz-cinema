@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "title": "Frankston City Council — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "vic-lga-320",
+    "kind": "council",
+    "name": "Frankston City Council",
+    "jurisdiction": "vic"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/161",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+    "Previous local-election contestant roster is not yet reconciled.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/vic/councils/frankston-city-council/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/vic/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/161/id",
+      "expected": "vic-lga-320"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/161/name",
+      "expected": "Frankston City Council"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/161/boundaryEdition",
+      "expected": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/161",
+      "expected": {
+        "id": "vic-lga-320",
+        "name": "Frankston City Council",
+        "slug": "frankston-city-council",
+        "jurisdiction": "vic",
+        "kind": "council",
+        "layerId": "council-vic-lga",
+        "featureId": "320",
+        "officialUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+        "sources": [
+          "council-vic-retained",
+          "council-vic-2024-320",
+          "council-vic-roster-320"
+        ],
+        "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
+        "representatives": [
+          {
+            "name": "Kris Bolam",
+            "role": "Ballam Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Michael O'Reilly",
+            "role": "Centenary Park Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Brad Hill",
+            "role": "Derinya Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Cherie Wanat",
+            "role": "Elisabeth Murdoch Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Emily Green",
+            "role": "Kananook Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Steffie Conroy",
+            "role": "Lyrebird Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Sue Baker",
+            "role": "Pines Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "David Asker",
+            "role": "Wilton Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          },
+          {
+            "name": "Nathan Butler",
+            "role": "Yamala Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/frankston-city-council",
+            "website": null,
+            "sourceId": "council-vic-roster-320",
+            "checked": "2026-10-02",
+            "profileType": "official published council roster"
+          }
+        ],
+        "elections": [
+          {
+            "id": "vic-lga-320-ordinary-2024",
+            "label": "2024 Frankston City Council election",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-10-26",
+            "milestoneLabel": "ordinary election day",
+            "dateBasis": "VEC council-specific2024 election results. Date is ordinary election day; postal ballot return deadline is separate.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+            "candidates": [
+              {
+                "name": "BOLAM, Kris",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Ballam Ward",
+                "status": "elected",
+                "votes": 3852,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "MARSAL, Adam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Ballam Ward",
+                "votes": 1846,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUGHES, Steven",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Ballam Ward",
+                "votes": 1624,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "SOLIS, Cristy",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Ballam Ward",
+                "votes": 1618,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "O'REILLY, Michael",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Centenary Park Ward",
+                "status": "elected",
+                "votes": 4313,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CHEESEMAN, Andrew",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Centenary Park Ward",
+                "votes": 749,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "OSBORNE, Shane",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Centenary Park Ward",
+                "votes": 1676,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RODGERS, Maureen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Centenary Park Ward",
+                "votes": 2254,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HILL, Brad",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "status": "elected",
+                "votes": 2417,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "VANDERSTADT, Hans",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "votes": 1706,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HUGHES, Liam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "votes": 1889,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BABIC, Iva",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "votes": 546,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HOULT, Ashleigh",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "votes": 1236,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GRACE, Cassandra",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Derinya Ward",
+                "votes": 1285,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WANAT, Cherie",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Elisabeth Murdoch Ward",
+                "status": "elected",
+                "votes": 3951,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TAYLER, Suzette",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Elisabeth Murdoch Ward",
+                "votes": 1202,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ABRAHAM, Chrysten",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Elisabeth Murdoch Ward",
+                "votes": 1724,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KAY, Henryk",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Elisabeth Murdoch Ward",
+                "votes": 355,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "McDONALD, Stephen",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Elisabeth Murdoch Ward",
+                "votes": 2423,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GREEN, Emily",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Kananook Ward",
+                "status": "elected",
+                "votes": 2140,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "AITKEN, Glenn",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Kananook Ward",
+                "votes": 1999,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STAGG, Trent",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Kananook Ward",
+                "votes": 703,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "STARK, Lisa",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Kananook Ward",
+                "votes": 1602,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PITHER, Nathan",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Kananook Ward",
+                "votes": 1358,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "CONROY, Steffie",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Lyrebird Ward",
+                "status": "elected",
+                "votes": 3385,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "HAVIS, Nathan",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Lyrebird Ward",
+                "votes": 2403,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "KEATS, Sam",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Lyrebird Ward",
+                "votes": 2907,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BAKER, Sue",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Pines Ward",
+                "status": "elected",
+                "votes": 2708,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TURNER, Justin",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Pines Ward",
+                "votes": 2288,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "GRAUS, Bernadette",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Pines Ward",
+                "votes": 1245,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BROWNFIELD-HANNA, Quinney",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Pines Ward",
+                "votes": 1200,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "ASKER, David",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Wilton Ward",
+                "status": "elected",
+                "votes": 3976,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "COLLISON, Annaliese",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Wilton Ward",
+                "votes": 3127,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "RENDELL, Richard",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Wilton Ward",
+                "votes": 924,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "PHILIP, Prasad",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Wilton Ward",
+                "votes": 1234,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "BUTLER, Nathan",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Yamala Ward",
+                "status": "elected",
+                "votes": 2986,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "EBBOTT, Garry",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Yamala Ward",
+                "votes": 1040,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "NEWMAN, Sheila",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Yamala Ward",
+                "votes": 2013,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "TOMS, Steve",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Yamala Ward",
+                "votes": 782,
+                "voteMeasure": "First preference votes"
+              },
+              {
+                "name": "WARDLE, Alistair",
+                "status": "contested",
+                "sourceUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "profileUrl": "https://www.vec.vic.gov.au/results/council-election-results/2024-council-election-results/frankston-city-council",
+                "contest": "Yamala Ward",
+                "votes": 1526,
+                "voteMeasure": "First preference votes"
+              }
+            ]
+          },
+          {
+            "id": "vic-lga-320-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
+            "candidates": []
+          }
+        ],
+        "coverageNotes": [
+          "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
+          "Previous local-election contestant roster is not yet reconciled."
+        ],
+        "governance": "elected-council"
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

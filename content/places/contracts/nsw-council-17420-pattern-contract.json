@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "title": "The Hills — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nsw-council-17420",
+    "kind": "council",
+    "name": "The Hills",
+    "jurisdiction": "nsw"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/728",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+    "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nsw/councils/the-hills/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nsw/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/728/id",
+      "expected": "nsw-council-17420"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/728/name",
+      "expected": "The Hills"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/728/boundaryEdition",
+      "expected": "NSW Spatial Services current legal local government service snapshot17October2026"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/728",
+      "expected": {
+        "id": "nsw-council-17420",
+        "name": "The Hills",
+        "slug": "the-hills",
+        "jurisdiction": "nsw",
+        "kind": "council",
+        "layerId": "council-nsw-legal",
+        "featureId": "9550",
+        "officialUrl": "https://www.thehills.nsw.gov.au",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-nsw-olg-directory",
+          "council-nsw-legal-boundaries",
+          "council-nsw-2024-the-hills-central-ward",
+          "council-nsw-2024-the-hills-east-ward",
+          "council-nsw-2024-the-hills-mayor",
+          "council-nsw-2024-the-hills-north-ward",
+          "council-nsw-2024-the-hills-west-ward"
+        ],
+        "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
+        "representatives": [
+          {
+            "name": "Dr Michelle Byrne",
+            "role": "Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Frank De Masi",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mitchell Blue",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Rosemarie Boneham",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Tina Cartwright",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jerome Cox",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jane Grevtseva",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Alan Haselden",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Jacob Jackson",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Reena Jethi",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Mila Kasby",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Immanuel Selvaraj",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Samuel Uno",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.thehills.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nsw-council-17420-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nsw-council-17420-ordinary-2024-central-ward",
+            "label": "2024 The Hills â€” Central Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+            "candidates": [
+              {
+                "name": "JETHI Reena",
+                "status": "elected",
+                "votes": 793,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "COX Jerome",
+                "status": "elected",
+                "votes": 527,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "VISWANATH Manjula",
+                "status": "contested",
+                "votes": 229,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "CARTWRIGHT Tina",
+                "status": "elected",
+                "votes": 526,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SINGH Gurdip",
+                "status": "contested",
+                "votes": 164,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "CHAI Cheung",
+                "status": "contested",
+                "votes": 107,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "PACKER Danielle",
+                "status": "contested",
+                "votes": 298,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HUGHES Samuel",
+                "status": "contested",
+                "votes": 44,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "HOSSEINIPOUR Seyed",
+                "status": "contested",
+                "votes": 77,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BROWN Raymond",
+                "status": "contested",
+                "votes": 360,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1362,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "Central Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/central-ward/councillor",
+                "party": "THE GREENS"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-17420-ordinary-2024-east-ward",
+            "label": "2024 The Hills â€” East Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+            "candidates": [
+              {
+                "name": "GREVTSEVA Jane",
+                "status": "elected",
+                "votes": 350,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "PUNCH Andrew",
+                "status": "contested",
+                "votes": 122,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SUNDARARAJAN Senthil",
+                "status": "contested",
+                "votes": 265,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "McDONALD Suzannah",
+                "status": "contested",
+                "votes": 432,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WOOLNOUGH Catherine",
+                "status": "contested",
+                "votes": 70,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "WONG SEE Tian",
+                "status": "contested",
+                "votes": 75,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "UNO Samuel",
+                "status": "elected",
+                "votes": 517,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "HASELDEN Alan",
+                "status": "elected",
+                "votes": 375,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "WEI Leo",
+                "status": "contested",
+                "votes": 205,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1174,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "East Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/east-ward/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-17420-ordinary-2024-mayor",
+            "label": "2024 The Hills â€” Mayor",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral",
+            "candidates": [
+              {
+                "name": "KASBY Mila",
+                "status": "contested",
+                "votes": 21300,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral",
+                "party": "The Greens NSW"
+              },
+              {
+                "name": "BYRNE Michelle",
+                "status": "elected",
+                "votes": 71520,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral",
+                "party": "The Liberal Party Of Australia, New South Wales Division"
+              },
+              {
+                "name": "SELVARAJ Immanuel",
+                "status": "contested",
+                "votes": 21964,
+                "voteMeasure": "First preference votes",
+                "contest": "Mayor",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral/mayoral-fp-by-candidate",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/mayoral",
+                "party": "Australian Labor Party (NSW Branch)"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-17420-ordinary-2024-north-ward",
+            "label": "2024 The Hills â€” North Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+            "candidates": [
+              {
+                "name": "BIRCAN Dilvan",
+                "status": "contested",
+                "votes": 303,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "SHEIKH Bassam",
+                "status": "contested",
+                "votes": 195,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "FARQUHAR Kaitlyn",
+                "status": "contested",
+                "votes": 96,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "KASBY Mila",
+                "status": "elected",
+                "votes": 553,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "SHAHAMAT Vida",
+                "status": "contested",
+                "votes": 53,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "OLIVEIRA Rebecca",
+                "status": "contested",
+                "votes": 52,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "THE GREENS"
+              },
+              {
+                "name": "BLUE Mitchell",
+                "status": "elected",
+                "votes": 1090,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "JACKSON Jacob",
+                "status": "elected",
+                "votes": 248,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "COLLINS Brooke",
+                "status": "contested",
+                "votes": 280,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1447,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "North Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/north-ward/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          },
+          {
+            "id": "nsw-council-17420-ordinary-2024-west-ward",
+            "label": "2024 The Hills â€” West Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2024-09-14",
+            "dateBasis": "NSWEC council-specific2024 ordinary election contestant/result record. Later by-elections and current roles are separate.",
+            "milestoneLabel": "ordinary election day",
+            "timezone": "Australia/Sydney",
+            "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+            "resultsUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+            "candidates": [
+              {
+                "name": "SELVARAJ Immanuel",
+                "status": "elected",
+                "votes": 875,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "LEE Sook",
+                "status": "contested",
+                "votes": 251,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "NEWLAND Lachlan",
+                "status": "contested",
+                "votes": 169,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LABOR"
+              },
+              {
+                "name": "DE MASI Frank",
+                "status": "elected",
+                "votes": 705,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "BONEHAM Rosemarie",
+                "status": "elected",
+                "votes": 458,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "RICHMOND Trent",
+                "status": "contested",
+                "votes": 304,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "RAGHAV Seema",
+                "status": "contested",
+                "votes": 1435,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LIBERAL"
+              },
+              {
+                "name": "Informal Ballot Papers",
+                "status": "contested",
+                "votes": 1882,
+                "voteMeasure": "Candidate first preference votes; group votes are reported separately in the original table",
+                "contest": "West Ward",
+                "sourceUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor/fp-by-grp-and-candidate-by-vote-type",
+                "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/the-hills/west-ward/councillor",
+                "party": "LIBERAL"
+              }
+            ]
+          }
+        ],
+        "coverageNotes": [
+          "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        ],
+        "mapRefs": [
+          {
+            "layerId": "council-nsw-abs-2026",
+            "featureId": "17420",
+            "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}

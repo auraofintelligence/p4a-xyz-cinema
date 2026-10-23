@@ -12,3 +12,18 @@ node_modules/
 /tmp/
 /upload-ready/
 *.log
+
+# Publicly readable research snapshots are not automatically licensed for republication.
+# Keep normalized public facts, source manifests and attributed map assets public.
+/content/places/raw/
+# Lossless public delivery is the .geojson.gz; this optional expanded duplicate exceeds Git's size limit.
+assets/maps/national/state-tas-council-2017.geojson
+
+# Optional expanded copies of exact gzip originals; preserve the Pages size budget.
+/assets/maps/national/council-nsw-abs-2026.geojson
+/assets/maps/national/council-nsw-legal.geojson
+/assets/maps/national/council-state-context.geojson
+/assets/maps/national/council-tas-abs-2026.geojson
+/assets/maps/national/state-nsw-assembly-2025.geojson
+/assets/maps/national/state-sa-assembly-2025.geojson
+/assets/maps/national/state-tas-assembly-2025.geojson

@@ -1,0 +1,1 @@
+Historical review before navigation deduplication. The user identified repeated concepts across Start, System, Culture and Key policy ideas. Earlier checks did not assert unique navigation destinations. Retain original dated scope and hashes.

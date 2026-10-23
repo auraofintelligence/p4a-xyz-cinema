@@ -29,6 +29,7 @@ PUBLIC_DIRS = ('.github', 'assets', 'backend', 'content', 'documents', 'docs', '
 BLOCKED_DIRS = {'.git', '__pycache__', 'node_modules', 'public-polish-browser',
                 'browser-profile', 'user-data-dir', 'tmp', 'upload-ready'}
 TEXT_SUFFIXES = {'.md', '.html', '.js', '.mjs', '.json', '.py', '.ps1', '.css', '.txt', '.xml', '.gs'}
+LOCAL_ONLY_FILES = set(json.loads((ROOT/'content/places/source-retention.json').read_text(encoding='utf-8')).get('localOnlyFiles', []))
 SECRET_PATTERNS = [
     re.compile(rb'-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----'),
     re.compile(rb'gh[pousr]_[A-Za-z0-9]{30,}'),
@@ -42,7 +43,9 @@ def git(*args):
 
 
 def excluded(path):
-    return (any(part in BLOCKED_DIRS for part in path.parts)
+    return (path.parts[:3] == ('content', 'places', 'raw')
+            or path.as_posix() in LOCAL_ONLY_FILES
+            or any(part in BLOCKED_DIRS for part in path.parts)
             or path.name == '.env' or path.name.startswith('.env.')
             or path.suffix.lower() in {'.pyc', '.pyo', '.log', '.pem', '.key'}
             or path.name.lower() in {'id_rsa', 'id_ed25519', 'cookies', 'login data'})
@@ -110,8 +113,11 @@ def main():
         'domain': (ROOT/'CNAME').read_text(encoding='utf-8').strip(),
         'fileCount': len(entries), 'uncompressedBytes': sum(entry['bytes'] for entry in entries),
         'includedDirectories': list(PUBLIC_DIRS),
+        'retentionRegister': 'content/places/source-retention.json',
+        'localOnlyFiles': sorted(LOCAL_ONLY_FILES),
         'excluded': ['.git', 'all QA except qa/redland-20261017', 'browser sessions and caches',
-                     'dependencies', 'bytecode', 'temporary files', 'environment/key files', 'upload output'],
+                     'dependencies', 'bytecode', 'temporary files', 'environment/key files', 'upload output',
+                     'content/places/raw local-only original research snapshots; access does not grant republication rights'],
         'scopeNote': 'Preserves other current public changes; this preparation does not claim a fresh editorial audit of every page.',
         'checks': ['path allowlist', 'tracked-file completeness', 'source hashes', 'common credential signatures',
                    'per-file size gate', 'archive path/hash readback'],

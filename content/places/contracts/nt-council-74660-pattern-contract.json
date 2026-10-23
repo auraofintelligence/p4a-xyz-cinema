@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "title": "West Arnhem — declared route and canonical identity contract",
+  "purpose": "Reviewable structural scope only. Shared national QA is linked with its actual limits; official source and per-place browser review remain distinct.",
+  "acceptanceScope": "structural-route-and-canonical-identity",
+  "place": {
+    "id": "nt-council-74660",
+    "kind": "council",
+    "name": "West Arnhem",
+    "jurisdiction": "nt"
+  },
+  "canonicalInput": {
+    "path": "content/places/councils.json",
+    "recordPointer": "/places/1002",
+    "scope": "councils"
+  },
+  "coverageNotes": [
+    "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+    "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+    "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+    "Official roster cards list twelve members, including later replacements, while its introductory sentence still names 2021 as the most recent election. Preserve the published card snapshot with this discrepancy; do not silently redraft its source year or use 2025 winners as the current roster.",
+    "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+    "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+    "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+    "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+    "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+  ],
+  "routeDefaults": {
+    "noSvgMaps": true,
+    "breadcrumbClass": "civic-crumbs",
+    "choicesClass": "civic-choices",
+    "minimumChoices": 2,
+    "visibleDateValues": [
+      "2026-10-17"
+    ]
+  },
+  "routes": [
+    {
+      "path": "states/nt/councils/west-arnhem/index.html",
+      "role": "place-overview",
+      "requiredNextPaths": [
+        "states/nt/places/councils/index.html"
+      ]
+    }
+  ],
+  "datePins": [
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1002/id",
+      "expected": "nt-council-74660"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1002/name",
+      "expected": "West Arnhem"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1002/boundaryEdition",
+      "expected": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+    },
+    {
+      "path": "content/places/councils.json",
+      "pointer": "/places/1002",
+      "expected": {
+        "id": "nt-council-74660",
+        "name": "West Arnhem",
+        "slug": "west-arnhem",
+        "jurisdiction": "nt",
+        "kind": "council",
+        "layerId": "council-nt-abs-2026",
+        "featureId": "74660",
+        "officialUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+        "sources": [
+          "council-abs-2026-lga",
+          "council-ward-supp-geoscape-nt-native",
+          "council-ward-supp-geoscape-lga-attributes",
+          "council-nt-roster-west-arnhem",
+          "council-nt-2025-ballot-west-arnhem-gunbalanya-ward",
+          "council-nt-2025-ballot-west-arnhem-kakadu-ward",
+          "council-nt-2025-ballot-west-arnhem-maningrida-ward",
+          "council-nt-2025-ballot-west-arnhem-minjilang-ward",
+          "council-nt-2025-ballot-west-arnhem-warruwi-ward",
+          "council-nt-ballot-by-july-2026-west-arnhem-warruwi-ward",
+          "council-nt-ballot-by-april-2026-west-arnhem-kakadu-ward",
+          "council-nt-ballot-supplementary-2025-west-arnhem-gunbalanya-ward",
+          "council-nt-ballot-supplementary-2025-west-arnhem-gunbalanya-ward-timetable",
+          "council-nt-ballot-supplementary-2025-west-arnhem-kakadu-ward",
+          "council-nt-ballot-supplementary-2025-west-arnhem-kakadu-ward-timetable"
+        ],
+        "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
+        "representatives": [
+          {
+            "name": "Henry Yates",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gunbalanya Ward"
+          },
+          {
+            "name": "Ralph McCoy",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gunbalanya Ward"
+          },
+          {
+            "name": "Daniel Siebert",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Gunbalanya Ward"
+          },
+          {
+            "name": "Geraldine Narul",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Warruwi Ward"
+          },
+          {
+            "name": "Steven Nabalmarda",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Minjilang Ward"
+          },
+          {
+            "name": "Dwane Baker",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Kakadu Ward"
+          },
+          {
+            "name": "Mickitja Onus",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Kakadu Ward"
+          },
+          {
+            "name": "Ralph Blyth",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Kakadu Ward"
+          },
+          {
+            "name": "Joseph Diddo",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Maningrida Ward"
+          },
+          {
+            "name": "Jacqueline Phillips",
+            "role": "Deputy Mayor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Maningrida Ward"
+          },
+          {
+            "name": "James Woods",
+            "role": "Mayor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Maningrida Ward"
+          },
+          {
+            "name": "Jermaine Namanurki",
+            "role": "Councillor",
+            "profileUrl": "https://westarnhem.nt.gov.au/our-council/our-councillors",
+            "profileType": "official council roster",
+            "sourceId": "council-nt-roster-west-arnhem",
+            "checked": "2026-10-17",
+            "wardLabel": "Maningrida Ward"
+          }
+        ],
+        "elections": [
+          {
+            "id": "nt-council-74660-next-ordinary",
+            "label": "Next ordinary local government election",
+            "kind": "ordinary",
+            "status": "date-not-verified",
+            "date": null,
+            "dateBasis": "Check the official timetable for this council. No inferred countdown date.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/local-government-elections",
+            "candidates": []
+          },
+          {
+            "id": "nt-council-74660-ordinary-2025-gunbalanya-ward",
+            "label": "2025 West Arnhem — Gunbalanya Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+            "candidates": [
+              {
+                "name": "Henry YATES",
+                "status": "official historical nominee",
+                "contest": "Gunbalanya Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Ralph MCCOY",
+                "status": "official historical nominee",
+                "contest": "Gunbalanya Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-ordinary-2025-kakadu-ward",
+            "label": "2025 West Arnhem — Kakadu Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+            "candidates": [
+              {
+                "name": "Ralph Francis BLYTH",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Mickitja ONUS",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-ordinary-2025-maningrida-ward",
+            "label": "2025 West Arnhem — Maningrida Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+            "candidates": [
+              {
+                "name": "Jacqueline PHILLIPS",
+                "status": "official historical nominee",
+                "contest": "Maningrida Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "James WOODS",
+                "status": "official historical nominee",
+                "contest": "Maningrida Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jermaine NAMANURKI",
+                "status": "official historical nominee",
+                "contest": "Maningrida Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Joseph DIDDO",
+                "status": "official historical nominee",
+                "contest": "Maningrida Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Monia WILTON",
+                "status": "official historical nominee",
+                "contest": "Maningrida Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/maningrida",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 5,
+              "retainedCandidateCount": 5,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-ordinary-2025-minjilang-ward",
+            "label": "2025 West Arnhem — Minjilang Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/minjilang",
+            "candidates": [
+              {
+                "name": "Steven NABALMARDA",
+                "status": "official historical nominee",
+                "contest": "Minjilang Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/minjilang",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/minjilang",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 1,
+              "retainedCandidateCount": 1,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-ordinary-2025-warruwi-ward",
+            "label": "2025 West Arnhem — Warruwi Ward",
+            "kind": "ordinary",
+            "status": "historical",
+            "date": "2025-08-23",
+            "dateBasis": "Official scheduled 2025 local-government general-election date; individual nomination lists can be unopposed or partly failed and do not establish that voting occurred in every contest.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/warruwi",
+            "candidates": [
+              {
+                "name": "James MARRAWAL",
+                "status": "official historical nominee",
+                "contest": "Warruwi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/warruwi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/warruwi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Jamie MILPURR",
+                "status": "official historical nominee",
+                "contest": "Warruwi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/warruwi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-elections/council-information/west-arnhem/list-of-candidates/warruwi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-by-july-2026-warruwi-ward",
+            "label": "2026 West Arnhem — Warruwi Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": null,
+            "dateBasis": "Official NTEC event context and nomination summary verified; exact polling day not yet retained, so date remains null.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "exact election day unresolved",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-regional-council-by-elections-july/list-of-candidates/warruwi",
+            "candidates": [
+              {
+                "name": "Geraldine NARUL",
+                "status": "official historical nominee",
+                "contest": "Warruwi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-regional-council-by-elections-july/list-of-candidates/warruwi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-regional-council-by-elections-july/list-of-candidates/warruwi",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Peter GWADBU",
+                "status": "official historical nominee",
+                "contest": "Warruwi Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-regional-council-by-elections-july/list-of-candidates/warruwi",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-regional-council-by-elections-july/list-of-candidates/warruwi",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-by-april-2026-kakadu-ward",
+            "label": "2026 West Arnhem — Kakadu Ward",
+            "kind": "by-election",
+            "status": "historical",
+            "date": null,
+            "dateBasis": "Official NTEC event context and nomination summary verified; exact polling day not yet retained, so date remains null.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "exact election day unresolved",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/west-arnhem/list-of-candidates",
+            "candidates": [
+              {
+                "name": "Dwane BAKER",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/west-arnhem/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/west-arnhem/list-of-candidates",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Calvin Dean MURAKAMI",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/west-arnhem/list-of-candidates",
+                "profileUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2026-local-government-by-election-april/council-information/west-arnhem/list-of-candidates",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            }
+          },
+          {
+            "id": "nt-council-74660-supplementary-2025-gunbalanya-ward",
+            "label": "2025 West Arnhem — Gunbalanya Ward",
+            "kind": "supplementary",
+            "status": "historical",
+            "date": "2025-11-29",
+            "dateBasis": "Official NTEC supplementary timetable; nominal election day, including uncontested contexts.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+            "candidates": [
+              {
+                "name": "Daniel SIEBERT",
+                "status": "official historical nominee",
+                "contest": "Gunbalanya Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Tamar NAWIRRIDJ",
+                "status": "official historical nominee",
+                "contest": "Gunbalanya Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/gunbalanya",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2025-local-government-supplementary-elections/timetable"
+          },
+          {
+            "id": "nt-council-74660-supplementary-2025-kakadu-ward",
+            "label": "2025 West Arnhem — Kakadu Ward",
+            "kind": "supplementary",
+            "status": "historical",
+            "date": "2025-11-29",
+            "dateBasis": "Official NTEC supplementary timetable; nominal election day, including uncontested contexts.",
+            "timezone": "Australia/Darwin",
+            "milestoneLabel": "election day",
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+            "candidates": [
+              {
+                "name": "Calvin MURAKAMI",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileType": "official historical nomination list"
+              },
+              {
+                "name": "Kylie LINDNER",
+                "status": "official historical nominee",
+                "contest": "Kakadu Ward",
+                "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileUrl": "https://ntec.nt.gov.au/elections/current-elections/2025-local-government-supplementary-elections/council-information/west-arnhem/list-of-candidates/kakadu",
+                "profileType": "official historical nomination list"
+              }
+            ],
+            "coverageNotes": [
+              "Official nomination-list coverage; first-preference totals, subsequent candidacy, current affiliation and present office are not inferred. An elected outcome is included only where a separate official result is expressly cited."
+            ],
+            "nominationCoverage": {
+              "officialCandidateCount": 2,
+              "retainedCandidateCount": 2,
+              "complete": true
+            },
+            "dateSourceUrl": "https://ntec.nt.gov.au/elections/past-elections/past-local-government-elections/2025-local-government-supplementary-elections/timetable"
+          }
+        ],
+        "coverageNotes": [
+          "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+          "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+          "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+          "Official roster cards list twelve members, including later replacements, while its introductory sentence still names 2021 as the most recent election. Preserve the published card snapshot with this discrepancy; do not silently redraft its source year or use 2025 winners as the current roster."
+        ]
+      }
+    }
+  ],
+  "reviewEvidence": {
+    "reviewedOn": "2026-10-23",
+    "paths": [
+      "content/places/qa/national-validation.json",
+      "content/places/qa/browser-review.json"
+    ],
+    "nationalEvidence": {
+      "validation": "content/places/qa/national-validation.json",
+      "browser": "content/places/qa/browser-review.json"
+    },
+    "artifactFingerprints": [
+      {
+        "path": "assets/civic-places.js",
+        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+      },
+      {
+        "path": "assets/civic-places.css",
+        "sha256": "ba94d984509619bbaa8caf01b71936d579a6f0ce85d37708088e8e362b92ef5d"
+      },
+      {
+        "path": "tools/build-national-places.py",
+        "sha256": "4d65ccebd70e8cda731efacae9179dfb05349ae6c8b4b458cbb6c0ea3126313c"
+      },
+      {
+        "path": "tools/verify-national-places.py",
+        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+      },
+      {
+        "path": "content/places/qa/national-validation.json",
+        "sha256": "e96cda44eb21a030f033d118df208e1c5f2b27b8c55502cef7bfeb8246b537af"
+      },
+      {
+        "path": "content/places/qa/browser-review.json",
+        "sha256": "e3f468dfabafecd869f6ed603ca634336562f9f9d2f32be5c776887cc53c19c3"
+      }
+    ],
+    "requiredHumanChecks": [
+      "Review this place against its actual official boundary/role/event sources and source rights when facts or boundaries change; do not infer office from a historical winner.",
+      "Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.",
+      "Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review."
+    ],
+    "limitations": [
+      "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
+      "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
+      "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
+      "Browser evidence is a shared-renderer smoke review of its recorded fixtures and viewport/device conditions. It does not establish full per-place source, geometry, mobile, accessibility or browser review.",
+      "No new Twinkles were authored; grassroots implementation remains open. A structural PASS is not a national completeness claim."
+    ]
+  }
+}
