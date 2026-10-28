@@ -22,7 +22,7 @@
     "Reference scope includes the Queensland council layer and ten Redland electoral divisions.",
     "Current state and federal electorates have source-map pathways; interactive state/federal overlay geometry and quantitative overlap analysis are not built in this reference.",
     "Individual candidate dossiers and a harvested voting-history database are not populated. Official pathways and ten dated councillor profile listings are present.",
-    "The reference has no shared database, official submissions, currency issuance, candidate registration or election announcement."
+    "The reference has no shared database, official submissions, currency issuance, candidate registration or an issued ECQ election timetable. Council confirmed a mayoral vacancy on 28 October 2026; the by-election dates remain unannounced at this scoped check."
   ],
   "routeDefaults": {
     "noSvgMaps": true,
@@ -57,6 +57,9 @@
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html",
         "states/qld/councils/redland/explore/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-10-28"
       ]
     },
     {
@@ -81,6 +84,9 @@
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html",
         "states/qld/councils/redland/explore/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-10-28"
       ]
     },
     {
@@ -106,6 +112,9 @@
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html",
         "states/qld/councils/redland/explore/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-10-28"
       ]
     },
     {
@@ -472,7 +481,7 @@
     {
       "path": "content/local/redland-election.json",
       "pointer": "/checked",
-      "expected": "2026-10-16"
+      "expected": "2026-10-28"
     },
     {
       "path": "content/local/redland-election.json",
@@ -523,7 +532,8 @@
       "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
       "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
       "content/places/qa/pre-research-2026-10-23/browser-review.json",
-      "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json"
+      "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json",
+      "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -565,7 +575,7 @@
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "bbbb2bff8986eae0e74791787c43d39509a18033a18b89069dbc5fb05a749822"
+        "sha256": "aa96beb85062364dd7c35499437123fa997c69d363f019f111670dcbcbe80890"
       },
       {
         "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
@@ -578,6 +588,10 @@
       {
         "path": "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json",
         "sha256": "3602b568615aeb1cceab3628d36555e62376e7fc7bb834c1f281c870d2c085f8"
+      },
+      {
+        "path": "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
+        "sha256": "bbbb2bff8986eae0e74791787c43d39509a18033a18b89069dbc5fb05a749822"
       }
     ],
     "requiredHumanChecks": [
@@ -619,8 +633,13 @@
     },
     "questionnaireNavigationReview": {
       "reviewedOn": "2026-10-23",
-      "path": "content/places/qa/browser-review.json",
+      "path": "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
       "scope": "One new Ground game Index entry, homepage link, questionnaire and dated source-register link; Redlands facts, local scenes, map geometry and earlier whole-journey acceptance retain their dated scope. Native draft-replacement/clear acceptance remains untested."
+    },
+    "redlandVacancyReview": {
+      "reviewedOn": "2026-10-28",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Scoped Redlands mayoral vacancy/process/two-milestone rendering only. Original maps, rosters, statistics and questionnaire evidence retain earlier scopes and dates."
     }
   },
   "dateInventories": [
@@ -686,7 +705,7 @@
         "/checked",
         "/changed"
       ],
-      "sha256": "226b74c5c684eb65c5c6f17e7d25af790ff7cd77fa805c130f39897efb99eeca"
+      "sha256": "3b3debcea3db7483811cc8af5fea54b5d68e44be40cacf3f4771ddb895e0324e"
     }
   ]
 }

@@ -34,7 +34,9 @@ jobs:
           python tools/check-contract-cache.py
           python tools/verify-place-contracts.py
       - name: Check the Redlands reference build
-        run: python tools/verify-redland.py
+        run: |
+          python tools/verify-redland.py
+          python tools/verify-redland-election.py
       - name: Check public discovery and preserved licence
         run: |
           python tools/check-civic-navigation.py
@@ -47,6 +49,7 @@ jobs:
       - name: Check election clock behavior and map script
         run: |
           node tools/check-redland-clock.mjs
+          node --test tests/redland-election.test.mjs
           node --check assets/qld-council-map.js
       - name: Check national map geometry, delivery and local clocks
         run: |

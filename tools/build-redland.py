@@ -82,20 +82,9 @@ def card(page, num, title, copy, target, label):
     return f'<article class="local-card"><span class="local-number">{e(num)}</span><h3>{e(title)}</h3><p>{e(copy)}</p>{link(page,target,label,"local-card-link")}</article>'
 
 def clock(page, election):
-    general = election["general"]
-    readable = date.fromisoformat(general['date']).strftime('%A %-d %B %Y') if os.name != 'nt' else date.fromisoformat(general['date']).strftime('%A %#d %B %Y')
-    units=''.join(f'<span><strong>--</strong>{unit}</span>' for unit in ['days','hours','minutes','seconds'])
-    early=election['earlyVoting']
-    earlyhtml=f'<p><strong>Early voting:</strong> {e(early["status"])}</p>'
-    if early.get('opens') and early.get('closes'):
-        earlyhtml+=f'<div data-voting-window data-opens="{e(early["opens"])}" data-closes="{e(early["closes"])}"><p data-voting-status>Early voting: {e(early["opens"])} to {e(early["closes"])}, Queensland time.</p><div class="local-clock" data-voting-countdown role="timer" aria-label="Early voting countdown">{units}</div></div>'
-    earlyhtml+=''.join('<p>'+link(page,loc['url'],loc['label'])+'</p>' for loc in early.get('locations',[]))
-    bye=election['byElection']
-    byehtml=f'<p><strong>Possible mayoral by-election:</strong> {e(bye["status"])}</p>'
-    if bye.get('date'):
-        target=bye.get('countdownTarget',bye['date']+'T00:00:00+10:00')
-        byehtml+=f'<div><p>Mayoral by-election: {e(bye["date"])}</p><div class="local-clock" data-election-countdown="{e(target)}" role="timer" aria-label="Mayoral by-election countdown">{units}</div><p data-election-status>{link(page,bye["source"],"Official notice")}</p></div>'
-    return f'''<section class="local-panel accent" aria-labelledby="election-title"><p class="local-kicker">Election clock · Queensland time</p><h2 id="election-title">{e(general['title'])}</h2><p><strong>{e(readable)}</strong></p><div class="local-clock" data-election-countdown="{e(general['countdownTarget'])}" role="timer" aria-label="Time until the scheduled election day">{units}</div><p data-election-status>{e(general['status'])}</p><p class="local-source">The clock reaches the start of the scheduled day, not the opening of booths. {link(page,general['source'],'ECQ election rule')} · Checked {e(election['checked'])}.</p><details><summary>Early voting and a possible by-election</summary>{earlyhtml}{byehtml}<p>{link(page,early['source'],'Check official election notices and voting arrangements')}</p></details><noscript><p>The live clock needs JavaScript. Scheduled election date: {e(readable)}.</p></noscript></section>'''
+    from redland_election import render
+    return render(page, election, link)
+
 
 def map_image(page, item):
     image = item.get("image", item.get("localPath", ""))
@@ -217,10 +206,13 @@ def main():
     if isinstance(notes,str):notes=[notes]
     body=f'''<section id="statistics"><h2>Statistics with their period attached.</h2><p>A 2026 research check does not turn 2021 Census figures into 2026 Census results. Population estimates and census counts are different measures; the geography and reference date must travel with each number.</p><div class="local-table-scroll"><table class="local-table"><caption>Reviewed local indicators</caption><thead><tr><th>Indicator</th><th>Figure</th><th>Period and geography</th><th>Definition, limit and source</th></tr></thead><tbody>{rows}</tbody></table></div>{source_links(page,sources)}<p>{link(page,'https://www.abs.gov.au/census','ABS Census releases and latest information')}</p></section><section class="local-section" id="boundaries"><h2>Boundary maps, without invented shapes.</h2><p>These are local raster copies of actual source maps. They are not georeferenced overlays, parcel advice or a statistical intersection calculation. Different editions and scales cannot establish a percentage overlap by visual comparison.</p><ul class="local-list">{''.join('<li>'+e(n)+'</li>' for n in notes)}</ul>{mapbody}</section>
     <section class="local-section" id="changes"><h2>What changed on 16 October 2026.</h2><ul class="local-list"><li>Connected the Queensland portal and architecture page to a public council route, with Redland City as the implemented example.</li><li>Added real boundary-map images, a dated local data snapshot, searchable local questions and links to existing proposals and public records.</li><li>Added the candidate and public-responsibility path, with optional Genesis reflection inside it.</li><li>Added the scheduled election countdown, explicit unknown early-voting dates and the conditional by-election branch.</li><li>Added the private journey-note download, three linked accounts and an outcomes/learning route.</li><li>Recorded the source schema, update triggers and reuse pattern for other councils and electorates.</li></ul><p>The clock updates as time passes. Underlying political facts, boundaries, early-voting dates and statistics update only after a source review.</p><div class="local-related">{link(page,'content/history/redland.md','Full dated local history')}{link(page,'content/local/redland-election.json','Election dates and review status')}{link(page,'content/councils/redland.json','Map and statistics source data')}{link(page,'content/local/redland-connections.json','Questions and connections')}{link(page,'docs/agents/local-place-pattern.md','Repeatable agent report')}</div></section><section class="local-panel"><h2>Corrections have a place in the journey.</h2><p>Bring the source, date, affected figure or statement and your proposed correction. A shared link can point directly to a connection. This first pass accepts no online submissions; prepare a note and use an authorised external route when ready.</p>{link(page,BASE+'action/index.html','Prepare a correction or evidence note',"local-button")}</section>'''
-    body=render_register(page,link)+body
+    from redland_election import sources_section
+    body=render_register(page,link)+sources_section(page,election,link)+body
     outputs[page]=shell(page,'Sources, boundaries and change dates.','Inspect where the maps and numbers came from, what they describe and what will need another check when conditions change.',body,'Sources & dates')
     outputs.update(build_division_pages(shell))
+    from redland_election import apply_page
     for path, text in outputs.items():
+        text=apply_page(path, text, election, link)
         text=text.replace('?type=system','?type=solution')
         text=text.replace('First build · 16 October 2026','First build · 16-17 October 2026')
         text=text.replace('What changed on 16 October 2026.','What changed on 16-17 October 2026.')

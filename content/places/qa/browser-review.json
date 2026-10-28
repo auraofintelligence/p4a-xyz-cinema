@@ -1,238 +1,152 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-10-23",
-  "checkedAt": "2026-10-23T17:06:40+10:00",
+  "checked": "2026-10-28",
+  "checkedAt": "2026-10-28T06:29:19.986Z",
   "status": "PASS",
-  "scope": "Bounded P4A questionnaire, shared Index/discovery and existing civic-map-door browser checks. Passing scope excludes the explicit unapproved native confirmation tests.",
+  "scope": "Scoped Redlands mayoral vacancy/process/two-milestone rendering only. Original maps, rosters, statistics and questionnaire evidence retain earlier scopes and dates.",
   "environment": {
-    "browser": "Codex in-app Chromium on Windows",
+    "browser": "Isolated headless Microsoft Edge via bundled Playwright; no user profile",
     "viewports": [
       [
-        320,
-        844
-      ],
-      [
         390,
-        844
+        900
       ],
       [
-        768,
-        844
+        680,
+        900
       ],
       [
-        1366,
-        844
+        1280,
+        900
       ]
     ],
     "physicalTouchTested": false
   },
   "fixtures": [
     {
-      "id": "questionnaire-functional-export-and-opt-in-restore",
+      "width": 390,
+      "suffix": "index.html",
       "status": "PASS",
-      "paths": [
-        "pages/your-relevance.html"
-      ],
-      "observed": {
-        "questionSections": 12,
-        "reviewDestinations": 13,
-        "defaultSavingOff": true,
-        "multipleLocations": [
-          "QLD",
-          "ACT"
-        ],
-        "optionalCivicFieldsRoundTrip": [
-          "council",
-          "ward",
-          "stateElectorate",
-          "stateRegion",
-          "federalElectorate"
-        ],
-        "ACTContextNotInventedCouncil": true,
-        "conditionalEmployeeFollowupVisibleThenHidden": true,
-        "hiddenPriorAnswerExplicitlyRetained": true,
-        "editedBriefCopyActualClipboardEquality": true,
-        "downloadActualBytes": 6544,
-        "downloadSha256": "932f0f6efa7e9663875164b93dd02d3f3c8c9fc68de07c20ea6b88d8078490aa",
-        "downloadMatchesEditedBriefExactly": true,
-        "optInRestoreIncludesEditedTextAndActiveSection": true,
-        "nativeConfirmationAcceptance": "UNTESTED - no approval to replace/clear synthetic QA draft; no retry or bypass"
-      }
+      "client": 390,
+      "scroll": 390,
+      "milestones": 2
     },
     {
-      "id": "questionnaire-four-widths-and-all-mobile-sections",
+      "width": 390,
+      "suffix": "candidates/index.html",
       "status": "PASS",
-      "paths": [
-        "pages/your-relevance.html"
-      ],
-      "observed": {
-        "viewports": [
-          320,
-          390,
-          768,
-          1366
-        ],
-        "measuredClientScrollWidths": [
-          [
-            305,
-            305
-          ],
-          [
-            375,
-            375
-          ],
-          [
-            753,
-            753
-          ],
-          [
-            1351,
-            1351
-          ]
-        ],
-        "all13MobileDestinationsFocusHeading": "H2",
-        "mobileSelectorVisibleDesktopSidebarVisible": true,
-        "editedEndingPreservedAcrossAllSectionsAndWidths": true,
-        "desktopAndPhoneVisualReview": true,
-        "physicalTouchTested": false
-      }
+      "client": 390,
+      "scroll": 390,
+      "milestones": 2
     },
     {
-      "id": "homepage-and-shared-index-discovery",
+      "width": 390,
+      "suffix": "sources/index.html",
       "status": "PASS",
-      "paths": [
-        "index.html",
-        "pages/your-relevance.html",
-        "states/qld/councils/redland/sources/index.html"
-      ],
-      "observed": {
-        "homepageStartYourLawMapLinkOpensQuestionnaire": true,
-        "IndexKeyboardOpeningSearchAndEscapeExpandedFalse": true,
-        "themeOrder": [
-          "start",
-          "spark",
-          "system",
-          "ground",
-          "states"
-        ],
-        "StartOpenInitially": true,
-        "nineStartIdeasPreserved": true,
-        "newLawMapIndexHomeCount": 1,
-        "newHomeCategory": "ground",
-        "AustraliaFooterPortals": 8,
-        "phoneWidth": [
-          375,
-          375
-        ],
-        "datedReviewLinkOpensExistingNewPageRoute": true
-      }
+      "client": 390,
+      "scroll": 390,
+      "milestones": 0
     },
     {
-      "id": "questionnaire-distinct-queensland-map-doors",
+      "scenario": "overview-to-people-and-Back",
+      "status": "PASS"
+    },
+    {
+      "width": 680,
+      "suffix": "index.html",
       "status": "PASS",
-      "paths": [
-        "pages/your-relevance.html",
-        "states/qld/places/state/index.html",
-        "states/qld/places/federal/index.html"
-      ],
-      "observed": {
-        "stateLinkURL": "states/qld/places/state/index.html",
-        "stateVisibleMap": "Legislative Assembly districts",
-        "stateVisibleMatchingAreas": 93,
-        "federalLinkURL": "states/qld/places/federal/index.html",
-        "federalVisibleHouseAreas": 30,
-        "separateSenateLayer": "Senate - geographic context",
-        "sameWebsiteRelativeLinks": true,
-        "noSuppliedCivicNameEncodedInDestination": true,
-        "existingLiveStateFederalDoorsAlsoVerified": true
-      }
+      "client": 680,
+      "scroll": 680,
+      "milestones": 2
+    },
+    {
+      "width": 680,
+      "suffix": "candidates/index.html",
+      "status": "PASS",
+      "client": 680,
+      "scroll": 680,
+      "milestones": 2
+    },
+    {
+      "width": 680,
+      "suffix": "sources/index.html",
+      "status": "PASS",
+      "client": 680,
+      "scroll": 680,
+      "milestones": 0
+    },
+    {
+      "width": 1280,
+      "suffix": "index.html",
+      "status": "PASS",
+      "client": 1280,
+      "scroll": 1280,
+      "milestones": 2
+    },
+    {
+      "width": 1280,
+      "suffix": "candidates/index.html",
+      "status": "PASS",
+      "client": 1280,
+      "scroll": 1280,
+      "milestones": 2
+    },
+    {
+      "width": 1280,
+      "suffix": "sources/index.html",
+      "status": "PASS",
+      "client": 1280,
+      "scroll": 1280,
+      "milestones": 0
+    },
+    {
+      "scenario": "no-JavaScript waiting status and source links retained",
+      "status": "PASS"
     }
   ],
   "testedPagePaths": [
-    "index.html",
-    "pages/your-relevance.html",
-    "states/qld/councils/redland/sources/index.html",
-    "states/qld/places/federal/index.html",
-    "states/qld/places/state/index.html"
+    "states/qld/councils/redland/index.html",
+    "states/qld/councils/redland/candidates/index.html",
+    "states/qld/councils/redland/sources/index.html"
   ],
   "fixturePaths": [
-    "content/places/qa/questionnaire-browser-fixture-2026-10-23.json"
+    "content/places/qa/redland-election-browser-2026-10-28.json"
   ],
   "artifactFingerprints": [
     {
-      "path": ".github/workflows/civic-place-checks.yml",
-      "sha256": "5fc3c3159b8047b01afa192b845afe97531d7e6b83f2c73235e88504cb513af1",
-      "bytes": 1846
+      "path": "states/qld/councils/redland/index.html",
+      "sha256": "acc6ab8f0b498ebeab0d707347e32e68b54bfb89d943979318c75fc29953b5f1",
+      "bytes": 20031
     },
     {
-      "path": "assets/civic-places.css",
-      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
-      "bytes": 7199
-    },
-    {
-      "path": "assets/civic-places.js",
-      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
-      "bytes": 19147
-    },
-    {
-      "path": "assets/site-nav.js",
-      "sha256": "97a45ac82297951b0a60370f1d46f522cf5412e4049c4f6b369beaffeacb0fbc",
-      "bytes": 33957
-    },
-    {
-      "path": "assets/your-relevance-model.mjs",
-      "sha256": "b4eff0d3d28dbb91847088b7f0fd486983a3ca224abfcf16a823004563641da3",
-      "bytes": 26197
-    },
-    {
-      "path": "assets/your-relevance.css",
-      "sha256": "9d2acef0ee5424183d70bb92b2060c46c5166d0401eb71009653b84425d3e314",
-      "bytes": 7864
-    },
-    {
-      "path": "assets/your-relevance.mjs",
-      "sha256": "4c89b6c6176a8ee4a8682f54dbec997def0d93d0394f8878603903afd6a3e829",
-      "bytes": 19752
-    },
-    {
-      "path": "content/places/qa/questionnaire-browser-fixture-2026-10-23.json",
-      "sha256": "9fc6380d9f9f4d466345897cca29aa992be939009d819d2d733bcf2baf1eb8a5",
-      "bytes": 4584
-    },
-    {
-      "path": "docs/attribution/your-relevance-source-licence.md",
-      "sha256": "405b4f9920d3e9d4d7807dea0b69669e7a6950a7ffc1b3a7e10f8f00d128b539",
-      "bytes": 3582
-    },
-    {
-      "path": "docs/attribution/your-relevance-source.json",
-      "sha256": "91885b0dd89220076ae51cd489a79c461b0c9dc98032e1ebb68d5a7ece1ed34e",
-      "bytes": 1665
-    },
-    {
-      "path": "index.html",
-      "sha256": "c305a157fcc9b5f98327432429e950f235b3454752d5b06f4d6bfbb13c5fa35e",
-      "bytes": 32999
-    },
-    {
-      "path": "pages/your-relevance.html",
-      "sha256": "d6d1074ca7bf20bfb3550a151991b46b02c9ba91776d7a4bd8b23fcf76101f0a",
-      "bytes": 9457
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "e1bcb09145ad123f1e375397f8a6dd71180114b3c3f39d4ba6a9daf44de6489b",
+      "bytes": 17696
     },
     {
       "path": "states/qld/councils/redland/sources/index.html",
-      "sha256": "838368b750d9475dcf4e9f321cf6a5dee49abf62f5b66155dc12d4a0caf9c89c",
-      "bytes": 39678
+      "sha256": "b35e360d71ff23953c7b41863595738f639ef1e5cd74b49cde8e375d1a3c7864",
+      "bytes": 41392
     },
     {
-      "path": "states/qld/places/federal/index.html",
-      "sha256": "a255e31a2b85b7097d14ec38dba186c60eb054545fb164b639747058de1cf0a8",
-      "bytes": 27746
+      "path": "content/places/qa/redland-election-browser-2026-10-28.json",
+      "sha256": "0e485851ece488e97dce5c3b10734c4e1959e82ca9fd92917d8f6ea0c1be8f9b",
+      "bytes": 2081
     },
     {
-      "path": "states/qld/places/state/index.html",
-      "sha256": "d6bf8c1dbd847766b40c2f340e4c5a77c6d59a6efa154b387dea0237de6cbda4",
-      "bytes": 55232
+      "path": "assets/redland-election-clock.mjs",
+      "sha256": "61410766f1b2ca0626377152f2f68efefd1f493569ac4a5338451f0810250266",
+      "bytes": 2175
+    },
+    {
+      "path": "assets/local-council.js",
+      "sha256": "080ef0affcaf40c3f1b596bfc867553df90719a7d47eb9ae700504fef1c8c21e",
+      "bytes": 6232
+    },
+    {
+      "path": "assets/local-council.css",
+      "sha256": "2b75c769071f0fada8a9277a735f7affe8477c2829972bb16d3ae3b05b5e99d9",
+      "bytes": 8777
     },
     {
       "path": "styles.css",
@@ -240,21 +154,67 @@
       "bytes": 138599
     },
     {
-      "path": "tests/your-relevance.test.mjs",
-      "sha256": "72cca21ff029bfc02b92dc9a7686ea3d3a8f00ddded4657d93907e120d5952d5",
-      "bytes": 7859
+      "path": "assets/site-nav.js",
+      "sha256": "97a45ac82297951b0a60370f1d46f522cf5412e4049c4f6b369beaffeacb0fbc",
+      "bytes": 33957
+    },
+    {
+      "path": "tools/redland_election.py",
+      "sha256": "d3b9b63d17bf00595f7e0b4fcae2b9a26dab26dda622d9ba4d0e15468a2a7e0d",
+      "bytes": 11167
+    },
+    {
+      "path": "tools/build-redland-election.py",
+      "sha256": "aedaba9796ac627b4551da99f20278762dfe5da32e9ea11bf394eb94d321f664",
+      "bytes": 1080
+    },
+    {
+      "path": "tools/build-redland.py",
+      "sha256": "58b77d60755dcdfff7e87567b699e608444356d568bfc89ce81d52687ebc19ad",
+      "bytes": 52872
+    },
+    {
+      "path": "tools/verify-redland-election.py",
+      "sha256": "aa60018cb3879e709528fb3423e9c935522ea3141d52a0cd3d61bd40be8008d8",
+      "bytes": 2489
+    },
+    {
+      "path": "tests/redland-election.test.mjs",
+      "sha256": "ef03cb1f03f56f8e003ff568e493dd2083f7b516e7f4e5e168d7e0502b81f72a",
+      "bytes": 1758
+    },
+    {
+      "path": "content/local/redland-election.json",
+      "sha256": "319fbb56573ae07a90f6e1429466e6eaa290d101de3852bef08b6171aaa7aac3",
+      "bytes": 5133
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
     },
     {
       "path": "tools/build-national-places.py",
       "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8",
       "bytes": 39157
+    },
+    {
+      "path": ".github/workflows/civic-place-checks.yml",
+      "sha256": "5136bf439858196da227a88eaafa5b9327f168bca162b18b582af92d1cc2fb53",
+      "bytes": 1962
     }
   ],
-  "earlierEvidence": "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json",
+  "earlierEvidence": "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
   "limits": [
-    "Native Rebuild, reset, section/place removal, opt-out deletion and stale-edited-export confirmation acceptance were not executed. Approval to replace or clear synthetic QA data was not given; these tests are explicitly untested and no alternative route was used.",
-    "Other browsers, physical touch, screen-reader hardware, blocked-storage/clipboard simulation and exhaustive field-by-field browser trials were not newly tested. The model/schema tests cover all recognised answers and escaping.",
-    "No legal completeness/current-law finding, current-address entitlement, party registration or operating membership system is established. Political records/geometry/source dates are unchanged.",
-    "Earlier 23 October state research and broader navigation acceptance remain separately dated in pre-questionnaire-2026-10-23; this is a bounded questionnaire/shared-navigation review."
+    "Headless desktop/phone-width rendering, not physical touch or screen-reader hardware.",
+    "No questionnaire confirmation or form reset actions.",
+    "Existing map geometry is unchanged; this review covers the new news/process/timing blocks.",
+    "Initial sandboxed browser launch failed to initialise its temporary profile; approved isolated preview/browser execution completed the recorded checks.",
+    "No site-wide source or physical-device review is claimed. No estimated by-election dates, candidate announcement or inferred result."
   ]
 }
