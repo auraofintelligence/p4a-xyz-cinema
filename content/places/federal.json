@@ -187,6 +187,36 @@
       "licence": "AEC GIS download terms and third-party rights retained.",
       "nativeCrs": "See retained .prj",
       "edition": "October 2026; not yet applied at a federal election"
+    },
+    {
+      "id": "federal-capricornia-handbook-20261029",
+      "title": "Parliamentary Handbook current membership: Michelle Landry, Capricornia",
+      "url": "https://handbookapi.aph.gov.au/api/individuals?$filter=InCurrentParliament%20eq%20'True'",
+      "checked": "2026-10-29",
+      "rawFile": "content/places/raw/federal/handbook-current-capricornia-check-20261028.json",
+      "sha256": "b3095bc90d9731fec3208ac48565b4f9e26c463b480438683aeda39c60e7996f",
+      "bytes": 806956,
+      "query": "Existing InCurrentParliament eq True roster; matched PHID249764 only. Other members were not re-reviewed.",
+      "verifiedFacts": {
+        "PHID": "249764",
+        "DisplayName": "LANDRY, the Hon. Michelle Leanne",
+        "Party": "The Nationals",
+        "Electorate": "Capricornia",
+        "InCurrentParliament": "True"
+      },
+      "licence": "Minimal public name, role and affiliation facts; full biographies and portraits are not republished.",
+      "checkedTimezone": "Australia/Brisbane",
+      "retrievedAtUtc": "2026-10-28T14:37:14+00:00"
+    },
+    {
+      "id": "federal-capricornia-retirement-20261023",
+      "title": "Michelle Landry MP: stepping down at next election (23 October 2026)",
+      "url": "https://michellelandry.com.au/michelle-landry-mp-stepping-down-at-next-election/",
+      "publishedAt": "2026-10-23",
+      "checked": "2026-10-29",
+      "acquisitionMethod": "Official announcement read through web retrieval; minimal factual extraction. Direct archival download failed certificate expiry; no certificate checks were bypassed.",
+      "supports": "Will not recontest at the next federal election; intends to continue representing Capricornia until that election. This is not an immediate resignation or vacancy.",
+      "checkedTimezone": "Australia/Brisbane"
     }
   ],
   "layers": [
@@ -4393,7 +4423,9 @@
         "federal-aec-house-votes-2025",
         "federal-handbook-current",
         "federal-aec-2025-timetable",
-        "federal-aec-election-dates"
+        "federal-aec-election-dates",
+        "federal-capricornia-handbook-20261029",
+        "federal-capricornia-retirement-20261023"
       ],
       "boundaryEdition": "March 2025 — 2025 federal election / serving representation",
       "representatives": [
@@ -4403,8 +4435,18 @@
           "party": "The Nationals",
           "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=249764",
           "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/249764",
-          "sourceId": "federal-handbook-current",
-          "checked": "2026-10-17"
+          "sourceId": "federal-capricornia-handbook-20261029",
+          "checked": "2026-10-29",
+          "website": "https://michellelandry.com.au/michelle-landry-mp-stepping-down-at-next-election/",
+          "status": "Sitting member. Announced on 23 October 2026 that she will not recontest the next federal election and will continue representing Capricornia until then. See the linked official announcement.",
+          "retirementAnnouncement": {
+            "status": "not-recontesting-next-federal-election",
+            "announced": "2026-10-23",
+            "checked": "2026-10-29",
+            "sourceId": "federal-capricornia-retirement-20261023",
+            "sourceUrl": "https://michellelandry.com.au/michelle-landry-mp-stepping-down-at-next-election/",
+            "effective": "Next federal election; no immediate vacancy or by-election announced by this statement."
+          }
         }
       ],
       "elections": [
@@ -4501,8 +4543,10 @@
       "coverageNotes": [
         "Current office is independently sourced from the Parliamentary Handbook roster, not inferred from the previous result.",
         "No new Twinkles: grassroots authorship remains open.",
-        "All previous contestants are retained. Official results links are supplied; personal/campaign websites are included only where independently verified."
-      ]
+        "All previous contestants are retained. Official results links are supplied; personal/campaign websites are included only where independently verified.",
+        "Scoped 29 October 2026 review: current membership and the 23 October retirement announcement only. Historical results and boundaries retain their earlier source periods; no replacement candidacy is inferred."
+      ],
+      "representationReview": "Retirement announcement checked 29 October 2026: Landry says she will serve until the next federal election and will not recontest. The Parliamentary Handbook current roster still lists her for Capricornia. No immediate vacancy, successor or by-election is recorded by this update; the next federal polling date remains unannounced."
     },
     {
       "id": "federal-house-204",

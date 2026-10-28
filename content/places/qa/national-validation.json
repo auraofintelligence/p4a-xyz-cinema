@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 997937,
+    "assertions": 997949,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 238,
+    "source_hashes_checked": 239,
     "local_only_source_snapshots_absent": 1061,
-    "sources": 1304,
+    "sources": 1306,
     "current_representative_records": 5262,
     "election_events": 4461,
     "contestant_records": 18379,
@@ -26,11 +26,11 @@
     "generated_pages_checked": 2113,
     "rendered_representative_records_checked": 5262,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56426,
+    "external_link_references_not_fetched": 56429,
     "rendered_event_records_checked": 4461,
     "rendered_contestant_records_checked": 18379,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3056
+    "evidence_artifacts_bound": 3057
   },
   "errors": [],
   "warnings": [
@@ -1509,8 +1509,8 @@
     },
     {
       "path": "content/places/federal.json",
-      "sha256": "f2296781e14987fffdd5cb335543b26f03811a01950faef9a5efa68e2898875c",
-      "bytes": 1253079
+      "sha256": "f9deede2264f47ef65241add985d8c57f19bd3bd97c7a2d11c867c63fae68387",
+      "bytes": 1256436
     },
     {
       "path": "content/places/geometry-delivery.json",
@@ -4834,6 +4834,12 @@
       "optionalLocalOnly": true,
       "missing": true,
       "sha256": "68403176306eb3681868ac37724acb2244030c424fa28a3f30a089c551882f25"
+    },
+    {
+      "path": "content/places/raw/federal/handbook-current-capricornia-check-20261028.json",
+      "sha256": "b3095bc90d9731fec3208ac48565b4f9e26c463b480438683aeda39c60e7996f",
+      "bytes": 806956,
+      "optionalLocalOnly": true
     },
     {
       "path": "content/places/raw/sa-ward-geometry/catalogue.html",
@@ -9449,8 +9455,8 @@
     },
     {
       "path": "states/qld/federal/capricornia/index.html",
-      "sha256": "f25bb315ec633c9fc1bde59fed273ec6b8dc40508ff0e9a6480068d18630ed0e",
-      "bytes": 34391
+      "sha256": "815f35e7663951f51e547f30c8c52e61d67ad7381f556a404aabe7f427d0289b",
+      "bytes": 35873
     },
     {
       "path": "states/qld/federal/dawson/index.html",
@@ -17294,5 +17300,11 @@
     "Missing people/contestants are explicit coverage gaps; a structural pass does not claim those are complete.",
     "No browser, visual, keyboard, performance or external HTTP check is claimed by this script.",
     "Local links/assets/fragments are checked on generated place/detail/directory pages; linked existing pages supply fragment targets without expanding this run into an unrelated legacy-site audit."
-  ]
+  ],
+  "scopedContentReview": {
+    "path": "content/places/qa/capricornia-retirement-review-2026-10-29.json",
+    "sha256": "a3617d8b9421ba44dac8a01e7db86f6e71f8853a180e498d15968953f94eef69",
+    "mode": "non-browser-source-content-and-preservation-review",
+    "meaning": "Repository/non-browser workflow requested by the user. Renderer, scripts, CSS and retained browser-tested inputs are unchanged. Existing browser review retains its earlier scope; no new browser review is claimed."
+  }
 }

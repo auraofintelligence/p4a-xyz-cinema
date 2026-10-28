@@ -19,6 +19,7 @@
     "Current office is independently sourced from the Parliamentary Handbook roster, not inferred from the previous result.",
     "No new Twinkles: grassroots authorship remains open.",
     "All previous contestants are retained. Official results links are supplied; personal/campaign websites are included only where independently verified.",
+    "Scoped 29 October 2026 review: current membership and the 23 October retirement announcement only. Historical results and boundaries retain their earlier source periods; no replacement candidacy is inferred.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -79,7 +80,9 @@
           "federal-aec-house-votes-2025",
           "federal-handbook-current",
           "federal-aec-2025-timetable",
-          "federal-aec-election-dates"
+          "federal-aec-election-dates",
+          "federal-capricornia-handbook-20261029",
+          "federal-capricornia-retirement-20261023"
         ],
         "boundaryEdition": "March 2025 — 2025 federal election / serving representation",
         "representatives": [
@@ -89,8 +92,18 @@
             "party": "The Nationals",
             "profileUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=249764",
             "handbookUrl": "https://handbook.aph.gov.au/parliamentarians/249764",
-            "sourceId": "federal-handbook-current",
-            "checked": "2026-10-17"
+            "sourceId": "federal-capricornia-handbook-20261029",
+            "checked": "2026-10-29",
+            "website": "https://michellelandry.com.au/michelle-landry-mp-stepping-down-at-next-election/",
+            "status": "Sitting member. Announced on 23 October 2026 that she will not recontest the next federal election and will continue representing Capricornia until then. See the linked official announcement.",
+            "retirementAnnouncement": {
+              "status": "not-recontesting-next-federal-election",
+              "announced": "2026-10-23",
+              "checked": "2026-10-29",
+              "sourceId": "federal-capricornia-retirement-20261023",
+              "sourceUrl": "https://michellelandry.com.au/michelle-landry-mp-stepping-down-at-next-election/",
+              "effective": "Next federal election; no immediate vacancy or by-election announced by this statement."
+            }
           }
         ],
         "elections": [
@@ -187,13 +200,15 @@
         "coverageNotes": [
           "Current office is independently sourced from the Parliamentary Handbook roster, not inferred from the previous result.",
           "No new Twinkles: grassroots authorship remains open.",
-          "All previous contestants are retained. Official results links are supplied; personal/campaign websites are included only where independently verified."
-        ]
+          "All previous contestants are retained. Official results links are supplied; personal/campaign websites are included only where independently verified.",
+          "Scoped 29 October 2026 review: current membership and the 23 October retirement announcement only. Historical results and boundaries retain their earlier source periods; no replacement candidacy is inferred."
+        ],
+        "representationReview": "Retirement announcement checked 29 October 2026: Landry says she will serve until the next federal election and will not recontest. The Parliamentary Handbook current roster still lists her for Capricornia. No immediate vacancy, successor or by-election is recorded by this update; the next federal polling date remains unannounced."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-28",
+    "reviewedOn": "2026-10-29",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -221,7 +236,7 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "6c42a16b16d621c68e07b73ef963c6200f57dcc895ed89aa500a4cfa9a839177"
+        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
       },
       {
         "path": "content/places/qa/browser-review.json",
