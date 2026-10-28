@@ -1574,7 +1574,8 @@ body[data-page="housing-simulations"] .housing-question-grid {
   background: rgba(255,255,255,.28);
   z-index: 1;
 }
-.phone-frame iframe {
+.phone-frame iframe,
+.phone-frame video {
   display: block;
   width: 100%;
   aspect-ratio: 9 / 16;
@@ -3236,3 +3237,6 @@ body .icon-button.nav-toggle { display: none; }
 .civic-entry-choices a:focus-visible,.civic-wayfinding a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .civic-wayfinding{justify-content:flex-start;gap:.5rem;padding:.7rem max(1rem,calc((100% - var(--max))/2));font-size:.85rem}
 @media(max-width:620px){.civic-national-entry{margin:1rem}.civic-entry-choices{display:grid;grid-template-columns:minmax(0,1fr)}.civic-wayfinding a{flex:1 1 135px}.civic-entry-choices a{justify-content:flex-start}}
+
+/* Portrait lyric videos retain the full cover and native playback controls. */
+.phone-frame video { height: auto; object-fit: contain; }

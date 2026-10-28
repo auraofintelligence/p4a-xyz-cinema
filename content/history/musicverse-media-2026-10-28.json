@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-28",
+  "timezone": "Australia/Brisbane",
+  "scope": "Replace the two old YouTube embeds with current portrait lyric videos and newly titled portrait covers.",
+  "pageVersions": [
+    {
+      "path": "index.html",
+      "version": "20261028-portrait-lyrics",
+      "change": "Both song players and covers replaced."
+    },
+    {
+      "path": "pages/musicverse.html",
+      "version": "20261028-portrait-lyrics",
+      "change": "Brick player and cover replaced; current Purple Mat portrait video linked from its track card."
+    }
+  ],
+  "media": [
+    {
+      "title": "The Purple Mat That Could",
+      "artist": "i C. infinity",
+      "sourceExportVersion": 3,
+      "video": "assets/media/the-purple-mat-that-could-portrait-v3.mp4",
+      "poster": "assets/media/the-purple-mat-that-could-portrait-cover-v1.jpg",
+      "videoSha256": "6161c32ed72baebe87295a3feefbc285ef3b7e1cfb7a02a449e1d1b514b83840",
+      "posterSha256": "d179b5e5cf7f7ed8c347ae77d05a5e4c0c7dc88e581cb03b8e2cadcdce284220",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "durationSeconds": 247.786,
+      "compressedVideoPreserved": true,
+      "compressedAudioPreserved": true,
+      "streamingHeaderAtFront": true
+    },
+    {
+      "title": "Don't Throw A Brick (Fill A Form)",
+      "artist": "i C. infinity",
+      "sourceExportVersion": 1,
+      "video": "assets/media/dont-throw-a-brick-fill-a-form-portrait-v1.mp4",
+      "poster": "assets/media/dont-throw-a-brick-fill-a-form-portrait-cover-v1.jpg",
+      "videoSha256": "2ae41a40ada8c6d31584f24647745918cf8621b422aec59967c6139ee510e841",
+      "posterSha256": "cd98d51570ee8913c220ed6d65badcbbb0940d2d8dd50b5787c1edd3c2b20fba",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "durationSeconds": 172.566667,
+      "compressedVideoPreserved": true,
+      "compressedAudioPreserved": true,
+      "streamingHeaderAtFront": true
+    }
+  ],
+  "review": "Full portrait scene retained in covers, title lettering checked. Original corrected video and audio packets preserved without re-encoding. Browser checks and deployment are recorded in the publication handover."
+}
