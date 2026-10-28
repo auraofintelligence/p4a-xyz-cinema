@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checked": "2026-10-28",
-  "checkedAt": "2026-10-28T06:29:19.986Z",
+  "checkedAt": "2026-10-28T06:59:39.661Z",
   "status": "PASS",
   "scope": "Scoped Redlands mayoral vacancy/process/two-milestone rendering only. Original maps, rosters, statistics and questionnaire evidence retain earlier scopes and dates.",
   "environment": {
@@ -130,7 +130,7 @@
     },
     {
       "path": "content/places/qa/redland-election-browser-2026-10-28.json",
-      "sha256": "0e485851ece488e97dce5c3b10734c4e1959e82ca9fd92917d8f6ea0c1be8f9b",
+      "sha256": "5c1eddb9c9b25b14f0e0979ebf194f041006c21386f0acff40fc82db0d9107be",
       "bytes": 2081
     },
     {
@@ -150,8 +150,8 @@
     },
     {
       "path": "styles.css",
-      "sha256": "f96bb8f7f95ddbd53c43db0ce2acf3c298d03de470089a7b9fe127916a885d04",
-      "bytes": 138599
+      "sha256": "52c466b91e473ceea7501f0dcfb76c9440684cd1bce8c170db9221776791f7eb",
+      "bytes": 138762
     },
     {
       "path": "assets/site-nav.js",
@@ -216,5 +216,6 @@
     "Existing map geometry is unchanged; this review covers the new news/process/timing blocks.",
     "Initial sandboxed browser launch failed to initialise its temporary profile; approved isolated preview/browser execution completed the recorded checks.",
     "No site-wide source or physical-device review is claimed. No estimated by-election dates, candidate announcement or inferred result."
-  ]
+  ],
+  "integrationReview": "Repeated the scoped layout/navigation/no-JavaScript review after preserving the already-published portrait-media commit ecbf94e6. Its CSS additions concern portrait video only. Approved Redlands HTML, canonical timing data and countdown module are unchanged."
 }
