@@ -8,9 +8,9 @@
   "shortName": "NSW",
   "capital": "Sydney",
   "stateType": "State",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-10-30",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped review 23 October: current official Assembly and Council lists checked. Nine independents include Jacqui Scruby; Bernard Govind fills the documented Council roster gap. General poll remains 13 March 2027. New council polls: Cobar 28 November, Coffs Harbour and Hunters Hill South Ward 12 December. Affected council roster removals remain follow-up where named resignation pages were inaccessible; federal roster audit not claimed.",
+  "researchStatus": "Election review 30 October: NSWEC declared Barry Knight elected uncontested for Cobar on 29 October; no voting is required. This declaration supersedes the earlier 28 November poll timetable. Coffs Harbour and Hunters Hill South Ward polls remain 12 December, with nominations closing 11 November at noon Sydney (AEDT). Paul Amos resigned effective 14 October; Hunters Hill announced Marc Lane's immediate resignation on 15 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -41,27 +41,30 @@
       }
     },
     {
-      "label": "2026 Cobar Shire Council by-election",
-      "date": "2026-11-28T18:00:00+11:00",
+      "label": "2026 Cobar Shire Council by-election - uncontested declaration",
+      "date": "2026-10-29T00:00:00+11:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Scheduled; nominations open",
-      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-10-28T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
-      "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+      "status": "Completed - Barry Knight elected uncontested; no voting required",
+      "note": "NSWEC Election Notice 3 declares KNIGHT Barry elected uncontested on 29 October 2026. No voting is required; the earlier 28 November poll timetable is superseded. The timer uses the start of the declaration date in Sydney (AEDT, UTC+11), not a verified declaration time. Reviewed 30 October 2026.",
+      "source": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
       "dayMetrics": {
-        "displayDaysUntil": true,
-        "displayDaysSince": false,
+        "displayDaysUntil": false,
+        "displayDaysSince": true,
         "archiveDaysSince": true,
         "cycleKey": "nsw-2026-cobarshirecouncil-by-election",
-        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+        "daysSinceDate": "2026-10-29T00:00:00+11:00",
+        "daysSinceLabel": "Uncontested declaration date (Sydney day-start; not declaration time)",
+        "daysSinceSource": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
       }
     },
     {
-      "label": "2026 CityofCoffsHarbourCouncil by-election",
+      "label": "2026 City of Coffs Harbour Council by-election",
       "date": "2026-12-12T18:00:00+11:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Scheduled; nominationsnotyetopenasat23October",
+      "status": "Scheduled; nominations open 2 November",
       "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
       "dayMetrics": {
@@ -78,7 +81,7 @@
       "kind": "Council by-election",
       "scope": "local-government",
       "status": "Scheduled; nominations open 2 November",
-      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+      "note": "Council announced Marc Lane's resignation on 15 October, effective immediately. Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -271,14 +274,30 @@
     {
       "label": "nsw current election index",
       "url": "https://elections.nsw.gov.au/elections"
+    },
+    {
+      "label": "Coffs Harbour resignation notice, 14 October 2026",
+      "url": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation"
+    },
+    {
+      "label": "NSWEC Cobar uncontested declaration, 29 October 2026",
+      "url": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
+    },
+    {
+      "label": "NSWEC Cobar by-election event and candidate record",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election"
+    },
+    {
+      "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
+      "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
     }
   ],
-  "previousResearchRun": "2026-05-08",
+  "previousResearchRun": "2026-10-29",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-10-30",
     "timezone": "Australia/Brisbane",
-    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-    "previousResearchRun": "2026-05-08",
+    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
+    "previousResearchRun": "2026-10-29",
     "sourceDatesPreserved": true
   }
 }

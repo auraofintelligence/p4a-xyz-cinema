@@ -21,6 +21,7 @@
     "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office.",
     "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
     "23 October review: extraordinary-election process verified. Existing current roster requires follow-up for vacancies and replacements; do not treat the old roster as freshly certified. Individual accepted ballots not yet entered.",
+    "Verified 29 October 2026: Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -78,7 +79,8 @@
           "council-ward-supp-geoscape-wa-native",
           "council-ward-supp-geoscape-lga-attributes",
           "council-wa-walga-2026-53290",
-          "refresh-wa-council-53290-december2026"
+          "refresh-wa-council-53290-december2026",
+          "election-review-esperance-20261029"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -132,19 +134,6 @@
             "website": "https://www.esperance.wa.gov.au",
             "termEndYear": "2027",
             "wardLabel": "Rural Ward"
-          },
-          {
-            "name": "Gemma Johnston",
-            "role": "Councillor",
-            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=20",
-            "profileType": "official published WALGA roster",
-            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-            "sourceId": "council-wa-walga-2026-53290",
-            "checked": "2026-10-17",
-            "asAt": "2026-03",
-            "website": "https://www.esperance.wa.gov.au",
-            "termEndYear": "2027",
-            "wardLabel": "Town Ward"
           },
           {
             "name": "Connor Davies",
@@ -230,7 +219,7 @@
             "kind": "extraordinary",
             "status": "scheduled",
             "date": "2026-12-03",
-            "dateBasis": "Official postal receipt deadline after nominations closed 20 October; not an in-person polling opening.",
+            "dateBasis": "Official postal receipt deadline after nominations closed 20 October; not an in-person polling opening. Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026. Verified 29 October 2026.",
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
             "candidates": [],
@@ -244,14 +233,15 @@
           "Names and professional roles come independently from the WALGA2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on17October2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
           "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office.",
           "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
-          "23 October review: extraordinary-election process verified. Existing current roster requires follow-up for vacancies and replacements; do not treat the old roster as freshly certified. Individual accepted ballots not yet entered."
+          "23 October review: extraordinary-election process verified. Existing current roster requires follow-up for vacancies and replacements; do not treat the old roster as freshly certified. Individual accepted ballots not yet entered.",
+          "Verified 29 October 2026: Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026."
         ],
-        "representationReview": "23 October: an extraordinary vacancy election is confirmed. The retained current-office snapshot has not been reconciled to individual vacancies/replacements; use the official current council roster."
+        "representationReview": "29 October scoped correction: Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026. Other retained roster entries are not freshly certified."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -271,7 +261,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -279,11 +269,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

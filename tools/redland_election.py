@@ -54,6 +54,8 @@ def render(page, election, link):
     bye = election['byElection']; vacancy = bye['vacancy']
     sources = {s['id']: s['url'] for s in bye['sources']}
     l = lambda key, label: link(page, sources[key], label)
+    proposal = bye.get('postalVotingProposal')
+    proposal_html = (f"<p>{escape(proposal['summary'])} {link(page, proposal['source'], 'Read Council’s postal-ballot request decision')}.</p>" if proposal else '')
     general = election['general']
     units = ''.join(f'<span><strong>--</strong>{unit}</span>' for unit in ['days', 'hours', 'minutes', 'seconds'])
     checked = date.fromisoformat(bye['checked']).strftime('%d %B %Y').lstrip('0')
@@ -64,7 +66,8 @@ def render(page, election, link):
 <section class="local-panel accent" id="redland-mayoral-update" aria-labelledby="election-title">
 <p class="local-kicker">Redlands mayoral update · Checked {escape(bye['checked'])} · Australia/Brisbane</p>
 <h2 id="election-title">Mayoral vacancy: a by-election is required.</h2>
-<p>Redland City Council confirms it received Jos Mitchell’s resignation on 28 October 2026. The mayoral office is vacant. Julie Talty continues as Acting Mayor during the election period. {l('rcc-mayoral-vacancy-20261028', 'Read Council’s announcement')}.</p>
+<p>Redland City Council confirms it received Jos Mitchell’s resignation on <time datetime="{escape(vacancy['date'])}">28 October 2026</time>. The mayoral office is vacant. Julie Talty continues as Acting Mayor during the election period. {l('rcc-mayoral-vacancy-20261028', 'Read Council’s announcement')}.</p>
+{proposal_html}
 <p>{escape(timing_copy)} Check {l('ecq-events-20261028', 'ECQ’s election-events page')}. These panels begin only when each official date and time is confirmed.</p>
 <div class="local-grid two">{milestone(bye, 'Polling day', 'poll')}{milestone(bye['nominationDeadline'], 'Candidate nomination deadline', 'nominations')}</div>
 <p class="local-source">All times are Brisbane time (AEST, UTC+10). A legal scheduling rule is not an announced polling date. Check ECQ for enrolment, early/postal voting, polling places and any changed notice.</p>

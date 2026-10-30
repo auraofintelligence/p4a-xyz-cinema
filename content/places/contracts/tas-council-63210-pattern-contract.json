@@ -19,6 +19,7 @@
     "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
     "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
     "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+    "Verified 29 October 2026: Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. Results are progressive; this review does not certify individual contests or replace current-office rosters.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -77,7 +78,8 @@
           "council-tas-my-reps-1701",
           "council-tas-2022-tas-council-63210-ken-c",
           "council-tas-2022-tas-council-63210-ken-dm",
-          "council-tas-2022-tas-council-63210-mayor-unopposed"
+          "council-tas-2022-tas-council-63210-mayor-unopposed",
+          "election-review-tas-20261029"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -186,14 +188,16 @@
             "id": "tas-council-63210-next-ordinary",
             "label": "2026 ordinary council election",
             "kind": "ordinary",
-            "status": "announced",
+            "status": "Postal voting closed; counting underway",
             "date": "2026-10-27",
-            "dateBasis": "Official electoral commission timetable; postal voting closes at 2pm local time.",
+            "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. Results are progressive; this review does not certify individual contests or replace current-office rosters. Verified 29 October 2026.",
             "timezone": "Australia/Hobart",
             "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
             "candidates": [],
             "milestoneLabel": "postal voting closes",
-            "dateTime": "2026-10-27T14:00:00+11:00"
+            "dateTime": "2026-10-27T14:00:00+11:00",
+            "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
+            "checked": "2026-10-29"
           },
           {
             "id": "council-tas-2022-tas-council-63210-ken-c",
@@ -383,13 +387,14 @@
           "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
           "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
           "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
-          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies."
+          "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
+          "Verified 29 October 2026: Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. Results are progressive; this review does not certify individual contests or replace current-office rosters."
         ]
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -409,7 +414,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -417,11 +422,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

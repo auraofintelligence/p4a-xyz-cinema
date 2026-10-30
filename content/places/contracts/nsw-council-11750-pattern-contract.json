@@ -17,6 +17,7 @@
   "coverageNotes": [
     "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
     "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "30 October review: NSWEC declared Barry Knight elected unopposed on 29 October. The superseded November poll and prior nomination-close snapshot remain in event history, not an active polling timetable.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -74,7 +75,10 @@
           "council-nsw-olg-directory",
           "council-nsw-legal-boundaries",
           "council-nsw-2024-cobar-councillors",
-          "refresh-nsw-council-11750-20261023"
+          "refresh-nsw-council-11750-20261023",
+          "election-review-cobar-20261029",
+          "election-review-cobar-20261030",
+          "election-review-cobar-resignation-20261030"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -160,15 +164,6 @@
             "profileType": "official published councillor directory"
           },
           {
-            "name": "Harley Toomey",
-            "role": "Councillor",
-            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
-            "website": "https://www.cobar.nsw.gov.au",
-            "sourceId": "council-nsw-olg-directory",
-            "checked": "2026-10-17",
-            "profileType": "official published councillor directory"
-          },
-          {
             "name": "Nigel Vagg",
             "role": "Councillor",
             "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
@@ -185,6 +180,15 @@
             "sourceId": "council-nsw-olg-directory",
             "checked": "2026-10-17",
             "profileType": "official published councillor directory"
+          },
+          {
+            "name": "Barry Knight",
+            "role": "Councillor",
+            "status": "Declared elected unopposed 29 October 2026; council directory not yet updated at this check.",
+            "profileUrl": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
+            "profileType": "official election declaration",
+            "sourceId": "election-review-cobar-20261030",
+            "checked": "2026-10-30"
           }
         ],
         "elections": [
@@ -301,24 +305,30 @@
             "id": "nsw-council-11750-by-election-2026-11-28",
             "label": "2026 Cobar Shire Council by-election",
             "kind": "by-election",
-            "status": "Scheduled; nominations open",
-            "date": "2026-11-28",
-            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-10-28T12:00:00+11:00. Postal ballots received by 2026-12-11T18:00:00+11:00.",
+            "status": "final-unopposed",
+            "date": "2026-10-29",
+            "dateBasis": "NSWEC declared Barry Knight elected unopposed on 29 October 2026. No voting is required; the November polling timetable is superseded. Verified 30 October 2026. Calendar declaration date only, not an asserted declaration time.",
             "timezone": "Australia/Sydney",
-            "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
-            "candidates": [],
-            "dateTime": "2026-11-28T18:00:00+11:00",
-            "milestoneLabel": "election-day voting closes",
-            "postalReceiptDeadline": "2026-12-11T18:00:00+11:00",
+            "sourceUrl": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
+            "candidates": [
+              {
+                "name": "Barry Knight",
+                "status": "elected unopposed",
+                "contest": "Councillor",
+                "sourceUrl": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
+                "profileUrl": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
+              }
+            ],
+            "milestoneLabel": "unopposed declaration",
             "nominationsClose": "2026-10-28T12:00:00+11:00",
-            "earlyVotingOpens": "2026-11-23T08:30:00+11:00",
-            "earlyVotingCloses": "2026-11-27T18:00:00+11:00",
-            "postalApplicationsClose": "2026-11-23T17:00:00+11:00"
+            "checked": "2026-10-30",
+            "resultsUrl": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
           }
         ],
         "coverageNotes": [
           "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
-          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+          "30 October review: NSWEC declared Barry Knight elected unopposed on 29 October. The superseded November poll and prior nomination-close snapshot remain in event history, not an active polling timetable."
         ],
         "mapRefs": [
           {
@@ -327,12 +337,12 @@
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
           }
         ],
-        "representationReview": "23 October review: one councillor vacancy is officially confirmed for this by-election. The retained 17 October roster is not reconciled to the departing member; named resignation evidence was incomplete/inaccessible. Follow the current official council directory."
+        "representationReview": "Harley Toomey resigned effective 9 September 2026, confirmed by council minutes of 24 September (resolution 142.09.2026). Barry Knight was declared elected unopposed by NSWEC on 29 October. The other eleven names retain their original dated source checks; the council directory had not yet added Knight. Verified 30 October 2026."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -352,7 +362,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -360,11 +370,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

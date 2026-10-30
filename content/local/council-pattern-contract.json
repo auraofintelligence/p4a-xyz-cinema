@@ -59,7 +59,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-10-28"
+        "2026-10-30"
       ]
     },
     {
@@ -86,7 +86,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-10-28"
+        "2026-10-30"
       ]
     },
     {
@@ -114,7 +114,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-10-28"
+        "2026-10-30"
       ]
     },
     {
@@ -481,7 +481,7 @@
     {
       "path": "content/local/redland-election.json",
       "pointer": "/checked",
-      "expected": "2026-10-28"
+      "expected": "2026-10-30"
     },
     {
       "path": "content/local/redland-election.json",
@@ -533,7 +533,9 @@
       "content/places/qa/pre-navigation-2026-10-23/browser-review.json",
       "content/places/qa/pre-research-2026-10-23/browser-review.json",
       "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json",
-      "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json"
+      "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
+      "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
+      "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -575,7 +577,7 @@
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       },
       {
         "path": "content/places/qa/pre-nav-deduplication-2026-10-17/browser-review.json",
@@ -592,6 +594,10 @@
       {
         "path": "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
         "sha256": "bbbb2bff8986eae0e74791787c43d39509a18033a18b89069dbc5fb05a749822"
+      },
+      {
+        "path": "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
+        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
       }
     ],
     "requiredHumanChecks": [
@@ -638,8 +644,13 @@
     },
     "redlandVacancyReview": {
       "reviewedOn": "2026-10-28",
-      "path": "content/places/qa/browser-review.json",
+      "path": "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
       "scope": "Scoped Redlands mayoral vacancy/process/two-milestone rendering only. Original maps, rosters, statistics and questionnaire evidence retain earlier scopes and dates."
+    },
+    "electionRefreshReview": {
+      "reviewedOn": "2026-10-30",
+      "path": "content/places/qa/browser-review.json",
+      "scope": "Actual cloud browser review of changed Redland vacancy/postal-request/waiting panels, local Division6 Acting Mayor role and navigation at400/683/1191CSSpx. Original broader journey/maps/statistics/Twinkle reviews retain prior scopes and dates."
     }
   },
   "dateInventories": [
@@ -705,7 +716,7 @@
         "/checked",
         "/changed"
       ],
-      "sha256": "3b3debcea3db7483811cc8af5fea54b5d68e44be40cacf3f4771ddb895e0324e"
+      "sha256": "3bd6d818106f8cd547323c8d6fe7bb5b574118858c86624da8aa8b31d84d71de"
     }
   ]
 }

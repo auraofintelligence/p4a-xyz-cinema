@@ -76,7 +76,8 @@
           "council-nsw-2024-hunters-hill-mayor",
           "council-nsw-2024-hunters-hill-north-ward",
           "council-nsw-2024-hunters-hill-south-ward",
-          "refresh-nsw-council-14100-20261023"
+          "refresh-nsw-council-14100-20261023",
+          "election-review-hunters-hill-20261030"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -100,15 +101,6 @@
           },
           {
             "name": "Carla Kassab",
-            "role": "Councillor",
-            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
-            "website": "https://www.huntershill.nsw.gov.au",
-            "sourceId": "council-nsw-olg-directory",
-            "checked": "2026-10-17",
-            "profileType": "official published councillor directory"
-          },
-          {
-            "name": "Marc Lane",
             "role": "Councillor",
             "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
             "website": "https://www.huntershill.nsw.gov.au",
@@ -366,7 +358,7 @@
             "kind": "by-election",
             "status": "Scheduled; nominations open 2 November",
             "date": "2026-12-12",
-            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00.",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Marc Lane resignation effective 15 October 2026 is independently supported by the official council notice index. Verified 30 October 2026.",
             "timezone": "Australia/Sydney",
             "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
             "candidates": [],
@@ -378,7 +370,8 @@
             "rollClose": "2026-11-02T18:00:00+11:00",
             "earlyVotingOpens": "2026-12-05",
             "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
-            "postalApplicationsClose": "2026-12-07T17:00:00+11:00"
+            "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
+            "checked": "2026-10-30"
           }
         ],
         "coverageNotes": [
@@ -392,12 +385,12 @@
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
           }
         ],
-        "representationReview": "23 October review: one councillor vacancy is officially confirmed for this by-election. The retained 17 October roster is not reconciled to the departing member; named resignation evidence was incomplete/inaccessible. Follow the current official council directory."
+        "representationReview": "Marc Lane resigned effective immediately in the council notice dated 15 October 2026. Removed from the retained current-role snapshot; other members retain their original verification dates. One South Ward councillor vacancy proceeds to the confirmed 12 December by-election. Verified 30 October 2026."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -417,7 +410,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -425,11 +418,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

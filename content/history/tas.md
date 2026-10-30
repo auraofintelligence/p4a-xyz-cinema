@@ -265,3 +265,9 @@ This markdown file powers the generated P4A history page for Tasmania. Edit the 
 Currentofficial35MHA/15MLC lists checked; HelenBurnetIndependent and CaseyHiscuttIndependent. Huon/Rosevears countcompleted12May. Unsupportedexact2029House/May2027Council polls removed; no invented replacementdates. Ordinarycouncilpostalreceipt27Oct14:00Hobart(13:00Brisbane); individualcouncil/federalcoveragepartial.
 
 This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.
+
+## Scoped current-civic review, 29 October 2026
+
+[TEC's 2026 local-government results hub](https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html) supports moving the 29 council events from postal voting underway to voting closed/counting underway. Postal voting closed on 27 October at 2 pm Hobart time (AEDT); counting began on 28 October at 9 am. Results were progressive at this check, not a statewide final declaration. No individual winner or new current officeholder was inferred, and the retained council rosters were not refreshed.
+
+The state summary now shows elapsed time since the postal-voting close rather than an upcoming deadline. Parliament composition, earlier source checks and historical ballots remain separate. The historical-outline JSON and its research date are unchanged. Exact pre-change overview data is retained in [the baseline snapshot](state-research-before-2026-10-29.json). See [the 30 October release record](../../docs/releases/2026-10-30-election-notices.md) for the combined reconciliation's checks, limits and delivery status.

@@ -258,7 +258,7 @@ def elections_section(page, place):
         basis = event.get('dateBasis','See official event notice')
         zone = event.get('timezone') or {'qld':'Australia/Brisbane','nsw':'Australia/Sydney','vic':'Australia/Melbourne','tas':'Australia/Hobart','sa':'Australia/Adelaide','wa':'Australia/Perth','nt':'Australia/Darwin','act':'Australia/Sydney'}[place['jurisdiction']]
         supported = date and not any(word in str(basis).lower() for word in ('estimate','unverified','unknown'))
-        clock = f'<strong class="civic-clock" data-civic-clock="{esc(json_text({"date":date,"dateTime":event.get("dateTime"),"timezone":zone,"milestoneLabel":event.get("milestoneLabel")}))}">Calendar timer</strong>' if supported else '<strong class="civic-clock">Voting date not announced / verified</strong>'
+        clock = f'<strong class="civic-clock" data-civic-clock="{esc(json_text({"date":date,"dateTime":event.get("dateTime"),"timezone":zone,"milestoneLabel":event.get("milestoneLabel")}))}">Calendar timer</strong>' if supported else '<strong class="civic-clock">'+esc(event.get('waitingLabel', 'Voting date not announced / verified'))+'</strong>'
         source_url = event.get('sourceUrl') or event.get('resultsUrl') or place.get('officialUrl')
         source_link = link(page, source_url, 'Official event / results') if source_url else ''
         candidates = event.get('candidates', [])
@@ -279,6 +279,8 @@ def elections_section(page, place):
         table = '<p class="civic-note">The individual contestant roster is not populated for this event. Follow the official record; this collection does not claim a complete historical candidate list here.</p>'
         if not rows and (not date or date[:10] > UPDATED):
             table = '<p class="civic-note">No verified contestant roster has been entered for this future event. Previous candidacy does not establish future candidacy; follow the official nominations record.</p>'
+        if not rows and status == 'failed-no-nominations' and event.get('nominationCoverage', {}).get('complete') and event.get('nominationCoverage', {}).get('officialCandidateCount') == 0:
+            table = '<p class="civic-note">No nominations were received for this completed nomination round. No vote was held. Any replacement election has a separate event record.</p>'
         if rows:
             participant_label = 'participants' if event.get('kind') == 'casual-vacancy-replacement' else 'contestants'
             record_label = 'participant' if event.get('kind') == 'casual-vacancy-replacement' else 'contestant'

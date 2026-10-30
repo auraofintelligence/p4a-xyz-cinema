@@ -6,9 +6,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NSW",
     "capital": "Sydney",
     "stateType": "State",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-10-30",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped review 23 October: current official Assembly and Council lists checked. Nine independents include Jacqui Scruby; Bernard Govind fills the documented Council roster gap. General poll remains 13 March 2027. New council polls: Cobar 28 November, Coffs Harbour and Hunters Hill South Ward 12 December. Affected council roster removals remain follow-up where named resignation pages were inaccessible; federal roster audit not claimed.",
+    "researchStatus": "Election review 30 October: NSWEC declared Barry Knight elected uncontested for Cobar on 29 October; no voting is required. This declaration supersedes the earlier 28 November poll timetable. Coffs Harbour and Hunters Hill South Ward polls remain 12 December, with nominations closing 11 November at noon Sydney (AEDT). Paul Amos resigned effective 14 October; Hunters Hill announced Marc Lane's immediate resignation on 15 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -39,27 +39,30 @@ window.P4A_STATE_DATA = [
         }
       },
       {
-        "label": "2026 Cobar Shire Council by-election",
-        "date": "2026-11-28T18:00:00+11:00",
+        "label": "2026 Cobar Shire Council by-election - uncontested declaration",
+        "date": "2026-10-29T00:00:00+11:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Scheduled; nominations open",
-        "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-10-28T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
-        "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+        "status": "Completed - Barry Knight elected uncontested; no voting required",
+        "note": "NSWEC Election Notice 3 declares KNIGHT Barry elected uncontested on 29 October 2026. No voting is required; the earlier 28 November poll timetable is superseded. The timer uses the start of the declaration date in Sydney (AEDT, UTC+11), not a verified declaration time. Reviewed 30 October 2026.",
+        "source": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
         "dayMetrics": {
-          "displayDaysUntil": true,
-          "displayDaysSince": false,
+          "displayDaysUntil": false,
+          "displayDaysSince": true,
           "archiveDaysSince": true,
           "cycleKey": "nsw-2026-cobarshirecouncil-by-election",
-          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+          "daysSinceDate": "2026-10-29T00:00:00+11:00",
+          "daysSinceLabel": "Uncontested declaration date (Sydney day-start; not declaration time)",
+          "daysSinceSource": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
         }
       },
       {
-        "label": "2026 CityofCoffsHarbourCouncil by-election",
+        "label": "2026 City of Coffs Harbour Council by-election",
         "date": "2026-12-12T18:00:00+11:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Scheduled; nominationsnotyetopenasat23October",
+        "status": "Scheduled; nominations open 2 November",
         "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
         "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
         "dayMetrics": {
@@ -76,7 +79,7 @@ window.P4A_STATE_DATA = [
         "kind": "Council by-election",
         "scope": "local-government",
         "status": "Scheduled; nominations open 2 November",
-        "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+        "note": "Council announced Marc Lane's resignation on 15 October, effective immediately. Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
         "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -269,14 +272,30 @@ window.P4A_STATE_DATA = [
       {
         "label": "nsw current election index",
         "url": "https://elections.nsw.gov.au/elections"
+      },
+      {
+        "label": "Coffs Harbour resignation notice, 14 October 2026",
+        "url": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation"
+      },
+      {
+        "label": "NSWEC Cobar uncontested declaration, 29 October 2026",
+        "url": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
+      },
+      {
+        "label": "NSWEC Cobar by-election event and candidate record",
+        "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election"
+      },
+      {
+        "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
+        "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
       }
     ],
-    "previousResearchRun": "2026-05-08",
+    "previousResearchRun": "2026-10-29",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-10-30",
       "timezone": "Australia/Brisbane",
-      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-      "previousResearchRun": "2026-05-08",
+      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
+      "previousResearchRun": "2026-10-29",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/nsw.md"
@@ -288,9 +307,9 @@ window.P4A_STATE_DATA = [
     "shortName": "VIC",
     "capital": "Melbourne",
     "stateType": "State",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-10-29",
     "researchTimezone": "Australia/Melbourne",
-    "researchStatus": "Scoped review 23 October: all 127 serving members, electorates and parties match the official roster; Brunswick remains vacant. Candidate Helper is now available. State nominations open 4 November 9 am and close 9 November noon; polling is 28 November. Kinglake ward nominations close 27 October noon. Candidate campaign sources/legal guidance retain their individual earlier dates and unresolved gaps.",
+    "researchStatus": "Election review 29 October: Jordyn Princi was declared elected unopposed for Murrindindi Kinglake Ward on 28 October; no ward vote is required. State nominations open 4 November at 9 am and close 9 November at noon Melbourne (AEDT); polling is 28 November. State Parliament composition and candidate campaign sources retain their earlier dated reviews.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Ben Carroll",
@@ -517,14 +536,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "VEC current state election process",
         "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
+      },
+      {
+        "label": "VEC Kinglake Ward uncontested result, 28 October 2026",
+        "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
       }
     ],
-    "previousResearchRun": "2026-10-02",
+    "previousResearchRun": "2026-10-23",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-10-29",
       "timezone": "Australia/Brisbane",
-      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-      "previousResearchRun": "2026-10-02",
+      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+      "previousResearchRun": "2026-10-23",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/vic.md"
@@ -536,9 +559,9 @@ window.P4A_STATE_DATA = [
     "shortName": "QLD",
     "capital": "Brisbane",
     "stateType": "State",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-10-30",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped review 23 October: official 20 October Parliament roster confirms 93 seats and unchanged party totals; Stafford member Luke Richmond remains Labor. Historical Stafford percentages retain their July check. Tablelands Mayor Kevin Cardew and Townsville Division 1 Michelle Hobson verified from current council sources. Tablelands Division 1 is vacant: postal ballots must be completed by 31 October 6 pm and received by 10 November 5 pm Brisbane time. Other council/federal coverage remains partial.",
+    "researchStatus": "Election review 30 October: Redland City Council confirmed the mayoral vacancy on 28 October after receiving Jos Mitchell's resignation; Julie Talty continues as Acting Mayor and a by-election is required. On 29 October Council agreed to request a full postal ballot, subject to electoral approval processes. ECQ polling and nomination dates remain unconfirmed. Parliament composition, Tablelands and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "David Crisafulli",
@@ -602,6 +625,24 @@ window.P4A_STATE_DATA = [
           "archiveDaysSince": true,
           "cycleKey": "qld-2026-tablelands-division-1-by-election-postal-completion-deadline",
           "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
+      },
+      {
+        "label": "2026 Redland City mayoral by-election",
+        "date": null,
+        "kind": "Council by-election",
+        "scope": "local-government",
+        "status": "Awaiting confirmation to begin",
+        "note": "Mayoral vacancy confirmed 28 October following Jos Mitchell's resignation; Julie Talty continues as Acting Mayor. Council agreed on 29 October to request a full postal ballot, subject to approval. ECQ polling and nomination dates are not announced in the reviewed sources; no date, approved voting method or candidacy is inferred.",
+        "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+        "nominationDeadline": null,
+        "timingStatus": "awaiting-confirmation",
+        "dayMetrics": {
+          "displayDaysUntil": false,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "qld-redland-mayoral-vacancy-2026-10-28",
+          "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. No countdown begins without a confirmed timetable."
         }
       }
     ],
@@ -694,14 +735,22 @@ window.P4A_STATE_DATA = [
       {
         "label": "qld townsville div1 profile",
         "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1"
+      },
+      {
+        "label": "Redland City Council mayoral vacancy, 28 October 2026",
+        "url": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/"
+      },
+      {
+        "label": "Redland City Council postal-ballot request, 29 October 2026",
+        "url": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/"
       }
     ],
-    "previousResearchRun": "2026-07-14",
+    "previousResearchRun": "2026-10-23",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-10-30",
       "timezone": "Australia/Brisbane",
-      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-      "previousResearchRun": "2026-07-14",
+      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
+      "previousResearchRun": "2026-10-23",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/qld.md"
@@ -713,9 +762,9 @@ window.P4A_STATE_DATA = [
     "shortName": "WA",
     "capital": "Perth",
     "stateType": "State",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-10-29",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped review 23 October: Secret Harbour declaration and October council notices verified; Cook remains Premier. State chamber totals now match the retained 17 October roster, with fresh full Parliament access blocked (403). December extraordinary postal ballots close 3 December at 6 pm Perth time. September council declarations are retained with incomplete individual winners/rosters; federal records were not freshly certified.",
+    "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes Cr Simon Robinson resigned effective 9 October; the council awaits advice on the replacement process and date. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Roger Cook",
@@ -929,14 +978,22 @@ window.P4A_STATE_DATA = [
       {
         "label": "wa june lg hub",
         "url": "https://www.elections.wa.gov.au/2026-june-local-government-extraordinary-elections"
+      },
+      {
+        "label": "Bridgetown-Greenbushes resignation notice, 9 October 2026",
+        "url": "https://www.bridgetown.wa.gov.au/news/resignation-of-cr-simon-robinson/10700"
+      },
+      {
+        "label": "Esperance Town Ward vacancy and postal election",
+        "url": "https://www.esperance.wa.gov.au/news/postal-election-confirmed-for-town-ward-vacancy/550"
       }
     ],
-    "previousResearchRun": "2026-05-08",
+    "previousResearchRun": "2026-10-23",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-10-29",
       "timezone": "Australia/Brisbane",
-      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-      "previousResearchRun": "2026-05-08",
+      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+      "previousResearchRun": "2026-10-23",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/wa.md"
@@ -1159,9 +1216,9 @@ window.P4A_STATE_DATA = [
     "shortName": "TAS",
     "capital": "Hobart",
     "stateType": "State",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-10-29",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped review 23 October: current Parliament lists confirm 35 MHAs and 15 MLCs. Helen Burnet is Independent; Casey Hiscutt’s affiliation is resolved as Independent. Huon/Rosevears counting is complete. Council postal ballots close 27 October at 2 pm Hobart (1 pm Brisbane). Exact future House and May 2027 Council polling dates remain unannounced. Individual council profiles and federal rosters are not freshly certified.",
+    "researchStatus": "Election review 29 October: council postal voting closed on 27 October at 2 pm Hobart (AEDT); counting began on 28 October. Results remain progressive, not a statewide final declaration. Parliament composition retains its 23 October review; individual council officeholders and federal rosters are not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1236,15 +1293,18 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-27T14:00:00+11:00",
         "kind": "Ordinary council elections",
         "scope": "local-government",
-        "status": "Postal voting underway; receipt deadline published",
-        "note": "Completed ballots must reach the council by 2 pm Hobart time (1 pm Brisbane) on 27 October; TEC advises returning them in person rather than posting now. Counting starts 28 October at 9 am Hobart time. No result or current-member replacement is inferred.",
-        "source": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+        "status": "Voting closed; counting underway",
+        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11). Counting began on 28 October at 9 am AEDT. TEC results remain progressive; no statewide final result or current-member replacement is inferred. Verified 29 October 2026.",
+        "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
         "dayMetrics": {
-          "displayDaysUntil": true,
-          "displayDaysSince": false,
+          "displayDaysUntil": false,
+          "displayDaysSince": true,
           "archiveDaysSince": true,
           "cycleKey": "tas-2026-ordinary-council-elections-postal-receipt-deadline",
-          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+          "daysSinceDate": "2026-10-27T14:00:00+11:00",
+          "daysSinceLabel": "2026 Tasmanian council postal voting close",
+          "daysSinceSource": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
         }
       }
     ],
@@ -1458,14 +1518,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "tas lg vacancies",
         "url": "https://www.tec.tas.gov.au/local-government/vacancies.html"
+      },
+      {
+        "label": "TEC 2026 local government progressive results",
+        "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html"
       }
     ],
-    "previousResearchRun": "2026-05-08",
+    "previousResearchRun": "2026-10-23",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-10-29",
       "timezone": "Australia/Brisbane",
-      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-      "previousResearchRun": "2026-05-08",
+      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+      "previousResearchRun": "2026-10-23",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/tas.md"

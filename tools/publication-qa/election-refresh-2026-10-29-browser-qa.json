@@ -1,0 +1,118 @@
+{
+  "reviewDate": "2026-10-29",
+  "reviewTimezone": "Australia/Brisbane",
+  "scope": "Independent focused static DOM/canonical/diff checks only; browser launch blocked before page inspection. No visual or interactive pass claimed.",
+  "browser": {
+    "status": "blocked-before-page-load",
+    "attempt": "Playwright Chromium /usr/bin/chromium",
+    "error": "process_singleton_posix socket() failed: Operation not permitted; SIGABRT. No retry or bypass."
+  },
+  "checks": [
+    {
+      "check": "same place IDs",
+      "passed": true
+    },
+    {
+      "check": "35 changed council/ward records",
+      "passed": true
+    },
+    {
+      "check": "all changed old records preserved exactly in history",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical ordinary elections",
+      "passed": true
+    },
+    {
+      "check": "TAS all29 records and rosters unchanged",
+      "passed": true
+    },
+    {
+      "check": "only three sourced roster removals",
+      "passed": true
+    },
+    {
+      "check": "Kinglake unopposed winner and no future December clock",
+      "passed": true
+    },
+    {
+      "check": "TAS council closed/counting and progressive",
+      "passed": true
+    },
+    {
+      "check": "TAS state days-since enabled until disabled",
+      "passed": true
+    },
+    {
+      "check": "Cobar nominations closed and contest uncertainty",
+      "passed": true
+    },
+    {
+      "check": "Redland two waiting markers and no inferred clock",
+      "passed": true
+    },
+    {
+      "check": "Bridgetown unknown process and no upcoming vacancy clock",
+      "passed": true
+    }
+  ],
+  "clockChecks": {
+    "baseline": "14 delivered-clock cases passed",
+    "fixedInstant": "2026-10-28T21:49:00Z",
+    "Kinglake": "1 day since unopposed declaration",
+    "Tasmania": "2 days since voting closed",
+    "unknown": "Date not announced"
+  },
+  "files": [
+    {
+      "path": "states/vic/local-electoral-areas/vic-ward-3550520240528/index.html",
+      "sha256": "4e58769ca0f502d57987259bfc71f0bba0a2bad830bce764065bd8686d4a24d5"
+    },
+    {
+      "path": "states/tas/councils/hobart/index.html",
+      "sha256": "2b1a5945fa8d168a711c85c231ffd227865d7af23f0399dddc612cec77b8f4f5"
+    },
+    {
+      "path": "states/nsw/councils/cobar/index.html",
+      "sha256": "ce7a13e09c3fd1b67ae378bd9ff535a0b325fc8bf45a1c79319321f159cb10ed"
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "e1bcb09145ad123f1e375397f8a6dd71180114b3c3f39d4ba6a9daf44de6489b"
+    },
+    {
+      "path": "states/wa/councils/bridgetown-greenbushes/index.html",
+      "sha256": "e6eb56875b08eb41cc16a800c2fe7fcd440f405621add9a8eb44c1e8d85fa52c"
+    },
+    {
+      "path": "states/tas/index.html",
+      "sha256": "ea77dbbf340300803b926ee34b180c31e6d2370733379af3d60e94e22cb7bb03"
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "d840640674d86fbe947ce3dc3c60843a6dfecc37369e0266f2ad5666c47a4934"
+    },
+    {
+      "path": "states/vic/index.html",
+      "sha256": "22aed0f065a4a363f96961a07ec9aa65b0574bdffbe2fc2c97c4e8bb5b13b164"
+    },
+    {
+      "path": "states/wa/index.html",
+      "sha256": "6222df9bbbf56aac9e2524d806350b884340774be043b599baf318a7565866a1"
+    }
+  ],
+  "rosterRemovals": {
+    "nsw-council-11800": [
+      "Paul Amos"
+    ],
+    "wa-council-50840": [
+      "Simon Robinson"
+    ],
+    "wa-council-53290": [
+      "Gemma Johnston"
+    ]
+  },
+  "changedRecordCount": 35,
+  "historyPreserved": true
+}

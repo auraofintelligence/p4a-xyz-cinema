@@ -19,6 +19,7 @@
     "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
     "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
     "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
+    "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -77,7 +78,8 @@
           "council-ward-supp-geoscape-ward-item",
           "council-ward-supp-geoscape-lga-attributes",
           "council-nt-2025-ballot-victoria-daly-milngin-ward",
-          "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward"
+          "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
+          "election-review-milngin-20261030"
         ],
         "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
         "representatives": [],
@@ -138,7 +140,21 @@
               "officialCandidateCount": 0,
               "retainedCandidateCount": 0,
               "complete": true
-            }
+            },
+            "waitingLabel": "No vote: no nominations received"
+          },
+          {
+            "id": "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026",
+            "label": "Milngin Ward replacement by-election",
+            "kind": "by-election",
+            "status": "Awaiting confirmation to begin",
+            "date": null,
+            "dateBasis": "Council confirms a replacement by-election is being arranged after the failed August nomination round; the directly opened official article says the confirmed timetable awaits NTEC. Conflicting dates in search/news excerpts are not used. Verified 30 October 2026.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/",
+            "candidates": [],
+            "checked": "2026-10-30",
+            "waitingLabel": "Awaiting confirmation to begin"
           }
         ],
         "sourceWardId": "wad03749a797707",
@@ -148,13 +164,16 @@
           "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
           "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
           "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
-          "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot."
-        ]
+          "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
+          "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred."
+        ],
+        "representationStatus": "vacant",
+        "representationReview": "Council confirms the Milngin Ward councillor vacancy. The effective vacancy date is not established by the checked notice. A replacement by-election is being arranged, with confirmed timetable awaited. Verified 30 October 2026."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -174,7 +193,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -182,11 +201,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

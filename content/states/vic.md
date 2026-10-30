@@ -8,9 +8,9 @@
   "shortName": "VIC",
   "capital": "Melbourne",
   "stateType": "State",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-10-29",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "Scoped review 23 October: all 127 serving members, electorates and parties match the official roster; Brunswick remains vacant. Candidate Helper is now available. State nominations open 4 November 9 am and close 9 November noon; polling is 28 November. Kinglake ward nominations close 27 October noon. Candidate campaign sources/legal guidance retain their individual earlier dates and unresolved gaps.",
+  "researchStatus": "Election review 29 October: Jordyn Princi was declared elected unopposed for Murrindindi Kinglake Ward on 28 October; no ward vote is required. State nominations open 4 November at 9 am and close 9 November at noon Melbourne (AEDT); polling is 28 November. State Parliament composition and candidate campaign sources retain their earlier dated reviews.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
@@ -237,14 +237,18 @@
     {
       "label": "VEC current state election process",
       "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
+    },
+    {
+      "label": "VEC Kinglake Ward uncontested result, 28 October 2026",
+      "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
     }
   ],
-  "previousResearchRun": "2026-10-02",
+  "previousResearchRun": "2026-10-23",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-10-29",
     "timezone": "Australia/Brisbane",
-    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-    "previousResearchRun": "2026-10-02",
+    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+    "previousResearchRun": "2026-10-23",
     "sourceDatesPreserved": true
   }
 }

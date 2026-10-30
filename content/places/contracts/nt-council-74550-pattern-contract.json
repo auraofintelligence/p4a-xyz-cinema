@@ -20,6 +20,7 @@
     "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
     "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
     "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
+    "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -82,7 +83,8 @@
           "council-nt-2025-ballot-victoria-daly-pine-creek-ward",
           "council-nt-2025-ballot-victoria-daly-timber-creek-ward",
           "council-nt-2025-ballot-victoria-daly-walangeri-ward",
-          "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward"
+          "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
+          "election-review-milngin-20261030"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -308,7 +310,21 @@
               "officialCandidateCount": 0,
               "retainedCandidateCount": 0,
               "complete": true
-            }
+            },
+            "waitingLabel": "No vote: no nominations received"
+          },
+          {
+            "id": "nt-council-74550-milngin-replacement-timetable-pending-2026",
+            "label": "Milngin Ward replacement by-election",
+            "kind": "by-election",
+            "status": "Awaiting confirmation to begin",
+            "date": null,
+            "dateBasis": "Council confirms a replacement by-election is being arranged after the failed August nomination round; the directly opened official article says the confirmed timetable awaits NTEC. Conflicting dates in search/news excerpts are not used. Verified 30 October 2026.",
+            "timezone": "Australia/Darwin",
+            "sourceUrl": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/",
+            "candidates": [],
+            "checked": "2026-10-30",
+            "waitingLabel": "Awaiting confirmation to begin"
           }
         ],
         "coverageNotes": [
@@ -316,13 +332,14 @@
           "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
           "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
           "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
-          "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward."
+          "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
+          "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred."
         ]
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -342,7 +359,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -350,11 +367,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

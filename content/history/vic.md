@@ -267,3 +267,9 @@ This markdown file powers the generated P4A history page for Victoria. Edit the 
 All127currentmembers/electorates/partiesmatchofficialCSV; Brunswickvacancyretained. CandidateHelpernowavailable; state nominations4Nov09:00–9Nov12:00Melbourne, poll28Nov. Sevennamedcouncileventshistory/processadded, includingOctoberBeale/Lockwood/Briarsresults andKinglakenominations27Octnoon/postalclose4Dec18:00. Candidatecampaign/legalchecksretainolderdates.
 
 This is a later current-civic research note; the historical-outline research date above is unchanged. See [the refresh report](../../docs/releases/2026-10-23-state-research-refresh.md) and retained prior overview snapshots.
+
+## Scoped current-civic review, 29 October 2026
+
+[VEC's Kinglake Ward notice](https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election) records Jordyn Princi elected unopposed on 28 October at 10 am Melbourne time (AEDT). No ward vote is required. The national council/ward records and existing Victoria atlas were reconciled; the superseded December timetable and prior vacancy remain in the council history snapshots. The declaration is not evidence of any future candidacy, and no vote count is invented.
+
+The state election remains 28 November; nominations open 4 November at 9 am and close 9 November at noon Melbourne time. Parliament composition and individual campaign-source checks retain their earlier dates. The historical-outline JSON and its research date are unchanged. Exact pre-change overview data is retained in [the baseline snapshot](state-research-before-2026-10-29.json). See [the 30 October release record](../../docs/releases/2026-10-30-election-notices.md) for the combined reconciliation's checks, limits and delivery status.

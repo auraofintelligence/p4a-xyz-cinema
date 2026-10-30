@@ -6866,6 +6866,11 @@ window.P4A_VIC_ELECTORATES = {
           "role": "King Parrot Ward"
         },
         {
+          "name": "Jordyn Princi",
+          "party": "Affiliation not verified",
+          "role": "Kinglake Ward"
+        },
+        {
           "name": "Paul Hildebrand",
           "party": "Affiliation not verified",
           "role": "Koriella Ward"
@@ -9675,7 +9680,13 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [],
+      "members": [
+        {
+          "name": "Jordyn Princi",
+          "party": "Affiliation not verified",
+          "role": "Kinglake Ward"
+        }
+      ],
       "labelPoint": [
         145.44744350188577,
         -37.512297000000004

@@ -1,0 +1,469 @@
+{
+  "archivedOn": "2026-10-30",
+  "timezone": "Australia/Brisbane",
+  "basisCommit": "923db630d5bc1303f5fd864d437167300923956d",
+  "scope": "Prior NSW and Queensland overview snapshots immediately before the 30 October 2026 scoped review. These preserve the existing dirty 29 October NSW update and earlier Queensland review; source, event and review dates remain historical.",
+  "states": [
+    {
+      "order": 1,
+      "slug": "nsw",
+      "name": "New South Wales",
+      "shortName": "NSW",
+      "capital": "Sydney",
+      "stateType": "State",
+      "researchRun": "2026-10-29",
+      "researchTimezone": "Australia/Brisbane",
+      "researchStatus": "Election review 29 October: Cobar nominations closed on 28 October at noon Sydney (AEDT); the poll remains scheduled for 28 November, with contest status awaiting confirmation. Coffs Harbour and Hunters Hill South Ward polls remain 12 December. Paul Amos resigned from Coffs Harbour Council effective 14 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
+      "government": {
+        "leaderTitle": "Premier",
+        "leader": "Chris Minns",
+        "party": "Australian Labor Party",
+        "arrangement": "Minority government",
+        "inPowerSince": "2023-03-28",
+        "note": "Labor is one seat short of a Legislative Assembly majority and governs with crossbench support."
+      },
+      "elections": [
+        {
+          "label": "2027 NSW State election",
+          "date": "2027-03-13T08:00:00+11:00",
+          "kind": "State general election",
+          "scope": "general",
+          "status": "Scheduled",
+          "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm.",
+          "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2023-03-25T08:00:00+11:00",
+            "daysSinceLabel": "Previous NSW State election polling day",
+            "daysSinceSource": "https://elections.nsw.gov.au/elections/past-results/state-election-results/2023-nsw-state-election-results",
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2027-general",
+            "archiveWithCycle": "next-higher-order-cycle-after-nsw-2027-general",
+            "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+          }
+        },
+        {
+          "label": "2026 Cobar Shire Council by-election",
+          "date": "2026-11-28T18:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Scheduled; nominations closed",
+          "note": "Nominations closed on 28 October at noon Sydney time (AEDT, UTC+11). Polling remains scheduled for 28 November with voting closing at 6 pm AEDT; contest status awaits confirmation. Postal receipt has a separate later deadline; see the official timetable. Verified 29 October 2026.",
+          "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-cobarshirecouncil-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        },
+        {
+          "label": "2026 City of Coffs Harbour Council by-election",
+          "date": "2026-12-12T18:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Scheduled; nominations open 2 November",
+          "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+          "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-cityofcoffsharbourcouncil-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        },
+        {
+          "label": "2026 Hunters Hill South Ward by-election",
+          "date": "2026-12-12T18:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Scheduled; nominations open 2 November",
+          "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+          "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-huntershillsouthward-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Legislative Assembly",
+          "type": "Lower house",
+          "seats": 93,
+          "majority": 47,
+          "note": "Current official Assembly list, 16 September 2026, reviewed 23 October. Jacqui Scruby is the independent for Pittwater; Kiama is represented by Labor member Katelin McInerney.",
+          "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 46
+            },
+            {
+              "party": "Liberal Party of Australia",
+              "short": "LIB",
+              "seats": 24
+            },
+            {
+              "party": "The Nationals",
+              "short": "NAT",
+              "seats": 11
+            },
+            {
+              "party": "The Greens",
+              "short": "GRN",
+              "seats": 3
+            },
+            {
+              "party": "Alex Greenwich, Roy Butler, Helen Dalton, Philip Donato, Judy Hannan, Joe McGirr, Greg Piper, Michael Regan, Jacqui Scruby",
+              "short": "9 MLAs",
+              "seats": 9,
+              "memberSource": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
+              "members": [
+                {
+                  "name": "Alex Greenwich",
+                  "seat": "Sydney"
+                },
+                {
+                  "name": "Roy Butler",
+                  "seat": "Barwon"
+                },
+                {
+                  "name": "Helen Dalton",
+                  "seat": "Murray"
+                },
+                {
+                  "name": "Philip Donato",
+                  "seat": "Orange"
+                },
+                {
+                  "name": "Judy Hannan",
+                  "seat": "Wollondilly"
+                },
+                {
+                  "name": "Joe McGirr",
+                  "seat": "Wagga Wagga"
+                },
+                {
+                  "name": "Greg Piper",
+                  "seat": "Lake Macquarie"
+                },
+                {
+                  "name": "Michael Regan",
+                  "seat": "Wakehurst"
+                },
+                {
+                  "name": "Jacqui Scruby",
+                  "seat": "Pittwater"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legislative Council",
+          "type": "Upper house",
+          "seats": 42,
+          "majority": 22,
+          "note": "Official Council list No. 322, 15 October 2026, lists all 42 serving members. Bernard Govind (Labor) elected on 15 October to replace Greg Donnelly; historical election rosters remain separate.",
+          "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 15
+            },
+            {
+              "party": "Coalition (Liberal/Nationals)",
+              "short": "LNP",
+              "seats": 14
+            },
+            {
+              "party": "The Greens",
+              "short": "GRN",
+              "seats": 4
+            },
+            {
+              "party": "Mark Latham, Taylor Martin, Tania Mihailuk and Rod Roberts",
+              "short": "4 MLCs",
+              "seats": 4,
+              "memberSource": "https://www.parliament.nsw.gov.au/members/pages/all-members.aspx?house=LC",
+              "members": [
+                {
+                  "name": "Mark Latham",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Taylor Martin",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Tania Mihailuk",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Rod Roberts",
+                  "seat": "Legislative Council"
+                }
+              ]
+            },
+            {
+              "party": "Shooters, Fishers and Farmers Party",
+              "short": "SFF",
+              "seats": 2
+            },
+            {
+              "party": "Animal Justice Party",
+              "short": "AJP",
+              "seats": 1
+            },
+            {
+              "party": "Legalise Cannabis Party",
+              "short": "LCP",
+              "seats": 1
+            },
+            {
+              "party": "Libertarian Party",
+              "short": "LIBT",
+              "seats": 1
+            }
+          ]
+        }
+      ],
+      "strategyNotes": [
+        "NSW is the first large-state countdown on the portal, with the election scheduled well before Brisbane 2032.",
+        "The lower house is close enough that trust, named crossbenchers and crossbench agreements matter in plain public language.",
+        "The upper house already behaves like a negotiation chamber, which makes it useful for simulator rehearsal."
+      ],
+      "sources": [
+        {
+          "label": "NSW Parliament party representation",
+          "url": "https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx"
+        },
+        {
+          "label": "NSW Electoral Commission 2027 State election bulletin",
+          "url": "https://elections.nsw.gov.au/bulletins/2027-nsw-state-election-bulletin-1"
+        },
+        {
+          "label": "NSW Electoral Commission state election explainer",
+          "url": "https://elections.nsw.gov.au/elections/how-voting-works/voting-in-new-south-wales/how-does-a-state-election-work"
+        },
+        {
+          "label": "NSW Parliament all current members",
+          "url": "https://www.parliament.nsw.gov.au/members"
+        },
+        {
+          "label": "nsw la list 48",
+          "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf"
+        },
+        {
+          "label": "nsw lc list 322",
+          "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf"
+        },
+        {
+          "label": "nsw 2027 election",
+          "url": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election"
+        },
+        {
+          "label": "nsw current election index",
+          "url": "https://elections.nsw.gov.au/elections"
+        },
+        {
+          "label": "Coffs Harbour resignation notice, 14 October 2026",
+          "url": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation"
+        }
+      ],
+      "previousResearchRun": "2026-10-23",
+      "researchReview": {
+        "checked": "2026-10-29",
+        "timezone": "Australia/Brisbane",
+        "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+        "previousResearchRun": "2026-10-23",
+        "sourceDatesPreserved": true
+      }
+    },
+    {
+      "order": 3,
+      "slug": "qld",
+      "name": "Queensland",
+      "shortName": "QLD",
+      "capital": "Brisbane",
+      "stateType": "State",
+      "researchRun": "2026-10-23",
+      "researchTimezone": "Australia/Brisbane",
+      "researchStatus": "Scoped review 23 October: official 20 October Parliament roster confirms 93 seats and unchanged party totals; Stafford member Luke Richmond remains Labor. Historical Stafford percentages retain their July check. Tablelands Mayor Kevin Cardew and Townsville Division 1 Michelle Hobson verified from current council sources. Tablelands Division 1 is vacant: postal ballots must be completed by 31 October 6 pm and received by 10 November 5 pm Brisbane time. Other council/federal coverage remains partial.",
+      "government": {
+        "leaderTitle": "Premier",
+        "leader": "David Crisafulli",
+        "party": "Liberal National Party",
+        "arrangement": "Majority government",
+        "inPowerSince": "2024-10-28",
+        "note": "Queensland has a single chamber. Stafford was retained by Labor at the 16 May 2026 by-election."
+      },
+      "elections": [
+        {
+          "label": "2028 Queensland State election",
+          "date": "2028-10-28T08:00:00+10:00",
+          "kind": "State general election",
+          "scope": "general",
+          "status": "Ordinary rule-derived date",
+          "note": "Normal four-year cycle: last Saturday in October, subject to the Act. This is not a newly announced writ or detailed 2028 timetable.",
+          "source": "https://www.ecq.qld.gov.au/elections/election-events",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2024-10-26T08:00:00+10:00",
+            "daysSinceLabel": "Previous Queensland State general election polling day",
+            "daysSinceSource": "https://www.ecq.qld.gov.au/elections/election-events",
+            "archiveDaysSince": true,
+            "cycleKey": "qld-2028-general",
+            "archiveWithCycle": "next-higher-order-cycle-after-qld-2028-general",
+            "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+          }
+        },
+        {
+          "label": "Stafford State by-election",
+          "date": "2026-05-16T08:00:00+10:00",
+          "kind": "State by-election",
+          "scope": "by-election",
+          "status": "Held - Labor retain",
+          "note": "Held Saturday 16 May 2026. Luke Richmond (Labor) retained Stafford, 51.3 to 48.7 two-party-preferred, a swing of about 4 per cent against Labor.",
+          "source": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2024-10-26T08:00:00+10:00",
+            "daysSinceLabel": "Previous Queensland State general election polling day",
+            "daysSinceSource": "https://www.ecq.qld.gov.au/elections/election-events",
+            "archiveDaysSince": true,
+            "cycleKey": "qld-2026-by-election",
+            "archiveWithCycle": "qld-2028-general archive",
+            "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+          }
+        },
+        {
+          "label": "2026 Tablelands Division 1 by-election — postal completion deadline",
+          "date": "2026-10-31T18:00:00+10:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Full postal election; nominations closed",
+          "note": "Complete ballot by 6 pm 31 October; ECQ must receive it by 5 pm 10 November (Australia/Brisbane). Completion and receipt are distinct deadlines. Accepted candidates not imported; no result inferred.",
+          "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "qld-2026-tablelands-division-1-by-election-postal-completion-deadline",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Legislative Assembly",
+          "type": "Unicameral parliament",
+          "seats": 93,
+          "majority": 47,
+          "note": "Queensland has no upper house. Stafford returned to Labor at the 16 May 2026 by-election.",
+          "source": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List",
+          "composition": [
+            {
+              "party": "Liberal National Party",
+              "short": "LNP",
+              "seats": 53
+            },
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 36
+            },
+            {
+              "party": "Katter's Australian Party",
+              "short": "KAP",
+              "seats": 2
+            },
+            {
+              "party": "Queensland Greens",
+              "short": "GRN",
+              "seats": 1
+            },
+            {
+              "party": "Sandy Bolton",
+              "short": "NOOSA",
+              "seats": 1,
+              "memberSource": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List",
+              "members": [
+                {
+                  "name": "Sandra (Sandy) Bolton",
+                  "seat": "Noosa"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "strategyNotes": [
+        "Queensland is the home-base page for the Brisbane 2032 runway.",
+        "The unicameral system makes local electorate trust and member accountability especially important.",
+        "The Stafford by-election (held 16 May 2026, Labor retain) is the worked example for refreshing seat data after any by-election."
+      ],
+      "sources": [
+        {
+          "label": "Queensland Parliament current member list",
+          "url": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List"
+        },
+        {
+          "label": "ECQ Stafford State by-election",
+          "url": "https://www.ecq.qld.gov.au/elections/election-events/stafford-state-by-election"
+        },
+        {
+          "label": "Antony Green Stafford by-election results",
+          "url": "https://antonygreen.com.au/stafford-by-election-results/"
+        },
+        {
+          "label": "ECQ Stafford 2026 results",
+          "url": "https://results.elections.qld.gov.au/Stafford2026"
+        },
+        {
+          "label": "ECQ election events",
+          "url": "https://www.ecq.qld.gov.au/elections/election-events"
+        },
+        {
+          "label": "ECQ state election participant dates",
+          "url": "https://www.ecq.qld.gov.au/election-participants/state-election-participants"
+        },
+        {
+          "label": "qld member roster 20261020",
+          "url": "https://documents.parliament.qld.gov.au/members/mailinglists/memlist.pdf"
+        },
+        {
+          "label": "qld tablelands div1 event",
+          "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election"
+        },
+        {
+          "label": "qld tablelands councillors",
+          "url": "https://www.trc.qld.gov.au/our-council/councillors/"
+        },
+        {
+          "label": "qld townsville div1 profile",
+          "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1"
+        }
+      ],
+      "previousResearchRun": "2026-07-14",
+      "researchReview": {
+        "checked": "2026-10-23",
+        "timezone": "Australia/Brisbane",
+        "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+        "previousResearchRun": "2026-07-14",
+        "sourceDatesPreserved": true
+      }
+    }
+  ]
+}

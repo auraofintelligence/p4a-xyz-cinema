@@ -8,9 +8,9 @@
   "shortName": "QLD",
   "capital": "Brisbane",
   "stateType": "State",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-10-30",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped review 23 October: official 20 October Parliament roster confirms 93 seats and unchanged party totals; Stafford member Luke Richmond remains Labor. Historical Stafford percentages retain their July check. Tablelands Mayor Kevin Cardew and Townsville Division 1 Michelle Hobson verified from current council sources. Tablelands Division 1 is vacant: postal ballots must be completed by 31 October 6 pm and received by 10 November 5 pm Brisbane time. Other council/federal coverage remains partial.",
+  "researchStatus": "Election review 30 October: Redland City Council confirmed the mayoral vacancy on 28 October after receiving Jos Mitchell's resignation; Julie Talty continues as Acting Mayor and a by-election is required. On 29 October Council agreed to request a full postal ballot, subject to electoral approval processes. ECQ polling and nomination dates remain unconfirmed. Parliament composition, Tablelands and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "David Crisafulli",
@@ -74,6 +74,24 @@
         "archiveDaysSince": true,
         "cycleKey": "qld-2026-tablelands-division-1-by-election-postal-completion-deadline",
         "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
+    },
+    {
+      "label": "2026 Redland City mayoral by-election",
+      "date": null,
+      "kind": "Council by-election",
+      "scope": "local-government",
+      "status": "Awaiting confirmation to begin",
+      "note": "Mayoral vacancy confirmed 28 October following Jos Mitchell's resignation; Julie Talty continues as Acting Mayor. Council agreed on 29 October to request a full postal ballot, subject to approval. ECQ polling and nomination dates are not announced in the reviewed sources; no date, approved voting method or candidacy is inferred.",
+      "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+      "nominationDeadline": null,
+      "timingStatus": "awaiting-confirmation",
+      "dayMetrics": {
+        "displayDaysUntil": false,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "qld-redland-mayoral-vacancy-2026-10-28",
+        "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. No countdown begins without a confirmed timetable."
       }
     }
   ],
@@ -166,14 +184,22 @@
     {
       "label": "qld townsville div1 profile",
       "url": "https://www.townsville.qld.gov.au/about-council/mayor-and-councillors/councillor-profiles/division-1"
+    },
+    {
+      "label": "Redland City Council mayoral vacancy, 28 October 2026",
+      "url": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/"
+    },
+    {
+      "label": "Redland City Council postal-ballot request, 29 October 2026",
+      "url": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/"
     }
   ],
-  "previousResearchRun": "2026-07-14",
+  "previousResearchRun": "2026-10-23",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-10-30",
     "timezone": "Australia/Brisbane",
-    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-    "previousResearchRun": "2026-07-14",
+    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
+    "previousResearchRun": "2026-10-23",
     "sourceDatesPreserved": true
   }
 }

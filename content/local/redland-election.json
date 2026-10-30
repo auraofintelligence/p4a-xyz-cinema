@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
-  "checked": "2026-10-28",
-  "changed": "2026-10-28",
+  "checked": "2026-10-30",
+  "changed": "2026-10-30",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -22,13 +22,13 @@
   },
   "byElection": {
     "id": "redland-mayoral-vacancy-2026-10-28",
-    "checked": "2026-10-28",
+    "checked": "2026-10-30",
     "date": null,
     "countdownTarget": null,
     "pollEndsAt": null,
     "timingStatus": "awaiting-confirmation",
-    "dateBasis": "No Redland polling date or time was announced on the ECQ election-events page checked 28 October 2026. No date is estimated.",
-    "status": "Mayoral office vacant; by-election required. ECQ polling and nomination timetable awaiting confirmation.",
+    "dateBasis": "No Redland polling date or time was listed on the ECQ election-events page checked 30 October 2026, Australia/Brisbane. Council has agreed to request a full postal ballot, subject to electoral approval processes; this is not a confirmed voting method or timetable. No date is estimated.",
+    "status": "Mayoral office vacant; by-election required. Council has agreed to request a full postal ballot, subject to approval. ECQ polling and nomination timetable awaiting confirmation.",
     "source": "https://www.ecq.qld.gov.au/elections/election-events",
     "earlyVotingOpens": null,
     "vacancy": {
@@ -37,14 +37,14 @@
       "actingMayor": "Julie Talty",
       "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
       "published": "2026-10-28",
-      "checked": "2026-10-28"
+      "checked": "2026-10-30"
     },
     "nominationDeadline": {
       "date": null,
       "countdownTarget": null,
       "timingStatus": "awaiting-confirmation",
       "source": "https://www.ecq.qld.gov.au/elections/election-events",
-      "checked": "2026-10-28",
+      "checked": "2026-10-30",
       "dateBasis": "Await the event-specific ECQ nomination day and deadline. No nomination date has been inferred."
     },
     "sources": [
@@ -54,15 +54,25 @@
         "url": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
         "publisher": "Redland City Council / Redlands Coast Today",
         "published": "2026-10-28",
-        "checked": "2026-10-28",
+        "checked": "2026-10-30",
         "supports": "Resignation received, vacancy, by-election required, Julie Talty continuing as Acting Mayor."
+      },
+      {
+        "id": "rcc-postal-request-20261029",
+        "title": "Council to seek full postal vote for Mayoral by-election",
+        "url": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/",
+        "publisher": "Redland City Council / Redlands Coast Today",
+        "published": "2026-10-29",
+        "checked": "2026-10-30",
+        "supports": "Council agreed to request an ECQ recommendation for a full postal ballot, subject to electoral requirements and approvals. No voting method or timetable approval is announced.",
+        "accessNote": "Official publisher search-index text was available; direct article retrieval failed. Council vacancy article and ECQ event list were directly readable."
       },
       {
         "id": "ecq-events-20261028",
         "title": "ECQ election events",
         "url": "https://www.ecq.qld.gov.au/elections/election-events",
         "publisher": "Electoral Commission of Queensland",
-        "checked": "2026-10-28",
+        "checked": "2026-10-30",
         "supports": "No Redland event timetable listed at this check; 2024 local elections held 16 March 2024."
       },
       {
@@ -89,7 +99,15 @@
         "checked": "2026-10-28",
         "supports": "Eligibility, training, nomination and campaign obligations; guidance does not announce Redland nominations."
       }
-    ]
+    ],
+    "postalVotingProposal": {
+      "status": "council-request-approved",
+      "approvalStatus": "awaiting-official-confirmation",
+      "published": "2026-10-29",
+      "checked": "2026-10-30",
+      "source": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/",
+      "summary": "On 29 October, Council agreed to ask ECQ to recommend a full postal ballot to the Minister for Local Government. This is a request subject to electoral requirements and approval processes, not a confirmed voting method or election timetable."
+    }
   },
   "refreshTriggers": [
     "Official vacancy notice or ECQ election notice",
@@ -98,5 +116,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "28 October review concerns the mayoral vacancy and by-election process only. Other statistics, boundaries, ordinary-cycle dates and historical records retain their own source periods."
+  "reviewScope": "30 October 2026 Australia/Brisbane review concerns the confirmed mayoral vacancy, Council's 29 October postal-ballot request decision and the still-unconfirmed ECQ timetable only. Legislation, candidate guidance, statistics, boundaries, ordinary-cycle dates and historical records retain their earlier source checks."
 }

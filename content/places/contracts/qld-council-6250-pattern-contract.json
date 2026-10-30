@@ -80,19 +80,20 @@
           "council-qld-2024-browser-verified-xml",
           "council-qld-2024-browser-verified-xml-acquisition",
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
-          "council-qld-current-leaders-browser"
+          "council-qld-current-leaders-browser",
+          "election-review-redland-20261030",
+          "election-review-redland-postal-request-20261030"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
           {
-            "name": "Jocelyn Mitchell",
-            "role": "Mayor",
-            "profileUrl": "https://www.dlgwv.qld.gov.au/local-government/for-the-community/local-government-directory/search-the-local-government-directory",
-            "profileType": "official current-member directory roster",
-            "website": "https://www.redland.qld.gov.au/",
-            "sourceId": "council-qld-current-leaders-browser",
-            "checked": "2026-10-17",
-            "status": "Independently named in the official Queensland Government directory checked 17 October 2026"
+            "name": "Julie Talty",
+            "role": "Acting Mayor",
+            "profileUrl": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+            "profileType": "official council vacancy and acting arrangement notice",
+            "sourceId": "election-review-redland-20261030",
+            "checked": "2026-10-30",
+            "status": "Acting Mayor; mayoral office vacant following resignation received 28 October 2026"
           }
         ],
         "elections": [
@@ -534,6 +535,21 @@
             ],
             "votingSystem": "Optional Preferential",
             "boundaryEdition": "2024 local election arrangement; later boundary editions and current roles remain separate."
+          },
+          {
+            "id": "redland-mayoral-vacancy-2026-10-28",
+            "label": "Redland City mayoral by-election",
+            "kind": "by-election",
+            "status": "Awaiting confirmation to begin",
+            "date": null,
+            "dateBasis": "No Redland polling date or time was listed on the ECQ election-events page checked 30 October 2026, Australia/Brisbane. Council has agreed to request a full postal ballot, subject to electoral approval processes; this is not a confirmed voting method or timetable. No date is estimated. Mayoral office vacant; by-election required. Council has agreed to request a full postal ballot, subject to approval. ECQ polling and nomination timetable awaiting confirmation.",
+            "timezone": "Australia/Brisbane",
+            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "candidates": [],
+            "checked": "2026-10-30",
+            "nominationsClose": null,
+            "milestoneLabel": "mayoral by-election day",
+            "waitingLabel": "Awaiting confirmation to begin"
           }
         ],
         "coverageNotes": [
@@ -544,12 +560,13 @@
           "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
           "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
           "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
-        ]
+        ],
+        "representationReview": "Jos Mitchell resignation was received on 28 October 2026. Julie Talty continues as Acting Mayor; this is not a new elected mayor or candidate declaration. A by-election is required; its timetable remains unconfirmed."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -569,7 +586,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -577,11 +594,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

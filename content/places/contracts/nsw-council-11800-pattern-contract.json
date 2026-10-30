@@ -17,6 +17,7 @@
   "coverageNotes": [
     "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
     "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "Verified 29 October 2026: Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -75,7 +76,8 @@
           "council-nsw-legal-boundaries",
           "council-nsw-2024-coffs-harbour-councillors",
           "council-nsw-2024-coffs-harbour-mayor",
-          "refresh-nsw-council-11800-20261023"
+          "refresh-nsw-council-11800-20261023",
+          "election-review-coffs-20261029"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -91,15 +93,6 @@
           {
             "name": "George Cecato",
             "role": "Deputy Mayor",
-            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
-            "website": "https://www.coffsharbour.nsw.gov.au",
-            "sourceId": "council-nsw-olg-directory",
-            "checked": "2026-10-17",
-            "profileType": "official published councillor directory"
-          },
-          {
-            "name": "Paul Amos",
-            "role": "Councillor",
             "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
             "website": "https://www.coffsharbour.nsw.gov.au",
             "sourceId": "council-nsw-olg-directory",
@@ -675,7 +668,7 @@
             "kind": "by-election",
             "status": "Scheduled; nominations open 2 November",
             "date": "2026-12-12",
-            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00.",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election. Verified 29 October 2026.",
             "timezone": "Australia/Sydney",
             "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
             "candidates": [],
@@ -692,7 +685,8 @@
         ],
         "coverageNotes": [
           "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
-          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+          "Verified 29 October 2026: Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election."
         ],
         "mapRefs": [
           {
@@ -701,12 +695,12 @@
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
           }
         ],
-        "representationReview": "23 October review: one councillor vacancy is officially confirmed for this by-election. The retained 17 October roster is not reconciled to the departing member; named resignation evidence was incomplete/inaccessible. Follow the current official council directory."
+        "representationReview": "29 October scoped correction: Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election. Other retained roster entries are not freshly certified."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -726,7 +720,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -734,11 +728,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

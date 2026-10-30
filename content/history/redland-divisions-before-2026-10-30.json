@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "council": "Redland City",
+  "note": "A division is an electoral lens into the same local journey. Locality labels orient the reader; they are not address assignments. The linked Twinkles are suggested questions, not verified complaints, a popularity ranking or a survey of a division. Council-wide figures must not be relabelled as division statistics.",
+  "representativeCheck": "Names and profile links checked against Redland City Council's public councillor directory on 17 October 2026. This records the published listing, not an independent audit of every profile claim.",
+  "divisionStatistics": {
+    "status": "No reviewed division-level population, age, household or current enrolment counts loaded in this build.",
+    "rule": "Use an official release for the same division boundary and period. Do not allocate council totals by area or divide them by ten. Electors, residents and households are different measures."
+  },
+  "sources": [
+    {
+      "id": "rcc-profiles",
+      "title": "Redland City Council: mayor and councillor profiles",
+      "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles",
+      "checked": "2026-10-17",
+      "supports": "Ten divisional councillor names, profile links and indicative locality labels."
+    },
+    {
+      "id": "rcc-elections",
+      "title": "Redland City Council: council elections",
+      "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Council-elections",
+      "checked": "2026-10-17",
+      "supports": "Ten divisions; mayor elected citywide and councillor elected for each division; links to 2024 declarations and official results."
+    },
+    {
+      "id": "rcc-meetings",
+      "title": "Redland City Council: council meetings",
+      "url": "https://www.redland.qld.gov.au/About-Council/Council-meetings",
+      "checked": "2026-10-17",
+      "supports": "Official routes to minutes, agendas, recordings and participation information."
+    }
+  ],
+  "reviewTriggers": [
+    "A representative change, official vacancy or election notice, new declaration, or changed councillor directory.",
+    "An official division-boundary review or replacement geometry. Recheck locality descriptions and the linked statistical geography together.",
+    "A new matched division-level statistical release or reviewed local evidence. Preserve its source, date and limits."
+  ],
+  "divisions": [
+    {
+      "id": 1,
+      "label": "Division 1",
+      "localities": "Wellington Point and Ormiston",
+      "aliases": ["Wellington Point", "Ormiston"],
+      "representative": {
+        "name": "Wendy Boglary",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-1-Wellington-Point-Ormiston",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r03", "r13", "r12"]
+    },
+    {
+      "id": 2,
+      "label": "Division 2",
+      "localities": "Cleveland and North Stradbroke Island / Minjerribah",
+      "aliases": ["Cleveland", "North Stradbroke Island", "Minjerribah", "Dunwich", "Amity", "Point Lookout"],
+      "representative": {
+        "name": "Peter Mitchell",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-2-Cleveland-North-Stradbroke-Island",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r04", "r07", "r01"]
+    },
+    {
+      "id": 3,
+      "label": "Division 3",
+      "localities": "Cleveland South, Thornlands and Victoria Point",
+      "aliases": ["Cleveland South", "Thornlands", "Victoria Point"],
+      "representative": {
+        "name": "Paul Gollé",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-3-Cleveland-Thornlands-Victoria-Point",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r12", "r05", "r11"]
+    },
+    {
+      "id": 4,
+      "label": "Division 4",
+      "localities": "Victoria Point and Coochiemudlo Island",
+      "aliases": ["Victoria Point", "Coochiemudlo Island", "Coochie"],
+      "representative": {
+        "name": "Lance Hewlett",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-4-Victoria-Point-Coochiemudlo-Island",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r05", "r06", "r15"]
+    },
+    {
+      "id": 5,
+      "label": "Division 5",
+      "localities": "Redland Bay and Southern Moreton Bay Islands",
+      "aliases": ["Redland Bay", "Southern Moreton Bay Islands", "SMBI", "Russell Island", "Canaipa", "Macleay Island", "Lamb Island", "Karragarra Island"],
+      "representative": {
+        "name": "Shane Rendalls",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-5-Redland-Bay-Southern-Moreton-Bay-Islands",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r08", "r14", "r23"]
+    },
+    {
+      "id": 6,
+      "label": "Division 6",
+      "localities": "Mount Cotton and Redland Bay",
+      "aliases": ["Mount Cotton", "Mt Cotton", "Redland Bay"],
+      "representative": {
+        "name": "Julie Talty",
+        "role": "Deputy Mayor and Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-6-Mt-Cotton-Redland-Bay",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r14", "r12", "r18"]
+    },
+    {
+      "id": 7,
+      "label": "Division 7",
+      "localities": "Alexandra Hills, Capalaba, Thornlands and Cleveland",
+      "aliases": ["Alexandra Hills", "Capalaba", "Thornlands", "Cleveland"],
+      "representative": {
+        "name": "Rowanne McKenzie",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-7-Alexandra-Hills-Capalaba-Thornlands-Cleveland",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r03", "r02", "r24"]
+    },
+    {
+      "id": 8,
+      "label": "Division 8",
+      "localities": "Birkdale, Alexandra Hills, Capalaba and Wellington Point",
+      "aliases": ["Birkdale", "Alexandra Hills", "Capalaba", "Wellington Point"],
+      "representative": {
+        "name": "Tracey Huges",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-8-Birkdale-Alexandra-Hills-Capalaba-Wellington-Point",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r19", "r11", "r13"]
+    },
+    {
+      "id": 9,
+      "label": "Division 9",
+      "localities": "Sheldon, Capalaba and Thornlands",
+      "aliases": ["Sheldon", "Capalaba", "Thornlands"],
+      "representative": {
+        "name": "Jason Colley",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-9-Sheldon-Capalaba-Thornlands",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r14", "r07", "r03"]
+    },
+    {
+      "id": 10,
+      "label": "Division 10",
+      "localities": "Birkdale and Thorneside",
+      "aliases": ["Birkdale", "Thorneside"],
+      "representative": {
+        "name": "Paul Bishop",
+        "role": "Councillor",
+        "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-10-Birkdale-Thorneside",
+        "sourceId": "rcc-profiles",
+        "checked": "2026-10-17"
+      },
+      "twinkles": ["r13", "r05", "r16"]
+    }
+  ]
+}

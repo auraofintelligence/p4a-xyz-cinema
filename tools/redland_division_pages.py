@@ -82,6 +82,7 @@ def build_pages(shell_fn=None):
         selected_map = BASE + f"divisions/index.html?division={number}#redland-division-map"
         representative = division["representative"]
         councillor = representative["role"] + " " + representative["name"]
+        role_note = (f'<p class="local-source">Acting mayoral arrangement checked {_escape(representative["roleChecked"])}. {_link(page, representative["roleSource"], "Official council vacancy notice")}</p>' if representative.get("roleSource") else "")
         twinkle_cards = []
         for record_id in division["twinkles"]:
             if record_id not in records:
@@ -112,7 +113,7 @@ def build_pages(shell_fn=None):
 <div class="local-grid">{''.join(twinkle_cards)}</div>
 <p>{_link(page, BASE + 'explore/index.html', 'Search all local questions and systems')} · {_link(page, BASE + 'action/index.html', 'Prepare your own observation, correction or offer')}</p>
 </section>
-<section class="local-section" id="public-records"><p class="local-kicker">Public representative and evidence</p>
+<section class="local-section" id="public-records"><p class="local-kicker">Public representative and evidence</p>{role_note}
 <h2>{_escape(councillor)}</h2>
 <p>Council lists this representative for {_escape(label)}. Read the official profile for contact routes, published background, interests and newsletters where provided. A representative profile is one source; a particular decision still needs its own record.</p>
 <p>{_link(page, representative['url'], 'Open the official councillor profile', 'local-button')} {_link(page, data['sources'][0]['url'], 'Check the full current directory', 'local-button')}</p>

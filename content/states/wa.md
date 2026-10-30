@@ -8,9 +8,9 @@
   "shortName": "WA",
   "capital": "Perth",
   "stateType": "State",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-10-29",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped review 23 October: Secret Harbour declaration and October council notices verified; Cook remains Premier. State chamber totals now match the retained 17 October roster, with fresh full Parliament access blocked (403). December extraordinary postal ballots close 3 December at 6 pm Perth time. September council declarations are retained with incomplete individual winners/rosters; federal records were not freshly certified.",
+  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes Cr Simon Robinson resigned effective 9 October; the council awaits advice on the replacement process and date. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Roger Cook",
@@ -224,14 +224,22 @@
     {
       "label": "wa june lg hub",
       "url": "https://www.elections.wa.gov.au/2026-june-local-government-extraordinary-elections"
+    },
+    {
+      "label": "Bridgetown-Greenbushes resignation notice, 9 October 2026",
+      "url": "https://www.bridgetown.wa.gov.au/news/resignation-of-cr-simon-robinson/10700"
+    },
+    {
+      "label": "Esperance Town Ward vacancy and postal election",
+      "url": "https://www.esperance.wa.gov.au/news/postal-election-confirmed-for-town-ward-vacancy/550"
     }
   ],
-  "previousResearchRun": "2026-05-08",
+  "previousResearchRun": "2026-10-23",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-10-29",
     "timezone": "Australia/Brisbane",
-    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-    "previousResearchRun": "2026-05-08",
+    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+    "previousResearchRun": "2026-10-23",
     "sourceDatesPreserved": true
   }
 }

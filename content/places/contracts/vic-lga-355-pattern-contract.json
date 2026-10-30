@@ -17,6 +17,7 @@
   "coverageNotes": [
     "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
     "Previous local-election contestant roster is not yet reconciled.",
+    "Verified 29 October 2026: Jordyn Princi elected unopposed on 28 October 2026 at 10am AEDT. No voting is required; the December polling timetable is superseded.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -73,7 +74,9 @@
           "council-vic-retained",
           "council-vic-2024-355",
           "council-vic-roster-355",
-          "refresh-vic-ward-3550520240528-20261023"
+          "refresh-vic-ward-3550520240528-20261023",
+          "election-review-kinglake-20261029",
+          "council-vic-kinglake-role-20261029"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
         "representatives": [
@@ -136,6 +139,16 @@
             "sourceId": "council-vic-roster-355",
             "checked": "2026-10-02",
             "profileType": "official published council roster"
+          },
+          {
+            "name": "Jordyn Princi",
+            "role": "Kinglake Ward",
+            "party": null,
+            "profileUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+            "website": null,
+            "sourceId": "election-review-kinglake-20261029",
+            "checked": "2026-10-29",
+            "profileType": "official elected-unopposed declaration"
           }
         ],
         "elections": [
@@ -312,28 +325,37 @@
             "id": "vic-lga-355-vic-ward-3550520240528-by-election-2026-2026-12-05",
             "label": "2026 Kinglake Ward by-election",
             "kind": "by-election",
-            "status": "scheduled",
-            "date": "2026-12-04",
-            "dateBasis": "Official postal receipt deadline. Election date 2026-12-05 is separate; the timer targets the published preceding Friday close. Nominations close 27 October 2026 at noon Australia/Melbourne; no final ballot or winner is inferred.",
+            "status": "final-unopposed",
+            "date": "2026-10-28",
+            "dateBasis": "Jordyn Princi elected unopposed on 28 October 2026 at 10am AEDT. No voting is required; the December polling timetable is superseded. Verified 29 October 2026. Declaration date, not a polling deadline.",
             "timezone": "Australia/Melbourne",
             "sourceUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
-            "candidates": [],
-            "dateTime": "2026-12-04T18:00:00+11:00",
-            "milestoneLabel": "postal voting closes",
-            "electionDate": "2026-12-05",
-            "nominationsClose": "2026-10-27T12:00:00+11:00"
+            "candidates": [
+              {
+                "name": "Jordyn Princi",
+                "status": "elected unopposed",
+                "contest": "Kinglake Ward",
+                "sourceUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+                "profileUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
+              }
+            ],
+            "milestoneLabel": "unopposed declaration",
+            "nominationsClose": "2026-10-27T12:00:00+11:00",
+            "resultsUrl": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+            "checked": "2026-10-29"
           }
         ],
         "coverageNotes": [
           "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
-          "Previous local-election contestant roster is not yet reconciled."
+          "Previous local-election contestant roster is not yet reconciled.",
+          "Verified 29 October 2026: Jordyn Princi elected unopposed on 28 October 2026 at 10am AEDT. No voting is required; the December polling timetable is superseded."
         ],
         "governance": "elected-council"
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-29",
+    "reviewedOn": "2026-10-30",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -353,7 +375,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "be8cc2f1203181bf10c00a86f9e2c5beb6e445d1082cf19efe53d65a7141b3f8"
+        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -361,11 +383,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "953ef500575061687bd420580fd69dacfd163b4049c6cd4e1adced6fd8d3e2e7"
+        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "a6fbf9d496ffcbc7808c6eae805a93fd34f8b34599e2fea1447c0a0b2264b085"
+        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
       }
     ],
     "requiredHumanChecks": [

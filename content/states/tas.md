@@ -8,9 +8,9 @@
   "shortName": "TAS",
   "capital": "Hobart",
   "stateType": "State",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-10-29",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped review 23 October: current Parliament lists confirm 35 MHAs and 15 MLCs. Helen Burnet is Independent; Casey Hiscutt’s affiliation is resolved as Independent. Huon/Rosevears counting is complete. Council postal ballots close 27 October at 2 pm Hobart (1 pm Brisbane). Exact future House and May 2027 Council polling dates remain unannounced. Individual council profiles and federal rosters are not freshly certified.",
+  "researchStatus": "Election review 29 October: council postal voting closed on 27 October at 2 pm Hobart (AEDT); counting began on 28 October. Results remain progressive, not a statewide final declaration. Parliament composition retains its 23 October review; individual council officeholders and federal rosters are not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -85,15 +85,18 @@
       "date": "2026-10-27T14:00:00+11:00",
       "kind": "Ordinary council elections",
       "scope": "local-government",
-      "status": "Postal voting underway; receipt deadline published",
-      "note": "Completed ballots must reach the council by 2 pm Hobart time (1 pm Brisbane) on 27 October; TEC advises returning them in person rather than posting now. Counting starts 28 October at 9 am Hobart time. No result or current-member replacement is inferred.",
-      "source": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+      "status": "Voting closed; counting underway",
+      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11). Counting began on 28 October at 9 am AEDT. TEC results remain progressive; no statewide final result or current-member replacement is inferred. Verified 29 October 2026.",
+      "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
       "dayMetrics": {
-        "displayDaysUntil": true,
-        "displayDaysSince": false,
+        "displayDaysUntil": false,
+        "displayDaysSince": true,
         "archiveDaysSince": true,
         "cycleKey": "tas-2026-ordinary-council-elections-postal-receipt-deadline",
-        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+        "daysSinceDate": "2026-10-27T14:00:00+11:00",
+        "daysSinceLabel": "2026 Tasmanian council postal voting close",
+        "daysSinceSource": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
       }
     }
   ],
@@ -307,14 +310,18 @@
     {
       "label": "tas lg vacancies",
       "url": "https://www.tec.tas.gov.au/local-government/vacancies.html"
+    },
+    {
+      "label": "TEC 2026 local government progressive results",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html"
     }
   ],
-  "previousResearchRun": "2026-05-08",
+  "previousResearchRun": "2026-10-23",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-10-29",
     "timezone": "Australia/Brisbane",
-    "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
-    "previousResearchRun": "2026-05-08",
+    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+    "previousResearchRun": "2026-10-23",
     "sourceDatesPreserved": true
   }
 }
