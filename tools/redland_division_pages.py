@@ -83,16 +83,6 @@ def build_pages(shell_fn=None):
         representative = division["representative"]
         councillor = representative["role"] + " " + representative["name"]
         role_note = (f'<p class="local-source">Acting mayoral arrangement checked {_escape(representative["roleChecked"])}. {_link(page, representative["roleSource"], "Official council vacancy notice")}</p>' if representative.get("roleSource") else "")
-        twinkle_cards = []
-        for record_id in division["twinkles"]:
-            if record_id not in records:
-                raise ValueError(f"Unknown Twinkle {record_id} in {label}")
-            record = records[record_id]
-            twinkle_cards.append(_card(
-                page, "A question to explore", record["title"], record["summary"],
-                BASE + "explore/index.html#" + record_id, "Follow this question"
-            ))
-
         body = f'''<section class="local-panel accent" aria-labelledby="selected-place">
 <p class="local-kicker">Your selected division</p>
 <h2 id="selected-place">{_escape(division['localities'])}</h2>
@@ -103,15 +93,14 @@ def build_pages(shell_fn=None):
 <section class="local-section" aria-labelledby="division-paths">
 <p class="local-kicker">A few useful paths</p><h2 id="division-paths">What would you like to follow?</h2>
 <div class="local-grid two">
-{_card(page, '01', 'An everyday question', 'A broken path, a caring role, a journey or an idea. Bring the place and lived experience together, then follow the evidence.', '#local-questions', 'Explore some starting questions')}
+{_card(page, '01', 'An everyday question', 'A broken path, a caring role, a journey or an idea. Bring the place and lived experience together, then follow the evidence.', '#local-questions', 'Bring your own question')}
 {_card(page, '02', 'People and decisions', 'Find the listed divisional councillor, official records and the decision behind a claim.', '#public-records', 'Inspect the public trail')}
 {_card(page, '03', 'A connected system', 'Link a local observation to civic twins, legal sources, chosen contribution and broader possibilities.', BASE + 'possibilities/index.html', 'Connect the local and the wider system')}
 {_card(page, '04', 'Maps and statistics', 'Keep the boundary, source period and measure together. See what is known and what still needs a matched division-level source.', '#division-data', 'Check the data and its limits')}
 </div></section>
 <section class="local-section" id="local-questions"><h2>A question can start here.</h2>
-<p>These are suggested entry points into the existing Redlands Twinkles. They are prompts for exploration; the number of residents affected and the priority within this division have not been measured.</p>
-<div class="local-grid">{''.join(twinkle_cards)}</div>
-<p>{_link(page, BASE + 'explore/index.html', 'Search all local questions and systems')} · {_link(page, BASE + 'action/index.html', 'Prepare your own observation, correction or offer')}</p>
+<p>Bring your own observation, question or correction. Keep the location, date and supporting evidence together; a proposed system is not evidence of a local complaint or community support.</p>
+<p>{_link(page, BASE + 'explore/index.html', 'Explore connected systems and public evidence')} · {_link(page, BASE + 'action/index.html', 'Prepare your own observation, correction or offer')}</p>
 </section>
 <section class="local-section" id="public-records"><p class="local-kicker">Public representative and evidence</p>{role_note}
 <h2>{_escape(councillor)}</h2>

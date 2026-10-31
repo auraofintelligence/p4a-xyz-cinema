@@ -94,7 +94,8 @@ for route in ['possibilities','explore','candidates','outcomes']:
     song_reference_count+=len(references)
 
 twinkles=sum(r['type']=='twinkle' for r in records)
-assert twinkles>0
+assert twinkles==0, 'Invented local Twinkle seeds must not return'
+assert not ({f'r{i:02d}' for i in range(1,25)} & set(ids)), 'Removed seed identifiers must not return'
 for record in records:
     assert set(record['trinity'])=={'cost','free','change'}
     for related in record['related']:assert related in ids,f'Missingrelated:{related}'

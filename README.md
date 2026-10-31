@@ -13,7 +13,7 @@ Start with the [human-readable site map](pages/site-map.html). It groups the who
 | --- | --- |
 | Find my place | [Councils and electorates](pages/places.html) → choose a jurisdiction and institution |
 | Explore the full local example | [Redlands](states/qld/councils/redland/index.html) → [choose a division](states/qld/councils/redland/divisions/index.html) |
-| Follow an everyday gripe | [Local Twinkles and their connections](states/qld/councils/redland/explore/index.html?type=twinkle) |
+| Follow a connection | [Connected systems and public evidence](states/qld/councils/redland/explore/index.html) |
 | Explore wider systems | [Connected possibilities](states/qld/councils/redland/possibilities/index.html) |
 | Examine people and decisions | [Public records and elections](states/qld/councils/redland/candidates/index.html) |
 | Contribute or see what changed | [Take part](states/qld/councils/redland/action/index.html) · [Outcomes](states/qld/councils/redland/outcomes/index.html) |
@@ -73,7 +73,7 @@ Run `python tools/verify-place-contracts.py` to check all reviewed manifests nam
 
 The 17 October correction puts the same draggable, zoomable, searchable atlas on the Queensland portal, council directory and Redlands division journey. Actual Queensland Government boundary geometry overlays the official QldBase Pastel PNG in shared EPSG:3857 coordinates. Soft colours distinguish areas; gold marks selection. Faint grey roads stay in the quiet default, with detailed topographic roads optional. Marine areas remain transparent, so the actual coast and islands stay visible. All 77 councils plus Weipa Town Authority are selectable; Redlands opens one interactive map of its ten divisions, each leading to a sourced local overview. Historical maps remain on Sources & dates. No SVG map is used. Tablet navigation wraps without overlapping text. Attribution, unchanged geometry, original PNGs, returned extents and refresh notes are retained in `content/councils/qld-map-sources.json`, `qld-basemap-sources.json` and `redland-divisions-sources.json`.
 
-The existing States map uses an attributed Wikimedia PNG with accessible state-label links. Follow Queensland -> councils -> Redland City -> a division. The 19-page local example includes 18 dated indicators, 24 worked Twinkle seeds within 43 connected records, wider systems, public-record pathways, participation, outcomes and the cost/free-contribution/change trinity. Twinkles follow the existing one-scene, one-gripe, one-breath rules; their spoken seeds appear before serious context and sources. Personal Genesis reflection is optional within candidates. No individual is announced as a candidate.
+The existing States map uses an attributed Wikimedia PNG with accessible state-label links. Follow Queensland -> councils -> Redland City -> a division. The 19-page local example includes 18 dated indicators, 19 connected records, wider systems, public-record pathways, participation, outcomes and the cost/free-contribution/change trinity. The 24 invented local Twinkle seeds were removed on 1 November 2026; national Twinkles are unchanged. Personal Genesis reflection is optional within candidates. No individual is announced as a candidate.
 
 Run `node scripts/serve.mjs` in this checkout, then open [the local States entry](http://127.0.0.1:8768/pages/states.html) or [the local Redlands overview](http://127.0.0.1:8768/states/qld/councils/redland/index.html). The server binds only to this computer. This build has not been published.
 

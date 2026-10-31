@@ -39,7 +39,7 @@ LABELS = {
  'states/vic/election/index.html':'Victoria 2026 election guide',
  'states/qld/councils/index.html':'Queensland council map and search',
  'states/qld/councils/redland/index.html':'Redlands overview and division map',
- 'states/qld/councils/redland/explore/index.html':'Local questions and Twinkles',
+ 'states/qld/councils/redland/explore/index.html':'Connected systems and public evidence',
  'states/qld/councils/redland/possibilities/index.html':'Connected systems and possibilities',
  'states/qld/councils/redland/candidates/index.html':'People, elections and public records',
  'states/qld/councils/redland/action/index.html':'Take part and plan a contribution',

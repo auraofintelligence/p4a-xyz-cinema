@@ -59,7 +59,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-10-30"
+        "2026-11-01"
       ]
     },
     {
@@ -68,6 +68,9 @@
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html",
         "states/qld/councils/redland/explore/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-11-01"
       ]
     },
     {
@@ -359,8 +362,7 @@
         "checked",
         "reviewTriggers",
         "note",
-        "trinity",
-        "twinkleEditorialBasis"
+        "trinity"
       ],
       "recordFields": [
         "id",
@@ -381,7 +383,6 @@
         "checked"
       ],
       "sourceDateField": "checked",
-      "editorialBasisPointer": "/twinkleEditorialBasis",
       "twinkleType": "twinkle",
       "twinkleFields": [
         "title",
@@ -476,7 +477,7 @@
     {
       "path": "content/local/redland-connections.json",
       "pointer": "/editorialUpdated",
-      "expected": "2026-10-17"
+      "expected": "2026-11-01"
     },
     {
       "path": "content/local/redland-election.json",
@@ -501,7 +502,7 @@
     {
       "path": "content/local/redland-divisions.json",
       "pointer": "/updated",
-      "expected": "2026-10-17"
+      "expected": "2026-11-01"
     },
     {
       "path": "content/councils/qld-map-sources.json",
@@ -535,7 +536,8 @@
       "content/places/qa/pre-questionnaire-2026-10-23/browser-review.json",
       "content/places/qa/pre-redland-vacancy-2026-10-28/browser-review.json",
       "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
-      "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json"
+      "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json",
+      "tools/publication-qa/redland-seed-removal-2026-11-01-cloud-browser.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -549,7 +551,7 @@
       },
       {
         "path": "assets/local-council.css",
-        "sha256": "2b75c769071f0fada8a9277a735f7affe8477c2829972bb16d3ae3b05b5e99d9"
+        "sha256": "41039e56756c5ff288c34d42b7eb49813cf9934d50aaf9145e2265cb65f48430"
       },
       {
         "path": "assets/local-council.js",
@@ -674,7 +676,7 @@
         "/records/*/updated",
         "/records/*/sources/*/checked"
       ],
-      "sha256": "12d5967c86a8df12a69b23eacbdd6278b9b49a17e7f01a6151bbf7d23ddf0347"
+      "sha256": "2e99d99f15381d82e87927bb36e11ec0c9b144a2ead2a790871fec93cb71e195"
     },
     {
       "path": "content/local/redland-divisions.json",
@@ -684,7 +686,7 @@
         "/sources/*/checked",
         "/divisions/*/representative/checked"
       ],
-      "sha256": "25ccb6e77ef345b972aa646b870a94341e02506a62a12e1e0d9ee4ba143ba3f5"
+      "sha256": "5e3dcdf49060e5314c758ea406ea331aa50596c0fffe08838f8e2f617d690148"
     },
     {
       "path": "content/councils/qld-map-sources.json",

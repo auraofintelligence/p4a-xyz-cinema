@@ -126,7 +126,8 @@ def apply_page(page, text, election, link):
     if page == base + 'candidates/index.html':
         text = text.replace('If a mayoral by-election is called.', 'Following the confirmed mayoral vacancy.')
         text = text.replace('Begin with an official vacancy and election notice, then use the current ECQ candidate guidance. A possible by-election is a branch in this journey; it does not need to happen for local work to continue.', 'Council has confirmed the vacancy and a by-election is required. Follow the official ECQ notice and current candidate guidance. Community work can also continue outside office.')
-    stamp = election['changed']
+    from page_review_register import reviewed_page_entries
+    stamp = max(election['changed'], next((row['lastUpdated'] for row in reviewed_page_entries() if row['path'] == page), election['changed']))
     readable = date.fromisoformat(stamp).strftime('%d %B %Y').lstrip('0')
     text = re.sub(r'(<div class="local-stamp"><span>Started 16 October[^<]*Updated )<time[^>]*>[^<]*</time>', lambda m: m[1] + f'<time datetime="{stamp}">{readable}</time>', text, count=1)
     return text
