@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-30T21:45:31.928970+00:00",
+  "status": "PASS",
+  "environment": {
+    "browser": "Cloud Chromium; shared checkout served by python3 HTTP server on cloud desktop. No user PC required.",
+    "viewportReview": "Ordinary window resize and 125% browser zoom; inspected narrow screenshots approximately 394px wide and desktop approximately 1165px wide. These are screenshot dimensions, not a device-emulation or DOM overflow measurement.",
+    "physicalTouchTested": false
+  },
+  "observations": [
+    {
+      "path": "states/vic/local-electoral-areas/vic-ward-3360120151112/index.html",
+      "checks": [
+        "Desktop and narrow visual review of historical ballot, empty current role and exact Awaiting confirmation to begin clock. No candidate declarations or dates invented.",
+        "Map search Baird returns one area; Open preserves layer/area query; browser Back restores search and selection."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/vic/councils/knox-city-council/index.html",
+      "checks": [
+        "Eight retained representatives visible; Peter Lockwood absent from current names; dated vacancy note and waiting by-election shown."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/electorates/districts/wyong/index.html",
+      "checks": [
+        "David Harris retained; 31 October review paragraph distinguishes announced 2027 retirement from current vacancy; original role source date retained. Narrow visual inspection."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/tas/councils/hobart/index.html",
+      "checks": [
+        "Closed 27 October 2pm AEDT event renders elapsed state, counting underway, mixed final/provisional outcomes; older roster remains visibly dated. Narrow visual inspection."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "pages/states.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/vic/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/vic/constitution/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/constitution/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/tas/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/tas/constitution/index.html",
+      "checks": [
+        "Rendered accessibility text contains updated state summary; no 404."
+      ],
+      "result": "PASS"
+    }
+  ],
+  "navigation": "NSW narrow Index opened and closed; links and controls wrapped visibly. Baird map search, Open and Back passed.",
+  "limitations": [
+    "Focused changed-fact rendering and navigation smoke review only; not full per-place browser, geometry, accessibility or official-source certification.",
+    "No physical touch test or automated overflow measurement. Full historical navigation and Redland reviews remain separately dated.",
+    "All 29 TAS notices share the renderer; Hobart is the visual sample, not a certification of individual results."
+  ]
+}

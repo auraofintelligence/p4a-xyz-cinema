@@ -3766,6 +3766,16 @@
       "verificationMethod": "Bounded factual extraction from the named official source; original publication/effective dates and access gaps are retained in the linked review. Not a retained original page or exhaustive profile certification.",
       "licence": "Publisher rights retained; minimal attributed public facts only.",
       "observationDate": "2026-10-20"
+    },
+    {
+      "id": "election-review-wyong-retirement-20261031",
+      "title": "31 October official election review: wyong-retirement",
+      "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election",
+      "checked": "2026-10-31",
+      "rawFile": "content/places/sources/election-review-2026-10-31.json",
+      "sha256": "4faa8029ce985722a7ec4a7b8fa8f14d03401a4341ee73e9959e3674e1c8dc10",
+      "verificationMethod": "Official notice or explicitly linked electoral commission release reviewed; minimal normalised civic facts only.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -21511,7 +21521,8 @@
       "officialUrl": "https://elections.nsw.gov.au",
       "sources": [
         "state-boundaries-nsw",
-        "refresh-nsw-la-20261023"
+        "refresh-nsw-la-20261023",
+        "election-review-wyong-retirement-20261031"
       ],
       "boundaryEdition": "Geoscape / Digital Atlas of Australia May 2025 source edition",
       "representatives": [
@@ -21520,7 +21531,15 @@
           "role": "Member for Wyong (Legislative Assembly)",
           "profileUrl": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=31",
           "sourceId": "state-nsw-supp-profile-31",
-          "checked": "2026-10-17"
+          "checked": "2026-10-17",
+          "retirementAnnouncement": {
+            "status": "not-recontesting-next-state-election",
+            "announced": "2026-10-30",
+            "checked": "2026-10-31",
+            "sourceId": "election-review-wyong-retirement-20261031",
+            "sourceUrl": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election",
+            "effective": "At the next state election; no immediate vacancy or by-election."
+          }
         }
       ],
       "elections": [
@@ -21601,7 +21620,8 @@
       ],
       "coverageNotes": [
         "Serving member independently checked in the official parliamentary profile Current positions table; election winners are historical results, not a current-office roster. Party is omitted where a separate current affiliation source was not retained."
-      ]
+      ],
+      "representationReview": "Official 30 October announcement confirms Harris continues in office until the 13 March 2027 election. No current vacancy, replacement or by-election is inferred. Checked 31 October 2026."
     },
     {
       "id": "state-nsw-nsw347",

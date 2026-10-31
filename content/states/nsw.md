@@ -8,9 +8,9 @@
   "shortName": "NSW",
   "capital": "Sydney",
   "stateType": "State",
-  "researchRun": "2026-10-30",
+  "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 30 October: NSWEC declared Barry Knight elected uncontested for Cobar on 29 October; no voting is required. This declaration supersedes the earlier 28 November poll timetable. Coffs Harbour and Hunters Hill South Ward polls remain 12 December, with nominations closing 11 November at noon Sydney (AEDT). Paul Amos resigned effective 14 October; Hunters Hill announced Marc Lane's immediate resignation on 15 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
+  "researchStatus": "Election review 31 October: David Harris announced on 30 October that he will not recontest Wyong at the 13 March 2027 state election. He remains the MP and continues ministerial duties until the election; this is not a current vacancy. Cobar, Coffs Harbour and Hunters Hill retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -26,7 +26,7 @@
       "kind": "State general election",
       "scope": "general",
       "status": "Scheduled",
-      "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm.",
+      "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm. David Harris announced on 30 October that he will not recontest Wyong, but will remain its MP and continue ministerial duties until the election; no current vacancy is created. Official announcement: https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election (checked 31 October 2026, Australia/Brisbane).",
       "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -290,14 +290,18 @@
     {
       "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
       "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
+    },
+    {
+      "label": "David Harris retirement announcement, 30 October 2026",
+      "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
     }
   ],
-  "previousResearchRun": "2026-10-29",
+  "previousResearchRun": "2026-10-30",
   "researchReview": {
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
-    "previousResearchRun": "2026-10-29",
+    "scope": "Scoped review of the David Harris retirement announcement; continued current office. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+    "previousResearchRun": "2026-10-30",
     "sourceDatesPreserved": true
   }
 }

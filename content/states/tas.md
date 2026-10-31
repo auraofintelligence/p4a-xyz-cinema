@@ -8,9 +8,9 @@
   "shortName": "TAS",
   "capital": "Hobart",
   "stateType": "State",
-  "researchRun": "2026-10-29",
+  "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 29 October: council postal voting closed on 27 October at 2 pm Hobart (AEDT); counting began on 28 October. Results remain progressive, not a statewide final declaration. Parliament composition retains its 23 October review; individual council officeholders and federal rosters are not freshly certified.",
+  "researchStatus": "Election review 31 October: TEC’s 30 October update confirms all mayoral counts and most deputy mayoral counts are complete. Some councillor results are final; remaining councillor outcomes are provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -85,8 +85,8 @@
       "date": "2026-10-27T14:00:00+11:00",
       "kind": "Ordinary council elections",
       "scope": "local-government",
-      "status": "Voting closed; counting underway",
-      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11). Counting began on 28 October at 9 am AEDT. TEC results remain progressive; no statewide final result or current-member replacement is inferred. Verified 29 October 2026.",
+      "status": "Progressive results; some counts complete",
+      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 30 October update confirms all mayoral and most deputy mayoral counts are complete. Some councillor results are final; remaining outcomes are based on a 50% sample and remain provisional. No statewide final declaration, individual officeholder replacement or completion date is inferred. Official update: https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE (checked 31 October 2026, Australia/Brisbane).",
       "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
       "dayMetrics": {
         "displayDaysUntil": false,
@@ -314,14 +314,18 @@
     {
       "label": "TEC 2026 local government progressive results",
       "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html"
+    },
+    {
+      "label": "TEC mayoral counts complete and councillor count update, 30 October 2026",
+      "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
     }
   ],
-  "previousResearchRun": "2026-10-23",
+  "previousResearchRun": "2026-10-29",
   "researchReview": {
-    "checked": "2026-10-29",
+    "checked": "2026-10-31",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
-    "previousResearchRun": "2026-10-23",
+    "scope": "Scoped review of the TEC 30 October statewide count-stage update, not individual council rosters. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+    "previousResearchRun": "2026-10-29",
     "sourceDatesPreserved": true
   }
 }

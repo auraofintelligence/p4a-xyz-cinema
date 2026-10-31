@@ -6,9 +6,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NSW",
     "capital": "Sydney",
     "stateType": "State",
-    "researchRun": "2026-10-30",
+    "researchRun": "2026-10-31",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 30 October: NSWEC declared Barry Knight elected uncontested for Cobar on 29 October; no voting is required. This declaration supersedes the earlier 28 November poll timetable. Coffs Harbour and Hunters Hill South Ward polls remain 12 December, with nominations closing 11 November at noon Sydney (AEDT). Paul Amos resigned effective 14 October; Hunters Hill announced Marc Lane's immediate resignation on 15 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
+    "researchStatus": "Election review 31 October: David Harris announced on 30 October that he will not recontest Wyong at the 13 March 2027 state election. He remains the MP and continues ministerial duties until the election; this is not a current vacancy. Cobar, Coffs Harbour and Hunters Hill retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -24,7 +24,7 @@ window.P4A_STATE_DATA = [
         "kind": "State general election",
         "scope": "general",
         "status": "Scheduled",
-        "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm.",
+        "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm. David Harris announced on 30 October that he will not recontest Wyong, but will remain its MP and continue ministerial duties until the election; no current vacancy is created. Official announcement: https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election (checked 31 October 2026, Australia/Brisbane).",
         "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -288,14 +288,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
         "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
+      },
+      {
+        "label": "David Harris retirement announcement, 30 October 2026",
+        "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
       }
     ],
-    "previousResearchRun": "2026-10-29",
+    "previousResearchRun": "2026-10-30",
     "researchReview": {
-      "checked": "2026-10-30",
+      "checked": "2026-10-31",
       "timezone": "Australia/Brisbane",
-      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
-      "previousResearchRun": "2026-10-29",
+      "scope": "Scoped review of the David Harris retirement announcement; continued current office. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+      "previousResearchRun": "2026-10-30",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/nsw.md"
@@ -307,9 +311,9 @@ window.P4A_STATE_DATA = [
     "shortName": "VIC",
     "capital": "Melbourne",
     "stateType": "State",
-    "researchRun": "2026-10-29",
+    "researchRun": "2026-10-31",
     "researchTimezone": "Australia/Melbourne",
-    "researchStatus": "Election review 29 October: Jordyn Princi was declared elected unopposed for Murrindindi Kinglake Ward on 28 October; no ward vote is required. State nominations open 4 November at 9 am and close 9 November at noon Melbourne (AEDT); polling is 28 November. State Parliament composition and candidate campaign sources retain their earlier dated reviews.",
+    "researchStatus": "Election review 31 October: Knox announced Peter Lockwood’s immediate resignation from Baird Ward on 29 October. The vacancy requires a VEC by-election; its timetable is not yet confirmed in the notice. The 29 October review of Kinglake Ward and the Victorian state election remains separate; Parliament composition and candidate campaign sources retain their earlier dated reviews.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Ben Carroll",
@@ -490,7 +494,8 @@ window.P4A_STATE_DATA = [
     "strategyNotes": [
       "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
       "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
-      "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November."
+      "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November.",
+      "Knox Baird Ward is vacant following Peter Lockwood’s immediate resignation on 29 October 2026. Council confirms a VEC by-election is required; polling, nominations and voting arrangements remain unconfirmed. Official notice: https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation (checked 31 October 2026, Australia/Brisbane)."
     ],
     "sources": [
       {
@@ -540,14 +545,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "VEC Kinglake Ward uncontested result, 28 October 2026",
         "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
+      },
+      {
+        "label": "Knox Baird Ward resignation and by-election process, 29 October 2026",
+        "url": "https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation"
       }
     ],
-    "previousResearchRun": "2026-10-23",
+    "previousResearchRun": "2026-10-29",
     "researchReview": {
-      "checked": "2026-10-29",
+      "checked": "2026-10-31",
       "timezone": "Australia/Brisbane",
-      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
-      "previousResearchRun": "2026-10-23",
+      "scope": "Scoped review of the Knox Baird Ward vacancy and replacement process. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+      "previousResearchRun": "2026-10-29",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/vic.md"
@@ -1216,9 +1225,9 @@ window.P4A_STATE_DATA = [
     "shortName": "TAS",
     "capital": "Hobart",
     "stateType": "State",
-    "researchRun": "2026-10-29",
+    "researchRun": "2026-10-31",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 29 October: council postal voting closed on 27 October at 2 pm Hobart (AEDT); counting began on 28 October. Results remain progressive, not a statewide final declaration. Parliament composition retains its 23 October review; individual council officeholders and federal rosters are not freshly certified.",
+    "researchStatus": "Election review 31 October: TEC’s 30 October update confirms all mayoral counts and most deputy mayoral counts are complete. Some councillor results are final; remaining councillor outcomes are provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1293,8 +1302,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-27T14:00:00+11:00",
         "kind": "Ordinary council elections",
         "scope": "local-government",
-        "status": "Voting closed; counting underway",
-        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11). Counting began on 28 October at 9 am AEDT. TEC results remain progressive; no statewide final result or current-member replacement is inferred. Verified 29 October 2026.",
+        "status": "Progressive results; some counts complete",
+        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 30 October update confirms all mayoral and most deputy mayoral counts are complete. Some councillor results are final; remaining outcomes are based on a 50% sample and remain provisional. No statewide final declaration, individual officeholder replacement or completion date is inferred. Official update: https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE (checked 31 October 2026, Australia/Brisbane).",
         "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
         "dayMetrics": {
           "displayDaysUntil": false,
@@ -1522,14 +1531,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "TEC 2026 local government progressive results",
         "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html"
+      },
+      {
+        "label": "TEC mayoral counts complete and councillor count update, 30 October 2026",
+        "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
       }
     ],
-    "previousResearchRun": "2026-10-23",
+    "previousResearchRun": "2026-10-29",
     "researchReview": {
-      "checked": "2026-10-29",
+      "checked": "2026-10-31",
       "timezone": "Australia/Brisbane",
-      "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
-      "previousResearchRun": "2026-10-23",
+      "scope": "Scoped review of the TEC 30 October statewide count-stage update, not individual council rosters. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+      "previousResearchRun": "2026-10-29",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/tas.md"

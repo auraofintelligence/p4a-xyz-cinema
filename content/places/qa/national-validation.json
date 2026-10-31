@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-10-30",
+  "checked": "2026-10-31",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 998083,
+    "assertions": 998140,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 251,
+    "source_hashes_checked": 254,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1319,
-    "current_representative_records": 5260,
-    "election_events": 4465,
+    "sources": 1322,
+    "current_representative_records": 5258,
+    "election_events": 4467,
     "contestant_records": 18382,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
@@ -24,13 +24,13 @@
     "local_link_references": 176159,
     "fragment_references_checked": 14658,
     "generated_pages_checked": 2113,
-    "rendered_representative_records_checked": 5260,
+    "rendered_representative_records_checked": 5258,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56476,
-    "rendered_event_records_checked": 4465,
+    "external_link_references_not_fetched": 56508,
+    "rendered_event_records_checked": 4467,
     "rendered_contestant_records_checked": 18382,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3060
+    "evidence_artifacts_bound": 3061
   },
   "errors": [],
   "warnings": [
@@ -1489,11 +1489,6 @@
       "bytes": 33957
     },
     {
-      "path": "content/councils/vic.json",
-      "sha256": "0148a3b87d80be9fef7632c50ebeaba6a442ef3b38fe957ee30e7c967a772821",
-      "bytes": 1474092
-    },
-    {
       "path": "content/electorates/vic-election-results.json",
       "sha256": "e0160fd15cb31f1cda90849c9b9390fc1eebf22359edd4eb7ab7941b2c408678",
       "bytes": 436335
@@ -1505,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "1d1a64a7963fb1e34d65acb7f9629ee982523bf8598cf206bcc202afb9c0260a",
-      "bytes": 15117341
+      "sha256": "dd4f02df8ee2795a9b3a4960680687aa0a442e1aa2b496ea34f0a04d36d76694",
+      "bytes": 15131579
     },
     {
       "path": "content/places/federal.json",
@@ -1522,6 +1517,11 @@
       "path": "content/places/history/vic-councils-before-2026-10-29.json",
       "sha256": "97e766a8c6a6aade3344fd8be01c5014a8ac52af4456121bae2edc35c56ec6e9",
       "bytes": 1470004
+    },
+    {
+      "path": "content/places/history/vic-councils-before-2026-10-31.json",
+      "sha256": "0148a3b87d80be9fef7632c50ebeaba6a442ef3b38fe957ee30e7c967a772821",
+      "bytes": 1474092
     },
     {
       "path": "content/places/raw/council-abs-lga-2026.geojson",
@@ -6565,6 +6565,11 @@
       "bytes": 2629
     },
     {
+      "path": "content/places/sources/election-review-2026-10-31.json",
+      "sha256": "4faa8029ce985722a7ec4a7b8fa8f14d03401a4341ee73e9959e3674e1c8dc10",
+      "bytes": 1546
+    },
+    {
       "path": "content/places/sources/national-basemap.json",
       "sha256": "a4483294f33cefbe878ea6adfe9aa50fdd90529f9a519ef21843fecafb8ddd24",
       "bytes": 3415
@@ -6626,8 +6631,8 @@
     },
     {
       "path": "content/places/state.json",
-      "sha256": "3d99b967152b939d1d302fa45ff6a0a587dd54b6a628bc4996df17ef93be2c13",
-      "bytes": 3363949
+      "sha256": "838d5a3bc4813097aa1476a4fda4e80cf305772d09955a2ce2def13228d7e674",
+      "bytes": 3365409
     },
     {
       "path": "content/representatives/vic.json",
@@ -7816,8 +7821,8 @@
     },
     {
       "path": "states/nsw/electorates/districts/wyong/index.html",
-      "sha256": "a85ffc4a444d76379c3a8678799982ffaf4ce22fb40a8af4ae8f594b0a17bc3f",
-      "bytes": 60802
+      "sha256": "04321db339b8f683d0ee2541578f5c470bd825457e35d47c20c1216e1a018b2e",
+      "bytes": 61329
     },
     {
       "path": "states/nsw/electorates/regions/legislative-council/index.html",
@@ -11901,148 +11906,148 @@
     },
     {
       "path": "states/tas/councils/break-o-day/index.html",
-      "sha256": "93102af399a5e977e243acf0f1f973f507e4054163705fa9d0f7fc5a5c45e96e",
-      "bytes": 58906
+      "sha256": "b101979168fd3ed226becd114a3ac484b15774373c4316626aaaed63402ee6bd",
+      "bytes": 59418
     },
     {
       "path": "states/tas/councils/brighton/index.html",
-      "sha256": "39284480a7844c9f7980a88afabb0c3dafb56f0f027566921b70baf5de299be5",
-      "bytes": 55145
+      "sha256": "ecb546cfd893dafac088daefc5a0f5f728c64674eff5c115d462492faaaf2267",
+      "bytes": 55657
     },
     {
       "path": "states/tas/councils/burnie/index.html",
-      "sha256": "a1bb9ee456867ddc78d17dd61e256ce7da1a2479ae946c29f63f94bede13b366",
-      "bytes": 58306
+      "sha256": "fda84227a429e5efc755aa810fb7fd37fbde12b5bbf637f9e7d7a5eaad5e1f6a",
+      "bytes": 58818
     },
     {
       "path": "states/tas/councils/central-coast-tas/index.html",
-      "sha256": "a8a72fb481b86ee9471b62cf1d2aec8408b3bba3b7e1c3951eb08e93b478bbe7",
-      "bytes": 63795
+      "sha256": "c5b2d304cc74a067d2d1c974141b94b7cb3288128f1e966deb25521c59873fec",
+      "bytes": 64307
     },
     {
       "path": "states/tas/councils/central-highlands-tas/index.html",
-      "sha256": "27a5a76c9ff02b52f604777a2b68619f807bc3c96dc6944ab880945327ead76f",
-      "bytes": 54386
+      "sha256": "6a187c756306796a99dd136c2ee787ee4236d884c631ad4257b85cb0c2d4be6f",
+      "bytes": 54898
     },
     {
       "path": "states/tas/councils/circular-head/index.html",
-      "sha256": "854cd51d4255b1964c66f19b256c968926ed243af1d86520b1e650d9b9fbbe3f",
-      "bytes": 56826
+      "sha256": "cab6a1b1831c52e167b8a6e9d4bc744c8803dafe2d906d1a7a7b03bb9bb824e9",
+      "bytes": 57338
     },
     {
       "path": "states/tas/councils/clarence/index.html",
-      "sha256": "1a090516d29395db51b730e4b8a25991815f5362363a89fad160f746a98a9684",
-      "bytes": 68248
+      "sha256": "f8327bc3757036780641184dc40cfd447baaa2d63445cfed295f5b2fafc20aaf",
+      "bytes": 68760
     },
     {
       "path": "states/tas/councils/derwent-valley/index.html",
-      "sha256": "a9876284e775d9e5b40d0b0ba00be4fa45843cc7a4789569077f4f7c5b1ec0c1",
-      "bytes": 59586
+      "sha256": "ca2e6d6c6bad9ac333788f15a42aba5ed5685c941c4c61b3815075d584933c92",
+      "bytes": 60098
     },
     {
       "path": "states/tas/councils/devonport/index.html",
-      "sha256": "2b1ab6121e18cda0c750ac2c9e0fbb5bc51e9edde02d5d2a03ee7ff199910110",
-      "bytes": 57298
+      "sha256": "ba4ae49884485e823d20eb6c0cc3e3a8a57e8e9259e1aed2f09db02a41a8ae54",
+      "bytes": 57810
     },
     {
       "path": "states/tas/councils/dorset/index.html",
-      "sha256": "64794f8aa1da83cbfa029816a0fa49d43459198de1b7d87deb053e1a4c977213",
-      "bytes": 56378
+      "sha256": "df74b14d147586ca3bf9c739021f14680a13da6a9efe381af55bd963b2a6ed93",
+      "bytes": 56890
     },
     {
       "path": "states/tas/councils/flinders-tas/index.html",
-      "sha256": "af872dc3fea14ef8c6ed063912e66806cdc713627697bd8556b09f3cbec9a9b4",
-      "bytes": 52439
+      "sha256": "f60a597fc01ee20444ca5dbe8f83b3c722bf8a6e6fd6dbecb389e6ceb5440709",
+      "bytes": 52951
     },
     {
       "path": "states/tas/councils/george-town/index.html",
-      "sha256": "b68ccacc4fdfa7872e0d148921ee256b2303e6365f288f54f80a47b1912bb088",
-      "bytes": 58045
+      "sha256": "dca9f975e44bd4aa08190d149acbefc28b5a0769893179e5cd2cc641e816e19e",
+      "bytes": 58557
     },
     {
       "path": "states/tas/councils/glamorgan-spring-bay/index.html",
-      "sha256": "2e8ffa3ae77ae3591f1d31cb4cac1118e58878637bb01456d2271da55940eac2",
-      "bytes": 55740
+      "sha256": "1f0c50db60b4dd7dbfa34cf5f4d9eee9e50745fbefd5c253acbce184024d1f13",
+      "bytes": 56252
     },
     {
       "path": "states/tas/councils/glenorchy/index.html",
-      "sha256": "5293cc49af5a1ce64ce35d075e976c084663d5ad29a470eadf02203200f33a62",
-      "bytes": 65033
+      "sha256": "6b4035bff4264514a6baee140d8538c18e551605ec8c74171699c9b589b0dc23",
+      "bytes": 65545
     },
     {
       "path": "states/tas/councils/hobart/index.html",
-      "sha256": "2b1a5945fa8d168a711c85c231ffd227865d7af23f0399dddc612cec77b8f4f5",
-      "bytes": 77245
+      "sha256": "37d31480dcf72b8e7741c6dfef3d2e46c981a885b0f897ee9b218205fa68b67c",
+      "bytes": 77757
     },
     {
       "path": "states/tas/councils/huon-valley/index.html",
-      "sha256": "a402499979825a9d19960d4b6301d23cc3206e7348649691482976ebfcc1bf4e",
-      "bytes": 64844
+      "sha256": "54b0740926dfa75bed2fb74dc2b29d7cba1dcb5b5f23fc617f1d50343ef52682",
+      "bytes": 65356
     },
     {
       "path": "states/tas/councils/kentish/index.html",
-      "sha256": "6d86e6b7d21e3c0db74e61f65d6f3ddea10d2708dfd1c83e5e4d2dd937754a32",
-      "bytes": 53740
+      "sha256": "a845fc44d10675b3e358fe8608eb1bbd42a2288eff5d802fb1d7ffabeae50c76",
+      "bytes": 54252
     },
     {
       "path": "states/tas/councils/king-island/index.html",
-      "sha256": "322be6dc687c1670e150b2c1cd602e1ad1c3e074a005c051c0daebf253673339",
-      "bytes": 51721
+      "sha256": "f11da45f4c269eadb11fbaf3848bc138d0bb43a72166c0b15a819770bcd1eaa0",
+      "bytes": 52233
     },
     {
       "path": "states/tas/councils/kingborough/index.html",
-      "sha256": "1ce09134e423348f65f5c5f0da723a7fcb5230e74a1c5c89a345e555bf3fc92e",
-      "bytes": 59777
+      "sha256": "6ae6eedabca0d33e3098a8dd40774a5f56e386f05c491d080f1012d785ced487",
+      "bytes": 60289
     },
     {
       "path": "states/tas/councils/latrobe-tas/index.html",
-      "sha256": "692e3bc611ad296a6585cb4e3939a3aaea90746a43978a275122a038bcc91440",
-      "bytes": 56030
+      "sha256": "36ec3a34c9212703278153a789ecf34b5799a027349dfc24cbb9d610cb4aceac",
+      "bytes": 56542
     },
     {
       "path": "states/tas/councils/launceston/index.html",
-      "sha256": "ad16a7725392ab7952c5dab649547f08d5ab995908577e9c37df7b5be83a92dd",
-      "bytes": 71251
+      "sha256": "a20714baa045b5e344aa0631d6781e044077bb053307c1e97c7ea0a4d81409d1",
+      "bytes": 71763
     },
     {
       "path": "states/tas/councils/meander-valley/index.html",
-      "sha256": "bafa89cc269716f90b7cc4876d7e05df40052c4660fb32e85fda18693b2e649d",
-      "bytes": 61943
+      "sha256": "2ed44f62382d83e13b39e464e2ac4610197079d8ac5bc2267770f618d8532dea",
+      "bytes": 62455
     },
     {
       "path": "states/tas/councils/northern-midlands/index.html",
-      "sha256": "46b6227cc9404ca83d2c9a69e86b92f2e22f0061afe404875e644affcd45a3db",
-      "bytes": 62224
+      "sha256": "99544be28b37b0c6c08a93f85f24bbc7bcdcabb84b9e089ffd3fff7780803e73",
+      "bytes": 62736
     },
     {
       "path": "states/tas/councils/sorell/index.html",
-      "sha256": "7aa9adb9f266cc215eebb9e3a94bf48bfe4c068cfcb5f50b890d04b1354775c3",
-      "bytes": 59094
+      "sha256": "bc6ad1b6c561a3de6aa90bd7399e148663497577adb87f36a92af69f577b7b15",
+      "bytes": 59606
     },
     {
       "path": "states/tas/councils/southern-midlands/index.html",
-      "sha256": "dfc6888da068cc78d663204c8015052b7679d6601d8621e39c4a3ddd2f41573a",
-      "bytes": 52810
+      "sha256": "cee7b67a244e3d2426474ae1a730670fb2da9c00c205fab73388e3e7a009346d",
+      "bytes": 53322
     },
     {
       "path": "states/tas/councils/tasman/index.html",
-      "sha256": "f06254d2f47434c96d217f31f9ee57639fe06f901c450e6b800378018ff32b4d",
-      "bytes": 51762
+      "sha256": "f9ed370221e5825248ee6db34d6e59ee853d8319d5c695fdce4466bf0de22aca",
+      "bytes": 52274
     },
     {
       "path": "states/tas/councils/waratah-wynyard/index.html",
-      "sha256": "67990c5c31779504752c189b6da556ca324555b5c727d69154524f59a080672f",
-      "bytes": 56879
+      "sha256": "cce29030ff85ed472edc737fee9df58ea76d6d39db2298b2c3c13925bade0f73",
+      "bytes": 57391
     },
     {
       "path": "states/tas/councils/west-coast/index.html",
-      "sha256": "703fe6d51cf2471d4b66f1dd900c0c4933da49e2afa9ca495c8e95b0490edf7f",
-      "bytes": 57076
+      "sha256": "e098caad895298a4e1c447a70ad6c42a7f55534980c45b83cdffc056db826731",
+      "bytes": 57588
     },
     {
       "path": "states/tas/councils/west-tamar/index.html",
-      "sha256": "00c7bc1804492c661a16efee2df8cd06c97543f4529786658920f286c745394e",
-      "bytes": 61094
+      "sha256": "0132d7d1214579215c2e8130ba906979e9f7bb112dd5e5d0e44cfadb9b842e04",
+      "bytes": 61606
     },
     {
       "path": "states/tas/electorates/districts/bass/index.html",
@@ -12196,13 +12201,13 @@
     },
     {
       "path": "states/vic/councils/alpine-shire-council/index.html",
-      "sha256": "083bac5f718e45f124eae8fe2c887a285698697aeadaa6dfe46948cbc4c7f727",
-      "bytes": 310742
+      "sha256": "7ffe7e47ae86bd8c3a31e06f8c6ef9dbea67e7c47f952ae3dd0b3e02bfa4255c",
+      "bytes": 310673
     },
     {
       "path": "states/vic/councils/ararat-rural-city-council/index.html",
-      "sha256": "0554e2d6c687f06a7577c78dd26d6d1e40e1f9fab797c78d1599535c40bf6e5a",
-      "bytes": 311103
+      "sha256": "2a44f7f4551add2a11347df45ea1e3db66cc0c53c96b41fbf81d93a336b3afcf",
+      "bytes": 311034
     },
     {
       "path": "states/vic/councils/ballarat-city-council/index.html",
@@ -12231,8 +12236,8 @@
     },
     {
       "path": "states/vic/councils/benalla-rural-city-council/index.html",
-      "sha256": "1dc827a3b1f824eba2eb87cf8f35be2ab47f6704e46d51a19926d94a23661b18",
-      "bytes": 312787
+      "sha256": "7ea7e67154deed4e25dfbd5df60c41126fdc0613e6642084f7530a73c810e2f6",
+      "bytes": 312718
     },
     {
       "path": "states/vic/councils/boroondara-city-council/index.html",
@@ -12241,8 +12246,8 @@
     },
     {
       "path": "states/vic/councils/borough-of-queenscliffe-council/index.html",
-      "sha256": "fc62a502e69590e489f8cfaf753c9c36a2d2b202ba81cc82a190480d98f6c176",
-      "bytes": 309168
+      "sha256": "36ced9c08a4aa6c58d8a99e24a6b480f16d89651e2971e256a30c8b881156057",
+      "bytes": 309099
     },
     {
       "path": "states/vic/councils/brimbank-city-council/index.html",
@@ -12256,8 +12261,8 @@
     },
     {
       "path": "states/vic/councils/campaspe-shire-council/index.html",
-      "sha256": "9781be0546fe8b19c5b1972caee4a895af963488eff800f35ae9a0dd40e557fb",
-      "bytes": 312593
+      "sha256": "e7c607117cec95a47322c8457574f0430d445d0be72eb9c2cab397dc073a6cdc",
+      "bytes": 312524
     },
     {
       "path": "states/vic/councils/cardinia-shire-council/index.html",
@@ -12276,8 +12281,8 @@
     },
     {
       "path": "states/vic/councils/colac-otway-shire-council/index.html",
-      "sha256": "9ad7f24db44f7d5f62f9672ee479067aa250c6883bd3d087109ca3a88e4fd58e",
-      "bytes": 314178
+      "sha256": "7a9c56ab14ea12e82ecf8a506dbd624eb9385f2501ec82e1e40df6c72cbd83e2",
+      "bytes": 314109
     },
     {
       "path": "states/vic/councils/corangamite-shire-council/index.html",
@@ -12291,13 +12296,13 @@
     },
     {
       "path": "states/vic/councils/east-gippsland-shire-council/index.html",
-      "sha256": "5a83f378c8d5c872530568cd136833d0ca68a2905dfa1f1d8516e6eacdf7cfea",
-      "bytes": 318279
+      "sha256": "06a92f7d090fc458fa875f9457169d165c739a4a88e8c324ccc1aab91c8a80c1",
+      "bytes": 318210
     },
     {
       "path": "states/vic/councils/falls-creek-alpine-resort/index.html",
-      "sha256": "2b82f8ee431983749c374f10fb178963c44a0fa185cd9e5cba08a7098d1b2554",
-      "bytes": 80962
+      "sha256": "d07b88bd80fda3a0f199dbe28f1fde3f4f6bc002ed36e76cc75b0d4927eeae8b",
+      "bytes": 80927
     },
     {
       "path": "states/vic/councils/frankston-city-council/index.html",
@@ -12306,18 +12311,18 @@
     },
     {
       "path": "states/vic/councils/french-elizabeth-sandstone-islands/index.html",
-      "sha256": "7f1f1748bb6a913bbc93b2287ff6ffc162c4d70bd648a981a613cc3bd6dcc142",
-      "bytes": 296329
+      "sha256": "2213fdfcfab6ed4c50a70e3fd65372c9ee9cd288767be8ee253705f5aa672a94",
+      "bytes": 296260
     },
     {
       "path": "states/vic/councils/gabo-island/index.html",
-      "sha256": "ea6c58bfbb4326f711c8b8e1c64d8f289c66ca57be5becf519edbee24d8a3012",
-      "bytes": 80934
+      "sha256": "f0d18fa66971197a15430e9f196aecb7535f41d86f4920afcaaba7719649e492",
+      "bytes": 80899
     },
     {
       "path": "states/vic/councils/gannawarra-shire-council/index.html",
-      "sha256": "643cf300d7c85f95483ad7965ab04308615abecc4c1a1ed28ab77d82d42115ce",
-      "bytes": 310545
+      "sha256": "091456099e7c33b52c3024cc0d8fa27eb81c09b965bcd88640bd394c83379319",
+      "bytes": 310476
     },
     {
       "path": "states/vic/councils/glen-eira-city-council/index.html",
@@ -12326,13 +12331,13 @@
     },
     {
       "path": "states/vic/councils/glenelg-shire-council/index.html",
-      "sha256": "dec7772a28c542eaff956311cca44b33ddd457c984315340b10f8c276d9f2dc4",
-      "bytes": 311307
+      "sha256": "e590720625f513ce2ba7b41ba7da46d14fd79b3bac5d737c3413c8e43c9c1537",
+      "bytes": 311238
     },
     {
       "path": "states/vic/councils/golden-plains-shire-council/index.html",
-      "sha256": "6810d5a2e2f152f54eab3b93ed2dd7cbe1856de9ddac42d81c6820d091644706",
-      "bytes": 310234
+      "sha256": "d2159c4cfd55f31f2f39415c22a31ec205ab773b663cf827f697d4f771a3c3f7",
+      "bytes": 310165
     },
     {
       "path": "states/vic/councils/greater-bendigo-city-council/index.html",
@@ -12356,8 +12361,8 @@
     },
     {
       "path": "states/vic/councils/hepburn-shire-council/index.html",
-      "sha256": "e23f3d43cc35eecb50bd2667440dbbe8f9c4278e0dfbd30f97d11d978e6237b0",
-      "bytes": 310804
+      "sha256": "e5f6aa7331d10df4cfc8fd7c18120560cf34b8725e9399f49ff1c243302754d2",
+      "bytes": 310735
     },
     {
       "path": "states/vic/councils/hindmarsh-shire-council/index.html",
@@ -12381,8 +12386,8 @@
     },
     {
       "path": "states/vic/councils/indigo-shire-council/index.html",
-      "sha256": "6b8541c5c05b36422f50226b1b2567612e4f6823e0b32555428db94dfbb2e6b5",
-      "bytes": 310242
+      "sha256": "f2fc40e29f4ecac58fb3c928ce77881f3f0ffc69781d1fddf33c5790c66a278f",
+      "bytes": 310173
     },
     {
       "path": "states/vic/councils/kingston-city-council/index.html",
@@ -12391,13 +12396,13 @@
     },
     {
       "path": "states/vic/councils/knox-city-council/index.html",
-      "sha256": "4f9942a8c2f58471a139842f640c612b6787df821fbf5f5e777251f15aaa4a2a",
-      "bytes": 40778
+      "sha256": "79dfc09faff779095bfe434fdacf91924ab6da4c6ac4b8f19684c470f97e0bf9",
+      "bytes": 41985
     },
     {
       "path": "states/vic/councils/lake-mountain-alpine-resort/index.html",
-      "sha256": "933a3370c65c0e0fe483c0bf481a2b66987536387e50b331a8a77ebcbbdd99f8",
-      "bytes": 80966
+      "sha256": "5d88cebeb2a069b88099ed028d27f2f4cc9ae967ab1466bd2fb896e7ac401257",
+      "bytes": 80931
     },
     {
       "path": "states/vic/councils/latrobe-city-council/index.html",
@@ -12421,8 +12426,8 @@
     },
     {
       "path": "states/vic/councils/mansfield-shire-council/index.html",
-      "sha256": "f9231009a56ff6e683944af9c919692e46a82be785421085562b51764e01264c",
-      "bytes": 307754
+      "sha256": "dd7f52d8df93b8334a98bced74bc9fa5415eb1c2f9eb855a10bcd207871502eb",
+      "bytes": 307685
     },
     {
       "path": "states/vic/councils/maribyrnong-city-council/index.html",
@@ -12436,8 +12441,8 @@
     },
     {
       "path": "states/vic/councils/melbourne-city-council/index.html",
-      "sha256": "56ad35b00b3d2d692ebf138507fc374f474efe8cb7e032cd3b7e9ad301eedb87",
-      "bytes": 302511
+      "sha256": "62c1d6f4ddadda89e911bb8f503c4a8653fe11058c8a3cedf90a50651ed33458",
+      "bytes": 302442
     },
     {
       "path": "states/vic/councils/melton-city-council/index.html",
@@ -12461,8 +12466,8 @@
     },
     {
       "path": "states/vic/councils/moira-shire-council/index.html",
-      "sha256": "42e03bb492d036670f9ad12f32842c578171e21dd81d83712e5676aac7360da7",
-      "bytes": 297048
+      "sha256": "1450ac04f4a174d75e36eed167481a7fc782b54efb97317be975b0a06d6451df",
+      "bytes": 296979
     },
     {
       "path": "states/vic/councils/monash-city-council/index.html",
@@ -12476,8 +12481,8 @@
     },
     {
       "path": "states/vic/councils/moorabool-shire-council/index.html",
-      "sha256": "9419386f1c6532d02cce8b648daec653ec229f88c96fac3a8638de212571783a",
-      "bytes": 314241
+      "sha256": "b7e5cf3c60af093a58b2c74d0953b149a9831819ca35d939f8c8be27c411892f",
+      "bytes": 314172
     },
     {
       "path": "states/vic/councils/mornington-peninsula-shire-council/index.html",
@@ -12491,28 +12496,28 @@
     },
     {
       "path": "states/vic/councils/mount-baw-baw-alpine-resort/index.html",
-      "sha256": "4707cc1dd1f7674c180008dab3c9876a18b98c44d2bceaa83916e2cd4031e22d",
-      "bytes": 80966
+      "sha256": "808837e290c7eee430d3495369e1417708d09a75efec73cdb91256a50624bf2b",
+      "bytes": 80931
     },
     {
       "path": "states/vic/councils/mount-buller-alpine-resort/index.html",
-      "sha256": "ab5922ec9b94c48946f5af3e6b5f9132ba7aa0b2ef1c92e0776a212f5157c1b9",
-      "bytes": 80964
+      "sha256": "b567168c3a55763891d28434ac84674f3051aeb43755e2926cc8a7ff75eb6db7",
+      "bytes": 80929
     },
     {
       "path": "states/vic/councils/mount-hotham-alpine-resort/index.html",
-      "sha256": "a842fee5faced015420d03fcacc91bef471db5254003809ffaed437c84ff328b",
-      "bytes": 80964
+      "sha256": "44656b3419e05f894e35480da7d625fc74c3019fbf5647c1991962867557364e",
+      "bytes": 80929
     },
     {
       "path": "states/vic/councils/mount-stirling-alpine-resort/index.html",
-      "sha256": "b6636d77fb5ffe2cd8463270bf56b7a4cf0d924d401c9f542d07b2448e2e235a",
-      "bytes": 80968
+      "sha256": "fae6c6b0d0e74c9a36668d0fcf97247c702fba94906328974add3deda3f79df6",
+      "bytes": 80933
     },
     {
       "path": "states/vic/councils/moyne-shire-council/index.html",
-      "sha256": "55eac80c1536d7d14eedc92619c001647a72ce41d67301ce81c0713ba925906f",
-      "bytes": 309649
+      "sha256": "d64ec3e9c8d112324552a01d6fea11e0e1e3b5da2b87b3bf09419bcbff4b2aaa",
+      "bytes": 309580
     },
     {
       "path": "states/vic/councils/murrindindi-shire-council/index.html",
@@ -12546,8 +12551,8 @@
     },
     {
       "path": "states/vic/councils/southern-grampians-shire-council/index.html",
-      "sha256": "efa089098d889ea85cdd7b0a27c64c4e2d4e6bfeaacd818f66cd3cc80eae2663",
-      "bytes": 311149
+      "sha256": "d817536921e617bbf05d5f6f5bac1cdd3bd8fd538606cd042737613435eec71a",
+      "bytes": 311080
     },
     {
       "path": "states/vic/councils/stonnington-city-council/index.html",
@@ -12556,8 +12561,8 @@
     },
     {
       "path": "states/vic/councils/strathbogie-shire-council/index.html",
-      "sha256": "552fb1df08788edc2c2ef27d71fb875518f994f161699d738341e9eabbc367dc",
-      "bytes": 312680
+      "sha256": "65d80207968a9b45e334a4f39b3ed4d88efe9fe6996ed905bc121ea012c5c9ad",
+      "bytes": 312611
     },
     {
       "path": "states/vic/councils/surf-coast-shire-council/index.html",
@@ -12566,13 +12571,13 @@
     },
     {
       "path": "states/vic/councils/swan-hill-rural-city-council/index.html",
-      "sha256": "ffc34ff1a9b0b0d70b0a7fcd4a2270f906c06c97eb370c03d9b44553dd27355c",
-      "bytes": 312374
+      "sha256": "6e470a7c8af5bce5df98dd313f94e538cdee531576b5d781510ffb06e0b0b342",
+      "bytes": 312305
     },
     {
       "path": "states/vic/councils/towong-shire-council/index.html",
-      "sha256": "a3b2dcef752a82f40ccb66e5adfbf5ad5eaabf8accd1f556a8a8431f78ac1b71",
-      "bytes": 306576
+      "sha256": "bb783177f8010dce2bd591e6c374474a3b549e04ce7949ac3a92d895dbf6369f",
+      "bytes": 306507
     },
     {
       "path": "states/vic/councils/wangaratta-rural-city-council/index.html",
@@ -12591,8 +12596,8 @@
     },
     {
       "path": "states/vic/councils/west-wimmera-shire-council/index.html",
-      "sha256": "83cdad34a74ee28f4259514a249f88e83575e23b7110da5ffbf3a7e1591c9d77",
-      "bytes": 306350
+      "sha256": "83c4b20f84980b1048cc09ea71033b3eebb0acfd3aac6b049d91561aeae499d9",
+      "bytes": 306281
     },
     {
       "path": "states/vic/councils/whitehorse-city-council/index.html",
@@ -14291,48 +14296,48 @@
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360120151112/index.html",
-      "sha256": "e64cf3f3ef834a45e757010487328bf9d31429a4104c9238119497977c3fc94d",
-      "bytes": 25638
+      "sha256": "38b7e5ea5bee7d889d0baf67848bb9ad0fa3254b62210d3f01de77ebccc664b0",
+      "bytes": 27072
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360220151112/index.html",
-      "sha256": "619c2afd6491cac729bbddb060144aed3adb27d76536730168aedd705683412c",
-      "bytes": 25176
+      "sha256": "ffbba4d56219ccfd7dd0cd58dba81238b523f53ff834051b5948f0e0a034a12b",
+      "bytes": 25142
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360320151112/index.html",
-      "sha256": "4b34242679ab6b0bb5578deb901bd77e55dc405c1500c2b5ae655a08c4f9561d",
-      "bytes": 25171
+      "sha256": "73bcd19702385dbf65b0e85eebdb2e342021b14db9acff8bb2db3b63be0212dc",
+      "bytes": 25137
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360420151112/index.html",
-      "sha256": "0e0c9f711aa79e0afdad04b5176a354fddf1901a08cda17262aac40330bfadc9",
-      "bytes": 25187
-    },
-    {
-      "path": "states/vic/local-electoral-areas/vic-ward-3360520151112/index.html",
-      "sha256": "0446576477b956f16524489ec0080d31b8233928ae138da4166aa5e521ae20cd",
+      "sha256": "b4c78cc060b970487402f5e19dc10816d03d5d84bb787b3ee05f9757d19ed339",
       "bytes": 25153
     },
     {
+      "path": "states/vic/local-electoral-areas/vic-ward-3360520151112/index.html",
+      "sha256": "cc43f3249cfeef3c7b834b59abce1fe9acc86c59e2825f8ac1006a601d324324",
+      "bytes": 25119
+    },
+    {
       "path": "states/vic/local-electoral-areas/vic-ward-3360620151112/index.html",
-      "sha256": "84e0ccc6cea048790a64fffc91ca96b00f19f03aac41c1cc28c1d38bc75b0cbe",
-      "bytes": 24215
+      "sha256": "e0efd3513d987038bd0cc84861b1e20b56ee161ceaa097b8cda59a6940c1ba7f",
+      "bytes": 24181
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360720151112/index.html",
-      "sha256": "ec5d00803373b4a3f878cdb3edc36eeaf885edf42bcf78cf194d3450ddf76c66",
-      "bytes": 24183
+      "sha256": "7aa734b77c85f8b6365efc1fb8a5e5c207f9cb0714f9f679b3298158494bb1f6",
+      "bytes": 24149
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360820151112/index.html",
-      "sha256": "cff493e7f0f67d9b98a6b16c53b5aacfca87d9cfe68e299810829a16d57f80b2",
-      "bytes": 24198
+      "sha256": "332e63d08a61c5c6866fa6ec48515616acd72fdeeb8b5313c036287fb7033944",
+      "bytes": 24164
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360920151112/index.html",
-      "sha256": "2f37d1438e292b91ff635c8222fb3689093f2f20b571c8b4ad87a49dbe1ec035",
-      "bytes": 24708
+      "sha256": "c0abf8ca0b1e048caa48cce68842be4fb774064ca49ac08cbb52aa9799fa29ce",
+      "bytes": 24674
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3370120240215/index.html",
@@ -15526,8 +15531,8 @@
     },
     {
       "path": "states/vic/places/councils/index.html",
-      "sha256": "ac38e881d2d3c6ac2c839f8a951c6b3b5fe7da4e57866d2fff9f07be6b108c4f",
-      "bytes": 218811
+      "sha256": "371787153c75d3f60d9045467d577d3d786a82a1eb78df1b22fa3f25a9599798",
+      "bytes": 218760
     },
     {
       "path": "states/vic/places/federal/index.html",
@@ -15536,8 +15541,8 @@
     },
     {
       "path": "states/vic/places/index.html",
-      "sha256": "b11d8b57976e698b9778aedc6e587384cbf12a42f3a582130dff6fa7f6bb7c3a",
-      "bytes": 236827
+      "sha256": "985c65acc7a24c988b7b252e697e2699c21a8b88ba2c6b8859e1cf65faed5ce5",
+      "bytes": 236794
     },
     {
       "path": "states/vic/places/state/index.html",
@@ -17233,10 +17238,10 @@
   "sourceHashesRequested": true,
   "coverageGaps": {
     "councils": {
-      "historical_events_without_individual_contestants": 217,
+      "historical_events_without_individual_contestants": 219,
       "places_without_event_records": 110,
       "places_without_individual_historical_contestants": 291,
-      "places_without_individual_current_office_records": 326
+      "places_without_individual_current_office_records": 327
     },
     "state": {
       "places_without_individual_current_office_records": 1,

@@ -36,3 +36,7 @@ Known evidence limits remain explicit: the Hunters Hill detail article returned 
 Local source/structural/scoped browser checks are complete; publication and exact-commit CI/live verification are separate and pending at preparation. No pushed-commit, CI-success or live-deployment claim is made here. Any authorised publication must verify the exact remote commit, its checks and the live deployment separately.
 
 Next source triggers: an ECQ Redland timetable or approved voting-method notice; an NTEC Milngin timetable; NSW accepted nominations for the December polls; Tasmanian individual declarations; and WA replacement-process or ballot/result notices. These are review triggers, not a claim that monitoring has been scheduled.
+
+### Subsequent delivery outcome — reconciled 31 October
+
+The retained 30 October `final-retention-report.json` supersedes the pending-delivery prose above: commit `d83e0020240e1de649982557f2933667d547b361` was published with successful civic CI and Pages deployment, and all 56 sampled live files matched at 2026-10-30T09:37:01.939854+00:00. [31 October's release record](2026-10-31-election-notices.md#prior-publication-reconciled-separately) links the exact commit and runs. This outcome applies only to that prior commit, not subsequent edits.

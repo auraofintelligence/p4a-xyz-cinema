@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-30",
+  "checkedAt": "2026-10-30T05:59:30Z",
+  "status": "PASS",
+  "scope": "Focused changed-election rendering and existing navigation, not site-wide source/accessibility certification.",
+  "environment": {
+    "browser": "Cloud Chromium over HTTP served from cloud desktop shared checkout; ordinary window resize, 125% browser zoom for400CSSpx narrow viewport; no physical device or touch emulation.",
+    "viewports": [
+      [
+        400,
+        609
+      ],
+      [
+        683,
+        761
+      ],
+      [
+        1191,
+        761
+      ]
+    ],
+    "physicalTouchTested": false
+  },
+  "testedPagePaths": [
+    "states/nsw/councils/cobar/index.html",
+    "states/nsw/councils/hunters-hill/index.html",
+    "states/nsw/index.html",
+    "states/nt/councils/victoria-daly/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+    "states/qld/councils/redland/candidates/index.html",
+    "states/qld/councils/redland/divisions/6/index.html",
+    "states/qld/councils/redland/index.html",
+    "states/qld/councils/redland/sources/index.html",
+    "states/qld/index.html",
+    "states/tas/councils/hobart/index.html"
+  ],
+  "fixturePaths": [
+    "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "states/nsw/councils/cobar/index.html",
+      "sha256": "14d2d8467b3e46173546256479d45389120f8803f9de7a3ff3c842271fc2f525",
+      "bytes": 167513
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "34ef36ae58258fcf3d01b46f09b79d933ece27c452b075274b04f02bc93a5a29",
+      "bytes": 171544
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "bdfe2e6efea1b81436b3619545b0d41f70113e6e8dfa16a6ad8f5f2cb7b2ab1c",
+      "bytes": 24681
+    },
+    {
+      "path": "states/nt/councils/victoria-daly/index.html",
+      "sha256": "09c6bba2a0b14b71458c27c37a1d4f6b1ed9fd6cc3aef893f75df6b42230d838",
+      "bytes": 37887
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+      "sha256": "a49ae4af1452622f24a55b700dad2f2bfa423ee086319ed2c5bdff1c7fd6d92a",
+      "bytes": 26570
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "cf9e50408d28b6f26cd78f8e5b0dac9a44cbdf628589b4d804bbb2ebceaf945c",
+      "bytes": 18189
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/6/index.html",
+      "sha256": "fa35a0c998b7828592c1e651275dc1a2628f69383cb54c4dbabf6719a2f93396",
+      "bytes": 13320
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "sha256": "2d388f573f60f4b88db00a8ec86e4f60319d5e30f9ee7191469262ad5103e370",
+      "bytes": 20524
+    },
+    {
+      "path": "states/qld/councils/redland/sources/index.html",
+      "sha256": "d1a30020016f9448e66f17b5daa35fbd7168800224cc8d329b576d2ffbfb2dfc",
+      "bytes": 41640
+    },
+    {
+      "path": "states/qld/index.html",
+      "sha256": "72031b58cc8b531edbad7bbd68a9a5f785742804a1619ebabb41880817b407e8",
+      "bytes": 32172
+    },
+    {
+      "path": "states/tas/councils/hobart/index.html",
+      "sha256": "2b1a5945fa8d168a711c85c231ffd227865d7af23f0399dddc612cec77b8f4f5",
+      "bytes": 77245
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json",
+      "sha256": "44a1e047966be6d563f207b386d0ea58fb4c78b6ee12ce018a5768c97fbef4ec",
+      "bytes": 13621
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673",
+      "bytes": 39573
+    },
+    {
+      "path": "assets/redland-election-clock.mjs",
+      "sha256": "61410766f1b2ca0626377152f2f68efefd1f493569ac4a5338451f0810250266",
+      "bytes": 2175
+    },
+    {
+      "path": "tools/redland_election.py",
+      "sha256": "759f97a5a2fb680589594d7fdd1f0d3e17e25b8256b7d883d16da5754ebff38d",
+      "bytes": 11447
+    },
+    {
+      "path": "tools/redland_division_pages.py",
+      "sha256": "9749b52659f80efe941789a0a560d498bc68cf6c3dc177c3ce81003dd3302af5",
+      "bytes": 11937
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "97a45ac82297951b0a60370f1d46f522cf5412e4049c4f6b369beaffeacb0fbc",
+      "bytes": 33957
+    },
+    {
+      "path": "assets/state-data.js",
+      "sha256": "6510e5b5d242d5fadfae9c7f73122e7d8844fc5b33f75855f4dc373718a1c07a",
+      "bytes": 80295
+    }
+  ],
+  "earlierEvidence": "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
+  "limits": [
+    "No physical phone, touch or screen-reader test.",
+    "Cloud DevTools prohibited; did not override; normal window controls and browser zoom used.",
+    "Known pre-existing historical NSW mojibake headings retained; not introduced by this factual update.",
+    "Only named pages observed; maps unchanged and source coverage separately limited."
+  ]
+}

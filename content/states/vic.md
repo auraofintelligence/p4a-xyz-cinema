@@ -8,9 +8,9 @@
   "shortName": "VIC",
   "capital": "Melbourne",
   "stateType": "State",
-  "researchRun": "2026-10-29",
+  "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "Election review 29 October: Jordyn Princi was declared elected unopposed for Murrindindi Kinglake Ward on 28 October; no ward vote is required. State nominations open 4 November at 9 am and close 9 November at noon Melbourne (AEDT); polling is 28 November. State Parliament composition and candidate campaign sources retain their earlier dated reviews.",
+  "researchStatus": "Election review 31 October: Knox announced Peter Lockwood’s immediate resignation from Baird Ward on 29 October. The vacancy requires a VEC by-election; its timetable is not yet confirmed in the notice. The 29 October review of Kinglake Ward and the Victorian state election remains separate; Parliament composition and candidate campaign sources retain their earlier dated reviews.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
@@ -191,7 +191,8 @@
   "strategyNotes": [
     "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
     "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
-    "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November."
+    "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November.",
+    "Knox Baird Ward is vacant following Peter Lockwood’s immediate resignation on 29 October 2026. Council confirms a VEC by-election is required; polling, nominations and voting arrangements remain unconfirmed. Official notice: https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation (checked 31 October 2026, Australia/Brisbane)."
   ],
   "sources": [
     {
@@ -241,14 +242,18 @@
     {
       "label": "VEC Kinglake Ward uncontested result, 28 October 2026",
       "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
+    },
+    {
+      "label": "Knox Baird Ward resignation and by-election process, 29 October 2026",
+      "url": "https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation"
     }
   ],
-  "previousResearchRun": "2026-10-23",
+  "previousResearchRun": "2026-10-29",
   "researchReview": {
-    "checked": "2026-10-29",
+    "checked": "2026-10-31",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
-    "previousResearchRun": "2026-10-23",
+    "scope": "Scoped review of the Knox Baird Ward vacancy and replacement process. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
+    "previousResearchRun": "2026-10-29",
     "sourceDatesPreserved": true
   }
 }

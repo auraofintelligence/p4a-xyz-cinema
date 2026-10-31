@@ -360,3 +360,21 @@ This entry supersedes the current-status conclusions of the 29 October entry whe
 ### 30 October cloud validation follow-through
 
 The cloud-only HTTP preview now passes focused actual-browser review at400/683/1191CSSpx (narrow400 uses ordinary zoom/window sizing, not a physical phone). Redland waiting clocks, Cobar completion, Milngin failed/pending separation, Talty role, state summaries and navigation were observed. Final national data validation passes2080places/4465events/18382contestants; all2081 scoped contracts pass. Prior snapshots and browser evidence are retained. Publication/CI/live verification remain separate pending steps; see `docs/releases/2026-10-30-election-notices.md` for scope and source-access gaps.
+
+## 2026-10-31 — nine-commission election-notice review (Australia/Brisbane)
+
+Checked 30 October UTC / 31 October Brisbane. Bounded official AEC and eight state/territory commission hub review with targeted notices; not exhaustive vacancy, gazette, minutes or individual-roster certification.
+
+- **VIC changed:** Knox confirms Peter Lockwood's immediate 29 October resignation, Baird Ward vacancy and a required VEC by-election. Timetable and nomination dates remain unconfirmed.
+- **NSW changed:** David Harris will not recontest Wyong at the 13 March 2027 election, but remains MP and continues ministerial duties until then. No current vacancy or by-election inferred. Earlier Cobar/December council events unchanged.
+- **TAS changed:** TEC's 30 October update confirms all mayoral and most deputy mayoral counts complete; councillor outcomes mix final and provisional results. No individual winners/current offices, statewide final declaration or completion date inferred.
+- **QLD retained:** Tablelands Division 1 completion 31 October 6 pm AEST and receipt 10 November 5 pm AEST; deadlines not elapsed at review. Redland postal request is not approval; timetable remains unknown.
+- **WA retained:** 3 December 6 pm AWST contested extraordinary polls; Carnarvon Coral Bay/Plantation unopposed positions distinct. Bridgetown replacement process and timetable still await advice.
+- **SA retained:** Supplementary-election list readable, no new material change found; April 2027 council timetable unchanged.
+- **ACT retained:** Rattenbury vacancy already filled by Vassarotti countback; 3 November redistribution deadline is not a poll.
+- **NT retained:** Current-election hub reports none; Milngin failed zero-nomination round and pending replacement remain separate, with no new date verified.
+- **Federal retained:** No new future poll or vacancy found in targeted AEC/APH checks; Farrer May election and October disclosure item are not new polls.
+- **Coverage gaps:** APH individual profile 403; Queensland Gazette PDFs not inspected; ACT reminder article cache miss with homepage available; differing crawl ages; TEC individual result tables not exposed. Vision6 release was read through direct retrieval after web-reader failure. NSW's announced maintenance was upcoming, not a failed check. No failed access is converted into no-change assurance.
+- **Implementation:** prior state/council/ward records archived; scoped canonical facts and affected state summaries/mirror updated, with narrow HTML dependency substitutions because PowerShell is unavailable. Unrelated dates, geometry, officeholders and historical ballots preserved. State parity/syntax and scoped checks pass; current-run aggregate acceptance/publication remains separate. See [31 October release note](../docs/releases/2026-10-31-election-notices.md) for source links, exact scope and integration status.
+- **Prior delivery correction:** the retained 30 October `final-retention-report.json` establishes commit `d83e0020240e1de649982557f2933667d547b361` published, successful civic CI/Pages and 56/56 live-file matches at 09:37:01 UTC. Earlier pending prose is historical. This does not establish publication of the current 31 October edits.
+- **Final local acceptance:** all 18 aggregate checks and 2,081 registered contracts pass. Actual cloud-browser review covers 11 named pages and narrow navigation. Publication requires the exact remote commit, successful CI/Pages and live-byte match; local acceptance alone is not delivery.

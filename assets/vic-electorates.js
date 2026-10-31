@@ -5038,11 +5038,6 @@ window.P4A_VIC_ELECTORATES = {
       "level": "local",
       "members": [
         {
-          "name": "Peter Lockwood",
-          "party": "Affiliation not verified",
-          "role": "Baird Ward"
-        },
-        {
           "name": "Paige Kennett",
           "party": "Affiliation not verified",
           "role": "Chandler Ward"
@@ -13849,13 +13844,7 @@ window.P4A_VIC_ELECTORATES = {
       "kind": "WARD",
       "body": "ward",
       "level": "local",
-      "members": [
-        {
-          "name": "Peter Lockwood",
-          "party": "Affiliation not verified",
-          "role": "Baird Ward"
-        }
-      ],
+      "members": [],
       "labelPoint": [
         145.2765620785674,
         -37.8594335

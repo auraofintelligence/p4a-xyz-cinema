@@ -72,19 +72,11 @@
         "sources": [
           "council-vic-retained",
           "council-vic-2024-336",
-          "council-vic-roster-336"
+          "council-vic-roster-336",
+          "election-review-knox-baird-20261031"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
-        "representatives": [
-          {
-            "name": "Peter Lockwood",
-            "role": "Baird Ward",
-            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/knox-city-council",
-            "sourceId": "council-vic-roster-336",
-            "checked": "2026-10-02",
-            "profileType": "official published council roster"
-          }
-        ],
+        "representatives": [],
         "elections": [
           {
             "id": "vic-ward-3360120151112-ordinary-2024",
@@ -155,18 +147,35 @@
             "timezone": "Australia/Melbourne",
             "sourceUrl": "https://www.vec.vic.gov.au/voting/types-of-elections/local-council-elections",
             "candidates": []
+          },
+          {
+            "id": "vic-ward-3360120151112-baird-by-election-pending-2026",
+            "label": "Baird Ward by-election",
+            "kind": "by-election",
+            "status": "Awaiting confirmation to begin",
+            "waitingLabel": "Awaiting confirmation to begin",
+            "date": null,
+            "dateTime": null,
+            "nominationsClose": null,
+            "dateBasis": "Knox Council confirms Peter Lockwood resignation effective 29 October 2026 and a VEC by-election for Baird Ward. Polling, nomination and voting arrangements await confirmation; no estimated date is used. Verified 31 October 2026.",
+            "timezone": "Australia/Melbourne",
+            "sourceUrl": "https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation",
+            "sourceId": "election-review-knox-baird-20261031",
+            "checked": "2026-10-31",
+            "candidates": []
           }
         ],
         "coverageNotes": [
           "Retained published roster checked 2 October 2026. Subsequent vacancies and by-elections require scoped review.",
           "Previous local-election contestant roster is not yet reconciled."
         ],
-        "parentId": "vic-lga-336"
+        "parentId": "vic-lga-336",
+        "representationReview": "Peter Lockwood resigned from Baird Ward effective 29 October 2026. The single-councillor ward is vacant and will have a VEC by-election; its timetable remains unconfirmed. Other retained roles keep their earlier verification dates. Checked 31 October 2026."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-30",
+    "reviewedOn": "2026-10-31",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -194,11 +203,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "277b175adb0a09c17b5ad444fb173f99dfaa354f379bf7a032685787f7f5e7d6"
+        "sha256": "8f6b5451175e96e350090f49d3e1463e8157a3b808c2590bb34661207949bd70"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "52a39dd9ca0ee7b949ab2770cc486e9452b9960d8eaa15c956a403fcabecd2d8"
+        "sha256": "79de31b902565f1399543934bd76021a67e620945dc41f6e3c012e2130a7db2e"
       }
     ],
     "requiredHumanChecks": [

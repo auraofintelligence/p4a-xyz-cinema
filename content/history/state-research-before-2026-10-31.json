@@ -1,0 +1,883 @@
+{
+  "archivedOn": "2026-10-31",
+  "timezone": "Australia/Brisbane",
+  "basisCommit": "d83e0020240e1de649982557f2933667d547b361",
+  "scope": "Prior Victoria, New South Wales and Tasmania overview snapshots immediately before the scoped 31 October 2026 review of the Knox vacancy, David Harris retirement announcement and TEC count update. Unrelated source and event dates remain historical.",
+  "states": [
+    {
+      "order": 2,
+      "slug": "vic",
+      "name": "Victoria",
+      "shortName": "VIC",
+      "capital": "Melbourne",
+      "stateType": "State",
+      "researchRun": "2026-10-29",
+      "researchTimezone": "Australia/Melbourne",
+      "researchStatus": "Election review 29 October: Jordyn Princi was declared elected unopposed for Murrindindi Kinglake Ward on 28 October; no ward vote is required. State nominations open 4 November at 9 am and close 9 November at noon Melbourne (AEDT); polling is 28 November. State Parliament composition and candidate campaign sources retain their earlier dated reviews.",
+      "government": {
+        "leaderTitle": "Premier",
+        "leader": "Ben Carroll",
+        "party": "Australian Labor Party",
+        "arrangement": "Majority government",
+        "inPowerSince": "2026-07-28",
+        "note": "Ben Carroll was sworn in as Premier on 28 July 2026. The next state election is scheduled for 28 November 2026."
+      },
+      "elections": [
+        {
+          "label": "2026 Victorian State election",
+          "date": "2026-11-28T08:00:00+11:00",
+          "kind": "State general election",
+          "scope": "general",
+          "status": "Scheduled",
+          "note": "Enrolment closes 3 November at 8 pm. Nominations: 4 November 9 am to 9 November noon. Early voting: 18–27 November. All dates and times are Australia/Melbourne. No final candidate list is presented.",
+          "source": "https://www.vec.vic.gov.au/voting/2026-state-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2022-11-26T08:00:00+11:00",
+            "daysSinceLabel": "Previous Victorian State election polling day",
+            "daysSinceSource": "https://www.parliament.vic.gov.au/election",
+            "archiveDaysSince": true,
+            "cycleKey": "vic-2026-general",
+            "archiveWithCycle": "next-higher-order-cycle-after-vic-2026-general",
+            "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+          },
+          "calendarTimezone": "Australia/Melbourne"
+        },
+        {
+          "label": "Nepean District by-election",
+          "date": "2026-05-02T08:00:00+10:00",
+          "kind": "State by-election",
+          "scope": "by-election",
+          "status": "Historical result",
+          "note": "Held 2 May 2026. Anthony Marsh retained Nepean for the Liberal Party. This historical result is distinct from current chamber composition.",
+          "source": "https://www.vec.vic.gov.au/results/state-election-results/state-by-elections-timeline/nepean-by-election-results/results-by-district/nepean-district-results",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2026-05-02T08:00:00+10:00",
+            "daysSinceLabel": "Nepean District by-election polling day",
+            "daysSinceSource": "https://www.vec.vic.gov.au/voting/current-elections/nepean-by-election",
+            "archiveDaysSince": true,
+            "cycleKey": "vic-2026-by-election",
+            "archiveWithCycle": "vic-2026-general archive",
+            "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+          },
+          "calendarTimezone": "Australia/Melbourne"
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Legislative Assembly",
+          "type": "Lower house",
+          "seats": 88,
+          "majority": 45,
+          "note": "87 sitting members and one vacancy. Brunswick is vacant following Tim Read’s death on 19 September 2026; official Assembly list dated 21 September and member directory checked 2 October 2026.",
+          "source": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 54
+            },
+            {
+              "party": "Liberal Party",
+              "short": "LIB",
+              "seats": 20
+            },
+            {
+              "party": "The Nationals",
+              "short": "NAT",
+              "seats": 9
+            },
+            {
+              "party": "The Australian Greens - Victoria",
+              "short": "GRN",
+              "seats": 2
+            },
+            {
+              "party": "Will Fowles and Darren Cheeseman",
+              "short": "2 MLAs",
+              "seats": 2,
+              "members": [
+                {
+                  "name": "Will Fowles",
+                  "seat": "Ringwood"
+                },
+                {
+                  "name": "Darren Cheeseman",
+                  "seat": "South Barwon"
+                }
+              ],
+              "memberSource": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/"
+            },
+            {
+              "party": "Vacant — Brunswick",
+              "short": "VAC",
+              "seats": 1
+            }
+          ]
+        },
+        {
+          "name": "Legislative Council",
+          "type": "Upper house",
+          "seats": 40,
+          "majority": 21,
+          "note": "Current membership from Parliament CSV checked 2 October 2026, cross-checked with the 30 September Council list. Moira Deeming is Family First Victoria; Rikkie-Lee Tyrrell is One Nation Victoria; Adem Somyurek is independent. The old textual seating page is stale.",
+          "source": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 15
+            },
+            {
+              "party": "Liberal Party",
+              "short": "LIB",
+              "seats": 11
+            },
+            {
+              "party": "Adem Somyurek",
+              "short": "1 MLC",
+              "seats": 1,
+              "members": [
+                {
+                  "name": "Adem Somyurek",
+                  "seat": "Northern Metropolitan"
+                }
+              ],
+              "memberSource": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/"
+            },
+            {
+              "party": "Shooters, Fishers and Farmers Party Victoria",
+              "short": "SFF",
+              "seats": 1
+            },
+            {
+              "party": "The Nationals",
+              "short": "NAT",
+              "seats": 2
+            },
+            {
+              "party": "Libertarian Party",
+              "short": "LIBT",
+              "seats": 1
+            },
+            {
+              "party": "The Australian Greens - Victoria",
+              "short": "GRN",
+              "seats": 4
+            },
+            {
+              "party": "Animal Justice Party",
+              "short": "AJP",
+              "seats": 1
+            },
+            {
+              "party": "One Nation Victoria",
+              "short": "ON",
+              "seats": 1
+            },
+            {
+              "party": "Legalise Cannabis Victoria",
+              "short": "LCV",
+              "seats": 2
+            },
+            {
+              "party": "Family First Victoria",
+              "short": "FF",
+              "seats": 1
+            }
+          ]
+        }
+      ],
+      "strategyNotes": [
+        "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
+        "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
+        "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November."
+      ],
+      "sources": [
+        {
+          "label": "Premier of Victoria",
+          "url": "https://www.vic.gov.au/premier"
+        },
+        {
+          "label": "2026 election dates",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election"
+        },
+        {
+          "label": "Parliament member contacts",
+          "url": "https://www.parliament.vic.gov.au/contacting-members/download-member-contacts/"
+        },
+        {
+          "label": "Official member CSV",
+          "url": "https://povwebsiteresourcestore.blob.core.windows.net/lists/members.csv"
+        },
+        {
+          "label": "Assembly membership, 21 September 2026",
+          "url": "https://www.parliament.vic.gov.au/4a7318/contentassets/1ed360d4f9984647b7a85d16f2f82d0b/lamemlist-as-at-2026-09-21.pdf"
+        },
+        {
+          "label": "Council membership, 30 September 2026",
+          "url": "https://povwebsiteresourcestore.blob.core.windows.net/lists/lc_members.pdf"
+        },
+        {
+          "label": "Tim Read, former member for Brunswick",
+          "url": "https://www.parliament.vic.gov.au/members/tim-read/"
+        },
+        {
+          "label": "Moira Deeming statement, 10 September 2026",
+          "url": "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-36940"
+        },
+        {
+          "label": "Nepean 2026 historical result",
+          "url": "https://www.vec.vic.gov.au/results/state-election-results/state-by-elections-timeline/nepean-by-election-results/results-by-district/nepean-district-results"
+        },
+        {
+          "label": "VEC current state election process",
+          "url": "https://www.vec.vic.gov.au/voting/types-of-elections/state-elections"
+        },
+        {
+          "label": "VEC current state election process",
+          "url": "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-nominate"
+        },
+        {
+          "label": "VEC Kinglake Ward uncontested result, 28 October 2026",
+          "url": "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election"
+        }
+      ],
+      "previousResearchRun": "2026-10-23",
+      "researchReview": {
+        "checked": "2026-10-29",
+        "timezone": "Australia/Brisbane",
+        "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+        "previousResearchRun": "2026-10-23",
+        "sourceDatesPreserved": true
+      }
+    },
+    {
+      "order": 1,
+      "slug": "nsw",
+      "name": "New South Wales",
+      "shortName": "NSW",
+      "capital": "Sydney",
+      "stateType": "State",
+      "researchRun": "2026-10-30",
+      "researchTimezone": "Australia/Brisbane",
+      "researchStatus": "Election review 30 October: NSWEC declared Barry Knight elected uncontested for Cobar on 29 October; no voting is required. This declaration supersedes the earlier 28 November poll timetable. Coffs Harbour and Hunters Hill South Ward polls remain 12 December, with nominations closing 11 November at noon Sydney (AEDT). Paul Amos resigned effective 14 October; Hunters Hill announced Marc Lane's immediate resignation on 15 October. State Parliament composition retains its 23 October review; no full federal roster audit is claimed.",
+      "government": {
+        "leaderTitle": "Premier",
+        "leader": "Chris Minns",
+        "party": "Australian Labor Party",
+        "arrangement": "Minority government",
+        "inPowerSince": "2023-03-28",
+        "note": "Labor is one seat short of a Legislative Assembly majority and governs with crossbench support."
+      },
+      "elections": [
+        {
+          "label": "2027 NSW State election",
+          "date": "2027-03-13T08:00:00+11:00",
+          "kind": "State general election",
+          "scope": "general",
+          "status": "Scheduled",
+          "note": "NSWEC timetable updated 19 October: polling 13 March 2027, 8 am–6 pm Sydney time. Nominations open 15 February 8 am and close 24 February noon; early voting starts 6 March. Postal receipt closes 25 March at 6 pm.",
+          "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2023-03-25T08:00:00+11:00",
+            "daysSinceLabel": "Previous NSW State election polling day",
+            "daysSinceSource": "https://elections.nsw.gov.au/elections/past-results/state-election-results/2023-nsw-state-election-results",
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2027-general",
+            "archiveWithCycle": "next-higher-order-cycle-after-nsw-2027-general",
+            "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+          }
+        },
+        {
+          "label": "2026 Cobar Shire Council by-election - uncontested declaration",
+          "date": "2026-10-29T00:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Completed - Barry Knight elected uncontested; no voting required",
+          "note": "NSWEC Election Notice 3 declares KNIGHT Barry elected uncontested on 29 October 2026. No voting is required; the earlier 28 November poll timetable is superseded. The timer uses the start of the declaration date in Sydney (AEDT, UTC+11), not a verified declaration time. Reviewed 30 October 2026.",
+          "source": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3",
+          "dayMetrics": {
+            "displayDaysUntil": false,
+            "displayDaysSince": true,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-cobarshirecouncil-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+            "daysSinceDate": "2026-10-29T00:00:00+11:00",
+            "daysSinceLabel": "Uncontested declaration date (Sydney day-start; not declaration time)",
+            "daysSinceSource": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
+          }
+        },
+        {
+          "label": "2026 City of Coffs Harbour Council by-election",
+          "date": "2026-12-12T18:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Scheduled; nominations open 2 November",
+          "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+          "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-cityofcoffsharbourcouncil-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        },
+        {
+          "label": "2026 Hunters Hill South Ward by-election",
+          "date": "2026-12-12T18:00:00+11:00",
+          "kind": "Council by-election",
+          "scope": "local-government",
+          "status": "Scheduled; nominations open 2 November",
+          "note": "Council announced Marc Lane's resignation on 15 October, effective immediately. Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+          "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": false,
+            "archiveDaysSince": true,
+            "cycleKey": "nsw-2026-huntershillsouthward-by-election",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "Legislative Assembly",
+          "type": "Lower house",
+          "seats": 93,
+          "majority": 47,
+          "note": "Current official Assembly list, 16 September 2026, reviewed 23 October. Jacqui Scruby is the independent for Pittwater; Kiama is represented by Labor member Katelin McInerney.",
+          "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 46
+            },
+            {
+              "party": "Liberal Party of Australia",
+              "short": "LIB",
+              "seats": 24
+            },
+            {
+              "party": "The Nationals",
+              "short": "NAT",
+              "seats": 11
+            },
+            {
+              "party": "The Greens",
+              "short": "GRN",
+              "seats": 3
+            },
+            {
+              "party": "Alex Greenwich, Roy Butler, Helen Dalton, Philip Donato, Judy Hannan, Joe McGirr, Greg Piper, Michael Regan, Jacqui Scruby",
+              "short": "9 MLAs",
+              "seats": 9,
+              "memberSource": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf",
+              "members": [
+                {
+                  "name": "Alex Greenwich",
+                  "seat": "Sydney"
+                },
+                {
+                  "name": "Roy Butler",
+                  "seat": "Barwon"
+                },
+                {
+                  "name": "Helen Dalton",
+                  "seat": "Murray"
+                },
+                {
+                  "name": "Philip Donato",
+                  "seat": "Orange"
+                },
+                {
+                  "name": "Judy Hannan",
+                  "seat": "Wollondilly"
+                },
+                {
+                  "name": "Joe McGirr",
+                  "seat": "Wagga Wagga"
+                },
+                {
+                  "name": "Greg Piper",
+                  "seat": "Lake Macquarie"
+                },
+                {
+                  "name": "Michael Regan",
+                  "seat": "Wakehurst"
+                },
+                {
+                  "name": "Jacqui Scruby",
+                  "seat": "Pittwater"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legislative Council",
+          "type": "Upper house",
+          "seats": 42,
+          "majority": 22,
+          "note": "Official Council list No. 322, 15 October 2026, lists all 42 serving members. Bernard Govind (Labor) elected on 15 October to replace Greg Donnelly; historical election rosters remain separate.",
+          "source": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+          "composition": [
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 15
+            },
+            {
+              "party": "Coalition (Liberal/Nationals)",
+              "short": "LNP",
+              "seats": 14
+            },
+            {
+              "party": "The Greens",
+              "short": "GRN",
+              "seats": 4
+            },
+            {
+              "party": "Mark Latham, Taylor Martin, Tania Mihailuk and Rod Roberts",
+              "short": "4 MLCs",
+              "seats": 4,
+              "memberSource": "https://www.parliament.nsw.gov.au/members/pages/all-members.aspx?house=LC",
+              "members": [
+                {
+                  "name": "Mark Latham",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Taylor Martin",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Tania Mihailuk",
+                  "seat": "Legislative Council"
+                },
+                {
+                  "name": "Rod Roberts",
+                  "seat": "Legislative Council"
+                }
+              ]
+            },
+            {
+              "party": "Shooters, Fishers and Farmers Party",
+              "short": "SFF",
+              "seats": 2
+            },
+            {
+              "party": "Animal Justice Party",
+              "short": "AJP",
+              "seats": 1
+            },
+            {
+              "party": "Legalise Cannabis Party",
+              "short": "LCP",
+              "seats": 1
+            },
+            {
+              "party": "Libertarian Party",
+              "short": "LIBT",
+              "seats": 1
+            }
+          ]
+        }
+      ],
+      "strategyNotes": [
+        "NSW is the first large-state countdown on the portal, with the election scheduled well before Brisbane 2032.",
+        "The lower house is close enough that trust, named crossbenchers and crossbench agreements matter in plain public language.",
+        "The upper house already behaves like a negotiation chamber, which makes it useful for simulator rehearsal."
+      ],
+      "sources": [
+        {
+          "label": "NSW Parliament party representation",
+          "url": "https://www.parliament.nsw.gov.au/members/pages/party-representation.aspx"
+        },
+        {
+          "label": "NSW Electoral Commission 2027 State election bulletin",
+          "url": "https://elections.nsw.gov.au/bulletins/2027-nsw-state-election-bulletin-1"
+        },
+        {
+          "label": "NSW Electoral Commission state election explainer",
+          "url": "https://elections.nsw.gov.au/elections/how-voting-works/voting-in-new-south-wales/how-does-a-state-election-work"
+        },
+        {
+          "label": "NSW Parliament all current members",
+          "url": "https://www.parliament.nsw.gov.au/members"
+        },
+        {
+          "label": "nsw la list 48",
+          "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/List-of-Members-No-48.pdf"
+        },
+        {
+          "label": "nsw lc list 322",
+          "url": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf"
+        },
+        {
+          "label": "nsw 2027 election",
+          "url": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election"
+        },
+        {
+          "label": "nsw current election index",
+          "url": "https://elections.nsw.gov.au/elections"
+        },
+        {
+          "label": "Coffs Harbour resignation notice, 14 October 2026",
+          "url": "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation"
+        },
+        {
+          "label": "NSWEC Cobar uncontested declaration, 29 October 2026",
+          "url": "https://elections.nsw.gov.au/bulletins/2026-cobar-council-by-election-election-notice-3"
+        },
+        {
+          "label": "NSWEC Cobar by-election event and candidate record",
+          "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election"
+        },
+        {
+          "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
+          "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
+        }
+      ],
+      "previousResearchRun": "2026-10-29",
+      "researchReview": {
+        "checked": "2026-10-30",
+        "timezone": "Australia/Brisbane",
+        "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
+        "previousResearchRun": "2026-10-29",
+        "sourceDatesPreserved": true
+      }
+    },
+    {
+      "order": 6,
+      "slug": "tas",
+      "name": "Tasmania",
+      "shortName": "TAS",
+      "capital": "Hobart",
+      "stateType": "State",
+      "researchRun": "2026-10-29",
+      "researchTimezone": "Australia/Brisbane",
+      "researchStatus": "Election review 29 October: council postal voting closed on 27 October at 2 pm Hobart (AEDT); counting began on 28 October. Results remain progressive, not a statewide final declaration. Parliament composition retains its 23 October review; individual council officeholders and federal rosters are not freshly certified.",
+      "government": {
+        "leaderTitle": "Premier",
+        "leader": "Jeremy Rockliff",
+        "party": "Liberal Party",
+        "arrangement": "Minority government",
+        "inPowerSince": "2022-04-08",
+        "note": "The 2025 House of Assembly election returned a hung parliament."
+      },
+      "elections": [
+        {
+          "label": "Next Tasmanian House of Assembly election",
+          "date": null,
+          "kind": "State general election",
+          "scope": "general",
+          "status": "Exact date not announced",
+          "note": "No fixed House polling date has been announced; the former 19 July 2029 anniversary was not a verified legal last polling day.",
+          "source": "https://www.tec.tas.gov.au/house-of-assembly/",
+          "dayMetrics": {
+            "displayDaysUntil": false,
+            "displayDaysSince": true,
+            "daysSinceDate": "2025-07-19T08:00:00+10:00",
+            "daysSinceLabel": "Previous Tasmanian House of Assembly general election polling day",
+            "daysSinceSource": "https://www.tec.tas.gov.au/House_of_Assembly_Elections/",
+            "archiveDaysSince": true,
+            "cycleKey": "tas-2029-general",
+            "archiveWithCycle": "next-higher-order-cycle-after-tas-2029-general",
+            "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+          }
+        },
+        {
+          "label": "2027 Legislative Council periodic elections",
+          "date": null,
+          "kind": "Legislative Council periodic elections",
+          "scope": "upper-house",
+          "status": "Exact date not announced",
+          "note": "TEC confirms May 2027 for Derwent, Mersey and Windermere; no exact polling date is verified.",
+          "source": "https://www.tec.tas.gov.au/legislative-council/",
+          "dayMetrics": {
+            "displayDaysUntil": false,
+            "displayDaysSince": true,
+            "daysSinceDate": "2026-05-02T08:00:00+10:00",
+            "daysSinceLabel": "Most recent Tasmanian Legislative Council periodic election polling day",
+            "daysSinceSource": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
+            "archiveDaysSince": true,
+            "cycleKey": "tas-2027-upper-house",
+            "archiveWithCycle": "tas-2029-general archive",
+            "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+          }
+        },
+        {
+          "label": "2026 Huon and Rosevears Legislative Council elections",
+          "date": "2026-05-02T08:00:00+10:00",
+          "kind": "Legislative Council periodic elections",
+          "scope": "recent",
+          "status": "Counting completed; elected members confirmed",
+          "note": "Huon: Clare Glade-Wright elected announcement 7 May; counting completed 12 May. Rosevears: Jo Palmer elected after counting completed 12 May. Later ceremony dates were scheduled notices, not independently verified completion.",
+          "source": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
+          "dayMetrics": {
+            "displayDaysUntil": true,
+            "displayDaysSince": true,
+            "daysSinceDate": "2026-05-02T08:00:00+10:00",
+            "daysSinceLabel": "2026 Huon and Rosevears Legislative Council polling day",
+            "daysSinceSource": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
+            "archiveDaysSince": true,
+            "cycleKey": "tas-2026-recent",
+            "archiveWithCycle": "tas-2029-general archive",
+            "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+          }
+        },
+        {
+          "label": "2026 ordinary council elections — postal receipt deadline",
+          "date": "2026-10-27T14:00:00+11:00",
+          "kind": "Ordinary council elections",
+          "scope": "local-government",
+          "status": "Voting closed; counting underway",
+          "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11). Counting began on 28 October at 9 am AEDT. TEC results remain progressive; no statewide final result or current-member replacement is inferred. Verified 29 October 2026.",
+          "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
+          "dayMetrics": {
+            "displayDaysUntil": false,
+            "displayDaysSince": true,
+            "archiveDaysSince": true,
+            "cycleKey": "tas-2026-ordinary-council-elections-postal-receipt-deadline",
+            "archiveNote": "Preserve this event separately from the ordinary general-election cycle.",
+            "daysSinceDate": "2026-10-27T14:00:00+11:00",
+            "daysSinceLabel": "2026 Tasmanian council postal voting close",
+            "daysSinceSource": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
+          }
+        }
+      ],
+      "chambers": [
+        {
+          "name": "House of Assembly",
+          "type": "Lower house",
+          "seats": 35,
+          "majority": 18,
+          "note": "Current affiliations from the August 2026 Parliament list, reviewed 23 October; Helen Burnet is Independent. The 2025 ballot affiliations remain historical.",
+          "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
+          "composition": [
+            {
+              "party": "Liberal Party",
+              "short": "LIB",
+              "seats": 14
+            },
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 10
+            },
+            {
+              "party": "Tasmanian Greens",
+              "short": "GRN",
+              "seats": 4
+            },
+            {
+              "party": "George Razay, Craig Garland, Helen Burnet, Kristie Johnston, Peter George, David O’Byrne",
+              "short": "6 MHAs",
+              "seats": 6,
+              "memberSource": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf",
+              "members": [
+                {
+                  "name": "George Razay",
+                  "seat": "Bass"
+                },
+                {
+                  "name": "Craig Garland",
+                  "seat": "Braddon"
+                },
+                {
+                  "name": "Helen Burnet",
+                  "seat": "Clark"
+                },
+                {
+                  "name": "Kristie Johnston",
+                  "seat": "Clark"
+                },
+                {
+                  "name": "Peter George",
+                  "seat": "Franklin"
+                },
+                {
+                  "name": "David O’Byrne",
+                  "seat": "Franklin"
+                }
+              ]
+            },
+            {
+              "party": "Shooters, Fishers, Farmers TAS",
+              "short": "SFF",
+              "seats": 1
+            }
+          ]
+        },
+        {
+          "name": "Legislative Council",
+          "type": "Upper house",
+          "seats": 15,
+          "majority": 8,
+          "note": "Official October 2025 member list has been updated with the 7 May 2026 Huon result: Clare Glade-Wright replaces Dean Harriss. Rosevears final declaration should still be refreshed.",
+          "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0031/97591/Legislative-Council-Members-List-13-October-2025.pdf",
+          "composition": [
+            {
+              "party": "Rosemary Armitage plus seven named MLCs",
+              "short": "8 MLCs",
+              "seats": 8,
+              "memberSource": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html",
+              "members": [
+                {
+                  "name": "Rosemary Armitage",
+                  "seat": "Launceston"
+                },
+                {
+                  "name": "Ruth Forrest",
+                  "seat": "Murchison"
+                },
+                {
+                  "name": "Mike Gaffney",
+                  "seat": "Mersey"
+                },
+                {
+                  "name": "Clare Glade-Wright",
+                  "seat": "Huon"
+                },
+                {
+                  "name": "Casey Hiscutt",
+                  "seat": "Montgomery"
+                },
+                {
+                  "name": "Tania Rattray",
+                  "seat": "McIntyre"
+                },
+                {
+                  "name": "Bec Thomas",
+                  "seat": "Elwick"
+                },
+                {
+                  "name": "Meg Webb",
+                  "seat": "Nelson"
+                }
+              ]
+            },
+            {
+              "party": "Liberal Party",
+              "short": "LIB",
+              "seats": 3
+            },
+            {
+              "party": "Australian Labor Party",
+              "short": "ALP",
+              "seats": 3
+            },
+            {
+              "party": "Tasmanian Greens",
+              "short": "GRN",
+              "seats": 1
+            }
+          ]
+        }
+      ],
+      "strategyNotes": [
+        "Tasmania is the best stress test for proportional, minority and crossbench politics.",
+        "The upper house is deliberately crossbench-heavy and should not be framed like a mainland party chamber.",
+        "The House election date is a guide only; future agents should refresh it before any public campaign claim."
+      ],
+      "sources": [
+        {
+          "label": "TEC 2025 House of Assembly elected candidates",
+          "url": "https://www.tec.tas.gov.au/house-of-assembly/elections-2025/candidates-elected.html"
+        },
+        {
+          "label": "TEC House of Assembly elections explainer",
+          "url": "https://www.tec.tas.gov.au/house-of-assembly/"
+        },
+        {
+          "label": "Tasmanian Legislative Council member list",
+          "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0031/97591/Legislative-Council-Members-List-13-October-2025.pdf"
+        },
+        {
+          "label": "TEC Huon 2026 results",
+          "url": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/huon/index.html"
+        },
+        {
+          "label": "TEC Rosevears 2026 results",
+          "url": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/rosevears/index.html"
+        },
+        {
+          "label": "ABC Huon crossbench result report",
+          "url": "https://www.abc.net.au/news/2026-05-07/clare-glade-wright-huon-election-result/106654874"
+        },
+        {
+          "label": "tas current ha list",
+          "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0032/79367/House-of-Assembly-Members-List-2026.pdf"
+        },
+        {
+          "label": "tas current ha directory",
+          "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers"
+        },
+        {
+          "label": "tas burnet current",
+          "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/helen-burnet"
+        },
+        {
+          "label": "tas burnet history",
+          "url": "https://www.parliament.tas.gov.au/visit-and-learn/historyindex/members/parliament-of-tasmania-helen-burnet"
+        },
+        {
+          "label": "tas current lc list",
+          "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf"
+        },
+        {
+          "label": "tas current lc directory",
+          "url": "https://www.parliament.tas.gov.au/legislative-council/members"
+        },
+        {
+          "label": "tas current cabinet",
+          "url": "https://www.parliament.tas.gov.au/house-of-assembly/cabinet"
+        },
+        {
+          "label": "tas huon declaration release",
+          "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1688198&k=1P4JIgwcxv2YwS1vPq_fNXK2-5TvC_QYP-8-78xk3SU"
+        },
+        {
+          "label": "tas rosevears declaration release",
+          "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1689722&k=ahbyWx01lUrrzg2B3WjMrr6ex_vOhtEeA7-R3Ep6gAE"
+        },
+        {
+          "label": "tas lc cycle",
+          "url": "https://www.tec.tas.gov.au/legislative-council/"
+        },
+        {
+          "label": "tas lg 2026",
+          "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
+        },
+        {
+          "label": "tas tec front page",
+          "url": "https://www.tec.tas.gov.au/"
+        },
+        {
+          "label": "tas lg vacancies",
+          "url": "https://www.tec.tas.gov.au/local-government/vacancies.html"
+        },
+        {
+          "label": "TEC 2026 local government progressive results",
+          "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html"
+        }
+      ],
+      "previousResearchRun": "2026-10-23",
+      "researchReview": {
+        "checked": "2026-10-29",
+        "timezone": "Australia/Brisbane",
+        "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
+        "previousResearchRun": "2026-10-23",
+        "sourceDatesPreserved": true
+      }
+    }
+  ]
+}
