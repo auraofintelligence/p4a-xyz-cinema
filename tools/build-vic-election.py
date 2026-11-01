@@ -25,5 +25,5 @@ def build():
  for k,v in replacements.items():page=page.replace('@@'+k+'@@',v)
  page=external_links(public_punctuation(page))
  assert '@@' not in page
- target=R/'states/vic/election';target.mkdir(exist_ok=True);(target/'index.html').write_text(page,encoding='utf-8');(R/'assets/vic-election-data.js').write_text('window.P4A_VIC_ELECTION = '+json.dumps(d,ensure_ascii=False)+';\n',encoding='utf-8');print('Built Victoria election page:',len(cards),'dated candidate records')
+ target=R/'states/vic/election';target.mkdir(exist_ok=True);(target/'index.html').write_bytes(page.replace('\r\n','\n').replace('\n','\r\n').encode('utf-8'));(R/'assets/vic-election-data.js').write_text('window.P4A_VIC_ELECTION = '+json.dumps(d,ensure_ascii=False)+';\n',encoding='utf-8');print('Built Victoria election page:',len(cards),'dated candidate records')
 if __name__=='__main__':build()

@@ -521,9 +521,10 @@
     {
       "party": "Liberal",
       "sources": [
-        "https://vicliberal.org.au/api/public/teams/?category=candidates&totalPerPage=200&search="
+        "https://vicliberal.org.au/api/public/teams/?category=candidates&totalPerPage=200&search=",
+        "https://ourplan.au/find-your-candidate/"
       ],
-      "assemblyCandidates": 52,
+      "assemblyCandidates": 53,
       "assemblyAreasCovered": 52,
       "unverifiedAssemblyAreas": [
         "Bendigo East",
@@ -565,7 +566,8 @@
       ],
       "councilCandidates": 11,
       "councilAreasCovered": 8,
-      "unverifiedCouncilAreas": []
+      "unverifiedCouncilAreas": [],
+      "reviewNote": "One additional announced Croydon record checked 1 November; earlier Hutchinson announcement remains disputed, not counted as a verified current candidacy."
     },
     {
       "party": "Libertarian Party",
@@ -1140,6 +1142,111 @@
       "councilCandidates": 15,
       "councilAreasCovered": 8,
       "unverifiedCouncilAreas": []
+    },
+    {
+      "party": "Australian Democrats",
+      "sources": [
+        "https://vic.democrats.org.au/posts/meet-our-candidates-for-the-2026-victorian-election/"
+      ],
+      "assemblyCandidates": 0,
+      "assemblyAreasCovered": 0,
+      "unverifiedAssemblyAreas": [
+        "Albert Park",
+        "Ashwood",
+        "Bass",
+        "Bayswater",
+        "Bellarine",
+        "Benambra",
+        "Bendigo East",
+        "Bendigo West",
+        "Bentleigh",
+        "Berwick",
+        "Box Hill",
+        "Brighton",
+        "Broadmeadows",
+        "Brunswick",
+        "Bulleen",
+        "Bundoora",
+        "Carrum",
+        "Caulfield",
+        "Clarinda",
+        "Cranbourne",
+        "Croydon",
+        "Dandenong",
+        "Eildon",
+        "Eltham",
+        "Essendon",
+        "Eureka",
+        "Euroa",
+        "Evelyn",
+        "Footscray",
+        "Frankston",
+        "Geelong",
+        "Gippsland East",
+        "Gippsland South",
+        "Glen Waverley",
+        "Greenvale",
+        "Hastings",
+        "Hawthorn",
+        "Ivanhoe",
+        "Kalkallo",
+        "Kew",
+        "Kororoit",
+        "Lara",
+        "Laverton",
+        "Lowan",
+        "Macedon",
+        "Malvern",
+        "Melbourne",
+        "Melton",
+        "Mildura",
+        "Mill Park",
+        "Monbulk",
+        "Mordialloc",
+        "Mornington",
+        "Morwell",
+        "Mulgrave",
+        "Murray Plains",
+        "Narracan",
+        "Narre Warren North",
+        "Narre Warren South",
+        "Nepean",
+        "Niddrie",
+        "Northcote",
+        "Oakleigh",
+        "Ovens Valley",
+        "Pakenham",
+        "Pascoe Vale",
+        "Point Cook",
+        "Polwarth",
+        "Prahran",
+        "Preston",
+        "Richmond",
+        "Ringwood",
+        "Ripon",
+        "Rowville",
+        "Sandringham",
+        "Shepparton",
+        "South Barwon",
+        "South-West Coast",
+        "St Albans",
+        "Sunbury",
+        "Sydenham",
+        "Tarneit",
+        "Thomastown",
+        "Warrandyte",
+        "Wendouree",
+        "Werribee",
+        "Williamstown",
+        "Yan Yean"
+      ],
+      "councilCandidates": 12,
+      "councilAreasCovered": 6,
+      "unverifiedCouncilAreas": [
+        "Eastern Victoria",
+        "Northern Victoria"
+      ],
+      "checked": "2026-11-01"
     }
   ],
   "sourceSnapshots": {
@@ -1177,10 +1284,10 @@
       "sha256": "762cd3e7bec80b3a0d9c001fe717360d0ddf69dcc80ee906ed5ea64aac0fb68f"
     }
   },
-  "recordCount": 482,
-  "assembly": 407,
-  "council": 75,
-  "affiliations": 14,
+  "recordCount": 495,
+  "assembly": 408,
+  "council": 87,
+  "affiliations": 15,
   "sourceMethods": {
     "Labor": "Pages 1-8; visible member-type Candidates only, not State Team/Federal Team or hidden generic labels. Retain Gabe Steger and Kat Theodosis.",
     "Liberal": "Official public JSON Datas; Entity=State and IsCandidate=true; chamber from IsUpperHouse/IsLowerHouse, not CategorySlug. TotalItems=63.",
@@ -1194,7 +1301,8 @@
     "The West Party": "Include linked Tarneit and Sydenham titles, not only h4.",
     "Socialist Alliance": "Official directory repeated; dedupe to 9. Unregistered affiliation distinct from ballot label.",
     "Legalise Cannabis": "Current candidate entries only; no incumbent inference or Nepean by-election import.",
-    "Libertarian": "Jim Penman primary issuer PR, 11 February 2026; no directory or David Limbrick inference."
+    "Libertarian": "Jim Penman primary issuer PR, 11 February 2026; no directory or David Limbrick inference.",
+    "Australian Democrats": "Official dated 27 October announcement lists 12 candidates in six Council regions. Checked 1 November; no nomination or ticket order inference."
   },
   "manualReviewClaims": [
     {
@@ -1317,5 +1425,13 @@
     "Frontline Workers Party",
     "Ian Cook’s Fair Go Party",
     "Victorians Party"
-  ]
+  ],
+  "candidateReview": {
+    "checked": "2026-11-01",
+    "scope": "12 Australian Democrats announcements and Toby Wooldridge Croydon announcement verified; two reported status discrepancies flagged. Other records and legal/process checks retain their own dates; not a full field audit.",
+    "sources": [
+      "https://vic.democrats.org.au/posts/meet-our-candidates-for-the-2026-victorian-election/",
+      "https://ourplan.au/find-your-candidate/"
+    ]
+  }
 }
