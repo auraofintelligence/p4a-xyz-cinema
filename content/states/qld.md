@@ -8,9 +8,9 @@
   "shortName": "QLD",
   "capital": "Brisbane",
   "stateType": "State",
-  "researchRun": "2026-10-30",
+  "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 30 October: Redland City Council confirmed the mayoral vacancy on 28 October after receiving Jos Mitchell's resignation; Julie Talty continues as Acting Mayor and a by-election is required. On 29 October Council agreed to request a full postal ballot, subject to electoral approval processes. ECQ polling and nomination dates remain unconfirmed. Parliament composition, Tablelands and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
+  "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Redland's 30 October review remains unchanged: mayoral office vacant, Julie Talty Acting Mayor, and Council's request for a full postal ballot subject to approval; ECQ polling and nomination dates remain unconfirmed. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "David Crisafulli",
@@ -65,8 +65,8 @@
       "date": "2026-10-31T18:00:00+10:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Full postal election; nominations closed",
-      "note": "Complete ballot by 6 pm 31 October; ECQ must receive it by 5 pm 10 November (Australia/Brisbane). Completion and receipt are distinct deadlines. Accepted candidates not imported; no result inferred.",
+      "status": "Postal completion closed; receipt deadline pending",
+      "note": "Postal vote completion closed at 6 pm on 31 October 2026 (AEST, Australia/Brisbane). ECQ must receive completed postal votes by 5 pm on 10 November. Completion and receipt are distinct deadlines; no extension of completion or declared winner is inferred. Accepted candidates not imported. Checked 1 November 2026, Australia/Brisbane.",
       "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -196,7 +196,7 @@
   ],
   "previousResearchRun": "2026-10-23",
   "researchReview": {
-    "checked": "2026-10-30",
+    "checked": "2026-11-01",
     "timezone": "Australia/Brisbane",
     "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
     "previousResearchRun": "2026-10-23",

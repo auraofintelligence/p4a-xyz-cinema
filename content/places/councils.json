@@ -8422,6 +8422,46 @@
       "sha256": "4faa8029ce985722a7ec4a7b8fa8f14d03401a4341ee73e9959e3674e1c8dc10",
       "verificationMethod": "Official notice or explicitly linked electoral commission release reviewed; minimal normalised civic facts only.",
       "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-tablelands-20261101",
+      "title": "1 November official election review: tablelands",
+      "url": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+      "checked": "2026-11-01",
+      "rawFile": "content/places/sources/election-review-2026-11-01.json",
+      "sha256": "010d32cab58983b0d6ecbd07c01f2150eb31457f63387ea9de95002b67efc5f9",
+      "verificationMethod": "Official source reviewed; minimal normalised civic facts, with source-access limitations recorded.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-hunters-hill-20261101",
+      "title": "1 November official election review: hunters-hill",
+      "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward",
+      "checked": "2026-11-01",
+      "rawFile": "content/places/sources/election-review-2026-11-01.json",
+      "sha256": "010d32cab58983b0d6ecbd07c01f2150eb31457f63387ea9de95002b67efc5f9",
+      "verificationMethod": "Official source reviewed; minimal normalised civic facts, with source-access limitations recorded.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-tas-counting-20261101",
+      "title": "1 November official election review: tas-counting",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+      "checked": "2026-11-01",
+      "rawFile": "content/places/sources/election-review-2026-11-01.json",
+      "sha256": "010d32cab58983b0d6ecbd07c01f2150eb31457f63387ea9de95002b67efc5f9",
+      "verificationMethod": "Official source reviewed; minimal normalised civic facts, with source-access limitations recorded.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-milngin-20261101",
+      "title": "1 November official election review: milngin",
+      "url": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/",
+      "checked": "2026-11-01",
+      "rawFile": "content/places/sources/election-review-2026-11-01.json",
+      "sha256": "010d32cab58983b0d6ecbd07c01f2150eb31457f63387ea9de95002b67efc5f9",
+      "verificationMethod": "Official source reviewed; minimal normalised civic facts, with source-access limitations recorded.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -30336,7 +30376,8 @@
         "council-qld-2024-browser-verified-xml-acquisition",
         "council-qld-2024-browser-verified-xml-tsirc-postponement",
         "council-qld-current-leaders-browser",
-        "refresh-tablelands-current-20261023"
+        "refresh-tablelands-current-20261023",
+        "election-review-tablelands-20261101"
       ],
       "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
       "representatives": [
@@ -30663,15 +30704,18 @@
           "id": "qld-council-6820-by-election-2026-10-31",
           "label": "2026 Tablelands Division 1 by-election",
           "kind": "by-election",
-          "status": "Scheduled; full postal voting; nominations closed",
+          "status": "Postal vote completion closed; receipt of returns continues",
           "date": "2026-10-31",
-          "dateBasis": "Official ECQ full postal timetable: complete the vote by 6 pm on 31 October; ECQ receipt closes 5 pm on 10 November, Australia/Brisbane. These are distinct deadlines; no in-person polling opening or winner is inferred.",
+          "dateBasis": "The postal vote completion deadline, 31 October 2026 at 18:00 AEST, has elapsed. Receipt remains open until 10 November at 17:00 AEST. No result declaration was established. These are distinct deadlines; no winner or in-person voting is inferred. Verified 1 November 2026.",
           "timezone": "Australia/Brisbane",
           "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
           "candidates": [],
           "dateTime": "2026-10-31T18:00:00+10:00",
-          "milestoneLabel": "postal vote completion deadline",
-          "postalReceiptDeadline": "2026-11-10T17:00:00+10:00"
+          "milestoneLabel": "postal vote completion closes",
+          "postalReceiptDeadline": "2026-11-10T17:00:00+10:00",
+          "checked": "2026-11-01",
+          "sourceId": "election-review-tablelands-20261101",
+          "contestantNote": "The contestant roster and result declaration are not independently verified in this collection. Follow the official record; the elapsed completion deadline does not establish a winner."
         }
       ],
       "coverageNotes": [
@@ -128541,7 +128585,8 @@
         "council-nsw-2024-hunters-hill-north-ward",
         "council-nsw-2024-hunters-hill-south-ward",
         "refresh-nsw-council-14100-20261023",
-        "election-review-hunters-hill-20261030"
+        "election-review-hunters-hill-20261030",
+        "election-review-hunters-hill-20261101"
       ],
       "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
       "representatives": [
@@ -128822,7 +128867,7 @@
           "kind": "by-election",
           "status": "Scheduled; nominations open 2 November",
           "date": "2026-12-12",
-          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Marc Lane resignation effective 15 October 2026 is independently supported by the official council notice index. Verified 30 October 2026.",
+          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026.",
           "timezone": "Australia/Sydney",
           "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
           "candidates": [],
@@ -128835,7 +128880,8 @@
           "earlyVotingOpens": "2026-12-05",
           "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
           "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
-          "checked": "2026-10-30"
+          "checked": "2026-11-01",
+          "sourceId": "election-review-hunters-hill-20261101"
         }
       ],
       "coverageNotes": [
@@ -128849,7 +128895,7 @@
           "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
         }
       ],
-      "representationReview": "Marc Lane resigned effective immediately in the council notice dated 15 October 2026. Removed from the retained current-role snapshot; other members retain their original verification dates. One South Ward councillor vacancy proceeds to the confirmed 12 December by-election. Verified 30 October 2026."
+      "representationReview": "Council election notice published 20 October dates Marc Lane resignation to 14 October 2026. The earlier notice publication date, 15 October, is not the effective resignation date. Other retained members keep their original verification dates. One South Ward vacancy proceeds to the confirmed 12 December by-election. Verified 1 November 2026."
     },
     {
       "id": "nsw-council-14170",
@@ -206664,7 +206710,8 @@
         "council-tas-2022-tas-council-60210-bod-m",
         "council-tas-2022-tas-council-60210-bod-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -206775,15 +206822,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-60210-bod-c",
@@ -207086,7 +207134,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -207106,7 +207154,8 @@
         "council-tas-2022-tas-council-60410-bri-m",
         "council-tas-2022-tas-council-60410-bri-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -207217,15 +207266,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-60410-bri-c",
@@ -207448,7 +207498,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -207468,7 +207518,8 @@
         "council-tas-2022-tas-council-60610-bcc-m",
         "council-tas-2022-tas-council-60610-bcc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -207579,15 +207630,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-60610-bcc-c",
@@ -207880,7 +207932,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -207900,7 +207952,8 @@
         "council-tas-2022-tas-council-60810-cco-m",
         "council-tas-2022-tas-council-60810-cco-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -208011,15 +208064,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-60810-cco-c",
@@ -208422,7 +208476,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -208442,7 +208496,8 @@
         "council-tas-2022-tas-council-61010-chi-dm",
         "council-tas-2022-tas-council-61010-mayor-unopposed",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -208553,15 +208608,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61010-chi-c",
@@ -208752,7 +208808,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -208772,7 +208828,8 @@
         "council-tas-2022-tas-council-61210-cir-m",
         "council-tas-2022-tas-council-61210-cir-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -208883,15 +208940,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61210-cir-c",
@@ -209144,7 +209202,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -209164,7 +209222,8 @@
         "council-tas-2022-tas-council-61410-ccc-m",
         "council-tas-2022-tas-council-61410-ccc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -209308,15 +209367,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61410-ccc-c",
@@ -209789,7 +209849,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -209809,7 +209869,8 @@
         "council-tas-2022-tas-council-61510-der-m",
         "council-tas-2022-tas-council-61510-der-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -209907,15 +209968,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61510-der-c",
@@ -210238,7 +210300,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -210258,7 +210320,8 @@
         "council-tas-2022-tas-council-61610-dcc-m",
         "council-tas-2022-tas-council-61610-dcc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -210369,15 +210432,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61610-dcc-c",
@@ -210640,7 +210704,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -210660,7 +210724,8 @@
         "council-tas-2022-tas-council-61810-dor-m",
         "council-tas-2022-tas-council-61810-dor-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -210771,15 +210836,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-61810-dor-c",
@@ -211032,7 +211098,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -211052,7 +211118,8 @@
         "council-tas-2022-tas-council-62010-fli-m",
         "council-tas-2022-tas-council-62010-fli-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -211141,15 +211208,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-62010-fli-c",
@@ -211332,7 +211400,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -211352,7 +211420,8 @@
         "council-tas-2022-tas-council-62210-gtn-m",
         "council-tas-2022-tas-council-62210-gtn-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -211463,15 +211532,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-62210-gtn-c",
@@ -211754,7 +211824,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -211774,7 +211844,8 @@
         "council-tas-2022-tas-council-62410-gsb-m",
         "council-tas-2022-tas-council-62410-gsb-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -211873,15 +211944,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-62410-gsb-c",
@@ -212114,7 +212186,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -212134,7 +212206,8 @@
         "council-tas-2022-tas-council-62610-gcc-m",
         "council-tas-2022-tas-council-62610-gcc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -212256,15 +212329,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-62610-gcc-c",
@@ -212687,7 +212761,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -212707,7 +212781,8 @@
         "council-tas-2022-tas-council-62810-hcc-m",
         "council-tas-2022-tas-council-62810-hcc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -212851,15 +212926,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-62810-hcc-c",
@@ -213532,7 +213608,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -213552,7 +213628,8 @@
         "council-tas-2022-tas-council-63010-hvy-m",
         "council-tas-2022-tas-council-63010-hvy-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -213662,15 +213739,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-63010-hvy-c",
@@ -214103,7 +214181,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -214123,7 +214201,8 @@
         "council-tas-2022-tas-council-63210-ken-dm",
         "council-tas-2022-tas-council-63210-mayor-unopposed",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -214234,15 +214313,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-63210-ken-c",
@@ -214433,7 +214513,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -214453,7 +214533,8 @@
         "council-tas-2022-tas-council-63410-kgi-m",
         "council-tas-2022-tas-council-63410-kgi-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -214564,15 +214645,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-63410-kgi-c",
@@ -214715,7 +214797,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -214736,7 +214818,8 @@
         "council-tas-2022-tas-council-63610-kgb-m",
         "council-tas-2022-tas-council-63610-kgb-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -214861,15 +214944,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-63610-kgb-c",
@@ -215164,7 +215248,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -215184,7 +215268,8 @@
         "council-tas-2022-tas-council-63810-lat-dm",
         "council-tas-2022-tas-council-63810-mayor-unopposed",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -215295,15 +215380,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-63810-lat-c",
@@ -215544,7 +215630,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -215564,7 +215650,8 @@
         "council-tas-2022-tas-council-64010-lcc-m",
         "council-tas-2022-tas-council-64010-lcc-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -215707,15 +215794,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-64010-lcc-c",
@@ -216248,7 +216336,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -216268,7 +216356,8 @@
         "council-tas-2022-tas-council-64210-mvy-m",
         "council-tas-2022-tas-council-64210-mvy-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -216379,15 +216468,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-64210-mvy-c",
@@ -216750,7 +216840,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -216770,7 +216860,8 @@
         "council-tas-2022-tas-council-64610-nmd-m",
         "council-tas-2022-tas-council-64610-nmd-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -216881,15 +216972,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-64610-nmd-c",
@@ -217252,7 +217344,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -217272,7 +217364,8 @@
         "council-tas-2022-tas-council-64810-sor-m",
         "council-tas-2022-tas-council-64810-sor-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -217383,15 +217476,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-64810-sor-c",
@@ -217704,7 +217798,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -217724,7 +217818,8 @@
         "council-tas-2022-tas-council-65010-smd-dm",
         "council-tas-2022-tas-council-65010-mayor-unopposed",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -217813,15 +217908,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-65010-smd-c",
@@ -218002,7 +218098,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -218022,7 +218118,8 @@
         "council-tas-2022-tas-council-65210-tsm-m",
         "council-tas-2022-tas-council-65210-mayor-unopposed",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -218111,15 +218208,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-65210-tsm-c",
@@ -218290,7 +218388,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -218310,7 +218408,8 @@
         "council-tas-2022-tas-council-65410-wwy-m",
         "council-tas-2022-tas-council-65410-wwy-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -218410,15 +218509,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-65410-wwy-c",
@@ -218681,7 +218781,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -218701,7 +218801,8 @@
         "council-tas-2022-tas-council-65610-wco-m",
         "council-tas-2022-tas-council-65610-wco-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -218812,15 +218913,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-65610-wco-c",
@@ -219083,7 +219185,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -219103,7 +219205,8 @@
         "council-tas-2022-tas-council-65810-wtm-m",
         "council-tas-2022-tas-council-65810-wtm-dm",
         "election-review-tas-20261029",
-        "election-review-tas-counting-20261031"
+        "election-review-tas-counting-20261031",
+        "election-review-tas-counting-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -219214,15 +219317,16 @@
           "kind": "ordinary",
           "status": "Postal voting closed; counting underway",
           "date": "2026-10-27",
-          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+          "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
           "timezone": "Australia/Hobart",
           "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
           "candidates": [],
           "milestoneLabel": "postal voting closes",
           "dateTime": "2026-10-27T14:00:00+11:00",
           "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-          "checked": "2026-10-31",
-          "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+          "checked": "2026-11-01",
+          "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+          "sourceId": "election-review-tas-counting-20261101"
         },
         {
           "id": "council-tas-2022-tas-council-65810-wtm-c",
@@ -219575,7 +219679,7 @@
         "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
         "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
         "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-        "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+        "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
       ]
     },
     {
@@ -225125,7 +225229,8 @@
         "council-nt-2025-ballot-victoria-daly-timber-creek-ward",
         "council-nt-2025-ballot-victoria-daly-walangeri-ward",
         "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
-        "election-review-milngin-20261030"
+        "election-review-milngin-20261030",
+        "election-review-milngin-20261101"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -225358,14 +225463,22 @@
           "id": "nt-council-74550-milngin-replacement-timetable-pending-2026",
           "label": "Milngin Ward replacement by-election",
           "kind": "by-election",
-          "status": "Awaiting confirmation to begin",
-          "date": null,
-          "dateBasis": "Council confirms a replacement by-election is being arranged after the failed August nomination round; the directly opened official article says the confirmed timetable awaits NTEC. Conflicting dates in search/news excerpts are not used. Verified 30 October 2026.",
+          "status": "Scheduled; nominations open 9 November",
+          "date": "2026-12-03",
+          "dateBasis": "Council live article confirms NTEC timetable: poll 3 December, 8am–6pm ACST; nominations 9 November to noon 20 November; early/mobile voting from 23 November, early close 2 December 6pm. Declaration scheduled 17 December, not an established outcome. NTEC hub last updated 6 October still says no current elections; this newer confirmed Council timetable supersedes the previously unconfirmed replacement date. Verified 1 November 2026.",
           "timezone": "Australia/Darwin",
           "sourceUrl": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/",
           "candidates": [],
-          "checked": "2026-10-30",
-          "waitingLabel": "Awaiting confirmation to begin"
+          "checked": "2026-11-01",
+          "dateTime": "2026-12-03T18:00:00+09:30",
+          "milestoneLabel": "election-day voting closes",
+          "nominationsOpen": "2026-11-09",
+          "nominationsClose": "2026-11-20T12:00:00+09:30",
+          "earlyVotingOpens": "2026-11-23",
+          "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+          "pollingOpens": "2026-12-03T08:00:00+09:30",
+          "declarationDate": "2026-12-17",
+          "sourceId": "election-review-milngin-20261101"
         }
       ],
       "coverageNotes": [
@@ -225374,7 +225487,7 @@
         "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
         "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
         "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
-        "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred."
+        "1 November 2026: directly retrieved Council article confirms the Milngin replacement by-election timetable. Failed August round remains historical; no candidate, winner or effective vacancy date is inferred. NTEC current-election hub remains dated 6 October and has not caught up."
       ]
     },
     {
@@ -237301,7 +237414,8 @@
         "council-qld-2024-browser-verified-xml-acquisition",
         "council-qld-2024-browser-verified-xml-tsirc-postponement",
         "council-qld-current-leaders-browser",
-        "refresh-tablelands-current-20261023"
+        "refresh-tablelands-current-20261023",
+        "election-review-tablelands-20261101"
       ],
       "boundaryEdition": "2024 election division edition; current source service",
       "representatives": [],
@@ -237360,15 +237474,18 @@
           "id": "qld-council-6820-division-1-by-election-2026-10-31",
           "label": "2026 Tablelands Division 1 by-election",
           "kind": "by-election",
-          "status": "Scheduled; full postal voting; nominations closed",
+          "status": "Postal vote completion closed; receipt of returns continues",
           "date": "2026-10-31",
-          "dateBasis": "Official ECQ full postal timetable: complete the vote by 6 pm on 31 October; ECQ receipt closes 5 pm on 10 November, Australia/Brisbane. These are distinct deadlines; no in-person polling opening or winner is inferred.",
+          "dateBasis": "The postal vote completion deadline, 31 October 2026 at 18:00 AEST, has elapsed. Receipt remains open until 10 November at 17:00 AEST. No result declaration was established. These are distinct deadlines; no winner or in-person voting is inferred. Verified 1 November 2026.",
           "timezone": "Australia/Brisbane",
           "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
           "candidates": [],
           "dateTime": "2026-10-31T18:00:00+10:00",
-          "milestoneLabel": "postal vote completion deadline",
-          "postalReceiptDeadline": "2026-11-10T17:00:00+10:00"
+          "milestoneLabel": "postal vote completion closes",
+          "postalReceiptDeadline": "2026-11-10T17:00:00+10:00",
+          "checked": "2026-11-01",
+          "sourceId": "election-review-tablelands-20261101",
+          "contestantNote": "The contestant roster and result declaration are not independently verified in this collection. Follow the official record; the elapsed completion deadline does not establish a winner."
         }
       ],
       "coverageNotes": [
@@ -240824,7 +240941,8 @@
         "council-ward-supp-geoscape-lga-attributes",
         "council-nt-2025-ballot-victoria-daly-milngin-ward",
         "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
-        "election-review-milngin-20261030"
+        "election-review-milngin-20261030",
+        "election-review-milngin-20261101"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -240892,14 +241010,22 @@
           "id": "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026",
           "label": "Milngin Ward replacement by-election",
           "kind": "by-election",
-          "status": "Awaiting confirmation to begin",
-          "date": null,
-          "dateBasis": "Council confirms a replacement by-election is being arranged after the failed August nomination round; the directly opened official article says the confirmed timetable awaits NTEC. Conflicting dates in search/news excerpts are not used. Verified 30 October 2026.",
+          "status": "Scheduled; nominations open 9 November",
+          "date": "2026-12-03",
+          "dateBasis": "Council live article confirms NTEC timetable: poll 3 December, 8am–6pm ACST; nominations 9 November to noon 20 November; early/mobile voting from 23 November, early close 2 December 6pm. Declaration scheduled 17 December, not an established outcome. NTEC hub last updated 6 October still says no current elections; this newer confirmed Council timetable supersedes the previously unconfirmed replacement date. Verified 1 November 2026.",
           "timezone": "Australia/Darwin",
           "sourceUrl": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/",
           "candidates": [],
-          "checked": "2026-10-30",
-          "waitingLabel": "Awaiting confirmation to begin"
+          "checked": "2026-11-01",
+          "dateTime": "2026-12-03T18:00:00+09:30",
+          "milestoneLabel": "election-day voting closes",
+          "nominationsOpen": "2026-11-09",
+          "nominationsClose": "2026-11-20T12:00:00+09:30",
+          "earlyVotingOpens": "2026-11-23",
+          "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+          "pollingOpens": "2026-12-03T08:00:00+09:30",
+          "declarationDate": "2026-12-17",
+          "sourceId": "election-review-milngin-20261101"
         }
       ],
       "sourceWardId": "wad03749a797707",
@@ -240910,10 +241036,10 @@
         "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
         "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
         "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
-        "30 October 2026: council confirms the Milngin Ward vacancy and replacement by-election being arranged. Its directly opened article has no confirmed timetable; conflicting indexed dates are excluded. No effective vacancy date or candidate is inferred."
+        "1 November 2026: directly retrieved Council article confirms the Milngin replacement by-election timetable. Failed August round remains historical; no candidate, winner or effective vacancy date is inferred. NTEC current-election hub remains dated 6 October and has not caught up."
       ],
       "representationStatus": "vacant",
-      "representationReview": "Council confirms the Milngin Ward councillor vacancy. The effective vacancy date is not established by the checked notice. A replacement by-election is being arranged, with confirmed timetable awaited. Verified 30 October 2026."
+      "representationReview": "Council confirms the Milngin Ward councillor vacancy. Its effective vacancy date is not established by the checked notice. The replacement by-election is confirmed for 3 December 2026; the failed August nomination round remains separate. No replacement councillor is inferred. Verified 1 November 2026."
     },
     {
       "id": "nt-ward-wad042c0e87a107",

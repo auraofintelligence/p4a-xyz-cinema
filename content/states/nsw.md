@@ -8,9 +8,9 @@
   "shortName": "NSW",
   "capital": "Sydney",
   "stateType": "State",
-  "researchRun": "2026-10-31",
+  "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 31 October: David Harris announced on 30 October that he will not recontest Wyong at the 13 March 2027 state election. He remains the MP and continues ministerial duties until the election; this is not a current vacancy. Cobar, Coffs Harbour and Hunters Hill retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -81,7 +81,7 @@
       "kind": "Council by-election",
       "scope": "local-government",
       "status": "Scheduled; nominations open 2 November",
-      "note": "Council announced Marc Lane's resignation on 15 October, effective immediately. Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+      "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -288,17 +288,21 @@
       "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election"
     },
     {
-      "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
+      "label": "Hunters Hill official news index: resignation notice published 15 October 2026",
       "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
     },
     {
       "label": "David Harris retirement announcement, 30 October 2026",
       "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+    },
+    {
+      "label": "Hunters Hill official election notice, 20 October 2026 — resignation dated 14 October",
+      "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward"
     }
   ],
   "previousResearchRun": "2026-10-30",
   "researchReview": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "timezone": "Australia/Brisbane",
     "scope": "Scoped review of the David Harris retirement announcement; continued current office. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
     "previousResearchRun": "2026-10-30",

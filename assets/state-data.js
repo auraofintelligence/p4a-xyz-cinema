@@ -6,9 +6,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NSW",
     "capital": "Sydney",
     "stateType": "State",
-    "researchRun": "2026-10-31",
+    "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 31 October: David Harris announced on 30 October that he will not recontest Wyong at the 13 March 2027 state election. He remains the MP and continues ministerial duties until the election; this is not a current vacancy. Cobar, Coffs Harbour and Hunters Hill retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+    "researchStatus": "Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -79,7 +79,7 @@ window.P4A_STATE_DATA = [
         "kind": "Council by-election",
         "scope": "local-government",
         "status": "Scheduled; nominations open 2 November",
-        "note": "Council announced Marc Lane's resignation on 15 October, effective immediately. Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+        "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane.",
         "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -286,17 +286,21 @@ window.P4A_STATE_DATA = [
         "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-cobar-shire-council-by-election"
       },
       {
-        "label": "Hunters Hill official news index: Marc Lane resignation, 15 October 2026",
+        "label": "Hunters Hill official news index: resignation notice published 15 October 2026",
         "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News"
       },
       {
         "label": "David Harris retirement announcement, 30 October 2026",
         "url": "https://www.nsw.gov.au/ministerial-releases/david-harris-mp-announces-retirement-at-2027-state-election"
+      },
+      {
+        "label": "Hunters Hill official election notice, 20 October 2026 — resignation dated 14 October",
+        "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward"
       }
     ],
     "previousResearchRun": "2026-10-30",
     "researchReview": {
-      "checked": "2026-10-31",
+      "checked": "2026-11-01",
       "timezone": "Australia/Brisbane",
       "scope": "Scoped review of the David Harris retirement announcement; continued current office. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
       "previousResearchRun": "2026-10-30",
@@ -568,9 +572,9 @@ window.P4A_STATE_DATA = [
     "shortName": "QLD",
     "capital": "Brisbane",
     "stateType": "State",
-    "researchRun": "2026-10-30",
+    "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 30 October: Redland City Council confirmed the mayoral vacancy on 28 October after receiving Jos Mitchell's resignation; Julie Talty continues as Acting Mayor and a by-election is required. On 29 October Council agreed to request a full postal ballot, subject to electoral approval processes. ECQ polling and nomination dates remain unconfirmed. Parliament composition, Tablelands and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
+    "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Redland's 30 October review remains unchanged: mayoral office vacant, Julie Talty Acting Mayor, and Council's request for a full postal ballot subject to approval; ECQ polling and nomination dates remain unconfirmed. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "David Crisafulli",
@@ -625,8 +629,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-31T18:00:00+10:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Full postal election; nominations closed",
-        "note": "Complete ballot by 6 pm 31 October; ECQ must receive it by 5 pm 10 November (Australia/Brisbane). Completion and receipt are distinct deadlines. Accepted candidates not imported; no result inferred.",
+        "status": "Postal completion closed; receipt deadline pending",
+        "note": "Postal vote completion closed at 6 pm on 31 October 2026 (AEST, Australia/Brisbane). ECQ must receive completed postal votes by 5 pm on 10 November. Completion and receipt are distinct deadlines; no extension of completion or declared winner is inferred. Accepted candidates not imported. Checked 1 November 2026, Australia/Brisbane.",
         "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -756,7 +760,7 @@ window.P4A_STATE_DATA = [
     ],
     "previousResearchRun": "2026-10-23",
     "researchReview": {
-      "checked": "2026-10-30",
+      "checked": "2026-11-01",
       "timezone": "Australia/Brisbane",
       "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; no new candidacy or unannounced timetable is inferred.",
       "previousResearchRun": "2026-10-23",
@@ -1225,9 +1229,9 @@ window.P4A_STATE_DATA = [
     "shortName": "TAS",
     "capital": "Hobart",
     "stateType": "State",
-    "researchRun": "2026-10-31",
+    "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 31 October: TEC’s 30 October update confirms all mayoral counts and most deputy mayoral counts are complete. Some councillor results are final; remaining councillor outcomes are provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
+    "researchStatus": "Election review 1 November: TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed; all mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and others remain provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1302,8 +1306,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-27T14:00:00+11:00",
         "kind": "Ordinary council elections",
         "scope": "local-government",
-        "status": "Progressive results; some counts complete",
-        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 30 October update confirms all mayoral and most deputy mayoral counts are complete. Some councillor results are final; remaining outcomes are based on a 50% sample and remain provisional. No statewide final declaration, individual officeholder replacement or completion date is inferred. Official update: https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE (checked 31 October 2026, Australia/Brisbane).",
+        "status": "Mayor/deputy counts complete; councillor counting resumes 2 November",
+        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed. All mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and remaining outcomes remain provisional. No statewide final declaration, individual officeholder replacement or overall completion date is inferred. Checked 1 November 2026, Australia/Brisbane.",
         "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
         "dayMetrics": {
           "displayDaysUntil": false,
@@ -1535,11 +1539,15 @@ window.P4A_STATE_DATA = [
       {
         "label": "TEC mayoral counts complete and councillor count update, 30 October 2026",
         "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+      },
+      {
+        "label": "TEC progressive count update, 31 October 2026 at 10:30 pm AEDT",
+        "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/kingborough/index.html"
       }
     ],
     "previousResearchRun": "2026-10-29",
     "researchReview": {
-      "checked": "2026-10-31",
+      "checked": "2026-11-01",
       "timezone": "Australia/Brisbane",
       "scope": "Scoped review of the TEC 30 October statewide count-stage update, not individual council rosters. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
       "previousResearchRun": "2026-10-29",
@@ -1686,9 +1694,9 @@ window.P4A_STATE_DATA = [
     "shortName": "NT",
     "capital": "Darwin",
     "stateType": "Territory",
-    "researchRun": "2026-10-23",
+    "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped review 23 October: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents. Johnston identity join corrected. Mulka and Nightcliff results retained separately. NTEC lists no current elections; council review is index-level and federal profiles were inaccessible. Milngin replacement date remains unannounced.",
+    "researchStatus": "Election review 1 November: Victoria Daly Regional Council confirms the Milngin by-election on 3 December, 8 am–6 pm ACST; nominations open 9 November and close 20 November at noon. Early/mobile voting starts 23 November, with early voting closing 2 December at 6 pm; declaration is scheduled for 17 December, not an outcome already reached. The older NTEC no-current-election index does not override the council timetable. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
     "government": {
       "leaderTitle": "Chief Minister",
       "leader": "Lia Finocchiaro",
@@ -1870,11 +1878,15 @@ window.P4A_STATE_DATA = [
       {
         "label": "nt public notices",
         "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
+      },
+      {
+        "label": "Victoria Daly Regional Council — Milngin by-election timetable (checked 1 November 2026)",
+        "url": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/"
       }
     ],
     "previousResearchRun": "2026-05-08",
     "researchReview": {
-      "checked": "2026-10-23",
+      "checked": "2026-11-01",
       "timezone": "Australia/Brisbane",
       "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
       "previousResearchRun": "2026-05-08",

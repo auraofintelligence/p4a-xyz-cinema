@@ -1,90 +1,114 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-10-31",
-  "checkedAt": "2026-10-30T21:48:33.082320+00:00",
+  "checked": "2026-11-01",
+  "checkedAt": "2026-10-31T22:20:52.495600+00:00",
   "status": "PASS",
-  "scope": "Focused changed-election rendering and existing navigation, not site-wide certification.",
+  "scope": "Focused changed-election rendering/navigation; not site-wide certification.",
   "environment": {
-    "browser": "Cloud Chromium; shared checkout served by python3 HTTP server on cloud desktop. No user PC required.",
-    "viewportReview": "Ordinary window resize and 125% browser zoom; inspected narrow screenshots approximately 394px wide and desktop approximately 1165px wide. These are screenshot dimensions, not a device-emulation or DOM overflow measurement.",
+    "browser": "Cloud Chromium; shared checkout served by Python HTTP server on cloud desktop port8765.",
+    "viewportReview": "Desktop screenshot1165px wide; ordinary window resize to narrow screenshot485px wide. Not device emulation or measured DOM overflow.",
     "physicalTouchTested": false
   },
   "testedPagePaths": [
-    "states/vic/local-electoral-areas/vic-ward-3360120151112/index.html",
-    "states/vic/councils/knox-city-council/index.html",
-    "states/nsw/electorates/districts/wyong/index.html",
+    "states/qld/councils/tablelands-regional/index.html",
+    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+    "states/nsw/councils/hunters-hill/index.html",
     "states/tas/councils/hobart/index.html",
+    "states/nt/councils/victoria-daly/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
     "pages/states.html",
-    "states/vic/index.html",
-    "states/vic/constitution/index.html",
-    "states/nsw/index.html",
-    "states/nsw/constitution/index.html",
+    "states/qld/index.html",
+    "states/qld/constitution/index.html",
     "states/tas/index.html",
-    "states/tas/constitution/index.html"
+    "states/tas/constitution/index.html",
+    "states/nt/index.html",
+    "states/nt/constitution/index.html",
+    "states/nsw/index.html",
+    "states/nsw/constitution/index.html"
   ],
   "fixturePaths": [
-    "tools/publication-qa/election-refresh-2026-10-31-cloud-browser.json"
+    "tools/publication-qa/election-refresh-2026-11-01-cloud-browser.json"
   ],
   "artifactFingerprints": [
     {
-      "path": "states/vic/local-electoral-areas/vic-ward-3360120151112/index.html",
-      "sha256": "38b7e5ea5bee7d889d0baf67848bb9ad0fa3254b62210d3f01de77ebccc664b0",
-      "bytes": 27072
+      "path": "states/qld/councils/tablelands-regional/index.html",
+      "sha256": "a7d53039a0bd2f4573b487fe3427357394dacd788e33593a92869608fda5d97d",
+      "bytes": 44095
     },
     {
-      "path": "states/vic/councils/knox-city-council/index.html",
-      "sha256": "79dfc09faff779095bfe434fdacf91924ab6da4c6ac4b8f19684c470f97e0bf9",
-      "bytes": 41985
+      "path": "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+      "sha256": "f606c3a8f4d208eec628d0d46e52eb7ba376d51106d4d602a0dd6f1e3d94a2e2",
+      "bytes": 26438
     },
     {
-      "path": "states/nsw/electorates/districts/wyong/index.html",
-      "sha256": "04321db339b8f683d0ee2541578f5c470bd825457e35d47c20c1216e1a018b2e",
-      "bytes": 61329
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "ee36993d47a27f6316a8fa4711396495b4cba99320c91a67afc4fb8754ef362f",
+      "bytes": 171911
     },
     {
       "path": "states/tas/councils/hobart/index.html",
-      "sha256": "37d31480dcf72b8e7741c6dfef3d2e46c981a885b0f897ee9b218205fa68b67c",
-      "bytes": 77757
+      "sha256": "bc0aa33c046009528ab7a9810a8aa83a0ffbeb66edcce9c4085c4a25c84fc026",
+      "bytes": 78137
+    },
+    {
+      "path": "states/nt/councils/victoria-daly/index.html",
+      "sha256": "e8a0adae14b9ec08869c8dcbfe4953e7a06f6737a4c133580451fea3c1d09260",
+      "bytes": 38611
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+      "sha256": "7eb948beace9b67fa3fa7e2a815234668e97f7a14763d649fa110fbd7fed96cf",
+      "bytes": 27369
     },
     {
       "path": "pages/states.html",
-      "sha256": "dcd8ebb4f710bb335a67c9772cd5789d34d362efa2e8ee1713fa4777623b0ccd",
-      "bytes": 61765
+      "sha256": "d2074900ae52631d457384f6d58432c9773e06c86e0506ddc553b81a2d7a8218",
+      "bytes": 62825
     },
     {
-      "path": "states/vic/index.html",
-      "sha256": "994ade398ea32759c41f01f2c643a048acda09274ec236269b91b885d5cf0886",
-      "bytes": 20928
+      "path": "states/qld/index.html",
+      "sha256": "49d9719a2ffc47dee68f62649beddfaa91ee8c658a49615b72314f1b2b400f76",
+      "bytes": 32352
     },
     {
-      "path": "states/vic/constitution/index.html",
-      "sha256": "49f7e3d4d0e9c4680bd74c8d73dc7a04f491fc4d26a4730c9e2afec27085ab96",
-      "bytes": 11245
-    },
-    {
-      "path": "states/nsw/index.html",
-      "sha256": "4b3c4d037632471bc7ea463d2907b1f6836efa0f84ef401a4d0d9f4d05821c9d",
-      "bytes": 25133
-    },
-    {
-      "path": "states/nsw/constitution/index.html",
-      "sha256": "36c7bcaf6ec18dd9a85bb74560530c3cc2e00d8926c204a7b19548c82f13a243",
-      "bytes": 11308
+      "path": "states/qld/constitution/index.html",
+      "sha256": "ad7a113a38475dc732b8aa3760753283ae9f00cf8d4a195c81708bead68c9d69",
+      "bytes": 11465
     },
     {
       "path": "states/tas/index.html",
-      "sha256": "45821a025cb51626917c6d9a709f7982bfbe0943aa34751771bedf895dfa55c1",
-      "bytes": 25406
+      "sha256": "ccdf9b7c3023bc5afd5648237a2578f77b5aea21cc00b431e8278392ec61b762",
+      "bytes": 25712
     },
     {
       "path": "states/tas/constitution/index.html",
-      "sha256": "85afe8a586af7411402b26ed1c52310d002f9e6adce7cf35ca6b6b11a65819e8",
-      "bytes": 11269
+      "sha256": "172a4ac29443c17a8b37cf4c60a572097fa6b64e66f3d46d1d3cc7f05dcb5a89",
+      "bytes": 11370
     },
     {
-      "path": "tools/publication-qa/election-refresh-2026-10-31-cloud-browser.json",
-      "sha256": "3a5064d86538e43cab92c90eedab84628df9cea3b5ccec6e79e2de0478b6507d",
-      "bytes": 3717
+      "path": "states/nt/index.html",
+      "sha256": "b65228ba75a3e5915d5002180b14be47f873da5de0149cae277a475ed86e5249",
+      "bytes": 19343
+    },
+    {
+      "path": "states/nt/constitution/index.html",
+      "sha256": "dca0bc5e10285fbcb12ce98d51c019044c2400404261b20b8ec2a69ec151de5a",
+      "bytes": 11628
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "5895558991c35bd98e9c5b76321fbca30e2799e733d530151c42007abdd00d92",
+      "bytes": 25790
+    },
+    {
+      "path": "states/nsw/constitution/index.html",
+      "sha256": "7d07443f8e48dae0bfcaf6804ed20336d60ea083c37a8d8deca5745f12711036",
+      "bytes": 11521
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-01-cloud-browser.json",
+      "sha256": "3898de56b52373c852d711dd5a87e9c23b6b766c238e05dcbd463471e99c81c1",
+      "bytes": 5216
     },
     {
       "path": "assets/civic-places.js",
@@ -98,13 +122,13 @@
     },
     {
       "path": "tools/build-national-places.py",
-      "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673",
-      "bytes": 39573
+      "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666",
+      "bytes": 39709
     },
     {
       "path": "assets/state-data.js",
-      "sha256": "cbfb8b6cbbd4f299b2da27ffc0d35042b956247428329d8733eb2074f692076c",
-      "bytes": 82044
+      "sha256": "cd9073e760910085acc63005a67009a6d6d4f73477603cf3eb3e3503ded885f2",
+      "bytes": 83746
     },
     {
       "path": "assets/site-nav.js",
@@ -118,8 +142,8 @@
     }
   ],
   "limitations": [
-    "Focused changed-fact rendering and navigation smoke review only; not full per-place browser, geometry, accessibility or official-source certification.",
-    "No physical touch test or automated overflow measurement. Full historical navigation and Redland reviews remain separately dated.",
-    "All 29 TAS notices share the renderer; Hobart is the visual sample, not a certification of individual results."
+    "Focused changed-fact rendering and existing navigation smoke review only; not full per-place source, geometry, accessibility or browser certification.",
+    "Hobart represents the shared Tasmania renderer; individual results and all29 council journeys not separately certified.",
+    "No physical touch or automated overflow measurement; unchanged Redland evidence retains its separate original review."
   ]
 }

@@ -8,9 +8,9 @@
   "shortName": "TAS",
   "capital": "Hobart",
   "stateType": "State",
-  "researchRun": "2026-10-31",
+  "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 31 October: TEC’s 30 October update confirms all mayoral counts and most deputy mayoral counts are complete. Some councillor results are final; remaining councillor outcomes are provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
+  "researchStatus": "Election review 1 November: TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed; all mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and others remain provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -85,8 +85,8 @@
       "date": "2026-10-27T14:00:00+11:00",
       "kind": "Ordinary council elections",
       "scope": "local-government",
-      "status": "Progressive results; some counts complete",
-      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 30 October update confirms all mayoral and most deputy mayoral counts are complete. Some councillor results are final; remaining outcomes are based on a 50% sample and remain provisional. No statewide final declaration, individual officeholder replacement or completion date is inferred. Official update: https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE (checked 31 October 2026, Australia/Brisbane).",
+      "status": "Mayor/deputy counts complete; councillor counting resumes 2 November",
+      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed. All mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and remaining outcomes remain provisional. No statewide final declaration, individual officeholder replacement or overall completion date is inferred. Checked 1 November 2026, Australia/Brisbane.",
       "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
       "dayMetrics": {
         "displayDaysUntil": false,
@@ -318,11 +318,15 @@
     {
       "label": "TEC mayoral counts complete and councillor count update, 30 October 2026",
       "url": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+    },
+    {
+      "label": "TEC progressive count update, 31 October 2026 at 10:30 pm AEDT",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/kingborough/index.html"
     }
   ],
   "previousResearchRun": "2026-10-29",
   "researchReview": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "timezone": "Australia/Brisbane",
     "scope": "Scoped review of the TEC 30 October statewide count-stage update, not individual council rosters. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
     "previousResearchRun": "2026-10-29",

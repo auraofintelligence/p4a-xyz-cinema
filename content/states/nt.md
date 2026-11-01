@@ -8,9 +8,9 @@
   "shortName": "NT",
   "capital": "Darwin",
   "stateType": "Territory",
-  "researchRun": "2026-10-23",
+  "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped review 23 October: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents. Johnston identity join corrected. Mulka and Nightcliff results retained separately. NTEC lists no current elections; council review is index-level and federal profiles were inaccessible. Milngin replacement date remains unannounced.",
+  "researchStatus": "Election review 1 November: Victoria Daly Regional Council confirms the Milngin by-election on 3 December, 8 am–6 pm ACST; nominations open 9 November and close 20 November at noon. Early/mobile voting starts 23 November, with early voting closing 2 December at 6 pm; declaration is scheduled for 17 December, not an outcome already reached. The older NTEC no-current-election index does not override the council timetable. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
   "government": {
     "leaderTitle": "Chief Minister",
     "leader": "Lia Finocchiaro",
@@ -192,11 +192,15 @@
     {
       "label": "nt public notices",
       "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
+    },
+    {
+      "label": "Victoria Daly Regional Council — Milngin by-election timetable (checked 1 November 2026)",
+      "url": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/"
     }
   ],
   "previousResearchRun": "2026-05-08",
   "researchReview": {
-    "checked": "2026-10-23",
+    "checked": "2026-11-01",
     "timezone": "Australia/Brisbane",
     "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
     "previousResearchRun": "2026-05-08",

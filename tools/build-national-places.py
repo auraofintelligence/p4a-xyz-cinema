@@ -279,6 +279,8 @@ def elections_section(page, place):
         table = '<p class="civic-note">The individual contestant roster is not populated for this event. Follow the official record; this collection does not claim a complete historical candidate list here.</p>'
         if not rows and (not date or date[:10] > UPDATED):
             table = '<p class="civic-note">No verified contestant roster has been entered for this future event. Previous candidacy does not establish future candidacy; follow the official nominations record.</p>'
+        if not rows and event.get('contestantNote'):
+            table = '<p class="civic-note">'+esc(event['contestantNote'])+'</p>'
         if not rows and status == 'failed-no-nominations' and event.get('nominationCoverage', {}).get('complete') and event.get('nominationCoverage', {}).get('officialCandidateCount') == 0:
             table = '<p class="civic-note">No nominations were received for this completed nomination round. No vote was held. Any replacement election has a separate event record.</p>'
         if rows:

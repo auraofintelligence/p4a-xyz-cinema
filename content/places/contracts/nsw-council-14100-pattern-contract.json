@@ -77,7 +77,8 @@
           "council-nsw-2024-hunters-hill-north-ward",
           "council-nsw-2024-hunters-hill-south-ward",
           "refresh-nsw-council-14100-20261023",
-          "election-review-hunters-hill-20261030"
+          "election-review-hunters-hill-20261030",
+          "election-review-hunters-hill-20261101"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -358,7 +359,7 @@
             "kind": "by-election",
             "status": "Scheduled; nominations open 2 November",
             "date": "2026-12-12",
-            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Marc Lane resignation effective 15 October 2026 is independently supported by the official council notice index. Verified 30 October 2026.",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026.",
             "timezone": "Australia/Sydney",
             "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
             "candidates": [],
@@ -371,7 +372,8 @@
             "earlyVotingOpens": "2026-12-05",
             "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
             "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
-            "checked": "2026-10-30"
+            "checked": "2026-11-01",
+            "sourceId": "election-review-hunters-hill-20261101"
           }
         ],
         "coverageNotes": [
@@ -385,12 +387,12 @@
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
           }
         ],
-        "representationReview": "Marc Lane resigned effective immediately in the council notice dated 15 October 2026. Removed from the retained current-role snapshot; other members retain their original verification dates. One South Ward councillor vacancy proceeds to the confirmed 12 December by-election. Verified 30 October 2026."
+        "representationReview": "Council election notice published 20 October dates Marc Lane resignation to 14 October 2026. The earlier notice publication date, 15 October, is not the effective resignation date. Other retained members keep their original verification dates. One South Ward vacancy proceeds to the confirmed 12 December by-election. Verified 1 November 2026."
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-31",
+    "reviewedOn": "2026-11-01",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -410,7 +412,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
+        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -418,11 +420,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "8f6b5451175e96e350090f49d3e1463e8157a3b808c2590bb34661207949bd70"
+        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "79de31b902565f1399543934bd76021a67e620945dc41f6e3c012e2130a7db2e"
+        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
       }
     ],
     "requiredHumanChecks": [

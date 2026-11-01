@@ -19,7 +19,7 @@
     "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
     "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
     "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-    "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+    "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -80,7 +80,8 @@
           "council-tas-2022-tas-council-62610-gcc-m",
           "council-tas-2022-tas-council-62610-gcc-dm",
           "election-review-tas-20261029",
-          "election-review-tas-counting-20261031"
+          "election-review-tas-counting-20261031",
+          "election-review-tas-counting-20261101"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -202,15 +203,16 @@
             "kind": "ordinary",
             "status": "Postal voting closed; counting underway",
             "date": "2026-10-27",
-            "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026.",
+            "dateBasis": "Postal voting closed 27 October 2026 at 2pm AEDT. Counting began 28 October at 9am AEDT. TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026.",
             "timezone": "Australia/Hobart",
             "sourceUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
             "candidates": [],
             "milestoneLabel": "postal voting closes",
             "dateTime": "2026-10-27T14:00:00+11:00",
             "resultsUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
-            "checked": "2026-10-31",
-            "countingUpdateUrl": "https://app4.vision6.com.au/em/message/email/view.php?a=58639&id=1745533&k=rxAF-GPK6xOcI0QkYz6PzFe7NnLVrUmrao1YS6EAooE"
+            "checked": "2026-11-01",
+            "countingUpdateUrl": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+            "sourceId": "election-review-tas-counting-20261101"
           },
           {
             "id": "council-tas-2022-tas-council-62610-gcc-c",
@@ -633,13 +635,13 @@
           "Current roles come independently from the TEC MyReps roster updated31July2026, checked17October2026; later changes require review. Official roster links are not individual biographies.",
           "All three 2022 office contests retain separate TEC final ballot/declaration facts. A 2022 winner is not inferred to be a current officeholder.",
           "Current roles come independently from the TEC MyReps roster updated 31 July 2026, checked 17 October 2026; later changes require review. Official roster links are not individual biographies.",
-          "TEC statewide update of 30 October: all mayoral counts and most deputy-mayoral counts are complete; councillor results are a mixture of final and provisional. Individual declarations and current-office changes are not certified by this update. Checked 31 October 2026."
+          "TEC update at 10:30pm AEDT on 31 October: all mayoral and deputy-mayoral elections are complete. Councillor counting adjourned and resumes Monday 2 November; some councillor results are already final. Individual declarations and current-office changes are not certified by this update. Checked 1 November 2026."
         ]
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-10-31",
+    "reviewedOn": "2026-11-01",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -659,7 +661,7 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "b13d965c0b2767a1e1981eb476e3da828b0ca97026f19c21865ac46fd35d5673"
+        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
       },
       {
         "path": "tools/verify-national-places.py",
@@ -667,11 +669,11 @@
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "8f6b5451175e96e350090f49d3e1463e8157a3b808c2590bb34661207949bd70"
+        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "79de31b902565f1399543934bd76021a67e620945dc41f6e3c012e2130a7db2e"
+        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
       }
     ],
     "requiredHumanChecks": [
