@@ -3,7 +3,9 @@ from pathlib import Path
 from html.parser import HTMLParser
 import importlib.util
 import json
-from redland_election import apply_page, validate, WAITING
+from copy import deepcopy
+from html import escape
+from redland_election import apply_page, candidate_announcements, validate, WAITING
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('redland_builder', ROOT / 'tools/build-redland.py')
@@ -31,6 +33,14 @@ for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
     assert 'Council confirms' in text or 'Council confirms mayoral' in text or 'Council confirms the vacancy' in text
     assert '2026-10-28' in text
     if suffix != 'sources/index.html':
+        candidates = data['byElection'].get('candidates', [])
+        assert text.count('data-candidate-status=') == len(candidates), page
+        for candidate in candidates:
+            assert f'data-candidate-status="{candidate["status"]}"' in text
+            assert escape(candidate['name']) in text
+            assert escape(candidate['statusLabel']) in text
+            assert escape(candidate['source'], quote=True) in text
+            assert candidate['sourceId'] in {s['id'] for s in data['byElection']['sources']}
         assert len(parsed.panels) == 2
         assert 'Jos Mitchell' in text and 'Julie Talty' in text
         assert text.count('assets/redland-election-clock.mjs') == 1
@@ -41,4 +51,29 @@ for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
             assert text.count(WAITING) == 2
         assert '28 December 2026' not in text, 'Do not turn a statutory interval into an announced polling date'
         assert 'Possible mayoral by-election:' not in text
+
+# Synthetic fixtures stay offline and never enter published candidate data.
+empty = deepcopy(data['byElection']); empty.pop('candidates', None)
+assert candidate_announcements('fixture.html', empty, builder.link) == ''
+if data['byElection'].get('candidates'):
+    fixture = deepcopy(data)
+    fixture['byElection']['candidates'][0]['name'] = '<script>alert("fixture")</script>'
+    rendered = candidate_announcements('fixture.html', fixture['byElection'], builder.link)
+    assert '<script>alert' not in rendered and '&lt;script&gt;' in rendered
+    fixture['byElection']['candidates'].append(deepcopy(fixture['byElection']['candidates'][0]))
+    try:
+        validate(fixture)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Duplicate candidate IDs were accepted')
+    fixture = deepcopy(data)
+    fixture['byElection']['candidates'][0]['status'] = 'accepted-nomination'
+    fixture['byElection']['candidates'][0]['nominationSource'] = 'https://www.facebook.com/example'
+    try:
+        validate(fixture)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Accepted nomination without ECQ evidence was accepted')
 print(json.dumps({'result':'PASS','pages':3,'milestonePanels':4,'checks':'Canonical status, source links, unique IDs, scoped-render parity/idempotence and inactive unconfirmed targets. Browser layout and live source verification remain separate.'},indent=2))

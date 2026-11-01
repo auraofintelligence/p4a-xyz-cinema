@@ -1,0 +1,47 @@
+{
+  "reviewedOn": "2026-11-01",
+  "timezone": "Australia/Brisbane",
+  "result": "PASS",
+  "scope": "Focused candidate announcement section and sources; not a full map or national candidate audit.",
+  "method": "Actual cloud Chrome via HTTP localhost:8765, plus 390/680px iframe viewports of delivered pages.",
+  "checks": [
+    "Primary Facebook permalink and expanded public author announcement read; identity matched official Council newsletter handle.",
+    "Desktop 1180px candidate page: one announced-intention card, correct direct primary link; both milestone labels awaiting confirmation and clocks inactive.",
+    "390px candidate iframe: client width375, scroll width375, one card and two waiting labels; screenshot visually reviewed.",
+    "680px overview iframe: client width665, scroll width665, one card and two waiting labels; screenshot visually reviewed.",
+    "Sources & dates link reached the two new primary references and checked dates; Back returned to candidate section.",
+    "Existing local styling retained, no candidate party or accepted nomination inferred."
+  ],
+  "limits": [
+    "Synthetic viewport review, not physical mobile/touch certification.",
+    "Only one primary announcement verified; not a complete field.",
+    "Council individual profile HTTP403; identity instead authenticated from official newsletter.",
+    "Facebook web-reader blocked; public cloud-browser page and direct post were readable without login."
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "content/local/redland-election.json",
+      "sha256": "59b61d5d9257ea79f6daf3057ccd0a4749001df819bd9f465edab4c3cac27935"
+    },
+    {
+      "path": "tools/redland_election.py",
+      "sha256": "e393ffa2032f3661c12c698092bc7a23b13be971f20c008c52306319d9396d74"
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "sha256": "1289cc891c3608e2cb88359a57dfe9d08709aa762b02c9644d889af5e42138d9"
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "092e2bbc021545d664f19bf4231a657edcbdd85566aba2bb2919dbce45814417"
+    },
+    {
+      "path": "states/qld/councils/redland/sources/index.html",
+      "sha256": "c346646562566b155d57978202394e81c05f9f43bd616603372e9f065b8d3b79"
+    },
+    {
+      "path": "tools/publication-qa/redland-candidate-2026-11-01-fixture.html",
+      "sha256": "a40530c293dd7ed33504c561d682921e6fe77f101ac2b12f75758302c219f472"
+    }
+  ]
+}

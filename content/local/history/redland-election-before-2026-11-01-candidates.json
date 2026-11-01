@@ -1,0 +1,120 @@
+{
+  "place": "Redland City",
+  "checked": "2026-10-30",
+  "changed": "2026-10-30",
+  "timezone": "Australia/Brisbane",
+  "general": {
+    "title": "Next scheduled council election",
+    "date": "2028-03-25",
+    "countdownTarget": "2028-03-25T00:00:00+10:00",
+    "status": "Scheduled by the four-year, last-Saturday-in-March rule; subject to change by regulation and the official election timetable.",
+    "dateBasis": "Calendar calculation from the rule published by ECQ, not an issued notice of election. The countdown reaches the start of the scheduled day in Queensland, not the opening of polling booths.",
+    "source": "https://www.ecq.qld.gov.au/elections/election-events",
+    "checked": "2026-10-16"
+  },
+  "earlyVoting": {
+    "opens": null,
+    "closes": null,
+    "locations": [],
+    "status": "No Redland 2028 early-voting timetable verified in this first pass. Dates, eligibility, opening hours and locations will be linked when ECQ publishes the election details.",
+    "source": "https://www.ecq.qld.gov.au/elections/election-events",
+    "checked": "2026-10-16"
+  },
+  "byElection": {
+    "id": "redland-mayoral-vacancy-2026-10-28",
+    "checked": "2026-10-30",
+    "date": null,
+    "countdownTarget": null,
+    "pollEndsAt": null,
+    "timingStatus": "awaiting-confirmation",
+    "dateBasis": "No Redland polling date or time was listed on the ECQ election-events page checked 30 October 2026, Australia/Brisbane. Council has agreed to request a full postal ballot, subject to electoral approval processes; this is not a confirmed voting method or timetable. No date is estimated.",
+    "status": "Mayoral office vacant; by-election required. Council has agreed to request a full postal ballot, subject to approval. ECQ polling and nomination timetable awaiting confirmation.",
+    "source": "https://www.ecq.qld.gov.au/elections/election-events",
+    "earlyVotingOpens": null,
+    "vacancy": {
+      "date": "2026-10-28",
+      "formerMayor": "Jos Mitchell",
+      "actingMayor": "Julie Talty",
+      "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+      "published": "2026-10-28",
+      "checked": "2026-10-30"
+    },
+    "nominationDeadline": {
+      "date": null,
+      "countdownTarget": null,
+      "timingStatus": "awaiting-confirmation",
+      "source": "https://www.ecq.qld.gov.au/elections/election-events",
+      "checked": "2026-10-30",
+      "dateBasis": "Await the event-specific ECQ nomination day and deadline. No nomination date has been inferred."
+    },
+    "sources": [
+      {
+        "id": "rcc-mayoral-vacancy-20261028",
+        "title": "Council confirms mayoral vacancy following resignation",
+        "url": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+        "publisher": "Redland City Council / Redlands Coast Today",
+        "published": "2026-10-28",
+        "checked": "2026-10-30",
+        "supports": "Resignation received, vacancy, by-election required, Julie Talty continuing as Acting Mayor."
+      },
+      {
+        "id": "rcc-postal-request-20261029",
+        "title": "Council to seek full postal vote for Mayoral by-election",
+        "url": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/",
+        "publisher": "Redland City Council / Redlands Coast Today",
+        "published": "2026-10-29",
+        "checked": "2026-10-30",
+        "supports": "Council agreed to request an ECQ recommendation for a full postal ballot, subject to electoral requirements and approvals. No voting method or timetable approval is announced.",
+        "accessNote": "Official publisher search-index text was available; direct article retrieval failed. Council vacancy article and ECQ event list were directly readable."
+      },
+      {
+        "id": "ecq-events-20261028",
+        "title": "ECQ election events",
+        "url": "https://www.ecq.qld.gov.au/elections/election-events",
+        "publisher": "Electoral Commission of Queensland",
+        "checked": "2026-10-30",
+        "supports": "No Redland event timetable listed at this check; 2024 local elections held 16 March 2024."
+      },
+      {
+        "id": "qld-local-government-act",
+        "title": "Local Government Act 2009, sections 161, 164 and 165",
+        "url": "https://www.legislation.qld.gov.au/view/whole/html/current/act-2009-017#sec.164",
+        "publisher": "Queensland Legislation",
+        "checked": "2026-10-28",
+        "supports": "Mayor replacement and acting arrangements; final part begins at third anniversary of previous quadrennial election."
+      },
+      {
+        "id": "qld-local-government-electoral-act",
+        "title": "Local Government Electoral Act 2011, sections 24, 25 and 27",
+        "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-09-03/act-2011-027#sec.25",
+        "publisher": "Queensland Legislation",
+        "checked": "2026-10-28",
+        "supports": "Ordinary by-election timing, notice and nomination/poll intervals; nominations before noon. This is not an issued election timetable."
+      },
+      {
+        "id": "ecq-candidate-guidance",
+        "title": "ECQ local government candidate guidance",
+        "url": "https://www.ecq.qld.gov.au/election-participants/local-election-participants/candidates",
+        "publisher": "Electoral Commission of Queensland",
+        "checked": "2026-10-28",
+        "supports": "Eligibility, training, nomination and campaign obligations; guidance does not announce Redland nominations."
+      }
+    ],
+    "postalVotingProposal": {
+      "status": "council-request-approved",
+      "approvalStatus": "awaiting-official-confirmation",
+      "published": "2026-10-29",
+      "checked": "2026-10-30",
+      "source": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/",
+      "summary": "On 29 October, Council agreed to ask ECQ to recommend a full postal ballot to the Minister for Local Government. This is a request subject to electoral requirements and approval processes, not a confirmed voting method or election timetable."
+    }
+  },
+  "refreshTriggers": [
+    "Official vacancy notice or ECQ election notice",
+    "Election date changed by regulation",
+    "ECQ early-voting or postal-voting timetable published or changed",
+    "New candidate acceptance, withdrawal or declaration",
+    "Election day reached; verify status and results"
+  ],
+  "reviewScope": "30 October 2026 Australia/Brisbane review concerns the confirmed mayoral vacancy, Council's 29 October postal-ballot request decision and the still-unconfirmed ECQ timetable only. Legislation, candidate guidance, statistics, boundaries, ordinary-cycle dates and historical records retain their earlier source checks."
+}

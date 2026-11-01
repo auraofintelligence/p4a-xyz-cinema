@@ -23,6 +23,17 @@ def validate(election):
             assert item['dateBasis'].strip()
         elif item['timingStatus'] == 'awaiting-confirmation':
             assert item['date'] is None and item['countdownTarget'] is None
+    candidates = bye.get('candidates', [])
+    assert len({c['id'] for c in candidates}) == len(candidates)
+    for candidate in candidates:
+        assert candidate['status'] in ('announced-intention', 'accepted-nomination', 'withdrawn')
+        assert candidate['source'].startswith('https://')
+        date.fromisoformat(candidate['checked'])
+        date.fromisoformat(candidate['announced'])
+        if candidate['status'] == 'accepted-nomination':
+            assert (candidate.get('nominationSource') or '').startswith('https://www.ecq.qld.gov.au/')
+        elif candidate['status'] == 'announced-intention':
+            assert candidate['nominationStatus'] == 'not-verified'
     if bye.get('pollEndsAt'):
         end = datetime.fromisoformat(bye['pollEndsAt'])
         start = datetime.fromisoformat(bye['countdownTarget'])
@@ -49,6 +60,15 @@ def milestone(item, title, kind):
 <p class="local-source"><a href="{e(item['source'])}" target="_blank" rel="noopener noreferrer">Official ECQ timetable and updates</a></p></article>'''
 
 
+
+def candidate_announcements(page, bye, link):
+    candidates = bye.get('candidates', [])
+    if not candidates:
+        return ''
+    rows = ''.join(f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p><p class="local-source">Announced {escape(c["announced"])} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],"Read the primary announcement")}</p></article>' for c in candidates)
+    return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3><p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media.</p></div>'
+
+
 def render(page, election, link):
     validate(election)
     bye = election['byElection']; vacancy = bye['vacancy']
@@ -71,6 +91,7 @@ def render(page, election, link):
 <p>{escape(timing_copy)} Check {l('ecq-events-20261028', 'ECQ’s election-events page')}. These panels begin only when each official date and time is confirmed.</p>
 <div class="local-grid two">{milestone(bye, 'Polling day', 'poll')}{milestone(bye['nominationDeadline'], 'Candidate nomination deadline', 'nominations')}</div>
 <p class="local-source">All times are Brisbane time (AEST, UTC+10). A legal scheduling rule is not an announced polling date. Check ECQ for enrolment, early/postal voting, polling places and any changed notice.</p>
+{candidate_announcements(page, bye, link)}
 <details><summary>How the replacement process works</summary>
 <ol class="local-list"><li><strong>A vacancy, then an election.</strong> A mayoral vacancy in the beginning or middle of a council term is filled by a by-election. In the final part it is filled by appointing a sitting councillor. The final part of this term begins on 16 March 2027, the third anniversary of the 2024 election; the 28 October 2026 vacancy is earlier. The deputy mayor acts during the vacancy. {l('qld-local-government-act', 'Local Government Act 2009, ss 161, 164–165')}.</li>
 <li><strong>Wait for the official notice.</strong> The returning officer fixes the by-election day. The ordinary rule is within two months of the vacancy; this is not a confirmed event date. The notice sets a nomination day 8–18 calendar days after publication and 18–42 days before polling. {l('qld-local-government-electoral-act', 'Local Government Electoral Act 2011, ss 24–25')}.</li>
