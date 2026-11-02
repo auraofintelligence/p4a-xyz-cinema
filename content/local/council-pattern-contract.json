@@ -543,7 +543,8 @@
       "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json",
       "tools/publication-qa/redland-seed-removal-2026-11-01-cloud-browser.json",
       "tools/publication-qa/redland-candidate-2026-11-01-cloud-browser.json",
-      "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json"
+      "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
+      "tools/publication-qa/favicon-2026-11-02-cloud-browser.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -617,15 +618,15 @@
       },
       {
         "path": "states/qld/councils/redland/index.html",
-        "sha256": "1289cc891c3608e2cb88359a57dfe9d08709aa762b02c9644d889af5e42138d9"
+        "sha256": "38161e13ae705c88d7504c78cd213a34b57f55dd6850c99fbe5a9149383c4062"
       },
       {
         "path": "states/qld/councils/redland/candidates/index.html",
-        "sha256": "092e2bbc021545d664f19bf4231a657edcbdd85566aba2bb2919dbce45814417"
+        "sha256": "a34865f63737c98998ebae5b7e947b37aa015f6a2018a3279edd5b562d68506d"
       },
       {
         "path": "states/qld/councils/redland/sources/index.html",
-        "sha256": "63753a9c01b8e806e4896ff7d7db7157a122d03b9396b7eb1bc196d2d28b336a"
+        "sha256": "eb1fb74c3966eb9280749a53e3fcd5104235fd656a478f90778a8d9e1cc19e61"
       },
       {
         "path": "tools/publication-qa/redland-candidate-2026-11-01-fixture.html",
@@ -641,7 +642,7 @@
       },
       {
         "path": "tools/build-redland.py",
-        "sha256": "0a9d9f8fafbf08d32e6ab8ce22dcd822dd1f160aa34e6c517923c6fe7bba99bb"
+        "sha256": "de6df8acb336ff2ff4c9650f8eb31b77116b8f44ef94b6fda3660eeac9ec7896"
       },
       {
         "path": "tools/verify-redland.py",
@@ -649,11 +650,11 @@
       },
       {
         "path": "states/qld/councils/redland/possibilities/index.html",
-        "sha256": "03e336804d57b25b325a848e4dde1e4fcf0983fee33d98cde18247e9c364d7d0"
+        "sha256": "fac5620e731ddb599ff7f2cb264fc50cbaf30c56893336af4b6de5be88275326"
       },
       {
         "path": "states/qld/councils/redland/explore/index.html",
-        "sha256": "28de54cb9146b9a524262e55a9684a77799d2d00f03df523d136c6c59344a6fc"
+        "sha256": "eea98d13ee7b7e55932935f5d12f478a32b14dea36b50f435378535e5989d2e8"
       },
       {
         "path": "tools/publication-qa/redland-album-2026-11-02-fixture.html",
@@ -662,6 +663,10 @@
       {
         "path": "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
         "sha256": "eea362e8a3916f08a671c6509556c2de27d7d9e170229ccc98303bd3470397bc"
+      },
+      {
+        "path": "tools/publication-qa/favicon-2026-11-02-cloud-browser.json",
+        "sha256": "95eac02fd727dd29189387e855000712c484d2e604713343966ce843c2e081d7"
       }
     ],
     "requiredHumanChecks": [
@@ -720,6 +725,11 @@
       "reviewedOn": "2026-11-02",
       "path": "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
       "scope": "Focused current-album editorial meanings, directly related Explore meanings and source/date register. No new civic, clinical or election facts."
+    },
+    "faviconReview": {
+      "reviewedOn": "2026-11-02",
+      "path": "tools/publication-qa/favicon-2026-11-02-cloud-browser.json",
+      "scope": "Favicon-only maintenance; no body content, styles, civic facts or dates changed."
     }
   },
   "dateInventories": [

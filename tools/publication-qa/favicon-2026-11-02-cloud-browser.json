@@ -1,0 +1,508 @@
+{
+  "reviewedOn": "2026-11-02",
+  "checkedAt": "2026-11-02T03:13:16.031011+00:00",
+  "scope": "Favicon-only maintenance; no body content, styles, civic facts or dates changed.",
+  "method": "Actual cloud Chromium localpreview port8789, DOM icon URL inspection across11routes and direct SVG rendering. Static all-route checker and exact icon-only HTML diff.",
+  "result": "PASS",
+  "checks": [
+    "11representative public/source pages at different directory depths all resolve existing assets/favicon.svg.",
+    "Direct SVG renders P4A; existing artwork unchanged.",
+    "118HTML changes are solely favicon markup:19missing local declarations,98source fixes,1sitemap public mirror.",
+    "98room publisher results equal earlier output after isolated icon rebasing; publicpage content unaffected.",
+    "All2291public routes and98source mirrors pass local favicon existence/SVG checks."
+  ],
+  "limitations": [
+    "No physical-device cache or browser-chrome tab-icon certification; existing cached absence may require reload.",
+    "SVG artwork unchanged; no optional ICO/apple-touch additions."
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "content/rooms/aged-care-scams.html",
+      "sha256": "1635919a9407db4e82f1ca7d22c4d857279774e2b89c54a548ef26686d4ff232"
+    },
+    {
+      "path": "content/rooms/ai-copyright.html",
+      "sha256": "57ee88b784e328d292f93a1a3eaba44cbed7b8bf5ef4b4e6343207e2c2659886"
+    },
+    {
+      "path": "content/rooms/ai-pdoom.html",
+      "sha256": "f90ee4c8c3ec0e63eed9a1da39125c3f787c106794fdd0cdb62fde5953bcd5b0"
+    },
+    {
+      "path": "content/rooms/ai-scams.html",
+      "sha256": "12b61883f8188a11d9ef57716cb42a73ab7630f5d0ac1012cd3c6440ea8f0c76"
+    },
+    {
+      "path": "content/rooms/ancient-aliens.html",
+      "sha256": "cc74c77016322a98ebb0760423e23e9f816cf4e4211112883807d00981e285da"
+    },
+    {
+      "path": "content/rooms/aura-clinical-path.html",
+      "sha256": "3eae03db273a7f07161fb06f13f29ef43d4dae60002844dc7f19eb3271925842"
+    },
+    {
+      "path": "content/rooms/aura-genesis.html",
+      "sha256": "7cb9b5d5bc7b5683d7797c97eb25c7a4223e92cac8c1bf79fbf148c696e4a051"
+    },
+    {
+      "path": "content/rooms/child-safety.html",
+      "sha256": "db8f7d025335aa340c842a87a88dff406e4c8e45a97b7e2b57103cc362b0586d"
+    },
+    {
+      "path": "content/rooms/civic-ledger.html",
+      "sha256": "dcc9d3f199240120294150f6a0834ead26f87efcc80d766e4c45b4355575483f"
+    },
+    {
+      "path": "content/rooms/civic-pathway.html",
+      "sha256": "e872519f520fe2e6d784d381e5dcc0b78bf8f137b06a564e1cac7eca49d088d0"
+    },
+    {
+      "path": "content/rooms/civic-surges.html",
+      "sha256": "8860ee549875c98848731681e0609e59f0c6f6737289cf5c8a941f28a23ba096"
+    },
+    {
+      "path": "content/rooms/closing-the-gap.html",
+      "sha256": "15757c992efe03ae950e3a3e9068e4bb522848a493c61c35625c5b1ec618ce4c"
+    },
+    {
+      "path": "content/rooms/community-insurance.html",
+      "sha256": "b629768e499197f2d4737336ec393c9bb7140f8a993598e2d5f18954a0e34636"
+    },
+    {
+      "path": "content/rooms/dementia-aged-care.html",
+      "sha256": "ded8084ddc4bf5d439ff23c3d45bfb65cb841c573031978bcebda6869138604c"
+    },
+    {
+      "path": "content/rooms/fair-go.html",
+      "sha256": "cabbc8fae0d0ca5fe4d5c87ff11ca0854a975d54b1021539fe5b647635e40d15"
+    },
+    {
+      "path": "content/rooms/family-choices.html",
+      "sha256": "e073f1dc28ae87fbbbcf6bf60de9e8d641771e887775166942b6f3e6d7775753"
+    },
+    {
+      "path": "content/rooms/family-violence.html",
+      "sha256": "7cbfad3f1a4b999e2f291951396940a5d200bcc4664a1fc581e8113e61e46fd2"
+    },
+    {
+      "path": "content/rooms/food-security.html",
+      "sha256": "72bb374b597082c322c679638ac7d8052256b7bc9896b6956acdad951806851d"
+    },
+    {
+      "path": "content/rooms/fuel.html",
+      "sha256": "eadf32f33dfe4e85f1e0e7184d70858760cca92466a63f091e1f6a4133478dda"
+    },
+    {
+      "path": "content/rooms/gambling-harm.html",
+      "sha256": "ee03dca35cac5f41b7aaf177d101747e1d02f1eb5f8d6f3073af5d31c700bfa6"
+    },
+    {
+      "path": "content/rooms/gender-pay-gap.html",
+      "sha256": "842598725acc7cda50e4099a0d0074d037421dc0e95def306b5292290d90248d"
+    },
+    {
+      "path": "content/rooms/housing-simulations.html",
+      "sha256": "b2a2b1bc2523ebb647097055041acc1c9d80fde676dd793eefccca494cdab5bc"
+    },
+    {
+      "path": "content/rooms/international-wars.html",
+      "sha256": "9cbb911deb77ab42d98d8ccffa36e0d32e806ae3e034e2cd453b432265bde055"
+    },
+    {
+      "path": "content/rooms/maps.html",
+      "sha256": "f85c05d2de65b86954100658577c2eb8ad07a4de518ea1cad00b8eeeb3571420"
+    },
+    {
+      "path": "content/rooms/marriage-divorce.html",
+      "sha256": "d09f293b7af89fb8d1a6d2329529f8bf88067b1fed0cda0f4d700741ba08c1f6"
+    },
+    {
+      "path": "content/rooms/mental-health.html",
+      "sha256": "1559d2bea387fdfb841934c97bac50c5d143c3b37be1b425d6d63b3e60755d18"
+    },
+    {
+      "path": "content/rooms/migration-equations.html",
+      "sha256": "905e576ae7f655c572895c3f4c875f77f0fd1bc0c23c13e8472ede965ad1286b"
+    },
+    {
+      "path": "content/rooms/multinational-tax.html",
+      "sha256": "dc909c571b55feacb3e21802cf93cef6901e9e37212998b0b52535921d591bfa"
+    },
+    {
+      "path": "content/rooms/ndis-scams.html",
+      "sha256": "f84e110ab2e656ed936f6495b00e1b170c19f3f81a6e3ec14292e92cb37f01e4"
+    },
+    {
+      "path": "content/rooms/online-safety.html",
+      "sha256": "d9692d88dbc316a0646a066c877b19a7a13d71ce6aaeb2174398d3782baa3c2b"
+    },
+    {
+      "path": "content/rooms/price-tax.html",
+      "sha256": "c13a18805312772ba390cdfb522d7a784c5c13cb85814edebe9742436cec9708"
+    },
+    {
+      "path": "content/rooms/psychedelic-mental-health.html",
+      "sha256": "54be5dcc21d545fb30bbbda1365f30c8329807c8e2059dca70933c9b37c45682"
+    },
+    {
+      "path": "content/rooms/ptsd.html",
+      "sha256": "c71d7c31d6bdcf905a2166238acf27b8a468edfc9dfeba552beefb59c6a51111"
+    },
+    {
+      "path": "content/rooms/public-assets.html",
+      "sha256": "559db7e4a0be2775fa33cc0749a798e16ad0f70b0fbd0f419b86bd7d0867ff17"
+    },
+    {
+      "path": "content/rooms/rabbit-hole.html",
+      "sha256": "66a2237a6bd03bf08af98abb052a4e31d375970762410fb3a7b391332408bdb4"
+    },
+    {
+      "path": "content/rooms/restricted-plants.html",
+      "sha256": "7c7f078846ffdb7f085d2502e6d11b598da4f62b32e824ae9dd504a85b04388d"
+    },
+    {
+      "path": "content/rooms/security-fallacies.html",
+      "sha256": "2f1ae228e1f42de0178b35189ed15c88520eb3d40e41384c6c8b305e542ef462"
+    },
+    {
+      "path": "content/rooms/site-map.html",
+      "sha256": "069f24c868560c8b91f6c3bb2260b070e74a084e02c500bf0987d70ffdc3e1c8"
+    },
+    {
+      "path": "content/rooms/sovereignty-stack.html",
+      "sha256": "c2688c82975c7e902b055bc88c1b2955aaefa7df3c1c4feabb3fcb1f0cc3b16e"
+    },
+    {
+      "path": "content/rooms/super-housing.html",
+      "sha256": "cda1a1e9c9695ca05b8594ff152e01bd3087adc169d3117b7da5e0f66f77437e"
+    },
+    {
+      "path": "content/rooms/super-investments.html",
+      "sha256": "4c64db0aec325ae395e22056b27d91a1f42f6e6d3428eeaca9c1724b4e1d1ac2"
+    },
+    {
+      "path": "content/rooms/tobacco.html",
+      "sha256": "0b39c86e1ba231337a4a02d035da5d3f4d321ea7644546d9c96862bce4026e4d"
+    },
+    {
+      "path": "content/rooms/treaty-atlas.html",
+      "sha256": "95d88ce26d664f01ca794710a3185972ee93b36d73991b425508f516c0c9f2e3"
+    },
+    {
+      "path": "content/rooms/truth-engine.html",
+      "sha256": "77eb261c49b50da321da64d1cc2ac777c4cccfde42bf3ba70fc4a7a9d7fd6426"
+    },
+    {
+      "path": "content/rooms/twinkle-aged-care-scams.html",
+      "sha256": "2b88bc2c727f7b1eb9e1dd4121c4626bcec8e2469db8971f1c0191e6c4a043bf"
+    },
+    {
+      "path": "content/rooms/twinkle-ai-copyright.html",
+      "sha256": "c1ab9f0637b3575f6a9ad2154bb8a87ed285373b4c7646c068fc2a029de2a407"
+    },
+    {
+      "path": "content/rooms/twinkle-ai-pdoom.html",
+      "sha256": "f6088c64216cdae2a3c58da650f1c30e245ac0677c685db043a9836d4397e641"
+    },
+    {
+      "path": "content/rooms/twinkle-ai-scams.html",
+      "sha256": "2c1f8ab952c51086421abb8d6608e80c3b13d05c3943e189e985013209672d07"
+    },
+    {
+      "path": "content/rooms/twinkle-ancient-aliens.html",
+      "sha256": "9969cb8f0cf3c0bf584c51d6c8579b10ccb994906e2e9276961790e244720498"
+    },
+    {
+      "path": "content/rooms/twinkle-aukus.html",
+      "sha256": "6842d01a7f4be66862c9e8a97a7874372bc93a0780ecb5c5850a92ba5a1a6d58"
+    },
+    {
+      "path": "content/rooms/twinkle-beer-tax.html",
+      "sha256": "776f5fd1df05db0546dbb88eab3582d48af529d987d03ed905dcce2666115cbe"
+    },
+    {
+      "path": "content/rooms/twinkle-breaches.html",
+      "sha256": "9f8e3910e410f33366c5edc51d93c0df2860d6829ccdeb15bc6c52cbb7f2da90"
+    },
+    {
+      "path": "content/rooms/twinkle-child-safety.html",
+      "sha256": "ebf86dc8b33e77eeb272cf1229824478373517b6e72b57f5b6fa6aa835e25914"
+    },
+    {
+      "path": "content/rooms/twinkle-childcare.html",
+      "sha256": "b5093efcc5ff1abdbcdd4056dac847c239f9be3fd709e81a6cb23bf204f33d11"
+    },
+    {
+      "path": "content/rooms/twinkle-closing-the-gap.html",
+      "sha256": "36a8b5cc84044e774f29b30c7ff59e3ca136ec181a956b169cf3e62ec872313d"
+    },
+    {
+      "path": "content/rooms/twinkle-datacentres.html",
+      "sha256": "0eb53351ab77a4d0dd3b38888c769a4411caa2263dcae82e22207148de41acab"
+    },
+    {
+      "path": "content/rooms/twinkle-deep-time.html",
+      "sha256": "b0dc71e371b7a89243856066307e995531ef0ab3be0b883358b5b10312cc3aa4"
+    },
+    {
+      "path": "content/rooms/twinkle-donations.html",
+      "sha256": "da672f09b2ec9729c3213d7e36250a93f525ed407fec55011e9dce6d96deff06"
+    },
+    {
+      "path": "content/rooms/twinkle-family-choices.html",
+      "sha256": "5154e2ee362b808c00d58b43b892f01c72b0a58ff5e0dd015aaaef21397a2a41"
+    },
+    {
+      "path": "content/rooms/twinkle-family-violence.html",
+      "sha256": "0a54b156411bb1dc50bd3ed408dd50b954ce1eabe0db312d5c2c83f51909652c"
+    },
+    {
+      "path": "content/rooms/twinkle-food.html",
+      "sha256": "65944533d80ebad8ba39ef62c4c15a48b3326049c86ec1d68038b5284a533629"
+    },
+    {
+      "path": "content/rooms/twinkle-fuel.html",
+      "sha256": "58de28cf144daf6e9b9d91de557671fc7400314183b215c5cec8cb03c8bf8652"
+    },
+    {
+      "path": "content/rooms/twinkle-gambling-harm.html",
+      "sha256": "3b13d53a8bf8f5235ddff818079e26628524104f8007a2f0e5f51584021e5918"
+    },
+    {
+      "path": "content/rooms/twinkle-gender-pay-gap.html",
+      "sha256": "201c444f23f90fdfda6e863894ee68b14d4b68f0f70caab9eb22ff7d4a937fd7"
+    },
+    {
+      "path": "content/rooms/twinkle-health.html",
+      "sha256": "aac076975f84fea4754abb0d833febfaec997de7316dfadac1b9e7aca78d99de"
+    },
+    {
+      "path": "content/rooms/twinkle-housing.html",
+      "sha256": "6d6f547cf56de2d6193580ca1d65b686db5c455443b872aff55bbebf6a79b7c2"
+    },
+    {
+      "path": "content/rooms/twinkle-insurance.html",
+      "sha256": "0b52c5471a926ac3fd3785e13cee33560c75c66ea54abe49a35d32b8c46a8de8"
+    },
+    {
+      "path": "content/rooms/twinkle-international-wars.html",
+      "sha256": "974e05efae8315cb1ad197ef1c7c05b5acec927ec556776bf808f42a4baa9c08"
+    },
+    {
+      "path": "content/rooms/twinkle-marriage-divorce.html",
+      "sha256": "ab70e41cd9705ddef5a959e3e33ff7a50e6b38cc2f344b9cace247df989380ef"
+    },
+    {
+      "path": "content/rooms/twinkle-mental-health.html",
+      "sha256": "a1c7f40694684c83b584f3678102948418a1fc2e6b95bb8d1f7736f38370f00b"
+    },
+    {
+      "path": "content/rooms/twinkle-migration-equations.html",
+      "sha256": "725dd42127d63405ac79d53d8dffdd1cf5b3149946b5359a0577162924e9d70e"
+    },
+    {
+      "path": "content/rooms/twinkle-multinational-tax.html",
+      "sha256": "2e30efe34d78178e9102c5aac30f8fe540653d546ef093eda7b5d6ac58c7ec97"
+    },
+    {
+      "path": "content/rooms/twinkle-ndis-scams.html",
+      "sha256": "64d6a89c93e851bbc4d19a112fe50cf763f19e73337909033f5b793f8fa3ff02"
+    },
+    {
+      "path": "content/rooms/twinkle-olympics.html",
+      "sha256": "b8b6026d142620005c8c0acbd7d5b0cfc853b8fb68ad1e169d0470624764a087"
+    },
+    {
+      "path": "content/rooms/twinkle-online-safety.html",
+      "sha256": "cc3d160edaecebbc1f1c18e6422de52bd757dc7550bd6bd26f5c89a81ecc3463"
+    },
+    {
+      "path": "content/rooms/twinkle-political-lies.html",
+      "sha256": "116731879c64dd4446be04ccc7080c8dcad0bf40816aad5d1110913ac607fc47"
+    },
+    {
+      "path": "content/rooms/twinkle-power.html",
+      "sha256": "2a1f55338bbf407824e991531098da604decc0a71c935a41146dd82629087684"
+    },
+    {
+      "path": "content/rooms/twinkle-psychedelic-mental-health.html",
+      "sha256": "432140924f38d45d7024c2f4737aac9605d58b3956cd9fa1893c2cfe08e7b8cd"
+    },
+    {
+      "path": "content/rooms/twinkle-ptsd.html",
+      "sha256": "56ccedbd7b0c664be8729157e5e42d0b1064d9f73232a6e01a4670ab8d3993ff"
+    },
+    {
+      "path": "content/rooms/twinkle-resources.html",
+      "sha256": "cf2b1d7b01aca2351ced1fe5b9f88209f768577466b22fb05f51773502183064"
+    },
+    {
+      "path": "content/rooms/twinkle-restricted-plants.html",
+      "sha256": "852e12a7d72c280cad14e2ba8d5b7e2d1b789a03d87f19716934fe7ece4186e5"
+    },
+    {
+      "path": "content/rooms/twinkle-revolving-door.html",
+      "sha256": "6c4995d18cd92a19a020ec5d2d2d2260a288b50dd46904ef58b67fe23164534f"
+    },
+    {
+      "path": "content/rooms/twinkle-security-fallacies.html",
+      "sha256": "8a202610eb84dc0df34ef9b3406d59d359690e32ab2e3b8ef3ab7c23c2d5a6a3"
+    },
+    {
+      "path": "content/rooms/twinkle-super-housing.html",
+      "sha256": "7104d0d1dd169d3e904632a0d7b29b9256dfb2736151b95e96d9e6087d3b31f5"
+    },
+    {
+      "path": "content/rooms/twinkle-super-investments.html",
+      "sha256": "4cb46cfeca8edb08c6a7c7bc98f948ba8b2a8310e98107896377d864a20a66f0"
+    },
+    {
+      "path": "content/rooms/twinkle-tobacco.html",
+      "sha256": "30814b79741e6e03e424f5baf6fa4750046ebba586273e4ba98b06f5dea9d639"
+    },
+    {
+      "path": "content/rooms/twinkle-tolls.html",
+      "sha256": "1ca8f9560a47a7c853036d47a6ad7549bfa7989e92454d3b37b6261b50e78348"
+    },
+    {
+      "path": "content/rooms/twinkle-treaty.html",
+      "sha256": "b427669784220ccac617b0e383e1a45e895a6213eda7db86b422fd252ed62b55"
+    },
+    {
+      "path": "content/rooms/twinkle-triple-zero.html",
+      "sha256": "2be70822074235ff67ff52e20856f6e6c1f44ef236e939f2cb500d5ab8a3b60a"
+    },
+    {
+      "path": "content/rooms/twinkle-uap.html",
+      "sha256": "abca0bbadfdd61df2982784766103261388c4cd22f63f8ea7494012a60f67f9f"
+    },
+    {
+      "path": "content/rooms/twinkle-wealth-inequality.html",
+      "sha256": "be0ca1807a611943274706909a2938a8a6456f3f911a41272568ee9dd105e7f8"
+    },
+    {
+      "path": "content/rooms/twinkle-workforce.html",
+      "sha256": "cd5d9e2b548b19c1ae653d19ebb5c4dcde73af542cb06781e9a9c95bde270737"
+    },
+    {
+      "path": "content/rooms/twinkle-youth-crime.html",
+      "sha256": "1fe48a4be100709df37c2922aea93269ba8b347238f4a070bf4b906a59cb7d74"
+    },
+    {
+      "path": "content/rooms/twinkle.html",
+      "sha256": "7f4d46221fbbf6fb5e2454ff92e721271b1bd1c482ebde11dd8acea2c8105cf7"
+    },
+    {
+      "path": "content/rooms/wealth-inequality.html",
+      "sha256": "260f4f4c294396a769b36d254d8b536b267547e5007b473efa16eeb6f76b06ff"
+    },
+    {
+      "path": "content/rooms/web3-sensorium.html",
+      "sha256": "9cf47da7c078f9586b68e5cd4e623c24c227b48928ca0091a8266a0fb7eb898c"
+    },
+    {
+      "path": "content/rooms/workforce-transition.html",
+      "sha256": "55f256aca5a9cd6f69bec25a11259f1878232791cda1603f0055f845c9a1ab3c"
+    },
+    {
+      "path": "content/rooms/youth-crime.html",
+      "sha256": "d1ec16f0aa885b431f390c2126f76246944ce04da1d729a91736271730b9afa6"
+    },
+    {
+      "path": "pages/site-map.html",
+      "sha256": "069f24c868560c8b91f6c3bb2260b070e74a084e02c500bf0987d70ffdc3e1c8"
+    },
+    {
+      "path": "states/qld/councils/index.html",
+      "sha256": "bd5b27c16123e0ac7c6ee618facac2aca26d5abb584b80faebb22b57e4054e73"
+    },
+    {
+      "path": "states/qld/councils/redland/action/index.html",
+      "sha256": "699ba51c61e08bfe6daf4d90b7ae0900e2f53106636c3d9f17f91f50a9b015cc"
+    },
+    {
+      "path": "states/qld/councils/redland/candidates/index.html",
+      "sha256": "a34865f63737c98998ebae5b7e947b37aa015f6a2018a3279edd5b562d68506d"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/1/index.html",
+      "sha256": "6a1517dcfe91713eed148fe194b2fd206da0ef76d907f70ed1017ec1c5faeedd"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/10/index.html",
+      "sha256": "79f8989e203338ec0c48b3448ec76bc401db260cea8a360f8ed686e055d0faaa"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/2/index.html",
+      "sha256": "46504121939dd47c2b31ba4834ef566667c1fa718cf5cf34757ab63abab9204a"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/3/index.html",
+      "sha256": "d7d1e846b75edff2dc8c60479cacf4178ab8d1f8001349c7374eb53f8e5b702a"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/4/index.html",
+      "sha256": "f74e747f7a5a42dbb0527a5387be6f4e50960ddaa90f4cec993fbeec009594ac"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/5/index.html",
+      "sha256": "f10aa72d40e94866578d70a6fba52f3f757fed65afa1bf93898e0c77afadb061"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/6/index.html",
+      "sha256": "4d29ab40338c2e32f0907ea2ae46525466290c1286ecfbf9c18925082b125ed7"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/7/index.html",
+      "sha256": "6a997a1c8d8f00fd40bafecd381f138c70eab739b095bc6d34faa7d0e79fc6d2"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/8/index.html",
+      "sha256": "894c7c7c27c7b6e2b2f0c017091159e1e810a179a33d5c742b01aae035354b79"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/9/index.html",
+      "sha256": "94a561d50ea6d766c236932e1a06c51ed7f8cd2222e06491f64c6f0111f97830"
+    },
+    {
+      "path": "states/qld/councils/redland/divisions/index.html",
+      "sha256": "45f589abe652fdba6c3ce27e8dc220c62302817d86b129fdb828e0820d326ccc"
+    },
+    {
+      "path": "states/qld/councils/redland/explore/index.html",
+      "sha256": "eea98d13ee7b7e55932935f5d12f478a32b14dea36b50f435378535e5989d2e8"
+    },
+    {
+      "path": "states/qld/councils/redland/index.html",
+      "sha256": "38161e13ae705c88d7504c78cd213a34b57f55dd6850c99fbe5a9149383c4062"
+    },
+    {
+      "path": "states/qld/councils/redland/outcomes/index.html",
+      "sha256": "c0d7fe2d8a600f8a335ade6ba887e4a000e06e17a08d06639e9bd18722861326"
+    },
+    {
+      "path": "states/qld/councils/redland/possibilities/index.html",
+      "sha256": "fac5620e731ddb599ff7f2cb264fc50cbaf30c56893336af4b6de5be88275326"
+    },
+    {
+      "path": "states/qld/councils/redland/sources/index.html",
+      "sha256": "eb1fb74c3966eb9280749a53e3fcd5104235fd656a478f90778a8d9e1cc19e61"
+    },
+    {
+      "path": "tools/build-redland.py",
+      "sha256": "de6df8acb336ff2ff4c9650f8eb31b77116b8f44ef94b6fda3660eeac9ec7896"
+    },
+    {
+      "path": "tools/build-policy-rooms.py",
+      "sha256": "d8830fb88140cdc0c4cf022c057bcc1e7eb9635c77a99aa72f3d05fa24a4612d"
+    },
+    {
+      "path": "tools/check-favicons.py",
+      "sha256": "73d167978d9bdb7e5e8cdd5643ffbfb97a6bdbccabd38a9f0b0a18d060e092e7"
+    },
+    {
+      "path": "tests/test_favicons.py",
+      "sha256": "543fa77103a4fc7c9c4bc506f0ae53fcf5e6b303d22238324004e7d390658e36"
+    }
+  ]
+}

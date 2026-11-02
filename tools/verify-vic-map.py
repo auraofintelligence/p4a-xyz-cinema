@@ -38,7 +38,7 @@ def main():
   for href in links.paths:
    u=urlsplit(href)
    if u.scheme or u.netloc or not u.path:continue
-   assert (page.parent/unquote(u.path)).resolve().exists(),(name,href)
+   assert ((ROOT/unquote(u.path).lstrip("/")) if u.path.startswith("/") else page.parent/unquote(u.path)).resolve().exists(),(name,href)
   if name in ['states/vic/index.html','pages/states.html']:
    for date in re.findall(r'data-(?:election-date|countdown)="([^"]+)"',s):assert re.match(r'\d{4}-\d\d-\d\dT',date),date
   if name=='states/vic/architecture/index.html':assert 'Local councils first' in s and 'data-map-layer-choice="councils"' in s

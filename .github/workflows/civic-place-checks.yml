@@ -37,6 +37,10 @@ jobs:
         run: |
           python tools/verify-redland.py
           python tools/verify-redland-election.py
+      - name: Check favicon paths on public pages and source mirrors
+        run: |
+          python tools/check-favicons.py
+          python -m unittest discover -s tests -p test_favicons.py
       - name: Check public discovery and preserved licence
         run: |
           python tools/check-civic-navigation.py
