@@ -71,7 +71,10 @@ for song in song_sources['songs']:
     for alias in song['aliases']:
         assert alias.casefold() not in song_aliases,f'Duplicate song alias: {alias}'
         song_aliases[alias.casefold()]=song['url']
-song_names=re.compile(r'(?<!\w)(?:'+'|'.join(re.escape(a) for a in sorted(song_aliases,key=len,reverse=True))+r')(?!\w)',re.IGNORECASE)
+# Match creator-title casing: a generic lowercase phrase (for example the journey's
+# joyful responsible abundance tagline) is not a named song reference.
+song_labels={a for song in song_sources['songs'] for a in song['aliases']}
+song_names=re.compile(r'(?<!\w)(?:'+'|'.join(re.escape(a) for a in sorted(song_labels,key=len,reverse=True))+r')(?!\w)')
 class SongReferences(HTMLParser):
     def __init__(self,text):
         super().__init__();self.anchor=None;self.references=[];self.feed(text)

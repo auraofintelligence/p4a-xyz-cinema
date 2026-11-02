@@ -71,7 +71,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-01"
+        "2026-11-02"
       ]
     },
     {
@@ -80,6 +80,9 @@
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html",
         "states/qld/councils/redland/explore/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-11-02"
       ]
     },
     {
@@ -118,7 +121,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-01"
+        "2026-11-02"
       ]
     },
     {
@@ -478,7 +481,7 @@
     {
       "path": "content/local/redland-connections.json",
       "pointer": "/editorialUpdated",
-      "expected": "2026-11-01"
+      "expected": "2026-11-02"
     },
     {
       "path": "content/local/redland-election.json",
@@ -539,7 +542,8 @@
       "content/places/qa/pre-election-refresh-2026-10-30/browser-review.json",
       "tools/publication-qa/election-refresh-2026-10-30-cloud-browser.json",
       "tools/publication-qa/redland-seed-removal-2026-11-01-cloud-browser.json",
-      "tools/publication-qa/redland-candidate-2026-11-01-cloud-browser.json"
+      "tools/publication-qa/redland-candidate-2026-11-01-cloud-browser.json",
+      "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -621,11 +625,43 @@
       },
       {
         "path": "states/qld/councils/redland/sources/index.html",
-        "sha256": "c346646562566b155d57978202394e81c05f9f43bd616603372e9f065b8d3b79"
+        "sha256": "63753a9c01b8e806e4896ff7d7db7157a122d03b9396b7eb1bc196d2d28b336a"
       },
       {
         "path": "tools/publication-qa/redland-candidate-2026-11-01-fixture.html",
         "sha256": "a40530c293dd7ed33504c561d682921e6fe77f101ac2b12f75758302c219f472"
+      },
+      {
+        "path": "content/local/redland-song-links.json",
+        "sha256": "5d4591a09ff3021ae2e9e4432dd9198833f3aab2b9db70d437a8a749310c803c"
+      },
+      {
+        "path": "content/local/redland-connections.json",
+        "sha256": "c44f854841ea4208beef3c39a67b6554f60df240b306ef82ee99f80f4b454411"
+      },
+      {
+        "path": "tools/build-redland.py",
+        "sha256": "0a9d9f8fafbf08d32e6ab8ce22dcd822dd1f160aa34e6c517923c6fe7bba99bb"
+      },
+      {
+        "path": "tools/verify-redland.py",
+        "sha256": "0d30632c25fe084ced1e94255d0cbc6188efb119d273a8c04be354198d63b29c"
+      },
+      {
+        "path": "states/qld/councils/redland/possibilities/index.html",
+        "sha256": "03e336804d57b25b325a848e4dde1e4fcf0983fee33d98cde18247e9c364d7d0"
+      },
+      {
+        "path": "states/qld/councils/redland/explore/index.html",
+        "sha256": "28de54cb9146b9a524262e55a9684a77799d2d00f03df523d136c6c59344a6fc"
+      },
+      {
+        "path": "tools/publication-qa/redland-album-2026-11-02-fixture.html",
+        "sha256": "ad0ba2c8e9cec2f6178889aa61a0cd13b16448dccbfa7f4316512f1cb24fa3ef"
+      },
+      {
+        "path": "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
+        "sha256": "eea362e8a3916f08a671c6509556c2de27d7d9e170229ccc98303bd3470397bc"
       }
     ],
     "requiredHumanChecks": [
@@ -679,6 +715,11 @@
       "reviewedOn": "2026-10-30",
       "path": "content/places/qa/pre-election-refresh-2026-10-31/browser-review.json",
       "scope": "Actual cloud browser review of changed Redland vacancy/postal-request/waiting panels, local Division6 Acting Mayor role and navigation at400/683/1191CSSpx. Original broader journey/maps/statistics/Twinkle reviews retain prior scopes and dates."
+    },
+    "albumMeaningsReview": {
+      "reviewedOn": "2026-11-02",
+      "path": "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
+      "scope": "Focused current-album editorial meanings, directly related Explore meanings and source/date register. No new civic, clinical or election facts."
     }
   },
   "dateInventories": [
@@ -702,7 +743,7 @@
         "/records/*/updated",
         "/records/*/sources/*/checked"
       ],
-      "sha256": "2e99d99f15381d82e87927bb36e11ec0c9b144a2ead2a790871fec93cb71e195"
+      "sha256": "036d74ab72cf000341f2da0ef4fd30c74db6a198990c3f8a2928c4d5fff62981"
     },
     {
       "path": "content/local/redland-divisions.json",
