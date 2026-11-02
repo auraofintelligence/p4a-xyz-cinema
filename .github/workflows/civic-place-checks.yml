@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Check Markdown builder fields and saved drafts
+        run: |
+          node --test tests/p4a-builders.test.mjs
+          node --check assets/p4a-builders.js
       - name: Check the private law research questionnaire
         run: |
           node --test tests/your-relevance.test.mjs

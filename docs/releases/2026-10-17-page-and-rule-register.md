@@ -56,6 +56,10 @@ These were updated, rather than newly created.
 | [Maps and places](../../pages/maps.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |
 | [Find your way around](../../pages/site-map.html) | 2026-10-23 | Reviewed the national place directory, all public routes and readable sitemap for focused publication. Origins, music and imagination retains its existing group identity and membership. Source observation dates remain unchanged. |
 | [Victoria electorate and council atlas](../../states/vic/map/index.html) | 2026-10-31 | 31 October scoped Baird Ward vacancy update: Peter Lockwood resigned effective 29 October; VEC by-election awaits confirmation of dates. Historical 2024 contest retained. Original source, boundary and historical ballot dates remain unchanged; no broader roster or per-page browser review is claimed. |
+| [Public Noticeboard Builder](../../pages/noticeboard-contract-builder.html) | 2026-11-02 | Removed private/excluded-material entry prompts and generated sections. Markdown includes only chosen content; legacy omitted fields are not exported and other saved draft fields are preserved. |
+| [Local Markdown builders](../../pages/p4a-builder.html) | 2026-11-02 | Removed private/excluded-material entry prompts and generated sections. Markdown includes only chosen content; legacy omitted fields are not exported and other saved draft fields are preserved. |
+| [Private Civic Profile Builder](../../pages/private-civic-profile-builder.html) | 2026-11-02 | Removed private/excluded-material entry prompts and generated sections. Markdown includes only chosen content; legacy omitted fields are not exported and other saved draft fields are preserved. |
+| [Markdown builder suite](../../pages/civic-twin-builders.html) | 2026-11-02 | Removed private/excluded-material entry prompts and generated sections. Markdown includes only chosen content; legacy omitted fields are not exported and other saved draft fields are preserved. |
 
 ## Rules and versions
 
