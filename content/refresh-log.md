@@ -425,3 +425,7 @@ Canonical record and source URLs: `content/local/redland-election.json`; previou
 Sources, preserved history, canonical inputs, dependants and limitations are in [the scoped release report](../docs/releases/2026-11-02-election-notices.md) and `content/places/sources/election-review-2026-11-02.json`. This is not exhaustive national roster/gazette certification. Actual validation and delivery remain pending at this entry.
 
 2 November acceptance: all 18 aggregate checks and 2,081 registered place contracts passed. Actual focused cloud-browser review and independent factual diff review completed; role source IDs match their supporting completed-selection/current-roster evidence. Publication remains subject to exact remote/CI/Pages/live verification, not inferred from local checks.
+
+## 2026-11-03 — delivery receipt for the 2 November review
+
+- Combined whole-site audit, six-council corrections and late TEC status were deployed in `de9f158b7bc7ca4ea3c8237944cf2dafa9e8f644` at 2026-11-02T14:43:53Z (3 November, Australia/Brisbane). This supersedes earlier pending-delivery statements for that retained work, not its original source-check dates. Exact CI/Pages succeeded; 285 targeted live files matched and separate browser journeys passed. See [publication evidence](history/site-publications.json) and [the delivery receipt](history/site-publications/2026-11-03-de9f158b.json). This metadata receipt and README alignment are not a fresh national or whole-site factual review.

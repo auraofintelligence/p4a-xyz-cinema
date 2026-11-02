@@ -1,6 +1,6 @@
 # Whole-site factual and date audit — 2 November 2026
 
-Reviewed in Australia/Brisbane against source baseline `139dffaa62f7e215a0560622407989c6785a0e18` and the explicitly retained scoped work. **Publication of this combined audit is pending.** This report does not establish approval or deployment of held national election work.
+Reviewed in Australia/Brisbane against source baseline `139dffaa62f7e215a0560622407989c6785a0e18` and the explicitly retained scoped work. **Published in content revision [`de9f158b`](https://github.com/auraofintelligence/p4a-xyz-cinema/commit/de9f158b7bc7ca4ea3c8237944cf2dafa9e8f644) on 3 November 2026, Australia/Brisbane.** The source checks remain dated 2 November; exact delivery evidence is separate.
 
 ## What was checked
 
@@ -45,7 +45,7 @@ The [exact policy corrections](../../content/history/site-audits/2026-11-02/poli
 - Treaty database scope now distinguishes recorded treaty actions from treaties currently in force. Unsupported “last official” and growth assertions are removed; the old 1999 figure remains explicitly unverified historical research, not a current count.
 - State/territory constitution pages label source-record reviews rather than implying full constitutional rechecks. Tasmanian upper-house sourcing and the distinction between a completed Rosevears count and a later scheduled ceremony are recorded separately.
 
-The [2 November election report](2026-11-02-election-notices.md) retains its narrower commission/vacancy review, six-council corrections, sources and validation evidence. Its checks are not a complete national officeholder audit. Existing [Redland album](2026-11-02-redland-album-meanings.md), [favicon](2026-11-02-favicon-repair.md) and [Markdown-builder](2026-11-02-markdown-builder-fields.md) records keep their separate scopes. Their prior publication does not publish this combined audit.
+The [2 November election report](2026-11-02-election-notices.md) retains its narrower commission/vacancy review, six-council corrections, sources and validation evidence. Its checks are not a complete national officeholder audit. Existing [Redland album](2026-11-02-redland-album-meanings.md), [favicon](2026-11-02-favicon-repair.md) and [Markdown-builder](2026-11-02-markdown-builder-fields.md) records keep their separate scopes. Their earlier publication was separate from this subsequently deployed combined audit.
 
 ## What remains unverified
 
@@ -59,6 +59,6 @@ The [2 November election report](2026-11-02-election-notices.md) retains its nar
 
 ## Validation and publication
 
-Focused policy diffs pass whitespace checks and the edited generators compile. Broader validators and browser evidence must be read with their stated scopes; the stated structural/runtime checks and all 2,081 contracts passed. Actual browser review is limited to its listed pages and fixtures. Exact deployment/live checks are **pending**. The machine report records that state explicitly.
+Focused policy diffs pass whitespace checks and the edited generators compile. Broader validators and browser evidence must be read with their stated scopes; the stated structural/runtime checks and all 2,081 contracts passed. Actual browser review is limited to its listed pages and fixtures. Exact [CI](https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/41464400198) and [Pages deployment](https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/41464398842) succeeded for `de9f158b7bc7ca4ea3c8237944cf2dafa9e8f644`. All **285 targeted live files** matched their expected bytes, with separate actual browser checks of the stated journeys. This is not verification of all 3,741 changed live files or every public fact. The [delivery receipt](../../content/history/site-publications/2026-11-03-de9f158b.json) records actual timestamps and coverage.
 
 The [maintenance guide](../site-maintenance.md) and [maintenance index](../../content/history/site-maintenance-index.json) provide a central home for whole-site and scoped reports. Facts remain in their canonical records; the index does not duplicate them or renew their source dates. [Publication evidence](../../content/history/site-publications.json) records exact deployed revisions and live checks separately. This report does not create a scheduled review.
