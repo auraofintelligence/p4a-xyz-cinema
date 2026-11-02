@@ -22,11 +22,11 @@
   "elections": [
     {
       "label": "2030 South Australian State election",
-      "date": "2030-03-16T08:00:00+10:30",
+      "date": null,
       "kind": "State general election",
       "scope": "general",
-      "status": "Scheduled by fixed-term cycle",
-      "note": "Rule-derived ordinary date: third Saturday in March every four years, subject to the Act; not a newly announced 2030 timetable.",
+      "status": "Awaiting confirmation to begin",
+      "note": "Rule-derived ordinary date: third Saturday in March every four years, subject to the Act; not a newly announced 2030 timetable. Indicative rule-derived date: 2030-03-16. No event date or polling hours are confirmed by the retained source; the countdown remains waiting.",
       "source": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -38,7 +38,10 @@
         "cycleKey": "sa-2030-general",
         "archiveWithCycle": "next-higher-order-cycle-after-sa-2030-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
-      }
+      },
+      "timezone": "Australia/Adelaide",
+      "indicativeDate": "2030-03-16",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "label": "2026 South Australian State election",

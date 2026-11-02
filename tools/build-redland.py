@@ -61,7 +61,7 @@ def shell(page, title, intro, body, active="Overview", next_step=None):
     if not page.startswith(BASE):
         navhtml=link(page,BASE+'index.html','Enter Redlands')+link(page,BASE+'sources/index.html','Map sources & dates')+link(page,'docs/agents/local-place-pattern.md','Build another local pattern')
     next_html = '' if not next_step else f'<div class="local-next"><p>{e(next_step[0])}</p>{link(page,BASE+next_step[1],next_step[2],"local-button primary")}</div>'
-    stamp = next((row['lastUpdated'] for row in reviewed_page_entries() if row['path'] == page and page.startswith(BASE)), CHANGED)
+    stamp = next((row['lastUpdated'] for row in reviewed_page_entries() if row['path'] == page), CHANGED)
     readable_stamp = date.fromisoformat(stamp).strftime('%d %B %Y').lstrip('0')
     result=f'''<!doctype html>
 <html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

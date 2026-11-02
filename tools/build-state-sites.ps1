@@ -61,6 +61,10 @@ function Write-Utf8NoBom {
     }
     $Value = [regex]::Replace($Value, '(styles\.css|script\.js)\?v=[^" ]+', '$1?v=20260707-cinema')
     $Value = $Value.Replace("script.js?v=20260707-cinema", "script.js?v=20261002-vic-clock")
+    if ($Value.Contains("data-election-card")) {
+      $Value = $Value.Replace("script.js?v=20261002-vic-clock", "script.js?v=20261102-confirmed-clocks")
+      $Value = $Value.Replace("state-data.js?v=20260509-pills", "state-data.js?v=20261102-confirmed-clocks")
+    }
   }
   $encoding = New-Object System.Text.UTF8Encoding($false)
   $Value = [regex]::Replace($Value, '(?m)^[\t ]+(?=\r?$)', '')
@@ -334,8 +338,11 @@ function Render-ElectionCard {
   $slug = Escape-Html $State.slug
   $name = Escape-Html $State.name
   $label = Escape-Html $Event.label
-  $date = Escape-Html $Event.date
-  $dateLabel = Escape-Html (Format-DateLabel $Event.date)
+  $date = if ($Event.timingStatus -eq "awaiting-confirmation") { "" } else { Escape-Html $Event.date }
+  $zone = if ($Event.timezone) { Escape-Html $Event.timezone } else { @{ qld="Australia/Brisbane"; nsw="Australia/Sydney"; vic="Australia/Melbourne"; tas="Australia/Hobart"; sa="Australia/Adelaide"; wa="Australia/Perth"; nt="Australia/Darwin"; act="Australia/Sydney" }[$State.slug] }
+  $datePrecision = if ($Event.datePrecision -eq "day" -or $date -match "^\d{4}-\d{2}-\d{2}$") { "day" } else { "instant" }
+  $timingStatus = Escape-Html $Event.timingStatus
+  $dateLabel = if ($Event.indicativeDate) { "Indicative statutory date: " + (Escape-Html $Event.indicativeDate) } else { Escape-Html (Format-DateLabel $Event.date) }
   $kind = Escape-Html $Event.kind
   $status = Escape-Html $Event.status
   $note = Escape-Html $Event.note
@@ -353,18 +360,20 @@ function Render-ElectionCard {
   $daysSinceSource = if ($null -ne $metrics -and -not [string]::IsNullOrWhiteSpace([string]$metrics.daysSinceSource)) { Escape-Html $metrics.daysSinceSource } else { "" }
   $daysSinceSourceLink = if ([string]::IsNullOrWhiteSpace($daysSinceSource)) { "" } else { "<a class=""timer-meta-link"" href=""$daysSinceSource"">Days-since source</a>" }
   $countdownAttribute = if ([string]::IsNullOrWhiteSpace($date)) { "" } else { "data-countdown=""$date""" }
-  $countdownText = if ([string]::IsNullOrWhiteSpace($date)) { "Date not announced" } else { "Checking timer..." }
+  $countdownText = if ([string]::IsNullOrWhiteSpace($date)) { "Awaiting confirmation to begin" } else { "Checking timer..." }
   $dayMetricsHidden = if ([string]::IsNullOrWhiteSpace($date)) { " hidden" } else { "" }
+  $untilFallback = if ([string]::IsNullOrWhiteSpace($date)) { "Awaiting confirmation to begin" } else { "Checking..." }
+  $sinceFallback = if ([string]::IsNullOrWhiteSpace($date)) { if ($daysSinceDate) { "Historical reference retained" } else { "Awaiting confirmation to begin" } } else { "Checking..." }
 @"
-<article class="election-timer $ExtraClass" data-election-card data-state="$slug" data-election-date="$date" data-days-since-date="$daysSinceDate" data-days-since-label="$daysSinceLabel" data-election-scope="$scope" data-election-kind="$kind" data-election-label="$label" data-days-until-enabled="$showDaysUntil" data-days-since-enabled="$showDaysSince" data-archive-days-since="$archiveDaysSince" data-cycle-key="$cycleKey" data-archive-with-cycle="$archiveWithCycle">
+<article class="election-timer $ExtraClass" data-election-card data-state="$slug" data-election-date="$date" data-election-timezone="$zone" data-election-precision="$datePrecision" data-timing-status="$timingStatus" data-days-since-date="$daysSinceDate" data-days-since-label="$daysSinceLabel" data-election-scope="$scope" data-election-kind="$kind" data-election-label="$label" data-days-until-enabled="$showDaysUntil" data-days-since-enabled="$showDaysSince" data-archive-days-since="$archiveDaysSince" data-cycle-key="$cycleKey" data-archive-with-cycle="$archiveWithCycle">
   <div class="timer-topline"><span>$name</span><span>$kind</span></div>
   <h3>$label</h3>
   <p class="countdown-value" $countdownAttribute>$countdownText</p>
   <dl class="timer-day-metrics"$dayMetricsHidden>
-    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>Checking...</dd></div>
-    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>Checking...</dd></div>
+    <div data-days-until-wrap><dt>Days until</dt><dd data-days-until>$untilFallback</dd></div>
+    <div data-days-since-wrap><dt>Days since</dt><dd data-days-since>$sinceFallback</dd></div>
   </dl>
-  <p class="timer-date">$dateLabel</p>
+  <p class="timer-date">$dateLabel · $zone</p>
   <p class="timer-status">$status</p>
   <p>$note</p>
   <p class="timer-archive-note timer-since-note"><span>Days-since reference</span><small>$daysSinceLabel</small></p>
@@ -718,7 +727,8 @@ function Render-StateConstitutionPage {
         <p class="eyebrow">$short constitution builder</p>
         <h1>$name rulebook workbench</h1>
         <p>The $short constitution builder is not the national party constitution. It is a rulebook layer that should grow from local communities, councils and bioregions before it reaches state machinery: constitutional Acts, parliamentary structure, amendment paths, local government powers, democratic checks and what a future cyber-republic rehearsal would need to respect.</p>
-        <div class="research-badge"><span>Last research run</span><strong>$research</strong><small>$timezone</small></div>
+        <div class="research-badge"><span>$stateType source record review</span><strong>$research</strong><small>$timezone</small></div>
+        <p class="small-note">This is the linked state or territory source-record review date. Election and source-record updates do not establish a fresh constitutional-law review of this drafting workbench.</p>
       </div>
     </section>
 
@@ -1077,8 +1087,9 @@ if ($historyItems.Count -gt 0) {
   Write-Utf8NoBom -Path (Join-Path $assetsDir "history-data.js") -Value "window.P4A_HISTORY_DATA = $historyJson;"
 }
 
-$researchRun = Escape-Html $states[0].researchRun
-$researchTz = Escape-Html $states[0].researchTimezone
+# Retain the previously published overview badge; a jurisdiction review is not a global audit.
+$overviewBaseline = "2026-10-31"
+$overviewTimezone = "Australia/Brisbane"
 $portalHeader = Get-Header -Prefix "../" -Active "states"
 $portalLayerStrip = Get-SiteLayerStrip -Prefix "../" -Layer "national"
 $portalFooter = Get-Foot -Prefix "../"
@@ -1129,7 +1140,8 @@ $portalHtml = @"
         <p class="eyebrow">State layer unlocked</p>
         <h1>Eight local doors into the purple republic rehearsal.</h1>
         <p>p4A starts national, but the work becomes real state by state: who holds power, how the chambers split, when voters next move, and where a cyber-republic referendum simulator needs local proof before 2032.</p>
-        <div class="research-badge"><span>Last research run</span><strong>$researchRun</strong><small>$researchTz</small></div>
+        <div class="research-badge"><span>Retained overview baseline</span><strong>$overviewBaseline</strong><small>$overviewTimezone</small></div>
+        <p class="small-note">This retained date is not the latest whole-site audit or a fresh check of every source. Individual records keep their own review dates; see the <a href="../docs/site-maintenance.md">maintenance and audit records</a> for later scoped updates and publication evidence.</p>
       </div>
     </section>
 
@@ -1157,7 +1169,7 @@ $portalHtml = @"
           <p class="eyebrow">Election clocks</p>
           <h2>Election timers and by-elections.</h2>
         </div>
-        <p>Timers point to scheduled or last-possible election dates where available. Each card carries days-until, days-since and the archive cycle from the markdown data.</p>
+        <p>Countdowns begin only for officially confirmed election dates. Indicative statutory dates remain awaiting confirmation; independently confirmed historical dates can still show days since. Each card retains its source and archive cycle.</p>
       </div>
       <div class="timer-module reveal" data-timer-module>
         $portalTimerControls

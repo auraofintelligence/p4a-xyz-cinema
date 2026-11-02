@@ -22,11 +22,11 @@
   "elections": [
     {
       "label": "2029 Western Australian State election",
-      "date": "2029-03-10T08:00:00+08:00",
+      "date": null,
       "kind": "State general election",
       "scope": "general",
-      "status": "Scheduled by fixed-term rule",
-      "note": "WA state general elections are held on the second Saturday in March every four years.",
+      "status": "Awaiting confirmation to begin",
+      "note": "WA state general elections are held on the second Saturday in March every four years. Indicative rule-derived date: 2029-03-10. No event date or polling hours are confirmed by the retained source; the countdown remains waiting.",
       "source": "https://www.elections.wa.gov.au/about-us/media/state-elections-information",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -38,7 +38,10 @@
         "cycleKey": "wa-2029-general",
         "archiveWithCycle": "next-higher-order-cycle-after-wa-2029-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
-      }
+      },
+      "timezone": "Australia/Perth",
+      "indicativeDate": "2029-03-10",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "label": "2026 Secret Harbour by-election",

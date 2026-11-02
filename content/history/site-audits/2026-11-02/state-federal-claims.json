@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-02",
+  "scope": "Targeted state/federal identities, selected chamber composition and timetable provenance; not whole-site fact verification",
+  "counts": {
+    "access-blocked": 2,
+    "confirmed-cycle-only": 1,
+    "confirmed-note-corrected": 1,
+    "confirmed-provenance-gap": 1,
+    "confirmed-source-corrected": 1,
+    "confirmed-unchanged": 16,
+    "source-gap": 1,
+    "unresolved-authentication": 1
+  },
+  "claims": [
+    {
+      "id": "nsw-head",
+      "claim": "Chris Minns is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.nsw.gov.au/",
+      "checkedAt": "2026-11-02",
+      "scope": "nsw current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "vic-head",
+      "claim": "Ben Carroll is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.vic.gov.au/dpc-ministers",
+      "checkedAt": "2026-11-02",
+      "scope": "vic current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "tas-head",
+      "claim": "Jeremy Rockliff is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.premier.tas.gov.au/home",
+      "checkedAt": "2026-11-02",
+      "scope": "tas current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "qld-head",
+      "claim": "David Crisafulli is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.qld.gov.au/government/premier-ministers-departments/the-premier",
+      "checkedAt": "2026-11-02",
+      "scope": "qld current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "sa-head",
+      "claim": "Peter Malinauskas is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.premier.sa.gov.au/the-team/peter-malinauskas-mp",
+      "checkedAt": "2026-11-02",
+      "scope": "sa current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "act-head",
+      "claim": "Andrew Barr is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.parliament.act.gov.au/members/current/barr",
+      "checkedAt": "2026-11-02",
+      "scope": "act current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "wa-head",
+      "claim": "Roger Cook is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.wa.gov.au/government/premier-and-cabinet-ministers/roger-cook",
+      "checkedAt": "2026-11-02",
+      "scope": "wa current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "nt-head",
+      "claim": "Lia Finocchiaro is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://nt.gov.au/about-government/the-cabinet",
+      "checkedAt": "2026-11-02",
+      "scope": "nt current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "federal-head",
+      "claim": "Anthony Albanese is current head of government",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.pm.gov.au/node?page=0",
+      "checkedAt": "2026-11-02",
+      "scope": "federal current office identity only",
+      "gap": "Does not reverify commencement date or all government portfolios."
+    },
+    {
+      "id": "vic-poll",
+      "claim": "Polling day 28 November 2026",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "checkedAt": "2026-11-02",
+      "scope": "Victoria 2026 timetable",
+      "gap": null
+    },
+    {
+      "id": "vic-early",
+      "claim": "Ordinary early voting 18\u201327 November 2026",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "checkedAt": "2026-11-02",
+      "scope": "Victoria 2026 timetable",
+      "gap": null
+    },
+    {
+      "id": "vic-roll",
+      "claim": "Rolls close 3 November 2026 at 8pm",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "checkedAt": "2026-11-02",
+      "scope": "Victoria 2026 timetable",
+      "gap": null
+    },
+    {
+      "id": "vic-nomination",
+      "claim": "Nominations open 4 November 2026 at 9am; close 9 November at noon",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "checkedAt": "2026-11-02",
+      "scope": "Victoria 2026 timetable",
+      "gap": null
+    },
+    {
+      "id": "act-composition",
+      "claim": "25 MLAs:10Labor8Liberal4Green3Independent",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.parliament.act.gov.au/members/current",
+      "checkedAt": "2026-11-02",
+      "scope": "ACT chamber composition",
+      "gap": null
+    },
+    {
+      "id": "act-election-date",
+      "claim": "Election date 21 October 2028",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution",
+      "checkedAt": "2026-11-02",
+      "scope": "ACT date only",
+      "gap": "This source does not establish 8am opening time."
+    },
+    {
+      "id": "nsw-lc-composition",
+      "claim": "42 members:15ALP14Coalition4Green4Independent2SFF1AJP1LegaliseCannabis1Libertarian",
+      "status": "confirmed-unchanged",
+      "sourceURL": "https://www.parliament.nsw.gov.au/_media/documents/members-and-electorates/downloadable-lists/lc-list-of-members.pdf",
+      "checkedAt": "2026-11-02",
+      "scope": "NSW upper house list32215October2026",
+      "gap": null
+    },
+    {
+      "id": "tas-lc-composition",
+      "claim": "15members:8Independent3Liberal3Labor1Green; eight independent identities match",
+      "status": "confirmed-source-corrected",
+      "sourceURL": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf",
+      "checkedAt": "2026-11-02",
+      "scope": "TAS Legislative Council",
+      "gap": "Obsolete13October2025source404; replacedURLonly, unchangedcounts."
+    },
+    {
+      "id": "tas-rosevears-result",
+      "claim": "Final count completed12May2026; JoPalmer elected",
+      "status": "confirmed-note-corrected",
+      "sourceURL": "https://www.tec.tas.gov.au/legislative-council/elections-2026/results/rosevears/index.html",
+      "checkedAt": "2026-11-02",
+      "scope": "Rosevears result",
+      "gap": "Advance release scheduled13Maydeclaration; not independently verified ceremony occurred."
+    },
+    {
+      "id": "qld-future-dates",
+      "claim": "25March2028council and28October2028state dates appear in ECQ-labelled LinkedIn companyfeed",
+      "status": "unresolved-authentication",
+      "sourceURL": "https://au.linkedin.com/company/ecq",
+      "checkedAt": "2026-11-02",
+      "scope": "Future election dates only",
+      "gap": "Actual wording retrieved; no firstpartyLinkedInbacklink established afterofficialhomepage,disclaimer,mediakit andsite-search checks. DirecthomepageHTML403. Do not call dates incorrect; retainindicative/waiting."
+    },
+    {
+      "id": "qld-cycle",
+      "claim": "ECQ states lastSaturdayMarch councils andlastSaturdayOctober state, everyfouryears",
+      "status": "confirmed-cycle-only",
+      "sourceURL": "https://www.ecq.qld.gov.au/elections/election-events",
+      "checkedAt": "2026-11-02",
+      "scope": "Election cycle",
+      "gap": "Not event-specific2028timetable or pollinghour."
+    },
+    {
+      "id": "wa-date-source",
+      "claim": "Existing next-election source is2021writrelease, not2029announcement",
+      "status": "confirmed-provenance-gap",
+      "sourceURL": "https://www.elections.wa.gov.au/about-us/media/releases/1892",
+      "checkedAt": "2026-11-02",
+      "scope": "WA2029eventsource",
+      "gap": "Supports statutorycycle only; date/hourconfirmation notfound."
+    },
+    {
+      "id": "nt-date-source",
+      "claim": "Existing timetable retrieval contains no2028date",
+      "status": "source-gap",
+      "sourceURL": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
+      "checkedAt": "2026-11-02",
+      "scope": "NT2028source",
+      "gap": "Not proof datewrong; exacteventannouncement notverified."
+    },
+    {
+      "id": "wa-rosters",
+      "claim": "Current parliamentary chamber rosters",
+      "status": "access-blocked",
+      "sourceURL": "https://www.parliament.wa.gov.au/Parliament/memblist.nsf/screenLAMembersParty",
+      "checkedAt": "2026-11-02",
+      "scope": "WA state chamber names andparties",
+      "gap": "403; LCpartylist alsoinaccessible. Nofreshrosterverification."
+    },
+    {
+      "id": "qld-roster",
+      "claim": "Current parliamentary member roster",
+      "status": "access-blocked",
+      "sourceURL": "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List",
+      "checkedAt": "2026-11-02",
+      "scope": "QLD chamber names andparties",
+      "gap": "403; nofreshcompletepartyrecount."
+    }
+  ]
+}

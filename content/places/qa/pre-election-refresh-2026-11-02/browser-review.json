@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-01",
+  "checkedAt": "2026-10-31T22:20:52.495600+00:00",
+  "status": "PASS",
+  "scope": "Focused changed-election rendering/navigation; not site-wide certification.",
+  "environment": {
+    "browser": "Cloud Chromium; shared checkout served by Python HTTP server on cloud desktop port8765.",
+    "viewportReview": "Desktop screenshot1165px wide; ordinary window resize to narrow screenshot485px wide. Not device emulation or measured DOM overflow.",
+    "physicalTouchTested": false
+  },
+  "testedPagePaths": [
+    "states/qld/councils/tablelands-regional/index.html",
+    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+    "states/nsw/councils/hunters-hill/index.html",
+    "states/tas/councils/hobart/index.html",
+    "states/nt/councils/victoria-daly/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+    "pages/states.html",
+    "states/qld/index.html",
+    "states/qld/constitution/index.html",
+    "states/tas/index.html",
+    "states/tas/constitution/index.html",
+    "states/nt/index.html",
+    "states/nt/constitution/index.html",
+    "states/nsw/index.html",
+    "states/nsw/constitution/index.html"
+  ],
+  "fixturePaths": [
+    "tools/publication-qa/election-refresh-2026-11-01-cloud-browser.json"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "states/qld/councils/tablelands-regional/index.html",
+      "sha256": "a7d53039a0bd2f4573b487fe3427357394dacd788e33593a92869608fda5d97d",
+      "bytes": 44095
+    },
+    {
+      "path": "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+      "sha256": "f606c3a8f4d208eec628d0d46e52eb7ba376d51106d4d602a0dd6f1e3d94a2e2",
+      "bytes": 26438
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "ee36993d47a27f6316a8fa4711396495b4cba99320c91a67afc4fb8754ef362f",
+      "bytes": 171911
+    },
+    {
+      "path": "states/tas/councils/hobart/index.html",
+      "sha256": "bc0aa33c046009528ab7a9810a8aa83a0ffbeb66edcce9c4085c4a25c84fc026",
+      "bytes": 78137
+    },
+    {
+      "path": "states/nt/councils/victoria-daly/index.html",
+      "sha256": "e8a0adae14b9ec08869c8dcbfe4953e7a06f6737a4c133580451fea3c1d09260",
+      "bytes": 38611
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+      "sha256": "7eb948beace9b67fa3fa7e2a815234668e97f7a14763d649fa110fbd7fed96cf",
+      "bytes": 27369
+    },
+    {
+      "path": "pages/states.html",
+      "sha256": "d2074900ae52631d457384f6d58432c9773e06c86e0506ddc553b81a2d7a8218",
+      "bytes": 62825
+    },
+    {
+      "path": "states/qld/index.html",
+      "sha256": "49d9719a2ffc47dee68f62649beddfaa91ee8c658a49615b72314f1b2b400f76",
+      "bytes": 32352
+    },
+    {
+      "path": "states/qld/constitution/index.html",
+      "sha256": "ad7a113a38475dc732b8aa3760753283ae9f00cf8d4a195c81708bead68c9d69",
+      "bytes": 11465
+    },
+    {
+      "path": "states/tas/index.html",
+      "sha256": "ccdf9b7c3023bc5afd5648237a2578f77b5aea21cc00b431e8278392ec61b762",
+      "bytes": 25712
+    },
+    {
+      "path": "states/tas/constitution/index.html",
+      "sha256": "172a4ac29443c17a8b37cf4c60a572097fa6b64e66f3d46d1d3cc7f05dcb5a89",
+      "bytes": 11370
+    },
+    {
+      "path": "states/nt/index.html",
+      "sha256": "b65228ba75a3e5915d5002180b14be47f873da5de0149cae277a475ed86e5249",
+      "bytes": 19343
+    },
+    {
+      "path": "states/nt/constitution/index.html",
+      "sha256": "dca0bc5e10285fbcb12ce98d51c019044c2400404261b20b8ec2a69ec151de5a",
+      "bytes": 11628
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "5895558991c35bd98e9c5b76321fbca30e2799e733d530151c42007abdd00d92",
+      "bytes": 25790
+    },
+    {
+      "path": "states/nsw/constitution/index.html",
+      "sha256": "7d07443f8e48dae0bfcaf6804ed20336d60ea083c37a8d8deca5745f12711036",
+      "bytes": 11521
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-01-cloud-browser.json",
+      "sha256": "3898de56b52373c852d711dd5a87e9c23b6b766c238e05dcbd463471e99c81c1",
+      "bytes": 5216
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666",
+      "bytes": 39709
+    },
+    {
+      "path": "assets/state-data.js",
+      "sha256": "cd9073e760910085acc63005a67009a6d6d4f73477603cf3eb3e3503ded885f2",
+      "bytes": 83746
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "97a45ac82297951b0a60370f1d46f522cf5412e4049c4f6b369beaffeacb0fbc",
+      "bytes": 33957
+    },
+    {
+      "path": "styles.css",
+      "sha256": "52c466b91e473ceea7501f0dcfb76c9440684cd1bce8c170db9221776791f7eb",
+      "bytes": 138762
+    }
+  ],
+  "limitations": [
+    "Focused changed-fact rendering and existing navigation smoke review only; not full per-place source, geometry, accessibility or browser certification.",
+    "Hobart represents the shared Tasmania renderer; individual results and all29 council journeys not separately certified.",
+    "No physical touch or automated overflow measurement; unchanged Redland evidence retains its separate original review."
+  ]
+}

@@ -8,9 +8,9 @@
   "shortName": "NSW",
   "capital": "Sydney",
   "stateType": "State",
-  "researchRun": "2026-11-01",
+  "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Published Coffs Harbour and Hunters Hill nomination periods begin 2 November and close 11 November at noon AEDT; no opening hour or accepted candidates are inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -64,8 +64,8 @@
       "date": "2026-12-12T18:00:00+11:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Scheduled; nominations open 2 November",
-      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable.",
+      "status": "Nomination period 2–11 November; closes noon AEDT",
+      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -80,8 +80,8 @@
       "date": "2026-12-12T18:00:00+11:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Scheduled; nominations open 2 November",
-      "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane.",
+      "status": "Nomination period 2–11 November; closes noon AEDT",
+      "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -89,6 +89,22 @@
         "archiveDaysSince": true,
         "cycleKey": "nsw-2026-huntershillsouthward-by-election",
         "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
+    },
+    {
+      "label": "Walcha Council by-election following 23 October resignation",
+      "date": null,
+      "kind": "Council by-election",
+      "scope": "local-government",
+      "status": "Vacancy confirmed; official timetable awaited",
+      "note": "Adam Iuston resigned effective 23 October 2026. Council confirms an NSWEC by-election; nomination and polling dates remain unconfirmed. Awaiting confirmation to begin. Checked 2 November 2026.",
+      "source": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Walcha-Council-media-statement-Resignation-of-Councillor-Adam-Iuston-23-October-2026.pdf",
+      "dayMetrics": {
+        "displayDaysUntil": false,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "nsw-walcha-vacancy-2026-10-23",
+        "archiveNote": "Keep the vacancy and eventual by-election separate from the ordinary council-election cycle."
       }
     }
   ],

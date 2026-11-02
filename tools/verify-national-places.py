@@ -295,6 +295,12 @@ class Validator:
                     except (TypeError, ValueError):
                         self.check(False, f'Place {key} event {event_id}: invalid exact deadline')
                 unsupported = re.search(r'\b(estimated?|unverified|unknown|unannounced)\b|not (?:yet )?announced|to be determined', str(event.get('dateBasis', '')).lower())
+                rule_only = re.search(r'rule-derived|ordinary statutory|four-year last-Saturday', str(event.get('dateBasis', '')).lower())
+                if event.get('indicativeDate') is not None:
+                    self.iso_date(event['indicativeDate'], f'Place {key} event {event_id} indicative date')
+                    self.check(poll_date is None, f'Place {key} event {event_id}: indicative rule must not activate a polling countdown')
+                if rule_only and poll_date and poll_date > CHECKED and event.get('timingStatus') != 'date-confirmed':
+                    self.check(False, f'Place {key} event {event_id}: statutory estimate is not a confirmed future polling date')
                 if unsupported or event.get('status') in ('date-unannounced', 'unknown', 'unannounced', 'cancelled', 'postponed'):
                     self.check(poll_date is None, f'Place {key} event {event_id}: unsupported exact polling-date timer')
                 candidates = event.get('candidates', [])

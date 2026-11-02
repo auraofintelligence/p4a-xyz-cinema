@@ -8,9 +8,9 @@
   "shortName": "TAS",
   "capital": "Hobart",
   "stateType": "State",
-  "researchRun": "2026-11-01",
+  "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 1 November: TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed; all mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and others remain provisional. This is not a statewide final declaration or a fresh certification of individual council officeholders. Parliament composition retains its 23 October review; federal rosters are not freshly certified.",
+  "researchStatus": "Scoped late election review 2 November: TEC’s 10 pm AEDT update says no further count updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete across all 29 councils; councillor counting continues, with completion expected by Tuesday 3 November, not confirmed. No statewide final declaration or individual officeholder replacement is inferred. Other parliamentary and federal facts retain their own earlier checks.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -85,8 +85,8 @@
       "date": "2026-10-27T14:00:00+11:00",
       "kind": "Ordinary council elections",
       "scope": "local-government",
-      "status": "Mayor/deputy counts complete; councillor counting resumes 2 November",
-      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 31 October, 10:30 pm AEDT update confirms the last two deputy mayor elections completed. All mayoral and deputy mayoral counts are now complete. Councillor counting is adjourned and resumes Monday 2 November; some councillor results are final and remaining outcomes remain provisional. No statewide final declaration, individual officeholder replacement or overall completion date is inferred. Checked 1 November 2026, Australia/Brisbane.",
+      "status": "Mayor/deputy counts complete; further count updates resume 3 November",
+      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 2 November, 10 pm AEDT update says no further updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete in all 29 councils. Councillor counting continues; TEC expects all councils to be complete by Tuesday 3 November, but that expectation is not a declared outcome. No statewide final declaration or individual officeholder replacement is inferred. Sources verified 2026-11-02T12:49:52.060088+00:00; this is a scoped count-stage check only.",
       "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
       "dayMetrics": {
         "displayDaysUntil": false,
@@ -168,8 +168,8 @@
       "type": "Upper house",
       "seats": 15,
       "majority": 8,
-      "note": "Official October 2025 member list has been updated with the 7 May 2026 Huon result: Clare Glade-Wright replaces Dean Harriss. Rosevears final declaration should still be refreshed.",
-      "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0031/97591/Legislative-Council-Members-List-13-October-2025.pdf",
+      "note": "Official member list dated 25 August 2026 confirms 15 members: eight independents, three Liberal, three Labor and one Green. TEC completed the Rosevears count on 12 May 2026 and confirmed Jo Palmer elected. Membership and result sources checked 2 November 2026; this does not refresh other Tasmanian facts.",
+      "source": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf",
       "composition": [
         {
           "party": "Rosemary Armitage plus seven named MLCs",
@@ -245,7 +245,7 @@
     },
     {
       "label": "Tasmanian Legislative Council member list",
-      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0031/97591/Legislative-Council-Members-List-13-October-2025.pdf"
+      "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110426/Legislative-Council-Members-List-25-August-2026.pdf"
     },
     {
       "label": "TEC Huon 2026 results",
@@ -322,15 +322,25 @@
     {
       "label": "TEC progressive count update, 31 October 2026 at 10:30 pm AEDT",
       "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/kingborough/index.html"
+    },
+    {
+      "label": "TEC count update, 2 November 2026 at 10 pm AEDT; checked 2026-11-02T12:49:52.060088+00:00",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html"
+    },
+    {
+      "label": "TEC statewide count status: completion expected 3 November, not declared; checked 2026-11-02T12:49:52.060088+00:00",
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
     }
   ],
-  "previousResearchRun": "2026-10-29",
+  "previousResearchRun": "2026-11-01",
   "researchReview": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
+    "checkedAtUtc": "2026-11-02T12:49:52.060088+00:00",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped review of the TEC 30 October statewide count-stage update, not individual council rosters. Unrelated records retain their previous dated checks; no unannounced timetable or final statewide result is inferred.",
-    "previousResearchRun": "2026-10-29",
-    "sourceDatesPreserved": true
+    "scope": "TEC 2 November 22:00 AEDT count-stage update and current statewide election landing page only; not individual council results, officeholders or a renewed whole-site review.",
+    "previousResearchRun": "2026-11-01",
+    "sourceDatesPreserved": true,
+    "previousRecord": "content/history/tas-count-summary-before-2026-11-02-late-check.json"
   }
 }
 ```

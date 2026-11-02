@@ -259,8 +259,8 @@ def build():
         totals[stub] = {'districts': len(areas), 'contestants': candidate_total}
     for place in places.values():
         place['elections'].append({'id': 'qld-state-normal-2028-' + normalized(place['name']),
-                                   'label': '2028 Queensland ordinary state election', 'kind': 'general-election', 'status': 'rule-derived normal date',
-                                   'date': '2028-10-28', 'dateBasis': 'Rule-derived normal polling day under Constitution of Queensland 2001 s19B: last Saturday in October in the fourth calendar year after the ordinary 2024 election. This is not a published writ/timetable; statutory postponement and extraordinary-election provisions remain applicable.',
+                                   'label': '2028 Queensland ordinary state election', 'kind': 'general-election', 'status': 'date-unannounced', 'timingStatus': 'awaiting-confirmation', 'waitingLabel': 'Awaiting confirmation to begin',
+                                   'date': None, 'indicativeDate': '2028-10-28', 'dateBasis': 'Rule-derived normal polling day under Constitution of Queensland 2001 s19B: last Saturday in October in the fourth calendar year after the ordinary 2024 election. This is not a published writ/timetable; statutory postponement and extraordinary-election provisions remain applicable.',
                                    'timezone': 'Australia/Brisbane', 'sourceUrl': URLS['constitution-current.html'] + '#sec.19B',
                                    'sourceId': 'state-qld-supp-constitution-current', 'candidates': []})
         place['sources'] = list(dict.fromkeys(place['sources']))

@@ -22,11 +22,11 @@
   "elections": [
     {
       "label": "2028 Queensland State election",
-      "date": "2028-10-28T08:00:00+10:00",
+      "date": null,
       "kind": "State general election",
       "scope": "general",
-      "status": "Ordinary rule-derived date",
-      "note": "Normal four-year cycle: last Saturday in October, subject to the Act. This is not a newly announced writ or detailed 2028 timetable.",
+      "status": "Awaiting confirmation to begin",
+      "note": "Normal four-year cycle: last Saturday in October, subject to the Act. This is not a newly announced writ or detailed 2028 timetable. Indicative rule-derived date: 2028-10-28. No event date or polling hours are confirmed by the retained source; the countdown remains waiting.",
       "source": "https://www.ecq.qld.gov.au/elections/election-events",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -38,7 +38,10 @@
         "cycleKey": "qld-2028-general",
         "archiveWithCycle": "next-higher-order-cycle-after-qld-2028-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
-      }
+      },
+      "timezone": "Australia/Brisbane",
+      "indicativeDate": "2028-10-28",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "label": "Stafford State by-election",

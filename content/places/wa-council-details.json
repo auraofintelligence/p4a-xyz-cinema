@@ -1434,6 +1434,66 @@
       "rawFile": "content/places/raw/council-wa-directory-2026.pdf",
       "sha256": "3575bc1cce912033d5ab8def50f23d084e2793d58c96fd5413b8956d4c906236",
       "licence": "Minimal public professional name, role and website facts only. Copyrighted WALGA directory, incidental contacts and full source remain local-only."
+    },
+    {
+      "id": "election-review-irwin-backfill-20261102",
+      "title": "2 November official election review: irwin-backfill",
+      "url": "https://irwin.wa.gov.au/wp-content/uploads/2026/10/20260922-OCM-Minutes.pdf",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-merredin-appointment-20261102",
+      "title": "2 November official election review: merredin-appointment",
+      "url": "https://www.merredin.wa.gov.au/news/deputy-shire-president-renee-manning-tenders-resignation/1474",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-irwin-accepted-20261102",
+      "title": "Irwin: backfill accepted, 8 October Council notice",
+      "url": "https://irwin.wa.gov.au/october-community-news-3/",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-irwin-agenda-20261102",
+      "title": "Irwin: scheduled declaration, 27 October agenda, not completed minutes",
+      "url": "https://irwin.wa.gov.au/wp-content/uploads/2026/10/Open-Agenda.pdf",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-merredin-appointment-notice-20261102",
+      "title": "Merredin: Council appointment notice, 1 October",
+      "url": "https://www.merredin.wa.gov.au/news/shire-of-merredin-appoints-brad-atkinson-to-vacant-councillor-position/1543",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-merredin-roster-20261102",
+      "title": "Merredin: current official councillor roster",
+      "url": "https://www.merredin.wa.gov.au/councillors",
+      "checked": "2026-11-02",
+      "rawFile": "content/places/sources/election-review-2026-11-02.json",
+      "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
+      "verificationMethod": "Official source reviewed; minimal normalised public civic facts and linked supporting records. Source gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "places": [
@@ -7984,18 +8044,6 @@
           "termEndYear": "2027"
         },
         {
-          "name": "Lesley Berecz",
-          "role": "Councillor",
-          "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=22",
-          "profileType": "official published WALGA roster",
-          "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-          "sourceId": "council-wa-walga-2026-54060",
-          "checked": "2026-10-17",
-          "asAt": "2026-03",
-          "website": "https://www.irwin.wa.gov.au",
-          "termEndYear": "2029"
-        },
-        {
           "name": "Sophie Hansen",
           "role": "Councillor",
           "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=22",
@@ -8021,13 +8069,54 @@
         }
       ],
       "sources": [
-        "council-wa-walga-2026-54060"
+        "council-wa-walga-2026-54060",
+        "election-review-irwin-backfill-20261102",
+        "election-review-irwin-accepted-20261102",
+        "election-review-irwin-agenda-20261102"
       ],
       "coverageNotes": [
         "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
         "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office."
       ],
-      "officialUrl": "https://www.irwin.wa.gov.au"
+      "officialUrl": "https://www.irwin.wa.gov.au",
+      "representationReview": "Lesley Berecz resigned effective 21 September 2026. Council’s 8 October notice confirms Tom Coffey accepted backfill from the 2025 election. The 27 October agenda schedules Thomas Coffey’s declaration, but completion and taking office are not yet verified. Other retained representatives keep their March 2026 roster basis. This is a backfill process, not a newly announced public election. Checked 2 November 2026.",
+      "representationHistory": [
+        {
+          "capturedForChange": "2026-11-02",
+          "previousRepresentatives": [
+            {
+              "name": "Lesley Berecz",
+              "role": "Councillor",
+              "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=22",
+              "profileType": "official published WALGA roster",
+              "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+              "sourceId": "council-wa-walga-2026-54060",
+              "checked": "2026-10-17",
+              "asAt": "2026-03",
+              "website": "https://www.irwin.wa.gov.au",
+              "termEndYear": "2029"
+            }
+          ],
+          "effectiveEndDate": "2026-09-21",
+          "note": "Superseded current-role snapshot retained; original source dates preserved."
+        }
+      ],
+      "replacementHistory": [
+        {
+          "formerRepresentative": "Lesley Berecz",
+          "effectiveVacancyDate": "2026-09-21",
+          "replacement": "Thomas (Tom) Coffey",
+          "process": "backfill from 2025 election",
+          "status": "accepted; completed declaration not verified",
+          "sourceId": "election-review-irwin-backfill-20261102",
+          "sourceUrls": [
+            "https://irwin.wa.gov.au/wp-content/uploads/2026/10/20260922-OCM-Minutes.pdf",
+            "https://irwin.wa.gov.au/october-community-news-3/",
+            "https://irwin.wa.gov.au/wp-content/uploads/2026/10/Open-Agenda.pdf"
+          ],
+          "checked": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "wa-council-54130",
@@ -10489,14 +10578,13 @@
           "termEndYear": "2027"
         },
         {
-          "name": "Renee Manning",
+          "name": "Brad Atkinson",
           "role": "Councillor",
-          "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=28",
-          "profileType": "official published WALGA roster",
-          "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-          "sourceId": "council-wa-walga-2026-55460",
-          "checked": "2026-10-17",
-          "asAt": "2026-03",
+          "profileUrl": "https://www.merredin.wa.gov.au/councillors",
+          "profileType": "official current council roster",
+          "status": "Current councillor listed by Council following appointment; exact oath date not verified",
+          "sourceId": "election-review-merredin-roster-20261102",
+          "checked": "2026-11-02",
           "website": "https://www.merredin.wa.gov.au",
           "termEndYear": "2027"
         },
@@ -10550,13 +10638,54 @@
         }
       ],
       "sources": [
-        "council-wa-walga-2026-55460"
+        "council-wa-walga-2026-55460",
+        "election-review-merredin-appointment-20261102",
+        "election-review-merredin-roster-20261102",
+        "election-review-merredin-appointment-notice-20261102"
       ],
       "coverageNotes": [
         "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
         "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office."
       ],
-      "officialUrl": "https://www.merredin.wa.gov.au"
+      "officialUrl": "https://www.merredin.wa.gov.au",
+      "representationReview": "Renee Manning resigned effective 10 March 2026, as specified in the original 27 February notice. After two unsuccessful extraordinary elections, Council appointed Brad Atkinson and now lists him as councillor, term ending in 2027. The scheduled 13 October declaration is not treated as proof of the exact oath date. Other retained roles keep their own roster dates. Checked 2 November 2026.",
+      "representationHistory": [
+        {
+          "capturedForChange": "2026-11-02",
+          "previousRepresentatives": [
+            {
+              "name": "Renee Manning",
+              "role": "Councillor",
+              "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=28",
+              "profileType": "official published WALGA roster",
+              "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+              "sourceId": "council-wa-walga-2026-55460",
+              "checked": "2026-10-17",
+              "asAt": "2026-03",
+              "website": "https://www.merredin.wa.gov.au",
+              "termEndYear": "2027"
+            }
+          ],
+          "effectiveEndDate": "2026-03-10",
+          "note": "Superseded current-role snapshot retained; original source dates preserved."
+        }
+      ],
+      "replacementHistory": [
+        {
+          "formerRepresentative": "Renee Manning",
+          "effectiveVacancyDate": "2026-03-10",
+          "replacement": "Brad Atkinson",
+          "process": "council appointment following two unsuccessful extraordinary elections",
+          "status": "current office verified in official roster; exact oath date unverified",
+          "sourceId": "election-review-merredin-appointment-20261102",
+          "sourceUrls": [
+            "https://www.merredin.wa.gov.au/news/deputy-shire-president-renee-manning-tenders-resignation/1474",
+            "https://www.merredin.wa.gov.au/news/shire-of-merredin-appoints-brad-atkinson-to-vacant-councillor-position/1543",
+            "https://www.merredin.wa.gov.au/councillors"
+          ],
+          "checked": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "wa-council-55530",

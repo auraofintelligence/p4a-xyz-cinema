@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-11-02",
+  "timezone": "Australia/Brisbane",
+  "title": "Whole-site factual and date audit",
+  "baseCommit": "139dffaa62f7e215a0560622407989c6785a0e18",
+  "status": "prepared-with-explicit-source-gaps-publication-pending",
+  "publicRouteCount": 2291,
+  "routePartition": [
+    {
+      "id": "canonical-place-routes",
+      "count": 2080,
+      "method": "Canonical place and attributed-source inventory; retained individual source dates, not a fresh check of every officeholder.",
+      "evidence": "content/history/site-audits/2026-11-02/place-source-inventory.json"
+    },
+    {
+      "id": "nonplace-pages",
+      "count": 125,
+      "method": "Structured main-body claim screening, with selected primary-source verification.",
+      "evidence": "content/history/site-audits/2026-11-02/nonplace-policy-inventory.json"
+    },
+    {
+      "id": "custom-state-routes",
+      "count": 67,
+      "method": "Static text/date/count scan and selected current-office, chamber and timetable checks.",
+      "evidence": "content/history/site-audits/2026-11-02/custom-state-route-scan.json"
+    },
+    {
+      "id": "redland-family-routes",
+      "count": 18,
+      "method": "Local route family and retained scoped election, candidate, album and implementation evidence; not all local factual claims reverified.",
+      "evidence": "docs/releases/2026-11-02-redland-album-meanings.md"
+    },
+    {
+      "id": "homepage",
+      "count": 1,
+      "method": "Current election summary, connected-project proposal framing, dated media evidence and implementation/publication distinction reviewed.",
+      "evidence": "content/history/musicverse-media-2026-10-28.json"
+    }
+  ],
+  "partitionNote": "These route groups partition the 2,291 public routes; canonical place records and registered acceptance contracts are different units. Counts do not measure factual verification.",
+  "canonicalPlaceCount": 2080,
+  "placeSourceRecordCount": 1339,
+  "nonplaceBodyScreenCount": 125,
+  "candidateStatementsExtracted": 985,
+  "candidateStatementsAllVerified": false,
+  "dates": {
+    "baselineRegisteredCount": 2176,
+    "baselineUnregisteredCount": 115,
+    "repairedFooterCount": 87,
+    "sourceDatesBlanketRenewed": false,
+    "meanings": {
+      "implementation": "Dated change or implementation evidence for the stated page or feature.",
+      "sourceCheck": "Only the stated source or claim was checked; observation period remains separate.",
+      "event": "Election/deadline itself, with jurisdiction timezone and confirmation status.",
+      "technicalValidation": "The named structural/runtime tests, not factual certification.",
+      "publication": "Exact deployed commit and stated live checks, independent of local preparation."
+    },
+    "changedRegisteredNationalHtmlCount": 1543,
+    "changedNationalImplementationScope": "Actually changed national HTML, including same-layer maps embedding changed clocks, receives scoped implementation dates; source dates remain unchanged.",
+    "finalRegisteredCount": 2184,
+    "finalUnregisteredCount": 107,
+    "newlyRegisteredTargetedRoutes": 8,
+    "finalSitemapMismatchCount": 0,
+    "finalFooterMismatchCount": 0,
+    "finalFutureImplementationDateCount": 0,
+    "finalFutureSourceCheckCount": 0,
+    "finalMarkdownRegisterMismatchCount": 0
+  },
+  "corrections": [
+    {
+      "domain": "date provenance",
+      "summary": "Resolve 87 baseline rendered footer/register discrepancies. Where actual scoped clock/content changes also occurred, implementation dates advance with those changes; source verification dates do not.",
+      "evidence": "content/history/site-audits/2026-11-02/national-footer-mismatches.json"
+    },
+    {
+      "domain": "missing implementation dates",
+      "summary": "Baseline 115 unregistered routes reduced to 107: eight actually edited routes gain targeted implementation records, not blanket fresh dates.",
+      "evidence": "content/history/site-audits/2026-11-02/unregistered-date-review.json"
+    },
+    {
+      "domain": "policy and factual wording",
+      "summary": "Reconcile About candidate summary; mark elapsed AI and Closing the Gap consultation windows; update gas scheme timing; qualify AEC membership requirement; describe checkout as disabled proposal; correct treaty database scope and mark historical count unverified.",
+      "evidence": "content/history/site-audits/2026-11-02/policy-corrections.json"
+    },
+    {
+      "domain": "state record scope",
+      "summary": "Constitution pages distinguish state/territory source-record reviews from full constitutional reviews; preserve historical architecture and history dates.",
+      "evidence": "content/history/site-audits/2026-11-02/custom-state-route-scan.json"
+    },
+    {
+      "domain": "current political sources",
+      "summary": "Replace obsolete Tasmanian upper-house source; distinguish completed Rosevears count from an unverified later ceremony. Future rule-derived dates do not become confirmed election timetables.",
+      "evidence": "content/history/site-audits/2026-11-02/state-federal-claims.json"
+    },
+    {
+      "domain": "scoped election work",
+      "summary": "Retained separately reviewed six-council corrections and nomination-stage changes are documented in their own report; they are not nationwide officeholder certification or proof of publication approval.",
+      "evidence": "docs/releases/2026-11-02-election-notices.md"
+    },
+    {
+      "domain": "contract implementation date parity",
+      "summary": "1,522 contract visible-date expectations now match each route’s registered implementation date; 558 retain 23 October. No source-check date is inferred from a contract run.",
+      "evidence": "content/history/site-audits/2026-11-02/contract-date-proof.json"
+    },
+    {
+      "domain": "late TEC count-stage check",
+      "summary": "At 2026-11-02T12:49:52.060088+00:00, checked the TEC 2 November 22:00 AEDT banner: updates resume Tuesday3November. Councillor counting continues; expected completion is not declared completion. Earlier31Octoberwording retained in history. ECQ Redland timetable still not found in the bounded checked official sources. No whole-site re-verification.",
+      "evidence": "content/history/site-audits/2026-11-02/late-tec-ecq-check.json"
+    }
+  ],
+  "gaps": [
+    "All routes are inventoried, but not every factual assertion, officeholder, candidate, boundary, legislative provision or source link has been independently reverified.",
+    "1,339 place source records are inventoried with retained check dates; listing a source does not mean it was fetched again. Individual roster and deeper civic-journey gaps remain in place records.",
+    "985 extracted candidate statements include proposals, satire, historical statements and empirical assertions; they are not 985 verified facts. See per-page and claim-level evidence.",
+    "115 baseline routes lacked registered implementation dates. Unknown dates remain unknown except where a named historical implementation record or this actual edit supports a scoped date.",
+    "QLD and WA parliamentary roster access was blocked; complete current chamber recounts were not established in this pass.",
+    "QLD future dates found on an ECQ-labelled social account lacked completed first-party identity authentication; WA and NT future timetable evidence also remains incomplete. Statutory cycles are not newly announced polls.",
+    "State histories, all constitutional/legal claims, Victorian eligibility/donation rules, and all custom directory counts were not freshly reverified.",
+    "No clinical validation, medical efficacy, funded programme, partnership, approved hardware or operating financial product is inferred from original proposals.",
+    "Treaty participation must be checked instrument by instrument; the 1999 count is explicitly unverified. Exact historical $600 million Gabba enhancement cost lacks government primary confirmation in the bounded search.",
+    "Historical sighting/archive descriptions, remaining housing and fiscal statistics, and other page-specific source gaps remain in the non-place register.",
+    "Homepage Strange But True operational L1 claim was not independently substantiated by this policy-source pass; linked project descriptions and demonstrations do not establish all operational claims.",
+    "No exact deployed revision or live bytes for this combined audit have yet been verified. Local preparation and passing checks are not publication."
+  ],
+  "evidence": [
+    "content/history/site-audits/2026-11-02/initial-date-inventory.json",
+    "content/history/site-audits/2026-11-02/initial-json-date-scan.json",
+    "content/history/site-audits/2026-11-02/unregistered-date-review.json",
+    "content/history/site-audits/2026-11-02/national-footer-mismatches.json",
+    "content/history/site-audits/2026-11-02/place-source-inventory.json",
+    "content/history/site-audits/2026-11-02/custom-state-route-scan.json",
+    "content/history/site-audits/2026-11-02/state-federal-claims.json",
+    "content/history/site-audits/2026-11-02/nonplace-policy-inventory.json",
+    "content/history/site-audits/2026-11-02/nonplace-claim-register.json",
+    "content/history/site-audits/2026-11-02/policy-claim-evidence.json",
+    "content/history/site-audits/2026-11-02/policy-corrections.json",
+    "content/history/site-audits/2026-11-02/final-date-inventory.json",
+    "content/history/site-audits/2026-11-02/clock-classification-proof.json",
+    "content/history/site-audits/2026-11-02/clock-implementation-review.md",
+    "content/history/site-audits/2026-11-02/contract-date-proof.json",
+    "content/history/site-audits/2026-11-02/validation.json",
+    "content/history/site-audits/2026-11-02/late-tec-ecq-check.json"
+  ],
+  "validation": {
+    "policyGeneratorSyntax": "passed",
+    "focusedPolicyDiffWhitespace": "passed",
+    "combinedFinalAcceptance": "Passed stated structural/runtime suites and all 2,081 registered contracts; actual browser scope retained separately. Not complete factual certification.",
+    "allFactsVerified": false,
+    "evidence": "content/history/site-audits/2026-11-02/validation.json"
+  },
+  "publication": {
+    "status": "pending",
+    "commit": null,
+    "deploymentRun": null,
+    "liveVerification": null,
+    "lastPreviouslyVerifiedCommit": "139dffaa62f7e215a0560622407989c6785a0e18",
+    "record": "content/history/site-publications.json",
+    "note": "This audit is authorised preparation, not proof of a pushed or deployed revision. Exact publication evidence is recorded separately after successful deployment and live checks."
+  },
+  "reporting": {
+    "maintenanceGuide": "docs/site-maintenance.md",
+    "index": "content/history/site-maintenance-index.json",
+    "scopedRefreshLog": "content/refresh-log.md",
+    "readableReport": "docs/releases/2026-11-02-whole-site-audit.md",
+    "scheduling": "This report does not create a scheduled review."
+  }
+}

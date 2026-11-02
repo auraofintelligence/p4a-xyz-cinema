@@ -2,6 +2,7 @@
 from pathlib import Path
 import html
 import json
+from datetime import date
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='content/history/civic-page-review-register-2026-10-17.json'
@@ -26,14 +27,15 @@ def reviewed_page_entries(root=ROOT):
 def render_register(page,link):
     data=load_register()
     escape=lambda value:html.escape(str(value),quote=True)
-    result='<section class="local-section" id="review-register"><p class="local-kicker">Page and rule updates · 17 October 2026</p><h2>What was built, and when?</h2><p>Nineteen new pages were verified on 17 October 2026. The original journey began on 16 October; the division pages were added on 17 October. Page updates and source research dates are recorded separately.</p>'
+    register_date=date.fromisoformat(data['updated']).strftime('%d %B %Y').lstrip('0')
+    result='<section class="local-section" id="review-register"><p class="local-kicker">Page and rule register · updated '+escape(register_date)+'</p><h2>What was built, and when?</h2><p>Nineteen new pages were verified on 17 October 2026. The original journey began on 16 October; the division pages were added on 17 October. Page updates and source research dates are recorded separately.</p>'
     for group in data['pageGroups']:
         rows=''.join('<tr><td>'+link(page,entry['path'],entry['label'])+'</td><td><time datetime="'+entry['lastUpdated']+'">'+entry['lastUpdated']+'</time></td><td>'+escape(entry['reviewWhen'])+'</td></tr>' for entry in group['pages'])
         result+='<details class="local-panel"><summary>'+escape(group['label'])+' · '+str(len(group['pages']))+' pages</summary><p>Work started '+group['workStarted']+' · first verified build '+group['firstVerifiedBuild']+'.</p><div class="local-table-scroll"><table class="local-table"><caption>'+escape(group['label'])+' review dates</caption><thead><tr><th>Page</th><th>Last updated</th><th>Review when</th></tr></thead><tbody>'+rows+'</tbody></table></div></details>'
     rows=''.join('<tr><td>'+link(page,entry['path'],entry['label'])+'</td><td>'+escape(entry['version'])+'</td><td>'+escape(entry['updated'])+'</td></tr>' for entry in data['rules'])
     result+='<details class="local-panel"><summary>Rules and their versions</summary><div class="local-table-scroll"><table class="local-table"><caption>Agent rule versions</caption><thead><tr><th>Rules</th><th>Version</th><th>Updated</th></tr></thead><tbody>'+rows+'</tbody></table></div></details>'
     extra=''.join(' · '+link(page,path,'Separate national place implementation register') for path in data.get('additionalPageRegisters',[]))
-    result+='<p>'+link(page,SOURCE,'Full page register, changes and review triggers')+' · '+link(page,'content/history/redland.md','Chronological change history')+extra+'</p><p>A page update is not a new Census observation, map edition or election notice. The source records keep those dates. Review before publishing and when the listed conditions change.</p></section>'
+    result+='<p>'+link(page,'docs/site-maintenance.md','Site maintenance and audit scope')+' · '+link(page,SOURCE,'Full page register, changes and review triggers')+' · '+link(page,'content/history/redland.md','Chronological change history')+extra+'</p><p>A page update is not a new Census observation, map edition or election notice. The source records keep those dates. Review before publishing and when the listed conditions change.</p></section>'
     return result
 
 def write_review_notes():

@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-11-02T05:06:05.454232+00:00",
+  "scope": "Structural/runtime tests only, not full factual verification or deployment",
+  "checks": [
+    {
+      "command": "python -B tools/verify-national-places.py --source-hashes --no-write",
+      "exit": 0,
+      "evidence": "Frozen national QA rerun after all generator edits; content/places/qa/national-validation.json"
+    },
+    {
+      "command": "node tools/check-civic-clocks.mjs",
+      "exit": 0
+    },
+    {
+      "command": "node tools/check-civic-geometry.mjs",
+      "exit": 0
+    },
+    {
+      "command": "node tools/check-civic-delivery.mjs",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-vic-map.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-vic-numbers.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-vic-councils.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-redland.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-redland-election.py",
+      "exit": 0
+    },
+    {
+      "command": "node tools/check-redland-clock.mjs",
+      "exit": 0
+    },
+    {
+      "command": "node --test tests/redland-election.test.mjs",
+      "exit": 0
+    },
+    {
+      "command": "python tools/check-civic-navigation.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-discovery.py",
+      "exit": 0
+    },
+    {
+      "command": "node --test tests/your-relevance.test.mjs",
+      "exit": 0
+    },
+    {
+      "command": "node --check assets/your-relevance.mjs",
+      "exit": 0
+    },
+    {
+      "command": "node --check assets/qld-council-map.js",
+      "exit": 0
+    },
+    {
+      "command": "git -c core.whitespace=cr-at-eol diff --check",
+      "exit": 0
+    },
+    {
+      "command": "python tools/check-favicons.py",
+      "exit": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_favicons.py",
+      "exit": 0
+    },
+    {
+      "command": "node --test tests/p4a-builders.test.mjs",
+      "exit": 0
+    },
+    {
+      "command": "python tools/check-site-maintenance.py",
+      "exit": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_page_review_dates.py",
+      "exit": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_state_clock_parity.py",
+      "exit": 0
+    },
+    {
+      "command": "node --test tests/election-timing-confirmation.test.mjs",
+      "exit": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_national_contract_dates.py",
+      "exit": 0
+    },
+    {
+      "command": "python tools/verify-place-contracts.py",
+      "exit": 0,
+      "registeredContracts": 2081,
+      "failed": 0
+    },
+    {
+      "command": "Parse all repository JSON",
+      "exit": 0,
+      "filesAtCheck": 2386
+    }
+  ],
+  "lateTecValidation": {
+    "checkedAt": "2026-11-02T13:01:35.837240+00:00",
+    "scope": "Only lateTECcount-stage source/summary changes and required structural/browser evidence rebinding; earlier audit/source scopes retained.",
+    "checks": [
+      {
+        "command": "python -B tools/verify-national-places.py --source-hashes",
+        "exit": 0
+      },
+      {
+        "command": "python tools/build-national-contracts.py",
+        "exit": 0
+      },
+      {
+        "command": "python tools/verify-place-contracts.py",
+        "exit": 0,
+        "registeredContracts": 2081,
+        "failed": 0
+      },
+      {
+        "command": "state parity, page dates, VIC integration, maintenance references and CRLF-aware whitespace checks",
+        "exit": 0
+      },
+      {
+        "command": "Parse repositoryJSON",
+        "exit": 0,
+        "files": 2395
+      }
+    ]
+  }
+}

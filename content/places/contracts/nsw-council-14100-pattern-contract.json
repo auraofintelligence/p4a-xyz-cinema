@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-02"
     ]
   },
   "routes": [
@@ -78,7 +78,8 @@
           "council-nsw-2024-hunters-hill-south-ward",
           "refresh-nsw-council-14100-20261023",
           "election-review-hunters-hill-20261030",
-          "election-review-hunters-hill-20261101"
+          "election-review-hunters-hill-20261101",
+          "election-review-hunters-hill-nomination-period-20261102"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -357,9 +358,9 @@
             "id": "nsw-council-14100-by-election-2026-12-12",
             "label": "2026 Hunters Hill South Ward by-election",
             "kind": "by-election",
-            "status": "Scheduled; nominations open 2 November",
+            "status": "Nomination period 2–11 November; closes noon AEDT",
             "date": "2026-12-12",
-            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026.",
+            "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026. Nomination period 2–11 November, closing at noon AEDT; opening hour not published. Nomination-period source rechecked 2 November 2026.",
             "timezone": "Australia/Sydney",
             "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
             "candidates": [],
@@ -372,8 +373,10 @@
             "earlyVotingOpens": "2026-12-05",
             "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
             "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
-            "checked": "2026-11-01",
-            "sourceId": "election-review-hunters-hill-20261101"
+            "checked": "2026-11-02",
+            "sourceId": "election-review-hunters-hill-20261101",
+            "nominationSourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election/becoming-a-candidate",
+            "nominationPeriodNote": "Published nominations commence 2 November and close 11 November 2026 at noon AEDT; no opening hour is confirmed. Checked 2 November 2026."
           }
         ],
         "coverageNotes": [
@@ -392,7 +395,7 @@
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-11-01",
+    "reviewedOn": "2026-11-02",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -404,7 +407,7 @@
     "artifactFingerprints": [
       {
         "path": "assets/civic-places.js",
-        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+        "sha256": "0d212351eee74af178e94d8e5e62169541781779237b4cd394db251d29d2f2b2"
       },
       {
         "path": "assets/civic-places.css",
@@ -412,19 +415,19 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
+        "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e"
       },
       {
         "path": "tools/verify-national-places.py",
-        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+        "sha256": "a73ec742eedad23bc10d354df45468022866773f3c8360af56e8b05e427c9a69"
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
+        "sha256": "f500b5cefb014ff27cabe91be91f07395e30c31fc422cfb4b6c6addfa65e5218"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
+        "sha256": "9f1fbc8aab5ff3c8ee08bc6d77bfd4f8f53379c1ec0ac9ea9ff595a7446d8b22"
       }
     ],
     "requiredHumanChecks": [

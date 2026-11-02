@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 import re
 from national_evidence import require_current_evidence
+from page_review_register import reviewed_page_entries
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_VALIDATION = 'content/places/qa/national-validation.json'
@@ -31,6 +32,19 @@ def passed(report):
     return str(report.get('status', report.get('result', ''))).upper() == 'PASS'
 
 
+def registered_route_dates(root, routes):
+    """Require an explicit unique editorial date for every contracted route."""
+    dates = {row['path']: row['lastUpdated'] for row in reviewed_page_entries(root)}
+    result = {}
+    for row in routes:
+        page = row['url']
+        if page not in dates:
+            raise ValueError('Contract route lacks a registered implementation date: ' + page)
+        date.fromisoformat(dates[page])
+        result[page] = dates[page]
+    return result
+
+
 def generate(validation_path, browser_path, dry_run=False):
     # All guards precede every write. A real file alone is not a passing review.
     validation = read(validation_path)
@@ -43,8 +57,7 @@ def generate(validation_path, browser_path, dry_run=False):
     reviewed = validation.get('checked') or validation.get('reviewedOn')
     date.fromisoformat(reviewed)
     registry = read('content/places/route-registry.json')
-    implementation_date = registry['implementationUpdated']
-    date.fromisoformat(implementation_date)
+    implementation_dates = registered_route_dates(ROOT, registry['places'])
     canonical = {}
     for scope in ('councils', 'state', 'federal'):
         path = f'content/places/{scope}.json'
@@ -97,7 +110,7 @@ def generate(validation_path, browser_path, dry_run=False):
             'canonicalInput': {'path': source_path, 'recordPointer': f'/places/{index}', 'scope': scope},
             'coverageNotes': notes,
             'routeDefaults': {'noSvgMaps': True, 'breadcrumbClass': 'civic-crumbs', 'choicesClass': 'civic-choices',
-                              'minimumChoices': 2, 'visibleDateValues': [implementation_date]},
+                              'minimumChoices': 2, 'visibleDateValues': [implementation_dates[page]]},
             'routes': [{'path': page, 'role': 'place-overview',
                         'requiredNextPaths': [f'states/{place["jurisdiction"]}/places/{scope}/index.html']}],
             'datePins': pins,

@@ -728,7 +728,7 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
 })();
 
 (() => {
-  const countdowns = Array.from(document.querySelectorAll('[data-countdown]'));
+  const countdowns = Array.from(document.querySelectorAll('[data-countdown], [data-election-card] .countdown-value'));
   const timerModules = Array.from(document.querySelectorAll('[data-timer-module]'));
   const mapTargets = Array.from(document.querySelectorAll('[data-map-state]'));
   const stateTargets = Array.from(document.querySelectorAll('[data-state]'));
@@ -737,8 +737,8 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
   const dayMs = 86400000;
   // Calendar-day displays for Victoria must not gain/lose a day at DST changes
   // or depend on the viewer's device timezone. Clock mode remains elapsed time.
-  const vicCalendarDay = (instant) => {
-    const parts = new Intl.DateTimeFormat('en-AU', { timeZone: 'Australia/Melbourne', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(instant));
+  const localCalendarDay = (instant, zone = 'Australia/Melbourne') => {
+    const parts = new Intl.DateTimeFormat('en-AU', { timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(instant));
     const n = (type) => Number(parts.find((p) => p.type === type).value);
     return Date.UTC(n('year'), n('month') - 1, n('day')) / dayMs;
   };
@@ -752,13 +752,17 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
   const getCardTime = (card) => {
     const countdown = card.querySelector('[data-countdown]');
     const rawDate = card.getAttribute('data-election-date') || countdown?.getAttribute('data-countdown') || '';
+    if (card.getAttribute('data-timing-status') === 'awaiting-confirmation') return { invalid: true, diff: 0, abs: 0, stamp: Number.MAX_SAFE_INTEGER, state: 'waiting' };
+    const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(rawDate);
+    const zone = card.getAttribute('data-election-timezone') || 'Australia/Melbourne';
     const target = new Date(rawDate);
     const stamp = target.getTime();
+    const dateOnlyDays = dateOnly ? stamp / dayMs - localCalendarDay(Date.now(), zone) : null;
     if (Number.isNaN(stamp)) {
-      return { invalid: true, diff: 0, abs: 0, stamp: Number.MAX_SAFE_INTEGER, state: 'invalid' };
+      return { invalid: true, diff: 0, abs: 0, stamp: Number.MAX_SAFE_INTEGER, state: 'waiting' };
     }
 
-    const diff = stamp - Date.now();
+    const diff = dateOnly ? dateOnlyDays * dayMs : stamp - Date.now();
     const abs = Math.abs(diff);
     const rawSinceDate = card.getAttribute('data-days-since-date') || '';
     const sinceTarget = rawSinceDate ? new Date(rawSinceDate) : target;
@@ -768,8 +772,9 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     const sinceAbs = sinceValid ? Math.abs(sinceDiff) : 0;
     return {
       invalid: false,
-      calendarDays: card.getAttribute('data-state') === 'vic' ? vicCalendarDay(stamp) - vicCalendarDay(Date.now()) : null,
-      calendarSince: card.getAttribute('data-state') === 'vic' && sinceValid ? vicCalendarDay(Date.now()) - vicCalendarDay(sinceStamp) : null,
+      dateOnly,
+      calendarDays: dateOnly ? dateOnlyDays : card.getAttribute('data-state') === 'vic' ? localCalendarDay(stamp) - localCalendarDay(Date.now()) : null,
+      calendarSince: card.getAttribute('data-state') === 'vic' && sinceValid ? localCalendarDay(Date.now()) - localCalendarDay(sinceStamp) : null,
       diff,
       abs,
       stamp,
@@ -804,8 +809,12 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     if (sinceWrap) sinceWrap.hidden = !daysSinceEnabled;
 
     if (info.invalid) {
-      if (untilValue) untilValue.textContent = 'Check';
-      if (sinceValue) sinceValue.textContent = 'Check';
+      if (untilValue) untilValue.textContent = 'Awaiting confirmation to begin';
+      const historicalDate = card.getAttribute('data-days-since-date') || '';
+      const historicalStamp = Date.parse(historicalDate);
+      const historicalZone = card.getAttribute('data-election-timezone') || 'Australia/Melbourne';
+      const historicalDays = Number.isNaN(historicalStamp) ? null : localCalendarDay(Date.now(), historicalZone) - localCalendarDay(historicalStamp, historicalZone);
+      if (sinceValue) sinceValue.textContent = historicalDays === null ? 'Awaiting confirmation to begin' : String(Math.max(0, historicalDays));
       return;
     }
 
@@ -827,7 +836,7 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     renderDayMetrics(card, info);
 
     if (info.invalid) {
-      element.textContent = 'Date needs checking';
+      element.textContent = 'Awaiting confirmation to begin';
       element.setAttribute('data-countdown-state', 'invalid');
       return;
     }
@@ -837,6 +846,13 @@ Postcode: ${order.shipping_destination_postcode || '[postcode]'}
     const hours = Math.floor((info.abs % dayMs) / 3600000);
     const minutes = Math.floor((info.abs % 3600000) / 60000);
     const seconds = Math.floor((info.abs % 60000) / 1000);
+
+    if (info.dateOnly) {
+      const count = Math.abs(info.calendarDays);
+      element.textContent = info.calendarDays === 0 ? 'Election day today' : `${count} day${count === 1 ? '' : 's'} ${info.calendarDays > 0 ? 'until' : 'since'} election day`;
+      element.setAttribute('data-countdown-state', info.state);
+      return;
+    }
 
     if (mode === 'days') {
       if (info.diff >= 0) {

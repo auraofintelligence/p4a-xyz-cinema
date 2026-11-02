@@ -50,6 +50,9 @@
       "role": "place-directory",
       "requiredNextPaths": [
         "states/qld/councils/redland/index.html"
+      ],
+      "visibleDateValues": [
+        "2026-10-23"
       ]
     },
     {
@@ -60,7 +63,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-01"
+        "2026-11-02"
       ]
     },
     {
@@ -544,7 +547,9 @@
       "tools/publication-qa/redland-seed-removal-2026-11-01-cloud-browser.json",
       "tools/publication-qa/redland-candidate-2026-11-01-cloud-browser.json",
       "tools/publication-qa/redland-album-2026-11-02-cloud-browser.json",
-      "tools/publication-qa/favicon-2026-11-02-cloud-browser.json"
+      "tools/publication-qa/favicon-2026-11-02-cloud-browser.json",
+      "tools/publication-qa/whole-site-audit-2026-11-02-cloud-browser.json",
+      "tools/publication-qa/redland-date-supplement-2026-11-02.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -610,23 +615,23 @@
       },
       {
         "path": "content/local/redland-election.json",
-        "sha256": "59b61d5d9257ea79f6daf3057ccd0a4749001df819bd9f465edab4c3cac27935"
+        "sha256": "1d229a96203821f667c49aa4ab7ff1ea3cf7d0cd72f16806b2e300a051e8d622"
       },
       {
         "path": "tools/redland_election.py",
-        "sha256": "e393ffa2032f3661c12c698092bc7a23b13be971f20c008c52306319d9396d74"
+        "sha256": "d2e8210e9fd619d7a6468070af6c0625805bdf35c501dfffe9de9d8fa0b54ef7"
       },
       {
         "path": "states/qld/councils/redland/index.html",
-        "sha256": "38161e13ae705c88d7504c78cd213a34b57f55dd6850c99fbe5a9149383c4062"
+        "sha256": "3fa0b672a3de1f35d112c6f65d4541b218623d2f36c882befcfd6f16d6ccfaac"
       },
       {
         "path": "states/qld/councils/redland/candidates/index.html",
-        "sha256": "a34865f63737c98998ebae5b7e947b37aa015f6a2018a3279edd5b562d68506d"
+        "sha256": "ec873706044480560fab5f6bc672879d30e298b58c3af30a9b9178b9d995d585"
       },
       {
         "path": "states/qld/councils/redland/sources/index.html",
-        "sha256": "eb1fb74c3966eb9280749a53e3fcd5104235fd656a478f90778a8d9e1cc19e61"
+        "sha256": "5eb70a43d428fb9e9cd614b19306c452930059e1ae763a4b1a016cc50875edf5"
       },
       {
         "path": "tools/publication-qa/redland-candidate-2026-11-01-fixture.html",
@@ -642,7 +647,7 @@
       },
       {
         "path": "tools/build-redland.py",
-        "sha256": "de6df8acb336ff2ff4c9650f8eb31b77116b8f44ef94b6fda3660eeac9ec7896"
+        "sha256": "756a47fd12ff65e3846f85e782773352ddc711ae18e6ec443d936e89fb85a636"
       },
       {
         "path": "tools/verify-redland.py",
@@ -730,6 +735,12 @@
       "reviewedOn": "2026-11-02",
       "path": "tools/publication-qa/favicon-2026-11-02-cloud-browser.json",
       "scope": "Favicon-only maintenance; no body content, styles, civic facts or dates changed."
+    },
+    "wholeSiteDateReview": {
+      "reviewedOn": "2026-11-02",
+      "path": "tools/publication-qa/whole-site-audit-2026-11-02-cloud-browser.json",
+      "scope": "Scoped actual browser review of Redland waiting mayoral and ordinary election milestones, implementation date labels and source register; original broader local journey and source evidence retained.",
+      "supplement": "tools/publication-qa/redland-date-supplement-2026-11-02.json"
     }
   },
   "dateInventories": [

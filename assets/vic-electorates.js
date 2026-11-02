@@ -3796,17 +3796,23 @@ window.P4A_VIC_ELECTORATES = {
         {
           "name": "Garner J Smith",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Councillor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Daniel Bolitho",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Deputy Mayor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Ross Stanton",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Mayor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Pat Quinn",
@@ -18424,17 +18430,23 @@ window.P4A_VIC_ELECTORATES = {
         {
           "name": "Garner J Smith",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Councillor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Daniel Bolitho",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Deputy Mayor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Ross Stanton",
           "party": "Affiliation not verified",
-          "role": "Council-wide"
+          "role": "Mayor",
+          "checked": "2026-11-02",
+          "sourceUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
         },
         {
           "name": "Pat Quinn",

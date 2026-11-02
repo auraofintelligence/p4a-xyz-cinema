@@ -360,7 +360,7 @@ def enrich_retained():
             for place in data['places']:
                 if place['jurisdiction']!='qld' or place['kind'] not in ['council','ward']:continue
                 future=next((x for x in place['elections'] if x['id'].endswith('-next-ordinary')),None)
-                if future:future.update(date='2028-03-25',status='scheduled',dateBasis='ECQ rule: four-year ordinary cycle, last Saturday in March, subject to regulation and the official timetable. Countdown reaches start of local date; no polling opening time is implied.',sourceUrl='https://www.ecq.qld.gov.au/elections/election-events',milestoneLabel='scheduled ordinary election day')
+                if future:future.update(date=None,indicativeDate='2028-03-25',status='date-unannounced',timingStatus='awaiting-confirmation',waitingLabel='Awaiting confirmation to begin',dateBasis='ECQ rule: four-year ordinary cycle, last Saturday in March, subject to regulation and the official timetable. Indicative statutory date only; awaiting official event-date confirmation before the countdown begins.',sourceUrl='https://www.ecq.qld.gov.au/elections/election-events',milestoneLabel='scheduled ordinary election day')
                 place['sources'].append(sid)
     save()
 
@@ -423,7 +423,7 @@ def qld_web_review():
     for place in data['places']:
         if place['jurisdiction']!='qld' or place['kind'] not in ['council','ward']:continue
         event=next((e for e in place['elections'] if e['id'].endswith('-next-ordinary')),None)
-        if event:event.update(date='2028-03-25',status='scheduled',dateBasis='ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.',milestoneLabel='scheduled ordinary election day',sourceUrl='https://www.ecq.qld.gov.au/elections/election-events')
+        if event:event.update(date=None,indicativeDate='2028-03-25',status='date-unannounced',timingStatus='awaiting-confirmation',waitingLabel='Awaiting confirmation to begin',dateBasis='ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Indicative statutory date only; awaiting official event-date confirmation before the countdown begins.',milestoneLabel='scheduled ordinary election day',sourceUrl='https://www.ecq.qld.gov.au/elections/election-events')
         place['sources'].append(sid)
     save()
 

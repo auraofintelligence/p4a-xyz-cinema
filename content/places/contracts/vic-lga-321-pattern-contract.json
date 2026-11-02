@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-02"
     ]
   },
   "routes": [
@@ -72,7 +72,9 @@
         "sources": [
           "council-vic-retained",
           "council-vic-2024-321",
-          "council-vic-roster-321"
+          "council-vic-roster-321",
+          "election-review-gannawarra-mayoral-selection-20261102",
+          "election-review-gannawarra-selected-20261102"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
         "representatives": [
@@ -88,33 +90,36 @@
           },
           {
             "name": "Garner J Smith",
-            "role": "Council-wide",
+            "role": "Councillor",
             "party": null,
-            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+            "profileUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor",
             "website": null,
-            "sourceId": "council-vic-roster-321",
-            "checked": "2026-10-02",
-            "profileType": "official published council roster"
+            "sourceId": "election-review-gannawarra-selected-20261102",
+            "checked": "2026-11-02",
+            "profileType": "official council role announcement",
+            "status": "Council confirms mayoral roles selected internally on 21 October; Garner Smith remains councillor"
           },
           {
             "name": "Daniel Bolitho",
-            "role": "Council-wide",
+            "role": "Deputy Mayor",
             "party": null,
-            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+            "profileUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor",
             "website": null,
-            "sourceId": "council-vic-roster-321",
-            "checked": "2026-10-02",
-            "profileType": "official published council roster"
+            "sourceId": "election-review-gannawarra-selected-20261102",
+            "checked": "2026-11-02",
+            "profileType": "official council role announcement",
+            "status": "Council confirms mayoral roles selected internally on 21 October; Garner Smith remains councillor"
           },
           {
             "name": "Ross Stanton",
-            "role": "Council-wide",
+            "role": "Mayor",
             "party": null,
-            "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+            "profileUrl": "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor",
             "website": null,
-            "sourceId": "council-vic-roster-321",
-            "checked": "2026-10-02",
-            "profileType": "official published council roster"
+            "sourceId": "election-review-gannawarra-selected-20261102",
+            "checked": "2026-11-02",
+            "profileType": "official council role announcement",
+            "status": "Council confirms mayoral roles selected internally on 21 October; Garner Smith remains councillor"
           },
           {
             "name": "Pat Quinn",
@@ -333,12 +338,70 @@
             "featureId": "3210120240215",
             "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024"
           }
+        ],
+        "representationHistory": [
+          {
+            "capturedForChange": "2026-11-02",
+            "previousRepresentatives": [
+              {
+                "name": "Garner J Smith",
+                "role": "Council-wide",
+                "party": null,
+                "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+                "website": null,
+                "sourceId": "council-vic-roster-321",
+                "checked": "2026-10-02",
+                "profileType": "official published council roster"
+              },
+              {
+                "name": "Daniel Bolitho",
+                "role": "Council-wide",
+                "party": null,
+                "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+                "website": null,
+                "sourceId": "council-vic-roster-321",
+                "checked": "2026-10-02",
+                "profileType": "official published council roster"
+              },
+              {
+                "name": "Ross Stanton",
+                "role": "Council-wide",
+                "party": null,
+                "profileUrl": "https://www.vec.vic.gov.au/electoral-boundaries/local-councils/gannawarra-shire-council",
+                "website": null,
+                "sourceId": "council-vic-roster-321",
+                "checked": "2026-10-02",
+                "profileType": "official published council roster"
+              }
+            ],
+            "effectiveEndDate": null,
+            "note": "Superseded current-role snapshot retained; original source dates preserved."
+          }
+        ],
+        "representationReview": "Garner Smith resigned only the mayoral role effective 30 September and remains a councillor. Councillors elected Ross Stanton Mayor and Daniel Bolitho Deputy Mayor on 21 October, serving until the annual internal mayoral election on 18 November. No public by-election or accepted state-election nomination is inferred. Checked 2 November 2026.",
+        "replacementHistory": [
+          {
+            "formerMayor": "Garner Smith",
+            "mayoralResignationEffective": "2026-09-30",
+            "councillorOfficeRetained": true,
+            "mayor": "Ross Stanton",
+            "deputyMayor": "Daniel Bolitho",
+            "selectionDate": "2026-10-21",
+            "nextInternalSelectionDate": "2026-11-18",
+            "process": "internal councillor election",
+            "sourceId": "election-review-gannawarra-mayoral-selection-20261102",
+            "sourceUrls": [
+              "https://www.gannawarra.vic.gov.au/News-Media/Council-to-elect-new-Mayor-following-resignation",
+              "https://www.gannawarra.vic.gov.au/News-Media/Cr-Ross-Stanton-elected-Gannawarra-Shire-Council-Mayor"
+            ],
+            "checked": "2026-11-02"
+          }
         ]
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-11-01",
+    "reviewedOn": "2026-11-02",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -350,7 +413,7 @@
     "artifactFingerprints": [
       {
         "path": "assets/civic-places.js",
-        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+        "sha256": "0d212351eee74af178e94d8e5e62169541781779237b4cd394db251d29d2f2b2"
       },
       {
         "path": "assets/civic-places.css",
@@ -358,19 +421,19 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
+        "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e"
       },
       {
         "path": "tools/verify-national-places.py",
-        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+        "sha256": "a73ec742eedad23bc10d354df45468022866773f3c8360af56e8b05e427c9a69"
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
+        "sha256": "f500b5cefb014ff27cabe91be91f07395e30c31fc422cfb4b6c6addfa65e5218"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
+        "sha256": "9f1fbc8aab5ff3c8ee08bc6d77bfd4f8f53379c1ec0ac9ea9ff595a7446d8b22"
       }
     ],
     "requiredHumanChecks": [

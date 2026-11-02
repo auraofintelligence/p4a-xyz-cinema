@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-02",
+  "checkedAt": "2026-11-01T22:25:34.622678+00:00",
+  "status": "PASS",
+  "scope": "Focused changed-election and representation rendering/navigation; not site-wide certification.",
+  "environment": {
+    "browser": "Cloud Chromium; shared checkout served at localhost port 8765.",
+    "viewportReview": "Desktop screenshots; same-origin fixture iframe screenshots at configured 390px and 680px widths. No physical touch or automated overflow measurement.",
+    "physicalTouchTested": false
+  },
+  "testedPagePaths": [
+    "states/nsw/councils/walcha/index.html",
+    "states/wa/councils/irwin/index.html",
+    "states/wa/councils/merredin/index.html",
+    "states/vic/councils/gannawarra-shire-council/index.html",
+    "states/nsw/councils/coffs-harbour/index.html",
+    "states/nsw/councils/hunters-hill/index.html",
+    "states/nsw/index.html",
+    "states/nsw/constitution/index.html",
+    "pages/states.html",
+    "states/vic/map/index.html"
+  ],
+  "fixturePaths": [
+    "tools/publication-qa/election-refresh-2026-11-02-cloud-browser.json",
+    "tools/publication-qa/election-refresh-2026-11-02-fixture.html"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "states/nsw/councils/walcha/index.html",
+      "sha256": "0b0bc9b9b4dad821ed704a337109d7fab8c3c521b25a32b2300c87cfc064fca9",
+      "bytes": 160426
+    },
+    {
+      "path": "states/wa/councils/irwin/index.html",
+      "sha256": "589b23e69c0bf12942dd7da40a105c0ed4c0aa48f89b458aaf8efa140938f597",
+      "bytes": 106527
+    },
+    {
+      "path": "states/wa/councils/merredin/index.html",
+      "sha256": "d1050051f06f01454dc67f8616e4150e1e7ffa45f73b4b1e33b3e7ce8d40b73b",
+      "bytes": 107067
+    },
+    {
+      "path": "states/vic/councils/gannawarra-shire-council/index.html",
+      "sha256": "a3687bc162469de13188094834505c4987b06f1ad15b5764396ecaf4e416263a",
+      "bytes": 311512
+    },
+    {
+      "path": "states/nsw/councils/coffs-harbour/index.html",
+      "sha256": "6ee5d1a7fba93a0f2cc8e35df1c943d0646037a86a9b9b3a23ac429c5722170a",
+      "bytes": 186835
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "aed1568df04e6ac6e17631a7f8c4f589a4ba998558aa29fe48a73b7da7a2b131",
+      "bytes": 172373
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "24280e79e7fe0071ac444c951feb16bd0f91fdc5cddb030c9b05359fc65fea58",
+      "bytes": 28037
+    },
+    {
+      "path": "states/nsw/constitution/index.html",
+      "sha256": "7f3af819befc88f8dec66dbe33dedbc3eb87b647805751cb0b79ac6097d27a42",
+      "bytes": 11833
+    },
+    {
+      "path": "pages/states.html",
+      "sha256": "81c81a851831cf6fc9ad5017ccc4179a1ab2eab7f91068f9138f7759a2fcd18c",
+      "bytes": 65160
+    },
+    {
+      "path": "states/vic/map/index.html",
+      "sha256": "43b52480f23adf7dfc008315454bcb1fa3a8bd7beb7320b30d9afedfa4680750",
+      "bytes": 2659040
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-02-cloud-browser.json",
+      "sha256": "01d239690db0b376ecdc38efe508d9e23b898f4d1cfe2c35cbb2587bd29c1817",
+      "bytes": 3336
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-02-fixture.html",
+      "sha256": "f17c29e4097f22dfb1ef04752372ec48c9c94fb434feb9abfbfd2546a3294c9d",
+      "bytes": 538
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c",
+      "bytes": 19147
+    },
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666",
+      "bytes": 39709
+    },
+    {
+      "path": "assets/state-data.js",
+      "sha256": "b00536b735ca8837cefe6eeeb94739214b1c6ede1932aecbef1f1950523e7ab5",
+      "bytes": 85210
+    },
+    {
+      "path": "assets/vic-electorates.js",
+      "sha256": "6da266b3391d0f9714a516026c5749e718900bc607c773d8d64e11aeee28c6e7",
+      "bytes": 537579
+    },
+    {
+      "path": "assets/site-nav.js",
+      "sha256": "97a45ac82297951b0a60370f1d46f522cf5412e4049c4f6b369beaffeacb0fbc",
+      "bytes": 33957
+    },
+    {
+      "path": "styles.css",
+      "sha256": "52c466b91e473ceea7501f0dcfb76c9440684cd1bce8c170db9221776791f7eb",
+      "bytes": 138762
+    }
+  ],
+  "limitations": [
+    "Focused changed-fact and representative rendering/navigation smoke review only; not site-wide source, accessibility, geometry or browser certification.",
+    "Responsive screenshot shows visible wrapping, not a claim of all viewport or physical touch testing.",
+    "Redland original public announcement was separately re-read; unchanged site records retain earlier dedicated evidence."
+  ]
+}

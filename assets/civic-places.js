@@ -8,7 +8,7 @@
     return Date.UTC(Number(part('year')), Number(part('month')) - 1, Number(part('day'))) / 86400000;
   };
   function clockLabel(event, now = new Date()) {
-    if (!event.date || !/^\d{4}-\d{2}-\d{2}/.test(event.date)) return 'Date not announced';
+    if (event.timingStatus === 'awaiting-confirmation' || !event.date || !/^\d{4}-\d{2}-\d{2}/.test(event.date)) return 'Awaiting confirmation to begin';
     const zone = event.timezone || 'Australia/Brisbane';
     const target = Date.parse(event.date.slice(0, 10) + 'T00:00:00Z') / 86400000;
     const delta = target - dayNumber(now, zone);

@@ -30,7 +30,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-02"
     ]
   },
   "routes": [
@@ -86,13 +86,16 @@
             "id": "qld-council-6820-division-3-next-ordinary",
             "label": "Next ordinary local government election",
             "kind": "ordinary",
-            "status": "scheduled",
-            "date": "2028-03-25",
-            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived date; countdown reaches the start of the local calendar date.",
+            "status": "date-unannounced",
+            "date": null,
+            "dateBasis": "ECQ four-year last-Saturday-in-March rule, subject to regulation and official timetable. Rule-derived indicative date only. No countdown is active. The indicative statutory date is retained separately; await an official event date before starting a countdown.",
             "timezone": "Australia/Brisbane",
             "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
             "candidates": [],
-            "milestoneLabel": "scheduled ordinary election day"
+            "milestoneLabel": "scheduled ordinary election day",
+            "indicativeDate": "2028-03-25",
+            "timingStatus": "awaiting-confirmation",
+            "waitingLabel": "Awaiting confirmation to begin"
           },
           {
             "id": "qld-council-6820-division-3-ordinary-2024",
@@ -130,7 +133,7 @@
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-11-01",
+    "reviewedOn": "2026-11-02",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -142,7 +145,7 @@
     "artifactFingerprints": [
       {
         "path": "assets/civic-places.js",
-        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+        "sha256": "0d212351eee74af178e94d8e5e62169541781779237b4cd394db251d29d2f2b2"
       },
       {
         "path": "assets/civic-places.css",
@@ -150,19 +153,19 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
+        "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e"
       },
       {
         "path": "tools/verify-national-places.py",
-        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+        "sha256": "a73ec742eedad23bc10d354df45468022866773f3c8360af56e8b05e427c9a69"
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
+        "sha256": "f500b5cefb014ff27cabe91be91f07395e30c31fc422cfb4b6c6addfa65e5218"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
+        "sha256": "9f1fbc8aab5ff3c8ee08bc6d77bfd4f8f53379c1ec0ac9ea9ff595a7446d8b22"
       }
     ],
     "requiredHumanChecks": [

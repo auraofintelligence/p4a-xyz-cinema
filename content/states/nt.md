@@ -22,11 +22,11 @@
   "elections": [
     {
       "label": "2028 Northern Territory Legislative Assembly election",
-      "date": "2028-08-26T08:00:00+09:30",
+      "date": null,
       "kind": "Territory general election",
       "scope": "general",
-      "status": "Scheduled by four-year cycle",
-      "note": "Ordinary cycle: fourth Saturday in August every four years, subject to applicable exceptions. No new writ or timetable is implied.",
+      "status": "Awaiting confirmation to begin",
+      "note": "Ordinary cycle: fourth Saturday in August every four years, subject to applicable exceptions. No new writ or timetable is implied. Indicative rule-derived date: 2028-08-26. No event date or polling hours are confirmed by the retained source; the countdown remains waiting.",
       "source": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -38,7 +38,10 @@
         "cycleKey": "nt-2028-general",
         "archiveWithCycle": "next-higher-order-cycle-after-nt-2028-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
-      }
+      },
+      "timezone": "Australia/Darwin",
+      "indicativeDate": "2028-08-26",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "label": "Nightcliff by-election",

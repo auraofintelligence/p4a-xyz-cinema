@@ -14,6 +14,7 @@ import json
 import os
 from pathlib import Path
 import re
+from page_review_register import reviewed_page_entries
 
 ROOT = Path(__file__).resolve().parents[1]
 UPDATED = '2026-10-23'
@@ -21,6 +22,8 @@ NAMES = {'act':'Australian Capital Territory','nsw':'New South Wales','nt':'Nort
 SCOPES = {'councils': 'Councils and local areas', 'state': 'State and territory electorates', 'federal': 'Federal representation'}
 KINDS = {'council':'Local council','ward':'Council electoral area','unincorporated-area':'Unincorporated area','special-local-body':'Special local body','state-district':'State/territory district','state-region':'State upper-house region','statewide-upper-house':'Statewide upper house','federal-division':'House of Representatives division','senate-area':'Senate state/territory area'}
 WRITTEN = []
+# Editorial implementation dates are explicit per page; a build never refreshes facts.
+PAGE_REVIEW_DATES = {row['path']: row['lastUpdated'] for row in reviewed_page_entries(ROOT)}
 
 
 def write(path, value):
@@ -162,8 +165,9 @@ def header(page):
 
 
 def shell(page, title, body, description=None):
+    page_updated = PAGE_REVIEW_DATES.get(page, UPDATED)
     return f'''<!doctype html>
-<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#30104c"><title>{esc(title)} | P4A</title><meta name="description" content="{esc(description or title + ': boundaries, public representatives, election history and sources.')}"><link rel="icon" href="{rel(page,'assets/favicon.svg')}"><link rel="stylesheet" href="{rel(page,'styles.css')}?v=20261017"><link rel="stylesheet" href="{rel(page,'assets/civic-places.css')}?v=20261017"><script src="{rel(page,'assets/civic-places.js')}?v=20261017" defer></script><script src="{rel(page,'assets/site-nav.js')}?v=20261017" defer></script><script src="{rel(page,'assets/external-links.js')}?v=20261017" defer></script></head><body data-theme="royal"><a class="skip-link" href="#main">Skip to content</a>{header(page)}<main id="main" class="civic-main">{body}<footer class="civic-footer"><p>Page implementation updated <time datetime="{UPDATED}">{UPDATED}</time>. Facts, roles and boundaries keep their own source dates. This is a static public workbench; use the responsible electoral authority for official address and voting enquiries.</p><p>{link(page,'pages/site-map.html','Site map')} · {link(page,'LICENCE.md','Project licence and third-party rights')} · <a href="#main">Back to top ↑</a></p></footer></main></body></html>'''
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#30104c"><title>{esc(title)} | P4A</title><meta name="description" content="{esc(description or title + ': boundaries, public representatives, election history and sources.')}"><link rel="icon" href="{rel(page,'assets/favicon.svg')}"><link rel="stylesheet" href="{rel(page,'styles.css')}?v=20261017"><link rel="stylesheet" href="{rel(page,'assets/civic-places.css')}?v=20261017"><script src="{rel(page,'assets/civic-places.js')}?v=20261017" defer></script><script src="{rel(page,'assets/site-nav.js')}?v=20261017" defer></script><script src="{rel(page,'assets/external-links.js')}?v=20261017" defer></script></head><body data-theme="royal"><a class="skip-link" href="#main">Skip to content</a>{header(page)}<main id="main" class="civic-main">{body}<footer class="civic-footer"><p>Page implementation updated <time datetime="{page_updated}">{page_updated}</time>. Facts, roles and boundaries keep their own source dates. This is a static public workbench; use the responsible electoral authority for official address and voting enquiries.</p><p>{link(page,'pages/site-map.html','Site map')} · {link(page,'LICENCE.md','Project licence and third-party rights')} · <a href="#main">Back to top ↑</a></p></footer></main></body></html>'''
 
 
 def crumbs(page, state=None, scope=None):
@@ -257,8 +261,8 @@ def elections_section(page, place):
         label = event.get('label', event.get('name', 'Election event'))
         basis = event.get('dateBasis','See official event notice')
         zone = event.get('timezone') or {'qld':'Australia/Brisbane','nsw':'Australia/Sydney','vic':'Australia/Melbourne','tas':'Australia/Hobart','sa':'Australia/Adelaide','wa':'Australia/Perth','nt':'Australia/Darwin','act':'Australia/Sydney'}[place['jurisdiction']]
-        supported = date and not any(word in str(basis).lower() for word in ('estimate','unverified','unknown'))
-        clock = f'<strong class="civic-clock" data-civic-clock="{esc(json_text({"date":date,"dateTime":event.get("dateTime"),"timezone":zone,"milestoneLabel":event.get("milestoneLabel")}))}">Calendar timer</strong>' if supported else '<strong class="civic-clock">'+esc(event.get('waitingLabel', 'Voting date not announced / verified'))+'</strong>'
+        supported = date and event.get('timingStatus') != 'awaiting-confirmation' and not any(word in str(basis).lower() for word in ('estimate','unverified','unknown','rule-derived','ordinary statutory'))
+        clock = f'<strong class="civic-clock" data-civic-clock="{esc(json_text({"date":date,"dateTime":event.get("dateTime"),"timezone":zone,"milestoneLabel":event.get("milestoneLabel")}))}">Calendar timer</strong>' if supported else '<strong class="civic-clock">'+esc(event.get('waitingLabel', 'Awaiting confirmation to begin'))+'</strong>'
         source_url = event.get('sourceUrl') or event.get('resultsUrl') or place.get('officialUrl')
         source_link = link(page, source_url, 'Official event / results') if source_url else ''
         candidates = event.get('candidates', [])
@@ -287,8 +291,9 @@ def elections_section(page, place):
             participant_label = 'participants' if event.get('kind') == 'casual-vacancy-replacement' else 'contestants'
             record_label = 'participant' if event.get('kind') == 'casual-vacancy-replacement' else 'contestant'
             table = f'<details><summary>{len(rows)} recorded {participant_label} · names, affiliations and public records</summary><div class="civic-table-wrap"><table class="civic-table"><caption>{esc(label)} · event-specific {record_label} records</caption><thead><tr><th>Name / public profile</th><th>Affiliation at this event</th><th>Recorded status / result</th><th>Source</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></details>'
+        indicative_note = ('<p class="civic-note">Indicative statutory date: '+esc(event['indicativeDate'])+'. This is not a confirmed event timetable and does not start the countdown.</p>') if event.get('indicativeDate') else ''
         time_note = 'Published closing time: '+esc(event['dateTime'])+'. The clock respects this deadline.' if event.get('dateTime') else 'Calendar days to the local event date; exact polling or closing hours remain with the official notice.'
-        sections.append(f'<article class="civic-panel civic-event" id="event-{slug(event.get("id",str(index)))}"><h3>{esc(label)}</h3><p>{esc(status)} · {esc(event.get("kind","election"))}</p>{clock}<p>{"<time datetime=" + chr(34) + esc(date) + chr(34) + ">" + esc(date) + "</time> · " if date else ""}{esc(basis)}</p><p class="civic-note">{esc(zone)} · {time_note} The clock does not refresh results or declare a winner. {esc(event.get("boundaryEdition", ""))}</p><p>{source_link}</p>{table}</article>')
+        sections.append(f'<article class="civic-panel civic-event" id="event-{slug(event.get("id",str(index)))}"><h3>{esc(label)}</h3><p>{esc(status)} · {esc(event.get("kind","election"))}</p>{clock}<p>{"<time datetime=" + chr(34) + esc(date) + chr(34) + ">" + esc(date) + "</time> · " if date else ""}{esc(basis)}</p>{indicative_note}<p class="civic-note">{esc(zone)} · {time_note} The clock does not refresh results or declare a winner. {esc(event.get("boundaryEdition", ""))}</p><p>{source_link}</p>{table}</article>')
     if not sections:
         sections.append('<p>No verified election/timetable record is populated here yet. Use the official electoral authority and place directory; no exact future countdown has been invented.</p>')
     return '<section class="civic-section" id="elections"><h2>Election dates & previous contestants</h2><p class="civic-note">Each event keeps its own roster, result stage and boundary edition. A subsequent by-election does not replace the previous general-election record.</p>' + ''.join(sections) + '</section>'

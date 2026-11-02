@@ -15,7 +15,7 @@ const cases=[
  [{date:'2026-10-04',timezone:'Australia/Sydney'},'2026-10-03T14:00:00Z','Polling day'],
  [{date:'2026-10-05',timezone:'Australia/Sydney'},'2026-10-04T13:00:00Z','Polling day'],
  [{date:'2028-03-01',timezone:'Australia/Adelaide'},'2028-02-28T14:00:00Z','1 day to polling day'],
- [{date:null,timezone:'Australia/Darwin'},'2026-10-17T00:00:00Z','Date not announced'],
+ [{date:null,timezone:'Australia/Darwin'},'2026-10-17T00:00:00Z','Awaiting confirmation to begin'],
  [{date:'2026-10-27',dateTime:'2026-10-27T14:00:00+11:00',timezone:'Australia/Hobart',milestoneLabel:'postal voting closes'},'2026-10-25T23:00:00Z','1 day until postal voting closes'],
  [{date:'2026-10-27',dateTime:'2026-10-27T14:00:00+11:00',timezone:'Australia/Hobart',milestoneLabel:'postal voting closes'},'2026-10-27T01:30:00Z','Voting closes today · 1 hour 30 minutes remaining'],
  [{date:'2026-10-27',dateTime:'2026-10-27T14:00:00+11:00',timezone:'Australia/Hobart',milestoneLabel:'postal voting closes'},'2026-10-27T03:00:00Z','Voting closed today'],

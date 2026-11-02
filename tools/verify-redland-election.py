@@ -48,7 +48,7 @@ for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
             if panel['data-timing-status'] == 'awaiting-confirmation':
                 assert not panel['data-target']
         if all(p['data-timing-status'] == 'awaiting-confirmation' for p in parsed.panels):
-            assert text.count(WAITING) == 2
+            assert text.count(WAITING) == 3
         assert '28 December 2026' not in text, 'Do not turn a statutory interval into an announced polling date'
         assert 'Possible mayoral by-election:' not in text
 

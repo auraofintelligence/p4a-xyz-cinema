@@ -31,7 +31,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-02"
     ]
   },
   "routes": [
@@ -73,7 +73,10 @@
         "officialUrl": "https://www.irwin.wa.gov.au",
         "sources": [
           "council-abs-2026-lga",
-          "council-wa-walga-2026-54060"
+          "council-wa-walga-2026-54060",
+          "election-review-irwin-backfill-20261102",
+          "election-review-irwin-accepted-20261102",
+          "election-review-irwin-agenda-20261102"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -124,18 +127,6 @@
             "asAt": "2026-03",
             "website": "https://www.irwin.wa.gov.au",
             "termEndYear": "2027"
-          },
-          {
-            "name": "Lesley Berecz",
-            "role": "Councillor",
-            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=22",
-            "profileType": "official published WALGA roster",
-            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-            "sourceId": "council-wa-walga-2026-54060",
-            "checked": "2026-10-17",
-            "asAt": "2026-03",
-            "website": "https://www.irwin.wa.gov.au",
-            "termEndYear": "2029"
           },
           {
             "name": "Sophie Hansen",
@@ -193,12 +184,50 @@
           "Names and professional roles come independently from the WALGA2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on17October2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
           "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office.",
           "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled."
+        ],
+        "representationHistory": [
+          {
+            "capturedForChange": "2026-11-02",
+            "previousRepresentatives": [
+              {
+                "name": "Lesley Berecz",
+                "role": "Councillor",
+                "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=22",
+                "profileType": "official published WALGA roster",
+                "status": "Published WALGA roster as at March2026; subsequent changes unverified",
+                "sourceId": "council-wa-walga-2026-54060",
+                "checked": "2026-10-17",
+                "asAt": "2026-03",
+                "website": "https://www.irwin.wa.gov.au",
+                "termEndYear": "2029"
+              }
+            ],
+            "effectiveEndDate": "2026-09-21",
+            "note": "Superseded current-role snapshot retained; original source dates preserved."
+          }
+        ],
+        "representationReview": "Lesley Berecz resigned effective 21 September 2026. Council’s 8 October notice confirms Tom Coffey accepted backfill from the 2025 election. The 27 October agenda schedules Thomas Coffey’s declaration, but completion and taking office are not yet verified. Other retained representatives keep their March 2026 roster basis. This is a backfill process, not a newly announced public election. Checked 2 November 2026.",
+        "replacementHistory": [
+          {
+            "formerRepresentative": "Lesley Berecz",
+            "effectiveVacancyDate": "2026-09-21",
+            "replacement": "Thomas (Tom) Coffey",
+            "process": "backfill from 2025 election",
+            "status": "accepted; completed declaration not verified",
+            "sourceId": "election-review-irwin-backfill-20261102",
+            "sourceUrls": [
+              "https://irwin.wa.gov.au/wp-content/uploads/2026/10/20260922-OCM-Minutes.pdf",
+              "https://irwin.wa.gov.au/october-community-news-3/",
+              "https://irwin.wa.gov.au/wp-content/uploads/2026/10/Open-Agenda.pdf"
+            ],
+            "checked": "2026-11-02"
+          }
         ]
       }
     }
   ],
   "reviewEvidence": {
-    "reviewedOn": "2026-11-01",
+    "reviewedOn": "2026-11-02",
     "paths": [
       "content/places/qa/national-validation.json",
       "content/places/qa/browser-review.json"
@@ -210,7 +239,7 @@
     "artifactFingerprints": [
       {
         "path": "assets/civic-places.js",
-        "sha256": "2876712efc455e7909ab5cbb07792c73fb7fdedcd9c877d6470e51580545873c"
+        "sha256": "0d212351eee74af178e94d8e5e62169541781779237b4cd394db251d29d2f2b2"
       },
       {
         "path": "assets/civic-places.css",
@@ -218,19 +247,19 @@
       },
       {
         "path": "tools/build-national-places.py",
-        "sha256": "7bfdb4b19813573494f59111bb74ccbe9335dafaffbb43050a6b824f0aded666"
+        "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e"
       },
       {
         "path": "tools/verify-national-places.py",
-        "sha256": "22523b3bbd20235a8e26ef834517b37711ab1b7f6a6f4b8586459f81eb6cc604"
+        "sha256": "a73ec742eedad23bc10d354df45468022866773f3c8360af56e8b05e427c9a69"
       },
       {
         "path": "content/places/qa/national-validation.json",
-        "sha256": "eba4ad15d51a718154a4c4f5fd80ce35d03058f143f45472773b232fd6306f26"
+        "sha256": "f500b5cefb014ff27cabe91be91f07395e30c31fc422cfb4b6c6addfa65e5218"
       },
       {
         "path": "content/places/qa/browser-review.json",
-        "sha256": "116a9259c9df9433281737c9002f758002a2d312c445ae0c14641fbb0fb62289"
+        "sha256": "9f1fbc8aab5ff3c8ee08bc6d77bfd4f8f53379c1ec0ac9ea9ff595a7446d8b22"
       }
     ],
     "requiredHumanChecks": [

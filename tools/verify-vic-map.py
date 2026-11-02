@@ -40,7 +40,21 @@ def main():
    if u.scheme or u.netloc or not u.path:continue
    assert ((ROOT/unquote(u.path).lstrip("/")) if u.path.startswith("/") else page.parent/unquote(u.path)).resolve().exists(),(name,href)
   if name in ['states/vic/index.html','pages/states.html']:
-   for date in re.findall(r'data-(?:election-date|countdown)="([^"]+)"',s):assert re.match(r'\d{4}-\d\d-\d\dT',date),date
+   zone_by_state={'qld':'Australia/Brisbane','nsw':'Australia/Sydney','vic':'Australia/Melbourne','tas':'Australia/Hobart','sa':'Australia/Adelaide','wa':'Australia/Perth','nt':'Australia/Darwin','act':'Australia/Sydney'}
+   total_dates=re.findall(r'data-(?:election-date|countdown)="([^"]+)"',s)
+   checked_dates=[]
+   for card in re.findall(r'<article\b[^>]*data-election-card[^>]*>.*?</article>',s,re.S):
+    attrs=dict(re.findall(r'([\w-]+)="([^"]*)"',card.split('>',1)[0]))
+    for date in re.findall(r'data-(?:election-date|countdown)="([^"]+)"',card):
+     checked_dates.append(date)
+     if re.fullmatch(r'\d{4}-\d{2}-\d{2}',date):
+      assert attrs.get('data-election-precision')=='day',(name,date,'date-only requires explicit day precision')
+      assert attrs.get('data-election-timezone')==zone_by_state.get(attrs.get('data-state')),(name,date,'jurisdiction timezone required')
+      assert attrs.get('data-election-timezone'),(name,date)
+      from datetime import date as calendar_date
+      calendar_date.fromisoformat(date)
+     else:assert re.match(r'\d{4}-\d\d-\d\dT',date),date
+   assert collections.Counter(checked_dates)==collections.Counter(total_dates),(name,'unscoped date/countdown attributes')
   if name=='states/vic/architecture/index.html':assert 'Local councils first' in s and 'data-map-layer-choice="councils"' in s
  map_html=(ROOT/'states/vic/map/index.html').read_text(encoding='utf-8')
  assert map_html.count('class="vic-record"')==96

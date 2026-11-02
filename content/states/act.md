@@ -22,12 +22,12 @@
   "elections": [
     {
       "label": "2028 ACT Legislative Assembly election",
-      "date": "2028-10-21T08:00:00+11:00",
+      "date": "2028-10-21",
       "kind": "Territory general election",
       "scope": "general",
-      "status": "Scheduled by fixed-term cycle",
-      "note": "Current member terms end on 21 October 2028.",
-      "source": "https://www.elections.act.gov.au/elections/our-electoral-system/current-members-of-the-legislative-assembly",
+      "status": "Official election date confirmed; polling hours await the event timetable",
+      "note": "Elections ACT confirms 21 October 2028. Calendar-day countdown only; no polling opening or closing time has been inferred.",
+      "source": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution",
       "dayMetrics": {
         "displayDaysUntil": true,
         "displayDaysSince": true,
@@ -38,7 +38,10 @@
         "cycleKey": "act-2028-general",
         "archiveWithCycle": "next-higher-order-cycle-after-act-2028-general",
         "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
-      }
+      },
+      "timezone": "Australia/Sydney",
+      "datePrecision": "day",
+      "timingStatus": "date-confirmed"
     }
   ],
   "chambers": [

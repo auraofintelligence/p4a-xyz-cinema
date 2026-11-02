@@ -20,8 +20,8 @@
         {
           "path": "states/qld/councils/redland/index.html",
           "label": "Redlands overview",
-          "lastUpdated": "2026-11-01",
-          "change": "Added a primary-sourced public intention to nominate for the mayoral by-election, distinctly labelled from ECQ-accepted nomination; unconfirmed polling and nomination countdowns remain waiting. Earlier same-day removal of invented local Twinkle seeds is preserved.",
+          "lastUpdated": "2026-11-02",
+          "change": "Retained announced mayoral intentions separately from formal nominations and made the ordinary rule-derived election timer await confirmation; original civic sources preserved.",
           "reviewWhen": "Boundaries, statistics, representation, election status or linked journey changes."
         },
         {
@@ -63,7 +63,7 @@
           "path": "states/qld/councils/redland/sources/index.html",
           "label": "Sources, dates and this review register",
           "lastUpdated": "2026-11-02",
-          "change": "Refreshed current album titles, direct lyric links and related editorial meanings from the creator's updated 22-song A Protopian Gambit; preserved earlier link register and civic source dates.",
+          "change": "Reconciled generated page-register dates, linked the central maintenance index, and retained original source and first-build dates.",
           "reviewWhen": "Any linked page, rule, source, map edition, data release or recorded review changes."
         }
       ]
@@ -177,14 +177,14 @@
     {
       "path": "pages/states.html",
       "label": "States and territories",
-      "lastUpdated": "2026-10-31",
-      "change": "31 October NSW, Victoria and Tasmania summary refresh for the Harris announcement, Baird vacancy and progressive council count stages only. Original source, boundary and historical ballot dates remain unchanged; no broader roster or per-page browser review is claimed."
+      "lastUpdated": "2026-11-02",
+      "change": "Distinguished confirmed dates, date-only timing and indicative statutory cycles; unconfirmed timers await confirmation. Includes the separately sourced 2 November election changes."
     },
     {
       "path": "states/qld/index.html",
       "label": "Queensland portal",
-      "lastUpdated": "2026-10-23",
-      "change": "Scoped 23 October state research review, verified changes and deadlines; explicit partial coverage. Original facts/event/source dates remain distinct."
+      "lastUpdated": "2026-11-02",
+      "change": "Corrected countdown precision and confirmation handling without advancing unrelated factual source dates. Indicative cycles do not start timers."
     },
     {
       "path": "states/qld/architecture/index.html",
@@ -207,15 +207,15 @@
     {
       "path": "states/vic/map/index.html",
       "label": "Victoria electorate and council atlas",
-      "lastUpdated": "2026-11-01",
-      "change": "31 October scoped Baird Ward vacancy update: Peter Lockwood resigned effective 29 October; VEC by-election awaits confirmation of dates. Historical 2024 contest retained. Original source, boundary and historical ballot dates remain unchanged; no broader roster or per-page browser review is claimed. 1 November: candidate data adds 12 officially announced Australian Democrats and flags two reported status discrepancies; other source dates unchanged.",
+      "lastUpdated": "2026-11-02",
+      "change": "Scoped official vacancy, replacement-role and nomination-period corrections, or their embedded same-layer map summaries. No unrelated roster, geometry or source-date certification.",
       "reviewWhen": "Official roster, vacancy, electoral source, geometry or atlas delivery changes."
     },
     {
       "path": "states/vic/election/index.html",
       "label": "Victoria 2026 candidate directory",
-      "lastUpdated": "2026-11-01",
-      "change": "12 Australian Democrats and Toby Wooldridge announcements added with source dates; two reported status discrepancies flagged pending primary confirmation. Counts and data cache versions reconciled. No formal nominations inferred.",
+      "lastUpdated": "2026-11-02",
+      "change": "Replaced a stale fixed no-JavaScript day count with the polling date and checked before/on/after polling-day labels; candidate records unchanged.",
       "reviewWhen": "Official candidate announcement, accepted nomination, withdrawal or source discrepancy resolution."
     },
     {
@@ -241,6 +241,54 @@
       "label": "Markdown builder suite",
       "lastUpdated": "2026-11-02",
       "change": "Removed private/excluded-material entry prompts and generated sections. Markdown includes only chosen content; legacy omitted fields are not exported and other saved draft fields are preserved."
+    },
+    {
+      "path": "pages/about.html",
+      "label": "pages/about.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Reconciled the dated Victorian candidate summary to the current 495-record canonical collection; not a final ballot or full candidate-source recheck."
+    },
+    {
+      "path": "pages/closing-the-gap.html",
+      "label": "pages/closing-the-gap.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Marked the elapsed initial consultation deadline and linked current Productivity Commission milestones; preserved original observation periods."
+    },
+    {
+      "path": "pages/ai-copyright.html",
+      "label": "pages/ai-copyright.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Replaced an elapsed consultation instruction with the official closed status; other page claims retain their earlier source checks."
+    },
+    {
+      "path": "pages/web3-sensorium.html",
+      "label": "pages/web3-sensorium.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Recorded the official closure of the AI infrastructure consultation; proposals remain proposals."
+    },
+    {
+      "path": "pages/public-assets.html",
+      "label": "pages/public-assets.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Corrected gas reform commencement and obligation dates from the 30 October government update."
+    },
+    {
+      "path": "pages/test-store1.html",
+      "label": "pages/test-store1.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Corrected an operational payment claim: checkout is disabled in this design demo; proposed Stripe design is distinct."
+    },
+    {
+      "path": "pages/gear-store.html",
+      "label": "Gear store proposal",
+      "lastUpdated": "2026-11-02",
+      "change": "Qualified the AEC membership threshold for non-parliamentary parties and enrolled members."
+    },
+    {
+      "path": "pages/treaty-atlas.html",
+      "label": "pages/treaty-atlas.html",
+      "lastUpdated": "2026-11-02",
+      "change": "Clarified historical treaty-count uncertainty and the current DFAT treaty-action database scope."
     }
   ],
   "rules": [
@@ -311,6 +359,11 @@
       "date": "2026-11-02",
       "change": "Head-only favicon repair: 19 omitted local-shell links plus 98 wrong-depth room source paths, with destination-aware publishing and an identical sitemap mirror. Editorial and civic-source dates unchanged.",
       "evidence": "docs/releases/2026-11-02-favicon-repair.md"
+    },
+    {
+      "date": "2026-11-02",
+      "change": "Whole-site route/date inventory and scoped factual review; explicit verification gaps, corrected date labels and unconfirmed-clock guards. Source checks advance only for listed claims.",
+      "evidence": "content/history/site-audits/2026-11-02.json"
     }
   ]
 }

@@ -45,6 +45,13 @@ jobs:
         run: |
           python tools/check-favicons.py
           python -m unittest discover -s tests -p test_favicons.py
+      - name: Check maintenance records and date semantics
+        run: |
+          python tools/check-site-maintenance.py
+          python -m unittest discover -s tests -p test_page_review_dates.py
+          python -m unittest discover -s tests -p test_state_clock_parity.py
+          python -m unittest discover -s tests -p test_national_contract_dates.py
+          node --test tests/election-timing-confirmation.test.mjs
       - name: Check public discovery and preserved licence
         run: |
           python tools/check-civic-navigation.py

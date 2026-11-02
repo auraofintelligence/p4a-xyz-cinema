@@ -8,7 +8,9 @@
       "timezone": "Australia/Melbourne",
       "basis": "Commission date",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election",
-      "expectedYear": null
+      "expectedYear": null,
+      "timingStatus": "date-confirmed",
+      "datePrecision": "day"
     },
     {
       "slug": "nsw",
@@ -16,15 +18,19 @@
       "timezone": "Australia/Sydney",
       "basis": "Commission date; moved from Easter",
       "source": "https://elections.nsw.gov.au/elections/state-elections/2027-nsw-state-election",
-      "expectedYear": null
+      "expectedYear": null,
+      "timingStatus": "date-confirmed",
+      "datePrecision": "day"
     },
     {
       "slug": "nt",
-      "date": "2028-08-26",
+      "date": null,
       "timezone": "Australia/Darwin",
-      "basis": "Ordinary statutory date: fourth Saturday in August",
+      "basis": "Ordinary statutory date: fourth Saturday in August; indicative date only, pending official event-date confirmation",
       "source": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
-      "expectedYear": null
+      "expectedYear": null,
+      "indicativeDate": "2028-08-26",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "slug": "act",
@@ -32,23 +38,29 @@
       "timezone": "Australia/Sydney",
       "basis": "Commission date",
       "source": "https://www.elections.act.gov.au/elections/our-electoral-system/electorate-boundaries/redistributions/20262027-redistribution",
-      "expectedYear": null
+      "expectedYear": null,
+      "timingStatus": "date-confirmed",
+      "datePrecision": "day"
     },
     {
       "slug": "qld",
-      "date": "2028-10-28",
+      "date": null,
       "timezone": "Australia/Brisbane",
-      "basis": "Ordinary statutory date: last Saturday in October",
+      "basis": "Ordinary statutory date: last Saturday in October; indicative date only, pending official event-date confirmation",
       "source": "https://www.ecq.qld.gov.au/elections/election-events",
-      "expectedYear": null
+      "expectedYear": null,
+      "indicativeDate": "2028-10-28",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "slug": "wa",
-      "date": "2029-03-10",
+      "date": null,
       "timezone": "Australia/Perth",
-      "basis": "Ordinary statutory date: second Saturday in March",
+      "basis": "Ordinary statutory date: second Saturday in March; indicative date only, pending official event-date confirmation",
       "source": "https://www.elections.wa.gov.au/about-us/media/releases/1892",
-      "expectedYear": null
+      "expectedYear": null,
+      "indicativeDate": "2029-03-10",
+      "timingStatus": "awaiting-confirmation"
     },
     {
       "slug": "tas",
@@ -60,11 +72,13 @@
     },
     {
       "slug": "sa",
-      "date": "2030-03-16",
+      "date": null,
       "timezone": "Australia/Adelaide",
-      "basis": "Ordinary statutory date: third Saturday in March",
+      "basis": "Ordinary statutory date: third Saturday in March; indicative date only, pending official event-date confirmation",
       "source": "https://ecsa.sa.gov.au/html/publications/2022-State-and-by-Election-Reports/chapter-2.html",
-      "expectedYear": null
+      "expectedYear": null,
+      "indicativeDate": "2030-03-16",
+      "timingStatus": "awaiting-confirmation"
     }
   ]
 }

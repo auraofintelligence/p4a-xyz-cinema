@@ -1,0 +1,35 @@
+{
+  "checkedAtUtc": "2026-11-02T12:49:52.060088+00:00",
+  "scope": "Bounded late spot-check: TEC2026local count status and ECQRedland mayoral notice/timetable only; not renewed whole-site audit",
+  "repositoryEdited": true,
+  "findings": [
+    {
+      "jurisdiction": "TAS",
+      "status": "material-update",
+      "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/hobart-city/index.html",
+      "officialTimestamp": "2026-11-02T22:00:00+11:00",
+      "finding": "Latest count banner states no further updates tonight; resumes Tuesday. Previous31October22:30banner retained as earlierupdate. Frozen resumesMonday text is historical now."
+    },
+    {
+      "jurisdiction": "TAS",
+      "status": "material-update",
+      "source": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+      "finding": "Mayor/deputy counts complete in all29councils; councillor counting continues; all councils expected completeTuesday3November. Expectation does not prove completion or declared results. No pageupdate timestamp shown."
+    },
+    {
+      "jurisdiction": "QLD",
+      "status": "no-confirmation-found",
+      "sources": [
+        "https://www.ecq.qld.gov.au/elections/election-events",
+        "https://www.ecq.qld.gov.au/media/2026-media-statements"
+      ],
+      "finding": "Neither fetched hub containsRedland; targetedofficial-domainsearch foundno2026Redlandmayoral timetable/nominationnotice. Retain unconfirmedclockstatus. NoECQacceptednominationevidence found; this check doesnot independentlyreverifyRowanneannouncement."
+    }
+  ],
+  "accessGaps": [
+    "DirectTEC HTML request returned403; webtoolofficialpage retrievalworked.",
+    "Trailing-slashTEC landingpage returnedolder30Octobercontent; explicitindex.html andHobartcountpage provide laterinformation.",
+    "Absence fromcheckedECQhubs/search notproofnoannouncementexistsanywhere."
+  ],
+  "integrationScope": "Only TAS statewide count-stage summary/dependencies and scoped audit records; no individual council outcomes. Prior wording recoverable in content/history/tas-count-summary-before-2026-11-02-late-check.json."
+}

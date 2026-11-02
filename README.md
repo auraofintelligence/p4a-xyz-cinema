@@ -25,7 +25,7 @@ Start with the [human-readable site map](pages/site-map.html). It groups the who
 
 **Local preview:** run `node scripts/serve.mjs` in this folder, then open [the local site map](http://127.0.0.1:8768/pages/site-map.html). The [public site map](https://p4a.xyz/pages/site-map.html) shows the deployed version; GitHub's commit history and Pages run record its publication status.
 
-**Latest implementation updates:** 17 October 2026, Australia/Brisbane. Nineteen new Redlands/council pages and the rules have explicit review records. Source facts retain their own observation, boundary-edition and check dates; rebuilding a page does not make its data newer.
+**Implementation and source dates:** The [site maintenance index](docs/site-maintenance.md), [page and rule register](docs/releases/2026-10-17-page-and-rule-register.md) and [national place register](content/history/national-place-review-register-2026-10-17.json) record individual changes. The original local build was verified on 17 October 2026; later changes retain their own dates. Source facts keep their observation, boundary-edition and check dates. GitHub commits and Pages deployments identify the published version; rebuilding a page does not make its facts newer.
 
 ## Search discovery and rights
 

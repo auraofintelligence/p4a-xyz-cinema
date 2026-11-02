@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-02T12:57:51.029281+00:00",
+  "status": "PASS",
+  "scope": "Actual late TEC summary rendering only; earlier whole-site browser and source scopes are retained, not repeated.",
+  "observations": [
+    {
+      "path": "states/tas/index.html",
+      "checks": [
+        "2 November22:00AEDT update rendered; Tuesday3November is expected completion, not a declared outcome",
+        "No individualofficeholderreplacement asserted",
+        "Two unconfirmed future clocks remainwaiting; closed27October postalclock stayshistorical"
+      ]
+    },
+    {
+      "path": "pages/states.html",
+      "checks": [
+        "Same lateTEC count-stage note and expected-versus-confirmed distinction",
+        "Retainedoverviewbaseline31October unchanged; eight unconfirmedcardsremainwaiting"
+      ]
+    },
+    {
+      "path": "states/tas/constitution/index.html",
+      "checks": [
+        "State source record review label retained; scopednote updated without claim offreshconstitutional-lawreview"
+      ]
+    }
+  ],
+  "limitations": [
+    "Desktop DOM inspection only for this supplemental pass; no new physical touch or responsive certification.",
+    "No new source check is inferred from browser rendering. Officialsourcecheck has its own12:49UTC evidence record."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-01T22:25:34.622678+00:00",
+  "status": "PASS",
+  "environment": {
+    "browser": "Cloud Chromium; shared checkout served at localhost port 8765.",
+    "viewportReview": "Desktop screenshots; same-origin fixture iframe screenshots at configured 390px and 680px widths. No physical touch or automated overflow measurement.",
+    "physicalTouchTested": false
+  },
+  "observations": [
+    {
+      "path": "states/nsw/councils/walcha/index.html",
+      "checks": [
+        "Seven current representatives; correct mayor/deputy; effective resignation and conflicting selection date disclosed. New vacancy clock waiting with no active target.",
+        "Map search Hyde Thomson selected Walcha; Open preserved layer/area URL; Back returned. Desktop screenshot and 390px iframe screenshot inspected."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/wa/councils/irwin/index.html",
+      "checks": [
+        "Berecz absent from current cards; Coffey accepted backfill explicitly not confirmed taking office. 680px iframe screenshot inspected."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/wa/councils/merredin/index.html",
+      "checks": [
+        "Brad Atkinson current roster card and effective 10 March resignation note. Final regenerated source links inspected."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/vic/councils/gannawarra-shire-council/index.html",
+      "checks": [
+        "Garner remains councillor; Ross Mayor; Daniel Deputy; internal process not public poll."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/councils/coffs-harbour/index.html",
+      "checks": [
+        "Nomination period 2\u201311 November, noon AEDT closing deadline; no invented opening hour. Existing active December clock."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "checks": [
+        "Nomination period and existing active December clock."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/index.html",
+      "checks": [
+        "Both nomination periods, completed Cobar, Walcha waiting with no countdown target."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/nsw/constitution/index.html",
+      "checks": [
+        "Scoped research text rendered; no event cards expected."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "pages/states.html",
+      "checks": [
+        "Both nomination periods, completed Cobar, Walcha waiting with no countdown target."
+      ],
+      "result": "PASS"
+    },
+    {
+      "path": "states/vic/map/index.html",
+      "checks": [
+        "Selected Local councils, searched and selected Gannawarra, opened Representatives tab: all seven names retained and three corrected roles/dates visible. Updated asset cache URL confirmed."
+      ],
+      "result": "PASS"
+    }
+  ],
+  "limitations": [
+    "Focused changed-fact and representative rendering/navigation smoke review only; not site-wide source, accessibility, geometry or browser certification.",
+    "Responsive screenshot shows visible wrapping, not a claim of all viewport or physical touch testing.",
+    "Redland original public announcement was separately re-read; unchanged site records retain earlier dedicated evidence."
+  ]
+}
