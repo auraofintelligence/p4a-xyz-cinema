@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Published Coffs Harbour and Hunters Hill nomination periods begin 2 November and close 11 November at noon AEDT; no opening hour or accepted candidates are inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT; no accepted candidates are inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -65,7 +65,7 @@
       "kind": "Council by-election",
       "scope": "local-government",
       "status": "Nomination period 2–11 November; closes noon AEDT",
-      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026.",
+      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Nomination lodgement opened 2 November at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified 3 November 2026.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,

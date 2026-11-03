@@ -1,6 +1,6 @@
 # Pages and rules review register
 
-Updated 2026-11-02, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
+Updated 2026-11-03, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
 
 ## The local journey
 
@@ -50,7 +50,7 @@ These were updated, rather than newly created.
 | Page | Updated | Change |
 | --- | --- | --- |
 | [Aura Genesis Protocol](../../pages/aura-genesis.html) | 2026-10-28 | Added Verse Box as a proposed lower-cost public introduction to personal Aura building and an optional pathway into Genesis, with guide and trial links. Source: aura-verse-box committed revision a72e29c53d25ad4a156a3d8f0c063328d5c9046a. Genesis, Truth Engine and hardware requirements remain distinct. |
-| [States and territories](../../pages/states.html) | 2026-11-02 | Distinguished confirmed dates, date-only timing and indicative statutory cycles; unconfirmed timers await confirmation. Includes the separately sourced 2 November election changes. |
+| [States and territories](../../pages/states.html) | 2026-11-03 | Scoped Coffs Harbour nomination opening-hour verification; Hunters Hill and unrelated source dates unchanged. |
 | [Queensland portal](../../states/qld/index.html) | 2026-11-02 | Corrected countdown precision and confirmation handling without advancing unrelated factual source dates. Indicative cycles do not start timers. |
 | [Queensland systems workbench](../../states/qld/architecture/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |
 | [Maps and places](../../pages/maps.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. |

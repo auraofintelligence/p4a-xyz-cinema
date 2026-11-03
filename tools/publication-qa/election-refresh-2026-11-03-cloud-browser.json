@@ -1,0 +1,28 @@
+{
+  "checked": "2026-11-03",
+  "checkedAt": "2026-11-02T22:39:55.463424+00:00",
+  "status": "PASS",
+  "environment": "Cloud Chromium; loopback preview port 8785",
+  "testedPagePaths": [
+    "states/wa/councils/carnarvon/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+    "states/nsw/councils/coffs-harbour/index.html",
+    "states/nsw/index.html"
+  ],
+  "checks": [
+    "Carnarvon current representation shows Martin Aldridge as appointed commissioner, with 27 May effective date and first-meeting endpoint.",
+    "Representative/area search Coral, selection, Open Coral Bay Ward and Back restored selected search context.",
+    "Both Coral Bay and Plantation final-unopposed events render No poll: elected unopposed, not a waiting or running poll clock.",
+    "Coffs Harbour event renders sourced 9 am AEDT nomination opening and retains 12 December deadline.",
+    "NSW portal separates confirmed Coffs opening hour from Hunters Hill date-only opening.",
+    "390px single-iframe screenshot visually inspected: commissioner card and civic explanation readable without clipped text."
+  ],
+  "limitations": [
+    "Desktop DOM and one 390px fixture only; no physical touch or fresh tablet review.",
+    "Initial dual-iframe fixture stalled browser; single-frame recovery succeeded. No pass claimed for failed attempt.",
+    "Earlier browser evidence archived, not renewed; structural checks cover other generated dependants.",
+    "No external source verification or deployment claim follows from local browser checks."
+  ],
+  "screenshot": "tools/publication-qa/election-refresh-2026-11-03-390.jpg"
+}

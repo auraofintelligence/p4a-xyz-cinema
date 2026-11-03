@@ -94,6 +94,28 @@
       "rawFile": "content/places/raw/council-ward-supp-geoscape-wa-ids.json",
       "sha256": "32562d19a76b412cdf4785a9afd81e35327b134836f28665910714ecbe46b6aa",
       "licence": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "id": "carnarvon-commissioner-order-20260526",
+      "url": "https://www.legislation.wa.gov.au/legislation/prod/gazettestore.nsf/FileURL/gg2026_056.pdf/$FILE/Gg2026_056.pdf?OpenElement=",
+      "title": "Local Government (Carnarvon - Declaration of Vacancies and Appointment of Commissioner) Order 2026",
+      "published": "2026-05-26",
+      "effective": "2026-05-27",
+      "checked": "2026-11-03",
+      "rawFile": "content/places/sources/carnarvon-commissioner-review-2026-11-03.json",
+      "sha256": "47de8343c2aed1e83a82e3a4a4859f642e5abd02d96ecc4829551def61dfe5d9",
+      "licence": "Minimal public civic facts and source references only; source publishers retain their rights.",
+      "notes": "Clauses 4 and 5 commence the day after Gazette publication: remaining council offices declared vacant and Martin Aldridge appointed commissioner on 27 May 2026. His appointment continues until the offices are filled and the new council holds its first meeting. The order fixes 3 December 2026 for any necessary poll. No individual resignation dates are inferred."
+    },
+    {
+      "id": "carnarvon-current-commissioner-20261103",
+      "url": "https://www.carnarvon.wa.gov.au/profiles/councillors",
+      "title": "Shire of Carnarvon Commissioner",
+      "checked": "2026-11-03",
+      "rawFile": "content/places/sources/carnarvon-commissioner-review-2026-11-03.json",
+      "sha256": "47de8343c2aed1e83a82e3a4a4859f642e5abd02d96ecc4829551def61dfe5d9",
+      "licence": "Minimal public civic facts and source references only; source publishers retain their rights.",
+      "notes": "The current official page names Martin Aldridge as Commissioner, performing the functions of the Council and Shire President. It does not describe him as an elected councillor."
     }
   ],
   "layers": [
@@ -6225,11 +6247,13 @@
       "parentId": "wa-council-51540",
       "layerId": "council-ward-supp-wa",
       "featureId": "wdp8ugQcqtTV_6I",
-      "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+      "officialUrl": "https://www.carnarvon.wa.gov.au/profiles/councillors",
       "sources": [
         "council-ward-supp-geoscape-wa-native",
         "council-ward-supp-geoscape-ward-item",
-        "council-ward-supp-geoscape-lga-attributes"
+        "council-ward-supp-geoscape-lga-attributes",
+        "carnarvon-commissioner-order-20260526",
+        "carnarvon-current-commissioner-20261103"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -6240,8 +6264,11 @@
       "coverageNotes": [
         "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
         "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
-        "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy."
-      ]
+        "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
+        "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps."
+      ],
+      "representationStatus": "commissioner-administered-council-context",
+      "representationReview": "This ward is within the Shire administered by Commissioner Martin Aldridge. Former March roster names are historical, not current ward-office confirmation. Any recorded unopposed result is retained separately; the new council has not been verified as having held its first meeting."
     },
     {
       "id": "wa-ward-wad436506337bd0",
@@ -6787,11 +6814,13 @@
       "parentId": "wa-council-51540",
       "layerId": "council-ward-supp-wa",
       "featureId": "wdpZnwkoh7H5lQz",
-      "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+      "officialUrl": "https://www.carnarvon.wa.gov.au/profiles/councillors",
       "sources": [
         "council-ward-supp-geoscape-wa-native",
         "council-ward-supp-geoscape-ward-item",
-        "council-ward-supp-geoscape-lga-attributes"
+        "council-ward-supp-geoscape-lga-attributes",
+        "carnarvon-commissioner-order-20260526",
+        "carnarvon-current-commissioner-20261103"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -6802,8 +6831,11 @@
       "coverageNotes": [
         "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
         "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
-        "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy."
-      ]
+        "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
+        "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps."
+      ],
+      "representationStatus": "commissioner-administered-council-context",
+      "representationReview": "This ward is within the Shire administered by Commissioner Martin Aldridge. Former March roster names are historical, not current ward-office confirmation. Any recorded unopposed result is retained separately; the new council has not been verified as having held its first meeting."
     },
     {
       "id": "wa-ward-wad7709ad7bc5ff",
@@ -6922,11 +6954,13 @@
       "parentId": "wa-council-51540",
       "layerId": "council-ward-supp-wa",
       "featureId": "wdpCIWU_2NcbLTV",
-      "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+      "officialUrl": "https://www.carnarvon.wa.gov.au/profiles/councillors",
       "sources": [
         "council-ward-supp-geoscape-wa-native",
         "council-ward-supp-geoscape-ward-item",
-        "council-ward-supp-geoscape-lga-attributes"
+        "council-ward-supp-geoscape-lga-attributes",
+        "carnarvon-commissioner-order-20260526",
+        "carnarvon-current-commissioner-20261103"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -6937,8 +6971,11 @@
       "coverageNotes": [
         "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
         "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
-        "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy."
-      ]
+        "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
+        "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps."
+      ],
+      "representationStatus": "commissioner-administered-council-context",
+      "representationReview": "This ward is within the Shire administered by Commissioner Martin Aldridge. Former March roster names are historical, not current ward-office confirmation. Any recorded unopposed result is retained separately; the new council has not been verified as having held its first meeting."
     },
     {
       "id": "wa-ward-wad831f78062515",
@@ -8623,11 +8660,13 @@
       "parentId": "wa-council-51540",
       "layerId": "council-ward-supp-wa",
       "featureId": "wdpxJl6JsPNh9R9",
-      "officialUrl": "https://walga.asn.au/about-walga/local-government-directory",
+      "officialUrl": "https://www.carnarvon.wa.gov.au/profiles/councillors",
       "sources": [
         "council-ward-supp-geoscape-wa-native",
         "council-ward-supp-geoscape-ward-item",
-        "council-ward-supp-geoscape-lga-attributes"
+        "council-ward-supp-geoscape-lga-attributes",
+        "carnarvon-commissioner-order-20260526",
+        "carnarvon-current-commissioner-20261103"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -8638,8 +8677,11 @@
       "coverageNotes": [
         "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
         "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
-        "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy."
-      ]
+        "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
+        "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps."
+      ],
+      "representationStatus": "commissioner-administered-council-context",
+      "representationReview": "This ward is within the Shire administered by Commissioner Martin Aldridge. Former March roster names are historical, not current ward-office confirmation. Any recorded unopposed result is retained separately; the new council has not been verified as having held its first meeting."
     },
     {
       "id": "wa-ward-wadf4fbe7d4a395",

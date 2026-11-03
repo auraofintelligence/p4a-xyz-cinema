@@ -429,3 +429,12 @@ Sources, preserved history, canonical inputs, dependants and limitations are in 
 ## 2026-11-03 — delivery receipt for the 2 November review
 
 - Combined whole-site audit, six-council corrections and late TEC status were deployed in `de9f158b7bc7ca4ea3c8237944cf2dafa9e8f644` at 2026-11-02T14:43:53Z (3 November, Australia/Brisbane). This supersedes earlier pending-delivery statements for that retained work, not its original source-check dates. Exact CI/Pages succeeded; 285 targeted live files matched and separate browser journeys passed. See [publication evidence](history/site-publications.json) and [the delivery receipt](history/site-publications/2026-11-03-de9f158b.json). This metadata receipt and README alignment are not a fresh national or whole-site factual review.
+
+
+## 3 November 2026 - election and vacancy review
+
+Nine commission hubs and targeted official notices checked. Corrected Carnarvon's historical roster to commissioner-led administration and Coffs Harbour's confirmed nomination opening hour; preserved prior records, unconfirmed clocks, unrelated dates and whole-site audit date. Source and candidate-review gaps remain explicit. [Scoped report](../docs/releases/2026-11-03-election-notices.md) and [source review](places/sources/election-review-2026-11-03.json). Local checks passed, including equivalent memory-bounded national validation and all 2,081 contracts. Exact-commit CI/Pages/live publication remains pending; last verified publication remains 87168c0c.
+
+- Delivery blocked at 04:55 UTC: connector rejected the national-validation artifact upload pending explicit destination/payload approval. Validated snapshot and uploaded-object receipts retained; no commit/ref update, CI/Pages deployment or live-success claim. See the scoped report.
+
+- The user explicitly approved the remaining validation/data uploads and publication; the single authorised retry succeeded. Publication resumed without changing source-check dates. Exact-commit CI/Pages/live checks remain pending.
