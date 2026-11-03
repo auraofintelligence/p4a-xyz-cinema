@@ -438,3 +438,5 @@ Nine commission hubs and targeted official notices checked. Corrected Carnarvon'
 - Delivery blocked at 04:55 UTC: connector rejected the national-validation artifact upload pending explicit destination/payload approval. Validated snapshot and uploaded-object receipts retained; no commit/ref update, CI/Pages deployment or live-success claim. See the scoped report.
 
 - The user explicitly approved the remaining validation/data uploads and publication; the single authorised retry succeeded. Publication resumed without changing source-check dates. Exact-commit CI/Pages/live checks remain pending.
+
+- Verified delivery: `f81dbaa6700230794ca8617929d1c4c3a576780e` at 2026-11-03T05:08:41Z; matching original CI/Pages succeeded and 6 scoped live browser page checks passed; bulk byte checks unavailable. [Receipt](history/site-publications/2026-11-03-f81dbaa6.json). This later metadata entry is not a new factual review.
