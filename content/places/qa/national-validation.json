@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-03",
+  "checked": "2026-11-05",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
@@ -30,7 +30,7 @@
     "rendered_event_records_checked": 4468,
     "rendered_contestant_records_checked": 18382,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3064
+    "evidence_artifacts_bound": 3067
   },
   "errors": [],
   "warnings": [
@@ -1100,8 +1100,8 @@
   "artifactFingerprints": [
     {
       "path": ".gitattributes",
-      "sha256": "b3c938612df214feeff280bc32bd7ee8f572eb1dc0320e935f17cf59c35d4f54",
-      "bytes": 1661
+      "sha256": "8efa5ddaf6aed43c9e9121885d04390479bd0596c116f33f90dcd686ff83684c",
+      "bytes": 2753
     },
     {
       "path": "assets/civic-places.css",
@@ -17226,8 +17226,8 @@
     },
     {
       "path": "tools/build-national-contracts.py",
-      "sha256": "83ee9e40d19430ec49eb4b3a7e4d0837fd5d5ce95e0f38266fd331b3e5ec6d47",
-      "bytes": 8556
+      "sha256": "e70fcd4bf614d0e4186436cb4d706f893bbcd62844c279d58aace55d659a1dd2",
+      "bytes": 12351
     },
     {
       "path": "tools/build-national-places.py",
@@ -17236,18 +17236,33 @@
     },
     {
       "path": "tools/national_evidence.py",
-      "sha256": "75e78d3d82c4541e3353ec2268213691b3b4fc52f2033bb5351892ab6bf9c568",
-      "bytes": 10921
+      "sha256": "33a2c8693ff6547d73bab00791f4771eafbb298ed633e8f141254caf4c0067a1",
+      "bytes": 17765
+    },
+    {
+      "path": "tools/national_geometry.py",
+      "sha256": "8a4072bc7a070b05e21e66b09e8a8ce565f4b4e7912092fe9815162a612c83c4",
+      "bytes": 4794
+    },
+    {
+      "path": "tools/page_review_register.py",
+      "sha256": "fab1de1e35d5ede0024523813b3d16d2ea02574763aa078c0caeb1248d80fb00",
+      "bytes": 5558
+    },
+    {
+      "path": "tools/verify-council-pattern.py",
+      "sha256": "5d473679855eab9845bf3c8b4e75d8289b2b6cf29493f55a92f2d184a2ae1fdc",
+      "bytes": 35198
     },
     {
       "path": "tools/verify-national-places.py",
-      "sha256": "a73ec742eedad23bc10d354df45468022866773f3c8360af56e8b05e427c9a69",
-      "bytes": 40768
+      "sha256": "4f5b5231d2a3f0de86d877a95599807684053c7f893739e7b586608446be5a86",
+      "bytes": 41491
     },
     {
       "path": "tools/verify-place-contracts.py",
-      "sha256": "d485c8df2b57a7b7a01ce32c9fbcaecc7d1d278193970a2e1cd7f5c274dc196e",
-      "bytes": 7392
+      "sha256": "6016c7c3b66203c7be2b0f65602a6b53cdc6032e19eccf534779f72f4a8d3abe",
+      "bytes": 6977
     }
   ],
   "sourceHashesRequested": true,

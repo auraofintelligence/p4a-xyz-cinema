@@ -424,7 +424,9 @@ class Validator:
                     count += 1
                     del feature
                     del shape
-                self.check(True, f'Layer {key}: not a FeatureCollection')
+                # Exhausting iter_features validates the collection type,
+                # framing and tail. Count that performed assertion here.
+                self.counts['assertions'] += 1
             except (OSError, EOFError, ValueError, TypeError, AttributeError) as exc:
                 self.check(False, f'Layer {key}: invalid GeoJSON {exc}')
                 continue

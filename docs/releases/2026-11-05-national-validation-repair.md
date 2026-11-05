@@ -1,5 +1,7 @@
 # National validation maintenance repair - local draft
 
+The original draft record below is retained as history. The approved continuation at the end records the subsequently completed migration and prepublication acceptance; it supersedes the original pending-migration statements.
+
 Prepared 5 November 2026. Base: `00e4f9b56dbcddbd69830a34a8f959a24fe7eba7` on `auraofintelligence/p4a-xyz-cinema` remote main, verified before cloning and again before handover. Work used an isolated task clone. No push, publication, merge or deployment was performed. The separate pending election/publication task and its event update were not modified.
 
 ## Finding and scope
@@ -59,3 +61,19 @@ Before any authorised publication, run the applicable independent gates. Civic C
 ## Separate bounded recovery result
 
 The requested November 4 commit `780fc0e641156b48ffa6b2d3fe62c9f9e43de462` was not found in the identified retained local P4A repository objects. The retained publication checkout exists, clean and detached at `9978928f49c4e01cc26b2b1058a92614fa38022e`. Its main checkout is at `6e924cc26a3c2e1fa50ec51e4b6a9874a2f6ab59`, with 51 modified tracked entries and 212 untracked entries. No retained workspace was changed. The cloud checkout name `p4a-election-20261104` has no verified local path; this bounded check does not establish recovery of that cloud commit. The separate local recovery record contains locations and read-only command evidence without private file contents.
+
+## Approved continuation - completed local migration and acceptance
+
+The user approved completing and publishing the isolated repair on 5 November. Work continued from draft commit `e46228373163f17d554ad1f9c89b66ad6a86445d`, preserving the dirty user checkout and the separate pending November 4 factual update.
+
+Content snapshots now replace metadata-only JSON freshness. Aggregate shared preflights run once per evidence pair; one final run guard rehashes all observed direct and transitive dependencies and verifies artifact/contract membership. Per-manifest hooks do not rescan the contract set. Persistent changes after the preflight, including equal-size changes with restored timestamps, fail. Standalone validation uses the same guard. Malformed outer `reviewEvidence` returns structured failure.
+
+The builder guards inputs before output writes and at completion. `contract-set.json` records every national manifest hash; a multi-file migration remains `in-progress` until completion is replaced last. Missing, extra, changed or interrupted sets fail acceptance. A failed completion guard restores the incomplete state. Generation success explicitly requires complete post-migration acceptance. Arbitrary external changes followed by restoration, or edits after the final check, remain outside this guarantee; supported operation requires an exclusively controlled stable workspace through validation and commit.
+
+Exactly 2,080 national contracts were migrated to one shared binding. The complete production aggregate passed 2,081 registered contracts with zero failures. Representative council, state, federal and legacy standalone checks all passed. A real migrated-builder rerun reported zero changed outputs; all 2,082 contract/binding/index files retained identical bytes and modification times. A report-only refresh changes one shared binding and leaves the index and contracts unchanged, as separately tested.
+
+All 28 Civic workflow commands passed locally using Python 3.12.14 and Node 24.22.1. The mutation/migration suite now passes 27 tests, including late geometry/code/source/page/binding/manifest changes, preserved metadata, builder assembly/write/completion changes, partial sets and interrupted recovery. The national check retained all 999,177 assertions and now binds 3,067 artifacts, including the authored-date helper. The aggregate took 563.464 seconds on this Windows host; process counters confirmed active work with resident memory observed below 180 MiB during inspection. This is not a peak-memory benchmark. The full local Civic run remained below the workflow's 20-minute timeout.
+
+All 11 national browser fingerprints and 31 legacy direct fingerprints match. The genuine November 3 browser report remains byte-identical to the base. Thirteen checkout-converted dependencies were restored from exact committed blobs; the authored-date helper, pinned upstream licence and sitemap source also received narrow byte preservation. Initial licence and sitemap checks exposed conversion differences and then passed after restoring their originals. No reviewed hash, browser date, canonical election fact, real source-check date, geometry, delivered page or asset was refreshed. The original coverage and device/source/editorial limitations remain.
+
+The [machine-readable record](2026-11-05-national-validation-repair.json) includes the full 28-command results, standalone outcomes, unchanged-output proof, hash results and [actual aggregate CLI receipt](../../content/places/qa/contract-validation.json). The initial development race-test failures were corrected before acceptance. No Civic checks remain unrun locally. Remote exact-commit CI/Pages and live-byte results belong to the subsequent delivery receipt; post-push CI is not used as the prepublication gate.

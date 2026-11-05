@@ -1,6 +1,6 @@
 # National validation and shared contract evidence
 
-Version 1.0, 5 November 2026. Inherit [the fractal update guide](fractal-election-updates.md) and [acceptance gates](council-build-acceptance.md). These are maintenance instructions, not a fresh source, editorial, geometry or browser approval.
+Version 1.1, 5 November 2026. Inherit [the fractal update guide](fractal-election-updates.md) and [acceptance gates](council-build-acceptance.md). These are maintenance instructions, not a fresh source, editorial, geometry or browser approval.
 
 ## What remains checked
 
@@ -15,6 +15,10 @@ Evidence completeness uses artifact discovery without hashing the same files a s
 Newly generated national contracts retain the full canonical place pin, authored route implementation date, route checks and human-review limits. Their `reviewEvidence.sharedEvidence` refers to `content/places/qa/shared-contract-evidence.json`.
 
 That shared document holds the actual validation review date, report paths and shared renderer/report fingerprints once. The reference is intentionally stable across later reviewed evidence updates. Both `verify-council-pattern.py` and `verify-place-contracts.py` resolve it and enforce complete current national and browser evidence. Missing, malformed, chained or overriding shared bindings fail. The aggregate runner reuses identical shared checks within the run; it still checks every place declaration. Legacy inline evidence remains supported and enforced.
+
+The shared binding also fingerprints `content/places/qa/contract-set.json`. That index names and hashes every generated national contract. It remains `in-progress` while a multi-file migration writes outputs; completion is replaced last. Missing/extra/changed contracts or an incomplete marker fail standalone and aggregate acceptance. An interrupted build can be resumed, but generation success is not post-migration acceptance: run the full aggregate and all applicable gates before publishing. A report-only refresh replaces the shared binding atomically without rewriting the unchanged index or place contracts.
+
+All acceptance runs use content snapshots, not modification-time/size freshness. A final hash pass covers all read documents/pages, declared evidence and transitive national/browser dependencies, including previously absent local originals. Added/removed dependency or contract membership also fails. Builder guards run before writes, after output assembly and after completion replacement; interruption or a failed final guard leaves an incomplete multi-file set. Supported use requires an exclusively controlled, stable workspace through final validation and commit. These guards detect persistent injected changes, including equal-size changes with restored timestamps. They do not make arbitrary external change-and-restore attacks or edits after the final check impossible. Do not run generators concurrently with acceptance or migration.
 
 ## One-time migration, then routine updates
 
@@ -34,4 +38,4 @@ The builder never fetches sources, changes a source check date, generates browse
 
 Run the required checks before publication. Civic CI is independent of Pages deployment, and unprotected main does not provide a deployment gate. This document and a local PASS do not authorise pushing, publishing, merging or deploying.
 
-Regression command: `python -B -m unittest discover -s tests -p test_national_validation_scope.py`. Existing date provenance tests and `python -B tools/check-contract-cache.py` remain applicable. See [the draft repair report](../releases/2026-11-05-national-validation-repair.md) for its exact base, actual checks, measurements and remaining migration work.
+Regression command: `python -B -m unittest discover -s tests -p test_national_validation_scope.py`. This includes late transitive mutations, preserved metadata, builder assembly/write/completion races, malformed evidence and interrupted/partial migration. Existing date provenance tests and `python -B tools/check-contract-cache.py` remain applicable. See [the repair report](../releases/2026-11-05-national-validation-repair.md) for its exact base, actual checks, measurements and delivery state.

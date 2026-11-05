@@ -91,5 +91,327 @@
     "savedQA": false,
     "checkedInPlaceContracts": false
   },
-  "migration": "Pending deliberate real-evidence review and one-time legacy contract rewrite"
+  "migration": "Pending deliberate real-evidence review and one-time legacy contract rewrite",
+  "approvedContinuation": {
+    "recordedAtUTC": "2026-11-05T03:09:10.176356+00:00",
+    "authorization": "User approved the isolated repair, migration and verified publication on 5 November 2026.",
+    "migration": {
+      "nationalManifests": 2080,
+      "contractSetStatus": "complete",
+      "reportOnlyChangedFiles": 1,
+      "reportOnlyFiles": [
+        "content/places/qa/shared-contract-evidence.json"
+      ],
+      "rerun": {
+        "result": "PASS",
+        "exitCode": 0,
+        "elapsedSeconds": 95.724,
+        "outputsChecked": 2082,
+        "changedBytes": [],
+        "changedMtimes": [],
+        "builder": {
+          "result": "PASS",
+          "scope": "structural route and canonical identity only",
+          "stage": "generation only; complete post-migration acceptance required",
+          "requiresPostMigrationValidation": true,
+          "changedOutputs": 0,
+          "manifests": 2080,
+          "written": true,
+          "evidence": [
+            "content/places/qa/national-validation.json",
+            "content/places/qa/browser-review.json"
+          ],
+          "limits": "Shared renderer smoke evidence does not establish full per-place source/browser review."
+        }
+      }
+    },
+    "raceRegressions": {
+      "testsPassed": 27,
+      "coverage": [
+        "Late shared geometry/code/canonical/page/binding/manifest changes with preserved size and timestamps",
+        "Available and previously absent local source mutations",
+        "Builder assembly, output-write and completion-replacement mutations",
+        "Interrupted, missing and extra contract sets; recovery",
+        "Malformed outer reviewEvidence returns structured FAIL"
+      ]
+    },
+    "workflow": {
+      "mode": "full",
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "node": "v24.22.1",
+      "result": "PASS",
+      "completed": 28,
+      "expected": 28,
+      "checks": [
+        {
+          "command": "node --test tests/p4a-builders.test.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.178,
+          "log": "01.txt"
+        },
+        {
+          "command": "node --check assets/p4a-builders.js",
+          "exitCode": 0,
+          "elapsedSeconds": 0.066,
+          "log": "02.txt"
+        },
+        {
+          "command": "node --test tests/your-relevance.test.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.183,
+          "log": "03.txt"
+        },
+        {
+          "command": "node --check assets/your-relevance.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.06,
+          "log": "04.txt"
+        },
+        {
+          "command": "python -B -m unittest discover -s tests -p test_national_validation_scope.py",
+          "exitCode": 0,
+          "elapsedSeconds": 69.961,
+          "log": "05.txt"
+        },
+        {
+          "command": "python -B tools/verify-national-places.py --source-hashes --no-write",
+          "exitCode": 0,
+          "elapsedSeconds": 172.631,
+          "log": "06.txt"
+        },
+        {
+          "command": "python tools/check-contract-cache.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.13,
+          "log": "07.txt"
+        },
+        {
+          "command": "python tools/verify-place-contracts.py",
+          "exitCode": 0,
+          "elapsedSeconds": 563.464,
+          "log": "08.txt"
+        },
+        {
+          "command": "python tools/verify-redland.py",
+          "exitCode": 0,
+          "elapsedSeconds": 2.06,
+          "log": "09.txt"
+        },
+        {
+          "command": "python tools/verify-redland-election.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.17,
+          "log": "10.txt"
+        },
+        {
+          "command": "python tools/check-favicons.py",
+          "exitCode": 0,
+          "elapsedSeconds": 14.329,
+          "log": "11.txt"
+        },
+        {
+          "command": "python -m unittest discover -s tests -p test_favicons.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.266,
+          "log": "12.txt"
+        },
+        {
+          "command": "python tools/check-site-maintenance.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.115,
+          "log": "13.txt"
+        },
+        {
+          "command": "python -m unittest discover -s tests -p test_page_review_dates.py",
+          "exitCode": 0,
+          "elapsedSeconds": 3.1,
+          "log": "14.txt"
+        },
+        {
+          "command": "python -m unittest discover -s tests -p test_state_clock_parity.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.2,
+          "log": "15.txt"
+        },
+        {
+          "command": "python -m unittest discover -s tests -p test_national_contract_dates.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.995,
+          "log": "16.txt"
+        },
+        {
+          "command": "node --test tests/election-timing-confirmation.test.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.276,
+          "log": "17.txt"
+        },
+        {
+          "command": "python tools/check-civic-navigation.py",
+          "exitCode": 0,
+          "elapsedSeconds": 4.038,
+          "log": "18.txt"
+        },
+        {
+          "command": "python tools/verify-discovery.py",
+          "exitCode": 0,
+          "elapsedSeconds": 11.634,
+          "log": "19.txt"
+        },
+        {
+          "command": "python tools/verify-vic-map.py",
+          "exitCode": 0,
+          "elapsedSeconds": 3.414,
+          "log": "20.txt"
+        },
+        {
+          "command": "python tools/verify-vic-numbers.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.108,
+          "log": "21.txt"
+        },
+        {
+          "command": "python tools/verify-vic-councils.py",
+          "exitCode": 0,
+          "elapsedSeconds": 0.142,
+          "log": "22.txt"
+        },
+        {
+          "command": "node tools/check-redland-clock.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.068,
+          "log": "23.txt"
+        },
+        {
+          "command": "node --test tests/redland-election.test.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.155,
+          "log": "24.txt"
+        },
+        {
+          "command": "node --check assets/qld-council-map.js",
+          "exitCode": 0,
+          "elapsedSeconds": 0.061,
+          "log": "25.txt"
+        },
+        {
+          "command": "node tools/check-civic-geometry.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.186,
+          "log": "26.txt"
+        },
+        {
+          "command": "node tools/check-civic-delivery.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.098,
+          "log": "27.txt"
+        },
+        {
+          "command": "node tools/check-civic-clocks.mjs",
+          "exitCode": 0,
+          "elapsedSeconds": 0.091,
+          "log": "28.txt"
+        }
+      ]
+    },
+    "standalone": [
+      {
+        "label": "councils",
+        "manifest": "content/places/contracts/qld-council-250-pattern-contract.json",
+        "exitCode": 0,
+        "result": "PASS",
+        "elapsedSeconds": 70.417
+      },
+      {
+        "label": "state",
+        "manifest": "content/places/contracts/vic-assembly-1-pattern-contract.json",
+        "exitCode": 0,
+        "result": "PASS",
+        "elapsedSeconds": 68.004
+      },
+      {
+        "label": "federal",
+        "manifest": "content/places/contracts/federal-house-179-pattern-contract.json",
+        "exitCode": 0,
+        "result": "PASS",
+        "elapsedSeconds": 69.084
+      },
+      {
+        "label": "legacy",
+        "manifest": "content/local/council-pattern-contract.json",
+        "exitCode": 0,
+        "result": "PASS",
+        "elapsedSeconds": 23.009
+      }
+    ],
+    "browserAndLegacyHashes": [
+      {
+        "path": "content/places/qa/browser-review.json",
+        "matching": 11,
+        "total": 11
+      },
+      {
+        "path": "content/local/council-pattern-contract.json",
+        "matching": 31,
+        "total": 31
+      }
+    ],
+    "originalBrowserReportByteIdentical": true,
+    "aggregate": {
+      "schemaVersion": 1,
+      "format": "receipt from the completed native aggregate CLI stdout",
+      "recordedAtUTC": "2026-11-05T03:09:10.176356+00:00",
+      "result": "PASS",
+      "registeredContracts": 2081,
+      "failedContracts": 0,
+      "declaredScopes": {
+        "legacy-declared-civic-journey": 1,
+        "structural-route-and-canonical-identity": 2080
+      },
+      "counts": {
+        "routes": 2100,
+        "localReferences": 175438,
+        "interactiveMaps": 4,
+        "boundaryLayers": 2,
+        "sourceFeatures": 88,
+        "basemaps": 2,
+        "records": 19,
+        "twinkles": 0,
+        "indicators": 18,
+        "sourceMapRecords": 10,
+        "representativeListings": 10,
+        "electionSnapshots": 1
+      },
+      "failures": [],
+      "runErrors": [],
+      "command": "python tools/verify-place-contracts.py",
+      "elapsedSeconds": 563.464,
+      "capturedStdout": "Civic place contracts: PASS · 2081 registered; 0 failed.\nDeclared scopes: legacy-declared-civic-journey: 1, structural-route-and-canonical-identity: 2080\nChecks: routes: 2100, localReferences: 175438, interactiveMaps: 4, boundaryLayers: 2, sourceFeatures: 88, basemaps: 2, records: 19, twinkles: 0, indicators: 18, sourceMapRecords: 10, representativeListings: 10, electionSnapshots: 1\nDeclared limits remain in each manifest; this run repeats no browser, editorial or live source review.\n",
+      "boundEvidenceSha256": {
+        "content/places/qa/national-validation.json": "eeccaefbddd32ab7e2c320587cda5c9ea794ac39613b1a75dd07b8304bf08e1c",
+        "content/places/qa/browser-review.json": "b9b951207fa25a6ec330e7ae3c85d2371e68d51a88f11106ce4155561d4e9dc3",
+        "content/places/qa/contract-set.json": "202267a12fec86a222abd1a7c1ae0689c1690e0cc25ef781a14fdb256aff008f",
+        "content/places/qa/shared-contract-evidence.json": "f9a10547cdbf8bbbb7146966612e9f9b8f823ce68486e928bdafc99e63d21b12"
+      },
+      "scope": "Complete guarded offline structural/source-integrity aggregate; no new browser, editorial or live-source review."
+    },
+    "earlierFailuresResolved": [
+      "Development race-test error ordering and fixture setup",
+      "Windows conversion of the pinned licence and sitemap source; original blobs restored"
+    ],
+    "limits": [
+      "No new browser or live political/source review; original source/browser dates preserved.",
+      "Content guards detect persistent changes in the supported exclusive stable-workspace workflow. Arbitrary external change-and-restore or edits after the final check remain outside that guarantee.",
+      "Civic CI does not gate independent Pages deployment; all 28 commands passed before publication."
+    ],
+    "publicationState": "Local prepublication checks complete; exact remote commit, CI/Pages and live-byte verification belong to the delivery receipt.",
+    "aggregateScanInstrumentation": {
+      "result": "PASS",
+      "fixtureContracts": 2,
+      "completionSetScans": 1,
+      "nationalFreshnessPreflights": 1,
+      "finalRunGuards": 1,
+      "scope": "Instrumented existing two-contract synthetic fixture, plus inspection of aggregate call sites outside the manifest loop. Not a new production acceptance run."
+    },
+    "workflowElapsedSeconds": 848.179
+  }
 }

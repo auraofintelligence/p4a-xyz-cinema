@@ -10,7 +10,7 @@ import importlib.util
 import json
 from pathlib import Path
 import sys
-from national_evidence import require_current_evidence
+from national_evidence import require_current_evidence, StableInputs, verify_contract_set
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -43,39 +43,29 @@ def main(argv=None):
     validator_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(validator_module)
     pages = BoundedPageCache()
-    documents = {}
+    inputs = StableInputs(ROOT)
     evidence_cache = {}
     national_preflights = {}
 
     class CachedValidator(validator_module.Validator):
         """Use the original checks; cache only identical read-only inputs."""
         def __init__(self, manifest):
-            super().__init__(manifest, ROOT)
+            super().__init__(manifest, ROOT,inputs=inputs)
             self.pages = pages
 
         def read(self, relative):
-            path = self.path(relative)
-            stat = path.stat()
-            signature = (stat.st_mtime_ns, stat.st_size)
-            cached = documents.get(path)
-            if cached is None or cached[0] != signature:
-                cached = (signature, json.loads(path.read_text(encoding='utf-8-sig')))
-                documents[path] = cached
-            return cached[1]
+            return inputs.read_json(relative)
+
+        def prepare_inputs(self):
+            pass  # The complete set is checked once by the aggregate boundary.
+
+        def finalize_inputs(self):
+            pass  # Every cached dependency is content-checked at the boundary.
 
         def verify_evidence(self, entry):
-            # Thousands of structural manifests bind the same actual shared
-            # renderer/evidence. Reuse the original validator's result only
-            # when both the entire declaration and all relevant files match.
-            paths = set(entry.get('paths', [])) | {a['path'] for a in entry.get('artifactFingerprints', [])}
-            if entry.get('layoutEvidence'):
-                paths.add(entry['layoutEvidence'])
-            signature = []
-            for relative in sorted(paths):
-                path = self.path(relative)
-                stat = path.stat() if path.exists() else None
-                signature.append((relative, stat.st_mtime_ns if stat else None, stat.st_size if stat else None))
-            key = (json.dumps(entry, sort_keys=True, ensure_ascii=False), tuple(signature))
+            # Reuse a declaration only within this content-guarded operation.
+            # All direct and transitive files are rehashed before any PASS.
+            key = json.dumps(entry, sort_keys=True, ensure_ascii=False)
             if key not in evidence_cache:
                 start = len(self.errors)
                 before = self.counts.copy()
@@ -91,7 +81,9 @@ def main(argv=None):
             key = (evidence['validation'], evidence['browser'])
             if key not in national_preflights:
                 try:
-                    national_preflights[key] = require_current_evidence(ROOT, self.read(key[0]), self.read(key[1]))
+                    validation,browser=self.read(key[0]),self.read(key[1])
+                    national_preflights[key] = require_current_evidence(ROOT,validation,browser)
+                    inputs.bind_national(validation,browser,national_preflights[key])
                 except (OSError, ValueError, TypeError, KeyError) as exc:
                     national_preflights[key] = str(exc)
             if isinstance(national_preflights[key], str):
@@ -101,10 +93,15 @@ def main(argv=None):
     scopes = Counter()
     counts = Counter()
     warning_count = 0
+    run_errors=[]
+    try:
+        verify_contract_set(ROOT,inputs)
+    except (OSError,ValueError,TypeError,KeyError) as exc:
+        run_errors.append(str(exc))
     for manifest in manifests:
         relative=manifest.relative_to(ROOT).as_posix()
         try:
-            declaration = json.loads(manifest.read_text(encoding='utf-8-sig'))
+            declaration = inputs.read_json(relative,cache=False)
             result = CachedValidator(declaration).run()
             scopes[declaration.get('acceptanceScope', 'legacy-declared-civic-journey')] += 1
             counts.update(result.get('counts', {}))
@@ -113,7 +110,14 @@ def main(argv=None):
             result = {'result': 'FAIL', 'errors': [{'code': 'manifest-error', 'message': str(exc)}]}
         if result['result'] != 'PASS':
             failures.append({'manifest': relative, 'errors': result.get('errors', [])})
-    report = {'result': 'FAIL' if failures else 'PASS', 'registeredContracts': len(manifests),
+    try:
+        if manifests!=sorted((ROOT/'content').rglob('*-pattern-contract.json')):
+            raise ValueError('Registered contract membership changed during validation')
+        inputs.verify()
+    except (OSError,ValueError,TypeError,KeyError) as exc:
+        run_errors.append(str(exc))
+    report = {'result': 'FAIL' if failures or run_errors else 'PASS', 'registeredContracts': len(manifests),
+              'runErrors':run_errors,
               'failedContracts': len(failures), 'declaredScopes': dict(scopes), 'counts': dict(counts),
               'declaredLimitations': warning_count, 'failures': failures,
               'nationalEvidencePreflights': [{'validation':key[0], 'browser':key[1], 'result':value} for key,value in national_preflights.items()],
@@ -124,6 +128,7 @@ def main(argv=None):
         print(f"Civic place contracts: {report['result']} · {len(manifests)} registered; {len(failures)} failed.")
         print('Declared scopes: ' + ', '.join(f'{key}: {value}' for key, value in scopes.items()))
         print('Checks: ' + ', '.join(f'{key}: {value}' for key, value in counts.items()))
+        for error in run_errors:print('FAIL: '+error)
         for failure in failures[:20]:
             print('FAIL: ' + failure['manifest'])
             for error in failure['errors'][:5]:
@@ -131,7 +136,7 @@ def main(argv=None):
         if len(failures) > 20:
             print(f'{len(failures)-20} further failed contracts; use --json for all evidence.')
         print('Declared limits remain in each manifest; this run repeats no browser, editorial or live source review.')
-    return 1 if failures else 0
+    return 1 if failures or run_errors else 0
 
 if __name__=='__main__':
     sys.exit(main())

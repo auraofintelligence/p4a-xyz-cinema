@@ -5,6 +5,7 @@ import hashlib
 import importlib.util
 import io
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -123,10 +124,13 @@ class SharedEvidence(Fixture):
 
     def test_shared_report_date_does_not_rewrite_any_place(self):
         before = {p: (p.read_bytes(), p.stat().st_mtime_ns) for p in (self.root / 'content/places/contracts').glob('*.json')}
+        index=self.root/evidence.CONTRACT_SET
+        index_before=(index.read_bytes(),index.stat().st_mtime_ns)
         self.refresh_validation('2026-11-05')
         self.build()
         for path, saved in before.items():
             self.assertEqual((path.read_bytes(), path.stat().st_mtime_ns), saved)
+        self.assertEqual((index.read_bytes(),index.stat().st_mtime_ns),index_before)
 
     def test_legacy_inline_manifest_and_freshness_are_preserved(self):
         declaration = self.manifest()
@@ -217,6 +221,14 @@ class SharedEvidence(Fixture):
         self.write('one.html', '<title>Broken route</title>')
         self.assertEqual(self.validate(declaration)['result'], 'FAIL')
 
+    def test_malformed_outer_review_evidence_returns_structured_failure(self):
+        for entry in (None,[],42,'invalid'):
+            declaration=self.manifest();declaration['reviewEvidence']=entry
+            with self.subTest(entry=entry):
+                result=self.validate(declaration)
+                self.assertEqual(result['result'],'FAIL')
+                self.assertTrue(any(e['code']=='invalid-evidence' for e in result['errors']))
+
     def test_aggregate_reuses_national_checks_and_rejects_stale_shared_bytes(self):
         # The dynamic validator import uses the repository's real tool, but the
         # content and evidence remain inside the miniature temporary site.
@@ -231,6 +243,134 @@ class SharedEvidence(Fixture):
         self.assertEqual(self.validate()['result'], 'FAIL')
         with patch.object(runner, 'ROOT', self.root), contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(runner.main(['--json']), 1)
+
+
+class MutationAndMigration(Fixture):
+    def mutate_same_metadata(self,name):
+        path=self.root/name;stat=path.stat();data=path.read_bytes()
+        for before,after in ((b'2026-10-01',b'2026-10-02'),(b'2026-10-23',b'2026-10-24'),(b'"one"',b'"xxx"')):
+            if before in data:
+                changed=data.replace(before,after,1);break
+        else:
+            changed=(b'[' if data[:1]!=b'[' else b'{')+data[1:]
+        path.write_bytes(changed)
+        os.utime(path,ns=(stat.st_atime_ns,stat.st_mtime_ns))
+        self.assertEqual(path.stat().st_size,stat.st_size)
+        self.assertEqual(path.stat().st_mtime_ns,stat.st_mtime_ns)
+
+    def prepare_runner(self):
+        (self.root/'tools/verify-council-pattern.py').write_bytes((ROOT/'tools/verify-council-pattern.py').read_bytes())
+        self.refresh_validation();self.build()
+
+    def test_aggregate_rejects_transitive_mutations_after_cached_preflight(self):
+        self.prepare_runner()
+        for name in ('map.geojson','tools/national_geometry.py','content/places/councils.json',
+                     builder.DEFAULT_SHARED,'one.html','content/places/contracts/one-pattern-contract.json'):
+            path=self.root/name;original=path.read_bytes();calls=[]
+            def injected(root,validation,browser):
+                result=evidence.require_current_evidence(root,validation,browser)
+                calls.append(True);self.mutate_same_metadata(name)
+                return result
+            output=io.StringIO()
+            with self.subTest(name=name),patch.object(runner,'ROOT',self.root),patch.object(runner,'require_current_evidence',side_effect=injected),contextlib.redirect_stdout(output):
+                self.assertEqual(runner.main(['--json']),1)
+                report=json.loads(output.getvalue())
+                self.assertEqual(report['result'],'FAIL')
+                self.assertTrue(report['runErrors'])
+                self.assertEqual(len(calls),1,'Shared checks stay cached; the final content guard rejects the mutation.')
+            path.write_bytes(original)
+
+    def test_standalone_rejects_metadata_preserved_cache_mutation(self):
+        original=evidence.require_current_evidence
+        def injected(root,validation,browser):
+            result=original(root,validation,browser)
+            self.mutate_same_metadata('content/places/councils.json')
+            return result
+        with patch.object(contract,'require_current_evidence',side_effect=injected):
+            result=self.validate()
+        self.assertEqual(result['result'],'FAIL')
+        self.assertTrue(any('changed during operation' in e['message'] for e in result['errors']))
+
+    def test_available_and_absent_local_original_mutations_fail(self):
+        name='content/places/raw/original.txt';source_bytes=b'reviewed original'
+        canonical=self.read('content/places/councils.json')
+        canonical['sources']=[{'rawFile':name,'sha256':hashlib.sha256(source_bytes).hexdigest()}]
+        self.write('content/places/councils.json',canonical)
+        for initially_present in (True,False):
+            path=self.root/name
+            if initially_present:self.write(name,source_bytes.decode())
+            elif path.exists():path.unlink()
+            self.refresh_validation();self.build()
+            def injected(root,validation,browser):
+                result=evidence.require_current_evidence(root,validation,browser)
+                if initially_present:self.mutate_same_metadata(name)
+                else:self.write(name,source_bytes.decode())
+                return result
+            with self.subTest(initially_present=initially_present),patch.object(contract,'require_current_evidence',side_effect=injected):
+                self.assertEqual(self.validate()['result'],'FAIL')
+
+    def test_builder_rejects_assembly_mutation_before_any_output_write(self):
+        outputs=list((self.root/'content/places/contracts').glob('*.json'))+[self.root/builder.DEFAULT_SHARED,self.root/evidence.CONTRACT_SET]
+        before={p:p.read_bytes() for p in outputs}
+        original=evidence.StableInputs.verify
+        def injected(inputs):
+            self.mutate_same_metadata('content/places/councils.json')
+            return original(inputs)
+        with patch.object(evidence.StableInputs,'verify',injected),self.assertRaisesRegex(ValueError,'changed during operation'):
+            self.build()
+        for path,content in before.items():self.assertEqual(path.read_bytes(),content)
+
+    def test_builder_mid_write_mutation_leaves_incomplete_set_and_no_pass(self):
+        self.places[0]['coverageNotes']=['Force one scoped output change']
+        self.write_canonical();self.refresh_validation()
+        original=builder.atomic_write;output=io.StringIO()
+        def injected(path,data):
+            original(path,data)
+            if path.name=='one-pattern-contract.json':self.mutate_same_metadata('content/places/councils.json')
+        with patch.object(builder,'atomic_write',side_effect=injected),contextlib.redirect_stdout(output),self.assertRaisesRegex(ValueError,'changed during operation'):
+            self.build()
+        self.assertEqual(self.read(evidence.CONTRACT_SET)['status'],'in-progress')
+        self.assertNotIn('"result": "PASS"',output.getvalue())
+        self.assertEqual(self.validate()['result'],'FAIL')
+
+    def test_interrupted_migration_is_rejected_then_resumable(self):
+        self.prepare_runner()
+        self.places[0]['coverageNotes']=['One changed declaration']
+        self.write_canonical();self.refresh_validation()
+        original=builder.atomic_write
+        def interrupted(path,data):
+            original(path,data)
+            if path.name=='one-pattern-contract.json':raise OSError('Injected interruption')
+        with patch.object(builder,'atomic_write',side_effect=interrupted),self.assertRaisesRegex(OSError,'Injected interruption'):
+            self.build()
+        self.assertEqual(self.read(evidence.CONTRACT_SET)['status'],'in-progress')
+        self.assertEqual(self.validate()['result'],'FAIL')
+        with patch.object(runner,'ROOT',self.root),contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(runner.main(['--json']),1)
+        self.build()
+        self.assertEqual(self.read(evidence.CONTRACT_SET)['status'],'complete')
+        self.assertEqual(self.validate()['result'],'PASS')
+
+    def test_partial_missing_and_extra_contract_sets_fail(self):
+        target=self.root/'content/places/contracts/two-pattern-contract.json';saved=target.read_bytes()
+        target.unlink()
+        self.assertEqual(self.validate()['result'],'FAIL')
+        target.write_bytes(saved)
+        extra=self.root/'content/places/contracts/extra-pattern-contract.json';extra.write_bytes(saved)
+        self.assertEqual(self.validate()['result'],'FAIL')
+        with self.assertRaisesRegex(ValueError,'Unexpected existing national contracts'):self.build()
+
+    def test_mutation_on_completion_replacement_cannot_report_pass(self):
+        self.places[0]['coverageNotes']=['Changed declaration'];self.write_canonical();self.refresh_validation()
+        original=builder.atomic_write
+        def injected(path,data):
+            original(path,data)
+            if path==self.root/evidence.CONTRACT_SET and json.loads(data)['status']=='complete':
+                self.mutate_same_metadata('content/places/councils.json')
+        with patch.object(builder,'atomic_write',side_effect=injected),self.assertRaisesRegex(ValueError,'changed during operation'):
+            self.build()
+        self.assertEqual(self.read(evidence.CONTRACT_SET)['status'],'in-progress')
+        self.assertEqual(self.validate()['result'],'FAIL')
 
 
 class BoundedValidation(unittest.TestCase):

@@ -27,9 +27,10 @@ BASE_FILES=(
     'assets/civic-places.js','assets/civic-places.css','tools/build-national-places.py',
     'tools/verify-national-places.py','tools/national_evidence.py',
     'tools/build-national-contracts.py','tools/verify-place-contracts.py',
-    'tools/verify-council-pattern.py','tools/national_geometry.py',
+    'tools/verify-council-pattern.py','tools/national_geometry.py','tools/page_review_register.py',
 )
 BROWSER_CODE_FILES=('assets/civic-places.js','assets/civic-places.css','tools/build-national-places.py')
+CONTRACT_SET='content/places/qa/contract-set.json'
 
 def _read(root,path):
     return json.loads((root/path).read_text(encoding='utf-8-sig'))
@@ -51,6 +52,85 @@ def _digest(path):
     with path.open('rb') as stream:
         for chunk in iter(lambda:stream.read(4*1024*1024),b''):digest.update(chunk);size+=len(chunk)
     return digest.hexdigest(),size
+
+class StableInputs:
+    """Content snapshots for one supported stable-workspace operation.
+
+    Cached JSON is an immutable-in-practice read snapshot, never a stat-based
+    freshness decision. Final verification rehashes all observed dependencies,
+    including national/browser transitive artifacts. This detects persistent
+    concurrent edits, not arbitrary change-and-restore attacks or edits after
+    the final check. Callers must keep the workspace exclusive through commit.
+    """
+    def __init__(self,root):
+        self.root=Path(root);self.hashes={};self.documents={};self.national_sets=[]
+
+    def expect(self,name,digest):
+        name=_name(name);_path(self.root,name)
+        if name in self.hashes and self.hashes[name]!=digest:
+            raise ValueError('Inputs changed during operation: '+name)
+        self.hashes[name]=digest
+
+    def read_bytes(self,name):
+        name=_name(name);data=_path(self.root,name).read_bytes()
+        self.expect(name,hashlib.sha256(data).hexdigest())
+        return data
+
+    def read_text(self,name):
+        return self.read_bytes(name).decode('utf-8-sig')
+
+    def read_json(self,name,cache=True):
+        name=_name(name)
+        if not cache or name not in self.documents:
+            value=json.loads(self.read_text(name))
+            if not cache:return value
+            self.documents[name]=value
+        return self.documents[name]
+
+    def fingerprint(self,name):
+        name=_name(name);digest,_=_digest(_path(self.root,name))
+        self.expect(name,digest)
+        return digest
+
+    def bind_national(self,validation,browser,result):
+        for report,check in ((validation,result['national']),(browser,result['browser'])):
+            absent=set(check['absentLocalOnly'])
+            for row in report['artifactFingerprints']:
+                name=_name(row['path'])
+                self.expect(name,None if name in absent else row['sha256'])
+        self.national_sets.append({r['path'] for r in validation['artifactFingerprints']})
+
+    def verify(self):
+        for name,expected in self.hashes.items():
+            path=_path(self.root,name)
+            actual=_digest(path)[0] if path.is_file() else None
+            if actual!=expected:
+                raise ValueError('Inputs changed during operation: '+name)
+        for expected in self.national_sets:
+            required,optional=discover_artifacts(self.root)
+            if required|set(optional)!=expected:
+                raise ValueError('National evidence artifact set changed during operation')
+
+def verify_contract_set(root,inputs):
+    """Reject partial/mixed migrations; the builder publishes completion last."""
+    root=Path(root)
+    if not (root/CONTRACT_SET).exists():return None  # Unmigrated inline contracts.
+    data=inputs.read_json(CONTRACT_SET)
+    if not isinstance(data,dict) or data.get('schemaVersion')!=1 or data.get('kind')!='national-place-contract-set' or data.get('status')!='complete':
+        raise ValueError('National contract migration is incomplete; rerun and fully validate it')
+    rows=data.get('manifests')
+    if not isinstance(rows,list) or not rows:raise ValueError('Empty national contract set')
+    names=set()
+    for row in rows:
+        name=_name(row['path'])
+        if not name.startswith('content/places/contracts/') or not name.endswith('-pattern-contract.json') or name in names:
+            raise ValueError('Invalid/duplicate national contract-set member: '+name)
+        names.add(name)
+        if inputs.fingerprint(name)!=row['sha256']:
+            raise ValueError('National contract set is incomplete or changed: '+name)
+    actual={p.relative_to(root).as_posix() for p in (root/'content/places/contracts').glob('*-pattern-contract.json')}
+    if actual!=names:raise ValueError('National contract-set membership changed; complete migration required')
+    return {'contracts':len(names),'paths':names}
 
 def _retention(root):
     data=_read(root,'content/places/source-retention.json')
@@ -209,8 +289,10 @@ def resolve_review_evidence(root,entry,read=None):
     if not isinstance(shared,dict) or shared.get('schemaVersion')!=1 or shared.get('kind')!='national-place-shared-evidence':
         raise ValueError('Unsupported shared national evidence document: '+name)
     if 'sharedEvidence' in shared:raise ValueError('Chained shared evidence references are forbidden')
-    for key in ('reviewedOn','paths','artifactFingerprints','nationalEvidence'):
+    for key in ('reviewedOn','paths','artifactFingerprints','nationalEvidence','contractSet'):
         if not shared.get(key):raise ValueError('Shared evidence missing '+key)
+    if shared['contractSet']!=CONTRACT_SET or CONTRACT_SET not in shared['paths'] or CONTRACT_SET not in {r['path'] for r in shared['artifactFingerprints']}:
+        raise ValueError('Shared evidence must bind the complete national contract set')
     if not isinstance(shared['paths'],list) or not isinstance(shared['artifactFingerprints'],list) or not isinstance(shared['nationalEvidence'],dict):
         raise ValueError('Invalid shared evidence paths, fingerprints or national binding')
     national=shared['nationalEvidence']

@@ -24,7 +24,7 @@ import struct
 import sys
 from urllib.parse import unquote, urlsplit
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
-from national_evidence import require_current_evidence, resolve_review_evidence
+from national_evidence import require_current_evidence, resolve_review_evidence, StableInputs, verify_contract_set
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -70,7 +70,7 @@ def http_url(value):
 
 class Page(HTMLParser):
     """Small static DOM inventory; it deliberately does not execute JavaScript."""
-    def __init__(self, path):
+    def __init__(self, path, text=None):
         super().__init__(convert_charrefs=True)
         self.path = path
         self.elements = []
@@ -79,7 +79,7 @@ class Page(HTMLParser):
         self.links = []
         self.title = ""
         self.headings = []
-        self.feed(path.read_text(encoding="utf-8-sig"))
+        self.feed(path.read_text(encoding="utf-8-sig") if text is None else text)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -134,7 +134,7 @@ class Page(HTMLParser):
 
 
 class Validator:
-    def __init__(self, manifest, root=ROOT):
+    def __init__(self, manifest, root=ROOT, inputs=None):
         self.root = Path(root).resolve()
         self.manifest = manifest
         self.errors = []
@@ -142,6 +142,8 @@ class Validator:
         self.pages = {}
         self.payloads = {}
         self.counts = Counter()
+        self.inputs = inputs or StableInputs(self.root)
+        self.contract_set = None
 
     def error(self, code, message):
         self.errors.append({"code": code, "message": message})
@@ -157,11 +159,11 @@ class Validator:
         return result
 
     def read(self, relative):
-        return json.loads(self.path(relative).read_text(encoding="utf-8-sig"))
+        return self.inputs.read_json(relative)
 
     def page(self, path):
         if path not in self.pages:
-            self.pages[path] = Page(path)
+            self.pages[path] = Page(path, self.inputs.read_text(path.relative_to(self.root).as_posix()))
         return self.pages[path]
 
     def local_target(self, origin, href):
@@ -270,10 +272,10 @@ class Validator:
         self.require_fields(source, entry["sourceFields"], entry["id"] + " boundary provenance")
         geometry = pointer(source, entry.get("geometryPointer", "/geometry"))
         raw_path = self.path(geometry["file"])
-        raw_bytes = raw_path.read_bytes()
+        raw_bytes = self.inputs.read_bytes(raw_path.relative_to(self.root).as_posix())
         self.check(hashlib.sha256(raw_bytes).hexdigest() == geometry["sha256"], "boundary-hash", f"{entry['id']}: original response checksum changed")
         raw = json.loads(raw_bytes.decode("utf-8-sig"))
-        js = self.path(entry["deliveryFile"]).read_text(encoding="utf-8-sig")
+        js = self.inputs.read_text(entry["deliveryFile"])
         marker = entry["assignment"] + "="
         self.check(js.count(marker) == 1, "delivery-assignment", f"{entry['id']}: expected one JSON assignment {marker}")
         delivered, consumed = json.JSONDecoder().raw_decode(js.split(marker, 1)[1].lstrip())
@@ -306,7 +308,7 @@ class Validator:
         image = pointer(source, entry.get("pointer", ""))
         self.require_fields(image, ["image", "sha256", "extent", "attribution", "request", "exportResponse"], entry["id"])
         self.require_fields(source, ["sourceChecked", "retrieved", "publisher", "licence", "licenceURL", "freshnessNote"], entry["id"] + " provenance")
-        content = self.path(image["image"]).read_bytes()
+        content = self.inputs.read_bytes(image["image"])
         self.check(content.startswith(b"\x89PNG\r\n\x1a\n"), "basemap-png", f"{entry['id']}: geographic base must be an actual PNG")
         self.check(hashlib.sha256(content).hexdigest() == image["sha256"], "basemap-hash", f"{entry['id']}: raster checksum changed")
         self.check(struct.unpack(">II", content[16:24]) == (image["width"], image["height"]), "basemap-dimensions", f"{entry['id']}: PNG dimensions differ")
@@ -453,9 +455,9 @@ class Validator:
             self.verify_national_evidence(entry)
         self.iso_date(entry["reviewedOn"], "recorded evidence date")
         for path in entry["paths"]:
-            self.check(self.path(path).is_file(), "missing-review-evidence", path)
+            if self.check(self.path(path).is_file(), "missing-review-evidence", path):self.inputs.fingerprint(path)
         for artifact in entry["artifactFingerprints"]:
-            actual = hashlib.sha256(self.path(artifact["path"]).read_bytes()).hexdigest()
+            actual = self.inputs.fingerprint(artifact["path"])
             self.check(actual == artifact["sha256"], "review-evidence-stale", artifact["path"] + ": changed since this evidence binding; repeat the affected browser review and record the new evidence before updating its fingerprint")
         if entry.get("layoutEvidence"):
             results = self.read(entry["layoutEvidence"])
@@ -470,9 +472,21 @@ class Validator:
 
     def verify_national_evidence(self, entry):
         evidence = entry['nationalEvidence']
-        require_current_evidence(self.root, self.read(evidence['validation']), self.read(evidence['browser']))
+        validation,browser=self.read(evidence['validation']),self.read(evidence['browser'])
+        result=require_current_evidence(self.root,validation,browser)
+        self.inputs.bind_national(validation,browser,result)
+
+    def prepare_inputs(self):
+        self.contract_set=verify_contract_set(self.root,self.inputs)
+
+    def finalize_inputs(self):
+        self.inputs.verify()
+        if self.contract_set:
+            actual={p.relative_to(self.root).as_posix() for p in (self.root/'content/places/contracts').glob('*-pattern-contract.json')}
+            if actual!=self.contract_set['paths']:raise ValueError('National contract-set membership changed during validation')
 
     def run(self):
+        self.run_section('inputs',lambda _:self.prepare_inputs(),None)
         self.check(self.manifest.get("schemaVersion") == 1, "manifest-version", "Unsupported civic-place contract schemaVersion")
         self.run_section("place", lambda entry: self.require_fields(entry, ["id", "kind", "name", "jurisdiction"], "place"), self.manifest["place"])
         self.check(bool(self.manifest.get("routes")), "empty-scope", "Declare the civic-place routes; an empty scope cannot pass")
@@ -485,6 +499,8 @@ class Validator:
             self.run_section("evidence", self.verify_evidence, evidence)
         except (OSError, ValueError, TypeError, KeyError) as error:
             self.error('invalid-evidence', str(error))
+        if not isinstance(evidence,dict):evidence={}
+        self.run_section('inputs',lambda _:self.finalize_inputs(),None)
         self.warnings.extend(evidence.get("limitations", []))
         return {"result": "FAIL" if self.errors else "PASS", "scope": "Declared static civic-place snapshot; offline, read-only", "place": self.manifest["place"], "counts": dict(self.counts), "errors": self.errors, "warnings": self.warnings, "reviewEvidence": {"reviewedOn": evidence.get("reviewedOn"), "status": "Dated evidence exists; this run does not repeat browser/editorial/source review", "requiredHumanChecks": evidence.get("requiredHumanChecks", [])}, "doesNotProve": ["External sources are still current or correct", "A legal interpretation or election scenario is correct", "The map looks right or works on a physical touch device", "Twinkle humour, kindness, relevance or a one-breath spoken delivery", "A recorded vote establishes motive, popularity or public support", "Undeclared pages, data or journeys meet this contract"]}
 
@@ -497,8 +513,9 @@ def main(argv=None):
     try:
         candidate = Path(args.manifest)
         manifest_path = candidate if candidate.is_absolute() else ROOT / candidate
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
-        report = Validator(manifest).run()
+        inputs=StableInputs(ROOT)
+        manifest = inputs.read_json(manifest_path.resolve().relative_to(ROOT).as_posix(),cache=False)
+        report = Validator(manifest,inputs=inputs).run()
     except (OSError, ValueError, TypeError, KeyError, ZoneInfoNotFoundError) as error:
         report = {"result": "FAIL", "errors": [{"code": "manifest-error", "message": str(error)}]}
     if args.json:
