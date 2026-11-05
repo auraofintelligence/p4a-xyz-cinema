@@ -27,6 +27,7 @@ BASE_FILES=(
     'assets/civic-places.js','assets/civic-places.css','tools/build-national-places.py',
     'tools/verify-national-places.py','tools/national_evidence.py',
     'tools/build-national-contracts.py','tools/verify-place-contracts.py',
+    'tools/verify-council-pattern.py','tools/national_geometry.py',
 )
 BROWSER_CODE_FILES=('assets/civic-places.js','assets/civic-places.css','tools/build-national-places.py')
 
@@ -78,7 +79,8 @@ class _Assets(HTMLParser):
     def handle_endtag(self,tag):
         if tag=='script' and self._config is not None:self.configs.append(json.loads(''.join(self._config)));self._config=None
 
-def collect_fingerprints(root):
+def discover_artifacts(root):
+    """Discover the complete artifact set without hashing artifact contents."""
     root=Path(root);prefixes,excluded=_retention(root)
     required=set();optional={};visited=set();pending=[]
     def public(value):
@@ -132,7 +134,10 @@ def collect_fingerprints(root):
             for url in urls:
                 resolved=_local(url,name)
                 if resolved:public(resolved)
-    rows=[]
+    return required,optional
+
+def collect_fingerprints(root):
+    root=Path(root);required,optional=discover_artifacts(root);rows=[]
     for name in sorted(required|set(optional)):
         path=_path(root,name);local=name in optional
         if not path.is_file():
@@ -171,9 +176,13 @@ def require_current_evidence(root,validation,browser):
     if str(browser.get('status',browser.get('result',''))).upper()!='PASS':raise ValueError('Passing real browser review is required')
     rows=validation.get('artifactFingerprints');checked=verify_fingerprints(root,rows)
     if checked['errors']:raise ValueError('; '.join(checked['errors'][:12]))
-    current=collect_fingerprints(root)
-    expected={r['path'] for r in current};recorded={r['path'] for r in rows}
+    required,optional=discover_artifacts(root)
+    expected=required|set(optional);recorded={r['path'] for r in rows}
     if expected!=recorded:raise ValueError('National evidence artifact set changed; revalidate. Missing '+str(sorted(expected-recorded)[:8])+'; obsolete '+str(sorted(recorded-expected)[:8]))
+    for row in rows:
+        source_hash=optional.get(row['path'])
+        if source_hash and _path(root,row['path']).is_file() and row.get('sha256')!=source_hash:
+            raise ValueError('Retained original differs from canonical source hash: '+row['path'])
     browser_rows=browser.get('artifactFingerprints');bcheck=verify_fingerprints(root,browser_rows)
     if bcheck['errors']:raise ValueError('Browser evidence: '+'; '.join(bcheck['errors'][:12]))
     tested=browser.get('testedPagePaths');fixtures=browser.get('fixturePaths')
@@ -183,3 +192,31 @@ def require_current_evidence(root,validation,browser):
     if not required<=browser_paths:raise ValueError('Browser evidence missing code/page/fixture hashes: '+str(sorted(required-browser_paths)))
     if any(not _name(p).endswith(('.html','.htm')) for p in tested):raise ValueError('Browser testedPagePaths must identify delivered HTML pages')
     return {'national':checked,'browser':bcheck,'artifactCount':len(rows)}
+
+def resolve_review_evidence(root,entry,read=None):
+    """Resolve one stable shared binding; legacy inline declarations still work.
+
+    References carry no build date or mutable report hash in each place. The
+    shared document binds those bytes; its national/browser reports must still
+    verify every dependency. No overrides or chained references are allowed.
+    """
+    if not isinstance(entry,dict):raise ValueError('Review evidence must be an object')
+    if 'sharedEvidence' not in entry:return entry
+    allowed={'sharedEvidence','requiredHumanChecks','limitations'}
+    if set(entry)-allowed:raise ValueError('Shared evidence cannot override inline binding fields')
+    name=_name(entry['sharedEvidence']);_path(Path(root),name)
+    shared=read(name) if read else _read(Path(root),name)
+    if not isinstance(shared,dict) or shared.get('schemaVersion')!=1 or shared.get('kind')!='national-place-shared-evidence':
+        raise ValueError('Unsupported shared national evidence document: '+name)
+    if 'sharedEvidence' in shared:raise ValueError('Chained shared evidence references are forbidden')
+    for key in ('reviewedOn','paths','artifactFingerprints','nationalEvidence'):
+        if not shared.get(key):raise ValueError('Shared evidence missing '+key)
+    if not isinstance(shared['paths'],list) or not isinstance(shared['artifactFingerprints'],list) or not isinstance(shared['nationalEvidence'],dict):
+        raise ValueError('Invalid shared evidence paths, fingerprints or national binding')
+    national=shared['nationalEvidence']
+    for key in ('validation','browser'):
+        name_in_report=_name(national[key]);_path(Path(root),name_in_report)
+        if name_in_report not in shared['paths'] or name_in_report not in {r['path'] for r in shared['artifactFingerprints']}:
+            raise ValueError('Shared evidence must fingerprint its '+key+' report')
+    return {**{k:v for k,v in shared.items() if k not in ('schemaVersion','kind')},
+            'requiredHumanChecks':entry['requiredHumanChecks'],'limitations':entry['limitations']}

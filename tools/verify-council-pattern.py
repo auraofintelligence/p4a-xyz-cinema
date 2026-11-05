@@ -24,6 +24,7 @@ import struct
 import sys
 from urllib.parse import unquote, urlsplit
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+from national_evidence import require_current_evidence, resolve_review_evidence
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -446,6 +447,10 @@ class Validator:
         self.check(digest == entry["sha256"], "source-date-inventory-drift", entry["path"] + ": an inventoried source/editorial date changed; investigate and document real checks before deliberately updating the inventory")
 
     def verify_evidence(self, entry):
+        if self.manifest.get('acceptanceScope') == 'structural-route-and-canonical-identity' or entry.get('nationalEvidence'):
+            validation = self.read(entry['nationalEvidence']['validation'])
+            self.check(entry['reviewedOn'] == (validation.get('checked') or validation.get('reviewedOn')), 'review-date-drift', 'Shared/inline evidence date differs from its actual national validation date')
+            self.verify_national_evidence(entry)
         self.iso_date(entry["reviewedOn"], "recorded evidence date")
         for path in entry["paths"]:
             self.check(self.path(path).is_file(), "missing-review-evidence", path)
@@ -463,6 +468,10 @@ class Validator:
                     self.check(picks["result"] == "PASS" and bool(picks["picking"]) and all(str(item["actual"]) == str(item["expected"]) for item in picks["picking"]), "recorded-map-picking", label)
         self.check(bool(entry["requiredHumanChecks"]) and bool(entry["limitations"]), "review-scope", "Manual review must declare its required checks and limits")
 
+    def verify_national_evidence(self, entry):
+        evidence = entry['nationalEvidence']
+        require_current_evidence(self.root, self.read(evidence['validation']), self.read(evidence['browser']))
+
     def run(self):
         self.check(self.manifest.get("schemaVersion") == 1, "manifest-version", "Unsupported civic-place contract schemaVersion")
         self.run_section("place", lambda entry: self.require_fields(entry, ["id", "kind", "name", "jurisdiction"], "place"), self.manifest["place"])
@@ -470,9 +479,14 @@ class Validator:
         for name, callback in (("routes", self.verify_route), ("maps", self.verify_map), ("boundaryLayers", self.verify_boundary), ("basemaps", self.verify_basemap), ("recordSets", self.verify_records), ("catalogues", self.verify_catalogue), ("representativeSets", self.verify_representatives), ("elections", self.verify_election), ("datePins", self.verify_date_pin), ("dateInventories", self.verify_date_inventory)):
             for entry in self.manifest.get(name, []):
                 self.run_section(name, callback, entry)
-        self.run_section("evidence", self.verify_evidence, self.manifest["reviewEvidence"])
-        self.warnings.extend(self.manifest["reviewEvidence"]["limitations"])
-        return {"result": "FAIL" if self.errors else "PASS", "scope": "Declared static civic-place snapshot; offline, read-only", "place": self.manifest["place"], "counts": dict(self.counts), "errors": self.errors, "warnings": self.warnings, "reviewEvidence": {"reviewedOn": self.manifest["reviewEvidence"]["reviewedOn"], "status": "Dated evidence exists; this run does not repeat browser/editorial/source review", "requiredHumanChecks": self.manifest["reviewEvidence"]["requiredHumanChecks"]}, "doesNotProve": ["External sources are still current or correct", "A legal interpretation or election scenario is correct", "The map looks right or works on a physical touch device", "Twinkle humour, kindness, relevance or a one-breath spoken delivery", "A recorded vote establishes motive, popularity or public support", "Undeclared pages, data or journeys meet this contract"]}
+        evidence = self.manifest['reviewEvidence']
+        try:
+            evidence = resolve_review_evidence(self.root, evidence, self.read)
+            self.run_section("evidence", self.verify_evidence, evidence)
+        except (OSError, ValueError, TypeError, KeyError) as error:
+            self.error('invalid-evidence', str(error))
+        self.warnings.extend(evidence.get("limitations", []))
+        return {"result": "FAIL" if self.errors else "PASS", "scope": "Declared static civic-place snapshot; offline, read-only", "place": self.manifest["place"], "counts": dict(self.counts), "errors": self.errors, "warnings": self.warnings, "reviewEvidence": {"reviewedOn": evidence.get("reviewedOn"), "status": "Dated evidence exists; this run does not repeat browser/editorial/source review", "requiredHumanChecks": evidence.get("requiredHumanChecks", [])}, "doesNotProve": ["External sources are still current or correct", "A legal interpretation or election scenario is correct", "The map looks right or works on a physical touch device", "Twinkle humour, kindness, relevance or a one-breath spoken delivery", "A recorded vote establishes motive, popularity or public support", "Undeclared pages, data or journeys meet this contract"]}
 
 
 def main(argv=None):

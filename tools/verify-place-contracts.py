@@ -45,6 +45,7 @@ def main(argv=None):
     pages = BoundedPageCache()
     documents = {}
     evidence_cache = {}
+    national_preflights = {}
 
     class CachedValidator(validator_module.Validator):
         """Use the original checks; cache only identical read-only inputs."""
@@ -85,29 +86,25 @@ def main(argv=None):
                 self.errors.extend(dict(e) for e in errors)
                 self.counts.update(counts)
 
+        def verify_national_evidence(self, entry):
+            evidence = entry['nationalEvidence']
+            key = (evidence['validation'], evidence['browser'])
+            if key not in national_preflights:
+                try:
+                    national_preflights[key] = require_current_evidence(ROOT, self.read(key[0]), self.read(key[1]))
+                except (OSError, ValueError, TypeError, KeyError) as exc:
+                    national_preflights[key] = str(exc)
+            if isinstance(national_preflights[key], str):
+                raise ValueError('National evidence freshness preflight failed: '+national_preflights[key])
+
     failures=[]
     scopes = Counter()
     counts = Counter()
     warning_count = 0
-    national_preflights = {}
     for manifest in manifests:
         relative=manifest.relative_to(ROOT).as_posix()
         try:
             declaration = json.loads(manifest.read_text(encoding='utf-8-sig'))
-            if declaration.get('acceptanceScope') == 'structural-route-and-canonical-identity':
-                evidence = declaration.get('reviewEvidence', {}).get('nationalEvidence', {})
-                validation_path = evidence.get('validation', 'content/places/qa/national-validation.json')
-                browser_path = evidence.get('browser', 'content/places/qa/browser-review.json')
-                key = (validation_path, browser_path)
-                if key not in national_preflights:
-                    try:
-                        validation = json.loads((ROOT/validation_path).read_text(encoding='utf-8-sig'))
-                        browser = json.loads((ROOT/browser_path).read_text(encoding='utf-8-sig'))
-                        national_preflights[key] = require_current_evidence(ROOT, validation, browser)
-                    except (OSError, ValueError, TypeError, KeyError) as exc:
-                        national_preflights[key] = str(exc)
-                if isinstance(national_preflights[key], str):
-                    raise ValueError('National evidence freshness preflight failed: '+national_preflights[key])
             result = CachedValidator(declaration).run()
             scopes[declaration.get('acceptanceScope', 'legacy-declared-civic-journey')] += 1
             counts.update(result.get('counts', {}))

@@ -31,7 +31,10 @@ jobs:
         run: |
           node --test tests/your-relevance.test.mjs
           node --check assets/your-relevance.mjs
+      - name: Regress shared evidence scope and bounded validation
+        run: python -B -m unittest discover -s tests -p test_national_validation_scope.py
       - name: Check national pages without replacing reviewed evidence
+        # These checks also run before publication; this workflow does not gate Pages.
         run: python -B tools/verify-national-places.py --source-hashes --no-write
       - name: Check every registered council, state and federal contract
         run: |

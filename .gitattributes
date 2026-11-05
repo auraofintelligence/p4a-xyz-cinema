@@ -33,6 +33,8 @@ tools/national_evidence.py -text
 tools/build-national-contracts.py -text
 tools/verify-national-places.py -text
 tools/verify-place-contracts.py -text
+tools/verify-council-pattern.py -text
+tools/national_geometry.py -text
 assets/qld-council-map.js -text
 assets/qld-council-map.css -text
 assets/local-council.css -text
@@ -45,3 +47,6 @@ index.html -text
 pages/aura-genesis.html -text
 pages/aura-clinical-path.html -text
 pages/site-map.html -text
+
+# Preserve the retained original used by council-redland-profiles.
+content/history/redland-divisions-before-2026-10-30.json -text

@@ -8,9 +8,8 @@ treated as complete. --skip-pages is provisional acquisition validation only.
 from __future__ import annotations
 
 import argparse
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, OrderedDict
 from datetime import date, datetime, timedelta, timezone
-import gzip
 import hashlib
 import html
 from html.parser import HTMLParser
@@ -21,7 +20,8 @@ from pathlib import Path
 import posixpath
 import re
 from urllib.parse import unquote, urlsplit
-from national_evidence import collect_fingerprints
+from national_evidence import collect_fingerprints, _digest
+from national_geometry import delivery_digest, iter_features
 try:
     from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 except ImportError:
@@ -124,8 +124,8 @@ class Validator:
         self.registry_layers = {}
         self.geometry_ids = {}
         self.geometry_types = {}
-        self.documents = {}
-        self.anchor_cache = {}
+        self.documents = OrderedDict()
+        self.anchor_cache = OrderedDict()
         self.files = set()
         self.casefold_files = {}
         for base, dirs, files in os.walk(ROOT):
@@ -208,7 +208,7 @@ class Validator:
                     continue
                 self.exact_file(raw, f'Source {key} retained original')
                 if self.source_hashes and source.get('sha256') and (ROOT / raw).is_file():
-                    actual = hashlib.sha256((ROOT / raw).read_bytes()).hexdigest()
+                    actual, _ = _digest(ROOT / raw)
                     self.check(actual == source['sha256'], f'Source {key} retained bytes differ from SHA-256')
                     self.counts['source_hashes_checked'] += 1
         self.counts['sources'] = len(self.sources)
@@ -393,51 +393,65 @@ class Validator:
             filename = layer.get('geometryFile')
             if not filename or not self.exact_file(filename, f'Layer {key} geometry'):
                 continue
-            raw = (ROOT / filename).read_bytes()
-            if filename.endswith('.gz'):
-                raw = gzip.decompress(raw)
+            copies = []
+            comparisons = []
             generated_file = self.registry_layers.get(key, {}).get('geometryFile')
             if key in self.layers and generated_file and generated_file != filename and self.exact_file(generated_file, f'Layer {key} generated fallback'):
-                fallback = (ROOT / generated_file).read_bytes()
-                if generated_file.endswith('.gz'):
-                    fallback = gzip.decompress(fallback)
-                self.check(fallback == raw, f'Layer {key}: generated fallback differs from canonical original bytes')
-                self.counts['canonical_delivery_byte_comparisons'] += 1
+                copies.append(ROOT / generated_file)
+                comparisons.append(('canonical_delivery_byte_comparisons', f'Layer {key}: generated fallback differs from canonical original bytes'))
             compressed = layer.get('compressedFile') or deliveries.get(key, {}).get('compressed')
             if compressed and self.exact_file(compressed, f'Layer {key} gzip'):
-                self.check(gzip.decompress((ROOT / compressed).read_bytes()) == raw, f'Layer {key}: gzip changes exact source JSON bytes')
-                self.counts['gzip_byte_round_trips'] += 1
+                copies.append(ROOT / compressed)
+                comparisons.append(('gzip_byte_round_trips', f'Layer {key}: gzip changes exact source JSON bytes'))
             try:
-                data = json.loads(raw)
-            except ValueError as exc:
+                digest, _, matches = delivery_digest(ROOT / filename, copies)
+                for (counter, message), match in zip(comparisons, matches):
+                    self.check(match, message)
+                    self.counts[counter] += 1
+                count = 0
+                identities = set()
+                duplicate = False
+                unsupported = []
+                field = layer.get('featureIdField')
+                for feature in iter_features(ROOT / filename):
+                    identity = str(feature.get('properties', {}).get(field, feature.get('id')))
+                    duplicate |= identity in identities
+                    identities.add(identity)
+                    shape = feature.get('geometry')
+                    if not shape or shape.get('type') not in ('Polygon', 'MultiPolygon'):
+                        if len(unsupported) < 3:
+                            unsupported.append(shape.get('type') if shape else None)
+                    count += 1
+                    del feature
+                    del shape
+                self.check(True, f'Layer {key}: not a FeatureCollection')
+            except (OSError, EOFError, ValueError, TypeError, AttributeError) as exc:
                 self.check(False, f'Layer {key}: invalid GeoJSON {exc}')
                 continue
-            self.check(data.get('type') == 'FeatureCollection', f'Layer {key}: not a FeatureCollection')
-            features = data.get('features', [])
-            field = layer.get('featureIdField')
-            identities = [str(f.get('properties', {}).get(field, f.get('id'))) for f in features]
-            self.check(len(identities) == len(set(identities)), f'Layer {key}: duplicate feature identities')
+            self.check(not duplicate, f'Layer {key}: duplicate feature identities')
             self.check('None' not in identities, f'Layer {key}: missing feature identity')
-            self.geometry_ids[key] = set(identities)
-            self.check(refs[key] <= set(identities), f'Layer {key}: place feature join(s) absent from geometry: {sorted(refs[key] - set(identities))[:10]}')
-            unsupported = [f.get('geometry', {}).get('type') if f.get('geometry') else None for f in features if not f.get('geometry') or f['geometry'].get('type') not in ('Polygon', 'MultiPolygon')]
+            self.geometry_ids[key] = identities
+            self.check(refs[key] <= identities, f'Layer {key}: place feature join(s) absent from geometry: {sorted(refs[key] - identities)[:10]}')
             self.check(not unsupported, f'Layer {key}: unsupported/missing polygon geometry {unsupported[:3]}')
             row = deliveries.get(key)
             if row:
-                self.check(hashlib.sha256(raw).hexdigest() == row.get('sha256'), f'Layer {key}: delivery SHA-256 differs')
-                self.check(len(features) == row.get('features'), f'Layer {key}: delivery feature count differs')
+                self.check(digest == row.get('sha256'), f'Layer {key}: delivery SHA-256 differs')
+                self.check(count == row.get('features'), f'Layer {key}: delivery feature count differs')
             elif not self.skip_pages:
                 self.check(False, f'Layer {key}: missing generated geometry-delivery entry')
             if layer.get('uncompressedSha256'):
-                self.check(hashlib.sha256(raw).hexdigest() == layer['uncompressedSha256'], f'Layer {key}: adapter uncompressed hash differs')
+                self.check(digest == layer['uncompressedSha256'], f'Layer {key}: adapter uncompressed hash differs')
             self.counts['geometry_layers'] += 1
-            self.counts['geometry_features_including_editions'] += len(features)
+            self.counts['geometry_features_including_editions'] += count
         for key in refs:
             self.check(key in effective, f'Place map reference uses unknown layer {key}')
 
     def get_document(self, path):
         if path not in self.documents:
             self.documents[path] = Document((ROOT / path).read_text(encoding='utf-8-sig'))
+        self.documents.move_to_end(path)
+        while len(self.documents) > 96:
+            self.documents.popitem(last=False)
         return self.documents[path]
 
     def local_target(self, page, url):
@@ -472,6 +486,9 @@ class Validator:
         if fragment and target.lower().endswith(('.html', '.htm')):
             if target not in self.anchor_cache:
                 self.anchor_cache[target] = self.get_document(target).ids
+            self.anchor_cache.move_to_end(target)
+            while len(self.anchor_cache) > 96:
+                self.anchor_cache.popitem(last=False)
             self.check(fragment in self.anchor_cache[target], f'{page}: missing fragment #{fragment} in {target}')
             self.counts['fragment_references_checked'] += 1
 

@@ -20,6 +20,7 @@ from page_review_register import reviewed_page_entries
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_VALIDATION = 'content/places/qa/national-validation.json'
 DEFAULT_BROWSER = 'content/places/qa/browser-review.json'
+DEFAULT_SHARED = 'content/places/qa/shared-contract-evidence.json'
 FINGERPRINT_PATHS = ('assets/civic-places.js', 'assets/civic-places.css',
                      'tools/build-national-places.py', 'tools/verify-national-places.py')
 
@@ -81,6 +82,12 @@ def generate(validation_path, browser_path, dry_run=False):
         'Repeat affected map/search/select/Open, direct-link, Back, keyboard and narrow-screen checks and record the real tested fixtures.',
         'Treat missing current-member or contestant coverage in the national report and canonical coverage notes as unresolved research, not as passing source review.',
     ]
+    shared_evidence = {
+        'schemaVersion': 1, 'kind': 'national-place-shared-evidence',
+        'reviewedOn': reviewed, 'paths': [validation_path, browser_path],
+        'nationalEvidence': {'validation': validation_path, 'browser': browser_path},
+        'artifactFingerprints': fingerprints,
+    }
     manifests = []
     names = set()
     for row in registry['places']:
@@ -114,18 +121,16 @@ def generate(validation_path, browser_path, dry_run=False):
             'routes': [{'path': page, 'role': 'place-overview',
                         'requiredNextPaths': [f'states/{place["jurisdiction"]}/places/{scope}/index.html']}],
             'datePins': pins,
-            'reviewEvidence': {'reviewedOn': reviewed, 'paths': [validation_path, browser_path],
-                               'nationalEvidence': {'validation': validation_path, 'browser': browser_path},
-                               'artifactFingerprints': fingerprints, 'requiredHumanChecks': required_human,
+            'reviewEvidence': {'sharedEvidence': DEFAULT_SHARED, 'requiredHumanChecks': required_human,
                                'limitations': limitations},
         }
         manifests.append((filename, manifest))
     if not dry_run:
         destination = ROOT / 'content/places/contracts'
         destination.mkdir(parents=True, exist_ok=True)
-        for filename, manifest in manifests:
+        outputs = [(ROOT / DEFAULT_SHARED, shared_evidence)] + [(destination / filename, manifest) for filename, manifest in manifests]
+        for path, manifest in outputs:
             text = json.dumps(manifest, indent=2, ensure_ascii=False) + '\n'
-            path = destination / filename
             if not path.exists() or path.read_text(encoding='utf-8') != text:
                 path.write_text(text, encoding='utf-8')
     print(json.dumps({'result': 'PASS', 'scope': 'structural route and canonical identity only',

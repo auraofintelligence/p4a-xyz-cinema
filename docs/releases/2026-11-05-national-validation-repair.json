@@ -1,0 +1,95 @@
+{
+  "baseCommit": "00e4f9b56dbcddbd69830a34a8f959a24fe7eba7",
+  "mode": "local preparation only; no publication",
+  "nationalNoWrite": {
+    "checkedAtUTC": "2026-11-05T02:02:52.439545+00:00",
+    "result": "PASS",
+    "sourceHashesRequested": true,
+    "noWrite": true,
+    "elapsedSeconds": 169.295,
+    "checks": {
+      "assertions": 999177,
+      "councils_places": 1479,
+      "state_places": 442,
+      "federal_places": 159,
+      "canonical_places": 2080,
+      "source_hashes_checked": 273,
+      "local_only_source_snapshots_absent": 1062,
+      "sources": 1341,
+      "current_representative_records": 5242,
+      "election_events": 4468,
+      "contestant_records": 18382,
+      "historical_only_place_records": 1,
+      "registered_routes": 2080,
+      "gzip_byte_round_trips": 49,
+      "geometry_layers": 49,
+      "geometry_features_including_editions": 3270,
+      "canonical_delivery_byte_comparisons": 18,
+      "local_link_references": 176159,
+      "fragment_references_checked": 14658,
+      "generated_pages_checked": 2113,
+      "rendered_representative_records_checked": 5242,
+      "map_configs_checked": 2112,
+      "external_link_references_not_fetched": 56534,
+      "rendered_event_records_checked": 4468,
+      "rendered_contestant_records_checked": 18382,
+      "stylesheets_checked": 2,
+      "evidence_artifacts_bound": 3066
+    },
+    "errors": [],
+    "coverageGaps": {
+      "councils": {
+        "historical_events_without_individual_contestants": 219,
+        "places_without_event_records": 110,
+        "places_without_individual_historical_contestants": 291,
+        "places_without_individual_current_office_records": 331
+      },
+      "state": {
+        "places_without_individual_current_office_records": 1,
+        "places_without_event_records": 1,
+        "places_without_individual_historical_contestants": 1,
+        "historical_events_without_individual_contestants": 7
+      }
+    },
+    "limits": "Structural validation only; no new browser, source/editorial or live-site approval. Saved QA reports not replaced."
+  },
+  "nationalWarningCount": 1062,
+  "syntheticGeometryComparison": {
+    "fixture": "synthetic 3000-feature GeoJSON; 256 coordinate pairs per feature",
+    "compressedBytes": 148555,
+    "results": [
+      {
+        "mode": "whole-layer",
+        "elapsedSeconds": 2.111561800000345,
+        "peakPythonBytes": 157018748,
+        "features": 3000,
+        "uniqueIds": 3000,
+        "sha256": "0996e5fb9448cffb4120f374a9decbecd6cceedfedd4738dceea03fd894d5366",
+        "exactDecodedComparison": true
+      },
+      {
+        "mode": "streamed",
+        "elapsedSeconds": 1.931429499999922,
+        "peakPythonBytes": 4649005,
+        "features": 3000,
+        "uniqueIds": 3000,
+        "sha256": "0996e5fb9448cffb4120f374a9decbecd6cceedfedd4738dceea03fd894d5366",
+        "exactDecodedComparison": true
+      }
+    ],
+    "limits": "tracemalloc peak Python allocations, not operating-system RSS; includes tracing overhead. No national before/after timing claim."
+  },
+  "regressions": {
+    "newSuite": 18,
+    "existingDateTests": 9,
+    "cacheCheck": "PASS",
+    "pythonSyntax": "PASS"
+  },
+  "productionSnapshotChanges": {
+    "canonicalPlaces": false,
+    "deliveredPagesAndAssets": false,
+    "savedQA": false,
+    "checkedInPlaceContracts": false
+  },
+  "migration": "Pending deliberate real-evidence review and one-time legacy contract rewrite"
+}

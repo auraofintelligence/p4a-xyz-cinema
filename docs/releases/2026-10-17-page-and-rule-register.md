@@ -1,6 +1,6 @@
 # Pages and rules review register
 
-Updated 2026-11-03, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
+Updated 2026-11-05, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
 
 ## The local journey
 
@@ -74,7 +74,8 @@ These were updated, rather than newly created.
 
 | Rules | Version | Updated | Review when |
 | --- | --- | --- | --- |
-| [Fractal election and navigation updates](../../docs/agents/fractal-election-updates.md) | 1.2 | 2026-10-17 | A place/event adapter, by-election or replacement process, member/contestant model, countdown, route, sitemap or scoped verification workflow changes. |
+| [Fractal election and navigation updates](../../docs/agents/fractal-election-updates.md) | 1.3 | 2026-11-05 | A place/event adapter, by-election or replacement process, member/contestant model, countdown, route, sitemap or scoped verification workflow changes. |
+| [National validation and shared evidence maintenance](../../docs/agents/national-validation-maintenance.md) | 1.0 | 2026-11-05 | Shared evidence schema, contract migration, artifact freshness checks or validation memory bounds change. |
 | [Shared civic journey rules](../../docs/agents/local-place-pattern.md) | 2.1 | 2026-10-17 | The interaction, evidence, date, Twinkle, lyric-link, privacy or completion contract changes. |
 | [Council rules](../../docs/agents/council-journey-rules.md) | 1.0 | 2026-10-17 | Council structures, legal processes, source adapters or shared requirements change. |
 | [State electorate rules](../../docs/agents/state-electorate-journey-rules.md) | 1.0 | 2026-10-17 | Chamber, electorate, vacancy, election or statistical adapter requirements change. |
