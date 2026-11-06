@@ -214,6 +214,7 @@
   });
 
   const EXTERNAL = [
+    { href: 'https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/', title: 'Committees & inquiries' },
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema', title: 'Fork on GitHub' },
     { href: 'https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/LOCALISE_WITH_AN_AGENT.md', title: 'Localise with an agent' },
     { href: 'https://auraofintelligence.github.io/strange-but-true/', title: 'Strange But True - live L1 example' },
