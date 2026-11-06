@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "implementationDate": "2026-11-06",
+  "timezone": "Australia/Brisbane",
+  "scope": "Archive unused QA screenshots and unused PNG/JPEG originals whose existing WebP counterparts are already used by the site. All map files, fallback formats, active images, videos, source records and referenced QA images stay unchanged.",
+  "originalCommit": "3bf2aac97eecf20377ce9cacde3a28627705eda5",
+  "archiveBranch": "archive/p4a-full-source-before-cleanup-20261106",
+  "archiveUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema/tree/archive/p4a-full-source-before-cleanup-20261106",
+  "originalTrackedBytes": 1104798054,
+  "removedBytes": 120900048,
+  "remainingOriginalTrackedBytes": 983898006,
+  "preservedMapFiles": 126,
+  "preservedMapBytes": 633499516,
+  "preservedMapTree": "3bab796ac090a6bcd13d99f89f6714b1f61463a2",
+  "auditRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42175243692",
+  "auditMeaning": "Conservative reference scan covers tracked HTML, CSS, JavaScript, SVG, JSON, Markdown and discovery text. Every referenced candidate is retained. New runtime source bytes are unchanged; existing source validation and post-deployment browser review remain separate required checks.",
+  "existingReferencedImagesRetained": [
+    "tools/publication-qa/action-screenshots/ancient-5-1440.png",
+    "tools/publication-qa/action-screenshots/ancient-5-390.png",
+    "tools/publication-qa/action-screenshots/ancient-6-1440.png",
+    "tools/publication-qa/action-screenshots/ancient-6-390.png",
+    "tools/publication-qa/action-screenshots/ancient-7-390.png",
+    "tools/publication-qa/action-screenshots/ancient-hero-1440.png",
+    "tools/publication-qa/action-screenshots/ancient-hero-390.png",
+    "tools/publication-qa/action-screenshots/pages-civic-ledger-1440.png",
+    "tools/publication-qa/action-screenshots/pages-civic-ledger-390.png",
+    "tools/publication-qa/action-screenshots/pages-p4a-builder-390.png",
+    "tools/publication-qa/action-screenshots/states-vic-election-index-390.png",
+    "tools/publication-qa/action-screenshots/states-vic-map-index-1440.png",
+    "tools/publication-qa/action-screenshots/states-vic-map-index-390.png",
+    "tools/publication-qa/action-screenshots/variant-0-390.png",
+    "tools/publication-qa/action-screenshots/variant-1-390.png",
+    "tools/publication-qa/action-screenshots/variant-3-390.png",
+    "tools/publication-qa/action-screenshots/variant-4-390.png",
+    "tools/publication-qa/election-refresh-2026-11-03-390.jpg"
+  ],
+  "omittedFiles": [
+    {
+      "path": "assets/fair-go-evolution.jpg",
+      "bytes": 546624,
+      "sha256": "38f9f8c6cf40423d014c423ebaff5b9317a1f2d85df6a63a27f0bce17054f76a"
+    },
+    {
+      "path": "assets/gear-products/comfort-colorblast.png",
+      "bytes": 501734,
+      "sha256": "dbb211a2c0de2d336024bdd697dbbcf43d31d56ee838750db53f866ae7069c53"
+    },
+    {
+      "path": "assets/gear-products/gildan-adult-hoodie.png",
+      "bytes": 355419,
+      "sha256": "290ec179503df371246638abff0cf131a3f4fb67ac72c7c87a6210439c014c32"
+    },
+    {
+      "path": "assets/gear-products/lavender-kangaroo.png",
+      "bytes": 364539,
+      "sha256": "0469ccef025e0473e3af65d6d76c05f76669c6fca4b818dc35369cc327d19517"
+    },
+    {
+      "path": "assets/gear-products/lavender-sloppy-joe.png",
+      "bytes": 308230,
+      "sha256": "ee1af65183b734d144e9b2673302e10a1785f464d4071682918a278b3aaff18c"
+    },
+    {
+      "path": "assets/gear-products/lavender-zip-pocket.png",
+      "bytes": 380051,
+      "sha256": "984202d4d9ba16a3f6c58c3137ff2dc556cb63578da6e94ad4785aeb178f488e"
+    },
+    {
+      "path": "assets/gear-products/ramo-heavy-fleece.png",
+      "bytes": 324460,
+      "sha256": "ef729cf521d2b6c2e3a56e4a87954caefb87360d95fca295dd058ce1827133e2"
+    },
+    {
+      "path": "assets/gear-products/ramo-heavy-zip.png",
+      "bytes": 415924,
+      "sha256": "27debc4adbc29b57a6ec91068278d6dba922c9bde75539c95e4924f719ca9ec3"
+    },
+    {
+      "path": "assets/gear-products/ramo-kangaroo-pocket-grape-front.jpg",
+      "bytes": 323118,
+      "sha256": "2caaf56a1c4dd9202a355395dc251a3fcd8c23d17608fe44d7fef1ff59e54580"
+    },
+    {
+      "path": "assets/gear-products/ramo-kangaroo-pocket-lavender-front.jpg",
+      "bytes": 141493,
+      "sha256": "d5201b553308496c555cb122829cb22784fbf6066f33ba456461eef5d33532b7"
+    },
+    {
+      "path": "assets/gear-products/ramo-kangaroo-pocket.png",
+      "bytes": 279982,
+      "sha256": "23f07da8a99c57d88cdad4bc09eff82d98c54f5770eef412d1d59dd525182419"
+    },
+    {
+      "path": "assets/gear-products/ramo-sloppy-joe.png",
+      "bytes": 227326,
+      "sha256": "010b4f7531b0f36d0fc027ad3a3ae27f1de0beb637678528971be96a7c7bf6b3"
+    },
+    {
+      "path": "assets/gear-products/ramo-zip-pocket.png",
+      "bytes": 398470,
+      "sha256": "bf8356ee53dc9cafe2253219a64253a135ac30f8cc4b5bc2a432a230b70d89f9"
+    },
+    {
+      "path": "assets/gear-products/unisex-pullover.png",
+      "bytes": 274421,
+      "sha256": "84bdd7bf104bac43cbca8af79c9077d3b02ee7c2b48c4e62a08eec2aa847b167"
+    },
+    {
+      "path": "assets/local-organiser-startup-kit.png",
+      "bytes": 2407493,
+      "sha256": "4793df46737e141cac15402056a2da14a5fcb646fe5b9ce400c1f1b0f4548b51"
+    },
+    {
+      "path": "assets/p4a-gear.jpg",
+      "bytes": 248773,
+      "sha256": "4dd52d92b09dd8aaa72fb094abf68c710678aee5acd76eab345cb9a6ff8cb6a7"
+    },
+    {
+      "path": "assets/p4a-hero-wide.jpg",
+      "bytes": 331811,
+      "sha256": "e3c601f8362b64ab4c79ed256e4abc23b16d5991d7f3162d621451c32a9e3784"
+    },
+    {
+      "path": "assets/p4a-map-card.png",
+      "bytes": 630015,
+      "sha256": "3f5113c72ded690da36efdc86fb9bcdafb1e9cab43b1647cd8af667597ec15bd"
+    },
+    {
+      "path": "assets/p4a-patch-synthesis.png",
+      "bytes": 1326265,
+      "sha256": "38289f8cc89f5d022d1c2eb1cd53ea28f5b330921293c64fe90d7b4468e49268"
+    },
+    {
+      "path": "assets/purple-festival.jpg",
+      "bytes": 141099,
+      "sha256": "1e440503b3c729b922af0bfc3335dff2799fc870b7b30f4756116836dbe6cf51"
+    },
+    {
+      "path": "assets/sbt-honour-ledger-wall.png",
+      "bytes": 2383869,
+      "sha256": "90eab973036c68a54f0b4087ab78476421034578e5bacb2cd2f8edb892682e6a"
+    },
+    {
+      "path": "assets/sbt-ledger-mode-wall.png",
+      "bytes": 2194091,
+      "sha256": "8e40f46a37748a0cfd61e36b9fe4d20ff59bcfcb8677507cbc1f1b237a223c16"
+    },
+    {
+      "path": "assets/started-as-friendly-bet.png",
+      "bytes": 2924193,
+      "sha256": "87482f29d171a39139eb5db5fd97e4ff9bfea149039e5e0323029b0b9994844d"
+    },
+    {
+      "path": "assets/started-as-joke.jpg",
+      "bytes": 379038,
+      "sha256": "75cdf949afdcc6a0113a88063c3532117edf0ae9557f9b4b634a1373cdc1f0ce"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/ancient-7-1440.png",
+      "bytes": 1529964,
+      "sha256": "47d63eb7a1024b7091366549f31312201c4302882cda8e6181167a53a14da019"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/index-1440.png",
+      "bytes": 1491418,
+      "sha256": "10eda70aebe6886b1de1c17da8d65cf7327869ae35780ccd00c6e46fccab798f"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/index-390.png",
+      "bytes": 467667,
+      "sha256": "27377d9600b86b8f51e8d31b479e1f6bed4c0b4df9ea3b2ab411c1d9e75a72b0"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-c-hour-receipt-builder-1440.png",
+      "bytes": 1114616,
+      "sha256": "45c0ac44016538702a8a6790ff857ed33c6535171c16793bfb209961dfb71351"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-c-hour-receipt-builder-390.png",
+      "bytes": 314769,
+      "sha256": "ccc8ff838c563af2466dedaa47e63cac08a2e7748cc6e8493764e6632c82f002"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-gambling-harm-1440.png",
+      "bytes": 1398029,
+      "sha256": "69f5c9661c9f790d76531464a695777df1a45f1754bfb7ed3d6a3bdb8c173808"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-gambling-harm-390.png",
+      "bytes": 499327,
+      "sha256": "34eb3cdc6f7f2243330f7999a14deae26689a0bd8f708f8608b2ce0b935fcd52"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-joke-1440.png",
+      "bytes": 1105928,
+      "sha256": "ef937ad98443285312f6b12f5a4109f56a29bbb61788872b3df57937c90884af"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-joke-390.png",
+      "bytes": 320745,
+      "sha256": "236dc6662f5bc8402df7e5a8158b5bd0cdfeacdb2e4ce3eb729dc92a5b0be10a"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-p4a-builder-1440.png",
+      "bytes": 1326257,
+      "sha256": "dd7bf8880e3d75eed569229bdcfe789113465c8052979ae9e89d0734434814d4"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-site-map-1440.png",
+      "bytes": 1249721,
+      "sha256": "6eaf0aed4106b71599dea7b48678bbfc1f4d638ad324d295dec54de1211abad3"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-site-map-390.png",
+      "bytes": 444130,
+      "sha256": "7fb73ece9111a8b90fb14da484d4b94762e25dba1c88250f1f84a3551b02279f"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-states-1440.png",
+      "bytes": 977228,
+      "sha256": "55ba70701ed372223bdad704b1d3f291e3da7fee32d08dd4c2d0f96edf81f124"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-states-390.png",
+      "bytes": 311883,
+      "sha256": "1f616e1239ed1d368b19363f2f89be56a1fee39b6930d6b8a7db2ef363b671d2"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-support-1440.png",
+      "bytes": 13732,
+      "sha256": "35972dea7cebb91249a9104ab0aa6fa6da2cc63e49447ce3a1befc6f7694e683"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-support-390.png",
+      "bytes": 6096,
+      "sha256": "d348f9724074a1d208be0fc501239b100b86e371350f864b7baa6bc64f7558c8"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-twinkle-ancient-aliens-1440.png",
+      "bytes": 1034741,
+      "sha256": "77bd15ff881baa25988d3705b145b17cbeb2f46b2ef04ca9204fed6bb63df874"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-twinkle-ancient-aliens-390.png",
+      "bytes": 323561,
+      "sha256": "6a108b0f828aa60349a735900b77aa0587052e7801ca0b91cdb9230dbc8a9990"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-web3-sensorium-1440.png",
+      "bytes": 1399108,
+      "sha256": "b0f35297d37c1657c6063a45aa167ddf561af46c6563c0cf566ee80c5c706c58"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/pages-web3-sensorium-390.png",
+      "bytes": 452771,
+      "sha256": "447ca3a66513ed3b8179cda11b4d14d1af4055d3dea4b903f7a82b7d199a24c8"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/states-vic-election-index-1440.png",
+      "bytes": 1278425,
+      "sha256": "d515ab9f5bc56c4c95fe10a86fa20885a90c4676fc94feee9c26ad14adf53e5d"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/states-vic-index-1440.png",
+      "bytes": 1256287,
+      "sha256": "8bdc0306a8f4015d96339348a771667161322082f77e3bc171f80bb3982770fd"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/states-vic-index-390.png",
+      "bytes": 406322,
+      "sha256": "aa73b6bde6420dfb7bd9458a617d79809867327fd807a3d415d0e5e0a9533a8d"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-0-1440.png",
+      "bytes": 1394881,
+      "sha256": "fa669f21418c6c2cb0fde87c488d35f4d6a92b7c0605dd67af897fe7389bd716"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-1-1440.png",
+      "bytes": 1159358,
+      "sha256": "3afd16ac0e9fee848778d4fedd82ddab3082ba7d28524e2043e022ed5d089a8e"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-2-1440.png",
+      "bytes": 1599614,
+      "sha256": "4cc33c3a87eae78a388585eb0ab3d6d02e6b85921d858281f42b7653c75184e9"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-2-390.png",
+      "bytes": 436570,
+      "sha256": "fb748b96e5ef61a4944f9e70e5c693c88cc9f2f11aebfbca580d23fde34f7a3a"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-3-1440.png",
+      "bytes": 1590459,
+      "sha256": "7c3523dc6a4a7100ffb4ae75b0197161b85323e353e3922c2941588428444c06"
+    },
+    {
+      "path": "tools/publication-qa/action-screenshots/variant-4-1440.png",
+      "bytes": 1406209,
+      "sha256": "29d6dd8ccf402c8d1de182ad170258c394334d6d2f9c8ad5825076ee852e3410"
+    },
+    {
+      "path": "tools/publication-qa/ai-copyright-1440.png",
+      "bytes": 1406969,
+      "sha256": "9f35deb439e52d06d11a9d9e31e5185c3fe6f41ffc14a29d9ce4cf54cff6cb8c"
+    },
+    {
+      "path": "tools/publication-qa/ai-copyright-390.png",
+      "bytes": 457016,
+      "sha256": "66ed7d39dc528a595c4fe473ea8b609430ea1a71ff5a8284acc374dd8b063171"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-ai-gods-1440.png",
+      "bytes": 1537612,
+      "sha256": "35f33a99371ef055ab828d551a3e493bf52d3b2058ba2f50ff5e60d472b2caa0"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-ai-gods-390.png",
+      "bytes": 490114,
+      "sha256": "edb01816ed39fac2d9d1effcc08a5502aff7636dd81b25c17a6793b679b17d42"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-constructive-paths-1440.png",
+      "bytes": 1524573,
+      "sha256": "25dbc458dcbeaf40a6055aebd44c84fc5ab527c8e9e85b9c95e950ec363b279f"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-constructive-paths-390.png",
+      "bytes": 522573,
+      "sha256": "54aaffa78f5d2c4bb5caee0af1f3e33e1be4e4265de55a71ba37eba31f659312"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-four-futures-1440.png",
+      "bytes": 1540472,
+      "sha256": "39f68c115db776bfa77949d9d48469ed57906ce155f0c0eda45e357ebc1bb50a"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-four-futures-390.png",
+      "bytes": 505837,
+      "sha256": "6edb0ec79fab40b789636752fccf8748709988d9a242426ba5e7d4c8dfdc319e"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-main-1440.png",
+      "bytes": 1457910,
+      "sha256": "c636f96a6fb61bac62130695a7dd0b5f44e43ca9e067aa8de1d981e7e8bae7e0"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-main-390.png",
+      "bytes": 496830,
+      "sha256": "66de43add5bb8daa87f275b93a4fd5b00c566234bbfe37c81b21dc3e700255a2"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-public-options-1440.png",
+      "bytes": 1577320,
+      "sha256": "2cc4d90f380232e8fa437270597da2384da6e900fbcc889498c06b39ed72c1a4"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-public-options-390.png",
+      "bytes": 486861,
+      "sha256": "3fd765659dd96895890ecb19f0600a5e3f30543529a2cba23f5866382c25bafe"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-take-part-1440.png",
+      "bytes": 1053364,
+      "sha256": "f1ffc5c452a2e9b1a50d6c074f112e40f03b17a345be1b3ccd56956d4f474d0c"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/ai-pdoom-take-part-390.png",
+      "bytes": 434552,
+      "sha256": "688dc30acde8cd877d6af455a8060b05b98978bb125daf8c817d96891395b545"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/twinkle-ai-pdoom-main-1440.png",
+      "bytes": 1411914,
+      "sha256": "7060b50cdeefa67c2453b76942b13c8f38f11940160ca0596cfcfb77a9aa9a6c"
+    },
+    {
+      "path": "tools/publication-qa/ai-futures-screenshots/twinkle-ai-pdoom-main-390.png",
+      "bytes": 434883,
+      "sha256": "8e4d4f9bfe07dfde3eb5f2eeb47c3dc99a8f37fce4f7ec1f45eb3ba144c18116"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/disclosure-1665.png",
+      "bytes": 1803040,
+      "sha256": "745b64c0455f6699849c0e83add0281844c779e59cf5b17784ca00870ce078d6"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/disclosure-390.png",
+      "bytes": 487734,
+      "sha256": "ffca71b1fbef1102112e7d7c4533058478811470730a3deb3f7e934a53e67c42"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/full-1665.png",
+      "bytes": 1681472,
+      "sha256": "dd0610d9f8a0995df7e472268f5be89849a3bd0c86545c73d0b77f0ea9da3d70"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/full-390.png",
+      "bytes": 960842,
+      "sha256": "3b4a64a49f60db9f2c5dfb7258a23d7960afeb7d6bc0cc387404a00135a80f91"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/records-1665.png",
+      "bytes": 1748160,
+      "sha256": "63c9cae853e271fe55fe4cb2a241c3483f5a2c632a77da021e7c2d6c0f57a4be"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/records-390.png",
+      "bytes": 464444,
+      "sha256": "a085132e5cdf4f5323eb15acf69c11ae8129f96c58d69221fa7a82e24d6cbe78"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/religion-and-aliens-1665.png",
+      "bytes": 1702159,
+      "sha256": "4faa54f9cc46347689de507a1e0daec94b211f25de8696a22833b188704ecb72"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/religion-and-aliens-390.png",
+      "bytes": 504927,
+      "sha256": "d83a928c98626b33cb26a9a566d9eb3fa3538c6a7599071fe9f8b0ddc1314f07"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/sky-country-partnership-1665.png",
+      "bytes": 1797960,
+      "sha256": "aed4526b4ace506e60872df6f5422d71f66cfc48b88b94100d7f5a090e8e67a8"
+    },
+    {
+      "path": "tools/publication-qa/ancient-layout-screenshots/sky-country-partnership-390.png",
+      "bytes": 479857,
+      "sha256": "7b3b258d1dbfcc0742ff6b229b7b98e7324b4af147dafd3616f1b8e9f23f2a7f"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/belief-and-power-1440.png",
+      "bytes": 1208178,
+      "sha256": "75593e4007108b517fdbc5dd613576a7ae158a92744398f61959f56eb7c82494"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/belief-and-power-390.png",
+      "bytes": 474360,
+      "sha256": "95ce386d22ce61f0cac7b2d8fb8bec696193eb69ca071dce57a38b2a6d30c9f6"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/defence-records-1440.png",
+      "bytes": 1491578,
+      "sha256": "ccbc368e7412229571986597e6bf4e291243cf9bc35352053ae31db91469dc87"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/defence-records-390.png",
+      "bytes": 465247,
+      "sha256": "f77acaf85cb897e92194769904e02a0a96936b4249a53b4e910d308824360265"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/disclosure-1440.png",
+      "bytes": 1539550,
+      "sha256": "f41a9f2ceb57a8e7801d3a1fdec3c637ad69155fd82a025ba50d7e850af22c54"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/disclosure-390.png",
+      "bytes": 487199,
+      "sha256": "8592c2016d433351be95ad7bf423bfea87f213ab12ae5a72a77c39be0b28fb83"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/empty-chair-1440.png",
+      "bytes": 1544374,
+      "sha256": "7d61c63779ec8a8dd56accd5529506530003b61f652f981bc562cbbbf6ebd876"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/empty-chair-390.png",
+      "bytes": 523624,
+      "sha256": "3ab45b15ab9420e6dc51fe9efdfb7a3d7f8e30048ebc2a54444df913f02bc890"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/main-1440.png",
+      "bytes": 1464120,
+      "sha256": "95bd57387b2f58fa32b9f0d225974270e0cbad9abfec742596757467a03e579b"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/main-390.png",
+      "bytes": 497412,
+      "sha256": "d8c12b1dcf7e7ea4ff720c1f6df5e30e0ecccc94989af79d24566ac5d5cbd6c4"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/recent-sightings-1440.png",
+      "bytes": 1489298,
+      "sha256": "4bc7d4acb10ea8679f8ef8da07a146f2c051d119855ce4c4aefec306330405f1"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/recent-sightings-390.png",
+      "bytes": 452887,
+      "sha256": "14f0a93449c377097d367d7fd54e60923e919ac46ca48bcbbca270e93773081e"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/records-1440.png",
+      "bytes": 1482405,
+      "sha256": "8625ed36d87a5a861a6181cd9620d71ad72436f09f17edd00c6d408a697cd007"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/records-390.png",
+      "bytes": 464535,
+      "sha256": "dc07b835350ba7d5af72088fff4cafa97f10a9bdba6787d18625ac64895323ae"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/regional-cooperation-1440.png",
+      "bytes": 1491450,
+      "sha256": "07caa730a93361aef9aa366037edc32e27e42b687df0636e65e5f6a9bc65e1fc"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/regional-cooperation-390.png",
+      "bytes": 489297,
+      "sha256": "47814e0b8f27a50f968f2449e896cf8c931f667cf279793ce02e8de813d98adf"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/religion-and-aliens-1440.png",
+      "bytes": 1469148,
+      "sha256": "3c3b5428c92dba1bedff89231ffe9772c5304fddcd267c0797babb031c320cdf"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/religion-and-aliens-390.png",
+      "bytes": 504225,
+      "sha256": "ef54dc55a0562ccb55b5c40228e8a94718bfef603ec8300543093cf6df83d21e"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/sky-country-partnership-1440.png",
+      "bytes": 1504179,
+      "sha256": "02a0055003589a6b1836872c28b36faf78b21837d7530c37f240ceef723fb6fe"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/sky-country-partnership-390.png",
+      "bytes": 492756,
+      "sha256": "d2446fdadc6cd0db90d6f8b0577e77fd35cb653c23d02e7bb61eb62e39426d27"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/traditions-1440.png",
+      "bytes": 1504640,
+      "sha256": "7e0ab8ee9c3f84c8cc3b969cfc19c679493c2fd1ac7d38cf95eaba897651eace"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/traditions-390.png",
+      "bytes": 437508,
+      "sha256": "1f8b61f116e4427832fd0835d6189a30526cc5dba56caadff39c7afc2c1d247d"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/whistleblower-protection-1440.png",
+      "bytes": 1572548,
+      "sha256": "d02d94b3ad09f1ec4bd31ca0ce0d461ef2110a5d4c6c137fcb82fb9f6d3248ab"
+    },
+    {
+      "path": "tools/publication-qa/australian-uap-screenshots/whistleblower-protection-390.png",
+      "bytes": 494064,
+      "sha256": "c9fcbc0f0df8f4339855584f368ccc20788783568d40f91165a25979c0da1147"
+    },
+    {
+      "path": "tools/publication-qa/games-inline-1440.png",
+      "bytes": 1555635,
+      "sha256": "62c94398665889be5ac8c3d5e3081b20fecdc676ee9edc0807838fbf1a3445a1"
+    },
+    {
+      "path": "tools/publication-qa/games-inline-390.png",
+      "bytes": 431263,
+      "sha256": "ed8d5cbe3be6786105e65277c825bf7a8ada761c6c5191ad369972781332dabd"
+    },
+    {
+      "path": "tools/publication-qa/marriage-divorce-1440.png",
+      "bytes": 1437255,
+      "sha256": "fd97e04b330f18c859144c6bbc176c55380b90b033c26cd82723db9a03c923c6"
+    },
+    {
+      "path": "tools/publication-qa/marriage-divorce-390.png",
+      "bytes": 468709,
+      "sha256": "e52b54ddd9c1bcad42384b62e0d1135dd70967df8689c841acd5ba48e85ffaba"
+    },
+    {
+      "path": "tools/publication-qa/political-lies-1440.png",
+      "bytes": 1328148,
+      "sha256": "efe2026ae6de2aa7593e77c60b9293f00da6b959618f1f4cbe6f081b1b802d04"
+    },
+    {
+      "path": "tools/publication-qa/political-lies-390.png",
+      "bytes": 418472,
+      "sha256": "4861eb762112d9cee9c29255d845da2218614d794bb1c663b320a2632aa6b5c7"
+    },
+    {
+      "path": "tools/publication-qa/restricted-plants-1440.png",
+      "bytes": 1451721,
+      "sha256": "0cbf3145f85121dd8ff05db277f15e9dd4c24fc30fb2603b636f0bfa84161b55"
+    },
+    {
+      "path": "tools/publication-qa/restricted-plants-390.png",
+      "bytes": 461433,
+      "sha256": "65eaf92d7f3b1eac57d527f8893cff4492b136e559aa40e5fc48440d153a034a"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-public-assets-1440.png",
+      "bytes": 1417838,
+      "sha256": "c7d1b7985a9c0393a3d3dad048e56d8ba8c7e1b024989c9c3d926f0a4810f0df"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-public-assets-390.png",
+      "bytes": 468564,
+      "sha256": "9ce1f0074743216ad5764bc637494ee0d69c16a033360e5e6e218414e3fd0718"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-twinkle-ancient-aliens-1440.png",
+      "bytes": 1349011,
+      "sha256": "0798229181840b935a3699a4cc4b0417cf599ce8bfb3023173f77e97c252d7ce"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-twinkle-ancient-aliens-390.png",
+      "bytes": 431474,
+      "sha256": "14b389244a5ce1e940d60d0ae62d8fe77fc2eb1302e0c484cab064773b00d910"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-twinkle-power-1440.png",
+      "bytes": 1379469,
+      "sha256": "a53f2e02c1afe6c88dbee00cec4d4dfac8ffacf635a5c51795f656dda39722bc"
+    },
+    {
+      "path": "tools/publication-qa/reviewed-twinkle-power-390.png",
+      "bytes": 444405,
+      "sha256": "f1cc8b1596a8fa956a6f0436f5fa6d6094a2a6eb2829c6e66577559b2dafc028"
+    },
+    {
+      "path": "tools/publication-qa/super-investments-1440.png",
+      "bytes": 1408011,
+      "sha256": "6cebc3dfda967b2415996a3e57639194ecfb2bda4e9896c3493377ac63b8b602"
+    },
+    {
+      "path": "tools/publication-qa/super-investments-390.png",
+      "bytes": 477464,
+      "sha256": "ff70685eeb36016f541a7002cce9861c8a4f3594d5e0516323ebfb78b160e805"
+    },
+    {
+      "path": "tools/publication-qa/tobacco-1440.png",
+      "bytes": 1477132,
+      "sha256": "d4455ae9a4cc713d2b9471bef24642cb4f2aaddd9a088cf0cbb39f3c8c3af10c"
+    },
+    {
+      "path": "tools/publication-qa/tobacco-390.png",
+      "bytes": 470134,
+      "sha256": "07ae6086f11b56daa76e31e193827604f522a5c971212044ae751e4c36e5e2aa"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-1440.png",
+      "bytes": 1396013,
+      "sha256": "f3e2712a801af647b472c88b9ad8f9b62114b93ff4aa87ca9120819cb3cdcff6"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-390.png",
+      "bytes": 431438,
+      "sha256": "79fc76e84c3e4ae52a9ab6d4cc57fd09e15d093058501b46936be6f825c07133"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-ai-copyright-1440.png",
+      "bytes": 1417232,
+      "sha256": "ee2c0a334cd49e78f1fb5a51de9cd9bbbfad838e9d5ab10950a84040843b6fc3"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-ai-copyright-390.png",
+      "bytes": 439463,
+      "sha256": "d20911e6ba546f078b81d5ff9098a119a7312e203bca761179437a265422edba"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-super-investments-1440.png",
+      "bytes": 1386040,
+      "sha256": "a7f217fd665c929df800438b394b12d13eb256de64c2240ec52757c9922115b1"
+    },
+    {
+      "path": "tools/publication-qa/twinkle-super-investments-390.png",
+      "bytes": 428241,
+      "sha256": "12372d706c64d499c7090b714470a1f989ef3d4bdc4948fccd6e0b9ebbf06725"
+    },
+    {
+      "path": "tools/publication-qa/vic-home-colour-screenshots/card-1665.png",
+      "bytes": 1515673,
+      "sha256": "516534d04f37c7859c851e3bfa91935fb1bae721d866d306a78686d8e15c1e9f"
+    },
+    {
+      "path": "tools/publication-qa/vic-home-colour-screenshots/card-390.png",
+      "bytes": 413949,
+      "sha256": "9db0b845636f04e6b67a81b1b85d2b52fc48570658ce4beb9f3792d6e800e44a"
+    },
+    {
+      "path": "tools/publication-qa/web3-sensorium-1440.png",
+      "bytes": 1487547,
+      "sha256": "854a7d3c396ac66efd43ea16bc2d0fa2fd9904407827d68196235a5431a3e539"
+    },
+    {
+      "path": "tools/publication-qa/web3-sensorium-390.png",
+      "bytes": 476083,
+      "sha256": "bb4d92b782b362e2e4803e11b9648966956106da04806171049d1ff9ade34038"
+    }
+  ]
+}

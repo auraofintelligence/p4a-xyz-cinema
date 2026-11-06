@@ -1,0 +1,25 @@
+name: Site storage checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  site-size:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Test storage accounting
+        run: python -B -m unittest discover -s tests -p test_site_size.py
+      - name: Keep the tracked site below one billion bytes
+        run: python -B scripts/check-site-size.py
