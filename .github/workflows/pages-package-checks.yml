@@ -23,3 +23,15 @@ jobs:
         run: python -B -m unittest discover -s tests -p test_pages_artifact.py
       - name: Audit actual tracked tree and deployment budget
         run: python -B scripts/prepare-pages-artifact.py --check --report "$RUNNER_TEMP/pages-package-plan.json"
+      - name: Report exact cleanup candidates and retained references
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path(os.environ['RUNNER_TEMP']) / 'pages-package-plan.json'
+          if path.exists():
+              data = json.loads(path.read_text())
+              print('CLEANUP_CANDIDATES=' + json.dumps(data['omittedScreenshots'], separators=(',', ':')))
+              print('RETAINED_REFERENCES=' + json.dumps(data['retainedScreenshotReferences'], separators=(',', ':')))
+          PY

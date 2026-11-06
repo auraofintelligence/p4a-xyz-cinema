@@ -78,6 +78,12 @@ class PagesArtifactTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 pack.build(self.root, self.paths, destination)
 
+    def test_only_unused_non_map_non_media_webp_originals_are_candidates(self):
+        for name in ["assets/unused.png", "assets/unused.webp", "assets/active.jpg", "assets/active.webp", "assets/maps/exact.png", "assets/maps/exact.webp", "assets/media/cover.jpg", "assets/media/cover.webp", "assets/only-original.png"]:
+            self.add(name)
+        self.add("index.html", b'<img src="assets/active.jpg"><img src="assets/unused.webp">')
+        self.assertEqual(pack.plan(self.root, self.paths)[1], ["assets/unused.png"])
+
 
 if __name__ == "__main__":
     unittest.main()

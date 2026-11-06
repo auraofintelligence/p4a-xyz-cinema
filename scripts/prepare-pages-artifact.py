@@ -48,9 +48,13 @@ def tracked_files(root):
 
 
 def plan(root, paths):
+    tracked = set(paths)
     candidates = {
         name for name in paths
-        if name.startswith(SCREENSHOT_ROOT) and PurePosixPath(name).suffix.lower() in IMAGE_SUFFIXES
+        if (name.startswith(SCREENSHOT_ROOT) and PurePosixPath(name).suffix.lower() in IMAGE_SUFFIXES)
+        or (name.startswith("assets/") and not name.startswith(("assets/maps/", "assets/media/"))
+            and PurePosixPath(name).suffix.lower() in {".png", ".jpg", ".jpeg"}
+            and str(PurePosixPath(name).with_suffix(".webp")) in tracked)
     }
     # Basename matching deliberately errs toward retention. It protects relative,
     # absolute, root-relative and report references, including ambiguous basenames.
@@ -109,7 +113,7 @@ def build(root, paths, output=None):
     maps = [entry for entry in entries if entry["path"].startswith("assets/maps/")]
     return {
         "schemaVersion": 1,
-        "scope": "Only unreferenced tools/publication-qa raster screenshots omitted. All other tracked files retained unchanged.",
+        "scope": "Only unreferenced QA rasters and unreferenced non-map, non-media originals with retained WebP counterparts omitted. All other tracked files retained unchanged.",
         "sourceBytes": sum(entry["bytes"] for entry in entries + excluded),
         "artifactBytes": sum(entry["bytes"] for entry in entries),
         "savedBytes": sum(entry["bytes"] for entry in excluded),
