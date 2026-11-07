@@ -181,15 +181,37 @@ def settle_page(page):
     page.wait_for_timeout(750)
 
 
+def reveal_by_scrolling(page, max_steps=100):
+    """Visit below-fold content naturally; fail instead of capturing an endless page."""
+    require(type(max_steps) is int and max_steps > 0, 'Invalid scroll sweep bound')
+    scroll = "y => window.scrollTo({top: y, left: 0, behavior: 'instant'})"
+    try:
+        page.evaluate(scroll, 0)
+        page.wait_for_timeout(100)
+        for _ in range(max_steps):
+            state = page.evaluate('''() => ({y: window.scrollY, viewport: window.innerHeight,
+                height: Math.max(document.documentElement.scrollHeight, document.body.scrollHeight)})''')
+            require(state['viewport'] > 0, 'Cannot sweep a zero-height viewport')
+            if state['y'] + state['viewport'] >= state['height'] - 1:
+                return
+            # Overlap viewports so ordinary IntersectionObservers see every section.
+            page.evaluate(scroll, state['y'] + max(1, int(state['viewport'] * 0.8)))
+            page.wait_for_timeout(100)
+        raise ValueError(f'Scroll sweep exceeded {max_steps} steps; capture incomplete')
+    finally:
+        page.evaluate(scroll, 0)
+        settle_page(page)
+
+
 def run(scope, report, output):
     from playwright.sync_api import sync_playwright, expect
     require(importlib.metadata.version('playwright') == VERSION, f'Install pinned Playwright {VERSION}')
     report['playwright_version'] = importlib.metadata.version('playwright')
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(channel="chromium", headless=False)
+        browser = pw.chromium.launch(channel="chromium")
         report['browser_version'] = browser.version
         report['browser_channel'] = 'chromium'
-        report['browser_mode'] = 'full-chromium-headed-xvfb'
+        report['browser_mode'] = 'full-chromium-new-headless'
         try:
             for viewport in scope['viewports']:
                 width = viewport['width']
@@ -239,8 +261,7 @@ def run(scope, report, output):
                 def screenshot(label):
                     settle()
                     name = f'{width}-{label}.png'
-                    page.evaluate('() => window.scrollTo({top: 0, left: 0, behavior: \"instant\"})')
-                    page.wait_for_timeout(150)
+                    reveal_by_scrolling(page)
                     page.screenshot(path=str(output / name), full_page=True)
                     report['screenshots'].append(name)
                 def layout():

@@ -210,6 +210,44 @@ class BrowserQATest(unittest.TestCase):
             self.assertTrue(after.startswith('settle()'))
         self.assertTrue(source.split('def screenshot(label):', 1)[1].lstrip().startswith('settle()'))
 
+    def test_scroll_sweep_visits_below_fold_then_restores_and_settles(self):
+        class Page:
+            y = 0
+            def __init__(self):
+                self.events = []
+            def evaluate(self, script, arg=None):
+                self.events.append(('evaluate', script, arg))
+                if arg is not None:
+                    self.y = min(arg, 1400)
+                    return None
+                return {'y': self.y, 'viewport': 600, 'height': 2000}
+            def wait_for_timeout(self, ms):
+                self.events.append(('wait', ms))
+        page = Page()
+        with patch.object(qa, 'settle_page', side_effect=lambda p: p.events.append(('settle',))):
+            qa.reveal_by_scrolling(page)
+        positions = [e[2] for e in page.events if e[0] == 'evaluate' and e[2] is not None]
+        self.assertEqual(positions, [0, 480, 960, 1440, 0])
+        self.assertEqual(page.events[-1], ('settle',))
+        self.assertEqual(page.y, 0)
+        scripts = '\n'.join(e[1] for e in page.events if e[0] == 'evaluate')
+        for mutation in ('classList', '.style', 'setAttribute', 'reducedMotion', 'hidden ='):
+            self.assertNotIn(mutation, scripts)
+        import inspect
+        capture = inspect.getsource(qa.run).split('def screenshot(label):', 1)[1].split('def layout', 1)[0]
+        self.assertLess(capture.index('reveal_by_scrolling(page)'), capture.index('page.screenshot('))
+
+    def test_scroll_sweep_bounds_endless_page_and_restores_on_failure(self):
+        from unittest.mock import Mock
+        page = Mock()
+        page.evaluate.return_value = {'y': 0, 'viewport': 600, 'height': 1000000}
+        with patch.object(qa, 'settle_page') as settle:
+            with self.assertRaisesRegex(ValueError, 'exceeded 3 steps'):
+                qa.reveal_by_scrolling(page, max_steps=3)
+        self.assertEqual(page.evaluate.call_count, 8)  # start + 3 reads/scrolls + restoration
+        self.assertEqual(page.evaluate.call_args.args[1], 0)
+        settle.assert_called_once_with(page)
+
     def test_validate_does_not_launch_or_create_output(self):
         with tempfile.TemporaryDirectory() as d, patch.object(qa, 'run') as run:
             output = Path(d) / 'unused'
