@@ -21,6 +21,8 @@ def validate(election):
             assert target.date() == day and target.utcoffset() == timedelta(hours=10)
             assert item['source'].startswith('https://www.ecq.qld.gov.au/')
             assert item['dateBasis'].strip()
+            if item.get('timePrecision') == 'calendar-day':
+                assert target.hour == target.minute == target.second == 0
         elif item['timingStatus'] == 'awaiting-confirmation':
             assert item['date'] is None and item['countdownTarget'] is None
     candidates = bye.get('candidates', [])
@@ -29,7 +31,11 @@ def validate(election):
         assert candidate['status'] in ('announced-intention', 'accepted-nomination', 'withdrawn')
         assert candidate['source'].startswith('https://')
         date.fromisoformat(candidate['checked'])
-        date.fromisoformat(candidate['announced'])
+        if candidate.get('announced'):
+            date.fromisoformat(candidate['announced'])
+        else:
+            assert candidate.get('sourceType') == 'media-report'
+            date.fromisoformat(candidate['reported'])
         if candidate['status'] == 'accepted-nomination':
             assert (candidate.get('nominationSource') or '').startswith('https://www.ecq.qld.gov.au/')
         elif candidate['status'] == 'announced-intention':
@@ -49,12 +55,15 @@ def milestone(item, title, kind):
         'Event completed — check the official ECQ status.' if state == 'completed' else
         'Official date confirmed. Live countdown requires JavaScript.')
     confirmed = state == 'confirmed'
+    calendar_day = item.get('timePrecision') == 'calendar-day'
     date_html = ''
     if confirmed:
-        readable = datetime.fromisoformat(target).strftime('%d %B %Y, %H:%M').lstrip('0')
-        date_html = f'<p><time datetime="{e(target)}" style="white-space:normal">{e(readable)} AEST (Brisbane, UTC+10)</time></p>'
+        readable = datetime.fromisoformat(target).strftime('%d %B %Y' if calendar_day else '%d %B %Y, %H:%M').lstrip('0')
+        date_html = f'<p><time datetime="{e(item["date"] if calendar_day else target)}" style="white-space:normal">{e(readable)} AEST (Brisbane, UTC+10)</time></p>'
+        if calendar_day:
+            date_html += '<p>Countdown to the start of this Brisbane calendar date, not a polling opening time or postal deadline.</p>'
     units = ''.join(f'<span><strong>--</strong>{unit}</span>' for unit in ['days', 'hours', 'minutes', 'seconds'])
-    return f'''<article class="local-card" data-redland-milestone data-kind="{e(kind)}" data-timing-status="{e(state)}" data-target="{e(target)}" data-ends="{e(item.get('pollEndsAt') or '')}">
+    return f'''<article class="local-card" data-redland-milestone data-kind="{e(kind)}" data-time-precision="{e(item.get('timePrecision', 'instant'))}" data-timing-status="{e(state)}" data-target="{e(target)}" data-ends="{e(item.get('pollEndsAt') or '')}">
 <h3>{e(title)}</h3>{date_html}<p data-milestone-status role="status">{e(waiting)}</p>
 <div class="local-clock" data-milestone-clock role="timer" aria-label="{e(title)} countdown" hidden>{units}</div>
 <p class="local-source"><a href="{e(item['source'])}" target="_blank" rel="noopener noreferrer">Official ECQ timetable and updates</a></p></article>'''
@@ -65,8 +74,8 @@ def candidate_announcements(page, bye, link):
     candidates = bye.get('candidates', [])
     if not candidates:
         return ''
-    rows = ''.join(f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p><p class="local-source">Announced {escape(c["announced"])} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],"Read the primary announcement")}</p></article>' for c in candidates)
-    return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3><p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media.</p></div>'
+    rows = ''.join(f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p><p class="local-source">{escape(('Announced ' + c['announced']) if c.get('announced') else ('Reported ' + c['reported']))} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],c.get("sourceLabel", "Read the primary announcement"))}</p></article>' for c in candidates)
+    return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3><p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media or news reporting.</p></div>'
 
 
 def render(page, election, link):
@@ -74,8 +83,8 @@ def render(page, election, link):
     bye = election['byElection']; vacancy = bye['vacancy']
     sources = {s['id']: s['url'] for s in bye['sources']}
     l = lambda key, label: link(page, sources[key], label)
-    proposal = bye.get('postalVotingProposal')
-    proposal_html = (f"<p>{escape(proposal['summary'])} {link(page, proposal['source'], 'Read Council’s postal-ballot request decision')}.</p>" if proposal else '')
+    proposal = bye.get('postalVoting') or bye.get('postalVotingProposal')
+    proposal_html = (f"<p>{escape(proposal['summary'])} {link(page, proposal['source'], 'Read the official postal-ballot update')}.</p>" if proposal else '')
     general = election['general']
     units = ''.join(f'<span><strong>--</strong>{unit}</span>' for unit in ['days', 'hours', 'minutes', 'seconds'])
     checked = date.fromisoformat(bye['checked']).strftime('%d %B %Y').lstrip('0')
@@ -85,12 +94,13 @@ def render(page, election, link):
     return START + f'''
 <section class="local-panel accent" id="redland-mayoral-update" aria-labelledby="election-title">
 <p class="local-kicker">Redlands mayoral update · Checked {escape(bye['checked'])} · Australia/Brisbane</p>
-<h2 id="election-title">Mayoral vacancy: a by-election is required.</h2>
+<h2 id="election-title">Mayoral by-election: 12 December 2026, full postal ballot.</h2>
 <p>Redland City Council confirms it received Jos Mitchell’s resignation on <time datetime="{escape(vacancy['date'])}">28 October 2026</time>. The mayoral office is vacant. Julie Talty continues as Acting Mayor during the election period. {l('rcc-mayoral-vacancy-20261028', 'Read Council’s announcement')}.</p>
 {proposal_html}
-<p>{escape(timing_copy)} Check {l('ecq-events-20261028', 'ECQ’s election-events page')}. These panels begin only when each official date and time is confirmed.</p>
-<div class="local-grid two">{milestone(bye, 'Polling day', 'poll')}{milestone(bye['nominationDeadline'], 'Candidate nomination deadline', 'nominations')}</div>
-<p class="local-source">All times are Brisbane time (AEST, UTC+10). A legal scheduling rule is not an announced polling date. Check ECQ for enrolment, early/postal voting, polling places and any changed notice.</p>
+<p>ECQ says the notice of election will be issued and candidate nominations will open on <time datetime="2026-11-10">10 November 2026</time>. The nomination closing date and postal deadlines have not been verified. {link(page, bye["source"], "Read ECQ’s 5 November announcement")}.</p>
+<p>{escape(timing_copy)} Check {l('ecq-events-20261028', 'ECQ’s election-events page')}. Each panel uses its own verified milestone. The election-day countdown is to the start of the calendar date; the nomination-deadline panel remains inactive.</p>
+<div class="local-grid two">{milestone(bye, 'Election day: full postal ballot', 'poll')}{milestone(bye['nominationDeadline'], 'Candidate nomination deadline', 'nominations')}</div>
+<p class="local-source">All times are Brisbane time (AEST, UTC+10). Check ECQ for enrolment, ballot packs, postal deadlines and any changed notice. A full postal ballot does not imply ordinary in-person polling hours.</p>
 {candidate_announcements(page, bye, link)}
 <details><summary>How the replacement process works</summary>
 <ol class="local-list"><li><strong>A vacancy, then an election.</strong> A mayoral vacancy in the beginning or middle of a council term is filled by a by-election. In the final part it is filled by appointing a sitting councillor. The final part of this term begins on 16 March 2027, the third anniversary of the 2024 election; the 28 October 2026 vacancy is earlier. The deputy mayor acts during the vacancy. {l('qld-local-government-act', 'Local Government Act 2009, ss 161, 164–165')}.</li>
@@ -122,7 +132,7 @@ def apply_block(text, page, election, link, overview=False):
 def sources_section(page, election, link):
     bye = election['byElection']
     rows = ''.join('<li>' + link(page, s['url'], s['title']) + ' — checked ' + escape(s['checked']) + '</li>' for s in bye['sources'])
-    return f'<section class="local-panel" id="redland-election-sources"><h2>Mayoral vacancy and election process: 28 October 2026</h2><p>Council confirms the vacancy and acting arrangement. ECQ supplies the event timetable; legislation explains the process. A scheduling interval is not a confirmed polling date.</p><ul class="local-list">{rows}</ul><p>{link(page, "states/qld/councils/redland/index.html#redland-mayoral-update", "Current news and countdown status")} · {link(page, "content/local/redland-election.json", "Canonical timing data")} · {link(page, "content/local/history/redland-election-2026-10-16.json", "Earlier conditional snapshot")}</p></section>'
+    return f'<section class="local-panel" id="redland-election-sources"><h2>Mayoral by-election: dates, announcements and sources</h2><p>Council confirms the vacancy and acting arrangement. ECQ’s 5 November announcement confirms the 12 December full postal by-election and 10 November nominations opening. Candidate intentions are labelled by source; they are not accepted nominations.</p><ul class="local-list">{rows}</ul><p>{link(page, "states/qld/councils/redland/index.html#redland-mayoral-update", "Current news and countdown status")} · {link(page, "content/local/redland-election.json", "Canonical timing data")} · {link(page, "content/local/history/redland-election-2026-10-16.json", "Earlier conditional snapshot")}</p></section>'
 
 
 def apply_page(page, text, election, link):
@@ -133,7 +143,7 @@ def apply_page(page, text, election, link):
             # Existing link helper gives the correct relative path at either depth.
             from pathlib import PurePosixPath
             prefix = '../' * (len(PurePosixPath(page).parts) - 1)
-            text = text.replace('</body>', f'<script type="module" src="{prefix}assets/redland-election-clock.mjs?v=20261028"></script></body>')
+            text = text.replace('</body>', f'<script type="module" src="{prefix}assets/redland-election-clock.mjs?v=20261108"></script></body>')
     elif page == base + 'sources/index.html':
         section = sources_section(page, election, link)
         if 'id="redland-election-sources"' in text:
@@ -144,6 +154,7 @@ def apply_page(page, text, election, link):
             text = text.replace(anchor, section + anchor, 1)
     else:
         return text
+    text = text.replace('redland-election-clock.mjs?v=20261028', 'redland-election-clock.mjs?v=20261108')
     if page == base + 'candidates/index.html':
         text = text.replace('If a mayoral by-election is called.', 'Following the confirmed mayoral vacancy.')
         text = text.replace('Begin with an official vacancy and election notice, then use the current ECQ candidate guidance. A possible by-election is a branch in this journey; it does not need to happen for local work to continue.', 'Council has confirmed the vacancy and a by-election is required. Follow the official ECQ notice and current candidate guidance. Community work can also continue outside office.')
@@ -152,3 +163,4 @@ def apply_page(page, text, election, link):
     readable = date.fromisoformat(stamp).strftime('%d %B %Y').lstrip('0')
     text = re.sub(r'(<div class="local-stamp"><span>Started 16 October[^<]*Updated )<time[^>]*>[^<]*</time>', lambda m: m[1] + f'<time datetime="{stamp}">{readable}</time>', text, count=1)
     return text
+

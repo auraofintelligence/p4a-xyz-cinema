@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
-  "checked": "2026-11-01",
-  "changed": "2026-11-01",
+  "checked": "2026-11-08",
+  "changed": "2026-11-08",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -23,14 +23,14 @@
   },
   "byElection": {
     "id": "redland-mayoral-vacancy-2026-10-28",
-    "checked": "2026-11-01",
-    "date": null,
-    "countdownTarget": null,
+    "checked": "2026-11-08",
+    "date": "2026-12-12",
+    "countdownTarget": "2026-12-12T00:00:00+10:00",
     "pollEndsAt": null,
-    "timingStatus": "awaiting-confirmation",
-    "dateBasis": "No Redland polling date or time was listed on the ECQ election-events page checked 1 November 2026, Australia/Brisbane. Council has agreed to request a full postal ballot, subject to electoral approval processes; this is not a confirmed voting method or timetable. No date is estimated.",
-    "status": "Mayoral office vacant; by-election required. Council has agreed to request a full postal ballot, subject to approval. ECQ polling and nomination timetable awaiting confirmation.",
-    "source": "https://www.ecq.qld.gov.au/elections/election-events",
+    "timingStatus": "confirmed",
+    "dateBasis": "ECQ announced on 5 November 2026 that the by-election will be held on 12 December by full postal ballot. The countdown is to the start of that Brisbane calendar date, not the opening of polling or a postal deadline.",
+    "status": "Full postal by-election confirmed for 12 December 2026. Notice of election and nominations opening announced for 10 November; nomination closing and postal deadlines not yet verified.",
+    "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
     "earlyVotingOpens": null,
     "vacancy": {
       "date": "2026-10-28",
@@ -44,9 +44,9 @@
       "date": null,
       "countdownTarget": null,
       "timingStatus": "awaiting-confirmation",
-      "source": "https://www.ecq.qld.gov.au/elections/election-events",
-      "checked": "2026-11-01",
-      "dateBasis": "Await the event-specific ECQ nomination day and deadline. No nomination date has been inferred."
+      "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+      "checked": "2026-11-08",
+      "dateBasis": "The 5 November ECQ announcement gives 10 November as nominations opening, but does not give a closing date or time. No deadline is inferred."
     },
     "sources": [
       {
@@ -117,6 +117,24 @@
         "publisher": "Redland City Council",
         "checked": "2026-11-01",
         "supports": "Council newsletter identifies Cr Rowanne McKenzie and Facebook handle @rowannemckenzie7; used to authenticate the announcement page."
+      },
+      {
+        "id": "ecq-redland-date-20261105",
+        "title": "ECQ: Redland mayoral by-election date set, 5 November 2026",
+        "url": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+        "publisher": "Electoral Commission of Queensland",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "supports": "12 December 2026 by-election; full postal ballot approved; notice of election and candidate nominations opening on 10 November. No nomination closing or postal deadline is stated."
+      },
+      {
+        "id": "redland-bayside-announcements-20261105",
+        "title": "Redland Bayside News: five people report intentions to nominate",
+        "url": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
+        "publisher": "Redland Bayside News / Local News Group QLD",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "supports": "Media-reported intentions to nominate by Julie Talty, Rowanne McKenzie, Don Brown, Gary Williamson and Jasmine Person. Not an ECQ accepted-nomination list; exact original announcement dates are not established for the four additional records."
       }
     ],
     "postalVotingProposal": {
@@ -125,9 +143,73 @@
       "published": "2026-10-29",
       "checked": "2026-11-01",
       "source": "https://www.redlandscoasttoday.com.au/2026/10/council-to-seek-full-postal-vote-for-mayoral-by-election/",
-      "summary": "On 29 October, Council agreed to ask ECQ to recommend a full postal ballot to the Minister for Local Government. This is a request subject to electoral requirements and approval processes, not a confirmed voting method or election timetable."
+      "summary": "On 29 October, Council agreed to seek a full postal ballot. This earlier request is retained as history; ECQ subsequently confirmed ministerial approval on 5 November."
     },
     "candidates": [
+      {
+        "id": "don-brown",
+        "name": "Don Brown",
+        "status": "announced-intention",
+        "statusLabel": "Reported intention to nominate",
+        "announced": null,
+        "reported": "2026-11-05",
+        "checked": "2026-11-08",
+        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
+        "sourceId": "redland-bayside-announcements-20261105",
+        "sourceType": "media-report",
+        "sourceLabel": "Read the media report",
+        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "nominationStatus": "not-verified",
+        "nominationSource": null
+      },
+      {
+        "id": "gary-williamson",
+        "name": "Gary Williamson",
+        "status": "announced-intention",
+        "statusLabel": "Reported intention to nominate",
+        "announced": null,
+        "reported": "2026-11-05",
+        "checked": "2026-11-08",
+        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
+        "sourceId": "redland-bayside-announcements-20261105",
+        "sourceType": "media-report",
+        "sourceLabel": "Read the media report",
+        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "nominationStatus": "not-verified",
+        "nominationSource": null
+      },
+      {
+        "id": "jasmine-person",
+        "name": "Jasmine Person",
+        "status": "announced-intention",
+        "statusLabel": "Reported intention to nominate",
+        "announced": null,
+        "reported": "2026-11-05",
+        "checked": "2026-11-08",
+        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
+        "sourceId": "redland-bayside-announcements-20261105",
+        "sourceType": "media-report",
+        "sourceLabel": "Read the media report",
+        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "nominationStatus": "not-verified",
+        "nominationSource": null
+      },
+      {
+        "id": "julie-talty",
+        "name": "Julie Talty",
+        "status": "announced-intention",
+        "statusLabel": "Reported intention to nominate",
+        "announced": null,
+        "reported": "2026-11-05",
+        "checked": "2026-11-08",
+        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
+        "sourceId": "redland-bayside-announcements-20261105",
+        "sourceType": "media-report",
+        "sourceLabel": "Read the media report",
+        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "nominationStatus": "not-verified",
+        "nominationSource": null
+      },
       {
         "id": "rowanne-mckenzie",
         "name": "Rowanne McKenzie",
@@ -139,10 +221,35 @@
         "sourceId": "rowanne-mckenzie-announcement-20261101",
         "summary": "Announced her decision to nominate for Mayor of Redland City. This is a public intention to run, not an ECQ-accepted nomination.",
         "nominationStatus": "not-verified",
-        "nominationSource": null
+        "nominationSource": null,
+        "sourceType": "primary-announcement",
+        "sourceLabel": "Read the primary announcement"
       }
     ],
-    "candidateCoverage": "One primary-source announcement verified in this focused review; not a complete field or an official ballot. ECQ had not published a Redland nomination timetable on its election-events page at the 1 November 2026 check."
+    "candidateCoverage": "Five reported intentions, listed alphabetically by first name, not in ballot order: one retained primary-source announcement and four additional media-reported intentions. This is not a complete official field or accepted nomination list. ECQ says nominations open on 10 November 2026.",
+    "timePrecision": "calendar-day",
+    "noticeOfElection": {
+      "date": "2026-11-10",
+      "status": "announced-for-publication",
+      "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+      "published": "2026-11-05",
+      "checked": "2026-11-08"
+    },
+    "nominationsOpen": {
+      "date": "2026-11-10",
+      "status": "announced",
+      "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+      "published": "2026-11-05",
+      "checked": "2026-11-08",
+      "note": "Opening date only; no opening time or closing deadline inferred."
+    },
+    "postalVoting": {
+      "status": "approved-full-postal",
+      "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+      "published": "2026-11-05",
+      "checked": "2026-11-08",
+      "summary": "ECQ confirms that the Minister approved a full postal ballot. Ballot packs will be mailed to enrolled voters; check your residential and postal address on the electoral roll. Postal completion and return deadlines are not supplied in this announcement."
+    }
   },
   "refreshTriggers": [
     "Official vacancy notice or ECQ election notice",
@@ -152,5 +259,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "1 November 2026 Australia/Brisbane focused review: Rowanne McKenzie public intention to nominate, authenticated primary Facebook page, Council postal-request notice and ECQ event list. No accepted nomination or election timetable verified. Other source checks and historical records retain their earlier dates."
+  "reviewScope": "8 November 2026 Australia/Brisbane focused review of the ECQ 5 November date/postal announcement and Redland Bayside News report. Earlier primary announcement and vacancy checks retain their original dates. No accepted nomination, nomination closing deadline, postal completion/return deadline or result is inferred."
 }
