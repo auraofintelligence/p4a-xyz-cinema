@@ -11,6 +11,9 @@ on:
       - 'states/**'
       - 'pages/**'
       - 'index.html'
+      - '*.css'
+      - '*.js'
+      - '*.mjs'
       - 'content/local/**'
       - 'content/places/**'
   pull_request:
@@ -23,6 +26,9 @@ on:
       - 'states/**'
       - 'pages/**'
       - 'index.html'
+      - '*.css'
+      - '*.js'
+      - '*.mjs'
       - 'content/local/**'
       - 'content/places/**'
   workflow_dispatch:
@@ -89,7 +95,7 @@ jobs:
           python -B tools/browser-qa/run.py --scope "$P4A_BROWSER_SCOPE" --output browser-qa-results
       - name: Retain scoped evidence for review
         if: ${{ !cancelled() }}
-        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: civic-browser-${{ github.event.pull_request.head.sha || github.sha }}-${{ github.run_attempt }}
           path: browser-qa-results/

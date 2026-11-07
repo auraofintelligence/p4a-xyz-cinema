@@ -25,6 +25,36 @@ class BrowserQATest(unittest.TestCase):
                 qa.site_file(ROOT, p)
         self.assertEqual(qa.site_file(ROOT, 'README.md'), ROOT / 'README.md')
 
+    def test_request_url_maps_root_nested_directory_and_queries(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            (root / 'index.html').write_text('root')
+            (root / 'nested').mkdir()
+            (root / 'nested/index.html').write_text('nested')
+            (root / 'nested/map data.js').write_text('asset')
+            cases = {'/': 'index.html', '/?v=1': 'index.html',
+                     '/nested': 'nested/index.html', '/nested/': 'nested/index.html',
+                     '/nested/index.html?area=x': 'nested/index.html',
+                     '/nested/map%20data.js?v=2': 'nested/map data.js'}
+            for url, relative in cases.items():
+                with self.subTest(url=url):
+                    self.assertEqual(qa.served_repository_file(root, qa.BASE + url), root / relative)
+
+    def test_request_url_mapping_rejects_traversal_and_other_origins(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d) / 'repo'; root.mkdir()
+            outside = Path(d) / 'private'; outside.write_text('private')
+            (root / 'link').symlink_to(outside)
+            urls = ['/../private', '/%2e%2e/private', '/nested/%2e%2e/private',
+                    '/%2F../private', '/.git/config', '/link', '/missing',
+                    '/nested%5c..%5cprivate', '//private']
+            for suffix in urls:
+                with self.subTest(url=suffix), self.assertRaises(ValueError):
+                    qa.served_repository_file(root, qa.BASE + suffix)
+            for url in ('https://example.com/index.html', qa.BASE + '/#fragment'):
+                with self.subTest(url=url), self.assertRaises(ValueError):
+                    qa.served_repository_file(root, url)
+
     def test_symlink_escape(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d) / 'repo'; root.mkdir()
@@ -112,6 +142,51 @@ class BrowserQATest(unittest.TestCase):
             run.assert_not_called()
             result = json.loads((output / 'report.json').read_text())
             self.assertIn('dirty working tree', result['checks'][0]['error'])
+
+    def test_clock_observation_precedes_oracle_and_cannot_be_repaired(self):
+        class Page:
+            def __init__(self):
+                self.calls = []
+                self.live_text = 'Uninitialized delivered clock'
+
+            def evaluate(self, script, arg=None):
+                self.calls.append(script)
+                if arg is None:
+                    # This is the pre-import DOM observation, just as Playwright serializes it.
+                    self_outer.assertNotIn('import(', script)
+                    return {'now': 1000, 'module_declared': True, 'panels': [{'item': {'status': 'awaiting-confirmation'},
+                        'actual': self.live_text, 'hidden': True, 'values': []}]}
+                self_outer.assertIn('import(', script)
+                self_outer.assertNotIn('querySelector', script)
+                self.live_text = 'Awaiting confirmation to begin'  # Simulated module side effect.
+                return [{'text': self.live_text, 'active': False}]
+
+        self_outer = self
+        page = Page()
+        observed = qa.observe_clock_panels(page)
+        with self.assertRaisesRegex(ValueError, 'Clock status mismatch'):
+            qa.compare_clock_observation(page, observed)
+        self.assertEqual(len(page.calls), 2)
+        self.assertEqual(observed['panels'][0]['actual'], 'Uninitialized delivered clock')
+
+    def test_clock_missing_script_fails_even_when_fallback_text_matches(self):
+        from unittest.mock import Mock
+        page = Mock()
+        observed = {'now': 1000, 'module_declared': False, 'panels': [
+            {'item': {'status': 'awaiting-confirmation'},
+             'actual': 'Awaiting confirmation to begin', 'hidden': True, 'values': []}]}
+        with self.assertRaisesRegex(ValueError, 'missing the Redland clock module'):
+            qa.compare_clock_observation(page, observed)
+        page.evaluate.assert_not_called()
+
+    def test_clock_valid_observation_passes_without_dom_reread(self):
+        from unittest.mock import Mock
+        page = Mock()
+        page.evaluate.return_value = [{'text': 'Awaiting confirmation to begin', 'active': False}]
+        observed = {'now': 1000, 'module_declared': True, 'panels': [{'item': {'status': 'awaiting-confirmation'},
+            'actual': 'Awaiting confirmation to begin', 'hidden': True, 'values': []}]}
+        self.assertEqual(len(qa.compare_clock_observation(page, observed)), 1)
+        self.assertIs(page.evaluate.call_args.args[1], observed)
 
     def test_validate_does_not_launch_or_create_output(self):
         with tempfile.TemporaryDirectory() as d, patch.object(qa, 'run') as run:

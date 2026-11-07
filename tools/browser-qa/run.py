@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[2]
 VERSION = '1.64.1'
@@ -33,6 +33,24 @@ def site_file(root, value):
             'Paths must be normalized and relative')
     target = (root / value).resolve()
     require(target.is_relative_to(root.resolve()) and target.is_file(), f'Not a repository file: {value}')
+    return target
+
+
+def served_repository_file(root, url):
+    """Map a local request to the preview server's repository file, not response bytes."""
+    parsed = urlsplit(url)
+    require(f'{parsed.scheme}://{parsed.netloc}' == BASE and not parsed.fragment,
+            'Only local preview request URLs are valid')
+    path = unquote(parsed.path, errors='strict')
+    require(path.startswith('/') and not path.startswith('//') and '\\' not in path,
+            'Invalid served path')
+    require(not any(part.startswith('.') for part in path.split('/')),
+            'Private or traversal paths are forbidden')
+    target = (root / path.lstrip('/')).resolve()
+    require(target.is_relative_to(root.resolve()), 'Served path escapes repository')
+    if target.is_dir():
+        target = (target / 'index.html').resolve()
+    require(target.is_relative_to(root.resolve()) and target.is_file(), 'Served repository file missing')
     return target
 
 
@@ -117,6 +135,42 @@ def finish(report, output):
     return 0 if report['automated_status'] == 'PASS' else 1
 
 
+def observe_clock_panels(page):
+    """Snapshot delivered state before importing any potentially initializing module."""
+    return page.evaluate('''() => ({now: Date.now(), module_declared:
+        [...document.scripts].some(script => script.type === 'module' &&
+            new URL(script.src, location.href).pathname === '/assets/redland-election-clock.mjs'), panels:
+        [...document.querySelectorAll('[data-redland-milestone]')].map(panel => {
+            const item = {status:panel.dataset.timingStatus, target:panel.dataset.target,
+                kind:panel.dataset.kind, ends:panel.dataset.ends};
+            const clock = panel.querySelector('[data-milestone-clock]');
+            return {item, actual:panel.querySelector('[data-milestone-status]').textContent,
+                hidden:clock.hidden, values:[...clock.querySelectorAll('strong')].map(n=>n.textContent)};
+        })})''')
+
+
+def compare_clock_observation(page, observed):
+    require(observed['module_declared'], 'Delivered page is missing the Redland clock module script')
+    # The oracle receives a serialized snapshot and never re-reads the repaired DOM.
+    expected = page.evaluate('''async observed => {
+        const {milestoneState} = await import('/assets/redland-election-clock.mjs');
+        return observed.panels.map(panel => milestoneState(panel.item, observed.now));
+    }''', observed)
+    require(observed['panels'], 'No delivered Redland milestone panels')
+    require(len(observed['panels']) == len(expected), 'Clock oracle count mismatch')
+    result = []
+    for actual, state in zip(observed['panels'], expected):
+        r = {**actual, 'expected': state}
+        require(r['actual'] == state['text'], f'Clock status mismatch: {r}')
+        require(r['hidden'] == (not state['active']), f'Clock visibility mismatch: {r}')
+        if r['item']['status'] != 'confirmed':
+            require(r['hidden'], 'Unconfirmed milestone must not run countdown')
+        if not r['hidden']:
+            require(len(r['values']) == 4 and all(v.isdigit() for v in r['values']), 'Invalid countdown digits')
+        result.append(r)
+    return result
+
+
 def run(scope, report, output):
     from playwright.sync_api import sync_playwright, expect
     require(importlib.metadata.version('playwright') == VERSION, f'Install pinned Playwright {VERSION}')
@@ -150,10 +204,14 @@ def run(scope, report, output):
                         return
                     try:
                         response = request.response()
-                        key = request.url.removeprefix(BASE + '/')
-                        report['delivered_sha256'][key] = hashlib.sha256(response.body()).hexdigest()
+                        if response is None or not 200 <= response.status < 300:
+                            return
+                        source = served_repository_file(ROOT, request.url)
+                        key = source.relative_to(ROOT).as_posix()
+                        if key not in report['loaded_repository_files_sha256']:
+                            report['loaded_repository_files_sha256'][key] = digest(source)
                     except Exception as exc:
-                        page_errors.append(f'Delivered response hash failed: {request.url}: {exc}')
+                        page_errors.append(f'Loaded repository file hash failed: {request.url}: {exc}')
                 page.on('requestfinished', hash_finished)
                 page.on('requestfailed', lambda r: network_errors.append(r.url) if r.url.startswith(BASE + '/') else None)
                 def check(name, fn):
@@ -163,11 +221,14 @@ def run(scope, report, output):
                     except Exception as exc:
                         entry.update(status='FAIL', error=str(exc))
                     report['checks'].append(entry)
+                    print(f"[{width}px] {entry['status']}: {name}" + (f" | {entry['error']}" if 'error' in entry else ''), flush=True)
                 def settle():
                     page.evaluate('() => document.fonts.ready')
                     page.wait_for_timeout(750)
                 def screenshot(label):
                     name = f'{width}-{label}.png'
+                    page.evaluate('() => window.scrollTo({top: 0, left: 0, behavior: \"instant\"})')
+                    page.wait_for_timeout(150)
                     page.screenshot(path=str(output / name), full_page=True, animations='disabled')
                     report['screenshots'].append(name)
                 def layout():
@@ -228,29 +289,14 @@ def run(scope, report, output):
                         page.go_forward(wait_until='load')
                         require(page.url == destination_url, 'Forward did not restore destination')
                     check(f'map search/select/Open/Back/Forward: {i}', navigate)
-                for path in scope.get('redland_clock_pages', []):
-                    def clocks(path=path):
+                for clock_index, path in enumerate(scope.get('redland_clock_pages', [])):
+                    def clocks(path=path, clock_index=clock_index):
                         goto(path)
-                        result = page.evaluate('''async () => {
-                            const {milestoneState} = await import('/assets/redland-election-clock.mjs');
-                            return [...document.querySelectorAll('[data-redland-milestone]')].map(panel => {
-                                const item = {status:panel.dataset.timingStatus, target:panel.dataset.target, kind:panel.dataset.kind, ends:panel.dataset.ends};
-                                const expected = milestoneState(item);
-                                const clock = panel.querySelector('[data-milestone-clock]');
-                                return {item, expected, actual:panel.querySelector('[data-milestone-status]').textContent,
-                                    hidden:clock.hidden, values:[...clock.querySelectorAll('strong')].map(n=>n.textContent)};
-                            });
-                        }''')
-                        require(result, 'No delivered Redland milestone panels')
-                        for r in result:
-                            require(r['actual'] == r['expected']['text'], f'Clock status mismatch: {r}')
-                            require(r['hidden'] == (not r['expected']['active']), f'Clock visibility mismatch: {r}')
-                            if r['item']['status'] != 'confirmed':
-                                require(r['hidden'], 'Unconfirmed milestone must not run countdown')
-                            if not r['hidden']:
-                                require(len(r['values']) == 4 and all(v.isdigit() for v in r['values']), 'Invalid countdown digits')
+                        observed = observe_clock_panels(page)
+                        # Capture visual evidence before the oracle import can initialize panels.
+                        screenshot(f'redland-clock-{clock_index}'); layout()
+                        result = compare_clock_observation(page, observed)
                         report.setdefault('delivered_clocks', []).append({'viewport': viewport, 'path': path, 'panels': result})
-                        screenshot('redland-clock'); layout()
                     check('Redland delivered clock: ' + path, clocks)
                 def network_check():
                     bad = [r for r in responses if r['status'] >= 400]
@@ -259,6 +305,7 @@ def run(scope, report, output):
                     require(not page_errors, f'Browser JavaScript errors: {page_errors}')
                     require(not any(b['method'] not in ('GET', 'HEAD') for b in blocked), 'Attempted non-read request')
                 check('local HTTP, JavaScript and read-only safety', network_check)
+                report.setdefault('observed_http_responses', []).append({'viewport': viewport, 'responses': responses})
                 report.setdefault('blocked_external_requests', []).append({'viewport': viewport, 'requests': blocked})
                 if any(c['status'] == 'FAIL' and c.get('viewport') == viewport for c in report['checks']):
                     context.tracing.stop(path=str(output / f'{width}-trace.zip'))
@@ -281,7 +328,8 @@ def main(argv=None):
         return 0
     output = output_directory(ROOT, args.output)
     report = {'schema_version': 1, 'scope': scope, 'started_utc': datetime.now(timezone.utc).isoformat(),
-              'base_url': BASE, 'checks': [], 'screenshots': [], 'delivered_sha256': {}}
+              'base_url': BASE, 'checks': [], 'screenshots': [], 'loaded_repository_files_sha256': {},
+              'loaded_file_hash_basis': 'Repository files mapped from successful local HTTP requests. These are not transport response-body hashes. The clean unchanged checkout and recorded preview-server script bind the source files to this run.'}
     try:
         report['provenance'] = provenance(ROOT, args.scope, scope)
         require(not report['provenance']['working_tree_status'], 'Refusing exact-commit acceptance from a dirty working tree')
