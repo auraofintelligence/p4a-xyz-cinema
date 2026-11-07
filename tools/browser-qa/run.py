@@ -186,8 +186,10 @@ def run(scope, report, output):
     require(importlib.metadata.version('playwright') == VERSION, f'Install pinned Playwright {VERSION}')
     report['playwright_version'] = importlib.metadata.version('playwright')
     with sync_playwright() as pw:
-        browser = pw.chromium.launch()
+        browser = pw.chromium.launch(channel="chromium")
         report['browser_version'] = browser.version
+        report['browser_channel'] = 'chromium'
+        report['browser_mode'] = 'full-chromium-new-headless'
         try:
             for viewport in scope['viewports']:
                 width = viewport['width']

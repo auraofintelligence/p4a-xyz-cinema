@@ -4,7 +4,7 @@ Prepared 7 November 2026. This is a reusable test setup, not a source review or 
 
 ## Where the browser runs
 
-`.github/workflows/civic-browser-checks.yml` installs a pinned Playwright release and its Chromium build on a standard GitHub-hosted Ubuntu runner. The runner serves the exact checked-out candidate with the existing `scripts/serve.mjs`. It does not use a developer's computer, installed Codex browser, saved profile, or sign-in. The test code and setup are versioned with the project, so a desktop-app update does not replace them. Dependency and runner changes still require review; no setup can guarantee that every future external service or browser change will work unchanged.
+`.github/workflows/civic-browser-checks.yml` installs a pinned Playwright release and its full Chromium build in new headless mode on a standard GitHub-hosted Ubuntu runner. The runner serves the exact checked-out candidate with the existing `scripts/serve.mjs`. It does not use a developer's computer, installed Codex browser, saved profile, or sign-in. The test code and setup are versioned with the project, so a desktop-app update does not replace them. Dependency and runner changes still require review; no setup can guarantee that every future external service or browser change will work unchanged.
 
 The workflow has read-only repository permission, uses commit-pinned actions, does not persist checkout credentials, and cannot push, merge, deploy, refresh source dates, or approve its own evidence. It uses no new service account or stored secret. GitHub may require its normal repository Actions permission. It runs on relevant pushes and pull requests, and can be started manually with a repository-relative scope file after the workflow is on the default branch.
 
@@ -24,7 +24,7 @@ The CI artifacts expire after seven days. Retain the small, relevant reviewed re
 
 ```sh
 python -m pip install -r tools/browser-qa/requirements.txt
-python -m playwright install --with-deps chromium
+python -m playwright install --with-deps --no-shell chromium
 node scripts/serve.mjs
 # In another terminal:
 python -B tools/browser-qa/run.py --scope tools/browser-qa/smoke-scope.json --output browser-qa-results
@@ -43,3 +43,5 @@ Do not retry denied browser launches, change sandbox/network security, publish t
 The browser job is not an election commission or source verifier. It cannot certify current political facts, every council/electorate journey, physical touchscreen behavior, all accessibility needs or untested layouts. The repository's [build acceptance](council-build-acceptance.md), [fractal update guide](fractal-election-updates.md) and [evidence maintenance](national-validation-maintenance.md) remain authoritative. Do not weaken their gates because a convenient automated smoke test passed.
 
 References: [Playwright Python CI](https://playwright.dev/python/docs/ci), [GitHub Actions billing and usage](https://docs.github.com/en/actions/concepts/billing-and-usage).
+
+The Chromium channel uses [Playwright's documented new headless mode](https://playwright.dev/python/docs/browsers#chromium-new-headless-mode), rather than its separate reduced headless shell. Browser-channel and version details are recorded in every result.

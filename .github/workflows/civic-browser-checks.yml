@@ -73,7 +73,7 @@ jobs:
       - name: Install the pinned browser tooling
         run: |
           python -m pip install --disable-pip-version-check -r tools/browser-qa/requirements.txt
-          python -m playwright install --with-deps chromium
+          python -m playwright install --with-deps --no-shell chromium
       - name: Run delivered-page browser checks
         run: |
           mkdir -p browser-qa-results
