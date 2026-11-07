@@ -4,7 +4,7 @@ Prepared 7 November 2026. This is a reusable test setup, not a source review or 
 
 ## Where the browser runs
 
-`.github/workflows/civic-browser-checks.yml` installs a pinned Playwright release and its full Chromium build in new headless mode on a standard GitHub-hosted Ubuntu runner. The runner serves the exact checked-out candidate with the existing `scripts/serve.mjs`. It does not use a developer's computer, installed Codex browser, saved profile, or sign-in. The test code and setup are versioned with the project, so a desktop-app update does not replace them. Dependency and runner changes still require review; no setup can guarantee that every future external service or browser change will work unchanged.
+`.github/workflows/civic-browser-checks.yml` installs a pinned Playwright release and its full Chromium build in headed mode under an Xvfb virtual display on a standard GitHub-hosted Ubuntu runner. The runner serves the exact checked-out candidate with the existing `scripts/serve.mjs`. It does not use a developer's computer, installed Codex browser, saved profile, or sign-in. The test code and setup are versioned with the project, so a desktop-app update does not replace them. Dependency and runner changes still require review; no setup can guarantee that every future external service or browser change will work unchanged.
 
 The workflow has read-only repository permission, uses commit-pinned actions, does not persist checkout credentials, and cannot push, merge, deploy, refresh source dates, or approve its own evidence. It uses no new service account or stored secret. GitHub may require its normal repository Actions permission. It runs on relevant pushes and pull requests, and can be started manually with a repository-relative scope file after the workflow is on the default branch.
 
@@ -20,14 +20,14 @@ The workflow has read-only repository permission, uses commit-pinned actions, do
 
 The CI artifacts expire after seven days. Retain the small, relevant reviewed report and required screenshots before expiry if they will be used as durable acceptance evidence. Do not commit the entire artifact bundle or unused screenshots: preserve the site's storage limits and existing evidence conventions. Local output `browser-qa-results/` is ignored.
 
-## Local commands on a browser-capable authorized machine
+## Local commands on a browser-capable authorized Linux machine
 
 ```sh
 python -m pip install -r tools/browser-qa/requirements.txt
 python -m playwright install --with-deps --no-shell chromium
 node scripts/serve.mjs
 # In another terminal:
-python -B tools/browser-qa/run.py --scope tools/browser-qa/smoke-scope.json --output browser-qa-results
+xvfb-run -a python -B tools/browser-qa/run.py --scope tools/browser-qa/smoke-scope.json --output browser-qa-results
 ```
 
 The authoritative CI startup and invocation are in the workflow. Pure configuration/provenance unit tests do not require a browser:
@@ -44,4 +44,4 @@ The browser job is not an election commission or source verifier. It cannot cert
 
 References: [Playwright Python CI](https://playwright.dev/python/docs/ci), [GitHub Actions billing and usage](https://docs.github.com/en/actions/concepts/billing-and-usage).
 
-The Chromium channel uses [Playwright's documented new headless mode](https://playwright.dev/python/docs/browsers#chromium-new-headless-mode), rather than its separate reduced headless shell. Browser-channel and version details are recorded in every result.
+The Chromium channel runs with [Playwright's documented headed Linux CI setup](https://playwright.dev/python/docs/ci#running-headed), rather than its separate reduced headless shell. Xvfb supplies an isolated virtual display on the CI runner, not access to a user's desktop. Browser-channel, display mode and version details are recorded in every result.
