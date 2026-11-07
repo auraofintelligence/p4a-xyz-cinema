@@ -4,6 +4,7 @@ from collections import defaultdict
 import html,json,re,runpy
 import importlib.util
 from editorial_rooms import is_editorial_room
+from public_punctuation import public_punctuation
 BASE=Path(__file__).resolve().parents[1]
 OUT=BASE
 spec=importlib.util.spec_from_file_location('followups',BASE/'tools/build-twinkle-followups.py')
@@ -12,10 +13,10 @@ def read(rel):
  p=OUT/rel
  return (p if p.exists() else BASE/rel).read_text(encoding='utf-8')
 def write(rel,text):
- p=OUT/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text,encoding='utf-8')
+ p=OUT/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(public_punctuation(text) if p.suffix == '.html' else text,encoding='utf-8')
 e=html.escape
 def links(r):
- items=''.join('<li><a href="'+e(p['url'],quote=True)+'">'+e(p['title'])+'</a> — '+e(p['description'])+' <a href="'+e(p['repositoryUrl'],quote=True)+'">Source repository</a></li>' for p in r['projectConnections'])
+ items=''.join('<li><a href="'+e(p['url'],quote=True)+'">'+e(p['title'])+'</a>: '+e(p['description'])+' <a href="'+e(p['repositoryUrl'],quote=True)+'">Source repository</a></li>' for p in r['projectConnections'])
  sources=''.join('<a href="'+e(p['url'],quote=True)+'">'+e(p['title'])+'</a>' for p in r['sourceDocuments'])
  return '<div class="project-paths"><h3>Explore the connected work</h3><ul>'+items+'</ul><div class="source-links">'+sources+'</div></div>'
 def section(r):
@@ -83,8 +84,8 @@ def build():
  if 'function linkDoor(' not in js:js=js.replace(' const panel ='," function linkDoor(r){const a=document.createElement('a');a.href=r.policy+'#policy-'+r.slug;a.textContent='Twinkle '+String(r.number).padStart(2,'0')+': '+r.headline;return a;}\n const panel =",1)
  write('assets/twinkle-navigation.js',js)
  # Shared gateways explain what each project offers; Atlas supplies the wider exit.
- core=['unga','chour','queens','mutual','atlas']
- gateway='<section class="section connected-gateway" id="connected-work"><div class="page-copy"><p class="eyebrow">Keep exploring</p><h2>P4A is the front door</h2><p>These are connected policy possibilities, tools and source libraries. Follow an idea into the project behind it, then use Project Atlas to explore the wider work.</p><ul>'+''.join('<li><a href="'+reg['projects'][k]['url']+'">'+e(reg['projects'][k]['title'])+'</a> — '+e(reg['projects'][k]['description'])+'</li>' for k in core)+'</ul></div></section>'
+ core=['unga','jra','chour','queens','mutual','atlas']
+ gateway='<section class="section connected-gateway" id="connected-work"><div class="page-copy"><p class="eyebrow">Keep exploring</p><h2>P4A is the front door</h2><p>These are connected policy possibilities, tools and source libraries. Follow an idea into the project behind it, then use Project Atlas to explore the wider work.</p><ul>'+''.join('<li><a href="'+reg['projects'][k]['url']+'">'+e(reg['projects'][k]['title'])+'</a>: '+e(reg['projects'][k]['description'])+'</li>' for k in core)+'</ul></div></section>'
  for rel in ['index.html','pages/twinkle.html','content/rooms/twinkle.html','pages/rabbit-hole.html']:
   write(rel,marked(read(rel),'p4a-gateway',gateway))
  home=read('index.html')
