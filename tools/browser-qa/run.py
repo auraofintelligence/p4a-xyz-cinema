@@ -171,6 +171,16 @@ def compare_clock_observation(page, observed):
     return result
 
 
+def settle_page(page):
+    """Wait for delivered fonts and navigation transitions, without masking failures."""
+    page.evaluate('''async () => {
+        await document.fonts.ready;
+        await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+        if (document.activeViewTransition) await document.activeViewTransition.finished;
+    }''')
+    page.wait_for_timeout(750)
+
+
 def run(scope, report, output):
     from playwright.sync_api import sync_playwright, expect
     require(importlib.metadata.version('playwright') == VERSION, f'Install pinned Playwright {VERSION}')
@@ -223,13 +233,13 @@ def run(scope, report, output):
                     report['checks'].append(entry)
                     print(f"[{width}px] {entry['status']}: {name}" + (f" | {entry['error']}" if 'error' in entry else ''), flush=True)
                 def settle():
-                    page.evaluate('() => document.fonts.ready')
-                    page.wait_for_timeout(750)
+                    settle_page(page)
                 def screenshot(label):
+                    settle()
                     name = f'{width}-{label}.png'
                     page.evaluate('() => window.scrollTo({top: 0, left: 0, behavior: \"instant\"})')
                     page.wait_for_timeout(150)
-                    page.screenshot(path=str(output / name), full_page=True, animations='disabled')
+                    page.screenshot(path=str(output / name), full_page=True)
                     report['screenshots'].append(name)
                 def layout():
                     dimensions = page.evaluate('''() => ({viewport: document.documentElement.clientWidth,
@@ -282,11 +292,13 @@ def run(scope, report, output):
                         settle(); screenshot(f'journey-{i}-open'); layout()
                         destination_url = page.url
                         page.go_back(wait_until='load')
+                        settle()
                         require(page.url == selected_url, 'Back did not return to selected map URL')
                         map_ready()
                         page.wait_for_function('(area) => window.P4A_CIVIC_MAP.getState().selected === area', arg=j['area'])
                         screenshot(f'journey-{i}-back'); layout()
                         page.go_forward(wait_until='load')
+                        settle()
                         require(page.url == destination_url, 'Forward did not restore destination')
                     check(f'map search/select/Open/Back/Forward: {i}', navigate)
                 for clock_index, path in enumerate(scope.get('redland_clock_pages', [])):

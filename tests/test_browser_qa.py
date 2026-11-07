@@ -188,6 +188,28 @@ class BrowserQATest(unittest.TestCase):
         self.assertEqual(len(qa.compare_clock_observation(page, observed)), 1)
         self.assertIs(page.evaluate.call_args.args[1], observed)
 
+    def test_settle_awaits_fonts_and_transition_without_suppressing_errors(self):
+        from unittest.mock import Mock
+        page = Mock()
+        qa.settle_page(page)
+        script = page.evaluate.call_args.args[0]
+        self.assertIn('await document.fonts.ready', script)
+        self.assertIn('await document.activeViewTransition.finished', script)
+        self.assertNotIn('catch', script)
+        page.wait_for_timeout.assert_called_once_with(750)
+        page.evaluate.side_effect = RuntimeError('Transition failed')
+        with self.assertRaisesRegex(RuntimeError, 'Transition failed'):
+            qa.settle_page(page)
+
+    def test_history_and_screenshot_wait_for_transition(self):
+        import inspect
+        source = inspect.getsource(qa.run)
+        self.assertNotIn("animations='disabled'", source)
+        for operation in ("page.go_back(wait_until='load')", "page.go_forward(wait_until='load')"):
+            after = source.split(operation, 1)[1].lstrip()
+            self.assertTrue(after.startswith('settle()'))
+        self.assertTrue(source.split('def screenshot(label):', 1)[1].lstrip().startswith('settle()'))
+
     def test_validate_does_not_launch_or_create_output(self):
         with tempfile.TemporaryDirectory() as d, patch.object(qa, 'run') as run:
             output = Path(d) / 'unused'
