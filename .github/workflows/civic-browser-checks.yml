@@ -1,0 +1,97 @@
+name: Civic browser checks
+
+on:
+  push:
+    paths:
+      - '.github/workflows/civic-browser-checks.yml'
+      - 'tools/browser-qa/**'
+      - 'tests/test_browser_qa*.py'
+      - 'scripts/serve.mjs'
+      - 'assets/**'
+      - 'states/**'
+      - 'pages/**'
+      - 'index.html'
+      - 'content/local/**'
+      - 'content/places/**'
+  pull_request:
+    paths:
+      - '.github/workflows/civic-browser-checks.yml'
+      - 'tools/browser-qa/**'
+      - 'tests/test_browser_qa*.py'
+      - 'scripts/serve.mjs'
+      - 'assets/**'
+      - 'states/**'
+      - 'pages/**'
+      - 'index.html'
+      - 'content/local/**'
+      - 'content/places/**'
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'Repository-relative reviewed browser scope JSON'
+        required: true
+        default: 'tools/browser-qa/smoke-scope.json'
+        type: string
+
+# This is evidence collection, not a deployment or an auto-approval workflow.
+permissions:
+  contents: read
+
+concurrency:
+  group: civic-browser-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  browser-acceptance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      P4A_BROWSER_SCOPE: ${{ inputs.scope || 'tools/browser-qa/smoke-scope.json' }}
+    steps:
+      - name: Check out the exact candidate
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.13'
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check scope validation and evidence handling
+        run: python -B -m unittest discover -s tests -p 'test_browser_qa*.py'
+      - name: Install the pinned browser tooling
+        run: |
+          python -m pip install --disable-pip-version-check -r tools/browser-qa/requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Run delivered-page browser checks
+        run: |
+          mkdir -p browser-qa-results
+          node scripts/serve.mjs > "$RUNNER_TEMP/p4a-preview.log" 2>&1 &
+          preview_pid=$!
+          trap 'kill "$preview_pid" 2>/dev/null || true; cp "$RUNNER_TEMP/p4a-preview.log" browser-qa-results/preview-server.log' EXIT
+          python - <<'PYTHON'
+          import time, urllib.request
+          for attempt in range(60):
+              try:
+                  with urllib.request.urlopen('http://127.0.0.1:8768/pages/states.html', timeout=1) as response:
+                      if response.status == 200:
+                          break
+              except (OSError, TimeoutError):
+                  time.sleep(1)
+          else:
+              raise SystemExit('Preview server did not become ready within 60 seconds')
+          PYTHON
+          python -B tools/browser-qa/run.py --scope "$P4A_BROWSER_SCOPE" --output browser-qa-results
+      - name: Retain scoped evidence for review
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        with:
+          name: civic-browser-${{ github.event.pull_request.head.sha || github.sha }}-${{ github.run_attempt }}
+          path: browser-qa-results/
+          if-no-files-found: error
+          retention-days: 7

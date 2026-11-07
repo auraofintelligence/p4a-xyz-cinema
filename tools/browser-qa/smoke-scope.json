@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "name": "national-nsw-coffs-redland-smoke",
+  "viewports": [{"width": 390, "height": 844}, {"width": 680, "height": 960}, {"width": 1440, "height": 1000}],
+  "pages": [
+    {"path": "pages/states.html", "visible": ["[data-map-state='nsw']"]},
+    {"path": "states/nsw/places/state/index.html", "visible": ["[data-civic-map]", "[data-civic-search]"]},
+    {"path": "states/nsw/places/councils/index.html", "visible": ["[data-civic-map]"]},
+    {"path": "states/nsw/electorates/districts/coffs-harbour/index.html", "expected_text": ["Coffs Harbour"]},
+    {"path": "states/nsw/councils/coffs-harbour/index.html", "expected_text": ["Coffs Harbour"]},
+    {"path": "states/qld/councils/redland/index.html", "visible": ["[data-redland-milestone]"]}
+  ],
+  "map_journeys": [
+    {"start": "pages/states.html", "entry_selector": "[data-map-state='nsw']", "map_path": "states/nsw/places/state/index.html", "layer": "state-nsw-assembly-2025", "search": "Coffs Harbour", "area": "state-nsw-nsw410", "destination": "states/nsw/electorates/districts/coffs-harbour/index.html"},
+    {"start": "states/nsw/places/state/index.html", "entry_selector": "a[href='../councils/index.html']", "map_path": "states/nsw/places/councils/index.html", "layer": "council-nsw-legal", "search": "Coffs Harbour", "area": "nsw-council-11800", "destination": "states/nsw/councils/coffs-harbour/index.html"}
+  ],
+  "redland_clock_pages": ["states/qld/councils/redland/index.html"],
+  "provenance_files": ["content/local/redland-election.json", "content/places/councils.json", "assets/redland-election-clock.mjs", "assets/civic-places.js", "scripts/serve.mjs"]
+}
