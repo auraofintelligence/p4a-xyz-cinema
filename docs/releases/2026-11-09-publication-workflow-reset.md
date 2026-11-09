@@ -23,3 +23,7 @@ Fresh non-browser validation, exact committed/remote/deployed revision and serve
 ## Completed local checks
 
 National structural/source-hash validation passed 999,286 assertions across 2,113 generated pages and 49 geometry layers. All 2,081 publication contracts passed with zero failures. All remaining civic workflow commands passed on the completed stable build, including 32 workflow regressions and state-clock parity. Strict acceptance rejects missing current browser binding, as intended. Geometry and shared navigation are unchanged. Staged bytes match validated worktree bytes. The source tree remains below the 1,000,000,000-byte budget with approximately 14.3 MB headroom. These are local checks; publication and actual browser review are reported separately.
+
+## Post-deployment text reconciliation
+
+Cloud review found outdated representation-summary sentences for Redland and Knox despite their confirmed event records. These sentences were reconciled to the existing sourced event dates; no new timetable or source-check date was inferred. The separate reported Paul Gollé encoding issue remains under review.
