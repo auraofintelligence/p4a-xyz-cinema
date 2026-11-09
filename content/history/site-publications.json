@@ -50,13 +50,33 @@
       "nonBrowserChecks": {
         "local": "Passed national source-hash validation (999,286 assertions), 2,081 publication contracts, civic workflow commands and maintenance checks.",
         "storageCI": "passed",
+        "civicCI": "passed"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "failed",
+        "scope": "Cloud desktop review passed main dates, ticking countdown, candidate status distinctions and navigation; found stale representation sentence on Redland election-map page and Paul GollÃ© encoding defect. No mobile or exhaustive browser/source audit. Stale text corrected separately in 1968cc0772ec91ffdf2fd7660264b53fb3d31ca2; its deployment is recorded separately."
+      },
+      "note": "Metadata-only receipt, not a new factual review. AGENTS.md and content/places/AGENTS.md instruction edits were excluded from publication. This record does not claim its own metadata commit has deployed."
+    },
+    {
+      "commit": "1968cc0772ec91ffdf2fd7660264b53fb3d31ca2",
+      "tree": "65e3509bc06e8bdce209d185cad5f80bd4cf4f48",
+      "deployedOn": "2026-11-09",
+      "deployedAt": "2026-11-09T08:00:09Z",
+      "verifiedAt": "2026-11-09T08:01:38.324152+00:00",
+      "scope": "Post-live correction of stale Redland and Knox representation summaries to agree with their existing sourced confirmed timetables. No new source review or unrelated dates changed.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42582702550",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42582703368",
+      "liveVerification": "Exact HTTP 200 bytes match councils.json and the generated Redland election-map and Knox council pages. Pages deployment succeeded for this commit. No complete site verification claimed.",
+      "nonBrowserChecks": {
+        "local": "Passed 999,286 national/source-hash assertions, 2,081 publication contracts, maintenance and clock/geometry/delivery checks.",
         "civicCI": "pending at receipt preparation"
       },
       "postDeploymentBrowserChecks": {
-        "status": "pending",
-        "scope": "Cloud-only live review; no fresh browser acceptance claimed."
+        "status": "passed",
+        "scope": "Cloud desktop recheck confirms corrected Redland representation sentence: 12 December election, 10 November nomination opening, remaining deadlines unknown. This scoped recheck does not resolve the separately retained Paul GollÃ© encoding defect or establish full browser acceptance."
       },
-      "note": "Metadata-only receipt, not a new factual review. AGENTS.md and content/places/AGENTS.md instruction edits were excluded from publication. This record does not claim its own metadata commit has deployed."
+      "note": "Metadata-only receipt; not a new factual review or a claim this receipt commit itself deployed."
     }
   ]
 }
