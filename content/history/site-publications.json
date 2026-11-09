@@ -70,13 +70,34 @@
       "liveVerification": "Exact HTTP 200 bytes match councils.json and the generated Redland election-map and Knox council pages. Pages deployment succeeded for this commit. No complete site verification claimed.",
       "nonBrowserChecks": {
         "local": "Passed 999,286 national/source-hash assertions, 2,081 publication contracts, maintenance and clock/geometry/delivery checks.",
-        "civicCI": "pending at receipt preparation"
+        "civicCI": "passed"
       },
       "postDeploymentBrowserChecks": {
         "status": "passed",
         "scope": "Cloud desktop recheck confirms corrected Redland representation sentence: 12 December election, 10 November nomination opening, remaining deadlines unknown. This scoped recheck does not resolve the separately retained Paul GollÃ© encoding defect or establish full browser acceptance."
       },
       "note": "Metadata-only receipt; not a new factual review or a claim this receipt commit itself deployed."
+    },
+    {
+      "commit": "70c332cef8cc4cb3850b8e9a9ab67a7fb724818c",
+      "tree": "3820e3890c386efb42731cfc50f272d38d02e773",
+      "deployedOn": "2026-11-09",
+      "deployedAt": "2026-11-09T08:14:47Z",
+      "verifiedAt": "2026-11-09T08:17:14.140966+00:00",
+      "scope": "Requested Redland candidate editorial order/profile and supplied campaign links; current Paul Gollé name encoding, historical ballot spelling unchanged.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42584331913",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42584332526",
+      "liveVerification": "Five exact HTTP byte matches: local Redland election JSON, canonical councils JSON, overview, candidate page and Division 3 page. Successful exact-commit deployment.",
+      "nonBrowserChecks": {
+        "local": "National/source-hash validation, 2,080 national contracts, fresh Redland data/render/idempotence/local reference tests, four regression tests, maintenance and clock/geometry/delivery checks passed.",
+        "civicCI": "pending at receipt preparation; original content retains two obsolete legacy browser-input fingerprints. This later scoped browser receipt updates those fingerprints only after actual post-live review."
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Cloud desktop: requested order and four link destinations on overview/candidates, nomination distinctions, current accented name and preserved historical ballot spelling. No external-site availability or full-site verification.",
+        "evidence": "tools/publication-qa/redland-presentation-2026-11-09-cloud-browser.json"
+      },
+      "note": "Metadata and scoped post-live evidence receipt, not a new factual review. Own receipt commit not claimed deployed."
     }
   ]
 }

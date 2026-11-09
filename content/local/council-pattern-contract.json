@@ -551,7 +551,8 @@
       "tools/publication-qa/whole-site-audit-2026-11-02-cloud-browser.json",
       "tools/publication-qa/redland-date-supplement-2026-11-02.json",
       "tools/publication-qa/redland-register-2026-11-03.json",
-      "docs/releases/2026-11-06-committees-link.md"
+      "docs/releases/2026-11-06-committees-link.md",
+      "tools/publication-qa/redland-presentation-2026-11-09-cloud-browser.json"
     ],
     "layoutEvidence": "qa/redland-20261017/interactive-layout-results.json",
     "artifactFingerprints": [
@@ -617,11 +618,11 @@
       },
       {
         "path": "content/local/redland-election.json",
-        "sha256": "1d99fc7c10dd00cd43ca48b2d3cf519e30642f30e9febfc924e48a3ecaef22ff"
+        "sha256": "61838364419d8d2e461b98e6056e396a1bdf1f2555ecde1f03cfd7d7993adf22"
       },
       {
         "path": "tools/redland_election.py",
-        "sha256": "793b676e74939015700a510e44efdbef695bbfbaeb0d8193a11cef59dd7b7d9d"
+        "sha256": "5a6054504671e8eba2f10340d1edbaf4e4947ddf23fd6dca4c88158765746e9a"
       },
       {
         "path": "states/qld/councils/redland/index.html",
@@ -678,6 +679,10 @@
       {
         "path": "tools/publication-qa/redland-register-2026-11-03.json",
         "sha256": "117f257fefb05339e69ada33b542d45826673ee75fcca6e1074adc3273efdaa1"
+      },
+      {
+        "path": "tools/publication-qa/redland-presentation-2026-11-09-cloud-browser.json",
+        "sha256": "31a5985aa991b97c9579fb9807b6bd0d071b13bb13747a25b2848d4ea76afaa2"
       }
     ],
     "requiredHumanChecks": [
@@ -747,6 +752,21 @@
       "path": "tools/publication-qa/whole-site-audit-2026-11-02-cloud-browser.json",
       "scope": "Scoped actual browser review of Redland waiting mayoral and ordinary election milestones, implementation date labels and source register; original broader local journey and source evidence retained.",
       "supplement": "tools/publication-qa/redland-date-supplement-2026-11-02.json"
+    },
+    "candidatePresentationReview": {
+      "reviewedOn": "2026-11-09",
+      "path": "tools/publication-qa/redland-presentation-2026-11-09-cloud-browser.json",
+      "scope": "Requested candidate card order and links; current Division 3 name encoding and preserved historical ballot spelling only. Other broader review dates and evidence unchanged.",
+      "previousInputFingerprints": [
+        {
+          "path": "content/local/redland-election.json",
+          "sha256": "1d99fc7c10dd00cd43ca48b2d3cf519e30642f30e9febfc924e48a3ecaef22ff"
+        },
+        {
+          "path": "tools/redland_election.py",
+          "sha256": "793b676e74939015700a510e44efdbef695bbfbaeb0d8193a11cef59dd7b7d9d"
+        }
+      ]
     }
   },
   "dateInventories": [

@@ -1,0 +1,28 @@
+{
+  "reviewedOn": "2026-11-09",
+  "verifiedAt": "2026-11-09T08:17:14.140966+00:00",
+  "commit": "70c332cef8cc4cb3850b8e9a9ab67a7fb724818c",
+  "result": "PASS",
+  "scope": "Actual cloud desktop browser checks after deployment, not a complete site/source audit.",
+  "checks": [
+    "Overview and candidates show Jasmine Person, Julie Talty, Rowanne McKenzie, Don Brown, Gary Williamson in editorial order, not ballot order.",
+    "Both campaign links and both official councillor profile destinations exposed correctly in live UI. External-site availability not verified.",
+    "Intention versus accepted-nomination caveats retained.",
+    "Elections directory and Division 3 map card/current representation show Paul Gollé; inspected screenshot. Expanded 2024 Division 3 retains GOLLE, Paul."
+  ],
+  "limitations": [
+    "No mobile or exhaustive link/source audit.",
+    "No personal computer used.",
+    "No persistent screenshot attached."
+  ],
+  "inputFingerprints": [
+    {
+      "path": "content/local/redland-election.json",
+      "sha256": "61838364419d8d2e461b98e6056e396a1bdf1f2555ecde1f03cfd7d7993adf22"
+    },
+    {
+      "path": "tools/redland_election.py",
+      "sha256": "5a6054504671e8eba2f10340d1edbaf4e4947ddf23fd6dca4c88158765746e9a"
+    }
+  ]
+}
