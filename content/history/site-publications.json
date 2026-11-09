@@ -36,6 +36,27 @@
       "liveVerification": "Actual deployed DOM checked on 6 pages: Carnarvon commissioner, Coffs nomination hour and clock states, both unopposed ward labels, NSW summary and Redland waiting/announcement distinction. Bulk HTTP byte checks timed out and live Markdown report was client-blocked. Exact-commit CI and Pages succeeded; no bulk byte-match or all-route/source claim.",
       "evidence": "content/history/site-publications/2026-11-03-f81dbaa6.json",
       "note": "Metadata-only publication receipt; not a new factual source review. Its own commit is not claimed deployed by this record."
+    },
+    {
+      "commit": "953d238211af11870562edd761636ba7b96fe44b",
+      "tree": "fd5a705f730790d3f54200bc5a9b9ef62d1adf9b",
+      "deployedOn": "2026-11-09",
+      "deployedAt": "2026-11-09T07:45:46Z",
+      "verifiedAt": "2026-11-09T07:47:48.609649+00:00",
+      "scope": "Recovered scoped election update: 38 council records, affected summaries and generated mirrors; publication validation separated from post-live browser acceptance. Bounded source scope and gaps in 9 November report.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42581209457",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42581210132",
+      "liveVerification": "Pages deployment succeeded for this exact commit. HTTP 200 and exact SHA-256 byte matches against validated content for content/places/councils.json, states/qld/councils/redland/index.html, assets/state-data.js and docs/releases/2026-11-09-publication-workflow-reset.md. Not an all-route or full factual verification.",
+      "nonBrowserChecks": {
+        "local": "Passed national source-hash validation (999,286 assertions), 2,081 publication contracts, civic workflow commands and maintenance checks.",
+        "storageCI": "passed",
+        "civicCI": "pending at receipt preparation"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "pending",
+        "scope": "Cloud-only live review; no fresh browser acceptance claimed."
+      },
+      "note": "Metadata-only receipt, not a new factual review. AGENTS.md and content/places/AGENTS.md instruction edits were excluded from publication. This record does not claim its own metadata commit has deployed."
     }
   ]
 }
