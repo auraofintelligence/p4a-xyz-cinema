@@ -27,3 +27,11 @@ National structural/source-hash validation passed 999,286 assertions across 2,11
 ## Post-deployment text reconciliation
 
 Cloud review found outdated representation-summary sentences for Redland and Knox despite their confirmed event records. These sentences were reconciled to the existing sourced event dates; no new timetable or source-check date was inferred. The separate reported Paul Gollé encoding issue remains under review.
+
+## Requested Redland presentation and name repair
+
+Candidate cards now use the requested editorial order: Jasmine Person, Julie Talty, Rowanne McKenzie, Don Brown, Gary Williamson. This is not ballot order or a change to nomination status. Julie and Rowanne have official Council profile links; Julie and Jasmine have the campaign URLs supplied by the site owner. Julie's Council page opened; Rowanne's Council URL was verified in Council indexing but direct fetch returned 403. Both campaign sites were inaccessible to the verification tool, so their live content and identity were not independently verified. No subjective candidate assessments were added.
+
+Current Division 3 councillor Paul Gollé's encoding is corrected to match his official Council profile: https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-3-Cleveland-Thornlands-Victoria-Point . Historical ECQ ballot spellings are unchanged.
+
+Fresh presentation checks: four Redland regression tests, canonical/render parity/idempotence, 19-page local reference checks, maintenance and national validation passed. All 2,080 national publication contracts passed. The legacy contract reports only two stale historical browser-review fingerprints for the changed election JSON and renderer Python; their fresh data/render checks passed. Those old browser fingerprints are preserved, and this browser-evidence gap is deferred to post-live cloud review, not described as a complete contract pass.

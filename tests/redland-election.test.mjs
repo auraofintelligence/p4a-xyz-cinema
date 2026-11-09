@@ -23,3 +23,21 @@ test('synthetic poll changes status at opening/close and never declares a result
   assert.equal(milestoneState({...item,status:'cancelled'}).active,false);
   assert.equal(milestoneState({...item,status:'completed'}).active,false);
 });
+
+test('candidate presentation keeps requested order and public links separate from nomination status', async () => {
+  const {readFile} = await import('node:fs/promises');
+  const data = JSON.parse(await readFile(new URL('../content/local/redland-election.json', import.meta.url), 'utf8'));
+  const candidates = data.byElection.candidates;
+  assert.deepEqual(candidates.map(c => c.id), ['jasmine-person','julie-talty','rowanne-mckenzie','don-brown','gary-williamson']);
+  for (const c of candidates) assert.equal(c.nominationStatus, 'not-verified');
+  assert.equal(candidates[0].publicLinks[0].url, 'https://jasmineformayor.au/');
+  assert.equal(candidates[1].publicLinks[1].url, 'https://julietalty.au/');
+  assert.match(candidates[1].publicLinks[0].url, /redland\.qld\.gov\.au\/.+Division-6/);
+  assert.match(candidates[2].publicLinks[0].url, /redland\.qld\.gov\.au\/.+Division-7/);
+  for (const route of ['index.html','candidates/index.html']) {
+    const html = await readFile(new URL('../states/qld/councils/redland/' + route, import.meta.url), 'utf8');
+    let previous = -1;
+    for (const c of candidates) { const i=html.indexOf('<h3>'+c.name+'</h3>'); assert.ok(i>previous); previous=i; }
+    for (const c of candidates) for (const item of c.publicLinks || []) assert.ok(html.includes(item.url));
+  }
+});

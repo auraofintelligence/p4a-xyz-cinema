@@ -74,7 +74,11 @@ def candidate_announcements(page, bye, link):
     candidates = bye.get('candidates', [])
     if not candidates:
         return ''
-    rows = ''.join(f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p><p class="local-source">{escape(('Announced ' + c['announced']) if c.get('announced') else ('Reported ' + c['reported']))} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],c.get("sourceLabel", "Read the primary announcement"))}</p></article>' for c in candidates)
+    rows = ''
+    for c in candidates:
+        public_links = ''.join(link(page, item['url'], item['label']) for item in c.get('publicLinks', []))
+        links_html = '<div class="local-related">' + public_links + '</div>' if public_links else ''
+        rows += f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(("Announced " + c["announced"]) if c.get("announced") else ("Reported " + c["reported"]))} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],c.get("sourceLabel", "Read the primary announcement"))}</p></article>'
     return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3><p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media or news reporting.</p></div>'
 
 
