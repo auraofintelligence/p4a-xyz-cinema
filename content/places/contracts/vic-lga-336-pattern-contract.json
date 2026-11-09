@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-09"
     ]
   },
   "routes": [
@@ -73,7 +73,8 @@
           "council-vic-retained",
           "council-vic-2024-336",
           "council-vic-roster-336",
-          "election-review-knox-baird-20261031"
+          "election-review-knox-baird-20261031",
+          "election-review-knox-baird-20261107"
         ],
         "boundaryEdition": "Vicmap current WFS snapshot 2026-10-02; property-aligned municipalities; wards edition 2024",
         "representatives": [
@@ -458,17 +459,20 @@
             "id": "vic-lga-336-baird-by-election-pending-2026",
             "label": "Baird Ward by-election",
             "kind": "by-election",
-            "status": "Awaiting confirmation to begin",
-            "waitingLabel": "Awaiting confirmation to begin",
-            "date": null,
-            "dateTime": null,
-            "nominationsClose": null,
-            "dateBasis": "Knox Council confirms Peter Lockwood resignation effective 29 October 2026 and a VEC by-election for Baird Ward. Polling, nomination and voting arrangements await confirmation; no estimated date is used. Verified 31 October 2026.",
+            "status": "Scheduled; postal voting closes 5 February 2027",
+            "date": "2027-02-05",
+            "dateTime": "2027-02-05T18:00:00+11:00",
+            "nominationsClose": "2026-12-22T12:00:00+11:00",
+            "dateBasis": "Official Knox timetable confirms postal by-election day 6 February 2027, with postal voting closing at 6pm AEDT on 5 February. Rolls close 25 November at 4pm AEDT; nominations open 14 December and close 22 December at noon AEDT. VEC close-of-roll notice published 6 November. No candidates or outcome inferred.",
             "timezone": "Australia/Melbourne",
-            "sourceUrl": "https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation",
-            "sourceId": "election-review-knox-baird-20261031",
-            "checked": "2026-10-31",
-            "candidates": []
+            "sourceUrl": "https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027",
+            "sourceId": "election-review-knox-baird-20261107",
+            "checked": "2026-11-07",
+            "candidates": [],
+            "milestoneLabel": "postal voting closes",
+            "nominationsOpen": "2026-12-14",
+            "rollClose": "2026-11-25T16:00:00+11:00",
+            "electionDay": "2027-02-06"
           }
         ],
         "coverageNotes": [

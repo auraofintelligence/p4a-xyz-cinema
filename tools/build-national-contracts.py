@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Bind real national QA to narrowly declared per-place route contracts.
 
-Requires completed national structural validation and a real browser review
-record before writing any manifest. The generated scope is route identity,
+Requires completed national structural validation. Default acceptance also
+requires real browser evidence; --publication defers it until after deployment. The generated scope is route identity,
 visible dates, breadcrumbs, choices and source identity pins. It does not turn
 a shared browser smoke test into a full per-place source or browser approval.
 """
@@ -66,16 +66,16 @@ def registered_route_dates(root, routes):
     return result
 
 
-def generate(validation_path, browser_path, dry_run=False):
+def generate(validation_path, browser_path, dry_run=False, publication=False):
     # All guards precede every write. A real file alone is not a passing review.
     inputs=StableInputs(ROOT)
     validation = inputs.read_json(validation_path)
-    browser = inputs.read_json(browser_path)
+    browser = {} if publication else inputs.read_json(browser_path)
     if not passed(validation) or validation.get('mode') != 'generated-pages-and-data':
         raise ValueError('A passing default national structural report is required; provisional --skip-pages evidence cannot bind contracts.')
-    if not passed(browser):
+    if not publication and not passed(browser):
         raise ValueError('The real browser-review record must report PASS before contracts can bind its actual limited scope.')
-    result=require_current_evidence(ROOT, validation, browser)
+    result=require_current_evidence(ROOT, validation, browser,require_browser=not publication)
     inputs.bind_national(validation,browser,result)
     reviewed = validation.get('checked') or validation.get('reviewedOn')
     date.fromisoformat(reviewed)
@@ -94,7 +94,7 @@ def generate(validation_path, browser_path, dry_run=False):
                 raise ValueError('Duplicate canonical identity ' + place['id'])
             canonical[place['id']] = (scope, path, index, place)
     fingerprints = []
-    for path in (*FINGERPRINT_PATHS, validation_path, browser_path):
+    for path in (*FINGERPRINT_PATHS, validation_path, *(() if publication else (browser_path,))):
         fingerprints.append({'path': path, 'sha256': inputs.fingerprint(path)})
     limitations = [
         'Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.',
@@ -110,7 +110,8 @@ def generate(validation_path, browser_path, dry_run=False):
     ]
     shared_evidence = {
         'schemaVersion': 1, 'kind': 'national-place-shared-evidence',
-        'reviewedOn': reviewed, 'paths': [validation_path, browser_path,CONTRACT_SET],
+        'reviewedOn': reviewed, 'paths': [validation_path, *(() if publication else (browser_path,)),CONTRACT_SET],
+        'browserAcceptance': 'deferred until after live deployment' if publication else 'saved evidence bound',
         'nationalEvidence': {'validation': validation_path, 'browser': browser_path},
         'contractSet':CONTRACT_SET,
         'artifactFingerprints': fingerprints,
@@ -191,8 +192,9 @@ def generate(validation_path, browser_path, dry_run=False):
     print(json.dumps({'result': 'PASS', 'scope': 'structural route and canonical identity only',
                       'stage':'generation only; complete post-migration acceptance required',
                       'requiresPostMigrationValidation':True,'changedOutputs':len(changed),
+                      'browserAcceptance':'deferred until after live deployment' if publication else 'saved evidence verified',
                       'manifests': len(manifests), 'written': not dry_run,
-                      'evidence': [validation_path, browser_path],
+                      'evidence': [validation_path] if publication else [validation_path, browser_path],
                       'limits': 'Shared renderer smoke evidence does not establish full per-place source/browser review.'}, indent=2))
 
 
@@ -201,9 +203,10 @@ if __name__ == '__main__':
     parser.add_argument('--validation', default=DEFAULT_VALIDATION)
     parser.add_argument('--browser-review', default=DEFAULT_BROWSER)
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--publication', action='store_true', help='Bind current structural evidence; defer browser acceptance until after deployment.')
     args = parser.parse_args()
     try:
-        generate(args.validation, args.browser_review, args.dry_run)
+        generate(args.validation, args.browser_review, args.dry_run, args.publication)
     except (OSError, ValueError, TypeError, KeyError) as exc:
         print('FAIL:', exc)
         raise SystemExit(1)

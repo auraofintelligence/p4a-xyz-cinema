@@ -31,7 +31,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-03"
+      "2026-11-09"
     ]
   },
   "routes": [
@@ -73,31 +73,20 @@
         "officialUrl": "https://www.victoriaplains.wa.gov.au",
         "sources": [
           "council-abs-2026-lga",
-          "council-wa-walga-2026-58540"
+          "council-wa-walga-2026-58540",
+          "election-review-victoria-plains-20261108"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
           {
-            "name": "Pauline Bantock",
-            "role": "President",
-            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=38",
-            "profileType": "official published WALGA roster",
-            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-            "sourceId": "council-wa-walga-2026-58540",
-            "checked": "2026-10-17",
-            "asAt": "2026-03",
-            "website": "https://www.victoriaplains.wa.gov.au",
-            "termEndYear": "2027"
-          },
-          {
             "name": "Suzanne Woods",
-            "role": "Deputy President",
-            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=38",
-            "profileType": "official published WALGA roster",
-            "status": "Published WALGA roster as at March2026; subsequent changes unverified",
-            "sourceId": "council-wa-walga-2026-58540",
-            "checked": "2026-10-17",
-            "asAt": "2026-03",
+            "role": "Acting Shire President",
+            "profileUrl": "https://www.victoriaplains.wa.gov.au/news/cr-pauline-bantock-announces-resignation-after-11-years/225",
+            "profileType": "official council resignation and acting-role notice",
+            "status": "Council announced Woods would act following Bantock’s resignation effective 6 November 2026, until Council elects a new President; no later election or installation independently verified.",
+            "sourceId": "election-review-victoria-plains-20261108",
+            "checked": "2026-11-08",
+            "asAt": "2026-11-08",
             "website": "https://www.victoriaplains.wa.gov.au",
             "termEndYear": "2029"
           },
@@ -162,6 +151,21 @@
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/elections/local",
             "candidates": []
+          },
+          {
+            "id": "wa-council-58540-vacancy-2026-11-06",
+            "label": "Victoria Plains councillor vacancy",
+            "kind": "vacancy",
+            "status": "Vacancy confirmed; replacement timetable unconfirmed",
+            "date": null,
+            "timingStatus": "awaiting-confirmation",
+            "waitingLabel": "Awaiting confirmation to begin",
+            "timezone": "Australia/Perth",
+            "dateBasis": "Council notice dated 28 October confirms Pauline Bantock resigned effective 6 November 2026. Suzanne Woods will act as Shire President until Council elects a new President. The councillor vacancy replacement method and timetable remain unverified; the presidential election is a separate process.",
+            "sourceUrl": "https://www.victoriaplains.wa.gov.au/news/cr-pauline-bantock-announces-resignation-after-11-years/225",
+            "checked": "2026-11-08",
+            "candidates": [],
+            "sourceId": "election-review-victoria-plains-20261108"
           }
         ],
         "coverageNotes": [
@@ -169,7 +173,25 @@
           "Names and professional roles come independently from the WALGA2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on17October2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled.",
           "Previous2025 local-election contestant ballots remain unintegrated; no historical winner is inferred to hold current office.",
           "Names and professional roles come independently from the WALGA 2026 directory, which states its information is up-to-date as of March2026. Checking the retained source on 17 October 2026 does not establish subsequent currentness. Individual biographies and later vacancies/replacements are not reconciled."
-        ]
+        ],
+        "formerRepresentatives": [
+          {
+            "name": "Pauline Bantock",
+            "role": "President",
+            "profileUrl": "https://walga.asn.au/awcontent/Web/Documents/Advocacy/The-Western-Australian-Local-Government-Directory.pdf#page=38",
+            "profileType": "official published WALGA roster",
+            "status": "Resigned",
+            "sourceId": "council-wa-walga-2026-58540",
+            "checked": "2026-10-17",
+            "asAt": "2026-03",
+            "website": "https://www.victoriaplains.wa.gov.au",
+            "termEndYear": "2027",
+            "endDate": "2026-11-06",
+            "endSourceUrl": "https://www.victoriaplains.wa.gov.au/news/cr-pauline-bantock-announces-resignation-after-11-years/225",
+            "endChecked": "2026-11-08"
+          }
+        ],
+        "representationReview": "Council notice dated 28 October confirms Pauline Bantock resigned effective 6 November 2026. Suzanne Woods will act as Shire President until Council elects a new President. The councillor vacancy replacement method and timetable remain unverified; the presidential election is a separate process. Other retained roles keep their earlier source dates. Checked 8 November 2026."
       }
     }
   ],

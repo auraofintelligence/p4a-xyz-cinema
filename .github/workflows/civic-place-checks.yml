@@ -39,7 +39,7 @@ jobs:
       - name: Check every registered council, state and federal contract
         run: |
           python tools/check-contract-cache.py
-          python tools/verify-place-contracts.py
+          python tools/verify-place-contracts.py --publication
       - name: Check the Redlands reference build
         run: |
           python tools/verify-redland.py

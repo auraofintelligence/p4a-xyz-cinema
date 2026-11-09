@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped late election review 2 November: TEC’s 10 pm AEDT update says no further count updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete across all 29 councils; councillor counting continues, with completion expected by Tuesday 3 November, not confirmed. No statewide final declaration or individual officeholder replacement is inferred. Other parliamentary and federal facts retain their own earlier checks.",
+  "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. King Island elected five councillors unopposed for seven positions and Tasman six for seven; completed counting does not mean every position is filled. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Jeremy Rockliff",
@@ -85,8 +85,8 @@
       "date": "2026-10-27T14:00:00+11:00",
       "kind": "Ordinary council elections",
       "scope": "local-government",
-      "status": "Mayor/deputy counts complete; further count updates resume 3 November",
-      "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 2 November, 10 pm AEDT update says no further updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete in all 29 councils. Councillor counting continues; TEC expects all councils to be complete by Tuesday 3 November, but that expectation is not a declared outcome. No statewide final declaration or individual officeholder replacement is inferred. Sources verified 2026-11-02T12:49:52.060088+00:00; this is a scoped count-stage check only.",
+      "status": "Counting completed",
+      "note": "TEC confirms counting completed. Postal voting closed 27 October 2026 at 2 pm AEDT. King Island elected five councillors unopposed for seven positions; Tasman elected six for seven. No complete current-office roster replacement or filled-vacancy claim is inferred. Official results rechecked 9 November 2026, Australia/Brisbane.",
       "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
       "dayMetrics": {
         "displayDaysUntil": false,

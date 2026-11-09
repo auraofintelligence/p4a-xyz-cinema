@@ -1,6 +1,8 @@
 # Civic place build acceptance
 
-Version 1.0. Created 17 October 2026, Australia/Brisbane. Apply with the [shared core](local-place-pattern.md) and separate council, state or federal guide. The filename retains the council reference; these gates also apply to declared electorate builds.
+**9 November 2026 workflow reset:** Follow [publication then live browser review](publication-and-browser-review.md). Browser acceptance is post-deployment, cloud-only and does not block publication. Keep source/data/build/civic checks before publication. Use explicit `--publication` for contract generation and validation before publishing; defaults retain strict post-live acceptance. Older browser-before-publication requirements below are superseded for sequencing only.
+
+Version 1.1. Updated 9 November 2026; created 17 October 2026, Australia/Brisbane. Apply with the [shared core](local-place-pattern.md) and separate council, state or federal guide. The filename retains the council reference; these gates also apply to declared electorate builds.
 
 Record **pass**, **fail**, **not tested**, or **not applicable with a sourced reason** for every applicable row in the [completion report](council-expansion-report-template.md). This unfilled checklist is not evidence of a completed check. A structural script covers only its actual assertions. Complete requires all mandatory gates for the declared scope to pass; fix failures first. A missing source/right/capability requires a named partial/blocked scope. Honest unavailable data can pass; invented data cannot.
 

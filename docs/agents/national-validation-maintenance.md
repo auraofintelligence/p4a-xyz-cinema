@@ -1,6 +1,8 @@
 # National validation and shared contract evidence
 
-Version 1.1, 5 November 2026. Inherit [the fractal update guide](fractal-election-updates.md) and [acceptance gates](council-build-acceptance.md). These are maintenance instructions, not a fresh source, editorial, geometry or browser approval.
+**9 November 2026 workflow reset:** Follow [publication then live browser review](publication-and-browser-review.md). Browser acceptance is post-deployment, cloud-only and does not block publication. Keep source/data/build/civic checks before publication. Use explicit `--publication` for contract generation and validation before publishing; defaults retain strict post-live acceptance. Older browser-before-publication requirements below are superseded for sequencing only.
+
+Version 1.2, 9 November 2026. Inherit [the fractal update guide](fractal-election-updates.md) and [acceptance gates](council-build-acceptance.md). These are maintenance instructions, not a fresh source, editorial, geometry or browser approval.
 
 ## What remains checked
 

@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-09"
     ]
   },
   "routes": [
@@ -73,7 +73,8 @@
           "council-abs-2026-lga",
           "council-nsw-olg-directory",
           "council-nsw-legal-boundaries",
-          "council-nsw-2024-tenterfield-ward-b"
+          "council-nsw-2024-tenterfield-ward-b",
+          "election-review-tenterfield-20261107"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -141,15 +142,6 @@
             "profileType": "official published councillor directory"
           },
           {
-            "name": "Gregory Purcell",
-            "role": "Councillor",
-            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
-            "website": "https://www.tenterfield.nsw.gov.au",
-            "sourceId": "council-nsw-olg-directory",
-            "checked": "2026-10-17",
-            "profileType": "official published councillor directory"
-          },
-          {
             "name": "Kim Rhodes",
             "role": "Councillor",
             "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
@@ -207,6 +199,21 @@
                 "profileUrl": "https://vtr.elections.nsw.gov.au/LG2401/tenterfield/ward-b/councillor"
               }
             ]
+          },
+          {
+            "id": "tenterfield-a-ward-vacancy-2026-10-31",
+            "label": "Tenterfield A Ward vacancy",
+            "kind": "vacancy",
+            "status": "Vacancy confirmed; replacement process awaiting NSWEC advice",
+            "date": null,
+            "timingStatus": "awaiting-confirmation",
+            "waitingLabel": "Awaiting confirmation to begin",
+            "timezone": "Australia/Sydney",
+            "dateBasis": "Council notice dated 30 October confirms Gregory Purcell resigned effective 31 October 2026. Council seeks NSWEC advice on filling the vacancy, to be reported at its 26 November meeting. No election date or replacement method is inferred.",
+            "sourceUrl": "https://www.tenterfield.nsw.gov.au/resignation-of-councillor-gregory-purcell",
+            "checked": "2026-11-07",
+            "candidates": [],
+            "sourceId": "election-review-tenterfield-20261107"
           }
         ],
         "coverageNotes": [
@@ -218,6 +225,21 @@
             "layerId": "council-nsw-abs-2026",
             "featureId": "17400",
             "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)"
+          }
+        ],
+        "formerRepresentatives": [
+          {
+            "name": "Gregory Purcell",
+            "role": "Councillor",
+            "profileUrl": "https://www.olg.nsw.gov.au/public/local-government-directory/",
+            "website": "https://www.tenterfield.nsw.gov.au",
+            "sourceId": "council-nsw-olg-directory",
+            "checked": "2026-10-17",
+            "profileType": "official published councillor directory",
+            "endDate": "2026-10-31",
+            "status": "Resigned",
+            "endSourceUrl": "https://www.tenterfield.nsw.gov.au/resignation-of-councillor-gregory-purcell",
+            "endChecked": "2026-11-07"
           }
         ]
       }

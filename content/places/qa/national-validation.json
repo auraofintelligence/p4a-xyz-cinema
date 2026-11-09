@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-06",
+  "checked": "2026-11-09",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 999177,
+    "assertions": 999286,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 273,
+    "source_hashes_checked": 280,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1341,
-    "current_representative_records": 5242,
-    "election_events": 4468,
-    "contestant_records": 18382,
+    "sources": 1350,
+    "current_representative_records": 5239,
+    "election_events": 4471,
+    "contestant_records": 18384,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
     "gzip_byte_round_trips": 49,
@@ -24,13 +24,13 @@
     "local_link_references": 176159,
     "fragment_references_checked": 14658,
     "generated_pages_checked": 2113,
-    "rendered_representative_records_checked": 5242,
+    "rendered_representative_records_checked": 5239,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56534,
-    "rendered_event_records_checked": 4468,
-    "rendered_contestant_records_checked": 18382,
+    "external_link_references_not_fetched": 56575,
+    "rendered_event_records_checked": 4471,
+    "rendered_contestant_records_checked": 18384,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3067
+    "evidence_artifacts_bound": 3069
   },
   "errors": [],
   "warnings": [
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "22ddf412507d8771043c52b1c98199f9ad1e9b25df738757b9be2df7a79a863f",
-      "bytes": 15223330
+      "sha256": "4549b6e62c57d8c050fd33ce9e1dce1c755ea98920c8977ae630d0ce289a81e5",
+      "bytes": 15231643
     },
     {
       "path": "content/places/federal.json",
@@ -6560,6 +6560,11 @@
       "bytes": 4711
     },
     {
+      "path": "content/places/sources/election-recovery-recheck-2026-11-09.json",
+      "sha256": "c2f9e83e1ceba4ffe2262c04b2f8f6b242401ca9f05572132e746546d33f5a3b",
+      "bytes": 5037
+    },
+    {
       "path": "content/places/sources/election-review-2026-10-29.json",
       "sha256": "09f7db6ca9f30f8a9d91dc9ba044e95e212aa0c0549c1467fd8b41f861bfef24",
       "bytes": 2158
@@ -6583,6 +6588,11 @@
       "path": "content/places/sources/election-review-2026-11-02.json",
       "sha256": "e84bf0caa350cbd773aa6beadf45fae7554c2085d984d8c3f0e1787304975ea7",
       "bytes": 8268
+    },
+    {
+      "path": "content/places/sources/election-review-2026-11-07.json",
+      "sha256": "f596a3b47316f0bd089b27c742176a4fc7aab6d04f7a1e85af78a2d4ae20f65e",
+      "bytes": 10677
     },
     {
       "path": "content/places/sources/national-basemap.json",
@@ -6731,648 +6741,648 @@
     },
     {
       "path": "states/nsw/councils/albury/index.html",
-      "sha256": "423cd086f82669a41ab6e635aecaa2478f5c5bbba170371c573bf71041f606f1",
-      "bytes": 176188
+      "sha256": "73fc152f805f5fd3cd69b32f8d91444a91eb15e6ab092fb80c26cdf048ce35ac",
+      "bytes": 176133
     },
     {
       "path": "states/nsw/councils/armidale/index.html",
-      "sha256": "6ad04fe2f2d3b7271ff2d540dd76c989d5100d07e52ca3dab0d188917c6e2304",
-      "bytes": 177800
+      "sha256": "8a8109616349fed25426243825335fda314445136ce386f7e4114f98abe6b271",
+      "bytes": 177745
     },
     {
       "path": "states/nsw/councils/ballina/index.html",
-      "sha256": "979f0ab05485cf3b27ca08dedd538487fc63f9a02163f9b859631044c893e791",
-      "bytes": 160702
+      "sha256": "4c84d3139207467b78cb5f82dd05057d273ec1a28b77a013997b6be1773c2c13",
+      "bytes": 160647
     },
     {
       "path": "states/nsw/councils/balranald/index.html",
-      "sha256": "e2b7839eb6f83176ba1c6a12e5e70557f1a161dbc7a8666b7e0725dec9302811",
-      "bytes": 157753
+      "sha256": "0126d181c9b41ed6d18638b819a4db17ae54e8ed6dc05914dd45a12fabcb5bdb",
+      "bytes": 157698
     },
     {
       "path": "states/nsw/councils/bathurst/index.html",
-      "sha256": "1f28cf70f914491392bc1c188812a738ea00f4f08626866b05650ecee12478c0",
-      "bytes": 183743
+      "sha256": "d017b4ee06b7e391c9c289aba50bc4c3969c7344f0de2f8e52c02f054d5c6311",
+      "bytes": 183688
     },
     {
       "path": "states/nsw/councils/bayside-nsw/index.html",
-      "sha256": "199af5e56d8b091ef866b8fffbd4644467b64dd2dbc6e34d68010e426ddfb560",
-      "bytes": 154087
+      "sha256": "e3f359e7984ad43e05ab4a40096c0e19c10e9f78d63a37f6e1dee5b3b26f728a",
+      "bytes": 154032
     },
     {
       "path": "states/nsw/councils/bega-valley/index.html",
-      "sha256": "ddde642d4be1926f214526e76663b15051fe37f390d995e3be5088cc4c253035",
-      "bytes": 171568
+      "sha256": "faa4fd98e643635d18902a77b6573ac1b2d06899adcd4637b66c13fb03daeb6e",
+      "bytes": 171513
     },
     {
       "path": "states/nsw/councils/bellingen/index.html",
-      "sha256": "665e987ff46ae621c749d90d3dd3b7a1853b6570e92767aef911a369cbdf5c20",
-      "bytes": 167267
+      "sha256": "738b70a389920286dbfcb478560a4bfae704608688f7c19ded254c0de2d978c1",
+      "bytes": 167212
     },
     {
       "path": "states/nsw/councils/berrigan/index.html",
-      "sha256": "4afb6091011bdebe95f97759d5d29c35e7887889a7c952a992c289b31fae5632",
-      "bytes": 160232
+      "sha256": "a22a25dde9f2fae50cd96f4f788b383554ef62cfc5a14b0077cbc9a969aca103",
+      "bytes": 160177
     },
     {
       "path": "states/nsw/councils/blacktown/index.html",
-      "sha256": "3c851dfe61bc400d2ef1bdb4a1f30e27fec7ea226706a2200d7503423e225020",
-      "bytes": 190341
+      "sha256": "890e2a6518b6d25079fa80135fefd7125bb2374529b05f6389a77301489e4d8b",
+      "bytes": 190286
     },
     {
       "path": "states/nsw/councils/bland/index.html",
-      "sha256": "f61b533f2e53c518d0971564b951231f4efb2eda7ac8a52d261a043c591bf8ab",
-      "bytes": 158132
+      "sha256": "d934c07908aea04af62895ccaed05252946775664ae113869dc379b51a019664",
+      "bytes": 158077
     },
     {
       "path": "states/nsw/councils/blayney/index.html",
-      "sha256": "653f8658ad4156fe3f990d77720fa29116f27dfa335be672bf504fa68d062c10",
-      "bytes": 157335
+      "sha256": "dbb5e68695cfc0a4b2250d2ab197efbf3284310ab908c176e4129b39a6bdde78",
+      "bytes": 157280
     },
     {
       "path": "states/nsw/councils/blue-mountains/index.html",
-      "sha256": "3b8db16260f6c56cb140412bf98459d0bc3d7a6960259e80e40be445cb653452",
-      "bytes": 180235
+      "sha256": "5da2417890ec405d755da32296640160c5ed4bb5d2aa20e322035e9641b4c243",
+      "bytes": 180180
     },
     {
       "path": "states/nsw/councils/bogan/index.html",
-      "sha256": "795c2b58fac849f3fd29cf167118c7540510c553f59bcd75cdbad77c973b7abe",
-      "bytes": 158078
+      "sha256": "ef8335cd49259e078e3464f6fe289e83b9cea37fe9eb2cff30ef1484392043cd",
+      "bytes": 158023
     },
     {
       "path": "states/nsw/councils/bourke/index.html",
-      "sha256": "24134ba131d82f6fc30c16eafdc0142e52546a74b980e4cf041e569815385920",
-      "bytes": 158478
+      "sha256": "7cce491479e72d9db27c926cf7ae65901281a4bdeb5732758bcf8837aad35e29",
+      "bytes": 158423
     },
     {
       "path": "states/nsw/councils/brewarrina/index.html",
-      "sha256": "fd9dd36c7a4135fb1ee1f437894c3baa956d4523100d2df833f426a4ce53353a",
-      "bytes": 158153
+      "sha256": "6856a10422446f47bcc23d6a4883c9f08b339b611a5a96b944f2c268c80541a4",
+      "bytes": 158098
     },
     {
       "path": "states/nsw/councils/broken-hill/index.html",
-      "sha256": "a0b38117272d5c15abf20c86c387282ec92231089ca5c8a9bd0bc2fea6fbbea3",
-      "bytes": 171871
+      "sha256": "1a0ed8bb371f7ce892570a981c4e731f991e24dfdbdbccda10cbe28fed58a8f5",
+      "bytes": 171816
     },
     {
       "path": "states/nsw/councils/burwood/index.html",
-      "sha256": "d1b505c97d17fe8bc83fb80275af69df2d4f78062d80ae05d3a261298be07180",
-      "bytes": 167358
+      "sha256": "5617d178b4f10bdcdbb702781a8306aa411c4c6839e4678354be66a81bd7e83f",
+      "bytes": 167303
     },
     {
       "path": "states/nsw/councils/byron/index.html",
-      "sha256": "6c131fddcc19fd715ed8f4d283b67c4efb35654cd7322ea90dc03c054c5556b4",
-      "bytes": 172871
+      "sha256": "11615f4540b03191668f7a6409171dcc75596c0644810cf95753ed7ee314d1a8",
+      "bytes": 172816
     },
     {
       "path": "states/nsw/councils/cabonne/index.html",
-      "sha256": "cdf84f33d159207d590a5157354247fdf7de7a7a166a53429fc0230f344a0046",
-      "bytes": 158109
+      "sha256": "8a5f5317b8091508b09e995593f51fe4d4abda23d71d7ac011624a95e192cb72",
+      "bytes": 158054
     },
     {
       "path": "states/nsw/councils/camden/index.html",
-      "sha256": "5935d90f42dbb78c5e1ac9d8f86cdc00722997278f9016e37e0631c14d91e5ff",
-      "bytes": 178827
+      "sha256": "fe697827b7dc99b8f27f0905a5a9682658dc0d9c54748447a520e21c7fc99bbf",
+      "bytes": 178772
     },
     {
       "path": "states/nsw/councils/campbelltown-nsw/index.html",
-      "sha256": "82b91295bc7906eec1fe9ac90fc71f809c53e9364a46b224a2a6b00c56ccfa28",
-      "bytes": 154097
+      "sha256": "e13291f8932f8127713f1614fc8a4f6552d49f50750be98468d3186c80c6fa2f",
+      "bytes": 154042
     },
     {
       "path": "states/nsw/councils/canada-bay/index.html",
-      "sha256": "61c07eba139bfd32fdf2290a0c270507fdde53282a758d37aef4f371c0efed2d",
-      "bytes": 171236
+      "sha256": "e1190d341aaabfe63a0545a159a8ee1e678ca48d234300b5d28c5b3a4c78529b",
+      "bytes": 171181
     },
     {
       "path": "states/nsw/councils/canterbury-bankstown/index.html",
-      "sha256": "b9fdbbe24d176f8c8ada59e47f8b97a20420f28679733c90afb865c7cf7c3235",
-      "bytes": 222477
+      "sha256": "164c14600a3fa4d5714472545c0337bc403f48f744926dc9ba704a8ed7b0165c",
+      "bytes": 222422
     },
     {
       "path": "states/nsw/councils/carrathool/index.html",
-      "sha256": "a7c47cf9bc15fbcfe15225f57f4fa64fe4d6013d9721d48872e4a2148312ba61",
-      "bytes": 158541
+      "sha256": "1a82b6f16304378a5ecfcd3e3569e3ab843b7d1a498e4818c6f2b51111174682",
+      "bytes": 158486
     },
     {
       "path": "states/nsw/councils/central-coast-nsw/index.html",
-      "sha256": "61d76cbc104b19ff2c0a7232ef55565789f48a34d364b00ea77020e0344a9faa",
-      "bytes": 154099
+      "sha256": "140aa00d3a970b5fd1ccf41d1043fba396ad3d93a9580243085fe6c4456e6377",
+      "bytes": 154044
     },
     {
       "path": "states/nsw/councils/central-darling/index.html",
-      "sha256": "1acc3952d70854b8a6363fe7512114e324065ffca5a45f5821ac550ec78c14b7",
-      "bytes": 154834
+      "sha256": "b1aa7039377b1654be59a97d1217358e678d259d0a30798d3a848eac5f3d04eb",
+      "bytes": 154779
     },
     {
       "path": "states/nsw/councils/cessnock/index.html",
-      "sha256": "ee5a9d55f3782d254859894b0bd06a26cf020c9ca0fa3a935dcc26ddf515e050",
-      "bytes": 186602
+      "sha256": "622c8a18d2f69dd22bf1a5ab6e52c4f55810078c2208e2bd1926068ef6ecd325",
+      "bytes": 186547
     },
     {
       "path": "states/nsw/councils/clarence-valley/index.html",
-      "sha256": "2e9b8266180ae2b066131bb90b6e40d4c5dda79d57cdddf584c2ec38ba89899e",
-      "bytes": 158131
+      "sha256": "7439394500a0544e831a4b332bd96c2cc01829e748c7b5fd1758e291a03070cb",
+      "bytes": 158076
     },
     {
       "path": "states/nsw/councils/cobar/index.html",
-      "sha256": "b3dbb5027a9fe1d76224d77365404ebe75ca7173bd8dcf09c69d38a4fca56424",
-      "bytes": 167464
+      "sha256": "bee30ee1282dc062db4a797dcaf3417c7c0e8ea318d422f95da8323b93289e46",
+      "bytes": 167409
     },
     {
       "path": "states/nsw/councils/coffs-harbour/index.html",
-      "sha256": "59bab8ed41494649ea67643a4136887421cf1ff9a465b7795fd252c396dbe2cc",
-      "bytes": 186856
+      "sha256": "ccdabd1dc651cac8eeac8261f47dc1d3f75ce0a51cfd500df8df84ae772661a9",
+      "bytes": 186801
     },
     {
       "path": "states/nsw/councils/coolamon/index.html",
-      "sha256": "bf6ba5e0baf2e35709485d6a26a71d9ce1d7a2825a9378b3819a0fbb807bd491",
-      "bytes": 158123
+      "sha256": "9c835f7e0b07188601905b4a0fd29bba4751670f8ee362dcc775a97af61c4afc",
+      "bytes": 158068
     },
     {
       "path": "states/nsw/councils/coonamble/index.html",
-      "sha256": "38dcb2cbed1b8166b1f71631ff09522da5fa205c5e2215e73e00181f1560d834",
-      "bytes": 158185
-    },
-    {
-      "path": "states/nsw/councils/cootamundra-gundagai/index.html",
-      "sha256": "3b4c3d7d45b395f85f5cff45ff994845b6c09b65145ce9a506d3bb0a543ffd19",
-      "bytes": 158097
-    },
-    {
-      "path": "states/nsw/councils/cowra/index.html",
-      "sha256": "93dd3d77622bc7a13d69aa596ef4c44a15d7e98bd9a81d907ddf9d9b0417d409",
-      "bytes": 160836
-    },
-    {
-      "path": "states/nsw/councils/cumberland/index.html",
-      "sha256": "50ddad25dda6dfb4e4de5198c673fb3f267c95d01fc54b94785f0eb42c1a5560",
-      "bytes": 207296
-    },
-    {
-      "path": "states/nsw/councils/dubbo/index.html",
-      "sha256": "dc80bd02c13012311f788c8ff611240f16298cf767eb0994e6aa686f23dd3088",
-      "bytes": 182563
-    },
-    {
-      "path": "states/nsw/councils/dungog/index.html",
-      "sha256": "833ea5d727a7ee8a2837c98d54e39754f1adcb4eb7b8e0534429052e206a421a",
-      "bytes": 159113
-    },
-    {
-      "path": "states/nsw/councils/edward-river/index.html",
-      "sha256": "a8c64252e923efaea65df7e27a9c884a15391c3fa78a2ea0a0036188f1de1598",
-      "bytes": 158158
-    },
-    {
-      "path": "states/nsw/councils/eurobodalla/index.html",
-      "sha256": "1d1a728b4d647bd3aa2e38e8422787cef49137b5e7c5a397fdeb9384b30263cb",
-      "bytes": 184212
-    },
-    {
-      "path": "states/nsw/councils/fairfield/index.html",
-      "sha256": "67a80af291b042bfda244c1a2106d066e0cbe50b940246512c6a658905fa43e8",
-      "bytes": 159746
-    },
-    {
-      "path": "states/nsw/councils/federation/index.html",
-      "sha256": "16e51531c3477facb0a572af039ced161b5086eeca40f82a57f0b3644cfe38f5",
-      "bytes": 178702
-    },
-    {
-      "path": "states/nsw/councils/forbes/index.html",
-      "sha256": "bb90840564d9b31d79be906891a2e8476f3ee1340d416f6a804cdedb2345cea3",
-      "bytes": 158112
-    },
-    {
-      "path": "states/nsw/councils/georges-river/index.html",
-      "sha256": "38a2173064b2385b0ec52144125d61770b8cead3b003408b0ca27376ad86eebb",
-      "bytes": 198061
-    },
-    {
-      "path": "states/nsw/councils/gilgandra/index.html",
-      "sha256": "d52c6f6fba72041e160cc70e049b324908eee01fbeb919dab2c668f62b1a7c0e",
-      "bytes": 157735
-    },
-    {
-      "path": "states/nsw/councils/glen-innes-severn/index.html",
-      "sha256": "240dc843948bf34d6a136ae49bde0ecd12cf36521491dccf3c4b073cd02ddfd1",
-      "bytes": 157315
-    },
-    {
-      "path": "states/nsw/councils/goulburn-mulwaree/index.html",
-      "sha256": "ab6423eb8799e80688add2285f26cf68576a0620719987d135457c1e5f593ffb",
-      "bytes": 169837
-    },
-    {
-      "path": "states/nsw/councils/greater-hume/index.html",
-      "sha256": "b51f58e4a1c24aafbb1aeb1445f7e7d8cf6b2d90c92765182eab3f24fa1622b8",
-      "bytes": 159648
-    },
-    {
-      "path": "states/nsw/councils/griffith/index.html",
-      "sha256": "1fe5565f72390b6c2430240f5187b6736bcdc721b252f332c62674e9d8061e85",
-      "bytes": 170505
-    },
-    {
-      "path": "states/nsw/councils/gunnedah/index.html",
-      "sha256": "5c3a355d11095628d97f4fecab8c70b46127e49bbd26aa928fffce6443b19090",
-      "bytes": 158117
-    },
-    {
-      "path": "states/nsw/councils/gwydir/index.html",
-      "sha256": "1bee66c8b55871834c0befc709092b9b90558dede167ecf80bf9860ff369c12c",
-      "bytes": 165642
-    },
-    {
-      "path": "states/nsw/councils/hawkesbury/index.html",
-      "sha256": "a43aedfe2bc380471ecf22e223e9b253103cfb7e509e58f14a89b43a2fb9b203",
-      "bytes": 190366
-    },
-    {
-      "path": "states/nsw/councils/hay/index.html",
-      "sha256": "b26e82117b53c1af6a39fd3ca7c2ee44a7541587a158ba25f8543287ea7bdc4a",
-      "bytes": 157281
-    },
-    {
-      "path": "states/nsw/councils/hilltops/index.html",
-      "sha256": "029ca90f4036914100d103411608c8b2394eb66a5ff0f729dfb4f437f328e7fd",
-      "bytes": 158908
-    },
-    {
-      "path": "states/nsw/councils/hornsby/index.html",
-      "sha256": "6a407dc95b57363b1b5ab4137b2ae70f9be510b2254bf3fb8ca4f7ff7f330eaa",
-      "bytes": 183993
-    },
-    {
-      "path": "states/nsw/councils/hunters-hill/index.html",
-      "sha256": "814908a457674c5a6894c77bca6c1dfe1a398392aa0227617ff04555ad03bb94",
-      "bytes": 172367
-    },
-    {
-      "path": "states/nsw/councils/inner-west/index.html",
-      "sha256": "b57abf5e053bf08ce358cc2cce9864021c713d04685a5c867691d7d388a6dfc6",
-      "bytes": 200395
-    },
-    {
-      "path": "states/nsw/councils/inverell/index.html",
-      "sha256": "3254b9a229f3d11de97f1b44af964e244d69a9376616aafa7c771b475651e1da",
-      "bytes": 164257
-    },
-    {
-      "path": "states/nsw/councils/junee/index.html",
-      "sha256": "14bbdbfe189ba80def1430aaafc46e7ee0338ef45ce96bff1d52bcd9ca1efcbb",
-      "bytes": 160814
-    },
-    {
-      "path": "states/nsw/councils/kempsey/index.html",
-      "sha256": "a705ae95633f4c9bb3600501af27f6dabbb422d8a3920ce51288e723c784e7d6",
-      "bytes": 174785
-    },
-    {
-      "path": "states/nsw/councils/kiama/index.html",
-      "sha256": "e2c91fd265dccdaf82df57701c7346789e1bd4635f9df35f9f38acb6e56723b6",
-      "bytes": 177980
-    },
-    {
-      "path": "states/nsw/councils/ku-ring-gai/index.html",
-      "sha256": "aa7ee0c057210847b5a75d13157cdb543db03579c53d50d4d78401a05c6246a7",
-      "bytes": 194129
-    },
-    {
-      "path": "states/nsw/councils/kyogle/index.html",
-      "sha256": "c9e36c5887859b70a51e5d12d83d593159a69acf91dd13a0a39f046bcfc107c0",
-      "bytes": 158103
-    },
-    {
-      "path": "states/nsw/councils/lachlan/index.html",
-      "sha256": "773827ac01aebde36fbc4550280659ee61eb68f3770250a36363a7e442b4ddab",
-      "bytes": 165662
-    },
-    {
-      "path": "states/nsw/councils/lake-macquarie/index.html",
-      "sha256": "0a5ea22b3a81095071165335179f8d0e32d58b51fc322770efa9e5a3ddef8153",
-      "bytes": 203402
-    },
-    {
-      "path": "states/nsw/councils/lane-cove/index.html",
-      "sha256": "7833ddf4d15f03487bc61794a86b6abd710ebbed5f19c7ff0c5b37c2d040578c",
-      "bytes": 178260
-    },
-    {
-      "path": "states/nsw/councils/leeton/index.html",
-      "sha256": "c77ea32d45da29c93840fad01f259018670a262bcb620719da864e5a5189a770",
-      "bytes": 158100
-    },
-    {
-      "path": "states/nsw/councils/lismore/index.html",
-      "sha256": "1d46ea3100a5277ca78ff75ce7bbc3980300fb5d4e4ef6199ae2b34e08b3a33d",
-      "bytes": 177508
-    },
-    {
-      "path": "states/nsw/councils/lithgow/index.html",
-      "sha256": "b8bdf3b69ea8581dcd49d3933672a68e42bd3f67ce31d476567f95d683f317a5",
-      "bytes": 181277
-    },
-    {
-      "path": "states/nsw/councils/liverpool-plains/index.html",
-      "sha256": "b8fd3b6519eb6c2534aaecb87d59505b17aacbcbca8d7b7c2d15b6afc6643546",
-      "bytes": 157404
-    },
-    {
-      "path": "states/nsw/councils/liverpool/index.html",
-      "sha256": "ebed417400fcc5da8b1ac085951c8209a8947b2add1aa9b2cd4f7e350c366941",
-      "bytes": 158527
-    },
-    {
-      "path": "states/nsw/councils/lockhart/index.html",
-      "sha256": "dd504467bbc4676f910cd24142aec2cde28a10230f9d4247645e545c65cade2f",
-      "bytes": 159517
-    },
-    {
-      "path": "states/nsw/councils/maitland/index.html",
-      "sha256": "6c9db96fb40d14cac9cc4c1dc23433264c654f5165d272a0c8d1f8860f8a82f4",
-      "bytes": 192215
-    },
-    {
-      "path": "states/nsw/councils/mid-coast/index.html",
-      "sha256": "b1b62566e4069ddc8ff55bae5406b0e4f2d9862045149034013b79e154279d6f",
-      "bytes": 188025
-    },
-    {
-      "path": "states/nsw/councils/mid-western/index.html",
-      "sha256": "d1a16ff406ba14b51a30ac76ffcfb5a4cc6eb6599c623d868273e1b096f2c1d0",
-      "bytes": 189936
-    },
-    {
-      "path": "states/nsw/councils/moree-plains/index.html",
-      "sha256": "98a666169f6191273fc5941c096499a628369c433d0d26f270ef633d3c8ea23a",
-      "bytes": 166378
-    },
-    {
-      "path": "states/nsw/councils/mosman/index.html",
-      "sha256": "d76ba471f6ce489d1b1277a2a290d06688a07c20e6ef69fa88a4459a32d31450",
-      "bytes": 170235
-    },
-    {
-      "path": "states/nsw/councils/murray-river/index.html",
-      "sha256": "eb327069a8fdca182ccc61de17d8fc5062855ff01bdbc59136960259ab71f86d",
-      "bytes": 159797
-    },
-    {
-      "path": "states/nsw/councils/murrumbidgee/index.html",
-      "sha256": "202fc79096672940da07c85272a013fe4dd70f45413af8df972d1b6aa1a56bd7",
-      "bytes": 162716
-    },
-    {
-      "path": "states/nsw/councils/muswellbrook/index.html",
-      "sha256": "4b6e5f4a5a20bcaa99de8873798d80b23cf77383ade85de7aa4f08f42a350cb9",
-      "bytes": 173078
-    },
-    {
-      "path": "states/nsw/councils/nambucca-valley/index.html",
-      "sha256": "99d7810855f0a8550b787b9983e4c6197d8e5314bcf9f59354e4d4b5c71001eb",
-      "bytes": 159653
-    },
-    {
-      "path": "states/nsw/councils/narrabri/index.html",
-      "sha256": "0e097864aa3902190666754d7528d5cac0c47f6099ad1aac4b6bcd8e3acaff73",
-      "bytes": 177102
-    },
-    {
-      "path": "states/nsw/councils/narrandera/index.html",
-      "sha256": "da34b2190ba96957b10a4af7e7fac82fddbf76ebf433cb4c5e87840084cec658",
-      "bytes": 158143
-    },
-    {
-      "path": "states/nsw/councils/narromine/index.html",
-      "sha256": "129dee69ea54aaf75df97e3c115792798acbce2190bfc1775bb0d36376b34df8",
-      "bytes": 158120
-    },
-    {
-      "path": "states/nsw/councils/newcastle/index.html",
-      "sha256": "f16f2498c547ff1407862aca6c1dbdd990adfa95edb9193ff86221025cfd23d6",
-      "bytes": 198134
-    },
-    {
-      "path": "states/nsw/councils/north-sydney/index.html",
-      "sha256": "184578df424323c05e7d821be4cf1d741867719144e8f6b5ece8475834104f48",
-      "bytes": 191653
-    },
-    {
-      "path": "states/nsw/councils/northern-beaches/index.html",
-      "sha256": "69b0bbf959473af2135c803096e79bc2c497f35f56e71b87702fcb34b4c0f40d",
-      "bytes": 192909
-    },
-    {
-      "path": "states/nsw/councils/oberon/index.html",
-      "sha256": "b07690d9ea0343d1cddc1463c4fdbbef0c343557d6eaf9cbfd83e95666121acb",
-      "bytes": 167613
-    },
-    {
-      "path": "states/nsw/councils/orange/index.html",
-      "sha256": "24e213f3c40a08c7f6a296c6fb78276883ecb946f3ca9455492e6a80411d2626",
-      "bytes": 196492
-    },
-    {
-      "path": "states/nsw/councils/parkes/index.html",
-      "sha256": "000ea761ea8229a888c988856af672f3d6a7dc59d398d11bc1307185e9123564",
-      "bytes": 174746
-    },
-    {
-      "path": "states/nsw/councils/parramatta/index.html",
-      "sha256": "92ca93691f8011eb11c8eab2191cd22e89160c85155da6896330c988d5508416",
-      "bytes": 208027
-    },
-    {
-      "path": "states/nsw/councils/penrith/index.html",
-      "sha256": "317431db9d7296a63234bd872a6bcf95fb9f66f99c6b17d76bc5510c71afaf15",
-      "bytes": 186923
-    },
-    {
-      "path": "states/nsw/councils/port-macquarie-hastings/index.html",
-      "sha256": "16eb77f3eda886bf1b230f9cd99fed88e05965c8094686eb005ee6298c466bda",
-      "bytes": 176469
-    },
-    {
-      "path": "states/nsw/councils/port-stephens/index.html",
-      "sha256": "4b79349a0d897304541d5c6dd53823503ef86f080db19dd1db36235e5012fda3",
-      "bytes": 185356
-    },
-    {
-      "path": "states/nsw/councils/queanbeyan-palerang/index.html",
-      "sha256": "a99872913dc11b09583ada7f958afafe2d781827b1658cf2e8ddabbe962ebf56",
-      "bytes": 195392
-    },
-    {
-      "path": "states/nsw/councils/randwick/index.html",
-      "sha256": "585cbd9e8f9ac58728c884578189c7cae23aefb07ec2d3ead2fceab59ebbb3aa",
-      "bytes": 193392
-    },
-    {
-      "path": "states/nsw/councils/richmond-valley/index.html",
-      "sha256": "1485024c5be495eb1f7dcb404616d40b74552ee344596892937414b5f7f1fecb",
-      "bytes": 172992
-    },
-    {
-      "path": "states/nsw/councils/ryde/index.html",
-      "sha256": "f0f37e987345bcc96d3c528dae60dbd3328b80822373c0039c16eb1c012efeda",
-      "bytes": 191111
-    },
-    {
-      "path": "states/nsw/councils/shellharbour/index.html",
-      "sha256": "6fd3c5b43d0bf976b0d5852ef1753a98285e0c7f4a39445fc70aa2a18f959a4c",
-      "bytes": 177465
-    },
-    {
-      "path": "states/nsw/councils/shoalhaven/index.html",
-      "sha256": "3e0fd8b0d1784c40451ddf8688c407e4b0f0a9cb7b1a93c90ce824a6642424a6",
-      "bytes": 190780
-    },
-    {
-      "path": "states/nsw/councils/singleton/index.html",
-      "sha256": "0fc2391dad60c2d8f96cc54db9bd72d26e3333cae230068eb20e6a620a4c7699",
-      "bytes": 167962
-    },
-    {
-      "path": "states/nsw/councils/snowy-monaro/index.html",
-      "sha256": "17966da5dc96c1071d74baad88cb840c92ad097c3822be45e8bc181fbfc884b6",
-      "bytes": 189429
-    },
-    {
-      "path": "states/nsw/councils/snowy-valleys/index.html",
-      "sha256": "aa506b1384130504b91c3c0d5a6d8e4532fbe157e2e2183590e45e89f01b5bc2",
-      "bytes": 165965
-    },
-    {
-      "path": "states/nsw/councils/strathfield/index.html",
-      "sha256": "0a291c9014793f3cd4cd5ffc03f6a8b1abbd2991ed982a8aa1fc05687c80b3bb",
-      "bytes": 170407
-    },
-    {
-      "path": "states/nsw/councils/sutherland/index.html",
-      "sha256": "a6f1176fafcaf3a1a0ad93ce2a8c7ed41645a3060c5884904be91fc3aa5fac84",
-      "bytes": 202362
-    },
-    {
-      "path": "states/nsw/councils/sydney/index.html",
-      "sha256": "860d65e86579ac88e365771e84a30ffb39ac1961b3f4c43c02fe68da5b5aca46",
-      "bytes": 188368
-    },
-    {
-      "path": "states/nsw/councils/tamworth/index.html",
-      "sha256": "e9d62f51c3985af9d5d00cbc6bad53673b0242e204085411ad279fb378148391",
-      "bytes": 170260
-    },
-    {
-      "path": "states/nsw/councils/temora/index.html",
-      "sha256": "d0b2d236160f66c9d317defac744efdcb09b1398977a983c71a5581c5a0aec31",
-      "bytes": 158102
-    },
-    {
-      "path": "states/nsw/councils/tenterfield/index.html",
-      "sha256": "800f48deb3d950a511305875254c7ef6cdda1e32305ec168c25533a0e446ceec",
-      "bytes": 159605
-    },
-    {
-      "path": "states/nsw/councils/the-hills/index.html",
-      "sha256": "3c7e82c22820f16cd9d4de715be4665a436f09f8224193b2d88abce33f3745a1",
-      "bytes": 186943
-    },
-    {
-      "path": "states/nsw/councils/tweed/index.html",
-      "sha256": "d2338cd6d23e0d0588cf04571092a6b795e543783700bd630d1374d9d5108b22",
-      "bytes": 179476
-    },
-    {
-      "path": "states/nsw/councils/unincorporated-nsw/index.html",
-      "sha256": "8d1e763e83651d8b794a23a24ba0d4c40d4b914c023600bb7402b5af376f2f9e",
-      "bytes": 152493
-    },
-    {
-      "path": "states/nsw/councils/upper-hunter/index.html",
-      "sha256": "d8f6cde3f9f94b9b33389efa426e8e8b81725b75e8c70ad1d73437cfd70221f4",
-      "bytes": 158159
-    },
-    {
-      "path": "states/nsw/councils/upper-lachlan/index.html",
-      "sha256": "0d31fe120e4711171da1f9a2a4429c70327e803d99bf2a01012ff38a6d56fbc0",
-      "bytes": 158178
-    },
-    {
-      "path": "states/nsw/councils/uralla/index.html",
-      "sha256": "63445eb44e1e546c6a85fbf0a1a6376b4d1b4a44669fac6e038318c2116c750e",
-      "bytes": 164753
-    },
-    {
-      "path": "states/nsw/councils/wagga-wagga/index.html",
-      "sha256": "2d350ca5724f58eea6406b50b35148ef6a0cc831f5ad38c1f613978a945866e2",
-      "bytes": 188511
-    },
-    {
-      "path": "states/nsw/councils/walcha/index.html",
-      "sha256": "bc43335bca50cf1e3570936d7a7d7503babc8b47216e6d281c229f29b57435f3",
-      "bytes": 160420
-    },
-    {
-      "path": "states/nsw/councils/walgett/index.html",
-      "sha256": "e82f8886203962895454c171610b8b4e03c6def97e36ae87113834828d1d0e92",
-      "bytes": 158100
-    },
-    {
-      "path": "states/nsw/councils/warren/index.html",
-      "sha256": "62d480e31586a52c66a6391f09ae5232785f3ce96710ee0f0db419004a9e9dde",
-      "bytes": 165976
-    },
-    {
-      "path": "states/nsw/councils/warrumbungle/index.html",
-      "sha256": "45ea9fdb83f32d88b1ea116dc0b5d8b19f20f8776b8007609ba159b0bf8f023e",
-      "bytes": 161789
-    },
-    {
-      "path": "states/nsw/councils/waverley/index.html",
-      "sha256": "f34cbdf5972706f3d74f01920885ec502b1c9117376fba2a7c4c30b6f08023c7",
-      "bytes": 185995
-    },
-    {
-      "path": "states/nsw/councils/weddin/index.html",
-      "sha256": "5463229df2fc25f378ae29da76ea269f45e9d65f2afa28765743777fe459643b",
-      "bytes": 158089
-    },
-    {
-      "path": "states/nsw/councils/wentworth/index.html",
-      "sha256": "51edee85c1b96290125d55e4b03d177c59400aaffe0a6abe58e25d85dc75d391",
+      "sha256": "c00fffdd3bd94ea084b8dad217a36e1d270672b8775c6d729472baff9a53c00e",
       "bytes": 158130
     },
     {
+      "path": "states/nsw/councils/cootamundra-gundagai/index.html",
+      "sha256": "407497a085788a648957b9501206555d3e2c37b7ef5b30f4c8f35f0312218fad",
+      "bytes": 158042
+    },
+    {
+      "path": "states/nsw/councils/cowra/index.html",
+      "sha256": "19b876b91a185f5c7362256e3fbd6a2eecbb62d644754913559e38244ebd6c62",
+      "bytes": 160781
+    },
+    {
+      "path": "states/nsw/councils/cumberland/index.html",
+      "sha256": "98fe571c30585192fb12bb03a4c0279d178de3ecace18e830b7dc86e2b17e18d",
+      "bytes": 207241
+    },
+    {
+      "path": "states/nsw/councils/dubbo/index.html",
+      "sha256": "8532e116a6221e3ce36a1145fe830f9b45dd569f008efb4b1245e59c54f7e5b8",
+      "bytes": 182508
+    },
+    {
+      "path": "states/nsw/councils/dungog/index.html",
+      "sha256": "7e86d6b0f133cb14644d3748430ffaf0e850140b5454b5c181a1fc8fb8b6de39",
+      "bytes": 159058
+    },
+    {
+      "path": "states/nsw/councils/edward-river/index.html",
+      "sha256": "ce06c1b37730e94485282335fc16d0601a138da5c9197622e4887e9b6853f031",
+      "bytes": 158103
+    },
+    {
+      "path": "states/nsw/councils/eurobodalla/index.html",
+      "sha256": "127921e38bf6330def5bcb4849c3e2a2d7f4eb3ded660e4655b6971731de704f",
+      "bytes": 184157
+    },
+    {
+      "path": "states/nsw/councils/fairfield/index.html",
+      "sha256": "b0c9fa2b68460257d0accd78894d1f7dda65e2abd6d6157c8eb6f81386f441a6",
+      "bytes": 159691
+    },
+    {
+      "path": "states/nsw/councils/federation/index.html",
+      "sha256": "43c53360218edb379531bd83dd0710ae66eb9fe2684ec267af9ba2156ef0e80a",
+      "bytes": 178647
+    },
+    {
+      "path": "states/nsw/councils/forbes/index.html",
+      "sha256": "9fa8ecd94b6cfc6c161aa5fedb76f86219887971ccc9e16f7d88e5b33251db39",
+      "bytes": 158057
+    },
+    {
+      "path": "states/nsw/councils/georges-river/index.html",
+      "sha256": "7f971db5b935772af07cd116e730f111419b7b54409a3b51c2bf17d59d4a1ea9",
+      "bytes": 198006
+    },
+    {
+      "path": "states/nsw/councils/gilgandra/index.html",
+      "sha256": "8b6719e8afe5e55f838eea87e0ac50c301eea2aaa66678d5976463e06690c1a4",
+      "bytes": 157680
+    },
+    {
+      "path": "states/nsw/councils/glen-innes-severn/index.html",
+      "sha256": "6d78078078202ae8fe0e3ff4c28249e783dc3aacbbab98e87e058cc6f5ed511b",
+      "bytes": 157260
+    },
+    {
+      "path": "states/nsw/councils/goulburn-mulwaree/index.html",
+      "sha256": "a456b096c5b674cf788fe1168070fac927e56b364fe92cd8bbca644bd93b5c6d",
+      "bytes": 169782
+    },
+    {
+      "path": "states/nsw/councils/greater-hume/index.html",
+      "sha256": "ddfef00682e088e00f08eee0fbbebcda9d8436252ce11259423d387403a2a537",
+      "bytes": 159593
+    },
+    {
+      "path": "states/nsw/councils/griffith/index.html",
+      "sha256": "def450902b93c62ade14e564aa88fe287ddb6b62658a9ebd247db8641a5c9bed",
+      "bytes": 170450
+    },
+    {
+      "path": "states/nsw/councils/gunnedah/index.html",
+      "sha256": "7a6c08326881682bb53180d0841a70c3a6607ea6ca1343648a9868f0ecb9013d",
+      "bytes": 158062
+    },
+    {
+      "path": "states/nsw/councils/gwydir/index.html",
+      "sha256": "b881066973ff8bf9d74df6f5674db72b8389b390f5ab0b810d7fae7c458a1a62",
+      "bytes": 165587
+    },
+    {
+      "path": "states/nsw/councils/hawkesbury/index.html",
+      "sha256": "bf5302a9aecd8b71517f8923bb3853c2d4278ccca3a1a1b183b05226672cc2ba",
+      "bytes": 190311
+    },
+    {
+      "path": "states/nsw/councils/hay/index.html",
+      "sha256": "e621d329b66f9e3c3f284593fdf07ee7c36dc880274a61b91878cdcd7436b4da",
+      "bytes": 157226
+    },
+    {
+      "path": "states/nsw/councils/hilltops/index.html",
+      "sha256": "4944186f9773e4b38f55dc221b43a612b8740c6baf98e3ed9d505b78f68f2ced",
+      "bytes": 158853
+    },
+    {
+      "path": "states/nsw/councils/hornsby/index.html",
+      "sha256": "d66618349be7df5e172a3c62a4cac9eb3f8526c61b25d2d6d53aac8ad3ebfbf0",
+      "bytes": 183938
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "ff6b56ccf541ad35fb993709f0737da0563c4a7438d2ba88ab4f94daee6bd84b",
+      "bytes": 173845
+    },
+    {
+      "path": "states/nsw/councils/inner-west/index.html",
+      "sha256": "99b534524928debb24ccc098f252f11f28c1d869b833a2d8df50c8375f9855d2",
+      "bytes": 200340
+    },
+    {
+      "path": "states/nsw/councils/inverell/index.html",
+      "sha256": "13c4fd0183558be85b21159db6ea9f7fc495998f29bf1e38dce41a08cc5fd380",
+      "bytes": 164202
+    },
+    {
+      "path": "states/nsw/councils/junee/index.html",
+      "sha256": "c0491f23ac3a3df1a2c4b042f38b199d6b16cba2ec0674312747c403083f4ad4",
+      "bytes": 160759
+    },
+    {
+      "path": "states/nsw/councils/kempsey/index.html",
+      "sha256": "54114ff99181ddc99dcae72c11cb28d3cc69b089c7b491d6b72eb3a396a20cb1",
+      "bytes": 174730
+    },
+    {
+      "path": "states/nsw/councils/kiama/index.html",
+      "sha256": "bb5d7471e57de7265c79e5f901a95cf4b964321b0bf0f6e29757c533f53fb9e8",
+      "bytes": 177925
+    },
+    {
+      "path": "states/nsw/councils/ku-ring-gai/index.html",
+      "sha256": "ddc842f9dd152026f899cafa2d6bac4e8a2cebded5abee2eeb6785315763cb5e",
+      "bytes": 194074
+    },
+    {
+      "path": "states/nsw/councils/kyogle/index.html",
+      "sha256": "af1930aa13c96233d5ffd158fc573f9739307853ed833041b6825d001a7ca070",
+      "bytes": 158048
+    },
+    {
+      "path": "states/nsw/councils/lachlan/index.html",
+      "sha256": "ce5ae1153a21ad1fe26c0d2d4b2d9c93d0f0f26c85c46a5b834edd0bca4ccebf",
+      "bytes": 165607
+    },
+    {
+      "path": "states/nsw/councils/lake-macquarie/index.html",
+      "sha256": "28ca4e7cd389f937a512423a5f9562d52a266a450b09ddd56a3e4b435a134719",
+      "bytes": 203347
+    },
+    {
+      "path": "states/nsw/councils/lane-cove/index.html",
+      "sha256": "b2084ab7914a8856c7090f38ed0a9a0c18ade910233ce23a7d8285978892e420",
+      "bytes": 178205
+    },
+    {
+      "path": "states/nsw/councils/leeton/index.html",
+      "sha256": "32dba846e4b78b256cda96637bcba6b7b1a58a56b5f5e33adfbace978900ac1b",
+      "bytes": 158045
+    },
+    {
+      "path": "states/nsw/councils/lismore/index.html",
+      "sha256": "c08706e004afbf32509ff4c213b5c65325a15984f30874e9aab9776da20771f7",
+      "bytes": 177453
+    },
+    {
+      "path": "states/nsw/councils/lithgow/index.html",
+      "sha256": "4fae87bf816c0a85a01f74d11ea4eee867e506a9332a017c5ac9cb3d0ecf5cda",
+      "bytes": 181222
+    },
+    {
+      "path": "states/nsw/councils/liverpool-plains/index.html",
+      "sha256": "148f37752f0e341263210f8864713c3a2b0355e4ab85dad724a4e6562455325b",
+      "bytes": 157349
+    },
+    {
+      "path": "states/nsw/councils/liverpool/index.html",
+      "sha256": "6558c86a0915259b355b77ea340823fcf48b6a42cc0220cfe2571b40626313bc",
+      "bytes": 158472
+    },
+    {
+      "path": "states/nsw/councils/lockhart/index.html",
+      "sha256": "c5ab3fcae08e5ee0acafa68ebe3f7ba60f46584c2ebc43b1035ff1b63c903b95",
+      "bytes": 159462
+    },
+    {
+      "path": "states/nsw/councils/maitland/index.html",
+      "sha256": "86c55a493235c94ac3eeafa372327008c2784b0a139e25b8b30cc488d31a1283",
+      "bytes": 192160
+    },
+    {
+      "path": "states/nsw/councils/mid-coast/index.html",
+      "sha256": "bd1bd557b28f19329d51263aa5638e0088e1d5646d37deb9a598e54361d8d1b1",
+      "bytes": 187970
+    },
+    {
+      "path": "states/nsw/councils/mid-western/index.html",
+      "sha256": "1e8d4300641a0a7a2f8919b82cab4e4fec9c7718c1e6cd83ef13d5341c13adac",
+      "bytes": 189881
+    },
+    {
+      "path": "states/nsw/councils/moree-plains/index.html",
+      "sha256": "0d162f7b880dcb1bce86dc31af8c44a5058a42810349121b886748039f9fd9c6",
+      "bytes": 166323
+    },
+    {
+      "path": "states/nsw/councils/mosman/index.html",
+      "sha256": "cd968266c53ab5fb4e6295b1663cf14c3e2da7ee06a4b6536badfca5e058d70c",
+      "bytes": 170180
+    },
+    {
+      "path": "states/nsw/councils/murray-river/index.html",
+      "sha256": "0d4bc5c5ad2365d00e9592ab1aae65f1d785b7ed8f94df676ca5698310da8a84",
+      "bytes": 159742
+    },
+    {
+      "path": "states/nsw/councils/murrumbidgee/index.html",
+      "sha256": "5346a9886cc4b66390d061fc00d98add3a83979e2486d54972b11dfc71bb0cd0",
+      "bytes": 162661
+    },
+    {
+      "path": "states/nsw/councils/muswellbrook/index.html",
+      "sha256": "b0fce3172a0bf0dc3a67644190b5d9bfff6b861807c8701c38082229cffc597e",
+      "bytes": 173023
+    },
+    {
+      "path": "states/nsw/councils/nambucca-valley/index.html",
+      "sha256": "37905b872c24cfc39fc30b5fa20672b610f66c6062aa0e115fd728eab382b4d4",
+      "bytes": 159598
+    },
+    {
+      "path": "states/nsw/councils/narrabri/index.html",
+      "sha256": "dcd9eaf6de01f99bd9d1d085c7987f92720c305376d8269d24ad662ca0a1ffa5",
+      "bytes": 177047
+    },
+    {
+      "path": "states/nsw/councils/narrandera/index.html",
+      "sha256": "bb9baec5d5b001d98564f3f61ec867fb3868a6cc520cde52e830d15d31c0c398",
+      "bytes": 158088
+    },
+    {
+      "path": "states/nsw/councils/narromine/index.html",
+      "sha256": "9dd3f2fcc0784d1d54c4f816891263f5ac30c16f1e79637a730fb89ba71dd621",
+      "bytes": 158065
+    },
+    {
+      "path": "states/nsw/councils/newcastle/index.html",
+      "sha256": "7deb85fa854898dc8a11d7694101facffb6b8e97a66abb827538a4f21f2ef2d5",
+      "bytes": 198079
+    },
+    {
+      "path": "states/nsw/councils/north-sydney/index.html",
+      "sha256": "95ea3d0a97779d458d47c53debd4f2c26f72a20414f836198fac438886fd3334",
+      "bytes": 191598
+    },
+    {
+      "path": "states/nsw/councils/northern-beaches/index.html",
+      "sha256": "39534c9cad399a22ec7c1477c22f88eaf2668448b40445dbd8ce1b02902559db",
+      "bytes": 192854
+    },
+    {
+      "path": "states/nsw/councils/oberon/index.html",
+      "sha256": "6b6f8bfb45918619fb02dc52ad0c8d9c5b861a8e0024aad20c232231a083f5cc",
+      "bytes": 167558
+    },
+    {
+      "path": "states/nsw/councils/orange/index.html",
+      "sha256": "4f6c5ff029d6ddcdcfa3ff7b6709930b0ebfe87106b7ea3278ee3eff50547722",
+      "bytes": 196437
+    },
+    {
+      "path": "states/nsw/councils/parkes/index.html",
+      "sha256": "8aac4a0b83e8dcc655a6135cb4cefffd74f46e55db7f17df80f7965d4f87fa20",
+      "bytes": 174691
+    },
+    {
+      "path": "states/nsw/councils/parramatta/index.html",
+      "sha256": "9ded78141874553d658625d5eeac7b8a4e9a5475b40e034c3bb05ae395947a56",
+      "bytes": 207972
+    },
+    {
+      "path": "states/nsw/councils/penrith/index.html",
+      "sha256": "7bfc9ffc80a8e386372419f3e11664802eb34821aebbf9c5d21dfc3d39f3ca56",
+      "bytes": 186868
+    },
+    {
+      "path": "states/nsw/councils/port-macquarie-hastings/index.html",
+      "sha256": "b3b42c44dd162b9c203cf72deb4f31da906a91e475e4ca32155a232a48f5befd",
+      "bytes": 176414
+    },
+    {
+      "path": "states/nsw/councils/port-stephens/index.html",
+      "sha256": "2cfad6d1b5a796b72e6f0fa466d41841e47deea17eaf9083e7089b613d1f0190",
+      "bytes": 185301
+    },
+    {
+      "path": "states/nsw/councils/queanbeyan-palerang/index.html",
+      "sha256": "63421a5c4419ddf9ee396e1312d2921c7aad30d5aa937aa3c01bc200eeb7308e",
+      "bytes": 195337
+    },
+    {
+      "path": "states/nsw/councils/randwick/index.html",
+      "sha256": "36c595f504e5718c8c04fcdb5556ecdbc18315aed25bff94338e9b91c3eb01a7",
+      "bytes": 193337
+    },
+    {
+      "path": "states/nsw/councils/richmond-valley/index.html",
+      "sha256": "1e0554a10a5c61b9a9d5b9e31b573e00154c0e2ebceba23a6b87130afc2a3270",
+      "bytes": 172937
+    },
+    {
+      "path": "states/nsw/councils/ryde/index.html",
+      "sha256": "f591c38e35a17f205cb56d9958ce91c571e5c79f9bfa6605ff9b86c42a3759cc",
+      "bytes": 191056
+    },
+    {
+      "path": "states/nsw/councils/shellharbour/index.html",
+      "sha256": "ae2f42cc4e5e5f8424c4dbb07e37f927daefc11f5eef4165e467c61230ea3c5e",
+      "bytes": 177410
+    },
+    {
+      "path": "states/nsw/councils/shoalhaven/index.html",
+      "sha256": "7954f927966013057a9840587e8d2254368bc14e448d342068ca4d647332216d",
+      "bytes": 190725
+    },
+    {
+      "path": "states/nsw/councils/singleton/index.html",
+      "sha256": "2cd87b9ce7f8d1053ec6a7f169a214e97c06ca27fab0e3b3c94e407c739e2c36",
+      "bytes": 167907
+    },
+    {
+      "path": "states/nsw/councils/snowy-monaro/index.html",
+      "sha256": "687b3e8661febc1b587a2ca0a727a9174cdb0f5b3a60f9656e091254955cd388",
+      "bytes": 189374
+    },
+    {
+      "path": "states/nsw/councils/snowy-valleys/index.html",
+      "sha256": "405832bcbbde4bf64f06b7eec5348c277236c51f3e6c0d19854cd8e53bc7581d",
+      "bytes": 165910
+    },
+    {
+      "path": "states/nsw/councils/strathfield/index.html",
+      "sha256": "a08fbf98c842cc3c8fd2f98b003fe9f5a0750cf18e7e74765455826f194b1d9f",
+      "bytes": 170352
+    },
+    {
+      "path": "states/nsw/councils/sutherland/index.html",
+      "sha256": "eb5c80c134d296428b16fb215b65a3dd9a06c84d778b82f63b001b028b3ff06c",
+      "bytes": 202307
+    },
+    {
+      "path": "states/nsw/councils/sydney/index.html",
+      "sha256": "f8d707ed3c4083b720dbd888e19b2d4df29ec16fc044078b15db6aefe5c2ba63",
+      "bytes": 188313
+    },
+    {
+      "path": "states/nsw/councils/tamworth/index.html",
+      "sha256": "fd2b5704d0096387a756e7d78e5dd2ea9305273aff3a63e63976e553680a2c6c",
+      "bytes": 170205
+    },
+    {
+      "path": "states/nsw/councils/temora/index.html",
+      "sha256": "94c92a3e940de2bb1a1756b718c994944d2392426213a30b5f4109921e9f0a8d",
+      "bytes": 158047
+    },
+    {
+      "path": "states/nsw/councils/tenterfield/index.html",
+      "sha256": "9b0a02d9a6e55bed716c8c958a9e3d5bc49b6f1775551b9f37174cc89a593adc",
+      "bytes": 160535
+    },
+    {
+      "path": "states/nsw/councils/the-hills/index.html",
+      "sha256": "01ab86d856b9db31aa1c437602b3d1a2011567400735e19f58c87dab58cc9a05",
+      "bytes": 186888
+    },
+    {
+      "path": "states/nsw/councils/tweed/index.html",
+      "sha256": "e872c86360ef630f0f5b2655203c80ee94ed79b05a20e49081a79a049740e52e",
+      "bytes": 179421
+    },
+    {
+      "path": "states/nsw/councils/unincorporated-nsw/index.html",
+      "sha256": "3d28566618af5c4df8eb3913fb66ddc8e067a36e0127fef914daaeeefdf0ab91",
+      "bytes": 152438
+    },
+    {
+      "path": "states/nsw/councils/upper-hunter/index.html",
+      "sha256": "f9c46fc1e4ad3aeccb23a02fa9183266032ff4482b3ffc5af81fbda59de87f0c",
+      "bytes": 158104
+    },
+    {
+      "path": "states/nsw/councils/upper-lachlan/index.html",
+      "sha256": "2165ca6ff0e67186c438e70b800e69530f45879c9e1843e971f8342878b350f9",
+      "bytes": 158123
+    },
+    {
+      "path": "states/nsw/councils/uralla/index.html",
+      "sha256": "128d643f01ff3451595ccdbb1632d5ad6e73c6dfb3371c035c61b4c4a1b3f4ee",
+      "bytes": 164698
+    },
+    {
+      "path": "states/nsw/councils/wagga-wagga/index.html",
+      "sha256": "fa590a316f89a915f9232149760e17c486bb92c1f21b2155ce2e82af21cfae8f",
+      "bytes": 188456
+    },
+    {
+      "path": "states/nsw/councils/walcha/index.html",
+      "sha256": "bba194523a7788ca74559f43565be0a3b2d1212acf9ce1969df79b6c34abb9b0",
+      "bytes": 160365
+    },
+    {
+      "path": "states/nsw/councils/walgett/index.html",
+      "sha256": "e3f496878afe66c1d7798d392e6f5b147509eaabc91fab57f2a8317e3ea64dd2",
+      "bytes": 158045
+    },
+    {
+      "path": "states/nsw/councils/warren/index.html",
+      "sha256": "6d59ad59358da92c871261b0b75dcb7d338c6c81607ea44745ae5770004dc246",
+      "bytes": 165921
+    },
+    {
+      "path": "states/nsw/councils/warrumbungle/index.html",
+      "sha256": "73c0f8cadcb3371e7003a197c7fcbf1f515153cc63c37c57ae4f9a5726863a25",
+      "bytes": 161734
+    },
+    {
+      "path": "states/nsw/councils/waverley/index.html",
+      "sha256": "6bd14f0b44530796e440636aa5f89268c8842223c516d9ff0c12518fea664f98",
+      "bytes": 185940
+    },
+    {
+      "path": "states/nsw/councils/weddin/index.html",
+      "sha256": "f482d0eb5f8489339e58213863c67048d68fb63af7b8b806440157dde64e50df",
+      "bytes": 158034
+    },
+    {
+      "path": "states/nsw/councils/wentworth/index.html",
+      "sha256": "1bdccbdfc46510e07d96ee514425cdb907da23114e340e3634d9fcd898bf488e",
+      "bytes": 158075
+    },
+    {
       "path": "states/nsw/councils/willoughby/index.html",
-      "sha256": "23e45c83193a3eea0708485a5fb9d5a998d5de30e28a00f65cec6ea37a132912",
-      "bytes": 203575
+      "sha256": "17e5a95d21c539a24cdc45344aa347872b5d59c715f770845d34a25146991278",
+      "bytes": 203520
     },
     {
       "path": "states/nsw/councils/wingecarribee/index.html",
-      "sha256": "30aad81170eeea1ce2e7cfe66eb2c9faad797afc4b2680bc064c2bb206a1ac31",
-      "bytes": 188639
+      "sha256": "26ea41865120f905493c6b814e870db6622ec9eedd74efed868c8a03cb6d0a33",
+      "bytes": 188584
     },
     {
       "path": "states/nsw/councils/wollondilly/index.html",
-      "sha256": "ebc7bc20da14d59cd86cd9f6946702584a16315a2dd0b5322dbc108a14877aac",
-      "bytes": 185791
+      "sha256": "7e5dbcfcb2f339e2e3d933167c0b5c48764a4725f9ddc0d60f445d0a8ddf1fec",
+      "bytes": 185736
     },
     {
       "path": "states/nsw/councils/wollongong/index.html",
-      "sha256": "5955a13dad9a6c22a64bad00fd6527d3e58d2a1cef5c0851d21003258a4524ae",
-      "bytes": 182893
+      "sha256": "c08fd7933eb553d567f44936d76c275d733045d87de1acfce3f8d56fef876d3c",
+      "bytes": 182838
     },
     {
       "path": "states/nsw/councils/woollahra/index.html",
-      "sha256": "8ac0ae358b21e8d44f5fbb9d1f20df55897d2b877b3eb92d72700fe3fd8acc41",
-      "bytes": 189176
+      "sha256": "d6ecbb314d1b31874b3f71a25202d19253709ceff3b5dfc0e72b95aff5d7a40a",
+      "bytes": 189121
     },
     {
       "path": "states/nsw/councils/yass-valley/index.html",
-      "sha256": "f4ff0ca49053669c2cd021a039cdf5195052518a690b56f1ea7c45008a5432aa",
-      "bytes": 164902
+      "sha256": "3dccc6a463ad3f290d39f069957e946cca71b1d6197147a5424e58477b26f62e",
+      "bytes": 164847
     },
     {
       "path": "states/nsw/electorates/districts/albury/index.html",
@@ -8081,8 +8091,8 @@
     },
     {
       "path": "states/nsw/places/councils/index.html",
-      "sha256": "e11be6adcc2c1e22a7f391e6089ab5e7a42c5108d69df9be5ee7870ad2090d11",
-      "bytes": 150733
+      "sha256": "07949e419d3ee98b80d8418e01fddc1c7a49a83554e5b2eb2744c9d98500fe4b",
+      "bytes": 150678
     },
     {
       "path": "states/nsw/places/federal/index.html",
@@ -8091,8 +8101,8 @@
     },
     {
       "path": "states/nsw/places/index.html",
-      "sha256": "cbdc098b5f70d2c37791dab2a38ed2ab1aefcacad384c3f312cbf2d2cd6a209e",
-      "bytes": 161077
+      "sha256": "1ad5a86b61d0c8532ef371424570f3a203f3fbb4585d49579792a615169b3ddc",
+      "bytes": 161041
     },
     {
       "path": "states/nsw/places/state/index.html",
@@ -8101,8 +8111,8 @@
     },
     {
       "path": "states/nt/councils/alice-springs/index.html",
-      "sha256": "cd3df8277fca898c3be58a10bd0c85e029811c68daf51e8af31c76f47f621a0b",
-      "bytes": 53129
+      "sha256": "ef9e1b5a7c744deb95c4344e532e00f55106b8734845d5e0f1e6eb923393a70d",
+      "bytes": 53094
     },
     {
       "path": "states/nt/councils/barkly/index.html",
@@ -8111,8 +8121,8 @@
     },
     {
       "path": "states/nt/councils/belyuen/index.html",
-      "sha256": "5d0704cc75de042565f531108b7dbac530cbf77de59c990f24033ab421451139",
-      "bytes": 33749
+      "sha256": "976f72a2e4364926675ba6a488428eb3aa99fe1902f8f38c63196bbd73484b9e",
+      "bytes": 33714
     },
     {
       "path": "states/nt/councils/central-desert/index.html",
@@ -8126,8 +8136,8 @@
     },
     {
       "path": "states/nt/councils/darwin-waterfront-precinct/index.html",
-      "sha256": "abe812351ca0a54d6ba7c447f956de387a0a09d8bf687bdbb36f622a5d2fb966",
-      "bytes": 29065
+      "sha256": "ec9d110de2a10ad1ac9413841906d1491a89651465fc51a70d6bbf6c4d99d9f4",
+      "bytes": 29030
     },
     {
       "path": "states/nt/councils/darwin/index.html",
@@ -8146,8 +8156,8 @@
     },
     {
       "path": "states/nt/councils/katherine/index.html",
-      "sha256": "806b2909ee64b37982fea8b05febe3e73aca98c39576a2fa9edc0ffeeec697bd",
-      "bytes": 48809
+      "sha256": "1e73463a6d5edbe81905d07bf09a8e84a5ca3715abc2990d10899bb0af1ec01c",
+      "bytes": 48774
     },
     {
       "path": "states/nt/councils/litchfield/index.html",
@@ -8161,8 +8171,8 @@
     },
     {
       "path": "states/nt/councils/palmerston/index.html",
-      "sha256": "f8ca0f5645dc12bdaff932bda7df3a7240c7519ba851124b50638988f8c10934",
-      "bytes": 46891
+      "sha256": "e09008b1e60291cde8cf7c0df8ae7e81cf849e08e439a41a7f2244b84dc48048",
+      "bytes": 48164
     },
     {
       "path": "states/nt/councils/roper-gulf/index.html",
@@ -8176,18 +8186,18 @@
     },
     {
       "path": "states/nt/councils/unincorporated-nt/index.html",
-      "sha256": "20af0b674633331e0b74faf2b9df44da2ce0d991af40b2fcb519e9c8128aa29c",
-      "bytes": 28814
+      "sha256": "35bba1c83530efb8c67d18a3bee3de3f9de068ea02a7821aa94fb70d90274d08",
+      "bytes": 28779
     },
     {
       "path": "states/nt/councils/victoria-daly/index.html",
-      "sha256": "715fe9f350530acc88b68a89977f8d938f7433a480b23d898bdad72261f546ee",
-      "bytes": 38605
+      "sha256": "c50d67909343e07c519a1f8258195565353b19ab4463815b47196d7c4da608bf",
+      "bytes": 38834
     },
     {
       "path": "states/nt/councils/wagait/index.html",
-      "sha256": "e1dc069c9560fb8aa676d93c058a5f4a143be348f5260ea1520c2bfa4edb61ca",
-      "bytes": 34225
+      "sha256": "568a5ac67e03c67d076aff3ddc007a26b6d3a02d9dd8010e885772f3a332da4d",
+      "bytes": 34190
     },
     {
       "path": "states/nt/councils/west-arnhem/index.html",
@@ -8341,8 +8351,8 @@
     },
     {
       "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
-      "sha256": "b71271357265e561a8ca9a40e2d4f79ce03318506cbe9a064f33dd651c1dd78f",
-      "bytes": 27369
+      "sha256": "76761751f969112b29d0b0df771a0a172dad559aa0589996f52f467c8fd500be",
+      "bytes": 27598
     },
     {
       "path": "states/nt/local-electoral-areas/nt-ward-wad042c0e87a107/index.html",
@@ -8596,8 +8606,8 @@
     },
     {
       "path": "states/nt/places/councils/index.html",
-      "sha256": "901c0e149a3075a36eb04bb8dd87266b38c774c7764a8e41b22eff21f9e4f2f9",
-      "bytes": 59459
+      "sha256": "6a1003d26b763910091c1e48c7e28bb138bf4e4626e50551413d1f95056f1b85",
+      "bytes": 59424
     },
     {
       "path": "states/nt/places/federal/index.html",
@@ -8606,8 +8616,8 @@
     },
     {
       "path": "states/nt/places/index.html",
-      "sha256": "6d6757c17925116d7530b6ea5aeae86b28e042649dfb518d2f32ebfbf8b500fc",
-      "bytes": 65872
+      "sha256": "2f13aa9b0f2e5e2e1dcc3a6cd93d6392364cad9ba726ec83d94d7afb11a423cf",
+      "bytes": 65855
     },
     {
       "path": "states/nt/places/state/index.html",
@@ -8906,8 +8916,8 @@
     },
     {
       "path": "states/qld/councils/redland/elections/index.html",
-      "sha256": "a01c84b144b03c554da148338c4c0cb998c6054f3dfb3c1f78d704a768e6163f",
-      "bytes": 54276
+      "sha256": "756ac1b289919fae75c69164f595c01c0c161361145d039220471afef48b70ec",
+      "bytes": 55000
     },
     {
       "path": "states/qld/councils/richmond-shire/index.html",
@@ -11921,148 +11931,148 @@
     },
     {
       "path": "states/tas/councils/break-o-day/index.html",
-      "sha256": "f6d43d78134080567181e9ef64c3f1d016adc59ffb37e7258996f00ddc52f5ca",
-      "bytes": 59798
+      "sha256": "dc905fee958abce57b87ecc7f8f5d02bfbd5dedf34bb2820df51b72600df4170",
+      "bytes": 59859
     },
     {
       "path": "states/tas/councils/brighton/index.html",
-      "sha256": "4a3bb087effcb11a0df1cc51ed774d03afb12a98f584609bf4a1c4e873f2b4b0",
-      "bytes": 56037
+      "sha256": "ce30c27b99aa80aa7067786870d695f384871927f0ae919c331d13dd6380f0ff",
+      "bytes": 56098
     },
     {
       "path": "states/tas/councils/burnie/index.html",
-      "sha256": "c70d54865f64ad430c870efb7cd96f41722631ff3d4a2e447494f204bf2b1a5e",
-      "bytes": 59198
+      "sha256": "87cd151208443edb2b307c0671293be73696c05519878238b01471edcf82f1ce",
+      "bytes": 59259
     },
     {
       "path": "states/tas/councils/central-coast-tas/index.html",
-      "sha256": "57a35f32fb035f61c152ea08f8a41e5512fe6334563b7c1368decb091c6fb4e4",
-      "bytes": 64687
+      "sha256": "b0200234f39a08f292d6bc6bdae30b5b425ffa2b27212f745549bb31dfc21ee4",
+      "bytes": 64748
     },
     {
       "path": "states/tas/councils/central-highlands-tas/index.html",
-      "sha256": "15a3b24f10418c15cb43211a375a81bf5adcc882e52fd2fbb4ece8452a395dba",
-      "bytes": 55278
+      "sha256": "da49e1e01ff5e8872e80caf4ea4c14028f22a47b415ea962cf42c963fd8a5c79",
+      "bytes": 55339
     },
     {
       "path": "states/tas/councils/circular-head/index.html",
-      "sha256": "759fab497c796a3f73d5c611b6fe31b170f11ef14e77ec18ac2b5a8a76133155",
-      "bytes": 57718
+      "sha256": "e8e685d112012624d31bf4d767350998759097fbc0e0d88d7c83569999813813",
+      "bytes": 57779
     },
     {
       "path": "states/tas/councils/clarence/index.html",
-      "sha256": "3ba9fc5ad7a1f8d4fca938d5390b790fdbd81e06fcb30cd98e625862113c80ff",
-      "bytes": 69140
+      "sha256": "9280da0d71d36d3963b62ef9553235f93480c5398930fe62f1e3dfd782a1361e",
+      "bytes": 69201
     },
     {
       "path": "states/tas/councils/derwent-valley/index.html",
-      "sha256": "6f27cac070ec005b1644f4d6290e651d6a57172f805085f5eedcbd2b6e75bc3c",
-      "bytes": 60478
+      "sha256": "f84e9106f90b2c7b10dd06325977baefc41d471cd433277229e3ad6a6a1533b3",
+      "bytes": 60539
     },
     {
       "path": "states/tas/councils/devonport/index.html",
-      "sha256": "02de82ce355f7319ec93cb204960aa673bc4e4698d44445bdada5b73d3f1aa1a",
-      "bytes": 58190
+      "sha256": "037707e9254f34438be2fac5b1d346249649d0b6c6482b8ace46329da9010f12",
+      "bytes": 58251
     },
     {
       "path": "states/tas/councils/dorset/index.html",
-      "sha256": "4f04a9d9df832f4b9648b8e6bc10ab9926d8df5ef3d6a551477c754a653cbc91",
-      "bytes": 57270
+      "sha256": "6a598cf494eeaef448aafd943212b1fd8ad25e4db25128b56b98cee1314fa33c",
+      "bytes": 57331
     },
     {
       "path": "states/tas/councils/flinders-tas/index.html",
-      "sha256": "2341bf2b3d904ec4a44bd01a68a097a9dd181aff2301ff933de2c90cff6b460c",
-      "bytes": 53331
+      "sha256": "eac27f8abbb6f0bcee7bd025b41bc4d30acc6f493458ce00b01b2a2bd61dbf41",
+      "bytes": 53392
     },
     {
       "path": "states/tas/councils/george-town/index.html",
-      "sha256": "3d2228acc2aecc39753795854a6c927ed9dfebc592dee8d7f14b8d6fe1a843ef",
-      "bytes": 58937
+      "sha256": "7c874b78a0e3ba3de0bbc469f0aa538a187c3ba528f6aa11bae11fe0bcd4f102",
+      "bytes": 58998
     },
     {
       "path": "states/tas/councils/glamorgan-spring-bay/index.html",
-      "sha256": "2bc5b02767ea791c6589eb8d118ae9af75a0d3332b5d2b81dee11d9c394b0a46",
-      "bytes": 56632
+      "sha256": "5dd43735088c790b2f6ba8efd430eab381ab4eaac1b7a40f591fd9c567d95abc",
+      "bytes": 56693
     },
     {
       "path": "states/tas/councils/glenorchy/index.html",
-      "sha256": "e992764d0b6427f955797d49d3b363e023d56585d8de964455f91b52c6e5e923",
-      "bytes": 65925
+      "sha256": "5a4e2b14697cae49c853d00d4c83c15ac7af1166d329abc9ad6daef8f5803125",
+      "bytes": 65986
     },
     {
       "path": "states/tas/councils/hobart/index.html",
-      "sha256": "9c5882eb6b10bb406d1bf5f558d2d46d78ffd61ca1958c61bc96d0f2f1b3625e",
-      "bytes": 78137
+      "sha256": "c20205e57a8193ecbcf088c3513c7eb818c837a595d59b72f0607d662098c86d",
+      "bytes": 78198
     },
     {
       "path": "states/tas/councils/huon-valley/index.html",
-      "sha256": "0d72ea17191b2106b2fee6c02981478aaffa5f152bd0d57a19fa1cda06a3fa8f",
-      "bytes": 65736
+      "sha256": "5f173579c1940c0a9765784e459991c45892715943b63c57df4ea8baa5a25c5d",
+      "bytes": 65797
     },
     {
       "path": "states/tas/councils/kentish/index.html",
-      "sha256": "204d44be62f79b8d58f335d50c589e0930951025d9b99b74a8fa49fd9b52741b",
-      "bytes": 54632
+      "sha256": "aa7c424a976dee4c9551c59c4d5941914019dfb7156edcc178e0db56edfd1697",
+      "bytes": 54693
     },
     {
       "path": "states/tas/councils/king-island/index.html",
-      "sha256": "851ddaa2ef43b692cef40d89490fffc501cd7462cdd2e6f708fe9db315e6f355",
-      "bytes": 52613
+      "sha256": "269cbcd9af3229df7fb2ac04cf77766c9068ab70eecb87b51dd8ab6339b651ac",
+      "bytes": 52799
     },
     {
       "path": "states/tas/councils/kingborough/index.html",
-      "sha256": "d7132972bdcaa0bdf232b98ec6f996d6cc54b7fd5a340292bb0c789764fb37d5",
-      "bytes": 60669
+      "sha256": "776d7197494246b36786928b78d0493dbf002a3f0ab05543441f39dd4b64c84d",
+      "bytes": 60730
     },
     {
       "path": "states/tas/councils/latrobe-tas/index.html",
-      "sha256": "a20999440df75e450543478554bcc7823d67ad008d69e4e64507cd2fc1a27032",
-      "bytes": 56922
+      "sha256": "89d237aaa6efe499643bce5603f3354650d7ec2df4fafeb4f8fa5bdb52c1587d",
+      "bytes": 56983
     },
     {
       "path": "states/tas/councils/launceston/index.html",
-      "sha256": "7dc1e5c8e17781f2875a093c334213a9404da7eeac138c4bbc7e052f0efd355e",
-      "bytes": 72143
+      "sha256": "094d70fe6beab324ecbec382c5d0c2e8c927944685f769c84d3cdf7f51e5df03",
+      "bytes": 72204
     },
     {
       "path": "states/tas/councils/meander-valley/index.html",
-      "sha256": "f2dfb27c09b5305a64cd61f1429ce0607a5928f4d54c002839936bd713633491",
-      "bytes": 62835
+      "sha256": "5368f53ff66521866f3668853ccbd5bcd00bd8a7de964ba33a377c8045d35e98",
+      "bytes": 62896
     },
     {
       "path": "states/tas/councils/northern-midlands/index.html",
-      "sha256": "289b6ac94f32469068e4c6194cf358a7bdda786f4dcca094535b1a4b2e567bcc",
-      "bytes": 63116
+      "sha256": "c8bfb5adee82aae1162e8250f100109c1392a3d5a316c0aebb987ffd58609370",
+      "bytes": 63177
     },
     {
       "path": "states/tas/councils/sorell/index.html",
-      "sha256": "8ee16151449e00d9dcf98fdb289f27ab5fc1b29bd6b1b4044b5fccdea6a0c844",
-      "bytes": 59986
+      "sha256": "9d7c0913fa20d0610083477a17d6c260b37d85e669225fc351a255971606f0db",
+      "bytes": 60047
     },
     {
       "path": "states/tas/councils/southern-midlands/index.html",
-      "sha256": "4c3fd10ebe64f444e3db5a66681bb9af06fdbd6ca0d6721bf2247e1ecf21d05d",
-      "bytes": 53702
+      "sha256": "49ae57414c574083648c4824f9b3a1e2013c781d4ae28b190a8ccd9724cd1579",
+      "bytes": 53763
     },
     {
       "path": "states/tas/councils/tasman/index.html",
-      "sha256": "1fab996e5ad76abab7cc27c8799ac99cd8b57e31ceb9f468760f952e1a327433",
-      "bytes": 52654
+      "sha256": "eb09af85cf138caa579a0cbedc8a4f64cc255e82baf38399f8a2b4bfb5debb70",
+      "bytes": 52840
     },
     {
       "path": "states/tas/councils/waratah-wynyard/index.html",
-      "sha256": "4a6fe4ca424446a0585ec9783a4f053a8f34de71ddcadd127dbba54bee419354",
-      "bytes": 57771
+      "sha256": "c6892ffa045a56ac51b467415f8d0f5b940ba727e7d09f962448657d3eac5362",
+      "bytes": 57832
     },
     {
       "path": "states/tas/councils/west-coast/index.html",
-      "sha256": "8d94ce0d78b637f5fa326e7b6ed130143e8a34decc11a17d1bfedb561d54ca0d",
-      "bytes": 57968
+      "sha256": "fdc8fb77c1858afe9278c63a7192e40a9b32127e0d99d46ddfadf19ca46ffdd9",
+      "bytes": 58029
     },
     {
       "path": "states/tas/councils/west-tamar/index.html",
-      "sha256": "d3eaf4d458c85dea4c6e7795a792a7de47ed20312aaaeadb7d438593a6674423",
-      "bytes": 61986
+      "sha256": "795f291345b4049642c73d406d579c01fb83c0b93db6c7eeb1c90568a7735797",
+      "bytes": 62047
     },
     {
       "path": "states/tas/electorates/districts/bass/index.html",
@@ -12411,8 +12421,8 @@
     },
     {
       "path": "states/vic/councils/knox-city-council/index.html",
-      "sha256": "edc6d273d416610b97275aaa9a0c51ad9b739014cb431fc5ce16c2043e786ff6",
-      "bytes": 41979
+      "sha256": "7325671064c5605afae97fb812e880eb708a0467a5bbe3a1a58d90199834c111",
+      "bytes": 42670
     },
     {
       "path": "states/vic/councils/lake-mountain-alpine-resort/index.html",
@@ -14311,8 +14321,8 @@
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360120151112/index.html",
-      "sha256": "cd9fc79c0ccab68a0e33336d507987c501d89f5f4c9e1dcd12a7ca733cd5a43e",
-      "bytes": 27066
+      "sha256": "c28245e0cc426fac79402c6d4ff809a19dab642eea1a22bf4fb698d9c2c8bfd2",
+      "bytes": 27936
     },
     {
       "path": "states/vic/local-electoral-areas/vic-ward-3360220151112/index.html",
@@ -15566,8 +15576,8 @@
     },
     {
       "path": "states/wa/councils/albany/index.html",
-      "sha256": "e75fc5a06b94ff5ae85013b23f24a4bd7fd75c044c74b891a3f0cb3f1c3591d6",
-      "bytes": 106665
+      "sha256": "d6bdaf4e518814d0d297bc6cbd547eebcb96a9dc03e32aaee740599f88ee06a0",
+      "bytes": 106628
     },
     {
       "path": "states/wa/councils/armadale/index.html",
@@ -15581,13 +15591,13 @@
     },
     {
       "path": "states/wa/councils/augusta-margaret-river/index.html",
-      "sha256": "854181e40a9650f9c2244011a38aa996c7ca59dec5d3bb3429d9579ec2a74fb1",
-      "bytes": 106188
+      "sha256": "46d5e1ab2dd5e3398a076b06ea9d8c9002f82d44297a24ddea410169f939e98b",
+      "bytes": 106151
     },
     {
       "path": "states/wa/councils/bassendean/index.html",
-      "sha256": "cc677f1df64eeb25d99950981bd89d0106a0f785f7750c813b570b27efd0cf1d",
-      "bytes": 105609
+      "sha256": "18ae8be31225bc1a8cf4c513969e3e29fe4fca6cc8f0376e5569034f38cfc028",
+      "bytes": 105572
     },
     {
       "path": "states/wa/councils/bayswater/index.html",
@@ -15601,53 +15611,53 @@
     },
     {
       "path": "states/wa/councils/beverley/index.html",
-      "sha256": "d9270e87e041ae899519f589e40d36c6e36d1dcb34fbc98c143ad4fe2cc9224c",
-      "bytes": 105592
+      "sha256": "4fb0d448d50732c7e7f1dc0db8ef0f5b9fa1cb93a44250e5da74140c9f0a77a7",
+      "bytes": 105555
     },
     {
       "path": "states/wa/councils/boddington/index.html",
-      "sha256": "2406ef8a43875051f3c8739a982a0d20ceaab5d56e7d29c67e6eeab4863e1046",
-      "bytes": 105638
+      "sha256": "95c8fbef3d9d4146f8b37e0da444963096e74b72b3417f0473901371567379e1",
+      "bytes": 105601
     },
     {
       "path": "states/wa/councils/boyup-brook/index.html",
-      "sha256": "dd7a40f8e256c5686eb368d7777dcf09e6f97eb247804fa6fe0dfa87a2db7774",
-      "bytes": 105634
+      "sha256": "42259b661d85898b18f71add880590558db24691e55ed9a5a12d499618fc4fcb",
+      "bytes": 105597
     },
     {
       "path": "states/wa/councils/bridgetown-greenbushes/index.html",
-      "sha256": "7325935f433d40ada20b8dd4fb78d30fb522837bdeb9851942fdac9913f34575",
-      "bytes": 108734
+      "sha256": "824dc7fdabb635fa5ccff93edeb6ec982415c55f8a631a920ed411e120d34607",
+      "bytes": 108697
     },
     {
       "path": "states/wa/councils/brookton/index.html",
-      "sha256": "9eb8c0f07dcc02a1d2887152f3a930e382c56030e5ade0f5e6f5de2d53446578",
-      "bytes": 105051
+      "sha256": "aed4bbec106a8d29b9b97c3fc0f02b9b46747ea195a42e6e6efa46272c0d3609",
+      "bytes": 105014
     },
     {
       "path": "states/wa/councils/broome/index.html",
-      "sha256": "55c432bfbb865ecaa07a3a2755619567a48c9ae2af143716ec574daf92166a04",
-      "bytes": 106683
+      "sha256": "84d4b10fd837575a660a47ba0d51ef84351b84046624cbdbe3b35a52f0010362",
+      "bytes": 106646
     },
     {
       "path": "states/wa/councils/broomehill-tambellup/index.html",
-      "sha256": "b427cb345b6efec9495585b069ce00f0d9788306e28a1ad6a3174ab850dab111",
-      "bytes": 105636
+      "sha256": "d1b3ae4bad31d4fad32924339993a96ab5f2777e9ca5581c0438f9053e633c6e",
+      "bytes": 105599
     },
     {
       "path": "states/wa/councils/bruce-rock/index.html",
-      "sha256": "49c67ddf46607b2182247239d4a938344c75a874219dc9c36ff12a807f767e8b",
-      "bytes": 105936
+      "sha256": "0a09a087526390c86aef1c2d3ca28fbc1e320f05610441ff38bc4fb1035e2cec",
+      "bytes": 105899
     },
     {
       "path": "states/wa/councils/bunbury/index.html",
-      "sha256": "0b99c7c60483c9fea2268c2cf65133827e189f1ce5e7586a090b099eefa93983",
-      "bytes": 106702
+      "sha256": "f659d931721960cbbb6c2f2a61005bbeaede18c090fe1317d3fed2debf3b8e8b",
+      "bytes": 106665
     },
     {
       "path": "states/wa/councils/busselton/index.html",
-      "sha256": "c43e50da295ada296d2a24e8efb23b65f8f8b54af59b07daf0bdd613437ffd7d",
-      "bytes": 106705
+      "sha256": "0f7bbc57c516766d07690007c910836c9a15aad1259de1281e6e16747dcfe03f",
+      "bytes": 106668
     },
     {
       "path": "states/wa/councils/cambridge/index.html",
@@ -15661,13 +15671,13 @@
     },
     {
       "path": "states/wa/councils/capel/index.html",
-      "sha256": "b8f36d927587b6dee35317dd6f412977c23de5bd605119791252cc50baf1eb49",
-      "bytes": 106677
+      "sha256": "4ac4dcafc6aacdd087ae583dc5f31b8091f1b12e03df37a2eb1af4bbe27a5fac",
+      "bytes": 106640
     },
     {
       "path": "states/wa/councils/carnamah/index.html",
-      "sha256": "b4e6af087f086ea8dbf595e3d92b4452e8ff499cf64304231c8ef41b16dd81f7",
-      "bytes": 105623
+      "sha256": "e4455314ede408bf3d5ac001de3e7c2f83fdcdbbe5251cf9b09ad5e15dba3efd",
+      "bytes": 105586
     },
     {
       "path": "states/wa/councils/carnarvon/index.html",
@@ -15676,18 +15686,18 @@
     },
     {
       "path": "states/wa/councils/chapman-valley/index.html",
-      "sha256": "8d1d7b618bb78e6a81630e548be75099b4fc9e13ea238e86982d4dc34a969eea",
-      "bytes": 105682
+      "sha256": "bd33bd97b573dad380e7fbd998353af79898b833bd40f28cf80def6cc6b5ab93",
+      "bytes": 105645
     },
     {
       "path": "states/wa/councils/chittering/index.html",
-      "sha256": "038505ad53cedc2d3b26bee2d3b26a92b6e2c13b06f1a4f08af27231fc46e16f",
-      "bytes": 105632
+      "sha256": "7cd37c01f5852c2b05b86aaebd6e569d6b85779c347d8cf923105afe4670361a",
+      "bytes": 105595
     },
     {
       "path": "states/wa/councils/claremont/index.html",
-      "sha256": "24b9e99500265ea66d9fafb4fc153c2b88cf568e85b6b44f08e1b28dec49a05d",
-      "bytes": 106707
+      "sha256": "4f5ce2a07c0435e936382dc9c5024b7ef0fd753bd26cde1050a3d9d0c28f5ae9",
+      "bytes": 106670
     },
     {
       "path": "states/wa/councils/cockburn/index.html",
@@ -15696,98 +15706,98 @@
     },
     {
       "path": "states/wa/councils/collie/index.html",
-      "sha256": "25f977fe6aeb4c277125df46f8ceb781a4b8d144b9316ece9c08805948d7aebb",
-      "bytes": 106678
+      "sha256": "337c87c633b293c9c14d4ab6110eb9d9f8a7f9d4a1eb323a44645c854d9455f3",
+      "bytes": 106641
     },
     {
       "path": "states/wa/councils/coolgardie/index.html",
-      "sha256": "a4e01c7831b1f1f94c48e90329aaaedd986601459cce4d98da4b72f720736ddd",
-      "bytes": 106853
+      "sha256": "c3dc35e322f587c3acbd7f44eaf50c7a238537066b538080cd6a9884a4822aee",
+      "bytes": 106816
     },
     {
       "path": "states/wa/councils/coorow/index.html",
-      "sha256": "1fc01d91adec3fc0839b5ba904113a68e7ddf51197498faf11a86ef76c1ec21e",
-      "bytes": 105591
+      "sha256": "969df0caf9f111cd6e24dcf89470bf2d9c75b7549649022d20929ab0136e2ded",
+      "bytes": 105554
     },
     {
       "path": "states/wa/councils/corrigin/index.html",
-      "sha256": "750adc669bfa1e082483ec5fe9d38450b0b65b3cced4799fdaa34062ca441ab0",
-      "bytes": 105612
+      "sha256": "99cddad39862eaf28955a14aea24e36278cb9df03440caec3da95ca6cfdaf1f8",
+      "bytes": 105575
     },
     {
       "path": "states/wa/councils/cottesloe/index.html",
-      "sha256": "e7084d5e531cb410d37b72f04950e1fecd918dd7a500de2181ae7d27b3d61dc4",
-      "bytes": 106720
+      "sha256": "c6871f9df377b57db073f719e3054e5162886958e59d5aaf507aa709206ca530",
+      "bytes": 106683
     },
     {
       "path": "states/wa/councils/cranbrook/index.html",
-      "sha256": "991b6a1a8e6525557ca12b8982c5603639370013e5faf187a14effe3a8b7a4ed",
-      "bytes": 106736
+      "sha256": "261e705bc672de73a9d968bbc6ad7e8f4a0acf7660b327be8f4883c8db1ebefc",
+      "bytes": 106699
     },
     {
       "path": "states/wa/councils/cuballing/index.html",
-      "sha256": "6055e2dc86b20ef88838a2d06b3fd18ecc15a97a330516c6b435e63efc6296c4",
-      "bytes": 105072
+      "sha256": "5f41dbbca31d528d17f010f9cc7f32cdd996c85568087364329bfffa4baecd8f",
+      "bytes": 105035
     },
     {
       "path": "states/wa/councils/cue/index.html",
-      "sha256": "71c2628bd8d23107b8847391c5072ab592d4743fc39ebe4b04718d50987c6717",
-      "bytes": 107136
+      "sha256": "0858dabd52a492dee359ef85fcf8cb1d0f68d49bc942de0f3c81b5e09ca06528",
+      "bytes": 107099
     },
     {
       "path": "states/wa/councils/cunderdin/index.html",
-      "sha256": "d70609f85b59a55e25e9947cc93dc7f0501aaf86adbe2b01f448dbf6e249afb3",
-      "bytes": 106192
+      "sha256": "3f20b96ca35f701dfc6cc924fef06215e7bf588bba9f4ed06a1cb0e5806b8dd1",
+      "bytes": 106155
     },
     {
       "path": "states/wa/councils/dalwallinu/index.html",
-      "sha256": "dcd102b9eb12ac902c14e3d5ca4e03d89897aa55749dcec93641250f984d3d49",
-      "bytes": 105633
+      "sha256": "074074f4d6ce8bc13638f0e4ee22a1b2f12133626d5060fc4726016e960fb6ea",
+      "bytes": 105596
     },
     {
       "path": "states/wa/councils/dandaragan/index.html",
-      "sha256": "1a749c95630f771a5c2bb94fce5b95335c150f09bc86c030069597a2ac1e1c0f",
-      "bytes": 105635
+      "sha256": "bd9907a0ef6f858c3b0e97e458c24e48166d63e89c9f2683f82297c659a74578",
+      "bytes": 105598
     },
     {
       "path": "states/wa/councils/dardanup/index.html",
-      "sha256": "e60e1bee05f91a2684de06de90cd19958e6dc5564007e677d2d7558a18db5f99",
-      "bytes": 106724
+      "sha256": "4384be5f01df364b2886836351897385c8f086ce10aeb90aa6753f72827f4023",
+      "bytes": 106687
     },
     {
       "path": "states/wa/councils/denmark/index.html",
-      "sha256": "56e8e6a4225c230d543d3619e033655118823e40f4c4fc15434ce621e995554a",
-      "bytes": 106700
+      "sha256": "4ba14dfd2f402e7f6d365470e9f88aae599a8efc2adc306bf42e6ac3a7cfa699",
+      "bytes": 106663
     },
     {
       "path": "states/wa/councils/derby-west-kimberley/index.html",
-      "sha256": "c56c5d90527c29ddd6b19d0f7a921bc18685fe633ec5f93a3296d0e66d1696bd",
-      "bytes": 106700
+      "sha256": "906342b75c1bb588ba0821402a9ef6e0ee1cff3a4f1bc0e7dacb04a2ff65300f",
+      "bytes": 106663
     },
     {
       "path": "states/wa/councils/donnybrook-balingup/index.html",
-      "sha256": "8b6d2b4b6d273ed8a7e0e4e899c93032201dbb867ce51029d6c796be515b4a29",
-      "bytes": 106854
+      "sha256": "80751d9d94ea924cd9962d32734a75e5326948494e364a043db299fe9dbce7a7",
+      "bytes": 106817
     },
     {
       "path": "states/wa/councils/dowerin/index.html",
-      "sha256": "c3e93bddbcf18e00c0fa1b8ab84c3d078a408d88bf24e69f4c62c5d5b11ab0f9",
-      "bytes": 105594
+      "sha256": "473340d5d1c4c2f0a0b0b07fb6be322df68c91fab0ea7647668ba5cdd762d9f0",
+      "bytes": 105557
     },
     {
       "path": "states/wa/councils/dumbleyung/index.html",
-      "sha256": "54a5cc7d4e3eb109396b2e1e8162c25b841b94b7b46d8fdaf879c5b43729853b",
-      "bytes": 105633
+      "sha256": "fafa86cc04c83a53dde95b1e410e7e52fde25d9e6bd257464dbf55e2edb78cea",
+      "bytes": 105596
     },
     {
       "path": "states/wa/councils/dundas/index.html",
-      "sha256": "c2e8e8d9fe62d1e00cb3cd718eea27388ccc88c9023df2b8b2c6d96931dab0cb",
-      "bytes": 105045
+      "sha256": "21abb79d605dd109266334f52c6f003b9d3f0719d80f7c78121c6977643bb72d",
+      "bytes": 105008
     },
     {
       "path": "states/wa/councils/east-fremantle/index.html",
-      "sha256": "c526b096df0942b58e665c57df19acc26d605666deeb2ec51c1515c6cb4ab176",
-      "bytes": 106779
+      "sha256": "750071f45c06e4ec15b39bdd622d19c0175c20fb78d111c52322b56fc6e21133",
+      "bytes": 106742
     },
     {
       "path": "states/wa/councils/east-pilbara/index.html",
@@ -15801,8 +15811,8 @@
     },
     {
       "path": "states/wa/councils/exmouth/index.html",
-      "sha256": "2cdc6b0568a7eb5cb731b5107ac01b7745b731631fe18f89b767a237c7e1e897",
-      "bytes": 105609
+      "sha256": "98338bea3aa234ae8b8c99cd92783ff1c0e0d025e1280605cbcdb4b7ba51400b",
+      "bytes": 105572
     },
     {
       "path": "states/wa/councils/fremantle/index.html",
@@ -15811,48 +15821,48 @@
     },
     {
       "path": "states/wa/councils/gingin/index.html",
-      "sha256": "c613ab8e0036abccab14fb32e9d59bb669be1f637268529815cb56c7e91c2b70",
-      "bytes": 106678
+      "sha256": "f8e2e5c7fa48e3c4912909a1e6abbb1a7aabc208ef2292ca9ae5c809e6248d60",
+      "bytes": 106641
     },
     {
       "path": "states/wa/councils/gnowangerup/index.html",
-      "sha256": "94942729b8fa03e8db4e0bb96114ad3911c9a536cbe002acbe5f8114286f1df1",
-      "bytes": 105954
+      "sha256": "9bb49ceb266d5a4eb738569eea3218ccd0a7b4bdbba001aedee05dac92839fe1",
+      "bytes": 105917
     },
     {
       "path": "states/wa/councils/goomalling/index.html",
-      "sha256": "082e7f4b1e3e9d93fbaee7d6f3088e013f86b4aa62fe1ec0d5f0c5db50b0ca9f",
-      "bytes": 105636
+      "sha256": "991b958270e6d0ff0ef9180103ed0ec7d9fca1a1281eba927b5ebe53e9693cd8",
+      "bytes": 105599
     },
     {
       "path": "states/wa/councils/gosnells/index.html",
-      "sha256": "477c6a0273a56f8c9c8fcbed2c8653ddf8591ecbccabe392c2d996c49d7633ab",
-      "bytes": 108905
+      "sha256": "bacd8f8d1bc63e1a68492b11d9642ba2ebf6d6fb2908d92390d48f63c704a05d",
+      "bytes": 108868
     },
     {
       "path": "states/wa/councils/greater-geraldton/index.html",
-      "sha256": "59da45961f4a61772a0c87372f701f537b10929902ceee130e5f5533b96f0f9a",
-      "bytes": 106686
+      "sha256": "1e1acde590688a6129a23422b637329b86e7927c95a8a1f41a306914e8ed5fb5",
+      "bytes": 106649
     },
     {
       "path": "states/wa/councils/halls-creek/index.html",
-      "sha256": "ed33bd8ffbe1650be2d0b8118e1ffb24caad4679fb550e0121a8515dd8127b0c",
-      "bytes": 105641
+      "sha256": "aef36d4a48947e3ce9cfeb0db47c534e0feff899a226950d4fef8401a3f87240",
+      "bytes": 105604
     },
     {
       "path": "states/wa/councils/harvey/index.html",
-      "sha256": "1b5aec857f79b22fe5cd06a0dc60366b3f87fab959e114aab2112acc4e8f6115",
-      "bytes": 106702
+      "sha256": "795794621aaddffb109a5a232645ed0546bed4382c3a75058bd46ba686f99220",
+      "bytes": 106665
     },
     {
       "path": "states/wa/councils/irwin/index.html",
-      "sha256": "4ff302b97c8fe8ef43cbe4fe9d05071b9c9af68bfbfe06f2d6d7803a80f4007f",
-      "bytes": 106308
+      "sha256": "d312260fb78ff0312f1ce8a1f9a4f29ac3a9e6ccb76a6c84b314f2a6e6ae5d31",
+      "bytes": 106271
     },
     {
       "path": "states/wa/councils/jerramungup/index.html",
-      "sha256": "7d6b823f73c8950719449a752ca5861ff24c5853a9863bb45474fde15e8e1135",
-      "bytes": 105637
+      "sha256": "427e94eb33bf47b73a48449e605390fd9b5668867593c8daf86bd939adb18f51",
+      "bytes": 105600
     },
     {
       "path": "states/wa/councils/joondalup/index.html",
@@ -15866,68 +15876,68 @@
     },
     {
       "path": "states/wa/councils/kalgoorlie-boulder/index.html",
-      "sha256": "87d60f2892e51eea0f5f1da0dadae9c9ce18d62d172b4ae5b86d734ea69791e0",
-      "bytes": 106974
+      "sha256": "9760bc9f10e99849a6e0af4de0472c58f889c6d0fa27ee1c76352462591170b4",
+      "bytes": 106937
     },
     {
       "path": "states/wa/councils/karratha/index.html",
-      "sha256": "3e0a0f6e0a8e3b4914f94f736d23b3889b8f02037162dfdcb93426f86d46a53f",
-      "bytes": 106703
+      "sha256": "d7837a1206e2e836dc1bddf10d9559e28ecfc8105dcfc8903cfea47b109da7e9",
+      "bytes": 106666
     },
     {
       "path": "states/wa/councils/katanning/index.html",
-      "sha256": "9e72a317ee194b3307002bdb79b41a2ef0f4403bd3233dd03fbe871dcf65ca95",
-      "bytes": 105619
+      "sha256": "50e88dfefe2be62b4b065abd3843105c52f47d58cca4ab65d69ba896a9b1335b",
+      "bytes": 105582
     },
     {
       "path": "states/wa/councils/kellerberrin/index.html",
-      "sha256": "575344a85ef4f43f16490c5d8a0a7427e5b1230dc301785221e33f7ac035304c",
-      "bytes": 105647
+      "sha256": "ee722228ea04eff642a9fadbb23cf4e930242f0bc7e516a04546a6d4184f5adf",
+      "bytes": 105610
     },
     {
       "path": "states/wa/councils/kent/index.html",
-      "sha256": "13118017872159ff722c83ab5fc0d88f37eeb16e9e5170fb72da07d513984c0f",
-      "bytes": 105010
+      "sha256": "2b3ad71cbbf29afb6fc0a23c258973824b8e22ad1ea1e3f7f6e86e5f5353c6ed",
+      "bytes": 104973
     },
     {
       "path": "states/wa/councils/kojonup/index.html",
-      "sha256": "d247c23891baec19fa51c6397eb7dda323be34e05337812dd0b245439d1ed49f",
-      "bytes": 105607
+      "sha256": "2ed505a40a76d64b85acc463ca6267e5b7c533489f2f1111e5866cbf9f56a3d9",
+      "bytes": 105570
     },
     {
       "path": "states/wa/councils/kondinin/index.html",
-      "sha256": "2d4da6af5d597ec964fdb792ee5cd68fc3348932ef7166caf81c3cb3eeb6e871",
-      "bytes": 105605
+      "sha256": "b0fa343bb08771da0e407be7a8ab67afc2888a5b7a8bfaf9d11adc2ea9067366",
+      "bytes": 105568
     },
     {
       "path": "states/wa/councils/koorda/index.html",
-      "sha256": "1676eb51511af2ddf5342b1255ee6717eb3e003ee1567f57eeeca1dd2adbc65e",
-      "bytes": 105588
+      "sha256": "43b4b3040bde9a6cd3d65d25a1af356af41b09dfe92f595c66b575ddad4cafa2",
+      "bytes": 105551
     },
     {
       "path": "states/wa/councils/kulin/index.html",
-      "sha256": "82e4f9e7d4ef4de8ae8ad72501a2d08d4579b28f07cbe2b5d2628bea110fa1e9",
-      "bytes": 105574
+      "sha256": "8f96baf53c8620cee6d5964b59221e47ccf0dccb7ac3b6ad1853e3e4906c625d",
+      "bytes": 105537
     },
     {
       "path": "states/wa/councils/kwinana/index.html",
-      "sha256": "8345d35fb55afd6f5e9088544b54782b5931b22f5bb37101ff6b7d3f9b21e7e0",
-      "bytes": 106689
+      "sha256": "3af7fac91a762776ab201e9367a4a550e5ccf5d2ff04a9fa098c86e36cd60ee2",
+      "bytes": 106652
     },
     {
       "path": "states/wa/councils/lake-grace/index.html",
-      "sha256": "7cb6efbb9f78c0388d59b24872756f409e9976fed0a1f656099def3f69a998ad",
-      "bytes": 105620
+      "sha256": "3023b3a7847512dafd21b9784f50a5a0487c44a15785e542ac47c991ad84e096",
+      "bytes": 105583
     },
     {
       "path": "states/wa/councils/laverton/index.html",
-      "sha256": "86cf8d6c2bd7563c334889bf31aa9bbd5f084258d544c6a7dbf4878e74aaf4bd",
-      "bytes": 106164
+      "sha256": "4b44b6f8f9f457009da3f7e5ab62ac6817453f15f39af0093fdc08469a02f4fb",
+      "bytes": 106127
     },
     {
       "path": "states/wa/councils/leonora/index.html",
-      "sha256": "39470a1882ae725057a0e2f2d1e9072e0d17a9162c587955929905860603681c",
-      "bytes": 105605
+      "sha256": "e3f43d743b8335b0d7aaf4aedd4f07649f29320ee0f337a4f0cb1c58655eef54",
+      "bytes": 105568
     },
     {
       "path": "states/wa/councils/mandurah/index.html",
@@ -15941,8 +15951,8 @@
     },
     {
       "path": "states/wa/councils/meekatharra/index.html",
-      "sha256": "f5d9d5d78881e05a825e57da8caa362d1e79e84aedd0e45dff5a9823c5deef14",
-      "bytes": 105641
+      "sha256": "25df7d2846394b5e78803d03128a5cda58c0391d2a6fb8694be9eb7044b90806",
+      "bytes": 105604
     },
     {
       "path": "states/wa/councils/melville/index.html",
@@ -15951,48 +15961,48 @@
     },
     {
       "path": "states/wa/councils/menzies/index.html",
-      "sha256": "d44c220d15a5cb8c97e3652d895b5c38b0395621c7b1d687ecf7d6282da9db57",
-      "bytes": 105594
+      "sha256": "e5a6cd0858ef5acc8595462fa58ee1e92d6d2033d8067b4c6b2aa5b8d7f7d37c",
+      "bytes": 105557
     },
     {
       "path": "states/wa/councils/merredin/index.html",
-      "sha256": "384f8cdb89e085dd4375f7b7b4ab17891207f419f266f0bad9531425b07faefc",
-      "bytes": 106848
+      "sha256": "0043371c4cd3820f0d0943a6db3dfc12937693db3d6c86a587db96806463722c",
+      "bytes": 106811
     },
     {
       "path": "states/wa/councils/mingenew/index.html",
-      "sha256": "23c0d0cbf6c0dc9158c7d2e57fbfdd081b1b861234420fffd8dc2d6e3446db8b",
-      "bytes": 105055
+      "sha256": "b6577449236bef7871c77ed53afa0729d9ad83fa261b232abd0e6c2c0d47311f",
+      "bytes": 105018
     },
     {
       "path": "states/wa/councils/moora/index.html",
-      "sha256": "f60880c3e08e749c3dac12e5fc0b11515a2937f8ef182303c4493332d45b4b5c",
-      "bytes": 106124
+      "sha256": "16d73df2281bd88ff8e2c084b763b5f100cd63bcf4d13fd760756fbde5069623",
+      "bytes": 106087
     },
     {
       "path": "states/wa/councils/morawa/index.html",
-      "sha256": "dd3d3049554672870f473c204fd5e6b4e848d12b8dc080d840ee1a042de45563",
-      "bytes": 105588
+      "sha256": "b7a6481b46f0ce667784b5cf36a46cc765fd73f1441313122201348c0f1287fa",
+      "bytes": 105551
     },
     {
       "path": "states/wa/councils/mosman-park/index.html",
-      "sha256": "f7fbb1c40e183f33641eb95f9218b899b55fda41cba8dbce9ea4f2da7fa95b98",
-      "bytes": 105622
+      "sha256": "d149cd0677c06fcab0e9605eb108c471743c34fd77047aed535df66a9a01e9e0",
+      "bytes": 105585
     },
     {
       "path": "states/wa/councils/mount-magnet/index.html",
-      "sha256": "2980ed20db0f421f59a5726d1c2de425748cd9a2a6e27edf374d51dec24d20d4",
-      "bytes": 105620
+      "sha256": "bd465689a5874b2fc216d46a0d4a2ae321b1ae386744ff743a7acda8f0b859c7",
+      "bytes": 105583
     },
     {
       "path": "states/wa/councils/mount-marshall/index.html",
-      "sha256": "cdc72562ecaa1cd6546ce37aa5146784a53b2ee307546a7363eff4356ce4d731",
-      "bytes": 105637
+      "sha256": "1c55bf6657ec6c0d70088640d68746b38550f2f753f934f22bc346ce10a03945",
+      "bytes": 105600
     },
     {
       "path": "states/wa/councils/mukinbudin/index.html",
-      "sha256": "406d545da772823e95702969760e6899d1eeaf1b13efdd754ad8efd54d6fed80",
-      "bytes": 105634
+      "sha256": "65e0434e8877a4bdbcf08e371856fa06f435765f57b75135b1a937252414a6b4",
+      "bytes": 105597
     },
     {
       "path": "states/wa/councils/mundaring/index.html",
@@ -16001,28 +16011,28 @@
     },
     {
       "path": "states/wa/councils/murchison/index.html",
-      "sha256": "007b8039b9d095b94164ad68484bdf3150ad94c79ec910bb78ad769ba4b07442",
-      "bytes": 105086
+      "sha256": "2fed9d095a23b3f38c57a87e0398dff0e25d233011fe07d51188536e8f073ab9",
+      "bytes": 105049
     },
     {
       "path": "states/wa/councils/murray/index.html",
-      "sha256": "271f14d8f67fdf42ea8b2f7e2f44e32908bf1128933fdaa96c179efa41568cc6",
-      "bytes": 106679
+      "sha256": "2e8442b8dbce1964455619e7c3f45ee79c5a30ca9f8d31abd82d2652d47dae49",
+      "bytes": 106642
     },
     {
       "path": "states/wa/councils/nannup/index.html",
-      "sha256": "ee8d21b1075fceb0eed13dc6a6b73433b0b3917142b3759b7ea32ae7eb09184f",
-      "bytes": 105582
+      "sha256": "2d2d4fd7e3f617f0ad07a20af96d7755efaf122230a8209512c9af642a35a0c5",
+      "bytes": 105545
     },
     {
       "path": "states/wa/councils/narembeen/index.html",
-      "sha256": "e82c4707fba752f2023f07434ebe23132759de298d3c7411b9d3e9ba41a4cef3",
-      "bytes": 105613
+      "sha256": "99af4efa89f51cdda162cef66afc47fd73836583b98a2d16bf1c4f2986dbfde0",
+      "bytes": 105576
     },
     {
       "path": "states/wa/councils/narrogin/index.html",
-      "sha256": "7b7d8c1a764d162891eb22e577c6eb150151de04ce86154b6163184d8fee1478",
-      "bytes": 106156
+      "sha256": "ed0a50203ac92e9b333512876c03302d7175968d05846e5bad9345995b451338",
+      "bytes": 106119
     },
     {
       "path": "states/wa/councils/nedlands/index.html",
@@ -16031,8 +16041,8 @@
     },
     {
       "path": "states/wa/councils/ngaanyatjarraku/index.html",
-      "sha256": "947a6f26942039e087ba64ba83db727339873a18bcc8ea74d19c187118c10146",
-      "bytes": 104572
+      "sha256": "aacb9aabfdc0c0bf703d969b78c97c0e3ae8b79d85423ee501712323d5de5e5e",
+      "bytes": 104535
     },
     {
       "path": "states/wa/councils/northam/index.html",
@@ -16041,53 +16051,53 @@
     },
     {
       "path": "states/wa/councils/northampton/index.html",
-      "sha256": "19d66375c123c9d32eb8b19feda6311c62a8fad5a93fc8640ccefaacb44800f2",
-      "bytes": 107230
+      "sha256": "0b51fde082f0b8264120ce0584be32f927f474f7aee9347091b895c01abeda89",
+      "bytes": 107193
     },
     {
       "path": "states/wa/councils/nungarin/index.html",
-      "sha256": "d78c5bf8292040944fe3e3f67c738f104d7c5bca47fc028f7634eba4d9c24336",
-      "bytes": 105598
+      "sha256": "3a08b4206b1d4f080293fd1014024e34844fc9c20c9e7a1d72092711b3b13feb",
+      "bytes": 105561
     },
     {
       "path": "states/wa/councils/peppermint-grove/index.html",
-      "sha256": "d1b667e2878bf17d6073328f86438700bdff9b20a840043c96d6b885989e0293",
-      "bytes": 105700
+      "sha256": "e1e818cd5d96c3f6653596ad75efdd50590b1ec8f5628ed464a8fc28be8693b5",
+      "bytes": 105663
     },
     {
       "path": "states/wa/councils/perenjori/index.html",
-      "sha256": "6202ca42d599ff40e8fa4a5ed2dcfc0b07ed639b9c20dcfaa214a3fbfb767ced",
-      "bytes": 105627
+      "sha256": "2b1a21ef1a5b1ed0ae7c3653d9bc3b8cf9ef2cdf5aeab34ee3fdfe776738b842",
+      "bytes": 105590
     },
     {
       "path": "states/wa/councils/perth/index.html",
-      "sha256": "082af6689a705f2645683b473df1aa3e61bc1177415242ef263eb360eb31d2d7",
-      "bytes": 106661
+      "sha256": "eef9363eeafd1d30c9a627e8136d37a31be88ea0695fb2e90ea63628d85b0352",
+      "bytes": 106624
     },
     {
       "path": "states/wa/councils/pingelly/index.html",
-      "sha256": "93db0fb3fac39c3166593d24598bc754577f9b470500896df4c93bae997670d9",
-      "bytes": 105616
+      "sha256": "38f152a4b371fd9ab5b34270786530aea17b40dfdaed888abf0043d89679edd4",
+      "bytes": 105579
     },
     {
       "path": "states/wa/councils/plantagenet/index.html",
-      "sha256": "168b4f684ac3c47202e55e86e72133357335ca20c221fd3e0c20f093ca33ae0d",
-      "bytes": 106741
+      "sha256": "19fbc9ac7d51347dfe5579e756df910035a215f613fa636430addce4b8b40e25",
+      "bytes": 106704
     },
     {
       "path": "states/wa/councils/port-hedland/index.html",
-      "sha256": "408edb9d72901b668351c9a768c9860dba44f2bc6ee24dac43c828893a8fe661",
-      "bytes": 106745
+      "sha256": "68d94691c56cb307132f5f3ab9ff27f72e71ff331b1b6a2e87f6c3443d100d98",
+      "bytes": 106708
     },
     {
       "path": "states/wa/councils/quairading/index.html",
-      "sha256": "f5bc765606387c013a0abfa11892da4f90ad7587ca7887d9b145d98675f39e44",
-      "bytes": 105078
+      "sha256": "803472453f1cd8e549f7da991ec955e6e27e01e64cfac90733fcba1eae36db7a",
+      "bytes": 105041
     },
     {
       "path": "states/wa/councils/ravensthorpe/index.html",
-      "sha256": "a474d39b62468418d332b9f8aa786eb081aac826409979885872beb8b9d2fb65",
-      "bytes": 105778
+      "sha256": "b92360ae2fc5dbc5441801806c00c5dc3687543a1b410688fb49631c02ee76e5",
+      "bytes": 105741
     },
     {
       "path": "states/wa/councils/rockingham/index.html",
@@ -16096,8 +16106,8 @@
     },
     {
       "path": "states/wa/councils/sandstone/index.html",
-      "sha256": "4b1b4232c8b9e1789f2dca225faccc835ea94ef88bf4c258cbd49fb7ea1911cb",
-      "bytes": 105071
+      "sha256": "a98319056dec8bf2b963f208c835ef7b47451ae4a9d583725f7a7e9102b9b1e0",
+      "bytes": 105034
     },
     {
       "path": "states/wa/councils/serpentine-jarrahdale/index.html",
@@ -16106,8 +16116,8 @@
     },
     {
       "path": "states/wa/councils/shark-bay/index.html",
-      "sha256": "69f9a388d10519a33015f23337cb401af032f43c85fb62a6df5fb88b6fa5492b",
-      "bytes": 105617
+      "sha256": "cc404fcfe32fc09ab3af05bc08077ade817af8abc93f64af26939d305000f027",
+      "bytes": 105580
     },
     {
       "path": "states/wa/councils/south-perth/index.html",
@@ -16131,28 +16141,28 @@
     },
     {
       "path": "states/wa/councils/tammin/index.html",
-      "sha256": "4e67134b1ff79e0914ef78c6b7aad769194ecfc04df843d856650591b88a2a21",
-      "bytes": 105045
+      "sha256": "8882af897cf2b96a645ccdb7aa93992c132729f7128d3fe1ae4d2f03ca20f765",
+      "bytes": 105008
     },
     {
       "path": "states/wa/councils/three-springs/index.html",
-      "sha256": "4c3364e42c91bff4603bffc2d2e921fbef0cbd5a096ad198b000237195018658",
-      "bytes": 105655
+      "sha256": "a0cb24b55fc13b175eb2576ff53bc8c7b2f1cc59e94ebb9a108fc4e5ba736822",
+      "bytes": 105618
     },
     {
       "path": "states/wa/councils/toodyay/index.html",
-      "sha256": "e801a230416c35369a98d762c960c356e0b1e313085b7506a7b880c9699faa28",
-      "bytes": 105608
+      "sha256": "e08d7917d14a55e0e5ba01e6b6819bd8da9e5daba13e82a16078f02d3ce69f77",
+      "bytes": 105571
     },
     {
       "path": "states/wa/councils/trayning/index.html",
-      "sha256": "80eb4db3fe8352c797a649e58050b3de7f5bf3eeec1724df9857589154c25e23",
-      "bytes": 105612
+      "sha256": "185d7a529f34dc45216a16a4d00913e3012e789daa00aa82db2e022aa81f3e60",
+      "bytes": 105575
     },
     {
       "path": "states/wa/councils/upper-gascoyne/index.html",
-      "sha256": "66a3db931dd810be41a8dc9ce7c9e499a1ae9f6960b4bfff37f20d6c3af44979",
-      "bytes": 105665
+      "sha256": "498a12265e658298ecd4a9aa540b279bf2494032ff7a1964d23c8fa79d033476",
+      "bytes": 105628
     },
     {
       "path": "states/wa/councils/victoria-park/index.html",
@@ -16161,8 +16171,8 @@
     },
     {
       "path": "states/wa/councils/victoria-plains/index.html",
-      "sha256": "3f5080871c8e261683c507751382558843a5ee1fa5a1321b37da5da4201725ac",
-      "bytes": 104572
+      "sha256": "f2bbd3c10833587c75c1a532ad46b230fddc7eeac66b480faf46b067a3429395",
+      "bytes": 105871
     },
     {
       "path": "states/wa/councils/vincent/index.html",
@@ -16171,13 +16181,13 @@
     },
     {
       "path": "states/wa/councils/wagin/index.html",
-      "sha256": "bd258072139a445fce60a1042b7951536411db61241721f89e09dcd30db8987b",
-      "bytes": 105578
+      "sha256": "89dc9b26af010a26efff9360389fed3c7bebfeaa1dd8276b49d3d33a7e2e9d58",
+      "bytes": 105541
     },
     {
       "path": "states/wa/councils/wandering/index.html",
-      "sha256": "3007f89e146edf202130f3d0ee383f6b0ad3116c0ee0cb2b96f372ab1d504eb6",
-      "bytes": 105619
+      "sha256": "1e78221ecc1f02c72f6bf4233ea776cd2cdf4b0a1fe040128562921dc6eeb952",
+      "bytes": 105582
     },
     {
       "path": "states/wa/councils/wanneroo/index.html",
@@ -16186,68 +16196,68 @@
     },
     {
       "path": "states/wa/councils/waroona/index.html",
-      "sha256": "42641bd305c48b39fcbfe1790a934a012c96f16d0941f78a3cc585ad5a6f4920",
-      "bytes": 105596
+      "sha256": "ddac8475fc95a57e1bd6b17e9adefe65e4847f2f4e2067878e013f74e421cec8",
+      "bytes": 105559
     },
     {
       "path": "states/wa/councils/west-arthur/index.html",
-      "sha256": "223bb7e7b99f4d2b0d5222d56a8a6bd8fcf4c40c3e58570609ec6318fa65eb51",
-      "bytes": 105641
+      "sha256": "ba486e56685e6c1d9283676003e1e1c0f140d1fb97bd6b74aa150a07d2650bb2",
+      "bytes": 105604
     },
     {
       "path": "states/wa/councils/westonia/index.html",
-      "sha256": "28e59b9120b1d735dd6fc7b1815eec65e7cf71616d4312bee0a393d1f353015e",
-      "bytes": 105066
+      "sha256": "58445f26d460396d43663c563d2ece8defb56ad25358127feffdf89ac13ba176",
+      "bytes": 105029
     },
     {
       "path": "states/wa/councils/wickepin/index.html",
-      "sha256": "e97025b21fc3c6c52cca377e11328b51e3750267e4e3767734f64fbc0a1898df",
-      "bytes": 105602
+      "sha256": "de8443bff593f98817190d21919602aea889b4cbdebd0bc14b48acce2abaadac",
+      "bytes": 105565
     },
     {
       "path": "states/wa/councils/williams/index.html",
-      "sha256": "9d77197a21d977bfa764e59a13746de5b2ad61471738eeea278f51f91642bf89",
-      "bytes": 105615
+      "sha256": "c744aabbccaafb55d3052b90aa48d9e65eb6ae1da001e233eb53be67721a2ec7",
+      "bytes": 105578
     },
     {
       "path": "states/wa/councils/wiluna/index.html",
-      "sha256": "e7f5e69e95e12211b5d4c9aff44f81943f6735303797de3dcd434912e71dc378",
-      "bytes": 105589
+      "sha256": "e6e1141266dc082ef5a88a29ff740697dd0ac6c0d72cccf415dcc556f88abcdf",
+      "bytes": 105552
     },
     {
       "path": "states/wa/councils/wongan-ballidu/index.html",
-      "sha256": "5bd03afaf603e7d388fbab98bf86239bd8c5d60c10ef1f7797e3688687554426",
-      "bytes": 105622
+      "sha256": "3ba7b2c57cc3ee38096c1ff9ccfb2fab6fcb1bf2f7973b3d3b7d8aefb5db5dde",
+      "bytes": 105585
     },
     {
       "path": "states/wa/councils/woodanilling/index.html",
-      "sha256": "9a5499d49601d0b6d5da7a0bd3830bae0eb56873dc5166212aa094930f4a34f4",
-      "bytes": 105112
+      "sha256": "7a9b1af327ef8c6953dfe98f8a6621f0b6f24802c16015ab07c7881c5b612f51",
+      "bytes": 105075
     },
     {
       "path": "states/wa/councils/wyalkatchem/index.html",
-      "sha256": "38f46d4750437be1442f020d01a1f358c2a169e84e159b29142c3a4e3402e169",
-      "bytes": 105657
+      "sha256": "06223f0648c49c830494940baca868eca519891a5f0f5c30e5ccfddc0d6e0a9f",
+      "bytes": 105620
     },
     {
       "path": "states/wa/councils/wyndham-east-kimberley/index.html",
-      "sha256": "bfe22f14ecdcb21e22023a607c04de672d814230c11d09d044a81734eb4e8df0",
-      "bytes": 106696
+      "sha256": "76f13da0872f6037977214ac5c4fe67db8bbd53fc9e31db472aa2f448e0b8761",
+      "bytes": 106659
     },
     {
       "path": "states/wa/councils/yalgoo/index.html",
-      "sha256": "75d4f6808113ba02817da81ab2d4fe28e59d7c931bd91de544b124b52f17c8f2",
-      "bytes": 105040
+      "sha256": "2a7ed29188e9d2a1f0aeec3d24ea9b2195e6fc1d7aec0d2884c74f3d0b570726",
+      "bytes": 105003
     },
     {
       "path": "states/wa/councils/yilgarn/index.html",
-      "sha256": "af7299c5fc89578474f4c879f63fc6a98fc4c7c33e5f8170fa7638c06bce0aa1",
-      "bytes": 105594
+      "sha256": "5cd7af91838c96467c670d2a69e76b4f86561631d5a0ac8768a61cbeeb2e7c0d",
+      "bytes": 105557
     },
     {
       "path": "states/wa/councils/york/index.html",
-      "sha256": "4f6b4e67d67f05004542aca763ad99270ac134b40288283c5b04b2c531d27bc8",
-      "bytes": 105566
+      "sha256": "e9828fa26906ba7d6c6f686d5f052c7e5decb6dd2229b9bcb440a2593bae7c38",
+      "bytes": 105529
     },
     {
       "path": "states/wa/electorates/districts/albany/index.html",
@@ -17201,8 +17211,8 @@
     },
     {
       "path": "states/wa/places/councils/index.html",
-      "sha256": "dd410e34c1ed22a784d404df469677e06b8675836c4f5243501d0fd54032bcde",
-      "bytes": 138814
+      "sha256": "247dadca26aaa0004e71ec26a9efb175af6038f28a52a6277e643cc417f07e5b",
+      "bytes": 138777
     },
     {
       "path": "states/wa/places/federal/index.html",
@@ -17211,8 +17221,8 @@
     },
     {
       "path": "states/wa/places/index.html",
-      "sha256": "6008a0429a6c870b399f6cf179fc27133682733fc036a4e69d6014633d7bf37c",
-      "bytes": 132381
+      "sha256": "103e6e4f7db34ae01f04dfdbeec4ae4ba21d4606310204662b691e99cc5b5669",
+      "bytes": 132363
     },
     {
       "path": "states/wa/places/state/index.html",
@@ -17226,8 +17236,8 @@
     },
     {
       "path": "tools/build-national-contracts.py",
-      "sha256": "e70fcd4bf614d0e4186436cb4d706f893bbcd62844c279d58aace55d659a1dd2",
-      "bytes": 12351
+      "sha256": "6afce5b99506df5add184b29d50d349dd3ab38a506e62c1e7d3e0fda48f879ee",
+      "bytes": 12995
     },
     {
       "path": "tools/build-national-places.py",
@@ -17236,8 +17246,8 @@
     },
     {
       "path": "tools/national_evidence.py",
-      "sha256": "33a2c8693ff6547d73bab00791f4771eafbb298ed633e8f141254caf4c0067a1",
-      "bytes": 17765
+      "sha256": "bd95694606adb8f613b7069df852bfe26c6948722ff15b138e11b26f5a314acc",
+      "bytes": 18127
     },
     {
       "path": "tools/national_geometry.py",
@@ -17251,8 +17261,8 @@
     },
     {
       "path": "tools/verify-council-pattern.py",
-      "sha256": "5d473679855eab9845bf3c8b4e75d8289b2b6cf29493f55a92f2d184a2ae1fdc",
-      "bytes": 35198
+      "sha256": "f35045f32b77dce70a524326bb2bc6ae5377f4f39db74ad9d5d8c51e00726e18",
+      "bytes": 36655
     },
     {
       "path": "tools/verify-national-places.py",
@@ -17261,8 +17271,8 @@
     },
     {
       "path": "tools/verify-place-contracts.py",
-      "sha256": "6016c7c3b66203c7be2b0f65602a6b53cdc6032e19eccf534779f72f4a8d3abe",
-      "bytes": 6977
+      "sha256": "4fb94ddf3dab7b44f102c94c125645bbabf16784fb2ae332515732b5e6ee6305",
+      "bytes": 7893
     }
   ],
   "sourceHashesRequested": true,

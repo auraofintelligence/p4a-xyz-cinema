@@ -1,6 +1,8 @@
 # Fractal election, member and navigation updates
 
-Version 1.3. Created 17 October 2026; updated 5 November 2026, Australia/Brisbane. This is the maintenance guide for council, state/territory and federal election pages, including an individual by-election. The national adapter and canonical registries below now exist. Their recorded coverage and verification limits remain separate from a claim that every individual fact or local journey is complete.
+**9 November 2026 workflow reset:** Follow [publication then live browser review](publication-and-browser-review.md). Browser acceptance is post-deployment, cloud-only and does not block publication. Keep source/data/build/civic checks before publication. Use explicit `--publication` for contract generation and validation before publishing; defaults retain strict post-live acceptance. Older browser-before-publication requirements below are superseded for sequencing only.
+
+Version 1.4. Created 17 October 2026; updated 9 November 2026, Australia/Brisbane. This is the maintenance guide for council, state/territory and federal election pages, including an individual by-election. The national adapter and canonical registries below now exist. Their recorded coverage and verification limits remain separate from a claim that every individual fact or local journey is complete.
 
 Read [AGENTS.md](../../AGENTS.md), the [shared place rules](local-place-pattern.md), the relevant [council](council-journey-rules.md), [state](state-electorate-journey-rules.md) or [federal](federal-electorate-journey-rules.md) guide, and the target's existing source and history. Use the [watchlist](../../content/refresh-watchlist.md) to find triggers and the [existing coverage inventory](existing-place-coverage.md) to find working implementations. This guide replaces the watchlist's former state-only/manual-mirroring recipe for scoped election maintenance.
 

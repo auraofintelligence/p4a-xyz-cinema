@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Redland's 30 October review remains unchanged: mayoral office vacant, Julie Talty Acting Mayor, and Council's request for a full postal ballot subject to approval; ECQ polling and nomination dates remain unconfirmed. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
+  "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Focused Redland recheck 9 November: ECQ confirms a 12 December full postal mayoral by-election, with notice and nominations opening announced for 10 November. No opening hour or closing deadline is inferred. Current-office and reported-intention evidence retain their previous dates. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "David Crisafulli",
@@ -81,21 +81,24 @@
     },
     {
       "label": "2026 Redland City mayoral by-election",
-      "date": null,
+      "date": "2026-12-12T00:00:00+10:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Awaiting confirmation to begin",
-      "note": "Mayoral vacancy confirmed 28 October following Jos Mitchell's resignation; Julie Talty continues as Acting Mayor. Council agreed on 29 October to request a full postal ballot, subject to approval. ECQ polling and nomination dates are not announced in the reviewed sources; no date, approved voting method or candidacy is inferred.",
-      "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+      "status": "Full postal by-election confirmed for 12 December 2026. Notice of election and nominations opening announced for 10 November; nomination closing and postal deadlines not yet verified.",
+      "note": "ECQ announced on 5 November 2026 that the by-election will be held on 12 December by full postal ballot. The countdown is to the start of that Brisbane calendar date, not the opening of polling or a postal deadline. Notice and nominations opening announced for 10 November; no opening hour, nomination closing date or postal deadline is inferred. Five reported intentions on the local candidate page remain distinct from accepted nominations. Official ECQ announcement rechecked 9 November 2026, Australia/Brisbane.",
+      "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
       "nominationDeadline": null,
-      "timingStatus": "awaiting-confirmation",
+      "timingStatus": "confirmed",
       "dayMetrics": {
-        "displayDaysUntil": false,
+        "displayDaysUntil": true,
         "displayDaysSince": false,
         "archiveDaysSince": true,
         "cycleKey": "qld-redland-mayoral-vacancy-2026-10-28",
-        "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. No countdown begins without a confirmed timetable."
-      }
+        "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. Countdown targets the start of the confirmed calendar date, not poll opening or a postal deadline."
+      },
+      "timezone": "Australia/Brisbane",
+      "datePrecision": "day",
+      "nominationsOpen": "2026-11-10"
     }
   ],
   "chambers": [

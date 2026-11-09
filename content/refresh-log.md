@@ -453,3 +453,9 @@ Approved continuation on 5 November: completed content-based mutation guards and
 ## 2026-11-08 - Focused Redland election correction
 
 Updated the local Redland election data and three existing pages from ECQ's 5 November announcement: 12 December full postal by-election, notice and nominations opening 10 November. Five intentions are distinguished from accepted nominations, using the retained Rowanne primary source and four additional media reports. Nomination closing and postal deadlines remain unknown. Original source dates and ordinary/historical elections are preserved. Earlier data is archived in content/local/history/redland-election-before-2026-11-08.json. Publication requested without renewed tests or browser checks; no new acceptance pass is claimed. Shared Queensland/national mirror records remain follow-up. See docs/releases/2026-11-08-redland-election-correction.md for sources, scope and limits.
+
+## 9 November 2026: scoped recovery and publication sequencing
+
+Recovered 38 prepared council-record changes and reconciled affected state summaries. Retained exact 7 November evidence/history and clearly labelled bounded 9 November rechecks without changing unrelated source dates. Confirmed Knox, Palmerston, Tenterfield and Victoria Plains notices; candidate intentions/nomination receipts remain distinct from accepted nominations. See `docs/releases/2026-11-09-publication-workflow-reset.md` and `content/places/sources/election-recovery-recheck-2026-11-09.json` for exact sources and gaps.
+
+Explicit publication mode now defers saved browser evidence until confirmed live deployment while retaining source/data/build/civic checks and default strict acceptance. Browser checks use the cloud only. This log records prepared implementation, not a claim that local work is live. Exact remote/deployment and post-live browser results remain separate.

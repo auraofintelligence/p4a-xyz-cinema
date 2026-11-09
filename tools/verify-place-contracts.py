@@ -34,6 +34,7 @@ class BoundedPageCache(OrderedDict):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--json', action='store_true', help='Print a compact machine-readable aggregate report.')
+    parser.add_argument("--publication", action="store_true", help="Keep structural/data checks; defer browser acceptance until after deployment.")
     args = parser.parse_args(argv)
     manifests=sorted((ROOT/'content').rglob('*-pattern-contract.json'))
     if not manifests:
@@ -50,7 +51,7 @@ def main(argv=None):
     class CachedValidator(validator_module.Validator):
         """Use the original checks; cache only identical read-only inputs."""
         def __init__(self, manifest):
-            super().__init__(manifest, ROOT,inputs=inputs)
+            super().__init__(manifest, ROOT,inputs=inputs,publication=args.publication)
             self.pages = pages
 
         def read(self, relative):
@@ -68,11 +69,13 @@ def main(argv=None):
             key = json.dumps(entry, sort_keys=True, ensure_ascii=False)
             if key not in evidence_cache:
                 start = len(self.errors)
+                deferred_start = len(self.deferred)
                 before = self.counts.copy()
                 super().verify_evidence(entry)
-                evidence_cache[key] = ([dict(e) for e in self.errors[start:]], self.counts - before)
+                evidence_cache[key] = ([dict(e) for e in self.errors[start:]], self.counts - before, [dict(e) for e in self.deferred[deferred_start:]])
             else:
-                errors, counts = evidence_cache[key]
+                errors, counts, deferred = evidence_cache[key]
+                self.deferred.extend(dict(e) for e in deferred)
                 self.errors.extend(dict(e) for e in errors)
                 self.counts.update(counts)
 
@@ -81,8 +84,9 @@ def main(argv=None):
             key = (evidence['validation'], evidence['browser'])
             if key not in national_preflights:
                 try:
-                    validation,browser=self.read(key[0]),self.read(key[1])
-                    national_preflights[key] = require_current_evidence(ROOT,validation,browser)
+                    validation=self.read(key[0])
+                    browser={} if args.publication else self.read(key[1])
+                    national_preflights[key] = require_current_evidence(ROOT,validation,browser,require_browser=not args.publication)
                     inputs.bind_national(validation,browser,national_preflights[key])
                 except (OSError, ValueError, TypeError, KeyError) as exc:
                     national_preflights[key] = str(exc)
@@ -93,6 +97,7 @@ def main(argv=None):
     scopes = Counter()
     counts = Counter()
     warning_count = 0
+    deferred_count = 0
     run_errors=[]
     try:
         verify_contract_set(ROOT,inputs)
@@ -106,6 +111,7 @@ def main(argv=None):
             scopes[declaration.get('acceptanceScope', 'legacy-declared-civic-journey')] += 1
             counts.update(result.get('counts', {}))
             warning_count += len(result.get('warnings', []))
+            deferred_count += len(result.get('deferredReviewChecks', []))
         except (OSError, ValueError, TypeError, KeyError, IndexError) as exc:
             result = {'result': 'FAIL', 'errors': [{'code': 'manifest-error', 'message': str(exc)}]}
         if result['result'] != 'PASS':
@@ -121,7 +127,9 @@ def main(argv=None):
               'failedContracts': len(failures), 'declaredScopes': dict(scopes), 'counts': dict(counts),
               'declaredLimitations': warning_count, 'failures': failures,
               'nationalEvidencePreflights': [{'validation':key[0], 'browser':key[1], 'result':value} for key,value in national_preflights.items()],
-              'scope': 'Original manifest validator semantics; in-process, offline, read-only. Structural route contracts do not certify complete national source/browser coverage.'}
+              'browserAcceptance': 'deferred until after live deployment' if args.publication else 'saved evidence verified only if result is PASS',
+              'deferredReviewChecks':deferred_count,
+              'scope': 'Publication mode defers review bindings only when requested. Original manifest validator semantics; in-process, offline, read-only. Structural route contracts do not certify complete national source/browser coverage.'}
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False))
     else:
@@ -135,6 +143,7 @@ def main(argv=None):
                 print(f"  [{error['code']}] {error['message']}")
         if len(failures) > 20:
             print(f'{len(failures)-20} further failed contracts; use --json for all evidence.')
+        print('Browser acceptance: '+report['browserAcceptance']+'; deferred review bindings: '+str(deferred_count))
         print('Declared limits remain in each manifest; this run repeats no browser, editorial or live source review.')
     return 1 if failures or run_errors else 0
 

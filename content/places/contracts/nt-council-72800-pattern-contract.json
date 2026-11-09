@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-09"
     ]
   },
   "routes": [
@@ -73,7 +73,8 @@
           "council-abs-2026-lga",
           "council-nt-roster-palmerston",
           "council-nt-2025-ballot-palmerston-palmerston-councillor",
-          "council-nt-2025-ballot-palmerston-palmerston-mayor"
+          "council-nt-2025-ballot-palmerston-palmerston-mayor",
+          "election-review-palmerston-20261108"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -113,14 +114,6 @@
             "name": "Sarah Henderson",
             "role": "Councillor",
             "profileUrl": "https://palmerston.nt.gov.au/councillor-sarah-henderson",
-            "profileType": "official individual profile",
-            "sourceId": "council-nt-roster-palmerston",
-            "checked": "2026-10-17"
-          },
-          {
-            "name": "Yolanda Kanyai",
-            "role": "Councillor",
-            "profileUrl": "https://palmerston.nt.gov.au/councillor-yolanda-kanyai-0",
             "profileType": "official individual profile",
             "sourceId": "council-nt-roster-palmerston",
             "checked": "2026-10-17"
@@ -363,12 +356,42 @@
               "retainedCandidateCount": 6,
               "complete": true
             }
+          },
+          {
+            "id": "nt-council-72800-vacancy-2026-11-03",
+            "label": "Palmerston councillor vacancy",
+            "kind": "vacancy",
+            "status": "Vacancy confirmed; replacement timetable unconfirmed",
+            "date": null,
+            "timingStatus": "awaiting-confirmation",
+            "waitingLabel": "Awaiting confirmation to begin",
+            "timezone": "Australia/Darwin",
+            "dateBasis": "Council confirms Yolanda Kanyai resigned on 3 November 2026. The vacancy will be filled through a by-election; nominations, voting arrangements and election date remain unconfirmed.",
+            "sourceUrl": "https://palmerston.nt.gov.au/council/media-releases/2026/resignation-councillor-yolanda-kanyai",
+            "checked": "2026-11-08",
+            "candidates": [],
+            "sourceId": "election-review-palmerston-20261108"
           }
         ],
         "coverageNotes": [
           "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
           "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such."
-        ]
+        ],
+        "formerRepresentatives": [
+          {
+            "name": "Yolanda Kanyai",
+            "role": "Councillor",
+            "profileUrl": "https://palmerston.nt.gov.au/councillor-yolanda-kanyai-0",
+            "profileType": "official individual profile",
+            "sourceId": "council-nt-roster-palmerston",
+            "checked": "2026-10-17",
+            "endDate": "2026-11-03",
+            "status": "Resigned",
+            "endSourceUrl": "https://palmerston.nt.gov.au/council/media-releases/2026/resignation-councillor-yolanda-kanyai",
+            "endChecked": "2026-11-08"
+          }
+        ],
+        "representationReview": "Council confirms Yolanda Kanyai resigned on 3 November 2026. The vacancy will be filled through a by-election; nominations, voting arrangements and election date remain unconfirmed. Other retained roles keep their earlier source dates. Checked 8 November 2026."
       }
     }
   ],

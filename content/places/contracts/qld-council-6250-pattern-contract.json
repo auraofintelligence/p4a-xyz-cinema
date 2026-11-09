@@ -34,7 +34,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-09"
     ]
   },
   "routes": [
@@ -82,7 +82,9 @@
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
           "council-qld-current-leaders-browser",
           "election-review-redland-20261030",
-          "election-review-redland-postal-request-20261030"
+          "election-review-redland-postal-request-20261030",
+          "election-review-redland-20261107",
+          "election-recovery-redland-20261108"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
@@ -543,16 +545,20 @@
             "id": "redland-mayoral-vacancy-2026-10-28",
             "label": "Redland City mayoral by-election",
             "kind": "by-election",
-            "status": "Awaiting confirmation to begin",
-            "date": null,
-            "dateBasis": "No Redland polling date or time was listed on the ECQ election-events page checked 30 October 2026, Australia/Brisbane. Council has agreed to request a full postal ballot, subject to electoral approval processes; this is not a confirmed voting method or timetable. No date is estimated. Mayoral office vacant; by-election required. Council has agreed to request a full postal ballot, subject to approval. ECQ polling and nomination timetable awaiting confirmation.",
+            "status": "Full postal by-election confirmed for 12 December 2026. Notice of election and nominations opening announced for 10 November; nomination closing and postal deadlines not yet verified.",
+            "date": "2026-12-12",
+            "dateBasis": "ECQ announced on 5 November 2026 that the by-election will be held on 12 December by full postal ballot. The countdown is to the start of that Brisbane calendar date, not the opening of polling or a postal deadline.",
             "timezone": "Australia/Brisbane",
-            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events",
+            "sourceUrl": "https://www.ecq.qld.gov.au/media/2026-media-statements",
             "candidates": [],
-            "checked": "2026-10-30",
+            "checked": "2026-11-08",
             "nominationsClose": null,
-            "milestoneLabel": "mayoral by-election day",
-            "waitingLabel": "Awaiting confirmation to begin"
+            "milestoneLabel": "start of mayoral by-election date (not a postal deadline)",
+            "timingStatus": "confirmed",
+            "nominationsOpen": "2026-11-10",
+            "sourceId": "election-recovery-redland-20261108",
+            "timePrecision": "calendar-day",
+            "candidateCoverage": "Five reported intentions, listed alphabetically by first name, not in ballot order: one retained primary-source announcement and four additional media-reported intentions. This is not a complete official field or accepted nomination list. ECQ says nominations open on 10 November 2026. See the linked Redland candidate directory for reported intentions; this national accepted-candidate list remains empty."
           }
         ],
         "coverageNotes": [

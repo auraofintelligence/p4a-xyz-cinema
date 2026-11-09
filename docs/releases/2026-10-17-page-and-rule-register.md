@@ -1,6 +1,6 @@
 # Pages and rules review register
 
-Updated 2026-11-05, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
+Updated 2026-11-09, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
 
 ## The local journey
 
@@ -9,13 +9,13 @@ Work started 2026-10-16; first verified build 2026-10-17.
 | Page | Last updated | Change | Review when |
 | --- | --- | --- | --- |
 | [Queensland councils](../../states/qld/councils/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. | Council boundaries, map service, source rights, built destinations or navigation change. |
-| [Redlands overview](../../states/qld/councils/redland/index.html) | 2026-11-02 | Retained announced mayoral intentions separately from formal nominations and made the ordinary rule-derived election timer await confirmation; original civic sources preserved. | Boundaries, statistics, representation, election status or linked journey changes. |
+| [Redlands overview](../../states/qld/councils/redland/index.html) | 2026-11-08 | Focused election correction: official 12 December full postal by-election and 10 November nominations opening; five intentions distinguished from accepted nominations. Published at user request without renewed tests or browser checks; prior evidence is not a fresh pass. | Boundaries, statistics, representation, election status or linked journey changes. |
 | [Connected systems and public evidence](../../states/qld/councils/redland/explore/index.html) | 2026-11-02 | Refreshed current album titles, direct lyric links and related editorial meanings from the creator's updated 22-song A Protopian Gambit; preserved earlier link register and civic source dates. | Local evidence, project status, links or canonical Twinkle rules change. |
 | [Connected possibilities](../../states/qld/councils/redland/possibilities/index.html) | 2026-11-02 | Refreshed current album titles, direct lyric links and related editorial meanings from the creator's updated 22-song A Protopian Gambit; preserved earlier link register and civic source dates. | Proposal status, dependencies, evidence, song destinations or the human purpose changes. |
-| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-11-01 | Added a primary-sourced public intention to nominate for the mayoral by-election, distinctly labelled from ECQ-accepted nomination; unconfirmed polling and nomination countdowns remain waiting. Earlier source checks and historical election records are preserved. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
+| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-11-08 | Focused election correction: official 12 December full postal by-election and 10 November nominations opening; five intentions distinguished from accepted nominations. Published at user request without renewed tests or browser checks; prior evidence is not a fresh pass. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
 | [Take part](../../states/qld/councils/redland/action/index.html) | 2026-10-17 | Added contribution choices, responsible-body routes and a private local note export. | Participation channels, authority, permissions, form behaviour or linked tools change. |
 | [Outcomes and learning](../../states/qld/councils/redland/outcomes/index.html) | 2026-10-17 | Added delivery stages and the cost, freely given contribution and change accounts. | A proposal, decision, delivery record, measured result or correction becomes available. |
-| [Sources, dates and this review register](../../states/qld/councils/redland/sources/index.html) | 2026-11-02 | Reconciled generated page-register dates, linked the central maintenance index, and retained original source and first-build dates. | Any linked page, rule, source, map edition, data release or recorded review changes. |
+| [Sources, dates and this review register](../../states/qld/councils/redland/sources/index.html) | 2026-11-08 | Focused election correction: official 12 December full postal by-election and 10 November nominations opening; five intentions distinguished from accepted nominations. Published at user request without renewed tests or browser checks; prior evidence is not a fresh pass. | Any linked page, rule, source, map edition, data release or recorded review changes. |
 
 ## Redlands divisions
 
@@ -74,14 +74,15 @@ These were updated, rather than newly created.
 
 | Rules | Version | Updated | Review when |
 | --- | --- | --- | --- |
-| [Fractal election and navigation updates](../../docs/agents/fractal-election-updates.md) | 1.3 | 2026-11-05 | A place/event adapter, by-election or replacement process, member/contestant model, countdown, route, sitemap or scoped verification workflow changes. |
-| [National validation and shared evidence maintenance](../../docs/agents/national-validation-maintenance.md) | 1.1 | 2026-11-05 | Shared evidence schema, contract migration, artifact freshness checks or validation memory bounds change. |
+| [Fractal election and navigation updates](../../docs/agents/fractal-election-updates.md) | 1.4 | 2026-11-09 | A place/event adapter, by-election or replacement process, member/contestant model, countdown, route, sitemap or scoped verification workflow changes. |
+| [National validation and shared evidence maintenance](../../docs/agents/national-validation-maintenance.md) | 1.2 | 2026-11-09 | Shared evidence schema, contract migration, artifact freshness checks or validation memory bounds change. |
 | [Shared civic journey rules](../../docs/agents/local-place-pattern.md) | 2.1 | 2026-10-17 | The interaction, evidence, date, Twinkle, lyric-link, privacy or completion contract changes. |
 | [Council rules](../../docs/agents/council-journey-rules.md) | 1.0 | 2026-10-17 | Council structures, legal processes, source adapters or shared requirements change. |
 | [State electorate rules](../../docs/agents/state-electorate-journey-rules.md) | 1.0 | 2026-10-17 | Chamber, electorate, vacancy, election or statistical adapter requirements change. |
 | [Federal electorate rules](../../docs/agents/federal-electorate-journey-rules.md) | 1.0 | 2026-10-17 | AEC, House/Senate, election, redistribution or representation requirements change. |
-| [Completion checks](../../docs/agents/council-build-acceptance.md) | 1.0 | 2026-10-17 | A missed shortfall, new feature or test changes acceptance requirements. |
+| [Completion checks](../../docs/agents/council-build-acceptance.md) | 1.1 | 2026-11-09 | A missed shortfall, new feature or test changes acceptance requirements. |
 | [Agent handover report](../../docs/agents/council-expansion-report-template.md) | 1.0 | 2026-10-17 | The required evidence, review scope or handover information changes. |
+| [Publication then cloud browser review](../../docs/agents/publication-and-browser-review.md) | 1.0 | 2026-11-09 | Publication sequencing, cloud browser capability or acceptance requirements change. |
 
 ## Keeping this reviewable
 

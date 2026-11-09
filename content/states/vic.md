@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "Election review 31 October: Knox announced Peter Lockwood’s immediate resignation from Baird Ward on 29 October. The vacancy requires a VEC by-election; its timetable is not yet confirmed in the notice. The 29 October review of Kinglake Ward and the Victorian state election remains separate; Parliament composition and candidate campaign sources retain their earlier dated reviews.",
+  "researchStatus": "Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, state-election, Parliament and campaign records retain their earlier reviews.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
@@ -192,7 +192,7 @@
     "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
     "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
     "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November.",
-    "Knox Baird Ward is vacant following Peter Lockwood’s immediate resignation on 29 October 2026. Council confirms a VEC by-election is required; polling, nominations and voting arrangements remain unconfirmed. Official notice: https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation (checked 31 October 2026, Australia/Brisbane)."
+    "Knox Baird Ward remains vacant following Peter Lockwood’s resignation on 29 October 2026. The official timetable confirms election day 6 February 2027, postal close 5 February at 6 pm AEDT, roll close 25 November at 4 pm, and nominations 14–22 December closing noon. No candidates or result inferred. Rechecked 9 November 2026: https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027"
   ],
   "sources": [
     {

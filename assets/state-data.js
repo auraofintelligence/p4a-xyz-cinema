@@ -8,7 +8,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-02",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT; no accepted candidates are inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+    "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -79,7 +79,7 @@ window.P4A_STATE_DATA = [
         "kind": "Council by-election",
         "scope": "local-government",
         "status": "Nomination period 2–11 November; closes noon AEDT",
-        "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026.",
+        "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026. NSWEC rechecked 9 November lists JAMES Craig (Independent) and YAP Nick (LIBERAL) in receipt order; nominations remain open and final ballot order is not inferred.",
         "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -333,7 +333,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-10-31",
     "researchTimezone": "Australia/Melbourne",
-    "researchStatus": "Election review 31 October: Knox announced Peter Lockwood’s immediate resignation from Baird Ward on 29 October. The vacancy requires a VEC by-election; its timetable is not yet confirmed in the notice. The 29 October review of Kinglake Ward and the Victorian state election remains separate; Parliament composition and candidate campaign sources retain their earlier dated reviews.",
+    "researchStatus": "Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, state-election, Parliament and campaign records retain their earlier reviews.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Ben Carroll",
@@ -515,7 +515,7 @@ window.P4A_STATE_DATA = [
       "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
       "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
       "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November.",
-      "Knox Baird Ward is vacant following Peter Lockwood’s immediate resignation on 29 October 2026. Council confirms a VEC by-election is required; polling, nominations and voting arrangements remain unconfirmed. Official notice: https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation (checked 31 October 2026, Australia/Brisbane)."
+      "Knox Baird Ward remains vacant following Peter Lockwood’s resignation on 29 October 2026. The official timetable confirms election day 6 February 2027, postal close 5 February at 6 pm AEDT, roll close 25 November at 4 pm, and nominations 14–22 December closing noon. No candidates or result inferred. Rechecked 9 November 2026: https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027"
     ],
     "sources": [
       {
@@ -590,7 +590,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Redland's 30 October review remains unchanged: mayoral office vacant, Julie Talty Acting Mayor, and Council's request for a full postal ballot subject to approval; ECQ polling and nomination dates remain unconfirmed. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
+    "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Focused Redland recheck 9 November: ECQ confirms a 12 December full postal mayoral by-election, with notice and nominations opening announced for 10 November. No opening hour or closing deadline is inferred. Current-office and reported-intention evidence retain their previous dates. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "David Crisafulli",
@@ -661,21 +661,24 @@ window.P4A_STATE_DATA = [
       },
       {
         "label": "2026 Redland City mayoral by-election",
-        "date": null,
+        "date": "2026-12-12T00:00:00+10:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Awaiting confirmation to begin",
-        "note": "Mayoral vacancy confirmed 28 October following Jos Mitchell's resignation; Julie Talty continues as Acting Mayor. Council agreed on 29 October to request a full postal ballot, subject to approval. ECQ polling and nomination dates are not announced in the reviewed sources; no date, approved voting method or candidacy is inferred.",
-        "source": "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+        "status": "Full postal by-election confirmed for 12 December 2026. Notice of election and nominations opening announced for 10 November; nomination closing and postal deadlines not yet verified.",
+        "note": "ECQ announced on 5 November 2026 that the by-election will be held on 12 December by full postal ballot. The countdown is to the start of that Brisbane calendar date, not the opening of polling or a postal deadline. Notice and nominations opening announced for 10 November; no opening hour, nomination closing date or postal deadline is inferred. Five reported intentions on the local candidate page remain distinct from accepted nominations. Official ECQ announcement rechecked 9 November 2026, Australia/Brisbane.",
+        "source": "https://www.ecq.qld.gov.au/media/2026-media-statements",
         "nominationDeadline": null,
-        "timingStatus": "awaiting-confirmation",
+        "timingStatus": "confirmed",
         "dayMetrics": {
-          "displayDaysUntil": false,
+          "displayDaysUntil": true,
           "displayDaysSince": false,
           "archiveDaysSince": true,
           "cycleKey": "qld-redland-mayoral-vacancy-2026-10-28",
-          "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. No countdown begins without a confirmed timetable."
-        }
+          "archiveNote": "Preserve this by-election separately from the ordinary council-election cycle. Countdown targets the start of the confirmed calendar date, not poll opening or a postal deadline."
+        },
+        "timezone": "Australia/Brisbane",
+        "datePrecision": "day",
+        "nominationsOpen": "2026-11-10"
       }
     ],
     "chambers": [
@@ -1256,7 +1259,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-02",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Scoped late election review 2 November: TEC’s 10 pm AEDT update says no further count updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete across all 29 councils; councillor counting continues, with completion expected by Tuesday 3 November, not confirmed. No statewide final declaration or individual officeholder replacement is inferred. Other parliamentary and federal facts retain their own earlier checks.",
+    "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. King Island elected five councillors unopposed for seven positions and Tasman six for seven; completed counting does not mean every position is filled. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1331,8 +1334,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-27T14:00:00+11:00",
         "kind": "Ordinary council elections",
         "scope": "local-government",
-        "status": "Mayor/deputy counts complete; further count updates resume 3 November",
-        "note": "Postal voting closed on 27 October at 2 pm Hobart time (AEDT, UTC+11); counting began on 28 October at 9 am AEDT. TEC’s 2 November, 10 pm AEDT update says no further updates tonight and updates resume Tuesday 3 November. Mayor and deputy mayor counts are complete in all 29 councils. Councillor counting continues; TEC expects all councils to be complete by Tuesday 3 November, but that expectation is not a declared outcome. No statewide final declaration or individual officeholder replacement is inferred. Sources verified 2026-11-02T12:49:52.060088+00:00; this is a scoped count-stage check only.",
+        "status": "Counting completed",
+        "note": "TEC confirms counting completed. Postal voting closed 27 October 2026 at 2 pm AEDT. King Island elected five councillors unopposed for seven positions; Tasman elected six for seven. No complete current-office roster replacement or filled-vacancy claim is inferred. Official results rechecked 9 November 2026, Australia/Brisbane.",
         "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
         "dayMetrics": {
           "displayDaysUntil": false,
@@ -1734,7 +1737,7 @@ window.P4A_STATE_DATA = [
     "stateType": "Territory",
     "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 1 November: Victoria Daly Regional Council confirms the Milngin by-election on 3 December, 8 am–6 pm ACST; nominations open 9 November and close 20 November at noon. Early/mobile voting starts 23 November, with early voting closing 2 December at 6 pm; declaration is scheduled for 17 December, not an outcome already reached. The older NTEC no-current-election index does not override the council timetable. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
+    "researchStatus": "Election review 1 November: Victoria Daly Regional Council confirms the Milngin by-election on 3 December, 8 am–6 pm ACST; nominations open 9 November and close 20 November at noon. Early/mobile voting starts 23 November, with early voting closing 2 December at 6 pm; declaration is scheduled for 17 December, not an outcome already reached. NTEC’s specific timetable and linked PDF rechecked 9 November confirm these milestones, postal receipts by noon 16 December and planned declaration 17 December at 10 am ACST. Nominations are scheduled to open on 9 November; no opening hour is published. The earlier general-index caveat is superseded by this direct official timetable check. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
     "government": {
       "leaderTitle": "Chief Minister",
       "leader": "Lia Finocchiaro",

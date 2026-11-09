@@ -1,0 +1,61 @@
+{
+  "checked": "2026-11-09",
+  "timezone": "Australia/Brisbane",
+  "status": "New focused source check and reconstruction; not a recovered 8 November report.",
+  "baseCommit": "92bfb2ba9be80ffa51b30e17544e709a0fe5c7cd",
+  "scope": "Only the six election topics already pending: Redland, Tasmania council counting, Hunters Hill, Tenterfield, Knox Baird and Milngin. No full national or nine-commission recheck.",
+  "recovery": {
+    "originalReport": "content/places/sources/election-review-2026-11-07.json",
+    "originalReportSha256": "f596a3b47316f0bd089b27c742176a4fc7aab6d04f7a1e85af78a2d4ae20f65e",
+    "method": "Exact report and prior-event history recovered from the durable 7 November archive. Canonical 38-place JSON recovered separately from uploaded Git blob. The missing 8 November report and former patches were not recovered; this document is newly written.",
+    "missingReport": "content/places/sources/election-recovery-reconciliation-2026-11-08.json",
+    "missingReportExpectedSha256": "b52a361d1640b87eef7f27d187c03aa1155b0dfa0e7747d9531f7b1948c65ce5"
+  },
+  "checks": [
+    {
+      "url": "https://www.ecq.qld.gov.au/media/2026-media-statements",
+      "finding": "5 November statement confirms Redland mayoral election 12 December, full postal ballot approved, notice and nominations opening 10 November. No opening hour, nomination close or postal closing/receipt deadline supplied. Existing local calendar-day countdown is preserved. Reported intentions remain separate from accepted nominations."
+    },
+    {
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+      "finding": "Counting completed across the 2026 council election; this does not verify individual office transitions or all seats filled."
+    },
+    {
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/king-island/index.html",
+      "finding": "Five councillor candidates elected unopposed for seven positions."
+    },
+    {
+      "url": "https://www.tec.tas.gov.au/local-government/elections-2026/results/tasman/index.html",
+      "finding": "Six councillor candidates elected unopposed for seven positions."
+    },
+    {
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+      "finding": "NSWEC lists JAMES Craig (Independent) and YAP Nick (LIBERAL) in order of receipt, not final ballot order. Nominations close 11 November noon AEDT; final field not inferred."
+    },
+    {
+      "url": "https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027",
+      "finding": "By-election day 6 February 2027; postal close 5 February 18:00 AEDT; roll close 25 November 16:00; nominations 14–22 December, closing noon. No candidates or result inferred."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable",
+      "finding": "Nominations scheduled 9–20 November noon; early voting from 23 November 08:00, mobile 09:00; election 3 December and declaration planned 17 December 10:00. Opening date has no published nomination opening hour."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/__data/assets/pdf_file/0007/1656808/2026-VDRC-Milngin-Ward-Supplementary-Election-Timetable.pdf",
+      "finding": "Official linked PDF confirms early close 2 December 18:00, voting 3 December 08:00–18:00, postal receipts 16 December noon, declaration planned 17 December 10:00 ACST. Scheduled milestones, not results."
+    },
+    {
+      "url": "https://www.tenterfield.nsw.gov.au/resignation-of-councillor-gregory-purcell",
+      "finding": "Official resignation page remains available and links its notice image. Fresh text extraction does not transcribe image details. The effective 31 October resignation and 26 November process-advice meeting remain supported by the recovered dated 7 November report, not claimed newly transcribed.",
+      "detailUrl": "https://www.tenterfield.nsw.gov.au/content/uploads/2026/11/GregPurcell.png",
+      "verificationLimit": "Page and image link reopened; image contents not freshly extracted in this run."
+    }
+  ],
+  "gaps": [
+    "Other findings in recovered 7 November report were not freshly repeated. Its blocked-publication and candidate-coverage statements describe that historical run, not the resumed workflow.",
+    "No new full officeholder roster, complete results/contestant coverage, biography, or boundary review performed.",
+    "Current published Redland reported-intention evidence was preserved, not independently refreshed or promoted to accepted nominations.",
+    "Source dates in recovered canonical records remain their original dates. This report dates the bounded rechecks separately."
+  ],
+  "implementation": "Five state source summaries and corresponding exact rendered mirrors reconciled. No broad state or national generator executed by this worker. Main publication owner validates final generated pages and deployment."
+}

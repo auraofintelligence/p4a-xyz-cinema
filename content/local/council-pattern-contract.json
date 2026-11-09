@@ -63,7 +63,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-02"
+        "2026-11-08"
       ]
     },
     {
@@ -96,7 +96,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-01"
+        "2026-11-08"
       ]
     },
     {
@@ -489,12 +489,12 @@
     {
       "path": "content/local/redland-election.json",
       "pointer": "/checked",
-      "expected": "2026-11-01"
+      "expected": "2026-11-08"
     },
     {
       "path": "content/local/redland-election.json",
       "pointer": "/byElection/date",
-      "expected": null
+      "expected": "2026-12-12"
     },
     {
       "path": "content/local/redland-election.json",
@@ -530,7 +530,7 @@
   "reviewEvidence": {
     "reviewedOn": "2026-10-17",
     "timezone": "Australia/Brisbane",
-    "meaning": "Existing dated evidence is carried forward, not rerun or newly certified by this validator. Current fingerprints bind the reusable renderer, styles, local journey handler and widget to that saved review. A later implementation change requires an affected-check rerun. The 6 November 2026 review in the linked committees navigation record covers only the shared Index link and its affected interactions; prior source and election evidence retains its dates.",
+    "meaning": "Existing dated evidence is carried forward, not rerun or newly certified by this validator. Current fingerprints bind the reusable renderer, styles, local journey handler and widget to that saved review. A later implementation change requires an affected-check rerun. The 6 November 2026 review in the linked committees navigation record covers only the shared Index link and its affected interactions; prior source and election evidence retains its dates. On 9 November 2026, election data/renderer hashes and source/date pins were reconciled to already-published 92bfb2b facts, separately from renewed browser acceptance. Existing browser/page fingerprints remain historical and strict acceptance remains outstanding.",
     "paths": [
       "qa/redland-20261017/interactive-layout-results.json",
       "qa/redland-20261017/twinkle-rule-review.md",
@@ -617,11 +617,11 @@
       },
       {
         "path": "content/local/redland-election.json",
-        "sha256": "1d229a96203821f667c49aa4ab7ff1ea3cf7d0cd72f16806b2e300a051e8d622"
+        "sha256": "1d99fc7c10dd00cd43ca48b2d3cf519e30642f30e9febfc924e48a3ecaef22ff"
       },
       {
         "path": "tools/redland_election.py",
-        "sha256": "d2e8210e9fd619d7a6468070af6c0625805bdf35c501dfffe9de9d8fa0b54ef7"
+        "sha256": "793b676e74939015700a510e44efdbef695bbfbaeb0d8193a11cef59dd7b7d9d"
       },
       {
         "path": "states/qld/councils/redland/index.html",
@@ -812,7 +812,7 @@
         "/checked",
         "/changed"
       ],
-      "sha256": "70ac38dce139b33addc2d46b7337a6388d8e5b20c142fc3c417c9a9ef0a04d2a"
+      "sha256": "a44d2d17066a99e1eab2c11e9e6c993110d480c2a0eb3bfd64326e4a4989e4ff"
     }
   ]
 }

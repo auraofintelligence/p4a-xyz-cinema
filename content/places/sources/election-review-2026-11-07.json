@@ -1,0 +1,135 @@
+{
+  "reviewDate": "2026-11-07",
+  "reviewTimezone": "Australia/Brisbane",
+  "scope": "All nine commission hubs and targeted event/government/parliament/council vacancy sources. Bounded election review, not a whole-site factual audit or exhaustive review of every council notice.",
+  "baseCommit": "c8dc0f994032f31b7c90af0bdf9288c897b64b36",
+  "method": "Direct official-page extraction through web tools and targeted official searches; secondary reporting only for candidate leads. Source-access failures explicitly retained.",
+  "reviews": [
+    {
+      "jurisdiction": "Commonwealth",
+      "urls": [
+        "https://www.aec.gov.au/",
+        "https://www.aec.gov.au/elections/supplementary_by_elections/index.htm"
+      ],
+      "finding": "AEC homepage and by-election register checked. Farrer 9 May 2026 remains latest listed. Targeted parliamentary search found procedural material, not a new vacancy announcement. No new federal event identified in this bounded check."
+    },
+    {
+      "jurisdiction": "Queensland",
+      "urls": [
+        "https://www.ecq.qld.gov.au/media/2026-media-statements",
+        "https://www.ecq.qld.gov.au/elections/election-events",
+        "https://www.redlandscoasttoday.com.au/2026/10/council-confirms-mayoral-vacancy-following-resignation/",
+        "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election"
+      ],
+      "finding": "ECQ 5 November announcement confirms Redland mayoral by-election 12 December, full postal ballot approved, election notice and nominations open 10 November. Exact postal cutoff and nomination closing date/time not stated. General event hub still points to Tablelands, so it does not negate newer announcement. Tablelands Division 1 poll held 31 October; postal receipts close 10 November 17:00 AEST. No declaration inferred."
+    },
+    {
+      "jurisdiction": "New South Wales",
+      "urls": [
+        "https://elections.nsw.gov.au/elections",
+        "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+        "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+        "https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Coffs-Harbour-local-government-by-election-set-for-12-December",
+        "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward",
+        "https://elections.nsw.gov.au/elections/other-elections/lord-howe-island-board-2027-election",
+        "https://www.tenterfield.nsw.gov.au/resignation-of-councillor-gregory-purcell",
+        "https://www.tenterfield.nsw.gov.au/content/uploads/2026/11/GregPurcell.png"
+      ],
+      "finding": "Coffs Harbour and Hunters Hill South Ward remain 12 December, nominations close 11 November noon AEDT. NSW state 13 March 2027; Lord Howe Island Board 11 February 2027, four members, nominations open 15 January and close 27 January noon. Cobar index retains old 28 November date but detail redirects to maintenance; preserve existing uncontested completed record, do not reactivate clock from stale index. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) in receipt order during nominations, not final ballot order. Official Tenterfield notice image inspected directly: Gregory Purcell resignation effective 31 October; Council seeks NSWEC process advice for 26 November meeting. No replacement date established.",
+      "gaps": [
+        "Cobar event detail could not be freshly read; no claim of no change."
+      ]
+    },
+    {
+      "jurisdiction": "Victoria",
+      "urls": [
+        "https://www.vec.vic.gov.au/voting/2026-state-election",
+        "https://www.vec.vic.gov.au/voting/current-elections",
+        "https://www.vec.vic.gov.au/voting/current-elections/murrindindi-shire-council-kinglake-ward-by-election",
+        "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election",
+        "https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027"
+      ],
+      "finding": "State election remains 28 November; nominations close 9 November noon, early voting 18–27 November. Kinglake remains completed, uncontested: Jordyn Princi elected 28 October; older postal timetable lower on page must not reactivate poll. Knox Baird Ward new VEC roll notice dated 6 November: election day 6 February 2027, postal close 5 February 18:00, roll close 25 November 16:00, nominations 14–22 December close noon (Australia/Melbourne).",
+      "gaps": [
+        "VEC index omits Knox despite detail notice; specific VEC and council pages opened in first pass, later retrieval returned internal error."
+      ]
+    },
+    {
+      "jurisdiction": "Western Australia",
+      "urls": [
+        "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections",
+        "https://www.elections.wa.gov.au/about-us/media/releases/2639",
+        "https://www.esperance.wa.gov.au/council/your-council/local-government-elections.aspx",
+        "https://www.coolgardie.wa.gov.au/council/our-council/2026-lg-extraordinary-elections.aspx",
+        "https://www.carnarvon.wa.gov.au/council/council-business/elections"
+      ],
+      "finding": "Carnarvon contested offices, Coolgardie and Esperance Town Ward remain 3 December postal close 18:00 AWST. Carnarvon Coral Bay and Plantation elected unopposed per 22 October release. Esperance postal mailout commenced 3 November; replacements available 9 November. No new contested poll inferred for unopposed wards.",
+      "gaps": [
+        "WAEC individual council election extracts were empty; council election pages supplied details. Bridgetown latest adopted minutes and precise replacement date not verified in this run."
+      ]
+    },
+    {
+      "jurisdiction": "South Australia",
+      "urls": [
+        "https://www.ecsa.sa.gov.au/elections/current-elections",
+        "https://ecsa.sa.gov.au/news_notices",
+        "https://ecsa.sa.gov.au/news/notice-part6-sep-oct2026",
+        "https://dhud.sa.gov.au/our-department/local-govt/office-of-local-government/local-government-elections"
+      ],
+      "finding": "Council election poll closes 7 April 2027; rolls close 4 January, nominations 26 January–9 February, count 10 April. Government confirms legislation commenced 2 July 2026 and next periodic election November 2031. No additional supplementary election found in checked official pages."
+    },
+    {
+      "jurisdiction": "Tasmania",
+      "urls": [
+        "https://www.tec.tas.gov.au/local-government/elections-2026/index.html",
+        "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
+        "https://www.tec.tas.gov.au/local-government/vacancies.html",
+        "https://www.tec.tas.gov.au/legislative-council/"
+      ],
+      "finding": "2026 local-government counting completed. Vacancies hub says no current local-government vacancies, but event result coverage must separately retain King Island and Tasman unfilled positions and not infer all seats filled. Legislative Council next election remains May 2027 for Derwent, Mersey and Windermere, no exact polling day verified. Official results confirm King Island five of seven councillor positions and Tasman six of seven; no complete current-office roster integration is claimed."
+    },
+    {
+      "jurisdiction": "Australian Capital Territory",
+      "urls": [
+        "https://www.elections.act.gov.au/elections",
+        "https://www.elections.act.gov.au/elections/casual-vacancies/casual-vacancies-in-the-11th-legislative-assembly-2024-2028"
+      ],
+      "finding": "Only existing Rattenbury vacancy and Vassarotti declaration 5 June 2026 identified on 11th Assembly vacancy page. Next Assembly election remains October 2028; no new vacancy event found in bounded sources."
+    },
+    {
+      "jurisdiction": "Northern Territory",
+      "urls": [
+        "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election",
+        "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable",
+        "https://ntec.nt.gov.au/__data/assets/pdf_file/0007/1656808/2026-VDRC-Milngin-Ward-Supplementary-Election-Timetable.pdf",
+        "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/"
+      ],
+      "finding": "Official event pages updated 6 November reconfirm stored Milngin Ward supplementary by-election 3 December, 08:00–18:00 ACST. Nominations 9 November–20 November noon; early/mobile starts 23 November, early closes 2 December 18:00; postal receipts 16 December noon; declaration planned 17 December 10:00. No nomination or result inferred.",
+      "gaps": [
+        "General NTEC current-elections snippet says no current elections based on older 6 October copy; specific current timetable takes precedence."
+      ]
+    }
+  ],
+  "candidateReview": {
+    "place": "Redland City",
+    "status": "One earlier primary-source intention retained; no new primary-authenticated candidacy or ECQ-accepted nomination established.",
+    "urls": [
+      "https://www.facebook.com/rowannemckenzie7/posts/pfbid02xFS14ovQPHGCAygJ4nG59G9CZ52iXEDFehSu1EYweJvJsJUS1n18GKE4zFNViviml",
+      "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/"
+    ],
+    "leads": "Media names Julie Talty, Rowanne McKenzie, Don Brown, Gary Williamson and a local solicitor whose given name is inconsistently spelled Jasmin/Jasmine Person. Other reporting mentions Melissa Millar. These are discovery leads, not a verified complete field. No new canonical candidate added.",
+    "gaps": [
+      "Rowanne Facebook direct open throttled; earlier authenticated 1 November evidence retained with original date.",
+      "LinkedIn result could not be opened (999); search snippet is not primary verification.",
+      "Other reported intentions lacked authenticated accessible original statements in this run. Official ECQ nominations do not open until 10 November."
+    ]
+  },
+  "publication": {
+    "status": "blocked",
+    "reason": "Fresh affected browser acceptance unavailable. No new commit, push, CI run, Pages run or live election-update verification is claimed."
+  },
+  "canonicalChanges": {
+    "placeCount": 36,
+    "summary": "29 Tasmanian council event completion records; Redland mayor date/postal approval; Hunters Hill nomination receipts; Tenterfield councillor vacancy; Knox/Baird timetable; Victoria Daly/Milngin official timetable precision. Historic contests, boundaries and unrelated research dates preserved."
+  }
+}

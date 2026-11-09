@@ -267,8 +267,8 @@ class MutationAndMigration(Fixture):
         for name in ('map.geojson','tools/national_geometry.py','content/places/councils.json',
                      builder.DEFAULT_SHARED,'one.html','content/places/contracts/one-pattern-contract.json'):
             path=self.root/name;original=path.read_bytes();calls=[]
-            def injected(root,validation,browser):
-                result=evidence.require_current_evidence(root,validation,browser)
+            def injected(root,validation,browser,**kwargs):
+                result=evidence.require_current_evidence(root,validation,browser,**kwargs)
                 calls.append(True);self.mutate_same_metadata(name)
                 return result
             output=io.StringIO()
@@ -282,8 +282,8 @@ class MutationAndMigration(Fixture):
 
     def test_standalone_rejects_metadata_preserved_cache_mutation(self):
         original=evidence.require_current_evidence
-        def injected(root,validation,browser):
-            result=original(root,validation,browser)
+        def injected(root,validation,browser,**kwargs):
+            result=original(root,validation,browser,**kwargs)
             self.mutate_same_metadata('content/places/councils.json')
             return result
         with patch.object(contract,'require_current_evidence',side_effect=injected):
@@ -301,8 +301,8 @@ class MutationAndMigration(Fixture):
             if initially_present:self.write(name,source_bytes.decode())
             elif path.exists():path.unlink()
             self.refresh_validation();self.build()
-            def injected(root,validation,browser):
-                result=evidence.require_current_evidence(root,validation,browser)
+            def injected(root,validation,browser,**kwargs):
+                result=evidence.require_current_evidence(root,validation,browser,**kwargs)
                 if initially_present:self.mutate_same_metadata(name)
                 else:self.write(name,source_bytes.decode())
                 return result
@@ -458,6 +458,50 @@ class RetainedProvenance(unittest.TestCase):
         source = next(s for s in canonical['sources'] if s['id'] == 'council-redland-profiles')
         self.assertEqual(hashlib.sha256((ROOT / source['rawFile']).read_bytes()).hexdigest(), source['sha256'])
 
+
+
+class PublicationStages(Fixture):
+    def publish_bindings(self):
+        with patch.object(builder,'ROOT',self.root), patch.object(builder,'reviewed_page_entries',return_value=[{'path':r['url'],'lastUpdated':'2026-10-23'} for r in self.routes]),contextlib.redirect_stdout(io.StringIO()):
+            builder.generate(builder.DEFAULT_VALIDATION,builder.DEFAULT_BROWSER,publication=True)
+
+    def test_failed_browser_is_deferred_without_changing_report(self):
+        self.browser['status']='NOT TESTED';self.write(builder.DEFAULT_BROWSER,self.browser)
+        original=(self.root/builder.DEFAULT_BROWSER).read_bytes()
+        with self.assertRaises(ValueError):evidence.require_current_evidence(self.root,self.validation,self.browser)
+        result=evidence.require_current_evidence(self.root,self.validation,self.browser,require_browser=False)
+        self.assertIsNone(result['browser']);self.publish_bindings()
+        self.assertEqual((self.root/builder.DEFAULT_BROWSER).read_bytes(),original)
+        self.assertEqual(contract.Validator(self.manifest(),self.root,publication=True).run()['result'],'PASS')
+        self.assertEqual(self.validate()['result'],'FAIL')
+
+    def test_missing_or_malformed_browser_does_not_gate_publication(self):
+        for content in (None,'{malformed'):
+            path=self.root/builder.DEFAULT_BROWSER
+            if content is None:path.unlink()
+            else:path.write_text(content)
+            self.publish_bindings()
+            self.assertEqual(contract.Validator(self.manifest(),self.root,publication=True).run()['result'],'PASS')
+            self.assertEqual(self.validate()['result'],'FAIL')
+
+    def test_publication_still_rejects_changed_data_geometry_and_pages(self):
+        for name in ('content/places/councils.json','map.geojson','one.html'):
+            path=self.root/name;original=path.read_bytes();self.write(name,{})
+            with self.subTest(name=name),self.assertRaises(ValueError):
+                evidence.require_current_evidence(self.root,self.validation,self.browser,require_browser=False)
+            path.write_bytes(original)
+
+    def test_publication_keeps_shared_structural_fingerprints(self):
+        for name in (builder.DEFAULT_VALIDATION,'assets/civic-places.js',evidence.CONTRACT_SET):
+            path=self.root/name;original=path.read_bytes();path.write_bytes(original+b' ')
+            with self.subTest(name=name):self.assertEqual(contract.Validator(self.manifest(),self.root,publication=True).run()['result'],'FAIL')
+            path.write_bytes(original)
+
+    def test_errors_are_not_globally_suppressed(self):
+        v=contract.Validator(self.manifest(),self.root,publication=True)
+        for code in ('review-evidence-stale','source-hash','review-date-drift','recorded-horizontal-overflow'):v.error(code,'explicit failure')
+        self.assertEqual(len(v.errors),4)
+        self.assertEqual(v.deferred,[])
 
 if __name__ == '__main__':
     unittest.main()

@@ -94,6 +94,7 @@ class StableInputs:
 
     def bind_national(self,validation,browser,result):
         for report,check in ((validation,result['national']),(browser,result['browser'])):
+            if check is None:continue  # Publication does not bind old browser-tested bytes.
             absent=set(check['absentLocalOnly'])
             for row in report['artifactFingerprints']:
                 name=_name(row['path'])
@@ -249,11 +250,11 @@ def verify_fingerprints(root,rows):
         except (OSError,ValueError,KeyError,TypeError) as exc:errors.append(str(exc))
     return {'errors':errors,'checked':checked,'absentLocalOnly':sorted(absent)}
 
-def require_current_evidence(root,validation,browser):
+def require_current_evidence(root,validation,browser, *, require_browser=True):
     """Raise on stale/incomplete reports; return scoped raw-absence information."""
     root=Path(root)
     if str(validation.get('status','')).upper()!='PASS' or validation.get('mode')!='generated-pages-and-data':raise ValueError('Passing default national validation is required')
-    if str(browser.get('status',browser.get('result',''))).upper()!='PASS':raise ValueError('Passing real browser review is required')
+    if require_browser and str(browser.get('status',browser.get('result',''))).upper()!='PASS':raise ValueError('Passing real browser review is required')
     rows=validation.get('artifactFingerprints');checked=verify_fingerprints(root,rows)
     if checked['errors']:raise ValueError('; '.join(checked['errors'][:12]))
     required,optional=discover_artifacts(root)
@@ -263,6 +264,8 @@ def require_current_evidence(root,validation,browser):
         source_hash=optional.get(row['path'])
         if source_hash and _path(root,row['path']).is_file() and row.get('sha256')!=source_hash:
             raise ValueError('Retained original differs from canonical source hash: '+row['path'])
+    if not require_browser:
+        return {'national':checked,'browser':None,'artifactCount':len(rows),'browserAcceptance':'deferred until after live deployment'}
     browser_rows=browser.get('artifactFingerprints');bcheck=verify_fingerprints(root,browser_rows)
     if bcheck['errors']:raise ValueError('Browser evidence: '+'; '.join(bcheck['errors'][:12]))
     tested=browser.get('testedPagePaths');fixtures=browser.get('fixturePaths')
@@ -273,7 +276,7 @@ def require_current_evidence(root,validation,browser):
     if any(not _name(p).endswith(('.html','.htm')) for p in tested):raise ValueError('Browser testedPagePaths must identify delivered HTML pages')
     return {'national':checked,'browser':bcheck,'artifactCount':len(rows)}
 
-def resolve_review_evidence(root,entry,read=None):
+def resolve_review_evidence(root,entry,read=None, *, publication=False):
     """Resolve one stable shared binding; legacy inline declarations still work.
 
     References carry no build date or mutable report hash in each place. The
@@ -296,7 +299,7 @@ def resolve_review_evidence(root,entry,read=None):
     if not isinstance(shared['paths'],list) or not isinstance(shared['artifactFingerprints'],list) or not isinstance(shared['nationalEvidence'],dict):
         raise ValueError('Invalid shared evidence paths, fingerprints or national binding')
     national=shared['nationalEvidence']
-    for key in ('validation','browser'):
+    for key in (('validation',) if publication else ('validation','browser')):
         name_in_report=_name(national[key]);_path(Path(root),name_in_report)
         if name_in_report not in shared['paths'] or name_in_report not in {r['path'] for r in shared['artifactFingerprints']}:
             raise ValueError('Shared evidence must fingerprint its '+key+' report')

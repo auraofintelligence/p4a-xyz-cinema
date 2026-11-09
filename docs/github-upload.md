@@ -1,5 +1,7 @@
 # GitHub upload preparation
 
+**9 November 2026 workflow reset:** Follow [publication then live browser review](agents/publication-and-browser-review.md). Browser acceptance is post-deployment, cloud-only and does not block publication. Keep source/data/build/civic checks before publication. Use explicit `--publication` for contract generation and validation before publishing; defaults retain strict post-live acceptance. Older browser-before-publication requirements below are superseded for sequencing only.
+
 Prepared 17 October 2026 for `auraofintelligence/p4a-xyz-cinema`. The current request prepares public source for upload; no commit, push or deployment is performed by the preparation tool.
 
 ## What is ready

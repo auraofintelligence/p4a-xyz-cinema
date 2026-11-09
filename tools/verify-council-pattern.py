@@ -134,9 +134,11 @@ class Page(HTMLParser):
 
 
 class Validator:
-    def __init__(self, manifest, root=ROOT, inputs=None):
+    def __init__(self, manifest, root=ROOT, inputs=None, publication=False):
         self.root = Path(root).resolve()
         self.manifest = manifest
+        self.publication = publication
+        self.deferred = []
         self.errors = []
         self.warnings = []
         self.pages = {}
@@ -454,12 +456,23 @@ class Validator:
             self.check(entry['reviewedOn'] == (validation.get('checked') or validation.get('reviewedOn')), 'review-date-drift', 'Shared/inline evidence date differs from its actual national validation date')
             self.verify_national_evidence(entry)
         self.iso_date(entry["reviewedOn"], "recorded evidence date")
+        browser_path = entry.get('nationalEvidence', {}).get('browser')
+        def deferred_browser(path):
+            # National structural/source/contract fingerprints remain required.
+            # Legacy render-asset bindings are historical browser evidence only.
+            return self.publication and (path == browser_path or (not browser_path and (path.endswith(('.html', '.htm', '.css', '.js')) or 'browser' in path or path == entry.get('layoutEvidence'))))
         for path in entry["paths"]:
+            if deferred_browser(path):
+                self.deferred.append({'code':'browser-review-deferred','message':path})
+                continue
             if self.check(self.path(path).is_file(), "missing-review-evidence", path):self.inputs.fingerprint(path)
         for artifact in entry["artifactFingerprints"]:
+            if deferred_browser(artifact["path"]):
+                self.deferred.append({"code":"browser-binding-deferred","message":artifact["path"]})
+                continue
             actual = self.inputs.fingerprint(artifact["path"])
             self.check(actual == artifact["sha256"], "review-evidence-stale", artifact["path"] + ": changed since this evidence binding; repeat the affected browser review and record the new evidence before updating its fingerprint")
-        if entry.get("layoutEvidence"):
+        if entry.get("layoutEvidence") and not self.publication:
             results = self.read(entry["layoutEvidence"])
             for row in results:
                 label = row["page"]
@@ -472,8 +485,9 @@ class Validator:
 
     def verify_national_evidence(self, entry):
         evidence = entry['nationalEvidence']
-        validation,browser=self.read(evidence['validation']),self.read(evidence['browser'])
-        result=require_current_evidence(self.root,validation,browser)
+        validation=self.read(evidence['validation'])
+        browser={} if self.publication else self.read(evidence['browser'])
+        result=require_current_evidence(self.root,validation,browser,require_browser=not self.publication)
         self.inputs.bind_national(validation,browser,result)
 
     def prepare_inputs(self):
@@ -495,27 +509,28 @@ class Validator:
                 self.run_section(name, callback, entry)
         evidence = self.manifest['reviewEvidence']
         try:
-            evidence = resolve_review_evidence(self.root, evidence, self.read)
+            evidence = resolve_review_evidence(self.root, evidence, self.read,publication=self.publication)
             self.run_section("evidence", self.verify_evidence, evidence)
         except (OSError, ValueError, TypeError, KeyError) as error:
             self.error('invalid-evidence', str(error))
         if not isinstance(evidence,dict):evidence={}
         self.run_section('inputs',lambda _:self.finalize_inputs(),None)
         self.warnings.extend(evidence.get("limitations", []))
-        return {"result": "FAIL" if self.errors else "PASS", "scope": "Declared static civic-place snapshot; offline, read-only", "place": self.manifest["place"], "counts": dict(self.counts), "errors": self.errors, "warnings": self.warnings, "reviewEvidence": {"reviewedOn": evidence.get("reviewedOn"), "status": "Dated evidence exists; this run does not repeat browser/editorial/source review", "requiredHumanChecks": evidence.get("requiredHumanChecks", [])}, "doesNotProve": ["External sources are still current or correct", "A legal interpretation or election scenario is correct", "The map looks right or works on a physical touch device", "Twinkle humour, kindness, relevance or a one-breath spoken delivery", "A recorded vote establishes motive, popularity or public support", "Undeclared pages, data or journeys meet this contract"]}
+        return {"result": "FAIL" if self.errors else "PASS", "scope": "Publication structural checks; browser acceptance deferred" if self.publication else "Declared static civic-place snapshot; offline, read-only", "deferredReviewChecks": self.deferred, "browserAcceptance": "deferred until after live deployment" if self.publication else "saved evidence verified only if result is PASS", "place": self.manifest["place"], "counts": dict(self.counts), "errors": self.errors, "warnings": self.warnings, "reviewEvidence": {"reviewedOn": evidence.get("reviewedOn"), "status": "Dated evidence exists; this run does not repeat browser/editorial/source review", "requiredHumanChecks": evidence.get("requiredHumanChecks", [])}, "doesNotProve": ["External sources are still current or correct", "A legal interpretation or election scenario is correct", "The map looks right or works on a physical touch device", "Twinkle humour, kindness, relevance or a one-breath spoken delivery", "A recorded vote establishes motive, popularity or public support", "Undeclared pages, data or journeys meet this contract"]}
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", default=DEFAULT_MANIFEST, help="Repository-relative or absolute civic-place contract JSON")
     parser.add_argument("--json", action="store_true", help="Print machine-readable output")
+    parser.add_argument("--publication", action="store_true", help="Keep structural/data checks; defer dated browser/review bindings until after deployment.")
     args = parser.parse_args(argv)
     try:
         candidate = Path(args.manifest)
         manifest_path = candidate if candidate.is_absolute() else ROOT / candidate
         inputs=StableInputs(ROOT)
         manifest = inputs.read_json(manifest_path.resolve().relative_to(ROOT).as_posix(),cache=False)
-        report = Validator(manifest,inputs=inputs).run()
+        report = Validator(manifest,inputs=inputs,publication=args.publication).run()
     except (OSError, ValueError, TypeError, KeyError, ZoneInfoNotFoundError) as error:
         report = {"result": "FAIL", "errors": [{"code": "manifest-error", "message": str(error)}]}
     if args.json:
