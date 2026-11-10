@@ -22,7 +22,7 @@
     "Reference scope includes the Queensland council layer and ten Redland electoral divisions.",
     "Current state and federal electorates have source-map pathways; interactive state/federal overlay geometry and quantitative overlap analysis are not built in this reference.",
     "Individual candidate dossiers and a harvested voting-history database are not populated. Official pathways and ten dated councillor profile listings are present.",
-    "The reference has no shared database, official submissions, currency issuance, candidate registration or an issued ECQ election timetable. Council confirmed a mayoral vacancy on 28 October 2026; the by-election dates remain unannounced at this scoped check.",
+    "The reference has no shared database, official submissions, currency issuance or candidate registration. ECQ has issued the Redland mayoral by-election timetable: nominations close at noon AEST on 19 November 2026 and the full postal election is on 12 December 2026. The canonical election record and official certified-candidate search retain the current process details. Historical browser-review dates and fingerprints below are evidence of earlier reviews, not acceptance of the current publication.",
     "1 November 2026: one authenticated early mayoral intention is recorded separately from any ECQ-accepted nomination. This is not a complete candidate field."
   ],
   "routeDefaults": {
@@ -63,7 +63,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-08"
+        "2026-11-10"
       ]
     },
     {
@@ -96,7 +96,7 @@
         "states/qld/councils/redland/explore/index.html"
       ],
       "visibleDateValues": [
-        "2026-11-08"
+        "2026-11-10"
       ]
     },
     {
@@ -489,7 +489,7 @@
     {
       "path": "content/local/redland-election.json",
       "pointer": "/checked",
-      "expected": "2026-11-08"
+      "expected": "2026-11-10"
     },
     {
       "path": "content/local/redland-election.json",
@@ -618,11 +618,13 @@
       },
       {
         "path": "content/local/redland-election.json",
-        "sha256": "61838364419d8d2e461b98e6056e396a1bdf1f2555ecde1f03cfd7d7993adf22"
+        "sha256": "61838364419d8d2e461b98e6056e396a1bdf1f2555ecde1f03cfd7d7993adf22",
+        "browserOnly": true
       },
       {
         "path": "tools/redland_election.py",
-        "sha256": "5a6054504671e8eba2f10340d1edbaf4e4947ddf23fd6dca4c88158765746e9a"
+        "sha256": "5a6054504671e8eba2f10340d1edbaf4e4947ddf23fd6dca4c88158765746e9a",
+        "browserOnly": true
       },
       {
         "path": "states/qld/councils/redland/index.html",
@@ -832,7 +834,7 @@
         "/checked",
         "/changed"
       ],
-      "sha256": "a44d2d17066a99e1eab2c11e9e6c993110d480c2a0eb3bfd64326e4a4989e4ff"
+      "sha256": "901b75ee91ba0acd52d5daca67f7f2255b572019994d5dabbadc22568d3f4ae4"
     }
   ]
 }

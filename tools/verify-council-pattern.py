@@ -467,7 +467,7 @@ class Validator:
                 continue
             if self.check(self.path(path).is_file(), "missing-review-evidence", path):self.inputs.fingerprint(path)
         for artifact in entry["artifactFingerprints"]:
-            if deferred_browser(artifact["path"]):
+            if deferred_browser(artifact["path"]) or (self.publication and artifact.get("browserOnly") is True and not entry.get("nationalEvidence")):
                 self.deferred.append({"code":"browser-binding-deferred","message":artifact["path"]})
                 continue
             actual = self.inputs.fingerprint(artifact["path"])

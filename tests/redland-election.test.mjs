@@ -41,3 +41,27 @@ test('candidate presentation keeps requested order and public links separate fro
     for (const c of candidates) for (const item of c.publicLinks || []) assert.ok(html.includes(item.url));
   }
 });
+
+test('official deadline, exact AEST expiry and certified-candidate link stay distinct from announcements', async () => {
+  const {readFile} = await import('node:fs/promises');
+  const data = JSON.parse(await readFile(new URL('../content/local/redland-election.json', import.meta.url), 'utf8'));
+  const d = data.byElection.nominationDeadline;
+  assert.equal(d.countdownTarget, '2026-11-19T12:00:00+10:00');
+  assert.equal(d.timingStatus, 'confirmed');
+  assert.equal(data.byElection.nominationsOpen.countdownTarget, undefined);
+  const item = {status:d.timingStatus,kind:'nominations',target:d.countdownTarget};
+  assert.deepEqual(milestoneState(item, Date.parse('2026-11-19T01:59:59Z')).values, [0,0,0,1]);
+  for (const now of ['2026-11-19T02:00:00Z', '2026-11-20T00:00:00Z']) {
+    const state = milestoneState(item, Date.parse(now)); assert.equal(state.active, false); assert.match(state.text, /Nominations closed/);
+  }
+  assert.equal(data.byElection.officialCandidateSearch.url, 'https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8');
+  for (const route of ['index.html', 'candidates/index.html']) {
+    const html = await readFile(new URL('../states/qld/councils/redland/' + route, import.meta.url), 'utf8');
+    assert.match(html, /data-kind="nominations"[^>]*data-timing-status="confirmed"[^>]*data-target="2026-11-19T12:00:00\+10:00"/);
+    assert.ok(html.includes('12 noon AEST on Thursday 19 November 2026'));
+    assert.ok(html.includes('No opening clock time is stated.'));
+    assert.ok(html.includes('Check ECQ’s certified candidates'));
+    assert.ok(html.includes('certification by the Returning Officer'));
+    assert.ok(!html.includes('nomination-deadline panel remains inactive'));
+  }
+});

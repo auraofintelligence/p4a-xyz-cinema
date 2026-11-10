@@ -111,3 +111,8 @@ The previous eleven-song register is retained in `content/local/history/redland-
 ## 2026-11-08 - Focused Redland election correction
 
 Updated the local Redland election data and three existing pages from ECQ's 5 November announcement: 12 December full postal by-election, notice and nominations opening 10 November. Five intentions are distinguished from accepted nominations, using the retained Rowanne primary source and four additional media reports. Nomination closing and postal deadlines remain unknown. Original source dates and ordinary/historical elections are preserved. Earlier data is archived in content/local/history/redland-election-before-2026-11-08.json. Publication requested without renewed tests or browser checks; no new acceptance pass is claimed. Shared Queensland/national mirror records remain follow-up. See docs/releases/2026-11-08-redland-election-correction.md for sources, scope and limits.
+
+
+## 10 November 2026: Redland issued deadline and official candidate search
+
+Confirmed noon AEST 19 November nomination deadline; no opening time inferred. Distinct postal completion/receipt deadlines and official certified-candidate search added, preserving public intentions/order and unrelated dates. Local/national source history retained. See [docs/releases/2026-11-10-redland-nomination-deadline.md](../../docs/releases/2026-11-10-redland-nomination-deadline.md). Publication and current checks are recorded there.

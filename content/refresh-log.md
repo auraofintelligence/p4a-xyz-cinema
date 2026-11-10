@@ -463,3 +463,8 @@ Explicit publication mode now defers saved browser evidence until confirmed live
 Publication verified 9 November: content commit `953d238211af11870562edd761636ba7b96fe44b` deployed at 2026-11-09T07:45:46Z. Four scoped served files exactly match validated bytes. Storage CI passed; civic CI and cloud-only post-live browser review were pending when this receipt was prepared. See `content/history/site-publications.json`. This receipt does not renew factual source dates.
 
 Requested Redland presentation follow-up: candidate cards now display Jasmine, Julie, Rowanne, Don, Gary, with official Julie/Rowanne profile links and supplied Julie/Jasmine campaign links. Campaign sites could not be independently accessed; link-review limits are recorded in canonical election data and the dated report. Current Division 3 name encoding corrected to Paul Gollé from his official Council profile; historical ballot spelling unchanged. Source and nomination dates remain unchanged. Publication/live checks are recorded separately.
+
+
+## 10 November 2026: Redland issued deadline and official candidate search
+
+Confirmed noon AEST 19 November nomination deadline; no opening time inferred. Distinct postal completion/receipt deadlines and official certified-candidate search added, preserving public intentions/order and unrelated dates. Local/national source history retained. See [docs/releases/2026-11-10-redland-nomination-deadline.md](../docs/releases/2026-11-10-redland-nomination-deadline.md). Publication and current checks are recorded there.
