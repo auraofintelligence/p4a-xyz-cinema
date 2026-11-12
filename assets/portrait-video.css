@@ -1,0 +1,28 @@
+.portrait-video-cover {
+  display: block;
+  position: relative;
+  border-radius: 1.35rem;
+  overflow: hidden;
+  background: #050008;
+}
+
+.portrait-video-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portrait-video-cover span {
+  position: absolute;
+  inset-inline: 0.7rem;
+  bottom: 0.8rem;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: #180924;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
