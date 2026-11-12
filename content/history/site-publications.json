@@ -119,6 +119,28 @@
         "scope": "This receipt records HTTP byte verification and deployment logs."
       },
       "note": "Recovered publication metadata for the earlier timetable release."
+    },
+    {
+      "commit": "073c0ba3fd037d13a2cee553ff78141d2ab9e794",
+      "tree": "bd39ee38dc2405b0ad3dbdb2c755e69c0a4e9d0d",
+      "deployedOn": "2026-11-12",
+      "deployedAt": "2026-11-12T05:34:35Z",
+      "verifiedAt": "2026-11-12T05:35:05.201326+00:00",
+      "scope": "Redland mayoral by-election candidate status. Added Melissa Millar and Gary Williamson as ECQ-certified independents and recorded Liela D’Rose’s public announcement with Animal Justice Party endorsement. Recovered the prior deadline release receipt.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43162142645",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43162143582",
+      "liveVerification": "HTTP 200 and exact Git blob matches for the local election JSON, Redland overview, candidates, elections and sources pages, and the ledger with the earlier timetable receipt.",
+      "nonBrowserChecks": {
+        "local": "Passed 999,306 national assertions, all 2,081 publication contracts, Redland rendering and clock tests, maintenance, discovery, and tracked-site storage budget.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43162143515"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Cloud browser verified candidate labels, the official register link, active countdowns and card fit on the candidate page at 1,280 and 390 CSS pixels and the overview at 390 CSS pixels. This is a scoped candidate presentation check."
+      },
+      "note": "Publication receipt for the candidate content commit."
     }
   ]
 }
