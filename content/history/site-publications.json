@@ -141,6 +141,30 @@
         "scope": "Cloud browser verified candidate labels, the official register link, active countdowns and card fit on the candidate page at 1,280 and 390 CSS pixels and the overview at 390 CSS pixels. This is a scoped candidate presentation check."
       },
       "note": "Publication receipt for the candidate content commit."
+    },
+    {
+      "commit": "0c02dc24631d8fa489652a75c0ddefc9440b9c13",
+      "tree": "b341e9112ce527d74e3715f32ce28e65f8ad9865",
+      "deployedOn": "2026-11-12",
+      "deployedAt": "2026-11-12T09:00:49Z",
+      "verifiedAt": "2026-11-12T09:03:07.781847+00:00",
+      "scope": "YouTube click-to-play portrait lyric videos on the homepage and Musicverse. Removed the two formerly self-hosted MP4s.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43187454648",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43187455644",
+      "liveVerification": "Homepage, Musicverse, player CSS and player script returned HTTP 200 and exactly matched the committed bytes. Both retired MP4 URLs returned HTTP 404, with and without a cache-busting query.",
+      "nonBrowserChecks": {
+        "local": "Three player placements, poster assets, direct YouTube links, JavaScript syntax, discovery, favicon, navigation and maintenance checks passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43187455571",
+        "trackedBytes": 879646840,
+        "removedVideoBytes": 106097128
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Both embedded YouTube videos played on the homepage at 1,280 CSS pixels. Musicverse played the Brick video at 390 CSS pixels and preserved the direct Purple Mat link. Both pages fit the phone viewport."
+      },
+      "note": "Metadata receipt for the verified media-only release."
     }
   ]
 }
