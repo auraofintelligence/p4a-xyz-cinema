@@ -468,3 +468,7 @@ Requested Redland presentation follow-up: candidate cards now display Jasmine, J
 ## 10 November 2026: Redland issued deadline and official candidate search
 
 Confirmed noon AEST 19 November nomination deadline; no opening time inferred. Distinct postal completion/receipt deadlines and official certified-candidate search added, preserving public intentions/order and unrelated dates. Local/national source history retained. See [docs/releases/2026-11-10-redland-nomination-deadline.md](../docs/releases/2026-11-10-redland-nomination-deadline.md). Publication and current checks are recorded there.
+
+## 12 November 2026 · Redland mayoral candidate status
+
+The rendered ECQ register listed Melissa Millar and Gary Williamson as Independent. Liela D’Rose’s 8 November statement announces Animal Justice Party endorsement. Her name was absent from the register when checked. See the [scoped report](../docs/releases/2026-11-12-redland-candidate-review.md) and [source observations](../content/places/sources/redland-candidate-review-2026-11-12.json).

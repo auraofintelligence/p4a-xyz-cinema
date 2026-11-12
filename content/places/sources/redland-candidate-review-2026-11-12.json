@@ -1,0 +1,48 @@
+{
+  "checked": "2026-11-12",
+  "timezone": "Australia/Brisbane",
+  "scope": "Redland City mayoral by-election candidate status",
+  "sources": [
+    {
+      "id": "ecq-redland-candidates-20261112",
+      "title": "ECQ Redland certified-candidate register",
+      "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+      "publisher": "Electoral Commission of Queensland",
+      "checked": "2026-11-12",
+      "supports": "The Redland City register displayed Melissa Millar and Gary Williamson, both Independent. The register publishes names after Returning Officer certification. This is a dated snapshot of the open nomination period."
+    },
+    {
+      "id": "liela-drose-announcement-20261108",
+      "title": "Liela D’Rose’s public mayoral candidacy announcement",
+      "url": "https://www.facebook.com/lieladroseajp/posts/pfbid0WscXhVw8FmFnx1Z2u2SmjTAou8dQ9ScTrq7Fr4yxJfcH9fdcyZJanyp1AEGLBSqMl",
+      "publisher": "Liela D’Rose",
+      "published": "2026-11-08",
+      "checked": "2026-11-12",
+      "supports": "D’Rose publicly announced on 8 November that she is running with Animal Justice Party endorsement. The 12 November ECQ register did not display her name."
+    }
+  ],
+  "observations": {
+    "certified": [
+      {
+        "name": "Melissa Millar",
+        "affiliation": "Independent"
+      },
+      {
+        "name": "Gary Williamson",
+        "affiliation": "Independent"
+      }
+    ],
+    "publiclyAnnounced": [
+      {
+        "name": "Liela D’Rose",
+        "endorsement": "Animal Justice Party",
+        "announced": "2026-11-08"
+      }
+    ]
+  },
+  "method": "Read the rendered official ECQ candidate rows and the candidate’s original public post.",
+  "limits": [
+    "The register is a snapshot before nomination close and does not supply individual certification dates.",
+    "Other announcements and timetable records retain their previous review dates."
+  ]
+}

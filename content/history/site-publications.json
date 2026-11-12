@@ -98,6 +98,27 @@
         "evidence": "tools/publication-qa/redland-presentation-2026-11-09-cloud-browser.json"
       },
       "note": "Metadata and scoped post-live evidence receipt, not a new factual review. Own receipt commit not claimed deployed."
+    },
+    {
+      "commit": "25ba99cc9c92bb45439632bee73c0f2cc5674282",
+      "tree": "9f94c779136f05f5e0f63898591fb59e4a306079",
+      "deployedOn": "2026-11-11",
+      "deployedAt": "2026-11-11T02:17:57.698Z",
+      "verifiedAt": "2026-11-12T05:17:34.052239+00:00",
+      "scope": "Redland issued nomination deadline, distinct postal deadlines and the official certified-candidate register link.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42828470965",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42828474048",
+      "liveVerification": "HTTP 200 and exact Git blob matches for the Redland canonical local election JSON, overview and candidate page. Pages deploy succeeded for this commit on attempt 3.",
+      "nonBrowserChecks": {
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/42828473873"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "pending",
+        "scope": "This receipt records HTTP byte verification and deployment logs."
+      },
+      "note": "Recovered publication metadata for the earlier timetable release."
     }
   ]
 }

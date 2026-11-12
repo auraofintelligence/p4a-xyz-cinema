@@ -26,6 +26,7 @@ def validate(election):
         elif item['timingStatus'] == 'awaiting-confirmation':
             assert item['date'] is None and item['countdownTarget'] is None
     candidates = bye.get('candidates', [])
+    official_search = bye.get('officialCandidateSearch', {}).get('url')
     assert len({c['id'] for c in candidates}) == len(candidates)
     for candidate in candidates:
         assert candidate['status'] in ('announced-intention', 'accepted-nomination', 'withdrawn')
@@ -33,11 +34,18 @@ def validate(election):
         date.fromisoformat(candidate['checked'])
         if candidate.get('announced'):
             date.fromisoformat(candidate['announced'])
-        else:
-            assert candidate.get('sourceType') == 'media-report'
+        elif candidate.get('sourceType') == 'media-report':
             date.fromisoformat(candidate['reported'])
+        else:
+            assert candidate.get('sourceType') == 'official-register' and candidate['status'] == 'accepted-nomination'
+            assert candidate['source'] == official_search
         if candidate['status'] == 'accepted-nomination':
-            assert (candidate.get('nominationSource') or '').startswith('https://www.ecq.qld.gov.au/')
+            nomination_source = candidate.get('nominationSource') or ''
+            assert nomination_source.startswith('https://www.ecq.qld.gov.au/') or (
+                nomination_source.startswith('https://event.elections.qld.gov.au/') and nomination_source == official_search
+            )
+            if candidate.get('nominationChecked'):
+                date.fromisoformat(candidate['nominationChecked'])
         elif candidate['status'] == 'announced-intention':
             assert candidate['nominationStatus'] == 'not-verified'
     if bye.get('pollEndsAt'):
@@ -80,7 +88,18 @@ def candidate_announcements(page, bye, link):
     for c in candidates:
         public_links = ''.join(link(page, item['url'], item['label']) for item in c.get('publicLinks', []))
         links_html = '<div class="local-related">' + public_links + '</div>' if public_links else ''
-        rows += f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(("Announced " + c["announced"]) if c.get("announced") else ("Reported " + c["reported"]))} · Checked {escape(c["checked"])} · AEST (Brisbane, UTC+10). {link(page,c["source"],c.get("sourceLabel", "Read the primary announcement"))}</p></article>'
+        if c.get('announced'):
+            source_date = 'Announced ' + c['announced'] + ' · Checked ' + c['checked']
+        elif c.get('reported'):
+            source_date = 'Reported ' + c['reported'] + ' · Checked ' + c['checked']
+        else:
+            source_date = 'ECQ listing checked ' + c['checked']
+        source_link = link(page, c['source'], c.get('sourceLabel', 'Read the primary announcement'))
+        nomination = ''
+        if c['status'] == 'accepted-nomination' and c['nominationSource'] != c['source']:
+            verified = c.get('nominationChecked') or c['checked']
+            nomination = f' {link(page, c["nominationSource"], "ECQ certification")} checked {escape(verified)}.'
+        rows += f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(source_date)} · AEST (Brisbane, UTC+10). {source_link}.{nomination}</p></article>'
     return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3>' + official_html + '<p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media or news reporting.</p></div>'
 
 
@@ -154,7 +173,7 @@ def apply_block(text, page, election, link, overview=False):
 def sources_section(page, election, link):
     bye = election['byElection']
     rows = ''.join('<li>' + link(page, s['url'], s['title']) + ' — checked ' + escape(s['checked']) + '</li>' for s in bye['sources'])
-    return f'<section class="local-panel" id="redland-election-sources"><h2>Mayoral by-election: dates, announcements and sources</h2><p>Council confirms the vacancy and acting arrangement. {escape(bye["status"])} Candidate intentions are labelled by source; they are not accepted nominations.</p><ul class="local-list">{rows}</ul><p>{link(page, "states/qld/councils/redland/index.html#redland-mayoral-update", "Current news and countdown status")} · {link(page, "content/local/redland-election.json", "Canonical timing data")} · {link(page, "content/local/history/redland-election-2026-10-16.json", "Earlier conditional snapshot")}</p></section>'
+    return f'<section class="local-panel" id="redland-election-sources"><h2>Mayoral by-election: dates, announcements and sources</h2><p>Council confirms the vacancy and acting arrangement. {escape(bye["status"])} Candidate records identify whether the source is a public announcement or an ECQ certification.</p><ul class="local-list">{rows}</ul><p>{link(page, "states/qld/councils/redland/index.html#redland-mayoral-update", "Current news and countdown status")} · {link(page, "content/local/redland-election.json", "Canonical timing data")} · {link(page, "content/local/history/redland-election-2026-10-16.json", "Earlier conditional snapshot")}</p></section>'
 
 
 def apply_page(page, text, election, link):
