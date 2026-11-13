@@ -2,11 +2,14 @@
 (function(root){'use strict';
 const OPEN='2026-11-18T09:00:00+11:00',CLOSE='2026-11-27T18:00:00+11:00';
 function status(now=new Date()){
- const parts=Object.fromEntries(new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Melbourne',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(p=>[p.type,p.value]));
+ const parts=Object.fromEntries(new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Melbourne',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hourCycle:'h23'}).formatToParts(now).map(p=>[p.type,p.value]));
  const days=Math.round((Date.UTC(2026,10,18)-Date.UTC(+parts.year,+parts.month-1,+parts.day))/86400000);
  if(now<new Date(OPEN))return {phase:'before',days:Math.max(0,days),value:days>0?String(days):'Today',label:days>0?(days===1?'day to early voting':'days to early voting'):'Early voting opens at 9 am',note:'Opens 18 November · Australia/Melbourne'};
- if(now<new Date(CLOSE))return {phase:'open',days:0,value:'Open',label:'Early voting is open',note:'18–27 November · 9 am–6 pm; closed Sunday 22 November'};
- return {phase:'closed',days:0,value:'Closed',label:'Early voting has ended',note:'Election day: Saturday 28 November · check VEC voting options'};
+ if(now>=new Date(CLOSE))return {phase:'closed',days:0,value:'Closed',label:'Early voting has ended',note:'Election day: Saturday 28 November · check VEC voting options'};
+ const localDay=+parts.day,localHour=+parts.hour;
+ if(localDay===22)return {phase:'closed',days:0,value:'Closed',label:'Early voting is closed Sunday 22 November',note:'Reopens Monday 23 November at 9 am'};
+ if(localHour<9||localHour>=18)return {phase:'closed',days:0,value:'Closed',label:'Early voting is closed now',note:'18–27 November · 9 am–6 pm; closed Sunday 22 November'};
+ return {phase:'open',days:0,value:'Open',label:'Early voting is open',note:'18–27 November · 9 am–6 pm; closed Sunday 22 November'};
 }
 if(typeof module!=='undefined')module.exports={status,open:OPEN,close:CLOSE};
 if(!root.document)return;

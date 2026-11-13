@@ -492,3 +492,7 @@ The Shire confirms Jason Weeks resigned effective 3 November. The public record 
 ## 13 November 2026 · Bridgetown-Greenbushes extraordinary election arrangements
 
 The 5 November special meeting agenda says an extraordinary election is required and records Electoral Commissioner approval for 18 March 2027 as the date to be considered by Council. A council resolution fixing the date and method was not verified. The public notice and agenda give different resignation dates, which remain attributed. The election countdown stays inactive. [Scoped review](../docs/releases/2026-11-13-bridgetown-greenbushes-vacancy.md).
+
+## 13 November 2026 · Victorian state election
+
+The Victorian Electoral Commission published 1,037 nominations on 10 November: 734 for the Legislative Assembly and 303 for the Legislative Council. Nominations closed at noon AEDT on 9 November. The VEC directory gives the ballot order for every district and region. The 495 P4A announcement and preselection records remain dated source observations. Early voting in Victoria runs 18–27 November, 9 am–6 pm, with centres closed on Sunday 22 November. Election day voting is 28 November, 8 am–6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-vic-official-nominations.md).

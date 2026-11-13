@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, state-election, Parliament and campaign records retain their earlier reviews.",
+  "researchStatus": "13 November: verified the VEC nomination totals, candidate directory and voting timetable for the 28 November state election. Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, Parliament and campaign records retain their earlier reviews.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
@@ -26,7 +26,7 @@
       "kind": "State general election",
       "scope": "general",
       "status": "Scheduled",
-      "note": "Enrolment closes 3 November at 8 pm. Nominations: 4 November 9 am to 9 November noon. Early voting: 18–27 November. All dates and times are Australia/Melbourne. No final candidate list is presented.",
+      "note": "The VEC confirmed 1,037 candidates on 10 November: 734 Assembly and 303 Council. Nominations closed at noon on 9 November. Early voting in Victoria runs 18–27 November, 9 am–6 pm, with centres closed on Sunday 22 November. Election day voting is 28 November, 8 am–6 pm. All times are AEDT. See the VEC candidate directory under Sources.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -191,7 +191,7 @@
   "strategyNotes": [
     "The 28 November 2026 election is 57 calendar days from 2 October in Australia/Melbourne.",
     "The Assembly has 88 seats: 87 sitting members and one Brunswick vacancy. The Council has 40 members in eight regions.",
-    "Distinguish current representatives, historical election outcomes, announced candidates and formal nominations. Nominations open on 4 November.",
+    "The VEC candidate directory lists formal nominations by district and region. The P4A announcement and preselection records retain their dated sources.",
     "Knox Baird Ward remains vacant following Peter Lockwood’s resignation on 29 October 2026. The official timetable confirms election day 6 February 2027, postal close 5 February at 6 pm AEDT, roll close 25 November at 4 pm, and nominations 14–22 December closing noon. No candidates or result inferred. Rechecked 9 November 2026: https://www.knox.vic.gov.au/our-council/councillors-and-meetings/council-elections/baird-ward-election-2027"
   ],
   "sources": [
@@ -246,6 +246,18 @@
     {
       "label": "Knox Baird Ward resignation and by-election process, 29 October 2026",
       "url": "https://www.knox.vic.gov.au/whats-happening/news/knox-councillor-resignation"
+    },
+    {
+      "label": "VEC official nomination totals, 10 November 2026",
+      "url": "https://www.vec.vic.gov.au/about-us/media/media-releases/1037-candidates-will-contest-the-2026-state-election"
+    },
+    {
+      "label": "VEC official candidates by district and region",
+      "url": "https://www.vec.vic.gov.au/voting/2026-state-election/find-candidates"
+    },
+    {
+      "label": "VEC voting options and opening hours",
+      "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options"
     }
   ],
   "previousResearchRun": "2026-10-29",
