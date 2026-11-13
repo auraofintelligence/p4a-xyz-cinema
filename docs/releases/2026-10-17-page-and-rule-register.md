@@ -1,6 +1,6 @@
 # Pages and rules review register
 
-Updated 2026-11-12, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
+Updated 2026-11-13, Australia/Brisbane. This records the pages built in this local pass and the existing entry pages updated to reach them. Source research dates remain separate.
 
 ## The local journey
 
@@ -9,13 +9,13 @@ Work started 2026-10-16; first verified build 2026-10-17.
 | Page | Last updated | Change | Review when |
 | --- | --- | --- | --- |
 | [Queensland councils](../../states/qld/councils/index.html) | 2026-10-23 | Shared visitor navigation: prominent maps, electorate/council/federal choices and reciprocal routes; no factual source-date refresh. | Council boundaries, map service, source rights, built destinations or navigation change. |
-| [Redlands overview](../../states/qld/councils/redland/index.html) | 2026-11-12 | Scoped Redland candidate review. Added the 12 November ECQ-certified listings and D’Rose’s sourced announcement. Retained prior timetable and source dates. | Boundaries, statistics, representation, election status or linked journey changes. |
+| [Redlands overview](../../states/qld/councils/redland/index.html) | 2026-11-13 | Added the ECQ-certified nomination of Brendon J Smith as an Independent, checked at noon Brisbane time on 13 November. | Boundaries, statistics, representation, election status or linked journey changes. |
 | [Connected systems and public evidence](../../states/qld/councils/redland/explore/index.html) | 2026-11-02 | Refreshed current album titles, direct lyric links and related editorial meanings from the creator's updated 22-song A Protopian Gambit; preserved earlier link register and civic source dates. | Local evidence, project status, links or canonical Twinkle rules change. |
 | [Connected possibilities](../../states/qld/councils/redland/possibilities/index.html) | 2026-11-02 | Refreshed current album titles, direct lyric links and related editorial meanings from the creator's updated 22-song A Protopian Gambit; preserved earlier link register and civic source dates. | Proposal status, dependencies, evidence, song destinations or the human purpose changes. |
-| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-11-12 | Scoped Redland candidate review. Added the 12 November ECQ-certified listings and D’Rose’s sourced announcement. Retained prior timetable and source dates. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
+| [People and elections](../../states/qld/councils/redland/candidates/index.html) | 2026-11-13 | Added the ECQ-certified nomination of Brendon J Smith as an Independent, checked at noon Brisbane time on 13 November. | Official roles, nominations, decisions, laws, vacancy notices or election timetables change. |
 | [Take part](../../states/qld/councils/redland/action/index.html) | 2026-10-17 | Added contribution choices, responsible-body routes and a private local note export. | Participation channels, authority, permissions, form behaviour or linked tools change. |
 | [Outcomes and learning](../../states/qld/councils/redland/outcomes/index.html) | 2026-10-17 | Added delivery stages and the cost, freely given contribution and change accounts. | A proposal, decision, delivery record, measured result or correction becomes available. |
-| [Sources, dates and this review register](../../states/qld/councils/redland/sources/index.html) | 2026-11-12 | Scoped Redland candidate review. Added the 12 November ECQ-certified listings and D’Rose’s sourced announcement. Retained prior timetable and source dates. | Any linked page, rule, source, map edition, data release or recorded review changes. |
+| [Sources, dates and this review register](../../states/qld/councils/redland/sources/index.html) | 2026-11-13 | Added the ECQ-certified nomination of Brendon J Smith as an Independent, checked at noon Brisbane time on 13 November. | Any linked page, rule, source, map edition, data release or recorded review changes. |
 
 ## Redlands divisions
 

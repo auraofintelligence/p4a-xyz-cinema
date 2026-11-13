@@ -472,3 +472,7 @@ Confirmed noon AEST 19 November nomination deadline; no opening time inferred. D
 ## 12 November 2026 · Redland mayoral candidate status
 
 The rendered ECQ register listed Melissa Millar and Gary Williamson as Independent. Liela D’Rose’s 8 November statement announces Animal Justice Party endorsement. Her name was absent from the register when checked. See the [scoped report](../docs/releases/2026-11-12-redland-candidate-review.md) and [source observations](../content/places/sources/redland-candidate-review-2026-11-12.json).
+
+## 13 November 2026 · Redland mayoral nomination
+
+The noon ECQ register check added Brendon J Smith, Independent. Gary Williamson and Melissa Millar remain listed. See the [scoped review](../docs/releases/2026-11-13-redland-candidate-review.md).

@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
-  "checked": "2026-11-12",
-  "changed": "2026-11-12",
+  "checked": "2026-11-13",
+  "changed": "2026-11-13",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -177,6 +177,14 @@
         "published": "2026-11-08",
         "checked": "2026-11-12",
         "supports": "D’Rose publicly announced on 8 November that she is running with Animal Justice Party endorsement. The 12 November ECQ register did not display her name."
+      },
+      {
+        "id": "ecq-redland-candidates-20261113",
+        "title": "ECQ Redland certified-candidate register",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "publisher": "Electoral Commission of Queensland",
+        "checked": "2026-11-13",
+        "supports": "At the 13 November noon check, ECQ displayed Gary Williamson, Melissa Millar and Brendon J Smith, all Independent. The register publishes nominations after Returning Officer certification."
       }
     ],
     "postalVotingProposal": {
@@ -320,9 +328,31 @@
         "summary": "D’Rose announced she is running with Animal Justice Party endorsement. Her name was absent from the ECQ register at the 12 November check.",
         "nominationStatus": "not-verified",
         "nominationSource": null
+      },
+      {
+        "id": "brendon-j-smith",
+        "name": "Brendon J Smith",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
+        "announced": null,
+        "checked": "2026-11-13",
+        "source": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "sourceId": "ecq-redland-candidates-20261113",
+        "sourceType": "official-register",
+        "sourceLabel": "See the ECQ register",
+        "summary": "ECQ lists Brendon J Smith as an Independent.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "nominationChecked": "2026-11-13",
+        "publicLinks": [
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51152"
+          }
+        ]
       }
     ],
-    "candidateCoverage": "On 12 November, the ECQ register listed Melissa Millar and Gary Williamson, both Independent. Public intentions and party endorsements appear with their own labels. This is a snapshot during nominations; follow ECQ for later certifications and the final ballot.",
+    "candidateCoverage": "On 13 November, ECQ listed Gary Williamson, Melissa Millar and Brendon J Smith, all Independent. This snapshot was taken while nominations were open. Follow ECQ for later certifications and the final ballot.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -355,10 +385,10 @@
     },
     "officialCandidateSearch": {
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
-      "checked": "2026-11-12",
+      "checked": "2026-11-13",
       "label": "Check ECQ’s certified candidates",
-      "status": "The Redland City register displayed Melissa Millar and Gary Williamson, both Independent. The register publishes names after Returning Officer certification. This is a dated snapshot of the open nomination period.",
-      "sourceId": "ecq-redland-candidates-20261112"
+      "status": "At the 13 November noon check, ECQ displayed Gary Williamson, Melissa Millar and Brendon J Smith, all Independent. The register publishes nominations after Returning Officer certification.",
+      "sourceId": "ecq-redland-candidates-20261113"
     }
   },
   "refreshTriggers": [
@@ -369,5 +399,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "12 November 2026 Australia/Brisbane: official certified-candidate register and D’Rose’s original public announcement checked for the Redland mayoral by-election. Earlier source dates and timetable checks are retained."
+  "reviewScope": "13 November 2026 Australia/Brisbane: verified the noon ECQ candidate register and added Brendon J Smith. Earlier announcement and timetable evidence retains its original dates."
 }

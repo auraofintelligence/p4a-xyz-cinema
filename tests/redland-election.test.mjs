@@ -47,7 +47,11 @@ test('candidate presentation keeps requested order and public links separate fro
     const html = await readFile(new URL('../states/qld/councils/redland/' + route, import.meta.url), 'utf8');
     let previous = -1;
     for (const c of candidates) { const i=html.indexOf('<h3>'+c.name+'</h3>'); assert.ok(i>previous); previous=i; }
-    for (const c of candidates) for (const item of c.publicLinks || []) assert.ok(html.includes(item.url));
+    for (const c of candidates) {
+      for (const item of c.publicLinks || []) {
+        assert.ok(html.includes(item.url.replaceAll('&', '&amp;')), item.url);
+      }
+    }
   }
 });
 
