@@ -484,3 +484,7 @@ ECQ declared Gregory Kevin English elected. Tablelands Council separately confir
 ## 13 November 2026 · Kempsey Shire Council by-election
 
 Kempsey Shire Council reported Noel Selby’s resignation effective 4 November and confirmed a one-seat by-election for Saturday 16 January 2027. Council’s current directory lists eight officeholders, including Deputy Mayor Arthur Bain. The countdown uses the Sydney calendar date. Nomination deadlines and voting hours await an official timetable. [Scoped review](../docs/releases/2026-11-13-nsw-kempsey-election-review.md).
+
+## 13 November 2026 · Gingin councillor vacancy
+
+The Shire confirms Jason Weeks resigned effective 3 November. The public record now shows the vacancy, with the replacement process and timetable awaiting confirmation. [Scoped review](../docs/releases/2026-11-13-gingin-vacancy.md).

@@ -209,6 +209,28 @@
       "tree": "a278bf461f77937e88e6b897a76ef905832b0ec0",
       "deployedOn": "2026-11-13",
       "verifiedAt": "2026-11-13T08:12:03.668322+00:00"
+    },
+    {
+      "commit": "23676119d1033c346d9bc536647ef30605e060de",
+      "deployedAt": "2026-11-13T08:22:16Z",
+      "scope": "Kempsey Shire Council councillor vacancy, council-published 16 January 2027 by-election date, roster and NSW and national date-only election cards.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43392497630",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43392497713",
+      "liveVerification": "Exact Git bytes served for canonical council JSON and the Kempsey, NSW and national states HTML.",
+      "nonBrowserChecks": {
+        "local": "999,422 national assertions, all 2,081 publication contracts, date, navigation, discovery and state-clock parity passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43392497760"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Live council page showed Noel Selby removed from the current roster and the date-only clock. NSW page used Australia/Sydney and fitted the 390 CSS pixel viewport."
+      },
+      "note": "Scoped content check. Full map interaction and strict national browser re-binding were not completed.",
+      "tree": "32b6dd3a325f3bafa7c1d47e6c486de783377ee3",
+      "deployedOn": "2026-11-13",
+      "verifiedAt": "2026-11-13T08:24:51.345729+00:00"
     }
   ]
 }

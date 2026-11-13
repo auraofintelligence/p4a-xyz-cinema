@@ -8,9 +8,9 @@
   "shortName": "WA",
   "capital": "Perth",
   "stateType": "State",
-  "researchRun": "2026-10-29",
+  "researchRun": "2026-11-13",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes Cr Simon Robinson resigned effective 9 October; the council awaits advice on the replacement process and date. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified.",
+  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes Cr Simon Robinson resigned effective 9 October; the council awaits advice on the replacement process and date. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks resigned effective 3 November; the replacement process and election date are unconfirmed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Roger Cook",
@@ -235,14 +235,18 @@
     {
       "label": "Esperance Town Ward vacancy and postal election",
       "url": "https://www.esperance.wa.gov.au/news/postal-election-confirmed-for-town-ward-vacancy/550"
+    },
+    {
+      "label": "Gingin councillor resignation notice, 5 November 2026",
+      "url": "https://www.gingin.wa.gov.au/news/resignation-of-councillor-jason-weeks/1285"
     }
   ],
-  "previousResearchRun": "2026-10-23",
+  "previousResearchRun": "2026-10-29",
   "researchReview": {
-    "checked": "2026-10-29",
+    "checked": "2026-11-13",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped election and council-vacancy review only. Parliament composition and unrelated records retain their previous dated checks; progressive counts do not establish final results or new officeholders.",
-    "previousResearchRun": "2026-10-23",
+    "scope": "Scoped council-vacancy review of Gingin. State Parliament and unrelated source dates are retained.",
+    "previousResearchRun": "2026-10-29",
     "sourceDatesPreserved": true
   }
 }
