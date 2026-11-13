@@ -504,3 +504,7 @@ City of Coffs Harbour Council by-election: Nominations closed at noon AEDT on 11
 ## 13 November 2026 · Hunter’s Hill Council South Ward by-election
 
 Hunter’s Hill Council South Ward by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-nsw-hunters-hill-election-review.md).
+
+## 13 November 2026 · Hobart City Council
+
+The City directory lists Charles Wooley as Lord Mayor and eight other councillors. All three TEC ballot results are recorded, along with the 3 November certificate issue date. Ben Lohberger won the deputy ballot without winning a councillor seat. Councillors will fill the office. [Scoped review](../docs/releases/2026-11-13-hobart-council-election-review.md).
