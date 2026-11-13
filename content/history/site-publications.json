@@ -253,6 +253,50 @@
       "tree": "996a210afe176120b6797b67d41774a74c99ec7f",
       "deployedOn": "2026-11-13",
       "verifiedAt": "2026-11-13T08:37:09.090592+00:00"
+    },
+    {
+      "commit": "4460e51702cb077e4baefe738347f1e9994228c5",
+      "deployedAt": "2026-11-13T08:48:24Z",
+      "scope": "Bridgetown-Greenbushes extraordinary election arrangements, differing resignation dates and approved date proposed to Council, with the final timetable pending.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43395906634",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43395907724",
+      "liveVerification": "Exact Git bytes served for canonical council JSON and the council, WA and national states HTML.",
+      "nonBrowserChecks": {
+        "local": "999,437 national assertions, all 2,081 publication contracts, review-date and discovery checks passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43395907669"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Live council page displayed both source dates, the provisional 18 March 2027 date and linked official agenda. The election countdown remained inactive."
+      },
+      "note": "Scoped browser content verification. Full map interaction and strict national browser re-binding were not completed.",
+      "tree": "1da054c91a9e8c26b9f1c683b89e26beff8763bf",
+      "deployedOn": "2026-11-13",
+      "verifiedAt": "2026-11-13T08:52:38.941062+00:00"
+    },
+    {
+      "commit": "fa5dea723abcc9b87138f327d011290ed6e6fea7",
+      "deployedAt": "2026-11-13T08:53:26Z",
+      "scope": "Official Victorian state election ballots for all 96 contests, published early voting hours and corrected Melbourne-time clock behavior.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43396541839",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43396542052",
+      "liveVerification": "Exact Git bytes served for the election HTML, early voting script and official ballot snapshot.",
+      "nonBrowserChecks": {
+        "local": "All 1,037 ballot records and 495 retained announcement records reconciled; voting-hours boundaries, date parity, navigation, discovery and Victoria atlas tests passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43396541854"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Live page displayed 96 contests and 1,037 official candidate entries, alongside 495 dated P4A records. Opened Albert Park ballot at 390 CSS pixels with no horizontal overflow. Live clock showed the pre-opening phase."
+      },
+      "note": "Scoped live election-directory review. Voting-hour boundaries were tested locally with fixed instants.",
+      "tree": "f27b000bbd77c5d9dccfd60250b4f7908fffdac7",
+      "deployedOn": "2026-11-13",
+      "verifiedAt": "2026-11-13T08:55:44.670295+00:00"
     }
   ]
 }

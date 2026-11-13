@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -64,8 +64,8 @@
       "date": "2026-12-12T18:00:00+11:00",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Nomination period 2–11 November; closes noon AEDT",
-      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Nomination lodgement opened 2 November at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified 3 November 2026.",
+      "status": "Contested election · 5 candidates in official ballot order",
+      "note": "Official voting close is 6 pm Sydney time. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Nomination lodgement opened 2 November at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified 3 November 2026. Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order.",
       "source": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -341,6 +341,14 @@
     {
       "label": "Kempsey Shire Council current roster and by-election date",
       "url": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors"
+    },
+    {
+      "label": "NSWEC City of Coffs Harbour Council by-election ballot paper draw order",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election"
+    },
+    {
+      "label": "NSWEC City of Coffs Harbour Council by-election notice of contested election",
+      "url": "https://elections.nsw.gov.au/bulletins/election-notice-3-city-of-coffs-harbour"
     }
   ],
   "previousResearchRun": "2026-10-30",

@@ -280,3 +280,9 @@ The historical-outline JSON and its research date are unchanged. Exact pre-29 Oc
 Kempsey Shire Council reported Noel Selby’s resignation effective 4 November and confirmed a one-seat by-election for Saturday 16 January 2027. Council’s current directory lists eight officeholders, including Deputy Mayor Arthur Bain. The countdown uses the Sydney calendar date. Nomination deadlines and voting hours await an official timetable.
 
 [Scoped review](../../docs/releases/2026-11-13-nsw-kempsey-election-review.md) · [Source observations](../../content/places/sources/2026-11-13-nsw-kempsey-election-review.json) · [Prior records](../../content/places/history/kempsey-before-2026-11-13.json)
+
+## 13 November 2026 · City of Coffs Harbour Council by-election
+
+City of Coffs Harbour Council by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT.
+
+[Scoped review](../../docs/releases/2026-11-13-nsw-coffs-election-review.md) · [Source observations](../../content/places/sources/2026-11-13-nsw-coffs-election-review.json) · [Prior records](../../content/places/history/coffs-before-2026-11-13.json)

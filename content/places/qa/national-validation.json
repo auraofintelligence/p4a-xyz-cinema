@@ -4,17 +4,17 @@
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 999437,
+    "assertions": 999473,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 286,
+    "source_hashes_checked": 288,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1359,
+    "sources": 1361,
     "current_representative_records": 5239,
     "election_events": 4473,
-    "contestant_records": 18395,
+    "contestant_records": 18400,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
     "gzip_byte_round_trips": 49,
@@ -26,11 +26,11 @@
     "generated_pages_checked": 2113,
     "rendered_representative_records_checked": 5239,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56597,
+    "external_link_references_not_fetched": 56604,
     "rendered_event_records_checked": 4473,
-    "rendered_contestant_records_checked": 18395,
+    "rendered_contestant_records_checked": 18400,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3073
+    "evidence_artifacts_bound": 3074
   },
   "errors": [],
   "warnings": [
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "d21624aab41c23f08a868eaf8706b2c854e79a525ac3d04bd71e9689f134c31d",
-      "bytes": 15245909
+      "sha256": "0af29f00307894caf7b4a6a8bbea47bb49563c3e2b2e762f631039a49393c288",
+      "bytes": 15250257
     },
     {
       "path": "content/places/federal.json",
@@ -6520,6 +6520,11 @@
       "bytes": 2092
     },
     {
+      "path": "content/places/sources/2026-11-13-nsw-coffs-election-review.json",
+      "sha256": "1443e43b4d2e3af9c451a11ff73a24bcb524660865dcc52570b38eb798c7afb5",
+      "bytes": 1488
+    },
+    {
       "path": "content/places/sources/2026-11-13-nsw-kempsey-election-review.json",
       "sha256": "672d9bcd1ce7853d99f550003e17c4f48bf3775c98ca898cc79095a3356591a7",
       "bytes": 1482
@@ -6911,8 +6916,8 @@
     },
     {
       "path": "states/nsw/councils/coffs-harbour/index.html",
-      "sha256": "6bfae6b0134ca6ed77316e98e361f07501ea695509f11f9694269de5a441c5bb",
-      "bytes": 186761
+      "sha256": "97fcfdcc3bfe3d6c91446f2eadc437e120d28aab37d5270ae96b5454ea7a1b78",
+      "bytes": 189175
     },
     {
       "path": "states/nsw/councils/coolamon/index.html",

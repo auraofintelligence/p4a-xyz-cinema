@@ -8778,6 +8778,26 @@
       "sha256": "80b8290558ad4fc251278b3f51ac6e6d583d0bb45ec2f77ad31dd9e2e1c51b2f",
       "verificationMethod": "Direct official source read. The evidence record states the limits.",
       "licence": "Source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-coffs-harbour-ballot-20261113",
+      "title": "NSWEC City of Coffs Harbour Council by-election ballot paper draw order",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+      "checked": "2026-11-13",
+      "rawFile": "content/places/sources/2026-11-13-nsw-coffs-election-review.json",
+      "sha256": "1443e43b4d2e3af9c451a11ff73a24bcb524660865dcc52570b38eb798c7afb5",
+      "verificationMethod": "Official public civic source reviewed. Post-draw candidate table lists 5 candidates in official ballot order, with affiliations as printed. Kyal Towells’s ballot affiliation field is blank.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-coffs-harbour-contested-20261113",
+      "title": "NSWEC City of Coffs Harbour Council by-election notice of contested election",
+      "url": "https://elections.nsw.gov.au/bulletins/election-notice-3-city-of-coffs-harbour",
+      "checked": "2026-11-13",
+      "rawFile": "content/places/sources/2026-11-13-nsw-coffs-election-review.json",
+      "sha256": "1443e43b4d2e3af9c451a11ff73a24bcb524660865dcc52570b38eb798c7afb5",
+      "verificationMethod": "Official public civic source reviewed. Election notice 3 dated 12 November confirms a contested poll on 12 December, 8 am–6 pm AEDT, with postal receipt by 6 pm AEDT on 29 December.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -120755,7 +120775,9 @@
         "council-nsw-2024-coffs-harbour-mayor",
         "refresh-nsw-council-11800-20261023",
         "election-review-coffs-20261029",
-        "election-review-coffs-nomination-period-20261102"
+        "election-review-coffs-nomination-period-20261102",
+        "election-review-coffs-harbour-ballot-20261113",
+        "election-review-coffs-harbour-contested-20261113"
       ],
       "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
       "representatives": [
@@ -121344,12 +121366,58 @@
           "id": "nsw-council-11800-by-election-2026-12-12",
           "label": "2026 Coffs Harbour Council by-election",
           "kind": "by-election",
-          "status": "Nomination period 2–11 November; closes noon AEDT",
+          "status": "Contested election · 5 candidates in official ballot order",
           "date": "2026-12-12",
-          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election. Verified 29 October 2026. Nomination lodgement opened 2 November 2026 at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified on the NSWEC candidate page on 3 November 2026.",
+          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no result has been declared. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Paul Amos resigned effective 14 October 2026; one councillor vacancy proceeds to the confirmed 12 December by-election. Verified 29 October 2026. Nomination lodgement opened 2 November 2026 at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified on the NSWEC candidate page on 3 November 2026. Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order.",
           "timezone": "Australia/Sydney",
           "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
-          "candidates": [],
+          "candidates": [
+            {
+              "name": "ROSE Sarah",
+              "party": "Independent",
+              "status": "Nominated · ballot position 1",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+              "sourceId": "election-review-coffs-harbour-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 1
+            },
+            {
+              "name": "JOHNSTON Sam",
+              "party": "Independent",
+              "status": "Nominated · ballot position 2",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+              "sourceId": "election-review-coffs-harbour-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 2
+            },
+            {
+              "name": "FOX Rodney",
+              "party": "Independent",
+              "status": "Nominated · ballot position 3",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+              "sourceId": "election-review-coffs-harbour-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 3
+            },
+            {
+              "name": "TOWELLS Kyal",
+              "party": null,
+              "status": "Nominated · ballot position 4",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+              "sourceId": "election-review-coffs-harbour-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 4
+            },
+            {
+              "name": "O’BRIEN John",
+              "party": "Independent",
+              "status": "Nominated · ballot position 5",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+              "sourceId": "election-review-coffs-harbour-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 5
+            }
+          ],
           "dateTime": "2026-12-12T18:00:00+11:00",
           "milestoneLabel": "election-day voting closes",
           "postalReceiptDeadline": "2026-12-29T18:00:00+11:00",
@@ -121359,9 +121427,11 @@
           "earlyVotingOpens": "2026-12-05",
           "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
           "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
-          "checked": "2026-11-03",
+          "checked": "2026-11-13",
           "nominationSourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election/becoming-a-candidate",
-          "nominationPeriodNote": "Nomination lodgement opened 2 November 2026 at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified on the NSWEC candidate page on 3 November 2026."
+          "nominationPeriodNote": "Nomination lodgement opened 2 November 2026 at 9 am AEDT and closes 11 November at noon AEDT. Opening hour verified on the NSWEC candidate page on 3 November 2026.",
+          "sourceId": "election-review-coffs-harbour-ballot-20261113",
+          "candidateCoverage": "Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order."
         }
       ],
       "coverageNotes": [

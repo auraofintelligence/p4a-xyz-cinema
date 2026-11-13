@@ -496,3 +496,7 @@ The 5 November special meeting agenda says an extraordinary election is required
 ## 13 November 2026 · Victorian state election
 
 The Victorian Electoral Commission published 1,037 nominations on 10 November: 734 for the Legislative Assembly and 303 for the Legislative Council. Nominations closed at noon AEDT on 9 November. The VEC directory gives the ballot order for every district and region. The 495 P4A announcement and preselection records remain dated source observations. Early voting in Victoria runs 18–27 November, 9 am–6 pm, with centres closed on Sunday 22 November. Election day voting is 28 November, 8 am–6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-vic-official-nominations.md).
+
+## 13 November 2026 · City of Coffs Harbour Council by-election
+
+City of Coffs Harbour Council by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-nsw-coffs-election-review.md).
