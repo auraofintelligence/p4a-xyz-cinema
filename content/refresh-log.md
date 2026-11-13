@@ -488,3 +488,7 @@ Kempsey Shire Council reported Noel Selby’s resignation effective 4 November a
 ## 13 November 2026 · Gingin councillor vacancy
 
 The Shire confirms Jason Weeks resigned effective 3 November. The public record now shows the vacancy, with the replacement process and timetable awaiting confirmation. [Scoped review](../docs/releases/2026-11-13-gingin-vacancy.md).
+
+## 13 November 2026 · Bridgetown-Greenbushes extraordinary election arrangements
+
+The 5 November special meeting agenda says an extraordinary election is required and records Electoral Commissioner approval for 18 March 2027 as the date to be considered by Council. A council resolution fixing the date and method was not verified. The public notice and agenda give different resignation dates, which remain attributed. The election countdown stays inactive. [Scoped review](../docs/releases/2026-11-13-bridgetown-greenbushes-vacancy.md).

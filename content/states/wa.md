@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-13",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes Cr Simon Robinson resigned effective 9 October; the council awaits advice on the replacement process and date. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks resigned effective 3 November; the replacement process and election date are unconfirmed.",
+  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks resigned effective 3 November; the replacement process and election date are unconfirmed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Roger Cook",
@@ -239,13 +239,17 @@
     {
       "label": "Gingin councillor resignation notice, 5 November 2026",
       "url": "https://www.gingin.wa.gov.au/news/resignation-of-councillor-jason-weeks/1285"
+    },
+    {
+      "label": "Bridgetown-Greenbushes extraordinary election agenda, 5 November 2026",
+      "url": "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338/documents/scm-5-november-2026-agenda.pdf"
     }
   ],
   "previousResearchRun": "2026-10-29",
   "researchReview": {
     "checked": "2026-11-13",
     "timezone": "Australia/Brisbane",
-    "scope": "Scoped council-vacancy review of Gingin. State Parliament and unrelated source dates are retained.",
+    "scope": "Scoped council-vacancy review of Gingin. State Parliament and unrelated source dates are retained. Scoped council-vacancy review of Bridgetown-Greenbushes.",
     "previousResearchRun": "2026-10-29",
     "sourceDatesPreserved": true
   }
