@@ -476,3 +476,7 @@ The rendered ECQ register listed Melissa Millar and Gary Williamson as Independe
 ## 13 November 2026 · Redland mayoral nomination
 
 The noon ECQ register check added Brendon J Smith, Independent. Gary Williamson and Melissa Millar remain listed. See the [scoped review](../docs/releases/2026-11-13-redland-candidate-review.md).
+
+## 13 November 2026 · Tablelands Division 1 result
+
+ECQ declared Gregory Kevin English elected. Tablelands Council separately confirms he took office on 11 November. The council and division retain the October poll and November postal receipt deadline. The Queensland election summary links the declared result. [Source observations](places/sources/tablelands-division-1-review-2026-11-13.json).

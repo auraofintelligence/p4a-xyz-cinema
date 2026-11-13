@@ -590,7 +590,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 1 November: Tablelands Division 1 postal vote completion closed at 6 pm AEST on 31 October; ECQ receipt remains open until 5 pm AEST on 10 November. No winner is inferred. Focused Redland recheck 9 November: ECQ confirms a 12 December full postal mayoral by-election, with notice and nominations opening announced for 10 November. No opening hour or closing deadline is inferred. Current-office and reported-intention evidence retain their previous dates. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
+    "researchStatus": "Focused Tablelands review 13 November: ECQ declared Greg English elected in Division 1. Council confirms he took office on 11 November. Postal completion closed 31 October at 6 pm AEST and receipt closed 10 November at 5 pm AEST. Focused Redland recheck 9 November: ECQ confirms a 12 December full postal mayoral by-election, with notice and nominations opening announced for 10 November. No opening hour or closing deadline is inferred. Current-office and reported-intention evidence retain their previous dates. Parliament composition and Townsville records retain their 23 October checks; historical Stafford percentages retain their July check. Other council/federal coverage remains partial.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "David Crisafulli",
@@ -648,9 +648,9 @@ window.P4A_STATE_DATA = [
         "date": "2026-10-31T18:00:00+10:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Postal completion closed; receipt deadline pending",
-        "note": "Postal vote completion closed at 6 pm on 31 October 2026 (AEST, Australia/Brisbane). ECQ must receive completed postal votes by 5 pm on 10 November. Completion and receipt are distinct deadlines; no extension of completion or declared winner is inferred. Accepted candidates not imported. Checked 1 November 2026, Australia/Brisbane.",
-        "source": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
+        "status": "Declared result: Greg English elected",
+        "note": "ECQ declared Gregory Kevin English elected. Tablelands Council confirms he took office on 11 November. Postal vote completion closed at 6 pm on 31 October and postal receipt at 5 pm on 10 November, AEST. Result and office checked 13 November 2026, Australia/Brisbane.",
+        "source": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
         "dayMetrics": {
           "displayDaysUntil": true,
           "displayDaysSince": false,

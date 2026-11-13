@@ -22,6 +22,7 @@
     "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
     "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
     "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+    "ECQ's declared Division 1 result and Council's separate confirmation of Greg English taking office were checked on 13 November 2026.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -34,7 +35,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-13"
     ]
   },
   "routes": [
@@ -82,7 +83,9 @@
           "council-qld-2024-browser-verified-xml-tsirc-postponement",
           "council-qld-current-leaders-browser",
           "refresh-tablelands-current-20261023",
-          "election-review-tablelands-20261101"
+          "election-review-tablelands-20261101",
+          "election-review-tablelands-division-1-result-20261113",
+          "election-review-tablelands-division-1-office-20261113"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
@@ -93,6 +96,15 @@
             "profileType": "official current-member roster",
             "sourceId": "refresh-tablelands-current-20261023",
             "checked": "2026-10-23"
+          },
+          {
+            "name": "Greg English",
+            "role": "Councillor, Division 1",
+            "status": "Took office 11 November 2026",
+            "profileUrl": "https://www.trc.qld.gov.au/new-division-one-councillor-declared/",
+            "profileType": "official Council declaration of office notice",
+            "sourceId": "election-review-tablelands-division-1-office-20261113",
+            "checked": "2026-11-13"
           }
         ],
         "elections": [
@@ -412,18 +424,54 @@
             "id": "qld-council-6820-by-election-2026-10-31",
             "label": "2026 Tablelands Division 1 by-election",
             "kind": "by-election",
-            "status": "Postal vote completion closed; receipt of returns continues",
+            "status": "Declared result: Greg English elected",
             "date": "2026-10-31",
-            "dateBasis": "The postal vote completion deadline, 31 October 2026 at 18:00 AEST, has elapsed. Receipt remains open until 10 November at 17:00 AEST. No result declaration was established. These are distinct deadlines; no winner or in-person voting is inferred. Verified 1 November 2026.",
+            "dateBasis": "ECQ declared Gregory Kevin English elected. Postal vote completion closed 31 October at 6 pm AEST and receipt closed 10 November at 5 pm AEST. Council confirms English took office on 11 November.",
             "timezone": "Australia/Brisbane",
-            "sourceUrl": "https://www.ecq.qld.gov.au/elections/election-events/tablelands-regional-council-division-1by-election",
-            "candidates": [],
+            "sourceUrl": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
+            "candidates": [
+              {
+                "name": "Bernie Wilce",
+                "result": "Contested",
+                "votes": 644,
+                "voteMeasure": "official first-preference votes",
+                "sourceUrl": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
+                "sourceId": "election-review-tablelands-division-1-result-20261113",
+                "checked": "2026-11-13"
+              },
+              {
+                "name": "Mark Norvall",
+                "result": "Contested",
+                "votes": 498,
+                "voteMeasure": "official first-preference votes",
+                "sourceUrl": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
+                "sourceId": "election-review-tablelands-division-1-result-20261113",
+                "checked": "2026-11-13"
+              },
+              {
+                "name": "Kate Eden",
+                "result": "Contested",
+                "votes": 460,
+                "voteMeasure": "official first-preference votes",
+                "sourceUrl": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
+                "sourceId": "election-review-tablelands-division-1-result-20261113",
+                "checked": "2026-11-13"
+              },
+              {
+                "name": "Greg English",
+                "result": "Declared elected as Gregory Kevin English",
+                "votes": 743,
+                "voteMeasure": "official first-preference votes",
+                "sourceUrl": "https://results.elections.qld.gov.au/TRCDiv126/01/primary",
+                "sourceId": "election-review-tablelands-division-1-result-20261113",
+                "checked": "2026-11-13"
+              }
+            ],
             "dateTime": "2026-10-31T18:00:00+10:00",
             "milestoneLabel": "postal vote completion closes",
             "postalReceiptDeadline": "2026-11-10T17:00:00+10:00",
-            "checked": "2026-11-01",
-            "sourceId": "election-review-tablelands-20261101",
-            "contestantNote": "The contestant roster and result declaration are not independently verified in this collection. Follow the official record; the elapsed completion deadline does not establish a winner."
+            "checked": "2026-11-13",
+            "sourceId": "election-review-tablelands-division-1-result-20261113"
           }
         ],
         "coverageNotes": [
@@ -433,7 +481,8 @@
           "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16October2026 update is not an individual office-commencement date.",
           "All 2024 local-election ballot names and historical declarations are independently sourced from the ECQ archive downloaded via its official public browser interface. These2024 outcomes do not establish current office; later by-elections/replacements remain separate.",
           "Official council website independently published in the Queensland Government directory, checked 17 October 2026.",
-          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date."
+          "This source supplies the published mayor independently of2024 election results. Complete current councillor rosters and individual biographies remain unpopulated except where separately sourced. The page-wide16 October 2026 update is not an individual office-commencement date.",
+          "ECQ's declared Division 1 result and Council's separate confirmation of Greg English taking office were checked on 13 November 2026."
         ]
       }
     }
