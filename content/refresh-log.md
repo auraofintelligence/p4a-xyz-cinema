@@ -480,3 +480,7 @@ The noon ECQ register check added Brendon J Smith, Independent. Gary Williamson 
 ## 13 November 2026 · Tablelands Division 1 result
 
 ECQ declared Gregory Kevin English elected. Tablelands Council separately confirms he took office on 11 November. The council and division retain the October poll and November postal receipt deadline. The Queensland election summary links the declared result. [Source observations](places/sources/tablelands-division-1-review-2026-11-13.json).
+
+## 13 November 2026 · Kempsey Shire Council by-election
+
+Kempsey Shire Council reported Noel Selby’s resignation effective 4 November and confirmed a one-seat by-election for Saturday 16 January 2027. Council’s current directory lists eight officeholders, including Deputy Mayor Arthur Bain. The countdown uses the Sydney calendar date. Nomination deadlines and voting hours await an official timetable. [Scoped review](../docs/releases/2026-11-13-nsw-kempsey-election-review.md).

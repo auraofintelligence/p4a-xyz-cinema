@@ -274,3 +274,9 @@ The 29 October review recorded Cobar's closed nominations without inferring an o
 [Coffs Harbour's notice](https://www.coffsharbour.nsw.gov.au/Your-Council/Newsroom/Media-Releases/Recognition-for-Cr-Paul-Amos-following-resignation) supports Paul Amos's resignation effective 14 October. [Hunters Hill's official news index](https://www.huntershill.nsw.gov.au/Council/News-and-Media/News) records Marc Lane's immediate resignation on 15 October; the linked detail page was inaccessible. Both replacement polls remain scheduled for 12 December, with nominations closing 11 November at noon Sydney time (AEDT). No accepted ballot, winner or candidacy is inferred.
 
 The historical-outline JSON and its research date are unchanged. Exact pre-29 October overview data is retained in [the baseline snapshot](state-research-before-2026-10-29.json); the intermediate NSW overview is retained in [the pre-30 October snapshot](state-research-before-2026-10-30.json). Event and roster history remains under `content/places/history/`. See [the 30 October release record](../../docs/releases/2026-10-30-election-notices.md) for checks, source-access limits and delivery status.
+
+## 13 November 2026 · Kempsey Shire Council by-election
+
+Kempsey Shire Council reported Noel Selby’s resignation effective 4 November and confirmed a one-seat by-election for Saturday 16 January 2027. Council’s current directory lists eight officeholders, including Deputy Mayor Arthur Bain. The countdown uses the Sydney calendar date. Nomination deadlines and voting hours await an official timetable.
+
+[Scoped review](../../docs/releases/2026-11-13-nsw-kempsey-election-review.md) · [Source observations](../../content/places/sources/2026-11-13-nsw-kempsey-election-review.json) · [Prior records](../../content/places/history/kempsey-before-2026-11-13.json)

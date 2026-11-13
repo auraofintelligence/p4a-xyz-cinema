@@ -30,7 +30,7 @@ class StateClockParity(unittest.TestCase):
      if event.get('datePrecision')=='day':self.assertEqual(attrs['data-election-precision'],'day');self.assertNotIn('T08:00',date)
      if event.get('indicativeDate'):self.assertIn('Indicative statutory date: '+event['indicativeDate'],c)
      checked+=1
-  self.assertEqual(checked,50)
+  self.assertEqual(checked,52)
  def test_calendar_embedded_data(self):
   text=(R/'assets/state-election-calendar.js').read_text()
   data=json.loads(re.search(r'const DATA=(.*?);\n',text)[1])

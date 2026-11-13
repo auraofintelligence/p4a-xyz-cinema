@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-02",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both close 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -105,6 +105,25 @@
         "archiveDaysSince": true,
         "cycleKey": "nsw-walcha-vacancy-2026-10-23",
         "archiveNote": "Keep the vacancy and eventual by-election separate from the ordinary council-election cycle."
+      }
+    },
+    {
+      "label": "2027 Kempsey Shire Council by-election",
+      "date": "2027-01-16",
+      "kind": "Council by-election",
+      "scope": "local-government",
+      "status": "Council confirms a by-election for one councillor vacancy on Saturday 16 January 2027. Official timetable awaited.",
+      "note": "Kempsey Shire Council confirms the polling date. The countdown marks the start of 16 January in Sydney. Nomination deadlines and polling hours are awaiting an official timetable.",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors",
+      "timezone": "Australia/Sydney",
+      "datePrecision": "day",
+      "timingStatus": "date-confirmed",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "nsw-2027-kempsey-shire-council-by-election",
+        "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
       }
     }
   ],
@@ -314,6 +333,14 @@
     {
       "label": "Hunters Hill official election notice, 20 October 2026 — resignation dated 14 October",
       "url": "https://www.huntershill.nsw.gov.au/Council/News-and-Media/News/Council-by-election-South-Ward"
+    },
+    {
+      "label": "Kempsey Shire Council resignation notice",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Councillor-Noel-Selby-resigns-from-Kempsey-Shire-Council"
+    },
+    {
+      "label": "Kempsey Shire Council current roster and by-election date",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors"
     }
   ],
   "previousResearchRun": "2026-10-30",
