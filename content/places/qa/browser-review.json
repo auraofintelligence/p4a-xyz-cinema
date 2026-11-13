@@ -1,61 +1,131 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-03",
-  "checkedAt": "2026-11-02T22:39:55.463424+00:00",
+  "checked": "2026-11-13",
+  "checkedAt": "2026-11-13T09:41:13.770986+00:00",
   "status": "PASS",
-  "scope": "Scoped election-correction rendering and one search/select/Open/Back journey. Not all-place browser or factual certification.",
+  "scope": "Scoped live election content, official sources and affected council map journeys.",
+  "environment": "Cloud Chromium on p4a.xyz",
+  "liveCommit": "7f1c47682a3bfdad132faea58a79b854cad553a9",
   "testedPagePaths": [
-    "states/wa/councils/carnarvon/index.html",
-    "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
-    "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+    "states/qld/councils/tablelands-regional/index.html",
+    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+    "states/qld/index.html",
+    "states/qld/places/councils/index.html",
+    "states/wa/councils/gingin/index.html",
+    "states/wa/councils/bridgetown-greenbushes/index.html",
+    "states/wa/index.html",
+    "states/wa/places/councils/index.html",
+    "states/nsw/councils/kempsey/index.html",
     "states/nsw/councils/coffs-harbour/index.html",
-    "states/nsw/index.html"
+    "states/nsw/councils/hunters-hill/index.html",
+    "states/nsw/index.html",
+    "states/nsw/places/councils/index.html",
+    "states/vic/election/index.html",
+    "states/tas/councils/hobart/index.html",
+    "states/tas/places/councils/index.html"
+  ],
+  "checks": [
+    "Tablelands Regional council, Division 1 and Queensland pages displayed Greg English's declared result and 11 November taking-office date. Queensland portal checked at 375 CSS px.",
+    "Search/select/Open/Back restored Tablelands Regional, Gingin, Bridgetown-Greenbushes, Kempsey, Coffs Harbour, Hunters Hill and Hobart on their live council maps.",
+    "Gingin showed the resignation effective 3 November and pending replacement with no running vacancy clock. Bridgetown-Greenbushes showed the provisional 18 March 2027 date and inactive countdown at 390 CSS px.",
+    "Kempsey showed the 16 January 2027 by-election date and current roster change. NSW portal checked at 390 CSS px.",
+    "Coffs Harbour rendered five official ballot names and the election clock. Hunters Hill showed four official names in order, its source and countdown at 390 CSS px.",
+    "Victoria showed all 96 contests and 1,037 official ballot entries. The Albert Park ballot opened at 390 CSS px with no horizontal overflow.",
+    "Hobart displayed nine current officeholders and separate final councillor, Lord Mayor and Deputy Lord Mayor contests; Tasmania council search opened Hobart and restored the selection on Back."
+  ],
+  "limitations": [
+    "Content and affected navigation on cloud Chromium at the recorded desktop or phone widths. No physical touch, tablet, independent external geometry or all-place browser certification.",
+    "Map journeys used search and selection. Manual polygon picking and alternate layers were outside this election-content review.",
+    "Earlier tests were retained as historical evidence. This review only records the published election and officeholder scope."
   ],
   "fixturePaths": [
-    "tools/publication-qa/election-refresh-2026-11-03-cloud-browser.json",
-    "tools/publication-qa/election-refresh-2026-11-03-fixture.html",
-    "tools/publication-qa/election-refresh-2026-11-03-390.jpg"
+    "content/places/qa/election-refresh-2026-11-13-live-checks.json"
   ],
   "artifactFingerprints": [
     {
-      "path": "states/wa/councils/carnarvon/index.html",
-      "sha256": "d595cd6ff03990f41ddb4830287dc35a9418f55dd41e70e7365fe3d5968091f2",
-      "bytes": 25468
+      "path": "states/qld/councils/tablelands-regional/index.html",
+      "sha256": "450ea57293d90773899a950ce4d62f8d1d2902f29aa2c3499f9b20c62eb04caf",
+      "bytes": 46255
     },
     {
-      "path": "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
-      "sha256": "c6d0861f0ece197920d9d5faf0f34f0a010f5e357c5888ea5393ff1f53ed608e",
-      "bytes": 23006
+      "path": "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+      "sha256": "b97acf50dc43337a89114facc66623c80ddf12ed1fd61bd382e26acfc2d52a99",
+      "bytes": 28392
     },
     {
-      "path": "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
-      "sha256": "0dbbaf88d0b1a88de507e0038d43b90f79bd8052c62a88fffd476ab176c591a7",
-      "bytes": 23009
+      "path": "states/qld/index.html",
+      "sha256": "fc647ce5ef25eb41b5ded3a6ba909fc9c5a26f6e19d320aae7c8db1923184f24",
+      "bytes": 33140
+    },
+    {
+      "path": "states/qld/places/councils/index.html",
+      "sha256": "f53e980d1b42b29173fc8d23745edcaf8cfbf371480f940bf08f7a7900dfd791",
+      "bytes": 101617
+    },
+    {
+      "path": "states/wa/councils/gingin/index.html",
+      "sha256": "1626556a5002203b4eaaa0978ce37c498d8bfbdc0d7d73de776ee9dbdedfc64a",
+      "bytes": 108082
+    },
+    {
+      "path": "states/wa/councils/bridgetown-greenbushes/index.html",
+      "sha256": "d8815479d812f056729fd90dbe1a79e66df06a534087cfc9fd5e1e78187cd554",
+      "bytes": 109877
+    },
+    {
+      "path": "states/wa/index.html",
+      "sha256": "21ab4c3a9b0bf26003a84fe3d3543a5acda6a295c8d09d84456589ff039c50ee",
+      "bytes": 22579
+    },
+    {
+      "path": "states/wa/places/councils/index.html",
+      "sha256": "7fdc64c64a5d655f2aae3bd4d99bda1095ec9cb0b9aa2cf2baaeb26c66267bee",
+      "bytes": 138748
+    },
+    {
+      "path": "states/nsw/councils/kempsey/index.html",
+      "sha256": "a07bbcb0555422bc19a8dd260579b104e6a3ff4671cd4b472000cec20bee2eed",
+      "bytes": 177340
     },
     {
       "path": "states/nsw/councils/coffs-harbour/index.html",
-      "sha256": "59bab8ed41494649ea67643a4136887421cf1ff9a465b7795fd252c396dbe2cc",
-      "bytes": 186856
+      "sha256": "97fcfdcc3bfe3d6c91446f2eadc437e120d28aab37d5270ae96b5454ea7a1b78",
+      "bytes": 189175
+    },
+    {
+      "path": "states/nsw/councils/hunters-hill/index.html",
+      "sha256": "52bdf31d3a847fd35c379cf97432ff4f12e6cd29a056cb8d1360c510a0282712",
+      "bytes": 174741
     },
     {
       "path": "states/nsw/index.html",
-      "sha256": "7ed91d38a969c524da7ec419ede8b9bda27a3ab8cfa3a02449700d023d00e23b",
-      "bytes": 28768
+      "sha256": "89f62c7cfb86c3768b08a98cc8779a3838f1e7e2dd4067a4491865541dcbe835",
+      "bytes": 33074
     },
     {
-      "path": "tools/publication-qa/election-refresh-2026-11-03-cloud-browser.json",
-      "sha256": "46779fff75ca031542eb8e2ba64004128fbdd5f3acfb8d0a91c1f195abd76eb4",
-      "bytes": 1715
+      "path": "states/nsw/places/councils/index.html",
+      "sha256": "184cb69d7ba8ccd2d6e1685bfabe3137729be3a23d961b598f8ebb6fb894a577",
+      "bytes": 150638
     },
     {
-      "path": "tools/publication-qa/election-refresh-2026-11-03-fixture.html",
-      "sha256": "9c18c6f2cc427d6379af5592cda271955a5d6c5f2b6f95ad1ea693556222cfaa",
-      "bytes": 473
+      "path": "states/vic/election/index.html",
+      "sha256": "90b9a9262344744835e4f2914b205b50393cc1390cbd9a5f2a71527d380d0183",
+      "bytes": 625425
     },
     {
-      "path": "tools/publication-qa/election-refresh-2026-11-03-390.jpg",
-      "sha256": "0d1990fb48d245d353a6fac5269a952216521b105c363503a81560d19c50ea5e",
-      "bytes": 60141
+      "path": "states/tas/councils/hobart/index.html",
+      "sha256": "e3c5715529924ea847cddb149274972b26ce4a804a18c5d5cbae319719303974",
+      "bytes": 98288
+    },
+    {
+      "path": "states/tas/places/councils/index.html",
+      "sha256": "a9c3764acacccaf08f1093dd0ced4147bbf89114f3aa379d3ff79d80cbe52343",
+      "bytes": 32173
+    },
+    {
+      "path": "content/places/qa/election-refresh-2026-11-13-live-checks.json",
+      "sha256": "b77a67b2f2e03f177494042ca860d314ad7fabed8db0e6ecddd7b4b19d72eee3",
+      "bytes": 2795
     },
     {
       "path": "assets/civic-places.js",
@@ -73,24 +143,10 @@
       "bytes": 40349
     }
   ],
-  "checks": [
-    "Carnarvon current representation shows Martin Aldridge as appointed commissioner, with 27 May effective date and first-meeting endpoint.",
-    "Representative/area search Coral, selection, Open Coral Bay Ward and Back restored selected search context.",
-    "Both Coral Bay and Plantation final-unopposed events render No poll: elected unopposed, not a waiting or running poll clock.",
-    "Coffs Harbour event renders sourced 9 am AEDT nomination opening and retains 12 December deadline.",
-    "NSW portal separates confirmed Coffs opening hour from Hunters Hill date-only opening.",
-    "390px single-iframe screenshot visually inspected: commissioner card and civic explanation readable without clipped text."
-  ],
-  "limitations": [
-    "Desktop DOM and one 390px fixture only; no physical touch or fresh tablet review.",
-    "Initial dual-iframe fixture stalled browser; single-frame recovery succeeded. No pass claimed for failed attempt.",
-    "Earlier browser evidence archived, not renewed; structural checks cover other generated dependants.",
-    "No external source verification or deployment claim follows from local browser checks."
-  ],
   "reviewSlices": [
     {
-      "path": "content/places/qa/pre-election-refresh-2026-11-03/browser-review.json",
-      "scope": "Earlier browser evidence preserved at its original date; not repeated."
+      "path": "content/places/qa/pre-election-refresh-2026-11-13/browser-review.json",
+      "scope": "Previous browser evidence at its original date."
     }
   ]
 }

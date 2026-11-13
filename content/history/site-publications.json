@@ -341,6 +341,29 @@
       "tree": "c06b9160947491e02967ded0a4a44b43bd35a1bb",
       "deployedOn": "2026-11-13",
       "verifiedAt": "2026-11-13T09:21:50.624041+00:00"
+    },
+    {
+      "commit": "7f1c47682a3bfdad132faea58a79b854cad553a9",
+      "deployedAt": "2026-11-13T09:39:47Z",
+      "scope": "Hobart 2026 current council roster, certificate date and three final ballot tables; nine serving members and 53 contest entries.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43402919558",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43402920295",
+      "liveVerification": "Exact Git bytes served for canonical council JSON, the Tasmania detail supplement, Hobart and both affected Tasmanian council directories.",
+      "nonBrowserChecks": {
+        "local": "999,961 national assertions, all 2,081 publication contracts, date, navigation, discovery, clock and independent roster/contest checks passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43402920189"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Live Hobart at 390 CSS pixels displayed nine current members, certificate date, official result anchors and all 32/11/10 rows with no horizontal overflow. Tasmanian council map selected Hobart by Charles Wooley and restored the selection on Back.",
+        "evidence": "content/places/qa/election-refresh-2026-11-13-live-checks.json"
+      },
+      "note": "The deputy ballot result is separate from current office. Scoped browser checks cover the election change and affected map journey.",
+      "tree": "32798cef7b790a6b1fceb4df2687acdb3f897508",
+      "deployedOn": "2026-11-13",
+      "verifiedAt": "2026-11-13T09:42:53.925937+00:00"
     }
   ]
 }

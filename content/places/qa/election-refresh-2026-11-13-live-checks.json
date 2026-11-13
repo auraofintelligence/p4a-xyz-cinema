@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-13",
+  "checkedAt": "2026-11-13T09:41:13.770986+00:00",
+  "status": "PASS",
+  "scope": "Scoped live election content, official sources and affected council map journeys.",
+  "environment": "Cloud Chromium on p4a.xyz",
+  "liveCommit": "7f1c47682a3bfdad132faea58a79b854cad553a9",
+  "testedPagePaths": [
+    "states/qld/councils/tablelands-regional/index.html",
+    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
+    "states/qld/index.html",
+    "states/qld/places/councils/index.html",
+    "states/wa/councils/gingin/index.html",
+    "states/wa/councils/bridgetown-greenbushes/index.html",
+    "states/wa/index.html",
+    "states/wa/places/councils/index.html",
+    "states/nsw/councils/kempsey/index.html",
+    "states/nsw/councils/coffs-harbour/index.html",
+    "states/nsw/councils/hunters-hill/index.html",
+    "states/nsw/index.html",
+    "states/nsw/places/councils/index.html",
+    "states/vic/election/index.html",
+    "states/tas/councils/hobart/index.html",
+    "states/tas/places/councils/index.html"
+  ],
+  "checks": [
+    "Tablelands Regional council, Division 1 and Queensland pages displayed Greg English's declared result and 11 November taking-office date. Queensland portal checked at 375 CSS px.",
+    "Search/select/Open/Back restored Tablelands Regional, Gingin, Bridgetown-Greenbushes, Kempsey, Coffs Harbour, Hunters Hill and Hobart on their live council maps.",
+    "Gingin showed the resignation effective 3 November and pending replacement with no running vacancy clock. Bridgetown-Greenbushes showed the provisional 18 March 2027 date and inactive countdown at 390 CSS px.",
+    "Kempsey showed the 16 January 2027 by-election date and current roster change. NSW portal checked at 390 CSS px.",
+    "Coffs Harbour rendered five official ballot names and the election clock. Hunters Hill showed four official names in order, its source and countdown at 390 CSS px.",
+    "Victoria showed all 96 contests and 1,037 official ballot entries. The Albert Park ballot opened at 390 CSS px with no horizontal overflow.",
+    "Hobart displayed nine current officeholders and separate final councillor, Lord Mayor and Deputy Lord Mayor contests; Tasmania council search opened Hobart and restored the selection on Back."
+  ],
+  "limitations": [
+    "Content and affected navigation on cloud Chromium at the recorded desktop or phone widths. No physical touch, tablet, independent external geometry or all-place browser certification.",
+    "Map journeys used search and selection. Manual polygon picking and alternate layers were outside this election-content review.",
+    "Earlier tests were retained as historical evidence. This review only records the published election and officeholder scope."
+  ]
+}

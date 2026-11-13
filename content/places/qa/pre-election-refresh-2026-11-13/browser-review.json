@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-03",
+  "checkedAt": "2026-11-02T22:39:55.463424+00:00",
+  "status": "PASS",
+  "scope": "Scoped election-correction rendering and one search/select/Open/Back journey. Not all-place browser or factual certification.",
+  "testedPagePaths": [
+    "states/wa/councils/carnarvon/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+    "states/nsw/councils/coffs-harbour/index.html",
+    "states/nsw/index.html"
+  ],
+  "fixturePaths": [
+    "tools/publication-qa/election-refresh-2026-11-03-cloud-browser.json",
+    "tools/publication-qa/election-refresh-2026-11-03-fixture.html",
+    "tools/publication-qa/election-refresh-2026-11-03-390.jpg"
+  ],
+  "artifactFingerprints": [
+    {
+      "path": "states/wa/councils/carnarvon/index.html",
+      "sha256": "d595cd6ff03990f41ddb4830287dc35a9418f55dd41e70e7365fe3d5968091f2",
+      "bytes": 25468
+    },
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+      "sha256": "c6d0861f0ece197920d9d5faf0f34f0a010f5e357c5888ea5393ff1f53ed608e",
+      "bytes": 23006
+    },
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+      "sha256": "0dbbaf88d0b1a88de507e0038d43b90f79bd8052c62a88fffd476ab176c591a7",
+      "bytes": 23009
+    },
+    {
+      "path": "states/nsw/councils/coffs-harbour/index.html",
+      "sha256": "59bab8ed41494649ea67643a4136887421cf1ff9a465b7795fd252c396dbe2cc",
+      "bytes": 186856
+    },
+    {
+      "path": "states/nsw/index.html",
+      "sha256": "7ed91d38a969c524da7ec419ede8b9bda27a3ab8cfa3a02449700d023d00e23b",
+      "bytes": 28768
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-03-cloud-browser.json",
+      "sha256": "46779fff75ca031542eb8e2ba64004128fbdd5f3acfb8d0a91c1f195abd76eb4",
+      "bytes": 1715
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-03-fixture.html",
+      "sha256": "9c18c6f2cc427d6379af5592cda271955a5d6c5f2b6f95ad1ea693556222cfaa",
+      "bytes": 473
+    },
+    {
+      "path": "tools/publication-qa/election-refresh-2026-11-03-390.jpg",
+      "sha256": "0d1990fb48d245d353a6fac5269a952216521b105c363503a81560d19c50ea5e",
+      "bytes": 60141
+    },
+    {
+      "path": "assets/civic-places.js",
+      "sha256": "0d212351eee74af178e94d8e5e62169541781779237b4cd394db251d29d2f2b2",
+      "bytes": 19209
+    },
+    {
+      "path": "assets/civic-places.css",
+      "sha256": "b46e73d1ec5fb59a862061bd53bc4bd314a07767c6b8b1ce5e855c7f638fc87d",
+      "bytes": 7199
+    },
+    {
+      "path": "tools/build-national-places.py",
+      "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e",
+      "bytes": 40349
+    }
+  ],
+  "checks": [
+    "Carnarvon current representation shows Martin Aldridge as appointed commissioner, with 27 May effective date and first-meeting endpoint.",
+    "Representative/area search Coral, selection, Open Coral Bay Ward and Back restored selected search context.",
+    "Both Coral Bay and Plantation final-unopposed events render No poll: elected unopposed, not a waiting or running poll clock.",
+    "Coffs Harbour event renders sourced 9 am AEDT nomination opening and retains 12 December deadline.",
+    "NSW portal separates confirmed Coffs opening hour from Hunters Hill date-only opening.",
+    "390px single-iframe screenshot visually inspected: commissioner card and civic explanation readable without clipped text."
+  ],
+  "limitations": [
+    "Desktop DOM and one 390px fixture only; no physical touch or fresh tablet review.",
+    "Initial dual-iframe fixture stalled browser; single-frame recovery succeeded. No pass claimed for failed attempt.",
+    "Earlier browser evidence archived, not renewed; structural checks cover other generated dependants.",
+    "No external source verification or deployment claim follows from local browser checks."
+  ],
+  "reviewSlices": [
+    {
+      "path": "content/places/qa/pre-election-refresh-2026-11-03/browser-review.json",
+      "scope": "Earlier browser evidence preserved at its original date; not repeated."
+    }
+  ]
+}
