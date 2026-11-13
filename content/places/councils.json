@@ -8798,6 +8798,26 @@
       "sha256": "1443e43b4d2e3af9c451a11ff73a24bcb524660865dcc52570b38eb798c7afb5",
       "verificationMethod": "Official public civic source reviewed. Election notice 3 dated 12 November confirms a contested poll on 12 December, 8 am–6 pm AEDT, with postal receipt by 6 pm AEDT on 29 December.",
       "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-hunters-hill-ballot-20261113",
+      "title": "NSWEC Hunter’s Hill Council South Ward by-election ballot paper draw order",
+      "url": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+      "checked": "2026-11-13",
+      "rawFile": "content/places/sources/2026-11-13-nsw-hunters-hill-election-review.json",
+      "sha256": "ceebfc18a1490bf23af794bb9f3d65a9fe12fa8c8d95bdb79296c827a8d2ca64",
+      "verificationMethod": "Official public civic source reviewed. Post-draw candidate table lists 4 candidates in official ballot order, with affiliations as printed.",
+      "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-hunters-hill-contested-20261113",
+      "title": "NSWEC Hunter’s Hill Council South Ward by-election notice of contested election",
+      "url": "https://elections.nsw.gov.au/bulletins/2026-hunters-hill-council-south-ward-by-election-election-notice-3",
+      "checked": "2026-11-13",
+      "rawFile": "content/places/sources/2026-11-13-nsw-hunters-hill-election-review.json",
+      "sha256": "ceebfc18a1490bf23af794bb9f3d65a9fe12fa8c8d95bdb79296c827a8d2ca64",
+      "verificationMethod": "Official public civic source reviewed. Election notice 3 dated 12 November confirms a contested poll on 12 December, 8 am–6 pm AEDT, with postal receipt by 6 pm AEDT on 29 December.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -129393,7 +129413,9 @@
         "election-review-hunters-hill-20261030",
         "election-review-hunters-hill-20261101",
         "election-review-hunters-hill-nomination-period-20261102",
-        "election-review-hunters-hill-20261107"
+        "election-review-hunters-hill-20261107",
+        "election-review-hunters-hill-ballot-20261113",
+        "election-review-hunters-hill-contested-20261113"
       ],
       "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
       "representatives": [
@@ -129672,27 +129694,47 @@
           "id": "nsw-council-14100-by-election-2026-12-12",
           "label": "2026 Hunters Hill South Ward by-election",
           "kind": "by-election",
-          "status": "Nomination period 2–11 November; closes noon AEDT",
+          "status": "Contested election · 4 candidates in official ballot order",
           "date": "2026-12-12",
-          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no winner or final ballot is inferred. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026. Nomination period 2–11 November, closing at noon AEDT; opening hour not published. Nomination-period source rechecked 2 November 2026.",
+          "dateBasis": "Official commission timetable; the clock targets the stated completion/voting close, not a later postal receipt or declaration. Historical result/current office are independently sourced where available; no result has been declared. Nominations close 2026-11-11T12:00:00+11:00. Postal ballots received by 2026-12-29T18:00:00+11:00. Council election notice published 20 October confirms resignation on 14 October 2026; 15 October was the earlier notice publication date. Verified 1 November 2026. Nomination period 2–11 November, closing at noon AEDT; opening hour not published. Nomination-period source rechecked 2 November 2026. Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order.",
           "timezone": "Australia/Sydney",
           "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
           "candidates": [
             {
               "name": "JAMES Craig",
               "party": "Independent",
-              "status": "Listed by NSWEC during nomination period; receipt order, not final ballot order",
+              "status": "Nominated · ballot position 1",
               "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
-              "profileUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
-              "checked": "2026-11-07"
+              "sourceId": "election-review-hunters-hill-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 1
+            },
+            {
+              "name": "MORGAN David Bruce",
+              "party": "Independent",
+              "status": "Nominated · ballot position 2",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+              "sourceId": "election-review-hunters-hill-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 2
             },
             {
               "name": "YAP Nick",
               "party": "LIBERAL",
-              "status": "Listed by NSWEC during nomination period; receipt order, not final ballot order",
+              "status": "Nominated · ballot position 3",
               "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
-              "profileUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
-              "checked": "2026-11-07"
+              "sourceId": "election-review-hunters-hill-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 3
+            },
+            {
+              "name": "TIMP Stephanie",
+              "party": "Independent",
+              "status": "Nominated · ballot position 4",
+              "sourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
+              "sourceId": "election-review-hunters-hill-ballot-20261113",
+              "checked": "2026-11-13",
+              "ballotOrder": 4
             }
           ],
           "dateTime": "2026-12-12T18:00:00+11:00",
@@ -129704,11 +129746,11 @@
           "earlyVotingOpens": "2026-12-05",
           "earlyVotingCloses": "2026-12-11T18:00:00+11:00",
           "postalApplicationsClose": "2026-12-07T17:00:00+11:00",
-          "checked": "2026-11-07",
-          "sourceId": "election-review-hunters-hill-20261107",
+          "checked": "2026-11-13",
+          "sourceId": "election-review-hunters-hill-ballot-20261113",
           "nominationSourceUrl": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election/becoming-a-candidate",
           "nominationPeriodNote": "Published nominations commence 2 November and close 11 November 2026 at noon AEDT; no opening hour is confirmed. Checked 2 November 2026.",
-          "candidateCoverage": "Two candidates listed in receipt order at 7 November check. Nominations remain open until noon 11 November AEDT; final field and ballot order not yet confirmed."
+          "candidateCoverage": "Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order."
         }
       ],
       "coverageNotes": [

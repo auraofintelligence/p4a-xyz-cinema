@@ -8,7 +8,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-02",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. NSWEC lists Craig James (Independent) and Nick Yap (LIBERAL) for Hunters Hill in receipt order at the 9 November check, not final ballot order. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+    "researchStatus": "13 November Hunter’s Hill Council South Ward by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. 13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 2 November review: Walcha councillor Adam Iuston resigned effective 23 October; Council confirms a by-election, with dates awaiting NSWEC. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Chris Minns",
@@ -78,8 +78,8 @@ window.P4A_STATE_DATA = [
         "date": "2026-12-12T18:00:00+11:00",
         "kind": "Council by-election",
         "scope": "local-government",
-        "status": "Nomination period 2–11 November; closes noon AEDT",
-        "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026. NSWEC rechecked 9 November lists JAMES Craig (Independent) and YAP Nick (LIBERAL) in receipt order; nominations remain open and final ballot order is not inferred.",
+        "status": "Contested election · 4 candidates in official ballot order",
+        "note": "Council's election notice published 20 October dates Marc Lane's resignation to 14 October 2026. The earlier notice was published 15 October; that is not the effective resignation date. Official voting close remains 6 pm Sydney time on 12 December. Nominations close 2026-11-11T12:00:00+11:00. Postal receipt has a separate later deadline; see the official timetable. Date correction checked 1 November 2026, Australia/Brisbane. Published nomination period begins 2 November; no opening hour is stated. Period rechecked 2 November 2026. Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order.",
         "source": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -347,6 +347,14 @@ window.P4A_STATE_DATA = [
       {
         "label": "NSWEC City of Coffs Harbour Council by-election notice of contested election",
         "url": "https://elections.nsw.gov.au/bulletins/election-notice-3-city-of-coffs-harbour"
+      },
+      {
+        "label": "NSWEC Hunter’s Hill Council South Ward by-election ballot paper draw order",
+        "url": "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election"
+      },
+      {
+        "label": "NSWEC Hunter’s Hill Council South Ward by-election notice of contested election",
+        "url": "https://elections.nsw.gov.au/bulletins/2026-hunters-hill-council-south-ward-by-election-election-notice-3"
       }
     ],
     "previousResearchRun": "2026-10-30",

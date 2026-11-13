@@ -500,3 +500,7 @@ The Victorian Electoral Commission published 1,037 nominations on 10 November: 7
 ## 13 November 2026 · City of Coffs Harbour Council by-election
 
 City of Coffs Harbour Council by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-nsw-coffs-election-review.md).
+
+## 13 November 2026 · Hunter’s Hill Council South Ward by-election
+
+Hunter’s Hill Council South Ward by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT. [Scoped review](../docs/releases/2026-11-13-nsw-hunters-hill-election-review.md).

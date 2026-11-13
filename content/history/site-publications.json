@@ -297,6 +297,28 @@
       "tree": "f27b000bbd77c5d9dccfd60250b4f7908fffdac7",
       "deployedOn": "2026-11-13",
       "verifiedAt": "2026-11-13T08:55:44.670295+00:00"
+    },
+    {
+      "commit": "c38f5af39f52752a19e509304c5bd280d7afeb01",
+      "deployedAt": "2026-11-13T09:05:21Z",
+      "scope": "Coffs Harbour mayoral by-election ballot order, official candidate affiliations and Sydney election date.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43398208988",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43398209264",
+      "liveVerification": "Exact Git bytes served for canonical council JSON and Coffs Harbour, NSW and national states HTML.",
+      "nonBrowserChecks": {
+        "local": "999,473 national assertions, all 2,081 publication contracts, date and discovery checks passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43398209258"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Live Coffs Harbour page showed all five ballot names in NSWEC order, a blank NSWEC affiliation for Peter Towells and the election clock."
+      },
+      "note": "Scoped browser content verification. Full map interaction and strict national browser re-binding were not completed.",
+      "tree": "d709edbeeb30715d5aa7b21ff65345bddbefe029",
+      "deployedOn": "2026-11-13",
+      "verifiedAt": "2026-11-13T09:11:16.096309+00:00"
     }
   ]
 }
