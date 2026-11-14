@@ -1804,7 +1804,7 @@ window.P4A_STATE_DATA = [
     "stateType": "Territory",
     "researchRun": "2026-11-01",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 1 November: Victoria Daly Regional Council confirms the Milngin by-election on 3 December, 8 am–6 pm ACST; nominations open 9 November and close 20 November at noon. Early/mobile voting starts 23 November, with early voting closing 2 December at 6 pm; declaration is scheduled for 17 December, not an outcome already reached. NTEC’s specific timetable and linked PDF rechecked 9 November confirm these milestones, postal receipts by noon 16 December and planned declaration 17 December at 10 am ACST. Nominations are scheduled to open on 9 November; no opening hour is published. The earlier general-index caveat is superseded by this direct official timetable check. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
+    "researchStatus": "NTEC confirms Milngin Ward supplementary by-election nominations opened 9 November and close at noon on 20 November. Early and mobile voting starts 23 November. Early voting closes at 6 pm on 2 December. Postal vote applications close at 6 pm on 29 November (overseas) and 6 pm on 1 December (local). Voting on 3 December runs 8 am–6 pm. Completed ballots are due by noon on 16 December and declaration is scheduled for 10 am on 17 December. All times are ACST. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
     "government": {
       "leaderTitle": "Chief Minister",
       "leader": "Lia Finocchiaro",
@@ -1989,6 +1989,10 @@ window.P4A_STATE_DATA = [
       {
         "label": "nt public notices",
         "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
+      },
+      {
+        "label": "NTEC — Milngin nominations and postal applications (checked 14 November 2026)",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election-nominations-open"
       },
       {
         "label": "Victoria Daly Regional Council — Milngin by-election timetable (checked 1 November 2026)",

@@ -512,3 +512,7 @@ The City directory lists Charles Wooley as Lord Mayor and eight other councillor
 ## 14 November 2026 — Carnarvon extraordinary election nominations
 
 Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.
+
+## 14 November 2026 · Milngin Ward supplementary by-election
+
+NTEC’s 9 November notice confirms nominations are open and close at noon ACST on 20 November. Overseas postal vote applications close at 6 pm ACST on 29 November and local applications at 6 pm ACST on 1 December. The separate completed ballot receipt deadline remains noon ACST on 16 December. [Scoped review](../docs/releases/2026-11-14-milngin-nomination-review.md).
