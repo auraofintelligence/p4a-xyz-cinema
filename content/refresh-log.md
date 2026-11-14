@@ -524,3 +524,7 @@ Jason Weeks, elected in October 2023, resigned as councillor effective 3 Novembe
 ## 14 November 2026 · King Island Council election
 
 Andrea Bowden and Saverina Stella won the two contested councillor seats after five councillors were elected unopposed. Sarina Laidler won the mayoral ballot and Ian Allan won the deputy mayoral ballot. King Island Council’s 10 November notice gives six declarations of office, including Sarina Laidler as Mayor and Ian Allan as Deputy Mayor. David Bowden was elected, and the notice says he had yet to make his declaration. The prior TEC roster is archived. [Scoped review](../docs/releases/2026-11-14-king-island-council-election-review.md).
+
+## 14 November 2026 · Tasman Council election
+
+Alan John Hull won the contested councillor seat after six councillors were elected unopposed. Rod MacDonald won the mayoral ballot and Steve McQueeney won the deputy mayoral ballot. The Council’s published directory still shows its pre-election membership, including Maria Stacey as Deputy Mayor. The July 2026 TEC roster is archived. The 2026 election results below give the elected names; current declarations of office remain unverified. [Scoped review](../docs/releases/2026-11-14-tasman-council-election-review.md).

@@ -4,17 +4,17 @@
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 1000219,
+    "assertions": 1000368,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 301,
+    "source_hashes_checked": 304,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1374,
-    "current_representative_records": 5233,
-    "election_events": 4480,
-    "contestant_records": 18496,
+    "sources": 1377,
+    "current_representative_records": 5226,
+    "election_events": 4484,
+    "contestant_records": 18515,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
     "gzip_byte_round_trips": 49,
@@ -24,13 +24,13 @@
     "local_link_references": 176159,
     "fragment_references_checked": 14658,
     "generated_pages_checked": 2113,
-    "rendered_representative_records_checked": 5233,
+    "rendered_representative_records_checked": 5226,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56696,
-    "rendered_event_records_checked": 4480,
-    "rendered_contestant_records_checked": 18496,
+    "external_link_references_not_fetched": 56708,
+    "rendered_event_records_checked": 4484,
+    "rendered_contestant_records_checked": 18515,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3080
+    "evidence_artifacts_bound": 3081
   },
   "errors": [],
   "warnings": [
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "5887326aa248fbcbee8805eff30ddd4a2f233ae90b350f54b144901f649a19d3",
-      "bytes": 15322235
+      "sha256": "46fd13611b420b566dcb22042d32d97c6329c5b852b358c1e455fb143b3bd835",
+      "bytes": 15337146
     },
     {
       "path": "content/places/federal.json",
@@ -6693,6 +6693,11 @@
       "path": "content/places/sources/tas-kingborough-roster-web-review.json",
       "sha256": "5cdc8dad3a0ae63859ca88b8550bef4ad74ab8c226fc1cea9121214da0eb4d57",
       "bytes": 577
+    },
+    {
+      "path": "content/places/sources/tasman-council-election-review-2026-11-14.json",
+      "sha256": "92dc62d3f9ce119c04bbf4798028f5d45f5a3ad2d8189dc0028e08705cab4a5a",
+      "bytes": 3633
     },
     {
       "path": "content/places/sources/vic-councils-before-research-2026-10-23.json",
@@ -11986,148 +11991,148 @@
     },
     {
       "path": "states/tas/councils/break-o-day/index.html",
-      "sha256": "b77cecb4fe6dae1502e08a2b90430e052dac1bba07ca719ffb9068285cf653c0",
-      "bytes": 59695
+      "sha256": "81fa9fd1d3a3d0d4e4d4bc5d94f70663fd2ac62d02c3f42182d512dc28e13d6a",
+      "bytes": 59457
     },
     {
       "path": "states/tas/councils/brighton/index.html",
-      "sha256": "e5416aecfe4918c5082731d9713153cce344ea93d47e8d83baeb6dee290d5461",
-      "bytes": 55934
+      "sha256": "3224442cc4ca97d30bd7ac7bb0dee575c22d18d91dacab59e25c74b316e331cd",
+      "bytes": 55696
     },
     {
       "path": "states/tas/councils/burnie/index.html",
-      "sha256": "05968bef6b2fe21750460476730e37e4b695512d10632357c2a1ec1a808c3180",
-      "bytes": 59095
+      "sha256": "69519d5764bc4bc4b0fd69a73f13d351a53d784b78ecb1bc92abe073a9366273",
+      "bytes": 58857
     },
     {
       "path": "states/tas/councils/central-coast-tas/index.html",
-      "sha256": "4d3f584dc9dc99b55786d5a71f374971580c42af3d18bf96cdf9ec9258d9c154",
-      "bytes": 64584
+      "sha256": "07cc3442af695b19282b64f180682b36b44a805a8eae9e13c56be3682408ec7c",
+      "bytes": 64346
     },
     {
       "path": "states/tas/councils/central-highlands-tas/index.html",
-      "sha256": "47e8303853b0c0c5dc3e8566c9c4105f1dd6db39666b26ad126077641aa342bc",
-      "bytes": 55175
+      "sha256": "1f625eda774f6b11f7a25fd6c833bac4da2e9b1d8451200b1487b6857e18aa4b",
+      "bytes": 54937
     },
     {
       "path": "states/tas/councils/circular-head/index.html",
-      "sha256": "8efcee5761c162841878411e27fbbee5e025345b1ee4fc134c5123abc1a7a680",
-      "bytes": 57615
+      "sha256": "79fbd8eec83b37cc1af94c8052a58a0893860dc4ae2767c35305f81d4ab0de6b",
+      "bytes": 57377
     },
     {
       "path": "states/tas/councils/clarence/index.html",
-      "sha256": "2bbc3704f02758ef2655472f8e4d9932f7dc92fe20a537b46d1ef78f77b6e194",
-      "bytes": 69037
+      "sha256": "b8d88aa9bad8cbb32472140e7c1ffce16a94da41dc40f560347708612243de19",
+      "bytes": 68799
     },
     {
       "path": "states/tas/councils/derwent-valley/index.html",
-      "sha256": "09915909b1a73501d38ae7f501eb82e70591c6a636c9ecfe291851077a15759f",
-      "bytes": 60375
+      "sha256": "d6e798eed3ae3bd857874999d2e6fad0bcd8e9b3d645a30387507c1f4eaff11e",
+      "bytes": 60137
     },
     {
       "path": "states/tas/councils/devonport/index.html",
-      "sha256": "b24feae91af2986d0f3bb2c03a46085d0488cf2fa94f6a6332b2c7ce56234811",
-      "bytes": 58087
+      "sha256": "8334a13aa30df998db07b6e82af0ea498a1dee6474564e7de29f0608b7ebf349",
+      "bytes": 57849
     },
     {
       "path": "states/tas/councils/dorset/index.html",
-      "sha256": "dbde58324de86b19ed7ddd9812daa2e84e9712f99d8d33481c3a6d50cc9c2922",
-      "bytes": 57167
+      "sha256": "e32609dcefdc1b68117ff957f8f818b37a0cefeb118df59ba858784b01169bf5",
+      "bytes": 56929
     },
     {
       "path": "states/tas/councils/flinders-tas/index.html",
-      "sha256": "f07f8779d5d504d6273621d9394601c02d3e0a2d19fc5d6ee380d23cc6847b51",
-      "bytes": 53228
+      "sha256": "50baccb320dc0f16df8418536606bc0fff24152736c2fb2977504e9cde63a4b8",
+      "bytes": 52990
     },
     {
       "path": "states/tas/councils/george-town/index.html",
-      "sha256": "c2f33720677b2bb5c8d0b985d7c094b85ffe573b2e1336cd1b4077831c218c2b",
-      "bytes": 58834
+      "sha256": "c5e55a97d786d27fda55160308eb982b2865864c0975ca889c769a0263546e49",
+      "bytes": 58596
     },
     {
       "path": "states/tas/councils/glamorgan-spring-bay/index.html",
-      "sha256": "43556b4d10fa9936c050eda3d3bed4ab9191cff2a0b7847ab0d6ab3abae20251",
-      "bytes": 56529
+      "sha256": "be9f7560edc4dfde843fb41564d61e23935e512879edb3771b344ffa0a0391ce",
+      "bytes": 56291
     },
     {
       "path": "states/tas/councils/glenorchy/index.html",
-      "sha256": "bebc1215c033d3acdbe4b2e0ad8711656358f304cf5a7e24c979a74d82ed99fb",
-      "bytes": 65822
+      "sha256": "f19d59d47965a9edc40327502a4976c94a384ada20102b564e24fcd4f2f6ed3f",
+      "bytes": 65584
     },
     {
       "path": "states/tas/councils/hobart/index.html",
-      "sha256": "0ab6e68fc74db2f94cfcd78140d5bdf991031eda1924b975664466f639f61f86",
-      "bytes": 98215
+      "sha256": "d167da9f70cac0ecbf6b6f97d5145dd17caa9427c59003b5936c7fcf36f30d6f",
+      "bytes": 97977
     },
     {
       "path": "states/tas/councils/huon-valley/index.html",
-      "sha256": "a5e599ca2b6ba8a977a1fbafd5cf4c963a2cf230c9bd41aa24df32d874e81fa8",
-      "bytes": 65633
+      "sha256": "61c6e87144f13a6b38e7db5550495e42707f32f11b8f8ec48908d22185efa36d",
+      "bytes": 65395
     },
     {
       "path": "states/tas/councils/kentish/index.html",
-      "sha256": "4dae380261344bc6364bf46b818125eb249271569e8c0876190a9cb21b0a8f3d",
-      "bytes": 54529
+      "sha256": "d2083262672d61b5ac585bcd5d63633551cd9512f877b90307c7c0b60ef8fce0",
+      "bytes": 54291
     },
     {
       "path": "states/tas/councils/king-island/index.html",
-      "sha256": "7d85011b73b946f17ae35ac82faf0b9976531cdc4085c7597ec1a27cd6ffda90",
-      "bytes": 60044
+      "sha256": "36221efe6ef845a217433f80b9c0244633cee3aab4a25c4c540062e9ee836576",
+      "bytes": 59806
     },
     {
       "path": "states/tas/councils/kingborough/index.html",
-      "sha256": "e0289b5c433d7e4d0a75756f034edf19f458e31c5ebd0f8a87eec6ae5a73eff4",
-      "bytes": 60566
+      "sha256": "f84654853a913f6306ed8038af5de7ed112ad146252425e892f54b523f94bba9",
+      "bytes": 60328
     },
     {
       "path": "states/tas/councils/latrobe-tas/index.html",
-      "sha256": "5c666a62bd45279a858783cfdba3cefe0ed32f77405a69a57a9f96791c026190",
-      "bytes": 56819
+      "sha256": "cd4a644524f6f61bc0be4fb451b02b567bc9ecef2b6b91e2267492874c8c3bde",
+      "bytes": 56581
     },
     {
       "path": "states/tas/councils/launceston/index.html",
-      "sha256": "575a416da9868f2dfed5658ec106cdcd918a7f4ddf9d178d4b77d66f94035769",
-      "bytes": 72040
+      "sha256": "a4103b85d8c3bbd5f2adc1b505c1a504917741c5b7e473e39eddb90ef8ef6afd",
+      "bytes": 71802
     },
     {
       "path": "states/tas/councils/meander-valley/index.html",
-      "sha256": "ef90621dacfeb31b7fc82522c4621c8488d950f7b8d65067be0f879272c2f1a3",
-      "bytes": 62732
+      "sha256": "88427d6d94c1a68b79e84778269a77b929a53a0a74578c01097a4d5fcb087ff4",
+      "bytes": 62494
     },
     {
       "path": "states/tas/councils/northern-midlands/index.html",
-      "sha256": "f780a69a59915619dbab50595b4ab9dfe95b4e21107c6411d333161246e07575",
-      "bytes": 63013
+      "sha256": "0989e1d4e22f6ae9c24f5e94d9e470923fb1eae23f4a3d98e6ffd9f18481a687",
+      "bytes": 62775
     },
     {
       "path": "states/tas/councils/sorell/index.html",
-      "sha256": "23101de5fde10792d5396465fa4e8f54cb4cb65de6c80200bd64c515cb032bc4",
-      "bytes": 59883
+      "sha256": "aeda384161d93966919883d47672d4d85c9993c8587260ecc2ebca4557cf8e27",
+      "bytes": 59645
     },
     {
       "path": "states/tas/councils/southern-midlands/index.html",
-      "sha256": "49befc6c2b9f543e493df5f7f0c46d3c2d510b6fb70958c79c34661e245696ed",
-      "bytes": 53599
+      "sha256": "7ed73fbf0c3899f8977660c3e157309e82a1ad445f368e6bf75f46e0f09247fd",
+      "bytes": 53361
     },
     {
       "path": "states/tas/councils/tasman/index.html",
-      "sha256": "1e946b2dcd50abdd530019d160680c8cc135ceda20f62a6b112e8e0a9a471bb9",
-      "bytes": 52676
+      "sha256": "423366214a25eec3faa3676f20d2e87c2128508e2e1ecb43a568a5e2e618f299",
+      "bytes": 61239
     },
     {
       "path": "states/tas/councils/waratah-wynyard/index.html",
-      "sha256": "dfeff9e15013aa505ef9e20cd7bb0c3ed41b88f835894cf8cf8103c01e9a05f7",
-      "bytes": 57668
+      "sha256": "a266c8bd195a27df98fca4d5d5ccbece7bae18cfcd8ad5ecaf2799fa83a504bd",
+      "bytes": 57430
     },
     {
       "path": "states/tas/councils/west-coast/index.html",
-      "sha256": "8e16300098e49447bb5f2529ca959e92f7c6b210ff77afbdec439fe850872871",
-      "bytes": 57865
+      "sha256": "caeb70ecfd703f30ad0ef828b0b458bec1b0b7899391618e5cc6d58d1b859704",
+      "bytes": 57627
     },
     {
       "path": "states/tas/councils/west-tamar/index.html",
-      "sha256": "31d23f6ecb7d36991af88d6b43c134af0c628f73916d4fe3907934a0417782cd",
-      "bytes": 61883
+      "sha256": "75dbeba036781042aedf92f9a502173a8342d170c288e0587ea993c9ea730c02",
+      "bytes": 61645
     },
     {
       "path": "states/tas/electorates/districts/bass/index.html",
@@ -12261,8 +12266,8 @@
     },
     {
       "path": "states/tas/places/councils/index.html",
-      "sha256": "1b4fabe0ab8825f651b72aa47a999e47057eb0a539b5c759c55956970df2f221",
-      "bytes": 32100
+      "sha256": "9512422d0b96ebd8b51e8d435ed2c80d2793cbd2e3c190cd9946095c3a701cbd",
+      "bytes": 31862
     },
     {
       "path": "states/tas/places/federal/index.html",
@@ -12271,8 +12276,8 @@
     },
     {
       "path": "states/tas/places/index.html",
-      "sha256": "a749ca3bd3ecac65ef1dbc4f8897c8ea66c9e7f1b53837fafd87d0dfa8a792b3",
-      "bytes": 40730
+      "sha256": "424d5404887de096308d4a3beeecdfc539e0760f3f0f71cf17efb59e01843931",
+      "bytes": 40615
     },
     {
       "path": "states/tas/places/state/index.html",
@@ -17336,7 +17341,7 @@
       "historical_events_without_individual_contestants": 217,
       "places_without_event_records": 110,
       "places_without_individual_historical_contestants": 291,
-      "places_without_individual_current_office_records": 330
+      "places_without_individual_current_office_records": 331
     },
     "state": {
       "places_without_individual_current_office_records": 1,
