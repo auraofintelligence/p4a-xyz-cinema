@@ -4,9 +4,10 @@
   "reviewedOn": "2026-11-14",
   "paths": [
     "content/places/qa/national-validation.json",
+    "content/places/qa/browser-review.json",
     "content/places/qa/contract-set.json"
   ],
-  "browserAcceptance": "deferred until after live deployment",
+  "browserAcceptance": "saved evidence bound",
   "nationalEvidence": {
     "validation": "content/places/qa/national-validation.json",
     "browser": "content/places/qa/browser-review.json"
@@ -32,6 +33,10 @@
     {
       "path": "content/places/qa/national-validation.json",
       "sha256": "c9af02546a0974d7960a4f6264000071aed7017b289abbbd40097e720fe96fab"
+    },
+    {
+      "path": "content/places/qa/browser-review.json",
+      "sha256": "e23f1cc5ef2c5aa02403d309e0e7817a7d8e71a8f9a98da197b1bad79990b262"
     },
     {
       "path": "content/places/qa/contract-set.json",

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-14",
+  "checkedAt": "2026-11-14T08:14:32.514427+00:00",
+  "status": "PASS",
+  "environment": "Cloud Chromium on p4a.xyz",
+  "liveCommit": "6fb9d59d83f06273bde9ada96ac55d2fd5217c6b",
+  "scope": "Scoped election content and affected directory review.",
+  "testedPagePaths": [
+    "states/wa/councils/carnarvon/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad76ffebcf31a1/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad81060d56c255/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+    "states/nt/councils/victoria-daly/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+    "states/wa/councils/gingin/index.html",
+    "states/tas/councils/king-island/index.html",
+    "states/tas/councils/tasman/index.html",
+    "states/tas/places/councils/index.html"
+  ],
+  "checks": [
+    "Carnarvon: all five live pages showed 15 council-wide candidates, 10 Town Ward, two Gascoyne/Minilya Ward, and Mark Young and Paul Shain elected unopposed. The contested council table opened without horizontal overflow at 390 CSS pixels. Unopposed events had no active clock.",
+    "Milngin: live council and ward pages showed nominations close on 20 November, both postal application cutoffs, distinct ballot receipt and Darwin-time countdown. The council page was checked at 390 CSS pixels.",
+    "Gingin: at 390 CSS pixels, live agenda link and recommendation appeared and the vacancy clock stayed inactive.",
+    "King Island and Tasman: final result tables and distinct current-office notes were visible. Tasmania map search, select, Open and Back worked at 390 CSS pixels."
+  ],
+  "limitations": [
+    "Checked the affected election and representation displays. No all-place browser, independent geometry, accessibility or source certification.",
+    "Results pages and map selections were reviewed after deployment. Earlier review evidence remains in the archived report."
+  ]
+}

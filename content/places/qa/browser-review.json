@@ -1,131 +1,92 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-13",
-  "checkedAt": "2026-11-13T09:41:13.770986+00:00",
+  "checked": "2026-11-14",
+  "checkedAt": "2026-11-14T08:14:32.514427+00:00",
   "status": "PASS",
-  "scope": "Scoped live election content, official sources and affected council map journeys.",
   "environment": "Cloud Chromium on p4a.xyz",
-  "liveCommit": "7f1c47682a3bfdad132faea58a79b854cad553a9",
+  "liveCommit": "6fb9d59d83f06273bde9ada96ac55d2fd5217c6b",
+  "scope": "Scoped election content and affected directory review.",
   "testedPagePaths": [
-    "states/qld/councils/tablelands-regional/index.html",
-    "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
-    "states/qld/index.html",
-    "states/qld/places/councils/index.html",
+    "states/wa/councils/carnarvon/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad76ffebcf31a1/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad81060d56c255/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+    "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+    "states/nt/councils/victoria-daly/index.html",
+    "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
     "states/wa/councils/gingin/index.html",
-    "states/wa/councils/bridgetown-greenbushes/index.html",
-    "states/wa/index.html",
-    "states/wa/places/councils/index.html",
-    "states/nsw/councils/kempsey/index.html",
-    "states/nsw/councils/coffs-harbour/index.html",
-    "states/nsw/councils/hunters-hill/index.html",
-    "states/nsw/index.html",
-    "states/nsw/places/councils/index.html",
-    "states/vic/election/index.html",
-    "states/tas/councils/hobart/index.html",
+    "states/tas/councils/king-island/index.html",
+    "states/tas/councils/tasman/index.html",
     "states/tas/places/councils/index.html"
   ],
   "checks": [
-    "Tablelands Regional council, Division 1 and Queensland pages displayed Greg English's declared result and 11 November taking-office date. Queensland portal checked at 375 CSS px.",
-    "Search/select/Open/Back restored Tablelands Regional, Gingin, Bridgetown-Greenbushes, Kempsey, Coffs Harbour, Hunters Hill and Hobart on their live council maps.",
-    "Gingin showed the resignation effective 3 November and pending replacement with no running vacancy clock. Bridgetown-Greenbushes showed the provisional 18 March 2027 date and inactive countdown at 390 CSS px.",
-    "Kempsey showed the 16 January 2027 by-election date and current roster change. NSW portal checked at 390 CSS px.",
-    "Coffs Harbour rendered five official ballot names and the election clock. Hunters Hill showed four official names in order, its source and countdown at 390 CSS px.",
-    "Victoria showed all 96 contests and 1,037 official ballot entries. The Albert Park ballot opened at 390 CSS px with no horizontal overflow.",
-    "Hobart displayed nine current officeholders and separate final councillor, Lord Mayor and Deputy Lord Mayor contests; Tasmania council search opened Hobart and restored the selection on Back."
+    "Carnarvon: all five live pages showed 15 council-wide candidates, 10 Town Ward, two Gascoyne/Minilya Ward, and Mark Young and Paul Shain elected unopposed. The contested council table opened without horizontal overflow at 390 CSS pixels. Unopposed events had no active clock.",
+    "Milngin: live council and ward pages showed nominations close on 20 November, both postal application cutoffs, distinct ballot receipt and Darwin-time countdown. The council page was checked at 390 CSS pixels.",
+    "Gingin: at 390 CSS pixels, live agenda link and recommendation appeared and the vacancy clock stayed inactive.",
+    "King Island and Tasman: final result tables and distinct current-office notes were visible. Tasmania map search, select, Open and Back worked at 390 CSS pixels."
   ],
   "limitations": [
-    "Content and affected navigation on cloud Chromium at the recorded desktop or phone widths. No physical touch, tablet, independent external geometry or all-place browser certification.",
-    "Map journeys used search and selection. Manual polygon picking and alternate layers were outside this election-content review.",
-    "Earlier tests were retained as historical evidence. This review only records the published election and officeholder scope."
+    "Checked the affected election and representation displays. No all-place browser, independent geometry, accessibility or source certification.",
+    "Results pages and map selections were reviewed after deployment. Earlier review evidence remains in the archived report."
   ],
   "fixturePaths": [
-    "content/places/qa/election-refresh-2026-11-13-live-checks.json"
+    "content/places/qa/election-refresh-2026-11-14-live-checks.json"
   ],
   "artifactFingerprints": [
     {
-      "path": "states/qld/councils/tablelands-regional/index.html",
-      "sha256": "450ea57293d90773899a950ce4d62f8d1d2902f29aa2c3499f9b20c62eb04caf",
-      "bytes": 46255
+      "path": "states/wa/councils/carnarvon/index.html",
+      "sha256": "455118d94d3f97ea6af6fad41c544d07d396347b8b75e38a7c8974f45787cd7c",
+      "bytes": 31021
     },
     {
-      "path": "states/qld/local-electoral-areas/qld-council-6820-division-1/index.html",
-      "sha256": "b97acf50dc43337a89114facc66623c80ddf12ed1fd61bd382e26acfc2d52a99",
-      "bytes": 28392
+      "path": "states/wa/local-electoral-areas/wa-ward-wad76ffebcf31a1/index.html",
+      "sha256": "928efe01beb143c0b94375971fcfe3db357c08a0f86dcc3f919e8b74900041e3",
+      "bytes": 27178
     },
     {
-      "path": "states/qld/index.html",
-      "sha256": "fc647ce5ef25eb41b5ded3a6ba909fc9c5a26f6e19d320aae7c8db1923184f24",
-      "bytes": 33140
+      "path": "states/wa/local-electoral-areas/wa-ward-wad81060d56c255/index.html",
+      "sha256": "74c73a3c029488e55cda12f3f7fb8155784eae3f1e62ed0dc57a4932801e05fb",
+      "bytes": 24697
     },
     {
-      "path": "states/qld/places/councils/index.html",
-      "sha256": "f53e980d1b42b29173fc8d23745edcaf8cfbf371480f940bf08f7a7900dfd791",
-      "bytes": 101617
+      "path": "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
+      "sha256": "601f50107e06791ed41804f4f25fd0e12910818621f6829a16f2fa44c31a223f",
+      "bytes": 23878
+    },
+    {
+      "path": "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
+      "sha256": "29d2ac5fffe2396e0cd84f89c88d9af2681751e9791945c360ed2a53c55e24a2",
+      "bytes": 23882
+    },
+    {
+      "path": "states/nt/councils/victoria-daly/index.html",
+      "sha256": "b3d81fd94150199d1c9650ad5219dc749caf1dcab66a69c4b343adf26bc87651",
+      "bytes": 39236
+    },
+    {
+      "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+      "sha256": "939972ceb6832bed65afba4f309c1b13aa2443b25fc354b53e028ae4d3f62297",
+      "bytes": 28000
     },
     {
       "path": "states/wa/councils/gingin/index.html",
-      "sha256": "1626556a5002203b4eaaa0978ce37c498d8bfbdc0d7d73de776ee9dbdedfc64a",
-      "bytes": 108082
+      "sha256": "c9323ff3469b4a8bea7fde5be9aea967182f61f6d0955ea40ced24270e8644f4",
+      "bytes": 109019
     },
     {
-      "path": "states/wa/councils/bridgetown-greenbushes/index.html",
-      "sha256": "d8815479d812f056729fd90dbe1a79e66df06a534087cfc9fd5e1e78187cd554",
-      "bytes": 109877
+      "path": "states/tas/councils/king-island/index.html",
+      "sha256": "36221efe6ef845a217433f80b9c0244633cee3aab4a25c4c540062e9ee836576",
+      "bytes": 59806
     },
     {
-      "path": "states/wa/index.html",
-      "sha256": "21ab4c3a9b0bf26003a84fe3d3543a5acda6a295c8d09d84456589ff039c50ee",
-      "bytes": 22579
-    },
-    {
-      "path": "states/wa/places/councils/index.html",
-      "sha256": "7fdc64c64a5d655f2aae3bd4d99bda1095ec9cb0b9aa2cf2baaeb26c66267bee",
-      "bytes": 138748
-    },
-    {
-      "path": "states/nsw/councils/kempsey/index.html",
-      "sha256": "a07bbcb0555422bc19a8dd260579b104e6a3ff4671cd4b472000cec20bee2eed",
-      "bytes": 177340
-    },
-    {
-      "path": "states/nsw/councils/coffs-harbour/index.html",
-      "sha256": "97fcfdcc3bfe3d6c91446f2eadc437e120d28aab37d5270ae96b5454ea7a1b78",
-      "bytes": 189175
-    },
-    {
-      "path": "states/nsw/councils/hunters-hill/index.html",
-      "sha256": "52bdf31d3a847fd35c379cf97432ff4f12e6cd29a056cb8d1360c510a0282712",
-      "bytes": 174741
-    },
-    {
-      "path": "states/nsw/index.html",
-      "sha256": "89f62c7cfb86c3768b08a98cc8779a3838f1e7e2dd4067a4491865541dcbe835",
-      "bytes": 33074
-    },
-    {
-      "path": "states/nsw/places/councils/index.html",
-      "sha256": "184cb69d7ba8ccd2d6e1685bfabe3137729be3a23d961b598f8ebb6fb894a577",
-      "bytes": 150638
-    },
-    {
-      "path": "states/vic/election/index.html",
-      "sha256": "90b9a9262344744835e4f2914b205b50393cc1390cbd9a5f2a71527d380d0183",
-      "bytes": 625425
-    },
-    {
-      "path": "states/tas/councils/hobart/index.html",
-      "sha256": "e3c5715529924ea847cddb149274972b26ce4a804a18c5d5cbae319719303974",
-      "bytes": 98288
+      "path": "states/tas/councils/tasman/index.html",
+      "sha256": "423366214a25eec3faa3676f20d2e87c2128508e2e1ecb43a568a5e2e618f299",
+      "bytes": 61239
     },
     {
       "path": "states/tas/places/councils/index.html",
-      "sha256": "a9c3764acacccaf08f1093dd0ced4147bbf89114f3aa379d3ff79d80cbe52343",
-      "bytes": 32173
-    },
-    {
-      "path": "content/places/qa/election-refresh-2026-11-13-live-checks.json",
-      "sha256": "b77a67b2f2e03f177494042ca860d314ad7fabed8db0e6ecddd7b4b19d72eee3",
-      "bytes": 2795
+      "sha256": "9512422d0b96ebd8b51e8d435ed2c80d2793cbd2e3c190cd9946095c3a701cbd",
+      "bytes": 31862
     },
     {
       "path": "assets/civic-places.js",
@@ -141,12 +102,17 @@
       "path": "tools/build-national-places.py",
       "sha256": "6afa47524f54cd4aa91f316e5a5fe92bf9c8e7d2460761144da228fecfa9894e",
       "bytes": 40349
+    },
+    {
+      "path": "content/places/qa/election-refresh-2026-11-14-live-checks.json",
+      "sha256": "f8ebebfec5cf9b44b2ccaa3b4632f903372f0dd9c1695cb659b3a21bed6e17ea",
+      "bytes": 2081
     }
   ],
   "reviewSlices": [
     {
-      "path": "content/places/qa/pre-election-refresh-2026-11-13/browser-review.json",
-      "scope": "Previous browser evidence at its original date."
+      "path": "content/places/qa/pre-election-refresh-2026-11-14/browser-review.json",
+      "scope": "Prior browser review at its original date."
     }
   ]
 }
