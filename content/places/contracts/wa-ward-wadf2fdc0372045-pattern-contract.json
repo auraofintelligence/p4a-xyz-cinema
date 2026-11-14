@@ -18,7 +18,7 @@
     "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
     "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
     "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
-    "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps.",
+    "Commissioner administration is a council-wide arrangement, not an elected ward appointment. The extraordinary-election record gives the details available from the official Shire source.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -31,7 +31,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-03"
+      "2026-11-14"
     ]
   },
   "routes": [
@@ -79,7 +79,8 @@
           "council-wa-walga-2026-51540",
           "refresh-wa-council-51540-december2026",
           "carnarvon-commissioner-order-20260526",
-          "carnarvon-current-commissioner-20261103"
+          "carnarvon-current-commissioner-20261103",
+          "election-review-carnarvon-nominations-20261114"
         ],
         "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
         "representatives": [],
@@ -90,12 +91,23 @@
             "kind": "extraordinary",
             "status": "final-unopposed",
             "date": null,
-            "dateBasis": "No poll held: WAEC says candidates elected unopposed at the close of nominations on 20 October; no separate voting date or clock.",
+            "dateBasis": "Mark Young elected unopposed at the close of nominations on 20 October; the Shire lists term expiry in 2029. No poll or election clock.",
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
-            "candidates": [],
+            "candidates": [
+              {
+                "name": "Mark Young",
+                "contest": "Coral Bay Ward",
+                "status": "Elected unopposed · term expiry 2029",
+                "sourceUrl": "https://www.carnarvon.wa.gov.au/council/council-business/elections/election-notices-and-candidate-nominations.aspx",
+                "sourceId": "election-review-carnarvon-nominations-20261114",
+                "checked": "2026-11-14"
+              }
+            ],
             "waitingLabel": "No poll: elected unopposed",
-            "contestantNote": "WAEC confirms the ward was filled unopposed at the close of nominations. Candidate identity has not been independently entered here; follow the official record."
+            "checked": "2026-11-14",
+            "sourceId": "election-review-carnarvon-nominations-20261114",
+            "nominationSourceUrl": "https://www.carnarvon.wa.gov.au/council/council-business/elections/election-notices-and-candidate-nominations.aspx"
           }
         ],
         "sourceWardId": "wadf2fdc0372045",
@@ -105,7 +117,7 @@
           "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
           "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
           "3 November 2026 review: current governing authority checked against the official commissioner roster and Gazette order. The earlier March WALGA council and ward snapshots are retained in the dated history; individual resignation dates are not inferred.",
-          "Commissioner administration is a council-wide arrangement, not an elected ward appointment. Historical ballots and recorded extraordinary-election outcomes retain their existing dates and identity gaps."
+          "Commissioner administration is a council-wide arrangement, not an elected ward appointment. The extraordinary-election record gives the details available from the official Shire source."
         ],
         "representationReview": "This ward is within the Shire administered by Commissioner Martin Aldridge. Former March roster names are historical, not current ward-office confirmation. Any recorded unopposed result is retained separately; the new council has not been verified as having held its first meeting.",
         "representationStatus": "commissioner-administered-council-context"

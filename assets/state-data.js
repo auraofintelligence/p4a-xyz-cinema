@@ -852,9 +852,9 @@ window.P4A_STATE_DATA = [
     "shortName": "WA",
     "capital": "Perth",
     "stateType": "State",
-    "researchRun": "2026-11-13",
+    "researchRun": "2026-11-14",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks resigned effective 3 November; the replacement process and election date are unconfirmed.",
+    "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks resigned effective 3 November; the replacement process and election date are unconfirmed. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Roger Cook",
@@ -909,7 +909,7 @@ window.P4A_STATE_DATA = [
         "kind": "Council extraordinary elections",
         "scope": "local-government",
         "status": "Nominations closed; postal election scheduled",
-        "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon Coral Bay/Plantation candidates were elected unopposed; names and affected current rosters remain follow-up.",
+        "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.",
         "source": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -1087,14 +1087,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "Bridgetown-Greenbushes extraordinary election agenda, 5 November 2026",
         "url": "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338/documents/scm-5-november-2026-agenda.pdf"
+      },
+      {
+        "label": "Shire of Carnarvon official candidate nominations and unopposed results",
+        "url": "https://www.carnarvon.wa.gov.au/council/council-business/elections/election-notices-and-candidate-nominations.aspx"
       }
     ],
-    "previousResearchRun": "2026-10-29",
+    "previousResearchRun": "2026-11-13",
     "researchReview": {
-      "checked": "2026-11-13",
+      "checked": "2026-11-14",
       "timezone": "Australia/Brisbane",
-      "scope": "Scoped council-vacancy review of Gingin. State Parliament and unrelated source dates are retained. Scoped council-vacancy review of Bridgetown-Greenbushes.",
-      "previousResearchRun": "2026-10-29",
+      "scope": "Scoped Carnarvon candidate profiles and unopposed outcomes. Prior council vacancy, State Parliament and unrelated source review dates are retained.",
+      "previousResearchRun": "2026-11-13",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/wa.md"

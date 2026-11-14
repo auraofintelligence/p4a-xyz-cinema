@@ -508,3 +508,7 @@ Hunter’s Hill Council South Ward by-election: Nominations closed at noon AEDT 
 ## 13 November 2026 · Hobart City Council
 
 The City directory lists Charles Wooley as Lord Mayor and eight other councillors. All three TEC ballot results are recorded, along with the 3 November certificate issue date. Ben Lohberger won the deputy ballot without winning a councillor seat. Councillors will fill the office. [Scoped review](../docs/releases/2026-11-13-hobart-council-election-review.md).
+
+## 14 November 2026 — Carnarvon extraordinary election nominations
+
+Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.

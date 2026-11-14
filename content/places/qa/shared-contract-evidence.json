@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
   "kind": "national-place-shared-evidence",
-  "reviewedOn": "2026-11-13",
+  "reviewedOn": "2026-11-14",
   "paths": [
     "content/places/qa/national-validation.json",
-    "content/places/qa/browser-review.json",
     "content/places/qa/contract-set.json"
   ],
-  "browserAcceptance": "saved evidence bound",
+  "browserAcceptance": "deferred until after live deployment",
   "nationalEvidence": {
     "validation": "content/places/qa/national-validation.json",
     "browser": "content/places/qa/browser-review.json"
@@ -32,15 +31,11 @@
     },
     {
       "path": "content/places/qa/national-validation.json",
-      "sha256": "ad59c9238677e49744ee2860e0a6d34fac709f8c1dec0531086634c26f42c27a"
-    },
-    {
-      "path": "content/places/qa/browser-review.json",
-      "sha256": "6b7ee78a3cddcedcab6d89602f3588832147e636967f6b99721eb05445ae0d40"
+      "sha256": "ccb51ba38d53f15dfdadf638a54cf411d63a21cb7073d9b65235bbfcbbd65b21"
     },
     {
       "path": "content/places/qa/contract-set.json",
-      "sha256": "d9be29f8e56acfb6720d27f07d21be820fc0e9b654d6a74694241f746fc5041b"
+      "sha256": "e5fa7a15414c5face9647c686f7dfc18592db05f1a0c0d26c8e80e74887c63ff"
     }
   ]
 }

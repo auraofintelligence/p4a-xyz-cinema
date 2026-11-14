@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-13",
+  "checked": "2026-11-14",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 999961,
+    "assertions": 1000087,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 295,
+    "source_hashes_checked": 296,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1368,
+    "sources": 1369,
     "current_representative_records": 5236,
     "election_events": 4476,
-    "contestant_records": 18455,
+    "contestant_records": 18484,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
     "gzip_byte_round_trips": 49,
@@ -26,11 +26,11 @@
     "generated_pages_checked": 2113,
     "rendered_representative_records_checked": 5236,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56652,
+    "external_link_references_not_fetched": 56686,
     "rendered_event_records_checked": 4476,
-    "rendered_contestant_records_checked": 18455,
+    "rendered_contestant_records_checked": 18484,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3076
+    "evidence_artifacts_bound": 3077
   },
   "errors": [],
   "warnings": [
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "b7eccf42dc37148007c58825902e2545fd5200a505892d57a83ab347cb1e012e",
-      "bytes": 15288490
+      "sha256": "c9590d39a3b4a4359215618e8ed3729a45b65303fc5c7f72b5a642c7545939e4",
+      "bytes": 15303852
     },
     {
       "path": "content/places/federal.json",
@@ -6543,6 +6543,11 @@
       "path": "content/places/sources/carnarvon-commissioner-review-2026-11-03.json",
       "sha256": "47de8343c2aed1e83a82e3a4a4859f642e5abd02d96ecc4829551def61dfe5d9",
       "bytes": 1950
+    },
+    {
+      "path": "content/places/sources/carnarvon-nominations-review-2026-11-14.json",
+      "sha256": "81cd5e01ff3a66075605d9edb0d7830a8963e3ec0cf5df236fcdc534167a9dd7",
+      "bytes": 6068
     },
     {
       "path": "content/places/sources/council-nt-2025-ballot-web-review.json",
@@ -15716,8 +15721,8 @@
     },
     {
       "path": "states/wa/councils/carnarvon/index.html",
-      "sha256": "d595cd6ff03990f41ddb4830287dc35a9418f55dd41e70e7365fe3d5968091f2",
-      "bytes": 25468
+      "sha256": "455118d94d3f97ea6af6fad41c544d07d396347b8b75e38a7c8974f45787cd7c",
+      "bytes": 31021
     },
     {
       "path": "states/wa/councils/chapman-valley/index.html",
@@ -16816,8 +16821,8 @@
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad40598f2e783d/index.html",
-      "sha256": "0dbbaf88d0b1a88de507e0038d43b90f79bd8052c62a88fffd476ab176c591a7",
-      "bytes": 23009
+      "sha256": "29d2ac5fffe2396e0cd84f89c88d9af2681751e9791945c360ed2a53c55e24a2",
+      "bytes": 23882
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad436506337bd0/index.html",
@@ -16911,8 +16916,8 @@
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad76ffebcf31a1/index.html",
-      "sha256": "d09ac148fd7c3805c6c7710943f35b427938eaa04863c0294b29070c44d063e4",
-      "bytes": 23268
+      "sha256": "928efe01beb143c0b94375971fcfe3db357c08a0f86dcc3f919e8b74900041e3",
+      "bytes": 27178
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad7709ad7bc5ff/index.html",
@@ -16936,8 +16941,8 @@
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad81060d56c255/index.html",
-      "sha256": "252ec2506a8846d27f7a990c8fc97d67c340565a03d80cb2b9e41b9b6352769b",
-      "bytes": 23310
+      "sha256": "74c73a3c029488e55cda12f3f7fb8155784eae3f1e62ed0dc57a4932801e05fb",
+      "bytes": 24697
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wad831f78062515/index.html",
@@ -17201,8 +17206,8 @@
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wadf2fdc0372045/index.html",
-      "sha256": "c6d0861f0ece197920d9d5faf0f34f0a010f5e357c5888ea5393ff1f53ed608e",
-      "bytes": 23006
+      "sha256": "601f50107e06791ed41804f4f25fd0e12910818621f6829a16f2fa44c31a223f",
+      "bytes": 23878
     },
     {
       "path": "states/wa/local-electoral-areas/wa-ward-wadf4fbe7d4a395/index.html",
