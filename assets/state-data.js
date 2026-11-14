@@ -1330,7 +1330,7 @@ window.P4A_STATE_DATA = [
     "stateType": "State",
     "researchRun": "2026-11-02",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. King Island elected five councillors unopposed for seven positions and Tasman six for seven; completed counting does not mean every position is filled. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks.",
+    "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. Five King Island councillors were elected unopposed. Andrea Bowden and Saverina Stella won the two remaining council seats. Tasman elected six unopposed before the remaining seat went to a ballot. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1406,7 +1406,7 @@ window.P4A_STATE_DATA = [
         "kind": "Ordinary council elections",
         "scope": "local-government",
         "status": "Counting completed",
-        "note": "TEC confirms counting completed. Postal voting closed 27 October 2026 at 2 pm AEDT. King Island elected five councillors unopposed for seven positions; Tasman elected six for seven. No complete current-office roster replacement or filled-vacancy claim is inferred. Official results rechecked 9 November 2026, Australia/Brisbane.",
+        "note": "TEC confirms counting completed. Postal voting closed 27 October 2026 at 2 pm AEDT. King Island elected five councillors unopposed. Andrea Bowden and Saverina Stella won the remaining two seats. Tasman elected six unopposed. King Island results rechecked 14 November 2026, Australia/Brisbane.",
         "source": "https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html",
         "dayMetrics": {
           "displayDaysUntil": false,

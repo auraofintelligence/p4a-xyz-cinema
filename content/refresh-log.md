@@ -520,3 +520,7 @@ NTEC’s 9 November notice confirms nominations are open and close at noon ACST 
 ## 14 November 2026 · Gingin vacancy agenda
 
 Jason Weeks, elected in October 2023, resigned as councillor effective 3 November 2026. The 17 November meeting agenda (pages 7–9) says the Electoral Commissioner approved allowing the vacancy to remain until the 2027 ordinary election. Officers recommend that Council note the approval and resolve to leave the position unfilled until that election. The Council decision and any replacement timetable await confirmation. [Scoped review](../docs/releases/2026-11-14-gingin-vacancy-agenda.md).
+
+## 14 November 2026 · King Island Council election
+
+Andrea Bowden and Saverina Stella won the two contested councillor seats after five councillors were elected unopposed. Sarina Laidler won the mayoral ballot and Ian Allan won the deputy mayoral ballot. King Island Council’s 10 November notice gives six declarations of office, including Sarina Laidler as Mayor and Ian Allan as Deputy Mayor. David Bowden was elected, and the notice says he had yet to make his declaration. The prior TEC roster is archived. [Scoped review](../docs/releases/2026-11-14-king-island-council-election-review.md).
