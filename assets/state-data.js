@@ -852,9 +852,9 @@ window.P4A_STATE_DATA = [
     "shortName": "WA",
     "capital": "Perth",
     "stateType": "State",
-    "researchRun": "2026-11-14",
+    "researchRun": "2026-11-15",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks, elected in October 2023, resigned as councillor effective 3 November 2026. The 17 November meeting agenda (pages 7–9) says the Electoral Commissioner approved allowing the vacancy to remain until the 2027 ordinary election. Officers recommend that Council note the approval and resolve to leave the position unfilled until that election. The Council decision and any replacement timetable await confirmation. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.",
+    "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks, elected in October 2023, resigned as councillor effective 3 November 2026. The 17 November meeting agenda (pages 7–9) says the Electoral Commissioner approved allowing the vacancy to remain until the 2027 ordinary election. Officers recommend that Council note the approval and resolve to leave the position unfilled until that election. The Council decision and any replacement timetable await confirmation. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November. Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified. Checked 15 November.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Roger Cook",
@@ -909,7 +909,7 @@ window.P4A_STATE_DATA = [
         "kind": "Council extraordinary elections",
         "scope": "local-government",
         "status": "Nominations closed; postal election scheduled",
-        "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November.",
+        "note": "Carnarvon President/Town/Gascoyne-Minilya, Coolgardie and Esperance Town proceed to election. Ballot packages must be received by 6 pm Perth time. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November. Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified.",
         "source": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
         "dayMetrics": {
           "displayDaysUntil": true,
@@ -1095,14 +1095,18 @@ window.P4A_STATE_DATA = [
       {
         "label": "Shire of Gingin 17 November 2026 ordinary council meeting agenda, item pages 7–9",
         "url": "https://www.gingin.wa.gov.au/Profiles/gingin/assets/moduledata/councilmeetings/7ed1f61f-caf3-414e-b08f-056b36a4e704/1.3/FINAL-OCM-20261117.pdf"
+      },
+      {
+        "label": "Shire of Esperance Town Ward extraordinary election and candidate profiles",
+        "url": "https://www.esperance.wa.gov.au/local-government-elections"
       }
     ],
-    "previousResearchRun": "2026-11-13",
+    "previousResearchRun": "2026-11-14",
     "researchReview": {
-      "checked": "2026-11-14",
+      "checked": "2026-11-15",
       "timezone": "Australia/Brisbane",
-      "scope": "Scoped Carnarvon candidate profiles and unopposed outcomes. Prior council vacancy, State Parliament and unrelated source review dates are retained. Further Gingin-only agenda review on 14 November 2026.",
-      "previousResearchRun": "2026-11-13",
+      "scope": "Scoped Carnarvon candidate profiles and unopposed outcomes. Prior council vacancy, State Parliament and unrelated source review dates are retained. Further Gingin-only agenda review on 14 November 2026. Scoped Esperance Town Ward nomination review on 15 November 2026.",
+      "previousResearchRun": "2026-11-14",
       "sourceDatesPreserved": true
     },
     "sourceMarkdown": "content/states/wa.md"

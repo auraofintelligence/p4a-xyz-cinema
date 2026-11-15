@@ -528,3 +528,7 @@ Andrea Bowden and Saverina Stella won the two contested councillor seats after f
 ## 14 November 2026 · Tasman Council election
 
 Alan John Hull won the contested councillor seat after six councillors were elected unopposed. Rod MacDonald won the mayoral ballot and Steve McQueeney won the deputy mayoral ballot. The Council’s published directory still shows its pre-election membership, including Maria Stacey as Deputy Mayor. The July 2026 TEC roster is archived. The 2026 election results below give the elected names; current declarations of office remain unverified. [Scoped review](../docs/releases/2026-11-14-tasman-council-election-review.md).
+
+## 15 November 2026 · Esperance Town Ward nominations
+
+Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified. Postal ballots must reach the returning officer by 6 pm AWST on Thursday 3 December.

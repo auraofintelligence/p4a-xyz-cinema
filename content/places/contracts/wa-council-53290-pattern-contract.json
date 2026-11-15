@@ -34,7 +34,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-02"
+      "2026-11-15"
     ]
   },
   "routes": [
@@ -80,7 +80,8 @@
           "council-ward-supp-geoscape-lga-attributes",
           "council-wa-walga-2026-53290",
           "refresh-wa-council-53290-december2026",
-          "election-review-esperance-20261029"
+          "election-review-esperance-20261029",
+          "election-review-esperance-town-ward-nominations-20261115"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -217,14 +218,53 @@
             "id": "wa-council-53290-extraordinary-2026-12-03",
             "label": "December 2026 Esperance extraordinary election — Town Ward",
             "kind": "extraordinary",
-            "status": "scheduled",
+            "status": "Contested postal election · four nominations published",
             "date": "2026-12-03",
-            "dateBasis": "Official postal receipt deadline after nominations closed 20 October; not an in-person polling opening. Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026. Verified 29 October 2026.",
+            "dateBasis": "Official postal receipt deadline after nominations closed 20 October; not an in-person polling opening. Cr Johnston resigned in August 2026; the official notice does not establish an exact effective day. Town Ward postal extraordinary election remains 3 December 2026. Verified 29 October 2026. The Shire lists four nominees for one Town Ward seat. Candidate profiles give the ballot-paper names; this list is alphabetical by surname.",
             "timezone": "Australia/Perth",
             "sourceUrl": "https://www.elections.wa.gov.au/about-us/media/whats-new/2640",
-            "candidates": [],
+            "candidates": [
+              {
+                "name": "Wayne Halliday",
+                "status": "Nominated · official profile published",
+                "sourceUrl": "https://www.esperance.wa.gov.au/documents/1828/candidate-profile-extraordinary-election-wayne-halliday",
+                "sourceId": "election-review-esperance-town-ward-nominations-20261115",
+                "checked": "2026-11-15",
+                "ballotPaperName": "HALLIDAY, Wayne"
+              },
+              {
+                "name": "Michael Hart",
+                "status": "Nominated · official profile published",
+                "sourceUrl": "https://www.esperance.wa.gov.au/documents/1829/candidate-profile-extraordinary-election-michael-hart",
+                "sourceId": "election-review-esperance-town-ward-nominations-20261115",
+                "checked": "2026-11-15",
+                "ballotPaperName": "HART, Michael"
+              },
+              {
+                "name": "David Kinyai Mureithi",
+                "status": "Nominated · official profile published",
+                "sourceUrl": "https://www.esperance.wa.gov.au/documents/1827/candidate-profile-extraordinary-election-david-mureithi",
+                "sourceId": "election-review-esperance-town-ward-nominations-20261115",
+                "checked": "2026-11-15",
+                "ballotPaperName": "MUREITHI, David Kinyai"
+              },
+              {
+                "name": "Dale Piercey",
+                "status": "Nominated · official profile published",
+                "sourceUrl": "https://www.esperance.wa.gov.au/documents/1830/candidate-profile-extraordinary-election-dale-piercey",
+                "sourceId": "election-review-esperance-town-ward-nominations-20261115",
+                "checked": "2026-11-15",
+                "ballotPaperName": "PIERCEY, Dale"
+              }
+            ],
             "dateTime": "2026-12-03T18:00:00+08:00",
-            "milestoneLabel": "postal voting closes"
+            "milestoneLabel": "postal voting closes",
+            "sourceId": "election-review-esperance-town-ward-nominations-20261115",
+            "checked": "2026-11-15",
+            "nominationSourceUrl": "https://www.esperance.wa.gov.au/local-government-elections",
+            "rollClose": "2026-10-07",
+            "nominationsOpen": "2026-10-13",
+            "nominationsClose": "2026-10-20T16:00:00+08:00"
           }
         ],
         "coverageNotes": [
