@@ -532,3 +532,7 @@ Alan John Hull won the contested councillor seat after six councillors were elec
 ## 15 November 2026 · Esperance Town Ward nominations
 
 Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified. Postal ballots must reach the returning officer by 6 pm AWST on Thursday 3 December.
+
+## 15 November 2026 · Coolgardie extraordinary election nominations
+
+Coolgardie’s Shire publishes three candidates for one district councillor position with a term ending 16 October 2027. Nominations closed 20 October at 4 pm AWST. Completed postal voting packages must arrive by 6 pm AWST on 3 December. Checked 15 November. [Scoped review](../docs/releases/2026-11-15-coolgardie-nominations.md).
