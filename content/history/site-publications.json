@@ -540,6 +540,50 @@
       "tree": "5ef09efd6ff11cad5b751425cdd8cae8fcd8b09c",
       "deployedOn": "2026-11-16",
       "verifiedAt": "2026-11-16T02:18:04.924223+00:00"
+    },
+    {
+      "commit": "1cebe326b8e840c156df5bc06536dc373ff7625e",
+      "deployedAt": "2026-11-16T07:31:56Z",
+      "scope": "Redland City mayoral by-election. Added four ECQ-certified nominees observed at the 16 November 5 pm Brisbane check: Liela D’Rose, Don Brown, Stephen Lambourne and Claude Norval.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43824370904",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43824371497",
+      "liveVerification": "Exact Git blob matches for both canonical election records and the four affected Redland routes.",
+      "nonBrowserChecks": {
+        "local": "Passed 1,000,450 national assertions, all 2,081 publication contracts, scoped data checks, render parity, source dates, clocks, discovery, maintenance and navigation.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43824371548"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Cloud browser at 1280 and 390 CSS pixels. Redland overview and candidate pages displayed seven certified nominees, the new official links and two active countdowns. All four reviewed pages fit. Opened the seven-person national list and followed the sources page link to the election section at phone width."
+      },
+      "note": "Scoped publication receipt for the content commit.",
+      "tree": "57ad1df167dce53e128d44cee6406265db93cff9",
+      "deployedOn": "2026-11-16",
+      "verifiedAt": "2026-11-16T07:44:27.142309+00:00"
+    },
+    {
+      "commit": "db4f0771fb129ad304e2146fb0d1dd24ea04eed8",
+      "deployedAt": "2026-11-16T07:40:41Z",
+      "scope": "Walcha Council’s endorsement of 16 January 2027 as the preferred councillor by-election date, documented in draft minutes. An issued NSWEC timetable is still awaited.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43825334891",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43825334759",
+      "liveVerification": "Exact Git blob matches for canonical council and NSW data, the state data script, council, state and national pages, and sitemap.",
+      "nonBrowserChecks": {
+        "local": "Passed 1,000,456 national assertions, all 2,081 publication contracts, source checksum, provisional-date and clock checks, discovery, maintenance and navigation.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43825334719"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Cloud browser at 1280 and 390 CSS pixels. The council, NSW and national pages displayed the tentative date and council draft minutes link, with no active Walcha countdown or horizontal overflow."
+      },
+      "note": "Scoped publication receipt for the content commit.",
+      "tree": "47fd840e6b94827fce51d074841bd542cd08c9b7",
+      "deployedOn": "2026-11-16",
+      "verifiedAt": "2026-11-16T07:44:27.211906+00:00"
     }
   ]
 }
