@@ -518,6 +518,28 @@
       "tree": "242d5bda7ceb29dcec8ccacef568bc146e799e46",
       "deployedOn": "2026-11-15",
       "verifiedAt": "2026-11-15T07:36:25.937767+00:00"
+    },
+    {
+      "commit": "ca23e7baf9be8c4103075ee9fd8e8970a97fdee4",
+      "deployedAt": "2026-11-16T02:14:59Z",
+      "scope": "Redland mayoral by-election. Verified first-person public candidacy statements from Jasmine Person, Julie Talty and Don Brown and rechecked the ECQ register.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43790873419",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43790876079",
+      "liveVerification": "HTTP 200 and exact Git blob matches for the canonical Redland election JSON, overview, candidates and sources pages, and sitemap.",
+      "nonBrowserChecks": {
+        "local": "Passed 1,000,425 national assertions, all 2,081 publication contracts, scoped Redland rendering and date checks, countdown tests, discovery, maintenance, navigation and the tracked size limit. Windows denied a synthetic symlink test locally. The GitHub storage workflow passed.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/43790876100"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "passed",
+        "scope": "Cloud browser at 1280 and 390 CSS pixels. The Redland overview and candidates pages showed three sourced public candidacies and three separate ECQ-certified nominees, the official register link and two active countdowns. All three Redland pages fit both widths. The sources page showed both statements and its link to the overview election section worked at phone width."
+      },
+      "note": "Scoped browser review and publication receipt for the content commit.",
+      "tree": "5ef09efd6ff11cad5b751425cdd8cae8fcd8b09c",
+      "deployedOn": "2026-11-16",
+      "verifiedAt": "2026-11-16T02:18:04.924223+00:00"
     }
   ]
 }
