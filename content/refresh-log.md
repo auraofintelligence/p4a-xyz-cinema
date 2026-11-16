@@ -536,3 +536,7 @@ Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nom
 ## 15 November 2026 · Coolgardie extraordinary election nominations
 
 Coolgardie’s Shire publishes three candidates for one district councillor position with a term ending 16 October 2027. Nominations closed 20 October at 4 pm AWST. Completed postal voting packages must arrive by 6 pm AWST on 3 December. Checked 15 November. [Scoped review](../docs/releases/2026-11-15-coolgardie-nominations.md).
+
+## 2026-11-16
+
+- qld: CHANGED — Verified first-person Redland candidacy statements from Jasmine Person, Julie Talty and Don Brown. ECQ event 653 continued to list the same three certified candidates. [Source record](places/sources/redland-candidate-review-2026-11-16.json).

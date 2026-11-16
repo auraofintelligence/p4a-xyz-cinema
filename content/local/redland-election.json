@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
-  "checked": "2026-11-13",
-  "changed": "2026-11-13",
+  "checked": "2026-11-16",
+  "changed": "2026-11-16",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -185,6 +185,24 @@
         "publisher": "Electoral Commission of Queensland",
         "checked": "2026-11-13",
         "supports": "At the 13 November noon check, ECQ displayed Gary Williamson, Melissa Millar and Brendon J Smith, all Independent. The register publishes nominations after Returning Officer certification."
+      },
+      {
+        "id": "jasmine-person-public-statement-20261109",
+        "title": "Jasmine Person’s signed campaign statement",
+        "url": "https://jasmineformayor.au/news/redland-city-council-deloitte-review-restoring-trust/",
+        "publisher": "Jasmine Person’s public campaign website",
+        "published": "2026-11-09",
+        "checked": "2026-11-16",
+        "supports": "Person’s campaign identifies her as standing for mayor. The dated statement sets out what she would do as mayor."
+      },
+      {
+        "id": "redland-bayside-first-person-statements-20261114",
+        "title": "First-person candidate forum statements by Julie Talty and Don Brown",
+        "url": "https://redlandbaysidenews.com.au/mayoral-candidate-forum-week-1-restoring-trust-and-stable-government/",
+        "publisher": "Redland Bayside News / Local News Group QLD",
+        "published": "2026-11-14",
+        "checked": "2026-11-16",
+        "supports": "Direct statements by Talty about what she would do as mayor and by Brown identifying himself as a candidate."
       }
     ],
     "postalVotingProposal": {
@@ -200,15 +218,15 @@
         "id": "jasmine-person",
         "name": "Jasmine Person",
         "status": "announced-intention",
-        "statusLabel": "Reported intention to nominate",
+        "statusLabel": "Publicly stated candidacy",
         "announced": null,
         "reported": "2026-11-05",
-        "checked": "2026-11-08",
-        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
-        "sourceId": "redland-bayside-announcements-20261105",
-        "sourceType": "media-report",
-        "sourceLabel": "Read the media report",
-        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "checked": "2026-11-16",
+        "source": "https://jasmineformayor.au/news/redland-city-council-deloitte-review-restoring-trust/",
+        "sourceId": "jasmine-person-public-statement-20261109",
+        "sourceType": "primary-statement",
+        "sourceLabel": "Read the candidate’s public statement",
+        "summary": "Person’s campaign website says she is standing for Redland mayor.",
         "nominationStatus": "not-verified",
         "nominationSource": null,
         "publicLinks": [
@@ -216,21 +234,23 @@
             "label": "Campaign website",
             "url": "https://jasmineformayor.au/"
           }
-        ]
+        ],
+        "reportedSourceId": "redland-bayside-announcements-20261105",
+        "statementPublished": "2026-11-09"
       },
       {
         "id": "julie-talty",
         "name": "Julie Talty",
         "status": "announced-intention",
-        "statusLabel": "Reported intention to nominate",
+        "statusLabel": "Publicly stated candidacy",
         "announced": null,
         "reported": "2026-11-05",
-        "checked": "2026-11-08",
-        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
-        "sourceId": "redland-bayside-announcements-20261105",
-        "sourceType": "media-report",
-        "sourceLabel": "Read the media report",
-        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "checked": "2026-11-16",
+        "source": "https://redlandbaysidenews.com.au/mayoral-candidate-forum-week-1-restoring-trust-and-stable-government/",
+        "sourceId": "redland-bayside-first-person-statements-20261114",
+        "sourceType": "primary-statement",
+        "sourceLabel": "Read the candidate’s public statement",
+        "summary": "Talty publicly set out what she would do as Redland mayor in a first-person candidate forum response.",
         "nominationStatus": "not-verified",
         "nominationSource": null,
         "publicLinks": [
@@ -242,7 +262,9 @@
             "label": "Campaign website",
             "url": "https://julietalty.au/"
           }
-        ]
+        ],
+        "reportedSourceId": "redland-bayside-announcements-20261105",
+        "statementPublished": "2026-11-14"
       },
       {
         "id": "rowanne-mckenzie",
@@ -269,17 +291,19 @@
         "id": "don-brown",
         "name": "Don Brown",
         "status": "announced-intention",
-        "statusLabel": "Reported intention to nominate",
+        "statusLabel": "Publicly stated candidacy",
         "announced": null,
         "reported": "2026-11-05",
-        "checked": "2026-11-08",
-        "source": "https://redlandbaysidenews.com.au/five-contenders-emerge-in-redlands/",
-        "sourceId": "redland-bayside-announcements-20261105",
-        "sourceType": "media-report",
-        "sourceLabel": "Read the media report",
-        "summary": "Redland Bayside News reports an intention to nominate for Mayor. This is not an ECQ-accepted nomination.",
+        "checked": "2026-11-16",
+        "source": "https://redlandbaysidenews.com.au/mayoral-candidate-forum-week-1-restoring-trust-and-stable-government/",
+        "sourceId": "redland-bayside-first-person-statements-20261114",
+        "sourceType": "primary-statement",
+        "sourceLabel": "Read the candidate’s public statement",
+        "summary": "Brown publicly identified himself as a candidate for Redland mayor in a first-person candidate forum response.",
         "nominationStatus": "not-verified",
-        "nominationSource": null
+        "nominationSource": null,
+        "reportedSourceId": "redland-bayside-announcements-20261105",
+        "statementPublished": "2026-11-14"
       },
       {
         "id": "gary-williamson",
@@ -399,5 +423,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "13 November 2026 Australia/Brisbane: verified the noon ECQ candidate register and added Brendon J Smith. Earlier announcement and timetable evidence retains its original dates."
+  "reviewScope": "Redland mayoral by-election noon check. Verified public candidacy statements from Jasmine Person, Julie Talty and Don Brown and rechecked the unchanged ECQ register."
 }

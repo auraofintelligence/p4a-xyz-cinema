@@ -34,6 +34,8 @@ def validate(election):
         date.fromisoformat(candidate['checked'])
         if candidate.get('announced'):
             date.fromisoformat(candidate['announced'])
+        elif candidate.get('sourceType') == 'primary-statement':
+            assert date.fromisoformat(candidate['statementPublished']) <= date.fromisoformat(candidate['checked'])
         elif candidate.get('sourceType') == 'media-report':
             date.fromisoformat(candidate['reported'])
         else:
@@ -90,6 +92,8 @@ def candidate_announcements(page, bye, link):
         links_html = '<div class="local-related">' + public_links + '</div>' if public_links else ''
         if c.get('announced'):
             source_date = 'Announced ' + c['announced'] + ' · Checked ' + c['checked']
+        elif c.get('statementPublished'):
+            source_date = 'Public statement ' + c['statementPublished'] + ' · Checked ' + c['checked']
         elif c.get('reported'):
             source_date = 'Reported ' + c['reported'] + ' · Checked ' + c['checked']
         else:
