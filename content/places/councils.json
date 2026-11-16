@@ -8981,6 +8981,15 @@
       "title": "ECQ Redland certified-candidate register (16 November evening)",
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
       "checked": "2026-11-16"
+    },
+    {
+      "id": "election-review-walcha-date-endorsement-20261116",
+      "title": "Walcha Council 28 October draft minutes, by-election date endorsement",
+      "url": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Draft-October-2026-Ordinary-Meeting-Minutes-28102026.pdf",
+      "checked": "2026-11-16",
+      "rawFile": "content/places/sources/walcha-date-endorsement-review-2026-11-16.json",
+      "sha256": "365f51ba4129c61af0047f33374c7d03775bec4cd0db112241b194db22d44b46",
+      "licence": "Source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -157958,7 +157967,8 @@
         "council-nsw-legal-boundaries",
         "election-review-walcha-vacancy-20261102",
         "election-review-walcha-leadership-20261102",
-        "election-review-walcha-conflict-20261102"
+        "election-review-walcha-conflict-20261102",
+        "election-review-walcha-date-endorsement-20261116"
       ],
       "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
       "representatives": [
@@ -158059,18 +158069,20 @@
           "id": "nsw-council-17850-vacancy-2026-10-23",
           "label": "Walcha councillor by-election following Adam Iuston resignation",
           "kind": "by-election",
-          "status": "Vacancy confirmed; official timetable awaited",
+          "status": "Council endorsed a preferred date; official timetable awaited",
           "date": null,
           "dateTime": null,
           "nominationsOpen": null,
           "nominationsClose": null,
-          "waitingLabel": "Awaiting confirmation to begin",
-          "dateBasis": "Council’s 23 October notice confirms resignation effective that day and an NSW Electoral Commission by-election. No nomination or polling timetable is confirmed; no estimated legal deadline starts this clock. Checked 2 November 2026.",
+          "waitingLabel": "Awaiting official timetable",
+          "dateBasis": "Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.",
           "timezone": "Australia/Sydney",
-          "sourceUrl": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Walcha-Council-media-statement-Resignation-of-Councillor-Adam-Iuston-23-October-2026.pdf",
-          "sourceId": "election-review-walcha-vacancy-20261102",
-          "checked": "2026-11-02",
-          "candidates": []
+          "sourceUrl": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Draft-October-2026-Ordinary-Meeting-Minutes-28102026.pdf",
+          "sourceId": "election-review-walcha-date-endorsement-20261116",
+          "checked": "2026-11-16",
+          "candidates": [],
+          "councilEndorsedDate": "2027-01-16",
+          "timingStatus": "awaiting-confirmation"
         }
       ],
       "coverageNotes": [

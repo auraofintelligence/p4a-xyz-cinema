@@ -292,3 +292,9 @@ City of Coffs Harbour Council by-election: Nominations closed at noon AEDT on 11
 Hunter’s Hill Council South Ward by-election: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. Voting remains scheduled for 12 December, 8 am to 6 pm AEDT. Postal vote receipt closes 29 December at 6 pm AEDT.
 
 [Scoped review](../../docs/releases/2026-11-13-nsw-hunters-hill-election-review.md) · [Source observations](../../content/places/sources/2026-11-13-nsw-hunters-hill-election-review.json) · [Prior records](../../content/places/history/hunters-hill-before-2026-11-13.json)
+
+## 16 November 2026 · Walcha Council by-election date endorsement
+
+Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.
+
+[Scoped review](../../docs/releases/2026-11-16-walcha-date-endorsement.md) · [Prior records](../../content/places/history/walcha-date-endorsement-before-2026-11-16.json)

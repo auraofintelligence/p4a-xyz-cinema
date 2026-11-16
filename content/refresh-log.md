@@ -542,3 +542,7 @@ Coolgardie’s Shire publishes three candidates for one district councillor posi
 - qld: CHANGED — Verified first-person Redland candidacy statements from Jasmine Person, Julie Talty and Don Brown. ECQ event 653 continued to list the same three certified candidates. [Source record](places/sources/redland-candidate-review-2026-11-16.json).
 
 - qld: CHANGED — Redland City mayoral by-election. The 5 pm Brisbane check found four additional ECQ-certified nominees: Liela D’Rose, Don Brown, Stephen Lambourne and Claude Norval. [Source record](places/sources/redland-candidate-review-2026-11-16-evening.json).
+
+## 16 November 2026 · Walcha Council by-election date endorsement
+
+Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.
