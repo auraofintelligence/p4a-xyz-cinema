@@ -540,3 +540,5 @@ Coolgardie’s Shire publishes three candidates for one district councillor posi
 ## 2026-11-16
 
 - qld: CHANGED — Verified first-person Redland candidacy statements from Jasmine Person, Julie Talty and Don Brown. ECQ event 653 continued to list the same three certified candidates. [Source record](places/sources/redland-candidate-review-2026-11-16.json).
+
+- qld: CHANGED — Redland City mayoral by-election. The 5 pm Brisbane check found four additional ECQ-certified nominees: Liela D’Rose, Don Brown, Stephen Lambourne and Claude Norval. [Source record](places/sources/redland-candidate-review-2026-11-16-evening.json).
