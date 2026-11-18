@@ -1342,9 +1342,9 @@ window.P4A_STATE_DATA = [
     "shortName": "TAS",
     "capital": "Hobart",
     "stateType": "State",
-    "researchRun": "2026-11-02",
+    "researchRun": "2026-11-18",
     "researchTimezone": "Australia/Brisbane",
-    "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. Five King Island councillors were elected unopposed. Andrea Bowden and Saverina Stella won the two remaining council seats. After six Tasman councillors were elected unopposed, Alan John Hull won the remaining seat. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks.",
+    "researchStatus": "Focused 9 November election check: TEC confirms counting completed for all 29 councils. Five King Island councillors were elected unopposed. Andrea Bowden and Saverina Stella won the two remaining council seats. After six Tasman councillors were elected unopposed, Alan John Hull won the remaining seat. Individual current-office transitions and full contestant/result coverage are not certified. Other parliamentary and federal facts retain their earlier checks. Scoped 18 November Derwent Valley review: The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillor on 16 November 2026. Unsuccessful candidates from the ordinary election have until noon AEDT on Monday 30 November to consent to the recount. The exact recount time and result are pending.",
     "government": {
       "leaderTitle": "Premier",
       "leader": "Jeremy Rockliff",
@@ -1431,6 +1431,25 @@ window.P4A_STATE_DATA = [
           "daysSinceDate": "2026-10-27T14:00:00+11:00",
           "daysSinceLabel": "2026 Tasmanian council postal voting close",
           "daysSinceSource": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
+        }
+      },
+      {
+        "label": "Derwent Valley Council councillor recount",
+        "date": null,
+        "kind": "Council recount",
+        "scope": "local-government",
+        "status": "Councillor vacancy confirmed. Candidate consent sought",
+        "timingStatus": "awaiting-confirmation",
+        "note": "The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillor on 16 November 2026. Unsuccessful candidates from the ordinary election have until noon AEDT on Monday 30 November to consent to the recount. The exact recount time and result are pending.",
+        "source": "https://www.tec.tas.gov.au/local-government/vacancies.html",
+        "timezone": "Australia/Hobart",
+        "candidateConsentDeadline": "2026-11-30T12:00:00+11:00",
+        "dayMetrics": {
+          "displayDaysUntil": false,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "tas-derwent-valley-recount-2026-11-16",
+          "archiveNote": "Preserve the vacancy and recount separately from the ordinary council election."
         }
       }
     ],
@@ -1666,15 +1685,14 @@ window.P4A_STATE_DATA = [
         "url": "https://www.tec.tas.gov.au/local-government/elections-2026/index.html"
       }
     ],
-    "previousResearchRun": "2026-11-01",
+    "previousResearchRun": "2026-11-02",
     "researchReview": {
-      "checked": "2026-11-02",
-      "checkedAtUtc": "2026-11-02T12:49:52.060088+00:00",
+      "checked": "2026-11-18",
       "timezone": "Australia/Brisbane",
-      "scope": "TEC 2 November 22:00 AEDT count-stage update and current statewide election landing page only; not individual council results, officeholders or a renewed whole-site review.",
-      "previousResearchRun": "2026-11-01",
+      "scope": "Derwent Valley councillor vacancy and TEC recount consent milestone. Other observation dates are retained.",
+      "previousResearchRun": "2026-11-02",
       "sourceDatesPreserved": true,
-      "previousRecord": "content/history/tas-count-summary-before-2026-11-02-late-check.json"
+      "previousRecord": "content/places/history/derwent-valley-before-2026-11-18.json"
     },
     "sourceMarkdown": "content/states/tas.md"
   },

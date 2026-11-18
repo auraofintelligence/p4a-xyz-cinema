@@ -550,3 +550,7 @@ Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October dr
 ## 2026-11-18
 
 The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.
+
+## 18 November 2026 · Derwent Valley Council recount
+
+The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillor on 16 November 2026. Unsuccessful candidates from the ordinary election have until noon AEDT on Monday 30 November to consent to the recount. The exact recount time and result are pending.

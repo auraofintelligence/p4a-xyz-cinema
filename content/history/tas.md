@@ -271,3 +271,11 @@ This is a later current-civic research note; the historical-outline research dat
 [TEC's 2026 local-government results hub](https://www.tec.tas.gov.au/local-government/elections-2026/results/index.html) supports moving the 29 council events from postal voting underway to voting closed/counting underway. Postal voting closed on 27 October at 2 pm Hobart time (AEDT); counting began on 28 October at 9 am. Results were progressive at this check, not a statewide final declaration. No individual winner or new current officeholder was inferred, and the retained council rosters were not refreshed.
 
 The state summary now shows elapsed time since the postal-voting close rather than an upcoming deadline. Parliament composition, earlier source checks and historical ballots remain separate. The historical-outline JSON and its research date are unchanged. Exact pre-change overview data is retained in [the baseline snapshot](state-research-before-2026-10-29.json). See [the 30 October release record](../../docs/releases/2026-10-30-election-notices.md) for the combined reconciliation's checks, limits and delivery status.
+
+## 18 November 2026 · Derwent Valley Council recount
+
+The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillor on 16 November 2026. Unsuccessful candidates from the ordinary election have until noon AEDT on Monday 30 November to consent to the recount. The exact recount time and result are pending.
+
+The TEC confirms one councillor vacancy following Michelle Dracoulis’s resignation. The July TEC roster is archived, and the council’s available directory still shows its pre-election membership. Current full membership and declarations of office remain unverified.
+
+[Scoped review](../../docs/releases/2026-11-18-derwent-valley-recount.md) · [Prior records](../../content/places/history/derwent-valley-before-2026-11-18.json)
