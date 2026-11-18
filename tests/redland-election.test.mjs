@@ -37,6 +37,14 @@ test('candidate presentation keeps requested order and public links separate fro
       assert.equal(c.nominationSource, officialCandidateSearch.url);
       assert.match(c.nominationChecked, /^\d{4}-\d{2}-\d{2}$/);
     }
+    if (c.status === 'previously-certified') {
+      assert.equal(c.nominationStatus, 'previously-accepted');
+      assert.equal(c.nominationSource, officialCandidateSearch.url);
+      assert.ok(c.nominationChecked < c.currentListingChecked);
+      const review = data.byElection.sources.find(s => s.id === c.currentListingSourceId);
+      assert.equal(review?.url, officialCandidateSearch.url);
+      assert.equal(review?.checked, c.currentListingChecked);
+    }
   }
   const publicLinks = id => candidates.find(c => c.id === id).publicLinks;
   assert.equal(publicLinks('jasmine-person')[0].url, 'https://jasmineformayor.au/');

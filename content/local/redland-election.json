@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
-  "checked": "2026-11-16",
-  "changed": "2026-11-16",
+  "checked": "2026-11-18",
+  "changed": "2026-11-18",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -211,6 +211,14 @@
         "checked": "2026-11-16",
         "publisher": "Electoral Commission of Queensland",
         "supports": "At the 5 pm Brisbane check on 16 November, ECQ listed seven certified nominees. The register is updated during nominations. Check ECQ for subsequent changes and final ballot order."
+      },
+      {
+        "id": "ecq-redland-candidates-20261118-morning",
+        "title": "ECQ Redland certified-candidate register (18 November morning)",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "checked": "2026-11-18",
+        "publisher": "Electoral Commission of Queensland",
+        "supports": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot."
       }
     ],
     "postalVotingProposal": {
@@ -356,24 +364,26 @@
       {
         "id": "liela-drose",
         "name": "Liela D’Rose",
-        "status": "accepted-nomination",
-        "statusLabel": "ECQ-certified nomination",
+        "status": "previously-certified",
+        "statusLabel": "Previously ECQ-certified · current listing unconfirmed",
         "announced": "2026-11-08",
         "checked": "2026-11-12",
         "source": "https://www.facebook.com/lieladroseajp/posts/pfbid0WscXhVw8FmFnx1Z2u2SmjTAou8dQ9ScTrq7Fr4yxJfcH9fdcyZJanyp1AEGLBSqMl",
         "sourceId": "liela-drose-announcement-20261108",
         "sourceType": "primary-announcement",
         "sourceLabel": "Read D’Rose’s announcement",
-        "summary": "ECQ lists Liela D’Rose as an Animal Justice Party candidate.",
-        "nominationStatus": "accepted",
+        "summary": "ECQ listed Liela D’Rose for the Animal Justice Party on 16 November. Her entry was absent from the 18 November morning register. Her ECQ candidate detail remains available. Her current nomination status remains unconfirmed.",
+        "nominationStatus": "previously-accepted",
         "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
         "nominationChecked": "2026-11-16",
         "publicLinks": [
           {
-            "label": "ECQ candidate listing",
+            "label": "ECQ candidate detail",
             "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51148"
           }
-        ]
+        ],
+        "currentListingChecked": "2026-11-18",
+        "currentListingSourceId": "ecq-redland-candidates-20261118-morning"
       },
       {
         "id": "brendon-j-smith",
@@ -440,9 +450,31 @@
             "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51155"
           }
         ]
+      },
+      {
+        "id": "carrick-thring",
+        "name": "Carrick Thring",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
+        "announced": null,
+        "checked": "2026-11-18",
+        "source": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "sourceId": "ecq-redland-candidates-20261118-morning",
+        "sourceType": "official-register",
+        "sourceLabel": "See the ECQ register",
+        "summary": "ECQ lists Carrick Thring for Family First.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "nominationChecked": "2026-11-18",
+        "publicLinks": [
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51147"
+          }
+        ]
       }
     ],
-    "candidateCoverage": "At the 5 pm Brisbane check on 16 November, ECQ listed seven certified nominees. The register is updated during nominations. Check ECQ for subsequent changes and final ballot order.",
+    "candidateCoverage": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -475,10 +507,10 @@
     },
     "officialCandidateSearch": {
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
-      "checked": "2026-11-16",
+      "checked": "2026-11-18",
       "label": "Check ECQ’s certified candidates",
-      "status": "At the 5 pm Brisbane check on 16 November, ECQ listed seven certified nominees. The register is updated during nominations. Check ECQ for subsequent changes and final ballot order.",
-      "sourceId": "ecq-redland-candidates-20261116-evening"
+      "status": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.",
+      "sourceId": "ecq-redland-candidates-20261118-morning"
     }
   },
   "refreshTriggers": [
@@ -489,5 +521,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "16 November 2026, Australia/Brisbane. Verified the noon public candidacy statements, then recorded four new ECQ-certified nominees at the evening check."
+  "reviewScope": "Redland City mayoral by-election morning catch-up. ECQ lists Carrick Thring for Family First. Liela D’Rose was certified in the 16 November snapshot and her current listing was unavailable."
 }

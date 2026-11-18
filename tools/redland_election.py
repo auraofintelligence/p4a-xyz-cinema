@@ -29,7 +29,9 @@ def validate(election):
     official_search = bye.get('officialCandidateSearch', {}).get('url')
     assert len({c['id'] for c in candidates}) == len(candidates)
     for candidate in candidates:
-        assert candidate['status'] in ('announced-intention', 'accepted-nomination', 'withdrawn')
+        status = candidate['status']
+        certified = status in ('accepted-nomination', 'previously-certified')
+        assert certified or status in ('announced-intention', 'withdrawn')
         assert candidate['source'].startswith('https://')
         date.fromisoformat(candidate['checked'])
         if candidate.get('announced'):
@@ -39,16 +41,20 @@ def validate(election):
         elif candidate.get('sourceType') == 'media-report':
             date.fromisoformat(candidate['reported'])
         else:
-            assert candidate.get('sourceType') == 'official-register' and candidate['status'] == 'accepted-nomination'
+            assert candidate.get('sourceType') == 'official-register' and certified
             assert candidate['source'] == official_search
-        if candidate['status'] == 'accepted-nomination':
+        if certified:
             nomination_source = candidate.get('nominationSource') or ''
             assert nomination_source.startswith('https://www.ecq.qld.gov.au/') or (
                 nomination_source.startswith('https://event.elections.qld.gov.au/') and nomination_source == official_search
             )
             if candidate.get('nominationChecked'):
                 date.fromisoformat(candidate['nominationChecked'])
-        elif candidate['status'] == 'announced-intention':
+            if status == 'previously-certified':
+                assert candidate['nominationStatus'] == 'previously-accepted'
+                assert date.fromisoformat(candidate['nominationChecked']) < date.fromisoformat(candidate['currentListingChecked'])
+                assert candidate['currentListingSourceId'] in {source['id'] for source in bye['sources']}
+        elif status == 'announced-intention':
             assert candidate['nominationStatus'] == 'not-verified'
     if bye.get('pollEndsAt'):
         end = datetime.fromisoformat(bye['pollEndsAt'])
@@ -100,7 +106,11 @@ def candidate_announcements(page, bye, link):
             source_date = 'ECQ listing checked ' + c['checked']
         source_link = link(page, c['source'], c.get('sourceLabel', 'Read the primary announcement'))
         nomination = ''
-        if c['status'] == 'accepted-nomination' and c['nominationSource'] != c['source']:
+        if c['status'] == 'previously-certified':
+            verified = escape(c['nominationChecked'])
+            rechecked = escape(c['currentListingChecked'])
+            nomination = f' ECQ certification previously observed {verified}. {link(page, official["url"], "Current register")} checked {rechecked}.'
+        elif c['status'] == 'accepted-nomination' and c['nominationSource'] != c['source']:
             verified = c.get('nominationChecked') or c['checked']
             nomination = f' {link(page, c["nominationSource"], "ECQ certification")} checked {escape(verified)}.'
         rows += f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(source_date)} · AEST (Brisbane, UTC+10). {source_link}.{nomination}</p></article>'

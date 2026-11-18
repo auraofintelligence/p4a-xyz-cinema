@@ -34,7 +34,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-16"
+      "2026-11-18"
     ]
   },
   "routes": [
@@ -88,7 +88,8 @@
           "election-review-redland-timetable-20261110",
           "ecq-redland-candidates-20261112",
           "ecq-redland-candidates-20261113",
-          "ecq-redland-candidates-20261116-evening"
+          "ecq-redland-candidates-20261116-evening",
+          "ecq-redland-candidates-20261118-morning"
         ],
         "boundaryEdition": "Current Queensland administrative local-government boundary service snapshot, retrieved 17 October 2026",
         "representatives": [
@@ -577,13 +578,6 @@
                 "sourceId": "ecq-redland-candidates-20261113"
               },
               {
-                "name": "Liela D’Rose",
-                "party": "Animal Justice Party",
-                "status": "ECQ-certified nomination · listed on 16 November 2026",
-                "sourceUrl": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51148",
-                "sourceId": "ecq-redland-candidates-20261116-evening"
-              },
-              {
                 "name": "Don Brown",
                 "party": "Independent",
                 "status": "ECQ-certified nomination · listed on 16 November 2026",
@@ -603,6 +597,13 @@
                 "status": "ECQ-certified nomination · listed on 16 November 2026",
                 "sourceUrl": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51155",
                 "sourceId": "ecq-redland-candidates-20261116-evening"
+              },
+              {
+                "name": "Carrick Thring",
+                "party": "Family First",
+                "status": "ECQ-certified nomination · listed on 18 November 2026",
+                "sourceUrl": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51147",
+                "sourceId": "ecq-redland-candidates-20261118-morning"
               }
             ],
             "checked": "2026-11-10",
@@ -612,11 +613,23 @@
             "nominationsOpen": "2026-11-10",
             "sourceId": "election-review-redland-timetable-20261110",
             "timePrecision": "calendar-day",
-            "candidateCoverage": "At the 5 pm Brisbane check on 16 November, ECQ listed seven certified nominees. The register is updated during nominations. Check ECQ for subsequent changes and final ballot order.",
+            "candidateCoverage": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.",
             "nominationDateBasis": "ECQ’s issued notice and event timetable confirm nominations close at 12pm (noon) on 19 November 2026, Queensland local time (AEST, UTC+10). No opening clock time is stated.",
             "postalVoteCompletionDeadline": "2026-12-12T18:00:00+10:00",
             "postalVoteReceiptDeadline": "2026-12-22T17:00:00+10:00",
-            "officialCandidateSearchUrl": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8"
+            "officialCandidateSearchUrl": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+            "previouslyListedCandidates": [
+              {
+                "name": "Liela D’Rose",
+                "party": "Animal Justice Party",
+                "status": "ECQ-certified nomination · listed on 16 November 2026",
+                "sourceUrl": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51148",
+                "sourceId": "ecq-redland-candidates-20261116-evening",
+                "currentListingStatus": "unconfirmed",
+                "currentListingChecked": "2026-11-18",
+                "currentListingSourceId": "ecq-redland-candidates-20261118-morning"
+              }
+            ]
           }
         ],
         "coverageNotes": [

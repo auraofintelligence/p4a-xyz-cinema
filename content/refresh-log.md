@@ -546,3 +546,7 @@ Coolgardie’s Shire publishes three candidates for one district councillor posi
 ## 16 November 2026 · Walcha Council by-election date endorsement
 
 Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.
+
+## 2026-11-18
+
+The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.

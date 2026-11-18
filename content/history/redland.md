@@ -136,3 +136,7 @@ The noon ECQ register check added Brendon J Smith, Independent. Gary Williamson 
 ECQ listed Liela D’Rose (Animal Justice Party) and Don Brown, Stephen Lambourne and Claude Norval (Independent). Gary Williamson, Melissa Millar and Brendon J Smith remained listed as Independents. The prior announcement, public-statement and certification-check dates are retained. The nomination deadline remains noon AEST on 19 November.
 
 [Source record](../places/sources/redland-candidate-review-2026-11-16-evening.json)
+
+## 18 November 2026: ECQ nomination register
+
+The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.
