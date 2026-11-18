@@ -566,3 +566,5 @@ The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillo
 Added sourced postal-application, postal return and receipt cutoffs, plus the VEC how-to-vote card and counting references. [Scoped review](../docs/releases/2026-11-18-victoria-postal-voting.md).
 
 - VEC’s Baird Ward postal timetable now records ballot-pack mail-out from 18 January. Its 18 November enrolment reminder confirms the existing 25 November cutoff. [Scoped review](../docs/releases/2026-11-18-knox-baird-mailout.md).
+
+- Recorded Barry Knight’s official Independent ballot affiliation for the 2026 Cobar by-election. The 29 October unopposed declaration remains the election outcome. [Scoped review](../docs/releases/2026-11-18-cobar-ballot-affiliation.md).
