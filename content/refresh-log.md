@@ -558,3 +558,5 @@ The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillo
 - qld: CHANGED — 18 November follow-up. ECQ certified Jasmine Person as an Independent. The earlier Carrick Thring listing and Liela D’Rose’s unconfirmed current status are retained. [Source record](places/sources/redland-candidate-review-2026-11-18-followup.json).
 
 - qld: CHANGED — 18 November noon check. ECQ listed Rowanne McKenzie as an Independent. Liela D’Rose’s current listing remains unconfirmed. [Source record](places/sources/redland-candidate-review-2026-11-18-noon.json).
+
+- qld: CHANGED — 18 November evening check. ECQ listed Julie Talty and Darryl Williams as Independents. Liela D’Rose’s current listing remains unconfirmed. [Source record](places/sources/redland-candidate-review-2026-11-18-evening.json).

@@ -235,6 +235,14 @@
         "checked": "2026-11-18",
         "publisher": "Electoral Commission of Queensland",
         "supports": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
+      },
+      {
+        "id": "ecq-redland-candidates-20261118-evening",
+        "title": "ECQ Redland certified-candidate register (18 November evening check)",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "checked": "2026-11-18",
+        "publisher": "Electoral Commission of Queensland",
+        "supports": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
       }
     ],
     "postalVotingProposal": {
@@ -278,8 +286,8 @@
       {
         "id": "julie-talty",
         "name": "Julie Talty",
-        "status": "announced-intention",
-        "statusLabel": "Publicly stated candidacy",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
         "announced": null,
         "reported": "2026-11-05",
         "checked": "2026-11-16",
@@ -287,9 +295,9 @@
         "sourceId": "redland-bayside-first-person-statements-20261114",
         "sourceType": "primary-statement",
         "sourceLabel": "Read the candidate’s public statement",
-        "summary": "Talty publicly set out what she would do as Redland mayor in a first-person candidate forum response.",
-        "nominationStatus": "not-verified",
-        "nominationSource": null,
+        "summary": "ECQ lists Julie Talty as an Independent. She set out her candidacy in a public first-person statement on 14 November.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
         "publicLinks": [
           {
             "label": "Council profile",
@@ -298,10 +306,15 @@
           {
             "label": "Campaign website",
             "url": "https://julietalty.au/"
+          },
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51156"
           }
         ],
         "reportedSourceId": "redland-bayside-announcements-20261105",
-        "statementPublished": "2026-11-14"
+        "statementPublished": "2026-11-14",
+        "nominationChecked": "2026-11-18"
       },
       {
         "id": "rowanne-mckenzie",
@@ -498,9 +511,31 @@
             "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51147"
           }
         ]
+      },
+      {
+        "id": "darryl-williams",
+        "name": "Darryl Williams",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
+        "announced": null,
+        "checked": "2026-11-18",
+        "source": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "sourceId": "ecq-redland-candidates-20261118-evening",
+        "sourceType": "official-register",
+        "sourceLabel": "Read the ECQ certified-candidate register",
+        "summary": "ECQ lists Darryl Williams as an Independent.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "nominationChecked": "2026-11-18",
+        "publicLinks": [
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51159"
+          }
+        ]
       }
     ],
-    "candidateCoverage": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+    "candidateCoverage": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -535,8 +570,8 @@
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
       "checked": "2026-11-18",
       "label": "Check ECQ’s certified candidates",
-      "status": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
-      "sourceId": "ecq-redland-candidates-20261118-noon"
+      "status": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+      "sourceId": "ecq-redland-candidates-20261118-evening"
     }
   },
   "refreshTriggers": [
@@ -547,5 +582,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "18 November noon check. ECQ listed Rowanne McKenzie as an Independent. Liela D’Rose’s current listing remains unconfirmed."
+  "reviewScope": "18 November evening check. ECQ listed Julie Talty and Darryl Williams as Independents. Liela D’Rose’s current listing remains unconfirmed."
 }
