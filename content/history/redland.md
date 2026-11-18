@@ -146,3 +146,9 @@ The 18 November morning ECQ check listed seven certified nominees, including Car
 The ECQ register for event 653 lists Jasmine Person as an Independent in the 18 November follow-up. Eight certified entries were visible. Her 5 November media report, 9 November public statement and 16 November statement check remain dated separately. Liela D’Rose’s current listing remains unconfirmed.
 
 [Source record](../places/sources/redland-candidate-review-2026-11-18-followup.json)
+
+## 18 November 2026 Redland noon check
+
+The ECQ register for event 653 listed Rowanne McKenzie as an Independent at 11:57 am AEST on 18 November. Nine certified entries were visible. McKenzie’s 1 November public announcement remains dated separately. Liela D’Rose’s current listing remains unconfirmed.
+
+[Source record](../places/sources/redland-candidate-review-2026-11-18-noon.json)

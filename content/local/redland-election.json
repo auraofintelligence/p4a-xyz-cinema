@@ -227,6 +227,14 @@
         "checked": "2026-11-18",
         "publisher": "Electoral Commission of Queensland",
         "supports": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
+      },
+      {
+        "id": "ecq-redland-candidates-20261118-noon",
+        "title": "ECQ Redland certified-candidate register (18 November noon check)",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "checked": "2026-11-18",
+        "publisher": "Electoral Commission of Queensland",
+        "supports": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
       }
     ],
     "postalVotingProposal": {
@@ -298,23 +306,28 @@
       {
         "id": "rowanne-mckenzie",
         "name": "Rowanne McKenzie",
-        "status": "announced-intention",
-        "statusLabel": "Announced intention to nominate",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
         "announced": "2026-11-01",
         "checked": "2026-11-01",
         "source": "https://www.facebook.com/rowannemckenzie7/posts/pfbid02xFS14ovQPHGCAygJ4nG59G9CZ52iXEDFehSu1EYweJvJsJUS1n18GKE4zFNViviml",
         "sourceId": "rowanne-mckenzie-announcement-20261101",
-        "summary": "Announced her decision to nominate for Mayor of Redland City. This is a public intention to run, not an ECQ-accepted nomination.",
-        "nominationStatus": "not-verified",
-        "nominationSource": null,
+        "summary": "ECQ lists Rowanne McKenzie as an Independent. She publicly announced her intention to nominate on 1 November.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
         "sourceType": "primary-announcement",
         "sourceLabel": "Read the primary announcement",
         "publicLinks": [
           {
             "label": "Council profile",
             "url": "https://www.redland.qld.gov.au/About-Council/Mayor-and-Councillors/Mayor-and-councillor-profiles/Division-7-Alexandra-Hills-Capalaba-Thornlands-Cleveland"
+          },
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51157"
           }
-        ]
+        ],
+        "nominationChecked": "2026-11-18"
       },
       {
         "id": "don-brown",
@@ -487,7 +500,7 @@
         ]
       }
     ],
-    "candidateCoverage": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+    "candidateCoverage": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -522,8 +535,8 @@
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
       "checked": "2026-11-18",
       "label": "Check ECQ’s certified candidates",
-      "status": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
-      "sourceId": "ecq-redland-candidates-20261118-followup"
+      "status": "The 18 November noon check found nine ECQ-certified listings, including Rowanne McKenzie (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+      "sourceId": "ecq-redland-candidates-20261118-noon"
     }
   },
   "refreshTriggers": [
@@ -534,5 +547,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "18 November follow-up. ECQ certified Jasmine Person as an Independent. The earlier Carrick Thring listing and Liela D’Rose’s unconfirmed current status are retained."
+  "reviewScope": "18 November noon check. ECQ listed Rowanne McKenzie as an Independent. Liela D’Rose’s current listing remains unconfirmed."
 }
