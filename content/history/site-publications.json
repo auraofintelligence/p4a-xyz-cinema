@@ -584,6 +584,50 @@
       "tree": "47fd840e6b94827fce51d074841bd542cd08c9b7",
       "deployedOn": "2026-11-16",
       "verifiedAt": "2026-11-16T07:44:27.211906+00:00"
+    },
+    {
+      "commit": "cf55a6297d3855e041cc1f5d1e34f0897479787d",
+      "deployedAt": "2026-11-18T00:36:44Z",
+      "scope": "Redland mayoral by-election. Carrick Thring appeared in the ECQ register for Family First. Liela D’Rose’s earlier certification and candidate detail are retained, with her current listing unconfirmed.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44208859203",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44208860343",
+      "liveVerification": "HTTP 200 and exact Git blobs for the local election and national council records, all four affected Redland pages and the sitemap.",
+      "nonBrowserChecks": {
+        "local": "Passed the national structural and source checks, all 2,081 publication contracts, Redland render parity, certification-stage and countdown tests, civic navigation and discovery.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44208860353"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser was unavailable to this scheduled run. Verified the exact live HTTP files."
+      },
+      "note": "Scoped publication receipt for the content commit.",
+      "tree": "4e532af893d591d470fabd494b2b466c6d867570",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T00:42:19.448740+00:00"
+    },
+    {
+      "commit": "eb6331174a26f6c2b59ba8909fbd4f158c8a57a6",
+      "deployedAt": "2026-11-18T00:40:25Z",
+      "scope": "Derwent Valley councillor vacancy and TEC recount. The consent deadline is noon AEDT on 30 November. The recount time and result are pending.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44209545314",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44209546648",
+      "liveVerification": "HTTP 200 and exact Git blobs for the council and state inputs, state data script, Derwent Valley page, sampled Tasmania map summaries, Tasmania and national election cards, and sitemap.",
+      "nonBrowserChecks": {
+        "local": "Passed the national structural and source checks, all 2,081 publication contracts, state calendar parity, countdown tests, scoped map changes, discovery and maintenance.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44209546656"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser was unavailable to this scheduled run. Verified the exact live HTTP files."
+      },
+      "note": "Scoped publication receipt for the content commit.",
+      "tree": "7332b91ff769da02181240e335d1c102dcd29087",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T00:42:19.490128+00:00"
     }
   ]
 }
