@@ -672,6 +672,94 @@
       "tree": "db7a2958cb8fad1f81e263efbb807881dcc05da1",
       "deployedOn": "2026-11-18",
       "verifiedAt": "2026-11-18T02:15:44.209361+00:00"
+    },
+    {
+      "commit": "711130f612a10aa348fa0df78142dea9e26bbacb",
+      "deployedAt": "2026-11-18T08:37:56Z",
+      "scope": "Redland mayoral by-election. ECQ-certified Independent nominations of Julie Talty and Darryl Williams, evening of 18 November.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44268473597",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44268474128",
+      "liveVerification": "HTTP 200 and exact Git bytes for content/local/redland-election.json, content/places/councils.json, states/qld/councils/redland/index.html, states/qld/councils/redland/candidates/index.html, states/qld/councils/redland/elections/index.html, states/qld/councils/redland/sources/index.html.",
+      "nonBrowserChecks": {
+        "local": "Passed national data and source verification, 2,081 publication contracts, Redland data, renderer and countdown checks, dates and civic navigation, discovery, maintenance and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44268474121"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable to this scheduled run. Exact live HTTP files were verified."
+      },
+      "note": "Scoped publication receipt for this content commit.",
+      "tree": "8b08a4a6fa4ed5d7b6600dba6d64dc0a57ad1bdc",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T09:13:27.848446+00:00"
+    },
+    {
+      "commit": "3c11d506f8e7fc1bf138ed5bb8fcbaf721a9082f",
+      "deployedAt": "2026-11-18T08:49:03Z",
+      "scope": "Victoria 2026 state election. Postal vote application, return and receipt cutoffs plus official registration and counting links.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44270061126",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44270062236",
+      "liveVerification": "HTTP 200 and exact Git bytes for content/elections/vic-2026.json, assets/vic-election-data.js, states/vic/election/index.html, sitemap.xml.",
+      "nonBrowserChecks": {
+        "local": "Passed VEC timeline, 1,037 ballot records, candidate provenance, scoped generator parity, Victorian atlas and source checks, discovery and civic navigation, date and cutoff tests, JavaScript and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44270064033"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable to this scheduled run. Exact live HTTP files were verified."
+      },
+      "note": "Scoped publication receipt for this content commit.",
+      "tree": "bdf64132e49a0e674b509bea172142e5bf4bbf2d",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T09:13:27.892901+00:00"
+    },
+    {
+      "commit": "752b5450137d7d7da4a2585973f3b9581ad128ad",
+      "deployedAt": "2026-11-18T09:01:39Z",
+      "scope": "Knox Baird Ward postal by-election. Official ballot-pack mail-out from 18 January and reconfirmed close of enrolment.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44271822456",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44271824000",
+      "liveVerification": "HTTP 200 and exact Git bytes for content/places/councils.json, states/vic/councils/knox-city-council/index.html, sitemap.xml.",
+      "nonBrowserChecks": {
+        "local": "Passed national data and source verification, 2,081 publication contracts, scoped council event checks, clock, delivery and geometry checks, discovery, maintenance and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44271824001"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable to this scheduled run. Exact live HTTP files were verified."
+      },
+      "note": "Scoped publication receipt for this content commit.",
+      "tree": "f07835c99bb5057f08fcddd5dc05bc21faebffc9",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T09:13:27.934454+00:00"
+    },
+    {
+      "commit": "280ad5f967d88ef36fe7ddb10b24444e9eda6bb5",
+      "deployedAt": "2026-11-18T09:11:15Z",
+      "scope": "Cobar Shire by-election. Barry Knight’s official Independent ballot affiliation and retained unopposed result.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44273330642",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44273330895",
+      "liveVerification": "HTTP 200 and exact Git bytes for content/places/councils.json, states/nsw/councils/cobar/index.html, sitemap.xml.",
+      "nonBrowserChecks": {
+        "local": "Passed national data and source verification, 2,081 publication contracts, scoped council event checks, clock, delivery and geometry checks, discovery, maintenance and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44273331066"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable to this scheduled run. Exact live HTTP files were verified."
+      },
+      "note": "Scoped publication receipt for this content commit.",
+      "tree": "ec5fe955c76d7f280567b5e516a47fa06171fbdb",
+      "deployedOn": "2026-11-18",
+      "verifiedAt": "2026-11-18T09:13:27.980508+00:00"
     }
   ]
 }
