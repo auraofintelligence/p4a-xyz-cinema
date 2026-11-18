@@ -554,3 +554,5 @@ The 18 November morning ECQ check listed seven certified nominees, including Car
 ## 18 November 2026 · Derwent Valley Council recount
 
 The Tasmanian Electoral Commission says Michelle Dracoulis resigned as councillor on 16 November 2026. Unsuccessful candidates from the ordinary election have until noon AEDT on Monday 30 November to consent to the recount. The exact recount time and result are pending.
+
+- qld: CHANGED — 18 November follow-up. ECQ certified Jasmine Person as an Independent. The earlier Carrick Thring listing and Liela D’Rose’s unconfirmed current status are retained. [Source record](places/sources/redland-candidate-review-2026-11-18-followup.json).

@@ -140,3 +140,9 @@ ECQ listed Liela D’Rose (Animal Justice Party) and Don Brown, Stephen Lambourn
 ## 18 November 2026: ECQ nomination register
 
 The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.
+
+## 18 November 2026 Redland follow-up
+
+The ECQ register for event 653 lists Jasmine Person as an Independent in the 18 November follow-up. Eight certified entries were visible. Her 5 November media report, 9 November public statement and 16 November statement check remain dated separately. Liela D’Rose’s current listing remains unconfirmed.
+
+[Source record](../places/sources/redland-candidate-review-2026-11-18-followup.json)

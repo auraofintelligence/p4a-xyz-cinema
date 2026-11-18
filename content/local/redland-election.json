@@ -219,6 +219,14 @@
         "checked": "2026-11-18",
         "publisher": "Electoral Commission of Queensland",
         "supports": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot."
+      },
+      {
+        "id": "ecq-redland-candidates-20261118-followup",
+        "title": "ECQ Redland certified-candidate register (18 November follow-up)",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "checked": "2026-11-18",
+        "publisher": "Electoral Commission of Queensland",
+        "supports": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
       }
     ],
     "postalVotingProposal": {
@@ -233,8 +241,8 @@
       {
         "id": "jasmine-person",
         "name": "Jasmine Person",
-        "status": "announced-intention",
-        "statusLabel": "Publicly stated candidacy",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
         "announced": null,
         "reported": "2026-11-05",
         "checked": "2026-11-16",
@@ -242,17 +250,22 @@
         "sourceId": "jasmine-person-public-statement-20261109",
         "sourceType": "primary-statement",
         "sourceLabel": "Read the candidate’s public statement",
-        "summary": "Person’s campaign website says she is standing for Redland mayor.",
-        "nominationStatus": "not-verified",
-        "nominationSource": null,
+        "summary": "ECQ lists Jasmine Person as an Independent.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
         "publicLinks": [
           {
             "label": "Campaign website",
             "url": "https://jasmineformayor.au/"
+          },
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51150"
           }
         ],
         "reportedSourceId": "redland-bayside-announcements-20261105",
-        "statementPublished": "2026-11-09"
+        "statementPublished": "2026-11-09",
+        "nominationChecked": "2026-11-18"
       },
       {
         "id": "julie-talty",
@@ -474,7 +487,7 @@
         ]
       }
     ],
-    "candidateCoverage": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.",
+    "candidateCoverage": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -509,8 +522,8 @@
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
       "checked": "2026-11-18",
       "label": "Check ECQ’s certified candidates",
-      "status": "The 18 November morning ECQ check listed seven certified nominees, including Carrick Thring (Family First). Liela D’Rose’s 16 November entry was absent from the current register. Her current nomination status remains unconfirmed. Check ECQ for updates and the final ballot.",
-      "sourceId": "ecq-redland-candidates-20261118-morning"
+      "status": "The 18 November follow-up check found eight ECQ-certified listings, including Jasmine Person (Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+      "sourceId": "ecq-redland-candidates-20261118-followup"
     }
   },
   "refreshTriggers": [
@@ -521,5 +534,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "Redland City mayoral by-election morning catch-up. ECQ lists Carrick Thring for Family First. Liela D’Rose was certified in the 16 November snapshot and her current listing was unavailable."
+  "reviewScope": "18 November follow-up. ECQ certified Jasmine Person as an Independent. The earlier Carrick Thring listing and Liela D’Rose’s unconfirmed current status are retained."
 }
