@@ -568,3 +568,5 @@ Added sourced postal-application, postal return and receipt cutoffs, plus the VE
 - VEC’s Baird Ward postal timetable now records ballot-pack mail-out from 18 January. Its 18 November enrolment reminder confirms the existing 25 November cutoff. [Scoped review](../docs/releases/2026-11-18-knox-baird-mailout.md).
 
 - Recorded Barry Knight’s official Independent ballot affiliation for the 2026 Cobar by-election. The 29 October unopposed declaration remains the election outcome. [Scoped review](../docs/releases/2026-11-18-cobar-ballot-affiliation.md).
+
+- qld: CHANGED — The ECQ register for event 653 listed Kristie Lockhart for The Greens at 4:06 pm AEST on 19 November. Twelve certified listings were visible after the noon nomination cutoff. The final noon task arrived at 4:05 pm. The separate evening task remains responsible for its final dedicated check. Liela D’Rose’s current listing remains unconfirmed because no directly readable primary withdrawal statement was verified. [Scoped review](../docs/releases/2026-11-19-redland-lockhart-nomination.md).

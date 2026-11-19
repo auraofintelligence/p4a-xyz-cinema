@@ -1,7 +1,7 @@
 {
   "place": "Redland City",
   "checked": "2026-11-18",
-  "changed": "2026-11-18",
+  "changed": "2026-11-19",
   "timezone": "Australia/Brisbane",
   "general": {
     "title": "Next scheduled council election",
@@ -243,6 +243,14 @@
         "checked": "2026-11-18",
         "publisher": "Electoral Commission of Queensland",
         "supports": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot."
+      },
+      {
+        "id": "ecq-redland-candidates-20261119-final-noon",
+        "title": "ECQ Redland certified nominations (19 November, 4:06 pm check)",
+        "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "checked": "2026-11-19",
+        "publisher": "Electoral Commission of Queensland",
+        "supports": "The 19 November check at 4:06 pm AEST found twelve ECQ-certified listings, including Kristie Lockhart (The Greens). Nominations closed at noon. Liela D’Rose’s current listing remains unconfirmed. Check ECQ for the final ballot and any updates."
       }
     ],
     "postalVotingProposal": {
@@ -533,9 +541,31 @@
             "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51159"
           }
         ]
+      },
+      {
+        "id": "kristie-lockhart",
+        "name": "Kristie Lockhart",
+        "status": "accepted-nomination",
+        "statusLabel": "ECQ-certified nomination",
+        "announced": null,
+        "checked": "2026-11-19",
+        "source": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "sourceId": "ecq-redland-candidates-20261119-final-noon",
+        "sourceType": "official-register",
+        "sourceLabel": "Read the ECQ certified-candidate register",
+        "summary": "ECQ lists Kristie Lockhart for The Greens.",
+        "nominationStatus": "accepted",
+        "nominationSource": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
+        "nominationChecked": "2026-11-19",
+        "publicLinks": [
+          {
+            "label": "ECQ candidate listing",
+            "url": "https://event.elections.qld.gov.au/Candidate/CandidateDetail?EventID=653&EventType=8&ContestID=0&BoundaryID=0&LGAID=114&ID=51160"
+          }
+        ]
       }
     ],
-    "candidateCoverage": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
+    "candidateCoverage": "The 19 November check at 4:06 pm AEST found twelve ECQ-certified listings, including Kristie Lockhart (The Greens). Nominations closed at noon. Liela D’Rose’s current listing remains unconfirmed. Check ECQ for the final ballot and any updates.",
     "timePrecision": "calendar-day",
     "noticeOfElection": {
       "date": "2026-11-10",
@@ -568,10 +598,10 @@
     },
     "officialCandidateSearch": {
       "url": "https://event.elections.qld.gov.au/Events/VoteCardsView?EventID=653&EventType=8",
-      "checked": "2026-11-18",
+      "checked": "2026-11-19",
       "label": "Check ECQ’s certified candidates",
-      "status": "The 18 November evening check found eleven ECQ-certified listings, including Julie Talty and Darryl Williams (both Independent). Liela D’Rose’s current listing remains unconfirmed. Check ECQ for updates and the final ballot.",
-      "sourceId": "ecq-redland-candidates-20261118-evening"
+      "status": "The 19 November check at 4:06 pm AEST found twelve ECQ-certified listings, including Kristie Lockhart (The Greens). Nominations closed at noon. Liela D’Rose’s current listing remains unconfirmed. Check ECQ for the final ballot and any updates.",
+      "sourceId": "ecq-redland-candidates-20261119-final-noon"
     }
   },
   "refreshTriggers": [
@@ -582,5 +612,5 @@
     "New candidate acceptance, withdrawal or declaration",
     "Election day reached; verify status and results"
   ],
-  "reviewScope": "18 November evening check. ECQ listed Julie Talty and Darryl Williams as Independents. Liela D’Rose’s current listing remains unconfirmed."
+  "reviewScope": "ECQ-certified nomination of Kristie Lockhart for The Greens, checked at 4:06 pm AEST on 19 November after the late delivery of the final noon task."
 }
