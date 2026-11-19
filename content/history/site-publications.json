@@ -782,6 +782,28 @@
       "tree": "8aa25e0c2fe30ffdcbe00905ea89df574118d4ff",
       "verifiedAt": "2026-11-19T06:35:19.042535+00:00",
       "deployedOn": "2026-11-19"
+    },
+    {
+      "commit": "e8281b4d86d07c0bf4e6d6e5941defc66e8cfeb2",
+      "deployedAt": "2026-11-19T07:18:42Z",
+      "scope": "Victoria 2026 state election. VEC’s 19 November Richmond early-voting statement and WAEC’s Perth interstate-voting venue notice.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44478460711",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44478461475",
+      "liveVerification": "HTTP 200 and exact Git bytes for content/elections/vic-2026.json, assets/vic-election-data.js, states/vic/election/index.html and sitemap.xml.",
+      "nonBrowserChecks": {
+        "local": "Passed canonical timeline and source scope, 495 preserved announcement records, 1,037 unchanged official ballot positions, reproducible generator, 2,081 publication contracts, Victorian atlas, date and cutoff checks, discovery, civic navigation, JavaScript and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44478461395"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable to this scheduled run. Exact live HTTP files were verified."
+      },
+      "note": "Scoped publication receipt for this content commit. The final 5 pm Redland register check was unchanged; no Redland content date was refreshed.",
+      "tree": "be7aa7ef46b5c5397220c06ad270a9bb7dcc2ddd",
+      "verifiedAt": "2026-11-19T07:21:19.647481+00:00",
+      "deployedOn": "2026-11-19"
     }
   ]
 }
