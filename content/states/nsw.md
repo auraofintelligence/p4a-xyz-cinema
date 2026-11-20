@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-16",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "13 November Hunter’s Hill Council South Ward by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. 13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. 16 November Walcha review: Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "13 November Hunter’s Hill Council South Ward by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. 13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. 20 November scoped Walcha date check: NSWEC now publishes 16 January 2027 as the by-election date following Adam Iuston’s 23 October resignation. Nomination deadlines and polling hours remain unverified. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. The recovered 7 November Tenterfield notice review records Gregory Purcell’s resignation effective 31 October and process advice for the 26 November council meeting; no replacement date is inferred. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -93,21 +93,23 @@
     },
     {
       "label": "Walcha Council by-election following 23 October resignation",
-      "date": null,
+      "date": "2027-01-16",
       "kind": "Council by-election",
       "scope": "local-government",
-      "status": "Council endorsed a preferred date; official timetable awaited",
-      "note": "Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.",
-      "source": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Draft-October-2026-Ordinary-Meeting-Minutes-28102026.pdf",
+      "status": "NSWEC publishes a by-election date of Saturday 16 January 2027; detailed timetable awaited",
+      "note": "Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes endorsed the NSW Electoral Commission’s preferred date of 16 January 2027. The NSWEC expenditure-cap schedule, updated 19 November 2026, now lists Walcha’s by-election date as 16 January 2027. The date-only clock marks the start of that date in Sydney. Nomination deadlines and polling hours await a detailed timetable.",
+      "source": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
       "dayMetrics": {
-        "displayDaysUntil": false,
+        "displayDaysUntil": true,
         "displayDaysSince": false,
         "archiveDaysSince": true,
         "cycleKey": "nsw-walcha-vacancy-2026-10-23",
         "archiveNote": "Keep the vacancy and eventual by-election separate from the ordinary council-election cycle."
       },
       "councilEndorsedDate": "2027-01-16",
-      "timingStatus": "awaiting-confirmation"
+      "timingStatus": "date-confirmed",
+      "timezone": "Australia/Sydney",
+      "datePrecision": "day"
     },
     {
       "label": "2027 Kempsey Shire Council by-election",
@@ -363,6 +365,10 @@
     {
       "label": "Walcha Council by-election date endorsement, 28 October draft minutes",
       "url": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Draft-October-2026-Ordinary-Meeting-Minutes-28102026.pdf"
+    },
+    {
+      "label": "NSWEC by-election dates and expenditure caps, updated 19 November 2026",
+      "url": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections"
     }
   ],
   "previousResearchRun": "2026-11-02",

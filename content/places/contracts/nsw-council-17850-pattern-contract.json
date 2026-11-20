@@ -17,6 +17,7 @@
   "coverageNotes": [
     "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
     "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+    "NSWEC’s expenditure-cap schedule, updated 19 November and checked 20 November 2026, publishes a 16 January 2027 by-election date. Nomination deadlines, polling hours and contestants remain unverified. Existing current-office and historical-election source dates are retained.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -29,7 +30,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-16"
+      "2026-11-20"
     ]
   },
   "routes": [
@@ -76,7 +77,8 @@
           "election-review-walcha-vacancy-20261102",
           "election-review-walcha-leadership-20261102",
           "election-review-walcha-conflict-20261102",
-          "election-review-walcha-date-endorsement-20261116"
+          "election-review-walcha-date-endorsement-20261116",
+          "election-review-walcha-date-20261120"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -177,25 +179,26 @@
             "id": "nsw-council-17850-vacancy-2026-10-23",
             "label": "Walcha councillor by-election following Adam Iuston resignation",
             "kind": "by-election",
-            "status": "Council endorsed a preferred date; official timetable awaited",
-            "date": null,
+            "status": "NSWEC publishes a by-election date of Saturday 16 January 2027; detailed timetable awaited",
+            "date": "2027-01-16",
             "dateTime": null,
             "nominationsOpen": null,
             "nominationsClose": null,
-            "waitingLabel": "Awaiting official timetable",
-            "dateBasis": "Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes record a unanimous decision endorsing the NSW Electoral Commission’s preferred by-election date of Saturday 16 January 2027. An issued electoral timetable, nomination dates and polling hours remain unverified.",
+            "dateBasis": "Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October draft minutes endorsed the NSW Electoral Commission’s preferred date of 16 January 2027. The NSWEC expenditure-cap schedule, updated 19 November 2026, now lists Walcha’s by-election date as 16 January 2027. The date-only clock marks the start of that date in Sydney. Nomination deadlines and polling hours await a detailed timetable.",
             "timezone": "Australia/Sydney",
-            "sourceUrl": "https://walcha.nsw.gov.au/wp-content/uploads/2026/10/Draft-October-2026-Ordinary-Meeting-Minutes-28102026.pdf",
-            "sourceId": "election-review-walcha-date-endorsement-20261116",
-            "checked": "2026-11-16",
+            "sourceUrl": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
+            "sourceId": "election-review-walcha-date-20261120",
+            "checked": "2026-11-20",
             "candidates": [],
             "councilEndorsedDate": "2027-01-16",
-            "timingStatus": "awaiting-confirmation"
+            "timingStatus": "date-confirmed",
+            "milestoneLabel": "start of the by-election date"
           }
         ],
         "coverageNotes": [
           "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
-          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+          "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+          "NSWEC’s expenditure-cap schedule, updated 19 November and checked 20 November 2026, publishes a 16 January 2027 by-election date. Nomination deadlines, polling hours and contestants remain unverified. Existing current-office and historical-election source dates are retained."
         ],
         "mapRefs": [
           {
@@ -265,7 +268,7 @@
             "note": "Superseded current-role snapshot retained; original source dates preserved."
           }
         ],
-        "representationReview": "Adam Iuston resigned effective 23 October 2026. One councillor vacancy awaits the NSWEC by-election timetable. Hyde Thomson is Mayor and Rachel Greig Deputy Mayor; Eric Noakes and Glen O’Brien remain councillors. Council sources disagree on 29 or 30 September for the internal mayoral selection; exact role start dates are not asserted. Checked 2 November 2026."
+        "representationReview": "Adam Iuston resigned effective 23 October 2026. NSWEC now lists a 16 January 2027 by-election for the councillor vacancy; nomination deadlines and polling hours remain unverified (date checked 20 November 2026). Hyde Thomson is Mayor and Rachel Greig Deputy Mayor; Eric Noakes and Glen O’Brien remain councillors. Council sources disagree on 29 or 30 September for the internal mayoral selection; exact role start dates are not asserted. Leadership and membership evidence checked 2 November 2026."
       }
     }
   ],
