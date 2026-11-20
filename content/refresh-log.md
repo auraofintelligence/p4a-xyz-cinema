@@ -598,3 +598,7 @@ The NTEC timetable's noon ACST nomination cutoff on 20 November has passed. The 
 ## 20 November 2026 · Derby-West Kimberley Council roster
 
 Reconciled Derby-West Kimberley's nine current Council roster entries and individual official profiles. Lachie Carracher is listed and Eliot Money is absent. The deputy's name is Kerrissa O'Meara. The April court declaration facts retain their historical enrolled names, term allocations and backfill order. The full 2025 contestant ballot remains unreconciled. [Scoped review](../docs/releases/2026-11-20-derby-west-kimberley-roster.md).
+
+## 20 November 2026 · South Australian periodic council timetable
+
+Added the published 2027 SA periodic council timetable to 66 already confirmed ordinary events. Rolls close on 4 January at 5 pm. Nominations run from 26 January to 9 February at noon. Ballot packs are mailed from 11 to 17 March, and voting closes on 7 April at 5 pm. The newly recorded timetable entries retain null timezones. [Scoped review](../docs/releases/2026-11-20-sa-periodic-council-timetable.md).

@@ -34,7 +34,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-20"
     ]
   },
   "routes": [
@@ -83,7 +83,8 @@
           "council-sa-2022-postal-close-review",
           "council-sa-2022-candidate-and-historical-elected-master",
           "council-sa-2022-sa-council-40910-results",
-          "council-sa-lga-current-leaders-2026-09-23"
+          "council-sa-lga-current-leaders-2026-09-23",
+          "election-review-sa-periodic-timetable-20261120"
         ],
         "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
         "representatives": [
@@ -106,12 +107,57 @@
             "kind": "ordinary",
             "status": "announced",
             "date": "2027-04-07",
-            "dateBasis": "Official electoral commission timetable; postal voting closes at 5pm local time.",
+            "dateBasis": "Official electoral commission timetable; postal voting closes at 5pm local time. The published 2027 timetable gives roll close on 4 January at 5 pm, nominations opening on 26 January and closing on 9 February at noon, ballot mailing from 11 to 17 March, and voting close on 7 April at 5 pm. Those timetable pages do not name a timezone. The opening hour for nominations is not stated.",
             "timezone": "Australia/Adelaide",
-            "sourceUrl": "https://ecsa.sa.gov.au/parties-and-candidates/council-elections",
+            "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
             "candidates": [],
             "milestoneLabel": "postal voting closes",
-            "dateTime": "2027-04-07T17:00:00+09:30"
+            "dateTime": "2027-04-07T17:00:00+09:30",
+            "publishedTimetable": [
+              {
+                "label": "Roll closes",
+                "date": "2027-01-04",
+                "time": "17:00",
+                "timezone": null,
+                "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
+                "checked": "2026-11-20"
+              },
+              {
+                "label": "Nominations open",
+                "date": "2027-01-26",
+                "time": null,
+                "timezone": null,
+                "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
+                "checked": "2026-11-20"
+              },
+              {
+                "label": "Nominations close",
+                "date": "2027-02-09",
+                "time": "12:00",
+                "timezone": null,
+                "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
+                "checked": "2026-11-20"
+              },
+              {
+                "label": "Ballot packs mailed",
+                "start": "2027-03-11",
+                "end": "2027-03-17",
+                "time": null,
+                "timezone": null,
+                "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
+                "checked": "2026-11-20"
+              },
+              {
+                "label": "Postal voting closes",
+                "date": "2027-04-07",
+                "time": "17:00",
+                "timezone": null,
+                "sourceUrl": "https://www.councilelections.sa.gov.au/about/key-dates",
+                "checked": "2026-11-20"
+              }
+            ],
+            "sourceId": "election-review-sa-periodic-timetable-20261120",
+            "checked": "2026-11-20"
           },
           {
             "id": "sa-council-40910-ordinary-2022-mayor",
