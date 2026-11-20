@@ -602,3 +602,7 @@ Reconciled Derby-West Kimberley's nine current Council roster entries and indivi
 ## 20 November 2026 · South Australian periodic council timetable
 
 Added the published 2027 SA periodic council timetable to 66 already confirmed ordinary events. Rolls close on 4 January at 5 pm. Nominations run from 26 January to 9 February at noon. Ballot packs are mailed from 11 to 17 March, and voting closes on 7 April at 5 pm. The newly recorded timetable entries retain null timezones. [Scoped review](../docs/releases/2026-11-20-sa-periodic-council-timetable.md).
+
+## 20 November 2026 · Bridgetown-Greenbushes extraordinary election
+
+Confirmed Bridgetown-Greenbushes' 18 March 2027 extraordinary election and postal method from adopted Council resolution SCM 182-26/27. The date is calendar-day precision in Perth; the detailed timetable awaits official notices. [Scoped review](../docs/releases/2026-11-20-bridgetown-greenbushes-election-confirmed.md).

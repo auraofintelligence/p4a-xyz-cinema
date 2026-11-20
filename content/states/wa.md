@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-15",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. At Bridgetown-Greenbushes, official records differ on whether Simon Robinson's resignation took effect on 6 or 9 October. The special meeting agenda says an extraordinary election is required and records WA Electoral Commissioner approval for 18 March 2027 as the date to be fixed. The final decision, method and timetable remain unverified. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks, elected in October 2023, resigned as councillor effective 3 November 2026. The 17 November meeting agenda (pages 7–9) says the Electoral Commissioner approved allowing the vacancy to remain until the 2027 ordinary election. Officers recommend that Council note the approval and resolve to leave the position unfilled until that election. The Council decision and any replacement timetable await confirmation. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November. Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified. Checked 15 November. Coolgardie’s Shire publishes three candidates for one district councillor position with a term ending 16 October 2027. Nominations closed 20 October at 4 pm AWST. Completed postal voting packages must arrive by 6 pm AWST on 3 December. Checked 15 November.",
+  "researchStatus": "Election review 29 October: December extraordinary postal polls close on 3 December at 6 pm Perth (AWST). Esperance Town Ward has a vacancy following Cr Johnston’s August resignation. Bridgetown-Greenbushes: the 5 November minutes record resolution SCM 182-26/27, carried 6/0 by absolute majority, appointing the Electoral Commissioner and choosing a postal election. The resolution notes that the Commissioner has set Thursday 18 March 2027. A closing hour and nomination timetable await official notices. Checked 20 November. The earlier resignation-date discrepancy remains recorded in the council history. State Parliament composition retains its earlier review; individual council results and federal rosters are not freshly certified. Gingin: Jason Weeks, elected in October 2023, resigned as councillor effective 3 November 2026. The 17 November meeting agenda (pages 7–9) says the Electoral Commissioner approved allowing the vacancy to remain until the 2027 ordinary election. Officers recommend that Council note the approval and resolve to leave the position unfilled until that election. The Council decision and any replacement timetable await confirmation. Carnarvon’s Shire publishes nominees for President (3), Town Ward (10 for 4 seats) and Gascoyne/Minilya Ward (2). It identifies Mark Young (Coral Bay, term expiry 2029) and Paul Shain (Plantation, term expiry 2027) as elected unopposed. The Commissioner continues until the new council first meets. Checked 14 November. Esperance Town Ward: the Shire lists four nominees for one vacancy. Official nomination profiles give the ballot-paper names Wayne Halliday, Michael Hart, David Kinyai Mureithi and Dale Piercey. Names are listed here by surname. Ballot order has not been verified. Checked 15 November. Coolgardie’s Shire publishes three candidates for one district councillor position with a term ending 16 October 2027. Nominations closed 20 October at 4 pm AWST. Completed postal voting packages must arrive by 6 pm AWST on 3 December. Checked 15 November.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Roger Cook",
@@ -73,6 +73,25 @@
         "archiveDaysSince": true,
         "cycleKey": "wa-december-2026-council-extraordinary-elections-postal-receipt-deadline",
         "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+      }
+    },
+    {
+      "label": "2027 Bridgetown-Greenbushes extraordinary postal election",
+      "date": "2027-03-18",
+      "kind": "Council extraordinary election",
+      "scope": "local-government",
+      "status": "WAEC postal election confirmed for Thursday 18 March 2027; detailed timetable awaited",
+      "note": "Council's 5 November minutes record resolution SCM 182-26/27, carried 6/0 by absolute majority, appointing the Electoral Commissioner and selecting postal voting. The countdown marks the start of 18 March in Perth. A closing hour and nomination timetable await official notices. Checked 20 November 2026.",
+      "source": "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338/documents/scm-5-november-2026-minutes.pdf",
+      "timezone": "Australia/Perth",
+      "datePrecision": "day",
+      "timingStatus": "date-confirmed",
+      "dayMetrics": {
+        "displayDaysUntil": true,
+        "displayDaysSince": false,
+        "archiveDaysSince": true,
+        "cycleKey": "wa-bridgetown-greenbushes-extraordinary-2027-03-18",
+        "archiveNote": "Preserve this extraordinary election separately from the ordinary council-election cycle."
       }
     }
   ],
@@ -259,6 +278,10 @@
     {
       "label": "Shire of Coolgardie official candidate profiles and timetable",
       "url": "https://www.coolgardie.wa.gov.au/council/our-council/2026-lg-extraordinary-elections.aspx"
+    },
+    {
+      "label": "Bridgetown-Greenbushes adopted extraordinary election minutes, 5 November 2026",
+      "url": "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338/documents/scm-5-november-2026-minutes.pdf"
     }
   ],
   "previousResearchRun": "2026-11-14",
