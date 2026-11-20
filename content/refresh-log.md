@@ -582,3 +582,7 @@ Separated twelve ECQ-certified candidates from the earlier Liela D’Rose record
 ## 20 November 2026 · Victorian how-to-vote card registration
 
 The VEC expressly confirms registration closed at noon AEDT on 20 November. Updated the existing timeline entry, retaining its deadline, all candidate records and unrelated source dates. [Scoped review](../docs/releases/2026-11-20-victoria-card-registration.md).
+
+## 20 November 2026 · Milngin published nomination cutoff
+
+The NTEC timetable's noon ACST nomination cutoff on 20 November has passed. The latest candidate declaration awaits direct verification. [Scoped review](../docs/releases/2026-11-20-milngin-cutoff.md).

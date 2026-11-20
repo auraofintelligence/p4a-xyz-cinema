@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-20",
+  "timezone": "Australia/Brisbane",
+  "scope": "Milngin published nomination cutoff and the corresponding current-event status.",
+  "eventIds": [
+    "nt-council-74550-milngin-replacement-timetable-pending-2026",
+    "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026"
+  ],
+  "sources": [
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable",
+      "access": "Directly read through the web source tool on 20 November 2026.",
+      "finding": "The directly readable timetable gives 20 November noon ACST for nominations and 1 pm for the scheduled declaration and ballot draw. The cutoff has passed. The latest candidate declaration remains pending direct verification. Future voting milestones retain their previously verified values."
+    }
+  ],
+  "nominationCutoff": "2026-11-20T12:00:00+09:30",
+  "scheduledDeclarationAndBallotDraw": "2026-11-20T13:00:00+09:30",
+  "candidateDeclaration": "Awaiting direct verification.",
+  "stateBuildCommand": "pwsh -NoProfile -File tools/build-state-sites.ps1 -StateSlug nt -SkipHistory",
+  "nationalSummaryImplementationReviewUpdated": true,
+  "accessGaps": [
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+      "finding": "Web opening returned Cache miss and ordinary anonymous HTTP returned 403. Current candidate acceptance and ballot order remain unverified."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
+      "finding": "Direct access remained unavailable. Indexed names are retained in external private research only."
+    }
+  ],
+  "validation": "Canonical mutation prepared. Builders, contracts, discovery checks and publication remain pending."
+}
