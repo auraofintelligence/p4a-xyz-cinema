@@ -92,7 +92,9 @@ def candidate_announcements(page, bye, link):
         return ''
     official = bye.get('officialCandidateSearch')
     official_html = ('<p class="local-related">' + link(page, official['url'], official['label']) + '</p><p>ECQ publishes nominations after certification by the Returning Officer. A submitted nomination form or public campaign announcement is not yet a certified nomination. Use the official register for current certification status.</p>') if official else ''
-    rows = ''
+    current_rows = []
+    announcement_rows = []
+    earlier_rows = []
     for c in candidates:
         public_links = ''.join(link(page, item['url'], item['label']) for item in c.get('publicLinks', []))
         links_html = '<div class="local-related">' + public_links + '</div>' if public_links else ''
@@ -113,8 +115,36 @@ def candidate_announcements(page, bye, link):
         elif c['status'] == 'accepted-nomination' and c['nominationSource'] != c['source']:
             verified = c.get('nominationChecked') or c['checked']
             nomination = f' {link(page, c["nominationSource"], "ECQ certification")} checked {escape(verified)}.'
-        rows += f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(source_date)} · AEST (Brisbane, UTC+10). {source_link}.{nomination}</p></article>'
-    return '<div id="redland-candidate-announcements"><h3>Candidate announcements and nominations</h3>' + official_html + '<p>' + escape(bye['candidateCoverage']) + '</p><div class="local-grid">' + rows + '</div><p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media or news reporting.</p></div>'
+        card = f'<article class="local-card" data-candidate-status="{escape(c["status"])}"><h3>{escape(c["name"])}</h3><p><strong>{escape(c["statusLabel"])}</strong></p><p>{escape(c["summary"])}</p>{links_html}<p class="local-source">{escape(source_date)} · AEST (Brisbane, UTC+10). {source_link}.{nomination}</p></article>'
+        if c['status'] == 'accepted-nomination':
+            current_rows.append(card)
+        elif c['status'] == 'announced-intention':
+            announcement_rows.append(card)
+        else:
+            earlier_rows.append(card)
+    candidate_label = 'candidate' if len(current_rows) == 1 else 'candidates'
+    result = (
+        '<div id="redland-candidate-announcements">'
+        '<section id="redland-current-candidates" aria-labelledby="redland-current-candidates-title">'
+        '<h3 id="redland-current-candidates-title">'
+        + str(len(current_rows)) + ' ECQ-certified ' + candidate_label + '</h3>'
+        + official_html + '<p>' + escape(bye['candidateCoverage']) + '</p>'
+        '<div class="local-grid">' + ''.join(current_rows) + '</div></section>'
+    )
+    if announcement_rows:
+        result += (
+            '<section id="redland-unverified-candidate-announcements" aria-labelledby="redland-unverified-candidate-title">'
+            '<h3 id="redland-unverified-candidate-title">Public announcements awaiting certification</h3>'
+            '<div class="local-grid">' + ''.join(announcement_rows) + '</div></section>'
+        )
+    if earlier_rows:
+        result += (
+            '<details id="redland-earlier-candidate-records" class="local-panel">'
+            '<summary>Earlier candidate records</summary>'
+            '<p>These records are excluded from the current ECQ-certified candidate list.</p>'
+            '<div class="local-grid">' + ''.join(earlier_rows) + '</div></details>'
+        )
+    return result + '<p>Announcing an intention to run is separate from lodging a formal nomination and ECQ accepting it. No formal nomination status is inferred from social media or news reporting.</p></div>'
 
 
 def render(page, election, link):

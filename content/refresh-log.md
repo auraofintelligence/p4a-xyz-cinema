@@ -574,3 +574,7 @@ Added sourced postal-application, postal return and receipt cutoffs, plus the VE
 ## 19 November 2026 · Victorian state election official notices
 
 Added the VEC’s 19 November Richmond early-voting statement and WAEC’s Perth voting venue for the Victorian state election. [Scoped review](../docs/releases/2026-11-19-victoria-election-notices.md). The earlier candidate snapshot and official ballot records retain their original check dates.
+
+## 20 November 2026 · Redland current candidate list
+
+Separated twelve ECQ-certified candidates from the earlier Liela D’Rose record; preserved source dates and nomination history. [Scoped review](../docs/releases/2026-11-20-redland-current-candidate-list.md).

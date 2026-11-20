@@ -25,6 +25,72 @@ class Page(HTMLParser):
         if a.get('id'): self.ids.append(a['id'])
         if 'data-redland-milestone' in a: self.panels.append(a)
 
+
+class CandidateGroups(HTMLParser):
+    def __init__(self, text):
+        super().__init__()
+        self.groups = {}
+        self.active_group = None
+        self.active_card = None
+        self.in_name = False
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        group_id = attributes.get('id')
+        if group_id in (
+            'redland-current-candidates',
+            'redland-unverified-candidate-announcements',
+            'redland-earlier-candidate-records',
+        ):
+            self.active_group = group_id
+            self.groups[group_id] = {'attributes': attributes, 'cards': [], 'text': ''}
+        if 'data-candidate-status' in attributes:
+            assert self.active_group, 'Candidate card has no presentation group'
+            self.active_card = {'status': attributes['data-candidate-status'], 'name': ''}
+            self.groups[self.active_group]['cards'].append(self.active_card)
+        if tag == 'h3' and self.active_card is not None:
+            self.in_name = True
+
+    def handle_endtag(self, tag):
+        if tag == 'h3':
+            self.in_name = False
+        if tag == 'article':
+            self.active_card = None
+        if tag in ('section', 'details'):
+            self.active_group = None
+
+    def handle_data(self, value):
+        if self.active_group:
+            self.groups[self.active_group]['text'] += value
+        if self.in_name:
+            self.active_card['name'] += value
+
+
+def check_candidate_groups(text, candidates):
+    groups = CandidateGroups(text).groups
+    current = [candidate for candidate in candidates if candidate['status'] == 'accepted-nomination']
+    awaiting = [candidate for candidate in candidates if candidate['status'] == 'announced-intention']
+    earlier = [candidate for candidate in candidates if candidate['status'] in ('previously-certified', 'withdrawn')]
+    expected_groups = (
+        ('redland-current-candidates', current),
+        ('redland-unverified-candidate-announcements', awaiting),
+        ('redland-earlier-candidate-records', earlier),
+    )
+    for group_id, expected in expected_groups:
+        if not expected and group_id != 'redland-current-candidates':
+            assert group_id not in groups, ('Empty candidate group', group_id)
+            continue
+        group = groups[group_id]
+        assert group['cards'] == [{'status': candidate['status'], 'name': candidate['name']} for candidate in expected], group_id
+    label = 'candidate' if len(current) == 1 else 'candidates'
+    assert f'{len(current)} ECQ-certified {label}' in groups['redland-current-candidates']['text']
+    if earlier:
+        group = groups['redland-earlier-candidate-records']
+        assert 'open' not in group['attributes'], 'Earlier records must start collapsed'
+        assert 'excluded from the current ECQ-certified candidate list' in group['text']
+
+
 for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
     page = builder.BASE + suffix
     text = (ROOT / page).read_text(encoding='utf-8'); parsed = Page(text)
@@ -35,6 +101,7 @@ for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
     if suffix != 'sources/index.html':
         candidates = data['byElection'].get('candidates', [])
         assert text.count('data-candidate-status=') == len(candidates), page
+        check_candidate_groups(text, candidates)
         for candidate in candidates:
             assert f'data-candidate-status="{candidate["status"]}"' in text
             assert escape(candidate['name']) in text
@@ -56,6 +123,23 @@ for suffix in ['index.html', 'candidates/index.html', 'sources/index.html']:
 empty = deepcopy(data['byElection']); empty.pop('candidates', None)
 assert candidate_announcements('fixture.html', empty, builder.link) == ''
 if data['byElection'].get('candidates'):
+    fixture = deepcopy(data['byElection'])
+    fixture['candidateCoverage'] = 'Synthetic status-grouping fixture.'
+    fixture['candidates'] = []
+    for status, name in (
+        ('withdrawn', 'Withdrawn fixture'),
+        ('announced-intention', 'Awaiting fixture'),
+        ('accepted-nomination', 'Certified fixture'),
+        ('previously-certified', 'Earlier fixture'),
+    ):
+        candidate = deepcopy(data['byElection']['candidates'][0])
+        candidate.update({'id': status + '-fixture', 'name': name, 'status': status, 'summary': name})
+        candidate['statusLabel'] = status
+        candidate['currentListingChecked'] = '2026-11-20'
+        fixture['candidates'].append(candidate)
+    check_candidate_groups(candidate_announcements('fixture.html', fixture, builder.link), fixture['candidates'])
+    fixture['candidates'] = [candidate for candidate in fixture['candidates'] if candidate['status'] != 'accepted-nomination']
+    check_candidate_groups(candidate_announcements('fixture.html', fixture, builder.link), fixture['candidates'])
     fixture = deepcopy(data)
     fixture['byElection']['candidates'][0]['name'] = '<script>alert("fixture")</script>'
     rendered = candidate_announcements('fixture.html', fixture['byElection'], builder.link)

@@ -53,8 +53,32 @@ test('candidate presentation keeps requested order and public links separate fro
   assert.match(publicLinks('rowanne-mckenzie')[0].url, /redland\.qld\.gov\.au\/.+Division-7/);
   for (const route of ['index.html','candidates/index.html']) {
     const html = await readFile(new URL('../states/qld/councils/redland/' + route, import.meta.url), 'utf8');
-    let previous = -1;
-    for (const c of candidates) { const i=html.indexOf('<h3>'+c.name+'</h3>'); assert.ok(i>previous); previous=i; }
+    const current = candidates.filter(c => c.status === 'accepted-nomination');
+    const awaiting = candidates.filter(c => c.status === 'announced-intention');
+    const earlier = candidates.filter(c => ['previously-certified', 'withdrawn'].includes(c.status));
+    const currentHtml = html.match(/<section id="redland-current-candidates"[\s\S]*?<\/section>/)?.[0];
+    const awaitingHtml = html.match(/<section id="redland-unverified-candidate-announcements"[\s\S]*?<\/section>/)?.[0];
+    const earlierHtml = html.match(/<details id="redland-earlier-candidate-records"[\s\S]*?<\/details>/)?.[0];
+    assert.equal(current.length, 12);
+    assert.equal(earlier.length, 1);
+    assert.match(currentHtml, /12 ECQ-certified candidates/);
+    assert.equal(currentHtml.match(/data-candidate-status=/g)?.length, current.length);
+    assert.ok(!currentHtml.includes('<h3>Liela D’Rose</h3>'));
+    assert.ok(earlierHtml.includes('<h3>Liela D’Rose</h3>'));
+    assert.ok(!earlierHtml.match(/^<details[^>]*\sopen(?:\s|=|>)/));
+    for (const [groupHtml, members] of [[currentHtml, current], [awaitingHtml, awaiting], [earlierHtml, earlier]]) {
+      if (!members.length) {
+        assert.equal(groupHtml, undefined);
+        continue;
+      }
+      assert.ok(groupHtml);
+      let previous = -1;
+      for (const candidate of members) {
+        const position = groupHtml.indexOf('<h3>' + candidate.name + '</h3>');
+        assert.ok(position > previous, candidate.name);
+        previous = position;
+      }
+    }
     for (const c of candidates) {
       for (const item of c.publicLinks || []) {
         assert.ok(html.includes(item.url.replaceAll('&', '&amp;')), item.url);
