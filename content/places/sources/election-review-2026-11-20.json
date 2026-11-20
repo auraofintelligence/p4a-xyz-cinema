@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-20",
+  "checkTimezone": "Australia/Brisbane",
+  "scope": "Bounded review of the nine Australian electoral commissions and targeted council election, vacancy and replacement sources. This is not an exhaustive review of every council, electorate, parliamentary vacancy, result or candidate profile.",
+  "method": "Official primary pages were directly read where accessible. Retrieved copies, failed requests and source disagreements are distinguished below. Source-check dates do not refresh unrelated facts, historical ballots, membership records or geometry.",
+  "publication": {
+    "status": "published",
+    "receipts": [
+      {
+        "commit": "db3c387c1ef26f86e73cb3f18cc83960066dc039",
+        "tree": "5ad743da3ff51ffd0de77b57da7185aec694aadd",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T09:34:22Z",
+        "verifiedAt": "2026-11-20T09:36:28.512Z",
+        "scope": "Victoria: VEC explicitly confirms how-to-vote card registration closed at noon on 20 November. Other voting milestones and ballot records retain their existing evidence.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44711665928",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44711667225",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "states/vic/election/index.html",
+          "assets/vic-election-data.js",
+          "content/elections/vic-2026.json",
+          "sitemap.xml"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44711667195"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "victoria-card-closure",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "7879d54be118e740684c824824274329e02e25cf",
+        "tree": "594ca8a6dc38947dd82697ddda063ab22499cc55",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T10:03:44Z",
+        "verifiedAt": "2026-11-20T10:06:19.222Z",
+        "scope": "Milngin Ward: the published noon ACST nomination cutoff on 20 November has passed. The scheduled declaration and ballot draw do not establish an outcome; current accepted nominees await direct verification.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44715752900",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44715753415",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "pages/states.html",
+          "states/nt/index.html",
+          "states/nt/constitution/index.html",
+          "states/nt/councils/victoria-daly/index.html",
+          "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
+          "assets/state-data.js",
+          "content/places/councils.json",
+          "content/states/nt.md",
+          "sitemap.xml",
+          "content/places/sources/milngin-cutoff-review-2026-11-20.json"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44715753227"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "milngin-nomination-cutoff",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "26a0a8d6eb3ca8324646f1191c8bb694bc803551",
+        "tree": "b7f4c4aa8abc950f7776303e95eb70d18f8d67e1",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T10:18:51Z",
+        "verifiedAt": "2026-11-20T10:22:13.080Z",
+        "scope": "Walcha: the NSW Electoral Commission schedule confirms the council by-election date as 16 January 2027. Detailed nomination deadlines and polling hours remain unverified.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44717970434",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44717971260",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "pages/states.html",
+          "states/nsw/index.html",
+          "states/nsw/constitution/index.html",
+          "states/nsw/councils/walcha/index.html",
+          "assets/state-data.js",
+          "content/places/councils.json",
+          "content/states/nsw.md",
+          "sitemap.xml",
+          "content/places/sources/walcha-date-confirmation-review-2026-11-20.json"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44717971178"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "walcha-date-confirmed",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "bbb980087d735666e2983b6423092309cf84a05d",
+        "tree": "704134fe2700c01d00e8bec67784a246674bfc1a",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T10:35:23Z",
+        "verifiedAt": "2026-11-20T10:37:55.377Z",
+        "scope": "Tenterfield Ward A: the NSW Electoral Commission schedule confirms the by-election date as 16 January 2027. Detailed nomination deadlines and polling hours remain unverified.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44720268006",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44720270950",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "pages/states.html",
+          "states/nsw/index.html",
+          "states/nsw/constitution/index.html",
+          "states/nsw/councils/tenterfield/index.html",
+          "assets/state-data.js",
+          "content/places/councils.json",
+          "content/states/nsw.md",
+          "sitemap.xml",
+          "content/places/sources/tenterfield-date-confirmation-review-2026-11-20.json"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44720270467"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "tenterfield-date-confirmed",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "21aaf816a56450a4303cd2d0110a9a7762f7ee6e",
+        "tree": "5f34054e0ac5c672bb76f87d26e20b4079557052",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T10:51:13Z",
+        "verifiedAt": "2026-11-20T10:53:09.178Z",
+        "scope": "Derby-West Kimberley: the current nine-member official roster includes Lachie Carracher, omits Eliot Money and names Kerrissa O’Meara as deputy. This current observation is distinct from the April court correction. Val Ross and Valerie O’Meara are not merged as a verified alias; exact appointment dates and the complete historical ballot remain unresolved.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44722493747",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44722494603",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "content/places/councils.json",
+          "content/places/sources/derby-west-kimberley-roster-review-2026-11-20.json",
+          "pages/places.html",
+          "sitemap.xml",
+          "states/wa/councils/albany/index.html",
+          "states/wa/councils/augusta-margaret-river/index.html",
+          "states/wa/councils/bassendean/index.html",
+          "states/wa/councils/beverley/index.html",
+          "states/wa/councils/boddington/index.html",
+          "states/wa/councils/boyup-brook/index.html",
+          "states/wa/councils/bridgetown-greenbushes/index.html",
+          "states/wa/councils/brookton/index.html",
+          "states/wa/councils/broome/index.html",
+          "states/wa/councils/broomehill-tambellup/index.html",
+          "states/wa/councils/bruce-rock/index.html",
+          "states/wa/councils/bunbury/index.html",
+          "states/wa/councils/busselton/index.html",
+          "states/wa/councils/capel/index.html",
+          "states/wa/councils/carnamah/index.html",
+          "states/wa/councils/chapman-valley/index.html",
+          "states/wa/councils/chittering/index.html",
+          "states/wa/councils/claremont/index.html",
+          "states/wa/councils/collie/index.html",
+          "states/wa/councils/coolgardie/index.html",
+          "states/wa/councils/coorow/index.html",
+          "states/wa/councils/corrigin/index.html",
+          "states/wa/councils/cottesloe/index.html",
+          "states/wa/councils/cranbrook/index.html",
+          "states/wa/councils/cuballing/index.html",
+          "states/wa/councils/cue/index.html",
+          "states/wa/councils/cunderdin/index.html",
+          "states/wa/councils/dalwallinu/index.html",
+          "states/wa/councils/dandaragan/index.html",
+          "states/wa/councils/dardanup/index.html",
+          "states/wa/councils/denmark/index.html",
+          "states/wa/councils/derby-west-kimberley/index.html",
+          "states/wa/councils/donnybrook-balingup/index.html",
+          "states/wa/councils/dowerin/index.html",
+          "states/wa/councils/dumbleyung/index.html",
+          "states/wa/councils/dundas/index.html",
+          "states/wa/councils/east-fremantle/index.html",
+          "states/wa/councils/exmouth/index.html",
+          "states/wa/councils/gingin/index.html",
+          "states/wa/councils/gnowangerup/index.html",
+          "states/wa/councils/goomalling/index.html",
+          "states/wa/councils/gosnells/index.html",
+          "states/wa/councils/greater-geraldton/index.html",
+          "states/wa/councils/halls-creek/index.html",
+          "states/wa/councils/harvey/index.html",
+          "states/wa/councils/irwin/index.html",
+          "states/wa/councils/jerramungup/index.html",
+          "states/wa/councils/kalgoorlie-boulder/index.html",
+          "states/wa/councils/karratha/index.html",
+          "states/wa/councils/katanning/index.html",
+          "states/wa/councils/kellerberrin/index.html",
+          "states/wa/councils/kent/index.html",
+          "states/wa/councils/kojonup/index.html",
+          "states/wa/councils/kondinin/index.html",
+          "states/wa/councils/koorda/index.html",
+          "states/wa/councils/kulin/index.html",
+          "states/wa/councils/kwinana/index.html",
+          "states/wa/councils/lake-grace/index.html",
+          "states/wa/councils/laverton/index.html",
+          "states/wa/councils/leonora/index.html",
+          "states/wa/councils/meekatharra/index.html",
+          "states/wa/councils/menzies/index.html",
+          "states/wa/councils/merredin/index.html",
+          "states/wa/councils/mingenew/index.html",
+          "states/wa/councils/moora/index.html",
+          "states/wa/councils/morawa/index.html",
+          "states/wa/councils/mosman-park/index.html",
+          "states/wa/councils/mount-magnet/index.html",
+          "states/wa/councils/mount-marshall/index.html",
+          "states/wa/councils/mukinbudin/index.html",
+          "states/wa/councils/murchison/index.html",
+          "states/wa/councils/murray/index.html",
+          "states/wa/councils/nannup/index.html",
+          "states/wa/councils/narembeen/index.html",
+          "states/wa/councils/narrogin/index.html",
+          "states/wa/councils/ngaanyatjarraku/index.html",
+          "states/wa/councils/northampton/index.html",
+          "states/wa/councils/nungarin/index.html",
+          "states/wa/councils/peppermint-grove/index.html",
+          "states/wa/councils/perenjori/index.html",
+          "states/wa/councils/perth/index.html",
+          "states/wa/councils/pingelly/index.html",
+          "states/wa/councils/plantagenet/index.html",
+          "states/wa/councils/port-hedland/index.html",
+          "states/wa/councils/quairading/index.html",
+          "states/wa/councils/ravensthorpe/index.html",
+          "states/wa/councils/sandstone/index.html",
+          "states/wa/councils/shark-bay/index.html",
+          "states/wa/councils/tammin/index.html",
+          "states/wa/councils/three-springs/index.html",
+          "states/wa/councils/toodyay/index.html",
+          "states/wa/councils/trayning/index.html",
+          "states/wa/councils/upper-gascoyne/index.html",
+          "states/wa/councils/victoria-plains/index.html",
+          "states/wa/councils/wagin/index.html",
+          "states/wa/councils/wandering/index.html",
+          "states/wa/councils/waroona/index.html",
+          "states/wa/councils/west-arthur/index.html",
+          "states/wa/councils/westonia/index.html",
+          "states/wa/councils/wickepin/index.html",
+          "states/wa/councils/williams/index.html",
+          "states/wa/councils/wiluna/index.html",
+          "states/wa/councils/wongan-ballidu/index.html",
+          "states/wa/councils/woodanilling/index.html",
+          "states/wa/councils/wyalkatchem/index.html",
+          "states/wa/councils/wyndham-east-kimberley/index.html",
+          "states/wa/councils/yalgoo/index.html",
+          "states/wa/councils/yilgarn/index.html",
+          "states/wa/councils/york/index.html",
+          "states/wa/places/councils/index.html",
+          "states/wa/places/index.html"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44722494589"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "derby-roster",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "8dc1a6bf18eb2101d53a62ab2c399b2db5bd68da",
+        "tree": "67d4dc3c4c3dc6a2ac8224763ca8dcc4dc3df295",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T11:05:58Z",
+        "verifiedAt": "2026-11-20T11:07:59.665Z",
+        "scope": "South Australia: the existing published periodic timetable records roll close on 4 January at 5 pm, nominations from 26 January to 9 February at noon, ballot mailing from 11 to 17 March, and voting close on 7 April at 5 pm. This is not a new 20 November announcement; unprinted timezones and nomination-opening hours remain unspecified.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44724549349",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44724549689",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "content/places/councils.json",
+          "content/places/sources/sa-periodic-timetable-review-2026-11-20.json",
+          "sitemap.xml",
+          "states/sa/councils/adelaide-hills/index.html",
+          "states/sa/councils/adelaide-plains/index.html",
+          "states/sa/councils/adelaide/index.html",
+          "states/sa/councils/alexandrina/index.html",
+          "states/sa/councils/barossa/index.html",
+          "states/sa/councils/barunga-west/index.html",
+          "states/sa/councils/berri-barmera/index.html",
+          "states/sa/councils/burnside/index.html",
+          "states/sa/councils/campbelltown-sa/index.html",
+          "states/sa/councils/ceduna/index.html",
+          "states/sa/councils/charles-sturt/index.html",
+          "states/sa/councils/clare-and-gilbert-valleys/index.html",
+          "states/sa/councils/cleve/index.html",
+          "states/sa/councils/coorong/index.html",
+          "states/sa/councils/copper-coast/index.html",
+          "states/sa/councils/elliston/index.html",
+          "states/sa/councils/flinders-ranges/index.html",
+          "states/sa/councils/franklin-harbour/index.html",
+          "states/sa/councils/gawler/index.html",
+          "states/sa/councils/goyder/index.html",
+          "states/sa/councils/grant/index.html",
+          "states/sa/councils/holdfast-bay/index.html",
+          "states/sa/councils/kangaroo-island/index.html",
+          "states/sa/councils/karoonda-east-murray/index.html",
+          "states/sa/councils/kimba/index.html",
+          "states/sa/councils/kingston-sa/index.html",
+          "states/sa/councils/light/index.html",
+          "states/sa/councils/lower-eyre/index.html",
+          "states/sa/councils/loxton-waikerie/index.html",
+          "states/sa/councils/marion/index.html",
+          "states/sa/councils/mid-murray/index.html",
+          "states/sa/councils/mitcham/index.html",
+          "states/sa/councils/mount-barker/index.html",
+          "states/sa/councils/mount-gambier/index.html",
+          "states/sa/councils/mount-remarkable/index.html",
+          "states/sa/councils/murray-bridge/index.html",
+          "states/sa/councils/naracoorte-lucindale/index.html",
+          "states/sa/councils/northern-areas/index.html",
+          "states/sa/councils/norwood-payneham-and-st-peters/index.html",
+          "states/sa/councils/onkaparinga/index.html",
+          "states/sa/councils/orroroo-carrieton/index.html",
+          "states/sa/councils/peterborough/index.html",
+          "states/sa/councils/playford/index.html",
+          "states/sa/councils/port-adelaide-enfield/index.html",
+          "states/sa/councils/port-augusta/index.html",
+          "states/sa/councils/port-lincoln/index.html",
+          "states/sa/councils/port-pirie/index.html",
+          "states/sa/councils/prospect/index.html",
+          "states/sa/councils/renmark-paringa/index.html",
+          "states/sa/councils/robe/index.html",
+          "states/sa/councils/salisbury/index.html",
+          "states/sa/councils/southern-mallee/index.html",
+          "states/sa/councils/streaky-bay/index.html",
+          "states/sa/councils/tatiara/index.html",
+          "states/sa/councils/tea-tree-gully/index.html",
+          "states/sa/councils/tumby-bay/index.html",
+          "states/sa/councils/unley/index.html",
+          "states/sa/councils/victor-harbor/index.html",
+          "states/sa/councils/wakefield/index.html",
+          "states/sa/councils/walkerville/index.html",
+          "states/sa/councils/wattle-range/index.html",
+          "states/sa/councils/west-torrens/index.html",
+          "states/sa/councils/whyalla/index.html",
+          "states/sa/councils/wudinna/index.html",
+          "states/sa/councils/yankalilla/index.html",
+          "states/sa/councils/yorke-peninsula/index.html"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44724549551"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "sa-periodic-timetable",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      },
+      {
+        "commit": "f8035f5e605bd44ae2ac9dca7d3da463bb1ad027",
+        "tree": "c25e3ab3895ef6ba1b8924f696bde03e42abc114",
+        "deployedOn": "2026-11-20",
+        "deployedAt": "2026-11-20T11:20:35Z",
+        "verifiedAt": "2026-11-20T11:23:48.200Z",
+        "scope": "Bridgetown-Greenbushes: adopted 5 November minutes confirm a postal election on 18 March 2027 under the Electoral Commissioner. Postal-closing time, nomination timetable and roll close remain unverified.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44726589772",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44726589807",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "assets/state-data.js",
+          "content/places/councils.json",
+          "content/places/sources/bridgetown-greenbushes-vacancy-review-2026-11-20.json",
+          "pages/states.html",
+          "sitemap.xml",
+          "states/wa/constitution/index.html",
+          "states/wa/councils/bridgetown-greenbushes/index.html",
+          "states/wa/index.html"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44726589803"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "bridgetown-date-confirmed",
+        "evidence": "content/places/sources/election-review-2026-11-20.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      }
+    ],
+    "browserReview": "outstanding: no cloud browser available",
+    "note": "Seven content revisions completed recorded Pages, Civic, Storage and bounded live HTTP verification. These receipts do not claim an exhaustive source review, browser acceptance or deployment of their own later metadata commit."
+  },
+  "commissions": [
+    {
+      "jurisdiction": "Commonwealth",
+      "commission": "Australian Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.aec.gov.au/",
+        "https://www.aec.gov.au/media/2026/",
+        "https://www.aec.gov.au/elections/supplementary_by_elections/index.htm"
+      ],
+      "outcome": "No new material election notice verified.",
+      "findings": [
+        "The viewed news list ends with the 26 October Farrer disclosure notice; Farrer on 9 May remains the latest listed by-election. Its existing final result is retained."
+      ],
+      "limits": [
+        "This does not establish a complete parliamentary or Senate casual-vacancy audit."
+      ]
+    },
+    {
+      "jurisdiction": "New South Wales",
+      "commission": "NSW Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://elections.nsw.gov.au/",
+        "https://elections.nsw.gov.au/elections",
+        "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases"
+      ],
+      "outcome": "New commission-published dates verified for Walcha and Tenterfield Ward A.",
+      "sources": [
+        "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
+        "https://elections.nsw.gov.au/elections/local-government-elections/2026-city-of-coffs-harbour-council-by-election",
+        "https://elections.nsw.gov.au/elections/local-government-elections/hunters-hill-council-south-ward-by-election"
+      ],
+      "findings": [
+        "The commission schedule updated 19 November lists Walcha, Tenterfield Ward A and Kempsey by-elections on 16 January 2027. Kempsey already matched; Walcha and Tenterfield require date-confirmation updates. Nomination deadlines and polling hours await detailed timetables.",
+        "Current Coffs Harbour and Hunters Hill South Ward pages retain five and four candidates respectively, with ballot names, order and affiliations matching the existing records. The 12 December polling date and reviewed voting deadlines match.",
+        "Cobar remains completed with Barry Knight elected unopposed on 29 October. A retained November date in the general cap table does not reactivate polling."
+      ],
+      "limits": [
+        "Some requests reached maintenance pages. Ordinary direct requests to the cap schedule and both December event pages succeeded. Dates on unrelated records are retained."
+      ]
+    },
+    {
+      "jurisdiction": "Victoria",
+      "commission": "Victorian Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.vec.vic.gov.au/voting/2026-state-election",
+        "https://www.vec.vic.gov.au/voting/current-elections",
+        "https://www.vec.vic.gov.au/about-us/media/media-releases"
+      ],
+      "outcome": "Explicit how-to-vote registration closure verified.",
+      "sources": [
+        "https://www.vec.vic.gov.au/candidates-and-parties/become-a-state-election-candidate/how-to-vote-cards",
+        "https://www.vec.vic.gov.au/about-us/media/media-releases/last-chance-to-apply-for-a-postal-vote-for-the-state-election",
+        "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election"
+      ],
+      "findings": [
+        "The state hub now explicitly confirms registration closed at noon on 20 November.",
+        "The new postal reminder repeats the existing 25 November 6 pm application cutoff and 28 November 6 pm completed-vote cutoff. Baird Ward still has a 25 November 4 pm roll close, December nominations and February postal election."
+      ],
+      "limits": [
+        "The 1,037 individual ballot entries were not freshly reconciled in this review. Other candidate and source dates are preserved."
+      ]
+    },
+    {
+      "jurisdiction": "Queensland",
+      "commission": "Electoral Commission of Queensland",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.ecq.qld.gov.au/elections/election-events",
+        "https://www.ecq.qld.gov.au/media/2026-media-statements"
+      ],
+      "outcome": "No additional material public election notice verified.",
+      "findings": [
+        "The current event hub lists Redland mayoral voting and places Tablelands Division 1 among past elections. Redland candidates and ballot order had already been reconciled earlier on 20 November; this review did not reconstruct that field again."
+      ],
+      "limits": [
+        "The checked hubs do not establish complete coverage of every Queensland vacancy."
+      ]
+    },
+    {
+      "jurisdiction": "Western Australia",
+      "commission": "Western Australian Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.elections.wa.gov.au/elections/local",
+        "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections",
+        "https://www.elections.wa.gov.au/about-us/media/releases"
+      ],
+      "outcome": "Bridgetown-Greenbushes postal election confirmed from Council minutes; Derby-West Kimberley historical court and current membership evidence reconciled.",
+      "findings": [
+        "The retrieved December hub retains 3 December postal elections for Carnarvon, Coolgardie and Esperance. Derby-West Kimberley current-office evidence was checked separately from its April court correction.",
+        "Fresh official 5 November Bridgetown-Greenbushes minutes, page 5, record motion SCM182-26/27 carried 6-0: the Electoral Commissioner is responsible for a postal election on 18 March 2027. Polling or postal-closing time, nomination deadlines and roll close await a detailed timetable.",
+        "Fresh direct reads of Gingin’s 17 November meeting page and its 2026 past-meeting index still expose the agenda without verified adopted minutes. The vacancy decision remains unconfirmed."
+      ],
+      "limits": [
+        "The home request and a 17 November postal reminder failed. The December hub copy was crawled two days earlier and the retrieved media list was older. Individual December event pages supplied insufficient text, so no complete fresh candidate or withdrawal reconciliation is claimed."
+      ]
+    },
+    {
+      "jurisdiction": "South Australia",
+      "commission": "Electoral Commission of South Australia",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.ecsa.sa.gov.au/",
+        "https://www.ecsa.sa.gov.au/news_notices",
+        "https://www.ecsa.sa.gov.au/lg-news"
+      ],
+      "outcome": "Existing published council timetable verified; missing milestone coverage identified.",
+      "sources": [
+        "https://www.councilelections.sa.gov.au/about/key-dates",
+        "https://www.ecsa.sa.gov.au/lg-news/lg-08072026"
+      ],
+      "findings": [
+        "The published timetable gives roll close on 4 January at 5 pm; nominations from 26 January to 9 February at noon; ballot mailing from 11 to 17 March; voting close on 7 April at 5 pm. These are existing published dates, not a new 20 November announcement.",
+        "The 7 April ordinary-election milestone already matches existing records. Newly reviewed milestone facts retain an unspecified timezone; no new exact countdown timestamps are supported."
+      ],
+      "publishedTimezones": null,
+      "limits": [
+        "The reviewed pages do not name a timezone or nomination-opening hour. Existing prior Australia/Adelaide timing evidence remains separate. Coober Pedy administration and other council exceptions, candidates and roster dates must be preserved."
+      ]
+    },
+    {
+      "jurisdiction": "Tasmania",
+      "commission": "Tasmanian Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.tec.tas.gov.au/",
+        "https://www.tec.tas.gov.au/local-government/vacancies.html"
+      ],
+      "outcome": "Derwent Valley vacancy and consent deadline match existing records.",
+      "findings": [
+        "The vacancy page retains Michelle Dracoulis’s 16 November resignation and noon 30 November candidate-consent deadline. Recount time and result remain pending."
+      ],
+      "limits": [
+        "The page prints noon without a timezone abbreviation; the stored Hobart offset comes from earlier timing evidence. The 29 council results and every current roster were not re-reconciled."
+      ]
+    },
+    {
+      "jurisdiction": "Australian Capital Territory",
+      "commission": "Elections ACT",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://www.elections.act.gov.au/",
+        "https://www.elections.act.gov.au/elections",
+        "https://www.elections.act.gov.au/elections/casual-vacancies/casual-vacancies-in-the-11th-legislative-assembly-2024-2028"
+      ],
+      "outcome": "No new material vacancy announcement verified.",
+      "findings": [
+        "The register retains the Rattenbury vacancy and Rebecca Vassarotti’s 5 June declaration. The next Assembly election remains October 2028."
+      ],
+      "limits": [
+        "Findings are limited to the viewed official hubs and current vacancy register."
+      ]
+    },
+    {
+      "jurisdiction": "Northern Territory",
+      "commission": "Northern Territory Electoral Commission",
+      "checked": "2026-11-20",
+      "hubUrls": [
+        "https://ntec.nt.gov.au/",
+        "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election",
+        "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable"
+      ],
+      "outcome": "Published Milngin nomination window has elapsed; current nominee verification is blocked.",
+      "findings": [
+        "The directly readable timetable sets nomination close at noon ACST on 20 November and schedules declaration and ballot draw at 1 pm ACST. Early and mobile voting starts 23 November. The elapsed timetable does not prove the declaration occurred."
+      ],
+      "candidateVerification": {
+        "status": "pending-direct-verification",
+        "sourceUrls": [
+          "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+          "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed"
+        ],
+        "limit": "Current candidate pages and the closure notice could not be directly read; requests failed or returned HTTP 403. Indexed identities and spelling leads have not been promoted to accepted nominees."
+      },
+      "limits": [
+        "The homepage retains earlier nominations-open wording. The verified published cutoff takes precedence, while candidates and outcomes remain unconfirmed."
+      ]
+    }
+  ],
+  "targetedReconciliations": [
+    {
+      "place": "Kempsey",
+      "sources": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Councillor-Noel-Selby-resigns-from-Kempsey-Shire-Council"
+      ],
+      "finding": "The Council notice’s 4 November resignation and 16 January 2027 by-election are already represented. No new nomination timetable was established."
+    },
+    {
+      "place": "Gingin",
+      "sources": [
+        "https://www.gingin.wa.gov.au/council-meetings/ordinary-meeting-of-council/ordinary-council-meeting-17-november-2026/279"
+      ],
+      "finding": "Fresh direct reads on 20 November of the 17 November meeting page and the 2026 past-meeting index still expose the agenda. Adoption of the recommendation to leave the vacancy unfilled has not been verified. Existing pending-decision status and source dates are retained."
+    },
+    {
+      "place": "Bridgetown-Greenbushes",
+      "sources": [
+        "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338/documents/scm-5-november-2026-minutes.pdf",
+        "https://www.bridgetown.wa.gov.au/council-meetings/special-council-meeting/special-council-meeting-5-november-2026/10338"
+      ],
+      "finding": "Fresh official minutes for 5 November, page 5, record motion SCM182-26/27 carried 6-0. Council resolved that the Electoral Commissioner be responsible for a postal election on 18 March 2027. This confirms the date and method beyond the earlier agenda proposal.",
+      "confirmedEvent": {
+        "date": "2027-03-18",
+        "datePrecision": "day",
+        "method": "postal",
+        "responsibleAuthority": "Electoral Commissioner",
+        "postalClosingTime": null,
+        "nominationTimetable": null,
+        "rollClose": null
+      },
+      "document": {
+        "meetingDate": "2026-11-05",
+        "page": 5,
+        "motion": "SCM182-26/27",
+        "outcome": "carried 6-0",
+        "firstPublicationDate": null,
+        "publicationLimit": "The HTTP Last-Modified value observed as 20 November at 06:39 UTC does not establish the document’s first publication date."
+      },
+      "limits": [
+        "The official minutes establish the election date and method. Exact voting or postal-closing time, nomination timetable and roll-close details remain unverified. No candidate or result is inferred."
+      ]
+    },
+    {
+      "place": "Derby-West Kimberley",
+      "sources": [
+        "https://www.sdwk.wa.gov.au/profiles/president-and-council-members",
+        "https://www.sdwk.wa.gov.au/news/court-of-disputed-returns-confirms-revised-outcome-of-shire-of-derbywest-kimberley-2025-local-government-elections-media-statement/479",
+        "https://www.sdwk.wa.gov.au/documents/492/local-public-notice-of-declarations-made-by-the-court-of-disputed-returns-on-10-april-2026"
+      ],
+      "finding": "The current official roster and nine unique member profiles list Lachie Carracher and omit Eliot Money. The deputy is Kerrissa O’Meara. This current observation is distinct from the 10 April court decision and signed 16 April notice.",
+      "limits": [
+        "The court notice’s Valerie O’Meara and the current roster’s Val Ross have not been merged as a verified alias. Exact appointment dates are not inferred. The complete 2025 ballot, unsuccessful contestants and vote distributions remain unreconciled."
+      ]
+    }
+  ],
+  "reviewLimits": [
+    "Unchanged or inaccessible sources retain their earlier observation dates. Source access failure is not evidence of no change.",
+    "No fresh cloud browser review was available. Structural checks or later ordinary HTTP verification do not establish responsive or interaction acceptance."
+  ]
+}
