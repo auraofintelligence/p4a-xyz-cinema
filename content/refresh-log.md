@@ -578,3 +578,7 @@ Added the VEC’s 19 November Richmond early-voting statement and WAEC’s Perth
 ## 20 November 2026 · Redland current candidate list
 
 Separated twelve ECQ-certified candidates from the earlier Liela D’Rose record; preserved source dates and nomination history. [Scoped review](../docs/releases/2026-11-20-redland-current-candidate-list.md).
+
+## 20 November 2026 · Victorian how-to-vote card registration
+
+The VEC expressly confirms registration closed at noon AEDT on 20 November. Updated the existing timeline entry, retaining its deadline, all candidate records and unrelated source dates. [Scoped review](../docs/releases/2026-11-20-victoria-card-registration.md).
