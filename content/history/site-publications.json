@@ -804,6 +804,28 @@
       "tree": "be7aa7ef46b5c5397220c06ad270a9bb7dcc2ddd",
       "verifiedAt": "2026-11-19T07:21:19.647481+00:00",
       "deployedOn": "2026-11-19"
+    },
+    {
+      "commit": "fe034359ae32c662f6d649b532a09efc2909596e",
+      "deployedAt": "2026-11-20T03:09:05Z",
+      "scope": "Redland mayoral by-election candidate presentation. Twelve current ECQ-certified candidates are separated from Liela D’Rose’s earlier record.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44665600969",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44665600664",
+      "liveVerification": "HTTP 200 and exact Git bytes for the Redland overview, candidate and sources pages and sitemap. Ordinary live URLs also checked for twelve current cards and the earlier D’Rose card under collapsed history.",
+      "nonBrowserChecks": {
+        "local": "Passed current ECQ roster reconciliation, grouping regressions, source-date preservation, Redland renderer parity, national data and source hashes, 2,081 publication contracts, dates, clocks, discovery, civic navigation and site storage.",
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44665600602"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "Cloud browser unavailable. Exact live HTTP content and semantic groups verified; responsive review remains outstanding."
+      },
+      "note": "Presentation correction only. Original candidate records, affiliations, source check dates, certification history and election timetable remain unchanged.",
+      "tree": "e9f1e2a75eaec867fe3fdfe2c49d0c0063b131b2",
+      "verifiedAt": "2026-11-20T03:13:03.676831+00:00",
+      "deployedOn": "2026-11-20"
     }
   ]
 }
