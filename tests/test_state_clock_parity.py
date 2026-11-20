@@ -14,10 +14,16 @@ class StateClockParity(unittest.TestCase):
    self.assertEqual(row.pop("sourceMarkdown"),f'content/states/{row["slug"]}.md')
   self.assertEqual(asset,states)
   zones=dict(qld='Brisbane',nsw='Sydney',vic='Melbourne',tas='Hobart',sa='Adelaide',wa='Perth',nt='Darwin',act='Sydney')
+  self.assertEqual(len(states),len(zones))
+  self.assertEqual({state['slug'] for state in states},set(zones))
   checked=0
   for state in states:
    for path in ['pages/states.html',f'states/{state["slug"]}/index.html']:
     cards=re.findall(r'<article class="election-timer [^"]*"[^>]*data-election-card[^>]*>.*?</article>',(R/path).read_text(),re.S)
+    expected_cards=sum(len(s['elections']) for s in states) if path=='pages/states.html' else len(state['elections'])
+    self.assertEqual(len(cards),expected_cards,path)
+    state_cards=[c for c in cards if 'data-state="'+state['slug']+'"' in c]
+    self.assertEqual(len(state_cards),len(state['elections']),(path,state['slug']))
     for event in state['elections']:
      matches=[c for c in cards if 'data-state="'+state['slug']+'"' in c and html.unescape(dict(re.findall(r'([\w-]+)="([^"]*)"',c.split('>',1)[0]))['data-election-label'])==event['label']]
      self.assertEqual(len(matches),1,(path,event['label']))
@@ -30,7 +36,7 @@ class StateClockParity(unittest.TestCase):
      if event.get('datePrecision')=='day':self.assertEqual(attrs['data-election-precision'],'day');self.assertNotIn('T08:00',date)
      if event.get('indicativeDate'):self.assertIn('Indicative statutory date: '+event['indicativeDate'],c)
      checked+=1
-  self.assertEqual(checked,54)
+  self.assertEqual(checked,2*sum(len(state['elections']) for state in states))
  def test_calendar_embedded_data(self):
   text=(R/'assets/state-election-calendar.js').read_text()
   data=json.loads(re.search(r'const DATA=(.*?);\n',text)[1])

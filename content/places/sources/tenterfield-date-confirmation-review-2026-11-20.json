@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-20",
+  "timezone": "Australia/Brisbane",
+  "scope": "Tenterfield by-election date confirmation only.",
+  "sources": [
+    {
+      "id": "election-review-tenterfield-date-20261120",
+      "title": "NSWEC Tenterfield by-election date and expenditure caps",
+      "url": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
+      "publisher": "NSW Electoral Commission",
+      "pageUpdated": "19 November 2026 at 2:18 PM",
+      "pageUpdatedTimezone": "Not explicitly stated",
+      "method": "Official primary page directly read20November, corroborated by ordinary native HTTP200 at the exact URL without redirection.",
+      "responseBytes": 94992,
+      "responseSha256": "02548756b48e865b2f5216a8eff363382bc619bd0226831903e11f685b916671",
+      "finding": "The NSWEC schedule lists Tenterfield Ward A with a date of election of16January2027. The asterisk identifies one councillor position."
+    }
+  ],
+  "facts": {
+    "placeId": "nsw-council-17400",
+    "eventId": "tenterfield-a-ward-vacancy-2026-10-31",
+    "date": "2027-01-16",
+    "datePrecision": "day",
+    "nominationTimetable": "not verified",
+    "pollingHours": "not verified",
+    "cappedExpenditurePeriod": [
+      "2026-11-23",
+      "2027-01-16"
+    ]
+  },
+  "limits": "The commission publishes the election date in its cap schedule. No detailed election timetable, candidate, result, formal poll notice or polling hours are inferred. The date-only countdown marks the start of16January in Sydney. Historical resignation and roster evidence retain their own dates.",
+  "priorSourceIds": [
+    "council-abs-2026-lga",
+    "council-nsw-olg-directory",
+    "council-nsw-legal-boundaries",
+    "council-nsw-2024-tenterfield-ward-b",
+    "election-review-tenterfield-20261107"
+  ]
+}

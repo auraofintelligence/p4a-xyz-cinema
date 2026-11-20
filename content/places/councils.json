@@ -9058,6 +9058,16 @@
       "sha256": "6c93575f983099a94cdd6ee5c303034b1a18c3471fc5a645d6af47a15cabce8e",
       "verificationMethod": "Official commission schedule directly reviewed; only the published date is activated. Detailed timetable gaps retained.",
       "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-tenterfield-date-20261120",
+      "title": "NSWEC Tenterfield by-election date confirmation",
+      "url": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
+      "checked": "2026-11-20",
+      "rawFile": "content/places/sources/tenterfield-date-confirmation-review-2026-11-20.json",
+      "sha256": "b89ca45a48831a7926719730f8e819ed2a7d4090df40dace33ce19ad66fab322",
+      "verificationMethod": "Official commission schedule directly reviewed; only the published date is activated. Detailed timetable gaps retained.",
+      "licence": "Original source rights retained; normalised public civic facts only."
     }
   ],
   "layers": [
@@ -155492,7 +155502,8 @@
         "council-nsw-olg-directory",
         "council-nsw-legal-boundaries",
         "council-nsw-2024-tenterfield-ward-b",
-        "election-review-tenterfield-20261107"
+        "election-review-tenterfield-20261107",
+        "election-review-tenterfield-date-20261120"
       ],
       "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
       "representatives": [
@@ -155620,23 +155631,24 @@
         },
         {
           "id": "tenterfield-a-ward-vacancy-2026-10-31",
-          "label": "Tenterfield A Ward vacancy",
-          "kind": "vacancy",
-          "status": "Vacancy confirmed; replacement process awaiting NSWEC advice",
-          "date": null,
-          "timingStatus": "awaiting-confirmation",
-          "waitingLabel": "Awaiting confirmation to begin",
+          "label": "Tenterfield A Ward by-election following Gregory Purcell resignation",
+          "kind": "by-election",
+          "status": "NSWEC publishes a by-election date of Saturday 16 January 2027; detailed timetable awaited",
+          "date": "2027-01-16",
+          "timingStatus": "date-confirmed",
           "timezone": "Australia/Sydney",
-          "dateBasis": "Council notice dated 30 October confirms Gregory Purcell resigned effective 31 October 2026. Council seeks NSWEC advice on filling the vacancy, to be reported at its 26 November meeting. No election date or replacement method is inferred.",
-          "sourceUrl": "https://www.tenterfield.nsw.gov.au/resignation-of-councillor-gregory-purcell",
-          "checked": "2026-11-07",
+          "dateBasis": "Gregory Purcell resigned effective 31 October 2026. The NSWEC expenditure-cap schedule, updated 19 November 2026, lists a Tenterfield Ward A by-election for one councillor on 16 January 2027. The date-only clock marks the start of that date in Sydney. Nomination deadlines and polling hours await a detailed timetable.",
+          "sourceUrl": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections",
+          "checked": "2026-11-20",
           "candidates": [],
-          "sourceId": "election-review-tenterfield-20261107"
+          "sourceId": "election-review-tenterfield-date-20261120",
+          "milestoneLabel": "start of the by-election date"
         }
       ],
       "coverageNotes": [
         "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
-        "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation."
+        "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
+        "NSWEC’s expenditure-cap schedule, updated 19 November and checked 20 November 2026, publishes a 16 January 2027 by-election date. Nomination deadlines, polling hours and contestants remain unverified. Existing current-office and historical-election source dates are retained."
       ],
       "mapRefs": [
         {

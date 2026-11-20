@@ -590,3 +590,7 @@ The NTEC timetable's noon ACST nomination cutoff on 20 November has passed. The 
 ## 20 November 2026 - Walcha by-election date confirmation
 
 - nsw: CHANGED - 20 November scoped Walcha date check: NSWEC now publishes 16 January 2027 as the by-election date following Adam Iuston’s 23 October resignation. Nomination deadlines and polling hours remain unverified. [Scoped review](../docs/releases/2026-11-20-walcha-date-confirmation.md).
+
+## 20 November 2026 - Tenterfield by-election date confirmation
+
+- nsw: CHANGED - 20 November scoped Tenterfield A Ward date check: NSWEC now publishes a one-councillor by-election on 16 January 2027 following Gregory Purcell’s resignation effective 31 October. Nomination deadlines and polling hours remain unverified. [Scoped review](../docs/releases/2026-11-20-tenterfield-date-confirmation.md).
