@@ -594,3 +594,7 @@ The NTEC timetable's noon ACST nomination cutoff on 20 November has passed. The 
 ## 20 November 2026 - Tenterfield by-election date confirmation
 
 - nsw: CHANGED - 20 November scoped Tenterfield A Ward date check: NSWEC now publishes a one-councillor by-election on 16 January 2027 following Gregory Purcell’s resignation effective 31 October. Nomination deadlines and polling hours remain unverified. [Scoped review](../docs/releases/2026-11-20-tenterfield-date-confirmation.md).
+
+## 20 November 2026 · Derby-West Kimberley Council roster
+
+Reconciled Derby-West Kimberley's nine current Council roster entries and individual official profiles. Lachie Carracher is listed and Eliot Money is absent. The deputy's name is Kerrissa O'Meara. The April court declaration facts retain their historical enrolled names, term allocations and backfill order. The full 2025 contestant ballot remains unreconciled. [Scoped review](../docs/releases/2026-11-20-derby-west-kimberley-roster.md).
