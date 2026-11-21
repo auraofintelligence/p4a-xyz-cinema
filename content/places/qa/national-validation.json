@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "status": "pass",
   "mode": "generated-pages-and-data",
   "checks": {
-    "assertions": 1000656,
+    "assertions": 1000679,
     "councils_places": 1479,
     "state_places": 442,
     "federal_places": 159,
     "canonical_places": 2080,
-    "source_hashes_checked": 324,
+    "source_hashes_checked": 325,
     "local_only_source_snapshots_absent": 1062,
-    "sources": 1406,
+    "sources": 1407,
     "current_representative_records": 5219,
     "election_events": 4485,
-    "contestant_records": 18535,
+    "contestant_records": 18539,
     "historical_only_place_records": 1,
     "registered_routes": 2080,
     "gzip_byte_round_trips": 49,
@@ -26,11 +26,11 @@
     "generated_pages_checked": 2113,
     "rendered_representative_records_checked": 5219,
     "map_configs_checked": 2112,
-    "external_link_references_not_fetched": 56812,
+    "external_link_references_not_fetched": 56818,
     "rendered_event_records_checked": 4485,
-    "rendered_contestant_records_checked": 18535,
+    "rendered_contestant_records_checked": 18539,
     "stylesheets_checked": 2,
-    "evidence_artifacts_bound": 3090
+    "evidence_artifacts_bound": 3091
   },
   "errors": [],
   "warnings": [
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "content/places/councils.json",
-      "sha256": "93ae372fe8778eb6e4ae5bb26aa26d562a1e25326108ba518105b3528ec8f0fc",
-      "bytes": 15507900
+      "sha256": "e03cc0c06d1b5dc67a40d2252f982e715ab0fc310e9b5dcbe46f08694a66e94d",
+      "bytes": 15512599
     },
     {
       "path": "content/places/federal.json",
@@ -6665,6 +6665,11 @@
       "bytes": 4174
     },
     {
+      "path": "content/places/sources/milngin-candidate-review-2026-11-21.json",
+      "sha256": "c12b618ff6181f61496aaf7f82e895f81dde273cc2a70969b35a5558e49760ec",
+      "bytes": 8964
+    },
+    {
       "path": "content/places/sources/milngin-nomination-review-2026-11-14.json",
       "sha256": "30d63c8ff55f33925136643507dcea0818f1d575b4d3bcfa034784ed5b128e9c",
       "bytes": 1859
@@ -8296,8 +8301,8 @@
     },
     {
       "path": "states/nt/councils/victoria-daly/index.html",
-      "sha256": "8ee81d0743e68e82c0326c3f343ef10572684f47d5ca1e1065e266d34f40d209",
-      "bytes": 39855
+      "sha256": "d3d3348c7822bcb8b269aa5bafcf752a0b4e3b7db0dae2db96a6f24cd95fdaff",
+      "bytes": 41694
     },
     {
       "path": "states/nt/councils/wagait/index.html",
@@ -8456,8 +8461,8 @@
     },
     {
       "path": "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html",
-      "sha256": "270d62ee0a14751e066c8a2d7fe628bbc05d8523eb81360c8f62879f41d9f104",
-      "bytes": 28619
+      "sha256": "e4e6305efcc44ea8a0914b923da23fe6bf8d146d9a3a0e463bb88bf59fb74af6",
+      "bytes": 30458
     },
     {
       "path": "states/nt/local-electoral-areas/nt-ward-wad042c0e87a107/index.html",

@@ -9208,6 +9208,16 @@
       "sha256": "a181af478ebe7e57d7574ed5406c35cd719a8bb81568d137a7cd97dfd7491bfd",
       "verificationMethod": "Fresh ordinary HTTP read of official minutes, especially adopted resolution SCM 182-26/27 on page 5. Calendar-day date and postal method only; detailed timetable awaits notices.",
       "licence": "Original source rights retained; normalised public civic facts only."
+    },
+    {
+      "id": "election-review-milngin-candidates-20261121",
+      "title": "NTEC current Milngin nominees, ballot order and revised early-voting opening",
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+      "checked": "2026-11-21",
+      "rawFile": "content/places/sources/milngin-candidate-review-2026-11-21.json",
+      "sha256": "c12b618ff6181f61496aaf7f82e895f81dde273cc2a70969b35a5558e49760ec",
+      "verificationMethod": "Direct current official candidate, declaration and timetable pages; minimal normalized public facts only. Earlier deadline/ACST provenance retained separately.",
+      "licence": "Original publisher rights retained. No contacts, images or full raw source pages included."
     }
   ],
   "layers": [
@@ -231146,7 +231156,8 @@
         "election-review-milngin-20261101",
         "election-review-milngin-20261107",
         "election-review-milngin-nominations-20261114",
-        "election-review-milngin-cutoff-20261120"
+        "election-review-milngin-cutoff-20261120",
+        "election-review-milngin-candidates-20261121"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -231379,28 +231390,53 @@
           "id": "nt-council-74550-milngin-replacement-timetable-pending-2026",
           "label": "Milngin Ward replacement by-election",
           "kind": "by-election",
-          "status": "Nomination cutoff passed; candidate declaration awaits verification",
+          "status": "Contested election · two NTEC-declared candidates",
           "date": "2026-12-03",
-          "dateBasis": "NTEC confirms nominations opened 9 November and close at noon on 20 November. Early voting runs from 8 am on 23 November to 6 pm on 2 December. Postal vote application deadlines are 6 pm on 29 November for overseas applications and 6 pm on 1 December for local applications. Election day voting is 8 am to 6 pm on 3 December. Completed postal ballots are due at noon on 16 December. Declaration is scheduled for 10 am on 17 December. All times are ACST.",
+          "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
           "timezone": "Australia/Darwin",
-          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable",
-          "candidates": [],
-          "checked": "2026-11-20",
+          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+          "candidates": [
+            {
+              "name": "Andrew Victor MCTAGGART",
+              "contest": "Milngin Ward councillor",
+              "status": "NTEC-declared nominee",
+              "ballotOrder": 1,
+              "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+              "sourceId": "election-review-milngin-candidates-20261121",
+              "checked": "2026-11-21"
+            },
+            {
+              "name": "John BONSON",
+              "contest": "Milngin Ward councillor",
+              "status": "NTEC-declared nominee",
+              "ballotOrder": 2,
+              "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+              "sourceId": "election-review-milngin-candidates-20261121",
+              "checked": "2026-11-21"
+            }
+          ],
+          "checked": "2026-11-21",
           "dateTime": "2026-12-03T18:00:00+09:30",
           "milestoneLabel": "election-day voting closes",
           "nominationsOpen": "2026-11-09",
           "nominationsClose": "2026-11-20T12:00:00+09:30",
-          "earlyVotingOpens": "2026-11-23T08:00:00+09:30",
+          "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
           "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
           "pollingOpens": "2026-12-03T08:00:00+09:30",
           "declarationDate": "2026-12-17",
-          "sourceId": "election-review-milngin-cutoff-20261120",
+          "sourceId": "election-review-milngin-candidates-20261121",
           "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
           "declarationDateTime": "2026-12-17T10:00:00+09:30",
-          "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election-nominations-open",
+          "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
           "postalApplicationsCloseOverseas": "2026-11-29T18:00:00+09:30",
           "postalApplicationsCloseLocal": "2026-12-01T18:00:00+09:30",
-          "contestantNote": "The published nomination cutoff was noon ACST on 20 November. The timetable scheduled the declaration and ballot draw for 1 pm that day. The latest official candidate declaration has not yet been directly verified."
+          "contestantNote": "NTEC declares two nominees for one councillor vacancy. Display names follow the current candidate list. The closure notice lists ballot order but spells the first surname McTahhart, while the candidate list spells it MCTAGGART; this source discrepancy is retained. Affiliations are not supplied and are not inferred.",
+          "nominationCoverage": {
+            "officialCandidateCount": 2,
+            "retainedCandidateCount": 2,
+            "complete": true
+          },
+          "seats": 1
         }
       ],
       "coverageNotes": [
@@ -231410,7 +231446,7 @@
         "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
         "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
         "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
-        "Scoped 20 November timetable check: the published Milngin nomination cutoff has passed. The latest candidate declaration remains pending direct verification. Existing historical nomination records are retained as historical evidence."
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
       ]
     },
     {
@@ -247444,7 +247480,8 @@
         "election-review-milngin-20261101",
         "election-review-milngin-20261107",
         "election-review-milngin-nominations-20261114",
-        "election-review-milngin-cutoff-20261120"
+        "election-review-milngin-cutoff-20261120",
+        "election-review-milngin-candidates-20261121"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -247512,28 +247549,53 @@
           "id": "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026",
           "label": "Milngin Ward replacement by-election",
           "kind": "by-election",
-          "status": "Nomination cutoff passed; candidate declaration awaits verification",
+          "status": "Contested election · two NTEC-declared candidates",
           "date": "2026-12-03",
-          "dateBasis": "NTEC confirms nominations opened 9 November and close at noon on 20 November. Early voting runs from 8 am on 23 November to 6 pm on 2 December. Postal vote application deadlines are 6 pm on 29 November for overseas applications and 6 pm on 1 December for local applications. Election day voting is 8 am to 6 pm on 3 December. Completed postal ballots are due at noon on 16 December. Declaration is scheduled for 10 am on 17 December. All times are ACST.",
+          "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
           "timezone": "Australia/Darwin",
-          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/VDRC-Milngin-Ward-Sup-by-election/timetable",
-          "candidates": [],
-          "checked": "2026-11-20",
+          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+          "candidates": [
+            {
+              "name": "Andrew Victor MCTAGGART",
+              "contest": "Milngin Ward councillor",
+              "status": "NTEC-declared nominee",
+              "ballotOrder": 1,
+              "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+              "sourceId": "election-review-milngin-candidates-20261121",
+              "checked": "2026-11-21"
+            },
+            {
+              "name": "John BONSON",
+              "contest": "Milngin Ward councillor",
+              "status": "NTEC-declared nominee",
+              "ballotOrder": 2,
+              "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+              "sourceId": "election-review-milngin-candidates-20261121",
+              "checked": "2026-11-21"
+            }
+          ],
+          "checked": "2026-11-21",
           "dateTime": "2026-12-03T18:00:00+09:30",
           "milestoneLabel": "election-day voting closes",
           "nominationsOpen": "2026-11-09",
           "nominationsClose": "2026-11-20T12:00:00+09:30",
-          "earlyVotingOpens": "2026-11-23T08:00:00+09:30",
+          "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
           "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
           "pollingOpens": "2026-12-03T08:00:00+09:30",
           "declarationDate": "2026-12-17",
-          "sourceId": "election-review-milngin-cutoff-20261120",
+          "sourceId": "election-review-milngin-candidates-20261121",
           "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
           "declarationDateTime": "2026-12-17T10:00:00+09:30",
-          "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election-nominations-open",
+          "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
           "postalApplicationsCloseOverseas": "2026-11-29T18:00:00+09:30",
           "postalApplicationsCloseLocal": "2026-12-01T18:00:00+09:30",
-          "contestantNote": "The published nomination cutoff was noon ACST on 20 November. The timetable scheduled the declaration and ballot draw for 1 pm that day. The latest official candidate declaration has not yet been directly verified."
+          "contestantNote": "NTEC declares two nominees for one councillor vacancy. Display names follow the current candidate list. The closure notice lists ballot order but spells the first surname McTahhart, while the candidate list spells it MCTAGGART; this source discrepancy is retained. Affiliations are not supplied and are not inferred.",
+          "nominationCoverage": {
+            "officialCandidateCount": 2,
+            "retainedCandidateCount": 2,
+            "complete": true
+          },
+          "seats": 1
         }
       ],
       "sourceWardId": "wad03749a797707",
@@ -247545,7 +247607,7 @@
         "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
         "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
         "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
-        "Scoped 20 November timetable check: the published Milngin nomination cutoff has passed. The latest candidate declaration remains pending direct verification. Existing historical nomination records are retained as historical evidence."
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
       ],
       "representationStatus": "vacant",
       "representationReview": "Council confirms the Milngin Ward councillor vacancy. Its effective vacancy date is not established by the checked notice. The replacement by-election is confirmed for 3 December 2026; the failed August nomination round remains separate. No replacement councillor is inferred. Verified 1 November 2026."

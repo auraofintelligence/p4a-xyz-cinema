@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "election-review-milngin-candidates-20261121",
+  "checked": "2026-11-21",
+  "checkTimezone": "Australia/Brisbane",
+  "scope": "Current declared Milngin supplementary-election nominees, declared ballot order, source spelling discrepancy and corrected early/mobile opening distinction only.",
+  "eventIds": [
+    "nt-council-74550-milngin-replacement-timetable-pending-2026",
+    "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026"
+  ],
+  "sources": [
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+      "pageLastUpdated": "2026-11-20",
+      "readOn": "2026-11-21",
+      "method": "Directly readable current official HTML through the web source reader; independently repeated."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
+      "pageLastUpdated": "2026-11-20",
+      "readOn": "2026-11-21",
+      "method": "Directly readable current official HTML through the web source reader; independently repeated."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+      "pageLastUpdated": "2026-11-20",
+      "readOn": "2026-11-21",
+      "method": "Directly readable current official HTML through the web source reader; independently repeated."
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Andrew Victor MCTAGGART",
+      "contest": "Milngin Ward councillor",
+      "status": "NTEC-declared nominee",
+      "ballotOrder": 1,
+      "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+      "sourceId": "election-review-milngin-candidates-20261121",
+      "checked": "2026-11-21"
+    },
+    {
+      "name": "John BONSON",
+      "contest": "Milngin Ward councillor",
+      "status": "NTEC-declared nominee",
+      "ballotOrder": 2,
+      "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+      "sourceId": "election-review-milngin-candidates-20261121",
+      "checked": "2026-11-21"
+    }
+  ],
+  "vacancies": 1,
+  "contestedElectionRequired": true,
+  "spellingDiscrepancy": {
+    "currentCandidateList": "Andrew Victor MCTAGGART",
+    "declarationNotice": "Andrew Victor, McTahhart",
+    "handling": "Display follows the current candidate list; declaration notice supplies ballot order. Printed ballot typography and affiliations were not independently verified."
+  },
+  "currentTimetable": {
+    "pageLastUpdated": "2026-11-20",
+    "milestones": [
+      {
+        "date": "2026-11-09",
+        "dateTime": null,
+        "milestone": "Nominations open"
+      },
+      {
+        "date": "2026-11-20",
+        "dateTime": "2026-11-20T12:00:00+09:30",
+        "milestone": "Nomination cutoff"
+      },
+      {
+        "date": "2026-11-20",
+        "dateTime": "2026-11-20T13:00:00+09:30",
+        "milestone": "Scheduled nomination declaration and ballot order draw"
+      },
+      {
+        "date": "2026-11-23",
+        "dateTime": null,
+        "milestone": "Postal vote mail-out begins"
+      },
+      {
+        "date": "2026-11-23",
+        "dateTime": "2026-11-23T09:00:00+09:30",
+        "milestone": "Mobile voting begins"
+      },
+      {
+        "date": "2026-11-29",
+        "dateTime": "2026-11-29T18:00:00+09:30",
+        "milestone": "Overseas postal voting dispatch ends"
+      },
+      {
+        "date": "2026-11-30",
+        "dateTime": "2026-11-30T08:30:00+09:30",
+        "milestone": "Early voting begins"
+      },
+      {
+        "date": "2026-12-01",
+        "dateTime": "2026-12-01T18:00:00+09:30",
+        "milestone": "All postal voting dispatch ends"
+      },
+      {
+        "date": "2026-12-03",
+        "dateTime": "2026-12-03T08:00:00+09:30",
+        "milestone": "Election day begins"
+      },
+      {
+        "date": "2026-12-03",
+        "dateTime": "2026-12-03T18:00:00+09:30",
+        "milestone": "Counting begins"
+      },
+      {
+        "date": "2026-12-17",
+        "dateTime": "2026-12-17T10:00:00+09:30",
+        "milestone": "Scheduled result declaration"
+      }
+    ],
+    "timezoneBasis": "The updated HTML prints local clock times without an explicit timezone. Offsets retain the previously reviewed Australia/Darwin (ACST) basis; they are not newly quoted timezone wording."
+  },
+  "retainedEarlierFields": [
+    {
+      "field": "earlyVotingCloses",
+      "value": "2026-12-02T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "dateTime",
+      "value": "2026-12-03T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "milestoneLabel",
+      "value": "election-day voting closes",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "postalReceiptDeadline",
+      "value": "2026-12-16T12:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "postalApplicationsCloseOverseas",
+      "value": "2026-11-29T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "postalApplicationsCloseLocal",
+      "value": "2026-12-01T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    },
+    {
+      "field": "timezone",
+      "value": "Australia/Darwin",
+      "priorReview": "2026-11-14",
+      "evidence": "content/places/sources/milngin-nomination-review-2026-11-14.json",
+      "meaning": "Retained prior evidence, not reverified in the current HTML summary."
+    }
+  ],
+  "supersedes": {
+    "scope": "Current candidate-verification gap recorded on 20 November",
+    "historicalEvidence": "content/places/sources/milngin-cutoff-review-2026-11-20.json",
+    "status": "Resolved by direct current candidate-list and declaration-notice reads on 21 November. The earlier source record remains historical."
+  },
+  "sourceLimits": [
+    "Both current candidate names and ballot order now come from directly readable current official pages, independently read twice in this review; no search-index or 2025-ballot evidence is used for current acceptance.",
+    "Candidate display spelling follows the current candidate list; printed ballot typography and affiliations were not separately verified.",
+    "The refreshed HTML prints local clock times without ACST. Proposed offsets use the existing reviewed Australia/Darwin timezone; they are not claimed as newly printed timezone wording.",
+    "The current summary labels 29 November and 1 December as postal dispatch cutoffs. Existing application-cutoff fields retain earlier evidence; the new summary must not be cited as application-cutoff proof.",
+    "The 6 pm election-day entry is counting start, not an independent polling-close statement. Existing 6 pm polling close retains earlier evidence.",
+    "The linked detailed PDF and voting-options page returned HTTP 403 to normal anonymous network-approved GETs; no bypass was attempted or bytes retained.",
+    "Mobile voting at 9 am on 23 November and postal mail-out from that day should be retained in source notes/dateBasis. No unimplemented mobile-voting clock field is proposed."
+  ],
+  "detailedFollowUpAccess": [
+    {
+      "url": "https://ntec.nt.gov.au/__data/assets/pdf_file/0007/1656808/2026-vdrc-milngin-ward-supplementary-election-timetable.pdf",
+      "access": "Direct web open returned cache miss. Ordinary anonymous native GET returned HTTP 403 at the same URL."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options",
+      "access": "Direct web open returned cache miss. Ordinary anonymous native GET returned HTTP 403 at the same URL."
+    }
+  ],
+  "validation": "Builders and actual publication checks remain pending. This source manifest does not assert browser acceptance or deployment."
+}

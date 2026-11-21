@@ -10,7 +10,7 @@
   "stateType": "Territory",
   "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped 20 November Milngin timetable check: the published nomination cutoff at noon ACST has passed. The timetable scheduled the candidate declaration and ballot draw for 1 pm. The latest candidate declaration awaits direct verification. Early and mobile voting starts 23 November. Early voting closes at 6 pm on 2 December. Postal vote applications close at 6 pm on 29 November (overseas) and 6 pm on 1 December (local). Voting on 3 December runs 8 am–6 pm. Completed ballots are due by noon on 16 December and declaration is scheduled for 10 am on 17 December. All times are ACST. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
+  "researchStatus": "Scoped 21 November Milngin review: NTEC’s current candidate list and closure notice confirm two nominees for one vacancy and a contested election. The current timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Earlier 14 November evidence is retained for early voting close at 6 pm on 2 December, overseas/local postal application deadlines at 6 pm on 29 November/1 December, election-day voting close at 6 pm on 3 December and completed ballots due by noon on 16 December. Those closing/application/receipt deadlines were not reverified today. The updated timetable instead labels 29 November and 1 December as postal dispatch cutoffs. It schedules election-day start at 8 am on 3 December, counting at 6 pm and result declaration at 10 am on 17 December. Australia/Darwin (ACST) remains the earlier reviewed timezone; the updated HTML does not print a timezone. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
   "government": {
     "leaderTitle": "Chief Minister",
     "leader": "Lia Finocchiaro",
@@ -203,6 +203,18 @@
     {
       "label": "Victoria Daly Regional Council — Milngin by-election timetable (checked 1 November 2026)",
       "url": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/"
+    },
+    {
+      "label": "NTEC — current Milngin candidate list (checked 21 November 2026)",
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates"
+    },
+    {
+      "label": "NTEC — Milngin declaration and ballot order (checked 21 November 2026; spelling discrepancy retained)",
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed"
+    },
+    {
+      "label": "NTEC — current Milngin timetable, updated 20 November (checked 21 November 2026)",
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable"
     }
   ],
   "previousResearchRun": "2026-05-08",

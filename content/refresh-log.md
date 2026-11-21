@@ -606,3 +606,7 @@ Added the published 2027 SA periodic council timetable to 66 already confirmed o
 ## 20 November 2026 · Bridgetown-Greenbushes extraordinary election
 
 Confirmed Bridgetown-Greenbushes' 18 March 2027 extraordinary election and postal method from adopted Council resolution SCM 182-26/27. The date is calendar-day precision in Perth; the detailed timetable awaits official notices. [Scoped review](../docs/releases/2026-11-20-bridgetown-greenbushes-election-confirmed.md).
+
+## 21 November 2026 · Milngin declared nominees and voting openings
+
+NTEC’s directly readable current list and declaration now confirm two nominees for one vacancy. This resolves the 20 November candidate-verification gap. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Earlier closing/application/receipt and ACST evidence is retained separately from new dispatch rows. [Scoped review](../docs/releases/2026-11-21-milngin-candidates.md).
