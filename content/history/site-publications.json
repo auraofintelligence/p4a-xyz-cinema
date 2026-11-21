@@ -1225,6 +1225,40 @@
       "releaseName": "bridgetown-date-confirmed",
       "evidence": "content/places/sources/election-review-2026-11-20.json",
       "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+    },
+    {
+      "commit": "1cba2cfba7bc6861c671481ed5a80db356579162",
+      "tree": "90a45c6cabe94020e75a53574286dbb803850058",
+      "deployedOn": "2026-11-21",
+      "deployedAt": "2026-11-21T07:30:15Z",
+      "verifiedAt": "2026-11-21T07:32:18.967Z",
+      "scope": "Milngin Ward: NTEC confirms a contested supplementary by-election with two candidates for one vacancy. The current timetable gives early voting from 30 November at 8:30 am, while mobile voting and postal mail-out remain on 23 November. Postal dispatch labels and the candidate-name spelling discrepancy remain attributed; prior timezone and separate deadline evidence is retained.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44880434328",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44880434964",
+      "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+      "verifiedPaths": [
+        "assets/state-data.js",
+        "content/places/councils.json",
+        "content/places/sources/milngin-candidate-review-2026-11-21.json",
+        "pages/states.html",
+        "sitemap.xml",
+        "states/nt/constitution/index.html",
+        "states/nt/councils/victoria-daly/index.html",
+        "states/nt/index.html",
+        "states/nt/local-electoral-areas/nt-ward-wad03749a797707/index.html"
+      ],
+      "nonBrowserChecks": {
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44880434980"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+      },
+      "releaseName": "milngin-declaration-and-voting",
+      "evidence": "content/places/sources/election-review-2026-11-21.json",
+      "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
     }
   ]
 }
