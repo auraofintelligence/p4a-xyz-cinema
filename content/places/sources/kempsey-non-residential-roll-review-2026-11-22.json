@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "election-review-kempsey-nonresidential-20261122",
+  "checked": "2026-11-22",
+  "checkTimezone": "Australia/Brisbane",
+  "scope": "Specific Kempsey non-residential-roll application deadline only.",
+  "placeId": "nsw-council-14350",
+  "eventId": "nsw-council-14350-by-election-2027-01-16",
+  "source": {
+    "url": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
+    "method": "Ordinary public native HTTPS GET; HTTP200. The web source reader separately returned403.",
+    "retrievedAt": "2026-11-22T07:03:59.392886+00:00",
+    "responseDate": "Sun, 22 Nov 2026 07:04:00 GMT",
+    "sourceBodySha256": "c03153495c6a043dd6a09776c4980bdc27fe0cb1588f9a32cd961d95d53fd418",
+    "publicationDate": null,
+    "lastModified": null
+  },
+  "publishedTimetable": [
+    {
+      "label": "Non-residential roll applications close",
+      "date": "2026-12-07",
+      "time": "18:00",
+      "timezone": null,
+      "sourceUrl": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
+      "checked": "2026-11-22"
+    }
+  ],
+  "meaning": "Forms for the two non-residential rolls only. Not the general electoral-roll close, nomination cutoff or polling close.",
+  "clockHandling": "The source does not print a timezone; timezone:null and no dateTime are retained for this entry. The existing date-only Sydney polling clock stays unchanged.",
+  "relatedFacts": {
+    "byElectionDate": "2027-01-16",
+    "vacancyFollowingResignation": "2026-11-04",
+    "fullTimetable": "The Council page says more information is coming about nominations and voting arrangements.",
+    "rosterComparison": "Eight named current officeholders match the canonical snapshot exactly; no change proposed."
+  },
+  "limits": [
+    "This deadline concerns forms for the two non-residential rolls only; it is not the general electoral-roll close or a nomination cutoff.",
+    "The source prints 6 pm on Monday 7 December 2026 without a timezone label. The structured timetable retains timezone:null and creates no dateTime or additional countdown.",
+    "The Council still says more information is coming about nominations and voting arrangements. The date-only 16 January 2027 polling-day clock remains unchanged.",
+    "No non-residential application-form attachment was found in the returned HTML, despite its parenthetical reference to attachments. No submission route is inferred.",
+    "This is newly directly verified information, not a claim that it was first published on 22 November."
+  ],
+  "validationAtPreparation": "Build, publication and live-browser results are recorded separately; this source record asserts none."
+}

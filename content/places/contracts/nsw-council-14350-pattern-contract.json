@@ -18,6 +18,7 @@
     "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
     "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
     "13 November 2026: Kempsey Shire Council’s published roster lists eight officeholders, including Deputy Mayor Arthur Bain. Noel Selby resigned effective 4 November. One councillor vacancy proceeds to the 16 January 2027 by-election.",
+    "Scoped 22 November 2026 review: the Council election page gives 6 pm on 7 December as the application deadline for the two non-residential rolls only. General enrolment, nomination and polling deadlines are not inferred. The source does not print a timezone and no application-form attachment was verified. Existing roster and election-day timing retain their prior evidence.",
     "Declared scope is this place route, visible implementation date, breadcrumbs, choices and canonical place identity/boundary pins only.",
     "This manifest does not claim a complete civic journey, current source/legal correctness, full biographies or full historical contestant coverage.",
     "Geometry, people, candidate measures and timing received only the actual checks recorded in the linked national report; their missing coverage remains explicit there.",
@@ -30,7 +31,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-11-13"
+      "2026-11-22"
     ]
   },
   "routes": [
@@ -77,7 +78,8 @@
           "council-nsw-2024-kempsey-councillors",
           "council-nsw-2024-kempsey-mayor",
           "election-review-kempsey-selby-20261104",
-          "election-review-kempsey-by-election-20261113"
+          "election-review-kempsey-by-election-20261113",
+          "election-review-kempsey-nonresidential-20261122"
         ],
         "boundaryEdition": "NSW Spatial Services current legal local government service snapshot17October2026",
         "representatives": [
@@ -498,21 +500,32 @@
             "kind": "by-election",
             "status": "Council confirms a by-election for one councillor vacancy on Saturday 16 January 2027. Official timetable awaited.",
             "date": "2027-01-16",
-            "dateBasis": "Kempsey Shire Council confirms the polling date. The countdown marks the start of 16 January in Sydney. Nomination deadlines and polling hours are awaiting an official timetable.",
+            "dateBasis": "Kempsey Shire Council confirms the polling date. The countdown marks the start of 16 January in Sydney. Nomination deadlines and polling hours are awaiting an official timetable. Council gives a non-residential-roll application deadline of 6 pm on Monday 7 December 2026. This applies only to the two non-residential rolls, not the general electoral roll or candidate nominations. The source does not print a timezone for this deadline.",
             "timezone": "Australia/Sydney",
-            "sourceUrl": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors",
-            "sourceId": "election-review-kempsey-by-election-20261113",
+            "sourceUrl": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
+            "sourceId": "election-review-kempsey-nonresidential-20261122",
             "candidates": [],
-            "checked": "2026-11-13",
+            "checked": "2026-11-22",
             "timingStatus": "date-confirmed",
             "milestoneLabel": "start of the by-election date",
-            "contestantNote": "The Council has announced the polling date. Official nominations have yet to be verified."
+            "contestantNote": "The Council has announced the polling date. Official nominations have yet to be verified.",
+            "publishedTimetable": [
+              {
+                "label": "Non-residential roll applications close",
+                "date": "2026-12-07",
+                "time": "18:00",
+                "timezone": null,
+                "sourceUrl": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
+                "checked": "2026-11-22"
+              }
+            ]
           }
         ],
         "coverageNotes": [
           "Published NSW OLG directory checked17October2026; not an independent verification of each councillor profile. Individual profile links and later changes require council source reconciliation.",
           "ABS statistical geometry is exact to its source but is not a gazetted legal boundary. Previous contestants and legal ward geometry require reconciliation.",
-          "13 November 2026: Kempsey Shire Council’s published roster lists eight officeholders, including Deputy Mayor Arthur Bain. Noel Selby resigned effective 4 November. One councillor vacancy proceeds to the 16 January 2027 by-election."
+          "13 November 2026: Kempsey Shire Council’s published roster lists eight officeholders, including Deputy Mayor Arthur Bain. Noel Selby resigned effective 4 November. One councillor vacancy proceeds to the 16 January 2027 by-election.",
+          "Scoped 22 November 2026 review: the Council election page gives 6 pm on 7 December as the application deadline for the two non-residential rolls only. General enrolment, nomination and polling deadlines are not inferred. The source does not print a timezone and no application-form attachment was verified. Existing roster and election-day timing retain their prior evidence."
         ],
         "mapRefs": [
           {

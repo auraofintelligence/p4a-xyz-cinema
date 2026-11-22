@@ -10,7 +10,7 @@
   "stateType": "State",
   "researchRun": "2026-11-16",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "13 November Hunter’s Hill Council South Ward by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. 13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. 20 November scoped Walcha date check: NSWEC now publishes 16 January 2027 as the by-election date following Adam Iuston’s 23 October resignation. Nomination deadlines and polling hours remain unverified. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. 20 November scoped Tenterfield A Ward date check: NSWEC now publishes a one-councillor by-election on 16 January 2027 following Gregory Purcell’s resignation effective 31 October. Nomination deadlines and polling hours remain unverified. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
+  "researchStatus": "13 November Hunter’s Hill Council South Ward by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 4 candidates in the 12 November ballot draw order. 13 November City of Coffs Harbour Council by-election check: Nominations closed at noon AEDT on 11 November. NSWEC published 5 candidates in the 12 November ballot draw order. 13 November Kempsey check: Noel Selby resigned effective 4 November. Council confirms a 16 January 2027 by-election and lists Arthur Bain as Deputy Mayor. Scoped 22 November Kempsey deadline check: Council gives a non-residential-roll application deadline of 6 pm on Monday 7 December 2026. This applies only to the two non-residential rolls, not the general electoral roll or candidate nominations. The source does not print a timezone for this deadline. 20 November scoped Walcha date check: NSWEC now publishes 16 January 2027 as the by-election date following Adam Iuston’s 23 October resignation. Nomination deadlines and polling hours remain unverified. Coffs Harbour nomination lodgement opened 2 November at 9 am AEDT, verified 3 November. Hunters Hill retains its published 2 November opening date without an independently verified opening hour. Both closed 11 November at noon AEDT. 20 November scoped Tenterfield A Ward date check: NSWEC now publishes a one-councillor by-election on 16 January 2027 following Gregory Purcell’s resignation effective 31 October. Nomination deadlines and polling hours remain unverified. Election review 1 November: Council's 20 October election notice dates Marc Lane's resignation to 14 October; 15 October is the earlier notice publication date, not the resignation date. Hunters Hill's confirmed 12 December by-election timetable is unchanged. The 31 October review of David Harris remains: he will not recontest Wyong at the 13 March 2027 state election, but remains MP and continues ministerial duties until then; no current vacancy. Cobar and Coffs Harbour retain their 30 October election review; Parliament composition retains its 23 October review and no full federal roster audit is claimed.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Chris Minns",
@@ -117,8 +117,8 @@
       "kind": "Council by-election",
       "scope": "local-government",
       "status": "Council confirms a by-election for one councillor vacancy on Saturday 16 January 2027. Official timetable awaited.",
-      "note": "Kempsey Shire Council confirms the polling date. The countdown marks the start of 16 January in Sydney. Nomination deadlines and polling hours are awaiting an official timetable.",
-      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors",
+      "note": "Kempsey Shire Council confirms the polling date. The countdown marks the start of 16 January in Sydney. Nomination deadlines and polling hours are awaiting an official timetable. Council gives a non-residential-roll application deadline of 6 pm on Monday 7 December 2026. This applies only to the two non-residential rolls, not the general electoral roll or candidate nominations. The source does not print a timezone for this deadline.",
+      "source": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
       "timezone": "Australia/Sydney",
       "datePrecision": "day",
       "timingStatus": "date-confirmed",
@@ -388,6 +388,10 @@
     {
       "label": "NSWEC by-election dates and expenditure caps, updated 19 November 2026",
       "url": "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections"
+    },
+    {
+      "label": "Kempsey Shire Council — non-residential roll deadline (checked 22 November 2026)",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections"
     }
   ],
   "previousResearchRun": "2026-11-02",

@@ -610,3 +610,7 @@ Confirmed Bridgetown-Greenbushes' 18 March 2027 extraordinary election and posta
 ## 21 November 2026 · Milngin declared nominees and voting openings
 
 NTEC’s directly readable current list and declaration now confirm two nominees for one vacancy. This resolves the 20 November candidate-verification gap. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Earlier closing/application/receipt and ACST evidence is retained separately from new dispatch rows. [Scoped review](../docs/releases/2026-11-21-milngin-candidates.md).
+
+## 22 November 2026 · Kempsey non-residential-roll application deadline
+
+Council gives 6 pm on 7 December for application forms for its two non-residential rolls only. This is separate from general enrolment or nominations; no timezone or precise new countdown is inferred. Existing poll date, roster and history remain unchanged. [Scoped review](../docs/releases/2026-11-22-kempsey-non-residential-roll.md).
