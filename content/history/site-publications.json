@@ -1259,6 +1259,38 @@
       "releaseName": "milngin-declaration-and-voting",
       "evidence": "content/places/sources/election-review-2026-11-21.json",
       "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+    },
+    {
+      "commit": "15409548786a34e981792f4319582444b34895c4",
+      "tree": "88e0d43a4585e4b53bee5136c1f633c520be68b4",
+      "deployedOn": "2026-11-22",
+      "deployedAt": "2026-11-22T07:38:18Z",
+      "verifiedAt": "2026-11-22T07:40:22.703Z",
+      "scope": "Kempsey: Council’s official election page publishes a non-residential-roll forms deadline of 6 pm on 7 December 2026. No timezone is printed, so this record retains that limit and adds no precise countdown. The existing January by-election date retains its separate evidence.",
+      "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999048845",
+      "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999049096",
+      "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+      "verifiedPaths": [
+        "assets/state-data.js",
+        "content/places/councils.json",
+        "content/places/sources/kempsey-non-residential-roll-review-2026-11-22.json",
+        "pages/states.html",
+        "sitemap.xml",
+        "states/nsw/councils/kempsey/index.html",
+        "states/nsw/index.html"
+      ],
+      "nonBrowserChecks": {
+        "civicCI": "passed",
+        "storageCI": "passed",
+        "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999049168"
+      },
+      "postDeploymentBrowserChecks": {
+        "status": "outstanding",
+        "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+      },
+      "releaseName": "kempsey-nonresidential-roll-deadline",
+      "evidence": "content/places/sources/election-review-2026-11-22.json",
+      "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
     }
   ]
 }

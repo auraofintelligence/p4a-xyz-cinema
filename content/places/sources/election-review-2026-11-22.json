@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-22",
+  "checkTimezone": "Australia/Brisbane",
+  "scope": "Bounded review of all nine Australian electoral commission hubs and targeted official election/vacancy notices. This is not an exhaustive council, parliamentary vacancy, candidate, result or member audit.",
+  "method": "Fresh ordinary origin HTTP responses, official web-source crawl freshness and failed requests are distinguished. Only the verified Kempsey non-residential-roll deadline is proposed for publication; unchanged canonical facts and dates retain their evidence.",
+  "publication": {
+    "status": "published",
+    "receipts": [
+      {
+        "commit": "15409548786a34e981792f4319582444b34895c4",
+        "tree": "88e0d43a4585e4b53bee5136c1f633c520be68b4",
+        "deployedOn": "2026-11-22",
+        "deployedAt": "2026-11-22T07:38:18Z",
+        "verifiedAt": "2026-11-22T07:40:22.703Z",
+        "scope": "Kempsey: Council’s official election page publishes a non-residential-roll forms deadline of 6 pm on 7 December 2026. No timezone is printed, so this record retains that limit and adds no precise countdown. The existing January by-election date retains its separate evidence.",
+        "pagesRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999048845",
+        "ciRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999049096",
+        "liveVerification": "The recorded exact-commit Pages and CI checks succeeded, followed by ordinary live HTTP file verification for the enumerated verifiedPaths. This receipt records that bounded delivery verification.",
+        "verifiedPaths": [
+          "assets/state-data.js",
+          "content/places/councils.json",
+          "content/places/sources/kempsey-non-residential-roll-review-2026-11-22.json",
+          "pages/states.html",
+          "sitemap.xml",
+          "states/nsw/councils/kempsey/index.html",
+          "states/nsw/index.html"
+        ],
+        "nonBrowserChecks": {
+          "civicCI": "passed",
+          "storageCI": "passed",
+          "storageRun": "https://github.com/auraofintelligence/p4a-xyz-cinema/actions/runs/44999049168"
+        },
+        "postDeploymentBrowserChecks": {
+          "status": "outstanding",
+          "scope": "No cloud browser was available. Responsive layout and interaction acceptance remain outstanding; HTTP verification does not establish browser acceptance."
+        },
+        "releaseName": "kempsey-nonresidential-roll-deadline",
+        "evidence": "content/places/sources/election-review-2026-11-22.json",
+        "note": "Metadata-only receipt for the previously deployed content revision. It is not a new factual review and does not assert deployment of its own later metadata commit."
+      }
+    ],
+    "browserReview": "outstanding: no cloud browser available",
+    "note": "One factual content revision completed recorded Pages, Civic, Storage and bounded live HTTP verification. These receipts do not claim an exhaustive source review, browser acceptance or deployment of their own later metadata commit."
+  },
+  "commissions": [
+    {
+      "jurisdiction": "Commonwealth",
+      "commission": "Australian Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.aec.gov.au/",
+        "https://www.aec.gov.au/media/2026/",
+        "https://www.aec.gov.au/elections/supplementary_by_elections/index.htm"
+      ],
+      "outcome": "No material change verified.",
+      "findings": [
+        "Three fresh ordinary origin responses returned HTTP 200. The latest listed media item remains 26 October, and Farrer on 9 May remains the latest listed by-election."
+      ],
+      "limits": [
+        "This is not a complete Commonwealth parliamentary vacancy or member audit."
+      ]
+    },
+    {
+      "jurisdiction": "New South Wales",
+      "commission": "NSW Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://elections.nsw.gov.au/elections",
+        "https://elections.nsw.gov.au/about-us/media-centre/news-and-media-releases",
+        "https://elections.nsw.gov.au/electoral-funding/electoral-expenditure/caps-on-electoral-expenditure/expenditure-caps-for-the-2026-nsw-local-government-by-elections"
+      ],
+      "outcome": "One missing specific Kempsey deadline newly verified; other reviewed dates/ballots match.",
+      "findings": [
+        "The official schedule retains 16 January 2027 for Kempsey, Walcha and Tenterfield Ward A. Coffs Harbour and Hunters Hill South retain five and four matching ballot entries respectively. Cobar remains uncontested; its retained November header does not reactivate polling.",
+        "Three Kempsey Council pages returned fresh HTTP 200. The election page says non-residential-roll application forms must be submitted by 6 pm on Monday 7 December 2026. This is not a general-roll close or candidate nomination cutoff. The poll date and eight named current officeholders match existing records."
+      ],
+      "sources": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections"
+      ],
+      "limits": [
+        "Six native NSWEC requests returned 403, while same-day official web-source bodies were readable. Cobar's specific contest copy was older and its uncontested status was corroborated by the current hub.",
+        "Kempsey prints no timezone abbreviation for this specific deadline, and no linked non-residential application form was verified despite the reference to attachments. The full nomination/voting timetable is still pending."
+      ]
+    },
+    {
+      "jurisdiction": "Victoria",
+      "commission": "Victorian Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.vec.vic.gov.au/voting/2026-state-election",
+        "https://www.vec.vic.gov.au/about-us/media/media-releases",
+        "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options",
+        "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting",
+        "https://www.vec.vic.gov.au/voting/current-elections/knox-city-council-baird-ward-by-election"
+      ],
+      "outcome": "No material change verified.",
+      "findings": [
+        "Seven ordinary origin requests returned HTTP 200. The existing 20 November registration closure, 25 November 6 pm postal-application deadline and Knox timetable match. The Sunday 22 November early-voting closure is already recorded in canonical data."
+      ],
+      "limits": [
+        "The 1,037 individual ballot entries and all current officeholders were not individually re-reconciled."
+      ]
+    },
+    {
+      "jurisdiction": "Queensland",
+      "commission": "Electoral Commission of Queensland",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.ecq.qld.gov.au/elections/election-events",
+        "https://www.ecq.qld.gov.au/media/2026-media-statements"
+      ],
+      "outcome": "No material election or vacancy change verified.",
+      "findings": [
+        "Same-day official web reads retain Redland on 12 December as the only upcoming event and Tablelands Division 1 as past. The latest listed 19 November notice retains twelve Redland candidates, the existing ballot order and 22 December 5 pm postal receipt."
+      ],
+      "limits": [
+        "Native requests remain HTTP 403; readable official web-source copies are distinguished from fresh origin responses. Dedicated nomination checks ended 19 November, and unchanged candidate check dates were not refreshed.",
+        "A 16 November Brisbane ward-boundary consultation notice is a prior-publication participation lead. It establishes no new map edition, poll or roster change."
+      ]
+    },
+    {
+      "jurisdiction": "Western Australia",
+      "commission": "Western Australian Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.elections.wa.gov.au/",
+        "https://www.elections.wa.gov.au/elections/local",
+        "https://www.elections.wa.gov.au/about-us/media/releases",
+        "https://www.elections.wa.gov.au/elections/local-government-elections/2026-december-local-government-extraordinary-elections"
+      ],
+      "outcome": "No material event or deadline change verified.",
+      "findings": [
+        "Fresh ordinary origin HTTP 200 responses retain 3 December postal elections and the 17 November postal reminder. The 19 November roll-scan item is administrative turnout information, not a result.",
+        "Gingin's same-day official web past-meetings index remains agenda-only for 17 November. Bridgetown's same-day official news/notices copies disclose no later election timetable; its previously verified 18 March 2027 postal date retains its earlier evidence."
+      ],
+      "limits": [
+        "Native Shire candidate, Gingin and Bridgetown requests returned TLS EOF errors; no security weakening was attempted. The current ballots/withdrawals and adopted Bridgetown minutes were not fully reverified today.",
+        "No adopted Gingin vacancy decision, new closing hour or nomination deadline is inferred from absent minutes or elapsed dates."
+      ]
+    },
+    {
+      "jurisdiction": "South Australia",
+      "commission": "Electoral Commission of South Australia",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.ecsa.sa.gov.au/",
+        "https://www.ecsa.sa.gov.au/elections/current-elections",
+        "https://www.ecsa.sa.gov.au/lg-news",
+        "https://www.ecsa.sa.gov.au/2027-council-election",
+        "https://www.ecsa.sa.gov.au/news_notices",
+        "https://www.councilelections.sa.gov.au/about/key-dates"
+      ],
+      "outcome": "Existing timetable corroborated; no material change verified.",
+      "findings": [
+        "Five ECSA origin pages returned HTTP 200. Existing January roll/nomination, February nomination-close, March mailing and April voting-close facts remain published. Current/news hubs yielded no verified new supplementary election."
+      ],
+      "limits": [
+        "The key-dates origin request returned 403, but its official same-day web-source copy was readable. No new timezone label or precise countdown was inferred.",
+        "Near-request Last-Modified timestamps do not establish a new publication date. Council exceptions, rosters and candidates retain separate evidence."
+      ]
+    },
+    {
+      "jurisdiction": "Tasmania",
+      "commission": "Tasmanian Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.tec.tas.gov.au/",
+        "https://www.tec.tas.gov.au/local-government/vacancies.html",
+        "https://www.tec.tas.gov.au/legislative-council/"
+      ],
+      "outcome": "Known pending vacancy status matches; no material change verified.",
+      "findings": [
+        "Same-day official home/vacancy copies retain Michelle Dracoulis's 16 November resignation and the Derwent Valley candidate-consent deadline of noon on 30 November. Result remains pending. The older Legislative Council copy gives May 2027 without an exact day."
+      ],
+      "limits": [
+        "Four native requests returned HTTP 403. Web-source crawl freshness is not a fresh-origin response.",
+        "No candidate-consent list, recount time, result or full current roster review is claimed. The stored Hobart timing retains earlier evidence."
+      ]
+    },
+    {
+      "jurisdiction": "Australian Capital Territory",
+      "commission": "Elections ACT",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://www.elections.act.gov.au/",
+        "https://www.elections.act.gov.au/elections",
+        "https://www.elections.act.gov.au/elections/casual-vacancies/casual-vacancies-in-the-11th-legislative-assembly-2024-2028"
+      ],
+      "outcome": "No material election or vacancy change verified.",
+      "findings": [
+        "Same-day official web reads retain October 2028 and the existing Rattenbury/Vassarotti vacancy outcome. The closed redistribution consultation and anticipated proposal remain distinct from a determined map edition."
+      ],
+      "limits": [
+        "Four native requests returned 403 today, unlike yesterday's native success. Current official web reads remain available; this is an access-method limitation.",
+        "The redistribution detail copy was older. No new boundaries, members or complete Assembly audit are claimed."
+      ]
+    },
+    {
+      "jurisdiction": "Northern Territory",
+      "commission": "Northern Territory Electoral Commission",
+      "checked": "2026-11-22",
+      "hubUrls": [
+        "https://ntec.nt.gov.au/",
+        "https://ntec.nt.gov.au/elections/current-elections",
+        "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
+      ],
+      "outcome": "Milngin's published correction matches; no further material change verified.",
+      "sources": [
+        "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+        "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable"
+      ],
+      "findings": [
+        "Same-day current candidate/timetable reads retain two nominees, mobile voting from 23 November at 9 am and early voting from 30 November at 8:30 am. The declaration copy retains the recorded MCTAGGART/McTahhart spelling discrepancy.",
+        "Postal dispatch and counting remain distinct from earlier application/closing evidence. The prior 14 November timezone, closing and receipt fields were not silently refreshed."
+      ],
+      "limits": [
+        "The current-election and notice indexes were older copies. Native reads remain HTTP 403, including the detailed PDF and voting-options page.",
+        "No actual result or newly printed timezone/closing deadline was inferred."
+      ]
+    }
+  ],
+  "targetedReconciliations": [
+    {
+      "place": "Kempsey",
+      "sources": [
+        "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Local-government-elections",
+        "https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Mayor-Councillors",
+        "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Councillor-Noel-Selby-resigns-from-Kempsey-Shire-Council"
+      ],
+      "finding": "Previously blocked Council pages are directly readable today. Non-residential-roll application deadline is 7 December 2026 at the printed 6 pm; no timezone or verified form attachment is supplied. Existing 16 January polling date, resignation and eight officeholders match.",
+      "confirmedMilestone": {
+        "label": "Non-residential roll applications close",
+        "date": "2026-12-07",
+        "time": "18:00",
+        "timezone": null
+      },
+      "limits": [
+        "This concerns the two non-residential rolls only. General electoral enrolment, candidate nominations and polling hours remain separate. Publication date of the deadline is unknown."
+      ]
+    },
+    {
+      "place": "Gingin",
+      "sources": [
+        "https://www.gingin.wa.gov.au/council-meetings/ordinary-meeting-of-council/ordinary-council-meeting-17-november-2026/279",
+        "https://www.gingin.wa.gov.au/council-meetings/past/2026"
+      ],
+      "finding": "Current readable past-meetings index remains agenda-only. Adopted vacancy decision remains unverified; pending status and earlier canonical dates are preserved.",
+      "limits": [
+        "Origin requests had TLS EOF errors; no security bypass was attempted."
+      ]
+    },
+    {
+      "place": "Bridgetown-Greenbushes",
+      "sources": [
+        "https://www.bridgetown.wa.gov.au/publicnotices/",
+        "https://www.bridgetown.wa.gov.au/news/"
+      ],
+      "finding": "Same-day official web notices/news give no later material election timetable. The prior adopted 18 March 2027 postal-election fact is retained without changing its source-check date.",
+      "limits": [
+        "Origin requests had TLS EOF errors. The adopted minutes were not freshly read today."
+      ]
+    }
+  ],
+  "reviewLimits": [
+    "This bounded review does not certify every council or parliamentary vacancy notice, nominee, profile or historical contest.",
+    "Access failures preserve the last verified record; they are not evidence of no change. Native origin responses and available official web copies have different freshness limits.",
+    "No cloud browser was available. Publication and HTTP verification do not establish responsive or interaction acceptance."
+  ]
+}
