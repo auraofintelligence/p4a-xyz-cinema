@@ -1,6 +1,60 @@
 # P4A civic workbench
 
-This is the `p4a-xyz-cinema` source for [p4a.xyz](https://p4a.xyz): connected places, everyday questions, evidence, public decisions and possibilities for meaningful change.
+**P4A the Purple Party for Australia | A fair go in the age of superintelligence**
+
+This is the `p4a-xyz-cinema` source for [p4a.xyz](https://p4a.xyz/) and its [GitHub Pages project address](https://auraofintelligence.github.io/p4a-xyz-cinema/): connected places, everyday questions, evidence, public decisions and possibilities for meaningful change.
+
+The civic workbench is a public, local-first exploration of democratic participation, personal Aura of Intelligence, sovereignty, community capability and Joyful Responsible Abundance. It is not an operating government or a registered political party. Its public records and working tools are distinguished from draft policies, future simulations and proposed institutional changes.
+
+**README reviewed 25 November 2026. Repository snapshot: 22 November 2026, commit `d5126ab`.** These dates describe the documentation and source revision, not a fresh verification of election, legal or representative information.
+
+## Three complementary P4A workspaces
+
+| Project | Role |
+| --- | --- |
+| [P4A civic workbench](https://p4a.xyz/) ([source](https://github.com/auraofintelligence/p4a-xyz-cinema)) | Public civic exploration, places, elections, source evidence, Twinkles, policies and connected systems |
+| [Committees and inquiries](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/) ([source](https://github.com/auraofintelligence/p4a-xyz-committees-inquiries)) | Jurisdiction-specific public participation opportunities, committee directories, hearing/sitting calendars and archives |
+| [People & possibility](https://auraofintelligence.github.io/p4a-membership/) ([source](https://github.com/auraofintelligence/p4a-membership)) | Membership and civic collaboration development, induction, projects, constitution drafts, contribution records and financial planning |
+
+These are separately maintained projects. Public information and participation discovery remain freely accessible. Linking an official inquiry is not permission to represent P4A, submit on someone's behalf, or enrol anyone. The public membership preview does not create real memberships, collect payments or share its sample records with either public information site. P4A is a proposed movement in formation, not a registered political party or an adopted constitution.
+
+## Current scale and scope
+
+| Measure | Recorded scope |
+| --- | ---: |
+| Public HTML routes (home, pages and states) | 2,291 |
+| Dedicated place pages from national expansion | 2,080 |
+| Council and local-area records | 1,479 |
+| State and territory area records | 442 |
+| Federal area records | 159 |
+| National/jurisdiction/institution directories in expansion | 33 |
+| Delivered map layers in expansion | 49 |
+| Representative context records in expansion | 5,247 |
+| Historical contestant records in expansion | 18,314 |
+| National Twinkles | 49 |
+| Homepage ticker entries | 62 |
+
+The national counts are from the [23 October publication review](docs/releases/2026-10-23-national-expansion-publication.md), and the 2,291 public routes agree with the [2 November factual/date audit](content/history/site-audits/2026-11-02.json), [page inventory](content/site-page-inventory.json) and reviewed repository tree. The 5,247 representative records and 18,314 contestant records are records, not unique people. Route coverage does not establish that each page has a full source-verified civic journey.
+
+The reviewed Git tree contains 5,465 tracked files totalling 881,450,027 bytes (about 881 MB, decimal), before this README change. This is the sum of tracked file sizes, not the compressed Git repository size or a measurement of the live Pages artifact. The conservative tracked-tree ceiling is 1,000,000,000 bytes. Preserve that ceiling; avoid duplicating maps, geometry, media or entire sister applications. The committees and membership workspaces are intentionally separate.
+
+## Latest election and public-record maintenance
+
+The latest recorded scoped publication review is 22 November 2026. See [refresh history](content/refresh-log.md), [publication evidence](content/history/site-publications.json) and [maintenance index](docs/site-maintenance.md) for exact source, date, revision and publication scope.
+
+- **Victoria:** the 28 November 2026 state-election guide retains the earlier 495 announcement/preselection records, separately from the VEC's official 1,037 candidate/ballot-position count (734 Assembly and 303 Council), recorded on 13 November. The official candidate directory is linked. The 19 November voting notices and 20 November how-to-vote card registration closure are distinct scoped updates. The 495 records are not a complete current ballot.
+- **Redland City:** the mayoral by-election source record specifies a full postal ballot for 12 December 2026. The 20 November review confirms twelve current ECQ-certified entries and keeps earlier records separate; no candidate is inferred from an announcement or prior certification. The earlier 2028 ordinary-election date is still indicative, not an official countdown.
+- **National maintenance:** the 20-22 November passes cover Milngin, Walcha, Tenterfield, Derby-West Kimberley, South Australian council milestones, Bridgetown-Greenbushes and Kempsey. Deadlines, timezones, roll eligibility, candidate status and current officeholder evidence are independently recorded. A missing deadline or unsuccessful source fetch remains an explicit gap.
+
+These are descriptions of the repository's recorded findings, not a newly researched election update. Consult the linked election authority for current official information.
+
+## Civic content and local architecture
+
+The public journey joins a private, person-controlled starting point to flexible shared spaces, civic evidence and locally shaped decisions. The wider themes include Aura Genesis, Truth Engine, Musicverse, the Braided Economy and C-Hours, worker mutuals, Web3 Sensorium, Sovereignty Stack, Purple Synthesis and Cyber-Republic simulation. The public [C-Hour receipt builder](pages/c-hour-receipt-builder.html), [private civic profile builder](pages/private-civic-profile-builder.html), [civic twin builders](pages/civic-twin-builders.html) and [noticeboard contract builder](pages/noticeboard-contract-builder.html) are tools and proposals, not membership or statutory decision services.
+
+One verified C-Hour recognises one freely given human hour with no monetary conversion. Personal records and permissions remain separate from shared evidence, paid work, financial contributions and outcomes. The [membership workspace](https://auraofintelligence.github.io/p4a-membership/) contains the separate interactive governance and contribution development.
+
+The 49 national Twinkles lead into the rabbit-hole policy rooms. Redlands' invented local Twinkle seeds were removed; no unreviewed local Twinkles are generated to fill regional coverage. The 62 ticker items are editorial/source doorways, not live breaking news.
 
 ## Find your way
 
@@ -61,15 +115,15 @@ Each link below reflects an evidenced family, lineage or direct connection. This
 
 <!-- github-organisation:end -->
 
-> 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude — Fable 5, July 2026. Original cinematic build credit; the October 2026 Victoria workbench and maintenance were developed with Codex. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
+> 🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude - Fable 5, July 2026. Original cinematic build credit; the October 2026 Victoria workbench and maintenance were developed with Codex. This is the cinematic rebuild fork of [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz); the original Codex-era repo stays untouched upstream.
 
 Static multi-page prototype for the Purple Party for Australia.
 
 ## Redland local journey - first pass, 16-17 October 2026
 
-Agent replication now starts at [AGENTS.md](AGENTS.md), with separate [council](docs/agents/council-journey-rules.md), [state electorate](docs/agents/state-electorate-journey-rules.md) and [federal electorate](docs/agents/federal-electorate-journey-rules.md) guides. They share the [civic place contract](docs/agents/local-place-pattern.md), [acceptance gates](docs/agents/council-build-acceptance.md) and a completion report. Check [existing coverage](docs/agents/existing-place-coverage.md) and the [Victoria–Redlands lessons](docs/agents/victoria-redlands-lessons.md) before extending a place. Victoria already has its state atlas/data foundation; that is distinct from a full per-electorate civic deep dive. Federal Bowman material remains contextual coverage.
+Agent replication now starts at [AGENTS.md](AGENTS.md), with separate [council](docs/agents/council-journey-rules.md), [state electorate](docs/agents/state-electorate-journey-rules.md) and [federal electorate](docs/agents/federal-electorate-journey-rules.md) guides. They share the [civic place contract](docs/agents/local-place-pattern.md), [acceptance gates](docs/agents/council-build-acceptance.md) and a completion report. Check [existing coverage](docs/agents/existing-place-coverage.md) and the [Victoria-Redlands lessons](docs/agents/victoria-redlands-lessons.md) before extending a place. Victoria already has its state atlas/data foundation; that is distinct from a full per-electorate civic deep dive. Federal Bowman material remains contextual coverage.
 
-Run `python tools/verify-place-contracts.py` to check all reviewed manifests named `*-pattern-contract.json` under `content/`. New places register their own properly adapted contract. The included GitHub Actions workflow repeats structural/source-integrity checks after upload; browser, editorial and original-source reviews still have explicit acceptance requirements. [GitHub preparation](docs/github-upload.md) explains the clean public-source bundle and upload status.
+Run `python tools/verify-place-contracts.py` to check all reviewed manifests named `*-pattern-contract.json` under `content/`. New places register their own properly adapted contract. The included GitHub Actions workflows repeat structural/source-integrity and storage checks after upload. Browser, editorial and original-source reviews still have explicit acceptance requirements; the current workflow sequences cloud browser acceptance after publication, not before. [GitHub preparation](docs/github-upload.md) explains the clean public-source bundle and upload status.
 
 The 17 October correction puts the same draggable, zoomable, searchable atlas on the Queensland portal, council directory and Redlands division journey. Actual Queensland Government boundary geometry overlays the official QldBase Pastel PNG in shared EPSG:3857 coordinates. Soft colours distinguish areas; gold marks selection. Faint grey roads stay in the quiet default, with detailed topographic roads optional. Marine areas remain transparent, so the actual coast and islands stay visible. All 77 councils plus Weipa Town Authority are selectable; Redlands opens one interactive map of its ten divisions, each leading to a sourced local overview. Historical maps remain on Sources & dates. No SVG map is used. Tablet navigation wraps without overlapping text. Attribution, unchanged geometry, original PNGs, returned extents and refresh notes are retained in `content/councils/qld-map-sources.json`, `qld-basemap-sources.json` and `redland-divisions-sources.json`.
 
@@ -79,17 +133,17 @@ Run `node scripts/serve.mjs` in this checkout, then open [the local States entry
 
 `content/councils/redland.json`, `content/local/redland-connections.json` and `content/local/redland-election.json` hold reviewed source records. Run `python tools/build-redland.py`, `python tools/verify-redland.py` and `node tools/check-redland-clock.mjs` after scoped changes. The local generator also restores its marked entry links after another state/room generator has run; it preserves surrounding content. Research dates do not advance when pages regenerate.
 
-The rule-derived 25 March 2028 ordinary-election date is indicative only and does not start a countdown; the clock remains awaiting official confirmation. Early voting and the mayoral by-election timetable have independent null dates until official notices establish them. The UI supports a sourced early-voting window without inventing one now. See [the repeatable agent pattern](docs/agents/local-place-pattern.md), [dated change history](content/history/redland.md) and each map's source-specific rights. Historical numbers printed on a boundary map are not current enrolment.
+The rule-derived 25 March 2028 ordinary-election date remains indicative only, with no countdown or ordinary-election early-voting dates until official confirmation. The separate mayoral by-election is now recorded as the 12 December 2026 full postal ballot; its nomination and postal deadlines are separately sourced. See the current canonical election record and the November publication reports rather than the initial October null-date snapshot. See [the repeatable agent pattern](docs/agents/local-place-pattern.md), [dated change history](content/history/redland.md) and each map's source-specific rights. Historical numbers printed on a boundary map are not current enrolment.
 
 P4A is currently a proposed movement and drafting project, not a registered political party. The site is a public workbench for civic imagination, local-first democratic repair, transparent systems, constitutional literacy, public ledgers, state and region portals, legal-memory tooling and future cyber-republic rehearsal.
 
 
-## Victoria workbench — implemented October 2026
+## Victoria workbench - implemented October 2026
 
 Start at the [Victoria portal](https://p4a.xyz/states/vic/), [electorate atlas](https://p4a.xyz/states/vic/map/) or [2026 election guide](https://p4a.xyz/states/vic/election/). The [homepage](https://p4a.xyz/) includes a Melbourne-calendar countdown to 28 November 2026 with election-day and post-election wording. [About](https://p4a.xyz/pages/about.html) separates working tools from proposals and gaps; the [site map](https://p4a.xyz/pages/site-map.html) lists the public rooms.
 
 - Atlas: 88 Assembly districts, eight Council regions, 79 councils, eight unincorporated areas and 467 ward/electoral-structure records. Exact sourced geometry, search, map picking, public representative details and source-derived chamber seating work via `file://` and HTTP.
-- Election directory: **495 records** — 408 Assembly and 87 Council across 15 affiliations. Baseline checked 2 October 2026; 12 Australian Democrats announcements and Toby Wooldridge checked and added 1 November. Other records retain their own dates. Announced/preselected status is not formal VEC nomination. Source conflicts and unknown coverage are retained; no incumbent recontest or Council ticket order is inferred.
+- Election directory: **495 earlier announcement/preselection records** - 408 Assembly and 87 Council across 15 affiliations. Baseline checked 2 October 2026; 12 Australian Democrats announcements and Toby Wooldridge checked and added 1 November. Other records retain their own dates. Announced/preselected status is not formal VEC nomination. Source conflicts and unknown coverage are retained; no incumbent recontest or Council ticket order is inferred. The separately recorded VEC aggregate of 1,037 official candidates (734 Assembly, 303 Council) was checked on 13 November; the earlier directory is not the complete official ballot.
 - First Peoples: community reference links and separate public statutory RAP/RSA layers. These are not a national Country map; absence of a statutory polygon does not imply absence of Traditional Owners or rights.
 - Evidence: dated current representation, 2022 election results, 2021 Census indicators and local-government population/roster sources. Council finance fields remain unavailable where source retrieval was blocked. Broader civic-ledger, contribution and constitutional rooms remain exploratory.
 
@@ -146,6 +200,9 @@ The homepage is a cinematic, chaptered doorway: Act I the spark (Twinkle), Act I
 Current political and historical data should live in reviewed Markdown or JSON under `content/` so future agents can refresh it with permission.
 
 ## Refreshing Election Data
+
+The [9 November workflow reset](docs/agents/publication-and-browser-review.md) requires source/data/build/civic checks before publication and cloud-only browser acceptance after publication. Do not request access to the owner's local browser for routine checks. Use the scoped publication procedure and `--publication` mode where documented; record any unavailable live-browser review separately. An HTTP check is not browser acceptance. Research and reporting by an agent do not independently authorise changes to election data, publication, or changes to a scheduled monitoring task. Preserve the owner's current Codex publishing workflow.
+
 
 By-elections, seat splits, leadership and election dates are agent-refreshable. `content/refresh-watchlist.md` is the trigger map (signals, source-of-truth order, exact recipe); `content/refresh-log.md` records every check, including no-change runs; [REFRESH_WITH_AN_AGENT.md](REFRESH_WITH_AN_AGENT.md) is the paste-able prompt. A run where nothing changed reads two small files per state and writes one log line.
 
