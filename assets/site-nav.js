@@ -170,6 +170,7 @@
       label: 'The ground game',
       blurb: 'Where it becomes real: local builders, the L1 outreach kit and visible support.',
       links: [
+        { href: 'https://auraofintelligence.github.io/p4a-membership/apply/', title: 'Membership & participation', note: 'Public information and a fictional preview. Live enrolment is closed; civic participation remains open.' },
         { href: 'pages/your-relevance.html', title: 'Start your law map', note: 'A private first step for prospective members: your life, laws and civic areas.' },
         { href: 'pages/starter-field-kit.html', title: 'Starter field kit', note: 'Market table, signs, QR trails, organiser basics.' },
         { href: 'pages/civic-twin-builders.html', title: 'Civic twin builders', note: 'L0 profiles, L1 meshes, L2 civic fronts.' },
@@ -227,13 +228,14 @@
   /* Normalise: strip /index.html and .html so clean URLs match too. */
   const norm = (href) => new URL(href, location.href).pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
   const here = norm(location.href);
-  const isCurrent = (href) => norm(P + href) === here;
+  const hrefFor = href => new URL(href, new URL(P, location.href)).href;
+  const isCurrent = (href) => new URL(hrefFor(href)).origin === location.origin && norm(hrefFor(href)) === here;
 
   /* ---------- Full-screen index ---------- */
   const sectionMarkup = (section) => {
     const renderLinks = (links) => links.map((link) => `
       <li data-index-item>
-        <a href="${P}${link.href}"${isCurrent(link.href) ? ' aria-current="page"' : ''}>
+        <a href="${hrefFor(link.href)}"${isCurrent(link.href) ? ' aria-current="page"' : ''}>
           <strong>${link.title}</strong>
           <em>${link.note}</em>
         </a>
@@ -436,11 +438,11 @@
     explore.setAttribute('aria-label', 'Explore the workbench');
     explore.innerHTML = INDEX_SECTIONS.map((section) => {
       const chosen = section.links.filter((link) => link.footer);
-      const footerLinks = section.footerLinks || (chosen.length ? chosen : section.links.slice(0, 6));
+      const footerLinks = section.footerLinks || (chosen.length ? chosen : section.links.slice(0, section.id === 'ground' ? 7 : 6));
       return `
       <div>
         <strong>${section.footerLabel || section.label}</strong>
-        <ul>${footerLinks.map((link) => `<li><a href="${P}${link.href}">${link.title}</a></li>`).join('')}
+        <ul>${footerLinks.map((link) => `<li><a href="${hrefFor(link.href)}">${link.title}</a></li>`).join('')}
         ${section.states && !section.footerLinks ? `<li class="footer-state-row">${STATES.map((s) => `<a href="${P}states/${s.slug}/index.html">${s.slug.toUpperCase()}</a>`).join('')}</li>` : ''}</ul>
       </div>`;
     }).join('');
