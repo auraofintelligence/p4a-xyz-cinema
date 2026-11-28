@@ -9228,6 +9228,16 @@
       "sha256": "2829faede651ac4c2b3b2c46afd843ec1c5ee365136d24702ac85b0ba46e392f",
       "verificationMethod": "Fresh ordinary Council HTTPS200 read; minimal normalized public facts and absent timezone preserved. No full source page or contacts published.",
       "licence": "Original publisher rights retained; minimal normalized civic facts only."
+    },
+    {
+      "id": "election-review-milngin-voting-20261128",
+      "title": "NTEC Milngin Darwin early-voting hours and summary opening-date discrepancy",
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options",
+      "checked": "2026-11-28",
+      "rawFile": "content/places/sources/milngin-voting-review-2026-11-28.json",
+      "sha256": "15c71c92b9e30cbff0a583cb817c37671874fd5b786dbc5af8cccf54dd6e1252",
+      "verificationMethod": "Two independently read official HTML sources corroborate the 4 pm close; retrieved official web-copy ages and native HTTP 403 limits are explicit. The conflicting summary opening date, older candidate dates and timezone provenance are preserved.",
+      "licence": "Original publisher rights retained. Minimal normalized public facts only; no contacts, images or full raw source pages included."
     }
   ],
   "layers": [
@@ -231179,7 +231189,8 @@
         "election-review-milngin-20261107",
         "election-review-milngin-nominations-20261114",
         "election-review-milngin-cutoff-20261120",
-        "election-review-milngin-candidates-20261121"
+        "election-review-milngin-candidates-20261121",
+        "election-review-milngin-voting-20261128"
       ],
       "boundaryEdition": "ABS ASGS Edition4 LGA2026 (statistical approximation)",
       "representatives": [
@@ -231414,9 +231425,9 @@
           "kind": "by-election",
           "status": "Contested election · two NTEC-declared candidates",
           "date": "2026-12-03",
-          "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
+          "dateBasis": "Scoped 28 November voting-hours review: NTEC's voting-options page and 20 November media release give Darwin early voting from 30 November at 8:30 am until 2 December at 4 pm. The linked detailed timetable text corroborates those hours. The summary timetable, updated 23 November, instead prints 23 November at 8:30 am for early voting; this conflict is retained and the 30 November opening follows the two detailed HTML sources and linked programme. Mobile voting is separately scheduled from 23 November at 9 am. The two declared candidates, ballot order and MCTAGGART/McTahhart spelling discrepancy retain their 21 November evidence and check dates. The detailed HTML also corroborates overseas/local postal application cutoffs of 6 pm on 29 November/1 December, separately from the summary's dispatch cutoffs. Election-day polling close at 6 pm on 3 December and postal receipt at noon on 16 December retain their earlier evidence; the summary's 6 pm election-day row means counting starts. Result declaration remains scheduled for 17 December at 10 am, not an observed result. Australia/Darwin (ACST) retains its earlier reviewed basis; no newly printed timezone is claimed. Official web-source copies were readable on 28 November; ordinary native NTEC GETs returned HTTP 403, and PDF visual confirmation was unavailable.",
           "timezone": "Australia/Darwin",
-          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options",
           "candidates": [
             {
               "name": "Andrew Victor MCTAGGART",
@@ -231437,16 +231448,16 @@
               "checked": "2026-11-21"
             }
           ],
-          "checked": "2026-11-21",
+          "checked": "2026-11-28",
           "dateTime": "2026-12-03T18:00:00+09:30",
           "milestoneLabel": "election-day voting closes",
           "nominationsOpen": "2026-11-09",
           "nominationsClose": "2026-11-20T12:00:00+09:30",
           "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
-          "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+          "earlyVotingCloses": "2026-12-02T16:00:00+09:30",
           "pollingOpens": "2026-12-03T08:00:00+09:30",
           "declarationDate": "2026-12-17",
-          "sourceId": "election-review-milngin-candidates-20261121",
+          "sourceId": "election-review-milngin-voting-20261128",
           "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
           "declarationDateTime": "2026-12-17T10:00:00+09:30",
           "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
@@ -231468,7 +231479,8 @@
         "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
         "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
         "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
-        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs.",
+        "28 November voting-hours correction: NTEC's voting-options page and dated 20 November media release specify Darwin early voting from 30 November to 2 December, 8:30 am to 4 pm; earlyVotingCloses is corrected from 6 pm to 4 pm on 2 December. The summary timetable updated 23 November prints 23 November for early voting, conflicting with both detailed HTML sources and the linked detailed programme; the retained opening is 30 November at 8:30 am. Candidate records and their 21 November dates, the source-name discrepancy, historical ballots, failed round, current-office evidence and all other event instants remain unchanged. Application deadlines, postal dispatch and ballot receipt remain distinct; the 6 pm summary counting row is not polling-close evidence. The timezone retains earlier provenance."
       ]
     },
     {
@@ -247503,7 +247515,8 @@
         "election-review-milngin-20261107",
         "election-review-milngin-nominations-20261114",
         "election-review-milngin-cutoff-20261120",
-        "election-review-milngin-candidates-20261121"
+        "election-review-milngin-candidates-20261121",
+        "election-review-milngin-voting-20261128"
       ],
       "boundaryEdition": "Digital Atlas live item August 2026; service description November 2025; checked 17 October 2026",
       "representatives": [],
@@ -247573,9 +247586,9 @@
           "kind": "by-election",
           "status": "Contested election · two NTEC-declared candidates",
           "date": "2026-12-03",
-          "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
+          "dateBasis": "Scoped 28 November voting-hours review: NTEC's voting-options page and 20 November media release give Darwin early voting from 30 November at 8:30 am until 2 December at 4 pm. The linked detailed timetable text corroborates those hours. The summary timetable, updated 23 November, instead prints 23 November at 8:30 am for early voting; this conflict is retained and the 30 November opening follows the two detailed HTML sources and linked programme. Mobile voting is separately scheduled from 23 November at 9 am. The two declared candidates, ballot order and MCTAGGART/McTahhart spelling discrepancy retain their 21 November evidence and check dates. The detailed HTML also corroborates overseas/local postal application cutoffs of 6 pm on 29 November/1 December, separately from the summary's dispatch cutoffs. Election-day polling close at 6 pm on 3 December and postal receipt at noon on 16 December retain their earlier evidence; the summary's 6 pm election-day row means counting starts. Result declaration remains scheduled for 17 December at 10 am, not an observed result. Australia/Darwin (ACST) retains its earlier reviewed basis; no newly printed timezone is claimed. Official web-source copies were readable on 28 November; ordinary native NTEC GETs returned HTTP 403, and PDF visual confirmation was unavailable.",
           "timezone": "Australia/Darwin",
-          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+          "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options",
           "candidates": [
             {
               "name": "Andrew Victor MCTAGGART",
@@ -247596,16 +247609,16 @@
               "checked": "2026-11-21"
             }
           ],
-          "checked": "2026-11-21",
+          "checked": "2026-11-28",
           "dateTime": "2026-12-03T18:00:00+09:30",
           "milestoneLabel": "election-day voting closes",
           "nominationsOpen": "2026-11-09",
           "nominationsClose": "2026-11-20T12:00:00+09:30",
           "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
-          "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+          "earlyVotingCloses": "2026-12-02T16:00:00+09:30",
           "pollingOpens": "2026-12-03T08:00:00+09:30",
           "declarationDate": "2026-12-17",
-          "sourceId": "election-review-milngin-candidates-20261121",
+          "sourceId": "election-review-milngin-voting-20261128",
           "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
           "declarationDateTime": "2026-12-17T10:00:00+09:30",
           "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
@@ -247629,7 +247642,8 @@
         "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
         "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
         "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
-        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs.",
+        "28 November voting-hours correction: NTEC's voting-options page and dated 20 November media release specify Darwin early voting from 30 November to 2 December, 8:30 am to 4 pm; earlyVotingCloses is corrected from 6 pm to 4 pm on 2 December. The summary timetable updated 23 November prints 23 November for early voting, conflicting with both detailed HTML sources and the linked detailed programme; the retained opening is 30 November at 8:30 am. Candidate records and their 21 November dates, the source-name discrepancy, historical ballots, failed round, current-office evidence and all other event instants remain unchanged. Application deadlines, postal dispatch and ballot receipt remain distinct; the 6 pm summary counting row is not polling-close evidence. The timezone retains earlier provenance."
       ],
       "representationStatus": "vacant",
       "representationReview": "Council confirms the Milngin Ward councillor vacancy. Its effective vacancy date is not established by the checked notice. The replacement by-election is confirmed for 3 December 2026; the failed August nomination round remains separate. No replacement councillor is inferred. Verified 1 November 2026."

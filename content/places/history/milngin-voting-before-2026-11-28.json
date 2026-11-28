@@ -1,0 +1,390 @@
+{
+  "saved": "2026-11-28",
+  "baseCommit": "d7d1ab52a9831ebc9c1158f0e26fe8531434e979",
+  "scope": "Exact prior subject place/event values and NT state narrative before the scoped early-voting close correction. Unrelated records and implementation dates are not changed by this helper.",
+  "places": [
+    {
+      "placeId": "nt-council-74550",
+      "previousCurrentEvent": {
+        "id": "nt-council-74550-milngin-replacement-timetable-pending-2026",
+        "label": "Milngin Ward replacement by-election",
+        "kind": "by-election",
+        "status": "Contested election · two NTEC-declared candidates",
+        "date": "2026-12-03",
+        "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
+        "timezone": "Australia/Darwin",
+        "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+        "candidates": [
+          {
+            "name": "Andrew Victor MCTAGGART",
+            "contest": "Milngin Ward councillor",
+            "status": "NTEC-declared nominee",
+            "ballotOrder": 1,
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+            "sourceId": "election-review-milngin-candidates-20261121",
+            "checked": "2026-11-21"
+          },
+          {
+            "name": "John BONSON",
+            "contest": "Milngin Ward councillor",
+            "status": "NTEC-declared nominee",
+            "ballotOrder": 2,
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+            "sourceId": "election-review-milngin-candidates-20261121",
+            "checked": "2026-11-21"
+          }
+        ],
+        "checked": "2026-11-21",
+        "dateTime": "2026-12-03T18:00:00+09:30",
+        "milestoneLabel": "election-day voting closes",
+        "nominationsOpen": "2026-11-09",
+        "nominationsClose": "2026-11-20T12:00:00+09:30",
+        "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
+        "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+        "pollingOpens": "2026-12-03T08:00:00+09:30",
+        "declarationDate": "2026-12-17",
+        "sourceId": "election-review-milngin-candidates-20261121",
+        "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
+        "declarationDateTime": "2026-12-17T10:00:00+09:30",
+        "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
+        "postalApplicationsCloseOverseas": "2026-11-29T18:00:00+09:30",
+        "postalApplicationsCloseLocal": "2026-12-01T18:00:00+09:30",
+        "contestantNote": "NTEC declares two nominees for one councillor vacancy. Display names follow the current candidate list. The closure notice lists ballot order but spells the first surname McTahhart, while the candidate list spells it MCTAGGART; this source discrepancy is retained. Affiliations are not supplied and are not inferred.",
+        "nominationCoverage": {
+          "officialCandidateCount": 2,
+          "retainedCandidateCount": 2,
+          "complete": true
+        },
+        "seats": 1
+      },
+      "previousSources": [
+        "council-abs-2026-lga",
+        "council-ward-supp-geoscape-nt-native",
+        "council-ward-supp-geoscape-lga-attributes",
+        "council-nt-roster-victoria-daly",
+        "council-nt-2025-ballot-victoria-daly-daguragu-ward",
+        "council-nt-2025-ballot-victoria-daly-milngin-ward",
+        "council-nt-2025-ballot-victoria-daly-pine-creek-ward",
+        "council-nt-2025-ballot-victoria-daly-timber-creek-ward",
+        "council-nt-2025-ballot-victoria-daly-walangeri-ward",
+        "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
+        "election-review-milngin-20261030",
+        "election-review-milngin-20261101",
+        "election-review-milngin-20261107",
+        "election-review-milngin-nominations-20261114",
+        "election-review-milngin-cutoff-20261120",
+        "election-review-milngin-candidates-20261121"
+      ],
+      "previousCoverageNotes": [
+        "ABS statistical boundary navigation retains source coordinates exactly; it is not the gazetted legal boundary or an address eligibility service.",
+        "The Digital Atlas/Geoscape ward layer retains every original polygon part. Its live item says August 2026 while the service description says November 2025; later amendments and individual ward representation require separate reconciliation.",
+        "Dated official council roster snapshot checked 17 October 2026, independently of election results. Full original pages, contacts and biographies remain local-only. Individual profile URLs are retained where explicitly supplied; a roster link is labelled as such.",
+        "Published roster currently supplies four names, with no Milngin member listed. Do not infer an incumbent or a vacancy solely from that omission. The source describes Yvette Williams as deputy for a one-year term from 18 September 2025; that stated term has expired, so the role below is retained only as the published roster label and requires a fresh council appointment record.",
+        "Independent NTEC event page updated 24 August 2026 confirms the Milngin casual vacancy received zero nominations; a replacement election date was not yet announced. No current member is inferred for that ward.",
+        "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
+      ]
+    },
+    {
+      "placeId": "nt-ward-wad03749a797707",
+      "previousCurrentEvent": {
+        "id": "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026",
+        "label": "Milngin Ward replacement by-election",
+        "kind": "by-election",
+        "status": "Contested election · two NTEC-declared candidates",
+        "date": "2026-12-03",
+        "dateBasis": "NTEC’s current candidate list and closure notice, both updated 20 November and read 21 November, confirm two nominees for one vacancy and a contested election. The updated timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Election day starts at 8 am on 3 December; counting starts at 6 pm. Result declaration is scheduled for 10 am on 17 December. The summary labels 29 November and 1 December at 6 pm as postal dispatch cutoffs. Existing early-voting/polling closing times and postal application/receipt deadlines retain their 14 November evidence; those fields were not reverified by this summary. The Australia/Darwin (ACST) timezone also retains its earlier evidence; the updated HTML does not print a timezone.",
+        "timezone": "Australia/Darwin",
+        "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+        "candidates": [
+          {
+            "name": "Andrew Victor MCTAGGART",
+            "contest": "Milngin Ward councillor",
+            "status": "NTEC-declared nominee",
+            "ballotOrder": 1,
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+            "sourceId": "election-review-milngin-candidates-20261121",
+            "checked": "2026-11-21"
+          },
+          {
+            "name": "John BONSON",
+            "contest": "Milngin Ward councillor",
+            "status": "NTEC-declared nominee",
+            "ballotOrder": 2,
+            "sourceUrl": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates",
+            "sourceId": "election-review-milngin-candidates-20261121",
+            "checked": "2026-11-21"
+          }
+        ],
+        "checked": "2026-11-21",
+        "dateTime": "2026-12-03T18:00:00+09:30",
+        "milestoneLabel": "election-day voting closes",
+        "nominationsOpen": "2026-11-09",
+        "nominationsClose": "2026-11-20T12:00:00+09:30",
+        "earlyVotingOpens": "2026-11-30T08:30:00+09:30",
+        "earlyVotingCloses": "2026-12-02T18:00:00+09:30",
+        "pollingOpens": "2026-12-03T08:00:00+09:30",
+        "declarationDate": "2026-12-17",
+        "sourceId": "election-review-milngin-candidates-20261121",
+        "postalReceiptDeadline": "2026-12-16T12:00:00+09:30",
+        "declarationDateTime": "2026-12-17T10:00:00+09:30",
+        "nominationNoticeUrl": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed",
+        "postalApplicationsCloseOverseas": "2026-11-29T18:00:00+09:30",
+        "postalApplicationsCloseLocal": "2026-12-01T18:00:00+09:30",
+        "contestantNote": "NTEC declares two nominees for one councillor vacancy. Display names follow the current candidate list. The closure notice lists ballot order but spells the first surname McTahhart, while the candidate list spells it MCTAGGART; this source discrepancy is retained. Affiliations are not supplied and are not inferred.",
+        "nominationCoverage": {
+          "officialCandidateCount": 2,
+          "retainedCandidateCount": 2,
+          "complete": true
+        },
+        "seats": 1
+      },
+      "previousSources": [
+        "council-ward-supp-geoscape-nt-native",
+        "council-ward-supp-geoscape-ward-item",
+        "council-ward-supp-geoscape-lga-attributes",
+        "council-nt-2025-ballot-victoria-daly-milngin-ward",
+        "council-nt-ballot-failed-milngin-2026-victoria-daly-milngin-ward",
+        "election-review-milngin-20261030",
+        "election-review-milngin-20261101",
+        "election-review-milngin-20261107",
+        "election-review-milngin-nominations-20261114",
+        "election-review-milngin-cutoff-20261120",
+        "election-review-milngin-candidates-20261121"
+      ],
+      "previousCoverageNotes": [
+        "Actual official published ward polygons, not a generated division of the council. Native GDA94 coordinates, original polygon parts, holes and source IDs retained without simplification or rounding.",
+        "The live source item says August 2026 while the service description still says November 2025; later ward amendments need separate official reconciliation.",
+        "Current ward representative profiles and previous ward-contestant histories require separate official reconciliation; the geometry source does not establish current office or candidacy.",
+        "Historical ballot joins the verified council parent and exact source ward label; no current officeholder is inferred from the ballot.",
+        "NTEC’s current-election hub lists the Milngin Ward supplementary by-election. Its 9 November notice confirms nominations opened. The August round, which received zero nominations, remains in the election history.",
+        "The 21 November direct review supersedes the 20 November candidate-verification gap: NTEC now declares two nominees for one Milngin councillor vacancy and a contested election. Display names follow the current candidate list; the declaration notice’s MCTAGGART/McTahhart spelling discrepancy is explicit. Early voting starts 30 November at 8:30 am, distinct from mobile voting on 23 November at 9 am. Historical ballots and the earlier failed round remain unchanged. Closing, postal-application/receipt and ACST evidence retain their earlier review; the updated summary instead labels the postal dates as dispatch cutoffs."
+      ]
+    }
+  ],
+  "previousNtStateData": {
+    "order": 8,
+    "slug": "nt",
+    "name": "Northern Territory",
+    "shortName": "NT",
+    "capital": "Darwin",
+    "stateType": "Territory",
+    "researchRun": "2026-11-01",
+    "researchTimezone": "Australia/Brisbane",
+    "researchStatus": "Scoped 21 November Milngin review: NTEC’s current candidate list and closure notice confirm two nominees for one vacancy and a contested election. The current timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Earlier 14 November evidence is retained for early voting close at 6 pm on 2 December, overseas/local postal application deadlines at 6 pm on 29 November/1 December, election-day voting close at 6 pm on 3 December and completed ballots due by noon on 16 December. Those closing/application/receipt deadlines were not reverified today. The updated timetable instead labels 29 November and 1 December as postal dispatch cutoffs. It schedules election-day start at 8 am on 3 December, counting at 6 pm and result declaration at 10 am on 17 December. Australia/Darwin (ACST) remains the earlier reviewed timezone; the updated HTML does not print a timezone. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
+    "government": {
+      "leaderTitle": "Chief Minister",
+      "leader": "Lia Finocchiaro",
+      "party": "Country Liberal Party",
+      "arrangement": "Majority government",
+      "inPowerSince": "2024-08-28",
+      "note": "The Territory has a single chamber with 25 MLAs."
+    },
+    "elections": [
+      {
+        "label": "2028 Northern Territory Legislative Assembly election",
+        "date": null,
+        "kind": "Territory general election",
+        "scope": "general",
+        "status": "Awaiting confirmation to begin",
+        "note": "Ordinary cycle: fourth Saturday in August every four years, subject to applicable exceptions. No new writ or timetable is implied. Indicative rule-derived date: 2028-08-26. No event date or polling hours are confirmed by the retained source; the countdown remains waiting.",
+        "source": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": true,
+          "daysSinceDate": "2024-08-24T08:00:00+09:30",
+          "daysSinceLabel": "Previous Northern Territory Legislative Assembly general election polling day",
+          "daysSinceSource": "https://ntec.nt.gov.au/elections/election-events/legislative-assembly-election-reports2/legislative-assembly-election-reports/2024-Territory-Election-Election-overview-with-appendices.pdf",
+          "archiveDaysSince": true,
+          "cycleKey": "nt-2028-general",
+          "archiveWithCycle": "next-higher-order-cycle-after-nt-2028-general",
+          "archiveNote": "When this election becomes historical, keep days-since visible in the current cycle, then archive it with the next higher-order election cycle."
+        },
+        "timezone": "Australia/Darwin",
+        "indicativeDate": "2028-08-26",
+        "timingStatus": "awaiting-confirmation"
+      },
+      {
+        "label": "Nightcliff by-election",
+        "date": "2026-03-07T08:00:00+09:30",
+        "kind": "Territory by-election",
+        "scope": "by-election",
+        "status": "Recently held",
+        "note": "Ed Smelt won Nightcliff for Territory Labor after the resignation of Greens MLA Kat McNamara.",
+        "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": true,
+          "daysSinceDate": "2026-03-07T08:00:00+09:30",
+          "daysSinceLabel": "Nightcliff by-election polling day",
+          "daysSinceSource": "https://www.abc.net.au/news/2026-03-09/nt-labor-ed-smelt-wins-nightcliff-byelection-greens-seat-suki/106432806",
+          "archiveDaysSince": true,
+          "cycleKey": "nt-2026-by-election",
+          "archiveWithCycle": "nt-2028-general archive",
+          "archiveNote": "Keep days-since visible while this event belongs to the current local cycle, then archive it with the next state or territory general election cycle."
+        }
+      },
+      {
+        "label": "2026 Mulka by-election",
+        "date": "2026-09-12T08:00:00+09:30",
+        "kind": "Assembly by-election",
+        "scope": "recent",
+        "status": "Held; official results published",
+        "note": "Yiwarr McGrath (Territory Labor) is the current Mulka member; official first preferences 1,960 of 2,534 formal votes. NTEC reports no two-candidate-preferred count. Office-start date is not inferred from the timetable.",
+        "source": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results",
+        "dayMetrics": {
+          "displayDaysUntil": true,
+          "displayDaysSince": false,
+          "archiveDaysSince": true,
+          "cycleKey": "nt-2026-mulka-by-election",
+          "archiveNote": "Preserve this event separately from the ordinary general-election cycle."
+        }
+      }
+    ],
+    "chambers": [
+      {
+        "name": "Legislative Assembly",
+        "type": "Unicameral parliament",
+        "seats": 25,
+        "majority": 13,
+        "note": "The Nightcliff by-election shifted one seat from Greens to Territory Labor after the February seating plan.",
+        "source": "https://parliament.nt.gov.au/members/chamber-seating/One-page-seating-plan-Feb-2026.pdf",
+        "composition": [
+          {
+            "party": "Country Liberal Party",
+            "short": "CLP",
+            "seats": 17
+          },
+          {
+            "party": "Territory Labor",
+            "short": "ALP",
+            "seats": 6
+          },
+          {
+            "party": "Robyn Lambley, Justine Davis",
+            "short": "2 MLAs",
+            "seats": 2,
+            "memberSource": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf",
+            "members": [
+              {
+                "name": "Robyn Lambley",
+                "seat": "Araluen"
+              },
+              {
+                "name": "Justine Davis",
+                "seat": "Johnston"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "strategyNotes": [
+      "The NT page is a compact chamber model with a very large government majority.",
+      "The recent Nightcliff by-election shows how a single seat can change the story of a small parliament.",
+      "Future updates should watch local issues, not just party totals, because every electorate has outsized weight."
+    ],
+    "sources": [
+      {
+        "label": "NTEC about us and next election cycle",
+        "url": "https://ntec.nt.gov.au/about-us"
+      },
+      {
+        "label": "NT Legislative Assembly chamber seating plan",
+        "url": "https://parliament.nt.gov.au/members/chamber-seating/One-page-seating-plan-Feb-2026.pdf"
+      },
+      {
+        "label": "NT Legislative Assembly Ed Smelt member page",
+        "url": "https://parliament.nt.gov.au/members/by-name/Ed-Smelt"
+      },
+      {
+        "label": "ABC Nightcliff result report",
+        "url": "https://www.abc.net.au/news/2026-03-09/nt-labor-ed-smelt-wins-nightcliff-byelection-greens-seat-suki/106432806"
+      },
+      {
+        "label": "nt current roster",
+        "url": "https://parliament.nt.gov.au/members/MASTER-15th-Legislative-Assembly-List-of-Members-for-webpage-September-2026.pdf"
+      },
+      {
+        "label": "nt current davis",
+        "url": "https://parliament.nt.gov.au/members/by-name/justine-davis"
+      },
+      {
+        "label": "nt current paech",
+        "url": "https://parliament.nt.gov.au/members/by-name/chanston-paech"
+      },
+      {
+        "label": "nt current mcgrath",
+        "url": "https://parliament.nt.gov.au/members/by-name/yiwarr-mcgrath"
+      },
+      {
+        "label": "nt current lambley",
+        "url": "https://parliament.nt.gov.au/members/by-name/robyn-jane-lambley"
+      },
+      {
+        "label": "nt current ministry",
+        "url": "https://parliament.nt.gov.au/members/ministry"
+      },
+      {
+        "label": "nt assembly index",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly"
+      },
+      {
+        "label": "nt mulka results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/results"
+      },
+      {
+        "label": "nt mulka timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-mulka-by-election/Mulka-timetable"
+      },
+      {
+        "label": "nt nightcliff results",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/results"
+      },
+      {
+        "label": "nt nightcliff timetable",
+        "url": "https://ntec.nt.gov.au/elections/past-elections/legislative-assembly/2026-nightcliff-by-election/timetable"
+      },
+      {
+        "label": "nt ordinary rule",
+        "url": "https://ntec.nt.gov.au/elections/about-elections/legislative-assembly-elections/timetable"
+      },
+      {
+        "label": "nt current elections",
+        "url": "https://ntec.nt.gov.au/elections/current-elections"
+      },
+      {
+        "label": "nt public notices",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices"
+      },
+      {
+        "label": "NTEC — Milngin nominations and postal applications (checked 14 November 2026)",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election-nominations-open"
+      },
+      {
+        "label": "Victoria Daly Regional Council — Milngin by-election timetable (checked 1 November 2026)",
+        "url": "https://www.victoriadaly.nt.gov.au/could-i-be-a-councillor/"
+      },
+      {
+        "label": "NTEC — current Milngin candidate list (checked 21 November 2026)",
+        "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/list-of-candidates"
+      },
+      {
+        "label": "NTEC — Milngin declaration and ballot order (checked 21 November 2026; spelling discrepancy retained)",
+        "url": "https://ntec.nt.gov.au/about-us/media-and-publications/public-notices/2026/2026-victoria-daly-regional-council-milngin-ward-by-election-nominations-closed"
+      },
+      {
+        "label": "NTEC — current Milngin timetable, updated 20 November (checked 21 November 2026)",
+        "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable"
+      }
+    ],
+    "previousResearchRun": "2026-05-08",
+    "researchReview": {
+      "checked": "2026-11-01",
+      "timezone": "Australia/Brisbane",
+      "scope": "State summary and named election/process changes; see researchStatus and linked evidence for partial reviews. Unchanged or inaccessible underlying records retain their dated checks.",
+      "previousResearchRun": "2026-05-08",
+      "sourceDatesPreserved": true
+    }
+  }
+}

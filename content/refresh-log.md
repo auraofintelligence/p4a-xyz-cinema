@@ -618,3 +618,7 @@ Council gives 6 pm on 7 December for application forms for its two non-residenti
 ## 28 November 2026 · Victoria counting
 
 Recorded the VEC-confirmed counting phase and separate provisional chamber results, closing future-tense voting copy. No winner, roster or candidate recheck inferred. [Scoped review](../docs/releases/2026-11-28-victoria-counting.md).
+
+## 28 November 2026 - Milngin early-voting close
+
+Two official NTEC HTML sources give Darwin early voting from 30 November to 2 December, 8:30 am to 4 pm. The council and actual ward events correct the 2 December close from 6 pm to 4 pm. A conflicting 23 November opening in the updated summary timetable remains explicit; the detailed-source 30 November opening is retained. Candidate dates, historical events, officeholders, other deadline instants and earlier timezone provenance are preserved. [Scoped review](../docs/releases/2026-11-28-milngin-voting-hours.md). Publication and browser outcomes remain separately recorded.

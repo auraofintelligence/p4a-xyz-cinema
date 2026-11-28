@@ -10,7 +10,7 @@
   "stateType": "Territory",
   "researchRun": "2026-11-01",
   "researchTimezone": "Australia/Brisbane",
-  "researchStatus": "Scoped 21 November Milngin review: NTEC’s current candidate list and closure notice confirm two nominees for one vacancy and a contested election. The current timetable starts mobile voting at 9 am on 23 November and early voting at 8:30 am on 30 November. Earlier 14 November evidence is retained for early voting close at 6 pm on 2 December, overseas/local postal application deadlines at 6 pm on 29 November/1 December, election-day voting close at 6 pm on 3 December and completed ballots due by noon on 16 December. Those closing/application/receipt deadlines were not reverified today. The updated timetable instead labels 29 November and 1 December as postal dispatch cutoffs. It schedules election-day start at 8 am on 3 December, counting at 6 pm and result declaration at 10 am on 17 December. Australia/Darwin (ACST) remains the earlier reviewed timezone; the updated HTML does not print a timezone. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
+  "researchStatus": "Scoped 28 November Milngin voting-hours review: NTEC's voting-options page and dated 20 November media release give Darwin early voting from 30 November to 2 December, 8:30 am to 4 pm. The 2 December early-voting close is corrected from 6 pm to 4 pm. The summary timetable updated 23 November instead prints 23 November at 8:30 am for early voting; this conflicts with both detailed HTML sources and the linked detailed programme, so the 30 November opening is retained with that limit. Mobile voting remains separately scheduled from 23 November at 9 am. The two declared candidates, ballot order and surname discrepancy retain the 21 November review and candidate dates. The detailed HTML corroborates overseas/local postal application cutoffs at 6 pm on 29 November/1 December; the summary labels dispatch cutoffs separately. Earlier evidence is retained for election-day polling close at 6 pm on 3 December and completed-ballot receipt at noon on 16 December. The summary's 6 pm election-day entry means counting starts; result declaration remains scheduled for 17 December at 10 am. Australia/Darwin (ACST) retains its earlier reviewed basis; the sources do not newly print a timezone. Official web copies were readable; native NTEC requests returned HTTP 403. Parliament retains its 23 October review: September official roster reconciles 25 MLAs, 17 CLP, 6 Labor and 2 independents; Johnston identity join corrected and Mulka/Nightcliff results retained separately. Other council coverage remains partial; federal profiles were inaccessible in the prior review.",
   "government": {
     "leaderTitle": "Chief Minister",
     "leader": "Lia Finocchiaro",
@@ -215,6 +215,14 @@
     {
       "label": "NTEC — current Milngin timetable, updated 20 November (checked 21 November 2026)",
       "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable"
+    },
+    {
+      "label": "NTEC - Milngin voting options and Darwin hours (read 28 November 2026; official web copy)",
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options"
+    },
+    {
+      "label": "NTEC - 20 November Milngin declaration and voting-hours release (read 28 November 2026; official web copy)",
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election"
     }
   ],
   "previousResearchRun": "2026-05-08",

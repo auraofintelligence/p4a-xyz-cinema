@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "election-review-milngin-voting-20261128",
+  "checked": "2026-11-28",
+  "checkTimezone": "Australia/Brisbane",
+  "scope": "Milngin Darwin early-voting closing-hour correction and conflicting summary opening date only; unchanged candidate and other deadline provenance is preserved.",
+  "eventIds": [
+    "nt-council-74550-milngin-replacement-timetable-pending-2026",
+    "nt-ward-wad03749a797707-milngin-replacement-timetable-pending-2026"
+  ],
+  "method": "Read official web-source HTML bodies and the currently linked detailed programme on 28 November. The retrieved copies have the individual crawl ages below; they are not fresh native-origin responses. No search snippet is the sole support for the changed closing hour.",
+  "sources": [
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/voting-options",
+      "pageLastUpdated": "2026-11-20",
+      "readOn": "2026-11-28",
+      "retrievedCopyCrawlAge": "5 days",
+      "format": "HTML",
+      "supports": "Darwin early voting 30 November through 2 December, 8:30 am to 4 pm. Overseas/local postal application cutoffs are separately named as 29 November/1 December at 6 pm. Postal completion is before 3 December at 6 pm."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/about-us/media-and-publications/media-releases/2026/2026-victoria-daly-regional-council-milngin-ward-supplementary-by-election",
+      "published": "2026-11-20",
+      "readOn": "2026-11-28",
+      "retrievedCopyCrawlAge": "6 days",
+      "format": "HTML",
+      "supports": "Independent dated release gives Darwin early voting 30 November through 2 December, 8:30 am to 4 pm, and names overseas/local application cutoffs separately. It also repeats the two declared candidates and ballot order; their canonical review dates are not advanced."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/elections/current-elections/vdrc-milngin-ward-sup-by-election/timetable",
+      "pageLastUpdated": "2026-11-23",
+      "readOn": "2026-11-28",
+      "retrievedCopyCrawlAge": "today",
+      "format": "HTML",
+      "supports": "The summary now prints 23 November at 8:30 am for early voting, conflicting with the detailed sources. It separately lists mobile voting from 23 November at 9 am, postal dispatch cutoffs and counting from 3 December at 6 pm."
+    },
+    {
+      "url": "https://ntec.nt.gov.au/__data/assets/pdf_file/0007/1656808/Final-timetable-2026-Victoria-Daly-Regional-Council,-Milngin-Ward-Supp.pdf",
+      "correctAsAt": "2026-11-20",
+      "readOn": "2026-11-28",
+      "retrievedCopyCrawlAge": "3 days",
+      "format": "PDF text extraction",
+      "supports": "The currently linked detailed timetable text gives 30 November at 8:30 am for early-voting start and 2 December at 4 pm for cessation. Other unchanged dates are corroborative only because visual inspection was unavailable.",
+      "limit": "The web reader labels this retrieved output as a rewritten summary with PDF text extraction. The screenshot returned cache miss; ordinary native GET returned HTTP 403. The changed closing hour relies independently on both HTML sources."
+    }
+  ],
+  "changedFields": [
+    {
+      "field": "earlyVotingCloses",
+      "before": "2026-12-02T18:00:00+09:30",
+      "after": "2026-12-02T16:00:00+09:30",
+      "places": [
+        "nt-council-74550",
+        "nt-ward-wad03749a797707"
+      ]
+    }
+  ],
+  "retainedOpening": {
+    "field": "earlyVotingOpens",
+    "value": "2026-11-30T08:30:00+09:30",
+    "summaryConflict": "The summary updated 23 November prints 23 November at 8:30 am. Both detailed HTML sources and linked detailed timetable give 30 November at 8:30 am. No claim is made that the discrepancy has been resolved by NTEC."
+  },
+  "candidateEvidencePreserved": {
+    "sourceId": "election-review-milngin-candidates-20261121",
+    "checked": "2026-11-21",
+    "note": "Both declared candidate objects, ballot order, missing-affiliation treatment and MCTAGGART/McTahhart discrepancy remain byte-for-byte equivalent as JSON values."
+  },
+  "retainedEarlierFields": [
+    {
+      "field": "timezone",
+      "value": "Australia/Darwin",
+      "priorReview": "2026-11-14"
+    },
+    {
+      "field": "dateTime",
+      "value": "2026-12-03T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "meaning": "Polling close retains separate earlier evidence; it is not derived from the summary counting row."
+    },
+    {
+      "field": "postalReceiptDeadline",
+      "value": "2026-12-16T12:00:00+09:30",
+      "priorReview": "2026-11-14"
+    },
+    {
+      "field": "postalApplicationsCloseOverseas",
+      "value": "2026-11-29T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "meaning": "Unchanged; application wording corroborated by the two detailed HTML sources, separately from summary dispatch wording."
+    },
+    {
+      "field": "postalApplicationsCloseLocal",
+      "value": "2026-12-01T18:00:00+09:30",
+      "priorReview": "2026-11-14",
+      "meaning": "Unchanged; application wording corroborated by the two detailed HTML sources, separately from summary dispatch wording."
+    }
+  ],
+  "sourceLimits": [
+    "Ordinary approved native GETs to NTEC home, current-election and notice hubs, candidate list, timetable, voting options and final detailed PDF returned HTTP 403; no access restriction bypass was attempted.",
+    "No newly printed ACST wording was found. Existing offset-bearing instants retain the separately reviewed Australia/Darwin basis.",
+    "No current officeholder, winner, result, affiliation, boundary or historical-contest change is inferred.",
+    "This evidence record does not claim completed builds, checks, browser acceptance or publication."
+  ]
+}
