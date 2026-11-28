@@ -29,7 +29,7 @@
     "choicesClass": "civic-choices",
     "minimumChoices": 2,
     "visibleDateValues": [
-      "2026-10-23"
+      "2026-11-28"
     ]
   },
   "routes": [
@@ -74,7 +74,8 @@
           "state-vic-assembly-2022",
           "state-vic-members-20261002",
           "state-vic-results-20261002",
-          "refresh-vic-current-20261023"
+          "refresh-vic-current-20261023",
+          "election-review-vic-counting-20261128"
         ],
         "boundaryEdition": "2020–21 redivision / 2022 boundaries",
         "representatives": [
@@ -162,12 +163,15 @@
             "id": "vic-state-2026",
             "label": "2026 Victorian state election",
             "kind": "general-election",
-            "status": "scheduled",
+            "status": "counting-in-progress",
             "date": "2026-11-28",
-            "dateBasis": "Commission date; calendar snapshot 2026-10-02",
+            "dateBasis": "Commission-confirmed polling date; the VEC reports counting underway, checked 28 November 2026. Progressive results are provisional. Current-office and previous-election evidence retain their separate dates.",
             "timezone": "Australia/Melbourne",
             "sourceUrl": "https://www.vec.vic.gov.au/voting/2026-state-election",
-            "candidates": []
+            "candidates": [],
+            "checked": "2026-11-28",
+            "sourceId": "election-review-vic-counting-20261128",
+            "resultsUrl": "https://www.vec.vic.gov.au/results/2026-results/district-election-page"
           }
         ],
         "coverageNotes": [

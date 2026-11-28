@@ -54,8 +54,8 @@
     {
       "date": "2026-11-18",
       "label": "18-27 November",
-      "title": "Early voting",
-      "description": "Early voting in Victoria runs 18–27 November, 9 am–6 pm AEDT. Centres are closed on Sunday 22 November.",
+      "title": "Early voting ended",
+      "description": "Early voting in Victoria ran from 18 to 27 November, 9 am to 6 pm AEDT. Centres were closed on Sunday 22 November.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options"
     },
     {
@@ -75,30 +75,37 @@
     {
       "date": "2026-11-25T18:00:00+11:00",
       "label": "25 November · 6 pm AEDT",
-      "title": "Postal vote applications close",
-      "description": "Use the VEC’s postal voting page for the application and instructions for voting within or outside Victoria.",
+      "title": "Postal vote applications closed",
+      "description": "Applications closed at 6 pm AEDT on 25 November. Separate completed-vote return and receipt deadlines are retained below.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting"
     },
     {
       "date": "2026-11-27",
       "label": "Weekdays through 27 November · Perth",
-      "title": "Victorian voting at WAEC in Perth",
-      "description": "Eligible Victorian voters in Western Australia can vote at the WA Electoral Commission, Level 2, 66 St Georges Terrace, Perth. The published weekday hours are 8:30 am–4:30 pm, Perth local time, through Friday 27 November. Check the official notice for venue details.",
+      "title": "Victorian voting at WAEC in Perth ended",
+      "description": "Eligible Victorian voters in Western Australia could vote at the WA Electoral Commission, Level 2, 66 St Georges Terrace, Perth. The published weekday hours were 8:30 am–4:30 pm, Perth local time, through Friday 27 November. Check the official notice for venue details.",
       "source": "https://www.elections.wa.gov.au/about-us/media/whats-new/2641"
     },
     {
       "date": "2026-11-28T08:00:00+11:00",
       "label": "28 November · 8-6",
-      "title": "Election day",
-      "description": "Voting centres in Victoria open 8 am–6 pm AEDT. Victoria elects its Legislative Assembly and Legislative Council.",
+      "title": "Election-day voting ended",
+      "description": "Voting centres in Victoria were open from 8 am to 6 pm AEDT on 28 November for the Legislative Assembly and Legislative Council.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election"
     },
     {
       "date": "2026-11-28T18:00:00+11:00",
       "label": "28 November · before 6 pm AEDT",
-      "title": "Post or drop off a completed postal vote",
-      "description": "The VEC says to post the completed vote or hand it in at a Victorian voting centre before this cutoff. Overseas voters should check the VEC’s separate return options.",
+      "title": "Completed postal-vote return cutoff passed",
+      "description": "The VEC required completed postal votes to be posted or handed in at a Victorian voting centre before 6 pm AEDT on 28 November. Its separate receipt cutoff remains 4 December at 6 pm AEDT; a later receipt deadline does not extend the voting or posting cutoff.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election/postal-voting"
+    },
+    {
+      "date": "2026-11-28",
+      "label": "28 November",
+      "title": "Counting in progress",
+      "description": "Voting for the 2026 Victorian state election took place on 28 November. The VEC has begun counting and publishes progressive results. These are provisional; declared results and current office require separate verification.",
+      "source": "https://www.vec.vic.gov.au/voting/2026-state-election"
     },
     {
       "date": "2026-12-04T18:00:00+11:00",
@@ -15560,6 +15567,16 @@
       "label": "WAEC: vote in Perth for the Victorian state election",
       "url": "https://www.elections.wa.gov.au/about-us/media/whats-new/2641",
       "note": "Published 18 November. Official Perth interstate-voting venue and weekday opening hours through 27 November. Checked 19 November 2026."
+    },
+    {
+      "label": "VEC lower house progressive results",
+      "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page",
+      "note": "Checked 28 November 2026. Progressive figures are provisional; not a declaration or current-office source."
+    },
+    {
+      "label": "VEC upper house progressive results",
+      "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page",
+      "note": "Checked 28 November 2026. Separate Council count and declarations; no winner inferred."
     }
   ],
   "coverage": [
@@ -16836,5 +16853,20 @@
     "directory": "https://www.vec.vic.gov.au/voting/2026-state-election/find-candidates",
     "votingOptions": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options",
     "scope": "Official aggregate nomination totals and directory. Existing P4A announcement and preselection records retain their own verification dates."
+  },
+  "countingReview": {
+    "checked": "2026-11-28",
+    "status": "counting-in-progress",
+    "note": "Voting for the 2026 Victorian state election took place on 28 November. The VEC has begun counting and publishes progressive results. These are provisional; declared results and current office require separate verification.",
+    "sources": [
+      {
+        "label": "VEC lower house progressive results",
+        "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page"
+      },
+      {
+        "label": "VEC upper house progressive results",
+        "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page"
+      }
+    ]
   }
 }

@@ -10,14 +10,14 @@
   "stateType": "State",
   "researchRun": "2026-10-31",
   "researchTimezone": "Australia/Melbourne",
-  "researchStatus": "13 November: verified the VEC nomination totals, candidate directory and voting timetable for the 28 November state election. Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, Parliament and campaign records retain their earlier reviews.",
+  "researchStatus": "Focused 28 November state-election review: the VEC confirms counting is underway and publishes separate provisional Assembly and Council results. Earlier nomination, candidate, Parliament and council records retain their own check dates. 13 November: verified the VEC nomination totals, candidate directory and voting timetable for the 28 November state election. Focused 9 November Baird Ward timetable check: Knox confirms election day 6 February 2027 and postal voting close 5 February at 6 pm AEDT. Rolls close 25 November at 4 pm; nominations run 14–22 December, closing noon. Peter Lockwood resignation evidence retains its 31 October check. Kinglake, Parliament and campaign records retain their earlier reviews.",
   "government": {
     "leaderTitle": "Premier",
     "leader": "Ben Carroll",
     "party": "Australian Labor Party",
     "arrangement": "Majority government",
     "inPowerSince": "2026-07-28",
-    "note": "Ben Carroll was sworn in as Premier on 28 July 2026. The next state election is scheduled for 28 November 2026."
+    "note": "Ben Carroll was sworn in as Premier on 28 July 2026. Voting for the state election took place on 28 November 2026; the VEC has begun counting. This is not a fresh leadership or composition review."
   },
   "elections": [
     {
@@ -25,8 +25,8 @@
       "date": "2026-11-28T08:00:00+11:00",
       "kind": "State general election",
       "scope": "general",
-      "status": "Scheduled",
-      "note": "The VEC confirmed 1,037 candidates on 10 November: 734 Assembly and 303 Council. Nominations closed at noon on 9 November. Early voting in Victoria runs 18–27 November, 9 am–6 pm, with centres closed on Sunday 22 November. Election day voting is 28 November, 8 am–6 pm. All times are AEDT. See the VEC candidate directory under Sources.",
+      "status": "Counting in progress",
+      "note": "Voting for the 2026 Victorian state election took place on 28 November. The VEC has begun counting and publishes progressive results. These are provisional; declared results and current office require separate verification. Earlier nomination totals, candidate directory and timetable retain their separate source dates.",
       "source": "https://www.vec.vic.gov.au/voting/2026-state-election",
       "dayMetrics": {
         "displayDaysUntil": true,
@@ -258,6 +258,16 @@
     {
       "label": "VEC voting options and opening hours",
       "url": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options"
+    },
+    {
+      "label": "VEC Assembly progressive results",
+      "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page",
+      "note": "Scoped counting-status review, 28 November 2026; progressive results remain provisional."
+    },
+    {
+      "label": "VEC Council progressive results",
+      "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page",
+      "note": "Scoped counting-status review, 28 November 2026; progressive results remain provisional."
     }
   ],
   "previousResearchRun": "2026-10-29",

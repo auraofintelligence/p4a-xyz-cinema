@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-28",
+  "scope": "Victoria 2026 election phase only; no provisional vote totals, winners, new offices, candidate refresh or general Parliament review.",
+  "sources": [
+    {
+      "url": "https://www.vec.vic.gov.au/voting/2026-state-election",
+      "method": "Directly readable official web-source text, crawled today; current introduction says counting has started."
+    },
+    {
+      "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page",
+      "method": "Ordinary native HTTPS GET, HTTP 200 observed by independent source review at approximately 07:37 UTC; progressive count interface."
+    },
+    {
+      "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page",
+      "method": "Ordinary native HTTPS GET, HTTP 200 observed by independent source review at approximately 07:37 UTC; progressive count interface."
+    }
+  ],
+  "facts": {
+    "status": "counting-in-progress",
+    "pollingDate": "2026-11-28",
+    "progressiveResults": "Provisional, separate lower and upper house routes. No transient totals imported."
+  },
+  "preserved": "495 announcement/preselection records and their dates; 13 November official ballot snapshot; representatives, previous results, geography, polling date and timezone."
+}

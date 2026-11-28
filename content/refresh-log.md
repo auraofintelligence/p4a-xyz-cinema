@@ -614,3 +614,7 @@ NTEC’s directly readable current list and declaration now confirm two nominees
 ## 22 November 2026 · Kempsey non-residential-roll application deadline
 
 Council gives 6 pm on 7 December for application forms for its two non-residential rolls only. This is separate from general enrolment or nominations; no timezone or precise new countdown is inferred. Existing poll date, roster and history remain unchanged. [Scoped review](../docs/releases/2026-11-22-kempsey-non-residential-roll.md).
+
+## 28 November 2026 · Victoria counting
+
+Recorded the VEC-confirmed counting phase and separate provisional chamber results, closing future-tense voting copy. No winner, roster or candidate recheck inferred. [Scoped review](../docs/releases/2026-11-28-victoria-counting.md).
