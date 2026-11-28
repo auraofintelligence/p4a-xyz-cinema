@@ -630,3 +630,7 @@ Published 17 November minutes confirm the unanimous decision to leave the vacanc
 ## 28 November 2026 - Kempsey Shire Council by-election timetable
 
 Recorded NSWEC's detailed timetable: nominations open 7 December and close 16 December at noon; rolls close 7 December at 6 pm. Early voting and postal deadlines are shown in the event and matching state summary. Printed times retain null timezone; the existing date-only Sydney clock and earlier source dates are preserved. [Scoped review](../docs/releases/2026-11-28-kempsey-timetable.md).
+
+## 28 November 2026 - Walcha Council by-election timetable
+
+Recorded NSWEC's detailed timetable: nominations open 7 December and close 16 December at noon; rolls close 7 December at 6 pm. Early voting and postal deadlines are shown in the event and matching state summary. Printed times retain null timezone; the existing date-only Sydney clock and earlier source dates are preserved. [Scoped review](../docs/releases/2026-11-28-walcha-timetable.md).

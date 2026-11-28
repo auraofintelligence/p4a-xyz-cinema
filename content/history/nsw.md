@@ -302,3 +302,7 @@ Adam Iuston resigned effective 23 October 2026. Walcha Council’s 28 October dr
 ## 28 November 2026 - Kempsey Shire Council detailed timetable
 
 NSWEC now publishes the detailed January by-election timetable. This supersedes the earlier scoped statement that detailed nomination and polling times were awaiting verification. The historical-outline JSON, its research date, rosters, historical contests and prior source records remain unchanged. [Scoped review](../../docs/releases/2026-11-28-kempsey-timetable.md) · [Source observations](../../content/places/sources/kempsey-timetable-review-2026-11-28.json) · [Prior event](../../content/places/history/kempsey-timetable-before-2026-11-28.json).
+
+## 28 November 2026 - Walcha Council detailed timetable
+
+NSWEC now publishes the detailed January by-election timetable. This supersedes the earlier scoped statement that detailed nomination and polling times were awaiting verification. The historical-outline JSON, its research date, rosters, historical contests and prior source records remain unchanged. [Scoped review](../../docs/releases/2026-11-28-walcha-timetable.md) · [Source observations](../../content/places/sources/walcha-timetable-review-2026-11-28.json) · [Prior event](../../content/places/history/walcha-timetable-before-2026-11-28.json).
