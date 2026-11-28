@@ -622,3 +622,7 @@ Recorded the VEC-confirmed counting phase and separate provisional chamber resul
 ## 28 November 2026 - Milngin early-voting close
 
 Two official NTEC HTML sources give Darwin early voting from 30 November to 2 December, 8:30 am to 4 pm. The council and actual ward events correct the 2 December close from 6 pm to 4 pm. A conflicting 23 November opening in the updated summary timetable remains explicit; the detailed-source 30 November opening is retained. Candidate dates, historical events, officeholders, other deadline instants and earlier timezone provenance are preserved. [Scoped review](../docs/releases/2026-11-28-milngin-voting-hours.md). Publication and browser outcomes remain separately recorded.
+
+## 28 November 2026 · Gingin vacancy decision
+
+Published 17 November minutes confirm the unanimous decision to leave the vacancy unfilled until the 2027 ordinary election. No exact polling day or replacement member inferred. [Scoped review](../docs/releases/2026-11-28-gingin-vacancy-decision.md).
