@@ -626,3 +626,7 @@ Two official NTEC HTML sources give Darwin early voting from 30 November to 2 De
 ## 28 November 2026 · Gingin vacancy decision
 
 Published 17 November minutes confirm the unanimous decision to leave the vacancy unfilled until the 2027 ordinary election. No exact polling day or replacement member inferred. [Scoped review](../docs/releases/2026-11-28-gingin-vacancy-decision.md).
+
+## 28 November 2026 - Kempsey Shire Council by-election timetable
+
+Recorded NSWEC's detailed timetable: nominations open 7 December and close 16 December at noon; rolls close 7 December at 6 pm. Early voting and postal deadlines are shown in the event and matching state summary. Printed times retain null timezone; the existing date-only Sydney clock and earlier source dates are preserved. [Scoped review](../docs/releases/2026-11-28-kempsey-timetable.md).
